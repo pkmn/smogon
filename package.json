@@ -1,0 +1,35 @@
+{
+  "name": "smogon",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Wrapper around Smogon's analyses and usage statistics",
+  "homepage": "https://smogon.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pkmn-cc/smogon.git"
+  },
+  "author": {
+    "name": "Kirk Scheibelhut",
+    "email": "pre@pkmn.cc",
+    "url": "https://pkmn.cc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.7.2",
+    "npm-check-updates": "^3.1.21"
+  },
+  "devDependencies": {
+    "gts": "^1.1.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "lint": "gts check",
+    "fix": "gts fix",
+    "compile": "tsc -p .",
+    "test": "true",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  }
+}
