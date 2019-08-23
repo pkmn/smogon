@@ -72,14 +72,14 @@ export interface MovesetStatistics {
 
 interface DexSettings {
   injectRpcs: [
-    any, // 'dump-gens'
-    any, // 'dump-basics'
+    unknown, // 'dump-gens'
+    unknown, // 'dump-basics'
     [
       // 'dump-pokemon'
       string, // key
       {
         strategies: Analysis[];
-        [key: string]: any;
+        [key: string]: unknown;
       }
     ]
   ];
@@ -106,7 +106,13 @@ export const Analyses = new (class {
 
   process(ds: string | DexSettings) {
     const parsed = typeof ds === 'string' ? Analyses.parse(ds) : ds;
-    if (!parsed) return undefined;
+    if (!(parsed &&
+      parsed['injectRpcs'] &&
+      parsed['injectRpcs'][2] &&
+      parsed['injectRpcs'][2][1] &&
+      parsed['injectRpcs'][2][1]['strategies'])) {
+      return undefined;
+    }
 
     const analysesByFormat: Map<string, Analysis[]> = new Map();
     for (const analysis of parsed['injectRpcs'][2][1]['strategies']) {
