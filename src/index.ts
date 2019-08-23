@@ -106,16 +106,16 @@ export const Analyses = new (class {
 
   process(ds: string | DexSettings) {
     const parsed = typeof ds === 'string' ? Analyses.parse(ds) : ds;
-    if (!(parsed &&
+    const valid =
+      parsed &&
       parsed['injectRpcs'] &&
       parsed['injectRpcs'][2] &&
       parsed['injectRpcs'][2][1] &&
-      parsed['injectRpcs'][2][1]['strategies'])) {
-      return undefined;
-    }
+      parsed['injectRpcs'][2][1]['strategies'];
+    if (!valid) return undefined;
 
     const analysesByFormat: Map<string, Analysis[]> = new Map();
-    for (const analysis of parsed['injectRpcs'][2][1]['strategies']) {
+    for (const analysis of parsed!['injectRpcs'][2][1]['strategies']) {
       let analyses = analysesByFormat.get(analysis.format);
       if (!analyses) {
         analyses = [];
