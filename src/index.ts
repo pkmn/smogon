@@ -132,6 +132,8 @@ export const Analyses = new (class {
   }
 })();
 
+const POPULAR = ['gen7ou', 'gen7doublesou', 'ou', 'doublesou', 'smogondoubles', 'randombattle'];
+
 export const Statistics = new (class {
   readonly URL = 'https://www.smogon.com/stats/';
 
@@ -149,7 +151,7 @@ export const Statistics = new (class {
 
   url(date: string, format: string, weighted = true) {
     const formatid = toID(format);
-    const rating = weighted ? (formatid === 'gen7ou' ? 1825 : 1760) : 0;
+    const rating = weighted ? (POPULAR.includes(format) ? 1825 : 1760) : 0;
     return `${Statistics.URL}${date}/chaos/${formatid}-${rating}.json`;
   }
 
