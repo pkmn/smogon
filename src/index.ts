@@ -1,5 +1,5 @@
 export type ID = '' | string & { __isID: true };
-export type Generation = 1 | 2 | 3 | 4 | 5 | 6 | 7;
+export type Generation = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
 export interface StatsTable<T> {
   hp: T;
   atk: T;
@@ -85,7 +85,7 @@ interface DexSettings {
   ];
 }
 
-const GENS = ['rb', 'gs', 'rs', 'dp', 'bw', 'xy', 'sm'];
+const GENS = ['rb', 'gs', 'rs', 'dp', 'bw', 'xy', 'sm', 'ss'];
 
 function toID(text: any): ID {
   return ('' + text).toLowerCase().replace(/[^a-z0-9]+/g, '') as ID;
@@ -94,7 +94,7 @@ function toID(text: any): ID {
 export const Analyses = new (class {
   readonly URL = 'https://www.smogon.com/dex/';
 
-  url(pokemon: string, gen: Generation = 7) {
+  url(pokemon: string, gen: Generation = 8) {
     return `${Analyses.URL}${Analyses.gen(gen)}/pokemon/${toID(pokemon)}/`;
   }
 
@@ -132,7 +132,16 @@ export const Analyses = new (class {
   }
 })();
 
-const POPULAR = ['gen7ou', 'gen7doublesou', 'ou', 'doublesou', 'smogondoubles', 'randombattle'];
+const POPULAR = [
+  'gen8ou',
+  'gen8doublesou',
+  'gen7ou',
+  'gen7doublesou',
+  'ou',
+  'doublesou',
+  'smogondoubles',
+  'randombattle',
+];
 
 export const Statistics = new (class {
   readonly URL = 'https://www.smogon.com/stats/';
