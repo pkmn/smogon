@@ -1,5 +1,10 @@
-export type ID = '' | string & { __isID: true };
+export type ID = '' | (string & { __isID: true });
 export type Generation = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
+// prettier-ignore
+export type Type =
+  | '???' | 'Normal' | 'Grass' | 'Fire' | 'Water' | 'Electric' | 'Ice' | 'Flying' | 'Bug' | 'Poison'
+  | 'Ground' | 'Rock' | 'Fighting' | 'Psychic' | 'Ghost' | 'Dragon' | 'Dark' | 'Steel' | 'Fairy';
+
 export interface StatsTable<T> {
   hp: T;
   atk: T;
@@ -23,7 +28,7 @@ export interface Moveset {
   level: number;
   abilities: string[];
   items: string[];
-  moveslots: string[][];
+  moveslots: Array<Array<{ move: string; type: Type | null }>>;
   evconfigs: Array<StatsTable<number>>;
   ivconfigs: Array<StatsTable<number>>;
   natures: string[];

@@ -1,6 +1,6 @@
 {
   "name": "smogon",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "Wrapper around Smogon's analyses and usage statistics",
@@ -16,11 +16,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^12.12.13"
+    "@types/node": "^13.7.5"
   },
   "devDependencies": {
     "gts": "^1.1.2",
-    "typescript": "^3.7.2"
+    "typescript": "^3.8.2"
   },
   "scripts": {
     "lint": "gts check",
