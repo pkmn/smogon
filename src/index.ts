@@ -219,7 +219,7 @@ function formatFor(format: ID, date: string) {
     return date < '2017-07' || (date < '2018-01' && !LATE.includes(m[2])) ? (m[2] as ID) : format;
   } else {
     // If the format unqualified but the date requested is after the standard 2017-06/07 migration
-    //(or was a late-migrating metagame and after 2017-12/2018-01), add the 'gen6'-qualifier
+    // (or was a late-migrating metagame and after 2017-12/2018-01), add the 'gen6'-qualifier
     return date > '2017-12' || (date > '2017-06' && !LATE.includes(format))
       ? (`gen6${format}` as ID)
       : format;
