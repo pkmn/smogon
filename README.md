@@ -9,10 +9,18 @@ Smogon exposes on its site.
 
 Please note that all sets and analyses on the site are copyrighted by Smogon.com
 and its contributors and you must first receive permission from Smogon.com
-before using this data. The aggregate usage statistics data present on
+before using this data. If you are just interested in retrieving the sets,
+the [@pokemon-showdown/sets][1] package used by the [client teambuilder][2] and
+[damage calculator][3] will likely simplify matters, though will potentially lag
+behind what is visible on Smogon by 2-4 weeks.
+
+The aggregate usage statistics data present on
 https://smogon.com/stats and exposed by this API may be used for any purpose
 without prior permission.
 
-This package is distributed under the terms of the [MIT License][1].
+This package is distributed under the terms of the [MIT License][4].
 
-  [1]: https://github.com/smogon/api/blob/master/LICENSE
+  [1]: https://www.npmjs.com/package/@pokemon-showdown/sets
+  [2]: https://github.com/smogon/pokemon-showdown-client
+  [3]: https://github.com/smogon/damage-calc
+  [4]: https://github.com/smogon/api/blob/master/LICENSE
