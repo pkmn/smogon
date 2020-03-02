@@ -5,15 +5,8 @@
   "types": "dist/index.d.ts",
   "description": "Wrapper around Smogon's analyses and usage statistics",
   "homepage": "https://smogon.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pkmn-cc/smogon.git"
-  },
-  "author": {
-    "name": "Kirk Scheibelhut",
-    "email": "pre@pkmn.cc",
-    "url": "https://pkmn.cc"
-  },
+  "repository": "github:smogon/api",
+  "author": "Kirk Scheibelhut <pre@smogon.com>",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^13.7.5"
