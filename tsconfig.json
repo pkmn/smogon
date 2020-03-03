@@ -4,6 +4,7 @@
     "rootDir": "./src",
     "outDir": "dist",
     "incremental": true,
+    "resolveJsonModule": true,
     "tsBuildInfoFile": ".tsbuildinfo"
   },
   "exclude": [

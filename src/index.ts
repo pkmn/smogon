@@ -1,3 +1,6 @@
+import * as latest from './latest.json';
+const LATEST = (latest as unknown) as { [id: string]: [ID, number] | [[ID, number], [ID, number]] };
+
 export type ID = '' | (string & { __isID: true });
 export type Generation = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
 // prettier-ignore
@@ -5,14 +8,8 @@ export type Type =
   | '???' | 'Normal' | 'Grass' | 'Fire' | 'Water' | 'Electric' | 'Ice' | 'Flying' | 'Bug' | 'Poison'
   | 'Ground' | 'Rock' | 'Fighting' | 'Psychic' | 'Ghost' | 'Dragon' | 'Dark' | 'Steel' | 'Fairy';
 
-export interface StatsTable<T> {
-  hp: T;
-  atk: T;
-  def: T;
-  spa: T;
-  spd: T;
-  spe: T;
-}
+export type StatName = 'hp' | 'atk' | 'def' | 'spa' | 'spd' | 'spe';
+export type StatsTable<T = number> = { [stat in StatName]: number };
 
 export interface Analysis {
   format: string;
@@ -29,8 +26,8 @@ export interface Moveset {
   abilities: string[];
   items: string[];
   moveslots: Array<Array<{ move: string; type: Type | null }>>;
-  evconfigs: Array<StatsTable<number>>;
-  ivconfigs: Array<StatsTable<number>>;
+  evconfigs: StatsTable[];
+  ivconfigs: StatsTable[];
   natures: string[];
 }
 
@@ -99,16 +96,26 @@ function toID(text: any): ID {
 export const Analyses = new (class {
   readonly URL = 'https://www.smogon.com/dex/';
 
+  /**
+   * Returns the Analysis URL for a given pokemon and generation.
+   */
   url(pokemon: string, gen: Generation = 8) {
     return `${Analyses.URL}${Analyses.gen(gen)}/pokemon/${toID(pokemon)}/`;
   }
 
+  /**
+   * Parses out the DexSettings object embedded in the raw HTML retrieved from the Smogon dex.
+   */
   parse(raw: string) {
     const match = raw.match(/dexSettings = ({.*})/);
     if (!match) return undefined;
     return JSON.parse(match[1]) as DexSettings;
   }
 
+  /**
+   * Given either the raw HTML retrieved from the Smogon dex or the parsed DexSettings object,
+   * returns a map of Analysis objects keyed by format or undefined if its input was invalid.
+   */
   process(ds: string | DexSettings) {
     const parsed = typeof ds === 'string' ? Analyses.parse(ds) : ds;
     const valid =
@@ -132,14 +139,33 @@ export const Analyses = new (class {
     return analysesByFormat;
   }
 
+  /**
+   * Returns Smogon's display representation of the given gen.
+   */
   gen(gen: Generation) {
     return GENS[gen - 1];
   }
 })();
 
+// Metagames which continued to be played after gen6, transitioning from a bare unqualified
+// name to a 'gen6'-qualified one. Most migrated over on 2017-07, though the LATE metagames
+// below were only given qualification from 2018 and onward.
+// prettier-ignore
+const LEGACY = new Set([
+  '1v1', 'anythinggoes', 'battlespotdoubles', 'battlespotsingles', 'battlespottriples',
+  'cap', 'lc', 'monotype', 'nu', 'ou', 'pu', 'randombattle', 'ru', 'ubers', 'uu',
+  'balancedhackmons', 'doublesou', 'doublesuu', 'battlefactory', 'mixandmega', 'vgc2016',
+  'ounoteampreview', 'customgame', 'doublescustomgame', 'triplescustomgame',
+]);
+
 export const Statistics = new (class {
   readonly URL = 'https://www.smogon.com/stats/';
 
+  /**
+   * Given the HTML page returned from querying the Statistics.URL, returns the most recent
+   * date stats are available for. This should usually be the beginning of the current month,
+   * but this approach is more robust due to timezone differences and delays in publishing.
+   */
   latest(page: string): string {
     const lines = page.split('\n');
     let i = lines.length;
@@ -152,6 +178,12 @@ export const Statistics = new (class {
     throw new Error('Unexpected format for index');
   }
 
+  /**
+   * Returns the URL of the detailed ('chaos') stats for the given date and format, defaulting
+   * to providing the highest weighted stats available for the format in question. Unweighted
+   * stats or stats of a specific weight may also be requested, though may be absent depending
+   * on the date and format.
+   */
   url(date: string, format: string, weighted: number | boolean = true) {
     let formatid = toID(format);
     // When Gen 7 was released the naming scheme for 'current' formats was changed from
@@ -172,12 +204,33 @@ export const Statistics = new (class {
     return `${Statistics.URL}${date}/chaos/${formatid}-${rating}.json`;
   }
 
-  parse(raw: string) {
-    return JSON.parse(raw) as UsageStatistics;
+  /**
+   * Returns the date and count of the latest stats available for the given format at the time
+   * this package was published. If best is provided, it will return the date and count for the
+   * most recent month where a substantial enough amount of data was gathered. Returns undefined
+   * if there is no data present. Note the accuracy of this function depends on the data in
+   * latest.json being kept up to date.
+   */
+  latestDate(format: string, best = false) {
+    format = Statistics.canonicalize(toID(format));
+    const data = LATEST[format];
+    if (!data) return undefined;
+    const [date, count] = (Array.isArray(data[0]) ? data[+best] : data) as [ID, number];
+    return { date, count };
   }
 
+  /**
+   * Returns the canconical format name for the given format.
+   */
+  canonicalize(format: string) {
+    return LEGACY.has(format) ? `gen6${format}` : format;
+  }
+
+  /**
+   * Processes what was fetched from the URL returned by Statistics.url into UsageStatistics.
+   */
   process(raw: string) {
-    return Statistics.parse(raw);
+    return JSON.parse(raw) as UsageStatistics;
   }
 })();
 
@@ -196,31 +249,29 @@ function weightFor(format: ID, date: string) {
   return POPULAR.includes(format) ? 1825 : 1760;
 }
 
-// Metagames which continued to be played after gen6, transitioning from a bare unqualified
-// name to a 'gen6'-qualified one. Most migrated over on 2017-07, though the LATE metagames
-// below were only given qualification from 2018 and onward.
-// prettier-ignore
-const CONTINUED = new Set([
-  '1v1', 'anythinggoes', 'battlespotdoubles', 'battlespotsingles', 'battlespottriples',
-  'cap', 'lc', 'monotype', 'nu', 'ou', 'pu', 'randombattle', 'ru', 'ubers', 'uu',
-  'balancedhackmons', 'doublesou', 'doublesuu', 'battlefactory', 'mixandmega', 'vgc2016',
-]);
 const LATE = ['1v1', 'cap', 'monotype', 'balancedhackmons', 'mixandmega'];
 
 function formatFor(format: ID, date: string) {
+  // 2017-01/02 mark the last random battle statistics, at which point randombattle has been
+  // renamed to its qualified form several months before the other formats
+  if (['gen6randombattle', 'randombattle'].includes(format) && date > '2016-12') {
+    return 'gen6randombattle' as ID;
+  }
+
   const m = format.match(/gen(\d)(.*)/);
   // Return if we've been given a format with the standard notation and its not Gen 6
   if (m && m[1] !== '6') return format as ID;
   // Return the unqualified metagame if the format starts with 'gen6' but has been discontinued
-  if (m && !CONTINUED.has(m[2])) return m[2] as ID;
+  if (m && !LEGACY.has(m[2])) return m[2] as ID;
+
   if (m) {
     // If the format is 'gen6'-qualified but the date requested is before the standard 2017-06/07
     // migration (or was a late-migrating metagame and before 2017-12/2018-01), remove the qualifier
-    return date < '2017-07' || (date < '2018-01' && !LATE.includes(m[2])) ? (m[2] as ID) : format;
+    return date < '2017-07' || (date < '2018-01' && LATE.includes(m[2])) ? (m[2] as ID) : format;
   } else {
     // If the format unqualified but the date requested is after the standard 2017-06/07 migration
     // (or was a late-migrating metagame and after 2017-12/2018-01), add the 'gen6'-qualifier
-    return date > '2017-12' || (date > '2017-06' && !LATE.includes(format))
+    return date > '2017-12' || (date > '2017-06' && LATE.includes(format))
       ? (`gen6${format}` as ID)
       : format;
   }
