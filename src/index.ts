@@ -1,5 +1,7 @@
 import * as latest from './latest.json';
-const LATEST = (latest as unknown) as { [id: string]: [ID, number] | [[ID, number], [ID, number]] };
+const LATEST = (latest as unknown) as {
+  [id: string]: [string, number] | [[string, number], [string, number]];
+};
 
 export type ID = '' | (string & { __isID: true });
 export type Generation = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
@@ -215,7 +217,7 @@ export const Statistics = new (class {
     format = Statistics.canonicalize(toID(format));
     const data = LATEST[format];
     if (!data) return undefined;
-    const [date, count] = (Array.isArray(data[0]) ? data[+best] : data) as [ID, number];
+    const [date, count] = (Array.isArray(data[0]) ? data[+best] : data) as [string, number];
     return { date, count };
   }
 
