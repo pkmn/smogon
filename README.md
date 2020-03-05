@@ -1,5 +1,9 @@
 # smogon
 
+[![Build Status](https://api.travis-ci.com/smogon/api.svg)](https://travis-ci.com/smogon/api)
+[![Dependency Status](https://david-dm.org/smogon/api.svg)](https://david-dm.org/smogon/api)
+[![devDependency Status](https://david-dm.org/smogon/api/dev-status.svg)](https://david-dm.org/smogon/api?type=dev)
+
 This package provides a wrapper around Smogon's analyses and usage statistics.
 
 **Smogon does not officially provide any API for third party developers**, and
