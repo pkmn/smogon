@@ -11,7 +11,7 @@ export type Type =
   | 'Ground' | 'Rock' | 'Fighting' | 'Psychic' | 'Ghost' | 'Dragon' | 'Dark' | 'Steel' | 'Fairy';
 
 export type StatName = 'hp' | 'atk' | 'def' | 'spa' | 'spd' | 'spe';
-export type StatsTable<T = number> = { [stat in StatName]: number };
+export type StatsTable<T = number> = { [stat in StatName]: T };
 
 export interface Analysis {
   format: string;
