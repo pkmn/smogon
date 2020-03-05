@@ -1,7 +1,7 @@
-import * as latest from './latest.json';
-const LATEST = (latest as unknown) as {
+const latest = import('./latest.json');
+const LATEST = latest as unknown as Promise<{
   [id: string]: [string, number] | [[string, number], [string, number]];
-};
+}>;
 
 export type ID = '' | (string & { __isID: true });
 export type Generation = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
@@ -213,9 +213,9 @@ export const Statistics = new (class {
    * if there is no data present. Note the accuracy of this function depends on the data in
    * latest.json being kept up to date.
    */
-  latestDate(format: string, best = false) {
+  async latestDate(format: string, best = false) {
     format = Statistics.canonicalize(toID(format));
-    const data = LATEST[format];
+    const data = (await LATEST)[format];
     if (!data) return undefined;
     const [date, count] = (Array.isArray(data[0]) ? data[+best] : data) as [string, number];
     return { date, count };
