@@ -1,5 +1,5 @@
 const latest = import('./latest.json');
-const LATEST = latest as unknown as Promise<{
+const LATEST = (latest as unknown) as Promise<{
   [id: string]: [string, number] | [[string, number], [string, number]];
 }>;
 
@@ -242,6 +242,7 @@ const POPULAR = [
   'ou', 'doublesou', 'smogondoubles', 'randombattle',
 ];
 
+// TODO: add a discontinuity for gen7{ou,doublesou}?
 function weightFor(format: ID, date: string) {
   // gen7doublesu ou and smogondoublessuspecttest have used different weights over the years
   if (format === 'gen7doublesou' && date < '2017-02') return 1760;
@@ -273,7 +274,7 @@ function formatFor(format: ID, date: string) {
   } else {
     // If the format unqualified but the date requested is after the standard 2017-06/07 migration
     // (or was a late-migrating metagame and after 2017-12/2018-01), add the 'gen6'-qualifier
-    return date > '2017-12' || (date > '2017-06' && LATE.includes(format))
+    return date > '2017-12' || (date > '2017-06' && !LATE.includes(format))
       ? (`gen6${format}` as ID)
       : format;
   }
