@@ -80,12 +80,26 @@ describe('Statistics', () => {
       'https://www.smogon.com/stats/2020-02/chaos/gen8ou-1500.json'
     );
 
+    // gen7ou
+    expect(Statistics.url('2020-01', 'gen7ou')).toBe(
+      'https://www.smogon.com/stats/2020-01/chaos/gen7ou-1825.json'
+    );
+    expect(Statistics.url('2020-02', 'gen7ou')).toBe(
+      'https://www.smogon.com/stats/2020-02/chaos/gen7ou-1760.json'
+    );
+
     // gen7doublesou
     expect(Statistics.url('2017-02', 'gen7doublesou')).toBe(
       'https://www.smogon.com/stats/2017-02/chaos/gen7doublesou-1825.json'
     );
     expect(Statistics.url('2016-11', 'gen7doublesou')).toBe(
       'https://www.smogon.com/stats/2016-11/chaos/gen7doublesou-1760.json'
+    );
+    expect(Statistics.url('2020-01', 'gen7doublesou')).toBe(
+      'https://www.smogon.com/stats/2020-01/chaos/gen7doublesou-1825.json'
+    );
+    expect(Statistics.url('2020-02', 'gen7doublesou')).toBe(
+      'https://www.smogon.com/stats/2020-02/chaos/gen7doublesou-1760.json'
     );
 
     // smogondoublessuspecttest

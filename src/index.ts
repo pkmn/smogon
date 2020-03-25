@@ -242,10 +242,11 @@ const POPULAR = [
   'ou', 'doublesou', 'smogondoubles', 'randombattle',
 ];
 
-// TODO: add a discontinuity for gen7{ou,doublesou}?
 function weightFor(format: ID, date: string) {
+  // gen7ou is no longer the main gen
+  if (format === 'gen7ou' && date > '2020-01') return 1760;
   // gen7doublesu ou and smogondoublessuspecttest have used different weights over the years
-  if (format === 'gen7doublesou' && date < '2017-02') return 1760;
+  if (format === 'gen7doublesou' && (date < '2017-02' || date > '2020-01')) return 1760;
   if (format === 'smogondoublessuspecttest' && date === '2015-04') return 1825;
   // Otherwise, formats deemed 'popular' are assigned higher weight. Note that legacy format
   // notation is signficant here: gen6ou was only 'popular' while it was still called 'ou'
