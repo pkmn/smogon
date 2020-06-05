@@ -4,11 +4,10 @@ const LATEST = (latest as unknown) as Promise<{
 }>;
 
 export type ID = '' | (string & { __isID: true });
-export type Generation = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
-// prettier-ignore
-export type Type =
-  | '???' | 'Normal' | 'Grass' | 'Fire' | 'Water' | 'Electric' | 'Ice' | 'Flying' | 'Bug' | 'Poison'
-  | 'Ground' | 'Rock' | 'Fighting' | 'Psychic' | 'Ghost' | 'Dragon' | 'Dark' | 'Steel' | 'Fairy';
+export type GenerationNum = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
+export type TypeName =
+  'Normal' | 'Fighting' | 'Flying' | 'Poison' | 'Ground' | 'Rock' | 'Bug' | 'Ghost' | 'Steel' |
+  'Fire' | 'Water' | 'Grass' | 'Electric' | 'Psychic' | 'Ice' | 'Dragon' | 'Dark' | 'Fairy' | '???';
 
 export type StatName = 'hp' | 'atk' | 'def' | 'spa' | 'spd' | 'spe';
 export type StatsTable<T = number> = { [stat in StatName]: T };
@@ -27,7 +26,7 @@ export interface Moveset {
   level: number;
   abilities: string[];
   items: string[];
-  moveslots: Array<Array<{ move: string; type: Type | null }>>;
+  moveslots: Array<Array<{ move: string; type: TypeName | null }>>;
   evconfigs: StatsTable[];
   ivconfigs: StatsTable[];
   natures: string[];
@@ -91,6 +90,8 @@ interface DexSettings {
 
 const GENS = ['rb', 'gs', 'rs', 'dp', 'bw', 'xy', 'sm', 'ss'];
 
+const PARSE_REGEX = /dexSettings = ({.*})/;
+
 function toID(text: any): ID {
   return ('' + text).toLowerCase().replace(/[^a-z0-9]+/g, '') as ID;
 }
@@ -101,7 +102,7 @@ export const Analyses = new (class {
   /**
    * Returns the Analysis URL for a given pokemon and generation.
    */
-  url(pokemon: string, gen: Generation = 8) {
+  url(pokemon: string, gen: GenerationNum = 8) {
     return `${Analyses.URL}${Analyses.gen(gen)}/pokemon/${toID(pokemon)}/`;
   }
 
@@ -109,7 +110,7 @@ export const Analyses = new (class {
    * Parses out the DexSettings object embedded in the raw HTML retrieved from the Smogon dex.
    */
   parse(raw: string) {
-    const match = raw.match(/dexSettings = ({.*})/);
+    const match = PARSE_REGEX.exec(raw);
     if (!match) return undefined;
     return JSON.parse(match[1]) as DexSettings;
   }
@@ -120,12 +121,7 @@ export const Analyses = new (class {
    */
   process(ds: string | DexSettings) {
     const parsed = typeof ds === 'string' ? Analyses.parse(ds) : ds;
-    const valid =
-      parsed &&
-      parsed['injectRpcs'] &&
-      parsed['injectRpcs'][2] &&
-      parsed['injectRpcs'][2][1] &&
-      parsed['injectRpcs'][2][1]['strategies'];
+    const valid = parsed?.['injectRpcs']?.[2]?.[1]?.['strategies'];
     if (!valid) return undefined;
 
     const analysesByFormat: Map<string, Analysis[]> = new Map();
@@ -144,7 +140,7 @@ export const Analyses = new (class {
   /**
    * Returns Smogon's display representation of the given gen.
    */
-  gen(gen: Generation) {
+  gen(gen: GenerationNum) {
     return GENS[gen - 1];
   }
 })();
@@ -152,7 +148,6 @@ export const Analyses = new (class {
 // Metagames which continued to be played after gen6, transitioning from a bare unqualified
 // name to a 'gen6'-qualified one. Most migrated over on 2017-07, though the LATE metagames
 // below were only given qualification from 2018 and onward.
-// prettier-ignore
 const LEGACY = new Set([
   '1v1', 'anythinggoes', 'battlespotdoubles', 'battlespotsingles', 'battlespottriples',
   'cap', 'lc', 'monotype', 'nu', 'ou', 'pu', 'randombattle', 'ru', 'ubers', 'uu',
@@ -196,8 +191,7 @@ export const Statistics = new (class {
     }
 
     // If we've been given a weight then we use that, otherwise we use weightFor to
-    // figure out what the highest weight cutoff for the format was (usually 1760 or 1825)
-    // prettier-ignore
+    // figure out what the highest weight cutoff for the format was (usually 1630 or 1695)
     const rating = weighted
       ? typeof weighted === 'number' ? weighted
       : weightFor(formatid, date)
@@ -218,7 +212,7 @@ export const Statistics = new (class {
     const data = (await LATEST)[format];
     if (!data) return undefined;
     const [date, count] = (Array.isArray(data[0]) ? data[+best] : data) as [string, number];
-    return { date, count };
+    return {date, count};
   }
 
   /**
@@ -236,24 +230,26 @@ export const Statistics = new (class {
   }
 })();
 
-// prettier-ignore
 const POPULAR = [
   'gen8ou', 'gen8doublesou', 'gen7ou', 'gen7doublesou',
   'ou', 'doublesou', 'smogondoubles', 'randombattle',
 ];
 
+// TODO: add a discontinuity for gen7{ou,doublesou}?
 function weightFor(format: ID, date: string) {
   // gen7ou is no longer the main gen
-  if (format === 'gen7ou' && date > '2020-01') return 1760;
+  if (format === 'gen7ou' && date > '2020-01') return 1630;
   // gen7doublesu ou and smogondoublessuspecttest have used different weights over the years
-  if (format === 'gen7doublesou' && (date < '2017-02' || date > '2020-01')) return 1760;
-  if (format === 'smogondoublessuspecttest' && date === '2015-04') return 1825;
+  if (format === 'gen7doublesou' && (date < '2017-02' || date > '2020-01')) return 1630;
+  if (format === 'smogondoublessuspecttest' && date === '2015-04') return 1695;
   // Otherwise, formats deemed 'popular' are assigned higher weight. Note that legacy format
   // notation is signficant here: gen6ou was only 'popular' while it was still called 'ou'
-  return POPULAR.includes(format) ? 1825 : 1760;
+  return POPULAR.includes(format) ? 1695 : 1630;
 }
 
 const LATE = ['1v1', 'cap', 'monotype', 'balancedhackmons', 'mixandmega'];
+
+const FORMAT_REGEX = /gen(\d)(.*)/;
 
 function formatFor(format: ID, date: string) {
   // 2017-01/02 mark the last random battle statistics, at which point randombattle has been
@@ -262,9 +258,9 @@ function formatFor(format: ID, date: string) {
     return 'gen6randombattle' as ID;
   }
 
-  const m = format.match(/gen(\d)(.*)/);
+  const m = FORMAT_REGEX.exec(format);
   // Return if we've been given a format with the standard notation and its not Gen 6
-  if (m && m[1] !== '6') return format as ID;
+  if (m && m[1] !== '6') return format;
   // Return the unqualified metagame if the format starts with 'gen6' but has been discontinued
   if (m && !LEGACY.has(m[2])) return m[2] as ID;
 

@@ -55,7 +55,9 @@ function fetch(u) {
         // The JSON files are quite large and needing to download and parse them to then
         // extract the 'number of battles' field is much slower than instead grabbing the
         // basic stats file and doing the comparatively cheap regex search.
-        const u = smogon.Statistics.url(date, format, 0).replace('chaos/', '').replace('.json', '.txt');
+        const u = smogon.Statistics.url(date, format, 0)
+          .replace('chaos/', '')
+          .replace('.json', '.txt');
         const usage = await fetch(u);
 
         if (usage) {

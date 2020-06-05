@@ -1,26 +1,30 @@
 {
   "name": "smogon",
-  "version": "0.4.3",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "Wrapper around Smogon's analyses and usage statistics",
   "homepage": "https://smogon.com/",
   "repository": "github:smogon/api",
-  "author": "Kirk Scheibelhut <pre@smogon.com>",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^13.7.7"
+    "@types/node": "^14.0.11"
   },
   "devDependencies": {
-    "@types/jest": "^25.1.3",
-    "gts": "^1.1.2",
-    "jest": "^25.1.0",
-    "typescript": "^3.8.3",
-    "ts-jest": "^25.2.1"
+    "@pkmn/eslint-config": "^0.4.2",
+    "@pkmn/dex": "^0.0.4",
+    "@types/jest": "^25.2.3",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "eslint": "^7.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.13.2",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "3.9.5"
   },
   "scripts": {
-    "lint": "gts check",
-    "fix": "gts fix",
+    "lint": "eslint --cache src --ext ts",
+    "fix": "eslint --fix src --ext ts",
     "compile": "tsc -p .",
     "test": "jest",
     "prepare": "npm run compile",

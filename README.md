@@ -1,4 +1,4 @@
-# smogon
+# `smogon`
 
 [![Build Status](https://api.travis-ci.com/smogon/api.svg)](https://travis-ci.com/smogon/api)
 [![Dependency Status](https://david-dm.org/smogon/api.svg)](https://david-dm.org/smogon/api)
