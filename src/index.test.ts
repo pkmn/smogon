@@ -169,6 +169,7 @@ describe('Statistics', () => {
     expect(Statistics.canonicalize('foo')).toBe('foo');
     expect(Statistics.canonicalize('gen6uu')).toBe('gen6uu');
     expect(Statistics.canonicalize('gen8ou')).toBe('gen8ou');
+    expect(Statistics.canonicalize('purehackmons')).toBe('gen6purehackmons');
   });
 
   test('process', async () => {

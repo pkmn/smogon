@@ -152,7 +152,7 @@ const LEGACY = new Set([
   '1v1', 'anythinggoes', 'battlespotdoubles', 'battlespotsingles', 'battlespottriples',
   'cap', 'lc', 'monotype', 'nu', 'ou', 'pu', 'randombattle', 'ru', 'ubers', 'uu',
   'balancedhackmons', 'doublesou', 'doublesuu', 'battlefactory', 'mixandmega', 'vgc2016',
-  'ounoteampreview', 'customgame', 'doublescustomgame', 'triplescustomgame',
+  'ounoteampreview', 'customgame', 'doublescustomgame', 'triplescustomgame', 'purehackmons',
 ]);
 
 export const Statistics = new (class {
