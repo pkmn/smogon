@@ -7,6 +7,7 @@
 # `smogon`
 
 ![Test Status](https://github.com/pkmn/smogon/workflows/Tests/badge.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 [![npm version](https://img.shields.io/npm/v/smogon.svg)](https://www.npmjs.com/package/smogon)
 
 This package provides a wrapper around Smogon's analyses and usage statistics.
