@@ -80,12 +80,15 @@ interface DexSettings {
     [
       // 'dump-pokemon'
       string, // key
-      {
-        strategies: Analysis[];
-        [key: string]: unknown;
-      }
+      DexDumpPokemonResponse
     ]
   ];
+}
+
+interface DexDumpPokemonResponse {
+  languages: string[];
+  learnset: string[];
+  strategies: Analysis[];
 }
 
 const GENS = ['rb', 'gs', 'rs', 'dp', 'bw', 'xy', 'sm', 'ss'];
@@ -98,12 +101,30 @@ function toID(text: any): ID {
 
 export const Analyses = new (class {
   readonly URL = 'https://www.smogon.com/dex/';
+  readonly RPC = '_rpc/dump-pokemon';
 
   /**
-   * Returns the Analysis URL for a given pokemon and generation.
+   * Returns the Analysis URL for a given pokemon and gen.
+   * @deprecated use Analyses.request
    */
   url(pokemon: string, gen: GenerationNum = 8) {
     return `${Analyses.URL}${Analyses.gen(gen)}/pokemon/${toID(pokemon)}/`;
+  }
+
+  /**
+   * Returns the Analysis RPC URL and reequest configuration for a given pokemoon and gen.
+   */
+  request(pokemon: string, gen: GenerationNum = 8) {
+    return {
+      url: `${Analyses.URL}${Analyses.RPC}`,
+      init: {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+        },
+        body: JSON.stringify({gen: Analyses.gen(gen), alias: toID(pokemon)}),
+      },
+    };
   }
 
   /**
@@ -116,16 +137,25 @@ export const Analyses = new (class {
   }
 
   /**
-   * Given either the raw HTML retrieved from the Smogon dex or the parsed DexSettings object,
-   * returns a map of Analysis objects keyed by format or undefined if its input was invalid.
+   * Given either the raw HTML retrieved from the Smogon dex, the parsed DexSettings object, or
+   * an RPC response, returns a map of Analysis objects keyed by format or undefined if its input
+   * was invalid.
    */
-  process(ds: string | DexSettings) {
+  process(ds: string | DexSettings | DexDumpPokemonResponse) {
     const parsed = typeof ds === 'string' ? Analyses.parse(ds) : ds;
-    const valid = parsed?.['injectRpcs']?.[2]?.[1]?.['strategies'];
-    if (!valid) return undefined;
+    if (!parsed) return undefined;
+
+    let strategies: Analysis[];
+    if ('injectRpcs' in parsed) {
+      const valid = parsed.injectRpcs[2]?.[1]?.['strategies'];
+      if (!valid) return undefined;
+      strategies = valid;
+    } else {
+      strategies = parsed.strategies;
+    }
 
     const analysesByFormat: Map<string, Analysis[]> = new Map();
-    for (const analysis of parsed!['injectRpcs'][2][1]['strategies']) {
+    for (const analysis of strategies) {
       let analyses = analysesByFormat.get(analysis.format);
       if (!analyses) {
         analyses = [];

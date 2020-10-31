@@ -13,6 +13,7 @@ const fixture = (s: string) =>
   });
 
 const FIXTURES = {
+  alakazam: fixture('alakazam.ss.json'),
   snorlax: fixture('snorlax.gs.html'),
   landorus: fixture('landorus.sm.html'),
   index: fixture('stats.index.html'),
@@ -30,16 +31,32 @@ describe('Analyses', () => {
     expect(Analyses.url('Tapu Koko', 7)).toBe('https://www.smogon.com/dex/sm/pokemon/tapukoko/');
   });
 
+  test('request', () => {
+    expect(Analyses.request('Gengar', 3)).toEqual({
+      url: 'https://www.smogon.com/dex/_rpc/dump-pokemon',
+      init: {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+        },
+        body: '{"gen":"rs","alias":"gengar"}',
+      },
+    });
+  });
+
   test('parse', async () => {
     expect(Analyses.parse('foo')).toBeUndefined();
     expect(Analyses.parse(await FIXTURES.snorlax)).toBeDefined();
+    expect(Analyses.parse(await FIXTURES.alakazam)).toBeUndefined();
   });
 
   test('process', async () => {
     expect(Analyses.process('foo')).toBeUndefined();
+
     let processed = Analyses.process(Analyses.parse(await FIXTURES.snorlax)!)!;
     expect(processed).toBeDefined();
     expect(processed.get('OU')![0].movesets[0].items).toEqual(['Leftovers']);
+
     processed = Analyses.process(Analyses.parse(await FIXTURES.landorus)!)!;
     expect(processed).toBeDefined();
     const set = processed.get('Doubles')![0].movesets[0];
@@ -48,6 +65,10 @@ describe('Analyses', () => {
       {move: 'Stone Edge', type: null},
     ]);
     expect(set.moveslots[2]).toEqual([{move: 'Hidden Power', type: 'Ice'}]);
+
+    processed = Analyses.process(JSON.parse(await FIXTURES.alakazam))!;
+    expect(processed).toBeDefined();
+    expect(processed.get('OU')![0].movesets[0].name).toEqual('Nasty Plot');
   });
 
   test('gen', () => {
