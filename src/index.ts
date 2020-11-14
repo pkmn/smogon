@@ -112,7 +112,7 @@ export const Analyses = new (class {
   }
 
   /**
-   * Returns the Analysis RPC URL and reequest configuration for a given pokemoon and gen.
+   * Returns the Analysis RPC URL and request configuration for a given pokemon and gen.
    */
   request(pokemon: string, gen: GenerationNum = 8) {
     return {
