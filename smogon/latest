@@ -8,7 +8,7 @@ const path = require('path');
 const url = require('url');
 const stringify = require('json-stringify-pretty-compact');
 
-const smogon = require('./dist');
+const smogon = require('./build');
 
 const N = 1e4;
 
@@ -36,7 +36,21 @@ function fetch(u) {
 (async () => {
   const formats = {};
 
-  const begin = new Date('Nov 2014');
+  let begin = new Date('2014-11');
+  try {
+    // If latest.json already exists we can begin at the most recent date that occurs in it
+    const latest = require('./latest.json');
+    for (const format in latest) {
+      const data = typeof latest[format][0] === 'string' ? [latest[format]] : latest[format];
+      for (const [month] of data) {
+        const d = new Date(month);
+        if (d > begin) begin = d;
+      }
+    }
+  } catch (err) {
+    if (err.code !== 'MODULE_NOT_FOUND') throw err;
+  }
+
   const end = new Date(smogon.Statistics.latest(await fetch(smogon.Statistics.URL)));
   end.setDate(end.getDate() + 1);
 
