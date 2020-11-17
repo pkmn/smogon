@@ -1,44 +1,37 @@
 {
-  "name": "smogon",
-  "version": "1.2.1",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "description": "Wrapper around Smogon's analyses and usage statistics",
-  "homepage": "https://smogon.com/",
-  "repository": "github:smogon/api",
+  "private": true,
+  "repository": "github:pkmn/smogon",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^14.14.6"
-  },
-  "devDependencies": {
+    "@pkmn/dex": "^0.3.2",
     "@pkmn/eslint-config": "^1.1.0",
     "@types/jest": "^26.0.15",
-    "@typescript-eslint/eslint-plugin": "^4.6.0",
-    "eslint": "^7.12.1",
+    "@types/node": "^14.14.7",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.1.0",
-    "jest": "^26.6.1",
-    "ts-jest": "^26.4.3",
-    "typescript": "4.0.5"
+    "eslint-plugin-jest": "^24.1.3",
+    "jest": "^26.6.3",
+    "json-stringify-pretty-compact": "^2.0.0",
+    "microbundle": "^0.12.4",
+    "node-fetch": "^2.6.1",
+    "subpkg": "^4.0.2",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.0.5"
   },
+  "subPackages": [
+    "smogon",
+    "pkmn"
+  ],
   "scripts": {
-    "lint": "eslint --cache src --ext ts",
-    "fix": "eslint --fix src --ext ts",
-    "compile": "tsc -p .",
-    "test": "jest",
-    "prepare": "npm run compile",
-    "pretest": "npm run compile",
-    "posttest": "npm run lint"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node",
-    "testPathIgnorePatterns": [
-      "node_modules/",
-      "dist/"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "@pkmn"
+    "lint": "subpkg run lint",
+    "fix": "subpkg run fix",
+    "compile": "subpkg run compile",
+    "build": "subpkg run build",
+    "bundle": "subpkg run bundle",
+    "start": "subpkg run start",
+    "test": "subpkg run test",
+    "postinstall": "subpkg install"
   }
 }

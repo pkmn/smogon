@@ -4,30 +4,32 @@
   </a>
 </p>
 
-# `smogon`
-
-![Test Status](https://github.com/pkmn/smogon/workflows/Tests/badge.svg)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-[![npm version](https://img.shields.io/npm/v/smogon.svg)](https://www.npmjs.com/package/smogon)
-
-This package provides a wrapper around Smogon's analyses and usage statistics.
+[`@pkmn`](https://pkmn.cc/@pkmn/)'s unofficial APIs for [Smogon](https://smogon.com)'s analysis,
+moveset and usage statistics data.
 
 **Smogon does not officially provide any API for third party developers**, and is at liberty to make
-breaking changes to its internal data representations at any point - this package attempts to
-provide a stable way of accessing the data Smogon exposes on its site.
+breaking changes to its internal data representations at any point - this project attempts to
+provide a stable way of accessing the data Smogon exposes on its site. Two packages are provided:
 
-Please note that all sets and analyses on the site are copyrighted by Smogon.com and its
-contributors and you must first receive permission from Smogon.com before using this data. If you
-are just interested in retrieving the sets, the [@smogon/sets][1] package used by the [client
-teambuilder][2] and [damage calculator][3] will likely simplify matters, though will potentially lag
-behind what is visible on Smogon by 2-4 weeks.
+- [`smogon`](https://github.com/pkmn/smogon/tree/main/smogon): A low-level wrapper around Smogon's
+  analysis and statistics endpoints used to ergonomically fetch raw data via point queries from the
+  source.
+- [`@pkmn/smogon`](https://github.com/pkmn/smogon/tree/main/pkmn): A [rich
+  client](https://en.wikipedia.org/wiki/Rich_client) for the processed and aggregated
+  [Smogon](https://smogon.com) analysis and moveset information available at
+  [https://data.pkmn.cc](https://data.pkmn.cc).
 
-The aggregate usage statistics data present on https://smogon.com/stats/ and exposed by this API may
-be used for any purpose without prior permission.
+[https://data.pkmn.cc](https://data.pkmn.cc/) is [refreshed
+automatically](https://simonwillison.net/2020/Oct/9/git-scraping/) every [4
+hours](https://github.com/pkmn/smogon/tree/main/.github/workflows/update.yml) and allows for
+efficient batch access of Smogon analysis and statistics data by format or generation. This data can
+be accessed directly, though the `@pkmn/smogon` package is recommended for simplifying the data
+handling.  Aggregate usage statistics data can be found at
+[https://smogon.com/stats](https://smogon.com/stats), and information about Pokémon Showdown’s
+standard Random Battle formats can be found at
+[https://pkmn.github.io/randbats](https://pkmn.github.io/randbats).
 
-This package is distributed under the terms of the [MIT License][4].
-
-  [1]: https://www.npmjs.com/package/@smogon/sets
-  [2]: https://github.com/smogon/pokemon-showdown-client
-  [3]: https://github.com/smogon/damage-calc
-  [4]: https://github.com/pkmn/smogon/blob/master/LICENSE
+While this project's code is distributed under the terms of the [MIT
+License](https://github.com/pkmn/smogon/tree/main/LICENSE) and the aggregated stats information is
+freely available in the public domain, the set and analysis data is copyrighted by Smogon and its
+contributors.

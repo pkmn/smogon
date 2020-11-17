@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+'use strict';
+// This is a workaround for some jest/ts-jest/subpkg nonsense which makes it unable to successfully
+// read from the fixtures/ directory. Ideally we would just have this code in index.test.ts:
+//
+//    import * as fs from 'fs';
+//    import * as path from 'path';
+//
+//    const fixture = (s: string) =>
+//      new Promise<string>((resolve, reject) => {
+//        fs.readFile(path.join(__dirname, '..', 'fixtures', s), 'utf8', (err, data) => {
+//          if (err) return reject(err);
+//          resolve(data);
+//        });
+//      });
+//
+// But something wonky happens to the readFile command where it gets called with
+// 'smogon/smogon/fixtures/file.json' and then complains about 'smogon/fixtures/file.json' not
+// existing (it looks in the repository root for a fixtures/ directory instead of smogon/).
+// TODO: remove this compilation step in favor of the code above
+
+const fs = require('fs');
+const path = require('path');
+
+const fixtures = path.join(__dirname, 'fixtures');
+
+const FIXTURES = {};
+for (const file of fs.readdirSync(fixtures)) {
+  FIXTURES[file] = fs.readFileSync(`${fixtures}/${file}`, 'utf8');
+}
+
+fs.writeFileSync('fixtures.json', JSON.stringify(FIXTURES, null, 2));

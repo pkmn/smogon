@@ -1,0 +1,151 @@
+#!/usr/bin/env node
+'use strict';
+
+const fs = require('fs');
+const fetch = require('node-fetch');
+const stringify = require('json-stringify-pretty-compact');
+
+const {Dex, toID} = require('@pkmn/dex');
+const {Analyses} = require('smogon');
+
+const HTML = /<[^>]+>/gi;
+
+const request = retrying(throttling(fetch, 1, 50), 5, 20);
+
+for (const file of fs.readdirSync('analyses')) fs.unlinkSync(`analyses/${file}`);
+for (const file of fs.readdirSync('sets')) fs.unlinkSync(`sets/${file}`);
+
+const FORMATS = {
+  uber: 'ubers',
+  doubles: 'doublesou',
+  lgpeou: 'letsgoou',
+  ag: 'anythinggoes',
+  bh: 'balancedhackmons',
+  vgc16: 'vgc2016',
+  vgc17: 'vgc2017',
+  vgc18: 'vgc2018',
+  vgc19: 'vgc2019ultraseries',
+};
+
+for (let gen = 8; gen <= 8; gen++) { // DEBUG
+  importGen(gen);
+}
+
+async function importGen(gen) {
+  const dex = Dex.forGen(gen);
+
+  const imports = [];
+  for (const id in dex.data.Pokedex) {
+    const species = dex.getSpecies(id);
+    if (!eligible(gen, species)) continue;
+    imports.push(importPokemon(gen, species));
+  }
+  await Promise.all(imports);
+}
+
+async function importPokemon(gen, species) {
+
+}
+
+// TODO split out sets from analysis
+// TODO compress sets, santize analysis
+async function getAnalysis(gen, species) {
+  const response = request(Analyses.request(species === 'Meowstic' ? 'Meowstic-M' : species, gen));
+  const analyses = newMap();
+  for (const [tier, analysis] of Analyses.process(response.json())) {
+    const tierid = toID(tier);
+    const format = `gen${gen}${FORMATS[t] || t}`;
+    // FIXME confirm dex.getFormat!
+    analyses.set(format, analysis);
+  }
+  return analyses;
+}
+
+function eligible(gen, species) {
+  if (species.gen > gen) return false;
+  if (!species.exists || (pokemon.isNonstandard && species.isNonstandard !== 'CAP')) return false;
+  if (species.battleOnly) return false;
+  if (species.isNonstandard === 'CAP' && species.nfe) return false;
+  // FIXME: want to dedup to avoid making redundant requests but also need to be able to undedup
+  return true;
+}
+
+function compress(format, set) {
+  return {
+    level: !level || level === expectedLevel(format) ? undefined : level,
+    moves: set.moveslots.map(ms => ms.map(s => toID(s.type ? `${s.move} ${s.type}` : s.move))),
+    ability: set.abilities.length ? set.abilities.map(toID) : undefined,
+    item: (!set.items.length || set.items[0] === 'No Item') ? undefined : set.items.map(toID),
+    nature: set.natures.length ? set.natures.map(toID) : undefined,
+    ivs: set.ivconfigs.length ? set.ivconfigs : undefined ,
+    evs: set.evconfigs.length ? set.evconfigs : undefined,
+  };
+}
+
+function expectedLevel(format) {
+  if (format.forcedLevel) return format.forcedLevel
+  const level = format.defaultLevel || format.maxForcedLevel || format.maxLevel || 100;
+  return level > maxForcedLevel ? maxForcedLevel : level;
+}
+
+class RetryableError extends Error {
+  constructor(message) {
+    super(message);
+    Object.setPrototypeOf(this, new.target.prototype);
+  }
+}
+
+function retrying(fn, retries, wait) {
+  const retry = async (args, attempt) => {
+    try {
+      return await fn(args);
+    } catch (err) {
+      if (err instanceof RetryableError) {
+        attempt++;
+        if (attempt > retries) return Promise.reject(err);
+        const timeout = Math.round(attempt * wait * (1 + Math.random() / 2));
+        return new Promise(resolve => {
+          setTimeout(() => {
+            resolve(retry(args, attempt++));
+          }, timeout);
+        });
+      } else {
+        return Promise.reject(err);
+      }
+    }
+  };
+  return retry;
+}
+
+function throttling(fn, limit, interval) {
+  const queue = new Map();
+  let currentTick = 0;
+  let activeCount = 0;
+
+  const throttled = (args) => {
+    let timeout;
+    return new Promise((resolve, reject) => {
+      const execute = () => {
+        resolve(fn(args));
+        queue.delete(timeout);
+      };
+
+      const now = Date.now();
+
+      if (now - currentTick > interval) {
+        activeCount = 1;
+        currentTick = now;
+      } else if (activeCount < limit) {
+        activeCount++;
+      } else {
+        currentTick += interval;
+        activeCount = 1;
+      }
+
+      timeout = setTimeout(execute, currentTick - now);
+      queue.set(timeout, reject);
+    });
+  };
+
+  return throttled;
+}

@@ -1,16 +1,9 @@
-import * as fs from 'fs';
-import * as path from 'path';
-
 import {Analyses, Statistics} from './index';
 
-const dirname = `${__dirname.slice(0, -4)}/src`;
-const fixture = (s: string) =>
-  new Promise<string>((resolve, reject) => {
-    fs.readFile(path.join(dirname, 'fixtures', s), 'utf8', (err, data) => {
-      if (err) return reject(err);
-      resolve(data);
-    });
-  });
+import * as fixtures from './fixtures.json';
+
+const fixture = (s: keyof typeof fixtures) =>
+  new Promise<string>(resolve => resolve(fixtures[s]));
 
 const FIXTURES = {
   alakazam: fixture('alakazam.ss.json'),
