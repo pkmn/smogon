@@ -17,7 +17,11 @@
   },
   "dependencies": {
     "@pkmn/data": "^0.3.2",
+    "@pkmn/sim": "^0.3.2",
     "smogon": "^1.2.1"
+  },
+  "devDependencies": {
+    "@pkmn/dex": "^0.3.2"
   },
   "scripts": {
     "lint": "eslint --cache --ext ts",

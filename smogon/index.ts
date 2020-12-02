@@ -99,6 +99,15 @@ function toID(text: any): ID {
   return ('' + text).toLowerCase().replace(/[^a-z0-9]+/g, '') as ID;
 }
 
+function toAlias(text: any) {
+  return ('' + text).toLowerCase().replace(/[ _]+/, '-').replace(/[^a-z0-9-]+/g, '');
+}
+
+function toPokemonAlias(text: any) {
+  const alias = toAlias(text);
+  return alias === 'meowstic' ? 'meowstic-m' : alias; // sigh
+}
+
 export const Analyses = new (class {
   readonly URL = 'https://www.smogon.com/dex/';
   readonly RPC = '_rpc/dump-pokemon';
@@ -108,7 +117,7 @@ export const Analyses = new (class {
    * @deprecated use Analyses.request
    */
   url(pokemon: string, gen: GenerationNum = 8) {
-    return `${Analyses.URL}${Analyses.gen(gen)}/pokemon/${toID(pokemon)}/`;
+    return `${Analyses.URL}${Analyses.gen(gen)}/pokemon/${toPokemonAlias(pokemon)}/`;
   }
 
   /**
@@ -122,7 +131,7 @@ export const Analyses = new (class {
         headers: {
           'content-type': 'application/json',
         },
-        body: JSON.stringify({gen: Analyses.gen(gen), alias: toID(pokemon)}),
+        body: JSON.stringify({gen: Analyses.gen(gen), alias: toPokemonAlias(pokemon)}),
       },
     };
   }

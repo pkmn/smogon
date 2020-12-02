@@ -20,11 +20,11 @@ provide a stable way of accessing the data Smogon exposes on its site. Two packa
   [https://data.pkmn.cc](https://data.pkmn.cc).
 
 [https://data.pkmn.cc](https://data.pkmn.cc/) is [refreshed
-automatically](https://simonwillison.net/2020/Oct/9/git-scraping/) every [4
+automatically](https://simonwillison.net/2020/Oct/9/git-scraping/) every [24
 hours](https://github.com/pkmn/smogon/tree/main/.github/workflows/update.yml) and allows for
 efficient batch access of Smogon analysis and statistics data by format or generation. This data can
 be accessed directly, though the `@pkmn/smogon` package is recommended for simplifying the data
-handling.  Aggregate usage statistics data can be found at
+handling. Aggregate usage statistics data can be found at
 [https://smogon.com/stats](https://smogon.com/stats), and information about Pokémon Showdown’s
 standard Random Battle formats can be found at
 [https://pkmn.github.io/randbats](https://pkmn.github.io/randbats).

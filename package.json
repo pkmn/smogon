@@ -5,6 +5,7 @@
   "dependencies": {
     "@pkmn/dex": "^0.3.2",
     "@pkmn/eslint-config": "^1.1.0",
+    "@pkmn/sim": "^0.3.2",
     "@types/jest": "^26.0.15",
     "@types/node": "^14.14.7",
     "@typescript-eslint/eslint-plugin": "^4.7.0",
@@ -30,6 +31,7 @@
     "compile": "subpkg run compile",
     "build": "subpkg run build",
     "bundle": "subpkg run bundle",
+    "update": "npm run compile && node update",
     "start": "subpkg run start",
     "test": "subpkg run test",
     "postinstall": "subpkg install"

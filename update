@@ -10,7 +10,7 @@ const {Analyses} = require('smogon');
 
 const HTML = /<[^>]+>/gi;
 
-const request = retrying(throttling(fetch, 1, 50), 5, 20);
+const request = retrying(throttling(args => fetch(args.url, args.init), 1, 50), 5, 20);
 
 for (const file of fs.readdirSync('analyses')) fs.unlinkSync(`analyses/${file}`);
 for (const file of fs.readdirSync('sets')) fs.unlinkSync(`sets/${file}`);
@@ -50,7 +50,7 @@ async function importPokemon(gen, species) {
 // TODO split out sets from analysis
 // TODO compress sets, santize analysis
 async function getAnalysis(gen, species) {
-  const response = request(Analyses.request(species === 'Meowstic' ? 'Meowstic-M' : species, gen));
+  const response = request(Analyses.request(species, gen));
   const analyses = newMap();
   for (const [tier, analysis] of Analyses.process(response.json())) {
     const tierid = toID(tier);
@@ -61,24 +61,31 @@ async function getAnalysis(gen, species) {
   return analyses;
 }
 
+const NONSTANDARD = ['Unobtainable', 'Gigantamax'];
+const SUFFIXES = ['-Small', '-Medium', '-Large', '-Antique', '-Totem'];
+const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magearna'];
+
 function eligible(gen, species) {
-  if (species.gen > gen) return false;
-  if (!species.exists || (pokemon.isNonstandard && species.isNonstandard !== 'CAP')) return false;
-  if (species.battleOnly) return false;
-  if (species.isNonstandard === 'CAP' && species.nfe) return false;
-  // FIXME: want to dedup to avoid making redundant requests but also need to be able to undedup
-  return true;
+  if (!species.exists || species.gen > gen || species.tier === 'Illegal') return false;
+  if (species.battleOnly || NONSTANDARD.includes(species.isNonstandard)) return false;
+  if (species.baseSpecies === species.name) return true;
+  if (PREFIXES.some(prefix => species.name.startsWith(prefix))) return false;
+  if (SUFFIXES.some(suffix => species.name.endsWith(suffix))) return false;
+  if (species.name.startsWith('Pikachu') && species.name !== 'Pikachu-Starter') return false;
+  return false;
 }
 
-function compress(format, set) {
+function compress(format, set, species) {
   return {
     level: !level || level === expectedLevel(format) ? undefined : level,
-    moves: set.moveslots.map(ms => ms.map(s => toID(s.type ? `${s.move} ${s.type}` : s.move))),
-    ability: set.abilities.length ? set.abilities.map(toID) : undefined,
-    item: (!set.items.length || set.items[0] === 'No Item') ? undefined : set.items.map(toID),
-    nature: set.natures.length ? set.natures.map(toID) : undefined,
-    ivs: set.ivconfigs.length ? set.ivconfigs : undefined ,
-    evs: set.evconfigs.length ? set.evconfigs : undefined,
+    moves: set.moveslots.map(ms => ms.map(s => s.type ? `${s.move} ${s.type}` : s.move)),
+    ability: !set.abilities.length ||
+      (set.abilitis.length === 1 && set.abilities[0] === species.abilities[0])
+      ? undefined : set.abilities,
+    item: (!set.items.length || set.items[0] === 'No Item') ? undefined : set.items,
+    nature: set.natures.length ? set.natures : undefined,
+    ivs: set.ivconfigs.length ? set.ivconfigs : undefined, // FIXME drop 31/30
+    evs: set.evconfigs.length ? set.evconfigs : undefined, // FIXME drop 0
   };
 }
 

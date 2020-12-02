@@ -1,0 +1,161 @@
+#!/usr/bin/env node
+'use strict';
+
+const https = require('https');
+const url = require('url');
+const fetch = require('node-fetch');
+const {Dex, Streams} = require('@pkmn/sim');
+const {Analyses} = require('../smogon/build');
+
+const request = retrying(throttling(args =>
+  typeof args === 'string' ? fetch(args) : fetch(args.url, args.init), 1, 50), 5, 20);
+
+const NONSTANDARD = ['Unobtainable', 'Gigantamax'];
+const SUFFIXES = ['-Small', '-Medium', '-Large', '-Antique', 'Totem'];
+const PREFIXES = [
+  'Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Pumpkaboo', 'Gourgeist', 'Vivillon', 'Magearna',
+];
+
+function eligible(gen, species) {
+  if (!species.exists || species.gen > gen || species.tier === 'Illegal') return false;
+  if (species.battleOnly || NONSTANDARD.includes(species.isNonstandard)) return false;
+  if (species.baseSpecies === species.name) return true;
+  if (PREFIXES.some(prefix => species.name.startsWith(prefix))) return false;
+  if (SUFFIXES.some(suffix => species.name.startsWith(suffix))) return false;
+  if (species.name.startsWith('Pikachu') && species.name !== 'Pikachu-Starter') return false;
+  return false; // TODO
+}
+
+(async () => {
+  for (let gen = 1; gen <= 1; gen++) { // DEBUG
+    const dex = Dex.forGen(gen);
+    const all = [];
+    for (const id in dex.data.Species) {
+      const species = dex.getSpecies(id);
+      if (!eligible(gen, species)) continue;
+      all.push(importPokemon(species, gen));
+      // all.push(importPokemon2(dex.getSpecies(species.baseSpecies), species, gen));
+
+    }
+    for (const data of await Promise.all(all)) {
+      // console.log(gen, Array.isArray(data) ? `UNIQ ${data[1].species}` : `DUPE ${data.species}`);
+      console.log(gen, data.species, data.rpc);
+    }
+    console.log();
+  }
+})().catch(console.error);
+
+async function importPokemon2(baseSpecies, species, gen) {
+  let base = await importPokemon(baseSpecies, gen);
+  let form = await importPokemon(species, gen);
+  if (form.web.startsWith('/dex/') && form.web.split('/')[4] === baseSpecies.id) {
+    return {species: species.name, web: form.web.length}
+  } else {
+    return [
+      {species: baseSpecies.name, web: base.web.length, rpc: base.rpc && base.rpc.strategies.length},
+      {species: species.name, web: form.web.length, rpc: form.rpc && form.rpc.strategies.length}
+    ];
+  }
+}
+
+async function importPokemon(species, gen) {
+  let web, rpc;
+  try {
+    web = (await request(Analyses.url(species.name, gen)));
+  } catch (err) {
+    web = err.message;
+  }
+
+  try {
+    const req = Analyses.request(species.name, gen);
+    const res = await request(req);
+    const json = await res.json();
+    rpc = json && json.strategies.length
+  } catch (err) {
+    rpc = err.message;
+  }
+
+  return {species: species.name, web, rpc};
+}
+
+class RetryableError extends Error {
+  constructor(message) {
+    super(message);
+    Object.setPrototypeOf(this, new.target.prototype);
+  }
+}
+
+// function fetchX(u) {
+//   return new Promise((resolve, reject) => {
+//     const req = https.get(u, res => {
+//       if (res.statusCode !== 200) {
+//         if (res.statusCode >= 500 && res.statusCode < 600) {
+//           return reject(new RetryableError(`HTTP ${res.statusCode}`));
+//         } else if (res.statusCode >= 300 && res.statusCode <= 400 && res.headers.location) {
+//           // resolve(fetch(url.resolve(u, res.headers.location)));
+//           return reject(new Error(res.headers.location));
+//         } else {
+//           return reject(new Error(`HTTP ${res.statusCode}`));
+//         }
+//       }
+//       Streams.readAll(res).then(resolve, reject);
+//     });
+//     req.on('error', reject);
+//     req.end();
+//   });
+// }
+
+function retrying(fn, retries, wait) {
+  const retry = async (args, attempt) => {
+    try {
+      return await fn(args);
+    } catch (err) {
+      if (err instanceof RetryableError) {
+        attempt++;
+        if (attempt > retries) return Promise.reject(err);
+        const timeout = Math.round(attempt * wait * (1 + Math.random() / 2));
+        return new Promise(resolve => {
+          setTimeout(() => {
+            resolve(retry(args, attempt++));
+          }, timeout);
+        });
+      } else {
+        return Promise.reject(err);
+      }
+    }
+  };
+  return retry;
+}
+
+function throttling(fn, limit, interval) {
+  const queue = new Map();
+  let currentTick = 0;
+  let activeCount = 0;
+
+  const throttled = (args) => {
+    let timeout;
+    return new Promise((resolve, reject) => {
+      const execute = () => {
+        resolve(fn(args));
+        queue.delete(timeout);
+      };
+
+      const now = Date.now();
+
+      if (now - currentTick > interval) {
+        activeCount = 1;
+        currentTick = now;
+      } else if (activeCount < limit) {
+        activeCount++;
+      } else {
+        currentTick += interval;
+        activeCount = 1;
+      }
+
+      timeout = setTimeout(execute, currentTick - now);
+      queue.set(timeout, reject);
+    });
+  };
+
+  return throttled;
+}

@@ -8,13 +8,31 @@
 [Smogon](https://smogon.com) analysis and moveset information available at
 [https://data.pkmn.cc](https://data.pkmn.cc).
 
-```
-TODO compare to `@smogon/sets`, thick client vs. thin client
+On its face, `@pkmn/smogon` is similar to
+[`@smogon/sets`](https://www.npmjs.com/package/@smogon/sets) with respect to the data that it
+provides, with several notable differences:
 
-`smogon` = grab from the source, raw smogon data
-`@pkmn/smogon` = freshness, analyses, datasize (need to switch back to per format + per gen...)
-`@smogon/sets` = usage sets, thin client, no `fetch` required
-```
+- `@smogon/sets` contains preprocessed and validated `PokemonSet` data gleaned from Smogon, usage
+  statistics and third-party sources, grouped by format and generation. `@pkmn/smogon` contains no
+  data, instead taking in a [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+  API-compatible client and using it to retrieve sets data from
+  [https://data.pkmn.cc](https://data.pkmn.cc), where the data is also grouped by generation and
+  format but is in the form of a `Moveset` as opposed to a `PokemonSet` and `@pkmn/smogon` does the
+  work of converting between the two.
+- `@pkmn/smogon` does not contain any of the usage statistics or third-party sets that
+  `@smogon/sets` provides, nor does it validate the sets it returns (though even `@smogon/sets`'s
+  data is not guaranteed to be valid given that validation rules change over time).
+- `@pkmn/smogon` fetches the latest data as opposed to `@smogon/sets` where the data only updates
+   approximately monthly when a new package is released.
+- `@pkmn/smogon` supports returning analysis and moveset information as opposed to just sets.
+- `@pkmn/smogon` provides some higher level functionality, containing logic for selecting the 'best'
+  sets for a particular format as opposed to simply providing all sets for a Pokémon across every
+  format.
+
+Both packages rely on [`smogon`](https://www.npmjs.com/package/smogon) to handle fetching the raw
+data from Smogon but make different tradeoffs that may appeal to different types of applications.
+`@pkmn/smogon` is strictly fresher and more powerful, but `@smogon/sets` may still be appealing for
+the simplicity it provides.
 
 ## Installation
 
@@ -61,31 +79,4 @@ accessible as a global.**
 
 ## License
 
-This package is distributed under the terms of the [MIT
-License](https://github.com/pkmn/smogon/tree/main/LICENSE).
-
-
-```
-
-This data is expected to be fresher than the data in the
-[`@smogon/sets`](https://www.npmjs.com/package/@smogon/sets) package as it is refreshed every [4
-hours](https://github.com/pkmn/data/tree/main/.github/workflows/update.yml) instead of being
-released monthly, though there are several differences:
-
-- the data in this repository includes [analysis](https://pkmn.github.io/data/analyses) data in
-  additon to [sets](https://pkmn.github.io/data/sets)
-- the data in this repository does not contain any sets or information from
-  [https://smogon.com/stats/](https://smogon.com/stats/)
-- the data in this repository is sliced differently ('core' and `more`) than `@smogon/sets` where
-  the sets are provided by generation and by format
-- `@smogon/sets` provides only legal sets, the set information here contains all recommended
-  *options* which can then be massaged into sets
-
-These data can be accessed directly via `https://data.pkmn.cc`, e.g.
-[https://data.pkmn.cc/sets/gen8.json](https://data.pkmn.cc/sets/gen8.json), or by using the
-[`@pkmn/smogon`](https://github.com/pkmn/data/tree/main/smogon) package from this repository.
-
-
-See also https://pkmn.github.io/randbats for a similar project which contains the latest options for
-Pokémon Showdown’s standard Random Battle formats.
-```
+This package is distributed under the terms of the [MIT License](LICENSE).

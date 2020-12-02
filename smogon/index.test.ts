@@ -21,18 +21,18 @@ describe('Analyses', () => {
 
   test('url', () => {
     expect(Analyses.url('Gengar')).toBe('https://www.smogon.com/dex/ss/pokemon/gengar/');
-    expect(Analyses.url('Tapu Koko', 7)).toBe('https://www.smogon.com/dex/sm/pokemon/tapukoko/');
+    expect(Analyses.url('Tapu Koko', 7)).toBe('https://www.smogon.com/dex/sm/pokemon/tapu-koko/');
   });
 
   test('request', () => {
-    expect(Analyses.request('Gengar', 3)).toEqual({
+    expect(Analyses.request('Mr. Mime', 3)).toEqual({
       url: 'https://www.smogon.com/dex/_rpc/dump-pokemon',
       init: {
         method: 'POST',
         headers: {
           'content-type': 'application/json',
         },
-        body: '{"gen":"rs","alias":"gengar"}',
+        body: '{"gen":"rs","alias":"mr-mime"}',
       },
     });
   });
