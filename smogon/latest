@@ -36,12 +36,13 @@ function fetch(u) {
 (async () => {
   const formats = {};
 
+  let info = {}; // format => [[latest, count], [best, count]] | [latest, count]
   let begin = new Date('2014-11');
   try {
     // If latest.json already exists we can begin at the most recent date that occurs in it
-    const latest = require('./latest.json');
-    for (const format in latest) {
-      const data = typeof latest[format][0] === 'string' ? [latest[format]] : latest[format];
+    info = require('./src/latest.json');
+    for (const format in info) {
+      const data = typeof info[format][0] === 'string' ? [info[format]] : info[format];
       for (const [month] of data) {
         const d = new Date(month);
         if (d > begin) begin = d;
@@ -84,7 +85,6 @@ function fetch(u) {
     }
   }
 
-  const info = {}; // format => [[latest, count], [best, count]] | [latest, count]
   for (const [format, dates] of Object.entries(formats).sort((a, b) => a[0].localeCompare(b[0]))) {
     let latest = [null, 0];
     let best = [null, 0];
