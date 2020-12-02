@@ -6,6 +6,7 @@ const fs = require('fs');
 const https = require('https');
 const path = require('path');
 const url = require('url');
+const stringify = require('json-stringify-pretty-compact');
 
 const smogon = require('./dist');
 
@@ -35,13 +36,28 @@ function fetch(u) {
 (async () => {
   const formats = {};
 
-  const begin = new Date('Nov 2014');
-  const end = new Date(smogon.Statistics.latest(await fetch(smogon.Statistics.URL)));
-  end.setDate(end.getDate() + 1);
+  let info = {}; // format => [[latest, count], [best, count]] | [latest, count]
+  let begin = new Date('2014-11');
+  try {
+    // If latest.json already exists we can begin at the most recent date that occurs in it
+    info = require('./src/latest.json');
+    for (const format in info) {
+      const data = typeof info[format][0] === 'string' ? [info[format]] : info[format];
+      for (const [month] of data) {
+        const d = new Date(month);
+        if (d > begin) begin = d;
+      }
+    }
+  } catch (err) {
+    if (err.code !== 'MODULE_NOT_FOUND') throw err;
+  }
 
-  for (const d = begin; d <= end; d.setMonth(d.getMonth() + 1)) {
-    const month = `${d.getMonth() + 1}`.padStart(2, '0');
-    const date = `${1900 + d.getYear()}-${month}`;
+  const end = new Date(smogon.Statistics.latest(await fetch(smogon.Statistics.URL)));
+  end.setUTCDate(end.getUTCDate() + 1);
+
+  for (const d = begin; d <= end; d.setUTCMonth(d.getUTCMonth() + 1)) {
+    const month = `${d.getUTCMonth() + 1}`.padStart(2, '0');
+    const date = `${d.getUTCFullYear()}-${month}`;
     const page = await fetch(`${smogon.Statistics.URL}${date}/`);
 
     for (const line of page.split('\n')) {
@@ -69,7 +85,6 @@ function fetch(u) {
     }
   }
 
-  const info = {}; // format => [[latest, count], [best, count]] | [latest, count]
   for (const [format, dates] of Object.entries(formats).sort((a, b) => a[0].localeCompare(b[0]))) {
     let latest = [null, 0];
     let best = [null, 0];
@@ -88,5 +103,5 @@ function fetch(u) {
     if (latest[0]) info[format] = best === latest ? latest : [latest, best];
   }
 
-  fs.writeFileSync(path.resolve(__dirname, 'src', 'latest.json'), JSON.stringify(info));
+  fs.writeFileSync(path.resolve(__dirname, 'src', 'latest.json'), stringify(info));
 })().catch(err => console.error(err));
