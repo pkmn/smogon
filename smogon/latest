@@ -53,11 +53,11 @@ function fetch(u) {
   }
 
   const end = new Date(smogon.Statistics.latest(await fetch(smogon.Statistics.URL)));
-  end.setDate(end.getDate() + 1);
+  end.setUTCDate(end.getUTCDate() + 1);
 
-  for (const d = begin; d <= end; d.setMonth(d.getMonth() + 1)) {
-    const month = `${d.getMonth() + 1}`.padStart(2, '0');
-    const date = `${1900 + d.getYear()}-${month}`;
+  for (const d = begin; d <= end; d.setUTCMonth(d.getUTCMonth() + 1)) {
+    const month = `${d.getUTCMonth() + 1}`.padStart(2, '0');
+    const date = `${d.getUTCFullYear()}-${month}`;
     const page = await fetch(`${smogon.Statistics.URL}${date}/`);
 
     for (const line of page.split('\n')) {
