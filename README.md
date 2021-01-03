@@ -5,7 +5,7 @@
 </p>
 
 [`@pkmn`](https://pkmn.cc/@pkmn/)'s unofficial APIs for [Smogon](https://smogon.com)'s analysis,
-moveset and usage statistics data.
+moveset, and usage statistics data.
 
 **Smogon does not officially provide any API for third party developers**, and is at liberty to make
 breaking changes to its internal data representations at any point - this project attempts to
