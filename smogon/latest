@@ -36,22 +36,7 @@ function fetch(u) {
 (async () => {
   const formats = {};
 
-  let info = {}; // format => [[latest, count], [best, count]] | [latest, count]
-  let begin = new Date('2014-11');
-  try {
-    // If latest.json already exists we can begin at the most recent date that occurs in it
-    info = require('./src/latest.json');
-    for (const format in info) {
-      const data = typeof info[format][0] === 'string' ? [info[format]] : info[format];
-      for (const [month] of data) {
-        const d = new Date(month);
-        if (d > begin) begin = d;
-      }
-    }
-  } catch (err) {
-    if (err.code !== 'MODULE_NOT_FOUND') throw err;
-  }
-
+  const begin = new Date('2014-11');
   const end = new Date(smogon.Statistics.latest(await fetch(smogon.Statistics.URL)));
   end.setUTCDate(end.getUTCDate() + 1);
 
@@ -85,6 +70,7 @@ function fetch(u) {
     }
   }
 
+  const info = {}; // format => [[latest, count], [best, count]] | [latest, count]
   for (const [format, dates] of Object.entries(formats).sort((a, b) => a[0].localeCompare(b[0]))) {
     let latest = [null, 0];
     let best = [null, 0];
