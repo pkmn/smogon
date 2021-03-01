@@ -183,6 +183,7 @@ const LEGACY = new Set([
   'cap', 'lc', 'monotype', 'nu', 'ou', 'pu', 'randombattle', 'ru', 'ubers', 'uu',
   'balancedhackmons', 'doublesou', 'doublesuu', 'battlefactory', 'mixandmega', 'vgc2016',
   'ounoteampreview', 'customgame', 'doublescustomgame', 'triplescustomgame', 'purehackmons',
+  'almostanyability',
 ]);
 
 export const Statistics = new (class {

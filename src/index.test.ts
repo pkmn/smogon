@@ -145,6 +145,14 @@ describe('Statistics', () => {
       'https://www.smogon.com/stats/2016-11/chaos/randombattle-1695.json'
     );
 
+    // almostanyability
+    expect(Statistics.url('2021-02', 'gen8almostanyability')).toBe(
+      'https://www.smogon.com/stats/2021-02/chaos/gen8almostanyability-1630.json'
+    );
+    expect(Statistics.url('2021-02', 'gen6almostanyability')).toBe(
+      'https://www.smogon.com/stats/2021-02/chaos/gen6almostanyability-1630.json'
+    );
+
     // general gen6
     expect(Statistics.url('2017-06', 'gen6uu')).toBe(
       'https://www.smogon.com/stats/2017-06/chaos/uu-1630.json'
