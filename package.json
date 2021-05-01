@@ -30,6 +30,7 @@
     "pretest": "npm run compile",
     "posttest": "npm run lint"
   },
+  "files": ["dist"],
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
