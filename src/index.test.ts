@@ -186,7 +186,7 @@ describe('Statistics', () => {
 
   test('latestDate', async () => {
     expect(await Statistics.latestDate('foo')).toBeUndefined();
-    expect(await Statistics.latestDate('gen6vgc2016')).toEqual({date: '2017-11', count: 128});
+    expect(await Statistics.latestDate('gen6vgc2016')).toEqual({date: '2021-05', count: 1});
     expect(await Statistics.latestDate('gen6vgc2016', true)).toEqual({
       date: '2016-11',
       count: 160180,
