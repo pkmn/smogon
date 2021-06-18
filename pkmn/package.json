@@ -15,13 +15,18 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "build",
+    "!build/*.test.*",
+    "index.ts"
+  ],
   "dependencies": {
-    "@pkmn/data": "^0.3.9",
-    "@pkmn/sim": "^0.3.9",
-    "smogon": "^1.4.0"
+    "@pkmn/data": "^0.4.8",
+    "@pkmn/sim": "^0.4.8",
+    "smogon": "^1.4.5"
   },
   "devDependencies": {
-    "@pkmn/dex": "^0.3.9"
+    "@pkmn/dex": "^0.4.8"
   },
   "scripts": {
     "lint": "eslint --cache --ext ts",

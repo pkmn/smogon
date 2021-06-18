@@ -72,8 +72,8 @@ smogon.analysis(gens.get(4), 'Jirachi');
 The recommended way of using `@pkmn/data` in a web browser is to **configure your bundler**
 ([Webpack](https://webpack.js.org/), [Rollup](https://rollupjs.org/),
 [Parcel](https://parceljs.org/), etc) to minimize it and package it with the rest of your
-application. If you do not use a bundler, a convenience `production.min.js` is included in the
-package. You simply need to depend on `./node_modules/@pkmn/smogon/build/production.min.js` in a
+application. If you do not use a bundler, a convenience `index.umd.js` is included in the
+package. You simply need to depend on `./node_modules/@pkmn/smogon/build/index.umd.js` in a
 `script` tag (which is what the unpkg shortcut above is doing), after which **`smogon` will be
 accessible as a global.**
 

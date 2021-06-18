@@ -12,6 +12,12 @@
     "directory": "smogon"
   },
   "license": "MIT",
+  "files": [
+    "build",
+    "!build/fixtures.json",
+    "!build/*.test.*",
+    "index.ts"
+  ],
   "scripts": {
     "lint": "eslint --cache --ext ts",
     "fix": "eslint --fix --ext ts",
