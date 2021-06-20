@@ -22,7 +22,6 @@
   ],
   "dependencies": {
     "@pkmn/data": "^0.4.8",
-    "@pkmn/sim": "^0.4.8",
     "smogon": "^1.4.5"
   },
   "devDependencies": {
@@ -32,8 +31,7 @@
     "lint": "eslint --cache --ext ts",
     "fix": "eslint --fix --ext ts",
     "compile": "tsc -p .",
-    "bundle": "microbundle --name smogon --format umd --tsconfig bundle.json --strict",
-    "build": "npm run compile && npm run bundle",
+    "build": "npm run compile",
     "test": "jest",
     "prepare": "npm run build",
     "pretest": "npm run build",

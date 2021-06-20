@@ -1,70 +1,70 @@
 #!/usr/bin/env node
 'use strict';
 
+// There are two logical ways to partition the analysis/set data - either by format or by
+// generation. Splitting by format means that less data will need to be fetched as fetches can be
+// more targetted, but we instead choose to split by generation primarily due to the difficulty of
+// determining *which* format(s) to fetch - a Pokémon may have strategies in multiple formats, may
+// not have strategies for the format it is actually tiered in (a Pokémon's tier might change and
+// analyses lag behind these changes), and the cost of fetching multiple formats (in case the
+// Pokémon can't be found in the first format fetched) is seen as being worse than downloading
+// slightly more upfront (especially given multiple fetches = multiple round trips and parsing). If
+// the API always required a format param on its methods, only fetched a single format each time, or
+// if bandwidth/memory/disk space were a premium it would make more sense to split by format, but in
+// favor of simplicity and expected latency, splitting by generation wins out.
+
 const fs = require('fs');
+const path = require('path');
 const fetch = require('node-fetch');
 const stringify = require('json-stringify-pretty-compact');
+const sanitizeHtml = require('sanitize-html');
 
-const {Dex, toID} = require('@pkmn/dex');
+const {Dex, toID} = require('@pkmn/sim');
 const {Analyses} = require('smogon');
-
-const HTML = /<[^>]+>/gi;
 
 const request = retrying(throttling(args => fetch(args.url, args.init), 1, 50), 5, 20);
 
-for (const file of fs.readdirSync('analyses')) fs.unlinkSync(`analyses/${file}`);
-for (const file of fs.readdirSync('sets')) fs.unlinkSync(`sets/${file}`);
+const DATA = path.resolve(__dirname, 'data');
 
+for (const file of fs.readdirSync(path.join(DATA, 'analyses'))) {
+  fs.unlinkSync(path.join(DATA, `analyses/${file}`));
+}
+for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
+  fs.unlinkSync(path.join(DATA, `sets/${file}`));
+}
+
+// Smogon and Pokémon Showdown disagree on format names - this mapping allows us to convert from
+// the Smogon representation to the Pokémon Showdown one. Additionally, Smogon has some analyses
+// for formats Pokémon Showdown doesn't support, so this also is effectively used as a whitelist to
+// allow those formats to be included.
 const FORMATS = {
-  uber: 'ubers',
-  doubles: 'doublesou',
-  lgpeou: 'letsgoou',
   ag: 'anythinggoes',
   bh: 'balancedhackmons',
+  doubles: 'doublesou',
+  dwou: 'dreamworldou',
+  farceusuber: 'anythinggoes', // NB: technically 'Farceus Uber' is different than Anything Goes...
+  lgpeou: 'letsgoou',
+  stabmons: 'stabmons',
+  middlecup: 'middlecup',
+  uber: 'ubers',
+  vgc11: 'vgc2011',
+  vgc12: 'vgc2012',
+  vgc14: 'vgc2014',
+  vgc15: 'vgc2015',
   vgc16: 'vgc2016',
   vgc17: 'vgc2017',
   vgc18: 'vgc2018',
   vgc19: 'vgc2019ultraseries',
+  vgc20: 'vgc2020',
+  vgc21: 'vgc2021',
 };
 
-for (let gen = 8; gen <= 8; gen++) { // DEBUG
-  importGen(gen);
-}
-
-async function importGen(gen) {
-  const dex = Dex.forGen(gen);
-
-  const imports = [];
-  for (const id in dex.data.Pokedex) {
-    const species = dex.getSpecies(id);
-    if (!eligible(gen, species)) continue;
-    imports.push(importPokemon(gen, species));
-  }
-  await Promise.all(imports);
-}
-
-async function importPokemon(gen, species) {
-
-}
-
-// TODO split out sets from analysis
-// TODO compress sets, santize analysis
-async function getAnalysis(gen, species) {
-  const response = request(Analyses.request(species, gen));
-  const analyses = newMap();
-  for (const [tier, analysis] of Analyses.process(response.json())) {
-    const tierid = toID(tier);
-    const format = `gen${gen}${FORMATS[t] || t}`;
-    // FIXME confirm dex.getFormat!
-    analyses.set(format, analysis);
-  }
-  return analyses;
-}
-
+// Iterating through dex.species.all() returns a bunch of formes that Smogon either doesn't support
+// or will simply redirect to the base species - instead we filter to only the 'eligible' Pokémon to
+// return just the set of Pokémon Smogon will actually have unique analyses for.
 const NONSTANDARD = ['Unobtainable', 'Gigantamax'];
-const SUFFIXES = ['-Small', '-Medium', '-Large', '-Antique', '-Totem'];
 const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magearna'];
-
+const SUFFIXES = ['-Antique', '-Totem'];
 function eligible(gen, species) {
   if (!species.exists || species.gen > gen || species.tier === 'Illegal') return false;
   if (species.battleOnly || NONSTANDARD.includes(species.isNonstandard)) return false;
@@ -72,27 +72,142 @@ function eligible(gen, species) {
   if (PREFIXES.some(prefix => species.name.startsWith(prefix))) return false;
   if (SUFFIXES.some(suffix => species.name.endsWith(suffix))) return false;
   if (species.name.startsWith('Pikachu') && species.name !== 'Pikachu-Starter') return false;
-  return false;
+  return true;
 }
 
-function compress(format, set, species) {
+(async () => {
+  for (let gen = 1; gen <= 8; gen++) { // DEBUG
+    const dex = Dex.forGen(gen);
+
+    const imports = [];
+    for (const species of dex.species.all()) {
+      if (!eligible(gen, species)) continue;
+      imports.push(importPokemon(gen, species));
+    }
+
+    const analyses = {};
+    const sets = {};
+    for (const pokemon of await Promise.all(imports)) {
+      if (!pokemon) continue;
+      analyses[pokemon.name] = pokemon.analyses;
+      sets[pokemon.name] = pokemon.sets;
+    }
+
+    fs.writeFileSync(
+      path.join(DATA, `analyses/gen${gen}.json`),
+      stringify(analyses, {maxLength: 1000}));
+    fs.writeFileSync(
+      path.join(DATA, `sets/gen${gen}.json`),
+      stringify(sets, {maxLength: 1000}));
+  }
+})();
+
+// Fetch a Pokémon's analysis and split out the sets from the analysis text, compressing the
+// set information and sanitizing the analysis text. If the Pokémon doesn't have any strategies we
+// simply return undefined to ensure it will be elided during serialization.
+async function importPokemon(gen, species) {
+  const response = await request(Analyses.request(species, gen));
+  const json = await response.json();
+  if (!json.strategies.length) return undefined;
+
+  const analyses = {};
+  const sets = {};
+  for (const analysis of json.strategies) {
+    const tier = toID(analysis.format);
+    let format = `gen${gen}${FORMATS[tier] || tier}`;
+    // NB: we can't simply check Format.exists because @pkmn/sim doesn't support all mods
+    if (Dex.formats.get(format).effectType !== 'Format' && !FORMATS[tier]) {
+      throw new Error(`Unknown format: ${format} (${tier})`);
+    }
+    format = format.slice(4); // trim gen<N> to save space
+
+    analysis.sets = [];
+    const s = sets[format] || (sets[format] = {});
+    for (const ms of analysis.movesets) {
+      analysis.sets.push({
+        name: ms.name,
+        description: sanitize(ms.description),
+      });
+      s[ms.name] = compress(gen, format, ms, species);
+    }
+    delete analysis.movesets;
+
+    analyses[format] = {
+      overview: sanitize(analysis.overview),
+      comments: sanitize(analysis.comments),
+      sets: analysis.sets,
+      credits: !analysis.credits.teams.length && !analysis.credits.writtenBy.length
+        ? undefined : analysis.credits,
+    }
+  }
+
+  return {name: species.name, analyses, sets};
+}
+
+// Remove any fields from the Moveset that contain redundant info that we can just fill back in
+// later in order to save space on disk and over the wire.
+function compress(gen, format, set, species) {
   return {
-    level: !level || level === expectedLevel(format) ? undefined : level,
-    moves: set.moveslots.map(ms => ms.map(s => s.type ? `${s.move} ${s.type}` : s.move)),
+    levels:
+      !set.levels.length || set.levels.length === 1 && set.levels.length === expectedLevel(format)
+        ? undefined : set.levels.length === 1 ? set.level : set.levels,
+    moves: set.moveslots.map(ms => {
+      const moves = ms.map(s => s.type ? `${s.move} ${s.type}` : s.move);
+      return (moves.length === 1) ? moves[0] : moves;
+    }),
     ability: !set.abilities.length ||
-      (set.abilitis.length === 1 && set.abilities[0] === species.abilities[0])
-      ? undefined : set.abilities,
-    item: (!set.items.length || set.items[0] === 'No Item') ? undefined : set.items,
+      (set.abilities.length === 1 && set.abilities[0] === species.abilities[0])
+        ? undefined : set.abilities.length === 1 ? set.abilities[0] : set.abilities,
+    item: (!set.items.length || set.items[0] === 'No Item')
+      ? undefined : set.items.length === 1 ? set.items[0] : set.items,
     nature: set.natures.length ? set.natures : undefined,
-    ivs: set.ivconfigs.length ? set.ivconfigs : undefined, // FIXME drop 31/30
-    evs: set.evconfigs.length ? set.evconfigs : undefined, // FIXME drop 0
+    ivs: set.ivconfigs.length ? compressValues(set.ivconfigs, 31) : undefined,
+    evs: set.evconfigs.length ? compressValues(set.evconfigs, gen < 3 ? 252 : 0) : undefined,
   };
 }
 
+// Not very sophisticated, but good enough for our purposes.
 function expectedLevel(format) {
-  if (format.forcedLevel) return format.forcedLevel
-  const level = format.defaultLevel || format.maxForcedLevel || format.maxLevel || 100;
-  return level > maxForcedLevel ? maxForcedLevel : level;
+  if (format.startsWith('vgc')) return 50;
+  if (format.endsWith('lc')) return 5;
+  return 100;
+}
+
+// Removes redundant info from IVs/EVs that can be inferred.
+const STATS = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
+function compressValues(values, elide) {
+  const vs = [];
+  for (const value of values) {
+    const v = {};
+    for (const stat of STATS) {
+      if (value[stat] !== elide) v[stat] = value[stat];
+    }
+    // Smogon will specify all 0's for EVs on certain sets...
+    if (Object.keys(v).length) vs.push(v);
+  }
+  return vs.length === 1 ? vs[0] : vs;
+}
+
+// We run any HTML through sanitize-html to ensure its not problematic (though in general its
+// fairly safe to assume Smogon C&C staff is not being malicious...) while also removing any
+// relative self-links that would not work when displaying the analysis info on another domain and
+// spurious newlines. We also elide the sample set placeholder descriptions if present.
+const PLACEHOLDER = /sample set/i;
+function sanitize(html) {
+  if (!html) return undefined;
+  const clean = sanitizeHtml(html, {
+    transformTags: {
+      // Here we are making use (abusing) of the fact that sanitize-html will strip img tags by
+      // default but retain their text contents. exclusiveFilter seems like it would be a more
+      // direct way to accomplish what we want, but exclusiveFilter removes the entire tag and its
+      // text content as opposed to just the tag.
+      'a': (tagName, attribs) => {
+        return (attribs.href.startsWith('/')) ? {tagName: 'img'} : {tagName, attribs};
+      }
+    }
+  }).replace(/\n/g, ' ');
+  // NOTE: 200 is an incredibly scientific number pulled directly out of my ass
+  return PLACEHOLDER.test(clean) && clean.length < 200 ? undefined : clean;
 }
 
 class RetryableError extends Error {

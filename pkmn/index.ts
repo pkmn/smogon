@@ -7,7 +7,7 @@ import {
   NatureName,
   PokemonSet,
   Specie,
-  StatName,
+  StatID,
   StatsTable,
   toID,
 } from '@pkmn/data';
@@ -18,24 +18,23 @@ export interface Analysis extends Omit<RawAnalysis, 'sets'> {
 }
 
 interface RawAnalysis {
-  format: ID;
-  overview: string;
-  comments: {[header: string]: string};
+  overview?: string;
+  comments?: string;
   sets: Array<{
     name: string,
     desc?: string
   }>;
-  credits: Credits;
+  credits?: Credits;
 }
 
 export interface Moveset {
-  level?: number;
-  ability: AbilityName[];
-  item?: ItemName[];
-  nature?: NatureName[];
+  levels?: number | number[];
+  ability: AbilityName | AbilityName[];
+  item?: ItemName | ItemName[];
+  nature?: NatureName | NatureName[];
   ivs?: StatsTable[];
   evs?: StatsTable[];
-  moves: MoveName[][];
+  moves: Array<MoveName | MoveName[]>;
 }
 
 export type DeepPartial<T> = {
@@ -46,14 +45,29 @@ export type DeepPartial<T> = {
       : DeepPartial<T[P]>
 };
 
+type Analyses = {
+  [species: string]: {
+    [formatid: string]: RawAnalysis
+  }
+};
+
+type Sets = {
+  [species: string]: {
+    [formatid: string]: {
+      [name: string]: Moveset
+    }
+  }
+};
+
 const URL = 'https://data.pkmn.cc/';
 
 const FALLBACK = ['uber', 'ou', 'uu', 'ru', 'nu', 'pu', 'zu'] as ID[];
 const LOWEST = [2, 4, 4, 4, 4, 5, 6, 6] as const;
 
-const SUFFIXES = ['-Small', '-Medium', '-Large', '-Antique', '-Totem'];
 const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magearna'];
+const SUFFIXES = ['-Antique', '-Totem'];
 
+/** TODO */
 export class Smogon {
   private readonly fetch: (url: string) => Promise<{json(): Promise<any>}>;
   private readonly cache: {
@@ -67,6 +81,7 @@ export class Smogon {
     this.cache = {analyses: {}, sets: {}, stats: {}};
   }
 
+  /** TODO */
   async analysis(gen: Generation, species: string | Specie, format?: ID, all = false) {
     if (typeof species === 'string') {
       const s = gen.species.get(species);
@@ -78,7 +93,7 @@ export class Smogon {
     if (!formats) return undefined;
 
     const name = this.name(gen, species);
-    let analyses: Record<string, RawAnalysis> = {};
+    let analyses: Record<string /* name */, RawAnalysis> = {};
     for (format of formats) {
       const data = await this.get('analyses', format);
       if (data) {
@@ -115,6 +130,7 @@ export class Smogon {
     return analysis.sets.length ? analysis : undefined;
   }
 
+  /** TODO */
   async sets(gen: Generation, species: string | Specie, format?: ID, all = false) {
     if (typeof species === 'string') {
       const s = gen.species.get(species);
@@ -157,6 +173,7 @@ export class Smogon {
     return sets;
   }
 
+  /** TODO */
   async stats(gen: Generation, species: string | Specie, format?: ID) {
     if (typeof species === 'string') {
       const s = gen.species.get(species);
@@ -179,6 +196,7 @@ export class Smogon {
     return stats[this.name(gen, species, false, true)];
   }
 
+  /** TODO */
   fallbacks(gen: Generation, begin = 0, end: number = LOWEST[gen.num - 1], formats: ID[] = []) {
     if (begin < end) {
       for (; begin <= end; begin++) {
@@ -196,6 +214,7 @@ export class Smogon {
     return formats;
   }
 
+  // TODO
   private async get(type: 'sets' | 'analyses', format: ID) {
     let data = this.cache[type][format];
     if (!data) {
@@ -205,12 +224,13 @@ export class Smogon {
     return data;
   }
 
+  // TODO
   private async movesets(
     name: string,
     formats: ID[],
     all: boolean,
   ) {
-    let sets: Record<string, Record<string, Moveset>> = {};
+    let sets: Record<string /* species */, Record<string /* name */, Moveset>> = {};
     for (const format of formats) {
       const data = await this.get('sets', format);
       if (data) {
@@ -221,6 +241,7 @@ export class Smogon {
     return sets[name];
   }
 
+  // TODO
   private match(species: Specie, set: DeepPartial<PokemonSet>) {
     if (species.requiredAbility) return set.ability === species.requiredAbility;
     if (species.requiredItem) return set.item === species.requiredItem;
@@ -229,6 +250,7 @@ export class Smogon {
     return true;
   }
 
+  // TODO
   private name(gen: Generation, species: Specie, specific = false, stats = false) {
     if (species.isMega || species.isPrimal || species.name === 'Greninja-Ash') {
       return stats ? species.name : species.baseSpecies;
@@ -261,6 +283,7 @@ export class Smogon {
     return species.name;
   }
 
+  // TODO
   private formats(gen: Generation, species: Specie, format?: ID): ID[] | undefined {
     if (format) {
       if (format.includes('doubles')) {
@@ -310,6 +333,8 @@ export namespace TierTypes {
 //   8: ['ag', 'uber', 'ou', 'uu', 'ru', 'nu', 'pu', 'zu'],
 // } as const;
 
+
+// TODO
 function fixHP(gen: Generation, set: DeepPartial<PokemonSet>) {
   const hp = set.moves!.find(m => m.startsWith('Hidden Power'));
   if (hp) {
@@ -321,7 +346,7 @@ function fixHP(gen: Generation, set: DeepPartial<PokemonSet>) {
         fill = 31;
       } else if (gen.num === 2) {
         const dvs = {...gen.types.get(type)!.HPdvs};
-        let stat: StatName;
+        let stat: StatID;
         for (stat in dvs) {
           dvs[stat]! *= 2;
         }

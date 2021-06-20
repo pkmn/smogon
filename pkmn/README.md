@@ -40,14 +40,6 @@ the simplicity it provides.
 $ npm install @pkmn/smogon
 ```
 
-Alternatively, as [detailed below](#browser), if you are using `@pkmn/smogon` in the browser and
-want a convenient way to get started, simply depend on a transpiled and minified version via
-[unpkg](https://unpkg.com/):
-
-```html
-<script src="https://unpkg.com/@pkmn/smogon"></script>
-```
-
 ## Usage
 
 TODO
@@ -66,16 +58,6 @@ smogon.sets(gens.get(6), 'Clefable', 'gen6ubers');
 
 smogon.analysis(gens.get(4), 'Jirachi');
 ```
-
-### Browser
-
-The recommended way of using `@pkmn/data` in a web browser is to **configure your bundler**
-([Webpack](https://webpack.js.org/), [Rollup](https://rollupjs.org/),
-[Parcel](https://parceljs.org/), etc) to minimize it and package it with the rest of your
-application. If you do not use a bundler, a convenience `index.umd.js` is included in the
-package. You simply need to depend on `./node_modules/@pkmn/smogon/build/index.umd.js` in a
-`script` tag (which is what the unpkg shortcut above is doing), after which **`smogon` will be
-accessible as a global.**
 
 ## License
 

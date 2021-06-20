@@ -9,8 +9,8 @@ export type TypeName =
   'Normal' | 'Fighting' | 'Flying' | 'Poison' | 'Ground' | 'Rock' | 'Bug' | 'Ghost' | 'Steel' |
   'Fire' | 'Water' | 'Grass' | 'Electric' | 'Psychic' | 'Ice' | 'Dragon' | 'Dark' | 'Fairy' | '???';
 
-export type StatName = 'hp' | 'atk' | 'def' | 'spa' | 'spd' | 'spe';
-export type StatsTable<T = number> = { [stat in StatName]: T };
+export type StatID = 'hp' | 'atk' | 'def' | 'spa' | 'spd' | 'spe';
+export type StatsTable<T = number> = { [stat in StatID]: T };
 
 export interface Analysis {
   format: string;
@@ -23,7 +23,7 @@ export interface Analysis {
 export interface Moveset {
   name: string;
   description: string;
-  level: number;
+  levels: number[];
   abilities: string[];
   items: string[];
   moveslots: Array<Array<{ move: string; type: TypeName | null }>>;
