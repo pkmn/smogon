@@ -9,14 +9,28 @@ import {
   Specie,
   StatID,
   StatsTable,
-  toID,
+  Tier,
 } from '@pkmn/data';
 import {Credits, MovesetStatistics, Statistics} from 'smogon';
 
-export interface Analysis extends Omit<RawAnalysis, 'sets'> {
-  sets: Array<Moveset & {name: string, desc?: string}>;
-}
+// The structure of https://data.pkmn.cc/analyses/genN.json
+type Analyses = {
+  [species: string]: {
+    [tierid: string]: RawAnalysis
+  }
+};
 
+// The structure of https://data.pkmn.cc/sets/genN.json
+type Sets = {
+  [species: string]: {
+    [tierid: string]: {
+      [name: string]: Moveset
+    }
+  }
+};
+
+// The raw analysis data from https://data.pkmn.cc/ - this needs to be joined with the sets data
+// to form an Analysis which matches what is on Smogon.
 interface RawAnalysis {
   overview?: string;
   comments?: string;
@@ -27,8 +41,15 @@ interface RawAnalysis {
   credits?: Credits;
 }
 
+// The reconstituted analysis made from joining a RawAnalysis with the referenced Moveset objects.
+export interface Analysis extends Omit<RawAnalysis, 'sets'> {
+  format: ID;
+  sets: Array<Moveset & {name: string, desc?: string}>;
+}
+
+// A compressed version of the default smogon Moveset which is smaller to serialize.
 export interface Moveset {
-  levels?: number | number[];
+  level?: number | number[];
   ability: AbilityName | AbilityName[];
   item?: ItemName | ItemName[];
   nature?: NatureName | NatureName[];
@@ -37,6 +58,7 @@ export interface Moveset {
   moves: Array<MoveName | MoveName[]>;
 }
 
+// A fairly sloppy definition of DeepPartial, but good enough for our use case.
 export type DeepPartial<T> = {
   [P in keyof T]?: T[P] extends Array<infer U>
     ? Array<DeepPartial<U>>
@@ -45,35 +67,32 @@ export type DeepPartial<T> = {
       : DeepPartial<T[P]>
 };
 
-type Analyses = {
-  [species: string]: {
-    [formatid: string]: RawAnalysis
-  }
-};
-
-type Sets = {
-  [species: string]: {
-    [formatid: string]: {
-      [name: string]: Moveset
-    }
-  }
-};
-
 const URL = 'https://data.pkmn.cc/';
-
-const FALLBACK = ['uber', 'ou', 'uu', 'ru', 'nu', 'pu', 'zu'] as ID[];
-const LOWEST = [2, 4, 4, 4, 4, 5, 6, 6] as const;
 
 const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magearna'];
 const SUFFIXES = ['-Antique', '-Totem'];
 
-/** TODO */
+const FORMATS: {[key in Tier.Singles | Tier.Other]: string} = {
+  AG: 'anythinggoes',
+  Uber: 'ubers', '(Uber)': 'ubers',
+  OU: 'ou', '(OU)': 'ou', 'UUBL': 'ou',
+  UU: 'uu', 'RUBL': 'uu',
+  RU: 'ru', 'NUBL': 'ru',
+  NU: 'nu', '(NU)': 'nu', 'PUBL': 'nu',
+  PU: 'pu', '(PU)': 'pu', 'NFE': 'pu',
+  LC: 'lc',
+  Unreleased: 'anythinggoes',
+  Illegal: 'anythinggoes',
+  CAP: 'cap', 'CAP NFE': 'cap', 'CAP LC': 'cap',
+}
+
+/** Utility class for working with data from Smogon. */
 export class Smogon {
   private readonly fetch: (url: string) => Promise<{json(): Promise<any>}>;
   private readonly cache: {
-    analyses: {[formatid: string]: Record<string, RawAnalysis>},
-    sets: {[formatid: string]: Record<string, Record<string, Moveset>>},
-    stats: {[formatid: string]: Record<string, MovesetStatistics>},
+    analyses: {[gen: number]: Analyses},
+    sets: {[gen: number]: Sets},
+    stats: {[formatid: string]: {[species: string]: MovesetStatistics}},
   };
 
   constructor(fetch: (url: string) => Promise<{json(): Promise<any>}>) {
@@ -81,69 +100,72 @@ export class Smogon {
     this.cache = {analyses: {}, sets: {}, stats: {}};
   }
 
-  /** TODO */
-  async analysis(gen: Generation, species: string | Specie, format?: ID, all = false) {
+  /**
+   * Returns Analysis objects for the given Pokémon species and gen, optionally scoped to a
+   * particular format.
+   */
+  async analyses(gen: Generation, species: string | Specie, format?: ID) {
     if (typeof species === 'string') {
       const s = gen.species.get(species);
-      if (!s) return undefined;
+      if (!s) return [];
       species = s;
     }
 
-    const formats = this.formats(gen, species, format);
-    if (!formats) return undefined;
-
     const name = this.name(gen, species);
-    let analyses: Record<string /* name */, RawAnalysis> = {};
-    for (format of formats) {
-      const data = await this.get('analyses', format);
-      if (data) {
-        analyses = data as Record<string, RawAnalysis>;
-        if (analyses[name] && !all) break;
-      }
-    }
-
-    const raw = analyses[name];
-    if (!raw) return undefined;
-
-    const sets = await this.movesets(name, [format!], all);
-    if (!sets) return undefined;
-
-    const analysis: Analysis = {
-      format: raw.format,
-      overview: raw.overview,
-      comments: raw.comments,
-      credits: raw.credits,
-      sets: [],
+    const data = {
+      analyses: (await this.get('analyses', gen) as Analyses)[name],
+      sets: (await this.get('sets', gen) as Sets)[name],
     };
+    if (!data.analyses || !data.sets) return [];
 
-    for (const stub of raw.sets) {
-      const set = sets[stub.name];
-      if (set) {
-        analysis.sets.push({
-          name: stub.name,
-          desc: stub.desc,
-          ...set
-        } as Moveset & {name: string, desc?: string});
+    const result: Analysis[] = [];
+    for (const tierid in data.analyses) {
+      const f = `gen${gen.num}${tierid}` as ID;
+      if (format && f !== format) continue;
+
+      const a = data.analyses[tierid];
+      const s = data.sets[tierid];
+      if (!s) continue;
+
+      const analysis: Analysis = {
+        format: f,
+        overview: a.overview,
+        comments: a.comments,
+        credits: a.credits,
+        sets: [],
+      };
+
+      for (const stub of a.sets) {
+        const set = s[stub.name];
+        if (set && this.match(species, toSet(species, set))) {
+          analysis.sets.push({
+            name: stub.name,
+            desc: stub.desc,
+            ...set
+          } as Moveset & {name: string, desc?: string});
+        }
       }
+
+      if (analysis.sets.length) result.push(analysis);
     }
 
-    return analysis.sets.length ? analysis : undefined;
+    return result;
   }
 
-  /** TODO */
-  async sets(gen: Generation, species: string | Specie, format?: ID, all = false) {
+  /**
+   * Returns PokemonSet objects for the given Pokémon species and gen, optionally scoped to a
+   * particular format.
+   */
+  async sets(gen: Generation, species: string | Specie, format?: ID) {
     if (typeof species === 'string') {
       const s = gen.species.get(species);
-      if (!s) return undefined;
+      if (!s) return [];
       species = s;
     }
 
-    const formats = this.formats(gen, species, format);
-    if (!formats) return undefined;
-
     const name = this.name(gen, species);
-    const movesets = await this.movesets(name, formats, all);
-    if (!movesets) return undefined;
+    const data = (await this.get('sets', gen) as Sets)[name];
+    if (!data) return [];
 
     const hackmons =
       (format?.endsWith('balancedhackmons') &&
@@ -153,27 +175,21 @@ export class Smogon {
     const speciesName = hackmons ? species.name : this.name(gen, species, true);
 
     const sets = [];
-    for (const key in movesets) {
-      const s = movesets[key];
-      const set: DeepPartial<PokemonSet> = {
-        name: key,
-        species: speciesName,
-        item: s.item?.[0],
-        ability: s.ability?.[0],
-        moves: s.moves.map(ms => ms[0]),
-        level: s.level,
-        nature: s.nature?.[0],
-        ivs: s.ivs?.[0],
-        evs: s.evs?.[0],
-        gigantamax: species.isNonstandard === 'Gigantamax',
-      };
-      if (this.match(species, set)) sets.push(fixHP(gen, set));
+    for (const tierid in data) {
+      if (format && `gen${gen.num}${tierid}` !== format) continue;
+      for (const name in data[tierid]) {
+        const set = toSet(species, data[tierid][name], name, speciesName);
+        if (this.match(species, set)) sets.push(fixHP(gen, set));
+      }
     }
 
     return sets;
   }
 
-  /** TODO */
+  /**
+   * Returns moveset usage statistics information for the given Pokémon species and gen for the
+   * species' default format or the optional format provided.
+   */
   async stats(gen: Generation, species: string | Specie, format?: ID) {
     if (typeof species === 'string') {
       const s = gen.species.get(species);
@@ -181,9 +197,7 @@ export class Smogon {
       species = s;
     }
 
-    const formats = this.formats(gen, species, format);
-    if (!formats) return undefined;
-    format = formats[0];
+    format = format || `gen${gen.num}${FORMATS[species.tier]}` as ID;
 
     let stats = this.cache.stats[format];
     if (!stats) {
@@ -196,52 +210,17 @@ export class Smogon {
     return stats[this.name(gen, species, false, true)];
   }
 
-  /** TODO */
-  fallbacks(gen: Generation, begin = 0, end: number = LOWEST[gen.num - 1], formats: ID[] = []) {
-    if (begin < end) {
-      for (; begin <= end; begin++) {
-        const tier = FALLBACK[begin] === 'uber' ? 'ubers' : FALLBACK[begin];
-        if (tier === 'ru' && gen.num < 5) continue;
-        formats.push(`gen${gen.num}${tier}` as ID);
-      }
-    } else {
-      for (; begin >= end; begin--) {
-        const tier = FALLBACK[begin] === 'uber' ? 'ubers' : FALLBACK[begin];
-        if (tier === 'ru' && gen.num < 5) continue;
-        formats.push(`gen${gen.num}${tier}` as ID);
-      }
-    }
-    return formats;
-  }
-
-  // TODO
-  private async get(type: 'sets' | 'analyses', format: ID) {
-    let data = this.cache[type][format];
+  // Fetch analysis or set data for a specific gen and cache the result.
+  private async get(type: 'sets' | 'analyses', gen: Generation) {
+    let data = this.cache[type][gen.num];
     if (!data) {
-      const response = await this.fetch(`${URL}/${type}/${format}.json`);
-      data = this.cache[type][format] = await response.json();
+      const response = await this.fetch(`${URL}/${type}/gen${gen.num}.json`);
+      data = this.cache[type][gen.num] = await response.json();
     }
     return data;
   }
 
-  // TODO
-  private async movesets(
-    name: string,
-    formats: ID[],
-    all: boolean,
-  ) {
-    let sets: Record<string /* species */, Record<string /* name */, Moveset>> = {};
-    for (const format of formats) {
-      const data = await this.get('sets', format);
-      if (data) {
-        sets = data as Record<string, Record<string, Moveset>>;
-        if (sets[name] && !all) return sets[name];
-      }
-    }
-    return sets[name];
-  }
-
-  // TODO
+  // Returns whether or not the provided set is a match for the forme of the species provided.
   private match(species: Specie, set: DeepPartial<PokemonSet>) {
     if (species.requiredAbility) return set.ability === species.requiredAbility;
     if (species.requiredItem) return set.item === species.requiredItem;
@@ -250,7 +229,8 @@ export class Smogon {
     return true;
   }
 
-  // TODO
+  // Returns the name of the species in the provided gen that the data will be keyed as, optionally
+  // returning a specific cosmetic forme or the key for stats as opposed to for sets/analyses.
   private name(gen: Generation, species: Specie, specific = false, stats = false) {
     if (species.isMega || species.isPrimal || species.name === 'Greninja-Ash') {
       return stats ? species.name : species.baseSpecies;
@@ -282,68 +262,34 @@ export class Smogon {
 
     return species.name;
   }
-
-  // TODO
-  private formats(gen: Generation, species: Specie, format?: ID): ID[] | undefined {
-    if (format) {
-      if (format.includes('doubles')) {
-
-      } else {
-        // turn format into tier, + do tier order
-        // if format cant be turned into tier, just return [format]
-      }
-
-    }
-
-
-    let id = toID(tier);
-    if (id === 'illegal' || id === 'unreleased') return undefined;
-    if (id.startsWith('cap')) return [`gen${gen.num}cap`] as ID[];
-    if (id.startsWith('lc')) return [`gen${gen.num}lc`] as ID[];
-    if (id === 'ag') {
-      return [`gen${gen.num}anythinggoes` as ID, ...this.formats(gen, 'Uber', format)!];
-    }
-
-    let begin =
-      id === 'nfe' ? LOWEST[gen.num - 1] :
-      id.endsWith('bl') ? FALLBACK.indexOf(id.slice(0, -2) as ID) - 1
-      : FALLBACK.indexOf(id);
-
-    return this.fallbacks(gen, begin, 0, this.fallbacks(gen, begin));
-  }
 }
 
-/*
-export namespace TierTypes {
-  export type Singles = "AG" | "Uber" | "(Uber)" | "OU" | "(OU)" | "UUBL" | "UU" | "RUBL" | "RU" | "NUBL" | "NU" |
-  "(NU)" | "PUBL" | "PU" | "(PU)" | "NFE" | "LC Uber" | "LC";
-  export type Doubles = "DUber" | "(DUber)" | "DOU" | "(DOU)" | "DBL" | "DUU" | "(DUU)" | "NFE" | "LC Uber" | "LC";
-  export type Other = "Unreleased" | "Illegal" | "CAP" | "CAP NFE" | "CAP LC";
+// TODO move to private
+function toSet(species: Specie, s: Moveset, name?: string, speciesName?: string): DeepPartial<PokemonSet> {
+  return {
+    name,
+    species: speciesName || species.name,
+    item: Array.isArray(s.item) ? s.item[0] : s.item,
+    ability: Array.isArray(s.ability) ? s.ability[0] : s.ability,
+    moves: s.moves.map(ms => Array.isArray(ms) ? ms[0] : ms),
+    level: Array.isArray(s.level) ? s.level[0] : s.level,
+    nature: Array.isArray(s.nature) ? s.nature[0] : s.nature,
+    ivs: s.ivs?.[0], // FIXME
+    evs: s.evs?.[0], // FIXME
+    gigantamax: species.isNonstandard === 'Gigantamax',
+  };
 }
-*/
 
-// static readonly FALLBACK = {
-//   1: ['uber', 'ou', 'uu'],
-//   2: ['uber', 'ou', 'uu', 'nu'],
-//   3: ['uber', 'ou', 'uu', 'nu'],
-//   4: ['ag', 'uber', 'ou', 'uu', 'nu'],
-//   5: ['uber', 'ou', 'uu', 'ru', 'nu'],
-//   6: ['ag', 'uber', 'ou', 'uu', 'ru', 'nu', 'pu'],
-//   7: ['ag', 'uber', 'ou', 'uu', 'ru', 'nu', 'pu', 'zu'],
-//   8: ['ag', 'uber', 'ou', 'uu', 'ru', 'nu', 'pu', 'zu'],
-// } as const;
-
-
-// TODO
+// TODO move to private
 function fixHP(gen: Generation, set: DeepPartial<PokemonSet>) {
   const hp = set.moves!.find(m => m.startsWith('Hidden Power'));
   if (hp) {
-    let fill = gen.num <= 2 ? 30 : 31;
+    let fill = gen.num <= 2 ? 30 : 31; // TODO why 30?
     const type = hp.slice(13);
     if (type && gen.types.getHiddenPower(gen.stats.fill(set.ivs || {}, fill)).type !== type) {
       if (!set.ivs || (gen.num >= 7 && (!set.level || set.level === 100))) {
         set.hpType = type;
-        fill = 31;
+        fill = 31; // FIXME this never gets used??
       } else if (gen.num === 2) {
         const dvs = {...gen.types.get(type)!.HPdvs};
         let stat: StatID;
@@ -359,3 +305,81 @@ function fixHP(gen: Generation, set: DeepPartial<PokemonSet>) {
   }
   return set;
 }
+
+/*
+function setHiddenPowerIVs(
+  gen: Generation,
+  pokemon: {level: number; ivs: StatsTable},
+  moves: string[],
+  override = false
+) {
+  let hpType: Type | 'infer' | undefined = undefined;
+  for (const move of moves) {
+    const id = toID(move);
+    if (id.startsWith('hiddenpower')) {
+      if (hpType) throw new Error('Cannot have more than one Hidden Power on a set');
+      const type = gen.types.get(id.slice(11));
+      if (gen.num === 1 || gen.num === 8 || !type || is(type.name, '???', 'Normal', 'Fairy')) {
+        if (id === 'hiddenpower') {
+          hpType = 'infer';
+        } else {
+          invalid(gen, 'Hidden Power', type);
+        }
+      } else {
+        hpType = type;
+      }
+    }
+  }
+  if (!hpType || hpType === 'infer') return;
+  if (gen.num >= 7 && pokemon.level === 100) return;
+  if (gen.types.getHiddenPower(pokemon.ivs).type === hpType.name) return;
+
+  let ivs = hpType.HPivs;
+  if (gen.num <= 2) {
+    ivs = {};
+    for (const stat in hpType.HPdvs) {
+      ivs[stat as StatID] = gen.stats.toIV(hpType.HPdvs[stat as StatID]!);
+    }
+  }
+
+  if (override) {
+    for (const stat of gen.stats) {
+      pokemon.ivs[stat] = ivs[stat] || 31;
+    }
+  } else {
+    const max = gen.num <= 2 ? 30 : 31;
+    let maxed = true;
+    for (const stat of gen.stats) {
+      if (!(pokemon.ivs[stat] >= max) && pokemon.ivs[stat] !== ivs[stat]) {
+        maxed = false;
+        break;
+      }
+    }
+    if (maxed) {
+      for (const stat of gen.stats) {
+        pokemon.ivs[stat] = ivs[stat] || 31;
+      }
+    } else {
+      throw new Error('Cannot set Hidden Power IVs over non-default IVs');
+    }
+  }
+}
+
+function correctHPDV(
+  gen: Generation,
+  pokemon: {species: Specie; ivs: StatsTable},
+  setHPDV = false
+) {
+  const expectedHPDV = gen.stats.getHPDV(pokemon.ivs);
+  const actualHPDV = gen.stats.toDV(pokemon.ivs.hp!);
+  if (gen.num <= 2 && expectedHPDV !== actualHPDV) {
+    if (setHPDV) {
+      throw new Error(
+        `${pokemon.species.name} is required to have an HP DV of ` +
+        `${expectedHPDV} in generations 1 and 2 but it is ${actualHPDV}`
+      );
+    }
+    pokemon.ivs.hp = gen.stats.toIV(expectedHPDV);
+  }
+}
+*/

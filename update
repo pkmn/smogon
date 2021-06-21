@@ -148,7 +148,7 @@ async function importPokemon(gen, species) {
 // later in order to save space on disk and over the wire.
 function compress(gen, format, set, species) {
   return {
-    levels:
+    level:
       !set.levels.length || set.levels.length === 1 && set.levels.length === expectedLevel(format)
         ? undefined : set.levels.length === 1 ? set.level : set.levels,
     moves: set.moveslots.map(ms => {
@@ -160,7 +160,8 @@ function compress(gen, format, set, species) {
         ? undefined : set.abilities.length === 1 ? set.abilities[0] : set.abilities,
     item: (!set.items.length || set.items[0] === 'No Item')
       ? undefined : set.items.length === 1 ? set.items[0] : set.items,
-    nature: set.natures.length ? set.natures : undefined,
+    nature: set.natures.length ?
+      set.natures.length === 1 ? set.natures[0] : set.natures : undefined,
     ivs: set.ivconfigs.length ? compressValues(set.ivconfigs, 31) : undefined,
     evs: set.evconfigs.length ? compressValues(set.evconfigs, gen < 3 ? 252 : 0) : undefined,
   };
