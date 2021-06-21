@@ -72,6 +72,7 @@ const URL = 'https://data.pkmn.cc/';
 const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magearna'];
 const SUFFIXES = ['-Antique', '-Totem'];
 
+// Conversion between a Pokémon's Tier and a format suffix.
 const FORMATS: {[key in Tier.Singles | Tier.Other]: string} = {
   AG: 'anythinggoes',
   Uber: 'ubers', '(Uber)': 'ubers',
@@ -84,9 +85,9 @@ const FORMATS: {[key in Tier.Singles | Tier.Other]: string} = {
   Unreleased: 'anythinggoes',
   Illegal: 'anythinggoes',
   CAP: 'cap', 'CAP NFE': 'cap', 'CAP LC': 'cap',
-}
+};
 
-/** Utility class for working with data from Smogon. */
+/** Utility class for working with data from Smogon, requires a fetch function to request data. */
 export class Smogon {
   private readonly fetch: (url: string) => Promise<{json(): Promise<any>}>;
   private readonly cache: {
