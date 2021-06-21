@@ -76,7 +76,7 @@ function eligible(gen, species) {
 }
 
 (async () => {
-  for (let gen = 1; gen <= 8; gen++) { // DEBUG
+  for (let gen = 1; gen <= 8; gen++) {
     const dex = Dex.forGen(gen);
 
     const imports = [];
@@ -93,12 +93,12 @@ function eligible(gen, species) {
       sets[pokemon.name] = pokemon.sets;
     }
 
+    // NOTE: This pretty stringify will result in ~10% larger files, though we don't care because
+    // this will amount to significantly less after gzip and we want to have meaningful diffs
     fs.writeFileSync(
-      path.join(DATA, `analyses/gen${gen}.json`),
-      stringify(analyses, {maxLength: 1000}));
+      path.join(DATA, `analyses/gen${gen}.json`), stringify(analyses, {maxLength: 1000}));
     fs.writeFileSync(
-      path.join(DATA, `sets/gen${gen}.json`),
-      stringify(sets, {maxLength: 1000}));
+      path.join(DATA, `sets/gen${gen}.json`), stringify(sets, {maxLength: 1000}));
   }
 })();
 
