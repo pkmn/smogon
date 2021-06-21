@@ -11,21 +11,33 @@ import {
   StatsTable,
   Tier,
 } from '@pkmn/data';
-import {Credits, MovesetStatistics, Statistics} from 'smogon';
+import {Credits, UsageStatistics, Statistics} from 'smogon';
 
 // The structure of https://data.pkmn.cc/analyses/genN.json
-type Analyses = {
+type GenAnalyses = {
   [species: string]: {
     [tierid: string]: RawAnalysis
   }
 };
 
+// The structure of https://data.pkmn.cc/analyses/genNtier.json
+type FormatAnalyses = {
+  [species: string]: RawAnalysis
+};
+
 // The structure of https://data.pkmn.cc/sets/genN.json
-type Sets = {
+type GenSets = {
   [species: string]: {
     [tierid: string]: {
       [name: string]: Moveset
     }
+  }
+};
+
+// The structure of https://data.pkmn.cc/sets/genNtier.json
+type FormatSets = {
+  [species: string]: {
+      [name: string]: Moveset
   }
 };
 
@@ -53,8 +65,8 @@ export interface Moveset {
   ability: AbilityName | AbilityName[];
   item?: ItemName | ItemName[];
   nature?: NatureName | NatureName[];
-  ivs?: StatsTable[];
-  evs?: StatsTable[];
+  ivs?: Partial<StatsTable> | Partial<StatsTable>[];
+  evs?: Partial<StatsTable> | Partial<StatsTable>[];
   moves: Array<MoveName | MoveName[]>;
 }
 
@@ -91,14 +103,22 @@ const FORMATS: {[key in Tier.Singles | Tier.Other]: string} = {
 export class Smogon {
   private readonly fetch: (url: string) => Promise<{json(): Promise<any>}>;
   private readonly cache: {
-    analyses: {[gen: number]: Analyses},
-    sets: {[gen: number]: Sets},
-    stats: {[formatid: string]: {[species: string]: MovesetStatistics}},
+    gen: {
+      analyses: {[gen: number]: GenAnalyses},
+      sets: {[gen: number]: GenSets},
+    },
+    format: {
+      analyses: {[formatid: string]: FormatAnalyses},
+      sets: {[formatid: string]: FormatSets},
+      stats: {[formatid: string]: UsageStatistics['data']},
+    }
   };
+  private readonly minimal: boolean; // TODO
 
-  constructor(fetch: (url: string) => Promise<{json(): Promise<any>}>) {
+  constructor(fetch: (url: string) => Promise<{json(): Promise<any>}>, minimal = false) {
     this.fetch = fetch;
-    this.cache = {analyses: {}, sets: {}, stats: {}};
+    this.cache = {gen: {analyses: {}, sets: {}}, format: {analyses: {}, sets: {}, stats: {}}};
+    this.minimal = minimal;
   }
 
   /**
@@ -114,8 +134,8 @@ export class Smogon {
 
     const name = this.name(gen, species);
     const data = {
-      analyses: (await this.get('analyses', gen) as Analyses)[name],
-      sets: (await this.get('sets', gen) as Sets)[name],
+      analyses: (await this.get('analyses', gen) as GenAnalyses)[name],
+      sets: (await this.get('sets', gen) as GenSets)[name],
     };
     if (!data.analyses || !data.sets) return [];
 
@@ -138,7 +158,7 @@ export class Smogon {
 
       for (const stub of a.sets) {
         const set = s[stub.name];
-        if (set && this.match(species, toSet(species, set))) {
+        if (set && this.match(species, this.toSet(species, set))) {
           analysis.sets.push({
             name: stub.name,
             desc: stub.desc,
@@ -165,7 +185,7 @@ export class Smogon {
     }
 
     const name = this.name(gen, species);
-    const data = (await this.get('sets', gen) as Sets)[name];
+    const data = (await this.get('sets', gen) as GenSets)[name];
     if (!data) return [];
 
     const hackmons =
@@ -179,8 +199,8 @@ export class Smogon {
     for (const tierid in data) {
       if (format && `gen${gen.num}${tierid}` !== format) continue;
       for (const name in data[tierid]) {
-        const set = toSet(species, data[tierid][name], name, speciesName);
-        if (this.match(species, set)) sets.push(fixHP(gen, set));
+        const set = this.toSet(species, data[tierid][name], name, speciesName);
+        if (this.match(species, set)) sets.push(this.fixHP(gen, set));
       }
     }
 
@@ -200,12 +220,12 @@ export class Smogon {
 
     format = format || `gen${gen.num}${FORMATS[species.tier]}` as ID;
 
-    let stats = this.cache.stats[format];
+    let stats = this.cache.format.stats[format];
     if (!stats) {
       const latest = await Statistics.latestDate(format, true);
       if (!latest) return undefined;
       const response = await this.fetch(Statistics.url(latest.date, format));
-      stats = this.cache.stats[format] = (await response.json()).data;
+      stats = this.cache.format.stats[format] = (await response.json()).data;
     }
 
     return stats[this.name(gen, species, false, true)];
@@ -213,10 +233,10 @@ export class Smogon {
 
   // Fetch analysis or set data for a specific gen and cache the result.
   private async get(type: 'sets' | 'analyses', gen: Generation) {
-    let data = this.cache[type][gen.num];
+    let data = this.cache.gen[type][gen.num];
     if (!data) {
       const response = await this.fetch(`${URL}/${type}/gen${gen.num}.json`);
-      data = this.cache[type][gen.num] = await response.json();
+      data = this.cache.gen[type][gen.num] = await response.json();
     }
     return data;
   }
@@ -263,124 +283,45 @@ export class Smogon {
 
     return species.name;
   }
-}
 
-// TODO move to private
-function toSet(species: Specie, s: Moveset, name?: string, speciesName?: string): DeepPartial<PokemonSet> {
-  return {
-    name,
-    species: speciesName || species.name,
-    item: Array.isArray(s.item) ? s.item[0] : s.item,
-    ability: Array.isArray(s.ability) ? s.ability[0] : s.ability,
-    moves: s.moves.map(ms => Array.isArray(ms) ? ms[0] : ms),
-    level: Array.isArray(s.level) ? s.level[0] : s.level,
-    nature: Array.isArray(s.nature) ? s.nature[0] : s.nature,
-    ivs: s.ivs?.[0], // FIXME
-    evs: s.evs?.[0], // FIXME
-    gigantamax: species.isNonstandard === 'Gigantamax',
-  };
-}
-
-// TODO move to private
-function fixHP(gen: Generation, set: DeepPartial<PokemonSet>) {
-  const hp = set.moves!.find(m => m.startsWith('Hidden Power'));
-  if (hp) {
-    let fill = gen.num <= 2 ? 30 : 31; // TODO why 30?
-    const type = hp.slice(13);
-    if (type && gen.types.getHiddenPower(gen.stats.fill(set.ivs || {}, fill)).type !== type) {
-      if (!set.ivs || (gen.num >= 7 && (!set.level || set.level === 100))) {
-        set.hpType = type;
-        fill = 31; // FIXME this never gets used??
-      } else if (gen.num === 2) {
-        const dvs = {...gen.types.get(type)!.HPdvs};
-        let stat: StatID;
-        for (stat in dvs) {
-          dvs[stat]! *= 2;
-        }
-        set.ivs = {...dvs, ...set.ivs};
-        set.ivs.hp = gen.stats.getHPDV(set.ivs);
-      } else {
-        set.ivs = {...gen.types.get(type)!.HPivs, ...set.ivs};
-      }
-    }
+  // Returns a PokemonSet for the species given a Moveset, optionally named by name and for the
+  // specific speciesName (eg. used to set a specific cosmetic forme).
+  private toSet(species: Specie, s: Moveset, name?: string, speciesName?: string) {
+    return {
+      name,
+      species: speciesName || species.name,
+      item: Array.isArray(s.item) ? s.item[0] : s.item,
+      ability: Array.isArray(s.ability) ? s.ability[0] : s.ability,
+      moves: s.moves.map(ms => Array.isArray(ms) ? ms[0] : ms),
+      level: Array.isArray(s.level) ? s.level[0] : s.level,
+      nature: Array.isArray(s.nature) ? s.nature[0] : s.nature,
+      ivs: Array.isArray(s.ivs) ? s.ivs[0] : s.ivs,
+      evs: Array.isArray(s.evs) ? s.evs[0] : s.evs,
+      gigantamax: species.isNonstandard === 'Gigantamax',
+    } as DeepPartial<PokemonSet>;
   }
-  return set;
-}
 
-/*
-function setHiddenPowerIVs(
-  gen: Generation,
-  pokemon: {level: number; ivs: StatsTable},
-  moves: string[],
-  override = false
-) {
-  let hpType: Type | 'infer' | undefined = undefined;
-  for (const move of moves) {
-    const id = toID(move);
-    if (id.startsWith('hiddenpower')) {
-      if (hpType) throw new Error('Cannot have more than one Hidden Power on a set');
-      const type = gen.types.get(id.slice(11));
-      if (gen.num === 1 || gen.num === 8 || !type || is(type.name, '???', 'Normal', 'Fairy')) {
-        if (id === 'hiddenpower') {
-          hpType = 'infer';
+  // Clobber a set's IVs if the Pokémon has Hidden Power and the IVs don't match the required IVs
+  // for the given gen.
+  private fixHP(gen: Generation, set: DeepPartial<PokemonSet>) {
+    const hp = set.moves!.find(m => m.startsWith('Hidden Power'));
+    if (hp) {
+      const type = gen.types.get(hp.slice(13));
+      if (type && gen.types.getHiddenPower(gen.stats.fill({...set.ivs}, 31)).type !== type.name) {
+        if (!set.ivs || (gen.num >= 7 && (!set.level || set.level === 100))) {
+          set.hpType = type.name;
+        } else if (gen.num === 2) {
+          const ivs: Partial<StatsTable> = {};
+          for (const stat in type.HPdvs) {
+            ivs[stat as StatID] = gen.stats.toIV(type.HPdvs[stat as StatID]!);
+          }
+          ivs.hp = gen.stats.toIV(gen.stats.getHPDV(set.ivs));
+          set.ivs = ivs;
         } else {
-          invalid(gen, 'Hidden Power', type);
+          set.ivs = type.HPivs;
         }
-      } else {
-        hpType = type;
       }
     }
-  }
-  if (!hpType || hpType === 'infer') return;
-  if (gen.num >= 7 && pokemon.level === 100) return;
-  if (gen.types.getHiddenPower(pokemon.ivs).type === hpType.name) return;
-
-  let ivs = hpType.HPivs;
-  if (gen.num <= 2) {
-    ivs = {};
-    for (const stat in hpType.HPdvs) {
-      ivs[stat as StatID] = gen.stats.toIV(hpType.HPdvs[stat as StatID]!);
-    }
-  }
-
-  if (override) {
-    for (const stat of gen.stats) {
-      pokemon.ivs[stat] = ivs[stat] || 31;
-    }
-  } else {
-    const max = gen.num <= 2 ? 30 : 31;
-    let maxed = true;
-    for (const stat of gen.stats) {
-      if (!(pokemon.ivs[stat] >= max) && pokemon.ivs[stat] !== ivs[stat]) {
-        maxed = false;
-        break;
-      }
-    }
-    if (maxed) {
-      for (const stat of gen.stats) {
-        pokemon.ivs[stat] = ivs[stat] || 31;
-      }
-    } else {
-      throw new Error('Cannot set Hidden Power IVs over non-default IVs');
-    }
+    return set;
   }
 }
-
-function correctHPDV(
-  gen: Generation,
-  pokemon: {species: Specie; ivs: StatsTable},
-  setHPDV = false
-) {
-  const expectedHPDV = gen.stats.getHPDV(pokemon.ivs);
-  const actualHPDV = gen.stats.toDV(pokemon.ivs.hp!);
-  if (gen.num <= 2 && expectedHPDV !== actualHPDV) {
-    if (setHPDV) {
-      throw new Error(
-        `${pokemon.species.name} is required to have an HP DV of ` +
-        `${expectedHPDV} in generations 1 and 2 but it is ${actualHPDV}`
-      );
-    }
-    pokemon.ivs.hp = gen.stats.toIV(expectedHPDV);
-  }
-}
-*/

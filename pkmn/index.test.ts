@@ -1,10 +1,10 @@
 import {promises as fs} from 'fs';
 import * as path from 'path';
 
-import {GenerationNum, Generations, PokemonSet, Specie} from '@pkmn/data';
+import {GenerationNum, Generations, Generation, PokemonSet, Specie, AbilityName, ItemName, MoveName} from '@pkmn/data';
 import {Dex} from '@pkmn/dex';
 
-import {Smogon, DeepPartial} from './index';
+import {Smogon, DeepPartial, Moveset} from './index';
 
 const gens = new Generations(Dex, d => !!d.exists);
 const gen = (num: GenerationNum) => gens.get(num);
@@ -16,7 +16,6 @@ const fetch = async (url: string) => {
   return JSON.parse(await fs.readFile(name, 'utf8'));
 };
 
-// FIXME TODO test against modified @smogon/sets (remove validation?)
 describe('Smogon', () => {
   test.todo('analyses');
   test.todo('sets');
@@ -70,6 +69,70 @@ describe('Smogon', () => {
     expect(name(5, 'Keldeo-Resolute', true)).toEqual('Keldeo-Resolute');
   });
 
-  test.todo('toSet');
-  test.todo('fixHP');
+  test('toSet', () => {
+    const toSet = (gn: GenerationNum, s: string, ms: Moveset, n?: string, sn?: string) => {
+      const g = gen(gn);
+      return (new Smogon(fetch) as any).toSet(
+        g.species.get(s)!, ms, n, sn) as DeepPartial<PokemonSet>;
+    };
+
+    expect(toSet(7, 'Alakazam', {
+      moves: [
+        'Psychic', 'Focus Blast', 'Shadow Ball', ['Hidden Power Fire', 'Hidden Power Ice'],
+      ] as Array<MoveName | MoveName[]>,
+      ability: 'Magic Guard' as AbilityName,
+      item: 'Life Orb' as ItemName,
+      nature: 'Timid',
+      evs: {spa: 252, spd: 4, spe: 252},
+    }, 'Name')).toEqual({
+      name: 'Name',
+      species: 'Alakazam',
+      item: 'Life Orb',
+      ability: 'Magic Guard',
+      moves: ['Psychic', 'Focus Blast', 'Shadow Ball', 'Hidden Power Fire'],
+      level: undefined,
+      nature: 'Timid',
+      evs: {spa: 252, spd: 4, spe: 252},
+      ivs: undefined,
+      gigantamax: false,
+    });
+    expect(toSet(8, 'Venusaur-Gmax', {
+      moves: [
+        'Growth', 'Giga Drain', 'Weather Ball', ['Sludge Bomb', 'Solar Beam']
+      ] as Array<MoveName | MoveName[]>,
+      level: [50, 55],
+      ability: ['Overgrow', 'Chlorophyll'] as AbilityName[],
+      item: ['Choice Specs', 'Leftovers'] as ItemName[],
+      nature: ['Modest', 'Bold'],
+      evs: [{spa: 252, spd: 4, spe: 252}, {hp: 4, def: 252, spd: 252}],
+      ivs: [{atk: 0}, {spd: 0}]
+    }, undefined, 'Venusaur-Gmax')).toEqual({
+      species: 'Venusaur-Gmax',
+      item: 'Choice Specs',
+      ability: 'Overgrow',
+      moves: ['Growth', 'Giga Drain', 'Weather Ball', 'Sludge Bomb'],
+      level: 50,
+      nature: 'Modest',
+      evs: {'spa': 252, 'spd': 4, 'spe': 252},
+      ivs: {atk: 0},
+      gigantamax: true,
+    });
+  });
+
+  test('fixHP', () => {
+    const fixHP = (gen: Generation, set: DeepPartial<PokemonSet>) =>
+      (new Smogon(fetch) as any).fixHP(gen, set) as DeepPartial<PokemonSet>;
+
+    expect(fixHP(gen(6), {moves: ['Tackle'], ivs: {atk: 4, def: 3}}).ivs).toEqual({atk: 4, def: 3});
+    expect(fixHP(gen(6), {moves: ['Hidden Power Ice'], ivs: {atk: 4, def: 3}}).ivs)
+      .toEqual({atk: 30, def: 30});
+    expect(fixHP(gen(7), {moves: ['Hidden Power Fire'], ivs: {atk: 4, def: 3}}).ivs)
+      .toEqual({atk: 4, def: 3});
+    expect(fixHP(gen(7), {moves: ['Hidden Power Fire'], ivs: {atk: 4, def: 3}}).hpType)
+      .toEqual('Fire');
+    expect(fixHP(gen(7), {moves: ['Hidden Power Steel'], level: 99, ivs: {atk: 4, def: 3}}).ivs)
+      .toEqual({spd: 30});
+    expect(fixHP(gen(2), {moves: ['Hidden Power Ice'], ivs: {atk: 4, def: 3}}).ivs)
+      .toEqual({hp: 15, def: 27});
+  });
 });

@@ -25,9 +25,6 @@ provides, with several notable differences:
 - `@pkmn/smogon` fetches the latest data as opposed to `@smogon/sets` where the data only updates
    approximately monthly when a new package is released.
 - `@pkmn/smogon` supports returning analysis and moveset information as opposed to just sets.
-- `@pkmn/smogon` provides some higher level functionality, containing logic for selecting the 'best'
-  sets for a particular format as opposed to simply providing all sets for a Pokémon across every
-  format.
 
 Both packages rely on [`smogon`](https://www.npmjs.com/package/smogon) to handle fetching the raw
 data from Smogon but make different tradeoffs that may appeal to different types of applications.
@@ -56,7 +53,11 @@ const smogon = new Smogon(fetch);
 smogon.sets(gens.get(8), 'Dragapult');
 smogon.sets(gens.get(6), 'Clefable', 'gen6ubers');
 
-smogon.analysis(gens.get(4), 'Jirachi');
+smogon.analyses(gens.get(4), 'Jirachi');
+smogon.analyses(gens.get(2), 'Blastoise', 'gen2uu');
+
+smogon.stats(gens.get(1), 'Snorlax');
+smogon.stats(gens.get(7), 'Greninja-Ash', 'gen7monotype');
 ```
 
 ## License
