@@ -19,7 +19,7 @@ provide a stable way of accessing the data Smogon exposes on its site. Two packa
   [Smogon](https://smogon.com) analysis and moveset information available at
   [https://data.pkmn.cc](https://data.pkmn.cc).
 
-[https://data.pkmn.cc](https://data.pkmn.cc/) is [refreshed
+[https://data.pkmn.cc](https://pkmn.github.io/smogon) is [refreshed
 automatically](https://simonwillison.net/2020/Oct/9/git-scraping/) every [24
 hours](https://github.com/pkmn/smogon/tree/master/.github/workflows/update.yml) and allows for
 efficient batch access of Smogon analysis and statistics data by format or generation. This data can
