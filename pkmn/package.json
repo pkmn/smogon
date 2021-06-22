@@ -27,8 +27,8 @@
     "@pkmn/dex": "^0.4.8"
   },
   "scripts": {
-    "lint": "eslint --cache --ext ts",
-    "fix": "eslint --fix --ext ts",
+    "lint": "eslint --cache *.ts",
+    "fix": "eslint --fix *.ts",
     "compile": "tsc -p .",
     "build": "npm run compile",
     "test": "jest",

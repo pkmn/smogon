@@ -18,8 +18,8 @@
     "index.ts"
   ],
   "scripts": {
-    "lint": "eslint --cache --ext ts",
-    "fix": "eslint --fix --ext ts",
+    "lint": "eslint --cache *.ts",
+    "fix": "eslint --fix *.ts",
     "compile": "node compile-fixtures && tsc -p .",
     "build": "npm run compile",
     "test": "jest",

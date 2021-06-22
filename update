@@ -29,7 +29,6 @@ const request = retrying(throttling(args => fetch(args.url, args.init), 1, 50), 
 
 const DATA = path.resolve(__dirname, 'data');
 
-if (fs.existsSync(path.join(DATA, 'index.json'))) fs.unlinkSync(path.join(DATA, 'index.json'));
 for (const file of fs.readdirSync(path.join(DATA, 'analyses'))) {
   fs.unlinkSync(path.join(DATA, `analyses/${file}`));
 }
@@ -122,7 +121,8 @@ function eligible(gen, species) {
     sorted.analyses[key] = index.analyses[key];
     sorted.sets[key] = index.sets[key];
   }
-  fs.writeFileSync(path.join(DATA, 'index.json'), stringify(sorted));
+  fs.writeFileSync(path.join(DATA, 'analyses/index.json'), stringify(sorted.analyses));
+  fs.writeFileSync(path.join(DATA, 'sets/index.json'), stringify(sorted.sets));
 })();
 
 // Fetch a Pokémon's analysis and split out the sets from the analysis text, compressing the

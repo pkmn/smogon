@@ -14,32 +14,32 @@ import {
 import {Credits, UsageStatistics, Statistics} from 'smogon';
 
 // The structure of https://data.pkmn.cc/analyses/genN.json
-type GenAnalyses = {
+interface GenAnalyses {
   [species: string]: {
-    [tierid: string]: RawAnalysis
-  }
-};
+    [tierid: string]: RawAnalysis;
+  };
+}
 
 // The structure of https://data.pkmn.cc/analyses/genNtier.json
-type FormatAnalyses = {
-  [species: string]: RawAnalysis
-};
+interface FormatAnalyses {
+  [species: string]: RawAnalysis;
+}
 
 // The structure of https://data.pkmn.cc/sets/genN.json
-type GenSets = {
+interface GenSets {
   [species: string]: {
     [tierid: string]: {
-      [name: string]: Moveset
-    }
-  }
-};
+      [name: string]: Moveset;
+    };
+  };
+}
 
 // The structure of https://data.pkmn.cc/sets/genNtier.json
-type FormatSets = {
+interface FormatSets {
   [species: string]: {
-      [name: string]: Moveset
-  }
-};
+    [name: string]: Moveset;
+  };
+}
 
 // The raw analysis data from https://data.pkmn.cc/ - this needs to be joined with the sets data
 // to form an Analysis which matches what is on Smogon.
@@ -47,8 +47,8 @@ interface RawAnalysis {
   overview?: string;
   comments?: string;
   sets: Array<{
-    name: string,
-    desc?: string
+    name: string;
+    desc?: string;
   }>;
   credits?: Credits;
 }
@@ -56,7 +56,7 @@ interface RawAnalysis {
 // The reconstituted analysis made from joining a RawAnalysis with the referenced Moveset objects.
 export interface Analysis extends Omit<RawAnalysis, 'sets'> {
   format: ID;
-  sets: Array<Moveset & {name: string, desc?: string}>;
+  sets: Array<Moveset & {name: string; desc?: string}>;
 }
 
 // A compressed version of the default smogon Moveset which is smaller to serialize.
@@ -84,7 +84,7 @@ const URL = 'https://data.pkmn.cc/';
 const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magearna'];
 const SUFFIXES = ['-Antique', '-Totem'];
 
-// Conversion between a Pokémon's Tier and a format suffix.
+// Hacky conversion between a Pokémon's Tier and a format suffix.
 const FORMATS: {[key in Tier.Singles | Tier.Other]: string} = {
   AG: 'anythinggoes',
   Uber: 'ubers', '(Uber)': 'ubers',
@@ -92,28 +92,44 @@ const FORMATS: {[key in Tier.Singles | Tier.Other]: string} = {
   UU: 'uu', 'RUBL': 'uu',
   RU: 'ru', 'NUBL': 'ru',
   NU: 'nu', '(NU)': 'nu', 'PUBL': 'nu',
-  PU: 'pu', '(PU)': 'pu', 'NFE': 'pu',
+  PU: 'pu', '(PU)': 'pu',
+  NFE: 'pu', // BUG: technically depends on gen
   LC: 'lc',
   Unreleased: 'anythinggoes',
   Illegal: 'anythinggoes',
   CAP: 'cap', 'CAP NFE': 'cap', 'CAP LC': 'cap',
 };
 
-/** Utility class for working with data from Smogon, requires a fetch function to request data. */
+// Battle-only formes banned in various generations of Balanced Hackmons.
+const BANS = {
+  6: ['Groudon-Primal', 'Kyogre-Primal'],
+  7: ['Groudon-Primal'],
+  8: ['Cramorant-Gorging', 'Darmanitan-Galar-Zen'],
+};
+
+/**
+ * Utility class for working with data from Smogon, requires a fetch function to request data. By
+ * default this class will fetch an entire generation's worth of data for analyses or sets even if a
+ * format parameter is passed to these methods, but if initialized with minimal = true then only a
+ * single format will be fetched if a format paramter is provided to the analyses or sets methods.
+ * This class will always attempt to fetch the generation-sliced data if no format parameter is
+ * used, regardless of whether minimal is set or not, though if this fetch fails and minimal *is*
+ * set to true, the methods will instead return info from whatever formats it has data cached for.
+ * */
 export class Smogon {
   private readonly fetch: (url: string) => Promise<{json(): Promise<any>}>;
   private readonly cache: {
     gen: {
-      analyses: {[gen: number]: GenAnalyses},
-      sets: {[gen: number]: GenSets},
-    },
+      analyses: {[gen: number]: GenAnalyses};
+      sets: {[gen: number]: GenSets};
+    };
     format: {
-      analyses: {[formatid: string]: FormatAnalyses},
-      sets: {[formatid: string]: FormatSets},
-      stats: {[formatid: string]: UsageStatistics['data']},
-    }
+      analyses: {[formatid: string]: FormatAnalyses};
+      sets: {[formatid: string]: FormatSets};
+      stats: {[formatid: string]: UsageStatistics['data']};
+    };
   };
-  private readonly minimal: boolean; // TODO
+  private readonly minimal: boolean;
 
   constructor(fetch: (url: string) => Promise<{json(): Promise<any>}>, minimal = false) {
     this.fetch = fetch;
@@ -134,8 +150,8 @@ export class Smogon {
 
     const name = this.name(gen, species);
     const data = {
-      analyses: (await this.get('analyses', gen) as GenAnalyses)[name],
-      sets: (await this.get('sets', gen) as GenSets)[name],
+      analyses: (await this.get('analyses', gen, format) as GenAnalyses)[name],
+      sets: (await this.get('sets', gen, format) as GenSets)[name],
     };
     if (!data.analyses || !data.sets) return [];
 
@@ -162,8 +178,8 @@ export class Smogon {
           analysis.sets.push({
             name: stub.name,
             desc: stub.desc,
-            ...set
-          } as Moveset & {name: string, desc?: string});
+            ...set,
+          } as Moveset & {name: string; desc?: string});
         }
       }
 
@@ -185,22 +201,20 @@ export class Smogon {
     }
 
     const name = this.name(gen, species);
-    const data = (await this.get('sets', gen) as GenSets)[name];
+    const data = (await this.get('sets', gen, format) as GenSets)[name];
     if (!data) return [];
 
+    // Hackmons allows for various Pokémon to be in their battle-only state.
     const hackmons =
-      (format?.endsWith('balancedhackmons') &&
-      species.name !== 'Groundon-Primal' &&
-      !(gen.num === 7 && species.name === 'Kyogre-Primal'));
-
+      format?.endsWith('balancedhackmons') && !(BANS as any)[gen.num]?.includes(species.name);
     const speciesName = hackmons ? species.name : this.name(gen, species, true);
 
     const sets = [];
     for (const tierid in data) {
       if (format && `gen${gen.num}${tierid}` !== format) continue;
-      for (const name in data[tierid]) {
-        const set = this.toSet(species, data[tierid][name], name, speciesName);
-        if (this.match(species, set)) sets.push(this.fixHP(gen, set));
+      for (const setName in data[tierid]) {
+        const set = this.toSet(species, data[tierid][setName], setName, speciesName);
+        if (hackmons || this.match(species, set)) sets.push(this.fixIVs(gen, set));
       }
     }
 
@@ -208,10 +222,12 @@ export class Smogon {
   }
 
   /**
-   * Returns moveset usage statistics information for the given Pokémon species and gen for the
-   * species' default format or the optional format provided.
+   * Returns weighted moveset usage statistics information for the given Pokémon species and gen for
+   * the species' default format or the optional format provided.
    */
-  async stats(gen: Generation, species: string | Specie, format?: ID) {
+  async stats(
+    gen: Generation, species: string | Specie, format?: ID, weighted: number | boolean = true
+  ) {
     if (typeof species === 'string') {
       const s = gen.species.get(species);
       if (!s) return undefined;
@@ -224,7 +240,7 @@ export class Smogon {
     if (!stats) {
       const latest = await Statistics.latestDate(format, true);
       if (!latest) return undefined;
-      const response = await this.fetch(Statistics.url(latest.date, format));
+      const response = await this.fetch(Statistics.url(latest.date, format, weighted));
       stats = this.cache.format.stats[format] = (await response.json()).data;
     }
 
@@ -232,11 +248,31 @@ export class Smogon {
   }
 
   // Fetch analysis or set data for a specific gen and cache the result.
-  private async get(type: 'sets' | 'analyses', gen: Generation) {
+  private async get(type: 'sets' | 'analyses', gen: Generation, format?: ID) {
     let data = this.cache.gen[type][gen.num];
     if (!data) {
-      const response = await this.fetch(`${URL}/${type}/gen${gen.num}.json`);
-      data = this.cache.gen[type][gen.num] = await response.json();
+      if (format && this.minimal) {
+        const response = await this.fetch(`${URL}/${type}/${format}.json`);
+        const d = this.cache.format[type][format] = await response.json();
+        const tierid = format.slice(4);
+        const result: GenAnalyses | GenSets = {};
+        for (const species in d) result[species] = {[tierid]: d[species]};
+        return result;
+      } else {
+        try {
+          const response = await this.fetch(`${URL}/${type}/gen${gen.num}.json`);
+          data = this.cache.gen[type][gen.num] = await response.json();
+        } catch (error) {
+          if (!this.minimal) throw error;
+          const result: GenAnalyses | GenSets = {};
+          for (const f in this.cache.format[type]) {
+            const d = this.cache.format[type][f] as any;
+            const tierid = f.slice(4);
+            for (const species in d) result[species] = {[tierid]: d[species]};
+          }
+          return result;
+        }
+      }
     }
     return data;
   }
@@ -301,9 +337,9 @@ export class Smogon {
     } as DeepPartial<PokemonSet>;
   }
 
-  // Clobber a set's IVs if the Pokémon has Hidden Power and the IVs don't match the required IVs
-  // for the given gen.
-  private fixHP(gen: Generation, set: DeepPartial<PokemonSet>) {
+  // Attempt to correct a set's IVs if the Pokémon has Hidden Power and the IVs don't match the
+  // required IVs for the given gen or the expected HP DV doesn't match in RBY/GSC.
+  private fixIVs(gen: Generation, set: DeepPartial<PokemonSet>) {
     const hp = set.moves!.find(m => m.startsWith('Hidden Power'));
     if (hp) {
       const type = gen.types.get(hp.slice(13));
@@ -312,14 +348,31 @@ export class Smogon {
           set.hpType = type.name;
         } else if (gen.num === 2) {
           const ivs: Partial<StatsTable> = {};
-          for (const stat in type.HPdvs) {
-            ivs[stat as StatID] = gen.stats.toIV(type.HPdvs[stat as StatID]!);
+          for (const s in type.HPdvs) {
+            const stat = s as StatID;
+            ivs[stat] = gen.stats.toIV(type.HPdvs[stat]!);
+            set.ivs[stat] = set.ivs[stat] ?? ivs[stat];
           }
-          ivs.hp = gen.stats.toIV(gen.stats.getHPDV(set.ivs));
-          set.ivs = ivs;
+          const actual = gen.types.getHiddenPower(gen.stats.fill({...set.ivs}, 31));
+          if (!(actual.type === type.name && actual.power === 70)) {
+            set.ivs = ivs;
+          }
         } else {
-          set.ivs = type.HPivs;
+          for (const s in type.HPivs) {
+            const stat = s as StatID;
+            set.ivs[stat] = set.ivs[stat] ?? type.HPivs[stat];
+          }
+          const actual = gen.types.getHiddenPower(gen.stats.fill({...set.ivs}, 31));
+          if (!(actual.type === type.name && actual.power === (gen.num < 6 ? 70 : 60))) {
+            set.ivs = type.HPivs;
+          }
         }
+      }
+    }
+    if (gen.num <= 2 && set.ivs) {
+      const expectedHPDV = gen.stats.getHPDV(set.ivs);
+      if (expectedHPDV !== gen.stats.toDV(set.ivs.hp ?? 31)) {
+        set.ivs.hp = gen.stats.toIV(gen.stats.getHPDV(set.ivs));
       }
     }
     return set;

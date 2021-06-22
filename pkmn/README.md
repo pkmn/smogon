@@ -39,7 +39,12 @@ $ npm install @pkmn/smogon
 
 ## Usage
 
-TODO
+You must provide a `fetch` function to initialize the `Smogon` - this can be the native `fetch`
+class in the browser or `node-fetch` on Node, or something which implements the rudimentary aspects
+of the `fetch` interface required by `Smogon` to make a request. Additionally, the methods on
+`Smogon` require something that implements `Generation` from `@pkmn/data` as their first
+parameter - the simplest way to accomplish this is by instantiating a `Generation` from `@pkmn/data`
+with a `Dex` from `@pkmn/dex` or `@pkmn/sim`:
 
 ```ts
 import {Dex} from '@pkmn/dex';
@@ -59,6 +64,15 @@ smogon.analyses(gens.get(2), 'Blastoise', 'gen2uu');
 smogon.stats(gens.get(1), 'Snorlax');
 smogon.stats(gens.get(7), 'Greninja-Ash', 'gen7monotype');
 ```
+
+By default, `Smogon` will retrieve an entire generation's worth of analysis/moveset data (which can
+be as much as ~15MB uncompressed) and cache the result (stats will always only fetch a format's
+worth of stats, though that in itself is also sizeable). If bandwidth/memory/space is a concern, a
+second parameter can be passed to the `Smogon` constructor to trigger 'minimal' mode where only
+analysis/moveset data for specific formats will be requested in scenarios where a format parameter
+is passed to the methods (if no format method is passed, an entire generation's worth of data will
+be downloaded regardless of minimal mode). Take note that minimal mode slightly changes the error
+semantics - please see the comments in the code and test cases for details.
 
 ## License
 
