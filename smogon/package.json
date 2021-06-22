@@ -1,0 +1,44 @@
+{
+  "name": "smogon",
+  "version": "2.0.0",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "description": "Low-level wrapper around Smogon's analyses and usage statistics",
+  "homepage": "https://smogon.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pkmn/smogon.git",
+    "directory": "smogon"
+  },
+  "license": "MIT",
+  "files": [
+    "build",
+    "!build/fixtures.json",
+    "!build/*.test.*",
+    "index.ts"
+  ],
+  "scripts": {
+    "lint": "eslint --cache *.ts",
+    "fix": "eslint --fix *.ts",
+    "compile": "node compile-fixtures && tsc -p .",
+    "build": "npm run compile",
+    "test": "jest",
+    "prepare": "npm run build",
+    "pretest": "npm run build",
+    "posttest": "npm run lint"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "node_modules/",
+      "dist/"
+    ],
+    "modulePathIgnorePatterns": [
+      "fixtures/"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "@pkmn"
+  }
+}

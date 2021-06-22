@@ -1,0 +1,50 @@
+{
+  "name": "@pkmn/smogon",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "description": "A rich client for processed and aggregated Smogon analysis and moveset information",
+  "homepage": "https://data.pkmn.cc/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pkmn/smogon.git",
+    "directory": "pkmn"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "build",
+    "!build/*.test.*",
+    "index.ts"
+  ],
+  "dependencies": {
+    "@pkmn/data": "^0.4.8",
+    "smogon": "^2.0.0"
+  },
+  "devDependencies": {
+    "@pkmn/dex": "^0.4.8"
+  },
+  "scripts": {
+    "lint": "eslint --cache *.ts",
+    "fix": "eslint --fix *.ts",
+    "compile": "tsc -p .",
+    "build": "npm run compile",
+    "test": "jest",
+    "prepare": "npm run build",
+    "pretest": "npm run build",
+    "posttest": "npm run lint"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "node_modules/",
+      "build/"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "@pkmn"
+  }
+}
