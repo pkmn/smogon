@@ -84,8 +84,8 @@ const URL = 'https://data.pkmn.cc/';
 const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magearna'];
 const SUFFIXES = ['-Antique', '-Totem'];
 
-// Hacky conversion between a Pokémon's Tier and a format suffix.
-const FORMATS: {[key in Tier.Singles | Tier.Other]: string} = {
+// Conversion between a Pokémon's Tier and a format suffix.
+const FORMATS: {[key in Exclude<Tier.Singles | Tier.Other, 'NFE'>]: string} = {
   AG: 'anythinggoes',
   Uber: 'ubers', '(Uber)': 'ubers',
   OU: 'ou', '(OU)': 'ou', 'UUBL': 'ou',
@@ -93,7 +93,6 @@ const FORMATS: {[key in Tier.Singles | Tier.Other]: string} = {
   RU: 'ru', 'NUBL': 'ru',
   NU: 'nu', '(NU)': 'nu', 'PUBL': 'nu',
   PU: 'pu', '(PU)': 'pu',
-  NFE: 'pu', // BUG: technically depends on gen
   LC: 'lc',
   Unreleased: 'anythinggoes',
   Illegal: 'anythinggoes',
@@ -234,7 +233,7 @@ export class Smogon {
       species = s;
     }
 
-    format = format || `gen${gen.num}${FORMATS[species.tier]}` as ID;
+    format = format || Smogon.format(gen, species)!;
 
     let stats = this.cache.format.stats[format];
     if (!stats) {
@@ -245,6 +244,17 @@ export class Smogon {
     }
 
     return stats[this.name(gen, species, false, true)];
+  }
+
+  /** Returns the format ID for the 'native' format of a species in the given gen. */
+  static format(gen: Generation, species: string | Specie) {
+    if (typeof species === 'string') {
+      const s = gen.species.get(species);
+      if (!s) return undefined;
+      species = s;
+    }
+    const tierid = species.tier === 'NFE' ? (gen.num < 6 ? 'nu' : 'pu') : FORMATS[species.tier];
+    return `gen${gen.num}${tierid}` as ID;
   }
 
   // Fetch analysis or set data for a specific gen and cache the result.

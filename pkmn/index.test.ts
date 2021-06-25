@@ -10,7 +10,6 @@ import {
   ItemName,
   MoveName,
   PokemonSet,
-  Specie,
 } from '@pkmn/data';
 import {Dex} from '@pkmn/dex';
 
@@ -188,29 +187,10 @@ describe('Smogon', () => {
     expect((await smogon.stats(gen(6), 'Pikachu', 'gen6nu' as ID))!.Teammates.Bidoof).toEqual(0.75);
   });
 
-  test('match', () => {
-    const match = (species: Specie, set: DeepPartial<PokemonSet>) =>
-      (new Smogon(fetch) as any).match(species, set) as boolean;
-
-    const greninja = gen(7).species.get('Greninja-Ash')!;
-    expect(match(greninja, {ability: undefined})).toBe(false);
-    expect(match(greninja, {ability: 'Battle Bond'})).toBe(true);
-    expect(match(greninja, {ability: 'Protean'})).toBe(false);
-
-    const venusaur = gen(7).species.get('Venusaur-Mega')!;
-    expect(match(venusaur, {item: undefined})).toBe(false);
-    expect(match(venusaur, {item: 'Venusaurite'})).toBe(true);
-    expect(match(venusaur, {item: 'Leftovers'})).toBe(false);
-
-    const arceus = gen(7).species.get('Arceus-Electric')!;
-    expect(match(arceus, {item: undefined})).toBe(false);
-    expect(match(arceus, {item: 'Electrium Z'})).toBe(true);
-    expect(match(arceus, {item: 'Zap Plate'})).toBe(true);
-    expect(match(arceus, {item: 'Meadow Plate'})).toBe(false);
-
-    const meloetta = gen(7).species.get('Meloetta-Pirouette')!;
-    expect(match(meloetta, {moves: ['Return']})).toBe(false);
-    expect(match(meloetta, {moves: ['Return', 'Relic Song']})).toBe(true);
+  test('format', () => {
+    expect(Smogon.format(gen(2), 'Snorlax')).toBe('gen2ou');
+    expect(Smogon.format(gen(1), 'Dragonair')).toBe('gen1nu');
+    expect(Smogon.format(gen(6), 'Vanilluxe')).toBe('gen6pu');
   });
 
   test('name', () => {
