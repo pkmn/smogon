@@ -20,11 +20,6 @@ const gen = (num: GenerationNum) => gens.get(num);
 
 const URL = 'https://data.pkmn.cc/';
 const fetch = async (url: string) => {
-  if (url.startsWith('https://www.smogon.com/stats/') && url.endsWith('nu-1630.json')) {
-    const name = path.resolve(__dirname, '../smogon/fixtures/gen6nu.json');
-    const json = JSON.parse(await fs.readFile(name, 'utf8'));
-    return {json: () => Promise.resolve(json)};
-  }
   if (!url.startsWith(URL)) throw new Error(`Invalid url: '${url}'`);
   const name = path.resolve(__dirname, '../data', url.slice(URL.length + 1));
   const json = JSON.parse(await fs.readFile(name, 'utf8'));
@@ -32,159 +27,83 @@ const fetch = async (url: string) => {
 };
 
 describe('Smogon', () => {
-  test('analyses', async () => {
-    const sets = (as: Analysis[]) => as.map(a => a.sets.map(s => s.name));
-    const fail = [false];
-    const smogon = new Smogon(url => {
-      if (fail[0]) throw new Error('404');
-      return fetch(url);
+  for (const minimal of [false, true]) {
+    test(`analyses (minimal=${minimal})`, async () => {
+      const sets = (as: Analysis[]) => as.map(a => a.sets.map(s => s.name));
+      const smogon = new Smogon(fetch, minimal);
+
+      expect(await smogon.analyses(gen(1), 'Fakemon')).toEqual([]);
+      if (minimal) {
+        await expect(smogon.analyses(gen(2), 'Snorlax', 'gen2faketier' as ID)).rejects.toThrow();
+      } else {
+        expect(await smogon.analyses(gen(2), 'Snorlax', 'gen2faketier' as ID)).toEqual([]);
+      }
+
+      expect(sets(await smogon.analyses(gen(2), 'Blastoise')))
+        .toEqual(minimal ? [] : [['Spinstoise (Rapid Spin)'], ['Bulky Water', 'RestTalk']]);
+      expect(sets(await smogon.analyses(gen(2), 'Blastoise', 'gen2uu' as ID)))
+        .toEqual([['Spinstoise (Rapid Spin)']]);
+      expect(sets(await smogon.analyses(gen(2), 'Blastoise')))
+        .toEqual(minimal
+          ? [['Spinstoise (Rapid Spin)']]
+          : [['Spinstoise (Rapid Spin)'], ['Bulky Water', 'RestTalk']]);
+      expect(sets(await smogon.analyses(gen(2), 'Blastoise', 'gen2ou' as ID)))
+        .toEqual([['Bulky Water', 'RestTalk']]);
+      expect(sets(await smogon.analyses(gen(2), 'Blastoise')))
+        .toEqual([['Spinstoise (Rapid Spin)'], ['Bulky Water', 'RestTalk']]);
+
+      expect(sets(await smogon.analyses(gen(8), 'Darmanitan-Galar-Zen', 'gen8ubers' as ID)))
+        .toEqual([['Belly Drum']]);
+      expect((await smogon.analyses(gen(3), 'Gengar', 'gen3ou' as ID))[0].overview)
+        .toMatch('Gengar is a centralizing threat in ADV OU');
+      const clefable = await smogon.analyses(gen(4), 'Clefable', 'gen4uu' as ID);
+      expect(clefable[0].format).toBe('gen4uu');
+      expect(clefable[0].sets[0].moves[0]).toEqual(['Ice Beam', 'Encore']);
     });
 
-    fail[0] = true;
-    await expect(smogon.analyses(gen(2), 'Blastoise', 'gen2uu' as ID)).rejects.toThrow();
-    fail[0] = false;
+    test(`sets (minimal=${minimal})`, async () => {
+      const names = (ps: DeepPartial<PokemonSet>[]) => ps.map(p => p.name);
+      const smogon = new Smogon(fetch, minimal);
 
-    expect(await smogon.analyses(gen(1), 'Fakemon')).toEqual([]);
-    expect(await smogon.analyses(gen(2), 'Snorlax', 'gen2faketier' as ID)).toEqual([]);
+      expect(await smogon.sets(gen(1), 'Fakemon')).toEqual([]);
+      if (minimal) {
+        await expect(smogon.sets(gen(2), 'Snorlax', 'gen2faketier' as ID)).rejects.toThrow();
+      } else {
+        expect(await smogon.sets(gen(2), 'Snorlax', 'gen2faketier' as ID)).toEqual([]);
+      }
 
-    fail[0] = true;
-    // NB: gen2 has already been cached
-    expect(sets(await smogon.analyses(gen(2), 'Blastoise', 'gen2uu' as ID)))
-      .toEqual([['Spinstoise (Rapid Spin)']]);
-    fail[0] = false;
+      expect(names(await smogon.sets(gen(2), 'Blastoise')))
+        .toEqual(minimal ? [] : ['Spinstoise (Rapid Spin)', 'Bulky Water', 'RestTalk']);
+      expect(names(await smogon.sets(gen(2), 'Blastoise', 'gen2uu' as ID)))
+        .toEqual(['Spinstoise (Rapid Spin)']);
+      expect(names(await smogon.sets(gen(2), 'Blastoise')))
+        .toEqual(minimal
+          ? ['Spinstoise (Rapid Spin)']
+          : ['Spinstoise (Rapid Spin)', 'Bulky Water', 'RestTalk']);
+      expect(names(await smogon.sets(gen(2), 'Blastoise', 'gen2ou' as ID)))
+        .toEqual(['Bulky Water', 'RestTalk']);
+      expect(names(await smogon.sets(gen(2), 'Blastoise')))
+        .toEqual(['Spinstoise (Rapid Spin)', 'Bulky Water', 'RestTalk']);
 
-    expect(sets(await smogon.analyses(gen(2), 'Blastoise')))
-      .toEqual([['Spinstoise (Rapid Spin)'], ['Bulky Water', 'RestTalk']]);
-    expect(sets(await smogon.analyses(gen(8), 'Darmanitan-Galar-Zen', 'gen8ubers' as ID)))
-      .toEqual([['Belly Drum']]);
-    expect((await smogon.analyses(gen(3), 'Gengar', 'gen3ou' as ID))[0].overview)
-      .toMatch('Gengar is a centralizing threat in ADV OU');
-    let clefable = await smogon.analyses(gen(4), 'Clefable');
-    expect(clefable[0].format).toBe('gen4uu');
-    expect(clefable[0].sets[0].moves[0]).toEqual(['Ice Beam', 'Encore']);
-
-    let nidoking = await smogon.analyses(gen(5), 'Nidoking', 'gen5ou' as ID);
-    expect(nidoking).toHaveLength(1);
-    fail[0] = true;
-    expect(await smogon.analyses(gen(5), 'Nidoking')).toHaveLength(3);
-    fail[0] = false;
-
-    const minimal = new Smogon(url => {
-      if (fail[0]) throw new Error('404');
-      return fetch(url);
-    }, true);
-
-    fail[0] = true;
-    await expect(minimal.analyses(gen(2), 'Blastoise', 'gen2uu' as ID)).rejects.toThrow();
-    fail[0] = false;
-
-    expect(await minimal.analyses(gen(1), 'Fakemon')).toEqual([]);
-    await expect(minimal.analyses(gen(2), 'Snorlax', 'gen2faketier' as ID)).rejects.toThrow();
-
-    fail[0] = true;
-    // NB: should still fail because the entire gen2 chunk should not have been fetched
-    await expect(minimal.analyses(gen(2), 'Blastoise', 'gen2uu' as ID)).rejects.toThrow();
-    fail[0] = false;
-
-    expect(sets(await minimal.analyses(gen(2), 'Blastoise', 'gen2uu' as ID)))
-      .toEqual([['Spinstoise (Rapid Spin)']]);
-    expect(sets(await minimal.analyses(gen(2), 'Blastoise')))
-      .toEqual([['Spinstoise (Rapid Spin)'], ['Bulky Water', 'RestTalk']]);
-    expect(sets(await minimal.analyses(gen(8), 'Darmanitan-Galar-Zen', 'gen8ubers' as ID)))
-      .toEqual([['Belly Drum']]);
-    expect((await minimal.analyses(gen(3), 'Gengar', 'gen3ou' as ID))[0].overview)
-      .toMatch('Gengar is a centralizing threat in ADV OU');
-    clefable = await minimal.analyses(gen(4), 'Clefable');
-    expect(clefable[0].format).toBe('gen4uu');
-    expect(clefable[0].sets[0].moves[0]).toEqual(['Ice Beam', 'Encore']);
-
-    nidoking = await minimal.analyses(gen(5), 'Nidoking', 'gen5ou' as ID);
-    expect(nidoking).toHaveLength(1);
-    fail[0] = true;
-    expect(await minimal.analyses(gen(5), 'Nidoking')).toEqual(nidoking);
-    fail[0] = false;
-    expect(await minimal.analyses(gen(5), 'Nidoking')).toHaveLength(3);
-  });
-
-  test('sets', async () => {
-    const names = (ps: DeepPartial<PokemonSet>[]) => ps.map(p => p.name);
-    const fail = [false];
-    const smogon = new Smogon(url => {
-      if (fail[0]) throw new Error('404');
-      return fetch(url);
+      expect(names(await smogon.sets(gen(8), 'Darmanitan-Galar-Zen', 'gen8ubers' as ID)))
+        .toEqual(['Belly Drum']);
+      expect((await smogon.sets(gen(4), 'Gastrodon-East', 'gen4ou' as ID))[0].species)
+        .toEqual('Gastrodon-East');
+      expect((await smogon.sets(gen(4), 'Moltres', 'gen4uu' as ID))[0].ivs)
+        .toEqual({atk: 2, spa: 30});
+      expect((await smogon.sets(gen(7), 'Kyogre-Primal', 'gen7balancedhackmons' as ID))[0].species)
+        .toEqual('Kyogre-Primal');
     });
-
-    fail[0] = true;
-    await expect(smogon.sets(gen(2), 'Blastoise', 'gen2uu' as ID)).rejects.toThrow();
-    fail[0] = false;
-
-    expect(await smogon.sets(gen(1), 'Fakemon')).toEqual([]);
-    expect(await smogon.sets(gen(2), 'Snorlax', 'gen2faketier' as ID)).toEqual([]);
-
-    fail[0] = true;
-    // NB: gen2 has already been cached
-    expect(names(await smogon.sets(gen(2), 'Blastoise', 'gen2uu' as ID)))
-      .toEqual(['Spinstoise (Rapid Spin)']);
-    fail[0] = false;
-
-    expect(names(await smogon.sets(gen(2), 'Blastoise')))
-      .toEqual(['Spinstoise (Rapid Spin)', 'Bulky Water', 'RestTalk']);
-    expect(names(await smogon.sets(gen(8), 'Darmanitan-Galar-Zen', 'gen8ubers' as ID)))
-      .toEqual(['Belly Drum']);
-    expect((await smogon.sets(gen(4), 'Gastrodon-East'))[0].species).toEqual('Gastrodon-East');
-    expect((await smogon.sets(gen(4), 'Moltres'))[0].ivs).toEqual({atk: 2, spa: 30});
-    expect((await smogon.sets(gen(7), 'Kyogre-Primal', 'gen7balancedhackmons' as ID))[0].species)
-      .toEqual('Kyogre-Primal');
-
-    let nidoking = await smogon.sets(gen(5), 'Nidoking', 'gen5ou' as ID);
-    expect(nidoking).toHaveLength(2);
-    fail[0] = true;
-    expect(await smogon.sets(gen(5), 'Nidoking')).toHaveLength(5);
-    fail[0] = false;
-
-    const minimal = new Smogon(url => {
-      if (fail[0]) throw new Error('404');
-      return fetch(url);
-    }, true);
-
-    fail[0] = true;
-    await expect(minimal.sets(gen(2), 'Blastoise', 'gen2uu' as ID)).rejects.toThrow();
-    fail[0] = false;
-
-    expect(await minimal.sets(gen(1), 'Fakemon')).toEqual([]);
-    await expect(minimal.sets(gen(2), 'Snorlax', 'gen2faketier' as ID)).rejects.toThrow();
-
-    fail[0] = true;
-    // NB: should still fail because the entire gen2 chunk should not have been fetched
-    await expect(minimal.sets(gen(2), 'Blastoise', 'gen2uu' as ID)).rejects.toThrow();
-    fail[0] = false;
-
-    expect(names(await minimal.sets(gen(2), 'Blastoise', 'gen2uu' as ID)))
-      .toEqual(['Spinstoise (Rapid Spin)']);
-    expect(names(await minimal.sets(gen(2), 'Blastoise')))
-      .toEqual(['Spinstoise (Rapid Spin)', 'Bulky Water', 'RestTalk']);
-    expect(names(await minimal.sets(gen(8), 'Darmanitan-Galar-Zen', 'gen8ubers' as ID)))
-      .toEqual(['Belly Drum']);
-    expect((await minimal.sets(gen(4), 'Gastrodon-East'))[0].species).toEqual('Gastrodon-East');
-    expect((await minimal.sets(gen(4), 'Moltres'))[0].ivs).toEqual({atk: 2, spa: 30});
-    expect((await minimal.sets(gen(7), 'Kyogre-Primal', 'gen7balancedhackmons' as ID))[0].species)
-      .toEqual('Kyogre-Primal');
-
-    nidoking = await minimal.sets(gen(5), 'Nidoking', 'gen5ou' as ID);
-    expect(nidoking).toHaveLength(2);
-    fail[0] = true;
-    expect(await minimal.sets(gen(5), 'Nidoking')).toEqual(nidoking);
-    fail[0] = false;
-    expect(await minimal.sets(gen(5), 'Nidoking')).toHaveLength(5);
-  });
+  }
 
   test('stats', async () => {
     const smogon = new Smogon(fetch);
     expect(await smogon.stats(gen(1), 'Fakemon')).toBeUndefined();
-    expect(await smogon.stats(gen(2), 'Snorlax', 'gen2faketier' as ID)).toBeUndefined();
-
-    expect((await smogon.stats(gen(6), 'Magmortar'))!.Moves.thunderbolt).toEqual(1);
-    expect((await smogon.stats(gen(6), 'Pikachu', 'gen6nu' as ID))!.Teammates.Bidoof).toEqual(0.75);
+    await expect(smogon.stats(gen(2), 'Snorlax', 'gen2faketier' as ID)).rejects.toThrow();
+    expect((await smogon.stats(gen(6), 'Hitmonchan', 'gen6nu' as ID))!.moves['Drain Punch'])
+      .toEqual(0.9421);
+    expect((await smogon.stats(gen(7), 'Steelix', 'gen7nu' as ID))!.teammates['Passimian'])
+      .toEqual(0.1307);
   });
 
   test('format', () => {

@@ -1,0 +1,242 @@
+#!/usr/bin/env node
+'use strict';
+
+try {
+  require('source-map-support').install();
+} catch (err) {
+  if (err.code !== 'MODULE_NOT_FOUND') throw err;
+}
+
+// This script crawls https://www.smogon.com/stats/ and produces:
+//
+//   - smogon/latest.json: a map from format => [[latest, count], [best, count]] | [latest, count]
+//     for each format hosted on smogon.com/stats. This is used to power the smogon package's
+//     smogon.Statistics.latestDate method.
+//   - data/stats/state.json: contains the latest data processed as well as a mapping from supported
+//     format => [total, count] where total is the total number of battles for the format over
+//     the count months it has had stats. This is used to avoid having to go over all the previous
+//     months when updating stats.
+//   - data/stats/*.json: @pkmn/stats converted LegacyDisplayStatistics data for each of the *best*
+//     dates for each supported format as indicated by smogon/latest.json.
+//   - data/stats/index.json: an index of the [size, compressed size] for each of the
+//     LegacyDisplayStatistics files.
+
+const fs = require('fs');
+const path = require('path');
+const fetch = require('node-fetch');
+const stringify = require('json-stringify-pretty-compact');
+const zlib = require('zlib');
+const util = require('util');
+const gzip = util.promisify(zlib.gzip);
+
+const stats = require('@pkmn/stats');
+const gens = stats.newGenerations(require('@pkmn/sim').Dex);
+const smogon = require('smogon');
+
+const request = retrying(throttling(url => fetch(url), 1, 50), 5, 20);
+
+const N = 1e4;
+
+const UNSUPPORTED = ['1v1', 'challengecup1vs1'];
+const RE = /(.*)\/chaos\/(.*)\.json/;
+
+async function convert(format, date) {
+  const leads = !stats.isNonSinglesFormat(format) && !UNSUPPORTED.includes(format);
+  const metagame = !UNSUPPORTED.includes(format);
+  const gen = gens.get(format.startsWith('gen') ? +format.charAt(3) : 6);
+
+  const m = RE.exec(smogon.Statistics.url(date, format));
+  return stats.Display.fromReports(gen,
+    await (await request(`${m[1]}/${m[2]}.txt`)).text(),
+    await (await request(`${m[1]}/moveset/${m[2]}.txt`)).text(),
+    await (await request(`${m[1]}/chaos/${m[2]}.json`)).text(),
+    metagame ? await (await request(`${m[1]}/metagame/${m[2]}.txt`)).text() : undefined,
+    leads ? await (await request(`${m[1]}/leads/${m[2]}.txt`)).text() : undefined);
+}
+
+async function serialize(data, file) {
+  // NOTE: This pretty stringify will result in ~10% larger files, though we don't care because
+  // this will amount to significantly less after gzip and we want to have meaningful diffs
+  const json = stringify(data);
+  await fs.promises.writeFile(path.join(DATA, 'stats', file), json);
+  const compressed = await gzip(json);
+  return [json.length, compressed.length];
+}
+
+const DATA = path.resolve(__dirname, '../data');
+
+const SUPPORTED = new Set();
+for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
+  if (file === 'index.json' || /gen\d.json/.test(file) || file.endsWith('nfe.json')) continue;
+  SUPPORTED.add(file.slice(0, file.indexOf('.')));
+}
+
+(async () => {
+  let index, info, state, begin;
+  try {
+    index = JSON.parse(fs.readFileSync(path.join(DATA, 'stats', 'index.json')));
+    info = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../smogon', 'latest.json')));
+    state = JSON.parse(fs.readFileSync(path.join(DATA, 'stats', 'state.json')));
+    begin = new Date(state.last);
+    begin.setUTCMonth(begin.getUTCMonth() + 1);
+  } catch {
+    index = {};
+    info = {}; // format => [[latest, count], [best, count]] | [latest, count]
+    state = {formats: {}};
+    begin = new Date('2014-11');
+  }
+
+  const formats = {};
+
+  const end = new Date(smogon.Statistics.latest(
+    await (await request(smogon.Statistics.URL)).text()));
+  end.setUTCDate(end.getUTCDate() + 1);
+
+  for (const d = begin; d <= end; d.setUTCMonth(d.getUTCMonth() + 1)) {
+    const month = `${d.getUTCMonth() + 1}`.padStart(2, '0');
+    const date = `${d.getUTCFullYear()}-${month}`;
+    state.last = date;
+    const page = await (await request(`${smogon.Statistics.URL}${date}/`)).text();
+
+    for (const line of page.split('\n')) {
+      const m = line.match(/<a href="(.*)-\d+.txt"/);
+      if (m) {
+        const format = smogon.Statistics.canonicalize(m[1]);
+        if (formats[format] && typeof formats[format][date] === 'number') continue;
+        formats[format] = formats[format] || {};
+        formats[format][date] = formats[format][date] || [];
+
+        // The JSON files are quite large and needing to download and parse them to then
+        // extract the 'number of battles' field is much slower than instead grabbing the
+        // basic stats file and doing the comparatively cheap regex search.
+        const u = smogon.Statistics.url(date, format, 0)
+          .replace('chaos/', '')
+          .replace('.json', '.txt');
+        const usage = await request(u);
+
+        if (usage) {
+          // https://www.smogon.com/stats/2016-10/cap-*.txt is invalid and doesn't match... *sigh*
+          const m = (await usage.text()).match(/^ Total battles: (.*)/);
+          if (m) formats[format][date] = Number(m[1]);
+        }
+      }
+    }
+  }
+
+  for (const [format, dates] of Object.entries(formats)) {
+    let latest = [null, 0];
+    let best = [null, 0];
+    let total = 0;
+    let i = 0;
+    let updated = false;
+    if (info[format] && state.formats[format]) {
+      if (Array.isArray(info[format][0])) {
+        latest = info[format][0];
+        best = info[format][1];
+      } else {
+        latest = best = info[format];
+      }
+      total = state.formats[format][0];
+      i = state.formats[format][1];
+    }
+
+    for (const date in dates) {
+      if (!dates[date]) continue;
+      total += dates[date];
+      i++;
+
+      latest = [date, dates[date]];
+      // best = max or latest thats above a threshold
+      const threshold = Math.min(N, total/i);
+      if (dates[date] >= best[1] || dates[date] > threshold) {
+        updated = true;
+        best = latest;
+      }
+    }
+    if (latest[0]) info[format] = best === latest ? latest : [latest, best];
+
+    if (SUPPORTED.has(format) && updated) {
+      index[`${format}.json`] = await serialize(await convert(format, best[0]), `${format}.json`);
+    }
+    state.formats[format] = [total, i];
+  }
+
+  let sorted = {};
+  for (const format of Object.keys(info).sort()) {
+    sorted[format] = info[format];
+  }
+  fs.writeFileSync(path.resolve(__dirname, '../smogon/latest.json'), stringify(sorted));
+  sorted = {last: state.last, formats: {}};
+  for (const format of Object.keys(state.formats).sort()) {
+    sorted.formats[format] = state.formats[format];
+  }
+  fs.writeFileSync(path.join(DATA, 'stats', 'state.json'), stringify(sorted));
+  sorted = {};
+  for (const file of Object.keys(index).sort()) {
+    sorted[file] = index[file];
+  }
+  fs.writeFileSync(path.join(DATA, 'stats', 'index.json'), stringify(index));
+})().catch(err => console.error(err));
+
+
+class RetryableError extends Error {
+  constructor(message) {
+    super(message);
+    Object.setPrototypeOf(this, new.target.prototype);
+  }
+}
+
+function retrying(fn, retries, wait) {
+  const retry = async (args, attempt) => {
+    try {
+      return await fn(args);
+    } catch (err) {
+      if (err instanceof RetryableError) {
+        attempt++;
+        if (attempt > retries) return Promise.reject(err);
+        const timeout = Math.round(attempt * wait * (1 + Math.random() / 2));
+        return new Promise(resolve => {
+          setTimeout(() => {
+            resolve(retry(args, attempt++));
+          }, timeout);
+        });
+      } else {
+        return Promise.reject(err);
+      }
+    }
+  };
+  return retry;
+}
+
+function throttling(fn, limit, interval) {
+  const queue = new Map();
+  let currentTick = 0;
+  let activeCount = 0;
+
+  const throttled = (args) => {
+    let timeout;
+    return new Promise((resolve, reject) => {
+      const execute = () => {
+        resolve(fn(args));
+        queue.delete(timeout);
+      };
+
+      const now = Date.now();
+
+      if (now - currentTick > interval) {
+        activeCount = 1;
+        currentTick = now;
+      } else if (activeCount < limit) {
+        activeCount++;
+      } else {
+        currentTick += interval;
+        activeCount = 1;
+      }
+
+      timeout = setTimeout(execute, currentTick - now);
+      queue.set(timeout, reject);
+    });
+  };
+
+  return throttled;
+}

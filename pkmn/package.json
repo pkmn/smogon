@@ -20,11 +20,11 @@
     "index.ts"
   ],
   "dependencies": {
-    "@pkmn/data": "^0.4.8",
+    "@pkmn/data": "^0.4.9",
     "smogon": "^2.0.0"
   },
   "devDependencies": {
-    "@pkmn/dex": "^0.4.8"
+    "@pkmn/dex": "^0.4.9"
   },
   "scripts": {
     "lint": "eslint --cache *.ts",
@@ -45,6 +45,17 @@
     ]
   },
   "eslintConfig": {
-    "extends": "@pkmn"
+    "extends": "@pkmn",
+    "overrides": [
+      {
+        "files": [
+          "*.ts"
+        ],
+        "rules": {
+          "@typescript-eslint/restrict-template-expressions": 0,
+          "jest/no-conditional-expect": "off"
+        }
+      }
+    ]
   }
 }

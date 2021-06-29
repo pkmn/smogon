@@ -64,7 +64,7 @@ export interface MovesetStatistics {
   Abilities: { [ability: string]: number };
   Items: { [item: string]: number };
   Spreads: { [spread: string]: number };
-  Happiness: { [happiness: string]: number };
+  Happiness?: { [happiness: string]: number };
   Moves: { [move: string]: number };
   Teammates: { [pokemon: string]: number };
   // n = sum(POKE1_KOED...DOUBLE_SWITCH)
@@ -270,21 +270,30 @@ export const Statistics = new (class {
   }
 })();
 
-const POPULAR = [
-  'gen8ou', 'gen8doublesou', 'gen7ou', 'gen7doublesou',
-  'ou', 'doublesou', 'smogondoubles', 'randombattle',
-];
+// Formats which were popular enough to use higher weightings when they were the current gen.
+const POPULAR = {
+  6: [
+    'ou', 'oususpecttest', 'doublesou', 'randombattle',
+    'smogondoubles', 'doublesou', 'doublesoususpecttest',
+  ],
+  7: [
+    'gen7ou', 'gen7oususpecttest', 'gen7doublesou', 'gen7doublesoususpecttest',
+    'gen7pokebankou', 'gen7pokebankoususpecttest', 'gen7pokebankdoublesou',
+  ],
+  8: ['gen8doublesou', 'gen8ou', 'gen8oususpecttest'],
+};
 
-// TODO: add a discontinuity for gen7{ou,doublesou}?
 function weightFor(format: ID, date: string) {
-  // gen7ou is no longer the main gen
-  if (format === 'gen7ou' && date > '2020-01') return 1630;
-  // gen7doublesu ou and smogondoublessuspecttest have used different weights over the years
-  if (format === 'gen7doublesou' && (date < '2017-02' || date > '2020-01')) return 1630;
+  // NOTE: Legacy format notation is signficant here: gen6ou was only 'popular' while it was still
+  // called 'ou' and thus we don't really care about the date.
+  if (POPULAR[6].includes(format)) return 1695;
+  // Gen 7 formats ceased to be 'popular' from 2020-02 onwards, though we need to check
+  // gen7doublesou first as it had a weird discontinuity at the beginning of the format.
+  if (format === 'gen7doublesou' && date < '2017-02') return 1630;
+  if (POPULAR[7].includes(format)) return date > '2020-01' ? 1630 : 1695;
+  // smogondoublessuspecttest only has two months of date, but 2015-04 had a higher weighting.
   if (format === 'smogondoublessuspecttest' && date === '2015-04') return 1695;
-  // Otherwise, formats deemed 'popular' are assigned higher weight. Note that legacy format
-  // notation is signficant here: gen6ou was only 'popular' while it was still called 'ou'
-  return POPULAR.includes(format) ? 1695 : 1630;
+  return POPULAR[8].includes(format) ? 1695 : 1630;
 }
 
 const LATE = ['1v1', 'cap', 'monotype', 'balancedhackmons', 'mixandmega'];

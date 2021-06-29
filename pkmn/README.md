@@ -24,12 +24,13 @@ provides, with several notable differences:
   data is not guaranteed to be valid given that validation rules change over time).
 - `@pkmn/smogon` fetches the latest data as opposed to `@smogon/sets` where the data only updates
    approximately monthly when a new package is released.
-- `@pkmn/smogon` supports returning analysis and moveset information as opposed to just sets.
+- `@pkmn/smogon` supports returning analysis and moveset information as opposed to just sets, and
+  also can return `@pkmn/stats`-formatted usage statistics output.
 
-Both packages rely on [`smogon`](https://www.npmjs.com/package/smogon) to handle fetching the raw
-data from Smogon but make different tradeoffs that may appeal to different types of applications.
-`@pkmn/smogon` is strictly fresher and more powerful, but `@smogon/sets` may still be appealing for
-the simplicity it provides.
+Whereas `@smogon/sets` uses [`smogon`](https://www.npmjs.com/package/smogon) to handle fetching the
+raw data from Smogon, `@pkmn/smogon` relies on the preprocessed data hosted at
+[https://data.pkmn.cc](https://data.pkmn.cc). `@pkmn/smogon` is strictly fresher and more powerful,
+but `@smogon/sets` may still be appealing for the simplicity it provides.
 
 ## Installation
 
@@ -70,9 +71,8 @@ be as much as ~15MB uncompressed) and cache the result (stats will always only f
 worth of stats, though that in itself is also sizeable). If bandwidth/memory/space is a concern, a
 second parameter can be passed to the `Smogon` constructor to trigger 'minimal' mode where only
 analysis/moveset data for specific formats will be requested in scenarios where a format parameter
-is passed to the methods (if no format method is passed, an entire generation's worth of data will
-be downloaded regardless of minimal mode). Take note that minimal mode slightly changes the error
-semantics - please see the comments in the code and test cases for details.
+is passed to the methods (if no format method is passed, only data from formats which have already
+been cached will be returned).
 
 ## License
 

@@ -18,7 +18,7 @@ import {Analyses, Statistics} from 'smogon';
 // Performing a Dex RPC
 const analysis = Analyses.process(await request(Analyses.request('Mr. Mime', 3)));
 
-// Determing the 'best' date to fetch weighted statistics for
+// Determining the 'best' date to fetch weighted statistics for
 const format = 'gen6vgc2016';
 const latest = await Statistics.latestDate(format, true);
 const stats = Stats.process(await request(Statistics.url(latest.date, format)));

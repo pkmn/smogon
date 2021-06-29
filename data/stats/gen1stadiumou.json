@@ -1,0 +1,504 @@
+{
+  "battles": 130,
+  "pokemon": {
+    "Chansey": {
+      "lead": {"raw": 0.0385, "real": 0.0385, "weighted": 0},
+      "usage": {"raw": 0.5615, "real": 0.5415, "weighted": 0.9816},
+      "count": 204,
+      "weight": 0.2602,
+      "viability": [73, 81, 81, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Serious:252/0/252/252/252/252": 0.5121,
+        "Serious:252/252/252/252/252/252": 0.4879
+      },
+      "moves": {
+        "Soft-Boiled": 1,
+        "Thunder Wave": 0.8623,
+        "Substitute": 0.6771,
+        "Seismic Toss": 0.5416,
+        "Ice Beam": 0.4584,
+        "Thunderbolt": 0.3125,
+        "Psychic": 0.1355,
+        "Reflect": 0.0105,
+        "Fire Blast": 0.0022
+      },
+      "teammates": {},
+      "counters": {}
+    },
+    "Alakazam": {
+      "lead": {"raw": 0.3346, "real": 0.3346, "weighted": 0.8663},
+      "usage": {"raw": 0.6154, "real": 0.7603, "weighted": 0.9736},
+      "count": 225,
+      "weight": 0.2348,
+      "viability": [105, 81, 80, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Serious:252/0/252/252/252/252": 0.508,
+        "Serious:252/252/252/252/252/252": 0.492
+      },
+      "moves": {
+        "Psychic": 1,
+        "Recover": 1,
+        "Thunder Wave": 1,
+        "Substitute": 0.8634,
+        "Reflect": 0.1366
+      },
+      "teammates": {},
+      "counters": {}
+    },
+    "Exeggutor": {
+      "lead": {"raw": 0.0385, "real": 0.0385, "weighted": 0.0228},
+      "usage": {"raw": 0.4615, "real": 0.4157, "weighted": 0.8634},
+      "count": 174,
+      "weight": 0.278,
+      "viability": [57, 81, 81, 56],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Explosion": 1,
+        "Psychic": 1,
+        "Stun Spore": 0.9391,
+        "Double-Edge": 0.5955,
+        "Sleep Powder": 0.4045,
+        "Mega Drain": 0.0609
+      },
+      "teammates": {},
+      "counters": {}
+    },
+    "Rhydon": {
+      "lead": {"raw": 0.0231, "real": 0.0231, "weighted": 0.0175},
+      "usage": {"raw": 0.3692, "real": 0.3665, "weighted": 0.8003},
+      "count": 131,
+      "weight": 0.299,
+      "viability": [47, 81, 81, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Earthquake": 1,
+        "Rock Slide": 1,
+        "Body Slam": 0.8866,
+        "Substitute": 0.7745,
+        "Submission": 0.1846,
+        "Hyper Beam": 0.0725,
+        "Blizzard": 0.0409,
+        "Mega Kick": 0.0409
+      },
+      "teammates": {
+        "Persian": 0.0055,
+        "Jynx": 0.0019,
+        "Gengar": 0.0002,
+        "Starmie": 0.0002,
+        "Venusaur": 0.0002
+      },
+      "counters": {}
+    },
+    "Tauros": {
+      "lead": {"raw": 0.0385, "real": 0.0385, "weighted": 0.0236},
+      "usage": {"raw": 0.4115, "real": 0.3282, "weighted": 0.584},
+      "count": 164,
+      "weight": 0.1957,
+      "viability": [56, 81, 81, 56],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Blizzard": 1,
+        "Body Slam": 1,
+        "Earthquake": 1,
+        "Substitute": 0.7289,
+        "Double-Edge": 0.2031,
+        "Hyper Beam": 0.068
+      },
+      "teammates": {
+        "Zapdos": 0.0336,
+        "Jynx": 0.0245,
+        "Snorlax": 0.0125,
+        "Gengar": 0.003,
+        "Starmie": 0.003,
+        "Venusaur": 0.003
+      },
+      "counters": {}
+    },
+    "Snorlax": {
+      "lead": {"raw": 0.0615, "real": 0.0615, "weighted": 0.024},
+      "usage": {"raw": 0.3885, "real": 0.3665, "weighted": 0.4838},
+      "count": 146,
+      "weight": 0.1958,
+      "viability": [70, 81, 81, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Earthquake": 1,
+        "Body Slam": 0.9959,
+        "Self-Destruct": 0.9959,
+        "Substitute": 0.9959,
+        "Amnesia": 0.0041,
+        "Counter": 0.0041,
+        "Hyper Beam": 0.0041
+      },
+      "teammates": {"Golem": 0.0685, "Jolteon": 0.0199, "Machamp": 0.0011},
+      "counters": {}
+    },
+    "Lapras": {
+      "lead": {"raw": 0.0231, "real": 0.0231, "weighted": 0.0034},
+      "usage": {"raw": 0.2539, "real": 0.2516, "weighted": 0.3334},
+      "count": 82,
+      "weight": 0.2161,
+      "viability": [42, 80, 80, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Body Slam": 1,
+        "Confuse Ray": 1,
+        "Blizzard": 0.9743,
+        "Thunderbolt": 0.9743,
+        "Sing": 0.0257,
+        "Surf": 0.0257
+      },
+      "teammates": {
+        "Persian": 0.432,
+        "Nidoqueen": 0.0105,
+        "Victreebel": 0.0105
+      },
+      "counters": {}
+    },
+    "Persian": {
+      "lead": {"raw": 0.0077, "real": 0.0077, "weighted": 0},
+      "usage": {"raw": 0.1154, "real": 0.082, "weighted": 0.3255},
+      "count": 36,
+      "weight": 0.4831,
+      "viability": [7, 80, 80, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {"Body Slam": 1, "Bubble Beam": 1, "Slash": 1, "Thunderbolt": 1},
+      "teammates": {"Lapras": 0.444},
+      "counters": {}
+    },
+    "Golem": {
+      "lead": {"raw": 0.0154, "real": 0.0154, "weighted": 0.0215},
+      "usage": {"raw": 0.2231, "real": 0.2188, "weighted": 0.184},
+      "count": 95,
+      "weight": 0.1615,
+      "viability": [43, 79, 79, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Earthquake": 1,
+        "Explosion": 1,
+        "Rock Slide": 1,
+        "Substitute": 1
+      },
+      "teammates": {"Jolteon": 0.1127},
+      "counters": {}
+    },
+    "Zapdos": {
+      "lead": {"raw": 0.0423, "real": 0.0423, "weighted": 0},
+      "usage": {"raw": 0.2615, "real": 0.2844, "weighted": 0.1673},
+      "count": 82,
+      "weight": 0.0894,
+      "viability": [56, 78, 78, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Drill Peck": 1,
+        "Thunderbolt": 1,
+        "Agility": 0.9837,
+        "Thunder Wave": 0.9837,
+        "Light Screen": 0.0163,
+        "Reflect": 0.0163
+      },
+      "teammates": {
+        "Jynx": 0.4873,
+        "Tauros": 0.3066,
+        "Rhydon": 0.0902,
+        "Machamp": 0.0133
+      },
+      "counters": {}
+    },
+    "Jynx": {
+      "lead": {"raw": 0.0077, "real": 0.0077, "weighted": 0},
+      "usage": {"raw": 0.05, "real": 0.0438, "weighted": 0.1103},
+      "count": 15,
+      "weight": 0.2884,
+      "viability": [10, 78, 78, 50],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {"Ice Beam": 1, "Lovely Kiss": 1, "Psychic": 1, "Substitute": 1},
+      "teammates": {
+        "Zapdos": 0.8327,
+        "Tauros": 0.416,
+        "Rhydon": 0.1997,
+        "Alakazam": 0.0264,
+        "Chansey": 0.0184
+      },
+      "counters": {}
+    },
+    "Jolteon": {
+      "lead": {"raw": 0.0346, "real": 0.0346, "weighted": 0},
+      "usage": {"raw": 0.2231, "real": 0.2297, "weighted": 0.0828},
+      "count": 75,
+      "weight": 0.0735,
+      "viability": [43, 75, 75, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Double Kick": 1,
+        "Focus Energy": 0.9214,
+        "Thunder Wave": 0.9214,
+        "Thunderbolt": 0.9214,
+        "Hyper Beam": 0.0786,
+        "Pin Missile": 0.0786,
+        "Reflect": 0.0786
+      },
+      "teammates": {
+        "Golem": 0.3486,
+        "Snorlax": 0.0488,
+        "Nidoqueen": 0.0485,
+        "Victreebel": 0.0485,
+        "Charizard": 0.0348
+      },
+      "counters": {}
+    },
+    "Charizard": {
+      "lead": {"raw": 0.0308, "real": 0.0308, "weighted": 0},
+      "usage": {"raw": 0.2269, "real": 0.2297, "weighted": 0.0216},
+      "count": 85,
+      "weight": 0.0239,
+      "viability": [48, 56, 56, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Earthquake": 1,
+        "Swords Dance": 1,
+        "Body Slam": 0.7847,
+        "Fire Blast": 0.7847,
+        "Hyper Beam": 0.2153,
+        "Submission": 0.2153
+      },
+      "teammates": {
+        "Gengar": 0.2529,
+        "Starmie": 0.2529,
+        "Venusaur": 0.2529,
+        "Nidoqueen": 0.1466,
+        "Victreebel": 0.1466,
+        "Jolteon": 0.0718
+      },
+      "counters": {}
+    },
+    "Gengar": {
+      "lead": {"raw": 0.0423, "real": 0.0423, "weighted": 0.0024},
+      "usage": {"raw": 0.3077, "real": 0.3336, "weighted": 0.0137},
+      "count": 111,
+      "weight": 0.0142,
+      "viability": [80, 62, 62, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/0/252/252/252/252": 1},
+      "moves": {
+        "Night Shade": 1,
+        "Psychic": 1,
+        "Substitute": 1,
+        "Thunderbolt": 1
+      },
+      "teammates": {"Starmie": 0.3261, "Venusaur": 0.3261, "Charizard": 0.3181},
+      "counters": {}
+    },
+    "Starmie": {
+      "lead": {"raw": 0.0269, "real": 0.0269, "weighted": 0.0029},
+      "usage": {"raw": 0.1385, "real": 0.1477, "weighted": 0.0137},
+      "count": 54,
+      "weight": 0.0292,
+      "viability": [30, 62, 62, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/0/252/252/252/252": 1},
+      "moves": {
+        "Blizzard": 1,
+        "Hydro Pump": 1,
+        "Recover": 1,
+        "Thunder Wave": 1
+      },
+      "teammates": {"Gengar": 0.3261, "Venusaur": 0.3261, "Charizard": 0.3181},
+      "counters": {}
+    },
+    "Venusaur": {
+      "lead": {"raw": 0.0269, "real": 0.0269, "weighted": 0.0063},
+      "usage": {"raw": 0.1231, "real": 0.1149, "weighted": 0.0137},
+      "count": 53,
+      "weight": 0.0304,
+      "viability": [29, 56, 56, 50],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Hyper Beam": 1,
+        "Leech Seed": 1,
+        "Razor Leaf": 1,
+        "Sleep Powder": 1
+      },
+      "teammates": {"Gengar": 0.3261, "Starmie": 0.3261, "Charizard": 0.3181},
+      "counters": {}
+    },
+    "Victreebel": {
+      "lead": {"raw": 0.0192, "real": 0.0192, "weighted": 0.0045},
+      "usage": {"raw": 0.0385, "real": 0.0492, "weighted": 0.0079},
+      "count": 12,
+      "weight": 0.0361,
+      "viability": [4, 56, 56, 56],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Body Slam": 1,
+        "Hyper Beam": 1,
+        "Razor Leaf": 1,
+        "Stun Spore": 1
+      },
+      "teammates": {
+        "Nidoqueen": 0.7099,
+        "Charizard": 0.6963,
+        "Jolteon": 0.6351,
+        "Lapras": 0.3844
+      },
+      "counters": {}
+    },
+    "Nidoqueen": {
+      "lead": {"raw": 0.0039, "real": 0.0039, "weighted": 0},
+      "usage": {"raw": 0.0423, "real": 0.0164, "weighted": 0.0079},
+      "count": 12,
+      "weight": 0.0361,
+      "viability": [3, 55, 55, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Counter": 1,
+        "Earthquake": 1,
+        "Hyper Beam": 1,
+        "Rock Slide": 1
+      },
+      "teammates": {
+        "Victreebel": 0.7099,
+        "Charizard": 0.6963,
+        "Jolteon": 0.6351,
+        "Lapras": 0.3844
+      },
+      "counters": {}
+    },
+    "Slowbro": {
+      "lead": {"raw": 0.0192, "real": 0.0192, "weighted": 0.0048},
+      "usage": {"raw": 0.0885, "real": 0.1149, "weighted": 0.0048},
+      "count": 37,
+      "weight": 0.0218,
+      "viability": [18, 62, 62, 56],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Serious:252/252/252/252/252/252": 0.9584,
+        "Serious:252/0/252/252/252/252": 0.0416
+      },
+      "moves": {
+        "Nothing": 2.8753,
+        "Teleport": 0.9584,
+        "Amnesia": 0.0416,
+        "Fire Blast": 0.0416,
+        "Surf": 0.0416,
+        "Thunder Wave": 0.0416
+      },
+      "teammates": {},
+      "counters": {}
+    },
+    "Machamp": {
+      "lead": {"raw": 0.0154, "real": 0.0154, "weighted": 0},
+      "usage": {"raw": 0.0654, "real": 0.0656, "weighted": 0.003},
+      "count": 20,
+      "weight": 0.0059,
+      "viability": [14, 59, 59, 55],
+      "abilities": {"Illuminate": 1},
+      "items": {"Nothing": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Serious:252/252/252/252/252/252": 1},
+      "moves": {
+        "Earthquake": 1,
+        "Hyper Beam": 1,
+        "Rock Slide": 1,
+        "Submission": 1
+      },
+      "teammates": {
+        "Zapdos": 0.8327,
+        "Snorlax": 0.5162,
+        "Exeggutor": 0.1366,
+        "Alakazam": 0.0264,
+        "Chansey": 0.0184
+      },
+      "counters": {}
+    }
+  },
+  "metagame": {
+    "tags": {
+      "weatherless": 1,
+      "balance": 0.9991,
+      "monowater": 0.0048,
+      "monopsychic": 0.0048,
+      "monotype": 0.0048,
+      "semistall": 0.0009
+    },
+    "stalliness": {
+      "histogram": [
+        [-0.5, 0],
+        [-0.4, 0],
+        [-0.3, 0],
+        [-0.2, 0],
+        [-0.1, 0],
+        [0, 0],
+        [0.1, 0],
+        [0.2, 4.079],
+        [0.3, 2.5958],
+        [0.4, 11.1247],
+        [0.5, 4.4499],
+        [0.6, 0],
+        [0.7, 0.3708],
+        [0.8, 10.7539],
+        [0.9, 0],
+        [1, 0],
+        [1.1, 0],
+        [1.2, 0],
+        [1.3, 0]
+      ],
+      "mean": 0.504,
+      "total": 33.1091
+    }
+  }
+}

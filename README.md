@@ -19,15 +19,17 @@ provide a stable way of accessing the data Smogon exposes on its site. Two packa
   [Smogon](https://smogon.com) analysis and moveset information available at
   [https://data.pkmn.cc](https://data.pkmn.cc).
 
-[https://data.pkmn.cc](https://pkmn.github.io/smogon) is [refreshed
+[https://data.pkmn.cc](https://pkmn.github.io/smogon) contains several curated datasets pulled from
+Smogon and Pokémon Showdown which have been processed to allow for efficient batch access of
+analysis, sets, and statistics data by format or generation. Analysis and set data is [refreshed
 automatically](https://simonwillison.net/2020/Oct/9/git-scraping/) every [24
-hours](https://github.com/pkmn/smogon/tree/master/.github/workflows/update.yml) and allows for
-efficient batch access of Smogon analysis and statistics data by format or generation. This data can
+hours](https://github.com/pkmn/smogon/tree/master/.github/workflows/update.yml), the best stats data
+for each generation is converted each month into [`@pkmn/stats`](https://github.com/pkmn/stats)'s
+optimized [output format](https://github.com/pkmn/stats/blob/master/stats/OUTPUT.md), and
+information about Pokémon Showdown’s standard Random Battle formats from
+[https://pkmn.github.io/randbats](https://pkmn.github.io/randbats) is updated hourly. This data can
 be accessed directly, though the `@pkmn/smogon` package is recommended for simplifying the data
-handling. Aggregate usage statistics data can be found at
-[https://smogon.com/stats](https://smogon.com/stats), and information about Pokémon Showdown’s
-standard Random Battle formats can be found at
-[https://pkmn.github.io/randbats](https://pkmn.github.io/randbats).
+handling.
 
 While this project's code is distributed under the terms of the [MIT
 License](https://github.com/pkmn/smogon/tree/master/LICENSE) and the aggregated stats information is

@@ -11,7 +11,7 @@ import {
   StatsTable,
   Tier,
 } from '@pkmn/data';
-import {Credits, UsageStatistics, Statistics} from 'smogon';
+import {Credits} from 'smogon';
 
 // The structure of https://data.pkmn.cc/analyses/genN.json
 interface GenAnalyses {
@@ -53,13 +53,15 @@ interface RawAnalysis {
   credits?: Credits;
 }
 
-// The reconstituted analysis made from joining a RawAnalysis with the referenced Moveset objects.
+/**
+ * The reconstituted analysis made from joining a RawAnalysis with the referenced Moveset objects.
+ */
 export interface Analysis extends Omit<RawAnalysis, 'sets'> {
   format: ID;
   sets: Array<Moveset & {name: string; desc?: string}>;
 }
 
-// A compressed version of the default smogon Moveset which is smaller to serialize.
+/** A compressed version of the default smogon Moveset type which is smaller to serialize. */
 export interface Moveset {
   level?: number | number[];
   ability: AbilityName | AbilityName[];
@@ -70,7 +72,7 @@ export interface Moveset {
   moves: Array<MoveName | MoveName[]>;
 }
 
-// A fairly sloppy definition of DeepPartial, but good enough for our use case.
+/** A fairly sloppy definition of DeepPartial, but good enough for our use case. */
 export type DeepPartial<T> = {
   [P in keyof T]?: T[P] extends Array<infer U>
     ? Array<DeepPartial<U>>
@@ -78,6 +80,68 @@ export type DeepPartial<T> = {
       ? ReadonlyArray<DeepPartial<V>>
       : DeepPartial<T[P]>
 };
+
+/** @pkmn/stats output format for statistics. */
+export interface DisplayStatistics<T = DisplayUsageStatistics> {
+  battles: number;
+  pokemon: { [name: string]: T };
+  metagame: DisplayMetagameStatistics;
+}
+
+/** Output format for legacy smogon.com/stats reports converted to the new @pkmn/stats format. */
+export interface LegacyDisplayStatistics extends
+  Omit<DisplayStatistics<LegacyDisplayUsageStatistics>, 'metagame'> {
+  metagame?: DisplayMetagameStatistics;
+}
+
+/** @pkmn/stats output format for Pokémon usage statistics. */
+export interface DisplayUsageStatistics {
+  lead?: Usage;
+  usage: Usage;
+  unique: Usage;
+  win: Usage;
+
+  count: number;
+  weight: number | null;
+  viability: [number, number, number, number];
+
+  abilities: { [name: string]: number };
+  items: { [name: string]: number };
+  stats: { [stats: string]: number };
+  moves: { [name: string]: number };
+  teammates: { [name: string]: number };
+  counters: { [name: string]: [number, number, number] };
+}
+
+/**
+ * Output format for the data for a specific Pokémon from legacy smogon.com/stats reports after
+ * having been converted to the new @pkmn/stats format.
+ */
+export interface LegacyDisplayUsageStatistics
+  extends Omit<DisplayUsageStatistics, 'unique' | 'win' | 'stats'> {
+  happinesses?: { [happiness: string]: number };
+  spreads: { [spreads: string]: number };
+}
+
+/** @pkmn/stats output format for metagame statistics. */
+export interface DisplayMetagameStatistics {
+  tags: { [tag: string]: number };
+  stalliness: {
+    histogram: Array<[number, number]>;
+    mean: number;
+    total: number;
+  };
+}
+
+/**
+ * Counts of the raw (unweighted), real (unweighted only counting Pokémon that actually appear in
+ * battle), and weighted usage for a Pokémon.
+ */
+export interface Usage {
+  raw: number;
+  real: number;
+  weighted: number;
+}
 
 const URL = 'https://data.pkmn.cc/';
 
@@ -111,9 +175,8 @@ const BANS = {
  * default this class will fetch an entire generation's worth of data for analyses or sets even if a
  * format parameter is passed to these methods, but if initialized with minimal = true then only a
  * single format will be fetched if a format paramter is provided to the analyses or sets methods.
- * This class will always attempt to fetch the generation-sliced data if no format parameter is
- * used, regardless of whether minimal is set or not, though if this fetch fails and minimal *is*
- * set to true, the methods will instead return info from whatever formats it has data cached for.
+ * If no format parameter is passed and minimal = true then only data from formats which happen to
+ * already be cached will be returned.
  * */
 export class Smogon {
   private readonly fetch: (url: string) => Promise<{json(): Promise<any>}>;
@@ -125,7 +188,7 @@ export class Smogon {
     format: {
       analyses: {[formatid: string]: FormatAnalyses};
       sets: {[formatid: string]: FormatSets};
-      stats: {[formatid: string]: UsageStatistics['data']};
+      stats: {[formatid: string]: DisplayStatistics | LegacyDisplayStatistics};
     };
   };
   private readonly minimal: boolean;
@@ -225,7 +288,7 @@ export class Smogon {
    * the species' default format or the optional format provided.
    */
   async stats(
-    gen: Generation, species: string | Specie, format?: ID, weighted: number | boolean = true
+    gen: Generation, species: string | Specie, format?: ID
   ) {
     if (typeof species === 'string') {
       const s = gen.species.get(species);
@@ -237,13 +300,11 @@ export class Smogon {
 
     let stats = this.cache.format.stats[format];
     if (!stats) {
-      const latest = await Statistics.latestDate(format, true);
-      if (!latest) return undefined;
-      const response = await this.fetch(Statistics.url(latest.date, format, weighted));
-      stats = this.cache.format.stats[format] = (await response.json()).data;
+      const response = await this.fetch(`${URL}/stats/${format}.json`);
+      stats = await response.json();
     }
 
-    return stats[this.name(gen, species, false, true)];
+    return stats.pokemon[this.name(gen, species, false, true)];
   }
 
   /** Returns the format ID for the 'native' format of a species in the given gen. */
@@ -261,27 +322,35 @@ export class Smogon {
   private async get(type: 'sets' | 'analyses', gen: Generation, format?: ID) {
     let data = this.cache.gen[type][gen.num];
     if (!data) {
-      if (format && this.minimal) {
-        const response = await this.fetch(`${URL}/${type}/${format}.json`);
-        const d = this.cache.format[type][format] = await response.json();
-        const tierid = format.slice(4);
-        const result: GenAnalyses | GenSets = {};
-        for (const species in d) result[species] = {[tierid]: d[species]};
-        return result;
-      } else {
-        try {
-          const response = await this.fetch(`${URL}/${type}/gen${gen.num}.json`);
-          data = this.cache.gen[type][gen.num] = await response.json();
-        } catch (error) {
-          if (!this.minimal) throw error;
+      if (this.minimal) {
+        if (format) {
+          let d = this.cache.format[type][format] as any;
+          if (!d) {
+            const response = await this.fetch(`${URL}/${type}/${format}.json`);
+            d = this.cache.format[type][format] = await response.json();
+          }
+          const tierid = format.slice(4);
+          const result: GenAnalyses | GenSets = {};
+          for (const species in d) result[species] = {[tierid]: d[species]};
+          return result;
+        } else {
           const result: GenAnalyses | GenSets = {};
           for (const f in this.cache.format[type]) {
             const d = this.cache.format[type][f] as any;
             const tierid = f.slice(4);
-            for (const species in d) result[species] = {[tierid]: d[species]};
+            for (const species in d) {
+              if (result[species]) {
+                result[species][tierid] = d[species];
+              } else {
+                result[species] = {[tierid]: d[species]};
+              }
+            }
           }
           return result;
         }
+      } else {
+        const response = await this.fetch(`${URL}/${type}/gen${gen.num}.json`);
+        data = this.cache.gen[type][gen.num] = await response.json();
       }
     }
     return data;
