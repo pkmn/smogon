@@ -175,7 +175,7 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
   for (const file of Object.keys(index).sort()) {
     sorted[file] = index[file];
   }
-  fs.writeFileSync(path.join(DATA, 'stats', 'index.json'), stringify(index));
+  fs.writeFileSync(path.join(DATA, 'stats', 'index.json'), stringify(sorted));
 })().catch(err => console.error(err));
 
 
