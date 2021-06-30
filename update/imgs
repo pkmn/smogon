@@ -50,7 +50,7 @@ const ASSETS = {
 };
 
 const DATA = path.resolve(__dirname, '../data');
-// fs.unlinkSync(path.join(DATA, 'imgs', 'index.json')); // TODO
+try { fs.unlinkSync(path.join(DATA, 'imgs', 'index.json')); } catch {}
 
 const MAX = +process.argv[2] || 50;
 const URL = 'https://play.pokemonshowdown.com/sprites';
@@ -65,7 +65,7 @@ const HREF = /href="(.*?\.(png|gif))"/;
         index[source] += (await probe(`${URL}/${asset}`)).length;
       } else {
         const page = await (await fetch(`${URL}/${asset}`)).text();
-        const imgs = [];
+        let imgs = [];
         for (const line of page.split('\n')) {
           const m = HREF.exec(line);
           if (m) imgs.push(size(`${URL}/${asset}/${m[1]}`));
@@ -73,10 +73,11 @@ const HREF = /href="(.*?\.(png|gif))"/;
             for (const img of await Promise.all(imgs)) {
               index[source] += img.length;
             }
+            imgs = [];
           }
-          for (const img of await Promise.all(imgs)) {
-            index[source] += img.length;
-          }
+        }
+        for (const img of await Promise.all(imgs)) {
+          index[source] += img.length;
         }
       }
     }
