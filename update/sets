@@ -31,15 +31,25 @@ const gzip = util.promisify(zlib.gzip);
 const {Dex, toID} = require('@pkmn/sim');
 const {Analyses} = require('smogon');
 
-const request = retrying(throttling(args => fetch(args.url, args.init), 1, 50), 5, 20);
+const request = retrying(throttling(async (args) => {
+  try {
+    return await fetch(args.url, args.init);
+  } catch (err) {
+    if (err.message.startsWith('HTTP')) {
+      throw err;
+    } else {
+      throw new RetryableError(err.message);
+    }
+  }
+}, 1, 50), 5, 20);
 
 const DATA = path.resolve(__dirname, '../data');
 
 for (const file of fs.readdirSync(path.join(DATA, 'analyses'))) {
-  fs.unlinkSync(path.join(DATA, `analyses', ${file}`));
+  fs.unlinkSync(path.join(DATA, 'analyses', file));
 }
 for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
-  fs.unlinkSync(path.join(DATA, `sets', ${file}`));
+  fs.unlinkSync(path.join(DATA, 'sets', file));
 }
 
 // Smogon and Pokémon Showdown disagree on format names - this mapping allows us to convert from
@@ -129,7 +139,10 @@ function eligible(gen, species) {
   }
   fs.writeFileSync(path.join(DATA, 'analyses/index.json'), stringify(sorted.analyses));
   fs.writeFileSync(path.join(DATA, 'sets/index.json'), stringify(sorted.sets));
-})();
+})().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
 
 // Fetch a Pokémon's analysis and split out the sets from the analysis text, compressing the
 // set information and sanitizing the analysis text. If the Pokémon doesn't have any strategies we
@@ -287,7 +300,7 @@ function throttling(fn, limit, interval) {
     let timeout;
     return new Promise((resolve, reject) => {
       const execute = () => {
-        resolve(fn(args));
+        resolve(fn(args))
         queue.delete(timeout);
       };
 

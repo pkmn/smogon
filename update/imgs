@@ -18,7 +18,17 @@ const probe = require('probe-image-size');
 const fetch = require('node-fetch');
 const stringify = require('json-stringify-pretty-compact');
 
-const size = retrying(throttling(url => probe(url), 1, 50), 5, 20);
+const size = retrying(throttling(async (url) => {
+  try {
+    return probe(url);
+  } catch (err) {
+    if (err.message.startsWith('HTTP')) {
+      throw err;
+    } else {
+      throw new RetryableError(err.message);
+    }
+  }
+}, 1, 50), 5, 20);
 
 const ASSETS = {
   default: [
@@ -84,8 +94,10 @@ const HREF = /href="(.*?\.(png|gif))"/;
   }
 
   fs.writeFileSync(path.join(DATA, 'imgs', 'index.json'), stringify(index));
-})();
-
+})().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
 
 class RetryableError extends Error {
   constructor(message) {
@@ -125,7 +137,7 @@ function throttling(fn, limit, interval) {
     let timeout;
     return new Promise((resolve, reject) => {
       const execute = () => {
-        resolve(fn(args));
+        resolve(fn(args))
         queue.delete(timeout);
       };
 
