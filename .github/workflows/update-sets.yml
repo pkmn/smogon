@@ -14,7 +14,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Update
-      run: npm run update/sets
+      run: node update/sets
     - name: Test
       run: npm run test
     - name: Commit and push if it changed
