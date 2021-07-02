@@ -1,9 +1,8 @@
 {
-  "Venusaur": {"Sleep Powder": {"moves": ["Razor Leaf", "Sleep Powder", "Swords Dance", "Body Slam"]}},
+  "Venusaur": {"Swords Dance": {"moves": ["Sleep Powder", "Razor Leaf", "Swords Dance", "Hyper Beam"]}, "Sleep Powder": {"moves": ["Razor Leaf", "Sleep Powder", "Swords Dance", "Body Slam"]}},
   "Arbok": {"Wrapper": {"moves": ["Glare", "Wrap", "Earthquake", "Hyper Beam"]}},
   "Sandslash": {"Swords Dance": {"moves": ["Earthquake", "Swords Dance", "Hyper Beam", ["Substitute", "Rock Slide", "Body Slam"]]}},
-  "Nidoking": {"Mixed Attacker": {"moves": ["Earthquake", "Blizzard", ["Thunder", "Thunderbolt"], "Body Slam"]}},
-  "Clefable": {"Offensive": {"moves": ["Blizzard", "Body Slam", "Hyper Beam", ["Thunderbolt", "Thunder Wave"]]}, "Status Inducer": {"moves": ["Blizzard", "Thunder Wave", ["Sing", "Counter"], ["Thunderbolt", "Thunder"]]}},
+  "Clefable": {"Status Spreader": {"moves": [["Mega Kick", "Body Slam"], "Hyper Beam", "Blizzard", ["Thunder Wave", "Sing"]]}, "Offensive": {"moves": ["Blizzard", "Body Slam", "Hyper Beam", ["Thunderbolt", "Thunder Wave"]]}, "Status Inducer": {"moves": ["Blizzard", "Thunder Wave", ["Sing", "Counter"], ["Thunderbolt", "Thunder"]]}},
   "Persian": {"Slash": {"moves": ["Slash", "Hyper Beam", "Bubble Beam", "Thunderbolt"]}},
   "Poliwrath": {"Amnesia": {"moves": [["Hypnosis", "Blizzard"], "Amnesia", "Surf", "Submission"]}},
   "Alakazam": {"Standard": {"moves": ["Psychic", ["Seismic Toss", "Reflect"], "Thunder Wave", "Recover"]}},
@@ -24,7 +23,7 @@
   "Jynx": {"Lead Sleeper": {"moves": ["Lovely Kiss", "Blizzard", "Psychic", "Rest"]}},
   "Pinsir": {"Swords Dance": {"moves": ["Swords Dance", "Hyper Beam", ["Slash", "Body Slam", "Bind"], ["Submission", "Bind"]]}},
   "Tauros": {"The Bull": {"moves": ["Body Slam", "Hyper Beam", "Blizzard", ["Earthquake", "Fire Blast"]]}},
-  "Gyarados": {"Mixed Attacker": {"moves": [["Blizzard", "Surf"], "Thunderbolt", "Body Slam", "Hyper Beam"]}},
+  "Gyarados": {"Wallbreaker": {"moves": ["Hydro Pump", ["Thunderbolt", "Blizzard"], "Body Slam", "Hyper Beam"]}, "Mixed Attacker": {"moves": [["Blizzard", "Surf"], "Thunderbolt", "Body Slam", "Hyper Beam"]}},
   "Lapras": {"Standard": {"moves": ["Blizzard", "Thunderbolt", ["Hyper Beam", "Body Slam"], ["Sing", "Confuse Ray"]]}},
   "Jolteon": {"Offensive": {"moves": ["Thunder Wave", "Thunderbolt", "Double Kick", ["Rest", "Pin Missile"]]}},
   "Flareon": {"Mixed Attacker": {"moves": ["Fire Blast", "Body Slam", "Hyper Beam", ["Fire Spin", "Tail Whip"]]}},
@@ -34,5 +33,5 @@
   "Articuno": {"Standard": {"moves": ["Blizzard", "Agility", ["Double-Edge", "Ice Beam", "Rest"], "Hyper Beam"]}},
   "Zapdos": {"Mixed Attacker": {"moves": ["Thunderbolt", "Drill Peck", "Thunder Wave", "Agility"]}},
   "Moltres": {"Standard": {"moves": ["Fire Blast", "Hyper Beam", "Agility", "Fire Spin"]}},
-  "Dragonite": {"AgiliWrap": {"moves": ["Agility", "Wrap", "Hyper Beam", ["Surf", "Blizzard"]]}}
+  "Dragonite": {"Wrap": {"moves": ["Wrap", "Hyper Beam", "Blizzard", ["Thunder Wave", "Agility"]]}, "AgiliWrap": {"moves": ["Agility", "Wrap", "Hyper Beam", ["Surf", "Blizzard"]]}}
 }
