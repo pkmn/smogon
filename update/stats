@@ -75,7 +75,8 @@ async function serialize(data, file) {
 
 const DATA = path.resolve(__dirname, '../data');
 
-const SUPPORTED = new Set();
+// NOTE: Smogon doesn't have any analyses for this but we still consider it a supported format
+const SUPPORTED = new Set(['gen8battlestadiumdoubles']);
 for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
   if (file === 'index.json' || /gen\d.json/.test(file) || file.endsWith('nfe.json')) continue;
   SUPPORTED.add(file.slice(0, file.indexOf('.')));
