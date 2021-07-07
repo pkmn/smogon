@@ -20,7 +20,7 @@ const stringify = require('json-stringify-pretty-compact');
 
 const size = retrying(throttling(async (url) => {
   try {
-    return probe(url);
+    return await probe(url);
   } catch (err) {
     if (err.message.startsWith('HTTP')) {
       throw err;
