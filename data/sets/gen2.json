@@ -126,7 +126,7 @@
   "Gligar": {"ou": {"Screech": {"moves": ["Screech", "Earthquake", "Wing Attack", "Counter"], "item": "Leftovers"}, "Thief": {"moves": ["Earthquake", "Wing Attack", ["Rest", "Protect"], "Thief"], "item": ["Mint Berry", "Miracle Berry"]}}},
   "Steelix": {"ou": {"Curse + Roar": {"moves": ["Earthquake", "Curse", "Roar", ["Explosion", "Rock Slide", "Body Slam"]], "item": "Leftovers"}}},
   "Scizor": {"ou": {"Baton Pass": {"moves": ["Swords Dance", "Baton Pass", "Agility", ["Hidden Power Bug", "Hidden Power Fighting"]], "item": ["Leftovers", "Miracle Berry"]}}},
-  "Shuckle": {"ou": {"PP Stall": {"moves": ["Defense Curl", ["Toxic", "Encore"], ["Flash", "Wrap"], "Rest"], "item": "Leftovers"}}},
+  "Shuckle": {"nu": {"Rollout": {"moves": ["Defense Curl", "Toxic", "Rollout", "Rest"], "item": "Leftovers"}, "Defensive Pivot": {"moves": ["Toxic", "Encore", "Rest", "Sleep Talk"], "item": "Leftovers"}}, "ou": {"PP Stall": {"moves": ["Defense Curl", ["Toxic", "Encore"], ["Flash", "Wrap"], "Rest"], "item": "Leftovers"}}},
   "Heracross": {"ou": {"RestTalk": {"moves": ["Rest", "Sleep Talk", "Megahorn", ["Curse", "Seismic Toss"]], "item": "Leftovers"}}},
   "Sneasel": {"nu": {"Defensive": {"moves": ["Return", "Moonlight", "Toxic", ["Dynamic Punch", "Thief"]], "item": ["Leftovers", "No Item"]}, "Offensive Nightmare": {"moves": ["Return", "Nightmare", "Moonlight", "Toxic"], "item": "Leftovers"}}},
   "Ursaring": {"ou": {"Curse Phazer": {"moves": ["Curse", "Return", ["Earthquake", "Rest"], "Roar"], "item": "Leftovers"}}},
