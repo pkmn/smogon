@@ -20,7 +20,7 @@ const FORMATS = require('../smogon/latest.json');
 
 const IGNORE = new Set([
   'gen8tiershiftcamomonsobtainable',
-  'gen8vgc2021series9limitonerestrictedrestrictedlegendary'
+  'gen8vgc2021series9limitonerestrictedrestrictedlegendary',
 ]);
 
 const SPECIAL = /^battlespotspecial(\d+)$/;
@@ -44,19 +44,17 @@ function getName(tier, pokebank = false) {
   return undefined;
 }
 
+for (const format of Dex.formats.all()) {
+  const tier = /gen\d/.test(format.id) ? format.id.slice(4) : format.id;
+  if (!getName(tier)) NAMES[tier] = format.name.slice(8);
+}
+
 const missing = [];
 for (const key in FORMATS) {
   if (IGNORE.has(key)) continue;
   const tier = /gen\d/.test(key) ? key.slice(4) : key;
   const name = getName(tier);
-  if (!name) {
-    const format = Dex.formats.get(key);
-    if (format.name !== key) {
-      NAMES[key] = format.name;
-    } else {
-      missing.push(key);
-    }
-  }
+  if (!name) missing.push(key);
 }
 
 const sorted = {};
