@@ -59,6 +59,8 @@ describe('Smogon', () => {
       const clefable = await smogon.analyses(gen(4), 'Clefable', 'gen4uu' as ID);
       expect(clefable[0].format).toBe('gen4uu');
       expect(clefable[0].sets[0].moves[0]).toEqual(['Ice Beam', 'Encore']);
+      expect((await smogon.analyses(gen(8), 'Incineroar', 'gen8vgc2021series10' as ID))[0].format)
+        .toBe('gen8vgc2021series10');
     });
 
     test(`sets (minimal=${minimal})`, async () => {
@@ -93,6 +95,9 @@ describe('Smogon', () => {
         .toEqual({atk: 2, spa: 30});
       expect((await smogon.sets(gen(7), 'Kyogre-Primal', 'gen7balancedhackmons' as ID))[0].species)
         .toEqual('Kyogre-Primal');
+
+      expect((await smogon.sets(gen(8), 'Incineroar', 'gen8vgc2021fooseries' as ID))[0].name)
+        .toBe('Support');
     });
   }
 
@@ -104,6 +109,8 @@ describe('Smogon', () => {
       .toEqual(0.9421);
     expect((await smogon.stats(gen(7), 'Steelix', 'gen7nu' as ID))!.teammates['Passimian'])
       .toEqual(0.1307);
+    expect((await smogon.stats(gen(7), 'Incineroar', 'gen7vgc2019moonseries' as ID))!
+      .items['Assault Vest']).toEqual(0.3012);
   });
 
   test('format', () => {
@@ -204,5 +211,17 @@ describe('Smogon', () => {
       .toEqual({hp: 23, atk: 27, def: 25});
     expect(fixIVs(gen(4), {moves: ['Hidden Power Grass'], ivs: {atk: 2}}).ivs)
       .toEqual({atk: 2, spa: 30});
+  });
+
+  test('baseFormat', () => {
+    const baseFormat = (f: string) => (new Smogon(fetch) as any).baseFormat(f) as ID;
+
+    expect(baseFormat('gen2ou')).toBe('gen2ou');
+    expect(baseFormat('gen7vgc2019moonseries')).toBe('gen7vgc2019');
+    expect(baseFormat('gen7vgc2019ultraseries')).toBe('gen7vgc2019');
+    expect(baseFormat('gen8battlestadiumsinglesseries10')).toBe('gen8battlestadiumsingles');
+    expect(baseFormat('gen8vgc2020')).toBe('gen8vgc2020');
+    expect(baseFormat('gen8vgc2021')).toBe('gen8vgc2021');
+    expect(baseFormat('gen8vgc2021battleseries10')).toBe('gen8vgc2021');
   });
 });

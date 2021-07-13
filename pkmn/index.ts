@@ -170,6 +170,8 @@ const BANS = {
   8: ['Cramorant-Gorging', 'Darmanitan-Galar-Zen'],
 };
 
+const SPECIAL = /(gen[78](?:vgc20(?:19|21)|battlestadium(?:singles|doubles)))(.*)/;
+
 /**
  * Utility class for working with data from Smogon, requires a fetch function to request data. By
  * default this class will fetch an entire generation's worth of data for analyses or sets even if a
@@ -211,6 +213,8 @@ export class Smogon {
     }
 
     const name = this.name(gen, species);
+    const original = format;
+    if (format) format = this.baseFormat(format);
     const data = {
       analyses: (await this.get('analyses', gen, format) as GenAnalyses)[name],
       sets: (await this.get('sets', gen, format) as GenSets)[name],
@@ -227,7 +231,7 @@ export class Smogon {
       if (!s) continue;
 
       const analysis: Analysis = {
-        format: f,
+        format: original || f,
         overview: a.overview,
         comments: a.comments,
         credits: a.credits,
@@ -263,6 +267,7 @@ export class Smogon {
     }
 
     const name = this.name(gen, species);
+    if (format) format = this.baseFormat(format);
     const data = (await this.get('sets', gen, format) as GenSets)[name];
     if (!data) return [];
 
@@ -296,7 +301,7 @@ export class Smogon {
       species = s;
     }
 
-    format = format || Smogon.format(gen, species)!;
+    format = this.baseFormat((format || Smogon.format(gen, species))!);
 
     let stats = this.cache.format.stats[format];
     if (!stats) {
@@ -316,6 +321,12 @@ export class Smogon {
     }
     const tierid = species.tier === 'NFE' ? (gen.num < 6 ? 'nu' : 'pu') : FORMATS[species.tier];
     return `gen${gen.num}${tierid}` as ID;
+  }
+
+  // Certain special formats like specific VGC or BSS series get reduced down to a 'base' format.
+  private baseFormat(format: ID) {
+    const m = SPECIAL.exec(format);
+    return m ? m[1] as ID : format;
   }
 
   // Fetch analysis or set data for a specific gen and cache the result.

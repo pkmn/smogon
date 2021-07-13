@@ -40,6 +40,7 @@ const N = 1e4;
 
 const UNSUPPORTED = ['1v1', 'challengecup1vs1'];
 const RE = /(.*)\/chaos\/(.*)\.json/;
+const SPECIAL = /(gen[78](?:vgc20(?:19|21)|battlestadium(?:singles|doubles)))(.*)/;
 
 async function convert(format, date) {
   const leads = !stats.isNonSinglesFormat(format) && !UNSUPPORTED.includes(format);
@@ -106,7 +107,7 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
         const format = smogon.Statistics.canonicalize(m[1]);
         if (formats[format] && typeof formats[format][date] === 'number') continue;
         formats[format] = formats[format] || {};
-        formats[format][date] = formats[format][date] || [];
+        formats[format][date] = formats[format][date] || 0;
 
         // The JSON files are quite large and needing to download and parse them to then
         // extract the 'number of battles' field is much slower than instead grabbing the
@@ -125,6 +126,7 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
     }
   }
 
+  const special = new Set();
   for (const [format, dates] of Object.entries(formats)) {
     let latest = [null, 0];
     let best = [null, 0];
@@ -157,10 +159,38 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
     }
     if (latest[0]) info[format] = best === latest ? latest : [latest, best];
 
-    if (SUPPORTED.has(format) && updated) {
-      index[`${format}.json`] = await serialize(await convert(format, best[0]), `${format}.json`);
+    const m = SPECIAL.exec(format);
+    if ((m || SUPPORTED.has(format)) && updated) {
+      if (m) {
+        special.add(m[1]);
+      } else {
+        index[`${format}.json`] = await serialize(await convert(format, best[0]), `${format}.json`);
+      }
     }
     state.formats[format] = [total, i];
+  }
+
+  const bests = {}; // base => [format, [best, count]];
+  for (const format in info) {
+    for (const s of special) {
+      if (format.startsWith(s)) {
+        const best = Array.isArray(info[format][0]) ? info[format][1] : info[format];
+        if (!bests[s]) {
+          bests[s] = [format, best];
+        } else if (best[0] > bests[s][1][0]) {
+          bests[s] = [format, best];
+        } else if (best[0] === bests[s][1][0] && best[1] > bests[s][1][1]) {
+          bests[s] = [format, best];
+        }
+        break;
+      }
+    }
+  }
+
+  for (const base in bests) {
+    const format = bests[base][0];
+    const date = bests[base][1][0];
+    index[`${base}.json`] = await serialize(await convert(format, date), `${base}.json`);
   }
 
   let sorted = {};
