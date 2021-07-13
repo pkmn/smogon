@@ -1,10 +1,9 @@
-# TODO: this can't be run until @pkmn/stats has been released.
 name: Update Stats
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '4 * 1,2 * *'
+  schedule:
+    - cron: '4 * 1,2 * *'
 
 jobs:
   scheduled:
