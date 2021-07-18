@@ -7,7 +7,7 @@ try {
   if (err.code !== 'MODULE_NOT_FOUND') throw err;
 }
 
-// Creates an index file with the size of Pokémon Showdonw's assets for each generation.
+// Creates an index file with the size of Pokémon Showdown's assets for each generation.
 // BUG: Pokémon Showdown actually copies sprites redundantly when it shouldn't, so something like
 // `gen2g` contains `gen2` assets for the Pokémon that didn't receive unique sprites in Gold. This
 // is useful for simplicity but results it useless duplicate information being fetched.
@@ -59,11 +59,14 @@ const HREF = /href="(.*?\.(png|gif))"/;
 
 (async () => {
   const index = {};
+  const state = {};
   for (const source in ASSETS) {
     index[source] = 0;
     for (const asset of ASSETS[source]) {
       if (asset.endsWith('png')) {
-        index[source] += (await probe(`${URL}/${asset}`)).length;
+        const size = (await probe(`${URL}/${asset}`)).length;
+        index[source] += size;
+        state[asset] = size;
       } else {
         const page = await (await fetch(`${URL}/${asset}`)).text();
         let imgs = [];
@@ -73,18 +76,25 @@ const HREF = /href="(.*?\.(png|gif))"/;
           if (imgs.length >= MAX) {
             for (const img of await Promise.all(imgs)) {
               index[source] += img.length;
+              state[img.url.slice(URL.length + 1)] = img.length;
             }
             imgs = [];
           }
         }
         for (const img of await Promise.all(imgs)) {
           index[source] += img.length;
+          state[img.url.slice(URL.length + 1)] = img.length;
         }
       }
     }
   }
 
   fs.writeFileSync(path.join(DATA, 'imgs', 'index.json'), stringify(index));
+  const sorted = {};
+  for (const asset of Object.keys(state).sort()) {
+    sorted[asset] = state[asset];
+  }
+  fs.writeFileSync(path.join(DATA, 'imgs', 'state.json'), stringify(sorted));
 })().catch(err => {
   console.error(err);
   process.exit(1);
