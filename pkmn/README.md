@@ -74,6 +74,30 @@ analysis/moveset data for specific formats will be requested in scenarios where 
 is passed to the methods (if no format method is passed, only data from formats which have already
 been cached will be returned).
 
+### Details
+
+`@pkmn/smogon` will always display the latest stats for a format, but due to how Pokémon Showdown
+and in particular usage stats work, what data gets returned can sometimes be uninituitive. Pokémon
+Showdown's usage stats are only processed and published monthly on Smogon, and as such, data is
+always going to be somewhat stale depending on how close it is to the start of the month. Secondly,
+because Pokémon Showdown changes around which formats have a ladder (and thus ranked battles and
+thus usage stats), the data for a format may be several months out of date (ie. stats will be
+returned from the last time the format had an active ladder).
+
+This problem is especially prominent with Nintendo's formats (VGC/BSS/BSD) - Nintendo announces new
+formats that get implemented by Pokémon Showdown on dates that almost never neatly line up with
+usage stats' monthly publish schedule, meaning there is often no data for the new format. However,
+most of the time these formats only differ slightly from the previous format (ie. Nintendo has moved
+to a 'series' model for their metagames where each series makes a few tweaks to the previous
+series). Pokémon Showdown treats each of these metagames as completely new formats, but both Smogon
+and `@pkmn/smogon` do not (otherwise there would be no analyses/sets/stats) - instead they are
+treated more similarly to a format like OU or UU which keeps the same name despite any bans or rule
+changes that may occur. The consequence of this is that when fetching data for a new VGC/BSS/BSD
+series with `@pkmn/smogon`, you will may receive stats from the most recent prior series until new
+usage stats including data from the new series gets publsihed (Smogon analyses/sets data will also
+take a while to reflect changes from the new series as analysis writers need time to update the site
+after the metagame shifts).
+
 ## License
 
 This package is distributed under the terms of the [MIT License](LICENSE).
