@@ -23,6 +23,7 @@
     "compile": "node compile-fixtures && tsc -p .",
     "build": "npm run compile",
     "test": "jest",
+    "prepare": "npm run build",
     "pretest": "npm run build",
     "posttest": "npm run lint"
   },
