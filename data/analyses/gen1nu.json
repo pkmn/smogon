@@ -19,7 +19,16 @@
   },
   "Raticate": {"sets": [{"name": "Super Fang"}]},
   "Fearow": {"sets": [{"name": "Physical Attacker"}]},
-  "Arbok": {"sets": [{"name": "Paralysis + Wrap"}]},
+  "Arbok": {
+    "overview": "<p>Arbok distinguishes itself from other fellow Poison-types by paralyzing Ground-types, like Nidoking and Golem, thanks to its unique access to Glare. It also is one of the few Pokemon in the metagame to utilize Wrap, which allows it to whittle down foes and pivot to teammates. These moves, combined with its immunity to Toxic, let Arbok fit alongside other wrappers like Pinsir and Charizard for paralysis support and defensive synergy. Lastly, Arbok has good coverage options in Earthquake and Body Slam, which can make it difficult for Pokemon like Mr. Mime to switch in.</p> <p>Unfortunately, Arbok still fares terribly in the current metagame. Although its base 80 Speed is fast for a Wrap user, it still falls short of a multitude of top-tier threats, such as Nidoking, Mr. Mime, and Charizard. Despite its defensive typing letting it pivot into Toxic, which cripples other wrappers, it is abysmal overall: Arbok not only fails to resist notable offensive types, but is also quite vulnerable to a multitude of popular Ground- and Psychic-types like Golem, Exeggcute, and Mr. Mime. Although Arbok boasts higher Speed, Defense, and Attack than Dragonair, the latter’s Agility, Thunder Wave, and superior typing mean it will usually be the better choice. Lastly, Arbok’s meager bulk means it will be 2HKOed by most super effective and even neutral hits, like Mr. Mime’s Psychic, Golem’s Earthquake, and even Moltres’s Fire Blast.</p> ",
+    "sets": [
+      {
+        "name": "Glare + Wrap",
+        "description": "<p>Glare enables Arbok to be self-supportive and uniquely paralyzes Ground-types that otherwise check it, like Golem and Nidoking. Wrap racks up chip damage while letting Arbok pivot into teammates like Blastoise and Exeggcute. Earthquake is Arbok’s main attack, providing coverage against Ground-, Fire-, and Rock-types like Golem, Rapidash, and Ninetales. Body Slam is its most reliable attack and makes it annoying to switch into, while Rock Slide can 2HKO Moltres and Charizard, providing unresisted coverage alongside Earthquake.</p> <p>Arbok has a few other move choices. Toxic deters Fire Spin users and Dragonair from using it as setup fodder. Hyper Beam is Arbok’s strongest move and can finish off weakened foes, though its mediocre Attack stat prevents it from making full use of the move. Arbok pairs well with wrappers like Dragonair, Moltres, and Rapidash, working together to whittle down foes like Mr. Mime and opposing Ground-types. Pokemon that can stomach Psychic- and Ground-type attacks, such as Exeggcute and Blastoise, are also appreciated so Arbok can paralyze foes throughout a match. Arbok’s paralysis support against Nidoking enables Kingler and Kabutops to wallbreak or clean up more easily.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 236353, "username": "Plague von Karma"}, {"user_id": 520967, "username": "pacattacc"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Finland"}]}], "writtenBy": [{"user_id": 543866, "username": "5Dots"}]}
+  },
   "Sandslash": {"sets": [{"name": "Swords Dance"}]},
   "Nidoqueen": {"sets": [{"name": "Mixed Attacker"}]},
   "Nidoking": {"sets": [{"name": "Mixed Attacker"}]},
