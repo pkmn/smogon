@@ -72,6 +72,12 @@ const FORMATS = {
   vgc19: 'vgc2019',
   vgc20: 'vgc2020',
   vgc21: 'vgc2021',
+  // RBWhY?
+  lclevel100: 'lclevel100',
+  petitcup: 'petitcup',
+  pikacup: 'pikacup',
+  monotype: 'monotype',
+  lc: 'lc',
 };
 
 // Iterating through dex.species.all() returns a bunch of formes that Smogon either doesn't support
