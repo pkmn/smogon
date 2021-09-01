@@ -1,6 +1,6 @@
 {
   "name": "smogon",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "description": "Low-level wrapper around Smogon's analyses and usage statistics",
@@ -12,6 +12,7 @@
   },
   "license": "MIT",
   "files": [
+    "compile-fixtures",
     "build",
     "!build/fixtures.json",
     "!build/*.test.*",
