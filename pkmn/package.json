@@ -1,6 +1,6 @@
 {
   "name": "@pkmn/smogon",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "description": "A rich client for processed and aggregated Smogon analysis and moveset information",
@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "@pkmn/data": "^0.4.17",
-    "smogon": "^2.0.4"
+    "smogon": "^2.0.5"
   },
   "devDependencies": {
     "@pkmn/dex": "^0.4.17"
