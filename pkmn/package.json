@@ -1,6 +1,6 @@
 {
   "name": "@pkmn/smogon",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "description": "A rich client for processed and aggregated Smogon analysis and moveset information",
@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "@pkmn/data": "^0.4.17",
-    "smogon": "^2.0.2"
+    "smogon": "^2.0.3"
   },
   "devDependencies": {
     "@pkmn/dex": "^0.4.17"
@@ -32,7 +32,6 @@
     "compile": "tsc -p .",
     "build": "npm run compile",
     "test": "jest",
-    "postinstall": "npm run build",
     "pretest": "npm run build",
     "posttest": "npm run lint"
   },

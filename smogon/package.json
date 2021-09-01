@@ -1,6 +1,6 @@
 {
   "name": "smogon",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "description": "Low-level wrapper around Smogon's analyses and usage statistics",
@@ -23,7 +23,6 @@
     "compile": "node compile-fixtures && tsc -p .",
     "build": "npm run compile",
     "test": "jest",
-    "postinstall": "npm run build",
     "pretest": "npm run build",
     "posttest": "npm run lint"
   },
