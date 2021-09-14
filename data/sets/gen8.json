@@ -1282,7 +1282,7 @@
     "vgc2021": {"Support": {"moves": ["Moonblast", "Nature's Madness", "Icy Wind", ["Protect", "Heal Pulse"]], "item": ["Wiki Berry", "Leftovers"], "nature": "Calm", "evs": {"hp": 244, "def": 60, "spd": 204}}},
     "almostanyability": {"Utility": {"moves": ["Moonblast", ["Knock Off", "Scald"], ["Haze", "Calm Mind"], "Defog"], "ability": "Regenerator", "item": "Rocky Helmet", "nature": "Bold", "evs": {"hp": 248, "def": 208, "spe": 52}}},
     "2v2doubles": {"Weakness Policy": {"moves": ["Moonblast", "Hydro Pump", ["Icy Wind", "Calm Mind"], "Protect"], "item": "Weakness Policy", "nature": "Bold", "evs": {"hp": 252, "def": 72, "spa": 100, "spe": 84}}},
-    "nationaldex": {"Calm Mind": {"moves": ["Scald", "Draining Kiss", "Taunt", "Calm Mind"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 248, "def": 128, "spa": 32, "spe": 100}}, "Utility": {"moves": ["Moonblast", "Scald", "Knock Off", "Defog"], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 248, "spa": 12, "spd": 56, "spe": 192}}}
+    "nationaldex": {"Calm Mind": {"moves": ["Scald", "Draining Kiss", "Taunt", "Calm Mind"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 248, "def": 128, "spa": 32, "spe": 100}}, "Defog": {"moves": ["Defog", "Scald", ["Moonblast", "Nature's Madness", "Knock Off"], "Taunt"], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 248, "def": 16, "spa": 12, "spd": 40, "spe": 192}}}
   },
   "Solgaleo": {
     "ubers": {"Specially Defensive": {"moves": ["Sunsteel Strike", "Morning Sun", "Knock Off", "Teleport"], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "def": 4, "spd": 252}}},
@@ -1604,7 +1604,8 @@
     "ubers": {"Defensive": {"moves": ["Bulk Up", "Power Whip", "Darkest Lariat", "Jungle Healing"], "item": "Leftovers", "nature": "Jolly", "evs": {"hp": 252, "spd": 120, "spe": 136}}},
     "ou": {"Bulk Up": {"moves": ["Bulk Up", "Jungle Healing", "Power Whip", ["Darkest Lariat", "Crunch"]], "item": "Leftovers", "nature": "Jolly", "evs": {"hp": 4, "atk": 252, "spe": 252}}},
     "monotype": {"Bulk Up (Dark)": {"moves": ["Bulk Up", "Power Whip", ["Taunt", "Drain Punch"], "Jungle Healing"], "item": ["Chople Berry", "Leftovers"], "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
-    "almostanyability": {"Bulk Up": {"moves": ["Bulk Up", "Darkest Lariat", "Power Whip", "Jungle Healing"], "ability": "Adaptability", "item": "Life Orb", "nature": "Jolly", "evs": {"atk": 252, "spe": 252}}}
+    "almostanyability": {"Bulk Up": {"moves": ["Bulk Up", "Darkest Lariat", "Power Whip", "Jungle Healing"], "ability": "Adaptability", "item": "Life Orb", "nature": "Jolly", "evs": {"atk": 252, "spe": 252}}},
+    "nationaldex": {"Bulk Up": {"moves": ["Bulk Up", "Jungle Healing", "Darkest Lariat", "Power Whip"], "item": "Darkinium Z", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}}
   },
   "Regieleki": {
     "uu": {"Pivot": {"moves": ["Thunder Cage", "Volt Switch", "Protect", "Substitute"], "item": "Leftovers", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}},
