@@ -1,12 +1,11 @@
 {
-  "Clefable": {"sets": [{"name": "Teleport"}]},
   "Alakazam": {"sets": [{"name": "Psychic Surge"}]},
   "Slowbro": {"sets": [{"name": "Defensive"}]},
   "Chansey": {"sets": [{"name": "Defensive"}]},
   "Zapdos": {"sets": [{"name": "Utility"}, {"name": "Offensive"}]},
   "Zapdos-Galar": {"sets": [{"name": "Magic Guard"}, {"name": "Choiced Attacker"}]},
-  "Moltres": {"sets": [{"name": "Desolate Land"}]},
-  "Mew": {"sets": [{"name": "Physically Defensive"}]},
+  "Moltres": {"sets": [{"name": "Magic Guard"}, {"name": "Desolate Land"}]},
+  "Mew": {"sets": [{"name": "Physically Defensive"}, {"name": "Cosmic Power"}]},
   "Heracross": {"sets": [{"name": "Choice Band"}]},
   "Skarmory": {"sets": [{"name": "Defensive"}]},
   "Blissey": {"sets": [{"name": "Defensive"}]},
@@ -15,65 +14,43 @@
   "Milotic": {"sets": [{"name": "Assault Vest"}]},
   "Latios": {"sets": [{"name": "Calm Mind"}, {"name": "Choice Specs"}]},
   "Jirachi": {"sets": [{"name": "Assault Vest"}, {"name": "Magic Guard"}]},
-  "Garchomp": {"sets": [{"name": "Swords Dance"}]},
+  "Garchomp": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Scarf"}]},
   "Lucario": {"sets": [{"name": "Magic Guard"}]},
   "Hippowdon": {"sets": [{"name": "Defensive"}]},
   "Weavile": {"sets": [{"name": "Technician"}, {"name": "Magic Guard"}]},
   "Togekiss": {"sets": [{"name": "Triage"}]},
   "Mamoswine": {"sets": [{"name": "Adaptability"}]},
+  "Azelf": {"sets": [{"name": "Psychic Surge"}]},
   "Heatran": {"sets": [{"name": "Desolate Land"}, {"name": "Mold Breaker"}]},
   "Excadrill": {"sets": [{"name": "Water Absorb"}]},
   "Conkeldurr": {"sets": [{"name": "Triage"}, {"name": "Choice Band"}]},
-  "Krookodile": {"sets": [{"name": "Choice Scarf"}]},
   "Ferrothorn": {"sets": [{"name": "Utility"}]},
-  "Chandelure": {"sets": [{"name": "Sheer Force"}, {"name": "Desolate Land"}]},
   "Bisharp": {"sets": [{"name": "Swords Dance"}]},
   "Mandibuzz": {"sets": [{"name": "Defensive"}]},
   "Hydreigon": {"sets": [{"name": "Choice Scarf"}]},
   "Volcarona": {"sets": [{"name": "Quiver Dance"}]},
   "Cobalion": {"sets": [{"name": "Regenerator"}, {"name": "Magic Guard"}]},
-  "Terrakion": {
-    "comments": "<h1>Other Options</h1> <p>A Choice Band set with Close Combat, Stone Edge, Toxic, and Stealth Rock or Earthquake can allow Terrakion to pressure its checks with the additional power and Toxic damage. Rock Slide and Megahorn are also viable moves on this set; Megahorn is notably the most powerful move against Mew. However, due to Choice Band locking Terrakion into a move, this set can be quite easily played around. A Choice Scarf set can be also run with Regenerator or Queenly Majesty to handle fast threats and possibly priority users. Finally, a Scrappy set can be run to lure in and hit Ghost-types that come in on Close Combat at the cost of important wallbreaking power.</p> <h1>Checks and Counters</h1> <p><strong>Doublade and Palossand: Both are immune to Close Combat, resist Stone Edge, and have solid physical bulk. As such, Terrakion can't break past them.</p> <p><strong>Dauntless Shield and Intimidate users</strong>: Pokemon such as Intimidate Corviknight, Dauntless Shield Hippowdon, and Mew can all check Terrakion thanks to the bulk provided by their abilities and their access to reliable recovery. Hippowdon can OHKO Terrakion back with Earthquake, while Corviknight and Mew can pivot out to a revenge killer with U-turn or Teleport.</p> <p><strong>Fairy-types: Thanks to their Fighting resistance, Fairy-types such as Tapu Fini and Tapu Bulu can pivot into Close Combat and KO Terrakion back with their STAB moves. Tapu Bulu deserves a special mention since it can OHKO Terrakion with a priority Horn Leech thanks to Triage. All Fairy-types should be wary of switching into Stone Edge and risking a potential 2HKO or OHKO, though.</p> <p><strong>Revenge Killers: Terrakion is prone to being revenge killed by faster Pokemon like Barraskewda, Latios, Noivern, and the aforementioned Triage Tapu Bulu, which can all OHKO Terrakion with their STAB moves. Choice Scarf users like Archeops can also revenge kill Terrakion once it has been sufficiently weakened.</p> ",
-    "sets": [
-      {
-        "name": "Life Orb",
-        "description": "<p>With its great offensive typing and great power further boosted by Adaptability, Terrakion is a decent wallbreaker in AAA, being able to OHKO or 2HKO lots of Pokemon, such as Snorlax, Swampert, and Zapdos, with its STAB moves. It's also a good Stealth Rock setter for more offensive teams thanks to its ability to force out most Defog and Magic Bounce users, including Blissey, Mandibuzz, Zapdos, and Corviknight. Earthquake can be run instead to break through non-Levitate Doublade, which walls Terrakion otherwise, while Megahorn is the most powerful move available against Mew. With Swords Dance, Terrakion can eventually dismantle slower teams. While Adaptability is the preferred option, Regenerator can be used to provide crucial recovery, as between Life Orb, entry hazards, opposing U-turn, and even Rocky Helmet, Terrakion will take lots of residual damage.</p> <p>Terrakion fits mainly on bulky offense and offense teams, which appreciate that it offensively checks Snorlax and Heatran. Special attackers such as Aerilate Noivern can pressure Dauntless Shield users like Mew; Noivern can also use Switcheroo with its Choice Specs to cripple a problematic defensive Pokemon. In return, Terrakion can pressure specially bulky Pokemon like Blissey and set Stealth Rock. Pokemon immune to Water moves like Desolate Land Heatran can stop Barraskewda from freely spamming Flip Turn against Terrakion. As a wallbreaker, Terrakion appreciates defensive teammates like Tapu Fini, Toxapex, and Blissey that can take powerful hits for it; Toxapex and Tapu Fini can notably take on Barraskewda, while Blissey checks Noivern and can provide slow pivots with Teleport. Finally, Corviknight, Mandibuzz, and Zapdos can switch in on Ground moves for Terrakion and use Defog to remove entry hazards.</p> "
-      }
-    ],
-    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Thinkerino"}, {"user_id": 211471, "username": "rozes"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Finland"}]}], "writtenBy": [{"user_id": 464398, "username": "LBDC"}]}
-  },
+  "Terrakion": {"sets": [{"name": "Choice Band"}]},
   "Thundurus": {"sets": [{"name": "Magic Guard"}]},
   "Landorus": {"sets": [{"name": "Sheer Force"}]},
-  "Landorus-Therian": {"sets": [{"name": "Regenerator"}, {"name": "Suicide Lead"}]},
+  "Landorus-Therian": {"sets": [{"name": "Regenerator"}, {"name": "Regenerator"}]},
   "Genesect": {"sets": [{"name": "Choice Scarf"}, {"name": "Sheer Force"}]},
   "Talonflame": {"sets": [{"name": "Magic Guard"}]},
-  "Doublade": {"sets": [{"name": "Swords Dance"}]},
   "Volcanion": {"sets": [{"name": "Choice Specs"}]},
   "Incineroar": {"sets": [{"name": "Assault Vest"}]},
-  "Toxapex": {
-    "comments": "<h1>Other Options</h1> <p>Volt Absorb is another option that provides teams with an immunity to Electric-type attacks, which is beneficial against Zapdos and Tapu Koko but struggles to recover against offensive teams. Unaware serves as a way to prevent setup sweepers with priority from killing Toxapex before it can Haze, but is more susceptible to Taunt users. Knock Off can be used over Scald as a strong option that enables Toxapex to maintain utility against Desolate Land users, but loses the threat of Scald burns versus physical attackers.</p> <h1>Checks and Counters</h1> <p><strong>Water Absorb Pokemon: Generally Water Absorb pokemon such as Excadrill and Palossand are able to switch into Toxapex and threaten it with strong attacks, making it difficult for Toxapex to spread Scald Burns; however, this can be risky if Toxapex is yet to reveal that it isn't running Knock Off.</p> <p><strong>Desolate Land Pokemon: Offensive Desolate Land Pokemon such as Victini and Heatran are able to switch into Toxapex fairly easily if it doesn't have Knock Off, and they often threaten super effective coverage to force it out.</p> <p><strong>Special Attackers: Water-resistant special attackers such as Kyurem and Hydreigon are able to switch into Toxapex fairly easily because they aren't threatened by Scald and can do large amounts of damage with their STAB options.</p> <p><strong>Taunt Users: Due to its passive nature, Toxapex is highly susceptible to Taunt from setup sweepers such as Zapdos-Galar and Gengar. Other users such as Heatran are able to prevent Toxapex from making progress entirely.</p> <p><strong>Ground-Types: Common Ground-type Pokemon such as Mamoswine, Swampert, and Garchomp threaten to 2HKO or OHKO with super effective STAB attacks, but they have to be wary of a potential Scald or Gastro Acid on the switch.</p> <p><strong>Electric-Type attacks: Without Volt Absorb, Toxapex is extremely vulnerable to Electric-type coverage, even from pokemon such as Genesect whose STAB attacks are resisted.</p> <p><strong>Psychic-Type attacks: While Offensive Psychic-types like Latios, Alakazam, Tapu Lele can't always switch into a potential Scald or Knock Off, they threaten it out with their super effective STAB attacks. Setup sweepers such as Volcarona, Genesect, Togekiss often carry Psychic-type coverage in order to OHKO Toxapex as it attempts to Haze them.</p> ",
-    "sets": [
-      {
-        "name": "Prankster",
-        "description": "<p>Thanks to priority Haze and Gastro Acid and a good defensive typing, Prankster Toxapex is a great defensive Pokemon in AAA, being able to stop setup sweepers such as Terrakion, Bisharp, and Golisopod or instantly punish Poison Heal users like Snorlax and Tapu Fini with Gastro Acid. Priority Recover is also very notable; Toxapex can freely use Scald or Gastro Acid without needing to stay excessively healthy to check another Pokemon, since it can Recover first anyway. Toxapex's typing also allows it to switch in on various other Pokemon, including Fire-types such as Victini. Scald discourages physical attackers like Tapu Bulu from switching in on Toxapex. A Bold nature alongside 252 HP and 252 Defense EVs maximizes Toxapex's physical bulk to check Terrakion better. Depending on team needs, other abilities can be considered over Prankster, like Levitate for taking on Ground-types, but Prankster is still a better option overall.</p> <p>Toxapex fits best on balanced and defensive teams that appreciate its defensive utility. Corviknight, especially Intimidate and Unaware variants, is an exceptional teammate; it checks Ground-types such as Garchomp and Landorus-T that threaten Toxapex while providing Defog support to prevent its team from being weakened by entry hazards. It also can check Noivern, which can easily beat Toxapex. However, as Corviknight can be sometimes overwhelmed by Noivern, more specific checks like Assault Vest Silvally-Electric and Jirachi can be considered instead. In return, Toxapex can notably take on Terrakion for Corviknight. Since Toxapex doesn't like taking Shadow Ball from Ghost-types like Gengar and Blacephalon, Pokemon such as Snorlax, Tyranitar, and Blissey can provide a switch-in to these Pokemon. Snorlax is a notable teammate because, thanks to Poison Heal, it can absorb status and Knock Off for Toxapex, enabling its longevity. Other Pokemon such as Poison Heal Clefable and Magic Bounce Hippowdon can be also considered for this role, as they offer similar support.</p> "
-      }
-    ],
-    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Thinkerino"}]}, {"name": "Grammar checked by", "members": [{"user_id": 232216, "username": "The Dutch Plumberjack"}]}], "writtenBy": [{"user_id": 464398, "username": "LaBalladeDesCieux"}]}
-  },
+  "Toxapex": {"sets": [{"name": "Prankster"}]},
   "Golisopod": {"sets": [{"name": "Triage"}]},
-  "Palossand": {"sets": [{"name": "Utility"}]},
-  "Silvally-Electric": {"sets": [{"name": "Assault Vest"}]},
+  "Silvally-Dragon": {"sets": [{"name": "Assault Vest"}]},
   "Dhelmise": {"sets": [{"name": "Grassy Surge"}]},
   "Kommo-o": {"sets": [{"name": "Triage"}, {"name": "Galvanize"}, {"name": "Unburden Sweeper"}]},
   "Tapu Koko": {"sets": [{"name": "Magic Guard"}, {"name": "Primordial Sea"}, {"name": "Screen Setter"}]},
+  "Tapu Lele": {"sets": [{"name": "Sheer Force"}, {"name": "Triage"}]},
   "Tapu Bulu": {"sets": [{"name": "Triage"}]},
   "Tapu Fini": {"sets": [{"name": "Utility"}, {"name": "Choice Scarf"}]},
   "Nihilego": {"sets": [{"name": "Regenerator"}, {"name": "Unburden Sweeper"}]},
-  "Celesteela": {"sets": [{"name": "Defensive"}, {"name": "Unburden Sweeper"}]},
   "Blacephalon": {"sets": [{"name": "Magic Guard"}]},
-  "Cinderace": {"sets": [{"name": "Magic Guard"}]},
+  "Cinderace": {"sets": [{"name": "Choice Band"}, {"name": "Magic Guard"}]},
   "Corviknight": {"sets": [{"name": "Defensive"}]},
   "Barraskewda": {"sets": [{"name": "Choice Band"}]},
-  "Hatterene": {"sets": [{"name": "Triage"}]},
-  "Zarude": {"sets": [{"name": "Bulk Up"}]}
+  "Zarude": {"sets": [{"name": "Grassy Surge"}]}
 }
