@@ -33,7 +33,7 @@
   },
   "Nidoqueen": {"uu": {"Offensive Entry Hazard Setter": {"moves": [["Stealth Rock", "Toxic Spikes"], "Earth Power", "Sludge Wave", "Fire Blast"], "ability": "Sheer Force", "item": "Life Orb", "nature": ["Modest", "Timid"], "evs": {"hp": 4, "spa": 252, "spe": 252}}}},
   "Nidoking": {
-    "uu": {"Offensive": {"moves": ["Sludge Wave", "Earth Power", "Ice Beam", ["Thunderbolt", "Fire Blast"]], "ability": "Sheer Force", "item": "Life Orb", "nature": ["Modest", "Timid"], "evs": {"spa": 252, "spd": 4, "spe": 252}}},
+    "uu": {"Wallbreaker": {"moves": ["Sludge Wave", "Earth Power", "Thunderbolt", ["Ice Beam", "Substitute"]], "ability": "Sheer Force", "item": "Life Orb", "nature": ["Modest", "Timid"], "evs": {"spa": 252, "spd": 4, "spe": 252}}},
     "ou": {"Wallbreaker": {"moves": ["Sludge Wave", "Earth Power", ["Thunderbolt", "Thunder"], ["Flamethrower", "Ice Beam"]], "ability": "Sheer Force", "item": "Life Orb", "nature": ["Modest", "Timid"], "evs": {"spa": 252, "spd": 4, "spe": 252}}},
     "monotype": {"Wallbreaker (Ground)": {"moves": ["Earth Power", "Flamethrower", "Ice Beam", "Thunderbolt"], "ability": "Sheer Force", "item": "Life Orb", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}, "Wallbreaker (Poison)": {"moves": ["Earth Power", ["Flamethrower", "Fire Blast"], ["Thunderbolt", "Stealth Rock"], "Ice Beam"], "ability": "Sheer Force", "item": "Life Orb", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}},
     "nationaldexmonotype": {"Wallbreaker (Poison)": {"moves": ["Earth Power", "Ice Beam", "Thunderbolt", ["Flamethrower", "Stealth Rock"]], "ability": "Sheer Force", "item": "Life Orb", "nature": "Timid", "evs": {"def": 4, "spa": 252, "spe": 252}}}
@@ -1391,7 +1391,7 @@
   "Zeraora": {
     "ou": {"Bulk Up": {"moves": ["Bulk Up", "Plasma Fists", "Knock Off", "Close Combat"], "item": "Heavy-Duty Boots", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}, "Offensive Pivot": {"moves": ["Plasma Fists", "Knock Off", "Close Combat", ["Toxic", "Volt Switch"]], "item": "Heavy-Duty Boots", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}},
     "monotype": {"Choice Band": {"moves": ["Plasma Fists", "Play Rough", "Close Combat", "Knock Off"], "item": "Choice Band", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
-    "doublesou": {"Utility": {"moves": ["Fake Out", "Plasma Fists", "Knock Off", "Taunt"], "item": "Sitrus Berry", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
+    "doublesou": {"Fast Utility": {"moves": ["Fake Out", "Plasma Fists", "Knock Off", "Taunt"], "item": "Sitrus Berry", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}},
     "cap": {"Offensive Pivot": {"moves": ["Plasma Fists", ["Volt Switch", "Toxic"], "Knock Off", ["Close Combat", "Toxic"]], "item": "Heavy-Duty Boots", "nature": "Jolly", "evs": {"atk": 252, "spa": 4, "spe": 252}}, "Bulk Up": {"moves": ["Bulk Up", "Plasma Fists", ["Close Combat", "Blaze Kick"], "Knock Off"], "item": ["Leftovers", "Heavy-Duty Boots"], "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
     "stabmons": {"All-out Attacker": {"moves": ["Bolt Strike", ["Play Rough", "Knock Off"], "Grass Knot", "Close Combat"], "item": "Life Orb", "nature": "Hasty", "evs": {"atk": 252, "spa": 4, "spe": 252}}},
     "mixandmega": {"Pinsirite Bulk Up": {"moves": ["Bulk Up", "Mega Kick", "Plasma Fists", ["Facade", "Substitute", "Taunt"]], "item": "Pinsirite", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
