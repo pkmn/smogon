@@ -61,7 +61,7 @@ describe('Analyses', () => {
 
     processed = Analyses.process(JSON.parse(await FIXTURES.alakazam))!;
     expect(processed).toBeDefined();
-    expect(processed.get('OU')![0].movesets[0].name).toEqual('Nasty Plot');
+    expect(processed.get('OU')![0].movesets[0].name).toBe('Nasty Plot');
   });
 
   test('gen', () => {
@@ -76,7 +76,7 @@ describe('Statistics', () => {
 
   test('latest', async () => {
     expect(() => Statistics.latest('foo')).toThrow('Unexpected format for index');
-    expect(Statistics.latest(await FIXTURES.index)).toEqual('2020-02');
+    expect(Statistics.latest(await FIXTURES.index)).toBe('2020-02');
   });
 
   test('url', () => {
@@ -196,8 +196,8 @@ describe('Statistics', () => {
 
   test('process', async () => {
     let processed = Statistics.process(await FIXTURES.gen6nu);
-    expect(processed.data['Bulbasaur'].usage).toEqual(0.25);
+    expect(processed.data['Bulbasaur'].usage).toBe(0.25);
     processed = Statistics.process(await FIXTURES.gen21v1);
-    expect(processed.info['number of battles']).toEqual(1);
+    expect(processed.info['number of battles']).toBe(1);
   });
 });

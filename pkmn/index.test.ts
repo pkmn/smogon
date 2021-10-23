@@ -90,11 +90,11 @@ describe('Smogon', () => {
       expect(names(await smogon.sets(gen(8), 'Darmanitan-Galar-Zen', 'gen8ubers' as ID)))
         .toEqual(['Belly Drum']);
       expect((await smogon.sets(gen(4), 'Gastrodon-East', 'gen4ou' as ID))[0].species)
-        .toEqual('Gastrodon-East');
+        .toBe('Gastrodon-East');
       expect((await smogon.sets(gen(4), 'Moltres', 'gen4uu' as ID))[0].ivs)
         .toEqual({atk: 2, spa: 30});
       expect((await smogon.sets(gen(7), 'Kyogre-Primal', 'gen7balancedhackmons' as ID))[0].species)
-        .toEqual('Kyogre-Primal');
+        .toBe('Kyogre-Primal');
 
       expect((await smogon.sets(gen(8), 'Incineroar', 'gen8vgc2021fooseries' as ID))[0].name)
         .toBe('Physically Defensive');
@@ -106,11 +106,11 @@ describe('Smogon', () => {
     expect(await smogon.stats(gen(1), 'Fakemon')).toBeUndefined();
     await expect(smogon.stats(gen(2), 'Snorlax', 'gen2faketier' as ID)).rejects.toThrow();
     expect((await smogon.stats(gen(6), 'Hitmonchan', 'gen6nu' as ID))!.moves['Drain Punch'])
-      .toEqual(0.9421);
+      .toBe(0.9421);
     expect((await smogon.stats(gen(7), 'Steelix', 'gen7nu' as ID))!.teammates['Passimian'])
-      .toEqual(0.1307);
+      .toBe(0.1307);
     expect((await smogon.stats(gen(7), 'Incineroar', 'gen7vgc2019moonseries' as ID))!
-      .items['Assault Vest']).toEqual(0.3012);
+      .items['Assault Vest']).toBe(0.3012);
   });
 
   test('format', () => {
@@ -136,10 +136,10 @@ describe('Smogon', () => {
     expect(names(7, 'Pikachu-Libre')).toEqual(['Pikachu', 'Pikachu']);
     expect(names(7, 'Pikachu-Starter')).toEqual(['Pikachu-Starter', 'Pikachu-Starter']);
 
-    expect(name(4, 'Gastrodon-East')).toEqual('Gastrodon');
-    expect(name(4, 'Gastrodon-East', true)).toEqual('Gastrodon-East');
-    expect(name(5, 'Keldeo-Resolute')).toEqual('Keldeo');
-    expect(name(5, 'Keldeo-Resolute', true)).toEqual('Keldeo-Resolute');
+    expect(name(4, 'Gastrodon-East')).toBe('Gastrodon');
+    expect(name(4, 'Gastrodon-East', true)).toBe('Gastrodon-East');
+    expect(name(5, 'Keldeo-Resolute')).toBe('Keldeo');
+    expect(name(5, 'Keldeo-Resolute', true)).toBe('Keldeo-Resolute');
   });
 
   test('toSet', () => {
@@ -204,7 +204,7 @@ describe('Smogon', () => {
     expect(fixIVs(gen(7), {moves: ['Hidden Power Fire'], ivs: {atk: 4, def: 3}}).ivs)
       .toEqual({atk: 4, def: 3});
     expect(fixIVs(gen(7), {moves: ['Hidden Power Fire'], ivs: {atk: 4, def: 3}}).hpType)
-      .toEqual('Fire');
+      .toBe('Fire');
     expect(fixIVs(gen(7), {moves: ['Hidden Power Steel'], level: 99, ivs: {atk: 4, def: 3}}).ivs)
       .toEqual({spd: 30});
     expect(fixIVs(gen(2), {moves: ['Hidden Power Rock'], ivs: {atk: 4, def: 3}}).ivs)
