@@ -1,11 +1,8 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --no-warnings --input-type=module --experimental-specifier-resolution=node
 'use strict';
 
-try {
-  require('source-map-support').install();
-} catch (err) {
-  if (err.code !== 'MODULE_NOT_FOUND') throw err;
-}
+import sourceMapSupport from 'source-map-support';
+sourceMapSupport.install();
 
 // There are two logical ways to partition the analysis/set data - either by format or by
 // generation. Splitting by format means that less data will need to be fetched as fetches can be
@@ -19,21 +16,23 @@ try {
 // used and the class has been configured to be minimal with its downloads for scenarios where
 // bandwidth/memory/disk space are a premium.
 
-const fs = require('fs');
-const path = require('path');
-const fetch = require('node-fetch');
-const wrapr = require('wrapr');
-const stringify = require('json-stringify-pretty-compact');
-const sanitizeHtml = require('sanitize-html');
-const zlib = require('zlib');
-const util = require('util');
+import * as fs from 'fs';
+import * as path from 'path';
+import {fileURLToPath} from 'url';
+import fetch from 'node-fetch';
+import * as wrapr from 'wrapr';
+import stringify from 'json-stringify-pretty-compact';
+import sanitizeHtml from 'sanitize-html';
+import * as zlib from 'zlib';
+import * as util from 'util';
 const gzip = util.promisify(zlib.gzip);
 
-const {Dex, toID} = require('@pkmn/sim');
-const {Analyses} = require('smogon');
+import {Dex, toID} from '@pkmn/sim';
+import {Analyses} from 'smogon';
 
 const request = wrapr.retrying(wrapr.throttling(async args => fetch(args.url, args.init)));
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.resolve(__dirname, '../data');
 
 for (const file of fs.readdirSync(path.join(DATA, 'analyses'))) {

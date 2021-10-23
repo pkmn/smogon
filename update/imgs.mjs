@@ -1,24 +1,23 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --no-warnings --input-type=module --experimental-specifier-resolution=node
 'use strict';
 
-try {
-  require('source-map-support').install();
-} catch (err) {
-  if (err.code !== 'MODULE_NOT_FOUND') throw err;
-}
+import sourceMapSupport from 'source-map-support';
+sourceMapSupport.install();
 
 // Creates an index file with the size of Pokémon Showdown's assets for each generation.
 // BUG: Pokémon Showdown actually copies sprites redundantly when it shouldn't, so something like
 // `gen2g` contains `gen2` assets for the Pokémon that didn't receive unique sprites in Gold. This
 // is useful for simplicity but results it useless duplicate information being fetched.
 
-const fs = require('fs');
-const path = require('path');
-const probe = require('probe-image-size');
-const fetch = require('node-fetch');
-const wrapr = require('wrapr');
-const stringify = require('json-stringify-pretty-compact');
+import * as fs from 'fs';
+import * as path from 'path';
+import {fileURLToPath} from 'url';
+import fetch from 'node-fetch';
+import * as wrapr from 'wrapr';
+import stringify from 'json-stringify-pretty-compact';
+import probe from 'probe-image-size';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const size = wrapr.retrying(wrapr.throttling(probe));
 
 const ASSETS = {

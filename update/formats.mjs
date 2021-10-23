@@ -1,22 +1,20 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --no-warnings --input-type=module --experimental-specifier-resolution=node
 'use strict';
 
-try {
-  require('source-map-support').install();
-} catch (err) {
-  if (err.code !== 'MODULE_NOT_FOUND') throw err;
-}
+import sourceMapSupport from 'source-map-support';
+sourceMapSupport.install();
 
 // Creates an index file with the display names of each format Pokémon Showdown has supported.
 
-const fs = require('fs');
-const path = require('path');
-const stringify = require('json-stringify-pretty-compact');
+import * as fs from 'fs';
+import * as path from 'path';
+import {fileURLToPath} from 'url';
+import stringify from 'json-stringify-pretty-compact';
 
-const {Dex} = require('@pkmn/sim');
+import {Dex} from '@pkmn/sim';
 
-const NAMES = require('../data/formats/index.json');
-const FORMATS = require('../smogon/latest.json');
+import NAMES from '../data/formats/index.json';
+import FORMATS from '../smogon/latest.json';
 
 const IGNORE = new Set([
   'gen8tiershiftcamomonsobtainable',
@@ -62,6 +60,7 @@ for (const format of Object.keys(NAMES).sort()) {
   sorted[format] = NAMES[format];
 }
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 fs.writeFileSync(path.resolve(__dirname, '../data/formats/index.json'), stringify(sorted));
 
 if (missing.length) {

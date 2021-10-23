@@ -1,11 +1,8 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --no-warnings --experimental-specifier-resolution=node
 'use strict';
 
-try {
-  require('source-map-support').install();
-} catch (err) {
-  if (err.code !== 'MODULE_NOT_FOUND') throw err;
-}
+import sourceMapSupport from 'source-map-support';
+sourceMapSupport.install();
 
 // This script crawls https://www.smogon.com/stats/ and produces:
 //
@@ -21,19 +18,24 @@ try {
 //   - data/stats/index.json: an index of the [size, compressed size] for each of the
 //     LegacyDisplayStatistics files.
 
-const fs = require('fs');
-const path = require('path');
-const fetch = require('node-fetch');
-const wrapr = require('wrapr')
-const stringify = require('json-stringify-pretty-compact');
-const zlib = require('zlib');
-const util = require('util');
+import * as fs from 'fs';
+import * as path from 'path';
+import {fileURLToPath} from 'url';
+import fetch from 'node-fetch';
+import stringify from 'json-stringify-pretty-compact';
+import * as wrapr from 'wrapr';
+
+import * as zlib from 'zlib';
+import * as util from 'util';
 const gzip = util.promisify(zlib.gzip);
 
-const stats = require('@pkmn/stats');
-const gens = stats.newGenerations(require('@pkmn/sim').Dex);
-const smogon = require('smogon');
+import * as stats from '@pkmn/stats';
+import {Dex} from '@pkmn/sim';
+import * as smogon from 'smogon';
 
+const gens = stats.newGenerations(Dex);
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const request = wrapr.retrying(wrapr.throttling(fetch));
 
 const N = 1e4;
