@@ -17,10 +17,18 @@
   "Garchomp": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Scarf"}]},
   "Lucario": {"sets": [{"name": "Magic Guard"}]},
   "Hippowdon": {"sets": [{"name": "Defensive"}]},
-  "Weavile": {"sets": [{"name": "Technician"}, {"name": "Magic Guard"}]},
   "Togekiss": {"sets": [{"name": "Triage"}]},
   "Mamoswine": {"sets": [{"name": "Adaptability"}]},
-  "Azelf": {"sets": [{"name": "Psychic Surge"}]},
+  "Azelf": {
+    "comments": "<h1>Other Options</h1> <p>Psyshock can be used to deal more damage to Assault Vest Swampert, Chansey, and Blissey. Azelf's coverage moves besides Fire Blast are generally not worth using.</p> <h1>Checks and Counters</h1> <p><strong>Chansey and Blissey: Azelf, like many other Pokemon, has trouble breaking Chansey and Blissey, as Expanding Force is a 4HKO on both of them. Psyshock can be used to improve this matchup, but it still doesn't 2HKO. This means that Azelf has to rely on Knock Off or Trick to remove their items and pivoting via U-turn to slowly weaken the two.</p> <p><strong>Zarude</strong>: Zarude is one of the most common Dark-types in the tier, meaning that it can switch in on a Expanding Force and then get a free turn. This creates a coinflip situation on whether your opponent will switch to it every time you bring out Azelf. Further, it has priority that can OHKO Azelf, which won't be able to change moves anyway.</p> <p><strong>Genesect and Heatran</strong>: Similarly to Zarude, both Genesect and Heatran take Azelf's Expanding Forces well This gives them free turns to set up or get powerful attacks off, respectively, forcing Azelf to pivot and predict well. Fire Blast greatly improves this matchup, dealing very good damage to both of them.</p> <p><strong>Terrain Users</strong>: Users of Grassy or Electric Terrain are problems for Azelf, as taking away its Psychic Terrain just about halves Azelf's damage output.</p> ",
+    "sets": [
+      {
+        "name": "Psychic Surge",
+        "description": "<p>Azelf has a unique role in AAA as a fast Expanding Force user with both pivoting in U-turn and utility moves such as Trick and Knock Off, which help punish defensive switch-ins like Corviknight and Blissey. Azelf is one of the fastest Pokemon in the tier, which, paired with the probability it pivots with U-turn, is very dangerous in a momentum-reliant tier like AAA. Equipped with a Choice Scarf, Azelf is able to outspeed Adamant Unburden-boosted Kommo-o, as well as outspeeding naturally fast Pokemon such as Tapu Koko, Talonflame and Barraskewda. This makes it a very reliable revenge killer, but Choice Specs is another option to better Azelf as a fast special wallbreaker. Azelf's ability Psychic Surge makes it a blanket check to many Triage and standard priority users, particularly Togekiss and Tapu Bulu. A Hasty nature takes advantage of Azelf's great speed Speed tier without sacrificing damage from U-turn or Knock Off.</p> <p>Azelf can fit on most teams because of its ability to check Triage and standard priority users while still being an offensive threat. Its less-than-ideal bulk means it appreciates slow pivots from a Pokemon like Swampert or Corviknight to get in safely. Azelf is vulnerable to entry hazards and being slowly worn down, as it lacks recovery as well. It's also weak to Pokemon that can double switch into Expanding Force and force a switch by threatening a KO back, such as Heatran. This, coupled with its tendency to force in special walls, means it pairs very well with Fighting-types such as Terrakion and Kommo-o, which can threaten the Steel- and Dark-types Azelf struggles to break through.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Think"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Finland"}]}], "writtenBy": [{"user_id": 525446, "username": "DuckeryDoodle"}]}
+  },
   "Heatran": {"sets": [{"name": "Desolate Land"}, {"name": "Mold Breaker"}]},
   "Excadrill": {"sets": [{"name": "Water Absorb"}]},
   "Conkeldurr": {"sets": [{"name": "Triage"}, {"name": "Choice Band"}]},
