@@ -1,4 +1,4 @@
-#!/usr/bin/env node --no-warnings --input-type=module --experimental-specifier-resolution=node
+#!/usr/bin/env node --no-warnings --experimental-specifier-resolution=node
 'use strict';
 
 import sourceMapSupport from 'source-map-support';
