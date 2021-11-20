@@ -5,11 +5,7 @@
   "types": "build/index.d.ts",
   "description": "A rich client for processed and aggregated Smogon analysis and moveset information",
   "homepage": "https://data.pkmn.cc/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pkmn/smogon.git",
-    "directory": "pkmn"
-  },
+  "repository": "github:pkmn/smogon",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

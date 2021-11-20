@@ -5,11 +5,7 @@
   "types": "build/index.d.ts",
   "description": "Low-level wrapper around Smogon's analyses and usage statistics",
   "homepage": "https://smogon.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pkmn/smogon.git",
-    "directory": "smogon"
-  },
+  "repository": "github:pkmn/smogon",
   "license": "MIT",
   "files": [
     "build",
