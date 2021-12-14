@@ -80,6 +80,7 @@ const FORMATS = {
   pikacup: 'pikacup',
   monotype: 'monotype',
   lc: 'lc',
+  '1v1': '1v1',
 };
 
 // Iterating through dex.species.all() returns a bunch of formes that Smogon either doesn't support
