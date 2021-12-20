@@ -97,7 +97,7 @@ describe('Smogon', () => {
         .toBe('Kyogre-Primal');
 
       expect((await smogon.sets(gen(8), 'Incineroar', 'gen8vgc2021fooseries' as ID))[0].name)
-        .toBe('Physically Defensive');
+        .toBe('Utility');
     });
   }
 
