@@ -326,6 +326,7 @@
     "anythinggoes": {"Physically Defensive": {"moves": ["Earthquake", ["Scald", "Haze"], "Recover", "Toxic"], "ability": "Unaware", "item": ["Heavy-Duty Boots", "Rocky Helmet"], "nature": "Relaxed", "evs": {"hp": 252, "def": 252, "spd": 4}}},
     "ou": {"Unaware": {"moves": ["Scald", "Earthquake", "Recover", "Toxic"], "ability": "Unaware", "item": ["Leftovers", "Sitrus Berry"], "nature": "Relaxed", "evs": {"hp": 252, "def": 252, "spd": 4}}},
     "uu": {"Unaware Wall": {"moves": ["Scald", "Earthquake", "Haze", "Recover"], "ability": "Unaware", "item": "Leftovers", "nature": "Relaxed", "evs": {"hp": 252, "def": 220, "spd": 36}}},
+    "ru": {"Unaware Wall": {"moves": ["Earthquake", "Toxic", "Recover", ["Scald", "Haze"]], "ability": "Unaware", "item": "Heavy-Duty Boots", "nature": ["Impish", "Relaxed"], "evs": {"hp": 252, "def": 252, "spd": 4}}},
     "nationaldexag": {"Unaware Wall": {"moves": ["Earthquake", "Haze", "Toxic", "Recover"], "ability": "Unaware", "item": ["Leftovers", "Shed Shell"], "nature": "Impish", "evs": {"hp": 252, "def": 252, "spd": 4}}}
   },
   "Umbreon": {
@@ -1517,6 +1518,7 @@
     "ou": {"Dual Screens": {"moves": ["Reflect", "Light Screen", "Taunt", "Spirit Break"], "item": "Light Clay", "nature": "Adamant", "evs": {"hp": 92, "atk": 252, "spe": 164}}},
     "monotype": {"RestTalk (Dark)": {"moves": ["Bulk Up", "Rest", "Sleep Talk", "Spirit Break"], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "atk": 4, "spd": 252}}, "Dual Screens (Dark)": {"moves": ["Reflect", "Light Screen", "Taunt", "Spirit Break"], "item": "Light Clay", "nature": "Careful", "evs": {"hp": 252, "def": 4, "spd": 252}}, "Bulk Up + RestTalk (Fairy)": {"moves": ["Bulk Up", "Rest", "Sleep Talk", "Darkest Lariat"], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "def": 4, "spd": 252}}},
     "battlestadiumsingles": {"Dual Screens": {"moves": ["Reflect", "Light Screen", "Spirit Break", ["Taunt", "Trick", "Thunder Wave", "Sucker Punch"]], "item": ["Light Clay", "Lagging Tail"], "nature": ["Impish", "Adamant"], "evs": {"hp": 252, "def": 252, "spe": 4}}},
+    "vgc2021": {"Defensive": {"moves": ["Reflect", "Light Screen", ["Thunder Wave", "Scary Face"], "Spirit Break"], "item": "Light Clay", "nature": "Impish", "evs": {"hp": 252, "def": 252, "spd": 4}}, "Disruptive": {"moves": ["Trick", ["Thunder Wave", "Scary Face"], ["Fake Out", "Fake Tears"], "Spirit Break"], "item": "Lagging Tail", "nature": "Careful", "evs": {"hp": 252, "def": 4, "spd": 252}}},
     "nationaldex": {"Dual Screens": {"moves": ["Reflect", "Light Screen", "Play Rough", "Taunt"], "item": "Light Clay", "nature": "Careful", "evs": {"hp": 252, "def": 4, "spd": 252}}},
     "nationaldexag": {"Dual Screens Setter": {"moves": ["Reflect", "Light Screen", "Taunt", "Thunder Wave"], "item": "Light Clay", "nature": "Bold", "evs": {"hp": 252, "def": 252, "spd": 4}}}
   },
