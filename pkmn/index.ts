@@ -170,7 +170,7 @@ const BANS = {
   8: ['Cramorant-Gorging', 'Darmanitan-Galar-Zen'],
 };
 
-const SPECIAL = /(gen[78](?:vgc20(?:19|21)|battlestadium(?:singles|doubles)))(.*)/;
+const SPECIAL = /(gen[78](?:vgc20(?:19|21|22)|battlestadium(?:singles|doubles)))(.*)/;
 
 /**
  * Utility class for working with data from Smogon, requires a fetch function to request data. By

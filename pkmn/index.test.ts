@@ -223,5 +223,6 @@ describe('Smogon', () => {
     expect(baseFormat('gen8vgc2020')).toBe('gen8vgc2020');
     expect(baseFormat('gen8vgc2021')).toBe('gen8vgc2021');
     expect(baseFormat('gen8vgc2021battleseries10')).toBe('gen8vgc2021');
+    expect(baseFormat('gen8vgc2022')).toBe('gen8vgc2022');
   });
 });
