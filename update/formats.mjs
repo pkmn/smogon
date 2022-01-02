@@ -35,7 +35,7 @@ function getName(tier, pokebank = false) {
   for (const [suffix, name] of SUFFIXES) {
     if (tier.endsWith(suffix)) {
       tier = tier.slice(0, -suffix.length);
-      const n = getName(tier,);
+      const n = getName(tier);
       return n ? `${n} (${pokebank ? `Pokebank ${name}` : name})` : undefined;
     }
   }
@@ -44,7 +44,11 @@ function getName(tier, pokebank = false) {
 
 for (const format of Dex.formats.all()) {
   const tier = /gen\d/.test(format.id) ? format.id.slice(4) : format.id;
-  if (!getName(tier)) NAMES[tier] = format.name.slice(8);
+  if (!getName(tier)) {
+    NAMES[tier] = tier.startsWith('bdsp')
+      ? `BDSP ${format.name.slice(13)}`
+      : format.name.slice(8);
+  }
 }
 
 const missing = [];
