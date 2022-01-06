@@ -56,6 +56,7 @@ const FORMATS = {
   bh: 'balancedhackmons',
   doubles: 'doublesou',
   dwou: 'dreamworldou',
+  zu: 'zu',
    // NB: technically 'Farceus Uber' is different than Anything Goes...
   farceusuber: 'anythinggoes',
   lgpeou: 'letsgoou',
