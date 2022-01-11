@@ -8,7 +8,7 @@
   "Mewtwo": {"All-out Attacker": {"moves": ["Psystrike", "Ice Beam", "Fire Blast", ["Nasty Plot", "Recover", "Shadow Ball"]], "item": ["Life Orb", "Expert Belt"], "nature": ["Timid", "Modest"], "evs": {"def": 4, "spa": 252, "spe": 252}}},
   "Mew": {"Lead": {"moves": ["Stealth Rock", "Spikes", "Taunt", "Misty Explosion"], "item": ["Focus Sash", "Red Card"], "nature": "Timid", "evs": {"hp": 252, "spa": 4, "spe": 252}}},
   "Xatu": {"Magic Bounce": {"moves": ["Roost", ["Thunder Wave", "Toxic"], "Teleport", "Night Shade"], "ability": "Magic Bounce", "item": ["Rocky Helmet", "Leftovers"], "nature": "Bold", "evs": {"hp": 252, "def": 252, "spd": 4}}},
-  "Shuckle": {"Sticky Web Setter": {"moves": ["Sticky Web", "Stealth Rock", "Final Gambit", ["Encore", "Toxic"]], "item": ["Red Card", "Mental Herb", "Custap Berry"], "nature": "Bold", "evs": {"hp": 252, "def": 136, "spd": 120}}},
+  "Shuckle": {"Sticky Web": {"moves": ["Sticky Web", "Stealth Rock", "Encore", "Final Gambit"], "item": ["Mental Herb", "Red Card"], "nature": "Bold", "evs": {"hp": 252, "def": 136, "spd": 120}}},
   "Skarmory": {"Defensive Spikes": {"moves": ["Roost", "Spikes", ["Whirlwind", "Toxic"], ["Body Press", "Toxic"]], "ability": "Sturdy", "item": "Rocky Helmet", "nature": "Bold", "ivs": {"atk": 0}, "evs": {"hp": 252, "def": 252, "spd": 4}}},
   "Blissey": {"Defensive": {"moves": ["Soft-Boiled", ["Seismic Toss", "Shadow Ball"], ["Teleport", "Thunder Wave", "Stealth Rock"], ["Confide", "Aromatherapy", "Wish"]], "ability": ["Natural Cure", "Healer"], "item": ["Utility Umbrella", "Heavy-Duty Boots"], "nature": "Calm", "evs": {"hp": 4, "def": 252, "spd": 252}}},
   "Tyranitar": {"Specially Defensive": {"moves": ["Stealth Rock", "Rock Blast", ["Foul Play", "Thunder Wave"], "Rest"], "item": "Heavy-Duty Boots", "nature": "Careful", "evs": {"hp": 252, "def": 4, "spd": 252}}},
@@ -66,7 +66,7 @@
     "Choice Band": {"moves": ["Sunsteel Strike", "Knock Off", ["Moonlight", "Stone Edge"], "Photon Geyser"], "item": "Choice Band", "nature": "Adamant", "evs": {"hp": 136, "atk": 252, "spe": 120}}
   },
   "Necrozma-Dawn-Wings": {"Trick Room": {"moves": ["Trick Room", "Moongeist Beam", ["Heat Wave", "Photon Geyser"], "Meteor Beam"], "item": "Power Herb", "nature": "Quiet", "ivs": {"spe": 0}, "evs": {"hp": 252, "spa": 252, "spd": 4}}},
-  "Magearna": {"Specially Defensive": {"moves": ["Volt Switch", "Fleur Cannon", ["Iron Head", "Confide"], ["Heal Bell", "Pain Split"]], "item": "Leftovers", "nature": "Sassy", "evs": {"hp": 252, "def": 4, "spd": 252}}},
+  "Magearna": {"Physically Defensive": {"moves": ["Fleur Cannon", "Volt Switch", "Pain Split", "Heal Bell"], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "def": 252, "spd": 4}}},
   "Marshadow": {"Life Orb Attacker": {"moves": [["Poltergeist", "Spectral Thief"], "Close Combat", "Shadow Sneak", ["Rock Tomb", "Bulk Up"]], "item": "Life Orb", "nature": ["Adamant", "Jolly"], "evs": {"atk": 252, "def": 4, "spe": 252}}, "Choice Band": {"moves": ["Poltergeist", "Close Combat", "Shadow Sneak", ["Rock Tomb", "Ice Punch", "Spectral Thief"]], "item": "Choice Band", "nature": ["Adamant", "Jolly"], "evs": {"atk": 252, "def": 4, "spe": 252}}},
   "Naganadel": {"Nasty Plot": {"moves": ["Draco Meteor", "Sludge Wave", "Nasty Plot", "Fire Blast"], "item": "Life Orb", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}},
   "Grimmsnarl": {"Dual Screens": {"moves": ["Play Rough", "Light Screen", "Reflect", "Taunt"], "item": "Light Clay", "nature": "Impish", "evs": {"hp": 252, "def": 252, "spd": 4}}},
