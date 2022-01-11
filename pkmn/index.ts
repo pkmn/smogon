@@ -11,7 +11,6 @@ import {
   StatsTable,
   Tier,
 } from '@pkmn/data';
-import {Credits} from 'smogon';
 
 // The structure of https://data.pkmn.cc/analyses/genN.json
 interface GenAnalyses {
@@ -51,6 +50,21 @@ interface RawAnalysis {
     desc?: string;
   }>;
   credits?: Credits;
+}
+
+// Copied from `smogon` package
+interface Credits {
+  teams: Array<{
+    name: string;
+    members: Member[];
+  }>;
+  writtenBy: Member[];
+}
+
+// Copied from `smogon` package
+interface Member {
+  user_id: number;
+  username: string;
 }
 
 /**

@@ -46,7 +46,7 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
 // the Smogon representation to the Pokémon Showdown one. Additionally, Smogon has some analyses
 // for formats Pokémon Showdown doesn't support, so this also is effectively used as a list to
 // allow those formats to be included. We also need to special case formats like VGC and BSS -
-// these format names on Pokémon Showdown update frequently as new series are introducted yet
+// these format names on Pokémon Showdown update frequently as new series are introduced yet
 // Smogon treats all of the series as the same format.
 const FORMATS = {
   ag: 'anythinggoes',
