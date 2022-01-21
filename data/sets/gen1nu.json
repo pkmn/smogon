@@ -9,7 +9,7 @@
   "Arbok": {"Glare + Wrap": {"moves": ["Glare", "Wrap", "Earthquake", ["Body Slam", "Rock Slide"]]}},
   "Sandslash": {"Swords Dance": {"moves": ["Swords Dance", "Earthquake", "Rock Slide", ["Body Slam", "Substitute"]]}},
   "Nidoqueen": {"Mixed Attacker": {"moves": ["Earthquake", "Thunderbolt", ["Blizzard", "Fire Blast"], ["Rock Slide", "Body Slam", "Substitute"]]}},
-  "Nidoking": {"Mixed Attacker": {"moves": ["Earthquake", "Thunderbolt", ["Blizzard", "Fire Blast"], ["Rock Slide", "Body Slam", "Substitute"]]}},
+  "Nidoking": {"Mixed Attacker": {"moves": ["Earthquake", "Thunderbolt", "Blizzard", ["Rock Slide", "Substitute"]]}},
   "Clefable": {"Bulky Support": {"moves": ["Body Slam", "Blizzard", ["Thunderbolt", "Hyper Beam"], ["Thunder Wave", "Sing"]]}},
   "Ninetales": {"Fire Spin": {"moves": ["Fire Spin", "Fire Blast", ["Toxic", "Body Slam"], ["Rest", "Confuse Ray", "Hyper Beam"]]}},
   "Wigglytuff": {"Counter": {"moves": ["Thunder Wave", ["Body Slam", "Hyper Beam", "Blizzard"], ["Thunderbolt", "Blizzard"], "Counter"]}},
@@ -49,7 +49,7 @@
   "Ditto": {"Transformer": {"moves": ["Transform"]}},
   "Flareon": {"Mixed Fire Spin": {"moves": ["Fire Spin", "Fire Blast", "Body Slam", "Hyper Beam"]}},
   "Porygon": {"Standard": {"moves": ["Thunderbolt", ["Psychic", "Blizzard"], "Thunder Wave", "Recover"]}, "Conversion": {"moves": ["Conversion", ["Ice Beam", "Psychic", "Thunderbolt"], "Thunder Wave", "Recover"]}},
-  "Kabutops": {"Rest": {"moves": ["Rest", ["Slash", "Body Slam"], ["Body Slam", "Submission"], "Surf"]}, "Swords Dance": {"moves": ["Swords Dance", ["Body Slam", "Slash"], "Hyper Beam", "Surf"]}},
+  "Kabutops": {"Swords Dance": {"moves": ["Swords Dance", "Hyper Beam", ["Body Slam", "Slash"], "Surf"]}, "Rest": {"moves": ["Rest", ["Slash", "Body Slam"], ["Body Slam", "Submission"], "Surf"]}},
   "Moltres": {"Rest": {"moves": ["Fire Spin", "Fire Blast", "Toxic", "Rest"]}, "Agility": {"moves": ["Fire Spin", "Fire Blast", ["Hyper Beam", "Toxic"], "Agility"]}},
   "Dragonair": {"Agility + Wrap": {"moves": ["Wrap", "Thunder Wave", "Hyper Beam", ["Agility", "Thunderbolt"]]}}
 }
