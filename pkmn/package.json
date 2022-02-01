@@ -1,6 +1,6 @@
 {
   "name": "@pkmn/smogon",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "description": "A rich client for processed and aggregated Smogon analysis and moveset information",
@@ -16,10 +16,10 @@
     "index.ts"
   ],
   "dependencies": {
-    "@pkmn/data": "^0.5.3"
+    "@pkmn/data": "^0.5.6"
   },
   "devDependencies": {
-    "@pkmn/dex": "^0.5.3"
+    "@pkmn/dex": "^0.5.6"
   },
   "scripts": {
     "lint": "eslint --cache *.ts",
