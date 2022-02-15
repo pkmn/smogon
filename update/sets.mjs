@@ -52,6 +52,7 @@ const FORMATS = {
   ag: 'anythinggoes',
   battlestadiumsingles: 'battlestadiumsingles',
   battlestadiumdoubles: 'battlestadiumdoubles',
+  bssseries12: 'battlestadiumsingles',
   bdspou: "bdspou",
   bh: 'balancedhackmons',
   doubles: 'doublesou',

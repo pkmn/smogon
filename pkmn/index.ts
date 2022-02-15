@@ -103,8 +103,7 @@ export interface DisplayStatistics<T = DisplayUsageStatistics> {
 }
 
 /** Output format for legacy smogon.com/stats reports converted to the new @pkmn/stats format. */
-export interface LegacyDisplayStatistics extends
-  Omit<DisplayStatistics<LegacyDisplayUsageStatistics>, 'metagame'> {
+export interface LegacyDisplayStatistics extends Omit<DisplayStatistics, 'metagame'> {
   metagame?: DisplayMetagameStatistics;
 }
 
@@ -184,7 +183,11 @@ const BANS = {
   8: ['Cramorant-Gorging', 'Darmanitan-Galar-Zen'],
 };
 
-const SPECIAL = /(gen[78](?:vgc20(?:19|21|22)|battlestadium(?:singles|doubles)))(.*)/;
+const SPECIAL = /(gen[78](?:vgc20(?:19|21|22)|battlestadium(?:singles|doubles)|bs(?:s|d)))(.*)/;
+const TRANSLATE = {
+  'gen8bss': 'gen8battlestadiumsingles',
+  'gen8bsd': 'gen8battlestadiumdoubles',
+};
 
 /**
  * Utility class for working with data from Smogon, requires a fetch function to request data. By
@@ -340,7 +343,7 @@ export class Smogon {
   // Certain special formats like specific VGC or BSS series get reduced down to a 'base' format.
   private baseFormat(format: ID) {
     const m = SPECIAL.exec(format);
-    return m ? m[1] as ID : format;
+    return m ? (TRANSLATE[m[1] as keyof typeof TRANSLATE] || m[1]) as ID : format;
   }
 
   // Fetch analysis or set data for a specific gen and cache the result.
