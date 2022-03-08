@@ -39,7 +39,7 @@
   "Uxie": {
     "Nasty Plot": {"moves": ["Nasty Plot", "Substitute", "Psyshock", "Draining Kiss"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 252, "def": 4, "spe": 252}},
     "Defensive Pivot": {"moves": ["U-turn", "Stealth Rock", ["Yawn", "Future Sight"], ["Knock Off", "Future Sight"]], "item": "Colbur Berry", "nature": "Relaxed", "ivs": {"spe": 0}, "evs": {"hp": 252, "def": 252, "spd": 4}},
-    "Calm Mind": {"moves": ["Calm Mind", "Stored Power", "Draining Kiss", "Rest"], "item": "Electric Seed", "evs": {"hp": 252, "def": 240, "spe": 16}},
+    "Calm Mind": {"moves": ["Calm Mind", "Stored Power", "Draining Kiss", "Rest"], "item": "Electric Seed", "nature": "Bold", "evs": {"hp": 252, "def": 240, "spe": 16}},
     "Offense Lead": {"moves": ["Stealth Rock", "Memento", "Encore", "Yawn"], "item": "Mental Herb", "nature": "Timid", "evs": {"hp": 252, "def": 4, "spe": 252}},
     "Sun Setter": {"moves": ["Sunny Day", "Stealth Rock", "U-turn", ["Yawn", "Memento"]], "item": "Heat Rock", "nature": "Jolly", "evs": {"hp": 252, "def": 4, "spe": 252}},
     "Trick Room Lead": {"moves": ["Trick Room", "Stealth Rock", "Memento", ["Knock Off", "Magic Coat"]], "item": ["Mental Herb", "Red Card"], "nature": "Relaxed", "ivs": {"spe": 0}, "evs": {"hp": 252, "def": 252, "spd": 4}}
@@ -76,7 +76,7 @@
   "Silvally-Dark": {"Swords Dance Sweeper": {"moves": ["Swords Dance", "Multi-Attack", ["U-turn", "Flame Charge"], ["Psychic Fangs", "Iron Head"]], "item": "Dark Memory", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
   "Silvally-Electric": {"Mixed Wallbreaker": {"moves": ["Work Up", "Multi-Attack", ["Surf", "Substitute"], ["Flamethrower", "Ice Beam"]], "item": "Electric Memory", "nature": "Naive", "evs": {"atk": 4, "spa": 252, "spe": 252}}},
   "Silvally-Fighting": {"All Out Attacker": {"moves": ["Multi-Attack", "Ice Beam", "Thunderbolt", "U-turn"], "item": "Fighting Memory", "nature": "Naive", "evs": {"atk": 4, "spa": 252, "spe": 252}}},
-  "Silvally-Flying": {"Mixed Wallbreaker": {"moves": ["Swords Dance", "Multi-Attack", ["Flame Charge", "Defog", "U-turn"], "Surf"], "item": "Flying Memory", "nature": "Adamant", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
+  "Silvally-Flying": {"Mixed Wallbreaker": {"moves": ["Swords Dance", "Multi-Attack", ["Flame Charge", "U-turn"], "Surf"], "item": "Flying Memory", "nature": "Naive", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
   "Silvally-Poison": {"Work Up": {"moves": ["Work Up", "Multi-Attack", ["Flamethrower", "Thunderbolt"], "Surf"], "item": "Poison Memory", "nature": "Naive", "evs": {"atk": 4, "spa": 252, "spe": 252}}, "Defog": {"moves": ["Defog", "U-turn", "Multi-Attack", ["Surf", "Thunderbolt"]], "item": "Poison Memory", "nature": "Naive", "evs": {"atk": 252, "spa": 4, "spe": 252}}, "Swords Dance": {"moves": ["Swords Dance", "Multi-Attack", "U-turn", "Flame Charge"], "item": "Poison Memory", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
   "Silvally-Psychic": {"Swords Dance": {"moves": ["Swords Dance", "Multi-Attack", "Flame Charge", ["U-turn", "X-Scissor"]], "item": "Psychic Memory", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
   "Silvally-Water": {"Special Attacker": {"moves": ["Surf", "Thunderbolt", ["Ice Beam", "Flamethrower"], "U-turn"], "item": "Water Memory", "nature": "Timid", "evs": {"def": 4, "spa": 252, "spe": 252}}},
