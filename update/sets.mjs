@@ -74,6 +74,7 @@ const FORMATS = {
   vgc19: 'vgc2019',
   vgc20: 'vgc2020',
   vgc21: 'vgc2021',
+  vgc22: 'vgc2022',
   // RBWhY?
   nintendocup1998: 'nintendocup1998',
   nintendocup1999: 'nintendocup1999',

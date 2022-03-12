@@ -42,7 +42,7 @@ const N = 1e4;
 
 const UNSUPPORTED = ['1v1', 'challengecup1vs1'];
 const RE = /(.*)\/chaos\/(.*)\.json/;
-const SPECIAL = /(gen[78](?:vgc20(?:19|21)|battlestadium(?:singles|doubles)))(.*)/;
+const SPECIAL = /(gen[78](?:vgc20(?:19|21|22)|battlestadium(?:singles|doubles)))(.*)/;
 
 async function convert(format, date) {
   const leads = !stats.isNonSinglesFormat(format) && !UNSUPPORTED.includes(format);
