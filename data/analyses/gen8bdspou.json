@@ -1,4 +1,5 @@
 {
+  "Blastoise": {"sets": [{"name": "Shell Smash Sweeper"}]},
   "Nidoking": {"sets": [{"name": "Wallbreaker"}]},
   "Clefable": {"sets": [{"name": "Utility"}]},
   "Alakazam": {"sets": [{"name": "Focus Sash"}, {"name": "Life Orb"}]},
@@ -9,12 +10,14 @@
   "Dragonite": {"sets": [{"name": "Choice Band"}, {"name": "Setup Sweeper"}]},
   "Azumarill": {"sets": [{"name": "Choice Band"}, {"name": "Belly Drum"}]},
   "Quagsire": {"sets": [{"name": "Unaware"}]},
+  "Slowking": {"sets": [{"name": "Defensive Pivot"}]},
   "Scizor": {"sets": [{"name": "Defensive"}, {"name": "Offensive Swords Dance"}, {"name": "Choice Band"}]},
-  "Skarmory": {"sets": [{"name": "Spikes Setter"}]},
+  "Skarmory": {"sets": [{"name": "Spikes Setter"}, {"name": "Suicide Lead"}]},
   "Blissey": {"sets": [{"name": "Calm Mind"}, {"name": "Utility"}]},
   "Raikou": {"sets": [{"name": "Choice Specs"}, {"name": "Calm Mind"}]},
   "Tyranitar": {"sets": [{"name": "Choice Band"}, {"name": "Stealth Rock"}]},
   "Crawdaunt": {"sets": [{"name": "All-out Attacker"}, {"name": "Choice Band"}]},
+  "Milotic": {"sets": [{"name": "Physically Defensive"}]},
   "Salamence": {"sets": [{"name": "Choice Scarf"}, {"name": "Setup Sweeper"}]},
   "Latias": {"sets": [{"name": "Choice Scarf"}, {"name": "Defensive"}]},
   "Latios": {"sets": [{"name": "Choice Specs"}, {"name": "Setup Sweeper"}, {"name": "3 Attacks + Roost"}]},
@@ -23,8 +26,19 @@
   "Gastrodon": {"sets": [{"name": "Specially Defensive"}]},
   "Garchomp": {"sets": [{"name": "Mixed Attacker"}, {"name": "Choice Scarf"}]},
   "Lucario": {"sets": [{"name": "Setup Sweeper"}]},
+  "Hippowdon": {"sets": [{"name": "Utility"}]},
   "Weavile": {"sets": [{"name": "Choice Band"}, {"name": "All-out Attacker"}]},
-  "Magnezone": {"sets": [{"name": "Choice Specs"}]},
+  "Magnezone": {
+    "overview": "<p>Magnezone's powerful ability Magnet Pull lets it eliminate or heavily chip defensive Steel-types in Skarmory and Scizor, which many teams rely on to check some of the tier's most powerful offensive Pokemon like Latios and Weavile. It is an incredibly strong attacker in its own right, firing off powerful Flash Cannons and Thunderbolts that pressure most of the tier. However, Ground-types can switch into Thunderbolt and Volt Switch, sapping all of of Magnezone's momentum. Magnezone's reliance on Choice Specs means that, once it has successfully trapped and KOed its Steel-type target, it is forced to switch out or be sacrificed, often costing the team momentum. This is exacerbated by Volt Switch failing to pressure specially defensive Scizor, one of Magnezone's main targets. Magnezone's low Speed leaves it forced out by many of the tier's numerous offensive Pokemon, and it is unable to trap some Steel-types like Jirachi and invested Heatran effectively due to their bulk. Additionally, both Scizor and Skarmory can run a Shed Shell to render Magnezone's niche null and void.</p> ",
+    "comments": "<h1>Other Options</h1> <p>If trapping opposing Steel-types is not needed, Magnezone can drop Magnet Pull for Analytic to become an even more fearsome special wallbreaker. However, there are many other special wallbreakers, namely Latios, Alakazam, Starmie, and even Azelf, that offer more utility, a better Speed tier, and better coverage, making this option niche at best.</p> <h1>Checks and Counters</h1> <p><strong>Shed Shell: Both Scizor and Skarmory can run Shed Shell to negate Magnet Pull, rendering Magnezone's niche null and void. However, Shed Shell can be removed by Knock Off from teammates.</p> <p><strong>Ground-types: Gliscor, Garchomp, Mamoswine, and Donphan can revenge kill Magnezone if it is locked into an Electric-type move and block Volt Switch; however, they loathe switching into Flash Cannon. Gastrodon, on the other hand, is a particularly good Magnezone check, as it can easily switch into all of Magnezone's moves due to its typing and special bulk.</p> <p><strong>Blissey: Blissey can switch into Magnezone and effectively force it out with Seismic Toss. However, switching into repeated Volt Switches will leave Blissey unable to check other special attackers.</p> <p><strong>Revenge Killers</strong>: Many offensive Pokemon outspeed Magnezone and force it out. Latios resists Thunderbolt and Volt switch and can hit Magnezone with a powerful Surf. Infernape resists Flash Cannon and forces Magnezone out with Close Combat and Flare Blitz. Breloom resists Thunderbolt and Volt Switch and can use Magnezone to set up or fire off a Spore. Lucario forces Magnezone out with Close Combat and can set up if it's locked into Flash Cannon. Dragonite OHKOes Magnezone with Earthquake and heavily pressures it with Fire Punch. None of these Pokemon appreciate switching into Magnezone's powerful attacks, however.</p> ",
+    "sets": [
+      {
+        "name": "Choice Specs",
+        "description": "<p>Magnezone's game plan is fairly straightforward: trap a Steel-type and either KO or heavily damage it with Thunderbolt. Volt Switch is useful for keeping momentum while KOing targets if Skarmory's Sturdy is broken or if Scizor has been chipped into its range as well as for pivoting on specially bulky Pokemon like Latias and Blissey. Flash Cannon hits incoming Ground-types like Gliscor and Garchomp that attempt to block Magnezone's Volt Switch. Tri Attack is a generally good middle-ground move to hit Ground-types and Water-types without the need to predict, as well as for hitting Electric-types like Rotom-C and Raikou neutrally. Explosion is instead useful for generating momentum on offensive teams once Magnezone is no longer needed, heavily damaging a foe and getting in a teammate for free. Discharge is an option to fish for a paralysis on specially defensive Heatran and Latios. A Timid nature is preferred so that Magnezone outspeeds offensive Adamant Scizor and defensive Rotom-W; however, a Modest nature can be used to KO Scizor with less chip damage.</p> <p>Many Pokemon appreciate Magnezone eliminating Steel-type foes like Skarmory and Scizor. Latios is perhaps its best partner, as many teams rely on Scizor to check Latios. Physical wallbreakers like Dragonite, Garchomp, Azumarill, and Weavile, which need Skarmory out of the picture to effectively function, make for excellent choices as well. Azumarill and Weavile can also take advantage of the Ground-types like Donphan and Gliscor Magnezone invites in, while Dragonite and Garchomp appreciate Magnezone threatening Clefable, Togekiss, and Rotom-W. Knock Off users like Donphan, Gliscor, and Tangrowth can bait in Scizor and Skarmory and remove a potential Shed Shell from them, ensuring that Magnezone can successfully trap them; they also are good defensive answers to Ground-types like Garchomp and Gliscor, which force Magnezone out once it has trapped something. Stealth Rock from Gliscor and Clefable ensures that Sturdy won't let Skarmory set an entry hazard on Magnezone before falling. Magnezone works well with U-turn users that bait in Skarmory and Scizor like Gliscor and Scizor.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 529732, "username": "adem"}, {"user_id": 369076, "username": "Tuthur"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Finland"}]}], "writtenBy": [{"user_id": 277988, "username": "dex"}]}
+  },
   "Tangrowth": {"sets": [{"name": "Physically Defensive"}]},
   "Togekiss": {"sets": [{"name": "Choice Scarf"}, {"name": "Utility"}]},
   "Mamoswine": {"sets": [{"name": "Stealth Rock Attacker"}, {"name": "Wallbreaker"}]},
