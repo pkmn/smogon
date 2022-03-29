@@ -1,7 +1,7 @@
 {
   "Venusaur": {"Sun \"Sweeper\"": {"moves": ["Sunny Day", "Growth", "Giga Drain", ["Hidden Power Fire", "Sludge Bomb"]], "ability": "Chlorophyll", "item": ["Life Orb", "Heat Rock"], "nature": "Timid", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "evs": {"hp": 72, "def": 4, "spa": 252, "spe": 180}}},
   "Alakazam": {"Attacker": {"moves": [["Psychic", "Psyshock"], ["Hidden Power Ice", "Grass Knot"], ["Focus Blast", "Hidden Power Fire"], ["Encore", "Thunder Wave", "Shadow Ball", "Signal Beam"]], "ability": "Magic Guard", "item": ["Focus Sash", "Life Orb"], "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}},
-  "Zapdos": {"Specially Defensive": {"moves": [["Thunderbolt", "Volt Switch"], "Roost", "Heat Wave", ["Hidden Power Ice", "Toxic"]], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 248, "spd": 240, "spe": 20}}},
+  "Zapdos": {"Physically Defensive": {"moves": [["Volt Switch", "Discharge"], "Roost", "Hidden Power Ice", "Heat Wave"], "item": "Leftovers", "nature": "Bold", "ivs": {"atk": 2, "def": 30}, "evs": {"hp": 248, "def": 100, "spa": 4, "spd": 44, "spe": 112}}},
   "Moltres": {"Defensive": {"moves": ["Substitute", "Roost", "Flamethrower", "Will-O-Wisp"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 248, "def": 164, "spe": 96}}},
   "Milotic": {"Physically Defensive": {"moves": ["Recover", "Scald", "Ice Beam", ["Toxic", "Refresh"]], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "def": 252, "spa": 4}}},
   "Infernape": {"Mixed": {"moves": ["Overheat", "Close Combat", "Grass Knot", ["Hidden Power Ice", "U-turn", "Mach Punch"]], "ability": "Iron Fist", "item": "Expert Belt", "nature": "Naive", "evs": {"atk": 96, "spa": 160, "spe": 252}}},
@@ -38,13 +38,7 @@
   "Espeon": {"Screens Setter": {"moves": ["Reflect", "Light Screen", "Psychic", "Grass Knot"], "ability": "Magic Bounce", "item": "Light Clay", "nature": "Timid", "evs": {"hp": 252, "def": 4, "spe": 252}}},
   "Slowking": {"Special Wall": {"moves": ["Slack Off", "Scald", ["Dragon Tail", "Ice Beam", "Thunder Wave"], ["Fire Blast", "Psyshock", "Thunder Wave"]], "ability": "Regenerator", "item": "Leftovers", "nature": "Calm", "evs": {"hp": 252, "def": 76, "spd": 180}}},
   "Forretress": {"Support": {"moves": [["Spikes", "Toxic Spikes"], "Rapid Spin", "Volt Switch", "Hidden Power Ice"], "item": "Leftovers", "nature": "Relaxed", "evs": {"hp": 252, "def": 252, "spd": 4}}},
-  "Scizor": {
-    "Choice Band": {"moves": ["U-turn", "Bullet Punch", "Superpower", ["Pursuit", "Quick Attack"]], "ability": "Technician", "item": "Choice Band", "nature": "Adamant", "evs": {"hp": 248, "atk": 252, "spd": 8}},
-    "Offensive Swords Dance": {"moves": ["Swords Dance", "Bullet Punch", "Acrobatics", "Superpower"], "ability": "Technician", "item": "Flying Gem", "nature": "Adamant", "evs": {"atk": 252, "spd": 4, "spe": 252}},
-    "Bulky Swords Dance": {"moves": ["Swords Dance", "Roost", "Bullet Punch", ["Bug Bite", "U-turn"]], "ability": "Technician", "item": ["Leftovers", "Iron Plate"], "nature": "Adamant", "evs": {"hp": 252, "atk": 40, "spd": 216}},
-    "Choice Scarf": {"moves": ["U-turn", "Pursuit", ["Bullet Punch", "Iron Head"], ["Superpower", "Bug Bite"]], "ability": "Technician", "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
-    "Trapper": {"moves": ["Pursuit", "Bullet Punch", "U-turn", "Roost"], "ability": "Technician", "item": "Life Orb", "nature": "Adamant", "evs": {"hp": 248, "atk": 112, "spd": 148}}
-  },
+  "Scizor": {"Offensive Swords Dance": {"moves": ["Bullet Punch", "Pursuit", "Superpower", "Swords Dance"], "ability": "Technician", "item": "Life Orb", "nature": "Adamant", "evs": {"atk": 252, "spd": 4, "spe": 252}}, "Choice Scarf": {"moves": ["U-turn", "Pursuit", "Superpower", "Bullet Punch"], "ability": "Technician", "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
   "Skarmory": {"Defensive": {"moves": ["Roost", "Spikes", "Whirlwind", ["Brave Bird", "Taunt"]], "ability": "Sturdy", "item": ["Leftovers", "Rocky Helmet"], "nature": ["Impish", "Bold"], "evs": {"hp": 252, "def": 252, "spd": 4}}, "Lead": {"moves": ["Spikes", "Stealth Rock", "Brave Bird", "Taunt"], "ability": "Sturdy", "item": "Custap Berry", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}},
   "Kingdra": {"Rain Dance": {"moves": ["Rain Dance", "Hydro Pump", "Draco Meteor", "Surf"], "item": "Life Orb", "nature": "Modest", "evs": {"hp": 4, "spa": 252, "spe": 252}}},
   "Donphan": {"Support": {"moves": ["Rapid Spin", "Earthquake", "Stealth Rock", "Ice Shard"], "item": "Leftovers", "nature": "Impish", "evs": {"hp": 252, "def": 252, "spe": 4}}},

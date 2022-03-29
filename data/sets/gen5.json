@@ -46,7 +46,7 @@
       "Specially Defensive": {"moves": [["Discharge", "Thunderbolt"], "Roost", ["Heat Wave", "Toxic"], ["Hidden Power Grass", "Roar", "Hidden Power Ice"]], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 248, "spd": 236, "spe": 24}},
       "Agility": {"moves": ["Thunderbolt", ["Hidden Power Ice", "Hidden Power Flying"], "Agility", "Roost"], "item": "Life Orb", "nature": "Modest", "evs": {"hp": 180, "spa": 252, "spe": 76}}
     },
-    "ou": {"Specially Defensive": {"moves": [["Thunderbolt", "Volt Switch"], "Roost", "Heat Wave", ["Hidden Power Ice", "Toxic"]], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 248, "spd": 240, "spe": 20}}},
+    "ou": {"Physically Defensive": {"moves": [["Volt Switch", "Discharge"], "Roost", "Hidden Power Ice", "Heat Wave"], "item": "Leftovers", "nature": "Bold", "ivs": {"atk": 2, "def": 30}, "evs": {"hp": 248, "def": 100, "spa": 4, "spd": 44, "spe": 112}}},
     "doublesou": {"Offensive Tailwind": {"moves": ["Thunderbolt", ["Hidden Power Flying", "Hidden Power Ice"], "Tailwind", ["Detect", "Heat Wave"]], "item": ["Sitrus Berry", "Flying Gem"], "nature": "Modest", "evs": {"hp": 144, "def": 4, "spa": 252, "spe": 108}}},
     "vgc2012": {"Special Attacker": {"moves": [["Thunderbolt", "Discharge"], ["Hidden Power Ice", "Hidden Power Grass"], "Heat Wave", ["Detect", "Tailwind"]], "item": ["Sitrus Berry", "Charti Berry", "Yache Berry"], "nature": "Modest", "evs": {"hp": 140, "spa": 252, "spe": 116}}}
   },
@@ -599,13 +599,7 @@
   "Gligar": {"uu": {"Defensive": {"moves": ["Roost", "Earthquake", ["U-turn", "Toxic"], ["Toxic", "Taunt", "Stealth Rock"]], "ability": "Immunity", "item": "Eviolite", "nature": "Impish", "evs": {"hp": 252, "def": 252, "spe": 4}}}},
   "Steelix": {"ru": {"Defensive": {"moves": ["Stealth Rock", "Earthquake", "Gyro Ball", ["Roar", "Dragon Tail"]], "ability": "Sturdy", "item": "Leftovers", "nature": "Relaxed", "ivs": {"spe": 0}, "evs": {"hp": 252, "def": 220, "spd": 36}}, "Custap Berry": {"moves": ["Stealth Rock", "Earthquake", "Heavy Slam", "Explosion"], "ability": "Sturdy", "item": "Custap Berry", "nature": "Adamant", "evs": {"hp": 212, "atk": 252, "spe": 44}}, "Sheer Force": {"moves": ["Stealth Rock", "Earthquake", ["Iron Tail", "Iron Head"], "Crunch"], "ability": "Sheer Force", "item": ["Life Orb", "Leftovers"], "nature": "Adamant", "evs": {"hp": 212, "atk": 252, "spe": 44}}}},
   "Scizor": {
-    "ou": {
-      "Choice Band": {"moves": ["U-turn", "Bullet Punch", "Superpower", ["Pursuit", "Quick Attack"]], "ability": "Technician", "item": "Choice Band", "nature": "Adamant", "evs": {"hp": 248, "atk": 252, "spd": 8}},
-      "Offensive Swords Dance": {"moves": ["Swords Dance", "Bullet Punch", "Acrobatics", "Superpower"], "ability": "Technician", "item": "Flying Gem", "nature": "Adamant", "evs": {"atk": 252, "spd": 4, "spe": 252}},
-      "Bulky Swords Dance": {"moves": ["Swords Dance", "Roost", "Bullet Punch", ["Bug Bite", "U-turn"]], "ability": "Technician", "item": ["Leftovers", "Iron Plate"], "nature": "Adamant", "evs": {"hp": 252, "atk": 40, "spd": 216}},
-      "Choice Scarf": {"moves": ["U-turn", "Pursuit", ["Bullet Punch", "Iron Head"], ["Superpower", "Bug Bite"]], "ability": "Technician", "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
-      "Trapper": {"moves": ["Pursuit", "Bullet Punch", "U-turn", "Roost"], "ability": "Technician", "item": "Life Orb", "nature": "Adamant", "evs": {"hp": 248, "atk": 112, "spd": 148}}
-    },
+    "ou": {"Offensive Swords Dance": {"moves": ["Bullet Punch", "Pursuit", "Superpower", "Swords Dance"], "ability": "Technician", "item": "Life Orb", "nature": "Adamant", "evs": {"atk": 252, "spd": 4, "spe": 252}}, "Choice Scarf": {"moves": ["U-turn", "Pursuit", "Superpower", "Bullet Punch"], "ability": "Technician", "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
     "doublesou": {"All-Out Attacker": {"moves": ["Bullet Punch", ["Feint", "Superpower"], "Bug Bite", "Protect"], "ability": "Technician", "item": ["Steel Gem", "Occa Berry"], "nature": "Adamant", "evs": {"hp": 252, "atk": 252, "spd": 4}}, "Swords Dance": {"moves": ["Bullet Punch", "Swords Dance", "Bug Bite", "Protect"], "ability": "Technician", "item": ["Steel Gem", "Occa Berry"], "nature": "Adamant", "evs": {"hp": 252, "atk": 252, "spd": 4}}},
     "vgc2012": {"Physical Attacker": {"moves": ["Bullet Punch", "Bug Bite", "Superpower", "Protect"], "ability": "Technician", "item": "Occa Berry", "nature": "Adamant", "evs": {"hp": 252, "atk": 252, "spd": 4}}}
   },
