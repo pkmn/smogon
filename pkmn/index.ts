@@ -193,7 +193,7 @@ const TRANSLATE = {
  * Utility class for working with data from Smogon, requires a fetch function to request data. By
  * default this class will fetch an entire generation's worth of data for analyses or sets even if a
  * format parameter is passed to these methods, but if initialized with minimal = true then only a
- * single format will be fetched if a format paramter is provided to the analyses or sets methods.
+ * single format will be fetched if a format parameter is provided to the analyses or sets methods.
  * If no format parameter is passed and minimal = true then only data from formats which happen to
  * already be cached will be returned.
  * */
