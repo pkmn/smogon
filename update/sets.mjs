@@ -82,6 +82,7 @@ const FORMATS = {
   petitcup: 'petitcup',
   pikacup: 'pikacup',
   monotype: 'monotype',
+  pu: 'pu',
   lc: 'lc',
   '1v1': '1v1',
 };
