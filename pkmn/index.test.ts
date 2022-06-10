@@ -52,8 +52,8 @@ describe('Smogon', () => {
       expect(sets(await smogon.analyses(gen(2), 'Blastoise')))
         .toEqual([['Spinstoise (Rapid Spin)'], ['Bulky Water', 'RestTalk']]);
 
-      expect(sets(await smogon.analyses(gen(8), 'Darmanitan-Galar-Zen', 'gen8ubers' as ID)))
-        .toEqual([['Belly Drum']]);
+      expect(sets(await smogon.analyses(gen(8), 'Darmanitan-Galar-Zen', 'gen81v1' as ID)))
+        .toEqual([['Zen Mode']]);
       expect((await smogon.analyses(gen(3), 'Gengar', 'gen3ou' as ID))[0].overview)
         .toMatch('Gengar is a centralizing threat in ADV OU');
       const clefable = await smogon.analyses(gen(4), 'Clefable', 'gen4uu' as ID);
@@ -87,8 +87,8 @@ describe('Smogon', () => {
       expect(names(await smogon.sets(gen(2), 'Blastoise')))
         .toEqual(['Spinstoise (Rapid Spin)', 'Bulky Water', 'RestTalk']);
 
-      expect(names(await smogon.sets(gen(8), 'Darmanitan-Galar-Zen', 'gen8ubers' as ID)))
-        .toEqual(['Belly Drum']);
+      expect(names(await smogon.sets(gen(8), 'Darmanitan-Galar-Zen', 'gen81v1' as ID)))
+        .toEqual(['Zen Mode']);
       expect((await smogon.sets(gen(4), 'Gastrodon-East', 'gen4ou' as ID))[0].species)
         .toBe('Gastrodon-East');
       expect((await smogon.sets(gen(4), 'Moltres', 'gen4uu' as ID))[0].ivs)
