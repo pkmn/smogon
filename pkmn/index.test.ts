@@ -111,6 +111,7 @@ describe('Smogon', () => {
       .toBe(0.1307);
     expect((await smogon.stats(gen(7), 'Incineroar', 'gen7vgc2019moonseries' as ID))!
       .items['Assault Vest']).toBe(0.3012);
+    expect((await smogon.stats(gen(8), 'zaciancrowned', 'gen8vgc2022' as ID))).toBeDefined();
   });
 
   test('format', () => {
