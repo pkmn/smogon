@@ -20,7 +20,19 @@
   "Toxapex": {"sets": [{"name": "Defensive"}]},
   "Buzzwole": {"sets": [{"name": "Offensive"}, {"name": "Choice Scarf"}, {"name": "Defensive"}]},
   "Zeraora": {"sets": [{"name": "Bulk Up"}, {"name": "Offensive Pivot"}]},
-  "Cinderace": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Band"}]},
+  "Cinderace": {
+    "sets": [
+      {
+        "name": "Pivot",
+        "description": "<p>Cinderace is an effective wallbreaker and pivot thanks to its access to Fire Lash and a STAB-boosted U-turn via Libero, chipping away at even bulky walls as their Defense gets dropped. High Jump Kick pressures Heatran and does the most damage to Seismitoad and Tyranitar, which can't hit a Fighting-type Cinderace super effectively. Zen Headbutt can deal with Toxapex after a Fire Lash, while Court Change is very useful as a means of entry hazard control, especially against offense teams. Offensive Water-types like Keldeo and Urshifu-R heavily benefit from Cinderace slowly wearing the aforementioned Pokemon down with U-turn and its coverage, allowing them to wallbreak far more effectively. Cinderace can't effectively break Hippowdon, especially if it holds Rocky Helmet, so a strong entry hazard-stacking core with Ferrothorn and Seismitoad is appreciated. Seismitoad can also serve as a slow pivot with Flip Turn to bring Cinderace in more easily. Faster Pokemon like Zeraora and Weavile, Choice Scarf users like Urshifu-R, and Accelerock users like Terrakion and Tyranitar also help Cinderace against faster but frail targets such as Tornadus-T, Aerodactyl, and Alakazam.</p> "
+      },
+      {
+        "name": "Choice Band",
+        "description": "<p>Choice Band Cinderace is a powerful force in the metagame, applying heavy pressure to defensive cores with its raw power. Sacred Fire threatens switch-ins with a burn, heavily limiting the natural longevity of walls like Seismitoad. U-turn is good long term for pivoting and dealing small bits of damage, while High Jump Kick and Zen Headbutt hit the entire tier for at least neutral damage. Heatran and Toxapex are the primary targets of those moves, respectively, but both are more risky due to their miss chance and the existence of Ghost-types like Runerigus able to punish the use of High Jump Kick. Choice Band makes Cinderace quite prediction reliant, meaning bulky cores made of Pokemon like Toxapex and Hippowdon can give it some trouble. Future Sight users such as Slowbro and Slowking assist Cinderace greatly, as Pokemon that could switch into Sacred Fire like the aforementioned Toxapex and Hippowdon would then be 2HKOed after taking a Future Sight. Strong wallbreakers like Dragon Energy Latios, Nidoking, and Kyurem can also very easily punch holes in the opposing team after a physically defensive wall like Slowbro is forced to take a U-turn from Cinderace. Without Heavy-Duty Boots, Choice Band Cinderace is very susceptible to opposing entry hazards, especially if a wall like Hippowdon switches in to check it and set them, so entry hazard control from the likes of Corviknight and Clefable also helps greatly.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 324242, "username": "in the hills"}, {"user_id": 464398, "username": "LBDC"}]}, {"name": "Grammar checked by", "members": [{"user_id": 297659, "username": "deetah"}]}], "writtenBy": [{"user_id": 511624, "username": "Fc"}]}
+  },
   "Corviknight": {"sets": [{"name": "Defensive Pivot"}]},
   "Dracozolt": {"sets": [{"name": "Dragon Dance"}, {"name": "Substitute"}]},
   "Urshifu-Rapid-Strike": {"sets": [{"name": "Choice Scarf"}, {"name": "No Retreat"}]}
