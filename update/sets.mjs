@@ -158,7 +158,7 @@ function eligible(gen, species) {
 async function importPokemon(gen, species) {
   const response = await request(Analyses.request(species, gen));
   const json = await response.json();
-  if (!json.strategies.length) return undefined;
+  if (!json || !json.strategies.length) return undefined;
 
   const analyses = {};
   const sets = {};
