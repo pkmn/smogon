@@ -46,7 +46,26 @@
   "Dragapult": {"sets": [{"name": "Normalize"}]},
   "Zacian": {"sets": [{"name": "Tough Claws"}, {"name": "Poison Heal"}]},
   "Zamazenta": {"sets": [{"name": "Magic Guard"}, {"name": "Tough Claws"}, {"name": "Poison Heal"}]},
-  "Eternatus": {"sets": [{"name": "Nasty Plot 3 Attacks"}, {"name": "Regenerator + Spikes"}, {"name": "Taunt 3 Attacks"}, {"name": "Ice Scales Wall"}, {"name": "Recover + Dragon Energy"}, {"name": "Choice Specs"}, {"name": "Flare Boost"}, {"name": "Corrosion"}, {"name": "Sniper"}]},
+  "Eternatus": {
+    "sets": [
+      {
+        "name": "Nasty Plot + 3 Attacks",
+        "description": "<p>Eternatus's great bulk and Speed tier make it an excellent Nasty Plot sweeper that has the capacity to set up multiple times in a match to soften defensive cores in the early-game and clean up weakened teams towards the late-game. Simple maximizes Eternatus's power after setting up, but it could opt instead for Mold Breaker, which gives it a better matchup against Ice Scales users and Steel-types with Flash Fire. Alternatively, Adaptability boasts greater initial power, which makes Eternatus less reliant on setting up and improves its ability to check Palkia and Xerneas. Blue Flare is a strong coverage option against Steel-types like Zamazenta-C and Magearna. Earth Power is a notably weaker but more accurate alternative that hits Steel-types with Flash Fire or Primordial Sea. Pixilate Xerneas is a great partner for this set, as it appreciates Eternatus softening up the special walls and Steel-types that it struggles with. Additionally, Poison Heal Regigigas loves to switch in on Spectral Thief and Nuzzle aimed at Eternatus. Imposter Chansey can scout opposing teams to identify opportunities for Eternatus to set up and has the massive special bulk necessary to handle Imposter users copying Eternatus. Zamazenta-C or Magearna with Flash Fire or Primordial Sea can Imposter-proof Blue Flare variants.</p> "
+      },
+      {
+        "name": "Regenerator + Spikes",
+        "description": "<p>Regenerator gives Eternatus the longevity to switch in repeatedly and make progress with Spikes, powerful Dragon-type attacks, and Sludge Bomb poisonings. Dragon Energy is generally the Dragon STAB move of choice, as Regenerator keeps Eternatus at high HP. Draco Meteor is an alternative that offers less raw power but allows Eternatus to be played more aggressively, as its damage output is not lowered by taking hits. Volt Switch helps Eternatus chip down its checks, retain momentum, and escape from Anchor Shot, particularly against Zamazenta-C. Blue Flare is a less flexible, but more immediate method of breaking through Steel-types. Trick can be used alongside Black Sludge to cripple Magic Bounce users and special walls that would limit Eternatus's ability to make progress. Wallbreakers such as Pixilate Xerneas and Kyurem-B make for good teammates, as they are adept at forcing switches to maximize the effectiveness of Eternatus's Spikes. Eternatus's Regenerator can be exploited by Imposter Chansey for free recovery, so Pokemon like Magic Bounce Zamazenta-C or Pixilate Rapid Spin Magearna that prevent Imposter from doing too much harm make good partners. Teammates like Desolate Land Ho-Oh and RegenVest Kyogre can lure in Imposter users to Nuzzle them or remove their Eviolite with Knock Off, making it tougher for them to safely switch in against Eternatus later.</p> "
+      },
+      {"name": "Taunt 3 Attacks"},
+      {"name": "Ice Scales Wall"},
+      {"name": "Recover + Dragon Energy"},
+      {"name": "Choice Specs"},
+      {"name": "Flare Boost"},
+      {"name": "Corrosion"},
+      {"name": "Sniper"}
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 577920, "username": "Tea Guzzler"}, {"user_id": 466276, "username": "Dragonillis"}]}, {"name": "Grammar checked by", "members": [{"user_id": 226455, "username": "berry"}, {"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 225453, "username": "MAMP"}]}
+  },
   "Regieleki": {"sets": [{"name": "Mixed Galvanize Cleaner"}]},
   "Spectrier": {"sets": [{"name": "Choice Specs"}, {"name": "Simple Plot"}]},
   "Calyrex-Ice": {"sets": [{"name": "Poison Heal Shift Gear"}, {"name": "Mold Breaker Shift Gear"}, {"name": "Magic Guard Shift Gear"}, {"name": "Refrigerate Rapid Spin"}, {"name": "Regenvest"}]}
