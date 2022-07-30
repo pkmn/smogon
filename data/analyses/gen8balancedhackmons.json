@@ -15,7 +15,20 @@
   "Palkia": {"sets": [{"name": "Mixed Adaptability"}, {"name": "Rain Sweeper"}, {"name": "Fur Coat"}]},
   "Heatran": {"sets": [{"name": "RegenVest"}]},
   "Regigigas": {"sets": [{"name": "Poison Heal Dragon Dance + Spikes"}, {"name": "Poison Heal Swords Dance"}, {"name": "Poison Heal Dragon Dance Sweeper"}, {"name": "Poison Heal Utility"}, {"name": "Tough Claws"}]},
-  "Giratina": {"sets": [{"name": "Poison Heal"}, {"name": "Prankster"}, {"name": "Defensive"}, {"name": "Worry Seed Poison Heal"}, {"name": "Final Gambit"}]},
+  "Giratina": {
+    "sets": [
+      {
+        "name": "Magic Bounce",
+        "description": "<p>Magic Bounce Giratina provides entry hazard control and blocks Strength Sap. Teleport, when combined with minimum Speed investment, allows Giratina to almost always move last and safely put its teammates in advantageous situations. Spectral Thief prevents Giratina from becoming setup fodder. Knock Off makes permanent progress and scares out Imposter users, allowing Giratina to Teleport out without risking a Speed tie. Entrainment and Core Enforcer scare out Poison Heal and -ate users, Entrainment functioning against Xerneas and slower Pokemon and Core Enforcer providing a valuable STAB move that also ignores Magic Bounce. Nuzzle spreads paralysis for your team's wallbreakers to capitalize on. Minimum Speed investment allows Giratina to underspeed opposing pivots. Giratina has excellent synergy with Poison Heal users, as it provides valuable entry hazard control and a safe avenue into activating their Toxic Orbs via Teleport. Xerneas is a particularly strong teammate for Giratina, since Xerneas Imposter-proofs Giratina. Strong wallbreakers, such as Kyurem-B and Spectrier, appreciate Teleport's free entry and Magic Bounce helping to limit entry hazard chip. Giratina struggles most with Pixilate Xerneas, Eternatus, and Kyurem-B, as they can either 2HKO or OHKO Giratina, so teammates such as Ice Scales Zamazenta-C and Primordial Sea Steel-types can help check these threats.</p> "
+      },
+      {"name": "Poison Heal"},
+      {"name": "Prankster"},
+      {"name": "Defensive"},
+      {"name": "Worry Seed Poison Heal"},
+      {"name": "Final Gambit"}
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 577920, "username": "Tea Guzzler"}, {"user_id": 225453, "username": "MAMP"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 546606, "username": "Tanny89k"}]}
+  },
   "Giratina-Origin": {"sets": [{"name": "Fur Coat"}]},
   "Cresselia": {"sets": [{"name": "Prankster Utility"}, {"name": "Tower of Power (Prankster Dual Screens)"}]},
   "Darmanitan": {"sets": [{"name": "Regenvest"}, {"name": "Prankster"}, {"name": "Poison Heal"}]},
