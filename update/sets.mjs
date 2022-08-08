@@ -75,6 +75,8 @@ const FORMATS = {
   vgc20: 'vgc2020',
   vgc21: 'vgc2021',
   vgc22: 'vgc2022',
+  // DW deciding to go rogue. VGC 22 Series 13 -> "BSD" Series 13 = BSD
+  vgc22series13: 'battlestadiumdoubles',
   // RBWhY?
   nintendocup1998: 'nintendocup1998',
   nintendocup1999: 'nintendocup1999',

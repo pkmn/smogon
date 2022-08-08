@@ -8,7 +8,20 @@
   "Ho-Oh": {"sets": [{"name": "Magic Guard Life Orb"}, {"name": "Desolate Land"}, {"name": "Aerilate Rapid Spin"}, {"name": "Magic Bounce"}, {"name": "Prankster"}]},
   "Registeel": {"sets": [{"name": "Prankster"}, {"name": "Fire Immune Wall"}]},
   "Kyogre": {"sets": [{"name": "Regenvest"}, {"name": "Utility Poison Heal"}, {"name": "Quiver Dance Poison Heal"}, {"name": "Prankster"}]},
-  "Groudon": {"sets": [{"name": "Mold Breaker Spikes"}, {"name": "Choice Band"}, {"name": "Prankster"}, {"name": "Ice Scales"}, {"name": "Fur Coat"}, {"name": "Poison Heal Setup"}]},
+  "Groudon": {
+    "sets": [
+      {"name": "Mold Breaker + Spikes", "description": "<p>Preventing Groudon from setting up Spikes is a nightmare, as it ignores Magic Bounce with Mold Breaker and threatens huge swathes of the tier with Thousand Arrows and Glare. Strength Sap keeps Groudon healthy throughout the game, which allows it to repeatedly switch into foes such as Zamazenta-C and defensive Ho-Oh sets. Zekrom, Magearna, and other slow wallbreakers love Groudon's efficiency at spreading Spikes and paralysis; with Spikes up and foes such as Xerneas and Palkia paralyzed, they're far more difficult to switch into or force out. While Imposter Chansey must risk being crippled by paralysis to switch in against Groudon, it's still important to ensure that Chansey cannot freely set up Spikes when it does. Poison Heal Xerneas with Rapid Spin and Strength Sap helps out with this, as it can clear away Spikes, is unaffected by Glare, and can easily heal off damage from Thousand Arrows.</p> "},
+      {
+        "name": "Choice Band",
+        "description": "<p>When holding a Choice Band, Groudon is a frightening wallbreaker that can easily blast holes in defensive cores, so long as it can get onto the field against the defensive Eternatus sets and Steel-types that it forces out. While it's less reliable than Thousand Arrows, the extra power from Precipice Blades enables Groudon to OHKO Zamazenta-C if it opts for Mold Breaker, or to take down Xerneas and Regigigas after a layer of Spikes on Adaptability sets. Trick neutralizes common physical walls such as Giratina and Fur Coat Lunala, and Glacial Lance is another strong option against Giratina that also knocks out Zygarde-C. U-turn can be used to pivot out from physical walls into a specially offensive teammate such as Dialga or Pixilate Xerneas, and these Pokemon can create opportunities for Groudon by inviting in easy prey like Zamazenta-C and Solgaleo. Poison Heal Regigigas sets with Swords Dance and Wicked Blow can weaken Giratina, Zygarde-C, and Fur Coat Lunala so they can no longer switch into Groudon's attacks. Against Imposter users, a teammate with solid physical bulk and reliable recovery can handle the imposter's attacks. Strength Sap Xerneas or a defensive Giratina set can perform this role effectively.</p> "
+      },
+      {"name": "Prankster"},
+      {"name": "Ice Scales"},
+      {"name": "Fur Coat"},
+      {"name": "Poison Heal Setup"}
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 577920, "username": "Tea Guzzler"}, {"user_id": 466276, "username": "Dragonillis"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Finland"}]}], "writtenBy": [{"user_id": 225453, "username": "MAMP"}]}
+  },
   "Rayquaza": {"sets": [{"name": "Mixed Aerilate"}, {"name": "Triage"}, {"name": "Choice Specs Aerilate"}]},
   "Garchomp": {"sets": [{"name": "Choice Band"}]},
   "Dialga": {"sets": [{"name": "RegenVest"}, {"name": "Doom Desire"}, {"name": "Defensive Trapper"}, {"name": "Magic Guard Life Orb"}]},
@@ -46,7 +59,19 @@
   "Golisopod": {"sets": [{"name": "Poison Heal"}, {"name": "Prankster"}]},
   "Tapu Fini": {"sets": [{"name": "Poison Heal Pivot"}, {"name": "Prankster"}]},
   "Solgaleo": {"sets": [{"name": "Fur Coat"}]},
-  "Lunala": {"sets": [{"name": "Fur Coat"}, {"name": "No Retreat"}]},
+  "Lunala": {
+    "sets": [
+      {
+        "name": "Fur Coat Wall",
+        "description": "<p>Fur Coat Lunala is an excellent wall that can check the majority of physical attackers in the tier, with its typing leaving very few weaknesses and Fur Coat allowing it to easily withstand powerful attacks like V-create and Glacial Lance. Nuzzle provides speed control that can threaten out powerful attackers like Eternatus and Zacian, while Glare still paralyses Groudon and Zygarde-C. Hex is a strong STAB attack that is unresisted by most of the tier and has good synergy with Nuzzle's paralysis to clean up weakened teams. Core Enforcer negates Regigigas's Poison Heal and forces it to switch out, which, when combined with Lunala's immunity to Normal allows it to reliably switch in and scare out Regigigas lacking Wicked Blow. Entrainment improves the matchup against Xerneas and makes Lunala harder to pivot around. Recover provides a reliable recovery option which keeps Lunala in good enough condition to check threats over longer games. Lunala's glaring weakness to Dark-type attacks, most commonly Wicked Blow and Knock Off from Regigigas, makes Zygarde-C a good teammate, as the pair has the physical bulk to withstand threats carrying coverage for the other. Lunala's speed control and ability to scare out offensive threats can be exploited by slower wallbreakers such as Kyurem-B and Groudon. Lunala can self-Imposter-proof to an extent, as a boosted Hex will always 2HKO Eviolite Imposter Chansey, but Ground-type teammates can help negate the Imposter user's Nuzzle to prevent boosting Hex's power.</p> "
+      },
+      {
+        "name": "No Retreat Sweeper",
+        "description": "<p>Lunala's typing and great Special Attack allow it to fully exploit No Retreat - Psychic offers an excellent STAB Stored Power and Ghost makes Lunala immune to trapping, allowing it to safely switch out of Spectral Thiefs and attempt multiple sweeps. With Simple, No Retreat not only offers a massive bulk increase, but also raises Stored Power's Base Power to 220, which when combined with a +2 Special Attack boost is sufficient to OHKO the majority of the metagame. Final Gambit is used alongside Lunala's high HP to heavily damage Prankster users like Groudon and Ho-Oh who look to remove Lunala's boosts. 0 Special Defense EVs, 5 Special Defense IVs, and a Rash nature allow Lunala to always OHKO Imposter Eviolite Chansey with Astral Barrage, whereas using maximum Special Defense allows set up in front of most special attackers. Sweepers like Shift Gear Kyurem-B and Simple Eternatus synergize well with Lunala, as they can exploit Prankster users being absent or heavily injured due to Final Gambit, giving them an easier time cleaning up a team. Pixilate Xerneas makes a good teammate, as it can pressure foes that Lunala is unable to break past such as Yveltal and Ice Scales users like Zamazenta-C. Yveltal also partners well with Lunala as it can safely Imposter-proof with Spectral Thief and has STAB Knock Off to remove Assault Vest, which allows certain targets like Kyogre and Melmetal to survive boosted Stored Power and Astral Barrage, respectively.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 225453, "username": "MAMP"}, {"user_id": 466276, "username": "Dragonillis"}]}, {"name": "Grammar checked by", "members": [{"user_id": 226455, "username": "berry"}, {"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 577920, "username": "Tea Guzzler"}]}
+  },
   "Pheromosa": {"sets": [{"name": "Magic Guard"}]},
   "Celesteela": {"sets": [{"name": "Bulky Triage"}, {"name": "Offensive Triage"}, {"name": "Primordial Sea"}, {"name": "Prankster"}, {"name": "Aerilate"}]},
   "Kartana": {"sets": [{"name": "Choice Band"}]},
