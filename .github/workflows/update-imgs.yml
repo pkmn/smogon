@@ -12,7 +12,7 @@ jobs:
     - name: Check out this repo
       uses: actions/checkout@v2
     - name: Install dependencies
-      run: npm install
+      run: npm install --force
     - name: Update
       run: node --no-warnings --experimental-specifier-resolution=node update/imgs
     - name: Test
