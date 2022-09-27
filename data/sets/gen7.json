@@ -1445,11 +1445,11 @@
   "Braviary": {"nu": {"Offensive Bulk Up": {"moves": ["Brave Bird", "Superpower", "Bulk Up", "Roost"], "ability": "Defiant", "item": ["Fightinium Z", "Flyinium Z"], "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}, "Substitute + Bulk Up": {"moves": ["Substitute", "Bulk Up", "Brave Bird", "Roost"], "ability": "Defiant", "item": "Leftovers", "nature": "Jolly", "evs": {"hp": 252, "spd": 160, "spe": 96}}}},
   "Vullaby": {
     "lc": {
-      "Weak Armor Pivot": {"moves": ["Brave Bird", "Knock Off", "U-turn", "Defog"], "ability": "Weak Armor", "item": "Berry Juice", "nature": "Adamant", "evs": {"atk": 236, "def": 76, "spe": 196}},
-      "Mixed Attacker": {"moves": ["Brave Bird", "Knock Off", ["Hidden Power Grass", "Defog"], ["Heat Wave", "Defog"]], "ability": "Weak Armor", "item": ["Berry Juice", "Eviolite"], "nature": "Adamant", "evs": {"hp": 36, "atk": 240, "spa": 80, "spe": 116}},
-      "Choice Scarf": {"moves": ["Brave Bird", "Knock Off", "U-turn", ["Rock Smash", "Defog", "Hidden Power Grass"]], "ability": "Overcoat", "item": "Choice Scarf", "nature": ["Adamant", "Jolly"], "evs": {"atk": 236, "spd": 76, "spe": 196}},
-      "Overcoat": {"moves": ["Brave Bird", "Knock Off", ["U-turn", "Defog"], ["Defog", "Roost"]], "ability": "Overcoat", "item": ["Berry Juice", "Eviolite"], "nature": "Jolly", "evs": {"hp": 116, "def": 76, "spd": 156, "spe": 116}},
-      "Nasty Plot": {"moves": ["Nasty Plot", "Air Slash", "Heat Wave", ["Dark Pulse", "Hidden Power Grass"]], "ability": "Weak Armor", "item": ["Eviolite", "Berry Juice"], "nature": "Modest", "evs": {"hp": 116, "spa": 240, "spe": 116}}
+      "Offensive Pivot": {"moves": ["Brave Bird", "Knock Off", "U-turn", ["Defog", "Hidden Power Fighting"]], "ability": "Weak Armor", "item": "Berry Juice", "nature": ["Adamant", "Jolly"], "evs": {"atk": 236, "def": 76, "spe": 196}},
+      "Mixed Attacker": {"moves": ["Brave Bird", "Knock Off", "Heat Wave", "Hidden Power Grass"], "ability": "Weak Armor", "item": "Berry Juice", "nature": "Docile", "ivs": {"hp": 30, "spa": 30}, "evs": {"atk": 156, "def": 76, "spa": 80, "spe": 196}},
+      "Flyinium Z": {"moves": ["Brave Bird", "Knock Off", ["Hidden Power Grass", "Hidden Power Fighting"], ["Heat Wave", "Protect"]], "ability": "Weak Armor", "item": "Flyinium Z", "nature": "Naughty", "ivs": {"hp": 30, "spa": 30}, "evs": {"atk": 236, "def": 76, "spa": 80, "spe": 116}},
+      "Nasty Plot": {"moves": ["Nasty Plot", "Air Slash", "Heat Wave", ["Hidden Power Grass", "Dark Pulse", "Protect"]], "ability": "Weak Armor", "item": ["Berry Juice", "Eviolite"], "nature": "Modest", "evs": {"hp": 116, "spa": 240, "spe": 116}},
+      "Choice Scarf": {"moves": ["Brave Bird", "Knock Off", "U-turn", ["Defog", "Hidden Power Grass"]], "ability": "Overcoat", "item": "Choice Scarf", "nature": ["Adamant", "Jolly"], "ivs": {"hp": 30, "spa": 30}, "evs": {"atk": 236, "def": 76, "spe": 196}}
     }
   },
   "Mandibuzz": {
