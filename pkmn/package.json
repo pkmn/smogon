@@ -10,11 +10,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "build",
-    "!build/*.test.*",
-    "index.ts"
-  ],
+  "files": ["build", "!build/*.test.*", "index.ts"],
   "dependencies": {
     "@pkmn/data": "^0.5.27"
   },
@@ -31,20 +27,20 @@
     "posttest": "npm run lint"
   },
   "jest": {
-    "preset": "ts-jest",
     "testEnvironment": "node",
-    "testPathIgnorePatterns": [
-      "node_modules/",
-      "build/"
+    "testPathIgnorePatterns": ["node_modules/", "build/"]
+  },
+  "babel": {
+    "presets": [
+        "@babel/preset-typescript",
+        ["@babel/preset-env", {"targets": {"node": "current"}}]
     ]
   },
   "eslintConfig": {
     "extends": "@pkmn",
     "overrides": [
       {
-        "files": [
-          "*.ts"
-        ],
+        "files": ["*.ts"],
         "rules": {
           "@typescript-eslint/restrict-template-expressions": 0,
           "jest/no-conditional-expect": "off"

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict';
-// This is a workaround for some jest/ts-jest/subpkg nonsense which makes it unable to successfully
+// This is a workaround for some jest/subpkg nonsense which makes it unable to successfully
 // read from the fixtures/ directory. Ideally we would just have this code in index.test.ts:
 //
 //    import * as fs from 'fs';
