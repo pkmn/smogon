@@ -1,13 +1,18 @@
 {
   "name": "smogon",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "description": "Low-level wrapper around Smogon's analyses and usage statistics",
   "homepage": "https://smogon.com/",
   "repository": "github:pkmn/smogon",
   "license": "MIT",
-  "files": ["build", "!build/fixtures.json", "!build/*.test.*", "index.ts"],
+  "files": [
+    "build",
+    "!build/fixtures.json",
+    "!build/*.test.*",
+    "index.ts"
+  ],
   "scripts": {
     "lint": "eslint --cache *.ts",
     "fix": "eslint --fix *.ts",
@@ -19,13 +24,25 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "testPathIgnorePatterns": ["node_modules/", "dist/"],
-    "modulePathIgnorePatterns": ["fixtures/"]
+    "testPathIgnorePatterns": [
+      "node_modules/",
+      "dist/"
+    ],
+    "modulePathIgnorePatterns": [
+      "fixtures/"
+    ]
   },
   "babel": {
     "presets": [
-        "@babel/preset-typescript",
-        ["@babel/preset-env", {"targets": {"node": "current"}}]
+      "@babel/preset-typescript",
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
     ]
   },
   "eslintConfig": {
