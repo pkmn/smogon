@@ -680,10 +680,10 @@
   "Larvitar": {"lc": {"Physical Attacker": {"moves": [["Rock Polish", "Dragon Dance"], "Earthquake", ["Stone Edge", "Rock Slide"], "Crunch"], "item": "Flame Orb", "nature": ["Adamant", "Jolly"], "evs": {"hp": 36, "atk": 244, "def": 36, "spe": 188}}}},
   "Tyranitar": {
     "ou": {
+      "Choice Scarf": {"moves": ["Pursuit", "Crunch", ["Superpower", "Earthquake"], ["Stone Edge", "Ice Beam", "Stealth Rock"]], "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
+      "Dragon Dance": {"moves": ["Dragon Dance", ["Crunch", "Stone Edge"], ["Earthquake", "Aqua Tail"], ["Fire Punch", "Ice Punch", "Taunt"]], "item": ["Lum Berry", "Chople Berry", "Shuca Berry"], "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
       "All Purpose": {"moves": ["Crunch", ["Fire Blast", "Stealth Rock", "Ice Beam"], ["Pursuit", "Fire Blast", "Ice Beam"], ["Stone Edge", "Earthquake", "Superpower"]], "item": ["Passho Berry", "Custap Berry"], "nature": ["Lonely", "Adamant", "Brave"], "evs": {"hp": 48, "atk": 144, "spa": 52, "spd": 184, "spe": 80}},
       "Choice Band": {"moves": ["Stone Edge", "Crunch", "Pursuit", ["Superpower", "Earthquake", "Aqua Tail"]], "item": "Choice Band", "nature": "Adamant", "evs": {"hp": 180, "atk": 252, "spe": 76}},
-      "Choice Scarf": {"moves": ["Stone Edge", "Crunch", "Pursuit", ["Superpower", "Earthquake"]], "item": "Choice Scarf", "nature": "Jolly", "evs": {"hp": 4, "atk": 252, "spe": 252}},
-      "Dragon Dance": {"moves": ["Dragon Dance", "Stone Edge", ["Earthquake", "Crunch"], ["Ice Punch", "Fire Punch"]], "item": ["Shuca Berry", "Chople Berry", "Lum Berry"], "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
       "TyraniBoah (SubPunch)": {"moves": ["Substitute", "Focus Punch", "Ice Beam", "Crunch"], "item": "Leftovers", "nature": "Lonely", "evs": {"hp": 252, "atk": 156, "spa": 100}}
     }
   },
