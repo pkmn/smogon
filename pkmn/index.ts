@@ -84,6 +84,7 @@ export interface Moveset {
   ivs?: Partial<StatsTable> | Partial<StatsTable>[];
   evs?: Partial<StatsTable> | Partial<StatsTable>[];
   moves: Array<MoveName | MoveName[]>;
+  // TODO: teraType
 }
 
 /** A fairly sloppy definition of DeepPartial, but good enough for our use case. */
@@ -183,7 +184,7 @@ const BANS = {
   8: ['Cramorant-Gorging', 'Darmanitan-Galar-Zen'],
 };
 
-const SPECIAL = /(gen[78](?:vgc20(?:19|21|22)|battlestadium(?:singles|doubles)|bs(?:s|d)))(.*)/;
+const SPECIAL = /(gen[789](?:vgc20(?:19|21|22)|battlestadium(?:singles|doubles)|bs(?:s|d)))(.*)/;
 const TRANSLATE = {
   'gen8bss': 'gen8battlestadiumsingles',
   'gen8bsd': 'gen8battlestadiumdoubles',
@@ -442,6 +443,7 @@ export class Smogon {
       ivs: Array.isArray(s.ivs) ? s.ivs[0] : s.ivs,
       evs: Array.isArray(s.evs) ? s.evs[0] : s.evs,
       gigantamax: species.isNonstandard === 'Gigantamax',
+      // TODO: teraType
     } as DeepPartial<PokemonSet>;
   }
 

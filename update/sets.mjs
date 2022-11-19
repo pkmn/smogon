@@ -108,7 +108,7 @@ function eligible(gen, species) {
 
 (async () => {
   const index = {analyses: {}, sets: {}};
-  for (let gen = 1; gen <= 8; gen++) {
+  for (let gen = 1; gen <= 9; gen++) {
     const dex = Dex.forGen(gen);
 
     const imports = [];
@@ -217,6 +217,7 @@ function compress(gen, format, set, species) {
       set.natures.length === 1 ? set.natures[0] : set.natures : undefined,
     ivs: set.ivconfigs.length ? compressValues(set.ivconfigs, 31) : undefined,
     evs: set.evconfigs.length ? compressValues(set.evconfigs, gen < 3 ? 252 : 0) : undefined,
+    // TODO: teraType
   };
 }
 

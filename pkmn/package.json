@@ -9,17 +9,15 @@
   "main": "build/index.js",
   "module": "build/index.mjs",
   "types": "build/index.d.ts",
+  "files": ["build"],
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "build"
-  ],
   "dependencies": {
-    "@pkmn/data": "^0.6.2"
+    "@pkmn/data": "^0.7.0"
   },
   "devDependencies": {
-    "@pkmn/dex": "^0.6.2"
+    "@pkmn/dex": "^0.7.0"
   },
   "scripts": {
     "lint": "eslint --cache *.ts",
@@ -38,36 +36,16 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "testPathIgnorePatterns": [
-      "node_modules/",
-      "build/"
-    ]
+    "testPathIgnorePatterns": ["node_modules/", "dist/"],
+    "modulePathIgnorePatterns": ["fixtures/"]
   },
   "babel": {
     "presets": [
-      "@babel/preset-typescript",
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "node": "current"
-          }
-        }
-      ]
+        "@babel/preset-typescript",
+        ["@babel/preset-env", {"targets": {"node": "current"}}]
     ]
   },
   "eslintConfig": {
-    "extends": "@pkmn",
-    "overrides": [
-      {
-        "files": [
-          "*.ts"
-        ],
-        "rules": {
-          "@typescript-eslint/restrict-template-expressions": 0,
-          "jest/no-conditional-expect": "off"
-        }
-      }
-    ]
+    "extends": "@pkmn"
   }
 }

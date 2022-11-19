@@ -4,7 +4,7 @@ const LATEST = (latest as unknown) as Promise<{
 }>;
 
 export type ID = '' | (string & { __isID: true });
-export type GenerationNum = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
+export type GenerationNum = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
 export type TypeName =
   'Normal' | 'Fighting' | 'Flying' | 'Poison' | 'Ground' | 'Rock' | 'Bug' | 'Ghost' | 'Steel' |
   'Fire' | 'Water' | 'Grass' | 'Electric' | 'Psychic' | 'Ice' | 'Dragon' | 'Dark' | 'Fairy' | '???';
@@ -30,6 +30,7 @@ export interface Moveset {
   evconfigs: StatsTable[];
   ivconfigs: StatsTable[];
   natures: string[];
+  // TODO: teraType
 }
 
 export interface Credits {
@@ -116,14 +117,14 @@ export const Analyses = new (class {
    * Returns the Analysis URL for a given pokemon and gen.
    * @deprecated use Analyses.request
    */
-  url(pokemon: string, gen: GenerationNum = 8) {
+  url(pokemon: string, gen: GenerationNum = 9) {
     return `${Analyses.URL}${Analyses.gen(gen)}/pokemon/${toPokemonAlias(pokemon)}/`;
   }
 
   /**
    * Returns the Analysis RPC URL and request configuration for a given pokemon and gen.
    */
-  request(pokemon: string, gen: GenerationNum = 8) {
+  request(pokemon: string, gen: GenerationNum = 9) {
     return {
       url: `${Analyses.URL}${Analyses.RPC}`,
       init: {
@@ -280,7 +281,8 @@ const POPULAR = {
     'gen7ou', 'gen7oususpecttest', 'gen7doublesou', 'gen7doublesoususpecttest',
     'gen7pokebankou', 'gen7pokebankoususpecttest', 'gen7pokebankdoublesou',
   ],
-  8: ['gen8doublesou', 'gen8ou', 'gen8oususpecttest'],
+  8: ['gen8doublesou', 'gen8doublesoususpect', 'gen8ou', 'gen8oususpecttest'],
+  9: ['gen9doublesou', 'gen9doublesoususpect', 'gen9ou', 'gen9oususpecttest'],
 };
 
 function weightFor(format: ID, date: string) {
@@ -293,7 +295,7 @@ function weightFor(format: ID, date: string) {
   if (POPULAR[7].includes(format)) return date > '2020-01' ? 1630 : 1695;
   // smogondoublessuspecttest only has two months of date, but 2015-04 had a higher weighting.
   if (format === 'smogondoublessuspecttest' && date === '2015-04') return 1695;
-  return POPULAR[8].includes(format) ? 1695 : 1630;
+  return POPULAR[8].includes(format) || POPULAR[9].includes(format) ? 1695 : 1630;
 }
 
 const LATE = ['1v1', 'cap', 'monotype', 'balancedhackmons', 'mixandmega'];
