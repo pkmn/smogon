@@ -35,5 +35,3 @@ help here (please also include information on what you've tried so far).
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] I have split off unrelated changes into their own PRs and done my best to make this PR as
       focused as possible while still being useful
-
- [1]: https://github.com/pkmn/ps/blob/master/CONTRIBUTING.md
