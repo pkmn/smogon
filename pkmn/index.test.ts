@@ -28,7 +28,7 @@ const fetch = async (url: string) => {
 
 describe('Smogon', () => {
   for (const minimal of [false, true]) {
-    test(`analyses (minimal=${minimal})`, async () => {
+    test(`analyses (minimal=${minimal.toString()})`, async () => {
       const sets = (as: Analysis[]) => as.map(a => a.sets.map(s => s.name));
       const smogon = new Smogon(fetch, minimal);
 
@@ -63,7 +63,7 @@ describe('Smogon', () => {
         .toBe('gen8vgc2021series10');
     });
 
-    test(`sets (minimal=${minimal})`, async () => {
+    test(`sets (minimal=${minimal.toString()})`, async () => {
       const names = (ps: DeepPartial<PokemonSet>[]) => ps.map(p => p.name);
       const smogon = new Smogon(fetch, minimal);
 

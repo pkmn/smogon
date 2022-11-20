@@ -20,7 +20,7 @@ describe('Analyses', () => {
   });
 
   test('url', () => {
-    expect(Analyses.url('Gengar')).toBe('https://www.smogon.com/dex/ss/pokemon/gengar/');
+    expect(Analyses.url('Gengar')).toBe('https://www.smogon.com/dex/sv/pokemon/gengar/');
     expect(Analyses.url('Tapu Koko', 7)).toBe('https://www.smogon.com/dex/sm/pokemon/tapu-koko/');
   });
 

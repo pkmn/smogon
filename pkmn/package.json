@@ -46,6 +46,12 @@
     ]
   },
   "eslintConfig": {
-    "extends": "@pkmn"
+    "extends": "@pkmn",
+    "overrides": [{
+      "files": ["index.test.ts"],
+      "rules": {
+        "jest/no-conditional-expect": "off"
+      }
+    }]
   }
 }

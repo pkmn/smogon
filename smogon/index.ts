@@ -92,7 +92,7 @@ interface DexDumpPokemonResponse {
   strategies: Analysis[];
 }
 
-const GENS = ['rb', 'gs', 'rs', 'dp', 'bw', 'xy', 'sm', 'ss'];
+const GENS = ['rb', 'gs', 'rs', 'dp', 'bw', 'xy', 'sm', 'ss', 'sv'];
 
 const PARSE_REGEX = /dexSettings = ({.*})/;
 
