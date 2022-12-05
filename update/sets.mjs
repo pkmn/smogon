@@ -55,11 +55,17 @@ const FORMATS = {
   bssseries12: 'battlestadiumsingles',
   bssseries13: 'battlestadiumsingles',
   nationaldexmonotype: 'nationaldexmonotype',
-  bdspou: "bdspou",
+  bdspou: 'bdspou',
   bh: 'balancedhackmons',
   doubles: 'doublesou',
   dwou: 'dreamworldou',
   zu: 'zu',
+  // Other Metagames
+  almostanyability: 'almostanyability',
+  mixandmega: 'mixandmega',
+  godlygift: 'godlygift',
+  camomons: 'camomons',
+  nfe: 'nfe',
    // NB: technically 'Farceus Uber' is different than Anything Goes...
   farceusuber: 'anythinggoes',
   lgpeou: 'letsgoou',

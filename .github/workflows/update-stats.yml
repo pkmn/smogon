@@ -14,7 +14,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Update
-      run: node --no-warnings --experimental-specifier-resolution=node update/stats
+      run: node --no-warnings --experimental-specifier-resolution=node update/stats.mjs
     - name: Test
       run: npm run test
     - name: Commit and push if it changed
