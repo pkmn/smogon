@@ -1,0 +1,776 @@
+{
+  "battles": 1947,
+  "pokemon": {
+    "Perrserker": {
+      "lead": {"raw": 0.011, "real": 0.011, "weighted": 0.2427},
+      "usage": {"raw": 0.0403, "real": 0.0424, "weighted": 0.654},
+      "count": 166,
+      "weight": 0.2732,
+      "viability": [2, 67, 67, 67],
+      "abilities": {"Steely Spirit": 1},
+      "items": {"Life Orb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:248/252/0/0/8/0": 0.5187,
+        "Brave:248/252/0/0/8/0": 0.4813
+      },
+      "moves": {
+        "Close Combat": 1,
+        "Gigaton Hammer": 1,
+        "Bullet Punch": 0.5187,
+        "U-turn": 0.5187,
+        "Gyro Ball": 0.4813,
+        "Spin Out": 0.4813
+      },
+      "teammates": {
+        "Kingambit": 0.629,
+        "Azumarill": 0.5187,
+        "Chi-Yu": 0.5187,
+        "Dragapult": 0.5187,
+        "Iron Bundle": 0.5187,
+        "Arboliva": 0.4813,
+        "Scream Tail": 0.4813,
+        "Ting-Lu": 0.4813,
+        "Toedscruel": 0.4813,
+        "Wo-Chien": 0.371
+      },
+      "counters": {}
+    },
+    "Kingambit": {
+      "lead": {"raw": 0.0062, "real": 0.0062, "weighted": 0},
+      "usage": {"raw": 0.1566, "real": 0.145, "weighted": 0.4476},
+      "count": 638,
+      "weight": 0.085,
+      "viability": [6, 61, 61, 59],
+      "abilities": {"Supreme Overlord": 0.7842, "Defiant": 0.2158},
+      "items": {"Lum Berry": 0.7032, "Life Orb": 0.2158, "Focus Sash": 0.0809},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Brave:252/252/0/0/4/0": 0.7032,
+        "Adamant:252/252/0/0/4/0": 0.2158,
+        "Adamant:0/252/4/0/0/32": 0.0809
+      },
+      "moves": {
+        "Sucker Punch": 0.9191,
+        "Gyro Ball": 0.7032,
+        "Spin Out": 0.7032,
+        "Wicked Blow": 0.5378,
+        "Knock Off": 0.4622,
+        "Gigaton Hammer": 0.2968,
+        "Stealth Rock": 0.2158,
+        "Bullet Punch": 0.0809,
+        "Swords Dance": 0.0809
+      },
+      "teammates": {
+        "Perrserker": 0.9191,
+        "Ting-Lu": 0.7842,
+        "Arboliva": 0.7032,
+        "Scream Tail": 0.7032,
+        "Toedscruel": 0.7032,
+        "Dragapult": 0.2968,
+        "Azumarill": 0.2158,
+        "Chi-Yu": 0.2158,
+        "Iron Bundle": 0.2158,
+        "Blissey": 0.0809,
+        "Chien-Pao": 0.0809,
+        "Iron Moth": 0.0809
+      },
+      "counters": {}
+    },
+    "Dragapult": {
+      "lead": {"raw": 0.0075, "real": 0.0075, "weighted": 0},
+      "usage": {"raw": 0.1192, "real": 0.1039, "weighted": 0.4236},
+      "count": 495,
+      "weight": 0.059,
+      "viability": [12, 67, 67, 58],
+      "abilities": {"Clear Body": 0.8008, "Infiltrator": 0.1992},
+      "items": {
+        "Choice Band": 0.8008,
+        "Life Orb": 0.1137,
+        "Choice Scarf": 0.0855
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:0/252/0/0/4/252": 0.9145,
+        "Adamant:0/252/0/0/0/252": 0.0855
+      },
+      "moves": {
+        "Glaive Rush": 0.8008,
+        "Sucker Punch": 0.8008,
+        "Last Respects": 0.6583,
+        "Surf": 0.5728,
+        "Poltergeist": 0.3417,
+        "U-turn": 0.228,
+        "Dragon Dance": 0.1992,
+        "Dragon Darts": 0.1992,
+        "Substitute": 0.1137,
+        "Shadow Sneak": 0.0855
+      },
+      "teammates": {
+        "Azumarill": 0.8008,
+        "Chi-Yu": 0.8008,
+        "Iron Bundle": 0.8008,
+        "Perrserker": 0.8008,
+        "Wo-Chien": 0.5728,
+        "Kingambit": 0.3135,
+        "Iron Moth": 0.1992,
+        "Flutter Mane": 0.1137,
+        "Grimmsnarl": 0.1137,
+        "Palafin": 0.1137,
+        "Roaring Moon": 0.1137,
+        "Blissey": 0.0855,
+        "Chien-Pao": 0.0855,
+        "Ting-Lu": 0.0855
+      },
+      "counters": {}
+    },
+    "Azumarill": {
+      "lead": {"raw": 0.0167, "real": 0.0167, "weighted": 0},
+      "usage": {"raw": 0.2016, "real": 0.2137, "weighted": 0.4048},
+      "count": 832,
+      "weight": 0.1409,
+      "viability": [5, 67, 67, 67],
+      "abilities": {"Huge Power": 1},
+      "items": {"Sitrus Berry": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:252/252/0/0/4/0": 0.8381,
+        "Adamant:248/252/0/0/8/0": 0.1619
+      },
+      "moves": {
+        "Belly Drum": 1,
+        "Extreme Speed": 1,
+        "Jet Punch": 1,
+        "Play Rough": 1
+      },
+      "teammates": {
+        "Chi-Yu": 0.8381,
+        "Dragapult": 0.8381,
+        "Iron Bundle": 0.8381,
+        "Perrserker": 0.8381,
+        "Wo-Chien": 0.5994,
+        "Kingambit": 0.2386,
+        "Annihilape": 0.1619,
+        "Blissey": 0.1619,
+        "Grafaiai": 0.1619,
+        "Scizor": 0.1619,
+        "Tyranitar": 0.1619
+      },
+      "counters": {}
+    },
+    "Ting-Lu": {
+      "lead": {"raw": 0.0303, "real": 0.0303, "weighted": 0.0362},
+      "usage": {"raw": 0.1305, "real": 0.1401, "weighted": 0.351},
+      "count": 539,
+      "weight": 0.1222,
+      "viability": [4, 61, 61, 61],
+      "abilities": {"Vessel of Ruin": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Careful:252/0/4/0/252/0": 0.8968,
+        "Impish:252/0/252/0/4/0": 0.1032
+      },
+      "moves": {
+        "Shore Up": 1,
+        "Ceaseless Edge": 0.8968,
+        "Comeuppance": 0.8968,
+        "Scorching Sands": 0.8968,
+        "Foul Play": 0.1032,
+        "Ruination": 0.1032,
+        "Stealth Rock": 0.1032
+      },
+      "teammates": {
+        "Kingambit": 1,
+        "Arboliva": 0.8968,
+        "Perrserker": 0.8968,
+        "Scream Tail": 0.8968,
+        "Toedscruel": 0.8968,
+        "Blissey": 0.1032,
+        "Chien-Pao": 0.1032,
+        "Dragapult": 0.1032,
+        "Iron Moth": 0.1032
+      },
+      "counters": {}
+    },
+    "Iron Bundle": {
+      "lead": {"raw": 0.0347, "real": 0.0347, "weighted": 0.0966},
+      "usage": {"raw": 0.1885, "real": 0.1886, "weighted": 0.3393},
+      "count": 775,
+      "weight": 0.3543,
+      "viability": [1, 67, 67, 67],
+      "abilities": {"Quark Drive": 1},
+      "items": {"Choice Specs": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:0/0/0/252/4/252": 1},
+      "moves": {
+        "Ice Beam": 1,
+        "Steam Eruption": 1,
+        "Water Shuriken": 1,
+        "Water Spout": 1
+      },
+      "teammates": {
+        "Azumarill": 1,
+        "Chi-Yu": 1,
+        "Dragapult": 1,
+        "Perrserker": 1,
+        "Wo-Chien": 0.7153,
+        "Kingambit": 0.2847
+      },
+      "counters": {}
+    },
+    "Chi-Yu": {
+      "lead": {"raw": 0.0205, "real": 0.0205, "weighted": 0},
+      "usage": {"raw": 0.179, "real": 0.1664, "weighted": 0.3393},
+      "count": 736,
+      "weight": 0.1181,
+      "viability": [5, 67, 67, 67],
+      "abilities": {"Beads of Ruin": 1},
+      "items": {"Choice Scarf": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Modest:0/0/0/252/4/252": 1},
+      "moves": {
+        "Night Daze": 1,
+        "Parting Shot": 1,
+        "Switcheroo": 1,
+        "Torch Song": 1
+      },
+      "teammates": {
+        "Azumarill": 1,
+        "Dragapult": 1,
+        "Iron Bundle": 1,
+        "Perrserker": 1,
+        "Wo-Chien": 0.7153,
+        "Kingambit": 0.2847
+      },
+      "counters": {}
+    },
+    "Arboliva": {
+      "lead": {"raw": 0.0023, "real": 0.0023, "weighted": 0},
+      "usage": {"raw": 0.0421, "real": 0.0375, "weighted": 0.3147},
+      "count": 171,
+      "weight": 0.1315,
+      "viability": [3, 61, 61, 61],
+      "abilities": {"Seed Sower": 1},
+      "items": {"Choice Specs": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Quiet:248/0/0/252/8/0": 1},
+      "moves": {
+        "Boomburst": 1,
+        "Chloroblast": 1,
+        "Dazzling Gleam": 1,
+        "Leaf Storm": 1
+      },
+      "teammates": {
+        "Kingambit": 1,
+        "Perrserker": 1,
+        "Scream Tail": 1,
+        "Ting-Lu": 1,
+        "Toedscruel": 1
+      },
+      "counters": {}
+    },
+    "Scream Tail": {
+      "lead": {"raw": 0.0139, "real": 0.0139, "weighted": 0.3147},
+      "usage": {"raw": 0.0447, "real": 0.0489, "weighted": 0.3147},
+      "count": 179,
+      "weight": 0.1315,
+      "viability": [2, 61, 61, 61],
+      "abilities": {"Protosynthesis": 1},
+      "items": {"Light Clay": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Sassy:252/0/4/0/252/0": 1},
+      "moves": {
+        "Light Screen": 1,
+        "Reflect": 1,
+        "Teleport": 1,
+        "Trick Room": 1
+      },
+      "teammates": {
+        "Arboliva": 1,
+        "Kingambit": 1,
+        "Perrserker": 1,
+        "Ting-Lu": 1,
+        "Toedscruel": 1
+      },
+      "counters": {}
+    },
+    "Toedscruel": {
+      "lead": {"raw": 0.0005, "real": 0.0005, "weighted": 0},
+      "usage": {"raw": 0.0113, "real": 0.0107, "weighted": 0.3147},
+      "count": 47,
+      "weight": 0.2191,
+      "viability": [1, 61, 61, 61],
+      "abilities": {"Mycelium Might": 1},
+      "items": {"Mental Herb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:252/0/4/0/0/252": 1},
+      "moves": {
+        "Scorching Sands": 1,
+        "Shore Up": 1,
+        "Strength Sap": 1,
+        "Trick Room": 1
+      },
+      "teammates": {
+        "Arboliva": 1,
+        "Kingambit": 1,
+        "Perrserker": 1,
+        "Scream Tail": 1,
+        "Ting-Lu": 1
+      },
+      "counters": {}
+    },
+    "Flutter Mane": {
+      "lead": {"raw": 0.0013, "real": 0.0013, "weighted": 0},
+      "usage": {"raw": 0.0331, "real": 0.0296, "weighted": 0.2442},
+      "count": 135,
+      "weight": 0.0567,
+      "viability": [7, 63, 63, 62],
+      "abilities": {"Protosynthesis": 1},
+      "items": {"Booster Energy": 0.8027, "Choice Scarf": 0.1973},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:0/0/0/252/4/252": 1},
+      "moves": {
+        "Moonblast": 1,
+        "Shadow Ball": 1,
+        "Calm Mind": 0.8027,
+        "Power Gem": 0.8027,
+        "Memento": 0.1973,
+        "Thunderbolt": 0.1973
+      },
+      "teammates": {
+        "Chien-Pao": 0.8027,
+        "Gallade": 0.8027,
+        "Iron Thorns": 0.8027,
+        "Talonflame": 0.8027,
+        "Tauros": 0.8027,
+        "Dragapult": 0.1973,
+        "Grimmsnarl": 0.1973,
+        "Iron Moth": 0.1973,
+        "Palafin": 0.1973,
+        "Roaring Moon": 0.1973
+      },
+      "counters": {}
+    },
+    "Wo-Chien": {
+      "lead": {"raw": 0.0033, "real": 0.0033, "weighted": 0},
+      "usage": {"raw": 0.0709, "real": 0.0687, "weighted": 0.2427},
+      "count": 288,
+      "weight": 0.2534,
+      "viability": [2, 67, 67, 67],
+      "abilities": {"Tablets of Ruin": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Calm:252/0/4/0/252/0": 1},
+      "moves": {
+        "Leech Seed": 1,
+        "Parting Shot": 1,
+        "Spiky Shield": 1,
+        "Strength Sap": 1
+      },
+      "teammates": {
+        "Azumarill": 1,
+        "Chi-Yu": 1,
+        "Dragapult": 1,
+        "Iron Bundle": 1,
+        "Perrserker": 1
+      },
+      "counters": {}
+    },
+    "Chien-Pao": {
+      "lead": {"raw": 0.047, "real": 0.047, "weighted": 0},
+      "usage": {"raw": 0.3272, "real": 0.3241, "weighted": 0.2323},
+      "count": 1344,
+      "weight": 0.0404,
+      "viability": [9, 63, 63, 62],
+      "abilities": {"Sword of Ruin": 1},
+      "items": {"Heavy-Duty Boots": 0.8441, "Life Orb": 0.1559},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Mountain Gale": 1,
+        "Swords Dance": 1,
+        "Sucker Punch": 0.8441,
+        "Wicked Blow": 0.8441,
+        "Ice Shard": 0.1559,
+        "Knock Off": 0.1559
+      },
+      "teammates": {
+        "Flutter Mane": 0.8441,
+        "Gallade": 0.8441,
+        "Iron Thorns": 0.8441,
+        "Talonflame": 0.8441,
+        "Tauros": 0.8441,
+        "Blissey": 0.1559,
+        "Dragapult": 0.1559,
+        "Iron Moth": 0.1559,
+        "Kingambit": 0.1559,
+        "Ting-Lu": 0.1559
+      },
+      "counters": {}
+    },
+    "Tauros": {
+      "lead": {"raw": 0.0003, "real": 0.0003, "weighted": 0.1961},
+      "usage": {"raw": 0.0003, "real": 0.0003, "weighted": 0.1961},
+      "count": 2,
+      "weight": 0.4095,
+      "viability": [1, 63, 63, 63],
+      "abilities": {"Sheer Force": 1},
+      "items": {"Life Orb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Close Combat": 1,
+        "Earthquake": 1,
+        "Extreme Speed": 1,
+        "Substitute": 1
+      },
+      "teammates": {
+        "Chien-Pao": 1,
+        "Flutter Mane": 1,
+        "Gallade": 1,
+        "Iron Thorns": 1,
+        "Talonflame": 1
+      },
+      "counters": {}
+    },
+    "Talonflame": {
+      "lead": {"raw": 0.0005, "real": 0.0005, "weighted": 0},
+      "usage": {"raw": 0.0044, "real": 0.0042, "weighted": 0.1961},
+      "count": 19,
+      "weight": 0.4095,
+      "viability": [1, 63, 63, 63],
+      "abilities": {"Gale Wings": 1},
+      "items": {"Heavy-Duty Boots": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {"Bitter Blade": 1, "Brave Bird": 1, "Defog": 1, "Roost": 1},
+      "teammates": {
+        "Chien-Pao": 1,
+        "Flutter Mane": 1,
+        "Gallade": 1,
+        "Iron Thorns": 1,
+        "Tauros": 1
+      },
+      "counters": {}
+    },
+    "Iron Thorns": {
+      "lead": {"raw": 0.001, "real": 0.001, "weighted": 0},
+      "usage": {"raw": 0.0144, "real": 0.014, "weighted": 0.1961},
+      "count": 61,
+      "weight": 0.2047,
+      "viability": [2, 63, 63, 63],
+      "abilities": {"Quark Drive": 1},
+      "items": {"Booster Energy": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Diamond Storm": 1,
+        "Dragon Dance": 1,
+        "Earthquake": 1,
+        "Zing Zap": 1
+      },
+      "teammates": {
+        "Chien-Pao": 1,
+        "Flutter Mane": 1,
+        "Gallade": 1,
+        "Talonflame": 1,
+        "Tauros": 1
+      },
+      "counters": {}
+    },
+    "Gallade": {
+      "lead": {"raw": 0.0008, "real": 0.0008, "weighted": 0},
+      "usage": {"raw": 0.01, "real": 0.0098, "weighted": 0.1961},
+      "count": 40,
+      "weight": 0.4095,
+      "viability": [1, 63, 63, 63],
+      "abilities": {"Sharpness": 1},
+      "items": {"Life Orb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Psycho Cut": 1,
+        "Sacred Sword": 1,
+        "Shadow Claw": 1,
+        "Victory Dance": 1
+      },
+      "teammates": {
+        "Chien-Pao": 1,
+        "Flutter Mane": 1,
+        "Iron Thorns": 1,
+        "Talonflame": 1,
+        "Tauros": 1
+      },
+      "counters": {}
+    },
+    "Blissey": {
+      "lead": {"raw": 0.0098, "real": 0.0098, "weighted": 0.0655},
+      "usage": {"raw": 0.0457, "real": 0.045, "weighted": 0.1018},
+      "count": 185,
+      "weight": 0.0425,
+      "viability": [5, 58, 58, 58],
+      "abilities": {"Natural Cure": 1},
+      "items": {"Heavy-Duty Boots": 0.6441, "Sitrus Berry": 0.3559},
+      "happinesses": {"255": 1},
+      "spreads": {"Bold:252/0/252/0/4/0": 1},
+      "moves": {
+        "Court Change": 1,
+        "Shed Tail": 1,
+        "Soft-Boiled": 1,
+        "Recover": 0.6441,
+        "Boomburst": 0.3559
+      },
+      "teammates": {
+        "Annihilape": 0.6441,
+        "Azumarill": 0.6441,
+        "Grafaiai": 0.6441,
+        "Scizor": 0.6441,
+        "Tyranitar": 0.6441,
+        "Chien-Pao": 0.3559,
+        "Dragapult": 0.3559,
+        "Iron Moth": 0.3559,
+        "Kingambit": 0.3559,
+        "Ting-Lu": 0.3559
+      },
+      "counters": {}
+    },
+    "Iron Moth": {
+      "lead": {"raw": 0.0044, "real": 0.0044, "weighted": 0},
+      "usage": {"raw": 0.0665, "real": 0.0665, "weighted": 0.0844},
+      "count": 277,
+      "weight": 0.0353,
+      "viability": [4, 62, 62, 62],
+      "abilities": {"Quark Drive": 1},
+      "items": {"Booster Energy": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Modest:0/0/0/252/4/252": 0.5709,
+        "Timid:0/0/4/252/0/252": 0.4291
+      },
+      "moves": {
+        "Agility": 1,
+        "Sludge Wave": 1,
+        "Torch Song": 1,
+        "Psychic": 0.5709,
+        "Armor Cannon": 0.4291
+      },
+      "teammates": {
+        "Dragapult": 1,
+        "Flutter Mane": 0.5709,
+        "Grimmsnarl": 0.5709,
+        "Palafin": 0.5709,
+        "Roaring Moon": 0.5709,
+        "Blissey": 0.4291,
+        "Chien-Pao": 0.4291,
+        "Kingambit": 0.4291,
+        "Ting-Lu": 0.4291
+      },
+      "counters": {}
+    },
+    "Grafaiai": {
+      "lead": {"raw": 0.0149, "real": 0.0149, "weighted": 0},
+      "usage": {"raw": 0.0858, "real": 0.0837, "weighted": 0.0655},
+      "count": 356,
+      "weight": 0.0456,
+      "viability": [2, 53, 53, 53],
+      "abilities": {"Prankster": 1},
+      "items": {"Silk Scarf": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:0/0/0/252/4/252": 1},
+      "moves": {
+        "Boomburst": 1,
+        "Nasty Plot": 1,
+        "Recover": 1,
+        "Sludge Wave": 1
+      },
+      "teammates": {
+        "Annihilape": 1,
+        "Azumarill": 1,
+        "Blissey": 1,
+        "Scizor": 1,
+        "Tyranitar": 1
+      },
+      "counters": {}
+    },
+    "Annihilape": {
+      "lead": {"raw": 0.0139, "real": 0.0139, "weighted": 0},
+      "usage": {"raw": 0.1713, "real": 0.1573, "weighted": 0.0655},
+      "count": 705,
+      "weight": 0.0228,
+      "viability": [4, 59, 59, 59],
+      "abilities": {"Vital Spirit": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Careful:252/0/0/0/252/4": 1},
+      "moves": {
+        "Drain Punch": 1,
+        "Rage Fist": 1,
+        "Shadow Sneak": 1,
+        "Victory Dance": 1
+      },
+      "teammates": {
+        "Azumarill": 1,
+        "Blissey": 1,
+        "Grafaiai": 1,
+        "Scizor": 1,
+        "Tyranitar": 1
+      },
+      "counters": {}
+    },
+    "Scizor": {
+      "lead": {"raw": 0.0056, "real": 0.0056, "weighted": 0},
+      "usage": {"raw": 0.0491, "real": 0.0498, "weighted": 0.0655},
+      "count": 201,
+      "weight": 0.1369,
+      "viability": [1, 53, 53, 53],
+      "abilities": {"Technician": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Impish:252/4/252/0/0/0": 1},
+      "moves": {
+        "Bullet Punch": 1,
+        "Fell Stinger": 1,
+        "Roost": 1,
+        "Shift Gear": 1
+      },
+      "teammates": {
+        "Annihilape": 1,
+        "Azumarill": 1,
+        "Blissey": 1,
+        "Grafaiai": 1,
+        "Tyranitar": 1
+      },
+      "counters": {}
+    },
+    "Tyranitar": {
+      "lead": {"raw": 0.0452, "real": 0.0452, "weighted": 0},
+      "usage": {"raw": 0.1109, "real": 0.1241, "weighted": 0.0655},
+      "count": 454,
+      "weight": 0.0684,
+      "viability": [2, 53, 53, 53],
+      "abilities": {"Sand Stream": 1},
+      "items": {"Smooth Rock": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Careful:252/0/4/0/252/0": 1},
+      "moves": {
+        "Dragon Dance": 1,
+        "Iron Defense": 1,
+        "Power Trip": 1,
+        "Shore Up": 1
+      },
+      "teammates": {
+        "Annihilape": 1,
+        "Azumarill": 1,
+        "Blissey": 1,
+        "Grafaiai": 1,
+        "Scizor": 1
+      },
+      "counters": {}
+    },
+    "Grimmsnarl": {
+      "lead": {"raw": 0.0285, "real": 0.0285, "weighted": 0.0482},
+      "usage": {"raw": 0.057, "real": 0.0678, "weighted": 0.0482},
+      "count": 227,
+      "weight": 0.1006,
+      "viability": [1, 52, 52, 52],
+      "abilities": {"Prankster": 1},
+      "items": {"Light Clay": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Calm:252/0/4/0/252/0": 1},
+      "moves": {"Light Screen": 1, "Parting Shot": 1, "Reflect": 1, "Taunt": 1},
+      "teammates": {
+        "Dragapult": 1,
+        "Flutter Mane": 1,
+        "Iron Moth": 1,
+        "Palafin": 1,
+        "Roaring Moon": 1
+      },
+      "counters": {}
+    },
+    "Palafin": {
+      "lead": {"raw": 0.0529, "real": 0.0529, "weighted": 0},
+      "usage": {"raw": 0.1127, "real": 0.1336, "weighted": 0.0482},
+      "count": 455,
+      "weight": 0.0503,
+      "viability": [2, 55, 55, 55],
+      "abilities": {"Zero to Hero": 1},
+      "items": {"Life Orb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Aqua Step": 1,
+        "Bulk Up": 1,
+        "Surging Strikes": 1,
+        "Zen Headbutt": 1
+      },
+      "teammates": {
+        "Dragapult": 1,
+        "Flutter Mane": 1,
+        "Grimmsnarl": 1,
+        "Iron Moth": 1,
+        "Roaring Moon": 1
+      },
+      "counters": {}
+    },
+    "Roaring Moon": {
+      "lead": {"raw": 0.0144, "real": 0.0144, "weighted": 0},
+      "usage": {"raw": 0.1045, "real": 0.0994, "weighted": 0.0482},
+      "count": 428,
+      "weight": 0.0335,
+      "viability": [2, 62, 62, 62],
+      "abilities": {"Protosynthesis": 1},
+      "items": {"Booster Energy": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:0/252/0/0/4/252": 1},
+      "moves": {
+        "Dragon Dance": 1,
+        "Dragon Darts": 1,
+        "Knock Off": 1,
+        "Taunt": 1
+      },
+      "teammates": {
+        "Dragapult": 1,
+        "Flutter Mane": 1,
+        "Grimmsnarl": 1,
+        "Iron Moth": 1,
+        "Palafin": 1
+      },
+      "counters": {}
+    }
+  },
+  "metagame": {
+    "tags": {
+      "weatherless": 0.9345,
+      "offense": 0.7897,
+      "trickroom": 0.3147,
+      "hyperoffense": 0.1448,
+      "sand": 0.0655,
+      "balance": 0.0655
+    },
+    "stalliness": {
+      "histogram": [
+        [-1.75, 0],
+        [-1.5, 1.8348],
+        [-1.25, 3.3026],
+        [-1, 6.9722],
+        [-0.75, 8.4401],
+        [-0.5, 1.1009],
+        [-0.25, 11.0088],
+        [0, 0],
+        [0.25, 2.2018],
+        [0.5, 0],
+        [0.75, 0],
+        [1, 0],
+        [1.25, 0],
+        [1.5, 0],
+        [1.75, 0],
+        [2, 0],
+        [2.25, 0],
+        [2.5, 0]
+      ],
+      "mean": 0.655,
+      "total": 34.9485
+    }
+  }
+}

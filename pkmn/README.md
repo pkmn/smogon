@@ -41,17 +41,16 @@ $ npm install @pkmn/smogon
 ## Usage
 
 You must provide a `fetch` function to initialize the `Smogon` - this can be the native `fetch`
-class in the browser or `node-fetch` on Node, or something which implements the rudimentary aspects
-of the `fetch` interface required by `Smogon` to make a request. Additionally, the methods on
-`Smogon` require something that implements `Generation` from `@pkmn/data` as their first
-parameter - the simplest way to accomplish this is by instantiating a `Generation` from `@pkmn/data`
-with a `Dex` from `@pkmn/dex` or `@pkmn/sim`:
+class in the browser or on Node, or something which implements the rudimentary aspects of the
+`fetch` interface required by `Smogon` to make a request. Additionally, the methods on `Smogon`
+require something that implements `Generation` from `@pkmn/data` as their first parameter - the
+simplest way to accomplish this is by instantiating a `Generation` from `@pkmn/data` with a `Dex`
+from `@pkmn/dex` or `@pkmn/sim`:
 
 ```ts
 import {Dex} from '@pkmn/dex';
 import {Generations} from '@pkmn/data';
 import {Smogon} from '@pkmn/smogon';
-// import fetch from 'node-fetch';
 
 const gens = new Generations(dex);
 const smogon = new Smogon(fetch);

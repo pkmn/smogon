@@ -6,7 +6,7 @@ const fixture = (s: keyof typeof fixtures) =>
   new Promise<string>(resolve => resolve(fixtures[s]));
 
 const FIXTURES = {
-  alakazam: fixture('alakazam.ss.json'),
+  dragapult: fixture('dragapult.ss.json'),
   snorlax: fixture('snorlax.gs.html'),
   landorus: fixture('landorus.sm.html'),
   index: fixture('stats.index.html'),
@@ -40,7 +40,7 @@ describe('Analyses', () => {
   test('parse', async () => {
     expect(Analyses.parse('foo')).toBeUndefined();
     expect(Analyses.parse(await FIXTURES.snorlax)).toBeDefined();
-    expect(Analyses.parse(await FIXTURES.alakazam)).toBeUndefined();
+    expect(Analyses.parse(await FIXTURES.dragapult)).toBeUndefined();
   });
 
   test('process', async () => {
@@ -59,9 +59,9 @@ describe('Analyses', () => {
     ]);
     expect(set.moveslots[2]).toEqual([{move: 'Hidden Power', type: 'Ice'}]);
 
-    processed = Analyses.process(JSON.parse(await FIXTURES.alakazam))!;
+    processed = Analyses.process(JSON.parse(await FIXTURES.dragapult))!;
     expect(processed).toBeDefined();
-    expect(processed.get('OU')![0].movesets[0].name).toBe('Nasty Plot');
+    expect(processed.get('OU')![0].movesets[0].name).toBe('Choice Specs');
   });
 
   test('gen', () => {
@@ -76,7 +76,7 @@ describe('Statistics', () => {
 
   test('latest', async () => {
     expect(() => Statistics.latest('foo')).toThrow('Unexpected format for index');
-    expect(Statistics.latest(await FIXTURES.index)).toBe('2020-02');
+    expect(Statistics.latest(await FIXTURES.index)).toBe('2022-11');
   });
 
   test('url', () => {

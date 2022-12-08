@@ -30,7 +30,7 @@ export interface Moveset {
   evconfigs: StatsTable[];
   ivconfigs: StatsTable[];
   natures: string[];
-  // TODO: teraType
+  teratypes: TypeName[];
 }
 
 export interface Credits {
@@ -295,7 +295,8 @@ function weightFor(format: ID, date: string) {
   if (POPULAR[7].includes(format)) return date > '2020-01' ? 1630 : 1695;
   // smogondoublessuspecttest only has two months of date, but 2015-04 had a higher weighting.
   if (format === 'smogondoublessuspecttest' && date === '2015-04') return 1695;
-  return POPULAR[8].includes(format) || POPULAR[9].includes(format) ? 1695 : 1630;
+  if (POPULAR[8].includes(format)) return date > '2022-10' ? 1630 : 1695;
+  return POPULAR[9].includes(format) ? 1695 : 1630;
 }
 
 const LATE = ['1v1', 'cap', 'monotype', 'balancedhackmons', 'mixandmega'];

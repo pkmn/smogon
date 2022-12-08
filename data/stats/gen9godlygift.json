@@ -1,0 +1,601 @@
+{
+  "battles": 785,
+  "pokemon": {
+    "Koraidon": {
+      "lead": {"raw": 0.1064, "real": 0.1064, "weighted": 0},
+      "usage": {"raw": 0.4185, "real": 0.4227, "weighted": 0.5773},
+      "count": 751,
+      "weight": 0.1984,
+      "viability": [4, 66, 66, 66],
+      "abilities": {"Orichalcum Pulse": 1},
+      "items": {"Life Orb": 0.7595, "Choice Band": 0.2405},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.7595,
+        "Adamant:0/252/0/0/4/252": 0.2405
+      },
+      "moves": {
+        "Flare Blitz": 1,
+        "Close Combat": 0.7595,
+        "Flame Charge": 0.7595,
+        "Swords Dance": 0.7595,
+        "Collision Course": 0.2405,
+        "Outrage": 0.2405,
+        "U-turn": 0.2405
+      },
+      "teammates": {
+        "Maushold": 1,
+        "Cyclizar": 0.7595,
+        "Flutter Mane": 0.7595,
+        "Great Tusk": 0.7595,
+        "Slither Wing": 0.7595,
+        "Florges": 0.2405,
+        "Iron Hands": 0.2405,
+        "Ting-Lu": 0.2405,
+        "Toxapex": 0.2405
+      },
+      "counters": {}
+    },
+    "Maushold": {
+      "lead": {"raw": 0.0395, "real": 0.0395, "weighted": 0.1389},
+      "usage": {"raw": 0.1561, "real": 0.1524, "weighted": 0.5773},
+      "count": 272,
+      "weight": 0.3117,
+      "viability": [2, 66, 66, 66],
+      "abilities": {"Technician": 1},
+      "items": {"Wide Lens": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Population Bomb": 1,
+        "Beat Up": 0.7595,
+        "Thunder Wave": 0.7595,
+        "Tidy Up": 0.7595,
+        "Play Rough": 0.2405,
+        "Trailblaze": 0.2405,
+        "U-turn": 0.2405
+      },
+      "teammates": {
+        "Koraidon": 1,
+        "Cyclizar": 0.7595,
+        "Flutter Mane": 0.7595,
+        "Great Tusk": 0.7595,
+        "Slither Wing": 0.7595,
+        "Florges": 0.2405,
+        "Iron Hands": 0.2405,
+        "Ting-Lu": 0.2405,
+        "Toxapex": 0.2405
+      },
+      "counters": {}
+    },
+    "Flutter Mane": {
+      "lead": {"raw": 0.0147, "real": 0.0147, "weighted": 0},
+      "usage": {"raw": 0.1522, "real": 0.1541, "weighted": 0.5608},
+      "count": 257,
+      "weight": 0.1927,
+      "viability": [5, 66, 66, 66],
+      "abilities": {"Protosynthesis": 1},
+      "items": {"Leftovers": 0.851, "Booster Energy": 0.149},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Calm:252/0/0/4/252/0": 0.851,
+        "Timid:0/0/0/252/4/252": 0.149
+      },
+      "moves": {
+        "Calm Mind": 1,
+        "Moonblast": 0.851,
+        "Protect": 0.851,
+        "Wish": 0.851,
+        "Dazzling Gleam": 0.149,
+        "Shadow Ball": 0.149,
+        "Thunderbolt": 0.149
+      },
+      "teammates": {
+        "Cyclizar": 0.7818,
+        "Great Tusk": 0.7818,
+        "Koraidon": 0.7818,
+        "Maushold": 0.7818,
+        "Slither Wing": 0.7818,
+        "Miraidon": 0.2182,
+        "Cloyster": 0.149,
+        "Kingambit": 0.149,
+        "Orthworm": 0.149,
+        "Pikachu": 0.149,
+        "Amoonguss": 0.0691,
+        "Dragapult": 0.0691,
+        "Iron Hands": 0.0691,
+        "Iron Treads": 0.0691
+      },
+      "counters": {}
+    },
+    "Iron Hands": {
+      "lead": {"raw": 0.0108, "real": 0.0108, "weighted": 0},
+      "usage": {"raw": 0.1586, "real": 0.1607, "weighted": 0.478},
+      "count": 270,
+      "weight": 0.2259,
+      "viability": [4, 65, 65, 65],
+      "abilities": {"Quark Drive": 1},
+      "items": {"Choice Band": 0.7095, "Booster Energy": 0.2905},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.6284,
+        "Adamant:248/252/0/0/8/0": 0.2905,
+        "Jolly:0/252/0/0/0/252": 0.0811
+      },
+      "moves": {
+        "Close Combat": 1,
+        "Earthquake": 1,
+        "Thunder Punch": 0.9189,
+        "Ice Punch": 0.6284,
+        "Swords Dance": 0.2905,
+        "Volt Switch": 0.0811,
+        "Wild Charge": 0.0811
+      },
+      "teammates": {
+        "Iron Treads": 0.7095,
+        "Miraidon": 0.7095,
+        "Iron Bundle": 0.6284,
+        "Iron Moth": 0.6284,
+        "Iron Valiant": 0.6284,
+        "Florges": 0.2905,
+        "Koraidon": 0.2905,
+        "Maushold": 0.2905,
+        "Ting-Lu": 0.2905,
+        "Toxapex": 0.2905,
+        "Amoonguss": 0.0811,
+        "Dragapult": 0.0811,
+        "Flutter Mane": 0.0811
+      },
+      "counters": {}
+    },
+    "Cyclizar": {
+      "lead": {"raw": 0.0172, "real": 0.0172, "weighted": 0},
+      "usage": {"raw": 0.0631, "real": 0.0667, "weighted": 0.4384},
+      "count": 114,
+      "weight": 0.4143,
+      "viability": [1, 66, 66, 66],
+      "abilities": {"Regenerator": 1},
+      "items": {"Choice Scarf": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Double-Edge": 1,
+        "Ice Spinner": 1,
+        "Shed Tail": 1,
+        "U-turn": 1
+      },
+      "teammates": {
+        "Flutter Mane": 1,
+        "Great Tusk": 1,
+        "Koraidon": 1,
+        "Maushold": 1,
+        "Slither Wing": 1
+      },
+      "counters": {}
+    },
+    "Great Tusk": {
+      "lead": {"raw": 0.0229, "real": 0.0229, "weighted": 0.4384},
+      "usage": {"raw": 0.2306, "real": 0.2324, "weighted": 0.4384},
+      "count": 405,
+      "weight": 0.3315,
+      "viability": [2, 66, 66, 66],
+      "abilities": {"Protosynthesis": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Impish:252/0/252/0/4/0": 1},
+      "moves": {
+        "Earthquake": 1,
+        "Knock Off": 1,
+        "Rapid Spin": 1,
+        "Stealth Rock": 1
+      },
+      "teammates": {
+        "Cyclizar": 1,
+        "Flutter Mane": 1,
+        "Koraidon": 1,
+        "Maushold": 1,
+        "Slither Wing": 1
+      },
+      "counters": {}
+    },
+    "Slither Wing": {
+      "lead": {"raw": 0.0064, "real": 0.0064, "weighted": 0},
+      "usage": {"raw": 0.0529, "real": 0.0527, "weighted": 0.4384},
+      "count": 95,
+      "weight": 0.4143,
+      "viability": [1, 66, 66, 66],
+      "abilities": {"Protosynthesis": 1},
+      "items": {"Choice Band": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Close Combat": 1,
+        "Earthquake": 1,
+        "Flare Blitz": 1,
+        "U-turn": 1
+      },
+      "teammates": {
+        "Cyclizar": 1,
+        "Flutter Mane": 1,
+        "Great Tusk": 1,
+        "Koraidon": 1,
+        "Maushold": 1
+      },
+      "counters": {}
+    },
+    "Miraidon": {
+      "lead": {"raw": 0.1121, "real": 0.1121, "weighted": 0.151},
+      "usage": {"raw": 0.4108, "real": 0.4392, "weighted": 0.4227},
+      "count": 703,
+      "weight": 0.1997,
+      "viability": [4, 65, 65, 65],
+      "abilities": {"Hadron Engine": 1},
+      "items": {"Choice Scarf": 0.8023, "Electric Seed": 0.1977},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:0/0/0/252/4/252": 1},
+      "moves": {
+        "Draco Meteor": 1,
+        "Electro Drift": 1,
+        "Volt Switch": 1,
+        "Overheat": 0.8023,
+        "Power Gem": 0.1977
+      },
+      "teammates": {
+        "Iron Hands": 0.8023,
+        "Iron Treads": 0.8023,
+        "Iron Bundle": 0.7106,
+        "Iron Moth": 0.7106,
+        "Iron Valiant": 0.7106,
+        "Flutter Mane": 0.2894,
+        "Cloyster": 0.1977,
+        "Kingambit": 0.1977,
+        "Orthworm": 0.1977,
+        "Pikachu": 0.1977,
+        "Amoonguss": 0.0917,
+        "Dragapult": 0.0917
+      },
+      "counters": {}
+    },
+    "Iron Treads": {
+      "lead": {"raw": 0.0268, "real": 0.0268, "weighted": 0.1881},
+      "usage": {"raw": 0.1726, "real": 0.1862, "weighted": 0.3391},
+      "count": 294,
+      "weight": 0.3205,
+      "viability": [2, 65, 65, 65],
+      "abilities": {"Quark Drive": 1},
+      "items": {"Assault Vest": 0.8857, "Leftovers": 0.1143},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Timid:0/0/0/252/4/252": 0.8857,
+        "Careful:252/4/0/0/252/0": 0.1143
+      },
+      "moves": {
+        "Rapid Spin": 1,
+        "Volt Switch": 1,
+        "Earth Power": 0.8857,
+        "Flash Cannon": 0.8857,
+        "Earthquake": 0.1143,
+        "Stealth Rock": 0.1143
+      },
+      "teammates": {
+        "Iron Hands": 1,
+        "Miraidon": 1,
+        "Iron Bundle": 0.8857,
+        "Iron Moth": 0.8857,
+        "Iron Valiant": 0.8857,
+        "Amoonguss": 0.1143,
+        "Dragapult": 0.1143,
+        "Flutter Mane": 0.1143
+      },
+      "counters": {}
+    },
+    "Iron Valiant": {
+      "lead": {"raw": 0.0115, "real": 0.0115, "weighted": 0},
+      "usage": {"raw": 0.1427, "real": 0.1401, "weighted": 0.3004},
+      "count": 246,
+      "weight": 0.3785,
+      "viability": [1, 65, 65, 65],
+      "abilities": {"Quark Drive": 1},
+      "items": {"Life Orb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Close Combat": 1,
+        "Spirit Break": 1,
+        "Swords Dance": 1,
+        "Zen Headbutt": 1
+      },
+      "teammates": {
+        "Iron Bundle": 1,
+        "Iron Hands": 1,
+        "Iron Moth": 1,
+        "Iron Treads": 1,
+        "Miraidon": 1
+      },
+      "counters": {}
+    },
+    "Iron Bundle": {
+      "lead": {"raw": 0.0178, "real": 0.0178, "weighted": 0},
+      "usage": {"raw": 0.1038, "real": 0.1046, "weighted": 0.3004},
+      "count": 178,
+      "weight": 0.2839,
+      "viability": [2, 65, 65, 65],
+      "abilities": {"Quark Drive": 1},
+      "items": {"Choice Specs": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:0/0/0/252/4/252": 1},
+      "moves": {"Freeze-Dry": 1, "Hydro Pump": 1, "Ice Beam": 1, "U-turn": 1},
+      "teammates": {
+        "Iron Hands": 1,
+        "Iron Moth": 1,
+        "Iron Treads": 1,
+        "Iron Valiant": 1,
+        "Miraidon": 1
+      },
+      "counters": {}
+    },
+    "Iron Moth": {
+      "lead": {"raw": 0.0102, "real": 0.0102, "weighted": 0},
+      "usage": {"raw": 0.1319, "real": 0.1327, "weighted": 0.3004},
+      "count": 231,
+      "weight": 0.3785,
+      "viability": [1, 65, 65, 65],
+      "abilities": {"Quark Drive": 1},
+      "items": {"Heavy-Duty Boots": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:0/0/0/252/4/252": 1},
+      "moves": {
+        "Energy Ball": 1,
+        "Fire Blast": 1,
+        "Sludge Wave": 1,
+        "U-turn": 1
+      },
+      "teammates": {
+        "Iron Bundle": 1,
+        "Iron Hands": 1,
+        "Iron Treads": 1,
+        "Iron Valiant": 1,
+        "Miraidon": 1
+      },
+      "counters": {}
+    },
+    "Toxapex": {
+      "lead": {"raw": 0.0102, "real": 0.0102, "weighted": 0},
+      "usage": {"raw": 0.1013, "real": 0.1063, "weighted": 0.1389},
+      "count": 182,
+      "weight": 0.1312,
+      "viability": [2, 61, 61, 61],
+      "abilities": {"Regenerator": 1},
+      "items": {"Rocky Helmet": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Bold:248/0/252/0/8/0": 1},
+      "moves": {"Haze": 1, "Recover": 1, "Toxic": 1, "Toxic Spikes": 1},
+      "teammates": {
+        "Florges": 1,
+        "Iron Hands": 1,
+        "Koraidon": 1,
+        "Maushold": 1,
+        "Ting-Lu": 1
+      },
+      "counters": {}
+    },
+    "Florges": {
+      "lead": {"raw": 0.0038, "real": 0.0038, "weighted": 0},
+      "usage": {"raw": 0.0446, "real": 0.0387, "weighted": 0.1389},
+      "count": 78,
+      "weight": 0.175,
+      "viability": [1, 61, 61, 61],
+      "abilities": {"Flower Veil": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Calm:252/0/0/4/252/0": 1},
+      "moves": {"Energy Ball": 1, "Moonblast": 1, "Protect": 1, "Wish": 1},
+      "teammates": {
+        "Iron Hands": 1,
+        "Koraidon": 1,
+        "Maushold": 1,
+        "Ting-Lu": 1,
+        "Toxapex": 1
+      },
+      "counters": {}
+    },
+    "Ting-Lu": {
+      "lead": {"raw": 0.0076, "real": 0.0076, "weighted": 0},
+      "usage": {"raw": 0.058, "real": 0.0593, "weighted": 0.1389},
+      "count": 96,
+      "weight": 0.175,
+      "viability": [1, 61, 61, 61],
+      "abilities": {"Vessel of Ruin": 1},
+      "items": {"Life Orb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:252/252/0/0/4/0": 1},
+      "moves": {
+        "Earthquake": 1,
+        "Stealth Rock": 1,
+        "Stone Edge": 1,
+        "Throat Chop": 1
+      },
+      "teammates": {
+        "Florges": 1,
+        "Iron Hands": 1,
+        "Koraidon": 1,
+        "Maushold": 1,
+        "Toxapex": 1
+      },
+      "counters": {}
+    },
+    "Kingambit": {
+      "lead": {"raw": 0.0076, "real": 0.0076, "weighted": 0},
+      "usage": {"raw": 0.1178, "real": 0.1079, "weighted": 0.0836},
+      "count": 205,
+      "weight": 0.1053,
+      "viability": [1, 55, 55, 55],
+      "abilities": {"Supreme Overlord": 1},
+      "items": {"Weakness Policy": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:252/252/0/0/4/0": 1},
+      "moves": {
+        "Iron Head": 1,
+        "Kowtow Cleave": 1,
+        "Stone Edge": 1,
+        "X-Scissor": 1
+      },
+      "teammates": {
+        "Cloyster": 1,
+        "Flutter Mane": 1,
+        "Miraidon": 1,
+        "Orthworm": 1,
+        "Pikachu": 1
+      },
+      "counters": {}
+    },
+    "Cloyster": {
+      "lead": {"raw": 0.0274, "real": 0.0274, "weighted": 0.0665},
+      "usage": {"raw": 0.0675, "real": 0.0758, "weighted": 0.0836},
+      "count": 120,
+      "weight": 0.079,
+      "viability": [2, 63, 63, 63],
+      "abilities": {"Skill Link": 1},
+      "items": {"White Herb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:0/252/0/0/4/252": 1},
+      "moves": {
+        "Icicle Spear": 1,
+        "Protect": 1,
+        "Rock Blast": 1,
+        "Shell Smash": 1
+      },
+      "teammates": {
+        "Flutter Mane": 1,
+        "Kingambit": 1,
+        "Miraidon": 1,
+        "Orthworm": 1,
+        "Pikachu": 1
+      },
+      "counters": {}
+    },
+    "Orthworm": {
+      "lead": {"raw": 0.0127, "real": 0.0127, "weighted": 0.017},
+      "usage": {"raw": 0.0573, "real": 0.0593, "weighted": 0.0836},
+      "count": 100,
+      "weight": 0.1053,
+      "viability": [1, 55, 55, 55],
+      "abilities": {"Earth Eater": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:252/252/0/0/4/0": 1},
+      "moves": {
+        "Earthquake": 1,
+        "Iron Head": 1,
+        "Spikes": 1,
+        "Stealth Rock": 1
+      },
+      "teammates": {
+        "Cloyster": 1,
+        "Flutter Mane": 1,
+        "Kingambit": 1,
+        "Miraidon": 1,
+        "Pikachu": 1
+      },
+      "counters": {}
+    },
+    "Pikachu": {
+      "lead": {"raw": 0.0045, "real": 0.0045, "weighted": 0},
+      "usage": {"raw": 0.0293, "real": 0.028, "weighted": 0.0836},
+      "count": 56,
+      "weight": 0.1053,
+      "viability": [1, 55, 55, 55],
+      "abilities": {"Lightning Rod": 1},
+      "items": {"Light Ball": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Hasty:0/4/0/252/0/252": 1},
+      "moves": {"Fake Out": 1, "Surf": 1, "Tera Blast": 1, "Thunder": 1},
+      "teammates": {
+        "Cloyster": 1,
+        "Flutter Mane": 1,
+        "Kingambit": 1,
+        "Miraidon": 1,
+        "Orthworm": 1
+      },
+      "counters": {}
+    },
+    "Amoonguss": {
+      "usage": {"raw": 0.0471, "real": 0.0503, "weighted": 0.0388},
+      "count": 77,
+      "weight": 0.1465,
+      "viability": [1, 56, 56, 56],
+      "abilities": {"Regenerator": 1},
+      "items": {"Black Sludge": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Bold:252/0/252/4/0/0": 1},
+      "moves": {"Giga Drain": 1, "Sludge Bomb": 1, "Synthesis": 1, "Toxic": 1},
+      "teammates": {
+        "Dragapult": 1,
+        "Flutter Mane": 1,
+        "Iron Hands": 1,
+        "Iron Treads": 1,
+        "Miraidon": 1
+      },
+      "counters": {}
+    },
+    "Dragapult": {
+      "lead": {"raw": 0.0159, "real": 0.0159, "weighted": 0},
+      "usage": {"raw": 0.0764, "real": 0.0783, "weighted": 0.0388},
+      "count": 131,
+      "weight": 0.0488,
+      "viability": [3, 56, 56, 56],
+      "abilities": {"Infiltrator": 1},
+      "items": {"Choice Specs": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:0/0/0/252/4/252": 1},
+      "moves": {
+        "Draco Meteor": 1,
+        "Flamethrower": 1,
+        "Shadow Ball": 1,
+        "U-turn": 1
+      },
+      "teammates": {
+        "Amoonguss": 1,
+        "Flutter Mane": 1,
+        "Iron Hands": 1,
+        "Iron Treads": 1,
+        "Miraidon": 1
+      },
+      "counters": {}
+    }
+  },
+  "metagame": {
+    "tags": {
+      "weatherless": 1,
+      "offense": 0.8224,
+      "monotype": 0.7388,
+      "mononormal": 0.7388,
+      "voltturn": 0.3391,
+      "balance": 0.1776
+    },
+    "stalliness": {
+      "histogram": [
+        [-1.5, 0],
+        [-1.25, 0],
+        [-1, 0],
+        [-0.75, 9.6356],
+        [-0.5, 0],
+        [-0.25, 11.1181],
+        [0, 0],
+        [0.25, 0],
+        [0.5, 1.1118],
+        [0.75, 3.706],
+        [1, 0],
+        [1.25, 0],
+        [1.5, 0],
+        [1.75, 0],
+        [2, 0],
+        [2.25, 0],
+        [2.5, 0],
+        [2.75, 0]
+      ],
+      "mean": 0.255,
+      "total": 25.3837
+    }
+  }
+}

@@ -12,7 +12,6 @@ sourceMapSupport.install();
 import * as fs from 'fs';
 import * as path from 'path';
 import {fileURLToPath} from 'url';
-import fetch from 'node-fetch';
 import * as wrapr from 'wrapr';
 import stringify from 'json-stringify-pretty-compact';
 import probe from 'probe-image-size';

@@ -19,7 +19,6 @@ sourceMapSupport.install();
 import * as fs from 'fs';
 import * as path from 'path';
 import {fileURLToPath} from 'url';
-import fetch from 'node-fetch';
 import * as wrapr from 'wrapr';
 import stringify from 'json-stringify-pretty-compact';
 import sanitizeHtml from 'sanitize-html';
@@ -52,6 +51,7 @@ const FORMATS = {
   ag: 'anythinggoes',
   battlestadiumsingles: 'battlestadiumsingles',
   battlestadiumdoubles: 'battlestadiumdoubles',
+  bssseries1: 'battlestadiumsingles',
   bssseries12: 'battlestadiumsingles',
   bssseries13: 'battlestadiumsingles',
   nationaldexmonotype: 'nationaldexmonotype',
@@ -224,7 +224,8 @@ function compress(gen, format, set, species) {
       set.natures.length === 1 ? set.natures[0] : set.natures : undefined,
     ivs: set.ivconfigs.length ? compressValues(set.ivconfigs, 31) : undefined,
     evs: set.evconfigs.length ? compressValues(set.evconfigs, gen < 3 ? 252 : 0) : undefined,
-    // TODO: teraType
+    teratypes: set.teratypes.length ?
+      set.teratypes.length == 1 ? set.teratypes[0] : set.teratypes : undefined,
   };
 }
 

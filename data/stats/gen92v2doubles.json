@@ -1,0 +1,4699 @@
+{
+  "battles": 16337,
+  "pokemon": {
+    "Dondozo": {
+      "lead": {"raw": 0.0425, "real": 0.0425, "weighted": 0.1794},
+      "usage": {"raw": 0.1152, "real": 0.2118, "weighted": 0.4184},
+      "count": 6574,
+      "weight": 0.1585,
+      "viability": [59, 75, 75, 61],
+      "abilities": {
+        "Unaware": 0.9957,
+        "Water Veil": 0.0034,
+        "Oblivious": 0.0009
+      },
+      "items": {
+        "Leftovers": 0.4728,
+        "Assault Vest": 0.1809,
+        "Choice Band": 0.1055,
+        "Wiki Berry": 0.0569,
+        "Clear Amulet": 0.0479,
+        "Rocky Helmet": 0.045,
+        "Life Orb": 0.0438,
+        "Sitrus Berry": 0.0152,
+        "Weakness Policy": 0.013,
+        "Iapapa Berry": 0.0108,
+        "Aguav Berry": 0.0078,
+        "Mago Berry": 0.0002
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Impish:248/8/252/0/0/0": 0.1856,
+        "Adamant:252/252/0/0/4/0": 0.135,
+        "Adamant:0/252/0/0/4/252": 0.1053,
+        "Adamant:248/252/0/0/4/4": 0.0796,
+        "Adamant:4/252/0/0/252/0": 0.0768,
+        "Adamant:0/252/0/0/252/0": 0.0703,
+        "Brave:4/252/0/0/252/0": 0.0694,
+        "Adamant:248/252/0/0/8/0": 0.0676,
+        "Adamant:248/252/0/0/0/8": 0.037,
+        "Adamant:4/252/0/0/0/252": 0.0354,
+        "Relaxed:252/4/252/0/0/0": 0.0339,
+        "Adamant:132/252/116/0/8/0": 0.0306,
+        "Adamant:252/252/4/0/0/0": 0.0225,
+        "Hardy:0/100/76/48/32/252": 0.0128,
+        "Brave:248/252/0/8/0/0": 0.0091,
+        "Adamant:0/252/4/0/252/0": 0.0058,
+        "Serious:0/252/0/0/0/252": 0.0047,
+        "Careful:252/0/4/0/252/0": 0.0039,
+        "Brave:0/252/180/0/76/0": 0.0037,
+        "Serious:6/0/0/252/252/0": 0.0029,
+        "Hardy:252/252/0/0/0/4": 0.0028,
+        "Hardy:0/140/116/0/0/252": 0.0024,
+        "Impish:248/20/104/0/136/0": 0.0018,
+        "Adamant:252/252/0/0/0/4": 0.0008
+      },
+      "moves": {
+        "Earthquake": 0.7088,
+        "Order Up": 0.6613,
+        "Liquidation": 0.517,
+        "Body Press": 0.4656,
+        "Yawn": 0.3256,
+        "Wave Crash": 0.3008,
+        "Protect": 0.25,
+        "Avalanche": 0.1959,
+        "Heavy Slam": 0.1445,
+        "Zen Headbutt": 0.1019,
+        "Ice Fang": 0.0757,
+        "Double-Edge": 0.0454,
+        "Outrage": 0.0426,
+        "Aqua Tail": 0.0288,
+        "Tera Blast": 0.0252,
+        "Substitute": 0.0186,
+        "Sleep Talk": 0.0176,
+        "Rest": 0.0172,
+        "Surf": 0.0146,
+        "Soak": 0.0144,
+        "Curse": 0.0102,
+        "Waterfall": 0.0055,
+        "Body Slam": 0.0037,
+        "Hyper Beam": 0.0029,
+        "Crunch": 0.0027,
+        "Rock Slide": 0.0026,
+        "Stomping Tantrum": 0.0008
+      },
+      "teammates": {
+        "Tatsugiri": 0.6807,
+        "Flutter Mane": 0.1265,
+        "Torkoal": 0.0955,
+        "Espathra": 0.0846,
+        "Hatterene": 0.0796,
+        "Iron Hands": 0.0722,
+        "Maushold": 0.0659,
+        "Chi-Yu": 0.0598,
+        "Garchomp": 0.058,
+        "Magnezone": 0.0546,
+        "Annihilape": 0.0385,
+        "Chien-Pao": 0.0371,
+        "Ampharos": 0.0366,
+        "Raichu": 0.0355,
+        "Cloyster": 0.0339,
+        "Baxcalibur": 0.0211,
+        "Armarouge": 0.0196,
+        "Dachsbun": 0.0155,
+        "Dragapult": 0.0146,
+        "Roaring Moon": 0.0145,
+        "Ceruledge": 0.0107,
+        "Scovillain": 0.0091,
+        "Appletun": 0.0089,
+        "Indeedee": 0.0089,
+        "Tinkaton": 0.0087,
+        "Kilowattrel": 0.0078,
+        "Stantler": 0.0068,
+        "Bellibolt": 0.0047,
+        "Slaking": 0.0039,
+        "Arcanine": 0.0029,
+        "Gengar": 0.0021,
+        "Bombirdier": 0.0021,
+        "Klawf": 0.0016,
+        "Chansey": 0.0008,
+        "Brambleghast": 0.0003,
+        "Talonflame": 0.0003,
+        "Oricorio-Sensu": 0.0002,
+        "Volcarona": 0.0002
+      },
+      "counters": {}
+    },
+    "Tatsugiri": {
+      "lead": {"raw": 0.0405, "real": 0.0405, "weighted": 0.1488},
+      "usage": {"raw": 0.1054, "real": 0.2825, "weighted": 0.4135},
+      "count": 6150,
+      "weight": 0.1626,
+      "viability": [55, 75, 75, 61],
+      "abilities": {"Commander": 0.9962, "Storm Drain": 0.0038},
+      "items": {
+        "Life Orb": 0.2679,
+        "Assault Vest": 0.2145,
+        "Choice Specs": 0.1993,
+        "Expert Belt": 0.1135,
+        "Choice Scarf": 0.0846,
+        "Leftovers": 0.0366,
+        "Salac Berry": 0.0302,
+        "Nothing": 0.0157,
+        "Sitrus Berry": 0.013,
+        "Iapapa Berry": 0.0109,
+        "Wise Glasses": 0.0069,
+        "Heavy-Duty Boots": 0.0032,
+        "Ability Shield": 0.0026,
+        "Light Clay": 0.0008,
+        "Quick Claw": 0.0002
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Timid:0/0/0/252/4/252": 0.4727,
+        "Modest:0/0/0/252/4/252": 0.2415,
+        "Modest:4/0/0/252/0/252": 0.079,
+        "Timid:4/0/0/252/0/252": 0.0703,
+        "Hasty:0/4/0/252/0/252": 0.0485,
+        "Hardy:0/0/0/68/252/188": 0.0302,
+        "Timid:0/0/0/252/0/252": 0.0146,
+        "Hardy:0/160/108/0/0/240": 0.013,
+        "Modest:6/0/252/252/0/0": 0.0069,
+        "Modest:252/0/4/252/0/0": 0.0059,
+        "Timid:252/0/0/4/0/252": 0.0058,
+        "Serious:0/0/0/252/0/252": 0.0047,
+        "Hardy:1/1/0/1/1/1": 0.0028,
+        "Hardy:0/208/188/0/0/112": 0.0024,
+        "Hardy:252/0/4/0/0/252": 0.0008,
+        "Sassy:0/0/0/23/0/0": 0.0008
+      },
+      "moves": {
+        "Draco Meteor": 0.7758,
+        "Hydro Pump": 0.7208,
+        "Icy Wind": 0.655,
+        "Dragon Pulse": 0.4993,
+        "Nasty Plot": 0.3271,
+        "Surf": 0.3088,
+        "Hyper Beam": 0.1551,
+        "Tera Blast": 0.1389,
+        "Protect": 0.0842,
+        "Helping Hand": 0.0637,
+        "Nothing": 0.0594,
+        "Dragon Dance": 0.0474,
+        "Taunt": 0.045,
+        "Mirror Coat": 0.0378,
+        "Outrage": 0.0302,
+        "Substitute": 0.0146,
+        "Chilling Water": 0.0113,
+        "Facade": 0.0066,
+        "Counter": 0.0044,
+        "Rapid Spin": 0.0044,
+        "Baton Pass": 0.0028,
+        "Memento": 0.0026,
+        "Rain Dance": 0.0017,
+        "Rest": 0.0015,
+        "Sleep Talk": 0.0015
+      },
+      "teammates": {
+        "Dondozo": 0.6883,
+        "Flutter Mane": 0.1279,
+        "Torkoal": 0.0966,
+        "Espathra": 0.0855,
+        "Hatterene": 0.0805,
+        "Iron Hands": 0.073,
+        "Maushold": 0.0666,
+        "Chi-Yu": 0.0604,
+        "Garchomp": 0.0586,
+        "Magnezone": 0.0552,
+        "Annihilape": 0.039,
+        "Chien-Pao": 0.0375,
+        "Ampharos": 0.037,
+        "Raichu": 0.0359,
+        "Cloyster": 0.0343,
+        "Baxcalibur": 0.0214,
+        "Dachsbun": 0.0157,
+        "Dragapult": 0.0147,
+        "Roaring Moon": 0.0146,
+        "Ceruledge": 0.0115,
+        "Armarouge": 0.0115,
+        "Scovillain": 0.0092,
+        "Tinkaton": 0.0088,
+        "Kilowattrel": 0.0079,
+        "Stantler": 0.0069,
+        "Bellibolt": 0.0047,
+        "Slaking": 0.004,
+        "Arcanine": 0.0029,
+        "Gengar": 0.0022,
+        "Bombirdier": 0.0021,
+        "Klawf": 0.0016,
+        "Chansey": 0.0008,
+        "Brambleghast": 0.0003,
+        "Talonflame": 0.0003,
+        "Oricorio-Sensu": 0.0002,
+        "Volcarona": 0.0002
+      },
+      "counters": {}
+    },
+    "Flutter Mane": {
+      "lead": {"raw": 0.0321, "real": 0.0321, "weighted": 0.0762},
+      "usage": {"raw": 0.1184, "real": 0.1923, "weighted": 0.2455},
+      "count": 10621,
+      "weight": 0.3096,
+      "viability": [36, 73, 73, 69],
+      "abilities": {"Protosynthesis": 1},
+      "items": {
+        "Choice Specs": 0.6475,
+        "Booster Energy": 0.1519,
+        "Choice Scarf": 0.0856,
+        "Assault Vest": 0.0633,
+        "Life Orb": 0.0512,
+        "Kasib Berry": 0.0005
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Timid:0/0/0/252/4/252": 0.425,
+        "Modest:0/0/0/252/0/252": 0.3042,
+        "Modest:0/0/0/252/4/252": 0.1552,
+        "Modest:4/0/0/252/0/252": 0.0679,
+        "Quiet:252/0/0/252/4/0": 0.017,
+        "Sassy:252/0/0/4/252/0": 0.016,
+        "Modest:252/0/0/252/4/0": 0.0146
+      },
+      "moves": {
+        "Shadow Ball": 0.9281,
+        "Dazzling Gleam": 0.8309,
+        "Moonblast": 0.5609,
+        "Energy Ball": 0.4918,
+        "Mystical Fire": 0.3762,
+        "Thunder": 0.156,
+        "Thunderbolt": 0.1449,
+        "Protect": 0.1292,
+        "Tera Blast": 0.0939,
+        "Dark Pulse": 0.0875,
+        "Helping Hand": 0.0834,
+        "Trick Room": 0.0459,
+        "Sunny Day": 0.0317,
+        "Calm Mind": 0.0258,
+        "Imprison": 0.0128,
+        "Endure": 0.0008
+      },
+      "teammates": {
+        "Torkoal": 0.2336,
+        "Dondozo": 0.1128,
+        "Tatsugiri": 0.1128,
+        "Froslass": 0.0708,
+        "Tauros-Paldea-Fire": 0.0708,
+        "Iron Valiant": 0.0568,
+        "Roaring Moon": 0.0438,
+        "Armarouge": 0.0375,
+        "Indeedee-F": 0.0375,
+        "Raichu": 0.0317,
+        "Iron Hands": 0.0308,
+        "Oranguru": 0.0308,
+        "Chi-Yu": 0.0271,
+        "Dugtrio": 0.0229,
+        "Toxapex": 0.0229,
+        "Pincurchin": 0.0193,
+        "Brute Bonnet": 0.018,
+        "Gholdengo": 0.018,
+        "Magnezone": 0.016,
+        "Garchomp": 0.0122,
+        "Pachirisu": 0.0122,
+        "Sudowoodo": 0.0122,
+        "Maushold": 0.0049,
+        "Pawmot": 0.0039,
+        "Scizor": 0.0039,
+        "Meowscarada": 0.0031,
+        "Sandy Shocks": 0.0008,
+        "Espeon": 0.0008,
+        "Quaquaval": 0.0008,
+        "Sableye": 0.0008,
+        "Blissey": 0.0007,
+        "Chansey": 0.0007,
+        "Iron Thorns": 0.0007,
+        "Annihilape": 0.0004,
+        "Garganacl": 0.0004
+      },
+      "counters": {}
+    },
+    "Torkoal": {
+      "lead": {"raw": 0.0321, "real": 0.0321, "weighted": 0.0404},
+      "usage": {"raw": 0.1072, "real": 0.1639, "weighted": 0.2203},
+      "count": 8565,
+      "weight": 0.1968,
+      "viability": [48, 72, 72, 65],
+      "abilities": {"Drought": 0.9996, "Shell Armor": 0.0004},
+      "items": {
+        "Choice Specs": 0.4829,
+        "Life Orb": 0.2115,
+        "Sitrus Berry": 0.1033,
+        "Charcoal": 0.081,
+        "Assault Vest": 0.0716,
+        "Leftovers": 0.0302,
+        "Choice Scarf": 0.0095,
+        "Passho Berry": 0.0039,
+        "Heavy-Duty Boots": 0.0034,
+        "Heat Rock": 0.0009,
+        "Aguav Berry": 0.0008,
+        "Air Balloon": 0.0006,
+        "Nothing": 0.0004
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Modest:252/0/0/252/0/0": 0.3306,
+        "Modest:248/0/0/252/8/0": 0.2515,
+        "Quiet:252/0/4/252/0/0": 0.2115,
+        "Quiet:252/0/0/252/4/0": 0.0714,
+        "Modest:4/0/0/252/252/0": 0.0444,
+        "Sassy:248/0/0/8/252/0": 0.0301,
+        "Bold:252/0/252/0/0/0": 0.0195,
+        "Modest:248/0/100/152/8/0": 0.0153,
+        "Modest:252/0/252/4/0/0": 0.01,
+        "Modest:252/0/4/252/0/0": 0.0051,
+        "Timid:4/0/0/252/0/252": 0.0037,
+        "Hardy:252/0/0/252/0/4": 0.0032,
+        "Sassy:252/4/0/252/0/0": 0.0009,
+        "Bold:248/0/252/8/0/0": 0.0009,
+        "Bold:4/0/252/252/0/0": 0.0008,
+        "Careful:108/0/252/0/148/0": 0.0007,
+        "Hardy:92/144/60/48/56/108": 0.0004,
+        "Hardy:252/0/252/0/0/0": 0.0002
+      },
+      "moves": {
+        "Heat Wave": 0.8037,
+        "Eruption": 0.7438,
+        "Earth Power": 0.6501,
+        "Solar Beam": 0.5899,
+        "Protect": 0.4206,
+        "Helping Hand": 0.3745,
+        "Fire Blast": 0.0934,
+        "Body Press": 0.0881,
+        "Clear Smog": 0.0593,
+        "Will-O-Wisp": 0.0544,
+        "Ancient Power": 0.0363,
+        "Iron Defense": 0.0204,
+        "Flare Blitz": 0.0202,
+        "Yawn": 0.0202,
+        "Overheat": 0.0185,
+        "Rapid Spin": 0.0034,
+        "Earthquake": 0.0013,
+        "Shell Smash": 0.0008,
+        "Stone Edge": 0.0007,
+        "Curse": 0.0004
+      },
+      "teammates": {
+        "Flutter Mane": 0.2539,
+        "Dondozo": 0.0925,
+        "Tatsugiri": 0.0925,
+        "Froslass": 0.0769,
+        "Tauros-Paldea-Fire": 0.0769,
+        "Roaring Moon": 0.071,
+        "Iron Hands": 0.0338,
+        "Oranguru": 0.0335,
+        "Farigiraf": 0.0283,
+        "Chi-Yu": 0.0282,
+        "Dugtrio": 0.0249,
+        "Toxapex": 0.0249,
+        "Brute Bonnet": 0.0235,
+        "Wo-Chien": 0.0233,
+        "Iron Valiant": 0.021,
+        "Pincurchin": 0.021,
+        "Great Tusk": 0.0208,
+        "Lilligant": 0.0204,
+        "Tinkaton": 0.0204,
+        "Garchomp": 0.0156,
+        "Tyranitar": 0.0156,
+        "Scovillain": 0.0101,
+        "Maushold": 0.0086,
+        "Abomasnow": 0.0051,
+        "Iron Bundle": 0.0051,
+        "Indeedee-F": 0.0037,
+        "Grimmsnarl": 0.0004,
+        "Arcanine": 0.0004,
+        "Chien-Pao": 0.0003,
+        "Dragonite": 0.0002,
+        "Arboliva": 0.0002,
+        "Clodsire": 0.0002,
+        "Dragapult": 0.0002,
+        "Armarouge": 0.0002,
+        "Indeedee": 0.0002,
+        "Gyarados": 0.0002
+      },
+      "counters": {}
+    },
+    "Iron Hands": {
+      "lead": {"raw": 0.0255, "real": 0.0255, "weighted": 0.0652},
+      "usage": {"raw": 0.0689, "real": 0.1399, "weighted": 0.1375},
+      "count": 4215,
+      "weight": 0.2106,
+      "viability": [12, 72, 72, 69],
+      "abilities": {"Quark Drive": 1},
+      "items": {"Booster Energy": 0.7813, "Assault Vest": 0.2187},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:4/252/0/0/252/0": 0.3484,
+        "Brave:92/252/48/0/116/0": 0.1963,
+        "Adamant:248/252/0/0/8/0": 0.1836,
+        "Brave:252/252/0/0/4/0": 0.1406,
+        "Brave:248/252/0/0/8/0": 0.1087,
+        "Sassy:0/192/64/0/252/0": 0.0194,
+        "Sassy:4/252/0/0/252/0": 0.0029
+      },
+      "moves": {
+        "Close Combat": 0.8913,
+        "Fake Out": 0.8594,
+        "Thunder Punch": 0.5477,
+        "Wild Charge": 0.4426,
+        "Fire Punch": 0.3484,
+        "Protect": 0.2738,
+        "Ice Punch": 0.1963,
+        "Earthquake": 0.1958,
+        "Play Rough": 0.0985,
+        "Drain Punch": 0.0535,
+        "Heavy Slam": 0.0524,
+        "Stomping Tantrum": 0.0403
+      },
+      "teammates": {
+        "Garchomp": 0.2232,
+        "Dondozo": 0.1713,
+        "Tatsugiri": 0.1713,
+        "Dudunsparce": 0.1594,
+        "Iron Valiant": 0.1594,
+        "Spiritomb": 0.1594,
+        "Gyarados": 0.0857,
+        "Torkoal": 0.0827,
+        "Flutter Mane": 0.0821,
+        "Oranguru": 0.0821,
+        "Breloom": 0.0617,
+        "Chien-Pao": 0.0457,
+        "Hatterene": 0.0271,
+        "Iron Moth": 0.0271,
+        "Tinkaton": 0.0271,
+        "Bronzong": 0.024,
+        "Maushold": 0.0114,
+        "Brambleghast": 0.0113,
+        "Chi-Yu": 0.0007,
+        "Amoonguss": 0.0002,
+        "Baxcalibur": 0.0002
+      },
+      "counters": {}
+    },
+    "Chien-Pao": {
+      "lead": {"raw": 0.018, "real": 0.018, "weighted": 0.0198},
+      "usage": {"raw": 0.0762, "real": 0.0919, "weighted": 0.1095},
+      "count": 6794,
+      "weight": 0.2106,
+      "viability": [24, 72, 72, 66],
+      "abilities": {"Sword of Ruin": 1},
+      "items": {
+        "Life Orb": 0.8034,
+        "Choice Band": 0.1917,
+        "Choice Specs": 0.0029,
+        "Black Belt": 0.0019
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.9775,
+        "Jolly:4/252/0/0/0/252": 0.0196,
+        "Naive:0/4/0/252/0/252": 0.0029,
+        "Adamant:0/252/0/0/4/252": 0.0001
+      },
+      "moves": {
+        "Sacred Sword": 0.9386,
+        "Crunch": 0.8462,
+        "Sucker Punch": 0.7348,
+        "Icicle Crash": 0.6443,
+        "Ice Spinner": 0.3528,
+        "Psychic Fangs": 0.1945,
+        "Protect": 0.1332,
+        "Haze": 0.0855,
+        "Throat Chop": 0.0531,
+        "Swords Dance": 0.0054,
+        "Blizzard": 0.0029,
+        "Brick Break": 0.0029,
+        "Dark Pulse": 0.0029,
+        "Tera Blast": 0.0029
+      },
+      "teammates": {
+        "Armarouge": 0.1855,
+        "Dragonite": 0.1855,
+        "Gastrodon": 0.1601,
+        "Dondozo": 0.0799,
+        "Tatsugiri": 0.0799,
+        "Great Tusk": 0.0782,
+        "Mimikyu": 0.0782,
+        "Tyranitar": 0.0782,
+        "Baxcalibur": 0.0455,
+        "Iron Hands": 0.0415,
+        "Chi-Yu": 0.0358,
+        "Ting-Lu": 0.0314,
+        "Wo-Chien": 0.0314,
+        "Slowbro": 0.0254,
+        "Brambleghast": 0.0131,
+        "Maushold": 0.0102,
+        "Drifblim": 0.0029,
+        "Kilowattrel": 0.0029,
+        "Torkoal": 0.0006
+      },
+      "counters": {}
+    },
+    "Armarouge": {
+      "lead": {"raw": 0.0235, "real": 0.0235, "weighted": 0.0133},
+      "usage": {"raw": 0.0894, "real": 0.134, "weighted": 0.1013},
+      "count": 6464,
+      "weight": 0.1109,
+      "viability": [32, 71, 71, 55],
+      "abilities": {"Weak Armor": 0.6449, "Flash Fire": 0.3551},
+      "items": {
+        "Weakness Policy": 0.6449,
+        "Life Orb": 0.2288,
+        "Choice Scarf": 0.0935,
+        "Aguav Berry": 0.0301,
+        "Choice Specs": 0.0024,
+        "Mental Herb": 0.0002
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Modest:0/0/0/252/4/252": 0.6431,
+        "Modest:120/0/0/252/0/136": 0.1912,
+        "Timid:0/0/0/252/4/252": 0.0935,
+        "Modest:0/0/0/252/0/252": 0.0365,
+        "Modest:252/0/0/252/4/0": 0.0325,
+        "Modest:4/0/0/252/192/60": 0.0018,
+        "Hardy:4/0/0/252/0/252": 0.0011,
+        "Hardy:44/236/108/0/0/120": 0.0002
+      },
+      "moves": {
+        "Armor Cannon": 1,
+        "Heat Wave": 0.8344,
+        "Stored Power": 0.6431,
+        "Psyshock": 0.6431,
+        "Expanding Force": 0.2801,
+        "Protect": 0.193,
+        "Energy Ball": 0.0898,
+        "Calm Mind": 0.0804,
+        "Shadow Ball": 0.0513,
+        "Dragon Pulse": 0.0422,
+        "Psybeam": 0.0422,
+        "Psychic": 0.0325,
+        "Wide Guard": 0.0301,
+        "Helping Hand": 0.0301,
+        "Aura Sphere": 0.0035,
+        "Solar Beam": 0.0024,
+        "Dark Pulse": 0.0011,
+        "Fire Blast": 0.0002,
+        "Flash Cannon": 0.0002
+      },
+      "teammates": {
+        "Chien-Pao": 0.2577,
+        "Dragonite": 0.2577,
+        "Gastrodon": 0.2224,
+        "Flutter Mane": 0.1258,
+        "Indeedee-F": 0.1258,
+        "Iron Valiant": 0.1258,
+        "Ceruledge": 0.0598,
+        "Dondozo": 0.0587,
+        "Slowbro": 0.0353,
+        "Tatsugiri": 0.0341,
+        "Indeedee": 0.0273,
+        "Brambleghast": 0.0271,
+        "Dachsbun": 0.0271,
+        "Talonflame": 0.0271,
+        "Appletun": 0.0267,
+        "Chi-Yu": 0.021,
+        "Iron Moth": 0.021,
+        "Abomasnow": 0.0018,
+        "Baxcalibur": 0.0018,
+        "Maushold": 0.0018,
+        "Scovillain": 0.0006,
+        "Torkoal": 0.0006
+      },
+      "counters": {}
+    },
+    "Great Tusk": {
+      "lead": {"raw": 0.0088, "real": 0.0088, "weighted": 0.0208},
+      "usage": {"raw": 0.0364, "real": 0.0455, "weighted": 0.086},
+      "count": 2973,
+      "weight": 0.1452,
+      "viability": [18, 71, 71, 61],
+      "abilities": {"Protosynthesis": 1},
+      "items": {
+        "Booster Energy": 0.5074,
+        "Assault Vest": 0.2606,
+        "Rocky Helmet": 0.1242,
+        "Choice Scarf": 0.0701,
+        "Life Orb": 0.0271,
+        "Leftovers": 0.0106
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.5387,
+        "Jolly:0/4/0/0/252/252": 0.2575,
+        "Adamant:252/0/252/0/0/0": 0.0616,
+        "Adamant:0/252/0/0/4/252": 0.0467,
+        "Adamant:144/0/252/0/0/112": 0.0313,
+        "Jolly:0/252/0/0/76/180": 0.0266,
+        "Naive:168/4/0/0/0/252": 0.0245,
+        "Careful:0/252/252/0/4/0": 0.0106,
+        "Adamant:4/252/0/0/0/252": 0.0026
+      },
+      "moves": {
+        "Headlong Rush": 0.897,
+        "Close Combat": 0.6145,
+        "Protect": 0.5165,
+        "Head Smash": 0.3538,
+        "Ice Spinner": 0.2926,
+        "Brick Break": 0.2681,
+        "Earthquake": 0.2366,
+        "Knock Off": 0.164,
+        "Bulk Up": 0.1267,
+        "Megahorn": 0.1212,
+        "Body Press": 0.1035,
+        "Earth Power": 0.0899,
+        "Fire Fang": 0.0701,
+        "Iron Head": 0.0546,
+        "Rock Slide": 0.0292,
+        "Rapid Spin": 0.0266,
+        "Tera Blast": 0.0245,
+        "Heavy Slam": 0.0106
+      },
+      "teammates": {
+        "Tyranitar": 0.2333,
+        "Iron Bundle": 0.2029,
+        "Cetitan": 0.1796,
+        "Pachirisu": 0.1796,
+        "Chien-Pao": 0.1618,
+        "Mimikyu": 0.1618,
+        "Brambleghast": 0.1605,
+        "Kilowattrel": 0.1605,
+        "Talonflame": 0.1605,
+        "Torkoal": 0.0958,
+        "Garchomp": 0.0715,
+        "Ceruledge": 0.0339,
+        "Meowscarada": 0.0314,
+        "Roaring Moon": 0.0314,
+        "Abomasnow": 0.0233,
+        "Dachsbun": 0.0025,
+        "Ditto": 0.0025,
+        "Arboliva": 0.001,
+        "Clodsire": 0.001
+      },
+      "counters": {}
+    },
+    "Garchomp": {
+      "lead": {"raw": 0.0102, "real": 0.0102, "weighted": 0.0297},
+      "usage": {"raw": 0.0397, "real": 0.0622, "weighted": 0.0811},
+      "count": 2533,
+      "weight": 0.1734,
+      "viability": [13, 67, 67, 65],
+      "abilities": {"Rough Skin": 0.9259, "Sand Veil": 0.0741},
+      "items": {
+        "Leftovers": 0.4344,
+        "Roseli Berry": 0.234,
+        "Life Orb": 0.1866,
+        "Assault Vest": 0.0741,
+        "Rocky Helmet": 0.0708
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Careful:180/0/160/0/168/0": 0.3269,
+        "Adamant:252/252/0/0/0/4": 0.234,
+        "Serious:28/252/108/0/120/0": 0.0986,
+        "Serious:180/0/160/0/168/0": 0.0967,
+        "Jolly:4/252/0/0/0/252": 0.088,
+        "Careful:0/128/0/0/136/244": 0.0741,
+        "Naughty:252/52/204/0/0/0": 0.0708,
+        "Jolly:0/252/0/0/4/252": 0.0108
+      },
+      "moves": {
+        "Stomping Tantrum": 0.7563,
+        "Rock Slide": 0.6918,
+        "Swords Dance": 0.533,
+        "Liquidation": 0.5222,
+        "Dragon Claw": 0.3098,
+        "Iron Head": 0.3082,
+        "Brick Break": 0.234,
+        "Earthquake": 0.1696,
+        "Outrage": 0.1572,
+        "Fire Blast": 0.1449,
+        "Protect": 0.088,
+        "Earth Power": 0.0741,
+        "Substitute": 0.0108
+      },
+      "teammates": {
+        "Iron Hands": 0.3346,
+        "Dondozo": 0.2061,
+        "Tatsugiri": 0.2061,
+        "Gyarados": 0.1285,
+        "Breloom": 0.0925,
+        "Great Tusk": 0.0571,
+        "Torkoal": 0.0571,
+        "Tyranitar": 0.0571,
+        "Flutter Mane": 0.0489,
+        "Pachirisu": 0.0489,
+        "Sudowoodo": 0.0489,
+        "Bronzong": 0.036,
+        "Kilowattrel": 0.0241,
+        "Maushold": 0.0241,
+        "Tauros-Paldea-Fire": 0.0241,
+        "Ceruledge": 0.0108,
+        "Slaking": 0.0108,
+        "Venomoth": 0.0108
+      },
+      "counters": {}
+    },
+    "Iron Valiant": {
+      "lead": {"raw": 0.0106, "real": 0.0106, "weighted": 0.0004},
+      "usage": {"raw": 0.0461, "real": 0.0645, "weighted": 0.0799},
+      "count": 3584,
+      "weight": 0.3073,
+      "viability": [15, 71, 71, 71],
+      "abilities": {"Quark Drive": 1},
+      "items": {
+        "Booster Energy": 0.8389,
+        "Choice Band": 0.134,
+        "Nothing": 0.0271
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Quiet:80/164/4/252/4/4": 0.4087,
+        "Jolly:40/252/0/0/0/216": 0.3158,
+        "Jolly:0/252/0/0/4/252": 0.1688,
+        "Timid:0/0/0/252/4/252": 0.076,
+        "Naive:0/4/0/252/0/252": 0.0271,
+        "Timid:248/0/0/0/8/252": 0.0036
+      },
+      "moves": {
+        "Close Combat": 0.8933,
+        "Moonblast": 0.5119,
+        "Psychic": 0.4087,
+        "Swords Dance": 0.4087,
+        "Protect": 0.3918,
+        "Spirit Break": 0.3776,
+        "Wide Guard": 0.3158,
+        "Leaf Blade": 0.1688,
+        "Fire Punch": 0.134,
+        "Ice Punch": 0.134,
+        "Aura Sphere": 0.1032,
+        "Taunt": 0.076,
+        "Liquidation": 0.0347,
+        "Dazzling Gleam": 0.0271,
+        "Confuse Ray": 0.0036,
+        "Destiny Bond": 0.0036,
+        "Disable": 0.0036,
+        "Encore": 0.0036
+      },
+      "teammates": {
+        "Dudunsparce": 0.3319,
+        "Iron Hands": 0.3319,
+        "Spiritomb": 0.3319,
+        "Flutter Mane": 0.3146,
+        "Armarouge": 0.2077,
+        "Indeedee-F": 0.2077,
+        "Pincurchin": 0.1069,
+        "Torkoal": 0.1069,
+        "Maushold": 0.0036
+      },
+      "counters": {}
+    },
+    "Chi-Yu": {
+      "lead": {"raw": 0.0122, "real": 0.0122, "weighted": 0.0068},
+      "usage": {"raw": 0.059, "real": 0.0713, "weighted": 0.0743},
+      "count": 5328,
+      "weight": 0.157,
+      "viability": [21, 69, 69, 65],
+      "abilities": {"Beads of Ruin": 1},
+      "items": {
+        "Choice Scarf": 0.6189,
+        "Choice Specs": 0.2513,
+        "Charcoal": 0.0835,
+        "Leftovers": 0.0411,
+        "Ability Shield": 0.0031,
+        "Life Orb": 0.0022
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Modest:0/0/0/252/4/252": 0.5524,
+        "Timid:0/0/0/252/4/252": 0.2267,
+        "Modest:4/0/0/252/0/252": 0.1751,
+        "Gentle:252/4/0/0/252/0": 0.0411,
+        "Hardy:0/0/0/252/0/252": 0.0025,
+        "Hardy:4/0/252/0/0/252": 0.0022
+      },
+      "moves": {
+        "Dark Pulse": 0.9589,
+        "Heat Wave": 0.9211,
+        "Psychic": 0.637,
+        "Fire Blast": 0.6359,
+        "Overheat": 0.208,
+        "Protect": 0.1773,
+        "Nasty Plot": 0.1772,
+        "Flamethrower": 0.0769,
+        "Hex": 0.0732,
+        "Flame Charge": 0.0411,
+        "Reflect": 0.0411,
+        "Rest": 0.0411,
+        "Incinerate": 0.0061,
+        "Tera Blast": 0.0025,
+        "Inferno": 0.0022,
+        "Snarl": 0.0005
+      },
+      "teammates": {
+        "Dondozo": 0.1431,
+        "Tatsugiri": 0.1431,
+        "Maushold": 0.0992,
+        "Flutter Mane": 0.0728,
+        "Torkoal": 0.0698,
+        "Roaring Moon": 0.0691,
+        "Dachsbun": 0.0647,
+        "Chien-Pao": 0.0398,
+        "Ting-Lu": 0.0349,
+        "Wo-Chien": 0.0349,
+        "Dugtrio": 0.0275,
+        "Orthworm": 0.0275,
+        "Armarouge": 0.0168,
+        "Ceruledge": 0.0168,
+        "Iron Moth": 0.0168,
+        "Annihilape": 0.0011,
+        "Garganacl": 0.0011,
+        "Iron Hands": 0.0007
+      },
+      "counters": {}
+    },
+    "Hatterene": {
+      "lead": {"raw": 0.0042, "real": 0.0042, "weighted": 0.016},
+      "usage": {"raw": 0.0149, "real": 0.0207, "weighted": 0.0736},
+      "count": 919,
+      "weight": 0.115,
+      "viability": [8, 69, 69, 62],
+      "abilities": {"Magic Bounce": 1},
+      "items": {"Mirror Herb": 0.5155, "Leftovers": 0.2857, "Life Orb": 0.1988},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Quiet:252/4/0/252/0/0": 0.5683,
+        "Sassy:252/0/4/0/252/0": 0.2857,
+        "Quiet:252/0/0/252/4/0": 0.146
+      },
+      "moves": {
+        "Nuzzle": 0.8012,
+        "Reflect": 0.8012,
+        "Giga Drain": 0.5258,
+        "Stored Power": 0.5155,
+        "Trick Room": 0.4845,
+        "Heal Pulse": 0.2857,
+        "Dazzling Gleam": 0.1988,
+        "Psychic": 0.1988,
+        "Helping Hand": 0.1787,
+        "Play Rough": 0.0099
+      },
+      "teammates": {
+        "Dondozo": 0.5155,
+        "Espathra": 0.5155,
+        "Tatsugiri": 0.5155,
+        "Brute Bonnet": 0.1549,
+        "Clodsire": 0.1549,
+        "Glimmora": 0.1549,
+        "Iron Moth": 0.1149,
+        "Tinkaton": 0.1149,
+        "Iron Hands": 0.074,
+        "Gallade": 0.031,
+        "Kingambit": 0.0099
+      },
+      "counters": {}
+    },
+    "Roaring Moon": {
+      "lead": {"raw": 0.0166, "real": 0.0166, "weighted": 0.0006},
+      "usage": {"raw": 0.0641, "real": 0.112, "weighted": 0.0736},
+      "count": 4944,
+      "weight": 0.1798,
+      "viability": [32, 71, 71, 61],
+      "abilities": {"Protosynthesis": 1},
+      "items": {
+        "Life Orb": 0.4251,
+        "Booster Energy": 0.3233,
+        "Choice Band": 0.1988,
+        "Auspicious Armor": 0.0341,
+        "Aguav Berry": 0.013,
+        "Loaded Dice": 0.0057
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.5588,
+        "Jolly:52/204/0/0/0/252": 0.1272,
+        "Adamant:4/252/0/0/0/252": 0.1082,
+        "Timid:0/0/0/252/4/252": 0.0921,
+        "Adamant:0/252/0/0/4/252": 0.0582,
+        "Jolly:4/252/0/0/0/252": 0.0341,
+        "Jolly:36/220/0/0/0/252": 0.0089,
+        "Jolly:0/220/0/0/36/252": 0.0067,
+        "Jolly:60/252/4/0/4/188": 0.0057
+      },
+      "moves": {
+        "Dragon Claw": 0.8119,
+        "Earthquake": 0.7812,
+        "Crunch": 0.5568,
+        "Protect": 0.3959,
+        "Outrage": 0.2295,
+        "Tailwind": 0.2222,
+        "Acrobatics": 0.2017,
+        "Throat Chop": 0.1423,
+        "Jaw Lock": 0.1272,
+        "Dark Pulse": 0.0921,
+        "Draco Meteor": 0.0921,
+        "Taunt": 0.0921,
+        "Dragon Dance": 0.0606,
+        "Iron Head": 0.0582,
+        "Dragon Rush": 0.0507,
+        "Tera Blast": 0.0341,
+        "X-Scissor": 0.0166,
+        "Zen Headbutt": 0.0166,
+        "Rock Slide": 0.0124,
+        "Scale Shot": 0.0057
+      },
+      "teammates": {
+        "Torkoal": 0.1728,
+        "Flutter Mane": 0.1159,
+        "Chi-Yu": 0.0681,
+        "Ceruledge": 0.0655,
+        "Meowscarada": 0.0655,
+        "Lilligant": 0.0496,
+        "Tinkaton": 0.0496,
+        "Quaquaval": 0.0489,
+        "Brute Bonnet": 0.0478,
+        "Gholdengo": 0.0478,
+        "Dondozo": 0.0341,
+        "Tatsugiri": 0.0341,
+        "Maushold": 0.021,
+        "Great Tusk": 0.0166,
+        "Farigiraf": 0.0121,
+        "Indeedee-F": 0.0089
+      },
+      "counters": {}
+    },
+    "Brute Bonnet": {
+      "lead": {"raw": 0.0134, "real": 0.0134, "weighted": 0.0105},
+      "usage": {"raw": 0.0478, "real": 0.0721, "weighted": 0.0653},
+      "count": 2889,
+      "weight": 0.1242,
+      "viability": [23, 73, 73, 65],
+      "abilities": {"Protosynthesis": 1},
+      "items": {
+        "Booster Energy": 0.4833,
+        "Leftovers": 0.2006,
+        "Sitrus Berry": 0.1852,
+        "Chople Berry": 0.1048,
+        "Mental Herb": 0.0261
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:252/252/0/0/4/0": 0.4994,
+        "Careful:252/4/176/0/76/0": 0.1852,
+        "Brave:60/252/0/0/196/0": 0.1401,
+        "Brave:252/252/0/0/4/0": 0.1048,
+        "Sassy:252/4/0/0/252/0": 0.0261,
+        "Impish:252/4/120/0/128/4": 0.0249,
+        "Adamant:8/252/120/0/128/0": 0.0114,
+        "Adamant:4/252/0/0/0/252": 0.0071,
+        "Hardy:252/252/0/0/0/4": 0.001
+      },
+      "moves": {
+        "Seed Bomb": 0.7093,
+        "Spore": 0.5732,
+        "Sucker Punch": 0.5696,
+        "Protect": 0.4681,
+        "Crunch": 0.4512,
+        "Rage Powder": 0.4415,
+        "Close Combat": 0.4007,
+        "Stomping Tantrum": 0.1482,
+        "Payback": 0.1048,
+        "Bullet Seed": 0.0806,
+        "Trailblaze": 0.0249,
+        "Clear Smog": 0.0155,
+        "Synthesis": 0.0114,
+        "Outrage": 0.001
+      },
+      "teammates": {
+        "Ceruledge": 0.1748,
+        "Grimmsnarl": 0.1748,
+        "Quaquaval": 0.1748,
+        "Torkoal": 0.115,
+        "Farigiraf": 0.114,
+        "Wo-Chien": 0.114,
+        "Clodsire": 0.1135,
+        "Glimmora": 0.1135,
+        "Hatterene": 0.1135,
+        "Flutter Mane": 0.096,
+        "Gholdengo": 0.096,
+        "Roaring Moon": 0.096,
+        "Gastrodon": 0.0114,
+        "Mimikyu": 0.0114,
+        "Skeledirge": 0.0114,
+        "Dragapult": 0.001,
+        "Scovillain": 0.001
+      },
+      "counters": {}
+    },
+    "Maushold": {
+      "lead": {"raw": 0.038, "real": 0.038, "weighted": 0.0164},
+      "usage": {"raw": 0.123, "real": 0.1958, "weighted": 0.0642},
+      "count": 8823,
+      "weight": 0.0549,
+      "viability": [43, 64, 64, 59],
+      "abilities": {
+        "Technician": 0.573,
+        "Friend Guard": 0.4127,
+        "Cheek Pouch": 0.0143
+      },
+      "items": {
+        "Lum Berry": 0.2779,
+        "Wide Lens": 0.2064,
+        "King's Rock": 0.2039,
+        "Choice Band": 0.1522,
+        "Silk Scarf": 0.0554,
+        "Covert Cloak": 0.0418,
+        "Flame Orb": 0.0417,
+        "Wacan Berry": 0.0124,
+        "Choice Scarf": 0.0059,
+        "Sitrus Berry": 0.0023,
+        "Normal Gem": 0.0001
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.3221,
+        "Impish:252/0/140/0/116/0": 0.2779,
+        "Jolly:248/8/0/0/0/252": 0.0971,
+        "Brave:0/252/252/0/4/0": 0.0846,
+        "Jolly:0/252/0/0/0/252": 0.0556,
+        "Jolly:4/252/0/0/0/252": 0.0379,
+        "Impish:252/0/252/0/4/0": 0.0311,
+        "Jolly:6/252/0/0/0/252": 0.0221,
+        "Timid:248/0/0/8/0/252": 0.0209,
+        "Adamant:0/252/0/0/4/252": 0.0182,
+        "Sassy:252/0/160/0/96/0": 0.0124,
+        "Brave:64/252/132/0/60/0": 0.0099,
+        "Adamant:0/252/4/0/0/252": 0.0074,
+        "Timid:252/0/0/4/0/252": 0.0023,
+        "Jolly:28/252/0/0/0/228": 0.0002,
+        "Hasty:0/252/0/0/0/252": 0.0001,
+        "Hardy:4/252/0/0/0/252": 0.0001
+      },
+      "moves": {
+        "Population Bomb": 0.9645,
+        "Bullet Seed": 0.514,
+        "Protect": 0.4719,
+        "Follow Me": 0.3863,
+        "Helping Hand": 0.3446,
+        "Tidy Up": 0.2488,
+        "Hyper Voice": 0.1822,
+        "Aerial Ace": 0.1537,
+        "Shadow Claw": 0.1467,
+        "Crunch": 0.085,
+        "U-turn": 0.0719,
+        "Super Fang": 0.0665,
+        "Encore": 0.0576,
+        "Trailblaze": 0.0556,
+        "Play Rough": 0.0437,
+        "After You": 0.043,
+        "Switcheroo": 0.0417,
+        "Beat Up": 0.0231,
+        "Bite": 0.0223,
+        "Taunt": 0.0209,
+        "Fake Tears": 0.0209,
+        "Double Hit": 0.0149,
+        "Facade": 0.0124,
+        "Thunder Wave": 0.0074,
+        "Nothing": 0.0003,
+        "Chilling Water": 0.0001
+      },
+      "teammates": {
+        "Dondozo": 0.2504,
+        "Tatsugiri": 0.2504,
+        "Chi-Yu": 0.1575,
+        "Kilowattrel": 0.0555,
+        "Dragapult": 0.0554,
+        "Roaring Moon": 0.0338,
+        "Torkoal": 0.0338,
+        "Tauros-Paldea-Fire": 0.0257,
+        "Garchomp": 0.0257,
+        "Brambleghast": 0.0241,
+        "Flutter Mane": 0.0208,
+        "Indeedee-F": 0.0205,
+        "Farigiraf": 0.0195,
+        "Meowscarada": 0.0192,
+        "Iron Bundle": 0.0191,
+        "Iron Hands": 0.0183,
+        "Chien-Pao": 0.018,
+        "Baxcalibur": 0.0149,
+        "Gallade": 0.0124,
+        "Garganacl": 0.0124,
+        "Bombirdier": 0.0078,
+        "Amoonguss": 0.0076,
+        "Dudunsparce": 0.0073,
+        "Veluza": 0.0073,
+        "Bruxish": 0.0061,
+        "Hawlucha": 0.0059,
+        "Ditto": 0.0031,
+        "Iron Valiant": 0.0028,
+        "Abomasnow": 0.0023,
+        "Armarouge": 0.0023,
+        "Mimikyu": 0.0001,
+        "Breloom": 0.0001,
+        "Zoroark": 0.0001
+      },
+      "counters": {}
+    },
+    "Ceruledge": {
+      "lead": {"raw": 0.028, "real": 0.028, "weighted": 0.0161},
+      "usage": {"raw": 0.0942, "real": 0.1711, "weighted": 0.0567},
+      "count": 6211,
+      "weight": 0.0588,
+      "viability": [29, 73, 73, 57],
+      "abilities": {"Weak Armor": 0.685, "Flash Fire": 0.315},
+      "items": {
+        "Life Orb": 0.4069,
+        "Mago Berry": 0.2525,
+        "Choice Band": 0.1231,
+        "Assault Vest": 0.0967,
+        "Expert Belt": 0.0539,
+        "Leftovers": 0.0447,
+        "Weakness Policy": 0.0221,
+        "Choice Specs": 0.0001
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.8796,
+        "Adamant:0/252/0/0/4/252": 0.0409,
+        "Jolly:0/252/0/0/0/252": 0.0335,
+        "Jolly:0/252/4/0/0/252": 0.0208,
+        "Jolly:4/252/0/0/0/252": 0.0163,
+        "Adamant:4/252/0/0/0/252": 0.005,
+        "Hardy:4/252/0/0/0/252": 0.0038,
+        "Naughty:0/252/0/0/0/252": 0.0001,
+        "Hardy:172/252/0/0/84/0": 0.0001,
+        "Jolly:0/252/160/0/0/96": 0.0001
+      },
+      "moves": {
+        "Bitter Blade": 0.9945,
+        "Swords Dance": 0.6758,
+        "Protect": 0.6628,
+        "Shadow Claw": 0.4712,
+        "Shadow Sneak": 0.414,
+        "Close Combat": 0.1415,
+        "Iron Head": 0.1176,
+        "X-Scissor": 0.1176,
+        "Bulk Up": 0.0969,
+        "Phantom Force": 0.0967,
+        "Brick Break": 0.0551,
+        "Will-O-Wisp": 0.0409,
+        "Flame Charge": 0.0372,
+        "Clear Smog": 0.0208,
+        "Endure": 0.0208,
+        "Tera Blast": 0.0163,
+        "Flare Blitz": 0.0056,
+        "Poison Jab": 0.0056,
+        "Destiny Bond": 0.0038,
+        "Flamethrower": 0.0038,
+        "Dragon Claw": 0.0014,
+        "Night Shade": 0.0003,
+        "Shadow Ball": 0.0001,
+        "Night Slash": 0.0001,
+        "Quick Guard": 0.0001
+      },
+      "teammates": {
+        "Quaquaval": 0.3945,
+        "Brute Bonnet": 0.2525,
+        "Grimmsnarl": 0.2525,
+        "Meowscarada": 0.1903,
+        "Roaring Moon": 0.1903,
+        "Armarouge": 0.1369,
+        "Tatsugiri": 0.0782,
+        "Dondozo": 0.0733,
+        "Great Tusk": 0.0521,
+        "Chi-Yu": 0.0482,
+        "Iron Moth": 0.0482,
+        "Leafeon": 0.0322,
+        "Garchomp": 0.0208,
+        "Slaking": 0.0208,
+        "Venomoth": 0.0208,
+        "Dachsbun": 0.0039,
+        "Ditto": 0.0039,
+        "Braviary": 0.0038,
+        "Cyclizar": 0.0038,
+        "Haxorus": 0.0038,
+        "Dragonite": 0.0014,
+        "Bronzong": 0.0001
+      },
+      "counters": {}
+    },
+    "Dragonite": {
+      "lead": {"raw": 0.007, "real": 0.007, "weighted": 0.0155},
+      "usage": {"raw": 0.0272, "real": 0.0434, "weighted": 0.0525},
+      "count": 1730,
+      "weight": 0.3227,
+      "viability": [7, 68, 68, 67],
+      "abilities": {"Multiscale": 1},
+      "items": {
+        "Assault Vest": 0.9773,
+        "Expert Belt": 0.0217,
+        "Life Orb": 0.001
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Quiet:252/4/0/252/0/0": 0.974,
+        "Adamant:0/252/0/0/4/252": 0.0217,
+        "Adamant:4/252/0/0/0/252": 0.0033,
+        "Hardy:100/136/80/64/68/60": 0.001
+      },
+      "moves": {
+        "Extreme Speed": 0.9957,
+        "Aqua Jet": 0.9773,
+        "Draco Meteor": 0.975,
+        "Hurricane": 0.974,
+        "Dragon Dance": 0.0227,
+        "Iron Head": 0.0217,
+        "Outrage": 0.0217,
+        "Bulldoze": 0.0033,
+        "Ice Spinner": 0.0033,
+        "Thunder Punch": 0.0033,
+        "Fire Blast": 0.001,
+        "Protect": 0.001
+      },
+      "teammates": {
+        "Armarouge": 0.3902,
+        "Chien-Pao": 0.3902,
+        "Gastrodon": 0.3368,
+        "Slowbro": 0.0534,
+        "Arcanine": 0.001,
+        "Grimmsnarl": 0.001,
+        "Torkoal": 0.001,
+        "Ceruledge": 0.0009,
+        "Leafeon": 0.0009
+      },
+      "counters": {}
+    },
+    "Spiritomb": {
+      "lead": {"raw": 0.0022, "real": 0.0022, "weighted": 0.0243},
+      "usage": {"raw": 0.0068, "real": 0.0171, "weighted": 0.0524},
+      "count": 350,
+      "weight": 0.1224,
+      "viability": [4, 71, 71, 71],
+      "abilities": {"Pressure": 0.7918, "Infiltrator": 0.2082},
+      "items": {
+        "Mental Herb": 0.6669,
+        "Assault Vest": 0.2082,
+        "Leftovers": 0.1249
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Relaxed:252/0/148/0/108/0": 0.6669,
+        "Calm:248/0/0/8/252/0": 0.2082,
+        "Sassy:252/0/4/0/252/0": 0.1249
+      },
+      "moves": {
+        "Foul Play": 0.7918,
+        "Trick Room": 0.7918,
+        "Helping Hand": 0.6669,
+        "Will-O-Wisp": 0.6669,
+        "Dark Pulse": 0.2082,
+        "Memento": 0.2082,
+        "Protect": 0.2082,
+        "Shadow Ball": 0.2082,
+        "Disable": 0.1249,
+        "Taunt": 0.1249
+      },
+      "teammates": {
+        "Dudunsparce": 0.5415,
+        "Iron Hands": 0.5415,
+        "Iron Valiant": 0.5415,
+        "Farigiraf": 0.0962,
+        "Amoonguss": 0.0578,
+        "Salamence": 0.0578,
+        "Tinkaton": 0.0578
+      },
+      "counters": {}
+    },
+    "Tauros-Paldea-Fire": {
+      "lead": {"raw": 0.0034, "real": 0.0034, "weighted": 0.0243},
+      "usage": {"raw": 0.0141, "real": 0.0178, "weighted": 0.0523},
+      "count": 1229,
+      "weight": 0.3642,
+      "viability": [6, 72, 72, 65],
+      "abilities": {"Anger Point": 0.939, "Intimidate": 0.061},
+      "items": {
+        "Choice Scarf": 0.8406,
+        "Life Orb": 0.0957,
+        "Leftovers": 0.061,
+        "Aguav Berry": 0.0027
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:0/252/0/0/0/252": 0.8403,
+        "Naive:0/252/0/4/0/252": 0.0957,
+        "Jolly:4/252/0/0/0/252": 0.061,
+        "Jolly:0/252/0/0/4/252": 0.003
+      },
+      "moves": {
+        "Earthquake": 0.939,
+        "Close Combat": 0.9013,
+        "Iron Head": 0.8433,
+        "Flare Blitz": 0.8403,
+        "Raging Bull": 0.1567,
+        "Bulk Up": 0.0957,
+        "Tera Blast": 0.0957,
+        "Protect": 0.061,
+        "Wild Charge": 0.061,
+        "Flame Charge": 0.003,
+        "Zen Headbutt": 0.0027,
+        "Rock Slide": 0.0003
+      },
+      "teammates": {
+        "Froslass": 0.1956,
+        "Flutter Mane": 0.1956,
+        "Torkoal": 0.1956,
+        "Maushold": 0.0167,
+        "Garchomp": 0.0167,
+        "Kilowattrel": 0.0167
+      },
+      "counters": {}
+    },
+    "Espathra": {
+      "lead": {"raw": 0.0055, "real": 0.0055, "weighted": 0},
+      "usage": {"raw": 0.0205, "real": 0.0251, "weighted": 0.0513},
+      "count": 1261,
+      "weight": 0.2273,
+      "viability": [7, 69, 69, 55],
+      "abilities": {"Opportunist": 1},
+      "items": {"Clear Amulet": 0.9215, "Leftovers": 0.0785},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Modest:0/0/0/252/4/252": 0.9215,
+        "Timid:0/0/0/252/4/252": 0.0785
+      },
+      "moves": {
+        "Lumina Crash": 1,
+        "Dazzling Gleam": 0.9215,
+        "Psyshock": 0.9215,
+        "Stored Power": 0.9215,
+        "Energy Ball": 0.0785,
+        "Protect": 0.0785,
+        "Shadow Ball": 0.0785
+      },
+      "teammates": {
+        "Dondozo": 0.979,
+        "Tatsugiri": 0.979,
+        "Hatterene": 0.9215,
+        "Tinkaton": 0.0575
+      },
+      "counters": {}
+    },
+    "Froslass": {
+      "lead": {"raw": 0.0038, "real": 0.0038, "weighted": 0.0007},
+      "usage": {"raw": 0.0123, "real": 0.0281, "weighted": 0.0491},
+      "count": 1062,
+      "weight": 0.3679,
+      "viability": [6, 72, 72, 65],
+      "abilities": {"Snow Cloak": 0.8983, "Cursed Body": 0.1017},
+      "items": {
+        "Choice Scarf": 0.9944,
+        "Leftovers": 0.0037,
+        "Babiri Berry": 0.0019
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Timid:0/0/0/252/0/252": 0.8927,
+        "Timid:0/0/0/252/4/252": 0.1017,
+        "Hardy:0/0/0/252/0/252": 0.0051,
+        "Hardy:0/0/4/252/0/252": 0.0005
+      },
+      "moves": {
+        "Frost Breath": 0.9944,
+        "Destiny Bond": 0.5902,
+        "Helping Hand": 0.4885,
+        "Switcheroo": 0.4885,
+        "Shadow Ball": 0.4098,
+        "Thunderbolt": 0.4043,
+        "Ice Beam": 0.4042,
+        "Aurora Veil": 0.1017,
+        "Disable": 0.1017,
+        "Blizzard": 0.0056,
+        "Protect": 0.0056,
+        "Psychic": 0.0056
+      },
+      "teammates": {
+        "Tauros-Paldea-Fire": 0.2078,
+        "Flutter Mane": 0.2078,
+        "Torkoal": 0.2078,
+        "Abomasnow": 0.004,
+        "Amoonguss": 0.0037,
+        "Drifblim": 0.0037
+      },
+      "counters": {}
+    },
+    "Gastrodon": {
+      "lead": {"raw": 0.0045, "real": 0.0045, "weighted": 0.0215},
+      "usage": {"raw": 0.0181, "real": 0.0284, "weighted": 0.047},
+      "count": 1085,
+      "weight": 0.2187,
+      "viability": [10, 68, 68, 67],
+      "abilities": {"Storm Drain": 0.9856, "Sticky Hold": 0.0144},
+      "items": {"Life Orb": 0.9801, "Figy Berry": 0.0144, "Leftovers": 0.0054},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Relaxed:252/0/252/0/4/0": 0.9799,
+        "Calm:252/0/0/4/252/0": 0.0144,
+        "Modest:252/0/0/252/4/0": 0.0054,
+        "Sassy:252/4/0/0/252/0": 0.0002
+      },
+      "moves": {
+        "Earth Power": 0.9998,
+        "Recover": 0.9943,
+        "Clear Smog": 0.9853,
+        "Hydro Pump": 0.9799,
+        "Icy Wind": 0.0144,
+        "Stealth Rock": 0.0144,
+        "Yawn": 0.0054,
+        "Ancient Power": 0.0054,
+        "Ice Beam": 0.0002,
+        "Acid Armor": 0.0002,
+        "Helping Hand": 0.0002,
+        "Liquidation": 0.0002
+      },
+      "teammates": {
+        "Armarouge": 0.4471,
+        "Chien-Pao": 0.4471,
+        "Dragonite": 0.4471,
+        "Brute Bonnet": 0.0144,
+        "Mimikyu": 0.0144,
+        "Skeledirge": 0.0144,
+        "Oricorio-Sensu": 0.0041,
+        "Quagsire": 0.0041,
+        "Volcarona": 0.0041
+      },
+      "counters": {}
+    },
+    "Dudunsparce": {
+      "lead": {"raw": 0.0044, "real": 0.0044, "weighted": 0},
+      "usage": {"raw": 0.0129, "real": 0.0251, "weighted": 0.0419},
+      "count": 798,
+      "weight": 0.1955,
+      "viability": [4, 71, 71, 71],
+      "abilities": {"Serene Grace": 0.9416, "Rattled": 0.0584},
+      "items": {
+        "King's Rock": 0.8793,
+        "Choice Scarf": 0.0623,
+        "Weakness Policy": 0.0584
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:248/4/4/0/4/248": 0.8793,
+        "Jolly:4/252/0/0/0/252": 0.0623,
+        "Modest:0/0/0/252/4/252": 0.0584
+      },
+      "moves": {
+        "Bite": 0.8793,
+        "Glare": 0.8793,
+        "Headbutt": 0.8793,
+        "Roost": 0.8793,
+        "Heavy Slam": 0.0623,
+        "Hyper Drill": 0.0623,
+        "Ice Spinner": 0.0623,
+        "Rock Slide": 0.0623,
+        "Air Slash": 0.0584,
+        "Boomburst": 0.0584,
+        "Protect": 0.0584,
+        "Shadow Ball": 0.0584
+      },
+      "teammates": {
+        "Iron Hands": 0.714,
+        "Iron Valiant": 0.714,
+        "Spiritomb": 0.714,
+        "Amoonguss": 0.0205,
+        "Maushold": 0.0205,
+        "Veluza": 0.0205
+      },
+      "counters": {}
+    },
+    "Wo-Chien": {
+      "lead": {"raw": 0.0051, "real": 0.0051, "weighted": 0.0088},
+      "usage": {"raw": 0.0194, "real": 0.0383, "weighted": 0.041},
+      "count": 1130,
+      "weight": 0.195,
+      "viability": [6, 69, 69, 65],
+      "abilities": {"Tablets of Ruin": 1},
+      "items": {"Leftovers": 0.7834, "Aguav Berry": 0.2166},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Bold:252/0/252/0/4/0": 0.7834,
+        "Sassy:252/4/0/0/252/0": 0.2166
+      },
+      "moves": {
+        "Pollen Puff": 1,
+        "Giga Drain": 0.7834,
+        "Leech Seed": 0.7834,
+        "Mud Shot": 0.6418,
+        "Knock Off": 0.2166,
+        "Protect": 0.2166,
+        "Seed Bomb": 0.2166,
+        "Snarl": 0.1415
+      },
+      "teammates": {
+        "Ting-Lu": 0.3035,
+        "Iron Treads": 0.2017,
+        "Slowbro": 0.2017,
+        "Brute Bonnet": 0.1678,
+        "Farigiraf": 0.1678,
+        "Torkoal": 0.1678,
+        "Chi-Yu": 0.1018,
+        "Chien-Pao": 0.1018
+      },
+      "counters": {}
+    },
+    "Quaquaval": {
+      "lead": {"raw": 0.006, "real": 0.006, "weighted": 0.0145},
+      "usage": {"raw": 0.0257, "real": 0.0356, "weighted": 0.0357},
+      "count": 1803,
+      "weight": 0.1148,
+      "viability": [13, 73, 73, 55],
+      "abilities": {"Moxie": 1},
+      "items": {
+        "Weakness Policy": 0.484,
+        "Life Orb": 0.4669,
+        "Figy Berry": 0.0491
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.9887,
+        "Jolly:4/252/0/0/0/252": 0.0113
+      },
+      "moves": {
+        "Aqua Step": 0.9887,
+        "Ice Spinner": 0.5477,
+        "Close Combat": 0.516,
+        "Brave Bird": 0.5014,
+        "Wave Crash": 0.4953,
+        "Acrobatics": 0.484,
+        "Detect": 0.4523,
+        "Protect": 0.0146
+      },
+      "teammates": {
+        "Ceruledge": 0.7067,
+        "Brute Bonnet": 0.4523,
+        "Grimmsnarl": 0.4523,
+        "Meowscarada": 0.2578,
+        "Roaring Moon": 0.2545,
+        "Espeon": 0.0113,
+        "Flutter Mane": 0.0113,
+        "Sableye": 0.0113,
+        "Houndstone": 0.0033,
+        "Skeledirge": 0.0033
+      },
+      "counters": {}
+    },
+    "Brambleghast": {
+      "lead": {"raw": 0.0084, "real": 0.0084, "weighted": 0.0074},
+      "usage": {"raw": 0.0255, "real": 0.0574, "weighted": 0.0353},
+      "count": 1625,
+      "weight": 0.1022,
+      "viability": [14, 71, 71, 59],
+      "abilities": {"Wind Rider": 0.9556, "Infiltrator": 0.0444},
+      "items": {
+        "Life Orb": 0.8342,
+        "Sitrus Berry": 0.0929,
+        "Choice Band": 0.0444,
+        "Leftovers": 0.0124,
+        "Yache Berry": 0.0123,
+        "Power Herb": 0.0038
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:0/252/0/0/4/252": 0.5967,
+        "Jolly:0/252/0/0/4/252": 0.3104,
+        "Jolly:252/252/0/0/0/0": 0.0929
+      },
+      "moves": {
+        "Phantom Force": 0.8947,
+        "Protect": 0.8167,
+        "Power Whip": 0.7778,
+        "Giga Impact": 0.5967,
+        "Seed Bomb": 0.2666,
+        "Shadow Sneak": 0.2317,
+        "Facade": 0.1548,
+        "Curse": 0.1121,
+        "Trailblaze": 0.0929,
+        "Strength Sap": 0.0398,
+        "Leech Seed": 0.0124,
+        "Solar Beam": 0.0038
+      },
+      "teammates": {
+        "Talonflame": 0.5159,
+        "Kilowattrel": 0.4828,
+        "Great Tusk": 0.4091,
+        "Armarouge": 0.103,
+        "Dachsbun": 0.103,
+        "Maushold": 0.0721,
+        "Chien-Pao": 0.069,
+        "Iron Hands": 0.0539,
+        "Pelipper": 0.0461,
+        "Toxicroak": 0.0461,
+        "Bruxish": 0.0183,
+        "Indeedee-F": 0.0183,
+        "Drifblim": 0.0151,
+        "Dondozo": 0.0038,
+        "Tatsugiri": 0.0038
+      },
+      "counters": {}
+    },
+    "Kilowattrel": {
+      "lead": {"raw": 0.01, "real": 0.01, "weighted": 0.0106},
+      "usage": {"raw": 0.0364, "real": 0.0574, "weighted": 0.0347},
+      "count": 2619,
+      "weight": 0.1016,
+      "viability": [16, 71, 71, 59],
+      "abilities": {"Wind Power": 0.7765, "Volt Absorb": 0.2235},
+      "items": {
+        "Covert Cloak": 0.4744,
+        "Aguav Berry": 0.2235,
+        "Nothing": 0.1399,
+        "Life Orb": 0.0989,
+        "Leftovers": 0.0259,
+        "Choice Specs": 0.0254,
+        "Sitrus Berry": 0.012
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Timid:0/0/0/252/4/252": 0.7765,
+        "Timid:4/0/0/252/0/252": 0.2235
+      },
+      "moves": {
+        "Thunderbolt": 0.7613,
+        "Weather Ball": 0.5635,
+        "Thunder": 0.5635,
+        "Tailwind": 0.4841,
+        "Hurricane": 0.4744,
+        "Air Slash": 0.4365,
+        "Volt Switch": 0.2235,
+        "Roost": 0.2009,
+        "Discharge": 0.1399,
+        "Protect": 0.1305,
+        "Thunder Wave": 0.012,
+        "Electro Ball": 0.0098
+      },
+      "teammates": {
+        "Brambleghast": 0.3839,
+        "Great Tusk": 0.3253,
+        "Talonflame": 0.3253,
+        "Maushold": 0.132,
+        "Dondozo": 0.0708,
+        "Tatsugiri": 0.0708,
+        "Garchomp": 0.0611,
+        "Tauros-Paldea-Fire": 0.0611,
+        "Pelipper": 0.0367,
+        "Toxicroak": 0.0367,
+        "Chien-Pao": 0.012,
+        "Drifblim": 0.012
+      },
+      "counters": {}
+    },
+    "Tinkaton": {
+      "lead": {"raw": 0.0162, "real": 0.0162, "weighted": 0.0037},
+      "usage": {"raw": 0.0558, "real": 0.0847, "weighted": 0.0332},
+      "count": 3386,
+      "weight": 0.065,
+      "viability": [14, 67, 67, 58],
+      "abilities": {"Own Tempo": 0.6799, "Mold Breaker": 0.3201},
+      "items": {
+        "Sitrus Berry": 0.3972,
+        "Shuca Berry": 0.2696,
+        "Air Balloon": 0.224,
+        "Life Orb": 0.0588,
+        "Rocky Helmet": 0.03,
+        "Expert Belt": 0.0203,
+        "Heavy-Duty Boots": 0.0001
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.5139,
+        "Adamant:252/252/0/0/0/0": 0.3972,
+        "Hasty:0/252/0/4/0/252": 0.0588,
+        "Hardy:0/132/124/0/0/252": 0.03,
+        "Hardy:252/252/0/0/0/0": 0.0001
+      },
+      "moves": {
+        "Gigaton Hammer": 0.9999,
+        "Fake Out": 0.8909,
+        "Play Rough": 0.7101,
+        "Protect": 0.6213,
+        "Knock Off": 0.2899,
+        "Helping Hand": 0.2696,
+        "Ice Hammer": 0.0588,
+        "Tera Blast": 0.0588,
+        "Reflect": 0.03,
+        "Rock Slide": 0.03,
+        "Foul Play": 0.0203,
+        "Swords Dance": 0.0203,
+        "Brick Break": 0.0001
+      },
+      "teammates": {
+        "Lilligant": 0.1822,
+        "Roaring Moon": 0.1822,
+        "Torkoal": 0.1822,
+        "Hatterene": 0.1538,
+        "Iron Moth": 0.1538,
+        "Iron Hands": 0.0991,
+        "Dondozo": 0.0756,
+        "Tatsugiri": 0.0756,
+        "Amoonguss": 0.0623,
+        "Salamence": 0.0621,
+        "Spiritomb": 0.0621,
+        "Espathra": 0.0431,
+        "Gallade": 0.0415,
+        "Gengar": 0.0185,
+        "Klawf": 0.0139,
+        "Kingambit": 0.0132
+      },
+      "counters": {}
+    },
+    "Magnezone": {
+      "lead": {"raw": 0.0011, "real": 0.0011, "weighted": 0.0119},
+      "usage": {"raw": 0.0041, "real": 0.0066, "weighted": 0.0331},
+      "count": 241,
+      "weight": 0.4235,
+      "viability": [3, 75, 75, 75],
+      "abilities": {"Analytic": 1},
+      "items": {"Life Orb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Modest:248/0/0/252/8/0": 0.7606,
+        "Quiet:248/0/0/252/8/0": 0.2394
+      },
+      "moves": {
+        "Electroweb": 1,
+        "Flash Cannon": 1,
+        "Protect": 1,
+        "Thunderbolt": 1
+      },
+      "teammates": {
+        "Dondozo": 0.7264,
+        "Tatsugiri": 0.7264,
+        "Ampharos": 0.4871,
+        "Flutter Mane": 0.2394
+      },
+      "counters": {}
+    },
+    "Pachirisu": {
+      "lead": {"raw": 0.0027, "real": 0.0027, "weighted": 0.008},
+      "usage": {"raw": 0.011, "real": 0.0171, "weighted": 0.0328},
+      "count": 648,
+      "weight": 0.2218,
+      "viability": [3, 67, 67, 67],
+      "abilities": {"Volt Absorb": 1},
+      "items": {"Sitrus Berry": 0.5324, "Air Balloon": 0.4676},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Impish:252/0/128/0/128/0": 0.5324,
+        "Timid:252/0/252/0/4/0": 0.4676
+      },
+      "moves": {
+        "Follow Me": 1,
+        "Nuzzle": 1,
+        "Super Fang": 1,
+        "Helping Hand": 0.5324,
+        "Baby-Doll Eyes": 0.4676
+      },
+      "teammates": {
+        "Cetitan": 0.3261,
+        "Great Tusk": 0.3261,
+        "Iron Bundle": 0.3261,
+        "Flutter Mane": 0.1111,
+        "Garchomp": 0.1111,
+        "Sudowoodo": 0.1111
+      },
+      "counters": {}
+    },
+    "Tyranitar": {
+      "lead": {"raw": 0.0066, "real": 0.0066, "weighted": 0},
+      "usage": {"raw": 0.0309, "real": 0.0391, "weighted": 0.0318},
+      "count": 1906,
+      "weight": 0.1065,
+      "viability": [14, 65, 65, 59],
+      "abilities": {"Sand Stream": 0.7695, "Unnerve": 0.2305},
+      "items": {"Weakness Policy": 0.7695, "Assault Vest": 0.2305},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:252/252/0/0/4/0": 0.5281,
+        "Adamant:100/252/64/0/92/0": 0.2414,
+        "Adamant:216/40/0/0/252/0": 0.2305
+      },
+      "moves": {
+        "Crunch": 1,
+        "Protect": 0.5281,
+        "Rock Slide": 0.5281,
+        "Dragon Dance": 0.4719,
+        "Stone Edge": 0.4719,
+        "Earthquake": 0.2823,
+        "Thunder Punch": 0.2458,
+        "Bulldoze": 0.2414,
+        "Focus Blast": 0.2305
+      },
+      "teammates": {
+        "Great Tusk": 0.6062,
+        "Chien-Pao": 0.4204,
+        "Mimikyu": 0.4204,
+        "Garchomp": 0.1858,
+        "Torkoal": 0.1858
+      },
+      "counters": {}
+    },
+    "Cetitan": {
+      "lead": {"raw": 0.006, "real": 0.006, "weighted": 0.0046},
+      "usage": {"raw": 0.024, "real": 0.0413, "weighted": 0.0314},
+      "count": 1620,
+      "weight": 0.0966,
+      "viability": [6, 62, 62, 59],
+      "abilities": {"Sheer Force": 0.9053, "Thick Fat": 0.0947},
+      "items": {
+        "Life Orb": 0.8146,
+        "Assault Vest": 0.0946,
+        "Sitrus Berry": 0.0907,
+        "Leftovers": 0.0001
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:0/252/0/0/4/252": 0.8146,
+        "Naughty:248/252/0/8/0/0": 0.0946,
+        "Jolly:252/252/0/0/0/4": 0.0907,
+        "Careful:0/0/252/0/252/4": 0.0001
+      },
+      "moves": {
+        "Icicle Crash": 0.9053,
+        "Protect": 0.8147,
+        "Liquidation": 0.8146,
+        "Play Rough": 0.8146,
+        "Ice Shard": 0.1853,
+        "Ice Punch": 0.0946,
+        "Stomping Tantrum": 0.0946,
+        "Tera Blast": 0.0946,
+        "Belly Drum": 0.0907,
+        "Earthquake": 0.0907,
+        "Endure": 0.0001,
+        "Helping Hand": 0.0001,
+        "Yawn": 0.0001
+      },
+      "teammates": {
+        "Great Tusk": 0.568,
+        "Iron Bundle": 0.568,
+        "Pachirisu": 0.568,
+        "Arboliva": 0.0907,
+        "Cyclizar": 0.0907,
+        "Slowking": 0.0907,
+        "Appletun": 0.0699,
+        "Iron Treads": 0.0699,
+        "Pincurchin": 0.0699
+      },
+      "counters": {}
+    },
+    "Iron Bundle": {
+      "lead": {"raw": 0.0091, "real": 0.0091, "weighted": 0.0003},
+      "usage": {"raw": 0.0315, "real": 0.0554, "weighted": 0.031},
+      "count": 2520,
+      "weight": 0.1287,
+      "viability": [6, 64, 64, 62],
+      "abilities": {"Quark Drive": 1},
+      "items": {
+        "Icy Rock": 0.661,
+        "Choice Specs": 0.3208,
+        "Booster Energy": 0.0182
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Timid:252/0/0/0/4/252": 0.661,
+        "Timid:0/0/0/252/4/252": 0.3208,
+        "Modest:0/0/0/252/0/252": 0.0182
+      },
+      "moves": {
+        "Protect": 0.6792,
+        "Chilling Water": 0.661,
+        "Snowscape": 0.661,
+        "Icy Wind": 0.6211,
+        "Helping Hand": 0.3607,
+        "Blizzard": 0.339,
+        "Hydro Pump": 0.339,
+        "Air Cutter": 0.1856,
+        "Freeze-Dry": 0.1534
+      },
+      "teammates": {
+        "Great Tusk": 0.537,
+        "Cetitan": 0.4754,
+        "Pachirisu": 0.4754,
+        "Abomasnow": 0.0679,
+        "Torkoal": 0.0616,
+        "Maushold": 0.0594,
+        "Meowscarada": 0.0594,
+        "Hawlucha": 0.0182,
+        "Baxcalibur": 0.0063,
+        "Grimmsnarl": 0.0063
+      },
+      "counters": {}
+    },
+    "Indeedee-F": {
+      "lead": {"raw": 0.014, "real": 0.014, "weighted": 0.0122},
+      "usage": {"raw": 0.0477, "real": 0.0973, "weighted": 0.0294},
+      "count": 3472,
+      "weight": 0.1582,
+      "viability": [12, 71, 71, 57],
+      "abilities": {"Psychic Surge": 1},
+      "items": {
+        "Colbur Berry": 0.7592,
+        "Psychic Seed": 0.1182,
+        "Aguav Berry": 0.0464,
+        "Covert Cloak": 0.0448,
+        "Leftovers": 0.0313
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Bold:252/0/252/0/0/4": 0.7592,
+        "Bold:252/0/252/0/4/0": 0.1182,
+        "Timid:248/0/0/8/0/252": 0.0464,
+        "Modest:252/0/252/0/4/0": 0.0448,
+        "Timid:196/0/0/60/0/252": 0.031,
+        "Bold:4/0/252/0/252/0": 0.0003
+      },
+      "moves": {
+        "Follow Me": 0.969,
+        "Helping Hand": 0.8774,
+        "Fake Out": 0.7592,
+        "Psyshock": 0.4991,
+        "Psychic": 0.4232,
+        "Protect": 0.2408,
+        "Heal Pulse": 0.0774,
+        "Shadow Ball": 0.0761,
+        "Hyper Voice": 0.0464,
+        "Reflect": 0.031,
+        "Dazzling Gleam": 0.0003
+      },
+      "teammates": {
+        "Armarouge": 0.4995,
+        "Flutter Mane": 0.4995,
+        "Iron Valiant": 0.4995,
+        "Maushold": 0.0641,
+        "Roaring Moon": 0.0448,
+        "Torkoal": 0.0448,
+        "Brambleghast": 0.0191,
+        "Bruxish": 0.0191,
+        "Toxtricity": 0.0124,
+        "Breloom": 0.0002
+      },
+      "counters": {}
+    },
+    "Talonflame": {
+      "lead": {"raw": 0.0072, "real": 0.0072, "weighted": 0.0113},
+      "usage": {"raw": 0.0283, "real": 0.0433, "weighted": 0.0276},
+      "count": 2053,
+      "weight": 0.1269,
+      "viability": [10, 71, 71, 65],
+      "abilities": {"Gale Wings": 1},
+      "items": {
+        "Covert Cloak": 0.8136,
+        "Mental Herb": 0.1252,
+        "Choice Scarf": 0.0349,
+        "Leftovers": 0.0221,
+        "Figy Berry": 0.0042
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/4/0/0/252": 0.6534,
+        "Jolly:0/252/0/0/4/252": 0.2173,
+        "Timid:248/0/0/0/8/252": 0.1252,
+        "Naive:0/252/0/4/0/252": 0.0042
+      },
+      "moves": {
+        "Tailwind": 1,
+        "Brave Bird": 0.9388,
+        "Flare Blitz": 0.8706,
+        "Rain Dance": 0.6534,
+        "Roost": 0.1822,
+        "Protect": 0.1602,
+        "Will-O-Wisp": 0.1252,
+        "Acrobatics": 0.0612,
+        "Fly": 0.0042,
+        "Overheat": 0.0042
+      },
+      "teammates": {
+        "Brambleghast": 0.5649,
+        "Great Tusk": 0.448,
+        "Kilowattrel": 0.448,
+        "Armarouge": 0.1128,
+        "Dachsbun": 0.1128,
+        "Dondozo": 0.0042,
+        "Tatsugiri": 0.0042
+      },
+      "counters": {}
+    },
+    "Farigiraf": {
+      "lead": {"raw": 0.0063, "real": 0.0063, "weighted": 0.0136},
+      "usage": {"raw": 0.0178, "real": 0.0418, "weighted": 0.0272},
+      "count": 1026,
+      "weight": 0.061,
+      "viability": [5, 65, 65, 65],
+      "abilities": {
+        "Armor Tail": 0.7343,
+        "Cud Chew": 0.2135,
+        "Sap Sipper": 0.0522
+      },
+      "items": {
+        "Covert Cloak": 0.4275,
+        "Room Service": 0.3068,
+        "Petaya Berry": 0.2135,
+        "Leftovers": 0.0522
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Sassy:252/0/4/0/252/0": 0.4068,
+        "Modest:252/0/0/252/4/0": 0.3068,
+        "Modest:252/0/76/104/76/0": 0.1436,
+        "Calm:252/0/4/0/252/0": 0.0729,
+        "Modest:72/0/128/180/128/0": 0.0699
+      },
+      "moves": {
+        "Helping Hand": 0.7343,
+        "Trick Room": 0.7136,
+        "Psychic": 0.5203,
+        "Night Shade": 0.4275,
+        "Rain Dance": 0.4275,
+        "Shadow Ball": 0.3068,
+        "Dazzling Gleam": 0.2135,
+        "Grass Knot": 0.2135,
+        "Nasty Plot": 0.2135,
+        "Energy Ball": 0.0522,
+        "Mirror Coat": 0.0522,
+        "Skill Swap": 0.0522,
+        "Wish": 0.0522,
+        "Light Screen": 0.0207
+      },
+      "teammates": {
+        "Torkoal": 0.4017,
+        "Brute Bonnet": 0.3311,
+        "Wo-Chien": 0.3311,
+        "Spiritomb": 0.1645,
+        "Maushold": 0.0706,
+        "Roaring Moon": 0.0706,
+        "Arcanine": 0.0522,
+        "Baxcalibur": 0.0522,
+        "Gallade": 0.0522
+      },
+      "counters": {}
+    },
+    "Oranguru": {
+      "lead": {"raw": 0.0123, "real": 0.0123, "weighted": 0},
+      "usage": {"raw": 0.0436, "real": 0.0977, "weighted": 0.0267},
+      "count": 2730,
+      "weight": 0.096,
+      "viability": [6, 72, 72, 66],
+      "abilities": {
+        "Symbiosis": 0.5942,
+        "Inner Focus": 0.2334,
+        "Telepathy": 0.1723
+      },
+      "items": {
+        "Life Orb": 0.5942,
+        "Focus Band": 0.2334,
+        "Mental Herb": 0.1723
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Relaxed:252/0/252/0/4/0": 0.4505,
+        "Sassy:248/0/8/0/252/0": 0.2334,
+        "Sassy:248/8/0/0/252/0": 0.1723,
+        "Bold:252/0/252/0/4/0": 0.1438
+      },
+      "moves": {
+        "Instruct": 1,
+        "Trick Room": 1,
+        "Psychic": 0.5942,
+        "Hyper Voice": 0.5942,
+        "Protect": 0.4058,
+        "Foul Play": 0.2334,
+        "Bulldoze": 0.1723
+      },
+      "teammates": {
+        "Flutter Mane": 0.3469,
+        "Iron Hands": 0.3469,
+        "Torkoal": 0.3469,
+        "Bellibolt": 0.0948
+      },
+      "counters": {}
+    },
+    "Annihilape": {
+      "lead": {"raw": 0.0231, "real": 0.0231, "weighted": 0},
+      "usage": {"raw": 0.0796, "real": 0.1142, "weighted": 0.0265},
+      "count": 5277,
+      "weight": 0.0515,
+      "viability": [17, 72, 72, 55],
+      "abilities": {
+        "Defiant": 0.7737,
+        "Vital Spirit": 0.2056,
+        "Inner Focus": 0.0207
+      },
+      "items": {
+        "Assault Vest": 0.6821,
+        "Expert Belt": 0.1528,
+        "Aguav Berry": 0.0916,
+        "Nothing": 0.0521,
+        "Choice Band": 0.0147,
+        "Life Orb": 0.0066
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.6672,
+        "Naive:4/252/0/0/0/252": 0.1528,
+        "Jolly:0/252/0/0/0/252": 0.0916,
+        "Hardy:252/252/0/0/0/4": 0.0513,
+        "Jolly:4/252/0/0/0/252": 0.0207,
+        "Adamant:248/252/0/0/8/0": 0.0164
+      },
+      "moves": {
+        "Close Combat": 0.9472,
+        "Phantom Force": 0.8392,
+        "Fire Punch": 0.758,
+        "Rage Fist": 0.6664,
+        "Tera Blast": 0.1571,
+        "Protect": 0.1551,
+        "Earthquake": 0.1057,
+        "Ice Punch": 0.0916,
+        "Body Slam": 0.0685,
+        "Acrobatics": 0.0521,
+        "Brick Break": 0.0521,
+        "Bulk Up": 0.0513,
+        "Poison Jab": 0.0207,
+        "Thunder Punch": 0.0164,
+        "U-turn": 0.0164,
+        "Bulldoze": 0.0008,
+        "Drain Punch": 0.0007,
+        "Night Slash": 0.0007
+      },
+      "teammates": {
+        "Dondozo": 0.7573,
+        "Tatsugiri": 0.7573,
+        "Cloyster": 0.6657,
+        "Bellibolt": 0.0916,
+        "Azumarill": 0.0914,
+        "Eelektross": 0.0914,
+        "Iron Treads": 0.0914,
+        "Chi-Yu": 0.0093,
+        "Flutter Mane": 0.0093,
+        "Garganacl": 0.0093
+      },
+      "counters": {}
+    },
+    "Ting-Lu": {
+      "lead": {"raw": 0.007, "real": 0.007, "weighted": 0.0083},
+      "usage": {"raw": 0.0229, "real": 0.0352, "weighted": 0.0264},
+      "count": 1449,
+      "weight": 0.3535,
+      "viability": [6, 72, 72, 69],
+      "abilities": {"Vessel of Ruin": 1},
+      "items": {
+        "Rocky Helmet": 0.737,
+        "Assault Vest": 0.1619,
+        "Weakness Policy": 0.1011
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Careful:252/0/4/0/252/0": 0.6039,
+        "Impish:252/4/252/0/0/0": 0.1619,
+        "Sassy:252/0/4/0/252/0": 0.1332,
+        "Careful:252/4/0/0/252/0": 0.1011
+      },
+      "moves": {
+        "Heavy Slam": 1,
+        "Earthquake": 0.8989,
+        "Rest": 0.737,
+        "Snarl": 0.737,
+        "Body Press": 0.1619,
+        "Throat Chop": 0.1619,
+        "Payback": 0.1011,
+        "Protect": 0.1011,
+        "Stomping Tantrum": 0.1011
+      },
+      "teammates": {
+        "Wo-Chien": 0.2856,
+        "Iron Treads": 0.1898,
+        "Slowbro": 0.1898,
+        "Chi-Yu": 0.0958,
+        "Chien-Pao": 0.0958
+      },
+      "counters": {}
+    },
+    "Slowbro": {
+      "lead": {"raw": 0.001, "real": 0.001, "weighted": 0.0093},
+      "usage": {"raw": 0.0028, "real": 0.0039, "weighted": 0.0247},
+      "count": 149,
+      "weight": 0.4581,
+      "viability": [3, 69, 69, 69],
+      "abilities": {"Oblivious": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Calm:252/0/0/4/252/0": 1},
+      "moves": {
+        "Calm Mind": 1,
+        "Iron Defense": 1,
+        "Psychic": 1,
+        "Slack Off": 1
+      },
+      "teammates": {
+        "Iron Treads": 0.2489,
+        "Ting-Lu": 0.2489,
+        "Wo-Chien": 0.2489,
+        "Armarouge": 0.1016,
+        "Chien-Pao": 0.1016,
+        "Dragonite": 0.1016
+      },
+      "counters": {}
+    },
+    "Meowscarada": {
+      "lead": {"raw": 0.014, "real": 0.014, "weighted": 0.0131},
+      "usage": {"raw": 0.0566, "real": 0.0653, "weighted": 0.0242},
+      "count": 4369,
+      "weight": 0.044,
+      "viability": [21, 65, 65, 61],
+      "abilities": {"Protean": 1},
+      "items": {
+        "Life Orb": 0.7654,
+        "Choice Scarf": 0.1781,
+        "Clear Amulet": 0.0558,
+        "Wide Lens": 0.0006
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:4/252/0/0/0/252": 0.6207,
+        "Jolly:0/252/0/0/4/252": 0.3787,
+        "Adamant:4/252/0/0/0/252": 0.0006,
+        "Adamant:0/192/68/0/92/155": 0.0001
+      },
+      "moves": {
+        "Flower Trick": 0.9993,
+        "Play Rough": 0.8092,
+        "Knock Off": 0.8043,
+        "U-turn": 0.8002,
+        "Sucker Punch": 0.1957,
+        "Protect": 0.1908,
+        "Brick Break": 0.1343,
+        "Acrobatics": 0.0558,
+        "Shadow Claw": 0.009,
+        "Charm": 0.0006,
+        "Copycat": 0.0006
+      },
+      "teammates": {
+        "Ceruledge": 0.2895,
+        "Roaring Moon": 0.2895,
+        "Quaquaval": 0.2189,
+        "Great Tusk": 0.0734,
+        "Maushold": 0.0528,
+        "Iron Bundle": 0.0525,
+        "Flutter Mane": 0.0358,
+        "Pawmot": 0.0358,
+        "Scizor": 0.0358,
+        "Corviknight": 0.0345,
+        "Iron Moth": 0.0345,
+        "Raichu": 0.0345,
+        "Hawlucha": 0.0161,
+        "Houndstone": 0.0028,
+        "Skeledirge": 0.0028,
+        "Mimikyu": 0.0003,
+        "Zoroark": 0.0002,
+        "Grafaiai": 0.0001
+      },
+      "counters": {}
+    },
+    "Raichu": {
+      "lead": {"raw": 0.0018, "real": 0.0018, "weighted": 0.002},
+      "usage": {"raw": 0.0074, "real": 0.0121, "weighted": 0.0236},
+      "count": 496,
+      "weight": 0.2305,
+      "viability": [5, 73, 73, 73],
+      "abilities": {"Lightning Rod": 1},
+      "items": {"Shuca Berry": 0.869, "Iapapa Berry": 0.131},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Hasty:0/252/0/4/0/252": 0.869,
+        "Jolly:60/0/196/0/0/252": 0.131
+      },
+      "moves": {
+        "Fake Out": 1,
+        "Helping Hand": 0.869,
+        "Quick Attack": 0.869,
+        "Thunderbolt": 0.869,
+        "Charm": 0.131,
+        "Eerie Impulse": 0.131,
+        "Nuzzle": 0.131
+      },
+      "teammates": {
+        "Dondozo": 0.869,
+        "Flutter Mane": 0.869,
+        "Tatsugiri": 0.869,
+        "Corviknight": 0.081,
+        "Iron Moth": 0.081,
+        "Meowscarada": 0.081
+      },
+      "counters": {}
+    },
+    "Mimikyu": {
+      "lead": {"raw": 0.009, "real": 0.009, "weighted": 0.0192},
+      "usage": {"raw": 0.0252, "real": 0.0554, "weighted": 0.0235},
+      "count": 1456,
+      "weight": 0.051,
+      "viability": [7, 63, 63, 57],
+      "abilities": {"Disguise": 1},
+      "items": {
+        "Sitrus Berry": 0.8774,
+        "Life Orb": 0.0631,
+        "Aguav Berry": 0.058,
+        "Wide Lens": 0.0015
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:252/4/0/0/0/252": 0.8774,
+        "Brave:0/252/92/0/164/0": 0.0631,
+        "Adamant:252/140/116/0/0/0": 0.058,
+        "Jolly:0/236/20/0/0/252": 0.0015
+      },
+      "moves": {
+        "Play Rough": 0.9985,
+        "Protect": 0.9405,
+        "Shadow Sneak": 0.9354,
+        "Will-O-Wisp": 0.9354,
+        "Trick Room": 0.1211,
+        "Shadow Claw": 0.0631,
+        "Copycat": 0.0015,
+        "Destiny Bond": 0.0015,
+        "Drain Punch": 0.0015,
+        "Mimic": 0.0015
+      },
+      "teammates": {
+        "Chien-Pao": 0.8774,
+        "Great Tusk": 0.8774,
+        "Tyranitar": 0.8774,
+        "Brute Bonnet": 0.058,
+        "Gastrodon": 0.058,
+        "Skeledirge": 0.058,
+        "Maushold": 0.0006,
+        "Meowscarada": 0.0006,
+        "Zoroark": 0.0004,
+        "Grafaiai": 0.0002
+      },
+      "counters": {}
+    },
+    "Iron Treads": {
+      "lead": {"raw": 0.0031, "real": 0.0031, "weighted": 0.0018},
+      "usage": {"raw": 0.0125, "real": 0.0207, "weighted": 0.0234},
+      "count": 1033,
+      "weight": 0.151,
+      "viability": [10, 69, 69, 64],
+      "abilities": {"Quark Drive": 1},
+      "items": {
+        "Booster Energy": 0.8422,
+        "Magnet": 0.0847,
+        "Electric Seed": 0.0731
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.9153,
+        "Rash:0/252/0/252/0/0": 0.0847
+      },
+      "moves": {
+        "Earthquake": 0.9269,
+        "Ice Spinner": 0.9153,
+        "Heavy Slam": 0.8422,
+        "Megahorn": 0.8422,
+        "Protect": 0.1578,
+        "Iron Head": 0.0847,
+        "Wild Charge": 0.0847,
+        "Smart Strike": 0.0731,
+        "Stomping Tantrum": 0.0731
+      },
+      "teammates": {
+        "Slowbro": 0.3146,
+        "Ting-Lu": 0.3146,
+        "Wo-Chien": 0.3146,
+        "Appletun": 0.054,
+        "Cetitan": 0.054,
+        "Pincurchin": 0.054,
+        "Annihilape": 0.0507,
+        "Azumarill": 0.0507,
+        "Eelektross": 0.0507
+      },
+      "counters": {}
+    },
+    "Grimmsnarl": {
+      "lead": {"raw": 0.0125, "real": 0.0125, "weighted": 0.0001},
+      "usage": {"raw": 0.0465, "real": 0.0783, "weighted": 0.0229},
+      "count": 2710,
+      "weight": 0.0403,
+      "viability": [11, 73, 73, 55],
+      "abilities": {"Prankster": 1},
+      "items": {
+        "Safety Goggles": 0.9492,
+        "Iron Ball": 0.0398,
+        "Lagging Tail": 0.011
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Careful:252/4/0/0/252/0": 0.9492,
+        "Careful:252/0/252/0/4/0": 0.0398,
+        "Hardy:120/68/136/52/88/44": 0.011
+      },
+      "moves": {
+        "Light Screen": 1,
+        "Reflect": 1,
+        "Parting Shot": 0.9492,
+        "Spirit Break": 0.9492,
+        "Trick": 0.0508,
+        "Fake Out": 0.0398,
+        "Body Press": 0.011
+      },
+      "teammates": {
+        "Brute Bonnet": 0.9492,
+        "Ceruledge": 0.9492,
+        "Quaquaval": 0.9492,
+        "Abomasnow": 0.0138,
+        "Baxcalibur": 0.0138,
+        "Iron Bundle": 0.0138,
+        "Torkoal": 0.0104,
+        "Arcanine": 0.0103,
+        "Dragonite": 0.0059,
+        "Gyarados": 0.0045,
+        "Goodra": 0.0001
+      },
+      "counters": {}
+    },
+    "Gyarados": {
+      "lead": {"raw": 0.0047, "real": 0.0047, "weighted": 0.0003},
+      "usage": {"raw": 0.0168, "real": 0.0257, "weighted": 0.0228},
+      "count": 988,
+      "weight": 0.0697,
+      "viability": [6, 62, 62, 59],
+      "abilities": {"Intimidate": 1},
+      "items": {
+        "Choice Band": 0.9769,
+        "Air Balloon": 0.0199,
+        "Life Orb": 0.0031
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:76/252/100/0/80/0": 0.9769,
+        "Hasty:0/252/0/4/0/252": 0.0199,
+        "Hardy:88/140/108/0/80/92": 0.0031,
+        "Hardy:88/100/48/76/60/136": 0.0001
+      },
+      "moves": {
+        "Earthquake": 0.9969,
+        "Ice Fang": 0.9769,
+        "Outrage": 0.9769,
+        "Waterfall": 0.9769,
+        "Protect": 0.0231,
+        "Dragon Dance": 0.0231,
+        "Hurricane": 0.0199,
+        "Hydro Pump": 0.0031,
+        "Blizzard": 0.0025,
+        "Hyper Beam": 0.0007
+      },
+      "teammates": {
+        "Garchomp": 0.5685,
+        "Iron Hands": 0.5685,
+        "Breloom": 0.4091,
+        "Bronzong": 0.1593,
+        "Altaria": 0.0199,
+        "Oricorio-Sensu": 0.0199,
+        "Volcarona": 0.0199,
+        "Grimmsnarl": 0.0027,
+        "Torkoal": 0.0027,
+        "Arcanine": 0.0027
+      },
+      "counters": {}
+    },
+    "Dugtrio": {
+      "lead": {"raw": 0.0015, "real": 0.0015, "weighted": 0.0079},
+      "usage": {"raw": 0.0046, "real": 0.0125, "weighted": 0.0225},
+      "count": 290,
+      "weight": 0.2612,
+      "viability": [4, 67, 67, 67],
+      "abilities": {"Sand Force": 0.7166, "Arena Trap": 0.2834},
+      "items": {"Soft Sand": 0.6361, "Choice Band": 0.2834, "Life Orb": 0.0804},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Sucker Punch": 0.9196,
+        "Earthquake": 0.7872,
+        "Rock Slide": 0.6361,
+        "Helping Hand": 0.4234,
+        "Rock Blast": 0.2834,
+        "Swords Dance": 0.2834,
+        "Stomping Tantrum": 0.2128,
+        "Stone Edge": 0.2128,
+        "Giga Impact": 0.0804,
+        "Night Slash": 0.0804,
+        "Protect": 0.0804
+      },
+      "teammates": {
+        "Flutter Mane": 0.4306,
+        "Torkoal": 0.4306,
+        "Toxapex": 0.4306,
+        "Chi-Yu": 0.1928,
+        "Dachsbun": 0.1928,
+        "Orthworm": 0.1928
+      },
+      "counters": {}
+    },
+    "Ampharos": {
+      "lead": {"raw": 0.0021, "real": 0.0021, "weighted": 0},
+      "usage": {"raw": 0.0105, "real": 0.0136, "weighted": 0.0223},
+      "count": 617,
+      "weight": 0.3231,
+      "viability": [4, 75, 75, 75],
+      "abilities": {"Static": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Modest:248/0/0/252/8/0": 0.9972,
+        "Calm:252/0/0/4/252/0": 0.0028
+      },
+      "moves": {
+        "Cotton Spore": 0.9972,
+        "Dazzling Gleam": 0.9972,
+        "Discharge": 0.9972,
+        "Helping Hand": 0.9972,
+        "Electroweb": 0.0028,
+        "Power Gem": 0.0028,
+        "Protect": 0.0028,
+        "Thunder Wave": 0.0028
+      },
+      "teammates": {
+        "Dondozo": 0.6385,
+        "Magnezone": 0.6385,
+        "Tatsugiri": 0.6385,
+        "Corviknight": 0.0028,
+        "Pawmot": 0.0028,
+        "Rabsca": 0.0028
+      },
+      "counters": {}
+    },
+    "Dachsbun": {
+      "lead": {"raw": 0.0067, "real": 0.0067, "weighted": 0.0021},
+      "usage": {"raw": 0.0225, "real": 0.0361, "weighted": 0.0222},
+      "count": 1396,
+      "weight": 0.0536,
+      "viability": [12, 65, 65, 53],
+      "abilities": {"Well-Baked Body": 1},
+      "items": {
+        "Life Orb": 0.7586,
+        "Assault Vest": 0.1952,
+        "Leftovers": 0.0462
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.9538,
+        "Careful:4/0/252/0/252/0": 0.046,
+        "Hardy:88/252/68/0/100/0": 0.0002
+      },
+      "moves": {
+        "Play Rough": 1,
+        "Body Press": 0.9538,
+        "Stomping Tantrum": 0.9538,
+        "Yawn": 0.7586,
+        "Ice Fang": 0.1952,
+        "Baton Pass": 0.046,
+        "Body Slam": 0.046,
+        "Work Up": 0.046,
+        "Crunch": 0.0002,
+        "Dig": 0.0002,
+        "Last Resort": 0.0002
+      },
+      "teammates": {
+        "Chi-Yu": 0.5236,
+        "Dondozo": 0.301,
+        "Tatsugiri": 0.301,
+        "Dugtrio": 0.2226,
+        "Orthworm": 0.2226,
+        "Armarouge": 0.1758,
+        "Brambleghast": 0.1758,
+        "Talonflame": 0.1758,
+        "Ceruledge": 0.0109,
+        "Ditto": 0.0109,
+        "Great Tusk": 0.0109
+      },
+      "counters": {}
+    },
+    "Pincurchin": {
+      "lead": {"raw": 0.0057, "real": 0.0057, "weighted": 0},
+      "usage": {"raw": 0.0222, "real": 0.0304, "weighted": 0.0214},
+      "count": 1676,
+      "weight": 0.1032,
+      "viability": [12, 63, 63, 62],
+      "abilities": {"Electric Surge": 1},
+      "items": {
+        "Electric Seed": 0.4338,
+        "Choice Scarf": 0.3707,
+        "Iapapa Berry": 0.0917,
+        "Life Orb": 0.0907,
+        "Choice Band": 0.0131
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Brave:252/92/0/0/164/0": 0.4338,
+        "Timid:0/0/0/252/4/252": 0.3707,
+        "Relaxed:252/4/252/0/0/0": 0.0917,
+        "Modest:252/0/0/252/4/0": 0.0907,
+        "Adamant:252/252/0/0/4/0": 0.0131
+      },
+      "moves": {
+        "Protect": 0.5255,
+        "Sucker Punch": 0.5255,
+        "Thunderbolt": 0.4614,
+        "Zing Zap": 0.4469,
+        "Chilling Water": 0.4338,
+        "Hex": 0.3707,
+        "Hydro Pump": 0.3707,
+        "Hyper Beam": 0.3707,
+        "Tera Blast": 0.1824,
+        "Recover": 0.0917,
+        "Discharge": 0.0907,
+        "Surf": 0.0907,
+        "Facade": 0.0131,
+        "Liquidation": 0.0131,
+        "Poison Jab": 0.0131
+      },
+      "teammates": {
+        "Flutter Mane": 0.2956,
+        "Iron Valiant": 0.2956,
+        "Torkoal": 0.2956,
+        "Iron Jugulis": 0.118,
+        "Iron Thorns": 0.118,
+        "Salamence": 0.118,
+        "Appletun": 0.0678,
+        "Cetitan": 0.0678,
+        "Iron Treads": 0.0678
+      },
+      "counters": {}
+    },
+    "Cloyster": {
+      "lead": {"raw": 0.0031, "real": 0.0031, "weighted": 0},
+      "usage": {"raw": 0.0111, "real": 0.0246, "weighted": 0.0206},
+      "count": 824,
+      "weight": 0.1337,
+      "viability": [5, 72, 72, 72],
+      "abilities": {"Skill Link": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Lax:248/8/252/0/0/0": 1},
+      "moves": {
+        "Chilling Water": 1,
+        "Icicle Spear": 1,
+        "Life Dew": 1,
+        "Rock Blast": 1
+      },
+      "teammates": {"Annihilape": 1, "Dondozo": 1, "Tatsugiri": 1},
+      "counters": {}
+    },
+    "Baxcalibur": {
+      "lead": {"raw": 0.0153, "real": 0.0153, "weighted": 0.0032},
+      "usage": {"raw": 0.0651, "real": 0.0941, "weighted": 0.0186},
+      "count": 4371,
+      "weight": 0.0398,
+      "viability": [24, 66, 66, 59],
+      "abilities": {"Thermal Exchange": 0.9669, "Ice Body": 0.0331},
+      "items": {
+        "Choice Scarf": 0.6174,
+        "Weakness Policy": 0.1442,
+        "Assault Vest": 0.1093,
+        "Choice Band": 0.0889,
+        "Leftovers": 0.0347,
+        "Mirror Herb": 0.0054
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.6174,
+        "Adamant:252/252/0/0/4/0": 0.1442,
+        "Adamant:20/236/252/0/0/0": 0.1093,
+        "Adamant:252/252/0/0/0/4": 0.0696,
+        "Adamant:252/252/4/0/0/0": 0.0331,
+        "Adamant:0/252/0/0/4/252": 0.0196,
+        "Naive:0/252/0/4/0/252": 0.0054,
+        "Hardy:0/168/204/0/0/136": 0.0012
+      },
+      "moves": {
+        "Glaive Rush": 1,
+        "Icicle Crash": 0.8459,
+        "Iron Head": 0.7603,
+        "Icicle Spear": 0.6174,
+        "Ice Shard": 0.2867,
+        "Brick Break": 0.1442,
+        "Crunch": 0.1147,
+        "Tera Blast": 0.0506,
+        "Thunder Fang": 0.0506,
+        "Zen Headbutt": 0.0336,
+        "Protect": 0.0331,
+        "Swords Dance": 0.0331,
+        "Nothing": 0.0152,
+        "Blizzard": 0.0066,
+        "Stomping Tantrum": 0.0054,
+        "Body Slam": 0.0012,
+        "Draco Meteor": 0.0012
+      },
+      "teammates": {
+        "Chien-Pao": 0.3279,
+        "Dondozo": 0.3279,
+        "Tatsugiri": 0.3279,
+        "Gallade": 0.1093,
+        "Maushold": 0.0609,
+        "Arcanine": 0.0588,
+        "Farigiraf": 0.0588,
+        "Garganacl": 0.0505,
+        "Revavroom": 0.0191,
+        "Abomasnow": 0.0175,
+        "Armarouge": 0.0092,
+        "Grimmsnarl": 0.0083,
+        "Iron Bundle": 0.0083,
+        "Amoonguss": 0.0012,
+        "Iron Hands": 0.0012
+      },
+      "counters": {}
+    },
+    "Iron Moth": {
+      "lead": {"raw": 0.0074, "real": 0.0074, "weighted": 0.0024},
+      "usage": {"raw": 0.0327, "real": 0.048, "weighted": 0.0182},
+      "count": 2541,
+      "weight": 0.0602,
+      "viability": [9, 65, 65, 62],
+      "abilities": {"Quark Drive": 1},
+      "items": {
+        "Booster Energy": 0.5286,
+        "Life Orb": 0.4219,
+        "Choice Band": 0.0269,
+        "Mirror Herb": 0.0226
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Timid:0/0/0/252/4/252": 0.689,
+        "Modest:0/0/0/252/4/252": 0.2079,
+        "Timid:4/0/0/252/0/252": 0.0763,
+        "Hardy:0/0/144/112/0/252": 0.0269
+      },
+      "moves": {
+        "Flamethrower": 0.689,
+        "Energy Ball": 0.4445,
+        "Psychic": 0.4445,
+        "Electric Terrain": 0.443,
+        "Dazzling Gleam": 0.2842,
+        "Heat Wave": 0.2842,
+        "Sludge Wave": 0.2842,
+        "Bug Buzz": 0.246,
+        "Hurricane": 0.2444,
+        "Tera Blast": 0.2444,
+        "Agility": 0.2348,
+        "Protect": 0.0763,
+        "Fiery Dance": 0.0269,
+        "Fire Blast": 0.0269,
+        "Substitute": 0.0269
+      },
+      "teammates": {
+        "Hatterene": 0.2527,
+        "Tinkaton": 0.2527,
+        "Iron Hands": 0.1629,
+        "Armarouge": 0.1002,
+        "Ceruledge": 0.1002,
+        "Chi-Yu": 0.1002,
+        "Gallade": 0.0681,
+        "Corviknight": 0.0472,
+        "Meowscarada": 0.0472,
+        "Raichu": 0.0472,
+        "Flapple": 0.0269,
+        "Lucario": 0.0269,
+        "Salamence": 0.0269,
+        "Kingambit": 0.0217
+      },
+      "counters": {}
+    },
+    "Breloom": {
+      "lead": {"raw": 0.0042, "real": 0.0042, "weighted": 0},
+      "usage": {"raw": 0.0182, "real": 0.029, "weighted": 0.0158},
+      "count": 1222,
+      "weight": 0.1109,
+      "viability": [6, 62, 62, 54],
+      "abilities": {"Technician": 1},
+      "items": {"Life Orb": 0.9994, "Loaded Dice": 0.0006},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:108/252/20/0/128/0": 0.9994,
+        "Adamant:4/252/0/0/0/252": 0.0006
+      },
+      "moves": {
+        "Bullet Seed": 1,
+        "Mach Punch": 1,
+        "Drain Punch": 0.9994,
+        "Rock Tomb": 0.9994,
+        "Close Combat": 0.0006,
+        "Protect": 0.0006
+      },
+      "teammates": {
+        "Garchomp": 0.5784,
+        "Gyarados": 0.5784,
+        "Iron Hands": 0.5784,
+        "Indeedee-F": 0.0004,
+        "Maushold": 0.0004
+      },
+      "counters": {}
+    },
+    "Toxapex": {
+      "lead": {"raw": 0.0041, "real": 0.0041, "weighted": 0},
+      "usage": {"raw": 0.0135, "real": 0.0204, "weighted": 0.0156},
+      "count": 711,
+      "weight": 0.2691,
+      "viability": [2, 67, 67, 67],
+      "abilities": {"Merciless": 1},
+      "items": {"Poison Barb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Careful:252/8/0/0/248/0": 1},
+      "moves": {
+        "Baneful Bunker": 1,
+        "Gunk Shot": 1,
+        "Liquidation": 1,
+        "Toxic": 1
+      },
+      "teammates": {
+        "Dugtrio": 0.5373,
+        "Flutter Mane": 0.5373,
+        "Torkoal": 0.5373
+      },
+      "counters": {}
+    },
+    "Clodsire": {
+      "lead": {"raw": 0.0145, "real": 0.0145, "weighted": 0.0002},
+      "usage": {"raw": 0.0476, "real": 0.0821, "weighted": 0.0148},
+      "count": 2671,
+      "weight": 0.057,
+      "viability": [10, 62, 62, 61],
+      "abilities": {"Poison Point": 0.9346, "Water Absorb": 0.0654},
+      "items": {"Choice Band": 0.9619, "Black Sludge": 0.0381},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:248/252/0/0/8/0": 0.9346,
+        "Impish:4/0/252/0/252/0": 0.0381,
+        "Brave:248/252/8/0/0/0": 0.0273
+      },
+      "moves": {
+        "Earthquake": 0.9619,
+        "Poison Jab": 0.9619,
+        "Stone Edge": 0.9619,
+        "Bulldoze": 0.9346,
+        "Body Press": 0.0381,
+        "Protect": 0.0381,
+        "Toxic": 0.0381,
+        "Yawn": 0.0381,
+        "Liquidation": 0.0273
+      },
+      "teammates": {
+        "Brute Bonnet": 0.5181,
+        "Glimmora": 0.5181,
+        "Hatterene": 0.5181,
+        "Arboliva": 0.0107,
+        "Pawmot": 0.0059,
+        "Great Tusk": 0.0048,
+        "Torkoal": 0.0048
+      },
+      "counters": {}
+    },
+    "Glimmora": {
+      "lead": {"raw": 0.0048, "real": 0.0048, "weighted": 0.0012},
+      "usage": {"raw": 0.0188, "real": 0.0233, "weighted": 0.0146},
+      "count": 1119,
+      "weight": 0.0698,
+      "viability": [5, 62, 62, 62],
+      "abilities": {"Toxic Debris": 1},
+      "items": {
+        "Assault Vest": 0.9763,
+        "Leftovers": 0.0189,
+        "Black Sludge": 0.0048
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Mild:252/0/0/252/4/0": 0.9763,
+        "Timid:252/0/0/0/4/252": 0.0189,
+        "Naive:252/4/0/0/0/252": 0.0048
+      },
+      "moves": {
+        "Earth Power": 0.9763,
+        "Energy Ball": 0.9763,
+        "Gunk Shot": 0.9763,
+        "Sludge Bomb": 0.9763,
+        "Spiky Shield": 0.0237,
+        "Stealth Rock": 0.0237,
+        "Memento": 0.0189,
+        "Protect": 0.0189,
+        "Mortal Spin": 0.0048,
+        "Power Gem": 0.0048
+      },
+      "teammates": {
+        "Brute Bonnet": 0.5412,
+        "Clodsire": 0.5412,
+        "Hatterene": 0.5412,
+        "Garganacl": 0.0032
+      },
+      "counters": {}
+    },
+    "Salamence": {
+      "lead": {"raw": 0.0041, "real": 0.0041, "weighted": 0.0011},
+      "usage": {"raw": 0.0156, "real": 0.0266, "weighted": 0.0139},
+      "count": 908,
+      "weight": 0.0911,
+      "viability": [6, 63, 63, 57],
+      "abilities": {"Intimidate": 1},
+      "items": {
+        "Choice Band": 0.4913,
+        "Assault Vest": 0.3998,
+        "Leftovers": 0.1088
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:252/100/76/0/76/4": 0.4913,
+        "Jolly:0/252/0/0/4/252": 0.3998,
+        "Hardy:4/252/0/0/0/252": 0.1088
+      },
+      "moves": {
+        "Dragon Claw": 0.6002,
+        "Earthquake": 0.6002,
+        "Dual Wingbeat": 0.4913,
+        "Psychic Fangs": 0.4913,
+        "Dragon Tail": 0.3998,
+        "Outrage": 0.3998,
+        "Protect": 0.3998,
+        "Tailwind": 0.3998,
+        "Brick Break": 0.1088,
+        "Dragon Dance": 0.1088
+      },
+      "teammates": {
+        "Iron Thorns": 0.2133,
+        "Iron Jugulis": 0.1337,
+        "Pincurchin": 0.1337,
+        "Amoonguss": 0.1109,
+        "Spiritomb": 0.1109,
+        "Tinkaton": 0.1109,
+        "Lucario": 0.1088,
+        "Gengar": 0.0797,
+        "Flapple": 0.0292,
+        "Iron Moth": 0.0292
+      },
+      "counters": {}
+    },
+    "Lilligant": {
+      "lead": {"raw": 0.0049, "real": 0.0049, "weighted": 0.0064},
+      "usage": {"raw": 0.0208, "real": 0.0378, "weighted": 0.0128},
+      "count": 1516,
+      "weight": 0.4521,
+      "viability": [1, 67, 67, 67],
+      "abilities": {"Chlorophyll": 1},
+      "items": {"Wide Lens": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Modest:0/0/0/252/4/252": 1},
+      "moves": {
+        "After You": 1,
+        "Quiver Dance": 1,
+        "Sleep Powder": 1,
+        "Solar Beam": 1
+      },
+      "teammates": {
+        "Roaring Moon": 0.4587,
+        "Tinkaton": 0.4587,
+        "Torkoal": 0.4587
+      },
+      "counters": {}
+    },
+    "Gholdengo": {
+      "lead": {"raw": 0.0042, "real": 0.0042, "weighted": 0.0123},
+      "usage": {"raw": 0.0223, "real": 0.0231, "weighted": 0.0123},
+      "count": 1825,
+      "weight": 0.3851,
+      "viability": [3, 71, 71, 71],
+      "abilities": {"Good as Gold": 1},
+      "items": {"Life Orb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:0/0/0/252/4/252": 1},
+      "moves": {
+        "Flash Cannon": 1,
+        "Make It Rain": 1,
+        "Protect": 1,
+        "Shadow Ball": 1
+      },
+      "teammates": {
+        "Brute Bonnet": 0.5184,
+        "Flutter Mane": 0.5184,
+        "Roaring Moon": 0.5184
+      },
+      "counters": {}
+    },
+    "Dragapult": {
+      "lead": {"raw": 0.0077, "real": 0.0077, "weighted": 0.0039},
+      "usage": {"raw": 0.0328, "real": 0.0436, "weighted": 0.009},
+      "count": 2264,
+      "weight": 0.053,
+      "viability": [7, 64, 64, 55],
+      "abilities": {"Clear Body": 1},
+      "items": {"Leftovers": 0.9858, "Life Orb": 0.0142},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Timid:252/0/0/0/4/252": 0.9858,
+        "Hardy:0/252/0/0/0/252": 0.0142
+      },
+      "moves": {
+        "Shadow Ball": 1,
+        "Helping Hand": 0.9858,
+        "Thunder": 0.9858,
+        "Thunder Wave": 0.9858,
+        "Dragon Darts": 0.0142,
+        "Fire Blast": 0.0142,
+        "Tera Blast": 0.0142
+      },
+      "teammates": {
+        "Dondozo": 0.9858,
+        "Maushold": 0.9858,
+        "Tatsugiri": 0.9858,
+        "Brute Bonnet": 0.0142,
+        "Scovillain": 0.0142,
+        "Torkoal": 0.0142
+      },
+      "counters": {}
+    },
+    "Iron Thorns": {
+      "lead": {"raw": 0.0048, "real": 0.0048, "weighted": 0.0052},
+      "usage": {"raw": 0.0186, "real": 0.0321, "weighted": 0.0088},
+      "count": 1367,
+      "weight": 0.0722,
+      "viability": [9, 63, 63, 59],
+      "abilities": {"Quark Drive": 1},
+      "items": {
+        "Booster Energy": 0.783,
+        "Life Orb": 0.1165,
+        "Leftovers": 0.1005
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:180/76/0/0/252/0": 0.6199,
+        "Adamant:4/252/0/0/0/252": 0.1631,
+        "Jolly:0/252/0/0/4/252": 0.1165,
+        "Calm:20/0/252/0/236/0": 0.1005
+      },
+      "moves": {
+        "Rock Slide": 0.8995,
+        "Protect": 0.7364,
+        "Ice Punch": 0.6199,
+        "Wild Charge": 0.6199,
+        "Earthquake": 0.3801,
+        "Dragon Dance": 0.1631,
+        "Thunder Wave": 0.1631,
+        "Tera Blast": 0.1165,
+        "Fire Blast": 0.1005,
+        "Iron Defense": 0.1005,
+        "Taunt": 0.1005
+      },
+      "teammates": {
+        "Salamence": 0.2691,
+        "Iron Jugulis": 0.1686,
+        "Pincurchin": 0.1686,
+        "Gengar": 0.1005,
+        "Lucario": 0.1005,
+        "Blissey": 0.0144,
+        "Chansey": 0.0144,
+        "Flutter Mane": 0.0144
+      },
+      "counters": {}
+    },
+    "Bellibolt": {
+      "lead": {"raw": 0.0088, "real": 0.0088, "weighted": 0.0057},
+      "usage": {"raw": 0.0351, "real": 0.0462, "weighted": 0.0086},
+      "count": 2352,
+      "weight": 0.0862,
+      "viability": [5, 62, 62, 62],
+      "abilities": {"Electromorphosis": 0.7865, "Static": 0.2135},
+      "items": {"Weakness Policy": 0.7865, "Aguav Berry": 0.2135},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Modest:252/0/0/252/4/0": 0.7865,
+        "Timid:0/0/0/252/0/252": 0.2135
+      },
+      "moves": {
+        "Discharge": 1,
+        "Hyper Voice": 0.7865,
+        "Parabolic Charge": 0.7865,
+        "Protect": 0.7865,
+        "Acid Spray": 0.2135,
+        "Thunder Wave": 0.2135,
+        "Thunderbolt": 0.2135
+      },
+      "teammates": {
+        "Oranguru": 0.4326,
+        "Annihilape": 0.2135,
+        "Dondozo": 0.2135,
+        "Tatsugiri": 0.2135
+      },
+      "counters": {}
+    },
+    "Appletun": {
+      "lead": {"raw": 0.0011, "real": 0.0011, "weighted": 0.0067},
+      "usage": {"raw": 0.0057, "real": 0.0086, "weighted": 0.0084},
+      "count": 347,
+      "weight": 0.0729,
+      "viability": [5, 58, 58, 58],
+      "abilities": {"Thick Fat": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Calm:252/0/4/0/252/0": 0.6971,
+        "Calm:248/0/0/8/252/0": 0.3029
+      },
+      "moves": {
+        "Protect": 1,
+        "Bullet Seed": 0.5499,
+        "Giga Drain": 0.5499,
+        "Light Screen": 0.5499,
+        "Apple Acid": 0.4501,
+        "Leech Seed": 0.4501,
+        "Recover": 0.4501
+      },
+      "teammates": {
+        "Armarouge": 0.4033,
+        "Dondozo": 0.4033,
+        "Indeedee": 0.4033,
+        "Cetitan": 0.2238,
+        "Iron Treads": 0.2238,
+        "Pincurchin": 0.2238
+      },
+      "counters": {}
+    },
+    "Sudowoodo": {
+      "lead": {"raw": 0.0004, "real": 0.0004, "weighted": 0},
+      "usage": {"raw": 0.0012, "real": 0.002, "weighted": 0.0083},
+      "count": 93,
+      "weight": 0.5544,
+      "viability": [1, 67, 67, 67],
+      "abilities": {"Sturdy": 1},
+      "items": {"Rocky Helmet": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:252/252/0/0/4/0": 1},
+      "moves": {"Counter": 1, "Head Smash": 1, "Protect": 1, "Rock Slide": 1},
+      "teammates": {
+        "Flutter Mane": 0.4891,
+        "Garchomp": 0.4891,
+        "Pachirisu": 0.4891
+      },
+      "counters": {}
+    },
+    "Gallade": {
+      "lead": {"raw": 0.0025, "real": 0.0025, "weighted": 0.0013},
+      "usage": {"raw": 0.0088, "real": 0.0165, "weighted": 0.0072},
+      "count": 592,
+      "weight": 0.0208,
+      "viability": [9, 56, 56, 50],
+      "abilities": {"Steadfast": 0.5153, "Sharpness": 0.4847},
+      "items": {
+        "Iapapa Berry": 0.5153,
+        "Choice Band": 0.3687,
+        "Life Orb": 0.1159,
+        "Expert Belt": 0.0001
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Impish:0/0/252/0/196/60": 0.5153,
+        "Brave:252/252/0/0/0/0": 0.4846,
+        "Jolly:252/252/0/0/0/4": 0.0001
+      },
+      "moves": {
+        "Wide Guard": 0.6312,
+        "Heal Pulse": 0.5153,
+        "Helping Hand": 0.5153,
+        "Will-O-Wisp": 0.5153,
+        "Psycho Cut": 0.4847,
+        "Leaf Blade": 0.4847,
+        "Drain Punch": 0.4846,
+        "Ice Punch": 0.3687,
+        "Aerial Ace": 0.0001,
+        "Sacred Sword": 0.0001
+      },
+      "teammates": {
+        "Baxcalibur": 0.5153,
+        "Hatterene": 0.3498,
+        "Iron Moth": 0.3498,
+        "Tinkaton": 0.3498,
+        "Arcanine": 0.2773,
+        "Farigiraf": 0.2773,
+        "Garganacl": 0.238,
+        "Maushold": 0.238,
+        "Altaria": 0.0001,
+        "Azumarill": 0.0001,
+        "Meowscarada": 0.0001
+      },
+      "counters": {}
+    },
+    "Orthworm": {
+      "lead": {"raw": 0.004, "real": 0.004, "weighted": 0.0028},
+      "usage": {"raw": 0.0148, "real": 0.0246, "weighted": 0.007},
+      "count": 956,
+      "weight": 0.0741,
+      "viability": [6, 61, 61, 57],
+      "abilities": {"Earth Eater": 1},
+      "items": {"Life Orb": 0.9994, "Leftovers": 0.0006},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:248/252/0/0/8/0": 0.9994,
+        "Careful:252/4/0/0/252/0": 0.0006
+      },
+      "moves": {
+        "Iron Head": 1,
+        "Body Press": 0.9994,
+        "Coil": 0.9994,
+        "Stomping Tantrum": 0.9994,
+        "Rest": 0.0006,
+        "Shed Tail": 0.0006,
+        "Sleep Talk": 0.0006
+      },
+      "teammates": {"Chi-Yu": 0.6796, "Dachsbun": 0.6796, "Dugtrio": 0.6796},
+      "counters": {}
+    },
+    "Amoonguss": {
+      "lead": {"raw": 0.01, "real": 0.01, "weighted": 0.0009},
+      "usage": {"raw": 0.0431, "real": 0.0732, "weighted": 0.0064},
+      "count": 2508,
+      "weight": 0.0458,
+      "viability": [20, 65, 65, 56],
+      "abilities": {"Regenerator": 0.6678, "Effect Spore": 0.3322},
+      "items": {
+        "Leftovers": 0.6678,
+        "Coba Berry": 0.2131,
+        "Rocky Helmet": 0.0857,
+        "Nothing": 0.0285,
+        "Yache Berry": 0.0048,
+        "Assault Vest": 0.0001
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Calm:252/0/0/4/252/0": 0.3772,
+        "Calm:200/0/132/0/174/0": 0.2906,
+        "Calm:248/0/68/0/192/0": 0.2131,
+        "Bold:252/0/132/0/124/0": 0.0856,
+        "Hardy:252/0/252/0/0/0": 0.0288,
+        "Sassy:252/0/252/0/4/0": 0.0048
+      },
+      "moves": {
+        "Spore": 1,
+        "Sludge Bomb": 0.6678,
+        "Protect": 0.4105,
+        "Clear Smog": 0.3822,
+        "Rage Powder": 0.3319,
+        "Pollen Puff": 0.3272,
+        "Giga Drain": 0.2909,
+        "Foul Play": 0.2906,
+        "Synthesis": 0.2131,
+        "Rest": 0.0856,
+        "Grass Knot": 0.0003
+      },
+      "teammates": {
+        "Tinkaton": 0.1048,
+        "Salamence": 0.1047,
+        "Spiritomb": 0.1047,
+        "Maushold": 0.0294,
+        "Dudunsparce": 0.0282,
+        "Veluza": 0.0282,
+        "Abomasnow": 0.0208,
+        "Drifblim": 0.0208,
+        "Froslass": 0.0208,
+        "Baxcalibur": 0.0011,
+        "Iron Hands": 0.0011,
+        "Dondozo": 0.0002,
+        "Tatsugiri": 0.0002
+      },
+      "counters": {}
+    },
+    "Scovillain": {
+      "lead": {"raw": 0.007, "real": 0.007, "weighted": 0.0055},
+      "usage": {"raw": 0.0227, "real": 0.0572, "weighted": 0.0063},
+      "count": 1618,
+      "weight": 0.0307,
+      "viability": [7, 59, 59, 58],
+      "abilities": {"Chlorophyll": 0.8407, "Insomnia": 0.1593},
+      "items": {
+        "Life Orb": 0.501,
+        "Mirror Herb": 0.298,
+        "Shuca Berry": 0.1589,
+        "Salac Berry": 0.042
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Timid:252/0/0/252/0/4": 0.4911,
+        "Adamant:0/252/0/0/4/252": 0.298,
+        "Hardy:0/128/0/128/0/252": 0.1689,
+        "Serious:240/0/0/252/0/16": 0.042
+      },
+      "moves": {
+        "Growth": 0.702,
+        "Solar Beam": 0.66,
+        "Fire Blast": 0.4911,
+        "Giga Drain": 0.4911,
+        "Fire Fang": 0.298,
+        "Spicy Extract": 0.298,
+        "Trailblaze": 0.298,
+        "Protect": 0.1689,
+        "Tera Blast": 0.1689,
+        "Seed Bomb": 0.1593,
+        "Worry Seed": 0.1388,
+        "Hyper Beam": 0.042,
+        "Leaf Storm": 0.042,
+        "Overheat": 0.042
+      },
+      "teammates": {
+        "Torkoal": 0.4968,
+        "Dondozo": 0.4352,
+        "Tatsugiri": 0.4352,
+        "Brute Bonnet": 0.01,
+        "Dragapult": 0.01,
+        "Armarouge": 0.0096,
+        "Indeedee": 0.0096
+      },
+      "counters": {}
+    },
+    "Bronzong": {
+      "lead": {"raw": 0.0049, "real": 0.0049, "weighted": 0.0028},
+      "usage": {"raw": 0.016, "real": 0.026, "weighted": 0.0062},
+      "count": 895,
+      "weight": 0.0678,
+      "viability": [6, 61, 61, 55],
+      "abilities": {"Levitate": 0.9992, "Heatproof": 0.0008},
+      "items": {"Life Orb": 0.9992, "Salac Berry": 0.0008},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:252/252/4/0/0/0": 0.9992,
+        "Impish:0/252/252/0/0/0": 0.0008
+      },
+      "moves": {
+        "Body Press": 1,
+        "Earthquake": 1,
+        "Ice Spinner": 0.9992,
+        "Iron Head": 0.9992,
+        "Flash Cannon": 0.0008,
+        "Iron Defense": 0.0008
+      },
+      "teammates": {
+        "Garchomp": 0.5897,
+        "Gyarados": 0.5897,
+        "Iron Hands": 0.5897,
+        "Ceruledge": 0.0008,
+        "Dondozo": 0.0008,
+        "Tatsugiri": 0.0008
+      },
+      "counters": {}
+    },
+    "Indeedee": {
+      "lead": {"raw": 0.0013, "real": 0.0013, "weighted": 0.0001},
+      "usage": {"raw": 0.0044, "real": 0.0057, "weighted": 0.0055},
+      "count": 326,
+      "weight": 0.0457,
+      "viability": [2, 55, 55, 55],
+      "abilities": {"Psychic Surge": 1},
+      "items": {"Focus Band": 0.9569, "Life Orb": 0.0431},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Calm:252/0/4/0/252/0": 0.9569,
+        "Hardy:252/0/0/252/0/0": 0.029,
+        "Hardy:4/0/0/252/0/252": 0.0142
+      },
+      "moves": {
+        "Dazzling Gleam": 1,
+        "Fake Out": 1,
+        "Hyper Voice": 0.9569,
+        "Protect": 0.9569,
+        "Energy Ball": 0.0431,
+        "Tera Blast": 0.0431
+      },
+      "teammates": {
+        "Armarouge": 0.7176,
+        "Appletun": 0.7018,
+        "Dondozo": 0.7018,
+        "Scovillain": 0.0158,
+        "Torkoal": 0.0158
+      },
+      "counters": {}
+    },
+    "Iron Jugulis": {
+      "lead": {"raw": 0.0035, "real": 0.0035, "weighted": 0},
+      "usage": {"raw": 0.0137, "real": 0.0207, "weighted": 0.0052},
+      "count": 932,
+      "weight": 0.0964,
+      "viability": [4, 63, 63, 63],
+      "abilities": {"Quark Drive": 1},
+      "items": {"Covert Cloak": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:4/0/0/252/0/252": 1},
+      "moves": {"Air Slash": 1, "Dark Pulse": 1, "Heat Wave": 1, "Protect": 1},
+      "teammates": {
+        "Iron Thorns": 0.272,
+        "Pincurchin": 0.272,
+        "Salamence": 0.272
+      },
+      "counters": {}
+    },
+    "Abomasnow": {
+      "lead": {"raw": 0.0108, "real": 0.0108, "weighted": 0.0002},
+      "usage": {"raw": 0.0373, "real": 0.0491, "weighted": 0.0048},
+      "count": 2517,
+      "weight": 0.0313,
+      "viability": [13, 62, 62, 59],
+      "abilities": {"Snow Warning": 1},
+      "items": {
+        "Occa Berry": 0.6541,
+        "Choice Specs": 0.3174,
+        "Icy Rock": 0.0285
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Sassy:248/8/0/0/252/0": 0.5369,
+        "Modest:252/0/0/252/0/4": 0.3174,
+        "Bold:252/0/252/4/0/0": 0.0729,
+        "Hardy:0/0/252/4/252/0": 0.0728
+      },
+      "moves": {
+        "Blizzard": 0.9069,
+        "Protect": 0.6541,
+        "Ice Shard": 0.5572,
+        "Giga Drain": 0.5369,
+        "Leaf Storm": 0.3902,
+        "Focus Blast": 0.3174,
+        "Icy Wind": 0.3174,
+        "Aurora Veil": 0.1457,
+        "Helping Hand": 0.1457,
+        "Chilling Water": 0.0285
+      },
+      "teammates": {
+        "Iron Bundle": 0.1965,
+        "Great Tusk": 0.1783,
+        "Torkoal": 0.1783,
+        "Froslass": 0.0527,
+        "Amoonguss": 0.0485,
+        "Drifblim": 0.0485,
+        "Baxcalibur": 0.0385,
+        "Armarouge": 0.0203,
+        "Maushold": 0.0203,
+        "Grimmsnarl": 0.0182
+      },
+      "counters": {}
+    },
+    "Gengar": {
+      "lead": {"raw": 0.0037, "real": 0.0037, "weighted": 0},
+      "usage": {"raw": 0.0152, "real": 0.0255, "weighted": 0.0044},
+      "count": 990,
+      "weight": 0.0322,
+      "viability": [7, 56, 56, 55],
+      "abilities": {"Cursed Body": 1},
+      "items": {"Rocky Helmet": 0.7135, "Leftovers": 0.2865},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Hardy:0/152/252/0/0/104": 0.7135,
+        "Hardy:44/0/0/252/0/212": 0.2865
+      },
+      "moves": {
+        "Body Slam": 0.7135,
+        "Dazzling Gleam": 0.7135,
+        "Drain Punch": 0.7135,
+        "Icy Wind": 0.7135,
+        "Destiny Bond": 0.2865,
+        "Giga Drain": 0.2865,
+        "Shadow Ball": 0.2865,
+        "Will-O-Wisp": 0.2865
+      },
+      "teammates": {
+        "Iron Thorns": 0.2865,
+        "Lucario": 0.2865,
+        "Salamence": 0.2865,
+        "Dondozo": 0.1191,
+        "Tatsugiri": 0.1191,
+        "Tinkaton": 0.1191
+      },
+      "counters": {}
+    },
+    "Arcanine": {
+      "lead": {"raw": 0.0069, "real": 0.0069, "weighted": 0},
+      "usage": {"raw": 0.0313, "real": 0.0458, "weighted": 0.0043},
+      "count": 2039,
+      "weight": 0.0597,
+      "viability": [8, 72, 72, 59],
+      "abilities": {"Intimidate": 1},
+      "items": {
+        "Assault Vest": 0.789,
+        "Iapapa Berry": 0.1193,
+        "Rocky Helmet": 0.0916
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.7757,
+        "Impish:252/0/252/0/4/0": 0.1193,
+        "Adamant:0/252/96/0/160/0": 0.0916,
+        "Hardy:116/100/128/76/20/68": 0.0133
+      },
+      "moves": {
+        "Close Combat": 0.8806,
+        "Extreme Speed": 0.8673,
+        "Play Rough": 0.7757,
+        "Flare Blitz": 0.7757,
+        "Helping Hand": 0.1327,
+        "Howl": 0.1193,
+        "Morning Sun": 0.1193,
+        "Will-O-Wisp": 0.1193,
+        "Flame Charge": 0.0916,
+        "Raging Fury": 0.0916,
+        "Fire Blast": 0.0133,
+        "Protect": 0.0133
+      },
+      "teammates": {
+        "Baxcalibur": 0.1193,
+        "Farigiraf": 0.1193,
+        "Gallade": 0.1193,
+        "Dondozo": 0.0916,
+        "Stantler": 0.0916,
+        "Tatsugiri": 0.0916,
+        "Grimmsnarl": 0.0126,
+        "Torkoal": 0.0126,
+        "Dragonite": 0.0072,
+        "Gyarados": 0.0054
+      },
+      "counters": {}
+    },
+    "Lucario": {
+      "lead": {"raw": 0.0035, "real": 0.0035, "weighted": 0.0031},
+      "usage": {"raw": 0.0137, "real": 0.0218, "weighted": 0.0043},
+      "count": 918,
+      "weight": 0.0216,
+      "viability": [6, 56, 56, 50],
+      "abilities": {"Inner Focus": 0.989, "Steadfast": 0.011},
+      "items": {"Leftovers": 0.989, "Aguav Berry": 0.011},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Hardy:104/100/152/40/0/112": 0.989,
+        "Hardy:92/80/64/56/80/136": 0.011
+      },
+      "moves": {
+        "Aura Sphere": 0.989,
+        "Brick Break": 0.989,
+        "Calm Mind": 0.989,
+        "Drain Punch": 0.989,
+        "Close Combat": 0.011,
+        "Cross Chop": 0.011,
+        "Dragon Pulse": 0.011,
+        "Earthquake": 0.011
+      },
+      "teammates": {
+        "Salamence": 0.989,
+        "Gengar": 0.7238,
+        "Iron Thorns": 0.7238,
+        "Flapple": 0.2651,
+        "Iron Moth": 0.2651
+      },
+      "counters": {}
+    },
+    "Cyclizar": {
+      "lead": {"raw": 0.002, "real": 0.002, "weighted": 0.0003},
+      "usage": {"raw": 0.0101, "real": 0.0123, "weighted": 0.0042},
+      "count": 666,
+      "weight": 0.046,
+      "viability": [4, 59, 59, 59],
+      "abilities": {"Regenerator": 0.9216, "Shed Skin": 0.0784},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:252/4/0/0/0/252": 0.9216,
+        "Hardy:0/252/0/0/4/252": 0.0784
+      },
+      "moves": {
+        "Aqua Tail": 1,
+        "Breaking Swipe": 0.9216,
+        "Crunch": 0.9216,
+        "Shed Tail": 0.9216,
+        "Acrobatics": 0.0784,
+        "Double-Edge": 0.0784,
+        "Draco Meteor": 0.0784
+      },
+      "teammates": {
+        "Arboliva": 0.9216,
+        "Cetitan": 0.9216,
+        "Slowking": 0.9216,
+        "Braviary": 0.0784,
+        "Ceruledge": 0.0784,
+        "Haxorus": 0.0784
+      },
+      "counters": {}
+    },
+    "Slaking": {
+      "lead": {"raw": 0.0174, "real": 0.0174, "weighted": 0},
+      "usage": {"raw": 0.0442, "real": 0.1144, "weighted": 0.0042},
+      "count": 2613,
+      "weight": 0.0196,
+      "viability": [11, 59, 59, 55],
+      "abilities": {"Truant": 1},
+      "items": {"Assault Vest": 0.5643, "Choice Band": 0.4357},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:200/200/0/0/110/0": 0.5643,
+        "Adamant:40/252/56/0/160/0": 0.4357
+      },
+      "moves": {
+        "Drain Punch": 0.5643,
+        "Facade": 0.5643,
+        "Night Slash": 0.5643,
+        "Shadow Claw": 0.5643,
+        "Body Slam": 0.4357,
+        "Earthquake": 0.4357,
+        "Ice Punch": 0.4357,
+        "Thunder Punch": 0.4357
+      },
+      "teammates": {
+        "Dondozo": 0.5643,
+        "Stantler": 0.5643,
+        "Tatsugiri": 0.5643,
+        "Ceruledge": 0.4357,
+        "Garchomp": 0.4357,
+        "Venomoth": 0.4357
+      },
+      "counters": {}
+    },
+    "Arboliva": {
+      "lead": {"raw": 0.0077, "real": 0.0077, "weighted": 0},
+      "usage": {"raw": 0.0309, "real": 0.0391, "weighted": 0.0042},
+      "count": 1871,
+      "weight": 0.052,
+      "viability": [9, 67, 67, 59],
+      "abilities": {"Seed Sower": 1},
+      "items": {"Leftovers": 0.6944, "Life Orb": 0.3056},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Modest:248/0/0/252/8/0": 0.6345,
+        "Quiet:248/0/0/252/8/0": 0.3056,
+        "Calm:252/0/0/4/252/0": 0.0599
+      },
+      "moves": {
+        "Giga Drain": 0.6944,
+        "Strength Sap": 0.6944,
+        "Hyper Voice": 0.6345,
+        "Leaf Storm": 0.6345,
+        "Protect": 0.3655,
+        "Dazzling Gleam": 0.3056,
+        "Tera Blast": 0.3056,
+        "Terrain Pulse": 0.3056,
+        "Leech Seed": 0.0599
+      },
+      "teammates": {
+        "Cetitan": 0.3056,
+        "Cyclizar": 0.3056,
+        "Slowking": 0.3056,
+        "Clodsire": 0.0236,
+        "Pawmot": 0.013,
+        "Great Tusk": 0.0106,
+        "Torkoal": 0.0106
+      },
+      "counters": {}
+    },
+    "Stantler": {
+      "lead": {"raw": 0.001, "real": 0.001, "weighted": 0},
+      "usage": {"raw": 0.003, "real": 0.0046, "weighted": 0.0041},
+      "count": 157,
+      "weight": 0.0208,
+      "viability": [2, 55, 55, 55],
+      "abilities": {"Intimidate": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:6/252/0/0/0/252": 0.5744,
+        "Jolly:18/40/40/0/160/252": 0.4256
+      },
+      "moves": {
+        "Skill Swap": 1,
+        "Facade": 1,
+        "Psyshield Bash": 1,
+        "Trailblaze": 1
+      },
+      "teammates": {
+        "Dondozo": 1,
+        "Tatsugiri": 1,
+        "Slaking": 0.5744,
+        "Arcanine": 0.4256
+      },
+      "counters": {}
+    },
+    "Slowking": {
+      "lead": {"raw": 0.0011, "real": 0.0011, "weighted": 0.0039},
+      "usage": {"raw": 0.0029, "real": 0.0088, "weighted": 0.0039},
+      "count": 162,
+      "weight": 0.2541,
+      "viability": [1, 59, 59, 59],
+      "abilities": {"Regenerator": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Sassy:252/0/0/4/252/0": 1},
+      "moves": {
+        "Chilly Reception": 1,
+        "Psychic": 1,
+        "Surf": 1,
+        "Trick Room": 1
+      },
+      "teammates": {"Arboliva": 1, "Cetitan": 1, "Cyclizar": 1},
+      "counters": {}
+    },
+    "Pawmot": {
+      "lead": {"raw": 0.0058, "real": 0.0058, "weighted": 0.0015},
+      "usage": {"raw": 0.0196, "real": 0.0387, "weighted": 0.0033},
+      "count": 1429,
+      "weight": 0.0423,
+      "viability": [8, 65, 65, 59],
+      "abilities": {"Volt Absorb": 0.5719, "Iron Fist": 0.4281},
+      "items": {
+        "Covert Cloak": 0.5719,
+        "Shuca Berry": 0.319,
+        "Mirror Herb": 0.0382,
+        "Punching Glove": 0.0348,
+        "Chilan Berry": 0.0289,
+        "Life Orb": 0.0072
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Jolly:0/252/0/0/4/252": 0.9711,
+        "Jolly:4/252/0/0/0/252": 0.0289
+      },
+      "moves": {
+        "Fire Punch": 0.9711,
+        "Fake Out": 0.9628,
+        "Close Combat": 0.6008,
+        "Double Shock": 0.5719,
+        "Thunder Punch": 0.4281,
+        "Ice Punch": 0.3562,
+        "Mach Punch": 0.0681,
+        "Protect": 0.0361,
+        "Helping Hand": 0.0049
+      },
+      "teammates": {
+        "Flutter Mane": 0.1933,
+        "Scizor": 0.1933,
+        "Meowscarada": 0.1524,
+        "Sandy Shocks": 0.0409,
+        "Lumineon": 0.0289,
+        "Arboliva": 0.0122,
+        "Clodsire": 0.0122,
+        "Ampharos": 0.0072,
+        "Corviknight": 0.0072,
+        "Rabsca": 0.0072
+      },
+      "counters": {}
+    },
+    "Leafeon": {
+      "lead": {"raw": 0.0014, "real": 0.0014, "weighted": 0.0013},
+      "usage": {"raw": 0.0085, "real": 0.0156, "weighted": 0.0029},
+      "count": 595,
+      "weight": 0.0222,
+      "viability": [1, 50, 50, 50],
+      "abilities": {"Chlorophyll": 1},
+      "items": {"Figy Berry": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:0/252/0/0/0/252": 1},
+      "moves": {
+        "Aerial Ace": 1,
+        "Leaf Blade": 1,
+        "Quick Attack": 1,
+        "Sunny Day": 1
+      },
+      "teammates": {"Ceruledge": 0.8364, "Dragonite": 0.0354},
+      "counters": {}
+    },
+    "Azumarill": {
+      "lead": {"raw": 0.0087, "real": 0.0087, "weighted": 0.0022},
+      "usage": {"raw": 0.0289, "real": 0.0616, "weighted": 0.0028},
+      "count": 1678,
+      "weight": 0.0256,
+      "viability": [6, 52, 52, 50],
+      "abilities": {"Thick Fat": 0.9998, "Sap Sipper": 0.0002},
+      "items": {"Rocky Helmet": 0.9998, "Leftovers": 0.0002},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Rash:252/0/0/252/0/4": 0.9998,
+        "Adamant:252/0/128/0/128/0": 0.0002
+      },
+      "moves": {
+        "Aqua Jet": 1,
+        "Play Rough": 1,
+        "Draining Kiss": 0.9998,
+        "Surf": 0.9998,
+        "Aqua Tail": 0.0002,
+        "Protect": 0.0002
+      },
+      "teammates": {
+        "Annihilape": 0.5983,
+        "Eelektross": 0.5983,
+        "Iron Treads": 0.5983,
+        "Altaria": 0.0002,
+        "Gallade": 0.0002,
+        "Meowscarada": 0.0002
+      },
+      "counters": {}
+    },
+    "Eelektross": {
+      "lead": {"raw": 0.0035, "real": 0.0035, "weighted": 0.0006},
+      "usage": {"raw": 0.0133, "real": 0.0207, "weighted": 0.0028},
+      "count": 779,
+      "weight": 0.0341,
+      "viability": [3, 55, 55, 55],
+      "abilities": {"Levitate": 1},
+      "items": {"Ring Target": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Quiet:252/0/0/252/0/4": 1},
+      "moves": {
+        "Discharge": 1,
+        "Electric Terrain": 1,
+        "Thunderbolt": 1,
+        "Liquidation": 0.866,
+        "Thunder Wave": 0.134
+      },
+      "teammates": {
+        "Annihilape": 0.5984,
+        "Azumarill": 0.5984,
+        "Iron Treads": 0.5984
+      },
+      "counters": {}
+    },
+    "Scizor": {
+      "lead": {"raw": 0.0045, "real": 0.0045, "weighted": 0},
+      "usage": {"raw": 0.0196, "real": 0.0218, "weighted": 0.0026},
+      "count": 1261,
+      "weight": 0.1259,
+      "viability": [4, 69, 69, 69],
+      "abilities": {"Technician": 1},
+      "items": {"Life Orb": 0.8392, "Choice Band": 0.1608},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:248/252/0/0/8/0": 1},
+      "moves": {
+        "Bullet Punch": 1,
+        "X-Scissor": 1,
+        "Swords Dance": 0.8392,
+        "Close Combat": 0.6555,
+        "Protect": 0.3445,
+        "Pounce": 0.1608
+      },
+      "teammates": {
+        "Flutter Mane": 0.0974,
+        "Pawmot": 0.0974,
+        "Meowscarada": 0.0768,
+        "Sandy Shocks": 0.0206
+      },
+      "counters": {}
+    },
+    "Pelipper": {
+      "lead": {"raw": 0.0053, "real": 0.0053, "weighted": 0},
+      "usage": {"raw": 0.0194, "real": 0.0339, "weighted": 0.0025},
+      "count": 1348,
+      "weight": 0.0779,
+      "viability": [4, 59, 59, 59],
+      "abilities": {"Drizzle": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Bold:252/0/252/4/0/0": 1},
+      "moves": {"Helping Hand": 1, "Hurricane": 1, "Icy Wind": 1, "Surf": 1},
+      "teammates": {
+        "Brambleghast": 0.4115,
+        "Kilowattrel": 0.4115,
+        "Toxicroak": 0.4115
+      },
+      "counters": {}
+    },
+    "Toxicroak": {
+      "lead": {"raw": 0.0005, "real": 0.0005, "weighted": 0},
+      "usage": {"raw": 0.0021, "real": 0.0039, "weighted": 0.0025},
+      "count": 153,
+      "weight": 0.1947,
+      "viability": [1, 59, 59, 59],
+      "abilities": {"Dry Skin": 1},
+      "items": {"Life Orb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:0/252/0/0/4/252": 1},
+      "moves": {
+        "Bullet Punch": 1,
+        "Drain Punch": 1,
+        "Fake Out": 1,
+        "Gunk Shot": 1
+      },
+      "teammates": {
+        "Brambleghast": 0.4115,
+        "Kilowattrel": 0.4115,
+        "Pelipper": 0.4115
+      },
+      "counters": {}
+    },
+    "Ditto": {
+      "lead": {"raw": 0.0053, "real": 0.0053, "weighted": 0.0013},
+      "usage": {"raw": 0.0197, "real": 0.0332, "weighted": 0.0024},
+      "count": 1288,
+      "weight": 0.0132,
+      "viability": [5, 54, 54, 54],
+      "abilities": {"Imposter": 1},
+      "items": {
+        "Quick Powder": 0.4843,
+        "Leftovers": 0.3386,
+        "Choice Scarf": 0.1771
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Timid:252/0/0/0/0/252": 0.4843,
+        "Hardy:252/0/0/0/0/0": 0.3386,
+        "Impish:248/8/252/0/0/0": 0.1771
+      },
+      "moves": {"Nothing": 3, "Transform": 1},
+      "teammates": {
+        "Zoroark": 0.1981,
+        "Klawf": 0.1807,
+        "Maushold": 0.117,
+        "Ceruledge": 0.0806,
+        "Dachsbun": 0.0806,
+        "Great Tusk": 0.0806
+      },
+      "counters": {}
+    },
+    "Garganacl": {
+      "lead": {"raw": 0.0081, "real": 0.0081, "weighted": 0.0007},
+      "usage": {"raw": 0.0297, "real": 0.0499, "weighted": 0.0023},
+      "count": 1846,
+      "weight": 0.0085,
+      "viability": [8, 55, 55, 55],
+      "abilities": {"Sturdy": 0.7566, "Purifying Salt": 0.2434},
+      "items": {
+        "Custap Berry": 0.7566,
+        "Choice Band": 0.1935,
+        "Leftovers": 0.0499
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:252/252/0/0/4/0": 0.8056,
+        "Adamant:4/252/252/0/0/0": 0.1935,
+        "Serious:252/252/0/0/4/0": 0.0009
+      },
+      "moves": {
+        "Explosion": 0.9501,
+        "Rock Slide": 0.9501,
+        "Helping Hand": 0.7566,
+        "Wide Guard": 0.7566,
+        "Body Press": 0.1935,
+        "Protect": 0.1935,
+        "Earthquake": 0.0499,
+        "Ice Punch": 0.0499,
+        "Salt Cure": 0.0499,
+        "Recover": 0.049,
+        "Hammer Arm": 0.0009
+      },
+      "teammates": {
+        "Baxcalibur": 0.7566,
+        "Gallade": 0.7566,
+        "Maushold": 0.7566,
+        "Annihilape": 0.1106,
+        "Chi-Yu": 0.1106,
+        "Flutter Mane": 0.1106,
+        "Glimmora": 0.0325
+      },
+      "counters": {}
+    },
+    "Corviknight": {
+      "lead": {"raw": 0.0027, "real": 0.0027, "weighted": 0},
+      "usage": {"raw": 0.0115, "real": 0.0172, "weighted": 0.0021},
+      "count": 688,
+      "weight": 0.043,
+      "viability": [7, 63, 63, 59],
+      "abilities": {"Mirror Armor": 1},
+      "items": {
+        "Leftovers": 0.5392,
+        "Covert Cloak": 0.4472,
+        "Sitrus Berry": 0.0136
+      },
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:248/252/0/0/8/0": 0.5392,
+        "Careful:212/252/0/0/24/20": 0.4472,
+        "Bold:252/0/252/4/0/0": 0.0136
+      },
+      "moves": {
+        "Brave Bird": 0.9864,
+        "Iron Head": 0.9864,
+        "Body Press": 0.5392,
+        "Bulk Up": 0.5392,
+        "Tailwind": 0.4608,
+        "Roost": 0.4472,
+        "Air Slash": 0.0136,
+        "Taunt": 0.0136,
+        "U-turn": 0.0136
+      },
+      "teammates": {
+        "Iron Moth": 0.2764,
+        "Meowscarada": 0.2764,
+        "Raichu": 0.2764,
+        "Ampharos": 0.0136,
+        "Pawmot": 0.0136,
+        "Rabsca": 0.0136
+      },
+      "counters": {}
+    },
+    "Venomoth": {
+      "lead": {"raw": 0.0001, "real": 0.0001, "weighted": 0},
+      "usage": {"raw": 0.0008, "real": 0.0006, "weighted": 0.0018},
+      "count": 42,
+      "weight": 0.1197,
+      "viability": [1, 53, 53, 53],
+      "abilities": {"Tinted Lens": 1},
+      "items": {"Black Sludge": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:80/0/72/0/104/252": 1},
+      "moves": {"Bug Buzz": 1, "Protect": 1, "Rage Powder": 1, "Skill Swap": 1},
+      "teammates": {"Ceruledge": 1, "Garchomp": 1, "Slaking": 1},
+      "counters": {}
+    },
+    "Klawf": {
+      "lead": {"raw": 0.0007, "real": 0.0007, "weighted": 0},
+      "usage": {"raw": 0.0034, "real": 0.0072, "weighted": 0.0017},
+      "count": 220,
+      "weight": 0.0142,
+      "viability": [2, 54, 54, 54],
+      "abilities": {"Regenerator": 0.6493, "Anger Shell": 0.3507},
+      "items": {"Aguav Berry": 0.6493, "Hard Stone": 0.3507},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:248/252/0/0/8/0": 0.6493,
+        "Adamant:0/252/0/0/252/0": 0.3507
+      },
+      "moves": {
+        "Stomping Tantrum": 1,
+        "Brick Break": 0.6493,
+        "Iron Defense": 0.6493,
+        "Knock Off": 0.6493,
+        "Crabhammer": 0.3507,
+        "Rock Blast": 0.3507,
+        "X-Scissor": 0.3507
+      },
+      "teammates": {
+        "Dondozo": 0.4446,
+        "Tatsugiri": 0.4446,
+        "Tinkaton": 0.4446,
+        "Ditto": 0.3507
+      },
+      "counters": {}
+    },
+    "Drifblim": {
+      "lead": {"raw": 0.0017, "real": 0.0017, "weighted": 0},
+      "usage": {"raw": 0.0081, "real": 0.0079, "weighted": 0.0017},
+      "count": 466,
+      "weight": 0.0185,
+      "viability": [3, 48, 48, 48],
+      "abilities": {"Aftermath": 0.5949, "Unburden": 0.4051},
+      "items": {"Leftovers": 0.5949, "Flame Orb": 0.4051},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Hardy:252/0/0/0/0/252": 0.5949,
+        "Modest:0/0/0/252/4/252": 0.4051
+      },
+      "moves": {
+        "Acrobatics": 0.5949,
+        "Destiny Bond": 0.5949,
+        "Explosion": 0.5949,
+        "Haze": 0.5949,
+        "Psychic": 0.4051,
+        "Shadow Ball": 0.4051,
+        "Tailwind": 0.4051,
+        "Thunderbolt": 0.4051
+      },
+      "teammates": {
+        "Abomasnow": 0.4332,
+        "Amoonguss": 0.4332,
+        "Froslass": 0.4332,
+        "Brambleghast": 0.4051,
+        "Chien-Pao": 0.4051,
+        "Kilowattrel": 0.4051
+      },
+      "counters": {}
+    },
+    "Skeledirge": {
+      "lead": {"raw": 0.008, "real": 0.008, "weighted": 0},
+      "usage": {"raw": 0.0353, "real": 0.0512, "weighted": 0.0016},
+      "count": 2189,
+      "weight": 0.0075,
+      "viability": [10, 55, 55, 55],
+      "abilities": {"Blaze": 0.8984, "Unaware": 0.1016},
+      "items": {"Life Orb": 0.8984, "Assault Vest": 0.1016},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Modest:44/0/108/252/104/0": 0.8984,
+        "Modest:4/0/0/252/0/252": 0.1016
+      },
+      "moves": {
+        "Heat Wave": 1,
+        "Shadow Ball": 1,
+        "Snarl": 1,
+        "Protect": 0.8984,
+        "Torch Song": 0.1016
+      },
+      "teammates": {
+        "Brute Bonnet": 0.8984,
+        "Gastrodon": 0.8984,
+        "Mimikyu": 0.8984,
+        "Houndstone": 0.1016,
+        "Meowscarada": 0.1016,
+        "Quaquaval": 0.1016
+      },
+      "counters": {}
+    },
+    "Volcarona": {
+      "lead": {"raw": 0.0051, "real": 0.0051, "weighted": 0},
+      "usage": {"raw": 0.0206, "real": 0.0354, "weighted": 0.0013},
+      "count": 1324,
+      "weight": 0.0319,
+      "viability": [5, 62, 62, 62],
+      "abilities": {"Flame Body": 1},
+      "items": {"Charti Berry": 0.8589, "Figy Berry": 0.1411},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Calm:248/0/0/0/208/52": 0.8589,
+        "Gentle:248/0/0/0/208/52": 0.1411
+      },
+      "moves": {
+        "Heat Wave": 0.8589,
+        "Rage Powder": 0.8589,
+        "String Shot": 0.8589,
+        "Tailwind": 0.8589,
+        "Fiery Dance": 0.1411,
+        "Light Screen": 0.1411,
+        "Morning Sun": 0.1411,
+        "Sunny Day": 0.1411
+      },
+      "teammates": {
+        "Oricorio-Sensu": 0.1255,
+        "Altaria": 0.0745,
+        "Gyarados": 0.0745,
+        "Gastrodon": 0.0404,
+        "Quagsire": 0.0404,
+        "Dondozo": 0.0105,
+        "Tatsugiri": 0.0105
+      },
+      "counters": {}
+    },
+    "Oricorio-Sensu": {
+      "lead": {"raw": 0.0006, "real": 0.0006, "weighted": 0.0007},
+      "usage": {"raw": 0.0023, "real": 0.0029, "weighted": 0.0013},
+      "count": 151,
+      "weight": 0.0068,
+      "viability": [1, 46, 46, 46],
+      "abilities": {"Dancer": 1},
+      "items": {"Iapapa Berry": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Modest:0/0/0/252/4/252": 1},
+      "moves": {
+        "Protect": 1,
+        "Revelation Dance": 1,
+        "Substitute": 1,
+        "Air Slash": 0.6512,
+        "Quiver Dance": 0.3488
+      },
+      "teammates": {
+        "Volcarona": 0.8894,
+        "Altaria": 0.528,
+        "Gyarados": 0.528,
+        "Gastrodon": 0.2867,
+        "Quagsire": 0.2867,
+        "Dondozo": 0.0747,
+        "Tatsugiri": 0.0747
+      },
+      "counters": {}
+    },
+    "Bombirdier": {
+      "lead": {"raw": 0.0018, "real": 0.0018, "weighted": 0},
+      "usage": {"raw": 0.0066, "real": 0.0106, "weighted": 0.0012},
+      "count": 438,
+      "weight": 0.0255,
+      "viability": [2, 55, 55, 55],
+      "abilities": {"Rocky Payload": 1},
+      "items": {"Hard Stone": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:18/252/120/0/120/0": 1},
+      "moves": {
+        "Dual Wingbeat": 1,
+        "Hone Claws": 1,
+        "Knock Off": 1,
+        "Rock Slide": 1
+      },
+      "teammates": {"Dondozo": 0.3525, "Maushold": 0.3525, "Tatsugiri": 0.3525},
+      "counters": {}
+    },
+    "Veluza": {
+      "lead": {"raw": 0.001, "real": 0.001, "weighted": 0.0004},
+      "usage": {"raw": 0.0042, "real": 0.0062, "weighted": 0.0012},
+      "count": 319,
+      "weight": 0.0231,
+      "viability": [1, 56, 56, 56],
+      "abilities": {"Sharpness": 1},
+      "items": {"Sitrus Berry": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Hardy:4/0/252/0/252/0": 1},
+      "moves": {
+        "Aqua Cutter": 1,
+        "Fillet Away": 1,
+        "Protect": 1,
+        "Psycho Cut": 1
+      },
+      "teammates": {
+        "Amoonguss": 0.3299,
+        "Dudunsparce": 0.3299,
+        "Maushold": 0.3299
+      },
+      "counters": {}
+    },
+    "Flapple": {
+      "lead": {"raw": 0.0004, "real": 0.0004, "weighted": 0},
+      "usage": {"raw": 0.0023, "real": 0.004, "weighted": 0.0011},
+      "count": 184,
+      "weight": 0.0186,
+      "viability": [2, 54, 54, 54],
+      "abilities": {"Hustle": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Hardy:4/0/0/252/0/252": 1},
+      "moves": {
+        "Dragon Dance": 1,
+        "Energy Ball": 1,
+        "Giga Drain": 1,
+        "Iron Defense": 1
+      },
+      "teammates": {"Iron Moth": 1, "Lucario": 1, "Salamence": 1},
+      "counters": {}
+    },
+    "Bruxish": {
+      "lead": {"raw": 0.0001, "real": 0.0001, "weighted": 0.001},
+      "usage": {"raw": 0.0006, "real": 0.0006, "weighted": 0.001},
+      "count": 47,
+      "weight": 0.0771,
+      "viability": [1, 51, 51, 51],
+      "abilities": {"Strong Jaw": 1},
+      "items": {"Choice Scarf": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:0/252/0/0/4/252": 1},
+      "moves": {
+        "Crunch": 1,
+        "Ice Fang": 1,
+        "Liquidation": 1,
+        "Psychic Fangs": 1
+      },
+      "teammates": {
+        "Brambleghast": 0.4113,
+        "Indeedee-F": 0.4113,
+        "Maushold": 0.4113
+      },
+      "counters": {}
+    },
+    "Chansey": {
+      "lead": {"raw": 0.001, "real": 0.001, "weighted": 0.0004},
+      "usage": {"raw": 0.0036, "real": 0.0092, "weighted": 0.0009},
+      "count": 215,
+      "weight": 0.0362,
+      "viability": [2, 52, 52, 52],
+      "abilities": {"Serene Grace": 0.9107, "Natural Cure": 0.0893},
+      "items": {"Eviolite": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:252/252/4/0/0/0": 0.9107,
+        "Relaxed:248/0/252/0/8/0": 0.0893
+      },
+      "moves": {
+        "Nothing": 2.7322,
+        "Rock Slide": 0.9107,
+        "Icy Wind": 0.0893,
+        "Stealth Rock": 0.0893,
+        "Thunder Wave": 0.0893,
+        "Trailblaze": 0.0893
+      },
+      "teammates": {
+        "Dondozo": 0.0893,
+        "Tatsugiri": 0.0893,
+        "Blissey": 0.0805,
+        "Flutter Mane": 0.0805,
+        "Iron Thorns": 0.0805
+      },
+      "counters": {}
+    },
+    "Hawlucha": {
+      "lead": {"raw": 0.0013, "real": 0.0013, "weighted": 0},
+      "usage": {"raw": 0.0037, "real": 0.0075, "weighted": 0.0009},
+      "count": 318,
+      "weight": 0.0371,
+      "viability": [3, 57, 57, 57],
+      "abilities": {"Unburden": 1},
+      "items": {"Liechi Berry": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:0/252/0/0/4/252": 1},
+      "moves": {"Acrobatics": 1, "Endure": 1, "High Jump Kick": 1, "U-turn": 1},
+      "teammates": {
+        "Iron Bundle": 0.4111,
+        "Maushold": 0.4111,
+        "Meowscarada": 0.4111
+      },
+      "counters": {}
+    },
+    "Kingambit": {
+      "lead": {"raw": 0.0045, "real": 0.0045, "weighted": 0.0003},
+      "usage": {"raw": 0.0221, "real": 0.0308, "weighted": 0.0009},
+      "count": 1530,
+      "weight": 0.0062,
+      "viability": [6, 59, 59, 55],
+      "abilities": {"Defiant": 1},
+      "items": {"Life Orb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Brave:252/252/0/0/4/0": 0.5861,
+        "Adamant:252/252/0/0/4/0": 0.4139
+      },
+      "moves": {
+        "Iron Head": 1,
+        "Kowtow Cleave": 1,
+        "Sucker Punch": 1,
+        "Swords Dance": 0.639,
+        "Metal Sound": 0.361
+      },
+      "teammates": {
+        "Hatterene": 0.7496,
+        "Iron Moth": 0.7496,
+        "Tinkaton": 0.7496
+      },
+      "counters": {}
+    },
+    "Zoroark": {
+      "lead": {"raw": 0.0005, "real": 0.0005, "weighted": 0.0006},
+      "usage": {"raw": 0.0048, "real": 0.0154, "weighted": 0.0009},
+      "count": 362,
+      "weight": 0.0122,
+      "viability": [2, 45, 45, 45],
+      "abilities": {"Illusion": 1},
+      "items": {"Leftovers": 0.9856, "Wide Lens": 0.0144},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:0/252/0/0/0/252": 0.9856,
+        "Jolly:0/252/0/0/4/252": 0.0144
+      },
+      "moves": {
+        "Body Slam": 0.9856,
+        "Crunch": 0.9856,
+        "Hone Claws": 0.9856,
+        "Sucker Punch": 0.9856,
+        "Copycat": 0.0144,
+        "Knock Off": 0.0144,
+        "Protect": 0.0144,
+        "U-turn": 0.0144
+      },
+      "teammates": {
+        "Ditto": 0.6433,
+        "Maushold": 0.0078,
+        "Meowscarada": 0.0078,
+        "Mimikyu": 0.0078
+      },
+      "counters": {}
+    },
+    "Altaria": {
+      "lead": {"raw": 0.0032, "real": 0.0032, "weighted": 0},
+      "usage": {"raw": 0.0144, "real": 0.0185, "weighted": 0.0008},
+      "count": 872,
+      "weight": 0.0038,
+      "viability": [10, 50, 50, 50],
+      "abilities": {"Cloud Nine": 1},
+      "items": {"Salac Berry": 0.9989, "Leftovers": 0.0011},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:4/252/0/0/0/252": 0.9989,
+        "Timid:252/0/0/4/0/252": 0.0011
+      },
+      "moves": {
+        "Protect": 1,
+        "Brave Bird": 0.9989,
+        "Dragon Dance": 0.9989,
+        "Substitute": 0.9989,
+        "Dazzling Gleam": 0.0011,
+        "Dragon Pulse": 0.0011,
+        "Heat Wave": 0.0011
+      },
+      "teammates": {
+        "Gyarados": 0.9989,
+        "Oricorio-Sensu": 0.9989,
+        "Volcarona": 0.9989,
+        "Azumarill": 0.0011,
+        "Gallade": 0.0011,
+        "Meowscarada": 0.0011
+      },
+      "counters": {}
+    },
+    "Revavroom": {
+      "lead": {"raw": 0.0014, "real": 0.0014, "weighted": 0.0002},
+      "usage": {"raw": 0.0044, "real": 0.0079, "weighted": 0.0007},
+      "count": 276,
+      "weight": 0.0086,
+      "viability": [3, 51, 51, 51],
+      "abilities": {"Filter": 1},
+      "items": {"Black Sludge": 0.995, "Nothing": 0.005},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Impish:252/0/128/0/128/0": 0.995,
+        "Adamant:252/252/0/0/4/0": 0.005
+      },
+      "moves": {
+        "Shift Gear": 1,
+        "Spin Out": 1,
+        "Gunk Shot": 0.995,
+        "Overheat": 0.995,
+        "Poison Jab": 0.005,
+        "Zen Headbutt": 0.005
+      },
+      "teammates": {"Baxcalibur": 0.5656},
+      "counters": {}
+    },
+    "Toxtricity": {
+      "lead": {"raw": 0.0027, "real": 0.0027, "weighted": 0.0006},
+      "usage": {"raw": 0.0096, "real": 0.013, "weighted": 0.0006},
+      "count": 765,
+      "weight": 0.0491,
+      "viability": [3, 57, 57, 57],
+      "abilities": {"Punk Rock": 1},
+      "items": {"Throat Spray": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Modest:4/0/0/252/0/252": 1},
+      "moves": {"Boomburst": 1, "Overdrive": 1, "Protect": 1, "Snarl": 1},
+      "teammates": {"Indeedee-F": 0.1048},
+      "counters": {}
+    },
+    "Sandy Shocks": {
+      "lead": {"raw": 0.0015, "real": 0.0015, "weighted": 0},
+      "usage": {"raw": 0.0067, "real": 0.0103, "weighted": 0.0006},
+      "count": 504,
+      "weight": 0.0206,
+      "viability": [2, 56, 56, 56],
+      "abilities": {"Protosynthesis": 1},
+      "items": {"Choice Specs": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Modest:0/0/84/252/172/0": 1},
+      "moves": {
+        "Earth Power": 1,
+        "Flash Cannon": 1,
+        "Power Gem": 1,
+        "Thunderbolt": 1
+      },
+      "teammates": {"Flutter Mane": 0.5873, "Pawmot": 0.5873, "Scizor": 0.5873},
+      "counters": {}
+    },
+    "Sableye": {
+      "lead": {"raw": 0.0054, "real": 0.0054, "weighted": 0.0006},
+      "usage": {"raw": 0.0163, "real": 0.0323, "weighted": 0.0006},
+      "count": 884,
+      "weight": 0.1644,
+      "viability": [3, 65, 65, 65],
+      "abilities": {"Prankster": 1},
+      "items": {"Leftovers": 0.9559, "Rocky Helmet": 0.0441},
+      "happinesses": {"255": 1},
+      "spreads": {
+        "Adamant:0/4/252/0/252/0": 0.9559,
+        "Calm:4/0/252/0/252/0": 0.0441
+      },
+      "moves": {
+        "Recover": 0.9559,
+        "Sucker Punch": 0.9559,
+        "Taunt": 0.9559,
+        "Will-O-Wisp": 0.9559,
+        "Fake Out": 0.0441,
+        "Helping Hand": 0.0441,
+        "Light Screen": 0.0441,
+        "Quash": 0.0441
+      },
+      "teammates": {
+        "Espeon": 0.0441,
+        "Flutter Mane": 0.0441,
+        "Quaquaval": 0.0441
+      },
+      "counters": {}
+    },
+    "Espeon": {
+      "lead": {"raw": 0.002, "real": 0.002, "weighted": 0},
+      "usage": {"raw": 0.0063, "real": 0.0088, "weighted": 0.0006},
+      "count": 385,
+      "weight": 0.0091,
+      "viability": [1, 54, 54, 54],
+      "abilities": {"Magic Bounce": 1},
+      "items": {"Choice Specs": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:4/0/0/252/0/252": 1},
+      "moves": {
+        "Dazzling Gleam": 1,
+        "Power Gem": 1,
+        "Protect": 1,
+        "Psychic": 1
+      },
+      "teammates": {"Flutter Mane": 1, "Quaquaval": 1, "Sableye": 1},
+      "counters": {}
+    },
+    "Blissey": {
+      "lead": {"raw": 0.0041, "real": 0.0041, "weighted": 0},
+      "usage": {"raw": 0.0147, "real": 0.024, "weighted": 0.0004},
+      "count": 813,
+      "weight": 0.0366,
+      "viability": [1, 52, 52, 52],
+      "abilities": {"Serene Grace": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Adamant:252/252/0/0/4/0": 1},
+      "moves": {
+        "Healing Wish": 1,
+        "Protect": 1,
+        "Rock Slide": 1,
+        "Soft-Boiled": 1
+      },
+      "teammates": {
+        "Chansey": 0.0884,
+        "Flutter Mane": 0.0884,
+        "Iron Thorns": 0.0884
+      },
+      "counters": {}
+    },
+    "Quagsire": {
+      "lead": {"raw": 0.0018, "real": 0.0018, "weighted": 0.0001},
+      "usage": {"raw": 0.0059, "real": 0.0075, "weighted": 0.0004},
+      "count": 317,
+      "weight": 0.008,
+      "viability": [2, 49, 49, 49],
+      "abilities": {"Water Absorb": 0.6394, "Unaware": 0.3606},
+      "items": {"Iapapa Berry": 0.6394, "Leftovers": 0.3606},
+      "happinesses": {"255": 1},
+      "spreads": {"Impish:252/4/252/0/0/0": 1},
+      "moves": {
+        "Toxic": 1,
+        "Brick Break": 0.6394,
+        "Counter": 0.6394,
+        "Rain Dance": 0.6394,
+        "Earthquake": 0.3606,
+        "Helping Hand": 0.3606,
+        "Recover": 0.3606
+      },
+      "teammates": {
+        "Gastrodon": 0.4872,
+        "Oricorio-Sensu": 0.4872,
+        "Volcarona": 0.4872
+      },
+      "counters": {}
+    },
+    "Lumineon": {
+      "lead": {"raw": 0.0006, "real": 0.0006, "weighted": 0},
+      "usage": {"raw": 0.0018, "real": 0.007, "weighted": 0.0004},
+      "count": 94,
+      "weight": 0.0257,
+      "viability": [1, 45, 45, 45],
+      "abilities": {"Storm Drain": 1},
+      "items": {"Mental Herb": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Timid:252/0/4/0/0/252": 1},
+      "moves": {"Agility": 1, "Air Slash": 1, "Soak": 1, "Tailwind": 1},
+      "teammates": {"Pawmot": 1},
+      "counters": {}
+    },
+    "Haxorus": {
+      "lead": {"raw": 0.0019, "real": 0.0019, "weighted": 0},
+      "usage": {"raw": 0.0051, "real": 0.0101, "weighted": 0.0003},
+      "count": 353,
+      "weight": 0.0036,
+      "viability": [2, 64, 64, 64],
+      "abilities": {"Rivalry": 1},
+      "items": {"Leftovers": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Hardy:252/4/0/0/0/252": 1},
+      "moves": {"Aqua Tail": 1, "Bulldoze": 1, "Close Combat": 1, "Counter": 1},
+      "teammates": {"Braviary": 1, "Ceruledge": 1, "Cyclizar": 1},
+      "counters": {}
+    },
+    "Braviary": {
+      "lead": {"raw": 0.0007, "real": 0.0007, "weighted": 0},
+      "usage": {"raw": 0.004, "real": 0.0053, "weighted": 0.0003},
+      "count": 238,
+      "weight": 0.0108,
+      "viability": [1, 42, 42, 42],
+      "abilities": {"Keen Eye": 1},
+      "items": {"Aguav Berry": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Hardy:0/0/0/4/252/252": 1},
+      "moves": {"Acrobatics": 1, "Air Slash": 1, "Body Slam": 1, "Bulk Up": 1},
+      "teammates": {"Ceruledge": 1, "Cyclizar": 1, "Haxorus": 1},
+      "counters": {}
+    },
+    "Houndstone": {
+      "lead": {"raw": 0.0023, "real": 0.0023, "weighted": 0.0002},
+      "usage": {"raw": 0.0127, "real": 0.0183, "weighted": 0.0002},
+      "count": 765,
+      "weight": 0.0027,
+      "viability": [2, 59, 59, 59],
+      "abilities": {"Fluffy": 1},
+      "items": {"Choice Scarf": 1},
+      "happinesses": {"255": 1},
+      "spreads": {"Jolly:4/252/0/0/0/252": 1},
+      "moves": {
+        "Last Respects": 1,
+        "Phantom Force": 1,
+        "Play Rough": 1,
+        "Trick": 1
+      },
+      "teammates": {"Meowscarada": 1, "Quaquaval": 1, "Skeledirge": 1},
+      "counters": {}
+    }
+  },
+  "metagame": {
+    "tags": {
+      "weatherless": 0.7538,
+      "offense": 0.4364,
+      "balance": 0.3592,
+      "monotype": 0.272,
+      "mononormal": 0.2719,
+      "sun": 0.2201,
+      "semistall": 0.1368,
+      "hyperoffense": 0.0646,
+      "choice": 0.0485,
+      "sunoffense": 0.0482,
+      "sand": 0.0318,
+      "multiweather": 0.0129,
+      "hail": 0.0048,
+      "stall": 0.003,
+      "rain": 0.0025,
+      "voltturn": 0.0009,
+      "tailwind": 0.0008,
+      "monoice": 0.0001
+    },
+    "stalliness": {
+      "histogram": [
+        [-1.75, 0.3702],
+        [-1.5, 0],
+        [-1.25, 0.3702],
+        [-1, 4.4428],
+        [-0.75, 2.2214],
+        [-0.5, 8.1451],
+        [-0.25, 8.5154],
+        [0, 11.107],
+        [0.25, 4.813],
+        [0.5, 4.813],
+        [0.75, 1.8512],
+        [1, 6.294],
+        [1.25, 1.8512],
+        [1.5, 0],
+        [1.75, 0],
+        [2, 0],
+        [2.25, 0],
+        [2.5, 0],
+        [2.75, 0],
+        [3, 0],
+        [3.25, 0],
+        [3.5, 0]
+      ],
+      "mean": 0.021,
+      "total": 54.4462
+    }
+  }
+}

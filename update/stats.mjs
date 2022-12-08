@@ -21,7 +21,6 @@ sourceMapSupport.install();
 import * as fs from 'fs';
 import * as path from 'path';
 import {fileURLToPath} from 'url';
-import fetch from 'node-fetch';
 import stringify from 'json-stringify-pretty-compact';
 import * as wrapr from 'wrapr';
 
@@ -42,7 +41,7 @@ const N = 1e4;
 
 const UNSUPPORTED = ['1v1', 'challengecup1vs1'];
 const RE = /(.*)\/chaos\/(.*)\.json/;
-const SPECIAL = /(gen[789](?:vgc20(?:19|21|22)|battlestadium(?:singles|doubles)))(.*)/;
+const SPECIAL = /(gen[789](?:vgc20(?:19|21|22|23)|battlestadium(?:singles|doubles)))(.*)/;
 
 async function convert(format, date) {
   const leads = !stats.isNonSinglesFormat(format) && !UNSUPPORTED.includes(format);
@@ -73,7 +72,10 @@ const DATA = path.resolve(__dirname, '../data');
 const SUPPORTED = new Set(['gen8battlestadiumdoubles']);
 for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
   if (file === 'index.json' || /gen\d.json/.test(file) || file.endsWith('nfe.json')) continue;
-  SUPPORTED.add(file.slice(0, file.indexOf('.')));
+  const format = file.slice(0, file.indexOf('.'));
+  SUPPORTED.add(format);
+  // TODO: Smogon doesn't have analyses for most Generation 9 formats, so just carry over
+  if (format.startsWith('gen8')) SUPPORTED.add(`gen9${format.slice(4)}`);
 }
 
 (async () => {

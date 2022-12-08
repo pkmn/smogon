@@ -1,15 +1,6 @@
 import {
-  AbilityName,
-  Generation,
-  ID,
-  ItemName,
-  MoveName,
-  NatureName,
-  PokemonSet,
-  Specie,
-  StatID,
-  StatsTable,
-  Tier,
+  AbilityName, Generation, ID, ItemName, MoveName, NatureName,
+  PokemonSet, Specie, StatID, StatsTable, Tier, TypeName,
 } from '@pkmn/data';
 
 // The structure of https://data.pkmn.cc/analyses/genN.json
@@ -84,7 +75,7 @@ export interface Moveset {
   ivs?: Partial<StatsTable> | Partial<StatsTable>[];
   evs?: Partial<StatsTable> | Partial<StatsTable>[];
   moves: Array<MoveName | MoveName[]>;
-  // TODO: teraType
+  teratypes?: TypeName[];
 }
 
 /** A fairly sloppy definition of DeepPartial, but good enough for our use case. */
@@ -443,7 +434,7 @@ export class Smogon {
       ivs: Array.isArray(s.ivs) ? s.ivs[0] : s.ivs,
       evs: Array.isArray(s.evs) ? s.evs[0] : s.evs,
       gigantamax: species.isNonstandard === 'Gigantamax',
-      // TODO: teraType
+      teraType: Array.isArray(s.teratypes) ? s.teratypes[0] : s.teratypes,
     } as DeepPartial<PokemonSet>;
   }
 
