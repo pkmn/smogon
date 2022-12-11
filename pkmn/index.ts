@@ -175,7 +175,7 @@ const BANS = {
   8: ['Cramorant-Gorging', 'Darmanitan-Galar-Zen'],
 };
 
-const SPECIAL = /(gen[789](?:vgc20(?:19|21|22)|battlestadium(?:singles|doubles)|bs(?:s|d)))(.*)/;
+const SPECIAL = /(gen[789](?:vgc20(?:19|21|22|23)|battlestadium(?:singles|doubles)|bs(?:s|d)))(.*)/;
 const TRANSLATE = {
   'gen8bss': 'gen8battlestadiumsingles',
   'gen8bsd': 'gen8battlestadiumdoubles',
