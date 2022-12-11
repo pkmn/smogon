@@ -30,7 +30,7 @@
     },
     "almostanyability": {"sets": [{"name": "Aerilate Extreme Speed"}]}
   },
-  "Blissey": {"nationaldex": {"sets": [{"name": "Pink Blob (Defensive)"}]}},
+  "Blissey": {"almostanyability": {"sets": [{"name": "Defensive"}]}, "nationaldex": {"sets": [{"name": "Pink Blob (Defensive)"}]}},
   "Breloom": {
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/breloom.3712152/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
@@ -66,14 +66,16 @@
         }
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}, {"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
-    }
+    },
+    "almostanyability": {"sets": [{"name": "Entry Hazard Setter", "description": "<p>A spread of 252 HP / 4 Def / 252 SpD should be used with Ice Scales to be a specially defensive wall.</p> "}]}
   },
   "Hippowdon": {
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/hippowdon.3712159/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [{"name": "Stealth Rock Support", "description": "<ul> <li> <p>Few Pokemon are more reliable at setting up Stealth Rock and phazing than Hippowdon.</p> </li> <li> <p>Roar is a more direct phazing option than Yawn, and it is helpful against dangerous setup sweepers that may run Lum Berry, such as Dragonite and Garchomp.</p> </li> <li> <p>Slack Off may seem like an obvious choice to make a defensive Pokemon last longer, but Hippowdon is often more focused on support than walling, so Slack Off doesn't fit every team.</p> </li> <li> <p>Rock Tomb not only provides helpful speed control, but also pops Air Balloon on foes Hippowdon would otherwise struggle with, such as Gholdengo.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li><strong>Grass-type</strong>: Hippowdon doesn't Terastallize often, but a Grass Tera type does help it against Breloom and Water-types such as Rotom-W.</li> </ul> "}],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
-    }
+    },
+    "almostanyability": {"sets": [{"name": "Fur Coat"}]}
   },
   "Rotom-Heat": {
     "battlestadiumsingles": {
@@ -126,6 +128,8 @@
     },
     "almostanyability": {"sets": [{"name": "Physically Defensive"}, {"name": "Fast Support"}]}
   },
+  "Florges": {"almostanyability": {"sets": [{"name": "Defensive", "description": "<p>An EV spread of 252 HP / 252 Def / 4 SpD should be used on Fur Coat variants.</p> "}]}},
+  "Avalugg": {"almostanyability": {"sets": [{"name": "Fur Coat"}]}},
   "Noivern": {"almostanyability": {"sets": [{"name": "Choice Specs"}, {"name": "Super Fang"}]}},
   "Mimikyu": {
     "battlestadiumsingles": {
@@ -230,6 +234,7 @@
     "almostanyability": {"sets": [{"name": "Setup Sweeper"}, {"name": "Wallbreaker"}]},
     "nationaldex": {"sets": [{"name": "Dragon Dance"}]}
   },
+  "Cyclizar": {"almostanyability": {"sets": [{"name": "Shed Tail", "description": "<p>On Choice Scarf, 20 EVs can be taken out of HP and put into Special Attack for a 100% chance to OHKO Dragapult.</p> "}]}},
   "Garganacl": {
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/garganacl.3712150/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
@@ -269,17 +274,24 @@
     "almostanyability": {"sets": [{"name": "Fur Coat"}, {"name": "Choice Item"}]}
   },
   "Great Tusk": {"almostanyability": {"sets": [{"name": "Regenerator Spinner"}, {"name": "Moldy Wallbreaker"}]}},
-  "Scream Tail": {"almostanyability": {"sets": [{"name": "Pixilate"}, {"name": "Defensive"}]}},
+  "Sandy Shocks": {"almostanyability": {"sets": [{"name": "Hadron Engine"}]}},
+  "Scream Tail": {"almostanyability": {"sets": [{"name": "Pixilate", "description": "<p>A more offensive EV spread with 4 Def / 252 SpA / 252 Spe can be used, but has a harder time setting up with Calm Mind.</p> "}, {"name": "Defensive"}]}},
   "Flutter Mane": {"almostanyability": {"sets": [{"name": "Sheer Force Life Orb"}, {"name": "Choice Specs Wallbreaker"}, {"name": "Choice Scarf"}]}},
+  "Slither Wing": {"almostanyability": {"sets": [{"name": "Choice Band"}, {"name": "Pivot"}]}},
+  "Roaring Moon": {"almostanyability": {"sets": [{"name": "Regenerator"}]}},
+  "Iron Treads": {"almostanyability": {"sets": [{"name": "RegenVest"}]}},
+  "Iron Moth": {"almostanyability": {"sets": [{"name": "Offensive"}, {"name": "Specially Defensive"}]}},
   "Iron Hands": {"almostanyability": {"sets": [{"name": "RegenVest"}, {"name": "Fur Coat"}]}},
   "Iron Bundle": {"almostanyability": {"sets": [{"name": "Choice Specs"}, {"name": "Magic Guard Disrupter"}]}},
   "Iron Valiant": {"balancedhackmons": {"sets": [{"name": "Mixed Attacker"}]}, "almostanyability": {"sets": [{"name": "Sheer Force + Life Orb"}]}},
-  "Ting-Lu": {"balancedhackmons": {"sets": [{"name": "Prankster"}, {"name": "RegenVest"}, {"name": "Magic Bounce"}]}},
+  "Ting-Lu": {"balancedhackmons": {"sets": [{"name": "Prankster"}, {"name": "RegenVest"}, {"name": "Magic Bounce"}]}, "almostanyability": {"sets": [{"name": "Specially Defensive"}]}},
   "Chien-Pao": {"nationaldex": {"sets": [{"name": "Swords Dance"}]}},
+  "Chi-Yu": {"almostanyability": {"sets": [{"name": "Choiced Attacker"}, {"name": "Nasty Plot"}]}},
   "Koraidon": {"balancedhackmons": {"sets": [{"name": "Poison Heal"}]}},
   "Miraidon": {"balancedhackmons": {"sets": [{"name": "Choice Specs"}, {"name": "Set-up Sweeper"}]}},
   "Armarouge": {"almostanyability": {"sets": [{"name": "Choice Scarf"}]}},
   "Ceruledge": {"almostanyability": {"sets": [{"name": "Weather Attacker"}]}},
+  "Kingambit": {"almostanyability": {"sets": [{"name": "Swords Dance"}]}},
   "Clodsire": {
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/clodsire.3712165/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
@@ -291,6 +303,7 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 265677, "username": "Butch Hardnight"}, {"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     },
+    "almostanyability": {"sets": [{"name": "Specially Defensive"}]},
     "nationaldex": {"sets": [{"name": "Defensive Entry Hazard Setter"}]}
   },
   "Annihilape": {"battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/annihilape-gp-0-1.3712195/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Bulky Taunt"}, {"name": "Choice Scarf"}]}, "nationaldex": {"sets": [{"name": "Bulk Up"}]}}
