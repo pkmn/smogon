@@ -32,7 +32,8 @@
     "outDir": "build",
     "format": ["cjs", "esm"],
     "sourcemap": true,
-    "dts": true
+    "dts": true,
+    "clean": true
   },
   "jest": {
     "testEnvironment": "node",
