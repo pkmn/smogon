@@ -1,5 +1,5 @@
 {
-  "Dragonite": {"sets": [{"name": "Aerilate Extreme Speed"}]},
+  "Dragonite": {"sets": [{"name": "Dragon Dance"}, {"name": "Choice Band"}]},
   "Blissey": {"sets": [{"name": "Defensive"}]},
   "Garchomp": {"sets": [{"name": "Entry Hazard Setter", "description": "<p>A spread of 252 HP / 4 Def / 252 SpD should be used with Ice Scales to be a specially defensive wall.</p> "}]},
   "Hippowdon": {"sets": [{"name": "Fur Coat"}]},
@@ -7,13 +7,22 @@
   "Florges": {"sets": [{"name": "Defensive", "description": "<p>An EV spread of 252 HP / 252 Def / 4 SpD should be used on Fur Coat variants.</p> "}]},
   "Avalugg": {"sets": [{"name": "Fur Coat"}]},
   "Noivern": {"sets": [{"name": "Choice Specs"}, {"name": "Super Fang"}]},
-  "Corviknight": {"sets": [{"name": "Specially Defensive Pivot"}, {"name": "Physically Defensive Pivot"}]},
+  "Corviknight": {
+    "sets": [
+      {
+        "name": "Specially Defensive",
+        "description": "<p>Ice Scales Corviknight is a premier specially defensive pivot that can check prominent special attackers like Flutter Mane, Iron Bundle, and Dragapult with its immense bulk and great typing while also providing entry hazard removal. Brave Bird is Corviknight's most consistent attack and 2HKOes or 3HKOes most special attackers, whereas Iron Head OHKOes Flutter Mane and avoids recoil. Defog provides entry hazard control, which is very crucial for teams facing hazard-stacking threats like Ting-Lu and Garchomp, while U-turn provides slow pivoting support for offensive teammates. As a result, frail pokemon such as Dragapult, Iron Bundle, and Iron Moth are great teammates, as they appreciate Corviknight's ability to get them in safely. Ice Scales Corviknight struggles against strong physical attackers, so pairing it with a strong physical wall like Avalugg or Hippowdon is recommended. Even with Ice Scales, Corviknight can be susceptible to strong special attacking Fire-types like Chi-Yu and Iron Moth, so Regenerator Garchomp and Ting-Lu make good teammates. Corviknight is prone to having its Defog blocked by Good as Gold, so it's strongly recommended for it to be paired with spinners such as Great Tusk that can remove entry hazards if Corviknight is unable to.</p> "
+      },
+      {"name": "Physically Defensive Pivot"}
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 475288, "username": "Tranquility"}]}
+  },
   "Dragapult": {"sets": [{"name": "Sheer Force + Life Orb"}, {"name": "Choice Specs"}]},
   "Skeledirge": {"sets": [{"name": "Entry Hazards Stay Up"}]},
   "Baxcalibur": {"sets": [{"name": "Setup Sweeper"}, {"name": "Wallbreaker"}]},
   "Cyclizar": {"sets": [{"name": "Shed Tail", "description": "<p>On Choice Scarf, 20 EVs can be taken out of HP and put into Special Attack for a 100% chance to OHKO Dragapult.</p> "}]},
   "Garganacl": {"sets": [{"name": "Fur Coat"}, {"name": "Ice Scales"}]},
-  "Gholdengo": {"sets": [{"name": "Fur Coat"}, {"name": "Choice Item"}]},
+  "Gholdengo": {"sets": [{"name": "Defensive Nasty Plot"}, {"name": "Choice Item"}]},
   "Great Tusk": {"sets": [{"name": "Regenerator Spinner"}, {"name": "Moldy Wallbreaker"}]},
   "Sandy Shocks": {"sets": [{"name": "Hadron Engine"}]},
   "Scream Tail": {"sets": [{"name": "Pixilate", "description": "<p>A more offensive EV spread with 4 Def / 252 SpA / 252 Spe can be used, but has a harder time setting up with Calm Mind.</p> "}, {"name": "Defensive"}]},
@@ -28,7 +37,7 @@
   "Ting-Lu": {"sets": [{"name": "Specially Defensive"}]},
   "Chi-Yu": {"sets": [{"name": "Choiced Attacker"}, {"name": "Nasty Plot"}]},
   "Armarouge": {"sets": [{"name": "Choice Scarf"}]},
-  "Ceruledge": {"sets": [{"name": "Weather Attacker"}]},
+  "Ceruledge": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Item"}]},
   "Kingambit": {"sets": [{"name": "Swords Dance"}]},
   "Clodsire": {"sets": [{"name": "Specially Defensive"}]}
 }

@@ -14,6 +14,7 @@
     }
   },
   "Chansey": {"balancedhackmons": {"sets": [{"name": "Standard Imposter"}, {"name": "Toxic Orb Imposter"}]}, "nationaldex": {"sets": [{"name": "Pink Blob (Defensive)"}]}},
+  "Gyarados": {"nationaldex": {"sets": [{"name": "Dragon Dance"}, {"name": "Dragon Dance + Flyinium Z"}]}},
   "Ditto": {"nationaldex": {"sets": [{"name": "SUS"}]}},
   "Dragonite": {
     "battlestadiumsingles": {
@@ -31,7 +32,7 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     },
-    "almostanyability": {"sets": [{"name": "Aerilate Extreme Speed"}]},
+    "almostanyability": {"sets": [{"name": "Dragon Dance"}, {"name": "Choice Band"}]},
     "nationaldex": {"sets": [{"name": "Dragon Dance"}]}
   },
   "Murkrow": {"nfe": {"sets": [{"name": "Nasty Plot"}]}},
@@ -83,13 +84,15 @@
     },
     "almostanyability": {"sets": [{"name": "Entry Hazard Setter", "description": "<p>A spread of 252 HP / 4 Def / 252 SpD should be used with Ice Scales to be a specially defensive wall.</p> "}]}
   },
+  "Hippopotas": {"nfe": {"sets": [{"name": "Physical Wall"}]}},
   "Hippowdon": {
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/hippowdon.3712159/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [{"name": "Stealth Rock Support", "description": "<ul> <li> <p>Few Pokemon are more reliable at setting up Stealth Rock and phazing than Hippowdon.</p> </li> <li> <p>Roar is a more direct phazing option than Yawn, and it is helpful against dangerous setup sweepers that may run Lum Berry, such as Dragonite and Garchomp.</p> </li> <li> <p>Slack Off may seem like an obvious choice to make a defensive Pokemon last longer, but Hippowdon is often more focused on support than walling, so Slack Off doesn't fit every team.</p> </li> <li> <p>Rock Tomb not only provides helpful speed control, but also pops Air Balloon on foes Hippowdon would otherwise struggle with, such as Gholdengo.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li><strong>Grass-type</strong>: Hippowdon doesn't Terastallize often, but a Grass Tera type does help it against Breloom and Water-types such as Rotom-W.</li> </ul> "}],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     },
-    "almostanyability": {"sets": [{"name": "Fur Coat"}]}
+    "almostanyability": {"sets": [{"name": "Fur Coat"}]},
+    "nationaldex": {"sets": [{"name": "Defensive"}]}
   },
   "Rotom-Heat": {
     "battlestadiumsingles": {
@@ -104,6 +107,7 @@
     }
   },
   "Rotom-Wash": {"battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/rotom-w-gp-0-1.3712166/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Choice Attacker"}, {"name": "Nasty Plot"}]}},
+  "Krokorok": {"nfe": {"sets": [{"name": "Stealth Rock"}]}},
   "Foongus": {"nfe": {"sets": [{"name": "Physically Defensive"}]}},
   "Amoonguss": {
     "battlestadiumsingles": {
@@ -118,6 +122,7 @@
     }
   },
   "Alomomola": {"nationaldex": {"sets": [{"name": "Defensive"}]}},
+  "Eelektrik": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}},
   "Fraxure": {"nfe": {"sets": [{"name": "Dragon Dance"}, {"name": "Choice Band"}, {"name": "Swords Dance"}]}},
   "Zweilous": {"nfe": {"sets": [{"name": "Wallbreaker"}]}},
   "Hydreigon": {
@@ -166,9 +171,24 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     }
   },
-  "Corviknight": {"nationaldex": {"sets": [{"name": "Defensive Pivot"}]}, "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/corviknight-gp-1-2.3712164/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "IronPress"}, {"name": "Bulk Up"}]}, "almostanyability": {"sets": [{"name": "Specially Defensive Pivot"}, {"name": "Physically Defensive Pivot"}]}},
+  "Corviknight": {
+    "nationaldex": {"sets": [{"name": "Defensive Pivot"}]},
+    "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/corviknight-gp-1-2.3712164/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "IronPress"}, {"name": "Bulk Up"}]},
+    "almostanyability": {
+      "sets": [
+        {
+          "name": "Specially Defensive",
+          "description": "<p>Ice Scales Corviknight is a premier specially defensive pivot that can check prominent special attackers like Flutter Mane, Iron Bundle, and Dragapult with its immense bulk and great typing while also providing entry hazard removal. Brave Bird is Corviknight's most consistent attack and 2HKOes or 3HKOes most special attackers, whereas Iron Head OHKOes Flutter Mane and avoids recoil. Defog provides entry hazard control, which is very crucial for teams facing hazard-stacking threats like Ting-Lu and Garchomp, while U-turn provides slow pivoting support for offensive teammates. As a result, frail pokemon such as Dragapult, Iron Bundle, and Iron Moth are great teammates, as they appreciate Corviknight's ability to get them in safely. Ice Scales Corviknight struggles against strong physical attackers, so pairing it with a strong physical wall like Avalugg or Hippowdon is recommended. Even with Ice Scales, Corviknight can be susceptible to strong special attacking Fire-types like Chi-Yu and Iron Moth, so Regenerator Garchomp and Ting-Lu make good teammates. Corviknight is prone to having its Defog blocked by Good as Gold, so it's strongly recommended for it to be paired with spinners such as Great Tusk that can remove entry hazards if Corviknight is unable to.</p> "
+        },
+        {"name": "Physically Defensive Pivot"}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 475288, "username": "Tranquility"}]}
+    }
+  },
   "Barraskewda": {"nationaldex": {"sets": [{"name": "Choice Band"}]}},
+  "Hattrem": {"nfe": {"sets": [{"name": "RestTalk"}, {"name": "Healing Wish"}]}},
   "Grimmsnarl": {
+    "nationaldex": {"sets": [{"name": "Dual Screens"}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/grimmsnarl.3712163/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [
@@ -299,10 +319,10 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     },
-    "almostanyability": {"sets": [{"name": "Fur Coat"}, {"name": "Choice Item"}]},
+    "almostanyability": {"sets": [{"name": "Defensive Nasty Plot"}, {"name": "Choice Item"}]},
     "nationaldex": {"sets": [{"name": "Choice Scarf"}, {"name": "Nasty Plot"}]}
   },
-  "Great Tusk": {"almostanyability": {"sets": [{"name": "Regenerator Spinner"}, {"name": "Moldy Wallbreaker"}]}},
+  "Great Tusk": {"almostanyability": {"sets": [{"name": "Regenerator Spinner"}, {"name": "Moldy Wallbreaker"}]}, "nationaldex": {"sets": [{"name": "Offensive Utility"}]}},
   "Sandy Shocks": {"almostanyability": {"sets": [{"name": "Hadron Engine"}]}},
   "Scream Tail": {"almostanyability": {"sets": [{"name": "Pixilate", "description": "<p>A more offensive EV spread with 4 Def / 252 SpA / 252 Spe can be used, but has a harder time setting up with Calm Mind.</p> "}, {"name": "Defensive"}]}},
   "Flutter Mane": {"almostanyability": {"sets": [{"name": "Sheer Force Life Orb"}, {"name": "Choice Specs Wallbreaker"}, {"name": "Choice Scarf"}]}},
@@ -320,9 +340,9 @@
   "Miraidon": {"balancedhackmons": {"sets": [{"name": "Choice Specs"}, {"name": "Set-up Sweeper"}]}},
   "Tinkatuff": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}},
   "Armarouge": {"almostanyability": {"sets": [{"name": "Choice Scarf"}]}},
-  "Ceruledge": {"almostanyability": {"sets": [{"name": "Weather Attacker"}]}},
+  "Ceruledge": {"almostanyability": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Item"}]}},
   "Toedscool": {"nfe": {"sets": [{"name": "Utility"}]}},
-  "Kingambit": {"almostanyability": {"sets": [{"name": "Swords Dance"}]}},
+  "Kingambit": {"battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/kingambit-gp-0-1.3712328/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Swords Dance"}]}, "almostanyability": {"sets": [{"name": "Swords Dance"}]}},
   "Clodsire": {
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/clodsire.3712165/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
