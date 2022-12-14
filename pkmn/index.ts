@@ -403,7 +403,7 @@ export class Smogon {
 
     if (specific) return species.name;
 
-    if (gen.species.get(species.baseSpecies)!.cosmeticFormes?.includes(species.name) ||
+    if (gen.species.get(species.baseSpecies)?.cosmeticFormes?.includes(species.name) ||
         PREFIXES.some(prefix => species.name.startsWith(prefix))) {
       return species.baseSpecies;
     }

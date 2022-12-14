@@ -121,8 +121,8 @@ describe('Smogon', () => {
   });
 
   test('name', () => {
-    const name = (n: GenerationNum, s: string, specific = false, stats = false) => {
-      const g = gen(n);
+    const name = (n: Generation | GenerationNum, s: string, specific = false, stats = false) => {
+      const g = typeof n === 'number' ? gen(n) : n;
       return (new Smogon(fetch) as any).name(g, g.species.get(s)!, specific, stats) as string;
     };
     const names = (n: GenerationNum, s: string) => [name(n, s), name(n, s, false, true)];
@@ -141,6 +141,10 @@ describe('Smogon', () => {
     expect(name(4, 'Gastrodon-East', true)).toBe('Gastrodon-East');
     expect(name(5, 'Keldeo-Resolute')).toBe('Keldeo');
     expect(name(5, 'Keldeo-Resolute', true)).toBe('Keldeo-Resolute');
+
+    const strict = new Generations(Dex);
+    expect(name(strict.get(9), 'Vivillon-Fancy')).toBe('Vivillon');
+    expect(name(strict.get(9), 'Tauros-Paldea')).toBe('Tauros-Paldea');
   });
 
   test('toSet', () => {

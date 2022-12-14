@@ -1,6 +1,6 @@
 {
   "name": "@pkmn/smogon",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A rich client for processed and aggregated Smogon analysis and moveset information",
   "homepage": "https://data.pkmn.cc/",
   "repository": "github:pkmn/smogon",
@@ -9,7 +9,9 @@
   "main": "build/index.js",
   "module": "build/index.mjs",
   "types": "build/index.d.ts",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -30,29 +32,48 @@
   },
   "tsup": {
     "outDir": "build",
-    "format": ["cjs", "esm"],
+    "format": [
+      "cjs",
+      "esm"
+    ],
     "sourcemap": true,
     "dts": true,
     "clean": true
   },
   "jest": {
     "testEnvironment": "node",
-    "testPathIgnorePatterns": ["node_modules/", "dist/"],
-    "modulePathIgnorePatterns": ["fixtures/"]
+    "testPathIgnorePatterns": [
+      "node_modules/",
+      "dist/"
+    ],
+    "modulePathIgnorePatterns": [
+      "fixtures/"
+    ]
   },
   "babel": {
     "presets": [
-        "@babel/preset-typescript",
-        ["@babel/preset-env", {"targets": {"node": "current"}}]
+      "@babel/preset-typescript",
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
     ]
   },
   "eslintConfig": {
     "extends": "@pkmn",
-    "overrides": [{
-      "files": ["index.test.ts"],
-      "rules": {
-        "jest/no-conditional-expect": "off"
+    "overrides": [
+      {
+        "files": [
+          "index.test.ts"
+        ],
+        "rules": {
+          "jest/no-conditional-expect": "off"
+        }
       }
-    }]
+    ]
   }
 }
