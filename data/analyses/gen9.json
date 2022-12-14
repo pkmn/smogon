@@ -124,6 +124,8 @@
   "Alomomola": {"nationaldex": {"sets": [{"name": "Defensive"}]}},
   "Eelektrik": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}},
   "Fraxure": {"nfe": {"sets": [{"name": "Dragon Dance"}, {"name": "Choice Band"}, {"name": "Swords Dance"}]}},
+  "Pawniard": {"nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Stealth Rock"}]}},
+  "Rufflet": {"nfe": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Bulk Up"}]}},
   "Zweilous": {"nfe": {"sets": [{"name": "Wallbreaker"}]}},
   "Hydreigon": {
     "battlestadiumsingles": {
@@ -152,8 +154,11 @@
   },
   "Fletchinder": {"nfe": {"sets": [{"name": "Utility"}, {"name": "Offensive Pivot"}, {"name": "Swords Dance"}]}},
   "Florges": {"almostanyability": {"sets": [{"name": "Defensive", "description": "<p>An EV spread of 252 HP / 252 Def / 4 SpD should be used on Fur Coat variants.</p> "}]}},
+  "Sylveon": {"battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/sylveon-gp-0-1.3712370/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "CUTESY CRUSADER (defensive)"}, {"name": "Offensive"}]}},
+  "Hawlucha": {"nationaldex": {"sets": [{"name": "Unburden Sweeper"}]}},
   "Avalugg": {"almostanyability": {"sets": [{"name": "Fur Coat"}]}},
   "Noivern": {"almostanyability": {"sets": [{"name": "Choice Specs"}, {"name": "Super Fang"}]}},
+  "Mareanie": {"nfe": {"sets": [{"name": "Physically Defensive"}]}},
   "Mimikyu": {
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/mimikyu.3712157/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
@@ -187,6 +192,7 @@
   },
   "Barraskewda": {"nationaldex": {"sets": [{"name": "Choice Band"}]}},
   "Hattrem": {"nfe": {"sets": [{"name": "RestTalk"}, {"name": "Healing Wish"}]}},
+  "Morgrem": {"nfe": {"sets": [{"name": "Choice Specs"}, {"name": "Nasty Plot"}, {"name": "Dual Screens"}]}},
   "Grimmsnarl": {
     "nationaldex": {"sets": [{"name": "Dual Screens"}]},
     "battlestadiumsingles": {
@@ -201,6 +207,7 @@
     }
   },
   "Dragapult": {
+    "ou": {"sets": [{"name": "Choice Specs"}, {"name": "Utility"}, {"name": "Choice Band"}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/dragapult.3712153/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [
@@ -216,7 +223,16 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     },
-    "almostanyability": {"sets": [{"name": "Sheer Force + Life Orb"}, {"name": "Choice Specs"}]},
+    "almostanyability": {
+      "sets": [
+        {"name": "Sheer Force + Life Orb"},
+        {
+          "name": "Hadron Engine",
+          "description": "<p>Choice Specs Hadron Engine Dragapult is a premier wallbreaker and pivot that takes advantage of Electric Terrain to overwhelm common Ice Scales users. Shadow Ball and Draco Meteor provide it with consistent and powerful STAB attacks, respectively. Thunderbolt is a strong coverage move that is also boosted by Electric Terrain, denting RegenVest Kingambit and giving Dragapult a chance to 2HKO Ice Scales Corviknight and Toxapex after Stealth Rock. Strong physical attackers like Great Tusk and Iron Valiant pair well with Dragapult, which brings them in with U-turn on Pokemon they can threaten out, such as Blissey and Iron Treads. In return, Dragapult breaks through Fur Coat users like Hippodown and Corviknight for them. Dragapult is forced out by priority users such as Aerilate Dragonite and Triage Flutter Mane, so Pokemon that can switch into them like Gholdengo and Clodsire are recommended. Dragapult pairs well with defensive pivots like Corviknight and Iron Hands that can safely bring it onto the field to outspeed and threaten a majority of offensive threats, such as Flutter Mane and Chein-Pao. Entry hazards setters like Ting-Lu and Palossand can set Spikes and Stealth Rock, respectively, which helps Dragapult break past switch-ins like Kingambit more easily.</p> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 414072, "username": "Heracross2.0"}]}
+    },
     "nationaldex": {"sets": [{"name": "Dragon Dance"}, {"name": "Choice Specs"}]}
   },
   "Floragato": {"nfe": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}]}},
@@ -247,38 +263,6 @@
     "almostanyability": {"sets": [{"name": "Entry Hazards Stay Up"}]}
   },
   "Quaxwell": {"nfe": {"sets": [{"name": "Defensive"}]}},
-  "Espathra": {"nationaldex": {"sets": [{"name": "Calm Mind"}]}},
-  "Dondozo": {
-    "battlestadiumsingles": {
-      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/dondozo.3712156/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
-      "sets": [
-        {
-          "name": "OHKO Fisher",
-          "description": "<ul> <li> <p>With immense bulk, Yawn, and Unaware, Dondozo is not only an impressive defensive Pokemon, but one of the most dangerous OHKO fishers in the game.</p> </li> <li> <p>Protect is not only useful for scouting for unexpected Tera types, but pairs well with Yawn and Leftovers to give Dondozo more longevity.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li><strong>Grass-type</strong>: A Grass Tera type is useful enough for covering Dondozo's weaknesses, and the Spore immunity makes it capable of beating Breloom too.</li> </ul> <h1>EV Spreads</h1> <ul> <li> <p><strong>252 Def / 252 SpD / 4 Spe</strong>: With Dondozo's massive HP stat, it's still able to take physical hits fairly well with this spread, while making it feasible to Yawn against special attacking threats such as Choice Scarf Hydreigon. </li> <li> <p><strong>252 HP / 252 Def / 4 Spe: This more extreme spread helps against powerful Tera users, with the ability to avoid a 2HKO from Choice Band Tera Dragon Dragapult's Dragon Darts with Leftovers. This comes at the cost of being much more vulnerable to weaker special attackers.</p> </li> </ul> "
-        },
-        {"name": "Curse", "description": "<ul> <li> <p>With Unaware, Dondozo becomes an effective and difficult to break Curse user.</p> </li> <li> <p>Even with Curse being the point of this set, Dondozo can still effectively fish for OHKOs with Fissure when it's not in a favorable set-up position.</p> </li> <li> <p>Many foes will Terrastallize into a Flying-type to avoid an expected Fissure, which makes Avalanche a particularly useful coverage move.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li><strong>Grass-type</strong>: With a Grass Tera Type, Dondozo can effectively set up on Breloom.</li> </ul> "}
-      ],
-      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
-    },
-    "balancedhackmons": {"sets": [{"name": "Prankster"}, {"name": "Fur Coat Wall"}]},
-    "nationaldex": {"sets": [{"name": "Unaware Wall"}]}
-  },
-  "Baxcalibur": {
-    "battlestadiumsingles": {
-      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/baxcalibur.3712151/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
-      "sets": [
-        {
-          "name": "Dragon Dance",
-          "description": "<ul> <li> <p>With good bulk, an immunity to burn, and just enough Speed to work, Baxcalibur is a powerful Dragon Dance sweeper.</p> </li> <li> <p>Icicle Spear KOes Breloom and Mimikyu through Focus Sash and Disguise respectively.</p> </li> <li> <p>While Glaive Rush is valuable for late-game sweeping, it does make Baxcalibur very vulnerable to bulky OHKO move users such as Dondozo and Garganacl.</p> </li> <li> <p>Alternatively, Ice Shard means Baxcalibur will have a difficult time breaking past bulky Steel-types early-game, but it makes it an effective cleaner otherwise.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Dragon-type: This makes Glaive Rush deal obscene damage and removes weaknesses to Mach Punch and Bullet Punch.</p> </li> <li> <p><strong>Electric-type</strong>: When paired with Tera Blast, this is Life Orb Baxcalibur's best shot at dealing damage to Dondozo switch-ins. The paralysis immunity also helps Baxcalibur set up against Chansey with less risk.</p> </li> <li> <p><strong>Steel-type: With a Tera type of Steel, Baxcalibur can set up on Mimikyu and Dragon-type attacks.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Life Orb</strong>: This helps Baxcalibur sweep reliably and ensures Icicle Spear OHKOes Breloom through Focus Sash.</p> </li> <li> <p><strong>Loaded Dice</strong>: With a guaranteed 4 hits from Icicle Spear, Baxcalibur is able to always OHKO offensive Mimikyu after Dragon Dance.</p> </li> </ul> "
-        },
-        {"name": "Bulky Assault Vest", "description": "<ul> <li> <p>Baxcalibur's bulk and the wonderful Ice Shard make it a good user of Assault Vest, making it especially effective against the Rotom formes.</p> </li> <li> <p>Icicle Spear is recommended despite its inconsistent damage, as it deals damage through Mimikyu's disguise and potentially KOes Focus Sash users like Breloom and Meowscarada.</p> </li> <li> <p>Glaive Rush makes Baxcalibur very vulnerable to getting KOed the next turn, but it is still the least risky Dragon-type STAB move.</p> </li> <li> <p>A Ground Tera type gives Baxcalibur a reliable STAB move in Earthquake, resistance to Stealth Rock, and removes a ton of weaknesses, all at the cost of losing to Water-types such as Rotom-W.</p> </li> </ul> "}
-      ],
-      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}, {"user_id": 534158, "username": "Kiby"}, {"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
-    },
-    "almostanyability": {"sets": [{"name": "Setup Sweeper"}, {"name": "Wallbreaker"}]},
-    "nationaldex": {"sets": [{"name": "Dragon Dance"}]}
-  },
-  "Cyclizar": {"almostanyability": {"sets": [{"name": "Shed Tail", "description": "<p>On Choice Scarf, 20 EVs can be taken out of HP and put into Special Attack for a 100% chance to OHKO Dragapult.</p> "}]}, "nationaldex": {"sets": [{"name": "Shed Tail Utility"}]}},
   "Naclstack": {"nfe": {"sets": [{"name": "Stealth Rock"}, {"name": "Salt Shaker"}]}},
   "Garganacl": {
     "battlestadiumsingles": {
@@ -294,6 +278,12 @@
     "almostanyability": {"sets": [{"name": "Fur Coat"}, {"name": "Ice Scales"}]},
     "nationaldex": {"sets": [{"name": "IronPress"}]}
   },
+  "Armarouge": {"almostanyability": {"sets": [{"name": "Choice Scarf"}]}},
+  "Ceruledge": {"almostanyability": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Item"}]}},
+  "Toedscool": {"nfe": {"sets": [{"name": "Utility"}]}},
+  "Espathra": {"ou": {"sets": [{"name": "Calm Mind"}]}, "nationaldex": {"sets": [{"name": "Calm Mind"}]}},
+  "Tinkatuff": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}},
+  "Cyclizar": {"almostanyability": {"sets": [{"name": "Shed Tail", "description": "<p>On Choice Scarf, 20 EVs can be taken out of HP and put into Special Attack for a 100% chance to OHKO Dragapult.</p> "}]}, "nationaldex": {"sets": [{"name": "Shed Tail Utility"}]}},
   "Glimmet": {"nfe": {"sets": [{"name": "Hazard Lead"}]}},
   "Glimmora": {
     "battlestadiumsingles": {
@@ -303,7 +293,88 @@
     },
     "nationaldex": {"sets": [{"name": "Suicide Lead"}]}
   },
+  "Dondozo": {
+    "battlestadiumsingles": {
+      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/dondozo.3712156/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
+      "sets": [
+        {
+          "name": "OHKO Fisher",
+          "description": "<ul> <li> <p>With immense bulk, Yawn, and Unaware, Dondozo is not only an impressive defensive Pokemon, but one of the most dangerous OHKO fishers in the game.</p> </li> <li> <p>Protect is not only useful for scouting for unexpected Tera types, but pairs well with Yawn and Leftovers to give Dondozo more longevity.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li><strong>Grass-type</strong>: A Grass Tera type is useful enough for covering Dondozo's weaknesses, and the Spore immunity makes it capable of beating Breloom too.</li> </ul> <h1>EV Spreads</h1> <ul> <li> <p><strong>252 Def / 252 SpD / 4 Spe</strong>: With Dondozo's massive HP stat, it's still able to take physical hits fairly well with this spread, while making it feasible to Yawn against special attacking threats such as Choice Scarf Hydreigon. </li> <li> <p><strong>252 HP / 252 Def / 4 Spe: This more extreme spread helps against powerful Tera users, with the ability to avoid a 2HKO from Choice Band Tera Dragon Dragapult's Dragon Darts with Leftovers. This comes at the cost of being much more vulnerable to weaker special attackers.</p> </li> </ul> "
+        },
+        {"name": "Curse", "description": "<ul> <li> <p>With Unaware, Dondozo becomes an effective and difficult to break Curse user.</p> </li> <li> <p>Even with Curse being the point of this set, Dondozo can still effectively fish for OHKOs with Fissure when it's not in a favorable set-up position.</p> </li> <li> <p>Many foes will Terrastallize into a Flying-type to avoid an expected Fissure, which makes Avalanche a particularly useful coverage move.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li><strong>Grass-type</strong>: With a Grass Tera Type, Dondozo can effectively set up on Breloom.</li> </ul> "}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
+    },
+    "balancedhackmons": {"sets": [{"name": "Prankster"}, {"name": "Fur Coat Wall"}]},
+    "nationaldex": {"sets": [{"name": "Unaware Wall"}]}
+  },
+  "Annihilape": {"ou": {"sets": [{"name": "Bulk Up"}]}, "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/annihilape-gp-0-1.3712195/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Bulky Taunt"}, {"name": "Choice Scarf"}]}, "nationaldex": {"sets": [{"name": "Bulk Up"}]}},
+  "Clodsire": {
+    "battlestadiumsingles": {
+      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/clodsire.3712165/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
+      "sets": [
+        {
+          "name": "Support",
+          "description": "<ul> <li> <p>While Clodsire is lacking in physical bulk compared to Dondozo and Skeledirge, it makes up for it in having a fantastic support movepool.</p> </li> <li> <p>Yawn is very effective at forcing switches, which is especially dangerous if Stealth Rock is set up.</p> </li> <li> <p>Poison Jab is Clodsire's best move against Tera Fairy Rotom-W, which is an especially important target when using Water Absorb.</p> </li> <li> <p>Protect, in addition to benefiting from Leftovers, pairs well with Yawn.</p> </li> <li> <p>Body Press isn't particularly strong, but it does prevent Clodsire from being totally walled by Tera Steel Hydreigon if using a physically defensive spread.</p> </li> <li> <p>Black Sludge may seem appealing, but it punishes Clodsire for Terastalliizing unless it becomes Tera Poison, so Leftovers is preferred unless Leftovers is already on something else.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Flying-type: With a Flying Tera type, Clodsire no longer has to worry about Earthquake or Fissure.</p> </li> <li> <p><strong>Steel-type</strong>: A Steel Tera type allows Clodsire to take on powerful Dragon-type attacks, without the worry of Gholdengo dealing massive damage.</p> </li> <li> <p><strong>Poison-type: With Tera Poison, Clodsire not only becomes a better check to Grass- and Water-types such as Meowscarda and Rotom-W, but it can also safely run Black Sludge to punish users of Trick.</p> </li> <li> <p><strong>Fairy-type</strong>: A Fairy Tera type will stop powerful Dragon-type attacks cold without making Clodsire weak to Earthquake, but it comes at the cost of compromising its ability to check Gholdengo.</p> </li> </ul> <h1>Abilities</h1> <ul> <li> <p><strong>Unaware</strong>: If you're planning to use Clodsire to its fullest defensive potential, Unaware is the best bet against setup foes.</p> </li> <li> <p><strong>Water Absorb</strong>: Water Absorb sacrifices overall defensive potential in exchange for being able to wall Rotom-W without needing to Terastallize. If setting up Stealth Rock is important, this can be worth it.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li> <p><strong>252 HP / 252 SpD / 4 Spe with Careful</strong>: Maximizing Special Defense is Clodsire's best hope for handling powerful special attackers such as Choice Specs Hydreigon.</p> </li> <li> <p><strong>252 HP / 252 Def / 4 Spe with Impish</strong>: Clodsire's Defense may be mediocre, but with maximum investment, it can pull stunts such as usually avoiding a 2HKO from Jolly Dragonite's Outrage with Leftovers.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 265677, "username": "Butch Hardnight"}, {"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
+    },
+    "almostanyability": {"sets": [{"name": "Specially Defensive"}]},
+    "nationaldex": {"sets": [{"name": "Defensive Entry Hazard Setter"}]}
+  },
+  "Kingambit": {"battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/kingambit-gp-0-1.3712328/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Swords Dance"}]}, "almostanyability": {"sets": [{"name": "Swords Dance"}]}},
+  "Great Tusk": {"ou": {"sets": [{"name": "Specially Defensive"}, {"name": "Physically Defensive"}, {"name": "Offensive"}]}, "almostanyability": {"sets": [{"name": "Regenerator Spinner"}, {"name": "Moldy Wallbreaker"}]}, "nationaldex": {"sets": [{"name": "Offensive Utility"}]}},
+  "Scream Tail": {"almostanyability": {"sets": [{"name": "Pixilate", "description": "<p>A more offensive EV spread with 4 Def / 252 SpA / 252 Spe can be used, but has a harder time setting up with Calm Mind.</p> "}, {"name": "Defensive"}]}},
+  "Flutter Mane": {
+    "almostanyability": {
+      "sets": [
+        {"name": "Sheer Force Life Orb"},
+        {"name": "Choice Specs Wallbreaker"},
+        {"name": "Queenly Majesty", "description": "<p>Queenly Majesty Flutter Mane is a fast and powerful cleaner that reliably revenge kills Dragapult, Iron Bundle, and Aerilate Dragonite. Mystical Fire hits Steel-types like Iron Treads, Thunderbolt is its strongest option against Corviknight and Toxapex, Psyshock does passable damage to Clodsire, and Hex is its strongest move if its teammates can reliably inflict status. Teammates that are susceptible to priority such as Iron Moth and Chien-Pao appreciate Flutter Mane's ability to pick off priority users and allow them to be more dangerous to opposing teams. Flutter Mane appreciates being brought in by a slow pivot like Corviknight or Chilly Reception Slowking. Flutter Mane can also struggle to break through specially defensive walls such as Ice Scales Corviknight, so pairing it with a strong physical attacker like Great Tusk or Iron Valiant is recommended.</p> "}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 475288, "username": "Tranquility"}]}
+    }
+  },
+  "Slither Wing": {"almostanyability": {"sets": [{"name": "Choice Band"}, {"name": "Pivot"}]}},
+  "Sandy Shocks": {"almostanyability": {"sets": [{"name": "Hadron Engine"}]}},
+  "Iron Treads": {
+    "almostanyability": {
+      "sets": [{"name": "Regenerator Pivot", "description": "<p>RegenVest Iron Treads is a great specially defensive pivot and spinner. It is able to switch into prominent special attackers such as Gholdengo and Flutter Mane and threaten them out. Knock Off removes key items like Heavy-Duty Boots and deters spinblockers from switching in, and Volt Switch has excellent synergy with Regenerator. If its teammates already provide adequate entry hazard control, Iron Head and Ice Spinner are options to target Flutter Mane and Dragonite, respectively. A Sassy nature with minimum Speed investment ensures the slowest possible pivot with Volt Switch. Iron Treads appreciates physically defensive teammates like Fur Coat Slowking, which can form a VoltTurn core to bring in powerful-but-frail teammates like Iron Bundle and Dragapult.</p> "}],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 220859, "username": "Giagantic"}]}
+    }
+  },
+  "Iron Bundle": {
+    "almostanyability": {
+      "sets": [
+        {
+          "name": "Choice Specs",
+          "description": "<p>Choice Specs Iron Bundle is a terrifying wallbreaker with incredible Speed and unresisted STAB coverage. Primordial Sea counters Desolate Land and allows Hydro Pump to OHKO most non-Ice Scales foes, while Mold Breaker breaks through walls like Ice Scales Corviknight. For the last slot, U-turn is used to pivot against Water-immune foes like Desolate Land Volcarona, while Flip Turn hits Pokemon like Ice Scales Blissey and Corviknight harder. Defensive pivots such as Corviknight help Iron Bundle safely switch into and pressure threats like Flutter Mane and Iron Moth. Strong physical attackers like Baxcalibur and Great Tusk are also good teammates, as Iron Bundle often forces in specially defensive walls that these Pokemon can threaten; Rapid Spin Great Tusk can also double as entry hazard removal. Pokemon who can set entry hazards like Ting-Lu and Garchomp are great partners for Iron Bundle, as they help it wear down its checks faster.</p> "
+        },
+        {"name": "Magic Guard Disrupter"}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 525446, "username": "Ducky"}]}
+    }
+  },
+  "Iron Hands": {"almostanyability": {"sets": [{"name": "RegenVest"}, {"name": "Fur Coat"}]}, "nationaldex": {"sets": [{"name": "Defensive Swords Dance"}, {"name": "Choice Band"}]}},
+  "Iron Moth": {"almostanyability": {"sets": [{"name": "Offensive"}, {"name": "Specially Defensive"}]}},
+  "Baxcalibur": {
+    "battlestadiumsingles": {
+      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/baxcalibur.3712151/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
+      "sets": [
+        {
+          "name": "Dragon Dance",
+          "description": "<ul> <li> <p>With good bulk, an immunity to burn, and just enough Speed to work, Baxcalibur is a powerful Dragon Dance sweeper.</p> </li> <li> <p>Icicle Spear KOes Breloom and Mimikyu through Focus Sash and Disguise respectively.</p> </li> <li> <p>While Glaive Rush is valuable for late-game sweeping, it does make Baxcalibur very vulnerable to bulky OHKO move users such as Dondozo and Garganacl.</p> </li> <li> <p>Alternatively, Ice Shard means Baxcalibur will have a difficult time breaking past bulky Steel-types early-game, but it makes it an effective cleaner otherwise.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Dragon-type: This makes Glaive Rush deal obscene damage and removes weaknesses to Mach Punch and Bullet Punch.</p> </li> <li> <p><strong>Electric-type</strong>: When paired with Tera Blast, this is Life Orb Baxcalibur's best shot at dealing damage to Dondozo switch-ins. The paralysis immunity also helps Baxcalibur set up against Chansey with less risk.</p> </li> <li> <p><strong>Steel-type: With a Tera type of Steel, Baxcalibur can set up on Mimikyu and Dragon-type attacks.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Life Orb</strong>: This helps Baxcalibur sweep reliably and ensures Icicle Spear OHKOes Breloom through Focus Sash.</p> </li> <li> <p><strong>Loaded Dice</strong>: With a guaranteed 4 hits from Icicle Spear, Baxcalibur is able to always OHKO offensive Mimikyu after Dragon Dance.</p> </li> </ul> "
+        },
+        {"name": "Bulky Assault Vest", "description": "<ul> <li> <p>Baxcalibur's bulk and the wonderful Ice Shard make it a good user of Assault Vest, making it especially effective against the Rotom formes.</p> </li> <li> <p>Icicle Spear is recommended despite its inconsistent damage, as it deals damage through Mimikyu's disguise and potentially KOes Focus Sash users like Breloom and Meowscarada.</p> </li> <li> <p>Glaive Rush makes Baxcalibur very vulnerable to getting KOed the next turn, but it is still the least risky Dragon-type STAB move.</p> </li> <li> <p>A Ground Tera type gives Baxcalibur a reliable STAB move in Earthquake, resistance to Stealth Rock, and removes a ton of weaknesses, all at the cost of losing to Water-types such as Rotom-W.</p> </li> </ul> "}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}, {"user_id": 534158, "username": "Kiby"}, {"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
+    },
+    "almostanyability": {"sets": [{"name": "Setup Sweeper"}, {"name": "Wallbreaker"}]},
+    "nationaldex": {"sets": [{"name": "Dragon Dance"}]}
+  },
   "Gholdengo": {
+    "ou": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice Scarf"}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/gholdengo.3712149/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [
@@ -322,40 +393,31 @@
     "almostanyability": {"sets": [{"name": "Defensive Nasty Plot"}, {"name": "Choice Item"}]},
     "nationaldex": {"sets": [{"name": "Choice Scarf"}, {"name": "Nasty Plot"}]}
   },
-  "Great Tusk": {"almostanyability": {"sets": [{"name": "Regenerator Spinner"}, {"name": "Moldy Wallbreaker"}]}, "nationaldex": {"sets": [{"name": "Offensive Utility"}]}},
-  "Sandy Shocks": {"almostanyability": {"sets": [{"name": "Hadron Engine"}]}},
-  "Scream Tail": {"almostanyability": {"sets": [{"name": "Pixilate", "description": "<p>A more offensive EV spread with 4 Def / 252 SpA / 252 Spe can be used, but has a harder time setting up with Calm Mind.</p> "}, {"name": "Defensive"}]}},
-  "Flutter Mane": {"almostanyability": {"sets": [{"name": "Sheer Force Life Orb"}, {"name": "Choice Specs Wallbreaker"}, {"name": "Choice Scarf"}]}},
-  "Slither Wing": {"almostanyability": {"sets": [{"name": "Choice Band"}, {"name": "Pivot"}]}},
-  "Roaring Moon": {"almostanyability": {"sets": [{"name": "Regenerator"}]}},
-  "Iron Treads": {"almostanyability": {"sets": [{"name": "RegenVest"}]}},
-  "Iron Moth": {"almostanyability": {"sets": [{"name": "Offensive"}, {"name": "Specially Defensive"}]}},
-  "Iron Hands": {"almostanyability": {"sets": [{"name": "RegenVest"}, {"name": "Fur Coat"}]}},
-  "Iron Bundle": {"almostanyability": {"sets": [{"name": "Choice Specs"}, {"name": "Magic Guard Disrupter"}]}},
-  "Iron Valiant": {"balancedhackmons": {"sets": [{"name": "Mixed Attacker"}]}, "almostanyability": {"sets": [{"name": "Sheer Force + Life Orb"}]}},
+  "Chien-Pao": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}, "nationaldex": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}},
   "Ting-Lu": {"balancedhackmons": {"sets": [{"name": "Prankster"}, {"name": "RegenVest"}, {"name": "Magic Bounce"}]}, "almostanyability": {"sets": [{"name": "Specially Defensive"}]}},
-  "Chien-Pao": {"nationaldex": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}},
-  "Chi-Yu": {"almostanyability": {"sets": [{"name": "Choiced Attacker"}, {"name": "Nasty Plot"}]}},
+  "Chi-Yu": {"ou": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}, {"name": "Nasty Plot"}]}, "almostanyability": {"sets": [{"name": "Choiced Attacker"}, {"name": "Nasty Plot"}]}},
+  "Roaring Moon": {"almostanyability": {"sets": [{"name": "Regenerator"}]}},
+  "Iron Valiant": {
+    "balancedhackmons": {"sets": [{"name": "Mixed Attacker"}]},
+    "almostanyability": {
+      "sets": [{"name": "Sheer Force", "description": "<p>Iron Valiant's great offensive stats and wide movepool make it a great Sheer Force wallbreaker. Its coverage is almost perfect: barring the use of abilities that provide an immunity to Iron Valiant's attacks, Corviknight, Skeledirge, Gholdengo, Iron Moth, and Clodsire are all at risk of being OHKOed or 2HKOed after minor chip damage. To more reliably defeat Ghost-types, Iron Valiant can even run Shadow Ball instead of Thunderbolt or Knock Off over Psychic-type coverage. A Naive nature is used to maximize the amount of targets Iron Valiant outspeeds, such as Iron Moth, Iron Treads, and Garchomp. Iron Valiant fits best on balance teams that appreciate its ability to pave the way for other dangerous attackers like Dragapult and Great Tusk. Iron Valiant appreciates allies that can keep the field clear of entry hazards, such as Corviknight and Avalugg, and also switch in on dangerous priority like Dragonite's Extreme Speed.</p> "}],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 577920, "username": "Tea Guzzler"}]}
+    }
+  },
   "Koraidon": {"balancedhackmons": {"sets": [{"name": "Poison Heal"}]}},
-  "Miraidon": {"balancedhackmons": {"sets": [{"name": "Choice Specs"}, {"name": "Set-up Sweeper"}]}},
-  "Tinkatuff": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}},
-  "Armarouge": {"almostanyability": {"sets": [{"name": "Choice Scarf"}]}},
-  "Ceruledge": {"almostanyability": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Item"}]}},
-  "Toedscool": {"nfe": {"sets": [{"name": "Utility"}]}},
-  "Kingambit": {"battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/kingambit-gp-0-1.3712328/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Swords Dance"}]}, "almostanyability": {"sets": [{"name": "Swords Dance"}]}},
-  "Clodsire": {
-    "battlestadiumsingles": {
-      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/clodsire.3712165/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
+  "Miraidon": {
+    "balancedhackmons": {
       "sets": [
         {
-          "name": "Support",
-          "description": "<ul> <li> <p>While Clodsire is lacking in physical bulk compared to Dondozo and Skeledirge, it makes up for it in having a fantastic support movepool.</p> </li> <li> <p>Yawn is very effective at forcing switches, which is especially dangerous if Stealth Rock is set up.</p> </li> <li> <p>Poison Jab is Clodsire's best move against Tera Fairy Rotom-W, which is an especially important target when using Water Absorb.</p> </li> <li> <p>Protect, in addition to benefiting from Leftovers, pairs well with Yawn.</p> </li> <li> <p>Body Press isn't particularly strong, but it does prevent Clodsire from being totally walled by Tera Steel Hydreigon if using a physically defensive spread.</p> </li> <li> <p>Black Sludge may seem appealing, but it punishes Clodsire for Terastalliizing unless it becomes Tera Poison, so Leftovers is preferred unless Leftovers is already on something else.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Flying-type: With a Flying Tera type, Clodsire no longer has to worry about Earthquake or Fissure.</p> </li> <li> <p><strong>Steel-type</strong>: A Steel Tera type allows Clodsire to take on powerful Dragon-type attacks, without the worry of Gholdengo dealing massive damage.</p> </li> <li> <p><strong>Poison-type: With Tera Poison, Clodsire not only becomes a better check to Grass- and Water-types such as Meowscarda and Rotom-W, but it can also safely run Black Sludge to punish users of Trick.</p> </li> <li> <p><strong>Fairy-type</strong>: A Fairy Tera type will stop powerful Dragon-type attacks cold without making Clodsire weak to Earthquake, but it comes at the cost of compromising its ability to check Gholdengo.</p> </li> </ul> <h1>Abilities</h1> <ul> <li> <p><strong>Unaware</strong>: If you're planning to use Clodsire to its fullest defensive potential, Unaware is the best bet against setup foes.</p> </li> <li> <p><strong>Water Absorb</strong>: Water Absorb sacrifices overall defensive potential in exchange for being able to wall Rotom-W without needing to Terastallize. If setting up Stealth Rock is important, this can be worth it.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li> <p><strong>252 HP / 252 SpD / 4 Spe with Careful</strong>: Maximizing Special Defense is Clodsire's best hope for handling powerful special attackers such as Choice Specs Hydreigon.</p> </li> <li> <p><strong>252 HP / 252 Def / 4 Spe with Impish</strong>: Clodsire's Defense may be mediocre, but with maximum investment, it can pull stunts such as usually avoiding a 2HKO from Jolly Dragonite's Outrage with Leftovers.</p> </li> </ul> "
+          "name": "Choice Specs",
+          "description": "<p>Choice Specs Miraidon is a fierce wallbreaker that can reliably threaten nearly the entire tier with it's lethal offensive typing. Volt Switch helps maintain momentum and can scout opposing Terastallization. Trick ruins Ice Scales users like Goodra-H and Arceus-Grass lacking a held Plate, and Steam Eruption threatens burns and targets Ground-types like Ting-Lu and Clodsire; Grass Knot hits many of the same targets but makes Miraidon easier to Imposter-proof. Miraidon's massive damage potential and ability to break down defensive cores makes it an excellent fit on offense. Palkia-O and Final Gambit Eternatus make good partners, as they can help remove Ground-types and weaken special walls with Dragon Energy. Terastallizing into one of its original types is useful to supercharge Miraidon's damage output; however, Tera Steel can be useful to get a surprise KO on Zacian-C, and Tera Fairy is useful for blanking an Imposter user's Dragon Energy. Imposter-proofing is generally done with a specially defensive Ground-type teammate like Ting-Lu or Groudon.</p> "
+        },
+        {
+          "name": "Set-up Sweeper",
+          "description": "<p>Miraidon's typing and good stats make it a potent setup sweeper. Nasty Plot provides higher immediate power, whereas Quiver Dance makes setting up easier, enables the use of a Modest nature, and allows Miraidon to outspeed and threaten Zacian-C. Draco Plate + Judgment is used so Miraidon can fully self Imposter-proof, in addition to being usable at low HP, unlike Dragon Energy. Miraidon's best fit is on bulky teams that appreciate its instant damage output, potential to sweep, on top of its innate self-Imposter-proofing and good matchup into common Prankster users. Teammates that can help destroy Ice Scales users, such as Final Gambit Eternatus and Poison Heal Arceus-Fairy are appreciated, the latter of which can also absorb Knock Off. Miraidon should be careful when Terastallizing, as this removes its 4x Electric-type resistance and makes it more vulnerable to being PP stalled by Imposter; however, Tera Electric or Tera Dragon are useful for damage output, and Nasty Plot sets enjoy having Tera Steel for Zacian-C.</p> "
         }
       ],
-      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 265677, "username": "Butch Hardnight"}, {"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
-    },
-    "almostanyability": {"sets": [{"name": "Specially Defensive"}]},
-    "nationaldex": {"sets": [{"name": "Defensive Entry Hazard Setter"}]}
-  },
-  "Annihilape": {"battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/annihilape-gp-0-1.3712195/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Bulky Taunt"}, {"name": "Choice Scarf"}]}, "nationaldex": {"sets": [{"name": "Bulk Up"}]}}
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 445464, "username": "augustakira"}, {"user_id": 355040, "username": "Chessking345"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 577920, "username": "Tea Guzzler"}]}
+    }
+  }
 }
