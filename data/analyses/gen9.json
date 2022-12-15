@@ -13,7 +13,18 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}, {"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     }
   },
-  "Chansey": {"balancedhackmons": {"sets": [{"name": "Standard Imposter"}, {"name": "Toxic Orb Imposter"}]}, "nationaldex": {"sets": [{"name": "Pink Blob (Defensive)"}]}},
+  "Chansey": {
+    "balancedhackmons": {
+      "sets": [
+        {
+          "name": "Imposter",
+          "description": "<p>With Imposter, Chansey transforms into a far bulkier version of the opposing Pokemon, which can be further bolstered by Eviolite. This provides a myriad of benefits, including blanket checking most Pokemon, scouting sets, and PP stalling less threatening foes. While Eviolite is usually the best item, Toxic Orb provides much better matchups against Poison Heal users while Covert Cloak is useful against Nuzzle and Spirit Shackle users. The given moves offer the most utility in the rare situations Chansey is not transformed, like phazing Substitute users, pivoting, acting as a cleric, and removing Chansey's Toxic Orb. Offensive threats such as Zacian-C and Poison Heal users such as Arceus-Fairy appreciate the information Imposter Chansey provides through scouting, with Poison Heal users also acting as Knock Off absorbers. Imposter Chansey appreciates slow pivoting from Pokemon like Dondozo and RegenVest Ting-Lu for safe scouting; these Pokemon can also provide Knock Off support, aiding against Judgment users like Miraidon that can otherwise defeat Imposter Chansey. Tera Normal gives Chansey a STAB boost on Judgment, improving its matchup into Pokemon like Miraidon, while Tera Fire and Tera Ghost are useful against Zacian-C and trapping moves, respectively.</p> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 577920, "username": "Tea Guzzler"}, {"user_id": 338877, "username": "TTTech"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 355040, "username": "Chessking345"}]}
+    },
+    "nationaldex": {"sets": [{"name": "Pink Blob (Defensive)"}]}
+  },
   "Gyarados": {"nationaldex": {"sets": [{"name": "Dragon Dance"}, {"name": "Dragon Dance + Flyinium Z"}]}},
   "Ditto": {"nationaldex": {"sets": [{"name": "SUS"}]}},
   "Dragonite": {
@@ -185,9 +196,9 @@
           "name": "Specially Defensive",
           "description": "<p>Ice Scales Corviknight is a premier specially defensive pivot that can check prominent special attackers like Flutter Mane, Iron Bundle, and Dragapult with its immense bulk and great typing while also providing entry hazard removal. Brave Bird is Corviknight's most consistent attack and 2HKOes or 3HKOes most special attackers, whereas Iron Head OHKOes Flutter Mane and avoids recoil. Defog provides entry hazard control, which is very crucial for teams facing hazard-stacking threats like Ting-Lu and Garchomp, while U-turn provides slow pivoting support for offensive teammates. As a result, frail pokemon such as Dragapult, Iron Bundle, and Iron Moth are great teammates, as they appreciate Corviknight's ability to get them in safely. Ice Scales Corviknight struggles against strong physical attackers, so pairing it with a strong physical wall like Avalugg or Hippowdon is recommended. Even with Ice Scales, Corviknight can be susceptible to strong special attacking Fire-types like Chi-Yu and Iron Moth, so Regenerator Garchomp and Ting-Lu make good teammates. Corviknight is prone to having its Defog blocked by Good as Gold, so it's strongly recommended for it to be paired with spinners such as Great Tusk that can remove entry hazards if Corviknight is unable to.</p> "
         },
-        {"name": "Physically Defensive Pivot"}
+        {"name": "Physically Defensive", "description": "<p>Making use of Fur Coat to bolster its high Defense and good defensive typing, Corviknight serves as a strong physical wall that can switch into threatening attackers like non-Mold Breaker Great Tusk and Kingambit, and is a Defogger that isn't threatened by common entry hazard setters like Garchomp and Clodsire. U-turn and minimum Speed allow Corviknight to act as a slow pivot, safely bringing in offensive teammates like Volcarona and Dragonite. Corviknight's average Special Defense means that it has a hard time against special attackers, so it benefits from specially defensive teammates like Florges and Blissey. Corviknight also struggles to meaningfully damage Rock- and Steel-type foes like Garganacl and Iron Treads, so teammates like Iron Bundle and Chi-Yu that can handle these Pokemon are appreciated.</p> "}
       ],
-      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 475288, "username": "Tranquility"}]}
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}, {"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 475288, "username": "Tranquility"}, {"user_id": 439018, "username": "Theia"}]}
     }
   },
   "Barraskewda": {"nationaldex": {"sets": [{"name": "Choice Band"}]}},
@@ -324,9 +335,20 @@
     "nationaldex": {"sets": [{"name": "Defensive Entry Hazard Setter"}]}
   },
   "Kingambit": {"battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/kingambit-gp-0-1.3712328/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Swords Dance"}]}, "almostanyability": {"sets": [{"name": "Swords Dance"}]}},
-  "Great Tusk": {"ou": {"sets": [{"name": "Specially Defensive"}, {"name": "Physically Defensive"}, {"name": "Offensive"}]}, "almostanyability": {"sets": [{"name": "Regenerator Spinner"}, {"name": "Moldy Wallbreaker"}]}, "nationaldex": {"sets": [{"name": "Offensive Utility"}]}},
+  "Great Tusk": {
+    "ou": {"sets": [{"name": "Specially Defensive"}, {"name": "Physically Defensive"}, {"name": "Offensive"}]},
+    "almostanyability": {
+      "sets": [
+        {"name": "Defensive Spinner", "description": "<p>Rapid Spin, Knock Off, and great physical bulk make Great Tusk a fantastic utility spinner. It can check dangerous physical attackers such as Ceruledge, Slither Wing, Kingambit, and Roaring Moon and retaliate with its beefy Earthquake and Body Press. It matches up well against common entry hazard setters like Garganacl and Clodsire, and it threatens spinblockers with Knock Off; Knock Off also augments its teammates' entry hazards by removing Heavy-Duty Boots. Leftovers gives it much needed recovery—especially alongside Regenerator—but Heavy-Duty Boots prevents it from being overwhelmed by the entry hazards it must remove. Teammates such as Blissey and Slowking can cover opposing special attackers that target Great Tusk's lower Special Defense. In return, they appreciate Great Tusk dealing with physical attackers like opposing Great Tusk.</p> "},
+        {"name": "Wallbreaker", "description": "<p>Choice Band Great Tusk is a dangerous wallbreaker thanks to its high-powered STAB moves and Mold Breaker to bypass Fur Coat. Knock Off has no immunities, unlike both STAB options, and removes key items like Leftovers from Corviknight. Ice Spinner breaks through defensive Dragonite and Garchomp with a clean OHKO. Fast specially offensive pivots like Iron Bundle, Dragapult, and Noivern can bring Great Tusk in safely to pressure their specially defensive switch-ins like Toxapex, Clodsire, and Blissey. Defensive pivots such as Corviknight and RegenVest Iron Hands are also good options, as they can switch into faster threats like Flutter Mane and Iron Moth, respectively, which force Great Tusk out. Dragonite and Ceruledge appreciate Great Tusk wallbreaking early-game by threatening Fur Coat users like Corviknight and Garganacl, which lets them clean up late-game more easily.</p> "}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 493260, "username": "royalfluxh"}]}
+    },
+    "nationaldex": {"sets": [{"name": "Offensive Utility"}]}
+  },
   "Scream Tail": {"almostanyability": {"sets": [{"name": "Pixilate", "description": "<p>A more offensive EV spread with 4 Def / 252 SpA / 252 Spe can be used, but has a harder time setting up with Calm Mind.</p> "}, {"name": "Defensive"}]}},
   "Flutter Mane": {
+    "balancedhackmons": {"sets": [{"name": "Pixilate"}, {"name": "Normalize"}]},
     "almostanyability": {
       "sets": [
         {"name": "Sheer Force Life Orb"},
@@ -356,8 +378,25 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 525446, "username": "Ducky"}]}
     }
   },
-  "Iron Hands": {"almostanyability": {"sets": [{"name": "RegenVest"}, {"name": "Fur Coat"}]}, "nationaldex": {"sets": [{"name": "Defensive Swords Dance"}, {"name": "Choice Band"}]}},
-  "Iron Moth": {"almostanyability": {"sets": [{"name": "Offensive"}, {"name": "Specially Defensive"}]}},
+  "Iron Hands": {
+    "almostanyability": {
+      "sets": [
+        {"name": "RegenVest"},
+        {
+          "name": "Fur Coat",
+          "description": "<p>Fur Coat Iron Hands uses its titanic bulk to check prominent attackers like Ceruledge and Kingambit while its solid Attack and Swords Dance prevent it from being passive. Drain Punch provides much-needed recovery as well as threatens Pokemon like Blissey and Cyclizar. Thunder Punch hits Fighting-resistant foes like Iron Moth and Flutter Mane, while Ice Punch covers Pokemon like Dragonite and Garchomp. Earthquake provides coverage for Pokemon like Clodsire that Iron Hands would otherwise struggle against. Iron Hands can also use Volt Switch alongside its low Speed to serve as a bulky slow pivot to safely bring in frail offensive teammates like Flutter Mane and Iron Bundle. Because of its below average Special Defense, Iron Hands pairs well with specially defensive teammates like Blissey and Ice Scales Corviknight. Iron Hands also struggles against Fairy-types like Iron Valiant and Scream Tail, so it appreciates teammates like Gholdengo and Iron Moth that can take them on.</p> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 439018, "username": "Theia"}]}
+    },
+    "nationaldex": {"sets": [{"name": "Defensive Swords Dance"}, {"name": "Choice Band"}]}
+  },
+  "Iron Moth": {
+    "almostanyability": {
+      "sets": [{"name": "Desolate Land", "description": "<p>Iron Moth is a powerful special attacker that also provides good defensive utility thanks to Desolate Land and Morning Sun. Its near-unique offensive typing lets it threaten common walls like Ice Scales Corviknight and Scream Tail, especially when boosted by sun. U-turn can be used to maintain momentum against predicted switch-ins like Garchomp and Garganacl, while Toxic Spikes punishes switch-ins with status. Iron Moth complements Ice Scales Corviknight and Clodsire, as it covers their vulnerability to Iron Bundle. Pokemon like Dragapult, Flutter Mane, and Dragonite appreciate Iron Moth taking advantage of their Steel-type checks like Corviknight.</p> "}, {"name": "Specially Defensive"}],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 521275, "username": "The Dragon Master"}]}
+    }
+  },
   "Baxcalibur": {
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/baxcalibur.3712151/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
