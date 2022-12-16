@@ -46,12 +46,35 @@
     "almostanyability": {"sets": [{"name": "Dragon Dance"}, {"name": "Choice Band"}]},
     "nationaldex": {"sets": [{"name": "Dragon Dance"}]}
   },
+  "Azumarill": {
+    "battlestadiumsingles": {
+      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/azumarill.3712746/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
+      "sets": [
+        {
+          "name": "Offensive",
+          "description": "<ul> <li> <p>With a fantastic typing and priority, Azumarill makes a good choice for a team's bulky Water-type.</p> </li> <li> <p>Superpower often forces Azumarill to switch out, but its reliability against common Hydreigon Tera types is very valuable, in addition to OHKOing Kingambit.</p> </li> <li> <p>Ice Spinner is Azumarill's best option against Amoonguss.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Grass-type: Tera Grass lets Azumarill beat Breloom and Rotom-W.</p> </li> <li> <p><strong>Water-type: While it won't help Azumarill much in direct matchups, Tera Water will make it easier to clean weakened teams with Aqua Jet.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Assault Vest</strong>: Assault Vest lets Azumarill act as a Hydreigon check; even Choice Specs-boosted Tera Electric Tera Blast fails to OHKO it.</p> </li> <li> <p><strong>Choice Band</strong>: The big power boost from Choice Band gives Azumarill an 81.3% chance to OHKO Rotom-H with Aqua Jet.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 330577, "username": "Thick Fat Azumarill"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
+    }
+  },
   "Murkrow": {"nfe": {"sets": [{"name": "Nasty Plot"}]}},
   "Misdreavus": {"nfe": {"sets": [{"name": "Nasty Plot"}, {"name": "Utility"}]}},
   "Girafarig": {"nfe": {"sets": [{"name": "Nasty Plot"}, {"name": "Calm Mind"}]}},
   "Dunsparce": {"nfe": {"sets": [{"name": "Calm Mind"}, {"name": "Utility"}, {"name": "Coil"}]}},
   "Sneasel": {"nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}},
-  "Blissey": {"almostanyability": {"sets": [{"name": "Defensive"}]}, "nationaldex": {"sets": [{"name": "Pink Blob (Defensive)"}]}},
+  "Blissey": {
+    "almostanyability": {
+      "sets": [
+        {
+          "name": "Defensive",
+          "description": "<p>With Ice Scales, Blissey is a titanic special wall that checks prominent attackers like Gholdengo and Iron Bundle; Good as Gold is an alternative to stop Taunt and Pain Split users like Flutter Mane, which otherwise take advantage of Blissey. Thunder Wave lets Blissey cripple foes such as Corviknight and Kingambit, which could otherwise switch into it free of charge, while Calm Mind helps Blissey keep up with foes like Nasty Plot Gholdengo, ensuring they do not break past it. Shadow Ball lets Blissey hit Ghost-types like Flutter Mane, Dragapult, and Gholdengo, denying them setup opportunities. Heavy-Duty Boots is preferred to avoid entry hazard chip damage from repeated switch-ins, but Leftovers provides passive recovery. Physically defensive teammates like Fur Coat Avalugg and Flogres help cover the physical attackers that threaten Blissey, like Aerilate Dragonite and Dragon Rush Dragapult. Slow but powerful wallbreakers such as Slither Wing and Ceruledge appreciate Blissey paralyzing offensive foes, giving them more chances to wallbreak.</p> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 414072, "username": "Heracross2.0"}]}
+    },
+    "nationaldex": {"sets": [{"name": "Pink Blob (Defensive)"}]}
+  },
   "Breloom": {
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/breloom.3712152/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
@@ -117,7 +140,22 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     }
   },
-  "Rotom-Wash": {"battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/rotom-w-gp-0-1.3712166/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Choice Attacker"}, {"name": "Nasty Plot"}]}},
+  "Rotom-Wash": {
+    "battlestadiumsingles": {
+      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/rotom-w.3712166/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
+      "sets": [
+        {
+          "name": "Choice Attacker",
+          "description": "<ul> <li> <p>Rotom-W's Speed, which notably allows it to outpace Gholdengo, access to Volt Switch, and great typing make it an excellent pivot and revenge killer.</p> </li> <li> <p>Trick is seriously worth considering for its ability to cripple defensive Pokemon such as Garganacl and Dondozo.</p> </li> <li> <p>If using Trick, make sure Rotom-W is a neutral nature that has had a Timid Mint used on it. This way, Rotom-W can eat any Berry without getting confused.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Electric-type: Not only does the damage boost from Tera Electric come in handy, but it also removes any weaknesses Rotom-W has.</p> </li> <li> <p><strong>Fairy-type</strong>: When combined with Tera Blast, a Fairy Tera type lets Rotom-W take on Dragon-types such as Dragapult and Hydreigon far more effectively.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Choice Scarf: Choice Scarf lets Rotom-W outspeed major threats such as Dragapult and Meowscarada.</p> </li> <li> <p><strong>Choice Specs: Choice Specs tends to be safer to Trick than Choice Scarf, and it gives a big power boost.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li> <p><strong>4 HP / 252 SpA / 252 Spe</strong>: Maximizing Rotom-W's Special Attack is part of what makes it an effective revenge killer.</p> </li> <li> <p><strong>252 HP / 4 SpD / 252 Spe</strong>: This spread sacrifices Rotom-W's revenge killing potential, but, in exchange, it makes it a better pivot, and the better bulk makes Rotom-W more suited to finding the right time to cripple a wall with Trick.</p> </li> </ul> "
+        },
+        {
+          "name": "Nasty Plot",
+          "description": "<ul> <li> <p>With a great typing, ability, and good bulk, Rotom-W makes for an effective user of Nasty Plot.</p> </li> <li> <p>Tera Blast is usually used with Terastallization, but even beforehand, it provides a neutral attack to hit most Dragon-types with.</p> </li> <li> <p>If using an Electric Tera type, Dark Pulse is Rotom-W's best option against Dragapult.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Fairy-type: With a Fairy Tera type, Rotom-W can turn the tables on its Dragon-type adversaries.</p> </li> <li> <p><strong>Electric-type</strong>: In addition to boosting the power of Electric-type attacks, all of Rotom-W's weaknesses are removed.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Lum Berry</strong>: Lum Berry lets Rotom-W easily set up on Hippowdon, and avoid getting put to sleep by Dondozo.</p> </li> <li> <p><strong>Sitrus Berry: If Sleep isn't a big issue, Rotom-W appreciates the burst recovery Sitrus Berry provides.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li> <p><strong>4 HP / 252 SpA / 252 Spe</strong>: Maximizing Speed with a Timid nature gives Rotom-W the jump on Gholdengo. If Gholdengo isn't an issue, a Modest nature will still outspeed Jolly Breloom.</p> </li> <li> <p><strong>252 HP / 252 SpA / 4 SpD with Modest: Rotom-W's good bulk can be maximized instead of outspeeding Breloom; this spread avoids the 2HKO from Timid Gholdengo's Shadow Ball.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}, {"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 277988, "username": "dex"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
+    }
+  },
   "Krokorok": {"nfe": {"sets": [{"name": "Stealth Rock"}]}},
   "Foongus": {"nfe": {"sets": [{"name": "Physically Defensive"}]}},
   "Amoonguss": {
@@ -170,6 +208,8 @@
   "Avalugg": {"almostanyability": {"sets": [{"name": "Fur Coat"}]}},
   "Noivern": {"almostanyability": {"sets": [{"name": "Choice Specs"}, {"name": "Super Fang"}]}},
   "Mareanie": {"nfe": {"sets": [{"name": "Physically Defensive"}]}},
+  "Toxapex": {"almostanyability": {"sets": [{"name": "Ice Scales"}]}},
+  "Palossand": {"almostanyability": {"sets": [{"name": "Fur Coat"}]}},
   "Mimikyu": {
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/mimikyu.3712157/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
@@ -236,13 +276,13 @@
     },
     "almostanyability": {
       "sets": [
-        {"name": "Sheer Force + Life Orb"},
+        {"name": "Sheer Force + Life Orb", "description": "<p>Sheer Force + Life Orb Dragapult, in addition to being the fastest unboosted threat in the metagame, is one of the few credible mixed attackers, making it great for picking apart Fur Coat + Ice Scales defensive cores. Dragon Rush nails common specially defensive walls like Blissey and Ice Scales Clodsire and Garganacl while Thunderbolt beats bulky Waters like Toxapex. Fire Blast hits Steel-types like Corviknight and Iron Treads, while Will-O-Wisp punishes switch-ins Dragapult cannot reliably overwhelm like Ting-Lu. Dragapult pairs extremely well with pivots like Corviknight, Slither Wing, and Slowking, as they can get it on the field in advantageous positions where it can fire off Shadow Ball. Dragapult does struggle against bulky foes it cannot hit super effectively like Florges, so a secondary, more dedicated wallbreaker like Kingambit or Great Tusk is recommended.</p> "},
         {
           "name": "Hadron Engine",
           "description": "<p>Choice Specs Hadron Engine Dragapult is a premier wallbreaker and pivot that takes advantage of Electric Terrain to overwhelm common Ice Scales users. Shadow Ball and Draco Meteor provide it with consistent and powerful STAB attacks, respectively. Thunderbolt is a strong coverage move that is also boosted by Electric Terrain, denting RegenVest Kingambit and giving Dragapult a chance to 2HKO Ice Scales Corviknight and Toxapex after Stealth Rock. Strong physical attackers like Great Tusk and Iron Valiant pair well with Dragapult, which brings them in with U-turn on Pokemon they can threaten out, such as Blissey and Iron Treads. In return, Dragapult breaks through Fur Coat users like Hippodown and Corviknight for them. Dragapult is forced out by priority users such as Aerilate Dragonite and Triage Flutter Mane, so Pokemon that can switch into them like Gholdengo and Clodsire are recommended. Dragapult pairs well with defensive pivots like Corviknight and Iron Hands that can safely bring it onto the field to outspeed and threaten a majority of offensive threats, such as Flutter Mane and Chein-Pao. Entry hazards setters like Ting-Lu and Palossand can set Spikes and Stealth Rock, respectively, which helps Dragapult break past switch-ins like Kingambit more easily.</p> "
         }
       ],
-      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 414072, "username": "Heracross2.0"}]}
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}, {"user_id": 450411, "username": "Atha"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 523866, "username": "UT"}, {"user_id": 414072, "username": "Heracross2.0"}]}
     },
     "nationaldex": {"sets": [{"name": "Dragon Dance"}, {"name": "Choice Specs"}]}
   },
@@ -271,9 +311,18 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 29010, "username": "Theorymon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 62165, "username": "StarkGod"}]}
     },
-    "almostanyability": {"sets": [{"name": "Entry Hazards Stay Up"}]}
+    "almostanyability": {
+      "sets": [
+        {
+          "name": "Good as Gold",
+          "description": "<p>Good as Gold Skeledirge's great bulk, typing, and movepool make it a decent deterrent to entry hazard removal and excellent status spreader. Will-O-Wisp + Hex spreads chip damage, neuters physical attackers, and gives Skeledirge the most firepower; Roar + Shadow Ball is a more consistent alternative that deters setup and racks up entry hazard chip. Teammates that can reliably set entry hazards long-term such as Fur Coat or Regenerator Garchomp and Regenerator Ting-Lu are great partners, as they greatly appreciate Skeledirge's ability to deter hazard-removing attempts. Pokemon that check the likes of Flutter Mane and Iron Bundle such as Ice Scales Corviknight and specially defensive Desolate Land Volcarona make for great defensive partners alongside Skeledirge. Strong wallbreakers such as Great Tusk, Iron Bundle, Iron Valiant, and Flutter Mane appreciate Skeledirge’s ability to keep entry hazards up by preventing Corviknight's Defog—and potentially risk a spinblock against Great Tusk and Iron Treads—allowing them to further pressure the opposing team. 12 Speed EVs let Skeledirge outspeed and either damage or burn Corviknight.</p> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 560990, "username": "BugGoBrrrrrr"}]}
+    }
   },
   "Quaxwell": {"nfe": {"sets": [{"name": "Defensive"}]}},
+  "Quaquaval": {"almostanyability": {"sets": [{"name": "Making Waves"}, {"name": "Choice Band"}]}},
   "Naclstack": {"nfe": {"sets": [{"name": "Stealth Rock"}, {"name": "Salt Shaker"}]}},
   "Garganacl": {
     "battlestadiumsingles": {
@@ -294,7 +343,19 @@
   "Toedscool": {"nfe": {"sets": [{"name": "Utility"}]}},
   "Espathra": {"ou": {"sets": [{"name": "Calm Mind"}]}, "nationaldex": {"sets": [{"name": "Calm Mind"}]}},
   "Tinkatuff": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}},
-  "Cyclizar": {"almostanyability": {"sets": [{"name": "Shed Tail", "description": "<p>On Choice Scarf, 20 EVs can be taken out of HP and put into Special Attack for a 100% chance to OHKO Dragapult.</p> "}]}, "nationaldex": {"sets": [{"name": "Shed Tail Utility"}]}},
+  "Tinkaton": {"almostanyability": {"sets": [{"name": "RegenVest"}, {"name": "Stealth Rock"}]}},
+  "Cyclizar": {
+    "almostanyability": {
+      "sets": [
+        {
+          "name": "Shed Tail",
+          "description": "<p>Shed Tail, Regenerator, and good Speed give Cyclizar a unique role on offensive teams: safely bringing in powerful attackers like Flutter Mane, Iron Valiant, and Dragonite multiple times per battle. Draco Meteor KOes opposing Dragapult and Cyclizar and picks off weakened foes. U-turn lets Cyclizar pivot out without self-damage, healing from Regenerator to potentially use Shed Tail again later. Rapid Spin and/or Knock Off provide further utility. Choice Scarf + Shed Tail is preferred against Flutter Mane, Iron Bundle, Dragapult, and other fast threats, but Heavy-Duty Boots can be used to avoid entry hazard damage and the Choice lock. On Choice Scarf sets, 24 Special Attack EVs are enough to OHKO Dragapult with Draco Meteor. Cyclizar benefits greatly from a strong physical wall or Dazzling user to deal with priority attackers like Dragonite; strong attackers like Flutter Mane and Iron Valiant are valuable for dealing with phazers like Iron Hands and Hippowdon, or a Good as Gold user like Skeledirge or Gholdengo can block phazing moves outright.</p> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 546606, "username": "Tanny89k"}]}
+    },
+    "nationaldex": {"sets": [{"name": "Shed Tail Utility"}]}
+  },
   "Glimmet": {"nfe": {"sets": [{"name": "Hazard Lead"}]}},
   "Glimmora": {
     "battlestadiumsingles": {
@@ -334,7 +395,19 @@
     "almostanyability": {"sets": [{"name": "Specially Defensive"}]},
     "nationaldex": {"sets": [{"name": "Defensive Entry Hazard Setter"}]}
   },
-  "Kingambit": {"battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/kingambit-gp-0-1.3712328/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Swords Dance"}]}, "almostanyability": {"sets": [{"name": "Swords Dance"}]}},
+  "Kingambit": {
+    "battlestadiumsingles": {
+      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/kingambit.3712328/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
+      "sets": [
+        {
+          "name": "Bulky Attacker",
+          "description": "<ul> <li> <p>Kingambit sets itself apart from most other Dark-types with its bulk and typing, which make it a reasonable check against Gholdengo that lack Focus Blast.</p> </li> <li> <p>Guillotine makes Kingambit far more difficult to wall with foes such as Dondozo.</p> </li> <li> <p>Brick Break is rather weak, but it helps against opposing Kingambit.</p> </li> <li> <p>Supreme Overload is generally the more consistent ability over Defiant, since Intimidate foes are not very common. Defiant is still useful for punishing speed control options such as Rock Tomb, though, especially alongside Sucker Punch. (</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Dark-type: A Dark Tera type makes Kingambit even harder to wall and removes its irritating Ground weakness.</p> </li> <li> <p><strong>Flying-type</strong>: This Tera type covers Kingambit's issues with Fighting- and Ground-type attacks very well.</p> </li> <li> <p><strong>Fairy-type</strong>: With a Fairy Tera type, Kingambit gains a resistance to Fighting and can still deal with Dragon-types, but it becomes vulnerable to Gholdengo.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li> <p><strong>252 HP / 252 Atk / 4 Spe</strong>: This simple spread maximizes bulk and power.</p> </li> <li> <p><strong>108 HP / 252 Atk / 148 Spe</strong>: This EV spread has enough Speed to outspeed most Corviknight and Skeledirge, and it still has enough bulk to survive one unboosted Body Press from Corviknight. Since this is a fairly congested Speed range, feel free to move some Attack EVs to Speed.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Black Glasses: While its boost to Dark-type attacks isn't as high as Life Orb's, Black Glasses is a better fit for Kingambit's bulk due to the lack of recoil.</p> </li> <li> <p><strong>Sitrus Berry</strong>: The burst of recovery helps Kingambit check Gholdengo better.</p> </li> <li> <p><strong>Assault Vest</strong>: Assault Vest makes Kingambit a better check against Gholdengo and Hydreigon.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 330577, "username": "Thick Fat Azumarill"}, {"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
+    },
+    "almostanyability": {"sets": [{"name": "Swords Dance"}]}
+  },
   "Great Tusk": {
     "ou": {"sets": [{"name": "Specially Defensive"}, {"name": "Physically Defensive"}, {"name": "Offensive"}]},
     "almostanyability": {
@@ -419,13 +492,16 @@
       "sets": [
         {
           "name": "Choice Item",
-          "description": "<ul> <li> <p>With Trick and an immunity to status moves, Gholdengo is a dangerous Choice item attacker for offensive and stall teams alike!</p> </li> <li> <p>Thunderbolt 2HKOes Dondozo and deals serious damage to Tera Flying Garganacl.</p> </li> <li> <p>Dazzling Gleam deals massive damage to Meowscarada and Hydreigon.</p> </li> <li> <p>Nasty Plot can be used to give Gholdengo more bite against defensive, slower teams after using Trick.</p> </li> <li> <p>Use a neutral nature Gholdengo that has a Timid Mint used on it. This way, Gholdengo can eat any Berry without being confused after Trick.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Water-type: In addition to giving Gholdengo a valuable resistance to Fire, this makes Gholdengo deal much more damage to Volcarona and common Tera Fire users such as Dragapult.</p> </li> <li> <p><strong>Ghost-type: The extra damage from Shadow Ball can make Gholdengo a more effective late-game cleaner.</p> </li> <li> <p><strong>Flying-type</strong>: With a Flying Tera type, Gholdengo gains an extremely useful immunity to Ground, which is especially useful on Choice Specs sets and against users of Fissure such as Dondozo.</p> </li> <li> <p><strong>Steel-type</strong>: Make It Rain becomes very powerful with a Tera boost, at the cost of making Gholdengo vulnerable to Mach Punch from Breloom.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Choice Scarf: With this, Gholdengo outspeeds key threats such as Dragapult, Meowscarada, and Hydreigon.</p> </li> <li> <p><strong>Choice Specs</strong>: Choice Specs make Gholdengo much more difficult to wall, with foes such as Dondozo getting 2HKOed.</p> </li> </ul> "
+          "description": "<ul> <li> <p>With Trick and an immunity to status moves, Gholdengo is a dangerous Choice item attacker for offensive and stall teams alike!</p> </li> <li> <p>Thunderbolt 2HKOes Dondozo and deals serious damage to Tera Flying Garganacl.</p> </li> <li> <p>Dazzling Gleam deals massive damage to Meowscarada and Hydreigon.</p> </li> <li> <p>Nasty Plot can be used to give Gholdengo more bite against defensive, slower teams after using Trick.</p> </li> <li> <p>Focus Blast is an option to ruin Kingambit, though its accuracy can be an issue.</p> </li> <li> <p>Use a neutral nature Gholdengo that has a Timid Mint used on it. This way, Gholdengo can eat any Berry without being confused after Trick.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Water-type: In addition to giving Gholdengo a valuable resistance to Fire, this makes Gholdengo deal much more damage to Volcarona and common Tera Fire users such as Dragapult.</p> </li> <li> <p><strong>Ghost-type: The extra damage from Shadow Ball can make Gholdengo a more effective late-game cleaner.</p> </li> <li> <p><strong>Flying-type</strong>: With a Flying Tera type, Gholdengo gains an extremely useful immunity to Ground, which is especially useful on Choice Specs sets and against users of Fissure such as Dondozo.</p> </li> <li> <p><strong>Steel-type</strong>: Make It Rain becomes very powerful with a Tera boost, at the cost of making Gholdengo vulnerable to Mach Punch from Breloom.</p> </li> <li> <p><strong>Normal-type: A Normal Tera type gives Gholdengo the edge against opposing Ghost-types, at the cost of becoming very vulnerable to Breloom.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Choice Scarf</strong>: With this, Gholdengo outspeeds key threats such as Dragapult, Meowscarada, and Hydreigon.</p> </li> <li> <p><strong>Choice Specs</strong>: Choice Specs make Gholdengo much more difficult to wall, with foes such as Dondozo getting 2HKOed.</p> </li> </ul> "
         },
         {
           "name": "Nasty Plot",
-          "description": "<ul> <li> <p>Nasty Plot makes Gholdengo a terror against slower teams, especially with its good bulk, unpredictable coverage, and diverse Tera Types.</p> </li> <li> <p>Substitute lets Gholdengo avoid residual damage from Garganacl's Salt Cure and ease prediction in general.</p> </li> <li> <p>Psyshock lets Gholdengo break through Chansey and Clodsire more easily.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Flying-type: Flying Gholdengo gets the jump on dangerous Earthquake users such as Garchomp and Dragonite.</p> </li> <li> <p><strong>Water-type: With this Tera type, Volcarona and Skeledirge are far less likely to stop Gholdengo from sweeping.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Leftovers: This is the most reliable option for keeping Gholdengo healthy and pairs especially well with Substitute.</p> </li> <li> <p><strong>Covert Cloak</strong>: Covert Cloak prevents Salt Cure from chipping down Gholdengo, making it far easier for it to run Recover against Garganacl.</p> </li> <li> <p><strong>Air Balloon</strong>: Air Balloon ruins Breloom's chances of winning the lead war against Gholdengo and makes Hippowdon easy setup bait.</p> </li> </ul> "
+          "description": "<ul> <li> <p>Nasty Plot makes Gholdengo a terror against slower teams, especially with its good bulk, unpredictable coverage, and diverse Tera Types.</p> </li> <li> <p>Substitute lets Gholdengo avoid residual damage from Garganacl's Salt Cure and ease prediction in general.</p> </li> <li> <p>Psyshock lets Gholdengo break through Chansey and Clodsire more easily.</p> </li> <li> <p>Despite its reliability issues, Focus Blast lets Gholdengo defeat Kingambit.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Flying-type: Flying Gholdengo gets the jump on dangerous Earthquake users such as Garchomp and Dragonite.</p> </li> <li> <p><strong>Water-type: With this Tera type, Volcarona and Skeledirge are far less likely to stop Gholdengo from sweeping.</p> </li> <li> <p><strong>Normal-type: While it's a much worse defensive typing, Tera Normal does let Gholdengo surprise faster Ghost-types like Mimikyu and Dragapult, at the cost of being weak to Mach Punch.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Leftovers: This is the most reliable option for keeping Gholdengo healthy and pairs especially well with Substitute.</p> </li> <li> <p><strong>Covert Cloak</strong>: Covert Cloak prevents Salt Cure from chipping down Gholdengo, making it far easier for it to run Recover against Garganacl.</p> </li> <li> <p><strong>Air Balloon</strong>: Air Balloon ruins Breloom's chances of winning the lead war against Gholdengo and makes Hippowdon easy setup bait.</p> </li> </ul> "
         },
-        {"name": "Assault Vest", "description": "<ul> <li> <p>Gholdengo's good bulk and unpredictable Tera types make it a great user of Assault Vest.</p> </li> <li> <p>Dazzling Gleam punishes Dark-type revenge killers such as Hydreigon and Meowscarada when combined with Tera.</p> </li> <li> <p>Thunderbolt is Gholdengo's best shot at muscling past Dondozo and also deals good damage to Corviknight and Tera Flying Garganacl.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Water-type: With Assault Vest, Gholdengo can tank most Fire-type attacks against it and deal good damage to Volcarona. Watch out for its Giga Drain after Quiver Dance, though.</p> </li> <li> <p><strong>Flying-type: A Flying-type makes Gholdengo much more difficult to revenge kill with common Earthquake users such as Garchomp and Dragonite.</p> </li> </ul> "}
+        {
+          "name": "Assault Vest",
+          "description": "<ul> <li> <p>Gholdengo's good bulk and unpredictable Tera types make it a great user of Assault Vest.</p> </li> <li> <p>Dazzling Gleam punishes Dark-type revenge killers such as Hydreigon and Meowscarada when combined with Tera.</p> </li> <li> <p>Thunderbolt is Gholdengo's best shot at muscling past Dondozo and also deals good damage to Corviknight and Tera Flying Garganacl.</p> </li> <li> <p>Focus Blast is Gholdengo's best hope of getting past Kingambit.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Water-type: With Assault Vest, Gholdengo can tank most Fire-type attacks against it and deal good damage to Volcarona. Watch out for its Giga Drain after Quiver Dance, though.</p> </li> <li> <p><strong>Flying-type: A Flying-type makes Gholdengo much more difficult to revenge kill with common Earthquake users such as Garchomp and Dragonite.</p> </li> <li> <p><strong>Normal-type: With a Normal Tera type, Gholdengo can defeat several faster Ghost-types such as Dragapult and Mimikyu, at the cost of a worse defensive typing and losing to Breloom.</p> </li> </ul> "
+        }
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     },

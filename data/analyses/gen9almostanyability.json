@@ -1,12 +1,22 @@
 {
   "Dragonite": {"sets": [{"name": "Dragon Dance"}, {"name": "Choice Band"}]},
-  "Blissey": {"sets": [{"name": "Defensive"}]},
+  "Blissey": {
+    "sets": [
+      {
+        "name": "Defensive",
+        "description": "<p>With Ice Scales, Blissey is a titanic special wall that checks prominent attackers like Gholdengo and Iron Bundle; Good as Gold is an alternative to stop Taunt and Pain Split users like Flutter Mane, which otherwise take advantage of Blissey. Thunder Wave lets Blissey cripple foes such as Corviknight and Kingambit, which could otherwise switch into it free of charge, while Calm Mind helps Blissey keep up with foes like Nasty Plot Gholdengo, ensuring they do not break past it. Shadow Ball lets Blissey hit Ghost-types like Flutter Mane, Dragapult, and Gholdengo, denying them setup opportunities. Heavy-Duty Boots is preferred to avoid entry hazard chip damage from repeated switch-ins, but Leftovers provides passive recovery. Physically defensive teammates like Fur Coat Avalugg and Flogres help cover the physical attackers that threaten Blissey, like Aerilate Dragonite and Dragon Rush Dragapult. Slow but powerful wallbreakers such as Slither Wing and Ceruledge appreciate Blissey paralyzing offensive foes, giving them more chances to wallbreak.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 414072, "username": "Heracross2.0"}]}
+  },
   "Garchomp": {"sets": [{"name": "Entry Hazard Setter", "description": "<p>A spread of 252 HP / 4 Def / 252 SpD should be used with Ice Scales to be a specially defensive wall.</p> "}]},
   "Hippowdon": {"sets": [{"name": "Fur Coat"}]},
   "Volcarona": {"sets": [{"name": "Physically Defensive"}, {"name": "Fast Support"}]},
   "Florges": {"sets": [{"name": "Defensive", "description": "<p>An EV spread of 252 HP / 252 Def / 4 SpD should be used on Fur Coat variants.</p> "}]},
   "Avalugg": {"sets": [{"name": "Fur Coat"}]},
   "Noivern": {"sets": [{"name": "Choice Specs"}, {"name": "Super Fang"}]},
+  "Toxapex": {"sets": [{"name": "Ice Scales"}]},
+  "Palossand": {"sets": [{"name": "Fur Coat"}]},
   "Corviknight": {
     "sets": [
       {
@@ -19,19 +29,37 @@
   },
   "Dragapult": {
     "sets": [
-      {"name": "Sheer Force + Life Orb"},
+      {"name": "Sheer Force + Life Orb", "description": "<p>Sheer Force + Life Orb Dragapult, in addition to being the fastest unboosted threat in the metagame, is one of the few credible mixed attackers, making it great for picking apart Fur Coat + Ice Scales defensive cores. Dragon Rush nails common specially defensive walls like Blissey and Ice Scales Clodsire and Garganacl while Thunderbolt beats bulky Waters like Toxapex. Fire Blast hits Steel-types like Corviknight and Iron Treads, while Will-O-Wisp punishes switch-ins Dragapult cannot reliably overwhelm like Ting-Lu. Dragapult pairs extremely well with pivots like Corviknight, Slither Wing, and Slowking, as they can get it on the field in advantageous positions where it can fire off Shadow Ball. Dragapult does struggle against bulky foes it cannot hit super effectively like Florges, so a secondary, more dedicated wallbreaker like Kingambit or Great Tusk is recommended.</p> "},
       {
         "name": "Hadron Engine",
         "description": "<p>Choice Specs Hadron Engine Dragapult is a premier wallbreaker and pivot that takes advantage of Electric Terrain to overwhelm common Ice Scales users. Shadow Ball and Draco Meteor provide it with consistent and powerful STAB attacks, respectively. Thunderbolt is a strong coverage move that is also boosted by Electric Terrain, denting RegenVest Kingambit and giving Dragapult a chance to 2HKO Ice Scales Corviknight and Toxapex after Stealth Rock. Strong physical attackers like Great Tusk and Iron Valiant pair well with Dragapult, which brings them in with U-turn on Pokemon they can threaten out, such as Blissey and Iron Treads. In return, Dragapult breaks through Fur Coat users like Hippodown and Corviknight for them. Dragapult is forced out by priority users such as Aerilate Dragonite and Triage Flutter Mane, so Pokemon that can switch into them like Gholdengo and Clodsire are recommended. Dragapult pairs well with defensive pivots like Corviknight and Iron Hands that can safely bring it onto the field to outspeed and threaten a majority of offensive threats, such as Flutter Mane and Chein-Pao. Entry hazards setters like Ting-Lu and Palossand can set Spikes and Stealth Rock, respectively, which helps Dragapult break past switch-ins like Kingambit more easily.</p> "
       }
     ],
-    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 414072, "username": "Heracross2.0"}]}
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}, {"user_id": 450411, "username": "Atha"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 523866, "username": "UT"}, {"user_id": 414072, "username": "Heracross2.0"}]}
   },
-  "Skeledirge": {"sets": [{"name": "Entry Hazards Stay Up"}]},
+  "Skeledirge": {
+    "sets": [
+      {
+        "name": "Good as Gold",
+        "description": "<p>Good as Gold Skeledirge's great bulk, typing, and movepool make it a decent deterrent to entry hazard removal and excellent status spreader. Will-O-Wisp + Hex spreads chip damage, neuters physical attackers, and gives Skeledirge the most firepower; Roar + Shadow Ball is a more consistent alternative that deters setup and racks up entry hazard chip. Teammates that can reliably set entry hazards long-term such as Fur Coat or Regenerator Garchomp and Regenerator Ting-Lu are great partners, as they greatly appreciate Skeledirge's ability to deter hazard-removing attempts. Pokemon that check the likes of Flutter Mane and Iron Bundle such as Ice Scales Corviknight and specially defensive Desolate Land Volcarona make for great defensive partners alongside Skeledirge. Strong wallbreakers such as Great Tusk, Iron Bundle, Iron Valiant, and Flutter Mane appreciate Skeledirge’s ability to keep entry hazards up by preventing Corviknight's Defog—and potentially risk a spinblock against Great Tusk and Iron Treads—allowing them to further pressure the opposing team. 12 Speed EVs let Skeledirge outspeed and either damage or burn Corviknight.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 560990, "username": "BugGoBrrrrrr"}]}
+  },
+  "Quaquaval": {"sets": [{"name": "Making Waves"}, {"name": "Choice Band"}]},
   "Garganacl": {"sets": [{"name": "Fur Coat"}, {"name": "Ice Scales"}]},
   "Armarouge": {"sets": [{"name": "Choice Scarf"}]},
   "Ceruledge": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Item"}]},
-  "Cyclizar": {"sets": [{"name": "Shed Tail", "description": "<p>On Choice Scarf, 20 EVs can be taken out of HP and put into Special Attack for a 100% chance to OHKO Dragapult.</p> "}]},
+  "Tinkaton": {"sets": [{"name": "RegenVest"}, {"name": "Stealth Rock"}]},
+  "Cyclizar": {
+    "sets": [
+      {
+        "name": "Shed Tail",
+        "description": "<p>Shed Tail, Regenerator, and good Speed give Cyclizar a unique role on offensive teams: safely bringing in powerful attackers like Flutter Mane, Iron Valiant, and Dragonite multiple times per battle. Draco Meteor KOes opposing Dragapult and Cyclizar and picks off weakened foes. U-turn lets Cyclizar pivot out without self-damage, healing from Regenerator to potentially use Shed Tail again later. Rapid Spin and/or Knock Off provide further utility. Choice Scarf + Shed Tail is preferred against Flutter Mane, Iron Bundle, Dragapult, and other fast threats, but Heavy-Duty Boots can be used to avoid entry hazard damage and the Choice lock. On Choice Scarf sets, 24 Special Attack EVs are enough to OHKO Dragapult with Draco Meteor. Cyclizar benefits greatly from a strong physical wall or Dazzling user to deal with priority attackers like Dragonite; strong attackers like Flutter Mane and Iron Valiant are valuable for dealing with phazers like Iron Hands and Hippowdon, or a Good as Gold user like Skeledirge or Gholdengo can block phazing moves outright.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 546606, "username": "Tanny89k"}]}
+  },
   "Clodsire": {"sets": [{"name": "Specially Defensive"}]},
   "Kingambit": {"sets": [{"name": "Swords Dance"}]},
   "Great Tusk": {

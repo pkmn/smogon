@@ -888,10 +888,10 @@
   "Riolu": {"lc": {"Agility": {"moves": ["Agility", "High Jump Kick", "Crunch", "Ice Punch"], "ability": "Inner Focus", "item": "Life Orb", "nature": "Adamant", "ivs": {"hp": 0}, "evs": {"atk": 196, "def": 36, "spd": 36, "spe": 196}}, "Swords Dance": {"moves": ["Swords Dance", "High Jump Kick", "Crunch", ["Ice Punch", "Quick Attack", "Bullet Punch"]], "ability": "Inner Focus", "item": ["Focus Sash", "Life Orb"], "nature": "Adamant", "ivs": {"hp": 0}, "evs": {"atk": 196, "def": 36, "spd": 36, "spe": 196}}, "Lead": {"moves": ["High Jump Kick", "Bullet Punch", "Crunch", "Counter"], "ability": "Inner Focus", "item": "Focus Sash", "nature": "Adamant", "evs": {"atk": 196, "spd": 36, "spe": 196}}}},
   "Lucario": {
     "ou": {
-      "Swords Dance": {"moves": ["Swords Dance", "Close Combat", "Extreme Speed", ["Crunch", "Stone Edge", "Bullet Punch"]], "ability": "Inner Focus", "item": "Life Orb", "nature": ["Adamant", "Jolly"], "evs": {"atk": 252, "spd": 4, "spe": 252}},
+      "Swords Dance": {"moves": ["Swords Dance", "Close Combat", "Extreme Speed", ["Crunch", "Bullet Punch", "Ice Punch"]], "ability": "Inner Focus", "item": "Life Orb", "nature": ["Adamant", "Jolly"], "evs": {"atk": 252, "spd": 4, "spe": 252}},
       "Agility": {"moves": ["Agility", "Close Combat", "Crunch", "Ice Punch"], "ability": "Inner Focus", "item": "Life Orb", "nature": "Adamant", "evs": {"atk": 252, "spd": 4, "spe": 252}},
       "Choice Specs": {"moves": ["Aura Sphere", "Shadow Ball", ["Dragon Pulse", "Hidden Power Rock"], "Vacuum Wave"], "ability": "Inner Focus", "item": "Choice Specs", "nature": ["Modest", "Timid"], "evs": {"spa": 252, "spd": 4, "spe": 252}},
-      "Choice Scarf": {"moves": ["Close Combat", "Thunder Punch", "Ice Punch", "Crunch"], "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
+      "Choice Scarf": {"moves": ["Close Combat", "Thunder Punch", "Ice Punch", "Copycat"], "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
       "Attacking Lead": {"moves": ["Close Combat", "Extreme Speed", "Crunch", ["Counter", "Swords Dance"]], "ability": "Inner Focus", "item": "Focus Sash", "nature": "Lonely", "ivs": {"def": 0}, "evs": {"hp": 4, "atk": 252, "spe": 252}},
       "Choice Band": {"moves": ["Close Combat", "Extreme Speed", "Crunch", ["Stone Edge", "Ice Punch"]], "ability": "Inner Focus", "item": "Choice Band", "nature": ["Adamant", "Jolly"], "evs": {"atk": 252, "spd": 4, "spe": 252}}
     },
