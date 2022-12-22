@@ -1,14 +1,17 @@
 {
   "Charmander": {"lc": {"sets": [{"name": "Sun Wallbreaker"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 605215, "username": "Flou"}]}], "writtenBy": []}}},
-  "Charizard": {"nationaldex": {"sets": [{"name": "Drought Wallbreaker"}, {"name": "Dragon Dance"}]}},
+  "Charizard": {"ou": {"sets": [{"name": "Choice Specs"}]}, "nationaldex": {"sets": [{"name": "Drought Wallbreaker"}, {"name": "Dragon Dance"}]}},
   "Pikachu": {"nfe": {"sets": [{"name": "Offensive Pivot"}]}},
   "Diglett": {"lc": {"sets": [{"name": "Life Orb"}, {"name": "Eviolite"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 32350, "username": "goldenghost"}]}], "writtenBy": []}}},
   "Meowth": {"lc": {"sets": [{"name": "Revenge Killer"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 597006, "username": "ZeStinky"}]}], "writtenBy": []}}},
   "Psyduck": {"lc": {"sets": [{"name": "Rain Wallbreaker"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 330191, "username": "Altariel von Sweep"}]}], "writtenBy": []}}},
   "Mankey": {"lc": {"sets": [{"name": "Choice Scarf"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 416460, "username": "yellowfin"}]}], "writtenBy": []}}},
+  "Arcanine": {"ou": {"sets": [{"name": "Utility"}]}},
+  "Slowbro": {"ou": {"sets": [{"name": "Defensive"}]}},
   "Magnemite": {"lc": {"sets": [{"name": "Choice Scarf"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 597006, "username": "ZeStinky"}]}], "writtenBy": []}}},
   "Shellder": {"lc": {"sets": [{"name": "Shell Smash"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 611652, "username": "RedPee428"}]}], "writtenBy": []}}},
   "Cloyster": {
+    "ou": {"sets": [{"name": "Shell Smash Sweeper"}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/cloyster.3712158/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [
@@ -21,7 +24,9 @@
     }
   },
   "Gastly": {"lc": {"sets": [{"name": "Life Orb"}, {"name": "Choice Scarf"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 567483, "username": "uhBella"}]}], "writtenBy": []}}},
+  "Gengar": {"ou": {"sets": [{"name": "Choice Specs"}]}},
   "Chansey": {
+    "ou": {"sets": [{"name": "Defensive"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -33,7 +38,8 @@
     },
     "nationaldex": {"sets": [{"name": "Pink Blob (Defensive)"}]}
   },
-  "Gyarados": {"nationaldex": {"sets": [{"name": "Dragon Dance"}, {"name": "Dragon Dance + Flyinium Z"}]}, "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/gyarados-gp-0-1.3712818/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Dragon Dance Sweeper"}]}},
+  "Tauros-Paldea-Fire": {"ou": {"sets": [{"name": "Physically Defensive"}]}},
+  "Gyarados": {"nationaldex": {"sets": [{"name": "Dragon Dance"}, {"name": "Dragon Dance + Flyinium Z"}]}, "ou": {"sets": [{"name": "Dragon Dance"}]}, "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/gyarados-gp-0-1.3712818/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Dragon Dance Sweeper"}]}},
   "Ditto": {"ou": {"sets": [{"name": "Imposter"}]}, "ubers": {"sets": [{"name": "Imposter", "description": "<p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldex": {"sets": [{"name": "SUS"}]}},
   "Dragonite": {
     "ou": {"sets": [{"name": "Dragon Dance"}]},
@@ -74,6 +80,8 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 330577, "username": "Thick Fat Azumarill"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     }
   },
+  "Quagsire": {"nationaldexuu": {"sets": [{"name": "Unaware Wall"}]}},
+  "Umbreon": {"ou": {"sets": [{"name": "Specially Defensive"}]}},
   "Murkrow": {"nfe": {"sets": [{"name": "Nasty Plot"}]}},
   "Slowking": {"ou": {"sets": [{"name": "Specially Defensive"}]}},
   "Misdreavus": {"nfe": {"sets": [{"name": "Nasty Plot"}, {"name": "Utility"}]}},
@@ -83,6 +91,16 @@
   "Sneasel": {"nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}},
   "Blissey": {
     "ou": {"sets": [{"name": "Defensive"}]},
+    "battlestadiumsingles": {
+      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/blissey.3713059/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
+      "sets": [
+        {
+          "name": "Calm Mind Support",
+          "description": "<ul> <li> <p>The old reliable special wall is still relevant, but with a twist: Blissey uses Calm Mind so it isn't entirely passive and fully takes advantage of Tera Blast giving it STAB no matter what type it is.</p> </li> <li> <p>Shadow Ball is still a reasonable option for dealing good damage to Gholdengo and Dragapult regardless of Blissey's Tera type, and also breaks Mimikyu's Disguise.</p> </li> <li> <p>Thunder Wave is Blissey's most consistent way of spreading paralysis, though it's vulnerable to Taunt and Gholdengo switch-ins.</p> </li> <li> <p>With Fling and Light Ball, Blissey can paralyze Gholdengo, Ground-types, and users of Taunt alike, though Covert Cloak holders are immune to the effect. Fling also gets rid of Choice items from Trick users.</p> </li> <li> <p>Trick with Lagging Tail cripples even Electric-types and is a more direct way of getting rid of troublesome Choice items that Blissey would normally succumb to.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Ghost: The Fighting-type immunity comes in handy for Blissey, though it does become more vulnerable to Gholdengo.</p> </li> <li> <p><strong>Dark</strong>: Dark Tera type not only gives Blissey a less exploitable STAB move against Gholdengo, but it also ruins Espathra's attempts to break through Blissey with Stored Power, at least forcing a Calm Mind war instead of a total loss.</p> </li> <li> <p><strong>Flying: Under Flying Tera type, Blissey gains a handy resistance to Fighting and no longer has to worry about Fissure from Dondozo.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 330577, "username": "Thick Fat Azumarill"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
+    },
     "almostanyability": {
       "sets": [
         {
@@ -96,7 +114,7 @@
   },
   "Tyranitar": {"ou": {"sets": [{"name": "Choice Band"}, {"name": "Defensive"}]}},
   "Surskit": {"lc": {"sets": [{"name": "Sticky Web"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 561351, "username": "DuGuo"}]}], "writtenBy": []}}},
-  "Masquerain": {"ubers": {"sets": [{"name": "Sticky Web", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}},
+  "Masquerain": {"ubers": {"sets": [{"name": "Sticky Web", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}, "ou": {"sets": [{"name": "Sticky Web"}]}},
   "Breloom": {
     "ou": {"sets": [{"name": "Focus Sash"}, {"name": "Choice Band"}]},
     "battlestadiumsingles": {
@@ -111,6 +129,7 @@
   "Meditite": {"nfe": {"sets": [{"name": "Wallbreaker"}]}},
   "Torkoal": {"ou": {"sets": [{"name": "Defensive"}]}},
   "Salamence": {
+    "ou": {"sets": [{"name": "Dragon Dance"}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/salamence.3712162/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [
@@ -128,7 +147,8 @@
     }
   },
   "Buizel": {"lc": {"sets": [{"name": "Rain Wallbreaker"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 330191, "username": "Altariel von Sweep"}]}], "writtenBy": []}}},
-  "Gastrodon": {"nationaldex": {"sets": [{"name": "Defensive Entry Hazard Setter"}]}},
+  "Floatzel": {"ou": {"sets": [{"name": "Rain Breaker"}]}},
+  "Gastrodon": {"ou": {"sets": [{"name": "Specially Defensive"}]}, "nationaldex": {"sets": [{"name": "Defensive Entry Hazard Setter"}]}},
   "Gabite": {"nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Scarf"}, {"name": "Defensive"}]}},
   "Garchomp": {
     "ou": {"sets": [{"name": "Tank"}, {"name": "Swords Dance"}]},
@@ -140,14 +160,18 @@
           "name": "Swords Dance Sweeper",
           "description": "<ul> <li> <p>The classic Swords Dance sweeper is still a big threat, thanks to its good bulk, unique Speed tier, and excellent use of Terastallization.</p> </li> <li> <p>Outrage is by far Garchomp's strongest STAB move, but the lock-in effect makes it very vulnerable to Fairy-types such as Mimikyu.</p> </li> <li> <p>Despite its low base power, Fire Fang is Garchomp's best shot at breaking past Corviknight after a Swords Dance. If Garchomp is almost always Terastallized on your team, Tera Blast can be used instead.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Steel: A Steel Tera type has excellent synergy with Garchomp's typing, letting it more effectively tackle faster Dragon-types, Mimikyu, and Ice Shard from the likes of Baxcalibur and Cloyster.</p> </li> <li> <p><strong>Fire: While the Stealth Rock weakness is unfortunate against bulkier teams, a Fire Tera type lets Life Orb Garchomp OHKO Corviknight with a +2 Fire Fang 93.8% of the time.</p> </li> <li> <p><strong>Ground</strong>: While the defensive synergy with Garchomp's former typing isn't that strong, a Ground Tera type lets Garchomp become more of a hit-and-run attacker with Earthquake, dealing good damage to Dondozo before being forced out by Yawn.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Life Orb: This is the best option for damage output.</p> </li> <li> <p><strong>LIfe Orb</strong>: Life Orb lets Garchomp deal with major status users more easily, such as Dragapult and Breloom.</p> </li> <li> <p><strong>Mirror Herb: Mirror Herb gives Garchomp the potential to severely punish set-up sweepers such as Dragapult and Dragonite, with the right Tera type.</p> </li> <li> <p><strong>Focus Sash: Surviving shocking attacks with Focus Sash gives Garchomp new sweeping and revenge killing potential.</p> </li> </ul> "
         },
-        {"name": "weOUbois (Hazard Setter)", "description": "<p><a href=\"https://www.smogon.com/forums/threads/hazard-setter-garchomp-gp-0-1.3712883/\">This set is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> "}
+        {
+          "name": "Entry Hazard Setter",
+          "description": "<ul> <li> <p>While Garchomp is known for its offensive prowess, it can also support its teammates with entry hazards and phazing.</p> </li> <li> <p>Bulldoze brings utility against Choice Scarf and naturally fast grounded opponents, but its lower Base Power makes Garchomp more passive against bulkier Pokemon.</p> </li> <li> <p>Sitrus Berry prevents Choice Band Dragapult from OHKOing Garchomp, as it activates after the first hit, and the HP recovered doesn't allow the second one to get the KO, unless Dragapult is Terastallized into a Dragon-type.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Steel: Terastallizing into a Steel-type makes Garchomp resist Dragon-, Ice- and Fairy-type attacks, making it a safer lead against opposing Dragon-type leads, at the cost of being vulnerable to Tera Fire Dragons and Fighting- and Ground-types.</p> </li> <li> <p><strong>Fairy</strong>: Fairy Tera type provides Garchomp with an immunity to Dragon while making it weak to Tera Steel Dragons and Gholdengo.</p> </li> </ul> <h1>EV spreads</h1> <ul> <li> <p><strong>188 HP / 236 Def / 84 Spe with Impish: This EV spread lets Garchomp survive Adamant Dragonite's Outrage while also outspeeding it.</p> </li> <li> <p><strong>252 HP / 124 Def / 132 Spe with Jolly: While this spread doesn't take physical hits as well, it lets Garchomp outspeed Gholdengo, Glimmora, and Rotom-W. This allows for scouting Rotom-W's item, as a Choice Scarf variant of it will be faster.</p> </li> </ul> "
+        }
       ],
-      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}, {"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}, {"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}, {"user_id": 330577, "username": "Thick Fat Azumarill"}]}
     },
     "almostanyability": {"sets": [{"name": "Entry Hazard Setter", "description": "<p>A spread of 252 HP / 4 Def / 252 SpD should be used with Ice Scales to be a specially defensive wall.</p> "}]}
   },
   "Hippopotas": {"nfe": {"sets": [{"name": "Physical Wall"}]}},
   "Hippowdon": {
+    "ou": {"sets": [{"name": "Specially Defensive"}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/hippowdon.3712159/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [
@@ -162,8 +186,23 @@
     "nationaldex": {"sets": [{"name": "Defensive"}]}
   },
   "Snover": {"lc": {"sets": [{"name": "Physical Wall"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 585065, "username": "TheShoddyStrawman"}]}], "writtenBy": []}}},
+  "Abomasnow": {
+    "vgc2023": {
+      "overview": "<ul> <li> <p>Snow lets Abomasnow carve itself a niche in the current metagame.</p> </li> <li> <p>Abomasnow is a decent offensive support Pokemon with Aurora Veil, which partners well with various Ice-types such as Baxcalibur, Cetitan, and Glaceon, as they gain a Defense boost in snow.</p> </li> <li> <p>Abomasnow's offensive typing is well-suited in a metagame filled with Ground-, Dragon-, and Water-types such as Garchomp, Hydreigon, and Rotom-W.</p> </li> <li> <p>Despite the Defense boost in snow, Abomasnow is still fairly specially frail with a poor set of weaknesses that leave it vulnerable to some of the most common special attackers in the format like Gholdengo and Armarouge.</p> </li> </ul> ",
+      "sets": [
+        {
+          "name": "Support",
+          "description": "<ul> <li> <p>Giga Drain gives Abomasnow some longevity when behind Aurora Veil and lets it beat the likes of Rotom-W and Palafin which resist Blizzard. Earth Power is an alternative that hits Fire- and Steel-types like Torkoal and Gholdengo, notably OHKOing the former when Terastallized.</p> </li> <li> <p>Abomansow runs items that help it overcome its crucial weaknesses. Focus Sash allows it to take any one hit, such as Rotom-H's Overheat, letting it set up Aurora Veil. Babiri Berry serves a similar purpose, allowing it to survive Gholdengo's Make It Rain and Tera Steel Hydreigon's Flash Cannon.</p> </li> <li> <p>The Speed investment allows Abomsnow to outspeed Garchomp while in Tailwind.</p> </li> <li> <p>Water is the primary Tera type used by Abomasnow, turning its Fire and Steel weaknesses into resistances. Ground is an alternative Tera type that allows it to fire off STAB-boosted Earth Powers, catching its common checks by surprise.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 541847, "username": "yourwelcomethanku"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 294287, "username": "yuki"}]}
+    }
+  },
+  "Magnezone": {"ou": {"sets": [{"name": "Choice Specs"}]}},
+  "Gallade": {"ou": {"sets": [{"name": "Swords Dance"}]}},
   "Froslass": {"ubers": {"sets": [{"name": "Spikes Lead", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}},
   "Rotom-Heat": {
+    "ou": {"sets": [{"name": "Specially Defensive Pivot"}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/rotom-h.3712160/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [
@@ -202,19 +241,21 @@
       "sets": [
         {
           "name": "Defensive",
-          "description": "<ul> <li> <p>With good bulk, a solid defensive typing, and access to Spore, Clear Smog, and Regenerator, Amoonguss is a fantastic support and disruptor option.</p> </li> <li> <p>Clear Smog prevents Amoonguss from getting set up on unless the opponent is Steel-type or has a Substitute up.</p> </li> <li> <p>Hex both punishes foes put to sleep by Spore and hits Air Balloon Gholdengo.</p> </li> <li> <p>Stomping Tantrum gets around Assault Vest Gholdengo.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Black Sludge: Black Sludge gives Amoonguss longevity outside of Synthesis and Regenerator; however, if Amoonguss Terastallizes into a type that isn't Poison, it will take damage instead.</p> </li> <li> <p><strong>Sitrus Berry</strong>: Sitrus Berry is an alternative form of recovery, and it can be used regardless of Amoonguss's Tera type.</p> </li> <li> <p><strong>Rocky Helmet</strong>: Rocky Helmet punishes contact moves with residual damage, potentially breaking Focus Sash in the process.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Dark</strong>: While Amoonguss doesn't Terastallize often, Dark removes its weakness to Psychic-type attacks and makes Foul Play stronger, at the cost of gaining new weaknesses.</p> </li> <li> <p><strong>Poison</strong>: Poison removes Grass-type weaknesses, but makes Amoonguss weak to Ground-type attacks.</p> </li> <li> <p><strong>Steel</strong>: While it makes Amoonguss weak to Ground- and Fighting-type attacks, it also grants Amoonguss with a plethora of resistances, and it can be a tough Pokemon to break once foes like Breloom are KOed.</p> </li> </ul> "
+          "description": "<ul> <li> <p>With good bulk, a solid defensive typing, and access to Spore, Clear Smog, and Regenerator, Amoonguss is a fantastic support and disruptor option.</p> </li> <li> <p>Clear Smog prevents Amoonguss from getting set up on unless the opponent is Steel-type or has a Substitute up.</p> </li> <li> <p>Hex both punishes foes put to sleep by Spore and hits Air Balloon Gholdengo.</p> </li> <li> <p>Stomping Tantrum gets around Assault Vest Gholdengo.</p> </li> </ul> <h1>Items</h1> <p><strong>Leftovers</strong>: Leftovers gives Amoonguss longevity outside of Synthesis and Regenerator.</p> <ul> <li> <p><strong>Black Sludge: Black Sludge is a great way to get around Item Clause if Leftovers is already in use. Note, if Amoonguss Terastallizes into a type that isn't Poison, it will take damage instead.</p> </li> <li> <p><strong>Sitrus Berry</strong>: Sitrus Berry is an alternative form of recovery, and it can be used regardless of Amoonguss's Tera type.</p> </li> <li> <p><strong>Rocky Helmet</strong>: Rocky Helmet punishes contact moves with residual damage, potentially breaking Focus Sash in the process.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Dark</strong>: While Amoonguss doesn't Terastallize often, Dark removes its weakness to Psychic-type attacks and makes Foul Play stronger, at the cost of gaining new weaknesses.</p> </li> <li> <p><strong>Poison</strong>: Poison removes Grass-type weaknesses, but makes Amoonguss weak to Ground-type attacks.</p> </li> <li> <p><strong>Steel</strong>: While it makes Amoonguss weak to Ground- and Fighting-type attacks, it also grants Amoonguss with a plethora of resistances, and it can be a tough Pokemon to break once foes like Breloom are KOed.</p> </li> </ul> "
         }
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 29010, "username": "Theorymon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 330577, "username": "Thick Fat Azumarill"}]}
     }
   },
-  "Alomomola": {"nationaldex": {"sets": [{"name": "Defensive"}]}},
+  "Alomomola": {"ou": {"sets": [{"name": "Defensive"}]}, "nationaldex": {"sets": [{"name": "Defensive"}]}},
   "Eelektrik": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}},
   "Fraxure": {"nfe": {"sets": [{"name": "Dragon Dance"}, {"name": "Choice Band"}, {"name": "Swords Dance"}]}},
+  "Haxorus": {"ou": {"sets": [{"name": "Swords Dance"}]}},
   "Pawniard": {"lc": {"sets": [{"name": "Standard"}, {"name": "Choice Scarf"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 342456, "username": "Drifting"}]}], "writtenBy": []}}, "nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Stealth Rock"}]}},
   "Rufflet": {"nfe": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Bulk Up"}]}},
   "Zweilous": {"nfe": {"sets": [{"name": "Wallbreaker"}]}},
   "Hydreigon": {
+    "ou": {"sets": [{"name": "Nasty Plot"}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/hydreigon.3712183/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [
@@ -244,8 +285,10 @@
     "almostanyability": {"sets": [{"name": "Physically Defensive"}, {"name": "Fast Support"}]}
   },
   "Fletchinder": {"nfe": {"sets": [{"name": "Utility"}, {"name": "Offensive Pivot"}, {"name": "Swords Dance"}]}},
+  "Talonflame": {"ou": {"sets": [{"name": "Defensive Utility"}]}},
   "Florges": {"almostanyability": {"sets": [{"name": "Defensive", "description": "<p>An EV spread of 252 HP / 252 Def / 4 SpD should be used on Fur Coat variants.</p> "}]}},
   "Sylveon": {
+    "ou": {"sets": [{"name": "Specially Defensive Calm Mind"}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/sylveon.3712370/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [
@@ -261,8 +304,9 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 29010, "username": "Theorymon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 528485, "username": "DerpySuX"}]}
     }
   },
-  "Hawlucha": {"nationaldex": {"sets": [{"name": "Unburden Sweeper"}]}},
-  "Avalugg": {"almostanyability": {"sets": [{"name": "Fur Coat"}]}},
+  "Hawlucha": {"ou": {"sets": [{"name": "Unburden Sweeper"}]}, "nationaldex": {"sets": [{"name": "Unburden Sweeper"}]}},
+  "Klefki": {"ou": {"sets": [{"name": "Trick Room Setter"}]}},
+  "Avalugg": {"ou": {"sets": [{"name": "Defensive"}]}, "almostanyability": {"sets": [{"name": "Fur Coat"}]}},
   "Noivern": {"almostanyability": {"sets": [{"name": "Choice Specs"}, {"name": "Super Fang"}]}},
   "Crabrawler": {"lc": {"sets": [{"name": "Bulk Up"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 587838, "username": "Pigwarrior19"}]}], "writtenBy": []}}},
   "Mareanie": {"lc": {"sets": [{"name": "Defensive"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 197439, "username": "chimp"}]}], "writtenBy": []}}, "nfe": {"sets": [{"name": "Physically Defensive"}]}},
@@ -270,6 +314,7 @@
   "Mudbray": {"lc": {"sets": [{"name": "RestTalk"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 593128, "username": "ashelyDeluxe"}]}], "writtenBy": []}}},
   "Palossand": {"almostanyability": {"sets": [{"name": "Fur Coat"}]}},
   "Mimikyu": {
+    "ou": {"sets": [{"name": "Swords Dance"}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/mimikyu.3712157/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more discussion and resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
       "sets": [
@@ -316,6 +361,7 @@
   },
   "Barraskewda": {"nationaldex": {"sets": [{"name": "Choice Band"}]}},
   "Sinistea": {"nfe": {"sets": [{"name": "Shell Smash"}]}},
+  "Polteageist": {"almostanyability": {"sets": [{"name": "Shell Smash"}]}},
   "Hattrem": {"nfe": {"sets": [{"name": "RestTalk"}, {"name": "Healing Wish"}]}},
   "Hatterene": {"ou": {"sets": [{"name": "Calm Mind"}, {"name": "Healing Wish"}]}},
   "Impidimp": {"lc": {"sets": [{"name": "Dual Screens"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 557942, "username": "Sanjay das"}]}], "writtenBy": []}}},
@@ -334,6 +380,8 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     }
   },
+  "Pincurchin": {"ou": {"sets": [{"name": "Terrain Setter"}]}},
+  "Indeedee": {"ou": {"sets": [{"name": "Choice Scarf"}, {"name": "Terrain Setter"}]}},
   "Dragapult": {
     "ou": {"sets": [{"name": "Choice Specs"}, {"name": "Utility"}, {"name": "Choice Band"}]},
     "battlestadiumsingles": {
@@ -407,7 +455,9 @@
   "Quaxwell": {"nfe": {"sets": [{"name": "Defensive"}]}},
   "Quaquaval": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}, "almostanyability": {"sets": [{"name": "Making Waves"}, {"name": "Choice Band"}]}},
   "Nymble": {"lc": {"sets": [{"name": "Revenge Killer"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 567483, "username": "uhBella"}]}], "writtenBy": []}}},
+  "Lokix": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}},
   "Pawmot": {"ubers": {"sets": [{"name": "Revival Blessing", "description": "<p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}, "ou": {"sets": [{"name": "Utility"}, {"name": "Offensive"}]}, "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/pawmot-gp-0-1.3712965/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Offensive Blessing"}]}},
+  "Maushold": {"ou": {"sets": [{"name": "Skill"}]}},
   "Naclstack": {"nfe": {"sets": [{"name": "Stealth Rock"}, {"name": "Salt Shaker"}]}},
   "Garganacl": {
     "ou": {"sets": [{"name": "Defensive"}]},
@@ -438,10 +488,40 @@
     "nationaldex": {"sets": [{"name": "IronPress"}]}
   },
   "Armarouge": {"almostanyability": {"sets": [{"name": "Choice Scarf"}]}},
-  "Ceruledge": {"almostanyability": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Item"}]}},
+  "Ceruledge": {"ou": {"sets": [{"name": "Swords Dance"}]}, "almostanyability": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Item"}]}},
+  "Kilowattrel": {
+    "ou": {"sets": [{"name": "Rain Sweeper"}]},
+    "vgc2023": {
+      "overview": "<ul> <li> <p>Kilowattrel stands out as one of the best Tailwind setters in the current metagame. Its base 125 Speed stat lets it set Tailwind first, with very little Prankster Tailwind Pokemon stopping it from doing so.</p> </li> <li> <p>Kilowattrel has a respectable base 105 Special Attack stat and a good offensive typing, allowing it to tackle the likes of Meowscarada and Gyarados well.</p> </li> <li> <p>Kilowattrel appreciates immediately hard-hitting partners such as Choice Specs Gholdengo and Garchomp to break through opposing teams. Gholdengo is great in particular thanks to its immunity to Dragonite's Extreme Speed.</p> </li> <li> <p>Kilowattrel is particularly frail, meaning it often only gets to set Tailwind and fire off a single attack before it faints. It also means in late-game scenarios, it is unreliable at dueling the meta's most common attackers like Gholdengo and Hydreigon.</p> </li> </ul> ",
+      "sets": [
+        {"name": "Support", "description": "<ul> <li> <p>Air Slash is Kilowattrel's primary Flying-type STAB move of choice due to its higher accuracy than Hurricane, though the latter may be seen on rain teams.</p> </li> <li> <p>Discharge is a good spread option when next to a Ground- or Electric-type partner like Garchomp or Rotom-F. Volt Switch allows Kilowattrel to use its high base Speed to pivot into a partner that can better use the extra Speed from Tailwind.</p> </li> <li> <p>Competitive acts as an Intimidate-deterrent for physically attacking partners such as Garchomp, Baxcalibur, and Ceruledge.</p> </li> <li> <p>Focus Sash is a must-have, as Kilowattrel is incredibly frail and unable to take any super effective or strong neutral attacks such as Baxcalibur's Icicle Crash and Tera Normal Dragonite's Extreme Speed.</p> </li> <li> <p>Kilowattrel rarely Terastallizes, but when it does, it prefers to use same type Tera to boost the power of one of its STAB moves.</p> </li> </ul> "}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 541847, "username": "yourwelcomethanku"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 294287, "username": "yuki"}]}
+    }
+  },
   "Shroodle": {"lc": {"sets": [{"name": "Weather Setter"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 588203, "username": "Charis_Akins"}]}], "writtenBy": []}}},
   "Toedscool": {"lc": {"sets": [{"name": "Utility"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 438243, "username": "PyProd"}, {"user_id": 430377, "username": "Acehunter1"}]}], "writtenBy": []}}, "nfe": {"sets": [{"name": "Utility"}]}},
-  "Espathra": {"ubers": {"sets": [{"name": "Calm Mind", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}, "ou": {"sets": [{"name": "Calm Mind"}]}, "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/espathra-gp-0-1.3712914/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Calm Mind"}, {"name": "Speed Passer"}]}, "nationaldex": {"sets": [{"name": "Calm Mind"}]}},
+  "Scovillain": {"ou": {"sets": [{"name": "Sun Sweeper"}]}},
+  "Rabsca": {"ou": {"sets": [{"name": "Trick Room Setter"}]}},
+  "Espathra": {
+    "ubers": {"sets": [{"name": "Calm Mind", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]},
+    "ou": {"sets": [{"name": "Calm Mind"}]},
+    "battlestadiumsingles": {
+      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/espathra.3712914/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
+      "sets": [
+        {
+          "name": "Calm Mind",
+          "description": "<ul> <li> <p>With Calm Mind and Speed Boost rapidly increasing Stored Power's damage output, Espathra is a dangerous wincon against bulkier teams, as it even overwhelms Unaware foes.</p> </li> <li> <p>Dazzling Gleam provides coverage against Dark-types such as Hydreigon.</p> </li> <li> <p>Protect is the most reliable way to get a free turn of Speed Boost.</p> </li> <li> <p>Substitute is a riskier option for Speed Boost stalling, but it severely punishes passive Pokemon and works extremely well on dual screen teams.</p> </li> <li> <p>Lumina Crash with Life Orb or Focus Sash is an alternative option for dealing with Unaware foes much more quickly, giving Dondozo fewer chances to use Fissure and sweeping far more quickly, at the cost of being less reliable to set up.</p> </li> <li> <p>The given EV spread allows Espathra to outspeed Meowscarada after one turn of Speed Boost.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Fairy: Fairy Tera type makes setting up on Hydreigon a much more realistic scenario and severely punishes Choice-locked Dragon-types like Dragapult.</p> </li> <li> <p><strong>Fighting: When paired with Tera Blast, Tera Fighting is Espathra's only hope of defeating Kingambit.</p> </li> <li> <p><strong>Dark: Tera Dark provides gives Espathra a valuable Shadow Sneak resistance and does a better shot of defeating weakened Gholdengo.</p> </li> </ul> "
+        },
+        {
+          "name": "Speed Passer",
+          "description": "<ul> <li> <p>Espathra is the only option for the coveted Speed Boost + Baton Pass combination, which can be extremely deadly for setting up sweeps!</p> </li> <li> <p>Lumina Crash ensures that Espathra isn't totally shut down by Taunt, and the guaranteed -2 Special Defense drop helps against Unaware walls.</p> </li> <li> <p>While most Pokemon love getting Baton Pass boosts, especially consider Pokemon that resist Espathra's common weaknesses, such as Hydreigon, Sylveon, and Kingambit.</p> </li> <li> <p>The given EV spread outspeeds Choice Scarf Hydreigon after one turn of Speed Boost.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p>Espathra should usually avoid Terastallizing if possible, since its point is to help other Pokemon sweep. Consider these two options as fairly situational.</p> </li> <li> <p><strong>Ghost: Ghost Tera type makes Espartha immune to Extreme Speed, making passing against Dragonite much easier.</p> </li> <li> <p><strong>Normal: With a Normal Tera type, Espartha can set up against its Ghost types and isn't worried about Shadow Sneak anymore.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Leftovers</strong>: Leftovers is the easy option to recommend since it pairs well with Protect and Substitute.</p> </li> <li> <p><strong>Sitrus Berry</strong>: Sitrus Berry should be used if Espathra is planning on passing Speed to teammates that want Leftovers, such as Skeledirge and Garganacl.</p> </li> <li> <p><strong>Focus Sash: Focus Sash is the best way to guarantee passing at least one Speed boost, though it's a lackluster option for passing multiple boosts compared to other items.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
+    },
+    "nationaldex": {"sets": [{"name": "Calm Mind"}]}
+  },
   "Tinkatink": {"lc": {"sets": [{"name": "Utility"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 585065, "username": "TheShoddyStrawman"}]}], "writtenBy": []}}},
   "Tinkatuff": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}},
   "Tinkaton": {"almostanyability": {"sets": [{"name": "RegenVest"}, {"name": "Stealth Rock"}]}},
@@ -459,6 +539,7 @@
     },
     "nationaldex": {"sets": [{"name": "Shed Tail Utility"}]}
   },
+  "Orthworm": {"ou": {"sets": [{"name": "Shed Tail Support"}]}},
   "Glimmet": {"lc": {"sets": [{"name": "Entry Hazard Setter"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 425492, "username": "Tack"}]}], "writtenBy": []}}, "nfe": {"sets": [{"name": "Hazard Lead"}]}},
   "Glimmora": {
     "ou": {"sets": [{"name": "Focus Sash"}]},
@@ -471,6 +552,7 @@
     "nationaldex": {"sets": [{"name": "Suicide Lead"}]}
   },
   "Houndstone": {"ubers": {"sets": [{"name": "Choice Band", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}},
+  "Cetitan": {"ou": {"sets": [{"name": "Slush Rush Sweeper"}]}},
   "Dondozo": {
     "ou": {"sets": [{"name": "Wall"}, {"name": "Curse"}]},
     "battlestadiumsingles": {
@@ -577,7 +659,8 @@
     },
     "nationaldex": {"sets": [{"name": "Offensive Utility"}]}
   },
-  "Scream Tail": {"almostanyability": {"sets": [{"name": "Pixilate", "description": "<p>A more offensive EV spread with 4 Def / 252 SpA / 252 Spe can be used, but has a harder time setting up with Calm Mind.</p> "}, {"name": "Defensive"}]}},
+  "Scream Tail": {"ou": {"sets": [{"name": "Defensive"}]}, "almostanyability": {"sets": [{"name": "Pixilate", "description": "<p>A more offensive EV spread with 4 Def / 252 SpA / 252 Spe can be used, but has a harder time setting up with Calm Mind.</p> "}, {"name": "Defensive"}]}},
+  "Brute Bonnet": {"ou": {"sets": [{"name": "Offensive"}]}},
   "Flutter Mane": {
     "ubers": {"sets": [{"name": "Choice Specs"}, {"name": "Taunt"}, {"name": "Calm Mind", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]},
     "balancedhackmons": {"sets": [{"name": "Pixilate"}, {"name": "Normalize"}]},
@@ -595,6 +678,7 @@
   },
   "Slither Wing": {
     "ubers": {"sets": [{"name": "Choice Band", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]},
+    "ou": {"sets": [{"name": "Defensive"}, {"name": "Choice Band"}]},
     "almostanyability": {
       "sets": [
         {"name": "Choice Band"},
@@ -603,7 +687,7 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 439018, "username": "Theia"}]}
     }
   },
-  "Sandy Shocks": {"almostanyability": {"sets": [{"name": "Hadron Engine"}]}},
+  "Sandy Shocks": {"ou": {"sets": [{"name": "Choice Specs"}]}, "almostanyability": {"sets": [{"name": "Hadron Engine"}]}},
   "Iron Treads": {
     "ou": {"sets": [{"name": "Offensive"}, {"name": "Utility"}, {"name": "Assault Vest"}]},
     "almostanyability": {
@@ -628,7 +712,7 @@
     "ou": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}]},
     "almostanyability": {
       "sets": [
-        {"name": "RegenVest"},
+        {"name": "RegenVest", "description": "<p>A huge HP stat and STAB Volt Switch make RegenVest Iron Hands a valuable specially defensive pivot that can switch into threats like Dragapult, Iron Bundle, and Chi-Yu. Aside from dissuading Flying-types like Dragonite and Noivern from switching into it, Ice Punch significantly harms Ground-types like Garchomp and Clodsire, allowing Iron Hands to pivot more freely with Volt Switch. Special wallbreakers like Iron Bundle and Noivern form a VoltTurn core with Iron Hands, and they appreciate being brought in on physical walls like Avalugg and Scream Tail via its Volt Switch. Corviknight can remove entry hazards, which would prevent Iron Hands from freely pivoting, with Defog and check threats like Flutter Mane and Great Tusk for it. Minimum Speed investment allows Iron Hands to pull off slow pivots for frail offensive teammates.</p> "},
         {
           "name": "Fur Coat",
           "description": "<p>Fur Coat Iron Hands uses its titanic bulk to check prominent attackers like Ceruledge and Kingambit while its solid Attack and Swords Dance prevent it from being passive. Drain Punch provides much-needed recovery as well as threatens Pokemon like Blissey and Cyclizar. Thunder Punch hits Fighting-resistant foes like Iron Moth and Flutter Mane, while Ice Punch covers Pokemon like Dragonite and Garchomp. Earthquake provides coverage for Pokemon like Clodsire that Iron Hands would otherwise struggle against. Iron Hands can also use Volt Switch alongside its low Speed to serve as a bulky slow pivot to safely bring in frail offensive teammates like Flutter Mane and Iron Bundle. Because of its below average Special Defense, Iron Hands pairs well with specially defensive teammates like Blissey and Ice Scales Corviknight. Iron Hands also struggles against Fairy-types like Iron Valiant and Scream Tail, so it appreciates teammates like Gholdengo and Iron Moth that can take them on.</p> "
@@ -638,10 +722,11 @@
           "description": "<p>Iron Hand is the premier Belly Drum + Triage user thanks to its excellent bulk, Attack and STAB Drain Punch. With a free turn of setup, it can sweep frailer teams or clean up weakened balance teams. Ice Punch is a good coverage move to deal with threats such as Great Tusk and Hippowdon that otherwise can check it, while Earthquake is another coverage option that can better deal with Fur Coat Gholdengo. The 132 Speed EVs outpace Skeledirge, which would otherwise check Iron Hands with Will-O-Wisp. Frailer offensive teammates such as Iron Moth and Flutter Mane appreciate Iron Hands's ability to break through their common checks such as Garganacl and Ice Scales Corviknight. Iron Hands appreciates being brought in safely by slow pivots like Corviknight or by Shed Tail Cyclizar. Iron Hands can also have a tough time dealing with Fur Coat and Unaware walls like Hippowdon, so pairing it with a strong special attacker like Iron Bundle to deal with them is recommended.</p> "
         }
       ],
-      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 439018, "username": "Theia"}, {"user_id": 475288, "username": "Tranquility"}]}
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 439018, "username": "Theia"}, {"user_id": 475288, "username": "Tranquility"}, {"user_id": 493260, "username": "royalfluxh"}]}
     },
     "nationaldex": {"sets": [{"name": "Defensive Swords Dance"}, {"name": "Choice Band"}]}
   },
+  "Iron Jugulis": {"ou": {"sets": [{"name": "Choice Specs"}]}},
   "Iron Moth": {
     "ou": {"sets": [{"name": "Offensive"}, {"name": "Agility"}]},
     "ubers": {"sets": [{"name": "Agility", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]},
@@ -656,6 +741,7 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}, {"user_id": 450411, "username": "Atha"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}, {"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 521275, "username": "The Dragon Master"}, {"user_id": 493260, "username": "royalfluxh"}]}
     }
   },
+  "Iron Thorns": {"ou": {"sets": [{"name": "Offensive"}]}},
   "Baxcalibur": {
     "ou": {"sets": [{"name": "Offensive"}]},
     "battlestadiumsingles": {
@@ -706,8 +792,44 @@
     "nationaldex": {"sets": [{"name": "Choice Scarf"}, {"name": "Nasty Plot"}]}
   },
   "Chien-Pao": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}, "ubers": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}, "almostanyability": {"sets": [{"name": "Choice Band"}]}, "nationaldex": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}},
-  "Ting-Lu": {"ou": {"sets": [{"name": "Defensive"}]}, "ubers": {"sets": [{"name": "Defensive", "description": "<p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}, "balancedhackmons": {"sets": [{"name": "Prankster"}, {"name": "RegenVest"}, {"name": "Magic Bounce"}]}, "almostanyability": {"sets": [{"name": "Specially Defensive"}]}},
-  "Chi-Yu": {"ou": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}, {"name": "Nasty Plot"}]}, "ubers": {"sets": [{"name": "Choice Item", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}, "almostanyability": {"sets": [{"name": "Choiced Attacker"}, {"name": "Nasty Plot"}]}},
+  "Ting-Lu": {
+    "ou": {"sets": [{"name": "Defensive"}]},
+    "ubers": {"sets": [{"name": "Defensive", "description": "<p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]},
+    "balancedhackmons": {
+      "sets": [
+        {
+          "name": "RegenVest",
+          "description": "<p>RegenVest Ting-Lu is a reliable special wall and a premier Miraidon check. Regenerator gives Ting-Lu reliable recovery without conflicting with Assault Vest. Nuzzle discourages dangerous attackers like Zacian-C and Palkia-O from switching in. U-turn allows Ting-Lu to safely bring in teammates thanks to its low Speed. Ceaseless Edge forces chip damage on foes, letting offensive teammates wallbreak more easily. Knock Off removes items like Heavy-Duty Boots and Covert Cloak, making Ting-Lu's own utility more effective; it also punishes Imposter users attempting to gain Regenerator. Ting-Lu fits best on balance teams, which appreciate its ability to spread paralysis and safely bring in teammates thanks to its huge bulk. Dangerous wallbreakers like Miraidon, Zacian-C, and Palkia-O help maximize the effectiveness of U-turn pivoting. Ting-Lu is unable to naturally check Palkia-O and Quiver Dance Arceus-Water, so a teammate that helps shore up this weakness, such as Arceus-Grass or Hisuian Goodra, is appreciated. Tera Fairy provides an immunity to Dragon, allowing Ting-Lu to block Dragon Energy from Palkia-O and Choice Specs Miraidon; alternatively, Tera Grass provides a Water resistance, covering for Palkia-O's Water Spout and coverage from Miraidon.</p> "
+        },
+        {"name": "Prankster"},
+        {"name": "Magic Bounce"}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 355040, "username": "Chessking345"}, {"user_id": 338877, "username": "TTTech"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 577920, "username": "Tea Guzzler"}]}
+    },
+    "almostanyability": {
+      "sets": [
+        {
+          "name": "Specially Defensive",
+          "description": "<p>Ting-Lu's absurd mixed bulk and unusual typing make it a formidable mixed wall, capable of checking several key threats such as Kingambit, Ceruledge, Dragapult, and Iron Moth. Ting-Lu's best entry hazard depends on its team, as it can form a strong hazard-stacking core with Stealth Rock and/or Spikes setters like Garganacl and Glimmora. Ruination spreads consistent damage, especially against Ground-immune foes like Dragonite and Noivern, and forces defensive Pokemon like Corviknight, Hippowdon, and Blissey to waste their recovery PP. Whirlwind forces entry hazard damage onto foes and ensures Ting-Lu isn't setup fodder for threats like Dragonite, Fur Coat Iron Hands, and Earth Eater Gholdengo. The Speed IVs let it underspeed Corviknight to punish its Roost with Earthquake. Foes like Flutter Mane, Iron Valiant, and Iron Bundle can endanger Ting-Lu by targeting its weaknesses, so Ice Scales Corviknight and Desolate Land Iron Moth are good teammates; the former also provides Defog, while the latter provides Toxic Spikes to amplify Ting-Lu's own entry hazards.</p> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 493260, "username": "royalfluxh"}]}
+    }
+  },
+  "Chi-Yu": {
+    "ou": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}, {"name": "Nasty Plot"}]},
+    "ubers": {"sets": [{"name": "Choice Item", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]},
+    "almostanyability": {
+      "sets": [
+        {
+          "name": "Choice Item Attacker",
+          "description": "<p>Chi-Yu's strong base stats and excellent STAB coverage make it a flexible offensive threat. Choice Specs provides maximum wallbreaking power, notably allowing it to OHKO Ice Scales Corviknight and physically defensive Ting-Lu with Desolate Land + Overheat, whereas Choice Scarf gives it the Speed to clean late-game and chase out faster threats like Dragapult and Flutter Mane. Desolate Land provides the most damage amplification and comes with an immunity to Water, whereas No Guard enables Chi-Yu to liberally spread burns with Inferno. Psychic is useful coverage to hit Clodsire and Iron Moth super effectively; alternatively, Will-O-Wisp allows Desolate Land sets to reliably spread burn, however Chi-Yu's poor bulk means it can be dangerous to use. Chi-Yu's best fit is on balance and offense teams that appreciate its high damage output, as well as its good matchups against common special walls like Ice Scales Corviknight and RegenVest Iron Treads. Bulky pivots, like the aforementioned Corviknight and Iron Treads, make particularly good Chi-Yu partners because both can clear entry hazards, particularly Stealth Rock.</p> "
+        },
+        {"name": "Nasty Plot"}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 577920, "username": "Tea Guzzler"}]}
+    }
+  },
   "Roaring Moon": {"ou": {"sets": [{"name": "Booster Energy"}, {"name": "Bulky Pivot"}, {"name": "Choice Band"}]}, "almostanyability": {"sets": [{"name": "Regenerator"}]}},
   "Iron Valiant": {
     "ou": {"sets": [{"name": "Calm Mind"}, {"name": "Choice Specs"}, {"name": "Mixed"}, {"name": "Swords Dance"}]},
