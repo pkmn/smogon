@@ -87,7 +87,7 @@
   },
   "Quagsire": {"nationaldexuu": {"sets": [{"name": "Unaware Wall"}]}},
   "Umbreon": {"ou": {"sets": [{"name": "Specially Defensive"}]}},
-  "Murkrow": {"nfe": {"sets": [{"name": "Nasty Plot"}]}},
+  "Murkrow": {"nfe": {"sets": [{"name": "Nasty Plot"}]}, "vgc2023": {"sets": [{"name": "Tailwind"}]}},
   "Slowking": {"ou": {"sets": [{"name": "Specially Defensive"}]}},
   "Misdreavus": {"nfe": {"sets": [{"name": "Nasty Plot"}, {"name": "Utility"}]}},
   "Girafarig": {"lc": {"sets": [{"name": "Nasty Plot"}, {"name": "Physical Attacker"}, {"name": "Screen Setter"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 32350, "username": "goldenghost"}]}], "writtenBy": []}}, "nfe": {"sets": [{"name": "Nasty Plot"}, {"name": "Calm Mind"}]}},
@@ -118,7 +118,20 @@
     "nationaldex": {"sets": [{"name": "Pink Blob (Defensive)"}]}
   },
   "Pupitar": {"nfe": {"sets": [{"name": "Dragon Dance"}]}},
-  "Tyranitar": {"ou": {"sets": [{"name": "Choice Band"}, {"name": "Defensive"}]}, "stabmons": {"sets": [{"name": "Support"}]}},
+  "Tyranitar": {"ou": {"sets": [{"name": "Choice Band"}, {"name": "Defensive"}]}, "nationaldex": {"sets": [{"name": "Stealth Rock"}, {"name": "Assault Vest"}]}, "stabmons": {"sets": [{"name": "Support"}]}},
+  "Pelipper": {
+    "vgc2023": {
+      "overview": "<ul> <li> <p>Pelipper's role is primarily to set rain for its teammates, but functions it as an offensive support Pokemon with fully accurate Hurricanes and access to Tailwind and Wide Guard.</p> </li> <li> <p>Rain boosts the power of Water-type teammates such as Palafin, Floatzel, and Drednaw, and it also weakens Fire-type moves for Fire-weak partners such as Amoonguss, Gholdengo, and Kingambit.</p> </li> <li> <p>Pelipper's overall bulk is lacking, particularly specially, and super effective attacks like Thunderbolt from Gholdengo or Rotom-W are capable of OHKOing it.</p> </li> </ul> ",
+      "sets": [
+        {
+          "name": "Pelipper",
+          "description": "<ul> <li> <p>Hurricane's full accuracy in Rain makes it mandatory on Pelipper. It provides consistent damage and threatens the Grass-type Pokemon that resist Water.</p> </li> <li> <p>Hydro Pump is Pelipper's best Water-type attack but can be forgone if accuracy is a concern. Helping Hand paired with a fast Water-type Pokemon can compensate for the lack of reliable Water-type damage.</p> </li> <li> <p>Wide Guard can be used over Protect to answer ubiquitous spread moves such as Gholdengo's Make it Rain and Sylveon's Hyper Voice.</p> </li> <li> <p>Focus Sash ensures Pelipper survives attacks from Pokemon that might otherwise outspeed and OHKO it, such as Hydreigon and Annihilape. Damp Rock extends the uptime of Pelipper's rain-reliant teammates, allowing them to beat bulkier teams without requiring repeat switch-ins.</p> </li> <li> <p>252 Speed EVs with a Timid nature allow Pelipper to outspeed the entire metagame with Tailwind, as well as some notable Choice Scarf threats such as Annihilape.</p> </li> <li> <p>A Ground Tera type grants Pelipper an immunity to Electric and a resistance to Rock, which are its main concerns. With a Grass Tera type, it instead resists Electric, but this grants an immunity to Spore and Rage Powder.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 294287, "username": "yuki"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 377427, "username": "smogon account"}]}
+    },
+    "nationaldex": {"sets": [{"name": "Rain Setter"}]}
+  },
   "Surskit": {"lc": {"sets": [{"name": "Sticky Web"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 561351, "username": "DuGuo"}]}], "writtenBy": []}}},
   "Masquerain": {"ubers": {"sets": [{"name": "Sticky Web", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}, "ou": {"sets": [{"name": "Sticky Web"}]}},
   "Breloom": {
@@ -133,7 +146,8 @@
   },
   "Vigoroth": {"nfe": {"sets": [{"name": "Bulk Up"}]}},
   "Meditite": {"nfe": {"sets": [{"name": "Wallbreaker"}]}},
-  "Torkoal": {"ou": {"sets": [{"name": "Defensive"}]}},
+  "Medicham": {"nationaldex": {"sets": [{"name": "Wallbreaker"}]}},
+  "Torkoal": {"ou": {"sets": [{"name": "Defensive"}]}, "vgc2023": {"sets": [{"name": "Trick Room Offense"}]}},
   "Salamence": {
     "ou": {"sets": [{"name": "Dragon Dance"}]},
     "battlestadiumsingles": {
@@ -173,6 +187,7 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}, {"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}, {"user_id": 330577, "username": "Thick Fat Azumarill"}]}
     },
+    "vgc2023": {"sets": [{"name": "Offensive"}]},
     "almostanyability": {"sets": [{"name": "Entry Hazard Setter", "description": "<p>A spread of 252 HP / 4 Def / 252 SpD should be used with Ice Scales to be a specially defensive wall.</p> "}]},
     "stabmons": {"sets": [{"name": "Defensive Spiker"}, {"name": "Setup Attacker"}]}
   },
@@ -240,8 +255,10 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}, {"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 277988, "username": "dex"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     },
-    "stabmons": {"sets": [{"name": "Defensive Pivot"}]}
+    "stabmons": {"sets": [{"name": "Defensive Pivot"}]},
+    "nationaldex": {"sets": [{"name": "Defensive Pivot"}, {"name": "Choice Scarf"}]}
   },
+  "Lilligant": {"vgc2023": {"sets": [{"name": "Sun Support"}]}},
   "Krokorok": {"nfe": {"sets": [{"name": "Stealth Rock"}]}},
   "Gothita": {"lc": {"sets": [{"name": "Choice Scarf"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 564420, "username": "Lialiabeast"}]}], "writtenBy": []}}},
   "Foongus": {"nfe": {"sets": [{"name": "Physically Defensive"}]}},
@@ -257,7 +274,8 @@
         {"name": "Pivot", "description": "<p><a href=\"https://www.smogon.com/forums/threads/pivot-amoonguss-gp-0-1.3713158/\">This set is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> "}
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 29010, "username": "Theorymon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 330577, "username": "Thick Fat Azumarill"}]}
-    }
+    },
+    "vgc2023": {"sets": [{"name": "Support"}]}
   },
   "Alomomola": {"ou": {"sets": [{"name": "Defensive"}]}, "nationaldex": {"sets": [{"name": "Defensive"}]}},
   "Eelektrik": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}},
@@ -277,7 +295,8 @@
         }
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 29010, "username": "Theorymon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 528485, "username": "DerpySuX"}]}
-    }
+    },
+    "vgc2023": {"sets": [{"name": "Offensive"}, {"name": "Assault Vest"}]}
   },
   "Larvesta": {"lc": {"sets": [{"name": "Defensive Pivot"}], "credits": {"teams": [{"name": "Sunmitted by", "members": [{"user_id": 588203, "username": "Charis_Akins"}]}], "writtenBy": []}}},
   "Volcarona": {
@@ -294,7 +313,8 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 29010, "username": "Theorymon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 469498, "username": "luisin"}]}
     },
-    "almostanyability": {"sets": [{"name": "Physically Defensive"}, {"name": "Fast Support"}]}
+    "almostanyability": {"sets": [{"name": "Physically Defensive"}, {"name": "Fast Support"}]},
+    "nationaldex": {"sets": [{"name": "Quiver Dance"}]}
   },
   "Fletchinder": {"nfe": {"sets": [{"name": "Utility"}, {"name": "Offensive Pivot"}, {"name": "Swords Dance"}]}},
   "Talonflame": {"ou": {"sets": [{"name": "Defensive Utility"}]}},
@@ -314,7 +334,8 @@
         }
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 29010, "username": "Theorymon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 528485, "username": "DerpySuX"}]}
-    }
+    },
+    "vgc2023": {"sets": [{"name": "Offensive"}, {"name": "Choice Specs"}]}
   },
   "Hawlucha": {"ou": {"sets": [{"name": "Unburden Sweeper"}]}, "nationaldex": {"sets": [{"name": "Unburden Sweeper"}]}},
   "Sliggoo": {"nfe": {"sets": [{"name": "Curse"}]}},
@@ -380,7 +401,7 @@
   "Sinistea": {"nfe": {"sets": [{"name": "Shell Smash"}]}},
   "Polteageist": {"almostanyability": {"sets": [{"name": "Shell Smash"}]}},
   "Hattrem": {"nfe": {"sets": [{"name": "RestTalk"}, {"name": "Healing Wish"}]}},
-  "Hatterene": {"ou": {"sets": [{"name": "Calm Mind"}, {"name": "Healing Wish"}]}},
+  "Hatterene": {"ou": {"sets": [{"name": "Calm Mind"}, {"name": "Healing Wish"}]}, "vgc2023": {"sets": [{"name": "Trick Room Sweeper"}]}},
   "Impidimp": {"lc": {"sets": [{"name": "Dual Screens"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 557942, "username": "Sanjay das"}]}], "writtenBy": []}}},
   "Morgrem": {"nfe": {"sets": [{"name": "Choice Specs"}, {"name": "Nasty Plot"}, {"name": "Dual Screens"}]}},
   "Grimmsnarl": {
@@ -447,7 +468,8 @@
         {"name": "Focus Sash", "description": "<p><a href=\"https://www.smogon.com/forums/threads/meowscarada-focus-sash.3713165/\">This set is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here</a></p> "}
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 29010, "username": "Theorymon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 528485, "username": "DerpySuX"}]}
-    }
+    },
+    "nationaldex": {"sets": [{"name": "Offensive Pivot"}]}
   },
   "Fuecoco": {"lc": {"sets": [{"name": "Defensive"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 607664, "username": "Joeshh"}]}], "writtenBy": []}}},
   "Crocalor": {"nfe": {"sets": [{"name": "Defensive"}]}},
@@ -530,8 +552,8 @@
     "stabmons": {"sets": [{"name": "Specially Defensive Wall"}]},
     "nationaldex": {"sets": [{"name": "IronPress"}]}
   },
-  "Armarouge": {"almostanyability": {"sets": [{"name": "Choice Scarf"}]}},
-  "Ceruledge": {"ou": {"sets": [{"name": "Swords Dance"}]}, "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/ceruledge-gp-0-1.3713072/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Sash Attacker"}, {"name": "Bulk Up Sweeper"}]}, "almostanyability": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Item"}]}},
+  "Armarouge": {"vgc2023": {"sets": [{"name": "Trick Room"}]}, "almostanyability": {"sets": [{"name": "Choice Scarf"}]}},
+  "Ceruledge": {"ou": {"sets": [{"name": "Swords Dance"}]}, "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/ceruledge-gp-0-1.3713072/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Sash Attacker"}, {"name": "Bulk Up Sweeper"}]}, "vgc2023": {"sets": [{"name": "Bulk Up"}]}, "almostanyability": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Item"}]}},
   "Kilowattrel": {
     "ou": {"sets": [{"name": "Rain Sweeper"}]},
     "vgc2023": {
@@ -568,7 +590,7 @@
   },
   "Tinkatink": {"lc": {"sets": [{"name": "Utility"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 585065, "username": "TheShoddyStrawman"}]}], "writtenBy": []}}},
   "Tinkatuff": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}},
-  "Tinkaton": {"almostanyability": {"sets": [{"name": "RegenVest"}, {"name": "Stealth Rock"}]}},
+  "Tinkaton": {"vgc2023": {"sets": [{"name": "Bulky Attacker"}]}, "almostanyability": {"sets": [{"name": "RegenVest"}, {"name": "Stealth Rock"}]}},
   "Palafin": {"ubers": {"sets": [{"name": "Choice Band", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}, "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/palafin-gp-0-1.3712813/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "This looks like a job for Palafin"}]}, "stabmons": {"sets": [{"name": "Taunt + Bulk Up"}]}},
   "Cyclizar": {
     "ou": {"sets": [{"name": "Shed Tail"}, {"name": "Choice Scarf"}]},
@@ -678,6 +700,7 @@
     },
     "nationaldex": {"sets": [{"name": "Defensive Entry Hazard Setter"}]}
   },
+  "Farigiraf": {"vgc2023": {"sets": [{"name": "Bulky Trick Room"}]}},
   "Kingambit": {
     "ou": {"sets": [{"name": "Offensive"}]},
     "battlestadiumsingles": {
@@ -720,7 +743,16 @@
   "Brute Bonnet": {"ou": {"sets": [{"name": "Offensive"}]}},
   "Flutter Mane": {
     "ubers": {"sets": [{"name": "Choice Specs"}, {"name": "Taunt"}, {"name": "Calm Mind", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]},
-    "balancedhackmons": {"sets": [{"name": "Pixilate"}, {"name": "Normalize"}]},
+    "balancedhackmons": {
+      "sets": [
+        {
+          "name": "Normalize",
+          "description": "<p>Normalize Flutter-Mane is a dangerous setup sweeper that requires specific counterplay to deal with. Entrainment + Normalize prevents foes from damaging Flutter Mane, with its Fairy typing giving it an immunity to the common Draco Plate Judgment. Quiver Dance increases damage output and allows Flutter Mane to outspeed and nullify would-be faster threats like Zacian-C. Taunt prevents defensive checks from PP stalling Flutter Mane and denies Glare; alternatively, Strength Sap provides Flutter Mane with longevity, allowing it to repeatedly switch into passive Pokemon. Pixie Plate lets Flutter Mane hit Dark-types like Ting-Lu and Arceus-Dark super effectively, whereas Spooky Plate lets it hit Imposter users and opposing Ghost-types harder. A Modest nature provides a power boost, while Timid can be used to outspeed positive natured Arceus formes to use Entrainment first. Flutter Mane struggles against bulky Magic Bounce and Good as Gold users, so strong wallbreakers such as Choice Band Zacian-C and Choice Specs Miraidon are good partners. Even with Normalize, Flutter Mane can still be statused by moves like Glare and Will-O-Wisp, so a Heal Bell user can be helpful. Flutter Mane also has poor physical bulk, so slow defensive pivots like Ting-Lu and RegenVest Hisuian Goodra are appreciated to bring Flutter Mane in safely while also providing Knock Off support to remove Ability Shield.</p> "
+        },
+        {"name": "Pixilate"}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 577920, "username": "Tea Guzzler"}, {"user_id": 338877, "username": "TTTech"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 355040, "username": "Chessking345"}]}
+    },
     "almostanyability": {
       "sets": [
         {"name": "Sheer Force Life Orb"},
@@ -817,6 +849,7 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}, {"user_id": 534158, "username": "Kiby"}, {"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     },
+    "vgc2023": {"sets": [{"name": "Dragon Dance"}, {"name": "Assault Vest"}]},
     "almostanyability": {"sets": [{"name": "Setup Sweeper"}, {"name": "Wallbreaker"}]},
     "nationaldex": {"sets": [{"name": "Dragon Dance"}]}
   },
@@ -841,6 +874,7 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 265677, "username": "Butch Hardnight"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     },
+    "vgc2023": {"sets": [{"name": "Choiced Attacker"}, {"name": "Nasty Plot"}]},
     "almostanyability": {
       "sets": [
         {
