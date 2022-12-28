@@ -578,7 +578,16 @@
       "sets": [{"name": "Bulk Up", "description": "<ul> <li> <p>Shadow Sneak finishes off weakened Pokemon, Focus Sash users like Kilowattral, hits opposing Ceruledge, and lets Ceruledge revenge kill Ghost-weak Pokemon like Gholdengo. Tera Blast + Tera Grass lets Ceruledge hit Fire-resistant Pokemon like Tyranitar, Rotom-W, and Garchomp.</p> </li> <li> <p>Clear Amulet prevents Ceruledge from being weakened by Intimidate users like Paldean Tauros-A, Arcanine, and Gyarados, as well as Parting Shot Grimmsnarl.</p> </li> <li> <p>Grass is easily Ceruledge's best Tera type, giving it a Water and Ground resistance for the likes of Garchomp and Rotom-W and making it immune to Amoonguss's powder moves. Flash Fire lets Ceruledge do extremely well against opposing Fire-types, especially when Terastallized, as it will shed its weakness to super effective coverage moves like Torkoal's Earth Power and opposing Ceruledge's Shadow Sneak.</p> </li> </ul> "}],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 294287, "username": "yuki"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 541847, "username": "yourwelcomethanku"}]}
     },
-    "almostanyability": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Item"}]}
+    "almostanyability": {
+      "sets": [
+        {
+          "name": "Swords Dance",
+          "description": "<p>Ceruledge is an incredibly powerful wallbreaker due to its potent offensive typing, boosted Fire-type attacks, and stellar coverage. Shadow Sneak is makes up for Ceruledge's lackluster Speed and can finish off faster Pokemon. Solar Blade and Close Combat provide coverage against foes that tank Ceruledge's STAB moves, such as Garganacl, Great Tusk, Chi-Yu, and Roaring Moon. Alternatively, Will-O-Wisp gives up coverage for the ability to cripple switch-ins like Fur Coat Garchomp and Hippowdon. Orichalcum Pulse is the preferred ability due to the Attack bonus, but Desolate Land provides it with some defensive utility by checking opposing Primordial Sea users. Due to Ceruledge frailty, it appreciates pivoting and entry hazard removal from teammates like Corviknight, Great Tusk, and Iron Treads. Strong special attackers such as Iron Bundle can pair with Ceruledge to break down each other's checks, such as Fur Coat Garganacl and Garchomp and Blissey and Ice Scales Corviknight, respectively.</p> "
+        },
+        {"name": "Choice Item"}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 580548, "username": "Shandeur"}]}
+    }
   },
   "Kilowattrel": {
     "ou": {"sets": [{"name": "Rain Sweeper"}]},
@@ -986,7 +995,14 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 577920, "username": "Tea Guzzler"}]}
     }
   },
-  "Roaring Moon": {"ou": {"sets": [{"name": "Booster Energy"}, {"name": "Bulky Pivot"}, {"name": "Choice Band"}]}, "almostanyability": {"sets": [{"name": "Regenerator"}]}, "stabmons": {"sets": [{"name": "Choice Band"}, {"name": "Itemless Acrobatics"}, {"name": "Choice Scarf"}]}},
+  "Roaring Moon": {
+    "ou": {"sets": [{"name": "Booster Energy"}, {"name": "Bulky Pivot"}, {"name": "Choice Band"}]},
+    "almostanyability": {
+      "sets": [{"name": "Choice Scarf", "description": "<p>Roaring Moon's Dragon / Dark typing and high special bulk enable it to switch into Gholdengo, Chi-Yu, Iron Moth, and other special attackers, setting it apart from other offensive pivots like Iron Bundle and Iron Moth. Earthquake forces out Ground-weak Pokemon like Iron Moth and Kingambit. Iron Head and Stone Edge target Flutter Mane and Iron Bundle, respectively. 112 EVs in Attack let Roaring Moon always OHKO Dragapult with Throat Chop. Roaring Moon fits best on teams in need of a pivot with both longevity and a Speed tier that exceeds the likes of Flutter Mane, Iron Bundle, and Dragapult. Roaring Moon struggles to break past physically defensive foes like Great Tusk and Iron Hands, so it appreciates having strong special attackers such as Flutter Mane and Iron Valiant as teammates. Steel-types like Corviknight and physical walls like Iron Hands are great for patching up Roaring Moon's defensive blind spots.</p> "}],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 546606, "username": "Tanny89k"}]}
+    },
+    "stabmons": {"sets": [{"name": "Choice Band"}, {"name": "Itemless Acrobatics"}, {"name": "Choice Scarf"}]}
+  },
   "Iron Valiant": {
     "ou": {"sets": [{"name": "Calm Mind"}, {"name": "Choice Specs"}, {"name": "Mixed"}, {"name": "Swords Dance"}]},
     "balancedhackmons": {"sets": [{"name": "Mixed Attacker"}]},
