@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.smogon.com/">
-    <img alt="Smogon" height="300" src="https://www.smogon.com/media/zracknel-beta.svg.m.1" />
+    <img alt="Smogon" height="300" src="https://pkmn.cc/smogon.svg />
   </a>
 </p>
 
