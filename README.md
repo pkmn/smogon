@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.smogon.com/">
-    <img alt="Smogon" height="300" src="https://pkmn.cc/smogon.svg />
+    <img alt="Smogon" height="300" src="https://pkmn.cc/smogon.svg" />
   </a>
 </p>
 
