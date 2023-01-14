@@ -43,7 +43,7 @@
   "Great Tusk": {
     "Choice Item": {"moves": ["Headlong Rush", "Close Combat", ["Earthquake", "Knock Off", "Play Rough"], ["Rapid Spin", "Knock Off", "Play Rough"]], "item": ["Choice Scarf", "Choice Band"], "nature": "Adamant", "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": ["Ground", "Fighting"]},
     "Offensive Utility": {"moves": [["Stealth Rock", "Rapid Spin"], "Headlong Rush", "Close Combat", ["Rapid Spin", "Knock Off"]], "item": "Leftovers", "nature": ["Jolly", "Adamant"], "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": ["Ground", "Steel"]},
-    "Bulk Up": {"moves": ["Headlong Rush", "Close Combat", "Bulk Up", "Rapid Spin"], "item": "Leftovers", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": ["Ground", "Steel"]},
+    "Setup Sweeper": {"moves": ["Bulk Up", "Close Combat", ["Headlong Rush", "Earthquake"], "Rapid Spin"], "item": "Leftovers", "nature": ["Jolly", "Adamant"], "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": ["Ground", "Steel"]},
     "Defensive": {"moves": [["Stealth Rock", "Rapid Spin"], ["Rapid Spin", "Body Press"], "Earthquake", ["Play Rough", "Body Press"]], "item": "Leftovers", "nature": "Impish", "evs": {"hp": 252, "atk": 4, "def": 252}, "teratypes": ["Ground", "Fairy"]}
   },
   "Scream Tail": {"Defensive": {"moves": ["Wish", "Protect", "Dazzling Gleam", ["Stealth Rock", "Encore", "Thunder Wave"]], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "def": 192, "spe": 64}, "teratypes": ["Steel", "Water"]}},
