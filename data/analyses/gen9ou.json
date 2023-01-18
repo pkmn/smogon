@@ -106,8 +106,27 @@
   "Iron Moth": {"sets": [{"name": "Offensive"}, {"name": "Agility"}]},
   "Iron Thorns": {"sets": [{"name": "Offensive"}]},
   "Baxcalibur": {"sets": [{"name": "Offensive"}]},
-  "Gholdengo": {"sets": [{"name": "Defensive"}, {"name": "Nasty Plot"}, {"name": "Choice Scarf"}, {"name": "Choice Specs"}]},
-  "Chien-Pao": {"sets": [{"name": "All-out Attacker"}, {"name": "Choice Band"}]},
+  "Gholdengo": {
+    "sets": [
+      {"name": "Defensive"},
+      {
+        "name": "Air Balloon",
+        "description": "<p>Thanks to its great typing and Good as Gold, Gholdengo is a setup sweeper that's notably difficult to deal with. Having an additional Ground immunity with Air Balloon further improves Gholdengo's already great typing, letting it switch in on Pokemon that otherwise threaten it, such as Garchomp and Iron Treads. This is especially useful against the latter, as Air Balloon strengthens Gholdengo's ability to block entry hazard removal. Maximum Speed investment is for outspeeding Dragonite and uninvested Great Tusk. 252 Special Attack EVs and Nasty Plot makes Gholdengo's STAB moves very threatening against neutral foes. Fighting and Dark Tera types give Gholdengo the option to Terastallize defensively; notably, Tera Fighting lessens the impact of moves like Crunch from Chien-Pao and Roaring Moon. Tera Dark is useful in a pinch to resist attacks such as Shadow Ball from Dragapult and opposing Gholdengo.</p> <p>Entry hazard setters like Great Tusk and Glimmora are the most profitable teammates for Gholdengo, as its ability and typing ensure that their entry hazards stay around as long as Gholdengo does. Hyper offense staples such as Chien-Pao and Iron Valiant benefit greatly from the constant presence of entry hazards to break down bulkier cores; in return, Gholdengo gets teammates that synergize with its role as a wallbreaker, applying heavy pressure throughout a game to Pokemon like Ting-Lu and Rotom-W. Offensive Pokemon that outspeed and OHKO Gholdengo, such as Cinderace, Chien-Pao, Roaring Moon, and Knock Off variants of Great Tusk, threaten to completely shut down Gholdengo; defensive teammates like Garganacl, Dondozo and Skeledirge can help mitigate some of these weaknesses.</p> "
+      },
+      {"name": "Choice Scarf"},
+      {"name": "Choice Specs"}
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 197439, "username": "chimp"}, {"user_id": 487308, "username": "BT89"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 359575, "username": "Nichalho"}]}
+  },
+  "Chien-Pao": {
+    "sets": [
+      {
+        "name": "All-out Attacker",
+        "description": "<p>By virtue of its high Speed and Attack, excellent offensive STAB combination, and unique ability Sword of Ruin, Chien-Pao is one of the tier's defining wallbreakers and late-game cleaners. Icicle Crash is preferred over Ice Spinner as it avoids Rocky Helmet and Rough Skin chip and boasts higher power and a chance to flinch. However, Ice Spinner can also be used as a guaranteed safe option if your team cannot afford missing. Sacred Sword offers good coverage that hits important metagame threats that resist Chien-Pao's STAB combination, such as Kingambit. Tera Dark is the preferred option to eliminate Chien-Pao's Stealth Rock weakness and power up Crunch and Sucker Punch to monstrous levels, enabling Life Orb Chien-Pao to cleanly 2HKO Toxapex. Tera Ice is an alternative that boosts Ice Shard enough to always OHKO Dragapult after Stealth Rock damage.</p> <p>All-out attacking Chien-Pao is best used as a midgame wallbreaker on offensive teams that can take advantage of its high damage output and wide coverage to punch holes in the opposing defensive core. Late-game cleaners that can take advantage of Chien-Pao's wallbreaking capabilities include Iron Valiant and Dragon Dance Dragonite. Chien-Pao can struggle with bulky Water-types such as Dondozo, Azumarill, and physically defensive Quaquaval. Rotom-Wash is a good partner that can switch into these Water-types and either gain momentum with Volt Switch or cripple them with Will-O-Wisp. If running Life Orb over Heavy-Duty Boots, entry hazard control from Great Tusk or Hatterene is greatly appreciated. Great Tusk and Hatterene can also use their great physical bulk and quadruple resistance, respectively, to switch into Fighting-type attacks aimed at Chien-Pao.</p> "
+      },
+      {"name": "Choice Band"}
+    ]
+  },
   "Ting-Lu": {"sets": [{"name": "Defensive"}]},
   "Roaring Moon": {"sets": [{"name": "Booster Energy"}, {"name": "Bulky Pivot"}, {"name": "Choice Band"}]},
   "Iron Valiant": {"sets": [{"name": "Calm Mind"}, {"name": "Choice Specs"}, {"name": "Mixed"}]}
