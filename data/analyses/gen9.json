@@ -149,7 +149,15 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 330577, "username": "Thick Fat Azumarill"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
     },
-    "stabmons": {"sets": [{"name": "Drummer Boy"}]},
+    "stabmons": {
+      "sets": [
+        {
+          "name": "Belly Drum",
+          "description": "<p>Azumarill is a premier Belly Drum sweeper armed with Huge Power, a strong priority move in Jet Punch, which can be pushed to its maximum power with Tera, and wall breaking capabilities with Surging Strikes. Azumarill's Water / Fairy typing frequently gives it safe opportunities to setup Belly Drum against Dragon- and Dark-types such as Roaring Moon and Weavile. Hyper Drill is a neutral coverage move that can hit Toxapex for massive damage and doesn't trigger Baneful Bunker. Other physical attackers like Kingambit and Roaring Moon appreciate Azumarill's ability to break through physically defensive walls such as Ting-Lu and Great Tusk. Azumarill is prone to chip damage from Garchomp or Rocky Helmet Toxapex, so having an attacker that can deal with both like Iron-Valiant is advised. Azumarill also can have a tough time getting in and setting up a Belly Drum, so pairing it with screens support via Grimmsnarl, Shed Tail from Cyclizar, or pivots such as Corviknight is recommended.</p> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 220859, "username": "Giagantic"}, {"user_id": 464398, "username": "LBDC"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 475288, "username": "Tranquility"}]}
+    },
     "1v1": {"sets": [{"name": "Assault Vest"}, {"name": "Choice Band"}, {"name": "Stall"}], "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 536219, "username": "fruan"}]}], "writtenBy": []}}
   },
   "Quagsire": {"uu": {"sets": [{"name": "Unaware Wall", "description": "<p>Tera Poison prevents Quagsire from being poisoned by Grafaiai while improving its matchup versus Slither Wing and Lucario. Water Absorb sets also benefit from it improving its matchup versus Tera Grass Barraskewda and Floatzel.</p> <p>Tera Steel also prevents poison, gives Quagsire the opportunity to surprise Toxtricity and Staraptor, and lets it beat Maushold. Water Absorb sets should avoid using this Tera type due to Close Combat Barraskewda beating it.</p> <p>Tera Ghost lets Quagsire spinblock, keeping its entry hazards up while helping versus Lucario regardless of Quagsire's ability, all while providing an immunity to Boomburst from Toxtricity and Noivern.</p> "}]}, "nationaldexuu": {"sets": [{"name": "Unaware Wall"}]}},
@@ -206,7 +214,19 @@
     "stabmons": {"sets": [{"name": "Swords Dance"}]}
   },
   "Sneasel": {"nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}},
-  "Donphan": {"1v1": {"sets": [{"name": "Choice Band"}, {"name": "Lum Berry"}, {"name": "Endeavor"}]}},
+  "Donphan": {
+    "1v1": {
+      "sets": [
+        {"name": "Choice Band"},
+        {
+          "name": "Lum Berry",
+          "description": "<ul> <li>Sturdy is a valuable ability in the 1v1 metagame, giving Donphan a free turn to deal damage with its good offensive stats.</li> <li>Lum Berry allows Donphan to beat Will-O-Wisp users such as stall Arcanine and Skeledirge, preventing burns and Donphan's Sturdy from breaking.</li> <li>Counter makes use of Sturdy, retaliating against most physical attackers that Donphan cannot KO easily, such as Chien-Pao.</li> <li>Encore traps opposing Pokemon such as Espathra and Swords Dance Iron Hands into setup moves and locks foes such as Ting-Lu into weaker moves.</li> <li>Donphan can beat many physical attackers with Counter, although some prediction may be required versus Pokemon that have the option of using an attacking move, such as Swords Dance Haxorus and non-Choice item Meowscarada.</li> <li>Gunk Shot can be used to deal with Fairy-types such as Sylveon and Azumarill. However, Azumarill with Defense investment can tank a Gunk Shot, so it's not always reliable.</li> <li>Ice Shard gives Donphan priority and finishes off foes that are at low HP. It also gives Donphan a way to deal with Dragon- and Flying-types such as Salamence, Garchomp, and Dragapult.</li> <li>Rock Tomb lowers the opposing Pokemon's speed, Speed, letting Donphan go first and pull off a potential Encore on foes such as Attack-boosted Great Tusk.</li> <li>The HP and Defense EVs allow Donphan to tank an Outrage from Adamant Choice Band Haxorus, and maximum Attack ensures that Donphan can hit as hard as possible. The remaining EVs are put into Speed.</li> <li>An alternative EV spread of 8 HP / 240 Atk / 8 Def / 252 Spe with a Jolly nature only allows Donphan to tank Jolly Choice Band Haxorus, but comes with a faster Encore and Earthquake. The spread gives Donphan the capability to naturally outspeed Pokemon such as Sylveon and Azumarill.</li> </ul> "
+        },
+        {"name": "Endeavor"}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 579035, "username": "bored_glitch"}, {"user_id": 518399, "username": "Itchy"}]}, {"name": "Grammar checked by", "members": [{"user_id": 430518, "username": "Lunaflare"}, {"user_id": 384270, "username": "autumn"}]}], "writtenBy": [{"user_id": 566051, "username": "lavarina"}]}
+    }
+  },
   "Blissey": {
     "ubers": {"sets": [{"name": "Pink Blob", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]},
     "ou": {"sets": [{"name": "Defensive"}]},
@@ -943,7 +963,19 @@
     }
   },
   "Nymble": {"lc": {"sets": [{"name": "Revenge Killer"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 567483, "username": "uhBella"}]}], "writtenBy": []}}},
-  "Lokix": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}, "battlestadiumsingles": {"overview": "<p><a href=\"https://www.smogon.com/forums/threads/lokix-gp-0-1.3713436/\">This analysis is currently undergoing copyediting. If you would like to see the analysis in its current state, check it out here.</a></p> ", "sets": [{"name": "Tinted Offense"}]}},
+  "Lokix": {
+    "ou": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]},
+    "battlestadiumsingles": {
+      "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/lokix.3713436/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
+      "sets": [
+        {
+          "name": "Tinted Offense",
+          "description": "<ul> <li> <p>The combination of First Impression and Tinted Lens make Lokix one of the most threatening revenge killers in the format, able to outprioritize and KO foes regardless of resistance.</p> </li> <li> <p>First Impression is Lokix's most important attack, but it can only be used as the first attack after it switches in.</p> </li> <li> <p>U-turn can be punishing against offensive and slow teams as the lack of resists means Lokix can keep switching in and dealing big damage with First Impression, at the cost of making it vulnerable to hazards.</p> </li> <li> <p>Leech Life is the strongest Bug-type move Lokix learns outside of First Impression, with the added benefit of healing recoil damage.</p> </li> <li> <p>Sucker Punch is a powerful STAB priority move, enabling Lokix to outprioritize foes even after it has used First Impression.</p> </li> <li> <p>Axe Kick is the only coverage move of note in Lokix's moveset due to its high Base Power. Be wary of the low accuracy and recoil that occurs should it miss.</p> </li> <li> <p>Throat Chop is the most powerful Dark-type move Lokix learns. It also has the side benefit of disabling Roar from Hippowdon and Hyper Voice from Sylveon.</p> </li> <li> <p>Swords Dance is an option to make Lokix a sweeper instead of a revenge killer.</p> </li> </ul> <h1>Items</h1> <p><strong>Life Orb</strong>: Life Orb enables easier revenge kills at the cost of recoil.</p> <p><strong>Silver Powder</strong>: Silver Powder raises the power of First Impression without the recoil from Life Orb, and it also frees up Life Orb for a teammate to use instead.</p> <h1>Tera Types</h1> <p><strong>Bug</strong>: A Bug Tera Type increases the damage of First Impression, allowing Lokix to OHKO foes it could not otherwise, such as Dragapult.</p> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality Checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 430518, "username": "Lunaflare"}, {"user_id": 384270, "username": "autumn"}]}], "writtenBy": [{"user_id": 11020, "username": "Blackbeltsam"}]}
+    }
+  },
   "Pawmo": {"nfe": {"sets": [{"name": "Wishpasser"}]}},
   "Pawmot": {
     "ou": {"sets": [{"name": "Utility"}, {"name": "Offensive"}]},
@@ -960,7 +992,16 @@
       ],
       "credits": {"teams": [{"name": "Quality Checked by", "members": [{"user_id": 29010, "username": "Theorymon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 11020, "username": "Blackbeltsam"}]}
     },
-    "vgc2023": {"sets": [{"name": "Revival Blessing Support"}]}
+    "vgc2023": {
+      "overview": "<ul> <li> <p>Pawmot has a strong niche in being one of only two Pokemon with a potentially game-winning tool in Revival Blessing. It is preferred over Rabsca thanks to its high Speed and better offensive typing, hitting Pokemon such as Murkrow, Meowscarada, and Hydreigon for OHKOs or near OHKOs. This, combined with its access to Fake Out, makes Pawmot useful offensively in addition to bringing Revival Blessing.</p> </li> <li> <p>Powerful teammates such as Dondozo, when paired with Tatsugiri's Commander, and Meowscarada particularly appreciate Pawmot's Revival Blessing, as it gives them another opportunity at denting opposing teams. Choice Band Meowscarada pairs particularly well with Pawmot, as it can hit the only relevant Ground-type in Garchomp with both Flower Trick and Play Rough. Pawmot, in return, covers the few Pokemon that can handle Meowscarada's STAB moves, such as Hydreigon—even when it Terastallizes into a typing such as Steel.</p> </li> <li> <p>Such Pawmot teams can, however, be vulnerable to well-played dual screens teams, which nullify most of the offensive presence from Pawmot's allies, even after it revives one of them. In particular, Pawmot teams must bring Pokemon and moves that can beat Amoonguss, which can be used on these teams.</p> </li> </ul> ",
+      "sets": [
+        {
+          "name": "Revival Blessing Support",
+          "description": "<ul> <li> <p>Revival Blessing is an extremely invaluable tool that lets Pawmot revive crucial teammates such as Dondozo and Meowscarada, very likely turning the battle in the user's favor. It is Pawmot's most important move, but an attack is slotted first in case the timer forces Pawmot to use its first move. Double Shock is better here if Pawmot Terastallizes into the Electric typing, which lets it repeatedly use the move without drawback or failure. If running the Fighting Tera type or not Terastallized, Close Combat is better in this moveslot.</p> </li> <li> <p>Focus Sash, in tandem with Pawmot's high Speed, ensures it gets at least two moves off if it is not double targeted.</p> </li> <li> <p>Volt Absorb synergizes with Electric-weak teammates such as Dondozo, while Natural Cure allows Pawmot to brush off status moves such as Amoonguss's Spore.</p> </li> <li> <p>Both the Electric and Fighting Tera types provide offensive benefits to Pawmot, turning an attack into a reliable source of damage against a plethora of common Pokemon such as Murkrow, Dondozo, and/or Hydreigon. The Electric Tera type lets it use Double Shock repeatedly, which avoids the drawback of Close Combat lowering its defenses, turning it into a potent cleaner.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 294287, "username": "yuki"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 518634, "username": "Sole Survivor"}]}
+    }
   },
   "Maushold": {"ubers": {"sets": [{"name": "Tidy Up", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]}, "ou": {"sets": [{"name": "Skill"}]}, "monotype": {"sets": [{"name": "Tidy Up", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "doublesou": {"sets": [{"name": "Offensive Supporter"}, {"name": "Utility Supporter"}]}, "vgc2023": {"sets": [{"name": "Wide Lens"}, {"name": "Support"}]}},
   "Maushold-Four": {"doublesou": {"sets": [{"name": "Offensive Supporter"}, {"name": "Utility Supporter"}]}, "vgc2023": {"sets": [{"name": "Wide Lens"}, {"name": "Support"}]}},
@@ -1402,9 +1443,12 @@
         },
         {"name": "Offensive"},
         {"name": "Choice Band"},
-        {"name": "Bulk Up"}
+        {
+          "name": "Bulk Up",
+          "description": "<p>Bulk Up Great Tusk can act as both a defensive backbone and a potential late game sweeper, able to set up in front of Pokemon such as Dragonite, Iron Treads, Cinderace, Dragon Dance Dragapult, and opposing Great Tusk. Knock Off provides item removal against defensive walls like Dondozo and Corviknight, as well as coverage against Air Balloon Gholdengo that would otherwise wall Great Tusk. Rapid Spin lets Great Tusk provide entry hazard removal for the team in games where it would not be able to win with Bulk Up, while allowing it to boost its Speed in games where it can sweep with Bulk Up. Body Press is another option that gives Great Tusk a way to more immediately hit Dark-types such as Meowscarada, Roaring Moon, and Ting-Lu. Tera Water turns Great Tusk's Water and Ice weaknesses into resistances and thus allowing it to better take hits from Azumarill, Chien-Pao, Quaquaval, and Floatzel. On the other hand, Tera Steel lets Great Tusk take on Grass-type attacks such as Breloom's Bullet Seed and Meowscarada's Flower Trick, Flying-type attacks like Roaring Moon's Acrobatics, and if need be, Fairy-type attacks such as Iron Valiant's Moonblast.</p> <p>Bulk Up Great Tusk appreciates specially defensive teammates like Toxapex and Garganacl that can help play around fast special attackers such as Choice Specs Iron Valiant and Choice Specs Dragapult. In return, Garganacl and Toxapex appreciate the presence of a Terastallized Great Tusk as they can get overwhelmed by Chien-Pao and Belly Drum Azumarill. Teammates such as Gholdengo, Iron Valiant, and Dragapult can help break through physically defensive Pokemon like Rotom-W, Dondozo, and Skeledirge that Bulk Up Great Tusk can struggle against. Gholdengo in particular is a great partner as it can struggle against Cinderace and Dragonite, both of which Great Tusk covers.</p> "
+        }
       ],
-      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 197439, "username": "chimp"}, {"user_id": 349443, "username": "Tysonslayer"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 528036, "username": "Sulo"}]}
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 197439, "username": "chimp"}, {"user_id": 349443, "username": "Tysonslayer"}, {"user_id": 540138, "username": "Milo"}, {"user_id": 277988, "username": "dex"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}, {"user_id": 109385, "username": "Aurora"}, {"user_id": 384270, "username": "autumn"}]}], "writtenBy": [{"user_id": 528036, "username": "Sulo"}, {"user_id": 548068, "username": "SetsuSetsuna"}]}
     },
     "ubers": {
       "sets": [
@@ -1722,7 +1766,8 @@
           "description": "<p>By virtue of its high Speed and Attack, excellent offensive STAB combination, and unique ability Sword of Ruin, Chien-Pao is one of the tier's defining wallbreakers and late-game cleaners. Icicle Crash is preferred over Ice Spinner as it avoids Rocky Helmet and Rough Skin chip and boasts higher power and a chance to flinch. However, Ice Spinner can also be used as a guaranteed safe option if your team cannot afford missing. Sacred Sword offers good coverage that hits important metagame threats that resist Chien-Pao's STAB combination, such as Kingambit. Tera Dark is the preferred option to eliminate Chien-Pao's Stealth Rock weakness and power up Crunch and Sucker Punch to monstrous levels, enabling Life Orb Chien-Pao to cleanly 2HKO Toxapex. Tera Ice is an alternative that boosts Ice Shard enough to always OHKO Dragapult after Stealth Rock damage.</p> <p>All-out attacking Chien-Pao is best used as a midgame wallbreaker on offensive teams that can take advantage of its high damage output and wide coverage to punch holes in the opposing defensive core. Late-game cleaners that can take advantage of Chien-Pao's wallbreaking capabilities include Iron Valiant and Dragon Dance Dragonite. Chien-Pao can struggle with bulky Water-types such as Dondozo, Azumarill, and physically defensive Quaquaval. Rotom-Wash is a good partner that can switch into these Water-types and either gain momentum with Volt Switch or cripple them with Will-O-Wisp. If running Life Orb over Heavy-Duty Boots, entry hazard control from Great Tusk or Hatterene is greatly appreciated. Great Tusk and Hatterene can also use their great physical bulk and quadruple resistance, respectively, to switch into Fighting-type attacks aimed at Chien-Pao.</p> "
         },
         {"name": "Choice Band"}
-      ]
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 197439, "username": "chimp"}, {"user_id": 360720, "username": "ausma"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 272785, "username": "nimzowitsch"}]}
     },
     "ubers": {
       "sets": [
@@ -1749,7 +1794,15 @@
     "nationaldex": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}
   },
   "Ting-Lu": {
-    "ou": {"sets": [{"name": "Defensive"}]},
+    "ou": {
+      "sets": [
+        {
+          "name": "Defensive Hazards",
+          "description": "<p>Ting-Lu is an incredible entry hazard setter for bulky offense and balance teams alike thanks to its combination of gargantuan defensive stats, good utility movepool, and an amazing defensive ability in Vessel of Ruin. It also has a great typing that lets it answer threats such as Gholdengo, Choice Specs Dragapult, Iron Moth, and Ceruledge. Whirlwind is incredibly useful for thwarting setup Pokemon like Roaring Moon and Volcarona. Ruination lets Ting-Lu deal consistent damage to bulky Pokemon like Corviknight, Rotom-W, and Hatterene. Tera Poison lets Ting-Lu act as an answer to Iron Valiant while giving it an immunity to poison damage from Clodsire’s Toxic and letting it absorb Toxic Spikes from the likes of Glimmora and Iron Moth. Meanwhile, Tera Fairy is a generally solid defensive typing, letting it more reliably check Pokemon such as Dragapult and Great Tusk. Maximum Special Defense, in tandem with Ting-Lu's ability, makes it a more consistent check to special attackers such as Choice Specs Dragapult and Volcarona.</p> <p>Ting-Lu’s premier defensive profile makes it most proficient on bulky offense and balance teams that can supply enough offensive momentum to make up for Ting-Lu’s relative passivity. Pokemon that can supplement offensive prowess to make up for Ting-Lu's passivity such as Chien-Pao, Iron Valiant, and Kingambit make for excellent partners, as they can assist against threats like opposing Iron Valiant, Dondozo, and Great Tusk. Without Ruination, Ting-Lu is utterly helpless against Corviknight, so Pokemon that can threaten it such as Gholdengo and Cinderace make for excellent partners. Bulky Water-types like Dondozo and Toxapex appreciate Ting-Lu's immunity to Electric while being quite helpful against Pokemon like Chien-Pao, Kingambit, and Quaquaval in return. Other defensive Pokemon like Garganacl and Corviknight also make for excellent partners, being helpful against Pokemon like Chien-Pao and Scizor while appreciating Ting-Lu’s ability to check Gholdengo and Choice Specs Dragapult. Additional entry hazard setters such as Garganacl and Great Tusk allow Ting-Lu to fit Ruination into its moveset more capably, so it is less passive in the face of Ground-immune threats like Corviknight and Air Balloon Gholdengo.</p> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 197439, "username": "chimp"}, {"user_id": 349443, "username": "Tysonslayer"}]}, {"name": "Grammar checked by", "members": [{"user_id": 384270, "username": "autumn"}]}], "writtenBy": [{"user_id": 487306, "username": "BT89"}]}
+    },
     "ubers": {
       "sets": [
         {
