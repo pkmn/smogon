@@ -144,7 +144,7 @@ describe('Smogon', () => {
 
     const strict = new Generations(Dex);
     expect(name(strict.get(9), 'Vivillon-Fancy')).toBe('Vivillon');
-    expect(name(strict.get(9), 'Tauros-Paldea')).toBe('Tauros-Paldea');
+    expect(name(strict.get(9), 'Tauros-Paldea')).toBe('Tauros-Paldea-Combat');
   });
 
   test('toSet', () => {
