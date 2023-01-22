@@ -96,6 +96,7 @@ const FORMATS = {
   pu: 'pu',
   lc: 'lc',
   '1v1': '1v1',
+  '2v2doubles': '2v2doubles',
 };
 
 // Iterating through dex.species.all() returns a bunch of formes that Smogon either doesn't support
