@@ -40,21 +40,20 @@ const request = wrapr.retrying(wrapr.throttling(fetch));
 const N = 1e4;
 
 const UNSUPPORTED = ['1v1', 'challengecup1vs1'];
-const RE = /(.*)\/chaos\/(.*)\.json/;
 const SPECIAL = /(gen[789](?:vgc20(?:19|21|22|23)|battlestadium(?:singles|doubles)))(.*)/;
 
 async function convert(format, date) {
   const leads = !stats.isNonSinglesFormat(format) && !UNSUPPORTED.includes(format);
   const metagame = !UNSUPPORTED.includes(format);
   const gen = gens.get(format.startsWith('gen') ? +format.charAt(3) : 6);
+  const url = report => smogon.Statistics.url(data, format, true, report);
 
-  const m = RE.exec(smogon.Statistics.url(date, format));
   return stats.Display.fromReports(gen,
-    await (await request(`${m[1]}/${m[2]}.txt`)).text(),
-    await (await request(`${m[1]}/moveset/${m[2]}.txt`)).text(),
-    await (await request(`${m[1]}/chaos/${m[2]}.json`)).text(),
-    metagame ? await (await request(`${m[1]}/metagame/${m[2]}.txt`)).text() : undefined,
-    leads ? await (await request(`${m[1]}/leads/${m[2]}.txt`)).text() : undefined);
+    await (await request(url('usage'))).text(),
+    await (await request(url('moveset'))).text(),
+    await (await request(url('chaos'))).text(),
+    metagame ? await (await request(url('metagame'))).text() : undefined,
+    leads ? await (await request(url('leads'))).text() : undefined);
 }
 
 async function serialize(data, file) {
@@ -116,9 +115,7 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
         // The JSON files are quite large and needing to download and parse them to then
         // extract the 'number of battles' field is much slower than instead grabbing the
         // basic stats file and doing the comparatively cheap regex search.
-        const u = smogon.Statistics.url(date, format, 0)
-          .replace('chaos/', '')
-          .replace('.json', '.txt');
+        const u = smogon.Statistics.url(date, format, 0, 'usage');
         const usage = await request(u);
 
         if (usage) {

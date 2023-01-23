@@ -196,6 +196,8 @@ const LEGACY = new Set([
   'almostanyability',
 ]);
 
+export type Report = 'usage' | 'leads' | 'moveset' | 'metagame' | 'chaos';
+
 export const Statistics = new (class {
   readonly URL = 'https://www.smogon.com/stats/';
 
@@ -217,12 +219,12 @@ export const Statistics = new (class {
   }
 
   /**
-   * Returns the URL of the detailed ('chaos') stats for the given date and format, defaulting
-   * to providing the highest weighted stats available for the format in question. Unweighted
-   * stats or stats of a specific weight may also be requested, though may be absent depending
-   * on the date and format.
+   * Returns the URL of the reports for the given date and format, defaulting to providing the
+   * highest detailed ('chaos') weighted stats available for the format in question. Unweighted
+   * stats or stats of a specific weight or alternative reports may also be requested, though may be
+   * absent depending on the date and format.
    */
-  url(date: string, format: string, weighted: number | boolean = true) {
+  url(date: string, format: string, weighted: number | boolean = true, report: Report = 'chaos') {
     let formatid = toID(format);
     // When Gen 7 was released the naming scheme for 'current' formats was changed from
     // 'x' => 'genNx'. formatFor will translate between the two as approriate, but there
@@ -238,7 +240,9 @@ export const Statistics = new (class {
       : weightFor(formatid, date)
       : 0;
 
-    return `${Statistics.URL}${date}/chaos/${formatid}-${rating}.json`;
+    if (report === 'usage') return `${Statistics.URL}${date}/${formatid}-${rating}.txt`;
+    const ext = report === 'chaos' ? 'json' : 'txt';
+    return `${Statistics.URL}${date}/${report}/${formatid}-${rating}.${ext}`;
   }
 
   /**

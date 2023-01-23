@@ -175,6 +175,20 @@ describe('Statistics', () => {
     expect(Statistics.url('2020-02', 'battleofhoeen')).toBe(
       'https://www.smogon.com/stats/2020-02/chaos/gen6battleofhoeen-1630.json'
     );
+
+    // alternative reports
+    expect(Statistics.url('2022-12', 'gen9ou', true, 'usage')).toBe(
+      'https://www.smogon.com/stats/2022-12/gen9ou-1695.txt'
+    );
+    expect(Statistics.url('2022-12', 'gen9ou', 1500, 'leads')).toBe(
+      'https://www.smogon.com/stats/2022-12/leads/gen9ou-1500.txt'
+    );
+    expect(Statistics.url('2022-12', 'gen9ou', true, 'moveset')).toBe(
+      'https://www.smogon.com/stats/2022-12/moveset/gen9ou-1695.txt'
+    );
+    expect(Statistics.url('2022-12', 'gen9ou', 0, 'metagame')).toBe(
+      'https://www.smogon.com/stats/2022-12/metagame/gen9ou-0.txt'
+    );
   });
 
   test('latestDate', async () => {
