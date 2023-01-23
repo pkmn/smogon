@@ -10,6 +10,7 @@ const FIXTURES = {
   snorlax: fixture('snorlax.gs.html'),
   landorus: fixture('landorus.sm.html'),
   index: fixture('stats.index.html'),
+  formats: fixture('stats.formats.html'),
   gen6nu: fixture('gen6nu.json'),
   gen21v1: fixture('gen21v1.json'),
 };
@@ -77,6 +78,26 @@ describe('Statistics', () => {
   test('latest', async () => {
     expect(() => Statistics.latest('foo')).toThrow('Unexpected format for index');
     expect(Statistics.latest(await FIXTURES.index)).toBe('2022-11');
+  });
+
+  test('formats', async () => {
+    expect(Statistics.formats('foo')).toEqual([]);
+    expect(Statistics.formats(await FIXTURES.formats)).toEqual([
+      'gen1ou', 'gen1uu', 'gen2ou', 'gen3doublesou', 'gen3ou', 'gen4ou', 'gen5ou', 'gen6doublesou',
+      'gen6ou', 'gen6purehackmons', 'gen6ubers', 'gen7balancedhackmons', 'gen7doublesou',
+      'gen7mixandmega', 'gen7ou', 'gen7ubers', 'gen8anythinggoes', 'gen8battlestadiumsingles',
+      'gen8bdspdoublesou', 'gen8bdspou', 'gen8cap', 'gen8doublesou', 'gen8doublesubers',
+      'gen8doublesuu', 'gen8lc', 'gen8monotype', 'gen8nationaldex', 'gen8nationaldexbh',
+      'gen8nationaldexuu', 'gen8nu', 'gen8ou', 'gen8pu', 'gen8purehackmons', 'gen8ru',
+      'gen8spikemuthcup', 'gen8ubers', 'gen8uu', 'gen8vgc2022', 'gen8zu', 'gen91v1',
+      'gen92v2doubles', 'gen9almostanyability', 'gen9anythinggoes', 'gen9balancedhackmons',
+      'gen9battlestadiumdoubles', 'gen9battlestadiumsingles', 'gen9battlestadiumsinglesseries1',
+      'gen9cap', 'gen9doublesou', 'gen9doublesubers', 'gen9doublesuu', 'gen9fullpotential',
+      'gen9godlygift', 'gen9lc', 'gen9metronomebattle', 'gen9mixandmega', 'gen9monotype',
+      'gen9nationaldex', 'gen9nationaldexag', 'gen9nationaldexbh', 'gen9nationaldexmonotype',
+      'gen9nationaldexuu', 'gen9nfe', 'gen9ou', 'gen9sharedpower', 'gen9stabmons', 'gen9ubers',
+      'gen9uu', 'gen9vgc2023series1',
+    ]);
   });
 
   test('url', () => {

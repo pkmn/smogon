@@ -219,6 +219,24 @@ export const Statistics = new (class {
   }
 
   /**
+   * Given the HTML page returned from querying a URL listing available reports, returns the list of
+   * available formats.
+   */
+  formats(page: string): string[] {
+    const lines = page.split('\n');
+    const formats: string[] = [];
+    for (const line of lines) {
+      if (line.startsWith('<a href=')) {
+        const quote = line.indexOf('"', 9);
+        const split = line.slice(9, quote).split('-');
+        if (split.length !== 2) continue;
+        if (!formats.length || formats[formats.length - 1] !== split[0]) formats.push(split[0]);
+      }
+    }
+    return formats;
+  }
+
+  /**
    * Returns the URL of the reports for the given date and format, defaulting to providing the
    * highest detailed ('chaos') weighted stats available for the format in question. Unweighted
    * stats or stats of a specific weight or alternative reports may also be requested, though may be
