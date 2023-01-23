@@ -49,6 +49,6 @@
   "Flareon": {"Mixed Fire Spin": {"moves": ["Fire Spin", "Fire Blast", "Body Slam", "Hyper Beam"]}},
   "Porygon": {"Standard": {"moves": ["Thunderbolt", ["Psychic", "Blizzard"], "Thunder Wave", "Recover"]}, "Conversion": {"moves": ["Conversion", ["Ice Beam", "Psychic", "Thunderbolt"], "Thunder Wave", "Recover"]}},
   "Kabutops": {"Swords Dance": {"moves": ["Swords Dance", "Hyper Beam", ["Body Slam", "Slash"], "Surf"]}, "Rest": {"moves": ["Rest", ["Slash", "Body Slam"], ["Body Slam", "Submission"], "Surf"]}},
-  "Moltres": {"Rest": {"moves": ["Fire Spin", "Fire Blast", "Toxic", "Rest"]}, "Agility": {"moves": ["Fire Spin", "Fire Blast", ["Hyper Beam", "Toxic"], "Agility"]}},
+  "Moltres": {"Offensive": {"moves": ["Fire Blast", "Hyper Beam", "Fire Spin", ["Agility", "Toxic"]]}, "Defensive": {"moves": ["Fire Blast", ["Fire Spin", "Reflect"], ["Toxic", "Fire Spin"], "Rest"]}},
   "Dragonair": {"Agility + Wrap": {"moves": ["Wrap", "Thunder Wave", "Hyper Beam", ["Agility", "Thunderbolt"]]}}
 }
