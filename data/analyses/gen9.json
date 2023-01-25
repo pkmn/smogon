@@ -698,7 +698,7 @@
     "stabmons": {"sets": [{"name": "Physically Defensive Pivot"}, {"name": "RegenVest Pivot"}]},
     "nationaldex": {"sets": [{"name": "The Pex"}]}
   },
-  "Mudbray": {"lc": {"sets": [{"name": "RestTalk"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 593128, "username": "ashelyDeluxe"}]}], "writtenBy": []}}, "nfe": {"sets": [{"name": "Stealth Rock"}]}},
+  "Mudbray": {"lc": {"sets": [{"name": "RestTalk"}, {"name": "Stealth Rock"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 593128, "username": "ashelyDeluxe"}, {"user_id": 605215, "username": "Flou"}]}], "writtenBy": []}}, "nfe": {"sets": [{"name": "Stealth Rock"}]}},
   "Salazzle": {"uu": {"sets": [{"name": "Offensive", "description": "<p>Salazzle should rarely be Terastillized, as it loses its 4x resistance to First Impression from Slither Wing and Lokix and doesn't notably benefit from any type change.</p> "}]}},
   "Tsareena": {"uu": {"sets": [{"name": "Utility", "description": "<p>The given Speed EVs allow Tsareena to outspeed Kilowattrel after a Rapid Spin. Although Tsareena should Terastallize rarely, Tera Steel helps Tsareena act as an emergency check to Staraptor and Gengar by tanking Brave Bird and Sludge Bomb respectively and allowing it to decently chip them.</p> "}]}, "doublesou": {"sets": [{"name": "Assault Vest", "description": "<ul> <li>The given EV spread and nature allow Tsareena to outspeed Iron Bundle under Tailwind, retain enough Attack to OHKO 252 HP Palafin-Hero with Power Whip, then invests the remaining EVs in HP.</li> </ul> <p>This is a sample set as we work on proper analyses. Stay tuned!</p> "}]}},
   "Sandygast": {"nfe": {"sets": [{"name": "Physically Defensive"}]}},
@@ -1176,6 +1176,7 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 541847, "username": "yourwelcomethanku"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 294287, "username": "yuki"}]}
     }
   },
+  "Maschiff": {"lc": {"sets": [{"name": "Choice Scarf"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 580548, "username": "Shandeur"}]}], "writtenBy": []}}},
   "Shroodle": {"lc": {"sets": [{"name": "Weather Setter"}], "credits": {"teams": [{"name": "Submitted by", "members": [{"user_id": 588203, "username": "Charis_Akins"}]}], "writtenBy": []}}},
   "Grafaiai": {
     "uu": {
@@ -1192,7 +1193,14 @@
   "Flittle": {"nfe": {"sets": [{"name": "Calm Mind"}]}},
   "Espathra": {
     "ubers": {"sets": [{"name": "Calm Mind", "description": "<p>This is a sample set before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.539/\">new analyses</a>. These will  update as the metagame continues to develop. Stay tuned!</p> "}]},
-    "ou": {"sets": [{"name": "Calm Mind"}]},
+    "ou": {
+      "sets": [
+        {
+          "name": "Calm Mind",
+          "description": "<p>Espathra is a threatening sweeper due to the combination of Stored Power, Calm Mind, and Speed Boost, beating many Pokemon such as Corviknight, Iron Valiant, and Rotom-W. Dazzling Gleam can be used to take down Dark-types such as Chien-Pao and Roaring Moon. Protect can be used to safely secure Speed boosts, increasing Stored Power's damage as well as accruing extra Leftovers recovery. It increases momentum against faster threats such as Dragapult, Chien-Pao, and Meowscarada. Both Roost and Substitute are alternatives that let Espathra capitalize on the switches it forces, and they give it more Calm Mind setup opportunities. They also block Sucker Punch from Chien-Pao and Kingambit. With Tera Fairy, Espathra resists Dark-type attacks alongside powering up Dazzling Gleam. Tera Blast can be run over Dazzling Gleam with Tera Fighting, as it checks Steel-types such as Iron Treads, Kingambit, and Corviknight while also removing its Dark and Ghost weaknesses.</p> <p>Espathra functions best as a late-game cleaner on hyper offense teams. Dual screens support from teammates such as Grimmsnarl is appreciated, due to its poor defensive typing. Common entry hazard setters, such as Glimmora, Great Tusk, and Garganacl, provide Espathra with chip damage, which is vital in ensuring an OHKO on Iron Valiant and Choice Band Chien-Pao. Support from Great Tusk and Iron Treads is also appreciated, as they can check Gholdengo, something Espathra struggles with. Similarly, they also can provide entry hazard removal, which supports it even further. Teammates such as Dragon Dance Roaring Moon and Dragon Dance Dragonite can wear down Pokemon such as defensive Gholdengo and Kingambit to the point where Espathra can clean late-game. Orthworm is a fantastic partner, providing Shed Tail support, alongside entry hazards, the latter of which gives Espathra more setup opportunities. Pokemon such as Breloom and Volcarona can provide utility for Espathra with Spore and Will-O-Wisp, giving it opportunities to set up. Espathra struggles with strong priority moves such as Extreme Speed from Dragonite, Ice Shard and Sucker Punch from Chien-Pao, Bullet Punch from Scizor, and Sucker Punch from Kingambit. Espathra also can be difficult to set up, as it has a rather low power level prior to boosting, and it tends to over-rely on Terastallization in order to sweep, due to its poor defensive typing.</p> <ul> <li>Written by: [[NoahDeKnight, 458971]] <li>Quality checked by: [[BT89, 487308], [Milo, 540138]]</li> <li>Grammar checked by: [[Sulo, 528036]]</li> </ul> "
+        }
+      ]
+    },
     "monotype": {"sets": [{"name": "Calm Mind", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to the next generation of Battle Stadium Singles! In this new and exciting metagame, new ideas are constantly developing, so this analysis will constantly be updated to reflect metagame trends.</p> <p>If you feel this analysis is not up to date, <a href=\"https://www.smogon.com/forums/threads/espathra.3712914/\">feel free to check out the thread for this Pokemon and post suggestions</a>. For more resources on Series 1 in general, <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-1-a-land-free-of-ruins-and-paradoxes.3711710/\">check out this thread</a>.</p> ",
