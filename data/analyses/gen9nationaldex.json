@@ -25,6 +25,7 @@
   "Rotom-Wash": {"sets": [{"name": "Defensive Pivot"}, {"name": "Choice Scarf"}]},
   "Alomomola": {"sets": [{"name": "Defensive"}]},
   "Volcarona": {"sets": [{"name": "Quiver Dance"}]},
+  "Greninja": {"sets": [{"name": "Choice Scarf"}]},
   "Hawlucha": {"sets": [{"name": "Unburden Sweeper"}]},
   "Toxapex": {"sets": [{"name": "The Pex"}]},
   "Cinderace": {"sets": [{"name": "Swords Dance"}, {"name": "Offensive Pivot"}]},
@@ -63,7 +64,15 @@
   },
   "Clodsire": {"sets": [{"name": "Defensive Entry Hazard Setter"}]},
   "Kingambit": {"sets": [{"name": "Swords Dance"}]},
-  "Great Tusk": {"sets": [{"name": "Offensive Utility"}]},
+  "Great Tusk": {
+    "sets": [
+      {
+        "name": "Offensive Utility",
+        "description": "<p>Great Tusk is an excellent Pokemon due to its amazing physical bulk, defensive typing, role compression, and movepool. It also has a very strong offensive presence and has utility moves in Rapid Spin and Stealth Rock to back it up. Headlong Rush is an amazing STAB move, letting Great Tusk force out Pokemon such as Heatran, Gholdengo, and Skeledirge very well. Earthquake can be used for a no-drawback STAB move, but the lack in power is certainly noticeable. Close Combat allows Great Tusk to annihilate Pokemon like Kingambit, and Ferrothorn, and it does a nice chunk to Rotom-W on the switch. Rapid Spin provides reliable entry hazard control, which is especially useful because Great Tusk forces out common Stealth Rock users like Heatran and Mega Tyranitar. It also lets Great Tusk outspeed foes like Iron Valiant, non-Choice Scarf Tapu Lele, and Tornadus-T. Ice Spinner lets Great Tusk hit Landorus-T, Dragonite, and Tornadus-T for good damage. Heavy-Duty Boots gives Great Tusk an entry hazard immunity and allows it to safely Rapid Spin, while Leftovers gives it passive recovery and lets it reliably check Pokemon like Kingambit and Garchomp. Booster Energy can be used to improve Great Tusk's already great offensive output, but since it is a one-time use item, it can be quite unreliable. Tera Water improves the matchup into Pokemon like Urshifu-R and Floatzel. Tera Ground removes Great Tusk's Fairy and Psychic weakness and bolsters its offensive output, letting it OHKO Pokemon like Iron Valiant, Choice Scarf Tapu Lele, and Volcarona. Tera Steel gives Great Tusk resistances to the majority of its weaknesses, letting it KO Pokemon such as Tornadus-T, Iron Valiant, Tapu Lele, and Tapu Koko after luring them. Gholdengo and Kingambit make excellent partners for Great Tusk, as Gholdengo safely handles Pokemon like Tapu Lele and Iron Valiant while Kingambit can force out and Pursuit Pokemon like Tornadus-T and Dragapult. Great Tusk is commonly used as setup fodder against Pokemon like Iron Valiant and Volcarona, so partners like Clodsire and Dragonite can support it in that case. Entry hazard setters like Ferrothorn appreciate Rapid Spin support from Great Tusk, as it lets them keep entry hazards up while removing opposing ones, preventing the team from being worn down quickly. Stealth Rock-weak wallbreakers like Nasty Plot Tornadus-T and Mega Charizard Y also appreciate entry hazard removal from Great Tusk, as it lets them come in multiple times and poke holes in the opposition.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 208105, "username": "Jho"}, {"user_id": 528036, "username": "Sulo"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 589564, "username": "hidingflames"}]}
+  },
   "Slither Wing": {"sets": [{"name": "Choice Band"}]},
   "Iron Treads": {"sets": [{"name": "Utility"}, {"name": "Assault Vest"}]},
   "Iron Hands": {"sets": [{"name": "Defensive Swords Dance"}, {"name": "Choice Band"}]},
