@@ -46,7 +46,7 @@ async function convert(format, date) {
   const leads = !stats.isNonSinglesFormat(format) && !UNSUPPORTED.includes(format);
   const metagame = !UNSUPPORTED.includes(format);
   const gen = gens.get(format.startsWith('gen') ? +format.charAt(3) : 6);
-  const url = report => smogon.Statistics.url(data, format, true, report);
+  const url = report => smogon.Statistics.url(date, format, true, report);
 
   return stats.Display.fromReports(gen,
     await (await request(url('usage'))).text(),
