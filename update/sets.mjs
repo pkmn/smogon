@@ -147,6 +147,7 @@ async function importPokemon(gen, species) {
   const sets = {};
   for (const analysis of json.strategies) {
     const tier = toID(analysis.format);
+    if (tier === 'limbo') continue;
     let format = `gen${gen}${FORMATS[tier] || tier}`;
     // NB: we can't simply check Format.exists because @pkmn/sim doesn't support all mods
     if (Dex.formats.get(format).effectType !== 'Format' && !FORMATS[tier]) {
