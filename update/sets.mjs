@@ -67,7 +67,7 @@ const FORMATS = {
   // RBWhY?
   nintendocup1998: 'nintendocup1998', nintendocup1999: 'nintendocup1999', lclevel100: 'lclevel100',
   petitcup: 'petitcup', pikacup: 'pikacup', monotype: 'monotype', pu: 'pu', lc: 'lc', '1v1': '1v1',
-  '2v2doubles': '2v2doubles',
+  '2v2doubles': '2v2doubles'
 };
 
 // Iterating through dex.species.all() returns a bunch of formes that Smogon either doesn't support
@@ -147,7 +147,7 @@ async function importPokemon(gen, species) {
   const sets = {};
   for (const analysis of json.strategies) {
     const tier = toID(analysis.format);
-    if (tier === 'limbo') continue;
+    if (tier === 'limbo' || tier.endsWith('rentals')) continue;
     let format = `gen${gen}${FORMATS[tier] || tier}`;
     // NB: we can't simply check Format.exists because @pkmn/sim doesn't support all mods
     if (Dex.formats.get(format).effectType !== 'Format' && !FORMATS[tier]) {
