@@ -41,7 +41,17 @@
   "Baxcalibur": {"sets": [{"name": "Dragon Dance"}]},
   "Gholdengo": {"sets": [{"name": "Choice Scarf"}, {"name": "Nasty Plot"}]},
   "Wo-Chien": {"sets": [{"name": "Defensive"}]},
-  "Chien-Pao": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}, {"name": "All-out Attacker"}]},
+  "Chien-Pao": {
+    "sets": [
+      {"name": "Choice Band"},
+      {
+        "name": "Setup Sweeper",
+        "description": "<p>Chien-Pao is one of the most threatening sweepers in Anything Goes due to its solid typing, ability, and stats. Swords Dance allows Chien-Pao to break through walls such as Toxapex, Alomomola, and Corviknight. Ice Spinner can be considered over Icicle Crash due to its perfect accuracy, but it is a slightly weaker contact move that cannot flinch. Sucker Punch is the preferred priority move option, allowing it to OHKO Flutter Mane without a boost, as well as Iron Bundle and Miraidon after a Swords Dance. Alternatively, Ice Shard OHKOes Koraidon, Miraidon, and Flutter Mane at +2 Attack after Stealth Rock. Heavy-Duty Boots is the best item on this set, but Life Orb and Focus Sash are solid picks on hyper offense builds and other teams with good entry hazard control. Life Orb lets Chien-Pao get some crucial OHKOs at +2 Attack, notably against Miraidon and Koraidon with Ice Shard and Corviknight and Toxapex with Crunch. Tera Dark makes its Dark-type moves stronger while shedding the weaknesses from its Ice typing, notably reducing Stealth Rock damage and weakening Iron Head and Body Press from Corviknight as well as Torch Song from Skeledirge. Chien-Pao fits best on offensive teams and flourishes with other wallbreakers like Miraidon, Koraidon, Iron Bundle, and offensive Great Tusk. On bulkier builds, teammates like defensive Great Tusk, Ting-Lu, and Iron Treads set entry hazards while checking fast Pokemon like Koraidon and Miraidon. If forgoing Heavy-Duty Boots, it is essential to pair Chien-Pao with lead entry hazard setters like Glimmora and Froslass on offensive teams and Iron Treads and Great Tusk on bulkier teams, as they additionally prevent opposing entry hazards from going up.</p> "
+      },
+      {"name": "All-out Attacker"}
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 471586, "username": "Seldanna"}, {"user_id": 360582, "username": "Guard"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 374620, "username": "pichus"}]}
+  },
   "Ting-Lu": {"sets": [{"name": "Defensive Pivot"}]},
   "Chi-Yu": {
     "sets": [
@@ -70,13 +80,16 @@
   "Miraidon": {
     "sets": [
       {"name": "Offensive"},
-      {"name": "Choice Specs"},
+      {
+        "name": "Choice Specs",
+        "description": "<p>Choice Specs Miraidon can break through all of its checks owing to its excellent stats and stellar movepool, making it the strongest wallbreaker in Anything Goes. Overheat hits Iron Treads and also eases predictions against defensive cores such as Corviknight + Great Tusk. Tera Dragon boosts Draco Meteor, notably allowing Miraidon to 2HKO Ting-Lu while also getting rid of its weakness to Dugtrio. A Timid nature allows Miraidon to Speed tie against Koraidon and Chien-Pao, but Modest may be used to further boost its strength. Miraidon is threatened by revenge killers like Iron Bundle, Chien-Pao, and Choice Scarf users like Koraidon, Miraidon, and Great Tusk, so special walls like Clodsire and Blissey and physical walls like Toxapex, Great Tusk, and Alomomola are used to soak the offensive pressure. Dugtrio can trap Iron Bundle, Clodsire, and Iron Treads, as well as opposing Miraidon and Koraidon locked into Dragon-type moves with Tera Fairy.</p> "
+      },
       {"name": "Choice Scarf"},
       {
         "name": "Double Dance",
         "description": "<p>Double Dance Miraidon is one of the most potent sweepers and wincons in the AG metagame. It outspeeds the entire metagame after using Agility, and can muscle through defensive Pokemon after a boost or two from Calm Mind. Parabolic Charge greatly improves Miraidon's longevity, and Electric Terrain makes up for its low Base Power, notably letting Miraidon outheal Blissey's Seismic Toss after two Calm Mind boosts. Dazzling Gleam hits Ting-Lu, Great Tusk, and opposing Dragon-types for super effective damage. Tera Fairy enables setup on the Ice-, Ground-, and Dragon-type attacks that would otherwise threaten it, boosts the power of Dazzling Gleam, and limits revenge killing attempts from Koraidon, Miraidon, Chien-Pao, and Iron Bundle. The given EV spread allows Miraidon to outspeed Quark Drive-boosted Iron Bundle after an Agility and maximizes Leftovers recovery; the rest is put into Special Attack and Defense. Gothitelle and Dugtrio are phenomenal partners for their ability to trap Clodsire and Iron Treads, removing defensive counterplay to Miraidon. Chien-Pao and Great Tusk are able to bait in physically defensive Pokemon like Toxapex, Corviknight, and Alomomola for Miraidon to set up on and greatly threaten Clodsire and Iron Treads. With dual screens support from Grimmsnarl, Miraidon is able to set up on more Pokemon, and revenge killing it becomes even more difficult. Toxic Spikes is a major hindrance, so Poison-types like Toxapex and Clodsire, or hazard removal from Iron Treads or Corviknight is greatly appreciated.</p> "
       }
     ],
-    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 374620, "username": "pichus"}, {"user_id": 360582, "username": "Guard"}]}, {"name": "Grammar checked by", "members": [{"user_id": 302985, "username": "lotiasite"}]}], "writtenBy": [{"user_id": 584685, "username": "TaxFraud"}]}
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 374620, "username": "pichus"}, {"user_id": 360582, "username": "Guard"}, {"user_id": 471586, "username": "Seldanna"}]}, {"name": "Grammar checked by", "members": [{"user_id": 302985, "username": "lotiasite"}, {"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 584685, "username": "TaxFraud"}, {"user_id": 374620, "username": "pichus"}]}
   }
 }
