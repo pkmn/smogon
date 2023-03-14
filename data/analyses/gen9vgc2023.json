@@ -1,29 +1,12 @@
 {
   "Arcanine": {"sets": [{"name": "Utility"}, {"name": "Assault Vest"}]},
   "Dragonite": {"sets": [{"name": "Assault Vest"}, {"name": "Lum Berry"}, {"name": "Choice Band"}]},
-  "Murkrow": {
-    "overview": "<ul> <li> <p>Murkrow is one of the metagame's premier support Pokemon due to being the only Pokemon with Prankster and Tailwind. Murkrow also has a plethora of other support tools, including Haze, Taunt, and Perish Song.</p> </li> <li> <p>Murkrow is commonly used with Haze alongside Pokemon that drop their own stats, such as Gholdengo or Draco Meteor Hydreigon, or to enable Earthquake Garchomp with its Flying typing. Prankster + Taunt also safely shuts down Trick Room teams, although Murkrow must be wary of a potential Fake Out or priority-blocking abilities, such as Psychic Surge from Indeedee-F and Armor Tail from Farigiraf.</p> </li> <li> <p>However, Murkrow has many exploitable weaknesses, especially fearing powerful Fairy-, Ice-, and Rock-type moves in the format. It also relies heavily on its support moves, leaving it vulnerable to Taunt.</p> </li> </ul> ",
-    "sets": [
-      {
-        "name": "Tailwind",
-        "description": "<ul> <li> <p>Foul Play punishes the metagame's strong physical attackers, most notably 2HKOing Adamant Dragonite and Garchomp. Brave Bird is an alternative option that handles Flying-weak Pokemon such as Meowscarada, Lilligant, and Breloom with ease.</p> </li> <li> <p>Murkrow's Haze allows it to check dangerous threats, such as Dondozo, Nasty Plot Gholdengo, and Swords Dance Garchomp. Haze can also reset its partner's stat drops from the likes of Intimidate, Parting Shot, and Snarl, or attacks that lower the user's stats.</p> </li> <li> <p>Taunt allows it to also disrupt support Pokemon such as Lilligant, Talonflame, and Amoonguss, as well as crippling Pokemon such as Iron Defense Garganacl. Quash is also a viable option to maintain speed control even in Trick Room, and it can neutralize threats such as Maushold and Garchomp in opposing Tailwind.</p> </li> <li> <p>Other viable, but not as prominent, options for Murkrow include Protect and Perish Song. Protect allows it to scout the opponent and block Fake Out. Perish Song is an interesting option that gives Murkrow a win condition alongside its supportive roles and can force switches before that.</p> </li> <li> <p>Eviolite gives Murkrow the bulk needed to stay on the field and disrupt the opponent with Haze and Taunt. Focus Sash can be used when Murkrow is expected to be KOed quickly, for example Murkrow can also hold Covert Cloak to bypass Fake Out.</p> </li> <li> <p>52 Speed EVs allow Murkrow to get the jump on Annihilape in Tailwind, and the overall bulk investment allows Murkrow to survive Tera Normal Dragonite's Extreme Speed and Timid Gholdengo's Thunderbolt.</p> </li> <li> <p>Tera Ghost allows Murkrow to bypass Fake Out on sets not running Covert Cloak, while Tera Dark adds more power to Foul Play in rare late-game one-on-one scenarios and it keeps Murkrow's immunity to Prankster status moves.</p> </li> </ul> "
-      }
-    ],
-    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 294287, "username": "yuki"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 618385, "username": "SizzleSnom"}]}
-  },
-  "Pelipper": {
-    "overview": "<ul> <li> <p>Pelipper's role is primarily to set rain for its teammates, but functions it as an offensive support Pokemon with fully accurate Hurricanes and access to Tailwind and Wide Guard.</p> </li> <li> <p>Rain boosts the power of Water-type teammates such as Palafin, Floatzel, and Drednaw, and it also weakens Fire-type moves for Fire-weak partners such as Amoonguss, Gholdengo, and Kingambit.</p> </li> <li> <p>Pelipper's overall bulk is lacking, particularly specially, and super effective attacks like Thunderbolt from Gholdengo or Rotom-W are capable of OHKOing it.</p> </li> </ul> ",
-    "sets": [
-      {
-        "name": "Pelipper",
-        "description": "<ul> <li> <p>Hurricane's full accuracy in Rain makes it mandatory on Pelipper. It provides consistent damage and threatens the Grass-type Pokemon that resist Water.</p> </li> <li> <p>Hydro Pump is Pelipper's best Water-type attack but can be forgone if accuracy is a concern. Helping Hand paired with a fast Water-type Pokemon can compensate for the lack of reliable Water-type damage.</p> </li> <li> <p>Wide Guard can be used over Protect to answer ubiquitous spread moves such as Gholdengo's Make it Rain and Sylveon's Hyper Voice.</p> </li> <li> <p>Focus Sash ensures Pelipper survives attacks from Pokemon that might otherwise outspeed and OHKO it, such as Hydreigon and Annihilape. Damp Rock extends the uptime of Pelipper's rain-reliant teammates, allowing them to beat bulkier teams without requiring repeat switch-ins.</p> </li> <li> <p>252 Speed EVs with a Timid nature allow Pelipper to outspeed the entire metagame with Tailwind, as well as some notable Choice Scarf threats such as Annihilape.</p> </li> <li> <p>A Ground Tera type grants Pelipper an immunity to Electric and a resistance to Rock, which are its main concerns. With a Grass Tera type, it instead resists Electric, but this grants an immunity to Spore and Rage Powder.</p> </li> </ul> "
-      }
-    ],
-    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 294287, "username": "yuki"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 377427, "username": "smogon account"}]}
-  },
+  "Murkrow": {"sets": [{"name": "Tailwind Support"}]},
+  "Tyranitar": {"sets": [{"name": "Assault Vest"}]},
+  "Pelipper": {"sets": [{"name": "Rain Setter"}]},
   "Torkoal": {"sets": [{"name": "Support"}, {"name": "Trick Room Sweeper"}]},
   "Gastrodon": {"sets": [{"name": "Tank"}]},
-  "Garchomp": {"sets": [{"name": "Offensive"}]},
+  "Garchomp": {"sets": [{"name": "Offensive"}, {"name": "Scarf"}]},
   "Abomasnow": {
     "overview": "<ul> <li> <p>Snow lets Abomasnow carve itself a niche in the current metagame.</p> </li> <li> <p>Abomasnow is a decent offensive support Pokemon with Aurora Veil, which partners well with various Ice-types such as Baxcalibur, Cetitan, and Glaceon, as they gain a Defense boost in snow.</p> </li> <li> <p>Abomasnow's offensive typing is well-suited in a metagame filled with Ground-, Dragon-, and Water-types such as Garchomp, Hydreigon, and Rotom-W.</p> </li> <li> <p>Despite the Defense boost in snow, Abomasnow is still fairly specially frail with a poor set of weaknesses that leave it vulnerable to some of the most common special attackers in the format like Gholdengo and Armarouge.</p> </li> </ul> ",
     "sets": [
@@ -34,16 +17,9 @@
     ],
     "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 541847, "username": "yourwelcomethanku"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 294287, "username": "yuki"}]}
   },
-  "Lilligant": {
-    "overview": "<ul> <li> <p>Lilligant exists purely to facilitate Torkoal, providing excellent support with its blistering speed thanks to Chlorophyll. After You allows Torkoal to outspeed foes and hit incredibly hard with Eruption. Sleep Powder can disable a Pokemon that would otherwise threaten Torkoal or stop a sweep. Garchomp, notably, is vulnerable to sleep and is heavily damaged by Leaf Storm. Dondozo is similarly 2HKOed if it doesn't run Assault Vest, even after a Commander boost, and also susceptible to sleep.</p> </li> <li> <p>As Torkoal excels on Trick Room teams, Lilligant will often end up teaming with Trick Room Pokemon. Indeedee's Psychic Terrain and Farigiraf's Armor Tail protect Lilligant from priority moves such as Dragonite's Extreme Speed, and both appreciate Lilligant's ability to disable Dark-type Pokemon such as Kingambit with Sleep Powder. After You lets Guts Hariyama turn the tables on faster Pokemon, and it protects Lilligant in return with Wide Guard and Fake Out. Annihilape appreciates Sleep Powder giving it free turns to use Bulk Up so it can sweep.</p> </li> <li> <p>Talonflame and Murkrow can preempt Lilligant despite Chlorophyll with priority Tailwind, Taunt, and Quash. Similarly, Lilligant hates it when other weather setters hit the field due to its sudden drop in Speed.</p> </li> </ul> ",
-    "sets": [
-      {
-        "name": "Chlorophyll Support",
-        "description": "<ul> <li> <p>Leaf Storm is Lilligant's strongest STAB option and gives it some offensive presence, notably checking Water- and Ground-types. Sleep Powder shuts down Pokemon that would otherwise threaten Lilligant or its partner and can punish switch-ins. After You is a phenomenal speed control tool that, with Lilligant's fantastic Speed via Chlorophyll, sets the stage for moves like Torkoal's Eruption.</p> </li> <li> <p>Focus Sash is all but mandatory for Lilligant to function due to its frailty. Wide Lens is an option to shore up Sleep Powder's and Leaf Storm's consistency, but it leaves Lilligant vulnerable to OHKOs from most strong attackers.</p> </li> <li> <p>Timid Lilligant is usually superior due to it outrunning Pokemon like Timid Gholdengo in Tailwind. Modest Lilligant can nab potential OHKOs on the likes of Maushold, bulky Rotom-W, and Tera Ground Garchomp, however, while having a very high chance of 2HKOing Garchomp before Terastallization.</p> </li> <li> <p>Lilligant will rarely Terastallize but still has decent options. Tera Water lets it survive a Fire-type attack without giving it too many weaknesses. Tera Flying allows it to pair with an Earthquake user and continue to provide support. Tera Blast with Tera Ground covers Steel- and Fire-types such as Armarouge, Ceruledge, and Gholdengo but is generally not worth it.</p> </li> <li> <p>Helping Hand gives Lilligant a good priority move to use in Trick Room, boosting Torkoal's spread damage to staggering levels. Quiver Dance allows Lilligant to maintain speed control outside of sun and gives its offense more bite. Energy Ball gives Lilligant a more consistent attack than Leaf Storm and is the attack of choice with Quiver Dance, but its unboosted damage leaves a lot to be desired. Any set using Quiver Dance or Energy Ball should run a Modest nature.</p> </li> </ul> "
-      }
-    ],
-    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 541847, "username": "Yourwelcomethanku"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 19313, "username": "Ghalundra"}]}
-  },
+  "Rotom-Wash": {"sets": [{"name": "Bulky Water"}]},
+  "Lilligant": {"sets": [{"name": "Sun supporter"}]},
+  "Gothitelle": {"sets": [{"name": "Support"}]},
   "Amoonguss": {"sets": [{"name": "Support"}]},
   "Hydreigon": {
     "overview": "<ul> <li> <p>Hydreigon is a strong contender for the title of best Pokemon in the Series 1 metagame thanks to its diverse movepool and high damage output.</p> </li> <li> <p>Terastallization proves to be a boon for Hydreigon, as it can get rid of its ever-burdening Fairy-type weakness by changing to much more beneficial types such as Steel.</p> </li> <li> <p>Hydreigon has a good offensive typing, leaving few Pokemon able to switch in safely. It is one of the best checks to Gholdengo and also pairs well with it, forming a fundamentally powerful core when used with Tailwind support from Murkrow. Armarouge and Garchomp also synergize well with Hydreigon, covering for Steel-types, which it may not be able to damage effectively depending on its Tera type. Hydreigon can, however, struggle against damage reduction such as Snarl and Light Screen, with the latter coming especially from Grimmsnarl, which can easily take its STAB moves and OHKO it back with Spirit Break if Hydreigon is not Terastallized. Repeated usage of Draco Meteor can also make Hydreigon deal unimpressive amounts of damage, but this can be counteracted with Haze from Murkrow, allowing it to continue dealing devastating damage.</p> </li> </ul> ",
@@ -60,32 +36,21 @@
     ],
     "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 294287, "username": "yuki"}]}, {"name": "Grammar checked by", "members": [{"user_id": 384270, "username": "autumn"}]}], "writtenBy": [{"user_id": 518634, "username": "Sole Survivor"}]}
   },
+  "Volcarona": {"sets": [{"name": "Quiver Dance Sweeper"}, {"name": "Support"}]},
   "Talonflame": {"sets": [{"name": "Support"}]},
   "Sylveon": {"sets": [{"name": "Bulky Attacker"}]},
+  "Mimikyu": {"sets": [{"name": "Offensive"}]},
   "Corviknight": {"sets": [{"name": "Bulk Up"}, {"name": "Tailwind Support"}]},
   "Hatterene": {"sets": [{"name": "Offensive"}]},
   "Grimmsnarl": {"sets": [{"name": "Dual Screens"}]},
   "Indeedee-F": {"sets": [{"name": "Redirector"}]},
   "Meowscarada": {"sets": [{"name": "Offensive"}]},
-  "Pawmot": {
-    "overview": "<ul> <li> <p>Pawmot has a strong niche in being one of only two Pokemon with a potentially game-winning tool in Revival Blessing. It is preferred over Rabsca thanks to its high Speed and better offensive typing, hitting Pokemon such as Murkrow, Meowscarada, and Hydreigon for OHKOs or near OHKOs. This, combined with its access to Fake Out, makes Pawmot useful offensively in addition to bringing Revival Blessing.</p> </li> <li> <p>Powerful teammates such as Dondozo, when paired with Tatsugiri's Commander, and Meowscarada particularly appreciate Pawmot's Revival Blessing, as it gives them another opportunity at denting opposing teams. Choice Band Meowscarada pairs particularly well with Pawmot, as it can hit the only relevant Ground-type in Garchomp with both Flower Trick and Play Rough. Pawmot, in return, covers the few Pokemon that can handle Meowscarada's STAB moves, such as Hydreigon—even when it Terastallizes into a typing such as Steel.</p> </li> <li> <p>Such Pawmot teams can, however, be vulnerable to well-played dual screens teams, which nullify most of the offensive presence from Pawmot's allies, even after it revives one of them. In particular, Pawmot teams must bring Pokemon and moves that can beat Amoonguss, which can be used on these teams.</p> </li> </ul> ",
-    "sets": [
-      {
-        "name": "Revival Blessing Support",
-        "description": "<ul> <li> <p>Revival Blessing is an extremely invaluable tool that lets Pawmot revive crucial teammates such as Dondozo and Meowscarada, very likely turning the battle in the user's favor. It is Pawmot's most important move, but an attack is slotted first in case the timer forces Pawmot to use its first move. Double Shock is better here if Pawmot Terastallizes into the Electric typing, which lets it repeatedly use the move without drawback or failure. If running the Fighting Tera type or not Terastallized, Close Combat is better in this moveslot.</p> </li> <li> <p>Focus Sash, in tandem with Pawmot's high Speed, ensures it gets at least two moves off if it is not double targeted.</p> </li> <li> <p>Volt Absorb synergizes with Electric-weak teammates such as Dondozo, while Natural Cure allows Pawmot to brush off status moves such as Amoonguss's Spore.</p> </li> <li> <p>Both the Electric and Fighting Tera types provide offensive benefits to Pawmot, turning an attack into a reliable source of damage against a plethora of common Pokemon such as Murkrow, Dondozo, and/or Hydreigon. The Electric Tera type lets it use Double Shock repeatedly, which avoids the drawback of Close Combat lowering its defenses, turning it into a potent cleaner.</p> </li> </ul> "
-      }
-    ],
-    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 294287, "username": "yuki"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 518634, "username": "Sole Survivor"}]}
-  },
-  "Maushold": {"sets": [{"name": "Wide Lens"}, {"name": "Support"}]},
+  "Pawmot": {"sets": [{"name": "Revival Blessing"}]},
+  "Maushold": {"sets": [{"name": "Friend Guard"}]},
   "Maushold-Four": {"sets": [{"name": "Wide Lens"}, {"name": "Support"}]},
   "Garganacl": {"sets": [{"name": "Salt Cure"}]},
   "Armarouge": {"sets": [{"name": "Offensive"}]},
-  "Ceruledge": {
-    "overview": "<ul> <li> <p>Ceruledge is a strong Bulk Up sweeper in Series 1. The combination of Bulk Up's Defense boost and Bitter Blade's healing help Ceruledge stay healthy during a sweep.</p> </li> <li> <p>Ceruledge's unique defensive qualities let it set up in the face of Pokemon like Torkoal, Maushold, and Arcanine, and Tera Grass lets it set up against even more Pokemon. Pokemon that can help Ceruledge set up like Rage Powder Amoonguss can make good teammates.</p> </li> <li> <p>Ceruledge struggles against some of the metagame's best Pokemon like Hydreigon, Tyranitar, and Garchomp. Paldean Tauros-A, Sylveon, and Pawmot check Hydreigon and Tyranitar for Ceruledge. Tera Steel Hydreigon, Rotom-W, and Abomasnow check Garchomp.</p> </li> </ul> ",
-    "sets": [{"name": "Bulk Up", "description": "<ul> <li> <p>Shadow Sneak finishes off weakened Pokemon, Focus Sash users like Kilowattral, hits opposing Ceruledge, and lets Ceruledge revenge kill Ghost-weak Pokemon like Gholdengo. Tera Blast + Tera Grass lets Ceruledge hit Fire-resistant Pokemon like Tyranitar, Rotom-W, and Garchomp.</p> </li> <li> <p>Clear Amulet prevents Ceruledge from being weakened by Intimidate users like Paldean Tauros-A, Arcanine, and Gyarados, as well as Parting Shot Grimmsnarl.</p> </li> <li> <p>Grass is easily Ceruledge's best Tera type, giving it a Water and Ground resistance for the likes of Garchomp and Rotom-W and making it immune to Amoonguss's powder moves. Flash Fire lets Ceruledge do extremely well against opposing Fire-types, especially when Terastallized, as it will shed its weakness to super effective coverage moves like Torkoal's Earth Power and opposing Ceruledge's Shadow Sneak.</p> </li> </ul> "}],
-    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 294287, "username": "yuki"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 541847, "username": "yourwelcomethanku"}]}
-  },
+  "Ceruledge": {"sets": [{"name": "Bulk Up Sweeper"}]},
   "Kilowattrel": {
     "overview": "<ul> <li> <p>Kilowattrel stands out as one of the best Tailwind setters in the current metagame. Its base 125 Speed stat lets it set Tailwind first, with very little Prankster Tailwind Pokemon stopping it from doing so.</p> </li> <li> <p>Kilowattrel has a respectable base 105 Special Attack stat and a good offensive typing, allowing it to tackle the likes of Meowscarada and Gyarados well.</p> </li> <li> <p>Kilowattrel appreciates immediately hard-hitting partners such as Choice Specs Gholdengo and Garchomp to break through opposing teams. Gholdengo is great in particular thanks to its immunity to Dragonite's Extreme Speed.</p> </li> <li> <p>Kilowattrel is particularly frail, meaning it often only gets to set Tailwind and fire off a single attack before it faints. It also means in late-game scenarios, it is unreliable at dueling the meta's most common attackers like Gholdengo and Hydreigon.</p> </li> </ul> ",
     "sets": [
@@ -104,20 +69,10 @@
     "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 541847, "username": "Yourwelcomethanku"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 562330, "username": "Robbie35646"}]}
   },
   "Palafin": {"sets": [{"name": "Bulky Attacker"}]},
-  "Annihilape": {
-    "overview": "<ul> <li> <p>Annihilape is a great Bulk Up user in Series 1 thanks to its unresisted STAB combination, good bulk, Rage Fist, and Defiant, which stops Attack drops from slowing down its clean up.</p> </li> <li> <p>It can also utilize Choice Scarf to good effect, using Final Gambit as an immediate one-on-one trade option.</p> </li> <li> <p>Rage Fist increases in power every time Annihilape is hit, making it a deadly move during longer games thanks to its good natural bulk.</p> </li> <li> <p>Annihilape sports positive matchups versus much of the metagame, including, but not limited to, Maushold, Hydreigon, and Meowscarada. Additionally, its Defiant can be used to deter Intimidate Pokemon such as Arcanine and Gyarados, allowing strong ally physical attackers such as Garchomp and Gyarados to thrive.</p> </li> </ul> ",
-    "sets": [
-      {
-        "name": "Bulk Up",
-        "description": "<ul> <li> <p>To set up with Bulk Up safely, Annihilape enjoys dual screens and redirection support from Pokemon such as Grimmsnarl and Amoonguss.</p> </li> <li> <p>Tera Blast is used to KO Steel-types Drain Punch does not hit super effectively, such as Gholdengo, without relying on Rage Fist being boosted.</p> </li> <li> <p>The Fire Tera type gives Annihilape an immunity to Will-O-Wisp from Pokemon like Rotom-W and Talonflame and a key resistance to Fairy and neutrality to Ghost and Psychic, useful against opposing Annihilape, Meowscarada, and Armarouge. Furthermore, it lets Annihilape effectively combat Trick Room because, when played under dual screens, Annihilape can counter major Trick Room threats like Hatterene and Tera Fire Torkoal. Alternatively, picking Tera Water focuses on defensive advantages, primarily resistances to Steel- and Fire-type moves such as Gholdengo's Make it Rain and Torkoal's STAB moves.</p> </li> <li> <p>Vital Spirit can be used instead of Defiant for mainly Amoonguss, but also other sleep move users like Yawn Sylveon and Hypnosis Gothitelle.</p> </li> </ul> "
-      },
-      {
-        "name": "Choice Scarf",
-        "description": "<ul> <li> <p>This set is used commonly on Trick Room teams. Annihilape outspeeding most Pokemon, OHKOing them with Final Gambit, and being immune to Fake Out helps teammates like Hatterene and Armarouge set Trick Room, and fainting gives a free switch-in to a slow Trick Room beneficiary such as Tera Fire Torkoal. U-turn provides a switch-in without sacrificing Annihilape, and, while it doesn't OHKO, it hits common Pokemon such as Oranguru and Indeedee-F for large amounts of damage.</p> </li> <li> <p>Shadow Claw is a consistent damage-dealing option that doesn't rely on foes to power it up. However, Rage Fist can still be utilized effectively thanks to Annihilape's bulk. Phantom Force avoids attacks and ignores protecting moves, giving Annihilape opportunities to deal unavoidable damage.</p> </li> <li> <p>While not normally Terastallized, Annihilape can use Tera Ghost to remove its Fairy weakness and give a huge boost to its Ghost-type move, which becomes able to heavily dent much of the metagame.</p> </li> </ul> "
-      }
-    ],
-    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 294287, "username": "yuki"}, {"user_id": 541847, "username": "yourwelcomethanku"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 518634, "username": "Sole Survivor"}]}
-  },
+  "Glimmora": {"sets": [{"name": "Specs"}, {"name": "Mortal Spin"}]},
+  "Dondozo": {"sets": [{"name": "Commander Sweeper"}]},
+  "Tatsugiri": {"sets": [{"name": "Choice Item"}, {"name": "Sash"}]},
+  "Annihilape": {"sets": [{"name": "Rage Fist"}, {"name": "Final Gambit"}]},
   "Farigiraf": {
     "overview": "<ul> <li> <p>Farigiraf is currently one of the bulkiest Trick Room setters in the meta. Its ability, Armor Tail, prevents its teammates from succumbing to priority moves, making it difficult to prevent Farigiraf from setting Trick Room.</p> </li> <li> <p>Hariyama, Amoonguss, and Kingambit are good partners for Farigiraf. Hariyama and Farigiraf both benefit from each other, as Fake Out allows Farigiraf to more consistently get up Trick Room, which enables Hariyama, as it thrives inside of Trick Room and checks Farigiraf's common counters. Amoonguss can redirect moves targeted at Farigiraf and Spore anything inside Trick Room to take them out of the game. Kingambit benefits from the Snarl that Farigiraf struggles against and plays well in Trick Room.</p> </li> <li> <p>Choice Band Meowscarada and Hydreigon are the biggest checks to Farigiraf, as both threaten to OHKO it. Amoonguss is another check, as it can Spore Farigiraf before it manages to get Trick Room up. It also struggles against Imprison from Indeedee, Gallade, and opposing Farigiraf.</p> </li> </ul> ",
     "sets": [
@@ -129,13 +84,15 @@
     "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 294287, "username": "yuki"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 615665, "username": "CbuttyVGC"}]}
   },
   "Kingambit": {"sets": [{"name": "Assault Vest"}, {"name": "Swords Dance"}]},
-  "Great Tusk": {"sets": [{"name": "Offensive"}, {"name": "Assault Vest"}]},
+  "Great Tusk": {"sets": [{"name": "Offensive"}, {"name": "All-Out-Attacker"}]},
+  "Scream Tail": {"sets": [{"name": "Support"}, {"name": "Perish Song"}]},
   "Brute Bonnet": {"sets": [{"name": "Loaded Dice"}, {"name": "Support"}]},
   "Flutter Mane": {"sets": [{"name": "Glass Cannon"}, {"name": "Bulky Specs"}]},
   "Iron Bundle": {"sets": [{"name": "Glass Cannon"}]},
   "Iron Hands": {"sets": [{"name": "Assault Vest"}, {"name": "Setup"}]},
+  "Iron Jugulis": {"sets": [{"name": "Tailwind Support"}]},
   "Iron Moth": {"sets": [{"name": "Acid Spray"}]},
-  "Baxcalibur": {"sets": [{"name": "Dragon Dance"}, {"name": "Assault Vest"}]},
+  "Baxcalibur": {"sets": [{"name": "Offensive"}, {"name": "Assault Vest"}]},
   "Gholdengo": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice Specs"}]},
   "Roaring Moon": {"sets": [{"name": "Speed Booster"}, {"name": "Attack Booster"}, {"name": "Sun Attacker"}]}
 }
