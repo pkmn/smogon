@@ -11,7 +11,7 @@
   "Blissey": {"Pink Blob (Specially Defensive)": {"moves": ["Seismic Toss", ["Stealth Rock", "Shadow Ball"], ["Thunder Wave", "Stealth Rock"], "Soft-Boiled"], "item": ["Heavy-Duty Boots", "Rocky Helmet"], "nature": "Calm", "evs": {"hp": 4, "def": 252, "spd": 252}, "teratypes": ["Ground", "Fire", "Ghost"]}},
   "Tyranitar": {"Defensive": {"moves": ["Stealth Rock", ["Rock Blast", "Crunch"], "Thunder Wave", "Rest"], "item": ["Heavy-Duty Boots", "Leftovers"], "nature": "Careful", "evs": {"hp": 252, "def": 4, "spd": 252}, "teratypes": ["Steel", "Ground"]}},
   "Pelipper": {"Utility Pivot": {"moves": [["Knock Off", "Surf"], "Hurricane", "Roost", "U-turn"], "ability": "Drizzle", "item": ["Heavy-Duty Boots", "Damp Rock"], "nature": "Relaxed", "ivs": {"spe": 0}, "evs": {"hp": 252, "def": 252, "spd": 4}, "teratypes": ["Ground", "Fairy"]}},
-  "Masquerain": {"Sticky Web": {"moves": ["Sticky Web", "Tailwind", "Whirlwind", "U-turn"], "item": "Focus Sash", "nature": "Jolly", "evs": {"hp": 252, "def": 4, "spe": 252}, "teratypes": "Ghost"}},
+  "Masquerain": {"Sticky Web": {"moves": ["Sticky Web", "Tailwind", "Whirlwind", ["U-turn", "Stun Spore"]], "item": "Focus Sash", "nature": "Jolly", "evs": {"hp": 252, "def": 4, "spe": 252}, "teratypes": "Ghost"}},
   "Garchomp": {"Bulky Lead": {"moves": ["Stealth Rock", "Spikes", "Earthquake", "Dragon Tail"], "ability": "Rough Skin", "item": "Rocky Helmet", "nature": "Jolly", "evs": {"hp": 252, "def": 4, "spe": 252}, "teratypes": "Steel"}},
   "Hippowdon": {"Defensive": {"moves": ["Earthquake", "Slack Off", "Stealth Rock", ["Whirlwind", "Yawn"]], "item": ["Rocky Helmet", "Leftovers", "Smooth Rock"], "nature": "Impish", "evs": {"hp": 252, "def": 252, "spd": 4}, "teratypes": ["Water", "Fairy"]}},
   "Froslass": {"Spikes Lead": {"moves": ["Spikes", "Taunt", "Icy Wind", "Destiny Bond"], "ability": "Cursed Body", "item": "Focus Sash", "nature": "Timid", "evs": {"hp": 248, "spa": 8, "spe": 252}, "teratypes": "Steel"}},
@@ -73,5 +73,6 @@
     "Double Dance": {"moves": ["Calm Mind", "Agility", ["Parabolic Charge", "Electro Drift"], ["Dazzling Gleam", "Dragon Pulse"]], "item": "Leftovers", "nature": "Modest", "evs": {"hp": 248, "spa": 252, "spe": 8}, "teratypes": "Fairy"},
     "Calm Mind": {"moves": [["Electro Drift", "Parabolic Charge"], ["Draco Meteor", "Dazzling Gleam", "Dragon Pulse"], "Calm Mind", ["Overheat", "Substitute"]], "item": ["Life Orb", "Leftovers"], "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": ["Dragon", "Fairy"]},
     "Choice Scarf": {"moves": ["Electro Drift", ["Draco Meteor", "Dazzling Gleam"], "Overheat", "U-turn"], "item": "Choice Scarf", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": ["Fairy", "Electric"]}
-  }
+  },
+  "Walking Wake": {"Wallbreaker": {"moves": ["Hydro Steam", "Draco Meteor", "Flamethrower", "Dragon Pulse"], "item": "Choice Specs", "nature": ["Modest", "Timid"], "evs": {"def": 4, "spa": 252, "spe": 252}, "teratypes": ["Water", "Fairy", "Steel"]}}
 }
