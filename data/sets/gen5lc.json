@@ -102,7 +102,7 @@
   "Phanpy": {"Utility": {"moves": ["Stealth Rock", "Earthquake", ["Knock Off", "Ice Shard"], ["Toxic", "Roar"]], "ability": "Sand Veil", "item": "Eviolite", "nature": "Impish", "evs": {"hp": 196, "def": 196, "spd": 116}}},
   "Smoochum": {"Choice Scarf": {"moves": ["Blizzard", "Psychic", "Shadow Ball", "Trick"], "ability": "Forewarn", "item": "Choice Scarf", "nature": "Timid", "evs": {"spa": 236, "spe": 236}}},
   "Elekid": {"Life Orb": {"moves": ["Thunderbolt", "Volt Switch", ["Hidden Power Grass", "Hidden Power Ice"], "Psychic"], "item": "Life Orb", "nature": "Timid", "ivs": {"hp": 7, "atk": 2, "spa": 30}, "evs": {"spa": 240, "spe": 236}}},
-  "Magby": {"Belly Drum": {"moves": ["Belly Drum", "Fire Punch", "Thunder Punch", "Substitute"], "item": "Oran Berry", "nature": "Jolly", "evs": {"atk": 236, "spe": 252}}},
+  "Magby": {"Belly Drum Sweeper": {"moves": ["Belly Drum", "Fire Punch", ["Thunder Punch", "Return"], ["Substitute", "Protect"]], "item": "Oran Berry", "nature": "Jolly", "ivs": {"hp": 23}, "evs": {"atk": 236, "spe": 252}}},
   "Larvitar": {"Boosting Sweeper": {"moves": [["Dragon Dance", "Rock Polish"], "Earthquake", ["Stone Edge", "Rock Slide"], ["Crunch", "Facade"]], "item": "Flame Orb", "nature": ["Jolly", "Adamant"], "evs": {"hp": 36, "atk": 244, "def": 36, "spe": 188}}},
   "Poochyena": {"Boosting Sweeper": {"moves": ["Howl", "Facade", "Crunch", "Fire Fang"], "ability": "Quick Feet", "item": "Toxic Orb", "nature": "Jolly", "evs": {"atk": 236, "spd": 36, "spe": 236}}},
   "Zigzagoon": {"Belly Drum": {"moves": ["Belly Drum", "Extreme Speed", "Seed Bomb", "Protect"], "item": "Oran Berry", "nature": "Adamant", "evs": {"atk": 196, "def": 188, "spd": 108}}},
