@@ -21,6 +21,6 @@
   "Elekid": {"All-Out Attacker": {"moves": ["Thunderbolt", "Fire Punch", "Hidden Power Grass", ["Quick Attack", "Toxic"]], "item": ["Lum Berry", "Leftovers"], "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}, "Substitute": {"moves": ["Substitute", "Thunderbolt", ["Focus Punch", "Cross Chop", "Fire Punch"], "Hidden Power Grass"], "item": "Leftovers", "nature": ["Hasty", "Timid"], "evs": {"spa": 252, "spd": 4, "spe": 252}}},
   "Dustox": {"Specially Defensive": {"moves": ["Moonlight", ["Sludge Bomb", "Psychic"], "Toxic", ["Whirlwind", "Protect"]], "item": "Leftovers", "nature": ["Careful", "Calm"], "evs": {"hp": 252, "spd": 240, "spe": 16}}},
   "Taillow": {"Choice Band": {"moves": ["Double-Edge", "Aerial Ace", "Hidden Power Ground", "Quick Attack"], "item": "Choice Band", "nature": "Jolly", "ivs": {"spa": 30, "spd": 30}, "evs": {"atk": 252, "def": 4, "spe": 252}}},
-  "Lileep": {"Special Wall": {"moves": ["Recover", "Rock Slide", ["Giga Drain", "Hidden Power Grass"], ["Toxic", "Hidden Power Fire"]], "ability": "Levitate", "item": "Leftovers", "nature": "Sassy", "evs": {"hp": 252, "def": 4, "spd": 252}}},
-  "Snorunt": {"Spikes Lead": {"moves": ["Spikes", "Ice Beam", "Hidden Power Grass", "Endure"], "item": "Salac Berry", "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "evs": {"spa": 252, "spd": 4, "spe": 252}}}
+  "Lileep": {"Wall": {"moves": ["Rock Slide", ["Hidden Power Grass", "Giga Drain"], "Toxic", "Recover"], "item": "Leftovers", "nature": "Relaxed", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "evs": {"hp": 252, "def": 252, "spd": 4}}},
+  "Snorunt": {"Spikes Lead": {"moves": ["Spikes", "Ice Beam", "Hidden Power Grass", "Endure"], "item": "Salac Berry", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}}
 }
