@@ -44,12 +44,20 @@
   "Cyclizar": {"sets": [{"name": "Shed Tail"}, {"name": "Choice Scarf"}]},
   "Annihilape": {"sets": [{"name": "Bulk Up + Taunt"}, {"name": "Bulk Up + Chesto Berry"}, {"name": "Choice Scarf"}]},
   "Kingambit": {"sets": [{"name": "Swords Dance"}]},
-  "Great Tusk": {"sets": [{"name": "Physically Defensive"}]},
+  "Great Tusk": {"sets": [{"name": "Physically Defensive"}, {"name": "Choice"}, {"name": "3 Attacks"}]},
   "Slither Wing": {"sets": [{"name": "Choice Band"}]},
   "Iron Treads": {"sets": [{"name": "Offensive Spinner"}]},
   "Iron Hands": {"sets": [{"name": "Swords Dance"}, {"name": "Big Drummer Boy"}]},
   "Gholdengo": {"sets": [{"name": "Defensive Nasty Plot"}, {"name": "Choice Scarf"}]},
-  "Ting-Lu": {"sets": [{"name": "Defensive"}]},
+  "Ting-Lu": {
+    "sets": [
+      {
+        "name": "Defensive Support",
+        "description": "<p>Ting-Lu is an effective defensive support in STABmons, as with Ceaseless Edge or Spikes, it can serve as a very bulky entry hazard setter. In addition, thanks to its ability, its well-distributed stats, and Shore Up, it is able to check many attackers such as Iron Moth, Ceruledge, and Garganacl. Spikes should be used if reliability and lack of PP are a concern, especially on stall teams. Precipice Blades maximizes damage against Toxapex and other Ground-weak Pokemon like Iron Hands; however, Earthquake is a fine option if accuracy is a concern. There are multiple options for the last moveslot: Parting Shot lets Ting-Lu safely bring in offensive teammates via a slow pivot, Foul Play gives it a better matchup against setup sweepers like Salamence, Whirlwind phazes setup sweepers that Ting-Lu can't handle like non-Taunt Annihilape, and Knock Off can remove items like Heavy-Duty Boots from pivots like Tyranitar. Covert Cloak prevents Ting-Lu from being poisoned from Mortal Spin users like Toxapex, while Leftovers gives to it more passive recovery. Both Tera Ghost and Tera Poison allow Ting-Lu to surprise Fighting-types like Iron Hands; Tera Poison grants it an immunity to Toxic and lets it resist Grass-type attacks, while Tera Ghost allows it to spinblock. Alternatively, Tera Fairy and Tera Water provide great resistances to Roaring Moon and Palafin, respectively. Ting-Lu fits in a variety of teams, ranging from bulky offense to stall. Offensive teammates such as Iron Valiant, Palafin, and Iron Hands appreciate that Ting-Lu can both set Spikes and act as a slow pivot with Parting Shot. These three Pokemon also beat Great Tusk, one of Ting-Lu's biggest checks, as it is able to beat it with Fighting-type moves and remove its entry hazards with Rapid Spin. Defensive Pokemon like Toxapex, Amoonguss, and Dondozo are able to check Pokemon that Ting-Lu can't, which include Azumarill, Rotom-W, and Mimikyu. Ting-Lu struggles to make progress with entry hazards up, so entry hazard removal from the likes of Great Tusk, Toxapex, Rotom-W, and Corviknight is recommended.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 220859, "username": "Giagantic"}, {"user_id": 517892, "username": "pannu"}]}, {"name": "Grammar checked by", "members": [{"user_id": 297659, "username": "deetah"}]}], "writtenBy": [{"user_id": 464398, "username": "LBDC"}]}
+  },
   "Roaring Moon": {"sets": [{"name": "Choice Band"}, {"name": "Itemless Acrobatics"}, {"name": "Choice Scarf"}]},
   "Iron Valiant": {
     "sets": [
