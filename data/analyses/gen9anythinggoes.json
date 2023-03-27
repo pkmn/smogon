@@ -24,7 +24,7 @@
   "Hippowdon": {"sets": [{"name": "Defensive"}]},
   "Gothitelle": {"sets": [{"name": "Choice Specs"}]},
   "Toxapex": {"sets": [{"name": "The Pex"}]},
-  "Corviknight": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]},
+  "Corviknight": {"sets": [{"name": "Physically Defensive"}]},
   "Barraskewda": {"sets": [{"name": "Choice Band"}]},
   "Grimmsnarl": {"sets": [{"name": "Dual Screens"}]},
   "Dragapult": {"sets": [{"name": "Dragon Dance"}, {"name": "Pivot"}, {"name": "Choice Specs"}]},
@@ -38,16 +38,35 @@
     "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 374620, "username": "pichus"}, {"user_id": 360582, "username": "Guard"}]}, {"name": "Grammar checked by", "members": [{"user_id": 302985, "username": "lotiasite"}]}], "writtenBy": [{"user_id": 426798, "username": "Geysers"}]}
   },
   "Pawmot": {"sets": [{"name": "Volt Absorb Fairy"}]},
-  "Garganacl": {"sets": [{"name": "Specially Defensive"}]},
+  "Garganacl": {"sets": [{"name": "Defensive"}]},
   "Espathra": {"sets": [{"name": "Calm Mind"}]},
   "Palafin": {"sets": [{"name": "Choice Band"}]},
-  "Glimmora": {"sets": [{"name": "Entry Hazard Lead"}]},
+  "Glimmora": {
+    "sets": [
+      {
+        "name": "Lead",
+        "description": "<p>Glimmora is one of the metagame's best suicide leads because of its access to utility moves such as Stealth Rock, Spikes, and Memento as well as its signature ability Toxic Debris. Earth Power threatens Iron Treads and Gholdengo, which could otherwise block Mortal Spin, and does a lot of damage to Pokemon like Chi-Yu, Miraidon, Skeledirge, and Toxapex. Alternatively, Power Gem can OHKO lead Iron Bundle and Chien(AH)-Pao. Memento grants a free switch for Glimmora's teammates, such as Double Dance Koraidon and Miraidon, Great Tusk, and Chien-Pao to set up, and it also blocks potential attempts at hazard removal. Tera Ghost can block Rapid Spin from Great Tusk and Iron Treads if necessary. Glimmora best fits on hyper offense teams with Pokemon like Taunt Iron Bundle, Annihilape, and Gholdengo to block entry hazard removal, and setup sweepers such as Swords Dance Koraidon, Calm Mind Miraidon, and Swords Dance Chien-Pao to take advantage of the entry hazards it lays. Grimmsnarl is also a good partner that can set up dual screens and use Prankster Taunt to prevent Defog or entry hazards from foes.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 374620, "username": "pichus"}, {"user_id": 511624, "username": "Fc"}]}, {"name": "Grammar checked by", "members": [{"user_id": 301217, "username": "Band"}]}], "writtenBy": [{"user_id": 574634, "username": "ponchlake"}]}
+  },
   "Houndstone": {"sets": [{"name": "Choice Band"}]},
   "Dondozo": {"sets": [{"name": "Defensive"}]},
   "Annihilape": {"sets": [{"name": "Bulk Up"}]},
   "Clodsire": {"sets": [{"name": "Defensive"}]},
   "Kingambit": {"sets": [{"name": "Offensive"}]},
-  "Great Tusk": {"sets": [{"name": "Offensive Utility"}, {"name": "Defensive"}, {"name": "Choice Item"}, {"name": "Setup Sweeper", "description": "<p>These are samples sets while we work on new analyses. Stay tuned!</p> "}]},
+  "Great Tusk": {
+    "sets": [
+      {"name": "Offensive Utility"},
+      {
+        "name": "Defensive",
+        "description": "<p>Great Tusk is a defensive staple in the metagame due to its high physical bulk and solid utility thanks to Stealth Rock and the ability to remove them from its side using Rapid Spin. Knock Off cripples Ting-Lu and opposing Great Tusk by blocking their passive recovery from Leftovers and removes Heavy-Duty Boots from Pelipper and Rocky Helmet from Toxapex and Alomomola. Alternatively, Play Rough deals high damage to Chien-Pao and Koraidon. Leftovers offers much-needed passive recovery, while Rocky Helmet punishes physical attackers such as Koraidon, Chien-Pao, and opposing Great Tusk, especially stopping Koraidon from freely pivoting against Great Tusk into teammates like Chi-Yu and Walking Wake. 40 Speed EVs allows Great Tusk to outspeed Chi-Yu at +1. Tera Fairy makes Great Tusk immune to Dragon-type moves from Koraidon and Miraidon. With Tera Water, Great Tusk resists Ice-type moves from Chien-Pao and Flare Blitz from Koraidon. Tera Ghost grants an immunity to Fighting-type moves from Koraidon and Rapid Spin from opposing Great Tusk and Iron Treads. Koraidon is a great teammate, as it can set up sun for Great Tusk, while it, in return, threatens or cripples walls that check Koraidon, making it easier for Koraidon to deal with them. Great Tusk gets easily pressured by special attackers such as Iron Bundle, Flutter Mane, and Miraidon, so special walls such as Corviknight, Blissey, and Clodsire are appreciated as teammates.</p> "
+      },
+      {"name": "Choice Item"},
+      {"name": "Setup Sweeper", "description": "<p>These are samples sets while we work on new analyses. Stay tuned!</p> "}
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 374620, "username": "pichus"}, {"user_id": 511624, "username": "Fc"}]}, {"name": "Grammar checked by", "members": [{"user_id": 467437, "username": "Dawn of Ares"}]}], "writtenBy": [{"user_id": 532881, "username": "Frozoid"}]}
+  },
   "Scream Tail": {"sets": [{"name": "Defensive"}]},
   "Flutter Mane": {"sets": [{"name": "Choice Specs"}, {"name": "Calm Mind"}]},
   "Iron Treads": {"sets": [{"name": "Specially Defensive"}, {"name": "Offensive Utility"}]},
