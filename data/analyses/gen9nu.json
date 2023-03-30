@@ -3,7 +3,15 @@
   "Chansey": {"sets": [{"name": "Utility"}]},
   "Scyther": {"sets": [{"name": "Pivot"}, {"name": "Swords Dance"}]},
   "Vaporeon": {"sets": [{"name": "Defensive"}]},
-  "Jolteon": {"sets": [{"name": "Calm Mind"}]},
+  "Jolteon": {
+    "sets": [
+      {
+        "name": "Calm Mind Sweeper",
+        "description": "<p>The fastest Pokemon available in the tier, Jolteon is an amazing setup sweeper thanks to Calm Mind and its great coverage found through Terastallization. Volt Switch whittles down special walls like Chansey and Muk while safely bringing in a teammate better suited to taking them on such as Bruxish or Sandaconda. An Ice-type Tera Blast gives Jolteon a move to hit Ground- and Grass-types like Sandaconda and Appletun super effectively. Heavy-Duty Boots allows Jolteon to safely pivot in and out of battle without being worn down by entry hazards, especially if it's Terastallized, although it may also use a Life Orb for extra damage output. Jolteon is quite frail, making it vulnerable to revenge killing from Choice Scarf users like Passimian, Bruxish, and Mabosstiff. Passimian, Mabosstiff and Bruxish are also great offensive partners that hit Jolteon's defensive checks in Chansey and Muk. A great defensive partner is Drifblim; it switches into Ground- and, when Jolteon has Terastallized, Fighting-type moves.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 400664, "username": "Togkey"}]}, {"name": "Grammar checked by", "members": [{"user_id": 336073, "username": "Rabia"}]}], "writtenBy": [{"user_id": 399621, "username": "outbackrabbit"}]}
+  },
   "Umbreon": {"sets": [{"name": "Utility"}, {"name": "Calm Mind"}]},
   "Medicham": {"sets": [{"name": "Choice Scarf"}, {"name": "All-Out Attacker"}]},
   "Camerupt": {"sets": [{"name": "Defensive Utility", "description": "<p>Fire Spin and Grass Tera Blast can effectively lure otherwise undesirable matchups like Sandaconda and Vaporeon. 88 Speed allows Camerupt to outspeed the likes of Muk, Crocalor, and Perrserker</p> "}]},
@@ -11,6 +19,7 @@
   "Zangoose": {"sets": [{"name": "Swords Dance"}]},
   "Whiscash": {"sets": [{"name": "Hazard Lead"}]},
   "Vespiquen": {"sets": [{"name": "Pivot"}]},
+  "Spiritomb": {"sets": [{"name": "Calm Mind"}]},
   "Toxicroak": {"sets": [{"name": "Swords Dance"}]},
   "Abomasnow": {"sets": [{"name": "Snow Support"}, {"name": "Swords Dance"}]},
   "Rotom": {"sets": [{"name": "Choice Scarf"}, {"name": "Utility"}, {"name": "Nasty Plot"}]},
