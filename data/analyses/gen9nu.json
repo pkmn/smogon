@@ -34,6 +34,19 @@
   "Rotom": {"sets": [{"name": "Choice Scarf"}, {"name": "Utility"}, {"name": "Nasty Plot"}]},
   "Rotom-Frost": {"sets": [{"name": "Choice Scarf"}, {"name": "Nasty Plot"}]},
   "Basculin": {"sets": [{"name": "Choice Band"}]},
+  "Eelektross": {
+    "sets": [
+      {
+        "name": "",
+        "description": "<p>Eelektross makes for one of the most potent bulky setup sweepers in the tier due to its lack of weaknesses and access to the highly coveted Coil. Eelektross' defensive profile, notably boasting a paralysis and Ground immunity, grants it safe entry against tier staples like Sandaconda, Chansey, and Jolteon, and it can even set up Coil in front of them. Drain Punch allows Eelektross to maintain its health while boosting. Dragon Tail lets Eelektross beat opposing setup sweepers like Coil Sandaconda, Bulk Up Ursaring, and Curse Muk. Instead of Dragon Tail, Eelektross can use a move like Substitute or Rest to greatly help against status inducers such as Rotom, Drifblim, and Qwilfish. The former two can otherwise easily outspeed and burn Eelektross and eventually beat it down with boosted Hex. Tera Steel prevents Toxic from Muk, Qwilfish, and Vespiquen and retains an amazing defensive profile thanks to Levitate. Entry hazards set by the likes of Qwilfish and Sandaconda allow Eelektross to rack up damage against incoming checks like Rotom and Lurantis with Dragon Tail. Drifblim and the aforementioned Qwilfish also appreciate Eelektross's Electric resistance.</p> "
+      },
+      {
+        "name": "Assault Vest",
+        "description": "<p>Assault Vest Eelektross is a premier defensive pivot. Its lack of weaknesses, immunity to Spikes and Toxic Spikes, and excellent Assault Vest-boosted special bulk allow it to check common special attackers like Jolteon, Zoroark, and Frosmoth. Its low Speed tier paired with 0 Speed IVs allows it to take hits and then safely bring in frailer teammates like Haunter, Zoroark, and Bruxish with U-turn. As such, it fits well on VoltTurn cores with the likes of Bombirdier, Passimian, and Scyther, wearing down the opposing team with pivot moves. Discharge is prefered over Thunderbolt due to the increased paralysis chance. Giga Drain threatens Ground-types such as Sandaconda and Whiscash while providing some recovery. Dragon Tail phazes foes, pairing well with Spikes support from the likes of Qwilfish, Whiscash, and Cacturne, and keeps Tera Ground Quiver Dance users such as Oricorio, Frosmoth, and Vivillon in check despite their Discharge immunity. Drain Punch is an alternative that still allows Eelektross to defeat Tera Ground Quiver Dance users while hitting common special attackers like Zoroark and Pyroar super effectively. Flamethrower is another coverage option targeting threats like Magneton, Abomasnow, and Frosmoth. Acid Spray is a viable alternative that lets Eelektross defeat setup sweepers even when they are the only remaining opposing Pokemon. Tera Steel is preferred, as it improves Eelektross's matchup against common special attackers like Indeedee-F, non-Tera Fire Frosmoth and Vivillon, and Abomasnow while gaining an immunity to Qwilfish's Toxic.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 400664, "username": "Togkey"}, {"user_id": 298730, "username": "Poh"}, {"user_id": 336073, "username": "Rabia"}]}, {"name": "Grammar checked by", "members": [{"user_id": 384270, "username": "autumn"}]}], "writtenBy": [{"user_id": 400664, "username": "Togkey"}, {"user_id": 369076, "username": "Tuthur"}]}
+  },
   "Clawitzer": {"sets": [{"name": "Specs Wallbreaker"}]},
   "Crabominable": {"sets": [{"name": "Assault Vest Tank"}]},
   "Lycanroc": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}]},
@@ -68,5 +81,15 @@
   "Mabosstiff": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Band"}]},
   "Bombirdier": {"sets": [{"name": "Dedicated Lead"}, {"name": "Choice user"}]},
   "Farigiraf": {"sets": [{"name": "Stored Power"}]},
-  "Dudunsparce": {"sets": [{"name": "Calm Mind"}, {"name": "Coil"}, {"name": "Choice Specs"}]}
+  "Dudunsparce": {
+    "sets": [
+      {"name": "Coil"},
+      {"name": "Choice Specs"},
+      {
+        "name": "Calm Mind",
+        "description": "<p>Dudunsparce's solid bulk, access to Roost, and relative lack of type weaknesses make it a dangerous Calm Mind sweeper. The sheer power of STAB Boomburst makes up for Dudunsparce's mediocre Special Attack and tends to dissuade Fighting-types and other offensive checks from switching directly into it. Shadow Ball targets Ghost-types such as Drifblim and Rotom. Alternatively, Flamethrower hits Frosmoth and Steel-types like Copperajah, Magneton, and Tera Steel Eelektross harder; however, since these Pokemon lack recovery, it is often better to simply wear them down before trying to sweep. Rattled punishes weaker Dark- and Ghost-type attacks, which foes will likely use if they expect Dudunsparce to Terastallize or if it already has, as well as U-turn and Paldean Tauros's Intimidate. 84 Speed EVs allow Dudunsparce to outrun Umbreon and Haze Vaporeon, thus easing setup versus them; make sure the former does not have Thunder Wave before committing to this, though. Tera Ghost gives Dudunsparce an edge against Fighting-types and powers up Shadow Ball. Dudunsparce seriously struggles against special walls like Muk, Copperajah, and Assault Vest Crabominable, so it should be paired with strong physical attackers like Mabosstiff and Passimian that can pressure them. Zoroark is another option that goes even further in baiting in special walls, as well as Ghost-types, thanks to Illusion. Paralysis support from Pokemon like Sandaconda, Qwilfish, and Umbreon improves Dudunsparce's matchup against offense and decreases the number of hits it has to take while setting up. Sandaconda and Qwilfish also set up entry hazards to wear down Dudunsparce's switch-ins and can punish Fighting-types like Medicham and Passimian with Rocky Helmet, while Umbreon can use Wish to help it stay healthy and conserve Roost's limited PP.</p> "
+      }
+    ],
+    "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 400664, "username": "Togkey"}]}, {"name": "Grammar checked by", "members": [{"user_id": 336073, "username": "Rabia"}]}], "writtenBy": [{"user_id": 400292, "username": "asa"}]}
+  }
 }
