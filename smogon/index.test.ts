@@ -1,6 +1,6 @@
-import {Analyses, Statistics} from './index';
-
 import * as fixtures from './fixtures.json';
+
+import {Analyses, Statistics} from './index';
 
 const fixture = (s: keyof typeof fixtures) =>
   new Promise<string>(resolve => resolve(fixtures[s]));

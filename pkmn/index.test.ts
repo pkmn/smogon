@@ -13,7 +13,7 @@ import {
 } from '@pkmn/data';
 import {Dex} from '@pkmn/dex';
 
-import {Analysis, Smogon, DeepPartial, Moveset} from './index';
+import {Analysis, DeepPartial, Moveset, Smogon} from './index';
 
 const gens = new Generations(Dex, d => !!d.exists);
 const gen = (num: GenerationNum) => gens.get(num);
