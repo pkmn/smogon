@@ -29,7 +29,8 @@ const gzip = util.promisify(zlib.gzip);
 import {Dex, toID} from '@pkmn/sim';
 import {Analyses} from 'smogon';
 
-const request = wrapr.retrying(wrapr.throttling(async args => fetch(args.url, args.init)));
+const request = wrapr.retrying(wrapr.throttling(async args =>
+  (await fetch(args.url, args.init)).json(), 10, 500));
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.resolve(__dirname, '../data');
@@ -62,7 +63,7 @@ const FORMATS = {
   // VGC
   vgc11: 'vgc2011', vgc12: 'vgc2012', vgc14: 'vgc2014', vgc15: 'vgc2015', vgc16: 'vgc2016',
   vgc17: 'vgc2017', vgc18: 'vgc2018', vgc19: 'vgc2019', vgc20: 'vgc2020', vgc21: 'vgc2021',
-  vgc22: 'vgc2022', vgc23series1: 'vgc2023', vgc23series2: 'vgc2023',
+  vgc22: 'vgc2022', vgc23series1: 'vgc2023', vgc23series2: 'vgc2023', vgc23series3: 'vgc2023',
   // DW deciding to go rogue. VGC 22 Series 13 -> "BSD" Series 13 = BSD
   vgc22series13: 'battlestadiumdoubles',
   // RBWhY?
@@ -140,8 +141,7 @@ function eligible(gen, species) {
 // set information and sanitizing the analysis text. If the Pokémon doesn't have any strategies we
 // simply return undefined to ensure it will be elided during serialization.
 async function importPokemon(gen, species) {
-  const response = await request(Analyses.request(species, gen));
-  const json = await response.json();
+  const json = await request(Analyses.request(species, gen));
   if (!json || !json.strategies.length) return undefined;
 
   const analyses = {};
