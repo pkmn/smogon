@@ -124,7 +124,7 @@ export const Analyses = new (class {
   /**
    * Returns the Analysis RPC URL and request configuration for a given pokemon and gen.
    */
-  request(pokemon: string, gen: GenerationNum = 9) {
+  request(pokemon: string, gen: GenerationNum = 9, language = 'en') {
     return {
       url: `${Analyses.URL}${Analyses.RPC}`,
       init: {
@@ -132,7 +132,7 @@ export const Analyses = new (class {
         headers: {
           'content-type': 'application/json',
         },
-        body: JSON.stringify({gen: Analyses.gen(gen), alias: toPokemonAlias(pokemon)}),
+        body: JSON.stringify({gen: Analyses.gen(gen), alias: toPokemonAlias(pokemon), language}),
       },
     };
   }

@@ -33,7 +33,7 @@ describe('Analyses', () => {
         headers: {
           'content-type': 'application/json',
         },
-        body: '{"gen":"rs","alias":"mr-mime"}',
+        body: '{"gen":"rs","alias":"mr-mime","language":"en"}',
       },
     });
   });
