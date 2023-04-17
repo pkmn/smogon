@@ -16,7 +16,7 @@
     },
     "ou": {"sets": [{"name": "Choice Specs"}]},
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Belly Drum"}, {"name": "Solar Power"}]},
-    "nationaldexmonotype": {"sets": [{"name": "Dragon Dance (Fire)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
+    "nationaldexmonotype": {"sets": [{"name": "Dragon Dance (Fire)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Drought Wallbreaker (Fire)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Pikachu": {
     "nfe": {"sets": [{"name": "Mixed Attacker"}, {"name": "Special Attacker"}]},
@@ -431,7 +431,9 @@
       "sets": [
         {"name": "Assault Vest", "description": "<ul> <li>Azumarill distinguishes itself as a Water-type with its access to Superpower, Fairy-type STAB moves, and priority Aqua Jet.</li> <li>Superpower lets Assault Vest Azumarill defeat most Iron Bundle and most Magnezone.</li> <li>Aqua Jet finishes off low health foes and allows Azumarill to outplay Disable users like Dragapult and Iron Valiant and Sturdy Pokemon like Magnezone and Counter Donphan.</li> <li>The HP and Special Defense EVs, along with Assault Vest and a Careful nature, allow Azumarill to defeat Timid Choice Specs Iron Moth and non-Thunder Choice Specs Magnezone.</li> </ul> "},
         {"name": "Choice Band", "description": "<ul> <li>Superpower gives Azumarill good chances to defeat Speed-boosting Booster Energy Iron Bundle.</li> <li>Aqua Jet OHKOes Iron Moth, while Fling lets Azumarill remove its Choice Band to avoid losing to Disable Dragapult.</li> <li>The Special Defense investment, HP investment, and a Careful nature allow Azumarill to defeat most Iron Bundle.</li> <li>Alternatively, an EV spread of 104 HP / 160 Atk / 244 Def with an Impish nature lets it defeat Chien-Pao, but this spread is less reliable versus Iron Bundle.</li> </ul> "},
-        {"name": "Stall", "description": "<ul> <li>Chilling Water allows Azumarill to chip the foe down while reducing their Attack, giving it better chances versus Taunt Great Tusk.</li> <li>Sap Sipper lures in Grass-types such as most offensive Choice Band Meowscarada.</li> <li>The HP, Special Defense investment, and Calm nature allow Azumarill to defeat Timid Choice Specs Iron Valiant most of the time.</li> <li>Use Charm or Amnesia to lower the foe's damage output until Azumarill is forced to use Rest.</li> </ul> "}
+        {"name": "Stall", "description": "<ul> <li>Chilling Water allows Azumarill to chip the foe down while reducing their Attack, giving it better chances versus Taunt Great Tusk.</li> <li>Sap Sipper lures in Grass-types such as most offensive Choice Band Meowscarada.</li> <li>The HP, Special Defense investment, and Calm nature allow Azumarill to defeat Timid Choice Specs Iron Valiant most of the time.</li> <li>Use Charm or Amnesia to lower the foe's damage output until Azumarill is forced to use Rest.</li> </ul> "},
+        {"name": "Life Orb"},
+        {"name": "Wacan Berry"}
       ],
       "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 536219, "username": "fruan"}]}, {"name": "Quality checked by", "members": [{"user_id": 500233, "username": "swag god"}, {"user_id": 579035, "username": "bored_glitch"}]}, {"name": "Grammar checked by", "members": [{"user_id": 384270, "username": "autumn"}]}], "writtenBy": [{"user_id": 518399, "username": "Itchy"}]}
     },
@@ -608,15 +610,12 @@
       "sets": [
         {"name": "Choice Band"},
         {
-          "name": "Lum Berry",
-          "description": "<ul> <li>Sturdy is a valuable ability in the 1v1 metagame, giving Donphan a free turn to deal damage with its good offensive stats.</li> <li>Lum Berry allows Donphan to beat Will-O-Wisp users such as stall Arcanine and Skeledirge, preventing burns and Donphan's Sturdy from breaking.</li> <li>Counter makes use of Sturdy, retaliating against most physical attackers that Donphan cannot KO easily, such as Chien-Pao.</li> <li>Encore traps opposing Pokemon such as Espathra and Swords Dance Iron Hands into setup moves and locks foes such as Ting-Lu into weaker moves.</li> <li>Donphan can beat many physical attackers with Counter, although some prediction may be required versus Pokemon that have the option of using an attacking move, such as Swords Dance Haxorus and non-Choice item Meowscarada.</li> <li>Gunk Shot can be used to deal with Fairy-types such as Sylveon and Azumarill. However, Azumarill with Defense investment can tank a Gunk Shot, so it's not always reliable.</li> <li>Ice Shard gives Donphan priority and finishes off foes that are at low HP. It also gives Donphan a way to deal with Dragon- and Flying-types such as Salamence, Garchomp, and Dragapult.</li> <li>Rock Tomb lowers the opposing Pokemon's speed, Speed, letting Donphan go first and pull off a potential Encore on foes such as Attack-boosted Great Tusk.</li> <li>The HP and Defense EVs allow Donphan to tank an Outrage from Adamant Choice Band Haxorus, and maximum Attack ensures that Donphan can hit as hard as possible. The remaining EVs are put into Speed.</li> <li>An alternative EV spread of 8 HP / 240 Atk / 8 Def / 252 Spe with a Jolly nature only allows Donphan to tank Jolly Choice Band Haxorus, but comes with a faster Encore and Earthquake. The spread gives Donphan the capability to naturally outspeed Pokemon such as Sylveon and Azumarill.</li> </ul> "
-        },
-        {
           "name": "Endeavor",
           "description": "<ul> <li>Sturdy and Sitrus Berry allow Donphan to always get a Substitute up. This allows Donphan to beat Choice item Pokemon like Meowscarada and Chien-Pao, regardless of whether they go for an OHKO or not.</li> <li>Earthquake is Donphan's strongest STAB move, beating Pokemon like Magnezone and Clodsire.</li> <li>EVs are put into Attack and Defense to deal the most damage and help with physical attackers, since physical attacks rarely activate Sturdy.</li> <li>0 Speed IVs allow Donphan to be as slow as possible, which lets Substitute be used after slow threats like Dondozo and Garganacl move, creating a free turn to use Endeavor or Substitute again. 0 Special Defense IVs are used to activate Sturdy more often.</li> <li>Donphan should almost always use Substitute turn 1. Donphan should continue to use it until its HP does not allow it to do so, proceeding to use Endeavor + Ice Shard to go for the KO.</li> <li>An exception to this rule is that if Donphan can 2HKO with a combination Earthquake and Ice Shard, it should do that instead, such as against Choice item Dragapult, Magnezone, and Clodsire.</li> </ul> "
-        }
+        },
+        {"name": "Liechi Berry"}
       ],
-      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 579035, "username": "bored_glitch"}, {"user_id": 518399, "username": "Itchy"}, {"user_id": 517652, "username": "DripLegend"}]}, {"name": "Grammar checked by", "members": [{"user_id": 430518, "username": "Lunaflare"}, {"user_id": 384270, "username": "autumn"}, {"user_id": 583793, "username": "Sabelette"}, {"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 566051, "username": "lavarina"}, {"user_id": 579035, "username": "bored_glitch"}]}
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 518399, "username": "Itchy"}, {"user_id": 517652, "username": "DripLegend"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}, {"user_id": 517429, "username": "Adeleine"}]}, {"name": "Previous version written by", "members": [{"user_id": 566051, "username": "lavarina"}, {"user_id": 579035, "username": "bored_glitch"}]}, {"name": "Previous version quality checked by", "members": [{"user_id": 579035, "username": "bored_glitch"}, {"user_id": 518399, "username": "Itchy"}, {"user_id": 517652, "username": "DripLegend"}]}, {"name": "Previous version grammar checked by", "members": [{"user_id": 430518, "username": "Lunaflare"}, {"user_id": 384270, "username": "autumn"}, {"user_id": 583793, "username": "Sabelette"}, {"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 579035, "username": "bored_glitch"}]}
     }
   },
   "Blissey": {
@@ -873,8 +872,8 @@
           "name": "Trick + Disable",
           "description": "<ul> <li> <p>Trick gives the foe Sableye's Choice Scarf, allowing Sableye to use Disable and force it into using Struggle. This allows Sableye to beat threats like Dondozo, Iron Hands, and Donphan.</p> </li> <li> <p>Fling gets rid of any unwanted items, such as a given Assault Vest and Sableye's Choice Scarf.</p> </li> <li> <p>Recover allows Sableye to heal off damage dealt while stalling its foe.</p> </li> <li> <p>252 HP and Defense EVs with an Impish nature maximize Sableye's physical bulk.</p> </li> <li> <p>Sableye should almost always use Trick turn 1 and Disable turn 2, then repeatedly use Recover until the foe faints from Struggle recoil.</p> </li> <li> <p>An exception to this is with Choice item Pokemon like Choice Band Dondozo and Donphan, where Sableye should use Fling turn 1 and Disable turn 2, then spam Recover.</p> </li> <li> <p>Sableye struggles to beat Encore and Taunt users, like Annihilape and Skeledirge, and Pokemon that OHKO it, like Iron Valiant and Sylveon. Additionally, Sableye can not defeat Dark-types such as Meowscarada and Ting-Lu, due to its status moves not affecting them.</p> </li> </ul> "
         },
-        {"name": "Defensive Roseli Berry"},
-        {"name": "Specially Defensive Roseli Berry"}
+        {"name": "Roseli Berry"},
+        {"name": "Wisp Metal Burst"}
       ],
       "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 536219, "username": "fruan"}]}, {"name": "Quality checked by", "members": [{"user_id": 576556, "username": "Tom1535"}, {"user_id": 579035, "username": "bored_glitch"}, {"user_id": 493772, "username": "Lumii"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}, {"user_id": 467437, "username": "Dawn of Ares"}, {"user_id": 331519, "username": "CryoGyro"}]}], "writtenBy": [{"user_id": 579035, "username": "bored_glitch"}, {"user_id": 517652, "username": "DripLegend"}]}
     },
@@ -1135,7 +1134,8 @@
         }
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 375662, "username": "Isaiah"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 537972, "username": "Codename C.A.T"}]}
-    }
+    },
+    "nationaldexmonotype": {"sets": [{"name": "Swords Dance (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Lucario": {"uu": {"sets": [{"name": "Swords Dance", "description": "<p>Inner Focus prevents Lucario from having its Attack dropped by Salamence's Intimidate. Tera Normal lets Lucario gain a STAB bonus on its Extreme Speed to sweep teams after setting up.</p> "}]}, "monotype": {"sets": [{"name": "Swords Dance (Fighting)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
   "Hippopotas": {"nfe": {"sets": [{"name": "Physical Wall"}]}},
@@ -1245,6 +1245,7 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 330577, "username": "Thick Fat Azumarill"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 613881, "username": "Tachipoyo"}]}
     },
+    "1v1": {"sets": [{"name": "Choice Specs"}, {"name": "Magnet Rise"}, {"name": "Weakness Policy"}], "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 546922, "username": "bo_bobson27"}, {"user_id": 536219, "username": "fruan"}]}], "writtenBy": []}},
     "nationaldex": {"sets": [{"name": "Choice Scarf", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}
   },
   "Glaceon": {"pu": {"sets": [{"name": "Calm Mind"}, {"name": "Choice Specs"}]}},
@@ -1608,14 +1609,17 @@
     },
     "monotype": {
       "sets": [
-        {"name": "Offensive Quiver Dance (Bug)"},
+        {
+          "name": "The Original Moth (Bug)",
+          "description": "<p>Volcarona performs as a solid late-game setup sweeper for Bug teams, threatening to sweep any unprepared team thanks to Quiver Dance. Flamethrower is the go-to STAB move for Volcarona, as it hits Steel- and Ice-types such as Corviknight, Gholdengo, and Chien-Pao. Optionally, Fiery Dance can be used over Flamethrower, which has an additional effect of boosting Special Attack, but Flamethrower is preferred due to a higher Base Power. Psychic primarily covers Poison-types like Toxapex, Glimmora, and Iron Moth, but it also hits Fighting-types such as Quaquval and Great Tusk. Morning Sun provides reliable recovery, which allows Volcarona to further set up and threaten to sweep. Alternatively, Giga Drain targets Water- and Ground-type Pokemon such as Quagsire, Greninja, and Gastrodon. Bug Buzz can be used over Psychic to hit Dark- and Psychic-types such as Hydreigon, Ting-Lu, and Espathra. Heavy-Duty Boots keeps Volcarona safe from entry hazards, while Flame Body debilitates physical attackers. A Timid nature allows Volcarona to outspeed Choice Scarf Flamigo after a single Quiver Dance boost.</p> <p>Volcarona and Scizor make a great pair, as Scizor—thanks to its Steel-typing—helps Volcarona by switching into Toxic from Clodsire, and it deals with Rock-types such as Tyranitar and Lycanroc thanks to Bullet Punch. Volcarona appreciates entry hazard support from Forretress, which pressures and wears down the opposing team. Choice Scarf Heracross helps against Steel- and Dark-types—such as Iron Treads and Kingambit—and Flying-types—like Kilowattrel—with Close Combat and Stone Edge, respectively; in return, Volcarona helps deal with Corviknight, which Heracross struggles to break. Slither Wing threatens Flying- and Water-types such as Iron Jugulis, Pelipper, and Greninja with Wild Charge, and threatens Corviknight with Flare Blitz. It can safely pivot in Volcarona, enabling its sweep. Both Slither Wing and Heracross pressure specially defensive walls such as Clodsire and Blissey, which Volcarona struggles to break. Lokix helps against Ghost-, Psychic- and Dark-types like Skeledirge, Espathra, Armarouge, Meowscarada, and Greninja thanks to First Impression, Throat Chop, and Sucker Punch. Volcarona appreciates Sticky Web support from Masquerain or Spidops to deal with Choice Scarf Pokemon such as Iron Treads and Iron Moth.</p> "
+        },
         {"name": "Bulky Quiver Dance (Bug)", "description": "<p>These are the sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. These will be updated as the metagame continues to develop. Stay tuned!</p> "},
         {
           "name": "Quiver Dance (Fire)",
           "description": "<p>A potent offensive presence, Volcarona's access to Quiver Dance provides the backbone to its sweeping capabilities. Bug Buzz is Volcarona's main attacking option and can be combined with Swarm to increase damage as Volcarona loses HP while setting up, allowing Volcarona to OHKO checks like offensive Garchomp after one Quiver Dance. Psychic is essential, as it allows Volcarona to hit one of Fire's strongest checks, Toxapex, but also super effectively damages Poison-types and Fighting-types such as Glimmora and Quaquaval. The last slot is interchangeable, though generally Flamethrower is preferred as a STAB move that can also take advantage of sun support on Fire teams and is essential to for the Flying matchup, allowing it to hit Corviknight and Kilowattrel. Giga Drain can be used to give Volcarona a better chance of breaking through Water and Ground teams and give it a recovery option. Similarly, Morning Sun gives Volcarona more setup opportunities. Flame Body can also be used to threaten burns on Pokemon such as Kingambit and Dragonite, which oftentimes revenge kill Volcarona. Given its all-around solid defensive stats, Volcarona finds a myriad of opportunities to set up and takes advantage of the maximum Speed spread given to capitalize on the boosts as much as possible, outspeeding Pokemon such as Choice Scarf Great Tusk or Choice Scarf Dragapult after one or two Quiver Dances boosts, respectively</p> <p>Generally, Volcarona is best saved for mid- to late-game, when the opposing team has been chipped down and Volcarona has an opportunity to sweep after setting up. Utilizing its offensive teammates such as Scovillian, Cereludge, Cinderace, and Paldean Tauros-F to slowly chip down defensive walls such as Dodonzo, Ting-Lu, and Blissey provides better opportunity for Volcarona to sweep later in the game. Paldean Tauros-F is specifically useful with its ability to remove dual screens, preventing Volcarona's setup from being hindered. Rotom-H also provides excellent support, aiding in the Water matchup if Giga Drain is not used and providing pivot support to switch Volcarona in. Skeledirge and Talonflame provide defensive support to wear down offensive threats such as Dragonite. Torkoal providing sun support on Fire aids Volcarona, not only increasing Flamethrower's damage output, but giving Volcarona the opportunity to survive attacks like Choice Specs Greninja's Surf, giving it an opportunity to set up.</p> "
         }
       ],
-      "credits": {"teams": [{"name": "Fire analysis by", "members": [{"user_id": 468541, "username": "Azick"}]}, {"name": "Quality checked by", "members": [{"user_id": 542526, "username": "Neko"}, {"user_id": 305839, "username": "maroon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 384270, "username": "autumn"}]}], "writtenBy": [{"user_id": 468541, "username": "Azick"}]}
+      "credits": {"teams": [{"name": "Bug analysis by", "members": [{"user_id": 518038, "username": "Ashbala"}]}, {"name": "Fire analysis by", "members": [{"user_id": 468541, "username": "Azick"}]}, {"name": "Quality checked by", "members": [{"user_id": 574288, "username": "Giyu"}, {"user_id": 593863, "username": "CrossHeart"}, {"user_id": 542526, "username": "Neko"}, {"user_id": 305839, "username": "maroon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 594478, "username": "ken"}, {"user_id": 384270, "username": "autumn"}, {"user_id": 384270, "username": "autumn"}]}], "writtenBy": [{"user_id": 518038, "username": "Ashbala"}, {"user_id": 468541, "username": "Azick"}]}
     },
     "doublesou": {"sets": [{"name": "Quiver Dance"}]},
     "battlestadiumsingles": {
@@ -1735,7 +1739,8 @@
         }
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 467437, "username": "Dawn of Ares"}]}], "writtenBy": [{"user_id": 313542, "username": "Alexender"}]}
-    }
+    },
+    "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Stall"}], "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 536219, "username": "fruan"}]}], "writtenBy": []}}
   },
   "Pyroar": {"pu": {"sets": [{"name": "Special Attacker"}, {"name": "Choice"}]}},
   "Florges": {
@@ -1749,7 +1754,7 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}]}], "writtenBy": [{"user_id": 313542, "username": "Alexender"}]}
     }
   },
-  "Gogoat": {"pu": {"sets": [{"name": "Bulk Up"}, {"name": "All-out Attacker"}]}},
+  "Gogoat": {"pu": {"sets": [{"name": "Bulk Up"}, {"name": "Choice Band"}, {"name": "Assault Vest"}]}},
   "Dragalge": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Utility", "description": "<p>132 Speed EVs are to outrun uninvested Sylveon.</p> "}, {"name": "Choice Specs", "description": "<p>172 Speed EVs are to outrun uninvested Alomomola, Umbreon, and Vaporeon.</p> "}]}},
   "Clawitzer": {"nu": {"sets": [{"name": "Specs Wallbreaker"}]}},
   "Sylveon": {
@@ -1797,7 +1802,7 @@
     }
   },
   "Sliggoo": {"nfe": {"sets": [{"name": "Curse"}]}},
-  "Goodra": {"almostanyability": {"sets": [{"name": "RegenVest"}]}},
+  "Goodra": {"almostanyability": {"sets": [{"name": "RegenVest"}]}, "1v1": {"sets": [{"name": "Assault Vest"}], "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 546922, "username": "bo_bobson27"}]}], "writtenBy": []}}},
   "Klefki": {
     "ou": {"sets": [{"name": "Trick Room Setter"}]},
     "monotype": {
@@ -2387,7 +2392,11 @@
         {
           "name": "Choice Band",
           "description": "<ul> <li>Meowscarada utilizes its amazing Speed, great Attack stat, Protean, and Choice Band to cement itself as a great Pokemon within the tier.</li> <li>Flower Trick allows Meowscarada to handle Water-, Ground-, and Rock-types like Dondozo, Ting-Lu, and Garganacl.</li> <li>Knock Off is a great option for hitting Ghost- and Psychic-types such as non-Choice Scarf Gholdengo and Espathra. It is also useful for dealing with Magnezone, preventing Meowscarada from being OHKOed by a Choice Specs-boosted Hyper Beam.</li> <li>Sucker Punch can be used to OHKO Choice item Dragapult and Flutter Mane; however this requires prediction in regards to the latter and is generally an inferior option to Knock Off.</li> <li>Giga Impact is Meowscarada's strongest move at its disposal, letting it take on threats such as Sylveon and Clodsire.</li> <li>Play Rough hits Dragon- and Fighting-types like Goodra, Garchomp, and Gallade.</li> <li>Other options include moves like Thunder Punch and Shadow Claw, which beats stall Azumarill and Counter Annihilape, respectively.</li> <li>Alternatively, Meowscarada can opt to run a Leech Seed set with Substitute, Protect, Leech Seed, and Flower Trick with an EV spread of 240 HP / 16 Def / 252 Spe and Mental Herb to have a more reliable matchup against Annihilape, Iron Hands, and non-Timid Flutter Mane.</li> <li>Against Pokemon that can tank a hit from Meowscarada, like Iron Hands and Great Tusk, it is best to use moves that won't make Meowscarada vulnerable to the opposing Pokemon's attacks. Using Flower Trick on Iron Hands can let you win the one-on-one against it, as your opponent may predict Meowscarada turning into a Fairy-type and use Heavy Slam; this also applies to non-Speed Booster Energy and Choice Scarf Great Tusk, where Meowscarada may need to use Play Rough on a predicted Close Combat or Flower Trick on a Headlong Rush.</li> <li>Be wary against Donphan, Meowscarada fails to deal with its Sturdy and Counter.</li> </ul> "
-        }
+        },
+        {"name": "Choice Scarf"},
+        {"name": "Choice Specs"},
+        {"name": "Leech Seed"},
+        {"name": "Life Orb"}
       ],
       "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 506856, "username": "Potatochan"}]}, {"name": "Quality checked by", "members": [{"user_id": 579035, "username": "bored_glitch"}]}, {"name": "Grammar checked by", "members": [{"user_id": 430518, "username": "Lunaflare"}, {"user_id": 384270, "username": "autumn"}]}], "writtenBy": [{"user_id": 430787, "username": "PA"}]}
     },
@@ -2769,7 +2778,17 @@
   "Kilowattrel": {
     "ou": {"sets": [{"name": "Rain Sweeper"}]},
     "uu": {"sets": [{"name": "Offensive"}]},
-    "monotype": {"sets": [{"name": "Choice Specs (Flying)"}, {"name": "Offensive Electric Immunity (Flying)", "description": "<p>These are the sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. These will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
+    "monotype": {
+      "sets": [
+        {
+          "name": "Choice Specs (Flying)",
+          "description": "<p>Kilowattrel is an essential component to Flying teams, providing an Electric immunity, pivot support, an excellent Speed tier that allows it to outspeed Choice Specs Greninja and Iron Valiant, and a range of hard-hitting attacks. With rain support, Thunder can be used as Kilowattrel's hard-hitting STAB attack to hit Pokemon—such as Toxapex—that Flying teams can struggle to take down. Thunderbolt is a fine substitute on Flying teams that do not utilize rain. Volt Switch allows Kilowattrel to pivot, making use of Kilowattrel's high Speed tier to get off damage while not being Choice locked. Hurricane couples with the preceding moves to cover Kilowattrel's STAB combination, specifically hitting Ground-types such as Quagsire and Gastrodon. The last slot depends on whether rain is being taken advantage of: on rain teams, Weather Ball can be used to hit Ground-types such as Unaware Clodsire, while Air Slash is another option for non-rain teams that can make up for Hurricane's lower accuracy. Choice Specs allows Kilowattrel to hit extremely hard, letting it OHKO Pokemon such as Azumarill with Volt Switch and Amoonguss with Hurricane. Volt Absorb provides the only Electric immunity for Flying-type teams.</p> <p>Corviknight is one of Kilowattrel's greatest assets; beyond providing a neutral switch-in to Ice-type attacks—especially in the cases of Chien-Pao and Choice Scarf Greninja—Corviknight provides a physical wall that Kilowattrel can pivot into. It is also Flying's most common Defogger, which is essential, as Kilowattrel is susceptible to Stealth Rock damage, hindering its pivoting. Pelipper is very useful in supporting Kilowattrel, as rain support ensures accuracy of Kilowattrel's Thunder and Hurricane, and U-turn on Pelipper ensures safe pivoting. Talonflame is another defensive supporter, covering Kilowattrel's weakness to Ice-types and offering another Defogger. Dragonite hits the specially defensive walls that Kilowattrel struggles with such as Clodsire and Blissey. Gyarados finds great support from Kilowattrel; as Kilowattrel punches holes in defensive Pokemon such as Amoonguss and Toxapex, Gyarados will have a better chance to sweep late-game. While Kilowattrel has excellent Speed itself, Choice Scarf users such as Flamigo and Salamence can revenge kill Pokemon such as Dragapult and Flutter Mane that outspeed Kilowattrel. Bombirdier offers Stealth Rock support and uses Knock Off to remove key items such as Leftovers on Gastrodon, which puts it into 2HKO range of Hurricane after Stealth Rock damage.</p> "
+        },
+        {"name": "Offensive Ground Immunity (Electric)", "description": "<p>These are the sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. These will be updated as the metagame continues to develop. Stay tuned!</p> "},
+        {"name": "Offensive Electric Immunity (Flying)", "description": "<p>These are the sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. These will be updated as the metagame continues to develop. Stay tuned!</p> "}
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 518038, "username": "Ashbala"}, {"user_id": 542526, "username": "Neko"}]}, {"name": "Grammar checked by", "members": [{"user_id": 594478, "username": "ken"}, {"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 468541, "username": "Azick"}]}
+    },
     "doublesou": {"sets": [{"name": "Tailwind Setter"}]},
     "vgc2023": {
       "overview": "<ul> <li> <p>Kilowattrel stands out as one of the best Tailwind setters in the current metagame. Its base 125 Speed stat lets it set Tailwind first, with very little Prankster Tailwind Pokemon stopping it from doing so.</p> </li> <li> <p>Kilowattrel has a respectable base 105 Special Attack stat and a good offensive typing, allowing it to tackle the likes of Meowscarada and Gyarados well.</p> </li> <li> <p>Kilowattrel appreciates immediately hard-hitting partners such as Choice Specs Gholdengo and Garchomp to break through opposing teams. Gholdengo is great in particular thanks to its immunity to Dragonite's Extreme Speed.</p> </li> <li> <p>Kilowattrel is particularly frail, meaning it often only gets to set Tailwind and fire off a single attack before it faints. It also means in late-game scenarios, it is unreliable at dueling the meta's most common attackers like Gholdengo and Hydreigon.</p> </li> </ul> ",
@@ -3251,6 +3270,8 @@
         {"name": "Sitrus Berry"},
         {"name": "Specially Defensive Weakness Policy"},
         {"name": "Defensive Weakness Policy"},
+        {"name": "Assault Vest"},
+        {"name": "Choice Band"},
         {
           "name": "Roseli Berry",
           "description": "<ul> <li> <p>Defiant lets Annihilape counter stat-lowering strategies, such as Arcanine's Intimidate and Charm Azumarill.</p> </li> <li> <p>Roseli Berry lets Annihilape beat Fairy-types that it usually struggles or outright can't win against, such as Sylveon and Azumarill, along with Pokemon with Fairy coverage such as Play Rough + Choice Band Meowscarada.</p> </li> <li> <p>Bulk Up allows Annihilape to survive longer and boost Rage Fist's power, both by boosting Attack and taking hits, in front of foes such as Donphan.</p> </li> <li> <p>Gunk Shot is Annihilape's strongest move against most Fairy-types, such as Azumarill and Sylveon.</p> </li> <li> <p>Drain Punch nails Dark types, such as Ting-Lu and Chien Pao, alongside giving recovery against foes such as Donphan and Weakness Policy Ting-Lu.</p> </li> <li> <p>Counter can OHKO physical attackers Annihilape cannot damage easily, such as non-Swords Dance Iron Hands and Azumarill.</p> </li> <li> <p>Taunt and Encore are both used to disrupt various strategies. Taunt is better in denying offensive setup from foes, like opposing Annihilape, and blocking slower Taunt or Encore users such as uninvested Corviknight and Donphan. Encore better punishes defensive setup, such as Garganacl's Iron Defense and stall Arcanine.</p> </li> <li> <p>Annihilape's last moveslot comes with a lot of opportunity costs. Removing Drain Punch gives harder matchups against Dark-types like Ting-Lu. Not slotting Counter forces it to hit physical Fairy-types like Azumarill and Play Rough Meowscarada with Gunk Shot, which has lower accuracy.</p> </li> <li> <p>The HP and Special Defense investment with a Careful nature allows Annihilape to survive a Hyper Beam from Modest Choice Specs Sylveon. 116 Atk EVs let it 2HKO most Sylveon with Gunk Shot turn 1 and Rage Fist turn 2, minimizing miss chances. The remaining EVs are put in Speed to outspeed Modest Sylveon and Modest Magnezone.</p> </li> <li> <p>Annihilape struggles to deal with faster Pokemon with super effective STAB moves like Talonflame, most Dragapult, and faster Taunt users such as Booster Energy Great Tusk and Corviknight.</p> </li> </ul> "
@@ -3430,6 +3451,7 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 577920, "username": "Tea Guzzler"}, {"user_id": 626479, "username": "APOGRAPHA"}]}
     },
     "stabmons": {"sets": [{"name": "Swords Dance"}]},
+    "1v1": {"sets": [{"name": "Sitrus Berry"}, {"name": "Chople Berry"}], "credits": {"teams": [], "writtenBy": [{"user_id": 493772, "username": "Lumii"}]}},
     "nationaldex": {
       "sets": [
         {
@@ -3537,7 +3559,9 @@
       "sets": [
         {"name": "Booster Energy (Speed)", "description": "<ul> <li>Bulk Up further boosts Great Tusk's naturally high Attack and Defense stats.</li> <li>Booster Energy lets Great Tusk outspeed Meowscarada, Annihilape, and Corviknight.</li> <li>Knock Off can be used to remove Choice items from Dragapult, Gholdengo, and Magnezone.</li> <li>Great Tusk’s EV spread allows for maximum Attack while still procuring the Speed boost from its Booster Energy. The HP investment increases Great Tusk's bulk and ensures its HP remains odd to have a better matchup against Leech Seed.</li> <li>Due to Great Tusk's low Special Defense stat, it's weak to bulky special attackers such as Weakness Policy or Air Balloon Gholdengo and Skeledirge.</li> <li>Great Tusk is strong against Pokemon that it is able to outspeed due to Booster Energy and should use a damaging move against Choice Specs Iron Bundle, Meowscarada, and Chien Pao.</li> </ul> "},
         {"name": "Booster Energy (Attack)"},
-        {"name": "Choice Scarf", "description": "<ul> <li> <p>With maximum Attack and Speed EVs and Choice Scarf, Great Tusk can outspeed and OHKO Meowscarada, non-Speed Booster Energy Iron Bundle, and Chien-Pao.</p> </li> <li> <p>Head Smash is for Volcarona and Iron Jugulis.</p> </li> <li> <p>Heavy Slam is for bulky Flutter Mane sets and Choice Specs Sylveon.</p> </li> <li> <p>Alternatively, an EV spread of 164 Atk / 92 SpD / 252 Spe with Knock Off beats Modest Gholdengo, while some rolls, such as against Choice Specs Sylveon, become worse.</p> </li> <li> <p>Due to Great Tusk's low Special Defense, it is weak to special attackers like Skeledirge, Speed Booster Energy Iron Bundle, Babiri Berry Sylveon, and Iron Valiant.</p> </li> <li> <p>Since Great Tusk will be locked into an attacking move, opposing Annihilape can set up with Bulk Up and OHKO Great Tusk afterwards.</p> </li> </ul> "}
+        {"name": "Choice Scarf", "description": "<ul> <li> <p>With maximum Attack and Speed EVs and Choice Scarf, Great Tusk can outspeed and OHKO Meowscarada, non-Speed Booster Energy Iron Bundle, and Chien-Pao.</p> </li> <li> <p>Megahorn is for Brute Bonnet and some Wo-Chien</p> </li> <li> <p>Fire Fang is for Scizor.</p> </li> <li> <p>Head Smash is for Volcarona and Iron Jugulis.</p> </li> <li> <p>Heavy Slam is for some Sylveon.</p> </li> <li> <p>Due to Great Tusk's low Special Defense, it is weak to special attackers like Skeledirge, Speed Booster Energy Iron Bundle, Babiri Berry Sylveon, and Iron Valiant.</p> </li> <li> <p>Since Great Tusk will be locked into an attacking move, opposing Annihilape can set up with Bulk Up and OHKO Great Tusk afterwards.</p> </li> </ul> "},
+        {"name": "Choice Band"},
+        {"name": "Booster Energy (Defense)"}
       ],
       "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 546922, "username": "bo_bobson27"}, {"user_id": 541106, "username": "Adam3560"}]}, {"name": "Quality checked by", "members": [{"user_id": 489963, "username": "SwordIsBored"}, {"user_id": 579035, "username": "bored_glitch"}, {"user_id": 493772, "username": "Lumii"}]}, {"name": "Grammar checked by", "members": [{"user_id": 493772, "username": "Lumii"}, {"user_id": 523866, "username": "UT"}]}], "writtenBy": [{"user_id": 449859, "username": "DezShizzels"}]}
     },
@@ -3549,7 +3573,8 @@
         }
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 208105, "username": "Jho"}, {"user_id": 528036, "username": "Sulo"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 589564, "username": "hidin"}]}
-    }
+    },
+    "nationaldexmonotype": {"sets": [{"name": "Bulk Up (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Scream Tail": {
     "uu": {"sets": [{"name": "Wish Support", "description": "<p>Scream Tail should very rarely be Terastillized, as its typing is needed to check foes like Gallade, Hawlucha, and Noivern and there are far better users of the mechanic. However, Tera Steel can let it check Gardevoir, Grafaiai and Staraptor in a pinch.</p> "}]},
@@ -3788,7 +3813,9 @@
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 220859, "username": "Giagantic"}]}
     },
     "stabmons": {"sets": [{"name": "Offensive Spinner"}]},
-    "nationaldex": {"sets": [{"name": "Utility"}, {"name": "Assault Vest"}]}
+    "1v1": {"sets": [{"name": "Booster Energy (Speed)"}, {"name": "Choice Band"}], "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 546922, "username": "bo_bobson27"}]}], "writtenBy": []}},
+    "nationaldex": {"sets": [{"name": "Utility"}, {"name": "Assault Vest"}]},
+    "nationaldexmonotype": {"sets": [{"name": "Choice Scarf (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Iron Bundle": {
     "ubers": {
@@ -4255,7 +4282,8 @@
         }
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 523866, "username": "UT"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 577920, "username": "Tea Guzzler"}, {"user_id": 475288, "username": "Tranquility"}]}
-    }
+    },
+    "1v1": {"sets": [{"name": "Choice Band"}], "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 443250, "username": "TheShadowClaw"}]}], "writtenBy": []}}
   },
   "Ting-Lu": {
     "ou": {
@@ -4296,7 +4324,20 @@
       "credits": {"teams": [{"name": "Dark analysis by", "members": [{"user_id": 571069, "username": "Dead by Daylight"}]}, {"name": "Quality checked by", "members": [{"user_id": 547532, "username": "Swiffix"}, {"user_id": 305839, "username": "maroon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 571069, "username": "Dead by Daylight"}]}
     },
     "doublesou": {"sets": [{"name": "Bulky Utility", "description": "<ul> <li>This EV spread and nature ensures that Ting Lu always OHKOs Chi-Yu with Stomping Tantrum or Earthquake, and then uses the remaining EVs to maximize its special bulk.</li> </ul> <p>This is a sample set as we work on proper analyses. Stay tuned!</p> "}]},
-    "battlestadiumsingles": {"sets": [{"name": "Hazards Support"}, {"name": "Assault Vest"}]},
+    "battlestadiumsingles": {
+      "overview": "<p>This analysis is for the Regulation C format of Battle Stadium Singles, which lasts until June 30th, 2023. For more information on this format and its current events, check out the format page!</p> <p>If you feel this analysis is missing anything important or needs an update, feel free to suggest any changes here.</p> ",
+      "sets": [
+        {
+          "name": "Stealth Rock Support",
+          "description": "<ul> <li> <p>Ting-Lu's absurd bulk and excellent support movepool make it the premier Stealth Rock setter in the metagame!</p> </li> <li> <p><strong>Ruination</strong>: Ruination gives Ting-Lu the most consistent option for damage output, without resorting to offensive investment.</p> </li> <li> <p><strong>Heavy Slam</strong>: Heavy Slam deals serious damage to Fairy-types, with Flutter Mane in particular needing a huge amount of defensive investment to avoid being OHKOed by it.</p> </li> <li> <p><strong>Fissure: Fissure lets Ting-Lu potentially punish passive Pokemon without Substitute, such as Toxapex.</p> </li> <li> <p><strong>Taunt: While Ting-Lu's Speed is awful compared to most Taunt users, using Taunt against foes like Corviknight on the switch is still useful. Note that while using Taunt against Toxapex can be useful, it is highly likely to run Mental Herb, which risks getting Ting-Lu poisoned.</p> </li> </ul> <h1>Other Options</h1> <ul> <li><strong>Spikes</strong>: Getting Stealth Rock and Spikes together makes Whirlwind a very effective damage dealing tool, in addition to supporting other offensive Pokemon. However, it can be difficult to set up without compromising Ting-Lu's damage output.</li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Tera Dependency - Medium: Even with Ting-Lu's fantastic bulk, Terastallization greatly increases the amount of Pokemon it can beat one-on-one, such as Flutter Mane and Iron Bundle.</p> </li> <li> <p><strong>Poison: Tera Poison gives Ting-Lu an important resistance to Fairy and Fighting, and it lets it absorb Toxic Spikes.</p> </li> <li> <p><strong>Fairy</strong>: In addition to a useful Fighting resistance, Tera Fairy helps Ting-Lu against powerful Dragon-types like Choice Band Dragonite and Garchomp.</p> </li> <li> <p><strong>Water: With Tera Water, Ting-Lu has a better matchup against Azumarill and Chi-Yu.</p> </li> <li> <p><strong>Steel: Tera Steel retaining a Fighting weakness is unfortunate, but in exchange, Heavy Slam will OHKO even most bulky Flutter Mane, and it gives Ting-Lu a good matchup against Iron Bundle.</p> </li> <li> <p><strong>Grass</strong>: Tera Grass is Ting-Lu's best bet against Breloom and Amoonguss's Spore, and it provides aid against Azumarill and Rotom-W.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Sitrus Berry versus Leftovers: Ting-Lu's lack of reliable recovery usually makes Sitrus Berry the most reliable method of surviving an extra attack. Sitrus Berry is a high value enough item where Leftovers is a good alternative.</p> </li> <li> <p><strong>Mental Herb</strong>: Mental Herb can be used to nullify one use of Taunt or Encore, which Ting-Lu is fairly vulnerable to, at the cost of reducing its lifespan with a lack of any recovery.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li> <p><strong>Maximum Physical Defense versus Maximum Special Defense</strong>: Specializing in one defensive stat depends on which threats Ting-Lu needs to handle, with physically defensive variants preforming better against threats like Dragonite, Garchomp, and Kingambit, and when Terastallized, Chien-Pao, Azumarill, and Baxcalibur. For specially defensive variants, major targets include Gholdengo and Iron Moth, and when Terastallized, Flutter Mane, Iron Bundle, and Chi-Yu.</p> </li> <li> <p><strong>44 HP / 252 Def / 212 SpD with Careful: This EV spread is optimized for use with Sitrus Berry, letting Ting-Lu avoid a 2HKO from Choice Band Dragonite's Outrage, and Timid Tera Fairy Flutter Mane's Moonblast when Terastallized to a neutral typing.</p> </li> <li> <p><strong>212 HP / 148 Def / 148 SpD with Impish</strong>: This EV spread avoids a 2HKO from Choice Band Dragonite's Outrage if Ting-Lu holds Leftovers.</p> </li> </ul> "
+        },
+        {
+          "name": "Assault Vest",
+          "description": "<ul> <li> <p>Assault Vest and Vessel of Ruin combine to make Ting-Lu an especially formidable tank.</p> </li> <li> <p><strong>Payback versus Throat Chop</strong>: Payback will usually deal more damage thanks to how slow Ting-Lu is, but Throat Chop will punish Pokemon that switch in more.</p> </li> <li> <p><strong>Heavy Slam</strong>: Heavy Slam deals far more damage to Flutter Mane and Mimikyu than any other attack, with even Bold Flutter Mane having a good shot at being OHKOed after Stealth Rock damage.</p> </li> <li> <p><strong>Fissure: Fissure is Ting-Lu's best shot at KOing bulky foes like Dondozo.</p> </li> <li> <p><strong>EV Spread: The given EV spread maximizes Ting-Lu's Attack and special bulk.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Tera Dependency - Medium</strong>: While Ting-Lu doesn't need Terastallization to function, it makes it far more effective at beating a wide variety of Pokemon one-on-one.</p> </li> <li> <p><strong>Fairy</strong>: Tera Fairy not only helps Ting-Lu against powerful Dragon- and Fighting-type attacks, but it also gives Ting-Lu a good Tera Blast to hit Dragonite with.</p> </li> <li> <p>**Ground **: Besides getting rid of its troublesome Fairy and Fighting weaknesses, Tera Ground gives Ting-Lu more offensive presence with Earthquake.</p> </li> <li> <p><strong>Water: Tera Water is not only a fantastic defensive typing, but it also lets Ting-Lu avoid a 2HKO from Tera Fire Choice Specs Chi-Yu's Overheat.</p> </li> <li> <p><strong>Poison: Tera Poison gives Ting-Lu a vital Fairy resistance against Flutter Mane and Mimikyu, and it lets it absorb the dreaded Toxic Spikes.</p> </li> <li> <p><strong>Grass</strong>: Tera Grass improves the matchup against Azumarill and Rotom-W, in addition to making Ting-Lu immune to Spore from Breloom and Brute Bonnet.</p> </li> <li> <p><strong>Electric: Tera Electric's resistances aren't amazing, but they give Ting-Lu a sole weakness to Ground and a useful Tera Blast to wear down Dondozo and Corviknight.</p> </li> <li> <p><strong>Steel: Tera Steel gives Ting-Lu a powerful STAB Heavy Slam, giving it a great matchup against Flutter Mane and Iron Bundle.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 62165, "username": "StarkGod"}, {"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528036, "username": "Sulo"}]}], "writtenBy": [{"user_id": 29010, "username": "Theorymon"}]}
+    },
     "balancedhackmons": {
       "sets": [
         {
@@ -4324,6 +4365,7 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 220859, "username": "Giagantic"}, {"user_id": 517892, "username": "pannu"}]}, {"name": "Grammar checked by", "members": [{"user_id": 297659, "username": "deetah"}]}], "writtenBy": [{"user_id": 464398, "username": "LBDC"}]}
     },
+    "1v1": {"sets": [{"name": "Weakness Policy"}, {"name": "Choice Band"}], "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 546922, "username": "bo_bobson27"}, {"user_id": 563325, "username": "Justdelemon"}, {"user_id": 576556, "username": "Tom1535"}]}], "writtenBy": []}},
     "nationaldex": {
       "sets": [
         {
@@ -4333,7 +4375,7 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 515767, "username": "Ryuji"}, {"user_id": 528036, "username": "Sulo"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 529732, "username": "adem"}]}
     },
-    "nationaldexmonotype": {"sets": [{"name": "Mixed Wall (Dark)", "description": "<p>Not 2HKO'ed by Choice Scarf Tapu Lele and OHKO'es it back with Heavy Slam.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
+    "nationaldexmonotype": {"sets": [{"name": "Mixed Wall (Dark)", "description": "<p>Not 2HKO'ed by Choice Scarf Tapu Lele and OHKO'es it back with Heavy Slam.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Physically Defensive (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Chi-Yu": {
     "ubers": {
@@ -4548,7 +4590,7 @@
       ],
       "credits": {"teams": [{"name": "Quality checked by", "members": [{"user_id": 220859, "username": "Giagantic"}, {"user_id": 464398, "username": "LBDC"}]}, {"name": "Grammar checked by", "members": [{"user_id": 375662, "username": "Isaiah"}, {"user_id": 517429, "username": "Adeleine"}]}], "writtenBy": [{"user_id": 525446, "username": "Ducky"}]}
     },
-    "1v1": {"sets": [{"name": "Encore + Disable"}, {"name": "Mixed Offense"}], "credits": {"teams": [{"name": "Set(s) created by", "members": [{"user_id": 546922, "username": "bo_bobson27"}]}], "writtenBy": []}},
+    "1v1": {"sets": [{"name": "Encore + Disable"}, {"name": "Mixed Offense"}], "credits": {"teams": [], "writtenBy": [{"user_id": 546922, "username": "bo_bobson27"}, {"user_id": 536219, "username": "fruan"}]}},
     "nationaldex": {
       "sets": [
         {
