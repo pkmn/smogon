@@ -54,7 +54,7 @@
   "Gloom": {"middlecup": {"Double Powder": {"moves": ["Sleep Powder", "Stun Spore", "Mega Drain", "Double-Edge"]}}},
   "Vileplume": {"uu": {"Defensive Pivot": {"moves": ["Sleep Powder", ["Stun Spore", "Swords Dance"], "Mega Drain", ["Body Slam", "Hyper Beam"]]}}, "nu": {"Double Powder": {"moves": ["Sleep Powder", "Stun Spore", "Mega Drain", "Body Slam"]}, "Swords Dance": {"moves": ["Swords Dance", ["Sleep Powder", "Stun Spore"], "Mega Drain", ["Body Slam", "Hyper Beam"]]}}},
   "Paras": {"lclevel100": {"Double Powder": {"moves": ["Spore", "Stun Spore", "Slash", ["Mega Drain", "Leech Life"]]}}},
-  "Parasect": {"nu": {"Setup Sleeper": {"moves": ["Spore", "Stun Spore", ["Swords Dance", "Body Slam"], ["Hyper Beam", "Body Slam"]]}}, "nintendocup1997": {"Double Powder": {"level": [55, 51], "moves": ["Spore", ["Stun Spore", "Toxic"], "Slash", "Mega Drain"]}}},
+  "Parasect": {"pu": {"Setup Sleeper": {"moves": ["Spore", "Stun Spore", ["Swords Dance", "Body Slam"], ["Hyper Beam", "Body Slam"]]}}, "nintendocup1997": {"Double Powder": {"level": [55, 51], "moves": ["Spore", ["Stun Spore", "Toxic"], "Slash", "Mega Drain"]}}},
   "Venonat": {"lclevel100": {"Sleeper": {"moves": ["Sleep Powder", "Psychic", "Mega Drain", "Double-Edge"]}}},
   "Venomoth": {"nu": {"Double Powder": {"moves": ["Sleep Powder", "Stun Spore", "Psychic", ["Mega Drain", "Double-Edge"]]}}, "nintendocup1997": {"Double Powder": {"moves": ["Sleep Powder", ["Stun Spore", "Toxic"], "Psychic", ["Mega Drain", "Double Team"]]}}, "nintendocup1999": {"Paralysis Support": {"moves": ["Stun Spore", ["Sleep Powder", "Mega Drain"], "Psychic", "Substitute"]}}},
   "Diglett": {"lclevel100": {"Physical Sweeper": {"moves": ["Earthquake", "Rock Slide", "Slash", "Substitute"]}}, "petitcup": {"Physical Sweeper": {"moves": ["Earthquake", "Rock Slide", ["Body Slam", "Fissure"], "Substitute"]}}},
@@ -102,7 +102,7 @@
   "Victreebel": {
     "uu": {"Attacker": {"moves": ["Razor Leaf", "Stun Spore", "Hyper Beam", ["Swords Dance", "Wrap"]]}},
     "ubers": {"Wrap": {"moves": ["Wrap", "Razor Leaf", "Sleep Powder", ["Stun Spore", "Hyper Beam", "Swords Dance"]]}},
-    "ou": {"Wrapper": {"moves": ["Sleep Powder", "Wrap", "Razor Leaf", ["Stun Spore", "Hyper Beam"]]}},
+    "ou": {"Standard": {"moves": ["Sleep Powder", "Wrap", "Razor Leaf", ["Stun Spore", "Hyper Beam"]]}, "Swords Dance": {"moves": ["Swords Dance", "Hyper Beam", "Razor Leaf", ["Wrap", "Sleep Powder", "Stun Spore"]]}},
     "nintendocup1997": {"Standard": {"level": [55, 53, 51], "moves": [["Sleep Powder", "Stun Spore"], ["Swords Dance", "Wrap"], "Razor Leaf", "Hyper Beam"]}},
     "nintendocup1999": {"Swords Dance": {"moves": ["Swords Dance", "Body Slam", "Razor Leaf", ["Stun Spore", "Sleep Powder"]]}, "Double Powder": {"moves": ["Sleep Powder", "Stun Spore", "Razor Leaf", ["Wrap", "Body Slam"]]}},
     "tradebacksou": {"Wrap": {"moves": ["Wrap", "Razor Leaf", ["Sleep Powder", "Stun Spore"], ["Stun Spore", "Hyper Beam"]]}, "Swords Dance": {"moves": ["Swords Dance", "Hyper Beam", "Razor Leaf", ["Sleep Powder", "Stun Spore"]]}},
@@ -151,7 +151,7 @@
     "stadiumou": {"Standard": {"moves": ["Night Shade", "Thunderbolt", "Explosion", ["Substitute", "Hypnosis", "Mega Drain"]]}},
     "pikacup": {"Explosion": {"moves": ["Thunderbolt", "Psychic", ["Mega Drain", "Night Shade"], "Explosion"]}}
   },
-  "Onix": {"nu": {"Bind Pivot": {"moves": ["Bind", ["Rock Slide", "Toxic"], "Earthquake", "Explosion"]}}, "nintendocup1997": {"Toxic + Bind": {"level": [50, 52], "moves": ["Bind", "Toxic", "Earthquake", "Explosion"]}}},
+  "Onix": {"pu": {"Bind Pivot": {"moves": ["Bind", ["Toxic", "Body Slam"], "Earthquake", "Explosion"]}}, "nintendocup1997": {"Toxic + Bind": {"level": [50, 52], "moves": ["Bind", "Toxic", "Earthquake", "Explosion"]}}},
   "Drowzee": {"nu": {"Standard": {"moves": ["Psychic", ["Seismic Toss", "Hypnosis"], "Thunder Wave", "Rest"]}}, "pu": {"Bulky Support": {"moves": ["Hypnosis", "Psychic", "Seismic Toss", "Thunder Wave"]}}, "lclevel100": {"Special Wall": {"moves": ["Psychic", "Seismic Toss", ["Hypnosis", "Thunder Wave"], "Rest"]}}},
   "Hypno": {"uu": {"": {"moves": ["Psychic", "Seismic Toss", "Thunder Wave", ["Counter", "Rest"]]}, "Standard": {"moves": ["Psychic", "Seismic Toss", "Thunder Wave", "Rest"]}, "Sleeper": {"moves": ["Hypnosis", ["Psychic", "Seismic Toss"], "Thunder Wave", ["Rest", "Seismic Toss"]]}}, "ubers": {"Sleeper": {"moves": ["Hypnosis", "Thunder Wave", "Psychic", ["Seismic Toss", "Rest"]]}}, "ou": {"Double Status": {"moves": ["Hypnosis", "Thunder Wave", "Psychic", ["Seismic Toss", "Rest"]]}}, "nintendocup1997": {"Status Utility": {"level": [55, 53], "moves": ["Hypnosis", ["Thunder Wave", "Toxic"], "Psychic", ["Seismic Toss", "Rest"]]}}, "tradebacksou": {"Amnesia": {"moves": ["Amnesia", "Psychic", ["Reflect", "Ice Punch", "Thunder Punch"], ["Rest", "Thunder Wave", "Hypnosis"]]}}, "stadiumou": {"Counter": {"moves": ["Psychic", ["Counter", "Seismic Toss"], "Thunder Wave", "Rest"]}}},
   "Krabby": {"lclevel100": {"Swords Dance": {"moves": ["Swords Dance", "Crabhammer", "Body Slam", ["Stomp", "Blizzard"]]}}},
@@ -171,8 +171,8 @@
     "pikacup": {"Bulky Attacker": {"moves": ["Psychic", "Mega Drain", ["Double-Edge", "Strength"], ["Explosion", "Rest"]]}}
   },
   "Cubone": {"lclevel100": {"Counter": {"moves": ["Earthquake", "Body Slam", "Blizzard", "Counter"]}}, "petitcup": {"Mixed Attacker": {"moves": ["Earthquake", "Body Slam", "Blizzard", "Counter"]}}},
-  "Marowak": {"nu": {"Counter": {"moves": ["Earthquake", "Body Slam", "Blizzard", "Counter"]}}, "nintendocup1997": {"Counter": {"level": [55, 52], "moves": ["Earthquake", "Body Slam", "Blizzard", "Counter"]}}},
-  "Hitmonlee": {"nu": {"Meditate Attacker": {"moves": ["Meditate", "High Jump Kick", "Body Slam", ["Counter", "Seismic Toss", "Mega Kick"]]}}},
+  "Marowak": {"pu": {"Standard": {"moves": ["Earthquake", "Body Slam", ["Blizzard", "Counter"], ["Fire Blast", "Counter"]]}}, "nintendocup1997": {"Counter": {"level": [55, 52], "moves": ["Earthquake", "Body Slam", "Blizzard", "Counter"]}}},
+  "Hitmonlee": {"pu": {"Meditate Attacker": {"moves": ["High Jump Kick", "Meditate", "Body Slam", "Seismic Toss"]}}},
   "Hitmonchan": {"nu": {"Physical Attacker": {"moves": ["Submission", "Body Slam", "Agility", ["Counter", "Ice Punch"]]}}},
   "Lickitung": {"nu": {"Swords Dance": {"moves": ["Swords Dance", "Body Slam", "Earthquake", "Wrap"]}}},
   "Koffing": {"lclevel100": {"Explosion": {"moves": ["Sludge", "Fire Blast", "Thunderbolt", "Explosion"]}}},
@@ -228,7 +228,7 @@
     "stadiumou": {"Confuse Ray": {"moves": ["Confuse Ray", "Blizzard", "Thunderbolt", "Body Slam"]}},
     "pikacup": {"Wallbreaker": {"level": [15, 16, 17, 18, 19, 20], "moves": ["Thunderbolt", "Blizzard", ["Surf", "Body Slam"], "Dragon Rage"]}, "Double Team + Rest": {"level": [15, 16, 17, 18, 19, 20], "moves": [["Ice Beam", "Blizzard"], "Dragon Rage", "Double Team", "Rest"]}}
   },
-  "Ditto": {"nu": {"Transformer": {"moves": ["Transform"]}}},
+  "Ditto": {"pu": {"Transformer": {"moves": ["Transform"]}}},
   "Eevee": {"lclevel100": {"Physical Attacker": {"moves": ["Body Slam", "Double-Edge", "Quick Attack", "Sand Attack"]}, "Reflect + Rest": {"moves": ["Body Slam", "Double-Edge", "Reflect", "Rest"]}}},
   "Vaporeon": {"uu": {"Bulky Special Attacker": {"moves": ["Surf", "Blizzard", "Body Slam", "Rest"]}}, "nintendocup1997": {"Haze": {"level": [50, 55], "moves": [["Surf", "Blizzard"], ["Body Slam", "Double Team"], "Haze", "Rest"]}}, "stabmons": {"STABmons": {"moves": ["Crabhammer", ["Blizzard", "Explosion"], "Glare", "Recover"]}}, "tradebacksou": {"Growth": {"moves": ["Growth", "Rest", "Surf", ["Acid Armor", "Ice Beam"]]}}},
   "Jolteon": {"ou": {"Offensive": {"moves": ["Thunder Wave", "Thunderbolt", "Double Kick", ["Rest", "Pin Missile"]]}}, "ubers": {"Paralysis Lead": {"moves": ["Thunder Wave", "Thunderbolt", "Pin Missile", "Double Kick"]}}, "nintendocup1997": {"Double Team + Rest": {"level": [55, 53, 51], "moves": ["Thunderbolt", ["Thunder Wave", "Pin Missile"], "Double Team", "Rest"]}}, "stabmons": {"STABmons": {"moves": ["Thunderbolt", "Thunder Wave", "Super Fang", "Explosion"]}}, "1v1": {"Rest": {"moves": ["Thunderbolt", ["Thunder Wave", "Pin Missile"], "Toxic", "Rest"]}}, "tradebacksou": {"Standard Rest": {"moves": ["Thunder Wave", "Thunderbolt", "Double Kick", ["Rest", "Pin Missile"]]}, "Growth": {"moves": ["Growth", "Thunderbolt", "Double Kick", "Thunder Wave"]}}, "stadiumou": {"Standard": {"moves": ["Thunder Wave", "Thunderbolt", "Double Kick", ["Rest", "Pin Missile"]]}, "Focus Energy": {"moves": ["Focus Energy", "Thunder Wave", "Thunderbolt", ["Double Kick", "Pin Missile", "Rest"]]}}},
