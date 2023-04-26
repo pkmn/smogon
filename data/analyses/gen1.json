@@ -28,7 +28,7 @@
       "credits": {"writtenBy": [], "teams": [{"name": "Quality checked by", "members": [{"username": "Zokuru", "user_id": 263906}, {"username": "Plague von Karma", "user_id": 236353}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
     "nintendocup1997": {"sets": [{"name": "Status Support"}]},
-    "1v1": {"sets": [{"name": "Leech Seed + Toxic"}]}
+    "1v1": {"sets": [{"name": "SubSeed"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}}
   },
   "Charmander": {"lclevel100": {"sets": [{"name": "Slash"}]}, "petitcup": {"sets": [{"name": "Slash"}, {"name": "Swords Dance"}]}},
   "Charmeleon": {"middlecup": {"sets": [{"name": "Slash"}]}},
@@ -140,15 +140,15 @@
   "Pidgey": {"lclevel100": {"sets": [{"name": "Mirror Move"}]}},
   "Pidgeotto": {"middlecup": {"sets": [{"name": "Mirror Move"}]}},
   "Pidgeot": {
-    "nu": {
-      "overview": "<p>Pidgeot is thoroughly outclassed by Fearow in RBY NU, except in the bulk department. Pidgeot has worse Speed and offensive stats plus a barren movepool lacking in reliable Flying STAB, making it unable to distinguish itself offensively. Furthermore, with bulky offensive Flying-types like Moltres in the tier, it struggles to actualize defensive roles as well. Ergo, Pidgeot should not be used on any competitive RBY NU team, and Pokemon like Fearow, Moltres, and Charizard should be looked to first.</p> ",
+    "pu": {
+      "overview": "<p>Pidgeot is completely outclassed by Fearow, as its better bulk is completely overshadowed by Fearow's higher Attack, Speed, and access to Drill Peck. Pidgeot falls into all the same pitfalls as Fearow, including a losing matchup against Rock-types, a difficult BoltBeam weakness, and a fear of paralysis. The lack of Drill Peck leaves Pidgeot with a much worse matchup against Pinsir and Gastly, which it struggles to hit. As a result, Pidgeot should never be used on any serious team.</p> ",
       "sets": [
         {
-          "name": "Agility Sweeper",
-          "description": "<p>This is the best that Pidgeot can muster with its horrid movepool. Double-Edge and Hyper Beam act as its STAB options, 2HKOing Pokemon like Raticate, Dragonair, Venomoth, Fearow, and Rapidash if used in sequence. Mirror Move gives Pidgeot some slight flexibility, allowing it to potentially use moves like Earthquake after switching in, but it won't help Pidgeot against Pokemon that don't use moves they're weak to, like Charizard and Rapidash. Agility allows Pidgeot to ignore the Speed drop from paralysis and outspeed the unboosted metagame, giving it a shot at a late-game sweep.</p> <p>Pidgeot doesn't have much in the way of customization due to its barren movepool. Toxic is a valid alternative to Agility for thwarting wrappers like Charizard, Dragonair, and Rapidash, making them take more damage than they deal. Sky Attack is an unwieldy but serviceable STAB option that can deal major damage, but it often just ends up letting Golem in. Finally, Substitute can be used to relieve prediction with bonus Mirror Move synergy, letting Pidgeot scout for a potential move to copy. Pidgeot is best used on teams that already include Fearow to develop a Normal attacking core, as otherwise, it has no niche in the tier whatsoever.</p> "
+          "name": "Standard",
+          "description": "<p>Double-Edge and Hyper Beam serve as powerful STAB attacks coming off of Pidgeot's high Attack, seriously threatening neutral targets such as Staryu, Drowzee, and Dragonair. Sky Attack is Pidgeot's strongest attack against Gastly; it has a 64.1% chance to OHKO, and it also does at least 78.6% to Pinsir. Agility lets Pidgeot boost its Speed and reapply paralysis, notably aiding its role as an endgame cleaner. Alternatively, Toxic lets Pidgeot weaken Rock-types. Mirror Move is also an option in the last slot, potentially letting Pidgeot copy something useful like Earthquake or Swords Dance.</p> <p>Since Pidgeot is outclassed, it can only be justified if brought alongside Fearow. They share Rock-type counters like Omanyte and Graveler, so Porygon is a useful partner. Rapidash and Arcanine also gives this duo trouble, so Omanyte works well in countering them. Given that Gastly easily switches into Pidgeot and forces it to use Sky Attack, checks to it like Drowzee and Abra are essential. Pidgeot hates being paralyzed, so it's best used either as an endgame cleaner when all opposing paralysis spreaders have been weakened or KOed or as a midgame wallbreaker willing to sacrifice itself to aid another cleaner.</p> "
         }
       ],
-      "credits": {"writtenBy": [{"username": "Plague von Karma", "user_id": 236353}], "teams": [{"name": "Earlier version by", "members": [{"username": "Lesm46", "user_id": 34}]}, {"name": "Quality checked by", "members": [{"username": "Volk", "user_id": 530877}, {"username": "Amaranth", "user_id": 265630}, {"username": "pac", "user_id": 520967}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "Muk", "user_id": 33374}]}]}
+      "credits": {"writtenBy": [{"username": "Gangsta Spongebob", "user_id": 535530}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sabelette", "user_id": 583793}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}]}]}
     }
   },
   "Rattata": {"lclevel100": {"sets": [{"name": "Super Fang"}]}, "petitcup": {"sets": [{"name": "Focus Energy"}]}},
@@ -396,15 +396,10 @@
   },
   "Zubat": {"lclevel100": {"sets": [{"name": "Offensive"}]}},
   "Golbat": {
-    "nu": {
-      "overview": "<p>Golbat, just like in Cerulean Cave, is not going to be doing much more than annoying your opponent most of the time. It is a terrible Pokemon due to its bad movepool, mediocre stats, and weak typing. Golbat has a few main gimmicks that let it somewhat stand out from other Pokemon. Uniquely, Golbat is the only Pokemon that is immune to both Toxic and Earthquake, giving it a small defensive niche due to its ability to support teammates that dislike taking Toxic, such as Rapidash and Dragonair, as well as its ability to pivot around Earthquake users such as Charizard and Golem. In addition, it is the only Flying-type to also have access to Confuse Ray, and it has access to Screech. Golbat's other utilities, such as its decent speed tier, are made inferior since better Pokemon have these same traits, such as Charizard and Venomoth. Golbat should never be considered for a competitive NU team.</p> ",
-      "sets": [
-        {
-          "name": "Utility Screech",
-          "description": "<p>This set aims to make the best of the effects that Golbat can inflict on the foe. Screech allows Double-Edge to do more damage and threaten a potential KO on an already weakened Pokemon. However, the issue with Screech is that the foe can simply switch out, vastly decreasing Golbat's damage output. However, having to switch bothers boosted Pokemon like Kingler and Pinsir. In addition to this, Screech helps to encourage predictable switching and reapplying paralysis Speed drops. Confuse Ray provides Golbat opportunities to use Screech, especially in situations against paralyzed Pokemon, and increases its damage alongside Screech. Confuse Ray is also useful in disrupting wrappers and setup sweepers. Mega Drain allows Golbat to not be walled by the relevant Rock-types, landing a 3HKO on Golem and Kabutops.</p> <p>Due to Golbat's extremely shallow movepool, it does not have very many other options. Substitute can be used to reduce the need for prediction, allowing Golbat to scout and potentially even get more opportunities to use moves such as Confuse Ray and Screech. Hyper Beam instead of Double-Edge also profits off of the extra damage that Screech provides, although the opposing Pokemon can simply switch out and force Golbat to recharge. However, a previously-setup Substitute can improve this situation by leaving it invulnerable during the recharge turn. Finally, Toxic can be used to interrupt partial trapping from the likes of Dragonair and Moltres more consistently than Confuse Ray. If paired with your own wrappers, Toxic allows you to rack up large amounts of damage quickly without the need to setup Screech like Confuse Ray has.</p> <p>If Golbat is to be used, it should be utilized for its unique pivoting capabilities. For this reason, pairing it with Fire Spin users like Rapidash and Ninetales is beneficial, as they dislike the chip damage that Toxic inflicts. Golbat can also synergize well with physical attackers like Golem and Fearow, as its access to Screech can potentially help boost their offensive potential. Golem is especially notable, as a poisoned Golem loses defensive utility versus partial trappers, and it helps to solve Golbat's susceptibility to Electrode and tier-king Mr. Mime.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "pac", "user_id": 520967}], "teams": [{"name": "Quality checked by", "members": [{"username": "Plague von Karma", "user_id": 236353}, {"username": "phoopes", "user_id": 96315}, {"username": "pac", "user_id": 520967}, {"username": "Enigami", "user_id": 233818}, {"username": "Volk", "user_id": 530877}]}, {"name": "Grammar checked by", "members": [{"username": "Kris", "user_id": 241023}, {"username": "Adeleine", "user_id": 517429}]}]}
+    "pu": {
+      "overview": "<p>Clearly winging it, Golbat doesn't have even the slightest hope of taking flight in PU. Right off the bat, outside of its above-average Speed, all of its stats are below-average to bad. It lacks any powerful attacks or utility options, usually failing to draw blood from its target. In fact, it's completely unable to sink its fangs into Gastly due to its lack of coverage. Its typing is also very subpar, leaving it battered in the face of common Ice-, Psychic-, and Electric-type attacks. While its Speed and access to Confuse Ray are quite solid, the only thing blood curdling about this vampire bat is how terrible it is.</p> ",
+      "sets": [{"name": "Standard", "description": "<p>Confuse Ray can give Golbat extra turns, though it's quite unreliable. Screech is the most useful form of utility Golbat has, and it slightly abates its low attacking power. Double-Edge is Golbat's primary means of battering its opponent. Hyper Beam can be used over Screech or Double-Edge as Golbat's most powerful attack. Mega Drain lets Golbat leech health off its target but is only useful as coverage against Rock-types, such as Graveler and Omanyte. While Golbat already does about as much damage as a vampire in the sun, Gastly completely stonewalls Golbat, so checks to it such as Drowzee and Abra make good partners.</p> "}],
+      "credits": {"writtenBy": [{"username": "Gangsta Spongebob", "user_id": 535530}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sabelette", "user_id": 583793}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}]}]}
     }
   },
   "Oddish": {"lclevel100": {"sets": [{"name": "Sleeper"}]}},
@@ -520,7 +515,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Plague von Karma", "user_id": 236353}], "teams": [{"name": "Quality checked by", "members": [{"username": "phoopes", "user_id": 96315}, {"username": "Sevi 7", "user_id": 505149}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
-    "1v1": {"sets": [{"name": "Amnesia"}]},
+    "1v1": {"sets": [{"name": "Amnesia 3 Attacks"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Amnesia"}]}
   },
   "Mankey": {"lclevel100": {"sets": [{"name": "Physical Attacker"}]}},
@@ -534,7 +529,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "pac", "user_id": 520967}], "teams": [{"name": "Quality checked by", "members": [{"username": "Plague von Karma", "user_id": 236353}, {"username": "Enigami", "user_id": 233818}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
-    }
+    },
+    "1v1": {"sets": [{"name": "Physical Attacker"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}}
   },
   "Growlithe": {"lclevel100": {"sets": [{"name": "Agility Sweeper"}]}, "petitcup": {"sets": [{"name": "Dragon Rage"}]}},
   "Arcanine": {
@@ -597,7 +593,7 @@
     "nintendocup1997": {"sets": [{"name": "Hypnosis + Amnesia"}]},
     "nintendocup1999": {"sets": [{"name": "Amnesia"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
-    "1v1": {"sets": [{"name": "Amnesia"}]}
+    "1v1": {"sets": [{"name": "Mixed Attacker"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}}
   },
   "Abra": {
     "nu": {
@@ -645,7 +641,7 @@
     "monotype": {"sets": [{"name": "Standard (Psychic)"}]},
     "nintendocup1997": {"sets": [{"name": "Standard"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
-    "1v1": {"sets": [{"name": "Standard"}]},
+    "1v1": {"sets": [{"name": "Psychic Stallbreaker"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Standard"}]},
     "stadiumou": {
       "overview": "<p>Alakazam's great typing and stellar base stats give it the most threatening Psychic in the tier and more Speed than every viable Pokemon bar Jolteon. Even with Stadium's changes, it maintains a 19.1% critical hit rate; in conjunction with paralysis and Special drops, this allows Psychic to eventually break through even Chansey and Psychic-resistant foes. Alakazam has exceptional moves in Thunder Wave and Recover, granting it considerable utility against most threats. Alakazam can serve as a status spreader, special wall, and potential sweeper; its Speed allows it to use Substitute to block Thunder Waves and preserve its sweeping potential. It can also function well when paralyzed, as it becomes a reasonable status absorber. A paralyzed Alakazam has its limits, however—physical threats like Snorlax and Tauros can outspeed and 2HKO it or set up Substitute to thwart its Thunder Wave.  Alakazam faces another obstacle in the pervasive Rest Exeggutor, which can stall out its Seismic Toss and threaten it with Stun Spore and Double-Edge. Nevertheless, Alakazam is an extremely common sight thanks to its versatility and support capability.</p> ",
@@ -771,6 +767,7 @@
     },
     "nintendocup1997": {"sets": [{"name": "Explosion"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
+    "1v1": {"sets": [{"name": "Rest 3 Attacks"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Standard"}]},
     "stadiumou": {
       "overview": "<p>While in heavy competition with Rhydon for a spot on a team, Golem has merit for its access to Explosion, letting it blow holes in opposing teams for its allies to exploit. Golem's higher Speed compared to Rhydon also pays dividends in Stadium, giving it a 12% critical hit rate that helps it break through opposing Reflect Snorlax and Chansey. These traits make Golem a fair pick on teams weak to Rhydon that need a consistent way to beat bulkier Pokemon like the aforementioned Normal-types, as well as Slowbro and Rest Exeggutor. When provided with paralysis support, Golem is a serious threat, dealing massive damage with its STAB moves while still maintaining the threat of Explosion, often securing the late-game for its team as a result.</p> <p>However, Golem's Explosion and Speed are all it has over Rhydon. Rhydon has superior overall bulk, 103 HP Substitutes to consistently beat Seismic Toss Chansey, and a better Attack stat that gives it more consistent KO ranges. Because of this, on top of Snorlax having a superior self-KO move in STAB Self-Destruct, Golem is very hard to fit onto teams. Golem still has Rhydon's flaws as well: it's very slow and specially frail, making it take mortal damage against special attackers like Starmie, Alakazam, and Lapras, forcing it to use Explosion earlier than one would expect. Its slowness also causes it to lose one-on-one matchups surprisingly frequently, such as against Tauros and Exeggutor. Like Rhydon’s, while Golem's defensive typing does provide a useful Electric immunity for combatting Zapdos and Jolteon, it also gives massive weaknesses to Ice- and Water-type coverage from Pokemon like Chansey and Snorlax, making it very difficult for Golem to successfully enter battle and do its job. These problems make Golem a rare sight in Stadium OU, but it’s still a serviceable pick for teams that need a better Rhydon matchup in addition to an Explosion user.</p> ",
@@ -850,7 +847,7 @@
     "monotype": {"sets": [{"name": "TobyBro (Water/Psychic)"}]},
     "nintendocup1997": {"sets": [{"name": "Amnesia"}]},
     "nintendocup1999": {"sets": [{"name": "Amnesia"}]},
-    "1v1": {"sets": [{"name": "TobyBro (Amnesia)"}]},
+    "1v1": {"sets": [{"name": "Stall"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Standard"}]},
     "stadiumou": {"sets": [{"name": "TobyBro"}]},
     "pikacup": {"sets": [{"name": "Bulky Attacker"}]}
@@ -1040,7 +1037,7 @@
     },
     "nintendocup1997": {"sets": [{"name": "Sleeper"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
-    "1v1": {"sets": [{"name": "Rest"}]},
+    "1v1": {"sets": [{"name": "Rest"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Offensive"}, {"name": "Support"}]},
     "stadiumou": {"sets": [{"name": "Standard"}]},
     "pikacup": {"sets": [{"name": "Explosion"}]}
@@ -1191,7 +1188,7 @@
     "monotype": {"sets": [{"name": "Double Powder (Psychic/Grass)"}, {"name": "Rest (Psychic)"}]},
     "nintendocup1997": {"sets": [{"name": "Status Support"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
-    "1v1": {"sets": [{"name": "Leech Seed + Toxic"}]},
+    "1v1": {"sets": [{"name": "SubSeed"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Standard"}]},
     "stadiumou": {
       "overview": "<p>Despite the nerfs sleep suffered in Stadium, Exeggutor is a staple in the Stadium OU metagame because of its great bulk and unique typing. Useful resistances to Ground, Psychic, and Electric allow it to wall a myriad of common threats and make use of Rest to remain healthy long-term. Its longevity allows it to support its team throughout the game by spreading paralysis with Stun Spore and threatening foes with its powerful STAB Psychic backed up by its impressive Special. Exeggutor's access to Explosion also provides it with wallbreaking utility.</p> <p>Exeggutor is saddled with a weakness to the common Ice-type moves in the metagame, most of which will reliably 3HKO it. Its subpar Speed generally forces it to take a hit before it is able to move, allowing it to be worn down more easily. While Exeggutor can use Rest effectively, it makes it passive for two turns and gives opportunities for Pokemon that can threaten it to switch in. Exeggutor also has little offensive coverage, meaning that, if it chooses to drop Explosion, it can be walled itself.</p> ",
@@ -1236,15 +1233,10 @@
     }
   },
   "Lickitung": {
-    "nu": {
-      "overview": "<p>In the first generation of Pokemon, Normal-types aren't to be taken lightly, due to boasting powerful STAB moves such as Body Slam, Hyper Beam, and Double-Edge. Even in RBY NU, given the presence of Fearow, Raticate, and Porygon, Lickitung exists to prove that not all Normal-types are created equal. Lickitung looks promising with its access to STAB Wrap and Swords Dance, amazing coverage options, and potential to spread paralysis with Body Slam. However, it falls short literally everywhere else due to its absolutely horrendous stats. For these reasons, Lickitung remains a terrible Pokemon in RBY NU, and it shouldn't be used unless you're looking to torture yourself.</p> ",
-      "sets": [
-        {
-          "name": "Swords Dance",
-          "description": "<p>If you're going to experience the torture of using Lickitung, it's best to utilize its most unique trait: STAB Wrap. However, Lickitung's Wrap is still very weak, barely passing 4% on most neutral targets before boosting; after a boost, however, it has the damage output to surpass Dragonair's critical hit-boosted Wrap, averaging around 8% on neutral targets. Paralysis support is absolutely paramount to even give this thing the time of day due to its atrocious base 30 Speed. Teammates such as Mr. Mime, Venomoth, and Porygon can be very useful in that regard, as they can spread status without much trouble. Earthquake allows Lickitung to hit Kabutops and Golem with super effective damage, but, due to Lickitung's poor stats, it's still only a 2HKO on either after a Swords Dance. Lickitung can use Body Slam repeatedly in order to spread its own paralysis, but it's still walled effectively by most bulky Pokemon if it doesn't manage to get a paralysis off, and it can be removed incredibly easily by most special attackers due to its pitiful Special stat.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "SBPC", "user_id": 468904}], "teams": [{"name": "Quality checked by", "members": [{"username": "Plague von Karma", "user_id": 236353}, {"username": "phoopes", "user_id": 96315}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+    "pu": {
+      "overview": "<p>In the first generation of Pokemon, Normal-types aren't to be taken lightly thanks to powerful STAB moves such as Body Slam, Double-Edge, and the infamous Hyper Beam. Even all the way down in RBY PU, Lickitung exists to prove that not all Normal-types are created equal, falling far short of Fearow and Porygon. Lickitung initially looks promising with its access to STAB Hyper Beam and Swords Dance, amazing coverage options, and potential to spread paralysis with Body Slam. However, it falls short everywhere else due to its absolutely horrendous stats. Its atrocious Speed makes it slower than almost every relevant Pokemon, and is 3HKOed or 4HKOed by the majority of the tier. Lickitung can theoretically win one-on-one against physically frail Pokemon like Staryu and Gastly, but the damage taken in return leaves Lickitung easily revenge killed. Furthermore, Lickitung is almost entirely outclassed by Pinsir, which boasts much higher Attack, Defense, and Speed; in fact, Pinsir's Normal-type attacks hit harder than Lickitung's. Lickitung's only niche is its ability to sweep with Swords Dance, which is something Pinsir can do better. For these reasons, Lickitung remains a terrible Pokemon in RBY PU, and it shouldn't be used unless you're looking to torture yourself.</p> ",
+      "sets": [{"name": "Swords Dance", "description": "<p>After a Swords Dance, Lickitung is able to OHKO or 2HKO the entire tier with the combination of Body Slam, Earthquake, and Hyper Beam. Body Slam is Lickitung's safest move; it deals decent damage to neutral targets, and paralysis helps mitigate Lickitung's horrendous Speed. Earthquake is its best option against Omanyte and Gastly, which would otherwise wall it, and the plethora of Fire- and Poison-types in the tier, all of which it OHKOes or 2HKOes at +2. Hyper Beam is Lickitung's most powerful move, and does 60% at minimum to every neutral target in the tier after a Swords Dance. If you must use Lickitung, it is absolutely imperative that its teammates spread paralysis as much as possible before revealing it. Teammates such as Porygon, Staryu, and Dragonair can be very useful as they can spread status without much trouble.</p> "}],
+      "credits": {"writtenBy": [{"username": "TehTayTeh", "user_id": 593464}], "teams": [{"name": "Previous version by", "members": [{"username": "SBPC", "user_id": 468904}]}, {"name": "Quality checked by", "members": [{"username": "Sabelette", "user_id": 583793}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}]}]}
     }
   },
   "Koffing": {"lclevel100": {"sets": [{"name": "Explosion"}]}},
@@ -1277,7 +1269,7 @@
     "nintendocup1997": {"sets": [{"name": "Standard"}]},
     "nintendocup1999": {"sets": [{"name": "Standard"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
-    "1v1": {"sets": [{"name": "Standard"}]},
+    "1v1": {"sets": [{"name": "Standard"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Standard"}]},
     "stadiumou": {
       "overview": "<p>Rhydon’s massive Attack, STAB Earthquake, 103 HP Substitutes, and Electric immunity give it a powerful role within the Stadium OU metagame. Like in RBY OU, it blanks Zapdos and Jolteon, but it gains more depth in its ability to handle other threats with paralysis support from its team. Its Substitutes can survive a Seismic Toss, which Chansey commonly runs due to its 32 PP and ability to break weaker Substitutes. Additionally, Stadium's Substitute offers Rhydon added utility, most notably blocking Exeggutor’s Stun Spore, and while allowing it to throw off strong attacks or attempt a Body Slam paralysis with little to no drawbacks. Rest is also used by many Pokemon in Stadium, including, Exeggutor, Snorlax, Slowbro, and Cloyster; this further helps Rhydon get on the field and get up a Substitute without risking damage or a status ailment. Rhydon’s defensive typing—while not great—allows it to also be a Thunder Wave and Explosion absorber.</p> <p>Unfortunately, Rhydon is slower than all OU Pokemon besides Snorlax and Slowbro. Despite its Normal resistance, its poor defensive typing and Special allow common Pokemon such as Chansey, Tauros, and Starmie to outspeed and 2HKO with Ice Beam or Blizzard, which they very commonly carry. This means Rhydon absolutely requires paralysis support to be effective, and while this may seem high-maintenance, with proper team support Rhydon is capable of busting massive holes mid-game or cleaning up late-game.</p> <p>Rhydon also competes with Golem, which has access to Explosion—and is slightly faster than Rhydon, at base 45—meaning it wins one-on-one with its own Earthquake. However, what Golem lacks is the ability to create Substitutes that survive Seismic Toss. This makes Golem’s gameplan very prediction reliant because wallbreaking and cleaning up is much less safe. Rhydon also has the edge offensively, as its higher Attack allows it to meet better KO ranges against common Pokemon in the metagame. Finally, while Golem does outspeed Rhydon, they effectively share the same Speed tier, being outsped by Chansey and thus both requiring paralysis support. For these reasons, Rhydon is preferred on most competitive teams.</p> ",
@@ -1315,7 +1307,7 @@
     "monotype": {"sets": [{"name": "Reflect (Normal)"}, {"name": "BoltBeam (Normal)"}, {"name": "Triple-KO (Normal)"}]},
     "nintendocup1997": {"sets": [{"name": "BlizzBolt"}, {"name": "Reflect"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
-    "1v1": {"sets": [{"name": "Reflect"}, {"name": "Specially Defensive"}]},
+    "1v1": {"sets": [{"name": "The Egg"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Reflect"}, {"name": "BoltBeam"}, {"name": "Counter"}]},
     "stadiumou": {"sets": [{"name": "Reflect"}, {"name": "BoltBeam"}, {"name": "Substitute"}]},
     "pikacup": {"sets": [{"name": "BoltBeam"}]}
@@ -1423,7 +1415,7 @@
     "monotype": {"sets": [{"name": "Special Attacker (Water)"}, {"name": "Special Attacker (Psychic)"}]},
     "nintendocup1997": {"sets": [{"name": "Special Attacker"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
-    "1v1": {"sets": [{"name": "Standard"}]},
+    "1v1": {"sets": [{"name": "Psychic Stall"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Standard"}]},
     "stadiumou": {"sets": [{"name": "Standard"}]},
     "pikacup": {"sets": [{"name": "Thunder Wave + 3 Attacks"}, {"name": "All-Out Attacker"}]}
@@ -1447,15 +1439,10 @@
     "pikacup": {"sets": [{"name": "Paralysis Support"}]}
   },
   "Scyther": {
-    "uu": {
-      "overview": "<p><strong>NOTE: The following analysis was produced prior to the ban on Sleep-inducing moves and Lapras becoming legal. Scyther is generally considered unviable in the current metagame.</strong></p> <p>Scyther has a few traits that may make it appear desirable in the RBY UU metagame. Most notably, it boasts a base Speed greater than 100 and has access to intimidating options like Slash and Swords Dance. Unfortunately, Scyther’s few positive traits are heavily outweighed by its flaws. Scyther has very little bulk, a typing that is very easy to exploit, and essentially no coverage moves to work with. It is almost entirely outclassed by Persian; Persian has a stronger Slash thanks to STAB, an even greater Speed, and an array of coverage moves that make it much harder to check. Other Pokemon, such as Dodrio, Kangaskhan, and even Pinsir, also give Scyther pretty stiff competition and are virtually always preferred as wallbreakers, revenge killers, or sweepers. Scyther is generally not recommended in the RBY UU metagame.</p> ",
-      "sets": [
-        {
-          "name": "Setup Sweeper",
-          "description": "<p>Access to Slash is Scyther’s most desirable trait. The move virtually always lands a critical hit, allowing it to deal consistent damage even against foes that may have raised their Defense with a move like Reflect, Barrier, or Acid Armor. Scyther is the fastest Pokemon with access to Swords Dance, which ostensibly makes it a more threatening attacker. Swords Dance strengthens Scyther’s Hyper Beam significantly, but it unfortunately does nothing to benefit Slash, and it is rather difficult to use due to Scyther’s low bulk and weakness to common attacking types including Ice, Electric, and Rock. Scyther lacks a good movepool, so the final move comes down mostly to preference. Agility allows Scyther to outpace every unboosted Pokemon in the metagame and ignore the Speed drop from paralysis. Double-Edge is another move that can be used to take advantage of Swords Dance, and, unlike Hyper Beam, it has near-perfect accuracy and never risks a recharge turn.</p> <p>Scyther has a few other potential moves for the last slot. Wing Attack is another move that receives the Attack boost from Swords Dance and also grants Scyther the ability to deal damage to Haunter. However, its usefulness is severely limited due to its pitifully low Base Power. Substitute is mildly useful in some niche situations where Scyther can force a switch or to relieve prediction. Finally, Toxic lets Scyther do something when facing its hard counters, namely Omastar, Golem, and Aerodactyl.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "Volk", "user_id": 530877}], "teams": [{"name": "Earlier version by", "members": [{"username": "Hipmonlee", "user_id": 19}]}, {"name": "Quality checked by", "members": [{"username": "phoopes", "user_id": 96315}, {"username": "Amaranth", "user_id": 265630}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+    "pu": {
+      "overview": "<p>Initially, Scyther's blistering fast base 105 Speed—tied for the fastest in the tier—excellent base 110 Attack, and access to powerful tools like Swords Dance and Hyper Beam may make it seem like it has a place in PU. However, Scyther is held back by its horrendous coverage, which is limited to Normal-type attacks and Wing Attack, denying it any effective means to get past Rock-types and Gastly. Additionally, its terrible typing and low Special allow the tier's many Fire-types to often OHKO it outright, while its BoltBeam weakness dooms it against common threats like Nidoqueen and Dragonair. Despite its lower Speed, Pinsir is preferred as a Bug-type attacker due to its better coverage, while Fearow better fills the role of a speedy physical attacker. While it looks quite solid at first glance, it advised that you avoid using Scyther.</p> ",
+      "sets": [{"name": "Standard", "description": "<p>Swords Dance boosts Scyther's Hyper Beam, letting it cleave past weakened teams and OHKO or 2HKO every Pokemon that isn't resistant or immune to Normal. While Slash doesn't have its power boosted by Sword Dance, it serves as a powerful and spammable attack with its near 100% critical hit rate. Wing Attack lets Scyther deal some damage to Gastly, and it can 2HKO at +2. Toxic can be used over Wing Attack to give Scyther some way to harm Rock-types.</p> <p>Scyther is stonewalled by Omanyte and Graveler, so Porygon is an essential partner in walling these threats. Even with Wing Attack, Gastly is a nuisance, so checks to it like Drowzee and Abra are appreciated. Rapidash and Arcanine give Scyther trouble, so Omanyte is useful in stopping these threats. Offensive threats like Machamp are appreciated for their ability to force damage on bulky threats like Nidoqueen, allowing Scyther to clean late-game.</p> "}],
+      "credits": {"writtenBy": [{"username": "Gangsta Spongebob", "user_id": 535530}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sabelette", "user_id": 583793}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}]}]}
     },
     "nu": {
       "overview": "<p>Scyther has an array of applicable offensive tools in the NU metagame. Slash bypasses Pokemon relying on Reflect, such as Abra and some Clefable variants, while Swords Dance and Hyper Beam make it tough for Normal-neutral Pokemon to switch into. Scyther is also one of the fastest unboosted Pokemon in the metagame; it ties for the second-fastest Pokemon in the tier with Rapidash and has a superb critical hit ratio of 20.5%. Its already terrific Speed can be bolstered with Agility, meaning it cannot be pinned down by partial trappers and opposing Agility users like Dragonair and Moltres either. With adequate paralysis support and good prediction, Scyther can theoretically be used as a powerful late-game cleaner.</p> <p>However, Scyther has too many flaws to warrant a spot on most teams. Its low bulk and horrid defensive typing render many attackers able to 2HKO or even OHKO it. These include notable Pokemon such as Blastoise, Nidoking, Golem, and Kingler. Scyther's reliance on Speed means that even with Agility, it is severely debilitated by paralysis compared to other sweepers. It also has a barren movepool: besides the miserably weak Wing Attack, it only possesses Normal-type attacks, meaning Rock-types like Golem and Kabutops can easily switch in and make progress against it. Other fast sweepers, such as Mr. Mime and Electrode, can provide more offensive presence throughout matches, as they sport better coverage moves and provide utility with status moves like Thunder Wave. While Scyther can be used to lure its counters and grant switch-in opportunities for its teammates like Blastoise and Kingler, this tends to be prediction-reliant and inconsistent.</p> ",
@@ -1494,7 +1481,7 @@
     "monotype": {"sets": [{"name": "Sleeper (Psychic)"}]},
     "nintendocup1997": {"sets": [{"name": "Sleeper"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
-    "1v1": {"sets": [{"name": "Rest"}]},
+    "1v1": {"sets": [{"name": "Special Attacker"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Standard"}]},
     "stadiumou": {"sets": [{"name": "Lovely Kiss"}]},
     "pikacup": {"sets": [{"name": "Lovely Kiss"}]}
@@ -1517,6 +1504,7 @@
     },
     "nintendocup1997": {"sets": [{"name": "Paralysis Support"}]},
     "nintendocup1999": {"sets": [{"name": "Counter"}]},
+    "1v1": {"sets": [{"name": "Mixed Attacker"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Offensive"}]}
   },
   "Magmar": {
@@ -1582,7 +1570,7 @@
     "monotype": {"sets": [{"name": "The Bull (Normal)"}]},
     "nintendocup1997": {"sets": [{"name": "Mixed Sweeper"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
-    "1v1": {"sets": [{"name": "The Bull"}]},
+    "1v1": {"sets": [{"name": "The Bull"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "The Bull"}]},
     "stadiumou": {
       "overview": "<p>Tauros is the most powerful physical sweeper in the Stadium OU metagame. It has solid offensive stats backed up by a vast attacking movepool that contains Body Slam, Stomp, and coverage options in Blizzard, Earthquake, and Thunderbolt. In addition, its superb base 110 Speed lets it outpace most Pokemon in the metagame and grants it a noteworthy critical hit rate of 18%. However, Tauros has to avoid status at all costs to remain a threat. The reduced viability of Hyper Beam compared to standard RBY does it no favors either, as it now has more difficulty breaking through staples like Snorlax, Exeggutor, and Chansey, as well as knocking out status inducers before they can cripple it. Tauros can run Substitute to avoid status, but this drops Tauros's HP to the point of putting it in 2HKO range of many common threats. Despite these shortcomings, Tauros is a great pick for most Stadium OU teams.</p> ",
@@ -1641,7 +1629,7 @@
     },
     "monotype": {"sets": [{"name": "Mixed Attacker (Water)"}]},
     "nintendocup1997": {"sets": [{"name": "Double Team + Rest"}]},
-    "1v1": {"sets": [{"name": "Special Attacker"}]},
+    "1v1": {"sets": [{"name": "Special Attacker"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Standard"}]},
     "stadiumou": {"sets": [{"name": "Confuse Ray"}]},
     "pikacup": {"sets": [{"name": "Wallbreaker"}, {"name": "Double Team + Rest"}]}
@@ -1869,7 +1857,7 @@
     "monotype": {"sets": [{"name": "Amnesia (Normal)"}, {"name": "Reflect (Normal)"}, {"name": "PhysLax (Normal)"}]},
     "nintendocup1997": {"sets": [{"name": "Counter"}, {"name": "Amnesia"}]},
     "stabmons": {"sets": [{"name": "STABmons 1"}, {"name": "STABmons 2"}]},
-    "1v1": {"sets": [{"name": "Amnesia"}, {"name": "PhysLax (Physical Attacker)"}, {"name": "Reflect"}, {"name": "Amnesia + Reflect"}]},
+    "1v1": {"sets": [{"name": "Amnesia Attacker"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Sleeper"}, {"name": "Reflect"}, {"name": "Amnesia"}]},
     "stadiumou": {"sets": [{"name": "Reflect"}, {"name": "Amnesia"}]}
   },
@@ -1908,7 +1896,7 @@
       "credits": {"writtenBy": [{"username": "Nix_Hex", "user_id": 40064}], "teams": [{"name": "Earlier version by", "members": [{"username": "Hipmonlee", "user_id": 19}]}, {"name": "Quality checked by", "members": [{"username": "Crystal_", "user_id": 42885}, {"username": "Jorgen", "user_id": 53302}]}, {"name": "Grammar checked by", "members": [{"username": "relaunched", "user_id": 159055}, {"username": "Jukain", "user_id": 77748}]}]}
     },
     "nintendocup1997": {"sets": [{"name": "Double Team + Rest"}, {"name": "Mixed Attacker"}]},
-    "1v1": {"sets": [{"name": "Mixed Attacker"}]},
+    "1v1": {"sets": [{"name": "Reflect + Rest"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Sweeper"}]},
     "stadiumou": {
       "overview": "<p>Articuno possesses the most powerful unboosted special attack in the game in its Blizzard, giving it offensive prowess rivaled only by the less consistent Moltres. This alone grants Articuno a strong niche in the tier, outspeeding and 2HKOing the mighty Exeggutor. This offense is backed by a reasonable 15% critical hit rate, with critical hit Blizzard OHKOing even Tauros. With Agility, Articuno can function as a late-game sweeper that is very difficult to stop when the stage is set. This is because it isn't just a strong offensive threat: it's also quite bulky, winning against Tauros one-on-one, or even Zapdos if at +2 Speed. Because of the increased presence of Rest Exeggutor, there are many opportunities for Articuno to switch in and turn the game on its head with nuclear damage output.</p> <p>However, Articuno has some deep pitfalls that make it difficult to use in Stadium OU. Team Preview is a massive hit to its viability, removing all surprise factor that helps set up for a sweep in cartridge play. Articuno only has Normal-type coverage and a poor Attack stat to use it with, so Pokemon like Chansey and Starmie, as well as the rarer Lapras and Cloyster, tend to wall it out. Additionally, its valuable Speed, while high relative to OU, means paralysis inducers force it out, which is worsened by Agility not negating the paralysis Speed drop, unlike standard play. It can use Rest to get rid of it, but this isn't ideal. Due to these flaws, Articuno can be seen as very linear, but its immense power is nothing to sneeze at.</p> ",
@@ -1936,7 +1924,7 @@
     "ubers": {"sets": [{"name": "Agility"}, {"name": "Reflect"}]},
     "nintendocup1997": {"sets": [{"name": "Mixed Attacker"}]},
     "stabmons": {"sets": [{"name": "STABmons"}]},
-    "1v1": {"sets": [{"name": "Mixed Attacker"}]},
+    "1v1": {"sets": [{"name": "Mixed Attacker"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "Agility"}]},
     "stadiumou": {"sets": [{"name": "Mixed Attacker"}]}
   },
@@ -1980,7 +1968,7 @@
     },
     "nintendocup1997": {"sets": [{"name": "AgiliSpin"}]},
     "nintendocup1999": {"sets": [{"name": "Fire Spin"}]},
-    "1v1": {"sets": [{"name": "Mixed Attacker"}]},
+    "1v1": {"sets": [{"name": "Mixed Attacker"}], "credits": {"writtenBy": [], "teams": [{"name": "Sample set by", "members": [{"username": "Elo Bandit", "user_id": 298753}]}]}},
     "tradebacksou": {"sets": [{"name": "AgiliSpin"}]},
     "stadiumou": {"sets": [{"name": "AgiliSpin"}]}
   },
