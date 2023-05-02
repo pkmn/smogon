@@ -23,7 +23,12 @@ const IGNORE = new Set([
 
 const SPECIAL = /^battlespotspecial(\d+)$/;
 const VGC = /^vgc(\d{4})$/;
-const SUFFIXES = [['alpha', 'Alpha'], ['beta', 'Beta'], ['suspecttest', 'Suspect Test']];
+const SUFFIXES = [
+  ['alpha', 'Alpha'],
+  ['beta', 'Beta'],
+  ['suspect', 'Suspect'],
+  ['suspecttest', 'Suspect Test']
+];
 function getName(tier, pokebank = false) {
   if (tier.startsWith('pokebank')) return getName(tier.slice(8), true);
   if (NAMES[tier]) return pokebank ? `${NAMES[tier]} (Pokebank)` : NAMES[tier];
