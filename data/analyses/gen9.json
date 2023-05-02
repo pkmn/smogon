@@ -78,7 +78,7 @@
   },
   "Slowpoke": {"lc": {"sets": [{"name": "Pivot"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "PigWarrior19", "user_id": 587838}]}]}}},
   "Slowbro": {
-    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}, {"name": "Calm Mind"}]},
+    "uu": {"sets": [{"name": "Defensive", "description": "<p>Tera Fairy helps improve Slowbro's matchup against threats like Slither Wing, Tyranitar, and Mimikyu.</p> "}]},
     "nationaldex": {
       "sets": [
         {
@@ -89,7 +89,7 @@
       "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "2020 idm boomer", "user_id": 385157}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     },
     "ou": {"sets": [{"name": "Defensive"}]},
-    "uu": {"sets": [{"name": "Defensive", "description": "<p>Tera Fairy helps improve Slowbro's matchup against threats like Slither Wing, Tyranitar, and Mimikyu.</p> "}]},
+    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}, {"name": "Calm Mind"}]},
     "monotype": {"sets": [{"name": "Physically Defensive (Psychic)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Magnemite": {
@@ -134,7 +134,6 @@
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}, {"username": "StarkGod", "user_id": 62165}, {"username": "Butch Hardnight", "user_id": 265677}, {"username": "Pearl", "user_id": 47861}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     }
   },
-  "Haunter": {"pu": {"sets": [{"name": "Choice"}, {"name": "Substitute + Nasty Plot"}]}},
   "Gengar": {
     "uu": {
       "sets": [
@@ -184,7 +183,7 @@
       "credits": {"writtenBy": [{"username": "goldenghost", "user_id": 32350}], "teams": [{"name": "Quality checked by", "members": [{"username": "gali", "user_id": 107567}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     }
   },
-  "Electrode": {"pu": {"sets": [{"name": "Pivot"}, {"name": "Rain Setter"}]}, "nu": {"sets": [{"name": "Offensive Pivot"}]}},
+  "Electrode": {"nu": {"sets": [{"name": "Offensive Pivot"}]}, "pu": {"sets": [{"name": "Pivot"}, {"name": "Rain Setter"}]}},
   "Chansey": {
     "nu": {"sets": [{"name": "Utility"}]},
     "ou": {"sets": [{"name": "Defensive"}]},
@@ -1023,7 +1022,6 @@
   },
   "Grumpig": {"pu": {"sets": [{"name": "Nasty Plot"}]}},
   "Cacturne": {
-    "pu": {"sets": [{"name": "Spikes Setter"}, {"name": "Offensive"}]},
     "nu": {
       "sets": [
         {
@@ -1094,6 +1092,7 @@
   "Vespiquen": {"pu": {"sets": [{"name": "Spikes"}]}, "nu": {"sets": [{"name": "Pivot"}]}},
   "Buizel": {"lc": {"sets": [{"name": "Rain Wallbreaker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Altariel von Sweep", "user_id": 330191}]}]}}},
   "Floatzel": {
+    "uu": {"sets": [{"name": "Choice Band"}]},
     "anythinggoes": {"sets": [{"name": "Choice Band"}]},
     "ubers": {
       "sets": [
@@ -1113,7 +1112,6 @@
       ],
       "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "3d", "user_id": 295768}, {"username": "SetsuSetsuna", "user_id": 548068}]}, {"name": "Grammar checked by", "members": [{"username": "Lumii", "user_id": 493772}, {"username": "UT", "user_id": 523866}]}]}
     },
-    "uu": {"sets": [{"name": "Choice Band"}]},
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Rain Breaker"}]},
     "battlestadiumsingles": {
       "overview": "<p>With Paradox Pokemon being introduced, Series 2 is bringing big changes to Battle Stadium Singles! This is a modified Series 1 analysis that takes Paradox Pokemon into account. We will update this overview and analysis again once the metagame settles more. <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-2-paradox-pandemonium-speed-tiers-and-more-inside.3714699/\">For more information on Series 2, check out the resource thread.</a></p> <p><a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-2.3715382/\">If you feel that this analysis is missing important information, feel free to leave feedback here.</a></p> ",
@@ -1439,10 +1437,13 @@
           "name": "Choice Scarf",
           "description": "<p>Rotom stands out as a fantastic user of Choice Scarf thanks to its nearly unresisted STAB combination, high Speed tier, and three immunities. Will-O-Wisp lets Rotom cripple opposing physical sweepers such as Passimian, Medicham, and Scyther on top of Toxicroak using Sucker Punch. Trick is very useful to dismantle walls that rely on their item like Sandaconda, Eelektross, and Chansey. Tera Electric and Tera Ghost boost Rotom's STAB attacks even further with no drawbacks, though note that Tera Ghost exposes Rotom to Sandaconda's Glare. Tera Dark is useful for beating Sucker Punch Toxicroak and making Rotom a good lure for Zoroark. Thanks to Rotom's ease switching into opposing Sandaconda, teammates weak to it like Toxicroak, Lycanroc, Perrserker, and Scyther make for great partners; the latter two can even form a VoltTurn core with it. Bruxish, Medicham, and Mabosstiff help Rotom get around common special walls like Umbreon, Muk, and Chansey. Some walls that Rotom benefits from teaming up with include Umbreon, Vaporeon, and Muk thanks to their ability to take on common wallbreakers that can revenge kill Rotom such as Mabosstiff, Bruxish, and Pyroar.</p> "
         },
-        {"name": "Utility"},
-        {"name": "Nasty Plot"}
+        {
+          "name": "Nasty Plot",
+          "description": "<p>Rotom takes advantage of common Pokemon such as Sandaconda and Chansey that typically can't threaten it to set up. Will-O-Wisp eases setup and helps weaken checks such as Eelektross and Appletun. Tera Ghost helps Rotom get by Eelektross and Muk while retaining its Fighting immunity, whereas Tera Fairy can catch Dark-type revenge killers like Zoroark and Choice Scarf Mabosstiff off guard.</p> <p>Rotom's quite customizable: Substitute / Nasty Plot / Thunderbolt or Discharge / Shadow Ball limits revenge killers and makes it easier to choose an offensive Tera type. Protect can be used instead of Will-O-Wisp to scout Choice item revenge killers like Zoroark, Passimian, and Bruxish. These options lack the same consistency as the listed set, though.</p> <p>Pivots like Passimian, Scyther, and Oricorio formes are great to bring Rotom in against Sandaconda and Chansey, affording it easy setup opportunities. If Rotom is running Volt Switch, pair it with physical wallbreakers such as Bruxish and Toxicroak that can take on blanket special walls like Muk and Umbreon that commonly try to check it.</p> "
+        },
+        {"name": "Utility"}
       ],
-      "credits": {"writtenBy": [{"username": "Lucario", "user_id": 189361}], "teams": [{"name": "Quality checked by", "members": [{"username": "poh", "user_id": 298730}]}, {"name": "Grammar checked by", "members": [{"username": "P Squared", "user_id": 168392}]}]}
+      "credits": {"writtenBy": [{"username": "Lucario", "user_id": 189361}, {"username": "Rabia", "user_id": 336073}], "teams": [{"name": "Quality checked by", "members": [{"username": "poh", "user_id": 298730}]}, {"name": "Grammar checked by", "members": [{"username": "P Squared", "user_id": 168392}, {"username": "Sabelette", "user_id": 583793}]}]}
     }
   },
   "Rotom-Heat": {
@@ -1898,6 +1899,15 @@
   },
   "Frogadier": {"pu": {"sets": [{"name": "Choice Scarf"}]}, "nfe": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Specs"}]}},
   "Greninja": {
+    "nationaldex": {
+      "sets": [
+        {
+          "name": "Choice Scarf",
+          "description": "<p>Greninja is the fastest Choice Scarf user in the metagame, taking advantage of its blistering Speed tier and colorful Protean-boosted coverage to be a strong revenge killer and offensive pivot. Gunk Shot decimates Pokemon like Tapu Lele, Iron Valiant, and Tapu Koko. Ice Beam covers a plethora of Pokemon, including Tornadus-T, Dragapult, Kartana, and Landorus-T. Rock Slide deals with Volcarona and Mega Charizard Y. Aside from enabling Greninja to pivot, U-turn also provides coverage against Mega Tyranitar, Mega Gyarados, and opposing Greninja. The Special Attack EVs guarantee the OHKO against Kartana with Ice Beam. Terastallizing is mainly used to improve its offensive capabilities; for instance, Tera Poison gives Gunk Shot significant odds to OHKO specially defensive Tera Grass Heatran, Clefable, and Tera Fairy Garganacl after Stealth Rock, while Tera Ice boosts Ice Beam to OHKO Dragapult and physically defensive Tangrowth and Great Tusk. Wallbreakers like Garchomp, Zamazenta, Tapu Lele, and Mega Charizard Y appreciate Greninja's U-turn bringing them in safely on foes like Heatran, Garganacl, Toxapex, and Gholdengo, respectively. Garchomp also provides entry hazards to punish Greninja's forced switches, chipping down the likes of Garganacl and Heatran. In return, Greninja outpaces faster threats like Choice Scarf Tapu Lele, Iron Valiant, and Dragapult that would otherwise overwhelm them. Greninja can form a VoltTurn core with Pokemon such as Tornadus-T, Rotom-W, and Mega Scizor; the former two also provide Defog so Greninja can pivot more freely, especially if running Tera Ice.</p> "
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "TheSorcer3r", "user_id": 580037}, {"username": "hidin", "user_id": 589564}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
+    },
     "ou": {
       "sets": [
         {
@@ -1907,15 +1917,6 @@
         {"name": "Lead"}
       ],
       "credits": {"writtenBy": [{"username": "BT89", "user_id": 487308}], "teams": [{"name": "Quality checked by", "members": [{"username": "SetsuSetsuna", "user_id": 548068}, {"username": "chimp", "user_id": 197439}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
-    },
-    "nationaldex": {
-      "sets": [
-        {
-          "name": "Choice Scarf",
-          "description": "<p>Greninja is the fastest Choice Scarf user in the metagame, taking advantage of its blistering Speed tier and colorful Protean-boosted coverage to be a strong revenge killer and offensive pivot. Gunk Shot decimates Pokemon like Tapu Lele, Iron Valiant, and Tapu Koko. Ice Beam covers a plethora of Pokemon, including Tornadus-T, Dragapult, Kartana, and Landorus-T. Rock Slide deals with Volcarona and Mega Charizard Y. Aside from enabling Greninja to pivot, U-turn also provides coverage against Mega Tyranitar, Mega Gyarados, and opposing Greninja. The Special Attack EVs guarantee the OHKO against Kartana with Ice Beam. Terastallizing is mainly used to improve its offensive capabilities; for instance, Tera Poison gives Gunk Shot significant odds to OHKO specially defensive Tera Grass Heatran, Clefable, and Tera Fairy Garganacl after Stealth Rock, while Tera Ice boosts Ice Beam to OHKO Dragapult and physically defensive Tangrowth and Great Tusk. Wallbreakers like Garchomp, Zamazenta, Tapu Lele, and Mega Charizard Y appreciate Greninja's U-turn bringing them in safely on foes like Heatran, Garganacl, Toxapex, and Gholdengo, respectively. Garchomp also provides entry hazards to punish Greninja's forced switches, chipping down the likes of Garganacl and Heatran. In return, Greninja outpaces faster threats like Choice Scarf Tapu Lele, Iron Valiant, and Dragapult that would otherwise overwhelm them. Greninja can form a VoltTurn core with Pokemon such as Tornadus-T, Rotom-W, and Mega Scizor; the former two also provide Defog so Greninja can pivot more freely, especially if running Tera Ice.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "TheSorcer3r", "user_id": 580037}, {"username": "hidin", "user_id": 589564}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     },
     "monotype": {
       "sets": [
@@ -2021,7 +2022,6 @@
     }
   },
   "Hawlucha": {
-    "uu": {"sets": [{"name": "Choice Scarf"}, {"name": "Unburden Sweeper"}]},
     "ubers": {
       "sets": [
         {
@@ -2032,6 +2032,7 @@
       "credits": {"writtenBy": [{"username": "OreoSpeedruns", "user_id": 597293}], "teams": [{"name": "Quality checked by", "members": [{"username": "corvere", "user_id": 306317}, {"username": "Eledyr", "user_id": 415367}]}, {"name": "Grammar checked by", "members": [{"username": "Aurora", "user_id": 109385}]}]}
     },
     "ou": {"sets": [{"name": "Unburden Sweeper"}]},
+    "uu": {"sets": [{"name": "Choice Scarf"}, {"name": "Unburden Sweeper"}]},
     "monotype": {"sets": [{"name": "Swords Dance (Fighting)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
     "nationaldex": {
       "sets": [
@@ -2230,7 +2231,7 @@
     },
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}]}
   },
-  "Raboot": {"pu": {"sets": [{"name": "Choice Scarf"}]}, "nfe": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}, {"name": "Super Fang"}]}},
+  "Raboot": {"nfe": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}, {"name": "Super Fang"}]}, "pu": {"sets": [{"name": "Choice Scarf"}]}},
   "Cinderace": {
     "ou": {
       "sets": [
@@ -2395,7 +2396,6 @@
   "Toxtricity": {"uu": {"sets": [{"name": "Wallbreaker", "description": "<p>Tera Normal boosts the power of Boomburst to insane levels, being able to outright OHKO specially defensive Hippowdon and Gastrodon after only one layer of Spikes.</p> "}, {"name": "Choice Scarf", "description": "<p>Tera Normal boosts the power of Boomburst to make up for the decreased power, being able to still have great odds to OHKO Hippowdon after 1 layer of Spikes and 2HKO Gastrodon with no entry hazards on the field.</p> "}]}},
   "Sinistea": {"nfe": {"sets": [{"name": "Shell Smash"}]}},
   "Polteageist": {
-    "uu": {"sets": [{"name": "Shell Smash", "description": "<p>Tera Blast in conjunction with Tera Fighting gives Polteageist the necessary coverage to break past Dark-types like Tyranitar, Bisharp, and Iron Jugulis that wall it otherwise. Tera Fighting also allows Polteageist to resist Sucker Punch from Bisharp and Accelrock from Lycanroc-D as well as take neutral damage from Mimikyu's Shadow Sneak.</p> "}]},
     "ou": {
       "sets": [
         {
@@ -2405,6 +2405,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Dreadfury", "user_id": 408271}], "teams": [{"name": "Quality checked by", "members": [{"username": "Greentea570", "user_id": 542215}, {"username": "royalfluxh", "user_id": 493260}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
+    "uu": {"sets": [{"name": "Shell Smash", "description": "<p>Tera Blast in conjunction with Tera Fighting gives Polteageist the necessary coverage to break past Dark-types like Tyranitar, Bisharp, and Iron Jugulis that wall it otherwise. Tera Fighting also allows Polteageist to resist Sucker Punch from Bisharp and Accelrock from Lycanroc-D as well as take neutral damage from Mimikyu's Shadow Sneak.</p> "}]},
     "almostanyability": {
       "sets": [
         {
@@ -2531,7 +2532,18 @@
   "Pincurchin": {"ou": {"sets": [{"name": "Terrain Setter"}]}, "pu": {"sets": [{"name": "Specially Defensive"}]}},
   "Frosmoth": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Quiver Dance"}]}},
   "Stonjourner": {"pu": {"sets": [{"name": "Stealth Rock"}, {"name": "Double Dance"}]}},
-  "Indeedee": {"ou": {"sets": [{"name": "Utility"}]}, "monotype": {"sets": [{"name": "Choice Scarf (Normal)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
+  "Indeedee": {
+    "ou": {
+      "sets": [
+        {
+          "name": "Terrain Setter",
+          "description": "<p>Indeedee's ability Psychic Surge along with its good utility movepool allows it to be a functional Psychic Terrain setter and staple on Psychic Terrain teams. Dazzling Gleam is good coverage that allows Indeedee to hit Dark-types like Roaring Moon and Hydreigon. Encore can punish foes by locking them into undesirable moves, such as Recover for Garganacl and Skeledirge, as well as preventing dangerous setup sweepers, such as Roaring Moon and Iron Valiant, and Substitute users, such as Hydreigon and Dragapult, from setting up. It can also lock foes into moves that Indeedee’s teammates resist, allowing them to be used as setup fodder. Healing Wish sacrifices Indeedee in exchange for fully healing a teammate, which facilitates wallbreakers such as Armarouge, Baxcalibur, Volcarona, and Polteageist further weakening the opposing team. Additionally, Healing Wish provides a teammate a free switch-in, maximizing the number of turns in which they can take advantage of Psychic Terrain. Tera Fairy boosts the power of Dazzling Gleam, allowing Indeedee to OHKO Roaring Moon, Greninja, Meowscarada, and Dragapult after Stealth Rock damage. Tera Fairy also allows Indeedee to use Healing Wish in front of Pokemon where it wouldn't usually be able to do so, such as Hydreigon, Roaring Moon, and Bug Buzz Volcarona, though it is almost always better to Terastallize a teammate instead, as Indeedee's immunity to Ghost-type attacks eases the matchup against Pokemon that are otherwise very threatening to Psychic Terrain teams, such as Choice Scarf Gholdengo and Choice Specs Dragapult.</p> <p>Indeedee is mandatory on Psychic Terrain teams. As such, teammates that effectively utilize the power boost to Psychic-type moves and enjoy the immunity to priority Psychic Terrain provides are good partners. Therefore, teammates such as Armarouge, Polteageist, and Volcarona are good partners that appreciate the power boost to Expanding Force, Stored Power, and Psychic, respectively. In particular, the Psychic Terrain boost allows +1 Tera Psychic Volcarona to OHKO Assault Vest Toxapex after Stealth Rock damage, demonstrating the potency wallbreakers have when Psychic Terrain is up. Additionally, teammates that provide entry hazard control are also good partners, as they allow Indeedee to set Psychic Terrain repeatedly throughout the game and keep the team's wallbreakers healthy. Therefore, Eject Pack Great Tusk and Eject Button Hatterene are good partners, as they do this while conserving momentum, providing opportunities for the team's wallbreakers.</p> "
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "sufys12", "user_id": 477404}], "teams": [{"name": "Quality checked by", "members": [{"username": "CaptainDaimyo", "user_id": 602431}, {"username": "3d", "user_id": 295768}]}, {"name": "Grammar checked by", "members": [{"username": "Astra", "user_id": 240732}]}]}
+    },
+    "monotype": {"sets": [{"name": "Choice Scarf (Normal)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
+  },
   "Indeedee-F": {"pu": {"sets": [{"name": "Choice"}, {"name": "Calm Mind"}]}, "doublesou": {"sets": [{"name": "TR Supporter"}]}, "vgc2023": {"sets": [{"name": "Redirector"}]}},
   "Copperajah": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Specially Defensive"}]}},
   "Drakloak": {"pu": {"sets": [{"name": "RestTalk"}, {"name": "Offensive Pivot"}]}, "nfe": {"sets": [{"name": "RestTalk"}, {"name": "Choice Specs"}]}},
@@ -2711,7 +2723,7 @@
     }
   },
   "Fuecoco": {"lc": {"sets": [{"name": "Defensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Joeshh", "user_id": 607664}]}]}}},
-  "Crocalor": {"nu": {"sets": [{"name": "Defensive"}]}, "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Unaware"}]}, "nfe": {"sets": [{"name": "Defensive"}]}},
+  "Crocalor": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Unaware"}]}, "nu": {"sets": [{"name": "Defensive"}]}, "nfe": {"sets": [{"name": "Defensive"}]}},
   "Skeledirge": {
     "ou": {
       "sets": [
@@ -2904,7 +2916,6 @@
   "Maushold": {"uu": {"sets": [{"name": "The Smaller Family"}]}, "anythinggoes": {"sets": [{"name": "Tidy Up"}]}, "ou": {"sets": [{"name": "Skill"}]}, "monotype": {"sets": [{"name": "Tidy Up", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "doublesou": {"sets": [{"name": "Offensive Supporter"}, {"name": "Utility Supporter"}]}, "vgc2023": {"sets": [{"name": "Friend Guard"}]}, "1v1": {"sets": [{"name": "The Mouse"}, {"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}, {"username": "XanderUrBoi", "user_id": 536099}]}]}}},
   "Maushold-Four": {"uu": {"sets": [{"name": "The Family"}]}, "doublesou": {"sets": [{"name": "Offensive Supporter"}, {"name": "Utility Supporter"}]}, "vgc2023": {"sets": [{"name": "Wide Lens"}, {"name": "Support"}]}},
   "Dachsbun": {
-    "nu": {"sets": [{"name": "Defensive"}]},
     "anythinggoes": {"sets": [{"name": "Defensive"}]},
     "ubers": {
       "sets": [
@@ -2915,14 +2926,20 @@
       ],
       "credits": {"writtenBy": [{"username": "Manaphy", "user_id": 50695}], "teams": [{"name": "Quality checked by", "members": [{"username": "Lasen", "user_id": 273339}, {"username": "corvere", "user_id": 306317}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
-    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}]}
+    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}]},
+    "nu": {"sets": [{"name": "Defensive"}]}
   },
   "Arboliva": {
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Specs", "description": "<p>52 Speed EVs are to outspeed Bellibolt. Tera Fairy Tera Blast is used to hit Dragon-types such as Goodra.</p> "}, {"name": "Defensive"}]},
     "battlestadiumsingles": {
       "overview": "<p>This analysis is for the Regulation C format of Battle Stadium Singles, which lasts until June 30th, 2023. For more information on this format and its current events, check out the format page!</p> <p>If you feel this analysis is missing anything important or needs an update, feel free to suggest any changes here.</p> ",
-      "sets": [{"name": "Assault Vest", "description": "<ul> <li> <p><strong>EV Spread</strong>: This EV Spread lets you almost always survive Modest Chi-Yu’s Fire Blast without having to Tera. SpA investment and Tera Ground lets Earth Power OHKO offensive Chi-Yu and Gholdengo.</p> </li> <li> <p><a href=\"https://www.smogon.com/forums/threads/assault-vest-arboliva-gp-0-1.3720366/\">This set is in the copy-editing stage. If you'd like to see the write-up in its current form, click here.</a></p> </li> </ul> "}],
-      "credits": {"writtenBy": [{"username": "Photon", "user_id": 516307}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}, {"username": "Theorymon", "user_id": 29010}]}]}
+      "sets": [
+        {
+          "name": "Assault Vest",
+          "description": "<ul> <li> <p>With a superb special stat line, Seed Sower, and good moveset coverage, Arboliva can be a deceptively strong and long-living Assault Vest user!</p> </li> <li> <p><strong>Seed Sower</strong>: Once activated, Grassy Terrain’s passive recovery and boosting of Grass-type attacks like Giga Drain can help Arboliva survive longer than expected. Grassy Terrain also halving Earthquake’s power is greatly appreciated by bulky teammates like Skeledirge, Arcanine, and Iron Hands.</p> </li> <li> <p><strong>Dazzling Gleam: This move keeps Arboliva from becoming setup bait against foes like offensive Dragonite, and is also your best move into Wo-Chien before Tera.</p> </li> <li> <p><strong>Leaf Storm: Leaf Storm trades consistency for a single turn of high burst damage and can be especially worth it if investing in Special Attack.</p> </li> <li> <p><strong>Mirror Coat</strong>: This set’s massive special bulk can make getting one-shots with Mirror Coat awkward, but it is still a great option, particularly against boosted or super effective hits. Bear in mind though that this won’t work against Chi-Yu as long as it keeps its Dark typing.</p> </li> <li> <p><strong>Tera Blast: This is usually used in conjunction with Tera Fire, though Arboliva’s Normal typing does grant STAB prior to Tera. With Tera Fire active, Tera Blast hits hard against Scizor and Corviknight, but note that this can require prediction; if Arboliva has no Speed investment, U-turn can be used to pivot out before the attack connects.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Tera Dependency - Medium: Arboliva’s raw special stats make it capable of tanking super effective hits without using Tera. Nonetheless, Tera is still a strong tool to extend Arboliva’s uptime and contest matchups that would otherwise capitalize on its mediocre defensive typing.</p> </li> <li> <p><strong>Fire</strong>: Tera Fire can flip matchups against Focus Sash Chien-Pao and Choice Scarf Chi-Yu when healthy. If running Tera Blast, it also gives Arboliva the opportunity to contest Steel-types more effectively. Be aware, though, that this significantly worsens other key matchups, like Rotom-W.</p> </li> <li> <p><strong>Poison: Tera Poison is a solid defensive option, especially into Toxic Spikes cores like Toxapex and Wo-Chien that rely on residual poison damage. Notably, it flips several weaknesses, blocks Toxic, and allows for absorbing Toxic Spikes later in the match.</p> </li> <li> <p><strong>Fairy: Tera Fairy is another great defensive option for neutralizing most of Arboliva's weaknesses, and the extra power behind Dazzling Gleam can make it easier to break defensive Dragonite variants.</p> </li> <li> <p><strong>Grass</strong>: Tera Grass removes Arboliva’s Fighting weakness while maintaining Spore immunity, letting it check Breloom. If both Tera and Grassy Terrain are active, Modest Giga Drain can even 2HKO Breloom!</p> </li> <li> <p><strong>Ground: While not as strong defensively, invested Tera Earth Power can OHKO uninvested Chi-Yu and Gholdengo.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li> <p><strong>236 HP / 4 Def / 140 SpA / 124 SpD / 4 Spe with Modest: This spread balances bulk and power, avoiding the 2HKO from Choice Specs Gholdengo's Make It Rain and almost always surviving Modest Chi-Yu’s Fire Blast before Tera! If running Tera Ground, there are enough Special Attack EV’s to turn Earth Power into an OHKO against uninvested Chi-Yu and Gholdengo. The Speed EV's Speed tie with 4 Speed Gastrodon.</p> </li> <li> <p><strong>236 HP / 252 SpA / 20 SpD with Modest: This simple spread still provides plenty of bulk while maximizing Special Attack, working nicely with Leaf Storm and Tera Types that boost Arboliva's coverage moves. If Grassy Terrain is present, fully invested Leaf Storm has a 75% chance of OHKOing 4 Special Defense Garchomp. The bulk investment lets Arboliva always avoid the 2HKO from Choice Specs Flutter Mane's Mystical Fire after Grassy Terrain recovery.</p> </li> <li> <p><strong>236 HP / 20 SpD / 252 Spe with Modest: While maximum Speed investment may seem a bit strange, it can be worth it when running Tera Fire Tera Blast to get the jump on Scizor, Corviknight and the rare Timid Amoonguss.</p> </li> <li> <p><strong>236 HP / 4 Def / 148 SpA / 20 SpD / 100 Spe with Modest: This alternative Speed spread gives Arboliva a nice boost in Special Attack while still letting it outrun 4 Speed Azumarill. This is usually more than enough Speed to outrun Ting-Lu as well.</p> </li> </ul> "
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "Photon", "user_id": 516307}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}, {"username": "Theorymon", "user_id": 29010}]}, {"name": "Grammar checked by", "members": [{"username": "Clas", "user_id": 545372}, {"username": "autumn", "user_id": 384270}]}]}
     }
   },
   "Squawkabilly": {"pu": {"sets": [{"name": "Guts Attacker"}, {"name": "Pivot"}, {"name": "Choice Scarf"}]}},
@@ -3128,8 +3145,8 @@
   },
   "Wattrel": {"lc": {"sets": [{"name": "Offensive Pivot"}]}},
   "Kilowattrel": {
-    "ou": {"sets": [{"name": "Rain Sweeper"}]},
     "uu": {"sets": [{"name": "Offensive"}]},
+    "ou": {"sets": [{"name": "Rain Sweeper"}]},
     "monotype": {
       "sets": [
         {
@@ -4333,9 +4350,13 @@
         {
           "name": "Assault Vest",
           "description": "<ul> <li>Iron Hands can take almost any one hit and hit incredibly hard in return. It can take on almost any foe one on one—it's a consistent game-to-game performer. With Electric Terrain support from Miraidon, which activates Quark Drive and strengthens Wild Charge, it can also act as an incredible wallbreaker.</li> <li>Both Close Combat and Drain Punch are necessary because they serve different purposes, and Iron Hands fits them easily either way. Close Combat enables the most KOs, while Drain Punch makes up for the lack of Leftovers and KOes weakened targets without dropping its defenses.</li> <li>Wild Charge is used over Thunder Punch to OHKO Flutter Mane outside of Electric Terrain 100% of the time.</li> <li>Earthquake gives an overwhelming chance to OHKO Miraidon and Clodsire, as well as hitting foes like Skeledirge and Tera Fire Koraidon incredibly hard in Electric Terrain.</li> <li>Assault Vest allows Iron Hands to better take on Miraidon's Draco Meteors and Iron Bundle, and it gives a chance to survive even Choice Specs Flutter Mane's Moonblast. Iron Hands can OHKO all of these Pokemon in return, and it can fairly safely switch into Iron Bundle.</li> <li>The Speed investment gets the jump on defensive staples like Skeledirge and Corviknight, as well as the rarer Pelipper. Iron Hands can also Speed tie Kingambit and come out on top thanks to Iron Hands resisting both of Kingambit's STAB types, this makes Iron Hands one of the best Kingambit checks.</li> <li>Tera Fire turns the tables on Skeledirge trying to land Will-O-Wisp; the burn immunity lets Iron Hands 2HKO it with Earthquake in Electric Terrain. Tera Fire also helps with Tera Fairy Miraidon and Flutter Mane's Fairy-type moves. These roles are especially crucial, since burning Iron Hands or hitting it with strong Fairy-type moves are some of the best ways to deal with it. The biggest downside to Tera Fire is that Iron Hands becomes weak to Stealth Rock; therefore, holding off on using it is best in longer games (against bulkier teams).</li> <li>Tera Fairy can be used to resist Fighting and become immune to Miraidon's Draco Meteor, although these boons are usually less significant than the advantages of going with Tera Fire.</li> <li>Miraidon is a must on an Iron Hands team, as Iron Hands needs Electric Terrain to really get enough damage output to consistently wallbreak. Miraidon can also support Iron Hands with U-turn while baiting in Ting-Lu, Clodsire, and Iron Treads, all prime targets for Iron Hands.</li> <li>Iron Bundle can also pair really well with Iron Hands, as it can similarly synergize with Miraidon's Electric Terrain, in addition to its type combination. Iron Bundle can bait in Corviknight, Blissey, and Tera Steel Clodsire, giving a free switch to Iron Hands with Flip Turn against the first two. Even though the third is immune to Flip Turn, Iron Hands can easily switch into it.</li> <li>Great Tusk is another good partner because its Rapid Spin support is crucial if Tera Fire Iron Hands Terastallizes, and it helps take on Koraidon.</li> </ul> "
+        },
+        {
+          "name": "Swords Dance",
+          "description": "<ul> <li>Iron Hands's niche comes from its access to Swords Dance, great invested bulk, and fearsome STAB combination coupled with a high Attack stat that lets it threaten some of the common Pokemon in defensive and balance teams, such as Clodsire, Toxapex, and Corviknight, with a super effective move. It also checks threatening, almost unwallable Pokemon in the metagame, like Kingambit and Chien-Pao. However, Iron Hands is prone to getting revenge killed by common special attackers in the tier like Flutter Mane, Miraidon, Chi-Yu, and even Skeledirge, due to its nonexistant Special Defense stat; furthermore, it's also extremely slow, meaning Iron Hands is pretty much always moving last, making it a deadweight against more offensive teams.</li> <li>Wild Charge is an option over Thunder Punch that allows Iron Hands to have favorable chances of 2HKOing Skeledirge in Electric Terrain. However, the damage recoil can be unappetizing.</li> <li>Earthquake 2HKOes Clodsire, a Pokemon that would otherwise check Iron Hands. It also cleanly 2HKOes Skeledirge and, in combination with Wild Charge, lets Iron Hands to always KO Skeledirge if Electric Terrain is up.</li> <li>The given Defense EVs let Iron Hands always survive a +2 Icicle Crash from Life Orb Chien-Pao. It also has a favorable chance to avoid the 2HKO from a Choice Band-boosted Icicle Crash from Chien-Pao. The Speed EVs allow Iron Hands to outspeed Corviknight.</li> <li>Tera Flying turns Iron Hands's Ground-type weakness into an immunity, allowing it to use Pokemon like Iron Treads, Great Tusk, and non-Whirlwind Ting-Lu as setup fodder.</li> <li>Leftovers is Iron Hands's only form of passive recovery. Punching Glove is an alternative that lets Iron Hands ignore all contact Items and moves; this means that Toxapex can't poison it with Baneful Bunker and Rocky Helmet Pokemon like Corviknight and the aforementioned Toxapex can't punish its attacks. However, Iron Hands will greatly miss Leftovers's passive recovery, as it will getting worn down very easily without it.</li> <li>Iron Hands is good at breaking holes against bulky teams thanks to its stellar offensive typing and access to Swords Dance; it should always be sent into Pokemon like Corviknight and Kingambit and either use Swords Dance to immediately threaten something as they switch out or hit them with a super effective attack. Proper prediction is necessary, however, as Iron Hands can get pivoted around easily.</li> <li>Iron Hands is best used on balance teams that are in need for a wallbreaker that can also check Chien-Pao and Kingambit.</li> <li>Miraidon is Iron Hands's best teammate, as it sets Electric Terrain, allowing for Iron Hands to better break the bulky teams its supposed to. It also can bring Iron Hands safely to the field with U-turn and check the physical walls that annoy Iron Hands, like Encore Scream Tail. Iron Hands in return deals with Pokemon like Iron Treads, Ting-Lu, and Blissey for Miraidon.</li> <li>Pokemon that can check Koraidon, such as Great Tusk and Toxapex, also make for good partners, as Koraidon defeats Iron Hands one-on-one and is a threat for the teams Iron Hands is usually on.</li> <li>Entry hazard control is also recommended, as Iron Hands can't do a good job at checking Pokemon it's supposed to, like Chien-Pao and Kingambit, with Stealth Rock or Spikes up on the field. As such, spinners like Great Tusk and Iron Treads, as well as Magic Bounce Pokemon like Hatterene, make for excellent partners.</li> <li>Specially defensive walls, such as Ting-Lu and Clodsire, are recommended, as they can set Spikes for Iron Hands and check Pokemon like Miraidon and, in Clodsire's case, Flutter Mane.</li> </ul> "
         }
       ],
-      "credits": {"writtenBy": [{"username": "ox04", "user_id": 507268}], "teams": [{"name": "Quality checked by", "members": [{"username": "Lasen", "user_id": 273339}, {"username": "corvere", "user_id": 306317}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+      "credits": {"writtenBy": [{"username": "ox04", "user_id": 507268}, {"username": "corvere", "user_id": 306317}], "teams": [{"name": "Quality checked by", "members": [{"username": "Lasen", "user_id": 273339}, {"username": "corvere", "user_id": 306317}, {"username": "Takatk", "user_id": 595062}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "Astra", "user_id": 240732}]}]}
     },
     "ou": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}]},
     "monotype": {
@@ -4502,8 +4523,8 @@
     }
   },
   "Iron Thorns": {
-    "uu": {"sets": [{"name": "Dragon Dance"}]},
     "ou": {"sets": [{"name": "Offensive"}]},
+    "uu": {"sets": [{"name": "Dragon Dance"}]},
     "monotype": {"sets": [{"name": "Dragon Dance (Electric)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
     "battlestadiumsingles": {"overview": "<p>This new Paradox Pokemon might have a niche in Battle Stadium Singles Series 2, though their viability is uncertain. While we wait for the metagame to settle, here id s sample set that may be viable. <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-2-paradox-pandemonium-speed-tiers-and-more-inside.3714699/\">For more information on Series 2, check out the resource thread.</a></p> <p><a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-2.3715382/\">If you feel that this analysis is missing important information, feel free to leave feedback here.</a></p> ", "sets": [{"name": "Dragon Dance"}]},
     "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Air Balloon"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}}
@@ -5047,11 +5068,14 @@
           "name": "Choice Specs (Fighting)",
           "description": "<p>Iron Valiant is a special attacker with an unmatched Speed tier in a sea of physical attackers, making it a solid pick for Fighting teams. It also has a spammable Fairy STAB movr in Moonblast, which allows it to ease the Dark match up by threatening Sableye while also neutering opposing Fighting-types such as Great Tusk and Breloom. Thunderbolt hits Water- and Flying-types such as Dondozo and Corviknight. Psyshock hits Poison-types such as Toxapex, Amoonguss, and Clodsire, whereas Future Sight can apply pressure to opponents like Toxapex for teammates such as Breloom and Gallade. Shadow Ball hits Ghost-types such as Gholdengo and Skeledirge. Aura Sphere can be used instead as a hard-hitting STAB move, while Trick is a neat option that cripples potential switch-ins such as Toxapex, Amoonguss, Clodsire, and Skuntank.</p> <p>Wallbreakers such as Breloom and Gallade appreciate Iron Valiant's ability to take out physical walls as well as its ability to pressure the opponent with Future Sight. Assault Vest Iron Hands is a fantastic partner as well thanks to its ginormous HP stat that lets it deal with Fairy-types such as Flutter Mane and Hatterene that can outspeed or wall Iron Valiant. Choice Scarf users such as Flamigo, Quaquaval, and Slither Wing pressure Pokemon faster than Iron Valiant such as Greninja, Dragapult, and Cinderace. Tauros-F is another fantastic partner thanks to its ability to shatter dual screens with Raging Bull, making Iron Valiant more effective in matchups against Dark, Fairy, and Ice, all while avoiding burns thanks to its part Fire typing, which helps against Ghost and Dark teams.</p> "
         },
-        {"name": "Choice Scarf (Fairy)"},
+        {
+          "name": "Choice Scarf (Fairy)",
+          "description": "<p>Iron Valiant is a very valuable asset for Fairy teams with the combination of its amazing Speed tier, typing, and offensive stats. One of Iron Valiant's best qualities for Fairy teams is its access to Fighting-type STAB moves to counter Steel-types. Thunderbolt is a good option to hit Corviknight, Dondozo, and Toxapex super effectively and make cleaning up against Flying and Water teams easier after the Ground-type is removed. Energy Ball is a good alternative to more easily beat specially defensive Gastrodon and Rotom-W, but Grass Knot is an option to beat Dondozo after Spikes. Psyshock is a good tool versus Poison-types like Clodsire, Iron Moth and Amoonguss, while Shadow Ball lets it hit Skeledirge and Gholdengo that otherwise wall Iron Valiant. Trick is another great option to hinder defensive switch-ins like Toxapex, Corviknight, and Clodsire if Iron Valiant forgoes the moves to deal with them. Choice Scarf makes Iron Valiant an excellent revenge killer, being able to outrun threats such as Dragapult, Chien-Pao, and slower Choice Scarf users like Iron Moth and Gholdengo.</p> <p>Iron Valiant has amazing coverage, which makes it an effective cleaner; however, it cannot run all of them at once. Hence, it appreciates teammates that can cover what it cannot, and it also appreciates teammates that help it switch in, as it is quite frail. Klefki can set up dual screens, which aids it in switching, and also set up Spikes, which makes it easier for Iron Valiant to clean. Klefki is also a good switch-in against opposing Fairy-types like Mimikyu. Flutter Mane and Mimikyu can weaken teams to let Iron Valiant clean up or they can clean up after it. They also deal with Ghost-types such as Gholdengo, Flutter Mane, and Skeledirge if it forgoes Shadow Ball. Azumarill checks Fire-types such as Paldean Tauros-F, Volcarona, and Iron Moth and Ground-types such as Iron Treads and Clodsire. Hatterene is a great partner, as it can break through Poison-types like Glimmora, Toxapex, and Amoonguss while also preventing entry hazards. Tinkaton can set up Stealth Rock and is a good counter to Fairy-types that check Iron Valiant otherwise such as Hatterene, Flutter Mane, and opposing Iron Valiant.</p> "
+        },
         {"name": "Swords Dance (Fairy)"},
         {"name": "Special Attacker (Fairy)", "description": "<p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. These will be updated as the metagame continues to develop. Stay tuned!</p> "}
       ],
-      "credits": {"writtenBy": [{"username": "kenn", "user_id": 604741}], "teams": [{"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "Aqua Jet", "user_id": 531302}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
+      "credits": {"writtenBy": [{"username": "ASKid679", "user_id": 532439}, {"username": "kenn", "user_id": 604741}], "teams": [{"name": "Fighting analysis by", "members": [{"username": "kenn", "user_id": 604741}]}, {"name": "Fairy analysis by", "members": [{"username": "ASKid679", "user_id": 532439}]}, {"name": "Quality checked by", "members": [{"username": "CrossHeart", "user_id": 593863}, {"username": "Giyu", "user_id": 574288}, {"username": "Neko", "user_id": 542526}, {"username": "Aqua Jet", "user_id": 531302}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "Lunaflare", "user_id": 430518}, {"username": "autumn", "user_id": 384270}]}]}
     },
     "battlestadiumsingles": {
       "overview": "<p>This analysis is for the Regulation C format of Battle Stadium Singles. For more information on this format and its current events, check out the format page!</p> <p>If you feel this analysis is missing anything important or needs an update, feel free to suggest any changes here.</p> ",
@@ -5207,7 +5231,7 @@
         },
         {
           "name": "Assault Vest",
-          "description": "<ul> <li>Assault Vest allows Miraidon to act as a specially bulky attacker, flipping its matchup against Iron Bundle and Flutter Mane. Parabolic Charge provides a form of recovery. Dazzling Gleam can be used over Draco Meteor and acts as a STAB attack after using Terastallization. U-turn is the best option for the fourth slot and acts as a pivoting move to bring in partners such as Iron Bundle, but Overheat hits Iron Treads for super effective damage.</li> <li>The given EV spread and a Modest nature maximizes Miraidon's Special Attack while letting Miraidon avoid the OHKO from Choice Specs Flutter Mane's Moonblast and Choice Specs Iron Bundle's Ice Beam after Stealth Rock damage. The EV spread also avoids the 2HKO from Heavy-Duty Boots Iron Bundle's Freeze-Dry and lets Miraidon outspeed and avoid the 2HKO from Timid Choice Specs Chi-Yu's moves even in sun.</li> <li>Tera Fairy lets Miraidon take on opposing Miraidon and removes its weaknesses to Ground-, Fairy-, Ice-, and Dragon-type moves from the likes of Iron Treads, Ting-Lu, Flutter Mane, Iron Bundle, and Koraidon.</li> <li>Assault Vest Miraidon should be used to pivot with U-turn and force out foes with its STAB coverage while also taking on special attackers with its additional bulk.</li> <li>Miraidon should be paired with entry hazard removal options such as Great Tusk, Iron Treads, and Corviknight, as hazards such as Toxic Spikes greatly hinder the utility of Assault Vest. Great Tusk also acts as a check to Koraidon, which can revenge kill this Miraidon set since it does not run maximum Speed, while also threatening out Miraidon's checks such as Iron Treads, Clodsire, and Ting-Lu. Iron Bundle pairs well with Assault Vest Miraidon, as Miraidon can bring it in with U-turn to pressure its checks, while Iron Bundle can clean opposing teams thanks to Electric Terrain and appreciates Miraidon pressuring Corviknight. Hazard setters such as Ting-Lu, Great Tusk, and Clodsire are also greatly appreciated to help wear down Miraidon's checks.</li> </ul> "
+          "description": "<ul> <li>Assault Vest allows Miraidon to act as a specially bulky attacker, flipping its matchup against Iron Bundle and Flutter Mane. Parabolic Charge provides a form of recovery. Dazzling Gleam can be used over Draco Meteor and acts as a STAB attack after using Terastallization. U-turn is the best option for the fourth slot and acts as a pivoting move to bring in partners such as Iron Bundle, but Overheat hits Iron Treads for super effective damage.</li> <li>The given EV spread and a Modest nature maximize Miraidon's Special Attack while letting Miraidon avoid the OHKO from Choice Specs Flutter Mane's Moonblast and Choice Specs Iron Bundle's Ice Beam after Stealth Rock damage. The EV spread also avoids the 2HKO from Heavy-Duty Boots Iron Bundle's Freeze-Dry and lets Miraidon outspeed and avoid the 2HKO from Timid Choice Specs Chi-Yu's moves even in sun.</li> <li>Tera Fairy lets Miraidon take on opposing Miraidon and removes its weaknesses to Ground-, Fairy-, Ice-, and Dragon-type moves from the likes of Iron Treads, Ting-Lu, Flutter Mane, Iron Bundle, and Koraidon.</li> <li>Assault Vest Miraidon should be used to pivot with U-turn and force out foes with its STAB coverage while also taking on special attackers with its additional bulk.</li> <li>Miraidon should be paired with entry hazard removal options such as Great Tusk, Iron Treads, and Corviknight, as hazards such as Toxic Spikes greatly hinder the utility of Assault Vest. Great Tusk also acts as a check to Koraidon, which can revenge kill this Miraidon set since it does not run maximum Speed, while also threatening out Miraidon's checks such as Iron Treads, Clodsire, and Ting-Lu. Iron Bundle pairs well with Assault Vest Miraidon, as Miraidon can bring it in with U-turn to pressure its checks, while Iron Bundle can clean opposing teams thanks to Electric Terrain and appreciates Miraidon pressuring Corviknight. Hazard setters such as Ting-Lu, Great Tusk, and Clodsire are also greatly appreciated to help wear down Miraidon's checks.</li> </ul> "
         }
       ],
       "credits": {"writtenBy": [{"username": "Fc", "user_id": 511624}, {"username": "Eledyr", "user_id": 415367}, {"username": "ox04", "user_id": 507268}, {"username": "Takatk", "user_id": 595062}], "teams": [{"name": "Quality checked by", "members": [{"username": "ox04", "user_id": 507268}, {"username": "corvere", "user_id": 306317}, {"username": "Lasen", "user_id": 273339}, {"username": "Manaphy", "user_id": 50695}, {"username": "Aberforth", "user_id": 249382}, {"username": "Fc", "user_id": 511624}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "Sulo", "user_id": 528036}, {"username": "Aurora", "user_id": 109385}, {"username": "Lumii", "user_id": 493772}, {"username": "UT", "user_id": 523866}]}]}
