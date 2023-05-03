@@ -72,7 +72,15 @@
   "Corviknight": {"sets": [{"name": "Physically Defensive"}]},
   "Barraskewda": {"sets": [{"name": "Choice Band"}]},
   "Hatterene": {"sets": [{"name": "Calm Mind"}]},
-  "Grimmsnarl": {"sets": [{"name": "Dual Screens"}]},
+  "Grimmsnarl": {
+    "sets": [
+      {
+        "name": "Dual Screens",
+        "description": "<p>Grimmsnarl is the premier dual screens setter on hyper offense teams thanks to Prankster. Its dual screens effectively double the bulk of its teammates, allowing them to more easily set up and making them harder to revenge kill. Play Rough targets Pokemon such as Koraidon, Chien-Pao, and Ting-Lu, OHKOing the former two and 2HKOing the latter after minimal chip. Parting Shot lets Grimmsnarl pivot into a teammate, preserving Grimmsnarl to potentially reset dual screens later and allowing said teammate an opportunity to safely set up due to the foe's lowered offenses. Taunt prevents opposing Pokemon from setting up or laying entry hazards, and it also stops Corviknight from using Defog. Tera Ghost allows Grimmsnarl to prevent Rapid Spin from Iron Treads and Great Tusk, whereas Tera Steel blocks Glimmora's Mortal Spin. Due to the increased durability they provide, setup sweepers such as Calm Mind + Agility Miraidon, Swords Dance Koraidon, Swords Dance Chien-Pao, and Calm Mind Espathra appreciate Grimmsnarl's dual screens. Suicide leads in Glimmora, Froslass, and Cloyster can lay entry hazards to weaken foes, potentially into range of an offensive teammate's attack. Gholdengo and Annihilape are good partners, as they can prevent Rapid Spin and deny or punish Defog attempts for Grimmsnarl lacking Taunt, helping dual screens and entry hazards from their teammates stay up.</p> "
+      }
+    ],
+    "credits": {"writtenBy": [{"username": "WrathoftheLeopard", "user_id": 511181}], "teams": [{"name": "Quality checked by", "members": [{"username": "Frozoid", "user_id": 532881}, {"username": "pichus", "user_id": 374620}]}, {"name": "Grammar checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "autumn", "user_id": 384270}]}]}
+  },
   "Dragapult": {"sets": [{"name": "Dragon Dance"}, {"name": "Pivot"}, {"name": "Choice Specs"}]},
   "Skeledirge": {
     "sets": [
@@ -221,13 +229,16 @@
   },
   "Chi-Yu": {
     "sets": [
-      {"name": "Choice Scarf"},
+      {
+        "name": "Choice Scarf",
+        "description": "<p>Choice Scarf Chi-Yu is a potent revenge killer and a strong wallbreaker with good resistances, allowing it to check threats like Chien-Pao, Gholdengo, and Kingambit while also threatening balance and bulky offensive teams. Overheat is its strongest STAB move, which allows it to OHKO the bulkiest Pokemon like Blissey and Ting-Lu especially when boosted by Tera Fire and sun. Dark Pulse lets it pressure Fire-resistant foes like Miraidon, Toxapex, Pelipper, Alomomola, and Garganacl more easily. Fire Blast is a stronger option than Flamethrower that doesn't drop Special Attack, which lets Chi-Yu break through Garganacl and Blissey after minimal chip damage when boosted by sun and Tera Fire. Alternatively, Psychic may be used to deal greater damage to Toxapex and Koraidon. Tera Fire is mandatory to boost Chi-Yu's strength and let it spam its Fire-type moves more freely. Choice Scarf Chi-Yu is unreliable at breaking stall teams, so it is necessary to pair it with wallbreakers that perform this role such as Choice Band Chien-Pao, offensive Great Tusk, Gothitelle, and Swords Dance + Life Orb Koraidon. Koraidon in particular is mandatory to have as a teammate, as it sets sun, which makes up for the power lost by opting for Choice Scarf on Chi-Yu. Additionally, it also creates many opportunities for Chi-Yu to switch in safely thanks to U-turn and Chi-Yu's ability to exploit common Koraidon checks. Defensive partners like Great Tusk, Iron Treads, Clodsire, and Toxapex can set and remove entry hazards for Chi-Yu, allowing it to freely switch in multiple times and break teams more easily, and they also check strong revenge killers like Choice Scarf Koraidon, Miraidon, and Quark Drive-boosted Iron Bundle.</p> "
+      },
       {
         "name": "Choice Specs",
         "description": "<p>Choice Specs Chi-Yu is one of the metagame's most devastating wallbreakers. Beads of Ruin and a high Special Attack stat let it consistently force a KO whenever it comes in. Overheat allows Chi-Yu to OHKO or 2HKO even bulky resistant foes, with Flamethrower having perfect accuracy and not dropping Chi-Yu's Special Attack. Dark Pulse allows Chi-Yu to immediately threaten Fire-resistant Pokemon like Toxapex, Skeledirge, and Garganacl, 2HKOing or OHKOing them without sun. Fire Blast can reach important damage thresholds, such as 2HKOing Blissey, without the Special Attack drop that accompanies Overheat, with Psychic instead preventing Toxapex from scouting Chi-Yu's move. Tera Fire turns Chi-Yu's 2HKOs against Pokemon like Toxapex and Double Dance Miraidon into OHKOs under sun, and it guarantees 2HKOs on even the bulkiest defensive Pokemon like Blissey and Garganacl, OHKOing them in sun and with minor chip damage. A Modest nature is preferred, but a Timid nature can be considered if Jolly Great Tusk is an issue. Koraidon is an incredible partner, setting sun and bringing Chi-Yu in with U-turn; in exchange, Chi-Yu greatly threatens all of Koraidon's checks. Pivots such as Corviknight and the aforementioned Koraidon are greatly appreciated, as they can let Chi-Yu switch in without worrying about its poor bulk. Entry hazard removal from Great Tusk, Corviknight, or Iron Treads is very helpful due to Chi-Yu's weakness to Stealth Rock and its tendency to switch out after a KO. Chi-Yu is often forced out by faster Pokemon like Miraidon and Koraidon, so defensive switch-ins to them like Clodsire, Toxapex, Ting-Lu, and Corviknight are good partners.</p> "
       }
     ],
-    "credits": {"writtenBy": [{"username": "TaxFraud", "user_id": 584685}], "teams": [{"name": "Quality checked by", "members": [{"username": "pichus", "user_id": 374620}, {"username": "lotiasite", "user_id": 302985}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+    "credits": {"writtenBy": [{"username": "TaxFraud", "user_id": 584685}, {"username": "pichus", "user_id": 374620}], "teams": [{"name": "Quality checked by", "members": [{"username": "pichus", "user_id": 374620}, {"username": "lotiasite", "user_id": 302985}, {"username": "Fc", "user_id": 511624}, {"username": "WrathoftheLeopard", "user_id": 511181}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "Tea Guzzler", "user_id": 577920}, {"username": "autumn", "user_id": 384270}]}]}
   },
   "Roaring Moon": {"sets": [{"name": "Dragon Dance"}]},
   "Iron Valiant": {"sets": [{"name": "Choice Specs"}, {"name": "Choice Band"}, {"name": "Calm Mind"}, {"name": "Swords Dance"}, {"name": "Mixed"}]},
