@@ -38,7 +38,7 @@ interface RawAnalysis {
   comments?: string;
   sets: Array<{
     name: string;
-    desc?: string;
+    description?: string;
   }>;
   credits?: Credits;
 }
@@ -252,7 +252,7 @@ export class Smogon {
         if (set && this.match(species, this.toSet(species, set))) {
           analysis.sets.push({
             name: stub.name,
-            desc: stub.desc,
+            desc: stub.description,
             ...set,
           } as Moveset & {name: string; desc?: string});
         }
