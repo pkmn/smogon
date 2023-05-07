@@ -59,7 +59,7 @@ describe('Smogon', () => {
         .toEqual([['Zen Mode']]);
       expect((await smogon.analyses(gen(3), 'Gengar', 'gen3ou' as ID))[0].overview)
         .toMatch('Gengar is a centralizing threat in ADV OU');
-      expect((await smogon.analyses(gen(3), 'Gengar', 'gen3ou' as ID))[0].sets[0].desc)
+      expect((await smogon.analyses(gen(3), 'Gengar', 'gen3ou' as ID))[0].sets[0].description)
         .toMatch('Defensive Gengar is most commonly used on teams that');
       const clefable = await smogon.analyses(gen(4), 'Clefable', 'gen4uu' as ID);
       expect(clefable[0].format).toBe('gen4uu');

@@ -63,7 +63,7 @@ interface Member {
  */
 export interface Analysis extends Omit<RawAnalysis, 'sets'> {
   format: ID;
-  sets: Array<Moveset & {name: string; desc?: string}>;
+  sets: Array<Moveset & {name: string; description?: string}>;
 }
 
 /** A compressed version of the default smogon Moveset type which is smaller to serialize. */
@@ -252,9 +252,9 @@ export class Smogon {
         if (set && this.match(species, this.toSet(species, set))) {
           analysis.sets.push({
             name: stub.name,
-            desc: stub.description,
+            description: stub.description,
             ...set,
-          } as Moveset & {name: string; desc?: string});
+          } as Moveset & {name: string; description?: string});
         }
       }
 
