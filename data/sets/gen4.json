@@ -315,16 +315,13 @@
   "Gallade": {"ou": {"Attacking Lead": {"moves": ["Close Combat", "Will-O-Wisp", "Taunt", ["Ice Punch", "Destiny Bond"]], "item": "Lum Berry", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}}},
   "Heatran": {
     "ou": {
-      "Choice Scarf": {"moves": [["Fire Blast", "Flamethrower"], "Earth Power", "Explosion", ["Dragon Pulse", "Hidden Power Grass", "Hidden Power Electric"]], "item": "Choice Scarf", "nature": ["Naive", "Rash"], "evs": {"spa": 252, "spd": 4, "spe": 252}},
-      "Support": {"moves": ["Stealth Rock", "Fire Blast", "Earth Power", ["Explosion", "Taunt", "Hidden Power Grass"]], "item": "Shuca Berry", "nature": ["Naive", "Timid"], "evs": {"spa": 252, "spd": 4, "spe": 252}},
-      "Substitute": {"moves": ["Substitute", "Fire Blast", "Earth Power", ["Toxic", "Explosion"]], "item": "Leftovers", "nature": ["Timid", "Naive"], "evs": {"spa": 252, "spd": 4, "spe": 252}},
-      "Life Orb": {"moves": ["Fire Blast", "Earth Power", ["Hidden Power Grass", "Hidden Power Electric"], ["Taunt", "Explosion", "Substitute"]], "item": "Life Orb", "nature": ["Timid", "Naive"], "evs": {"spa": 252, "spd": 4, "spe": 252}},
-      "Choice Specs": {"moves": [["Fire Blast", "Overheat"], "Earth Power", "Hidden Power Grass", ["Dragon Pulse", "Flamethrower"]], "item": "Choice Specs", "nature": "Modest", "evs": {"hp": 40, "spa": 252, "spe": 216}},
-      "Torment": {"moves": ["Torment", "Substitute", "Protect", ["Lava Plume", "Taunt"]], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 244, "spa": 36, "spd": 12, "spe": 216}},
-      "Trapper": {"moves": ["Magma Storm", "Hidden Power Grass", ["Dragon Pulse", "Taunt", "Earth Power"], ["Explosion", "Taunt"]], "item": ["Shuca Berry", "Wide Lens", "Passho Berry"], "nature": "Modest", "evs": {"hp": 128, "spa": 216, "spe": 164}},
-      "RestTalk": {"moves": ["Rest", "Sleep Talk", ["Lava Plume", "Fire Blast"], ["Earth Power", "Roar"]], "item": "Leftovers", "nature": "Modest", "evs": {"hp": 248, "spa": 56, "spd": 204}},
-      "Metal Sound": {"moves": ["Metal Sound", "Fire Blast", "Earth Power", "Hidden Power Grass"], "item": ["Life Orb", "Passho Berry"], "nature": ["Timid", "Modest"], "ivs": {"atk": 2, "spa": 30}, "evs": {"spa": 252, "spd": 4, "spe": 252}},
-      "Specially Defensive": {"moves": [["Lava Plume", "Flamethrower"], "Earth Power", "Protect", "Roar"], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 252, "spa": 4, "spd": 252}}
+      "Utility": {"moves": [["Stealth Rock", "Will-O-Wisp"], ["Fire Blast", "Flamethrower"], ["Earth Power", "Hidden Power Grass"], "Explosion"], "item": ["Leftovers", "Shuca Berry", "Passho Berry", "Focus Sash", "Chople Berry"], "nature": ["Modest", "Hasty"], "evs": {"hp": 252, "spa": 96, "spe": 160}},
+      "Trapper": {"moves": ["Magma Storm", ["Dragon Pulse", "Toxic"], ["Hidden Power Grass", "Taunt", "Earth Power"], ["Explosion", "Taunt", "Protect"]], "item": ["Passho Berry", "Shuca Berry", "Leftovers", "Lum Berry"], "nature": "Modest", "evs": {"hp": 96, "spa": 252, "spe": 160}},
+      "Substitute": {"moves": ["Substitute", ["Protect", "Explosion", "Toxic"], ["Lava Plume", "Fire Blast"], ["Earth Power", "Dragon Pulse"]], "item": "Leftovers", "nature": ["Timid", "Hasty"], "evs": {"spa": 252, "spd": 4, "spe": 252}},
+      "Choice Specs": {"moves": [["Overheat", "Eruption"], "Flamethrower", "Dragon Pulse", ["Hidden Power Grass", "Earth Power"]], "item": "Choice Specs", "nature": ["Modest", "Quiet"], "evs": {"spa": 252, "spd": 4, "spe": 252}},
+      "Choice Scarf": {"moves": [["Fire Blast", "Flamethrower"], "Earth Power", "Explosion", ["Hidden Power Ice", "Dragon Pulse", "Hidden Power Electric", "Stealth Rock"]], "item": "Choice Scarf", "nature": ["Hasty", "Timid"], "evs": {"spa": 252, "spd": 4, "spe": 252}},
+      "Defensive": {"moves": ["Lava Plume", "Protect", ["Stealth Rock", "Roar"], ["Explosion", "Stealth Rock", "Earth Power"]], "item": "Leftovers", "nature": ["Calm", "Sassy"], "evs": {"hp": 252, "spa": 4, "spd": 252}},
+      "Torment": {"moves": ["Torment", "Substitute", ["Protect", "Roar"], "Lava Plume"], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 252, "spd": 40, "spe": 216}}
     },
     "ubers": {"Stallbreaker": {"moves": ["Taunt", "Roar", ["Flamethrower", "Lava Plume"], ["Dragon Pulse", "Toxic"]], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 252, "spd": 128, "spe": 128}}}
   },
