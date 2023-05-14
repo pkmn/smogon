@@ -2,9 +2,9 @@
   "Charizard": {"sets": [{"name": "Petaya Berry"}]},
   "Arcanine": {"sets": [{"name": "Life Orb"}, {"name": "Sitrus Berry"}, {"name": "Weakness Policy"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}, {"name": "Previous version written by", "members": [{"username": "TrainerPla", "user_id": 604981}]}, {"name": "Previous version quality checked by", "members": [{"username": "bored_glitch", "user_id": 579035}, {"username": "Lumii", "user_id": 493772}]}, {"name": "Previous version grammar checked by", "members": [{"username": "Lunaflare", "user_id": 430518}, {"username": "autumn", "user_id": 384270}]}]}},
   "Gengar": {"sets": [{"name": "Choice Specs"}]},
-  "Chansey": {"sets": [{"name": "Stall (Chansey)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
-  "Tauros-Paldea-Blaze": {"sets": [{"name": "Choice Band (Tauros-Paldea-Blaze)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
-  "Tauros-Paldea-Aqua": {"sets": [{"name": "Life Orb (Tauros-Paldea-Aqua)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
+  "Chansey": {"sets": [{"name": "Stall"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
+  "Tauros-Paldea-Blaze": {"sets": [{"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
+  "Tauros-Paldea-Aqua": {"sets": [{"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
   "Azumarill": {
     "sets": [
       {"name": "Assault Vest", "description": "<ul> <li>Azumarill distinguishes itself as a Water-type with its access to Superpower, Fairy-type STAB moves, and priority Aqua Jet.</li> <li>Superpower lets Assault Vest Azumarill defeat most Iron Bundle and most Magnezone.</li> <li>Aqua Jet finishes off low health foes and allows Azumarill to outplay Disable users like Dragapult and Iron Valiant and Sturdy Pokemon like Magnezone and Counter Donphan.</li> <li>The HP and Special Defense EVs, along with Assault Vest and a Careful nature, allow Azumarill to defeat Timid Choice Specs Iron Moth and non-Thunder Choice Specs Magnezone.</li> </ul> "},
@@ -20,16 +20,28 @@
   "Ursaring": {"sets": [{"name": "Eviolite"}]},
   "Donphan": {
     "sets": [
-      {"name": "Choice Band"},
+      {
+        "name": "Choice Band",
+        "description": "<p>Earthquake beats Bellibolt, Iron Moth, non-Air Balloon Iron Hands, and Sandy Shocks.</p> <ul> <li>Gunk Shot beats most Sylveon sets, non-Encore + Disable Iron Valiant, and Azumarill. <li>Ice Shard is for Garchomp and Roaring Moon.</li> <li>Head Smash OHKOes Talonflame and most Iron Bundle.</li> <li>Play Rough beats Choice Band Annihilape and Choice Band Ting Lu.</li> <li>Counter OHKOes Choice Band Slither Wing thanks to Donphan surviving an attack with Sturdy, as well as Attack Booster Energy Slither Wing if it doesn't use Bulk Up turn 1.</li> <li>Donphan can also run an alternative spread of 32 HP / 248 Atk / 96 Def / 132 Spe with a Adamant Nature. The HP and Defense EVs allow Donphan to survive a hit from Mold Breaker Choice Band Haxorus and 2HKO it with Ice Shard. The Speed EVs allow Donphan to outspeed uninvested Skeledirge.</li> <li>While using Head Smash beats non-Substitute Volcarona, using it against Substitute Volcarona can lead to Donphan losing, so it should use Earthquake instead.</li> </ul> "
+      },
       {
         "name": "Endeavor",
         "description": "<ul> <li>Sturdy and Sitrus Berry allow Donphan to always get a Substitute up. This allows Donphan to beat Choice item Pokemon like Meowscarada and Chien-Pao, regardless of whether they go for an OHKO or not.</li> <li>Earthquake is Donphan's strongest STAB move, beating Pokemon like Magnezone and Clodsire.</li> <li>EVs are put into Attack and Defense to deal the most damage and help with physical attackers, since physical attacks rarely activate Sturdy.</li> <li>0 Speed IVs allow Donphan to be as slow as possible, which lets Substitute be used after slow threats like Dondozo and Garganacl move, creating a free turn to use Endeavor or Substitute again. 0 Special Defense IVs are used to activate Sturdy more often.</li> <li>Donphan should almost always use Substitute turn 1. Donphan should continue to use it until its HP does not allow it to do so, proceeding to use Endeavor + Ice Shard to go for the KO.</li> <li>An exception to this rule is that if Donphan can 2HKO with a combination Earthquake and Ice Shard, it should do that instead, such as against Choice item Dragapult, Magnezone, and Clodsire.</li> </ul> "
       },
       {"name": "Liechi Berry"}
     ],
-    "credits": {"writtenBy": [{"username": "bored_glitch", "user_id": 579035}], "teams": [{"name": "Quality checked by", "members": [{"username": "Itchy", "user_id": 518399}, {"username": "DripLegend", "user_id": 517652}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}, {"username": "Adeleine", "user_id": 517429}]}, {"name": "Previous version written by", "members": [{"username": "lavarina", "user_id": 566051}, {"username": "bored_glitch", "user_id": 579035}]}, {"name": "Previous version quality checked by", "members": [{"username": "bored_glitch", "user_id": 579035}, {"username": "Itchy", "user_id": 518399}, {"username": "DripLegend", "user_id": 517652}]}, {"name": "Previous version grammar checked by", "members": [{"username": "Lunaflare", "user_id": 430518}, {"username": "autumn", "user_id": 384270}, {"username": "Sabelette", "user_id": 583793}, {"username": "Adeleine", "user_id": 517429}]}]}
+    "credits": {
+      "writtenBy": [{"username": "bea", "user_id": 481149}, {"username": "bored_glitch", "user_id": 579035}],
+      "teams": [
+        {"name": "Quality checked by", "members": [{"username": "Lumii", "user_id": 493772}, {"username": "bored_glitch", "user_id": 579035}, {"username": "Itchy", "user_id": 518399}, {"username": "DripLegend", "user_id": 517652}]},
+        {"name": "Grammar checked by", "members": [{"username": "Dawn of Ares", "user_id": 467437}, {"username": "Sabelette", "user_id": 583793}, {"username": "Adeleine", "user_id": 517429}]},
+        {"name": "Previous version written by", "members": [{"username": "lavarina", "user_id": 566051}, {"username": "bored_glitch", "user_id": 579035}]},
+        {"name": "Previous version quality checked by", "members": [{"username": "bored_glitch", "user_id": 579035}, {"username": "Itchy", "user_id": 518399}, {"username": "DripLegend", "user_id": 517652}]},
+        {"name": "Previous version grammar checked by", "members": [{"username": "Lunaflare", "user_id": 430518}, {"username": "autumn", "user_id": 384270}, {"username": "Sabelette", "user_id": 583793}, {"username": "Adeleine", "user_id": 517429}]}
+      ]
+    }
   },
-  "Blissey": {"sets": [{"name": "Choice Scarf (Blissey)"}, {"name": "Stall (Blissey)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}, {"username": "Justdelemon", "user_id": 563325}]}]}},
+  "Blissey": {"sets": [{"name": "Choice Scarf"}, {"name": "Stall"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}, {"username": "Justdelemon", "user_id": 563325}]}]}},
   "Tyranitar": {"sets": [{"name": "Assault Vest"}, {"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}},
   "Pelipper": {"sets": [{"name": "Choice Specs"}, {"name": "Choice Scarf"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
   "Gardevoir": {"sets": [{"name": "Encore + Disable"}, {"name": "Choice Scarf"}]},
@@ -57,13 +69,13 @@
   "Garchomp": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}},
   "Abomasnow": {"sets": [{"name": "Weakness Policy"}, {"name": "Substitute + Leech Seed"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}, {"username": "Justdelemon", "user_id": 563325}]}]}},
   "Magnezone": {"sets": [{"name": "Choice Specs"}, {"name": "Magnet Rise"}, {"name": "Weakness Policy"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}},
-  "Gallade": {"sets": [{"name": "Choice Scarf (Gallade)"}, {"name": "Sitrus Berry (Gallade)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
+  "Gallade": {"sets": [{"name": "Choice Scarf"}, {"name": "Sitrus Berry"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
   "Rotom-Heat": {"sets": [{"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
   "Rotom-Wash": {"sets": [{"name": "Choice Specs"}, {"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}},
   "Krookodile": {"sets": [{"name": "Choice Band"}]},
   "Zoroark-Hisui": {"sets": [{"name": "Choice Specs"}]},
   "Haxorus": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Swords Dance"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
-  "Braviary": {"sets": [{"name": "Choice Band (Braviary)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
+  "Braviary": {"sets": [{"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
   "Hydreigon": {"sets": [{"name": "Choice Specs"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "luser", "user_id": 545212}]}]}},
   "Volcarona": {"sets": [{"name": "Life Orb"}, {"name": "Chilan Berry"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}},
   "Talonflame": {"sets": [{"name": "Choice Band"}, {"name": "Stall"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
@@ -81,10 +93,10 @@
   },
   "Goodra": {"sets": [{"name": "Assault Vest"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}},
   "Avalugg": {"sets": [{"name": "Choice Band"}, {"name": "Sitrus Berry"}]},
-  "Salazzle": {"sets": [{"name": "Encore + Disable (Salazzle)"}, {"name": "Life Orb (Salazzle)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
+  "Salazzle": {"sets": [{"name": "Encore + Disable"}, {"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
   "Corviknight": {"sets": [{"name": "Iron Defense Stall"}, {"name": "Pressure Stall"}, {"name": "Mental Herb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "smely socks", "user_id": 503725}]}]}},
   "Polteageist": {"sets": [{"name": "Kasib Berry"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
-  "Hatterene": {"sets": [{"name": "Weakness Policy (Hatterene)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
+  "Hatterene": {"sets": [{"name": "Weakness Policy"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
   "Dragapult": {
     "sets": [
       {
@@ -143,7 +155,7 @@
     ],
     "credits": {"writtenBy": [{"username": "Lumii", "user_id": 493772}, {"username": "Itchy", "user_id": 518399}], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}, {"username": "Waylaid", "user_id": 474883}, {"username": "smely socks", "user_id": 503725}, {"username": "TheShadowClaw", "user_id": 443250}]}, {"name": "Quality checked by", "members": [{"username": "Lucario", "user_id": 189361}, {"username": "Itchy", "user_id": 518399}, {"username": "Lumii", "user_id": 493772}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "autumn", "user_id": 384270}]}]}
   },
-  "Tinkaton": {"sets": [{"name": "Air Balloon (Tinkaton)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "bored_glitch", "user_id": 579035}]}]}},
+  "Tinkaton": {"sets": [{"name": "Air Balloon"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "bored_glitch", "user_id": 579035}]}]}},
   "Revavroom": {"sets": [{"name": "Air Balloon"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
   "Orthworm": {"sets": [{"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}},
   "Glimmora": {"sets": [{"name": "Assault Vest"}, {"name": "Air Balloon"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}},
@@ -201,10 +213,21 @@
   "Slither Wing": {"sets": [{"name": "Booster Energy (Attack)"}, {"name": "Booster Energy (Speed)"}, {"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}},
   "Sandy Shocks": {"sets": [{"name": "Choice Specs"}, {"name": "Weakness Policy"}, {"name": "Booster Energy"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}},
   "Iron Treads": {"sets": [{"name": "Booster Energy (Speed)"}, {"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}},
-  "Iron Bundle": {"sets": [{"name": "Choice Specs"}, {"name": "Booster Energy (Speed)"}, {"name": "Thief"}, {"name": "Booster Energy (Defense)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}, {"username": "bo_bobson27", "user_id": 546922}]}]}},
+  "Iron Bundle": {
+    "sets": [
+      {"name": "Choice Specs", "description": "<ul> <li>Hydro Pump OHKOes Skeledirge, Arcanine, non-Passho Berry Volcarona, non-Assault Vest Iron Moth, Iron Treads, and physically defensive Espathra.</li> <li>Freeze-Dry beats Dondozo and non-Speed Booster Energy Walking Wake.</li> <li>Blizzard OHKOes non-Assault Vest Iron Leaves and Wo-Chien.</li> <li>Hyper Beam OHKOes opposing Iron Bundle.</li> <li>Iron Bundle can run an alternative EV spread of 232 HP / 68 Def / 160 SpA / 48 Spe with a Timid Nature. The HP and Defense EVs allow Iron Bundle to live a Giga Impact from Choice Band Slaking after Chilling Water. The Speed EVs allow Iron Bundle to outspeed Iron Moth and Adamant Meowscarada.</li> <li>While Ice Beam has a high chance to beat non-specially defensive Pressure stall Corviknight, if you are sure that Corviknight is a specially defensive Pressure stall set, you can attempt to use Hydro Pump to win, but this is not reliable.</li> </ul> "},
+      {"name": "Booster Energy (Speed)"},
+      {"name": "Thief"},
+      {"name": "Booster Energy (Defense)"}
+    ],
+    "credits": {"writtenBy": [{"username": "bea", "user_id": 481149}], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}, {"name": "Quality checked by", "members": [{"username": "Lumii", "user_id": 493772}, {"username": "Vertigo", "user_id": 543620}, {"username": "bored_glitch", "user_id": 579035}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
+  },
   "Iron Hands": {"sets": [{"name": "Booster Energy (Attack)"}, {"name": "Air Balloon"}, {"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}, {"username": "bo_bobson27", "user_id": 546922}, {"username": "Justdelemon", "user_id": 563325}]}]}},
   "Iron Jugulis": {"sets": [{"name": "Choice Specs"}, {"name": "Booster Energy (Special Attack)"}, {"name": "Booster Energy (Speed)"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}, {"username": "bo_bobson27", "user_id": 546922}]}]}},
-  "Iron Moth": {"sets": [{"name": "Choice Specs"}, {"name": "Assault Vest"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "Mithrandir007", "user_id": 613970}, {"username": "Justdelemon", "user_id": 563325}]}]}},
+  "Iron Moth": {
+    "sets": [{"name": "Choice Specs", "description": "<ul> <li>Overheat beats Iron Hands and Corviknight.</li> <li>Sludge Wave OHKOes Sylveon and Gardevoir.</li> <li>Bug Buzz OHKOes non-specially defensive Espathra.</li> <li>Dazzling Gleam with a Timid nature OHKOes non-Choice Scarf Haxorus, while Hurricane with a Modest nature 2HKOes specially defensive Skeledirge.</li> <li>A Timid nature allows Iron Moth to outspeed and OHKO non-Speed Booster Energy Sandy Shocks and Choice Band Iron Treads with Overheat. A Modest nature allows it to reliably beat non-Assault Vest Annihilape with Overheat.</li> <li>Overheat is better to use against Annihilape because Iron Moth isn't OHKOed back by Rage Fist from specially defensive Weakness Policy Annihilape; however, against Assault Vest Annihilape, Iron Moth loses unless it uses Hurricane.</li> </ul> "}, {"name": "Assault Vest"}],
+    "credits": {"writtenBy": [{"username": "bea", "user_id": 481149}], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "Justdelemon", "user_id": 563325}, {"username": "Mithrandir007", "user_id": 613970}]}, {"name": "Quality checked by", "members": [{"username": "Itchy", "user_id": 518399}, {"username": "Lumii", "user_id": 493772}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
+  },
   "Iron Thorns": {"sets": [{"name": "Choice Band"}, {"name": "Air Balloon"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}},
   "Baxcalibur": {"sets": [{"name": "Haban Berry"}, {"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "bored_glitch", "user_id": 579035}]}]}},
   "Wo-Chien": {"sets": [{"name": "Weakness Policy"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "TheShadowClaw", "user_id": 443250}, {"username": "bo_bobson27", "user_id": 546922}]}]}},
