@@ -699,7 +699,7 @@
       "credits": {"writtenBy": [{"username": "Tachipoyo", "user_id": 613881}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}, {"username": "Pearl", "user_id": 47861}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     }
   },
-  "Murkrow": {"nfe": {"sets": [{"name": "Nasty Plot"}]}, "doublesou": {"sets": [{"name": "Lead Supporter"}, {"name": "Bulky Supporter", "description": "<ul> <li>The given EV spread, nature and Eviolite allow Murkrow to survive an Extreme Speed from a Swords of Ruin-boosted Choice Band Dragonite, then invests the remaining EVs in Special Defense.</li> </ul> <p>These are sample sets as we work on proper analyses. Stay tuned!</p> "}]}, "vgc2023": {"sets": [{"name": "Tailwind Support"}]}},
+  "Murkrow": {"nfe": {"sets": [{"name": "Nasty Plot"}]}, "pu": {"sets": [{"name": "Weather Setter", "description": "<p>Thunder Wave supports teammates that are still rather slow even under rain or sun like Beartic and Scovillain, respectively. Taunt denies entry hazards, recovery, and status moves. Haze neutralizes setup sweepers like Masquerain, Lilligant, and Hisuian Sliggoo.</p> <p>Sample set. Stay tuned for updates!</p> "}]}, "doublesou": {"sets": [{"name": "Lead Supporter"}, {"name": "Bulky Supporter", "description": "<ul> <li>The given EV spread, nature and Eviolite allow Murkrow to survive an Extreme Speed from a Swords of Ruin-boosted Choice Band Dragonite, then invests the remaining EVs in Special Defense.</li> </ul> <p>These are sample sets as we work on proper analyses. Stay tuned!</p> "}]}, "vgc2023": {"sets": [{"name": "Tailwind Support"}]}},
   "Slowking": {
     "ou": {
       "sets": [
@@ -757,7 +757,7 @@
       "credits": {"writtenBy": [{"username": "Togkey", "user_id": 400664}], "teams": [{"name": "Quality checked by", "members": [{"username": "Rabia", "user_id": 336073}]}, {"name": "Grammar checked by", "members": [{"username": "Rabia", "user_id": 336073}]}]}
     }
   },
-  "Qwilfish-Hisui": {"nu": {"sets": [{"name": "Defensive"}, {"name": "Swords Dance"}]}},
+  "Qwilfish-Hisui": {"nu": {"sets": [{"name": "Defensive"}, {"name": "Swords Dance"}]}, "pu": {"sets": [{"name": "Spikes"}, {"name": "Swords Dance"}]}},
   "Scizor": {
     "uu": {"sets": [{"name": "Swords Dance"}, {"name": "Offensive Swords Dance"}, {"name": "Choice Band"}]},
     "nationaldex": {
@@ -938,7 +938,7 @@
     },
     "nationaldexmonotype": {"sets": [{"name": "Specially Defensive (Normal)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Pupitar": {"nfe": {"sets": [{"name": "Dragon Dance"}]}},
+  "Pupitar": {"nfe": {"sets": [{"name": "Dragon Dance"}]}, "pu": {"sets": [{"name": "Dragon Dance", "description": "<p>The investment in bulk lets Pupitar avoid being OHKOed by Raichu's Surf from full after Stealth Rock and makes Jolly Honchkrow's Night Slash only a 3HKO. Stone Edge is stronger than Rock Slide but has less PP and lower accuracy. Tera Dragon and Tera Water both patch up Pupitar's Water weakness, but the former also lets it resist Grass- and Electric-type attacks while the latter helps more against Ice-type attacks.</p> <p>Sample set. Stay tuned for updates!</p> "}]}},
   "Tyranitar": {
     "uu": {
       "sets": [
@@ -2352,6 +2352,7 @@
   },
   "Larvesta": {"lc": {"sets": [{"name": "Defensive Pivot"}, {"name": "Choice Scarf"}], "credits": {"writtenBy": [], "teams": [{"name": "Sunmitted by", "members": [{"username": "Charis_Akins", "user_id": 588203}, {"username": "aleaniled", "user_id": 589495}]}]}}},
   "Volcarona": {
+    "anythinggoes": {"sets": [{"name": "Quiver Dance"}]},
     "ou": {
       "sets": [
         {
@@ -2365,7 +2366,6 @@
       ],
       "credits": {"writtenBy": [{"username": "Dreadfury", "user_id": 408271}, {"username": "nimzowitsch", "user_id": 272785}], "teams": [{"name": "Quality checked by", "members": [{"username": "Milo", "user_id": 540138}, {"username": "royalfluxh", "user_id": 493260}, {"username": "autumn", "user_id": 384270}, {"username": "chimp", "user_id": 197439}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}, {"username": "autumn", "user_id": 384270}]}]}
     },
-    "anythinggoes": {"sets": [{"name": "Quiver Dance"}]},
     "monotype": {
       "sets": [
         {
@@ -2676,7 +2676,7 @@
   },
   "Dedenne": {"zu": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}]}},
   "Sliggoo": {"nfe": {"sets": [{"name": "Curse"}]}},
-  "Sliggoo-Hisui": {"nu": {"sets": [{"name": "Curse Sweeper"}, {"name": "All-Out Attacker"}]}},
+  "Sliggoo-Hisui": {"nu": {"sets": [{"name": "Curse Sweeper"}, {"name": "All-Out Attacker"}]}, "pu": {"sets": [{"name": "Curse"}]}},
   "Goodra": {"almostanyability": {"sets": [{"name": "RegenVest"}]}, "1v1": {"sets": [{"name": "Assault Vest"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}}},
   "Goodra-Hisui": {"ou": {"sets": [{"name": "Assault Vest", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "monotype": {"sets": [{"name": "Specially Defensive (Dragon)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}, {"username": "Neko", "user_id": 542526}]}]}}, "balancedhackmons": {"sets": [{"name": "RegenVest"}]}, "almostanyability": {"sets": [{"name": "RegenVest"}]}},
   "Klefki": {
@@ -2751,7 +2751,7 @@
       "credits": {"writtenBy": [{"username": "Taka", "user_id": 595062}], "teams": [{"name": "Quality checked by", "members": [{"username": "adem", "user_id": 529732}, {"username": "Sulo", "user_id": 528036}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     }
   },
-  "Volcanion": {"almostanyability": {"sets": [{"name": "Specs"}]}, "nationaldex": {"sets": [{"name": "Choice Specs"}, {"name": "Wallbreaker", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}},
+  "Volcanion": {"monotype": {"sets": [{"name": "Water Absorb (Fire)", "description": "<p>96 Speed EVs outspeeds Adamant Azumarill, but 172 Speed EVs may be used to outspeed Jolly Azumarill, though that nature is not preferred on Azumarill.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "iBones", "user_id": 475928}]}]}}, "almostanyability": {"sets": [{"name": "Specs"}]}, "nationaldex": {"sets": [{"name": "Choice Specs"}, {"name": "Wallbreaker", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}},
   "Dartrix": {"pu": {"sets": [{"name": "Defog"}]}, "nfe": {"sets": [{"name": "Physically Defensive"}]}},
   "Decidueye": {"uu": {"sets": [{"name": "Defog"}]}},
   "Gumshoos": {"zu": {"sets": [{"name": "Choice Band"}]}},
@@ -3565,6 +3565,7 @@
   },
   "Ursaluna": {
     "ou": {"sets": [{"name": "Swords Dance", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
+    "monotype": {"sets": [{"name": "Guts Wallbreaker (Normal)", "description": "<p>144 Speed EVs may be used to outpace Corviknight and 2HKO it with Fire Punch. This Speed investment also lets Ursaluna outspeed Pokemon with a similar speed tier as it, such as Kingambit, Iron Hands, and Azumarill.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}, {"username": "iBones", "user_id": 475928}]}]}},
     "balancedhackmons": {
       "sets": [
         {
@@ -6854,5 +6855,6 @@
   "Chromera": {"cap": {"sets": [{"name": "Choice Specs"}]}},
   "Venomicon": {"cap": {"sets": [{"name": "Book"}, {"name": "Utility Wall"}]}},
   "Venomicon-Epilogue": {"cap": {"sets": [{"name": "E-Book"}, {"name": "Stealth Rock Pivot"}]}},
-  "Saharaja": {"cap": {"sets": [{"name": "Standard Camel"}]}}
+  "Saharaja": {"cap": {"sets": [{"name": "Standard Camel"}]}},
+  "Hemogoblin": {"cap": {"sets": [{"name": "Bulk Up"}]}}
 }
