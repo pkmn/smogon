@@ -1,6 +1,7 @@
 {
   "Arcanine-Hisui": {"sets": [{"name": "Magic Guard"}]},
   "Muk-Alola": {"sets": [{"name": "RegenVest"}]},
+  "Cloyster": {"sets": [{"name": "Technician"}]},
   "Electrode-Hisui": {"sets": [{"name": "Offensive Pivot"}]},
   "Tauros-Paldea-Blaze": {
     "sets": [
@@ -14,7 +15,8 @@
   },
   "Tauros-Paldea-Aqua": {"sets": [{"name": "Choice Band"}]},
   "Gyarados": {"sets": [{"name": "Dragon Dance"}]},
-  "Zapdos": {"sets": [{"name": "No Guard"}, {"name": "Primordial Sea", "description": "<p>An EV spread of 4 Def / 252 SpA / 252 Spe can be used if power is preferred to defensive utility.</p> "}]},
+  "Vaporeon": {"sets": [{"name": "Defensive"}]},
+  "Zapdos": {"sets": [{"name": "No Guard"}, {"name": "Primordial Sea", "description": "<p>An EV spread of 252 HP / 4 SpA / 252 Spe can be used with Primordial Sea for more defensive utility.</p> "}]},
   "Zapdos-Galar": {"sets": [{"name": "Magic Guard"}, {"name": "Choice Band"}]},
   "Moltres": {"sets": [{"name": "Magic Guard"}, {"name": "Magic Guard"}]},
   "Moltres-Galar": {"sets": [{"name": "Double Dance"}]},
@@ -29,6 +31,7 @@
     ],
     "credits": {"writtenBy": [{"username": "Frozoid", "user_id": 532881}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Alexender", "user_id": 313542}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
   },
+  "Slowking-Galar": {"sets": [{"name": "Specially Defensive Pivot"}]},
   "Donphan": {
     "sets": [{"name": "RegenVest", "description": "<p>Assault Vest Donphan is a solid special pivot that can check the likes of Sandy Shocks while also removing entry hazards with Rapid Spin. Knock Off cripples switch-ins and can support offensive teammates. Body Press is used as a coverage option for Earth Eater Kingambit and Iron Treads, which would otherwise wall Donphan. Offensive Pokemon susceptible to hazards such as Chien-Pao and Dragonite appreciate Donphan's spinning capabilities. Physically defensive Pokemon like Corviknight and Garganacl also pair well with Donphan, as it can handle special attackers like Sandy Shocks that threaten them. Donphan can be prone to residual damage, so it's recommended to pair it with a Wish user like Scream Tail or Florges to extend its longevity.</p> "}],
     "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
@@ -52,6 +55,9 @@
     ],
     "credits": {"writtenBy": [{"username": "Frozoid", "user_id": 532881}], "teams": [{"name": "Quality checked by", "members": [{"username": "Atha", "user_id": 450411}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
   },
+  "Masquerain": {"sets": [{"name": "Sticky Web Lead"}]},
+  "Salamence": {"sets": [{"name": "Aerilate"}]},
+  "Gastrodon": {"sets": [{"name": "Fluffy"}]},
   "Garchomp": {
     "sets": [
       {
@@ -75,7 +81,7 @@
     "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
   },
   "Hippowdon": {
-    "sets": [{"name": "Fur Coat", "description": "<p>Fluffy Hippowdon is a remarkable physical wall thanks to its defensive stats, reliable recovery in Slack Off, and pure Ground typing, letting it check offensive threats like Ceruledge, Kingambit, and Slither Wing. Whirlwind prevents foes like Talonflame from setting up. Rocky Helmet punishes the physical attackers it checks and lets it pseudo-spinblock Cyclizar and Iron Treads; alternatively, Leftovers gives it extra recovery without having to waste Slack Off PP. 25 Speed IVs let it underspeed Corviknight, allowing it to punish its Roost with Earthquake. Specially defensive walls like Corviknight, Florges, and Blissey can compensate for Hippowdon's poor Special Defense and check foes like Chi-Yu and Greninja. In return, they appreciate Hippowdon dealing with Ceruledge, Kingambit, and Slither Wing.</p> "}],
+    "sets": [{"name": "Fluffy", "description": "<p>Fluffy Hippowdon is a remarkable physical wall thanks to its defensive stats, reliable recovery in Slack Off, and pure Ground typing, letting it check offensive threats like Ceruledge, Kingambit, and Slither Wing. Whirlwind prevents foes like Talonflame from setting up. Rocky Helmet punishes the physical attackers it checks and lets it pseudo-spinblock Cyclizar and Iron Treads; alternatively, Leftovers gives it extra recovery without having to waste Slack Off PP. 25 Speed IVs let it underspeed Corviknight, allowing it to punish its Roost with Earthquake. Specially defensive walls like Corviknight, Florges, and Blissey can compensate for Hippowdon's poor Special Defense and check foes like Chi-Yu and Greninja. In return, they appreciate Hippowdon dealing with Ceruledge, Kingambit, and Slither Wing.</p> "}],
     "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
   },
   "Glaceon": {
@@ -98,10 +104,11 @@
     "credits": {"writtenBy": [{"username": "LordBox", "user_id": 611238}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Lumii", "user_id": 493772}]}]}
   },
   "Azelf": {"sets": [{"name": "Psychic Surge"}]},
-  "Heatran": {"sets": [{"name": "Immunity"}, {"name": "Magic Guard"}, {"name": "IronPress"}]},
+  "Heatran": {"sets": [{"name": "Desolate Land", "description": "<p>A set with maximum Special Attack investment and a Modest nature can be used instead for more offensive pressure.</p> "}, {"name": "Magic Guard"}, {"name": "IronPress"}]},
   "Cresselia": {"sets": [{"name": "Unaware Setup"}]},
   "Samurott-Hisui": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}]},
-  "Lilligant-Hisui": {"sets": [{"name": "Fluffy"}]},
+  "Lilligant-Hisui": {"sets": [{"name": "Fluffy"}, {"name": "Sword of Ruin"}]},
+  "Haxorus": {"sets": [{"name": "Protean"}]},
   "Hydreigon": {
     "sets": [
       {
@@ -124,9 +131,12 @@
     ],
     "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}, {"username": "Alexender", "user_id": 313542}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Sabelette", "user_id": 583793}, {"username": "autumn", "user_id": 384270}]}]}
   },
-  "Thundurus": {"sets": [{"name": "Refrigerate"}, {"name": "Magic Guard"}]},
+  "Thundurus": {"sets": [{"name": "Sheer Force"}, {"name": "Magic Guard"}]},
+  "Thundurus-Therian": {"sets": [{"name": "Sheer Force"}]},
+  "Landorus": {"sets": [{"name": "Sheer Force"}]},
   "Landorus-Therian": {"sets": [{"name": "RegenVest"}, {"name": "Fluffy"}]},
   "Meloetta": {"sets": [{"name": "RegenVest"}]},
+  "Chesnaught": {"sets": [{"name": "Triage"}, {"name": "Well-Baked Body"}]},
   "Greninja": {
     "sets": [
       {
@@ -137,15 +147,7 @@
     ],
     "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}, {"username": "Theia", "user_id": 439018}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
   },
-  "Talonflame": {
-    "sets": [
-      {
-        "name": "Bulk Up",
-        "description": "<p>Magic Guard Talonflame is a formidable physical sweeper with powerful STAB moves that it can fire off with impunity and boasts a premier Speed tier, which allows it to outspeed threats such as Meowscarada and Roaring Moon. Bulk Up + Roost Talonflame serves as a surprisingly bulky sweeper and a solid revenge killer for weakened threats such as Kilowattrel and Greninja. It can also pull off feats such as beating a non-setup Garganacl switch-in. Talonflame also easily finds opportunities to set up by forcing slower foes to switch out into the opponent's physical walls. Talonflame is deterred by common physical walls such as Dondozo and Hippowdon, the latter of which can phaze it out with Whirlwind, so it appreciates special wallbreakers such as Iron Moth and Greninja that can handle them and clear the way for Talonflame to sweep in the late-game. Dondozo is also a solid teammate for Talonflame, being able to withstand powerful Water-type moves from the likes of Barraskewda and Palafin, as well as priority users such as Kingambit and Chien-Pao. Talonflame also struggles against teams with faster special attackers such as Greninja and Choice Scarf Sandy Shocks, thus switch-ins such as Blissey or Florges are recommended.</p> "
-      }
-    ],
-    "credits": {"writtenBy": [{"username": "Alexender", "user_id": 313542}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Dawn of Ares", "user_id": 467437}]}]}
-  },
+  "Talonflame": {"sets": [{"name": "Magic Guard"}]},
   "Florges": {
     "sets": [
       {
@@ -155,10 +157,15 @@
     ],
     "credits": {"writtenBy": [{"username": "Alexender", "user_id": 313542}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}]}]}
   },
+  "Sylveon": {"sets": [{"name": "Unaware"}]},
+  "Hawlucha": {"sets": [{"name": "Magic Guard"}]},
   "Goodra": {"sets": [{"name": "RegenVest"}]},
   "Goodra-Hisui": {"sets": [{"name": "RegenVest"}]},
+  "Diancie": {"sets": [{"name": "Defensive"}, {"name": "Triage"}]},
   "Hoopa": {"sets": [{"name": "Special Wallbreaker"}]},
-  "Volcanion": {"sets": [{"name": "Specs"}]},
+  "Volcanion": {"sets": [{"name": "Choice Specs"}, {"name": "Magic Guard"}]},
+  "Decidueye": {"sets": [{"name": "Defensive"}]},
+  "Lycanroc": {"sets": [{"name": "Rocky Payload"}]},
   "Toxapex": {
     "sets": [
       {
@@ -198,6 +205,7 @@
     ],
     "credits": {"writtenBy": [{"username": "Theia", "user_id": 439018}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
   },
+  "Drednaw": {"sets": [{"name": "Shell Smash"}]},
   "Barraskewda": {
     "sets": [
       {
@@ -207,6 +215,7 @@
     ],
     "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
   },
+  "Toxtricity": {"sets": [{"name": "Shift Gear"}, {"name": "Choiced Attacker"}]},
   "Polteageist": {
     "sets": [
       {
@@ -225,9 +234,11 @@
     ],
     "credits": {"writtenBy": [{"username": "Natcrozma", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
   },
+  "Zarude": {"sets": [{"name": "Bulk Up"}]},
+  "Regieleki": {"sets": [{"name": "Special"}, {"name": "Physical"}]},
   "Ursaluna": {"sets": [{"name": "Belly Drum"}, {"name": "Turboblaze"}]},
   "Enamorus": {"sets": [{"name": "Sheer Force"}, {"name": "Choice Specs"}]},
-  "Enamorus-Therian": {"sets": [{"name": "Triage"}]},
+  "Enamorus-Therian": {"sets": [{"name": "Triage"}, {"name": "Sheer Force"}]},
   "Meowscarada": {
     "sets": [
       {
@@ -342,7 +353,7 @@
     "sets": [{"name": "Shed Tail", "description": "<p>Shed Tail, Regenerator, and good Speed give Cyclizar a unique role on offensive teams: safely bringing in powerful attackers like Cinderace and Polteageist multiple times per battle. Draco Meteor KOes opposing Cyclizar and picks off weakened foes. U-turn lets Cyclizar pivot out without self-damage, healing from Regenerator to potentially use Shed Tail again later. Rapid Spin and/or Knock Off provide further utility. Choice Scarf + Shed Tail is preferred against Chien-Pao and other fast threats, but Heavy-Duty Boots can be used to avoid entry hazard damage and the Choice lock. Cyclizar benefits greatly from a strong physical wall or Dazzling user to deal with priority attackers like Hatterene. Strong attackers like Cinderace and Greninja are also valuable for dealing with phazers like Hippowdon and Ting-Lu.</p> "}],
     "credits": {"writtenBy": [{"username": "Tanny89k", "user_id": 546606}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
   },
-  "Glimmora": {"sets": [{"name": "Corrosion"}]},
+  "Glimmora": {"sets": [{"name": "Earth Eater"}, {"name": "Corrosion"}]},
   "Dondozo": {
     "sets": [
       {
@@ -408,7 +419,7 @@
       },
       {"name": "Pivot", "description": "<p>Good natural bulk, useful defensive typing, and an excellent support movepool make Slither Wing a good mixed defense pivot that repeatedly pivots and most notably switches into Ground-types like Iron Treads. Regenerator makes the most of its pivoting ability, but Unaware is an option for deterring setup. Will-O-Wisp allows it to punish switch-ins like Garchomp with a burn. Its massive Attack allows it to use STAB U-turn to maintain momentum while bringing in more offensive teammates like Chi-Yu and Greninja. Even with investment, Slither Wing struggles to check certain physical attackers like Ceruledge and Talonflame, so Pokemon like Garganacl and Corviknight make good teammates. Slither Wing also has difficulty against Fairy- and Flying-types like Scream Tail and Kilowattrel, so it appreciates teammates like Iron Moth and Garganacl that are able to handle them.</p> "}
     ],
-    "credits": {"writtenBy": [{"username": "BugGoBrrrrrr", "user_id": 560990}, {"username": "Theia", "user_id": 439018}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}]}
+    "credits": {"writtenBy": [{"username": "BugGoBrrrrrr", "user_id": 560990}, {"username": "Theia", "user_id": 439018}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}]}
   },
   "Sandy Shocks": {
     "sets": [
@@ -443,6 +454,7 @@
     ],
     "credits": {"writtenBy": [{"username": "Alexender", "user_id": 313542}, {"username": "royalfluxh", "user_id": 493260}, {"username": "LordBox", "user_id": 611238}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}, {"username": "Atha", "user_id": 450411}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}, {"username": "Sulo", "user_id": 528036}, {"username": "Sabelette", "user_id": 583793}]}]}
   },
+  "Iron Thorns": {"sets": [{"name": "Dragon Dance"}]},
   "Chien-Pao": {
     "sets": [
       {"name": "Choice Band", "description": "<p>Choice Band Chien-Pao is a threatening wallbreaker thanks to its high Speed and decent STAB coverage that hits common physically defensive walls like Ting-Lu and Hippowdon. Sucker Punch picks off faster offensive threats such as Barraskewda and common Choice Scarf users; alternatively, Ice Shard is weaker but hits Roaring Moon super effectively. Sacred Sword beats Steel-types like Kingambit and bypasses Garganacl's Defense boosts. Chien-Pao's best fit is on balance teams that can provide it with safe switch-ins and take advantage of the holes it creates. Iron Moth and Sandy Shocks are recommended teammates, as both can help Chien-Pao beat the incredibly troublesome Dondozo and Toxapex. Corviknight and Iron Treads are both good teammates thanks to their ability to pivot Chien-Pao in safely, in addition to clearing Stealth Rock.</p> "},
