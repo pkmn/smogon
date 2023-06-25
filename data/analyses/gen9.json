@@ -1,5 +1,6 @@
 {
   "Charmander": {"lc": {"sets": [{"name": "Sun Wallbreaker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Flou", "user_id": 605215}]}]}}},
+  "Charmeleon": {"zu": {"sets": [{"name": "Sun Attacker"}]}},
   "Charizard": {
     "pu": {"sets": [{"name": "Special Attacker"}, {"name": "Setup Sweeper"}]},
     "nationaldex": {
@@ -39,7 +40,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
-    }
+    },
+    "zu": {"sets": [{"name": "Special Wallbreaker"}]}
   },
   "Raichu": {"pu": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice"}]}},
   "Raichu-Alola": {"nationaldexmonotype": {"sets": [{"name": "Surge Surfer (Electric)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
@@ -66,7 +68,7 @@
     }
   },
   "Meowth": {"lc": {"sets": [{"name": "Revenge Killer"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "ZeStinky", "user_id": 597006}]}]}}},
-  "Persian": {"zu": {"sets": [{"name": "Speed Control"}]}},
+  "Persian": {"zu": {"sets": [{"name": "Nasty Plot"}]}},
   "Psyduck": {"lc": {"sets": [{"name": "Rain Wallbreaker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Altariel von Sweep", "user_id": 330191}]}]}}, "nfe": {"sets": [{"name": "Rain Sweeper"}]}},
   "Golduck": {"pu": {"sets": [{"name": "Rain Sweeper"}, {"name": "Choice Scarf"}]}, "uu": {"sets": [{"name": "Nasty Plot"}]}, "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Rain Sweeper"}]}},
   "Mankey": {
@@ -143,7 +145,7 @@
       "credits": {"writtenBy": [{"username": "plznostep", "user_id": 595639}], "teams": [{"name": "Quality checked by", "members": [{"username": "Pokeslice", "user_id": 509790}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "UT", "user_id": 523866}]}]}
     }
   },
-  "Grimer-Alola": {"lc": {"sets": [{"name": "Tank"}]}, "nfe": {"sets": [{"name": "Tank"}]}},
+  "Grimer-Alola": {"lc": {"sets": [{"name": "Tank"}]}, "nfe": {"sets": [{"name": "Tank"}]}, "zu": {"sets": [{"name": "Specially Defensive"}]}},
   "Muk": {
     "nu": {
       "sets": [
@@ -196,7 +198,7 @@
     "almostanyability": {"sets": [{"name": "Technician"}]},
     "nationaldexmonotype": {"sets": [{"name": "Physically Defensive (Ice)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Shell Smash Sweeper (Ice)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Gastly": {"nfe": {"sets": [{"name": "Choice Specs"}]}, "zu": {"sets": [{"name": "Choice Scarf"}]}},
+  "Gastly": {"nfe": {"sets": [{"name": "Choice Specs"}]}, "zu": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}]}},
   "Haunter": {
     "nu": {
       "sets": [
@@ -354,14 +356,14 @@
     "monotype": {"sets": [{"name": "Defensive Dragon Dance (Flying)", "description": "<p>Outspeeds Great Tusk at +1, OHKO'es Flutter Mane with Waterfall at +1, 3HKO'ed by Specs Flutter Mane's Moonblast.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Choice Scarf (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Flying Set by", "members": [{"username": "Trichotomy", "user_id": 284954}]}]}},
     "doublesou": {"sets": [{"name": "Dragon Dance"}]},
     "battlestadiumsingles": {
-      "overview": "<p>With Paradox Pokemon being introduced, Series 2 is bringing big changes to Battle Stadium Singles! This is a modified Series 1 analysis that takes Paradox Pokemon into account. We will update this overview and analysis again once the metagame settles more. <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-2-paradox-pandemonium-speed-tiers-and-more-inside.3714699/\">For more information on Series 2, check out the resource thread.</a></p> <p><a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-2.3715382/\">If you feel that this analysis is missing important information, feel free to leave feedback here.</a></p> ",
+      "overview": "<p>This analysis is for the Regulation C format of Battle Stadium Singles, which lasts until June 30th, 2023. For more information on this format and its current events, check out the format page!</p> <p>If you feel this analysis is missing anything important or needs an update, feel free to suggest any changes here.</p> ",
       "sets": [
         {
-          "name": "Dragon Dance Sweeper",
-          "description": "<ul> <li> <p>With Dragon Dance and its solid movepool and typing, Gyarados becomes a a viable sweeper that can take on major threats such as Great Tusk and physical Iron Valiant.</p> </li> <li> <p><strong>Earthquake: Earthquake is Gyarados's best coverage option against Magnezone, Iron Hands, and Water Absorb Clodsire.</p> </li> <li> <p><strong>Tera Blast: Tera Blast allows Gyarados to give itself another coverage option with various Tera types or provide a reliable Flying STAB attack for it to use after Terastallization.</p> </li> <li> <p><strong>Ice Fang</strong>: Ice Fang is valuable coverage versus Grass- and Dragon-type Pokemon who may try to deal with Gyarados, such as Dragonite, Brute Bonnet, and Hydreigon.</p> </li> <li> <p><strong>Taunt: This shuts down passive Pokemon and status users such as Corviknight, Scream Tail, and Skeledirge, opening the door for more opportunities to sweep.</p> </li> </ul> <h1>Abilities</h1> <ul> <li> <p><strong>Intimidate: Intimidate gives Gyarados more opportunities to set up on weakened physical attackers, such as Choice Band Garchomp and Choice Band Tera Dragon Dragapult.</p> </li> <li> <p><strong>Moxie: Moxie gives Gyarados sweeping potential after it picks off weakened foes like Hippowdon and Breloom, which reduces Gyarados's reliance on Dragon Dance.</p> </li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Lum Berry: Lum Berry helps protect Gyarados from status and makes it easier to set up on sleep inducers such as Brute Bonnet, Breloom, and Amoonguss.</p> </li> <li> <p><strong>Life Orb: Life Orb boosts Electric Tera Blast enough to potentially 2HKO Dondozo and OHKO Iron Bundle and secures the OHKO against Dragapult with +1 Ice Fang.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Ground: In addition to gaining a immunity to Electric-type attacks and giving Gyarados a resistance to rock-type attacks that threaten it, Ground Tera also boosts the power of Earthquake.</p> </li> <li> <p><strong>Flying</strong>: While not helping it's matchup versus Pokemon that threaten it, Tera Flying gives Gyarados access to a very dangerous STAB Flying move once it is boosted.</p> </li> <li> <p><strong>Electric</strong>: Tera Electric not only covers Gyarados's Electric-type weakness, but it also vastly improves its matchup against Iron Bundle.</p> </li> <li> <p><strong>Grass</strong>: Grass Tera eliminates Gyarados's weakness to Electric type attacks such as Rotom-W's Volt Switch and gives it an immunity to Spore from the likes of Breloom and Amoonguss.</p> </li> </ul> "
+          "name": "Rocky Helmet",
+          "description": "<ul> <li> <p>Gyarados utilizes its unique typing alongside Rocky Helmet to cushion physical sweepers such as Scizor, Great Tusk and Palafin.</p> </li> <li> <p><strong>Taunt: Taunt forces foes such as Corviknight and Dondozo to attack Gyarados, constraining them to take Rocky Helmet chip while often dealing minimal damage themselves.</p> </li> <li> <p><strong>Waterfall versus Iron Head: Waterfall provides Gyarados with a reliable STAB move, but Iron Head works better with Thunder Wave thanks to its higher flinch chance. They can be run together, though usually at the cost of overall coverage.</p> </li> <li> <p><strong>Earthquake</strong>: Earthquake checks several common Gyarados switch-ins, such as Iron Hands and Magnezone.</p> </li> <li> <p><strong>Ice Fang: Ice Fang hits bulky Dragon-types such as Dragonite that otherwise can withstand attacks from Gyarados.</p> </li> <li> <p><strong>Thunder Wave: Thunder Wave combined with flinch moves like Waterfall and Iron Head can shut down foes for several turns at a time. It can also catch foes switching into Gyarados, though keep in mind that many prominent Gyarados checks are naturally immune.</p> </li> <li> <p><strong>EV Spread</strong>: This spread allows Gyarados to survive two unboosted Moonblasts from Flutter Mane and minimizes Stealth Rock chip. The Speed investment outspeeds 4 Speed Rotom formes and, when using Thunder Wave, outspeeds paralyzed Speed-boosting nature Dragapult.</p> </li> </ul> <h1>Other Options</h1> <ul> <li><strong>Dragon Dance</strong>: Rocky Helmet sets can still opt to utilize Dragon Dance for more offensive presence, but this usually involves cutting bulk to invest in Attack and Speed.</li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Tera Dependency - Low: While Gyarados has uses for Terastallization, losing its unique defensive typing jeopardizes its Rocky Helmet niche and makes it much harder to check its key targets. Terastallization must be timed properly if Gyarados is to get proper value out of it.</p> </li> <li> <p><strong>Steel</strong>: Tera Steel powers up Iron Head to more serviceable levels and makes it easier to OHKO bulky Flutter Mane.</p> </li> <li> <p><strong>Ground</strong>: Tera Ground prevents Gyarados from getting dismantled by its 4x Electric-type weakness and provides a sizable power boost to Earthquake.</p> </li> </ul> "
         }
       ],
-      "credits": {"writtenBy": [{"username": "Ultima-Z", "user_id": 326738}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}]}]}
+      "credits": {"writtenBy": [{"username": "Photon", "user_id": 516307}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}]}, {"name": "Grammar checked by", "members": [{"username": "YashGreninja", "user_id": 383911}, {"username": "autumn", "user_id": 384270}]}]}
     },
     "vgc2023": {"sets": [{"name": "Support"}]},
     "almostanyability": {"sets": [{"name": "Dragon Dance"}]}
@@ -388,6 +390,16 @@
     },
     "ou": {"sets": [{"name": "Imposter"}]},
     "monotype": {"sets": [{"name": "Choice Scarf", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
+    "battlestadiumsingles": {
+      "overview": "<p>This analysis is for the Regulation C format of Battle Stadium Singles, which lasts until June 30th, 2023. For more information on this format and its current events, check out the format page!</p> <p>If you feel this analysis is missing anything important or needs an update, feel free to suggest any changes here.</p> ",
+      "sets": [
+        {
+          "name": "Revenge Killer",
+          "description": "<ul> <li>Ditto is widely hailed as the best revenge killer and finds a small niche with a Choice Scarf.</li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Tera Dependency - Low</strong>: Ditto rarely needs to Terastallize unless it is being threatened by Dragon Dance Dragonite's Extreme Speed at +3.</p> </li> <li> <p><strong>Ghost: Tera Ghost gives Ditto immunity to Dragonite's Extreme Speed, preventing it from defeating Ditto after three Dragon Dances.</p> </li> </ul> <h1>Items</h1> <ul> <li><strong>Choice Scarf</strong>: The safest option, Choice Scarf guarantees that Ditto will always outspeed the foe unless said foe is holding a Choice Scarf.</li> <li><strong>Focus Sash</strong>: A high-risk yet high-reward option, Focus Sash allows Ditto to switch moves at the cost of being nullified by entry hazards. However, it should be noted that Imposter doesn't copy Protosynthesis or Quark Drive boosts, making Focus Sash a lot less niche, as it allows Ditto to beat foes such as Flutter Mane more consistently assuming the field is clear of hazards.</li> </ul> <h1>EV Spreads</h1> <ul> <li><strong>Effort Values: The given EVs maximize Ditto's bulk in the rare case of a mirror matchup.</li> <li><strong>Individual Values</strong>: 0 Speed IVs and a minus Speed nature is key to beating opposing Ditto, as the Ditto that moves last on the fourth turn will win the mirror.</li> </ul> "
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "Aqua Jet", "user_id": 531302}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}]}, {"name": "Grammar checked by", "members": [{"username": "Deezcastforms", "user_id": 423085}, {"username": "Sabelette", "user_id": 583793}]}]}
+    },
     "nationaldex": {"sets": [{"name": "SUS"}]},
     "nationaldexmonotype": {"sets": [{"name": "Choice Scarf", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned</p> "}]}
   },
@@ -414,7 +426,7 @@
       "credits": {"writtenBy": [{"username": "outbackrabbit", "user_id": 399621}], "teams": [{"name": "Quality checked by", "members": [{"username": "Togkey", "user_id": 400664}]}, {"name": "Grammar checked by", "members": [{"username": "Rabia", "user_id": 336073}]}]}
     }
   },
-  "Flareon": {"pu": {"sets": [{"name": "Wish Passer"}]}, "zu": {"sets": [{"name": "Special Wall"}, {"name": "Toxic Orb"}]}},
+  "Flareon": {"pu": {"sets": [{"name": "Wish Passer"}]}, "zu": {"sets": [{"name": "Specially Defensive"}]}},
   "Articuno-Galar": {"ou": {"sets": [{"name": "Double Dance", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}},
   "Zapdos": {
     "ou": {"sets": [{"name": "Offensive"}, {"name": "Defensive", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
@@ -462,7 +474,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Codename C.A.T", "user_id": 537972}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
-    "almostanyability": {"sets": [{"name": "Magic Guard"}, {"name": "Magic Guard"}]},
+    "almostanyability": {"sets": [{"name": "Magic Guard"}, {"name": "Desolate Land"}]},
     "nationaldex": {"sets": [{"name": "Defensive", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}
   },
   "Moltres-Galar": {
@@ -662,7 +674,8 @@
     },
     "nationaldexmonotype": {"sets": [{"name": "Belly Drum (Fairy)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Jumpluff": {"zu": {"sets": [{"name": "Swords Dance"}, {"name": "Offensive Pivot"}]}},
+  "Sudowoodo": {"zu": {"sets": [{"name": "Stealth Rock + Spikes"}]}},
+  "Jumpluff": {"zu": {"sets": [{"name": "Swords Dance"}, {"name": "Offensive Pivot"}, {"name": "Sun Setter"}]}},
   "Quagsire": {
     "uu": {
       "sets": [
@@ -711,7 +724,7 @@
       "credits": {"writtenBy": [{"username": "Tachipoyo", "user_id": 613881}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}, {"username": "Pearl", "user_id": 47861}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     }
   },
-  "Murkrow": {"nfe": {"sets": [{"name": "Nasty Plot"}]}, "pu": {"sets": [{"name": "Weather Setter", "description": "<p>Thunder Wave supports teammates that are still rather slow even under rain or sun like Beartic and Scovillain, respectively. Taunt denies entry hazards, recovery, and status moves. Haze neutralizes setup sweepers like Masquerain, Lilligant, and Hisuian Sliggoo.</p> <p>Sample set. Stay tuned for updates!</p> "}]}, "doublesou": {"sets": [{"name": "Lead Supporter"}, {"name": "Bulky Supporter", "description": "<ul> <li>The given EV spread, nature and Eviolite allow Murkrow to survive an Extreme Speed from a Swords of Ruin-boosted Choice Band Dragonite, then invests the remaining EVs in Special Defense.</li> </ul> <p>These are sample sets as we work on proper analyses. Stay tuned!</p> "}]}, "vgc2023": {"sets": [{"name": "Tailwind Support"}]}},
+  "Murkrow": {"nfe": {"sets": [{"name": "Nasty Plot"}]}, "pu": {"sets": [{"name": "Weather Setter", "description": "<p>Thunder Wave supports teammates that are still rather slow even under rain or sun like Beartic and Scovillain, respectively. Taunt denies entry hazards, recovery, and status moves. Haze neutralizes setup sweepers like Masquerain, Lilligant, and Hisuian Sliggoo.</p> <p>Sample set. Stay tuned for updates!</p> "}]}, "doublesou": {"sets": [{"name": "Lead Supporter"}, {"name": "Bulky Supporter", "description": "<ul> <li>The given EV spread, nature and Eviolite allow Murkrow to survive an Extreme Speed from a Swords of Ruin-boosted Choice Band Dragonite, then invests the remaining EVs in Special Defense.</li> </ul> <p>These are sample sets as we work on proper analyses. Stay tuned!</p> "}]}, "vgc2023": {"sets": [{"name": "Tailwind Support"}]}, "zu": {"sets": [{"name": "Sun Setter"}, {"name": "Mixed Attacker"}]}},
   "Slowking": {
     "ou": {
       "sets": [
@@ -758,7 +771,7 @@
   "Misdreavus": {"pu": {"sets": [{"name": "Defensive", "description": "<p>This spread provides similar defensive properties to 252 HP / 200 Def / 56 Spe but with slightly lower HP to improve Pain Split's effectiveness. 56 Speed EVs let it outspeed Adamant/Modest Honchkrow, Adamant/Modest Flapple, Timid Glimmet, and base Speed Drakloak.</p> <p>Sample set. Stay tuned for updates!</p> "}, {"name": "Offensive"}]}},
   "Girafarig": {"nfe": {"sets": [{"name": "Nasty Plot"}, {"name": "Calm Mind"}]}},
   "Forretress": {"monotype": {"sets": [{"name": "Entry Hazard Support (Bug)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
-  "Dunsparce": {"nfe": {"sets": [{"name": "Calm Mind"}, {"name": "Utility"}, {"name": "Coil"}]}, "pu": {"sets": [{"name": "Stealth Rock"}]}, "zu": {"sets": [{"name": "Stealth Rock"}, {"name": "Coil"}]}},
+  "Dunsparce": {"nfe": {"sets": [{"name": "Calm Mind"}, {"name": "Utility"}, {"name": "Coil"}]}, "pu": {"sets": [{"name": "Stealth Rock"}]}, "zu": {"sets": [{"name": "Physical Wall"}, {"name": "Coil"}]}},
   "Qwilfish": {
     "nu": {
       "sets": [
@@ -843,7 +856,7 @@
     "nationaldexmonotype": {"sets": [{"name": "Offensive Swords Dance (Bug)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned</p> "}]}
   },
   "Heracross": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Flame Orb"}]}},
-  "Sneasel": {"nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}, "pu": {"sets": [{"name": "Swords Dance"}]}, "zu": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}},
+  "Sneasel": {"nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}, "pu": {"sets": [{"name": "Swords Dance"}]}, "zu": {"sets": [{"name": "Swords Dance"}]}},
   "Sneasel-Hisui": {"nu": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Scarf"}]}},
   "Ursaring": {
     "nu": {
@@ -895,7 +908,7 @@
       }
     }
   },
-  "Stantler": {"nfe": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Band"}, {"name": "Calm Mind"}]}, "zu": {"sets": [{"name": "Choice Scarf"}, {"name": "Calm Mind"}]}},
+  "Stantler": {"nfe": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Band"}, {"name": "Calm Mind"}]}, "zu": {"sets": [{"name": "CroTler"}, {"name": "Offensive Calm Mind"}, {"name": "Choice Scarf"}]}},
   "Blissey": {
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}]},
     "anythinggoes": {
@@ -951,7 +964,7 @@
     },
     "nationaldexmonotype": {"sets": [{"name": "Specially Defensive (Normal)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Pupitar": {"nfe": {"sets": [{"name": "Dragon Dance"}]}, "pu": {"sets": [{"name": "Dragon Dance", "description": "<p>The investment in bulk lets Pupitar avoid being OHKOed by Raichu's Surf from full after Stealth Rock and makes Jolly Honchkrow's Night Slash only a 3HKO. 152 Speed EVs allow Pupitar to outrun Raichu at +2. Stone Edge is stronger than Rock Slide but has less PP and lower accuracy. Tera Dragon and Tera Water both patch up Pupitar's Water weakness, but the former also lets it resist Grass- and Electric-type attacks while the latter helps more against Ice-type attacks.</p> <p>Sample set. Stay tuned for updates!</p> "}]}},
+  "Pupitar": {"nfe": {"sets": [{"name": "Dragon Dance"}]}, "pu": {"sets": [{"name": "Dragon Dance", "description": "<p>The investment in bulk lets Pupitar avoid being OHKOed by Raichu's Surf from full after Stealth Rock and makes Jolly Honchkrow's Night Slash only a 3HKO. 152 Speed EVs allow Pupitar to outrun Raichu at +2. Stone Edge is stronger than Rock Slide but has less PP and lower accuracy. Tera Dragon and Tera Water both patch up Pupitar's Water weakness, but the former also lets it resist Grass- and Electric-type attacks while the latter helps more against Ice-type attacks.</p> <p>Sample set. Stay tuned for updates!</p> "}]}, "zu": {"sets": [{"name": "Offensive Dragon Dance"}, {"name": "Bulky Dragon Dance"}]}},
   "Tyranitar": {
     "uu": {
       "sets": [
@@ -1267,7 +1280,7 @@
       "credits": {"writtenBy": [{"username": "hidin", "user_id": 589564}], "teams": [{"name": "Quality checked by", "members": [{"username": "Kaede", "user_id": 483087}, {"username": "adem", "user_id": 529732}]}, {"name": "Grammar checked by", "members": [{"username": "skippergamez", "user_id": 620268}, {"username": "Sulo", "user_id": 528036}]}]}
     }
   },
-  "Swalot": {"zu": {"sets": [{"name": "Defensive Utility"}, {"name": "AcidPress"}]}},
+  "Swalot": {"zu": {"sets": [{"name": "AcidPress"}, {"name": "Swords Dance"}]}},
   "Numel": {"lc": {"sets": [{"name": "Stockpile + Body Press"}, {"name": "Double Dance"}], "credits": {"writtenBy": [], "teams": [{"name": "submitted by", "members": [{"username": "Kaboom", "user_id": 300935}]}]}}},
   "Camerupt": {"pu": {"sets": [{"name": "Specially Defensive"}, {"name": "Trick Room Attacker"}]}, "nu": {"sets": [{"name": "Defensive Utility", "description": "<p>Fire Spin and Grass Tera Blast can effectively lure otherwise undesirable matchups like Sandaconda and Vaporeon. 88 Speed allows Camerupt to outspeed the likes of Muk, Crocalor, and Perrserker</p> "}]}},
   "Torkoal": {
@@ -1324,9 +1337,11 @@
   },
   "Zangoose": {"pu": {"sets": [{"name": "Toxic Boost"}]}, "nu": {"sets": [{"name": "Swords Dance"}]}},
   "Seviper": {"zu": {"sets": [{"name": "Swords Dance"}]}},
-  "Banette": {"pu": {"sets": [{"name": "Swords Dance"}]}, "zu": {"sets": [{"name": "Bulky Spinblocker"}, {"name": "Swords Dance"}]}},
+  "Banette": {"pu": {"sets": [{"name": "Swords Dance"}]}, "zu": {"sets": [{"name": "Swords Dance"}]}},
+  "Tropius": {"zu": {"sets": [{"name": "Physical Wall"}]}},
   "Snorunt": {"nfe": {"sets": [{"name": "Moody"}]}},
   "Glalie": {"zu": {"sets": [{"name": "Offensive Spikes"}]}},
+  "Shelgon": {"zu": {"sets": [{"name": "Dragon Dance"}]}},
   "Salamence": {
     "uu": {
       "sets": [
@@ -1407,6 +1422,7 @@
   "Kricketune": {"zu": {"sets": [{"name": "Sticky Web"}]}},
   "Luxray": {"zu": {"sets": [{"name": "Flame Orb"}]}},
   "Vespiquen": {"pu": {"sets": [{"name": "Spikes"}]}, "nu": {"sets": [{"name": "Pivot"}]}},
+  "Pachirisu": {"zu": {"sets": [{"name": "Defensive Pivot"}]}},
   "Buizel": {"lc": {"sets": [{"name": "Rain Wallbreaker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Altariel von Sweep", "user_id": 330191}]}]}}},
   "Floatzel": {
     "uu": {"sets": [{"name": "Choice Band"}]},
@@ -1610,7 +1626,7 @@
       "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     }
   },
-  "Hippopotas": {"nfe": {"sets": [{"name": "Physical Wall"}]}},
+  "Hippopotas": {"nfe": {"sets": [{"name": "Physical Wall"}]}, "zu": {"sets": [{"name": "Mixed Wall"}]}},
   "Hippowdon": {
     "uu": {
       "sets": [
@@ -1687,7 +1703,7 @@
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Swords Dance", "description": "<p>+2 Tera Poison Gunk Shot OHKOes Slowbro.</p> "}]},
     "monotype": {"sets": [{"name": "Swords Dance (Fighting)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Lumineon": {"pu": {"sets": [{"name": "Defensive Pivot"}]}, "zu": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Scarf"}]}},
+  "Lumineon": {"pu": {"sets": [{"name": "Defensive Pivot"}]}},
   "Snover": {"lc": {"sets": [{"name": "Physical Wall"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "TheShoddyStrawman", "user_id": 585065}]}]}}},
   "Abomasnow": {
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Snow Setter", "description": "<p>88 Speed EVs are to outrun maximum Speed invested Choice Specs Arboliva and defensive Pokemon such as Alomomola.</p> "}, {"name": "Swords Dance"}]},
@@ -2182,7 +2198,7 @@
       "credits": {"writtenBy": [{"username": "Mashing", "user_id": 537354}], "teams": [{"name": "Quality checked by", "members": [{"username": "corvere", "user_id": 306317}, {"username": "Lasen", "user_id": 273339}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Dawn of Ares", "user_id": 467437}, {"username": "Lumari", "user_id": 232216}]}]}
     },
     "vgc2023": {"sets": [{"name": "Support"}]},
-    "zu": {"sets": [{"name": "Nasty Plot"}]}
+    "zu": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice Scarf"}, {"name": "Choice Specs"}]}
   },
   "Deerling": {"lc": {"sets": [{"name": "Offensive"}]}},
   "Sawsbuck": {"pu": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Scarf"}]}},
@@ -2320,7 +2336,8 @@
       ],
       "credits": {"writtenBy": [{"username": "Drifting", "user_id": 342456}], "teams": [{"name": "Quality checked by", "members": [{"username": "gali", "user_id": 107567}, {"username": "DC", "user_id": 449990}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
-    "nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Stealth Rock"}]}
+    "nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Stealth Rock"}]},
+    "zu": {"sets": [{"name": "Swords Dance"}]}
   },
   "Bisharp": {"uu": {"sets": [{"name": "Swords Dance"}]}, "nationaldexru": {"sets": [{"name": "Bulky Swords Dance", "description": "<p>96 Speed EVs allows Bisharp to outspeed max Speed Azumarill with a neutral nature.</p> "}, {"name": "Offensive Swords Dance"}, {"name": "Choice Band"}]}},
   "Rufflet": {"nfe": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Bulk Up"}]}},
@@ -2567,7 +2584,7 @@
     }
   },
   "Meloetta": {"monotype": {"sets": [{"name": "Choice Specs (Normal)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Ultraman1", "user_id": 598658}]}]}}, "balancedhackmons": {"sets": [{"name": "RegenVest"}]}, "almostanyability": {"sets": [{"name": "RegenVest"}]}},
-  "Quilladin": {"nfe": {"sets": [{"name": "Spikes"}, {"name": "Bulk Up"}]}, "pu": {"sets": [{"name": "Defensive Spikes", "description": "<p>Stone Edge threatens Fire- and Flying-types like Charizard, Vespiquen, and Honchkrow. Poison Jab prevents Quilladin from being walled by opposing Grass-types, such as Gogoat and Lilligant. Leech Seed offers additional recovery and decreases how often Quilladin needs to use Synthesis. Tera Rock helps against the aforementioned Fire- and Flying-types on top of powering up Stone Edge, but Tera Ghost can be used instead for spinblocking.</p> <p>Sample set. Stay tuned for updates!</p> "}]}},
+  "Quilladin": {"nfe": {"sets": [{"name": "Spikes"}, {"name": "Bulk Up"}]}, "pu": {"sets": [{"name": "Defensive Spikes", "description": "<p>Stone Edge threatens Fire- and Flying-types like Charizard, Vespiquen, and Honchkrow. Poison Jab prevents Quilladin from being walled by opposing Grass-types, such as Gogoat and Lilligant. Leech Seed offers additional recovery and decreases how often Quilladin needs to use Synthesis. Tera Rock helps against the aforementioned Fire- and Flying-types on top of powering up Stone Edge, but Tera Ghost can be used instead for spinblocking.</p> <p>Sample set. Stay tuned for updates!</p> "}]}, "zu": {"sets": [{"name": "Defensive Spikes"}]}},
   "Chesnaught": {"almostanyability": {"sets": [{"name": "Triage"}, {"name": "Well-Baked Body"}]}},
   "Braixen": {"nfe": {"sets": [{"name": "Calm Mind"}]}},
   "Frogadier": {"pu": {"sets": [{"name": "Choice Scarf"}]}, "nfe": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Specs"}, {"name": "Choice Scarf"}]}},
@@ -2738,9 +2755,9 @@
       "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "ChrisPBacon", "user_id": 544502}, {"username": "Sulo", "user_id": 528036}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     }
   },
-  "Dedenne": {"zu": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}]}},
+  "Dedenne": {"zu": {"sets": [{"name": "Choice Specs"}]}},
   "Sliggoo": {"nfe": {"sets": [{"name": "Curse"}]}},
-  "Sliggoo-Hisui": {"nfe": {"sets": [{"name": "Curse"}, {"name": "Acid Spray"}]}, "nu": {"sets": [{"name": "Curse Sweeper"}, {"name": "All-Out Attacker"}]}, "pu": {"sets": [{"name": "Curse"}]}},
+  "Sliggoo-Hisui": {"nfe": {"sets": [{"name": "Curse"}, {"name": "Acid Spray"}]}, "nu": {"sets": [{"name": "Curse Sweeper"}, {"name": "All-Out Attacker"}]}, "pu": {"sets": [{"name": "Curse"}]}, "zu": {"sets": [{"name": "CroGoo"}, {"name": "Special Attacker"}]}},
   "Goodra": {"almostanyability": {"sets": [{"name": "RegenVest"}]}, "1v1": {"sets": [{"name": "Assault Vest"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}}},
   "Goodra-Hisui": {"ou": {"sets": [{"name": "Assault Vest", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "monotype": {"sets": [{"name": "Specially Defensive (Dragon)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}, {"username": "Neko", "user_id": 542526}]}]}}, "balancedhackmons": {"sets": [{"name": "RegenVest"}]}, "almostanyability": {"sets": [{"name": "RegenVest"}]}},
   "Klefki": {
@@ -2950,8 +2967,8 @@
   },
   "Salazzle": {"uu": {"sets": [{"name": "Offensive", "description": "<p>Salazzle should rarely be Terastillized, as it loses its 4x resistance to First Impression from Slither Wing and Lokix and doesn't notably benefit from any type change. Tera Ghost can be useful for spinblocking, though.</p> "}]}, "1v1": {"sets": [{"name": "Encore + Disable"}, {"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}}},
   "Tsareena": {"uu": {"sets": [{"name": "Utility", "description": "<p>The given Speed EVs allow Tsareena to outspeed Kilowattrel after a Rapid Spin.</p> "}]}, "doublesou": {"sets": [{"name": "Assault Vest", "description": "<ul> <li>The given EV spread and nature allow Tsareena to outspeed Iron Bundle under Tailwind, retain enough Attack to OHKO 252 HP Palafin-Hero with Power Whip, then invests the remaining EVs in HP.</li> </ul> <p>This is a sample set as we work on proper analyses. Stay tuned!</p> "}]}},
-  "Oranguru": {"zu": {"sets": [{"name": "Defensive Utility"}, {"name": "Nasty Plot"}]}},
-  "Sandygast": {"lc": {"sets": [{"name": "Defensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Hacker", "user_id": 387847}]}]}}, "nfe": {"sets": [{"name": "Physically Defensive"}]}},
+  "Oranguru": {"zu": {"sets": [{"name": "Calm Mind"}, {"name": "Specially Defensive"}]}},
+  "Sandygast": {"lc": {"sets": [{"name": "Defensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Hacker", "user_id": 387847}]}]}}, "nfe": {"sets": [{"name": "Physically Defensive"}]}, "zu": {"sets": [{"name": "Physical Wall"}]}},
   "Palossand": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}]}, "almostanyability": {"sets": [{"name": "Physically Defensive"}]}},
   "Komala": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Rapid Spin", "description": "<p>24 Speed EVs are to outrun Modest Toxtricity after a Rapid Spin, Mismagius and Cryogonal at +2, and Choice Scarf Passimian at +3 Speed.</p> "}]}},
   "Mimikyu": {
@@ -3017,7 +3034,7 @@
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}]}
   },
   "Grookey": {"lc": {"sets": [{"name": "Choice Scarf"}, {"name": "Pivot"}]}},
-  "Thwackey": {"nfe": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Swords Dance"}]}, "pu": {"sets": [{"name": "Choice"}]}},
+  "Thwackey": {"nfe": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Swords Dance"}]}, "pu": {"sets": [{"name": "Choice"}]}, "zu": {"sets": [{"name": "Choice Scarf"}, {"name": "Offensive Pivot"}]}},
   "Rillaboom": {
     "ou": {"sets": [{"name": "Choice Band", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
     "nationaldex": {
@@ -3035,7 +3052,7 @@
     },
     "nationaldexmonotype": {"sets": [{"name": "Choice Band", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Raboot": {"nfe": {"sets": [{"name": "Offensive Pivot"}, {"name": "Swords Dance Sweeper"}, {"name": "Danzaspada Libero"}]}, "zu": {"sets": [{"name": "Offensive Pivot"}]}},
+  "Raboot": {"nfe": {"sets": [{"name": "Offensive Pivot"}, {"name": "Swords Dance Sweeper"}, {"name": "Danzaspada Libero"}]}, "zu": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Scarf"}]}},
   "Cinderace": {
     "ou": {
       "sets": [
@@ -3097,6 +3114,7 @@
     },
     "nationaldexmonotype": {"sets": [{"name": "Swords Dance (Fire)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned</p> "}]}
   },
+  "Drizzile": {"zu": {"sets": [{"name": "Choice Specs"}]}},
   "Inteleon": {
     "almostanyability": {
       "sets": [
@@ -3108,6 +3126,7 @@
       "credits": {"writtenBy": [{"username": "LordBox", "user_id": 611238}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
     }
   },
+  "Greedent": {"zu": {"sets": [{"name": "Swords Dance"}]}},
   "Corviknight": {
     "ou": {
       "sets": [
@@ -3443,10 +3462,10 @@
     }
   },
   "Falinks": {"pu": {"sets": [{"name": "No Retreat"}, {"name": "Choice"}]}},
-  "Pincurchin": {"ou": {"sets": [{"name": "Terrain Setter"}]}, "pu": {"sets": [{"name": "Specially Defensive"}]}},
+  "Pincurchin": {"ou": {"sets": [{"name": "Terrain Setter"}]}, "pu": {"sets": [{"name": "Specially Defensive"}]}, "zu": {"sets": [{"name": "Specially Defensive"}]}},
   "Frosmoth": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Quiver Dance"}]}},
-  "Stonjourner": {"pu": {"sets": [{"name": "Stealth Rock"}, {"name": "Double Dance"}]}, "zu": {"sets": [{"name": "Stealth Rock"}, {"name": "Rock Polish"}, {"name": "Choice Band"}]}},
-  "Eiscue": {"zu": {"sets": [{"name": "Snowscape"}]}},
+  "Stonjourner": {"pu": {"sets": [{"name": "Stealth Rock"}, {"name": "Double Dance"}]}, "zu": {"sets": [{"name": "IronPress"}, {"name": "Choice Band"}, {"name": "Rock Polish"}, {"name": "Offensive Stealth Rock"}]}},
+  "Eiscue": {"zu": {"sets": [{"name": "Belly Drum"}]}},
   "Indeedee": {
     "ou": {
       "sets": [
@@ -3791,7 +3810,7 @@
     }
   },
   "Fuecoco": {"lc": {"sets": [{"name": "Defensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Joeshh", "user_id": 607664}]}]}}},
-  "Crocalor": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}, "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Unaware"}]}, "nu": {"sets": [{"name": "Defensive"}]}},
+  "Crocalor": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}, "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Unaware"}]}, "nu": {"sets": [{"name": "Defensive"}]}, "zu": {"sets": [{"name": "Unaware Wall"}]}},
   "Skeledirge": {
     "ou": {
       "sets": [
@@ -4372,7 +4391,7 @@
     },
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Band"}]}
   },
-  "Shroodle": {"lc": {"sets": [{"name": "Prankster Pivot"}, {"name": "Terrain Sweeper"}, {"name": "Weather Setter"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Charis_Akins", "user_id": 588203}, {"username": "gali", "user_id": 107567}]}]}}},
+  "Shroodle": {"lc": {"sets": [{"name": "Prankster Pivot"}, {"name": "Terrain Sweeper"}, {"name": "Weather Setter"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Charis_Akins", "user_id": 588203}, {"username": "gali", "user_id": 107567}]}]}}, "zu": {"sets": [{"name": "Sun Setter"}]}},
   "Grafaiai": {
     "uu": {
       "sets": [
@@ -4393,7 +4412,7 @@
     },
     "1v1": {"sets": [{"name": "Lagging Tail"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "TheShadowClaw", "user_id": 443250}]}]}}
   },
-  "Bramblin": {"lc": {"sets": [{"name": "Spinner"}]}},
+  "Bramblin": {"lc": {"sets": [{"name": "Spinner"}]}, "zu": {"sets": [{"name": "Utility"}]}},
   "Brambleghast": {
     "uu": {"sets": [{"name": "Utility"}]},
     "almostanyability": {
@@ -4412,7 +4431,7 @@
       "credits": {"writtenBy": [{"username": "yellowfin", "user_id": 416460}], "teams": [{"name": "Quality checked by", "members": [{"username": "DC", "user_id": 449990}, {"username": "Acehunter1", "user_id": 430377}]}, {"name": "Grammar checked by", "members": [{"username": "dex", "user_id": 277988}]}]}
     },
     "nfe": {"sets": [{"name": "Utility"}]},
-    "zu": {"sets": [{"name": "Defensive Utility"}]}
+    "zu": {"sets": [{"name": "Utility"}]}
   },
   "Toedscruel": {
     "ou": {
@@ -4457,7 +4476,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Tachipoyo", "user_id": 613881}], "teams": [{"name": "Quality checked by", "members": [{"username": "Thick Fat Azumarill", "user_id": 330577}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
-    "zu": {"sets": [{"name": "All-Out-Attacker"}, {"name": "Choice Specs"}]}
+    "zu": {"sets": [{"name": "SubSeed"}, {"name": "Choice Specs"}, {"name": "Sun Attacker"}]}
   },
   "Rabsca": {"pu": {"sets": [{"name": "Offensive Trick Room"}, {"name": "Bulky Setup"}, {"name": "Trick Room Setter"}]}, "doublesou": {"sets": [{"name": "Trick Room Setter"}]}},
   "Flittle": {"nfe": {"sets": [{"name": "Calm Mind"}]}, "zu": {"sets": [{"name": "SubTect"}]}},
@@ -4767,7 +4786,7 @@
     },
     "nationaldexmonotype": {"sets": [{"name": "Entry Hazard Support (Rock)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Greavard": {"lc": {"sets": [{"name": "Bulky Spinblocker"}]}},
+  "Greavard": {"lc": {"sets": [{"name": "Bulky Spinblocker"}]}, "zu": {"sets": [{"name": "Physical Wall"}]}},
   "Houndstone": {
     "anythinggoes": {"sets": [{"name": "Choice Band"}, {"name": "Defensive"}]},
     "ubers": {
