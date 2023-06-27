@@ -83,7 +83,7 @@
     }
   },
   "Primeape": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Offensive Bulk Up"}, {"name": "Bulky Bulk Up", "description": "<p>16 Speed EVs with a Jolly nature is to outspeed Frosmoth and Modest Toxtricity.</p> "}, {"name": "Stealth Rock Lead"}]}},
-  "Growlithe-Hisui": {"lc": {"sets": [{"name": "Choice Scarf"}, {"name": "Flame Charge"}]}, "nfe": {"sets": [{"name": "Offensive"}]}},
+  "Growlithe-Hisui": {"nfe": {"sets": [{"name": "Offensive"}]}, "lc": {"sets": [{"name": "Choice Scarf"}, {"name": "Flame Charge"}]}},
   "Arcanine": {
     "ou": {"sets": [{"name": "Utility"}]},
     "doublesou": {"sets": [{"name": "Bulky Utility"}]},
@@ -353,7 +353,7 @@
       "credits": {"writtenBy": [{"username": "TheSorcer3r", "user_id": 580037}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "ChrisPBacon", "user_id": 544502}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "hidin", "user_id": 589564}]}]}
     },
     "ou": {"sets": [{"name": "Dragon Dance"}]},
-    "monotype": {"sets": [{"name": "Defensive Dragon Dance (Flying)", "description": "<p>Outspeeds Great Tusk at +1, OHKO'es Flutter Mane with Waterfall at +1, 3HKO'ed by Specs Flutter Mane's Moonblast.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Choice Scarf (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Flying Set by", "members": [{"username": "Trichotomy", "user_id": 284954}]}]}},
+    "monotype": {"sets": [{"name": "Defensive Dragon Dance (Flying)", "description": "<p>Outspeeds Great Tusk at +1, OHKO'es Flutter Mane with Waterfall at +1, 3HKO'ed by Specs Flutter Mane's Moonblast.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Flying Set by", "members": [{"username": "Trichotomy", "user_id": 284954}]}]}},
     "doublesou": {"sets": [{"name": "Dragon Dance"}]},
     "battlestadiumsingles": {
       "overview": "<p>This analysis is for the Regulation C format of Battle Stadium Singles, which lasts until June 30th, 2023. For more information on this format and its current events, check out the format page!</p> <p>If you feel this analysis is missing anything important or needs an update, feel free to suggest any changes here.</p> ",
@@ -2590,15 +2590,6 @@
   "Frogadier": {"pu": {"sets": [{"name": "Choice Scarf"}]}, "nfe": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Specs"}, {"name": "Choice Scarf"}]}},
   "Greninja": {
     "uu": {"sets": [{"name": "Offensive Pivot"}, {"name": "Toxic Spikes Lead"}]},
-    "nationaldex": {
-      "sets": [
-        {
-          "name": "Choice Scarf",
-          "description": "<p>Greninja is the fastest Choice Scarf user in the metagame, taking advantage of its blistering Speed tier and colorful Protean-boosted coverage to be a strong revenge killer and offensive pivot. Gunk Shot decimates Pokemon like Tapu Lele, Iron Valiant, and Tapu Koko. Ice Beam covers a plethora of Pokemon, including Tornadus-T, Dragapult, Kartana, and Landorus-T. Rock Slide deals with Volcarona and Mega Charizard Y. Aside from enabling Greninja to pivot, U-turn also provides coverage against Mega Tyranitar, Mega Gyarados, and opposing Greninja. The Special Attack EVs guarantee the OHKO against Kartana with Ice Beam. Terastallizing is mainly used to improve its offensive capabilities; for instance, Tera Poison gives Gunk Shot significant odds to OHKO specially defensive Tera Grass Heatran, Clefable, and Tera Fairy Garganacl after Stealth Rock, while Tera Ice boosts Ice Beam to OHKO Dragapult and physically defensive Tangrowth and Great Tusk. Wallbreakers like Garchomp, Zamazenta, Tapu Lele, and Mega Charizard Y appreciate Greninja's U-turn bringing them in safely on foes like Heatran, Garganacl, Toxapex, and Gholdengo, respectively. Garchomp also provides entry hazards to punish Greninja's forced switches, chipping down the likes of Garganacl and Heatran. In return, Greninja outpaces faster threats like Choice Scarf Tapu Lele, Iron Valiant, and Dragapult that would otherwise overwhelm them. Greninja can form a VoltTurn core with Pokemon such as Tornadus-T, Rotom-W, and Mega Scizor; the former two also provide Defog so Greninja can pivot more freely, especially if running Tera Ice.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "TheSorcer3r", "user_id": 580037}, {"username": "hidin", "user_id": 589564}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
-    },
     "ou": {
       "sets": [
         {
@@ -2635,6 +2626,15 @@
       ],
       "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}, {"username": "Theia", "user_id": 439018}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     },
+    "nationaldex": {
+      "sets": [
+        {
+          "name": "Choice Scarf",
+          "description": "<p>Greninja is the fastest Choice Scarf user in the metagame, taking advantage of its blistering Speed tier and colorful Protean-boosted coverage to be a strong revenge killer and offensive pivot. Gunk Shot decimates Pokemon like Tapu Lele, Iron Valiant, and Tapu Koko. Ice Beam covers a plethora of Pokemon, including Tornadus-T, Dragapult, Kartana, and Landorus-T. Rock Slide deals with Volcarona and Mega Charizard Y. Aside from enabling Greninja to pivot, U-turn also provides coverage against Mega Tyranitar, Mega Gyarados, and opposing Greninja. The Special Attack EVs guarantee the OHKO against Kartana with Ice Beam. Terastallizing is mainly used to improve its offensive capabilities; for instance, Tera Poison gives Gunk Shot significant odds to OHKO specially defensive Tera Grass Heatran, Clefable, and Tera Fairy Garganacl after Stealth Rock, while Tera Ice boosts Ice Beam to OHKO Dragapult and physically defensive Tangrowth and Great Tusk. Wallbreakers like Garchomp, Zamazenta, Tapu Lele, and Mega Charizard Y appreciate Greninja's U-turn bringing them in safely on foes like Heatran, Garganacl, Toxapex, and Gholdengo, respectively. Garchomp also provides entry hazards to punish Greninja's forced switches, chipping down the likes of Garganacl and Heatran. In return, Greninja outpaces faster threats like Choice Scarf Tapu Lele, Iron Valiant, and Dragapult that would otherwise overwhelm them. Greninja can form a VoltTurn core with Pokemon such as Tornadus-T, Rotom-W, and Mega Scizor; the former two also provide Defog so Greninja can pivot more freely, especially if running Tera Ice.</p> "
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "TheSorcer3r", "user_id": 580037}, {"username": "hidin", "user_id": 589564}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
+    },
     "nationaldexmonotype": {"sets": [{"name": "Choice Scarf (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Fletchinder": {"nfe": {"sets": [{"name": "Utility"}, {"name": "Swords Dance"}]}, "zu": {"sets": [{"name": "Defog"}]}},
@@ -2668,7 +2668,7 @@
       "credits": {"writtenBy": [{"username": "nimzowitsch", "user_id": 272785}], "teams": [{"name": "Quality checked by", "members": [{"username": "Pokeslice", "user_id": 509790}]}, {"name": "Grammar checked by", "members": [{"username": "YashGreninja", "user_id": 383911}, {"username": "autumn", "user_id": 384270}]}]}
     }
   },
-  "Pyroar": {"pu": {"sets": [{"name": "Special Attacker"}, {"name": "Choice"}]}},
+  "Pyroar": {"pu": {"sets": [{"name": "Special Attacker"}, {"name": "Choice"}]}, "nu": {"sets": [{"name": "Taunt Wallbreaker"}]}},
   "Florges": {
     "uu": {"sets": [{"name": "Calm Mind + Wish"}]},
     "almostanyability": {
@@ -4502,7 +4502,7 @@
     "monotype": {
       "sets": [
         {
-          "name": "Calm Mind Sweeper (Psychic)",
+          "name": "Calm Mind",
           "description": "<p>The combination of Calm Mind, Speed Boost, and Stored Power makes Espathra one of the most terrifying sweepers. Stored Power's base power quickly raises with the combination of Speed Boost and Calm Mind, reaching astronomical levels that can break through foes which resist it like Corviknight, Hatterene, and Gholdengo. With enough boosts, Stored Power is powerful enough to break through Unaware walls like Skeledirge, Dondozo and Clodsire. Dazzling Gleam complements Stored Power well, as it can beat Dark-types which would otherwise wall Espathra such as Sableye, Meowscarada, and Greninja. Heavy-Duty Boots lets Espathra ignore entry hazards when switching in and couples well with Roost to increase Espathra's longevity, letting it set up easily. Alternatively, Leftovers in conjunction with Substitute and Roost or Protect lets Espathra safely get Speed boosts while also being able to scout foes' moves. 44 Speed EVs let Espathra outspeed Dragapult at +1 Speed, while the rest are placed into HP and Defense, giving Espathra bulk to set up with ease against Physical Attackers such as Garchomp, Great Tusk and Corviknight.</p> <p>Espathra appreciates teammates that can accentuate its offensive prowess. Scream Tail can set dual screens and paralyze opponents with Thunder Wave to make setting up easie while also setting Stealth Rock and can even Wish pass to Espathra. Gallade, along with Scream Tail with the set of Substitute, Bulk Up, Drain Punch and Play Rough can also punish Dark-types like Chien-Pao and Kingambit. Iron Leaves can beat Barraskewda under rain, which otherwise outspeeds Espathra even at +2 Speed. Iron Leaves also beats bulky Ground-types like Ting-Lu, which could phaze Espathra with Whirlwind, or Clodsire and Quagsire, both of which would require a lot of boosts to break with Stored Power. Indeedee is a Ghost-type switch-in and sets up Psychic Terrain for Espathra, protecting it from priority attacks like Chien-Pao's Sucker Punch. Indeedee is also able to Healing Wish to give Espathra a second chance to sweep. Stored Power Armarouge forms a dangerous core with Espathra, which can break for Espathra, clean after it, and also beat Steel teams. Hatterene bounces back entry hazards for Espathra if it forgoes Heavy-Duty Boots while also beating Dark- and Dragon-types. Chilly Reception Slowking can pivot to Espathra safely while acting as a sponge for hits.</p> "
         }
       ],
