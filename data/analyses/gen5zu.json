@@ -20,7 +20,18 @@
   "Pelipper": {"sets": [{"name": "Defensive Pivot"}, {"name": "Offensive Pivot"}, {"name": "Agility"}]},
   "Illumise": {"sets": [{"name": "Sun Setter"}]},
   "Lunatone": {"sets": [{"name": "Calm Mind"}]},
-  "Solrock": {"sets": [{"name": "Fast Wall"}, {"name": "Physical Wall"}, {"name": "Rock Polish"}, {"name": "Suicide Lead"}, {"name": "Choice Band"}]},
+  "Solrock": {
+    "sets": [
+      {"name": "Physical Wall"},
+      {
+        "name": "Rock Polish",
+        "description": "<p>Rock Polish and high Attack make Solrock an effective sweeper, while its typing combined with Levitate let it set up on common offensive foes like Persian, Muk, and Emolga. EdgeQuake threatens the majority of the tier for significant damage. Flying Gem combined with Acrobatics gives Solrock the means to threaten EdgeQuake's best switch-ins, namely Grass-types like Leafeon and Fighting-types like Mienfoo.</p> <p>Solrock best fits on offensive teams looking for a cleaner. Solrock struggles the most against physical walls that don't mind its coverage, like physically defensive Clefairy, Wormadam-S, and physically defensive Solrock. Thus, checks to them, like special wallbreakers such as Simisear, or stallbreakers such as Grumpig, are essential partners. Some physically bulky Grass-types like Meganium and Ivysaur can tank a Flying Gem-boosted Acrobatics at full health, so teammates that can handle them like Muk and the aforementioned Simisear are also needed. These Grass-types are also great partners to Solrock, as they check Water-types like Whiscash and Kingler, which can tank whatever attacks Solrock throws at them.</p> "
+      },
+      {"name": "Suicide Lead"},
+      {"name": "Choice Band"}
+    ],
+    "credits": {"writtenBy": [{"username": "Gangsta Spongebob", "user_id": 535530}], "teams": [{"name": "Quality checked by", "members": [{"username": "Monai", "user_id": 482455}, {"username": "Mirbro", "user_id": 451786}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+  },
   "Chimecho": {"sets": [{"name": "Physical Wall"}, {"name": "Calm Mind"}]},
   "Wormadam-Sandy": {"sets": [{"name": "Utility"}]},
   "Wormadam-Trash": {"sets": [{"name": "Physical Wall"}]},
