@@ -1217,7 +1217,7 @@
     "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Life Orb"}]}
   },
   "Vigoroth": {"nfe": {"sets": [{"name": "Bulk Up"}]}, "pu": {"sets": [{"name": "Bulk Up"}]}},
-  "Slaking": {"1v1": {"sets": [{"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}}, "zu": {"sets": [{"name": "Choice Band"}]}},
+  "Slaking": {"1v1": {"sets": [{"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}}},
   "Hariyama": {
     "battlestadiumsingles": {
       "sets": [
@@ -1261,7 +1261,16 @@
       ],
       "credits": {"writtenBy": [{"username": "bored_glitch", "user_id": 579035}, {"username": "DripLegend", "user_id": 517652}], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}, {"name": "Quality checked by", "members": [{"username": "Tom1535", "user_id": 576556}, {"username": "bored_glitch", "user_id": 579035}, {"username": "Lumii", "user_id": 493772}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}, {"username": "Dawn of Ares", "user_id": 467437}, {"username": "CryoGyro", "user_id": 331519}]}]}
     },
-    "nationaldexmonotype": {"sets": [{"name": "Mixed Wall (Dark)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Specially Defensive (Ghost)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
+    "nationaldexmonotype": {
+      "sets": [
+        {"name": "Mixed Wall (Dark)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "},
+        {
+          "name": "Utility (Ghost)",
+          "description": "<p>Mega Sableye is a staple on bulkier Ghost teams due to its Dark typing, great abilities before and after Mega Evolution, and great defensive stats. Knock Off hinders Chansey and Porygon2 for Mega Sableye's wallbreaking teammates and eases the matchup against Landorus and Nidoking. Due to Sableye's meager HP and need for longevity, Recover's a must-have utility option, further enabling Metal Burst. Protect allows Sableye to Mega Evolve safely, ensuring it can utilize Magic Bounce later into the game. Metal Burst retaliates against Fairy-types such as Mega Diancie, while Dazzling Gleam eliminates Mega Sableye's passivity in front of Hydreigon and Roaring Moon. Will-O-Wisp in conjunction with Prankster renders physical attackers like Mega Gallade, Dragonite, and Mamoswine less threatening. The given EV spread avoids a 2HKO from Life Orb Nidoking's Earth Power, assuming Mega Sableye uses Knock Off after the first Earth Power. Mimikyu threatens Dark-types such as Mandibuzz, Galarian Moltres, and opposing Mega Sableye. Spectrier breaks past walls like Toxapex, Gliscor, and Tapu Fini and appreciates Mega Sableye burning offensive threats to strengthen its setup potential. Gholdengo checks Fairy-types such as Tapu Lele, Mega Diancie, and Iron Valiant as well as preventing foes from removing entry hazards set by Froslass and Galarian Corsola. Blacephalon handles opposing Gholdengo and utilizes Choice Scarf to clean through Steel, Ghost, and Psychic teams once Heatran, Mega Sableye, and Galarian Slowking, respectively, are removed. Skeledirge has great synergy with Mega Sableye, appreciating the prevention of opposing Stealth Rock and in return walling Volcarona, Mega Lopunny, and Alolan Ninetales.</p> "
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "Giyu", "user_id": 574288}], "teams": [{"name": "Ghost analysis by", "members": [{"username": "Giyu", "user_id": 574288}]}, {"name": "Quality checked by", "members": [{"username": "CrossHeart", "user_id": 593863}, {"username": "Swiffix", "user_id": 547532}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
+    }
   },
   "Meditite": {"nfe": {"sets": [{"name": "Wallbreaker"}, {"name": "Choice Scarf"}]}},
   "Medicham": {
@@ -1344,7 +1353,6 @@
     "nationaldexru": {"sets": [{"name": "Dragon Dance"}, {"name": "Tank", "description": "<p>The spread allows Mega Altaria to live an Adamant Bisharp's Iron Head after Stealth Rock and outspeed it.</p> "}, {"name": "Defensive", "description": "<p>56 Speed EVs let Mega Altaria outspeed Crawdaunt.</p> "}, {"name": "Defensive Dragon Dance", "description": "<p>148 Speed EVs let Mega Altaria outspeed Durant once at +1 Speed.</p> "}]}
   },
   "Zangoose": {"pu": {"sets": [{"name": "Toxic Boost"}]}, "nu": {"sets": [{"name": "Swords Dance"}]}},
-  "Seviper": {"zu": {"sets": [{"name": "Swords Dance"}]}},
   "Banette": {"pu": {"sets": [{"name": "Swords Dance"}]}, "zu": {"sets": [{"name": "Swords Dance"}]}},
   "Tropius": {"zu": {"sets": [{"name": "Physical Wall"}]}},
   "Snorunt": {"nfe": {"sets": [{"name": "Moody"}]}},
@@ -2025,9 +2033,13 @@
   },
   "Giratina-Origin": {"nationaldexubers": {"sets": [{"name": "Physical Utility"}, {"name": "Special Utility"}]}},
   "Cresselia": {"ou": {"sets": [{"name": "Calm Mind", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "almostanyability": {"sets": [{"name": "Unaware Setup"}]}, "nationaldex": {"sets": [{"name": "Stored Power", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}},
-  "Arceus": {"balancedhackmons": {"sets": [{"name": "Ice Scales"}]}, "nationaldexubers": {"sets": [{"name": "Swords Dance"}, {"name": "Dragon Dance"}]}},
-  "Arceus-Dark": {"nationaldexubers": {"sets": [{"name": "Utility"}]}},
+  "Arceus": {"ubers": {"sets": [{"name": "E-Killer"}, {"name": "Dragon Dance"}]}, "balancedhackmons": {"sets": [{"name": "Ice Scales"}]}, "nationaldexubers": {"sets": [{"name": "Swords Dance"}, {"name": "Dragon Dance"}]}},
+  "Arceus-Bug": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
+  "Arceus-Dark": {"ubers": {"sets": [{"name": "Calm Mind + Taunt"}, {"name": "Defensive"}]}, "nationaldexubers": {"sets": [{"name": "Utility"}]}},
+  "Arceus-Dragon": {"ubers": {"sets": [{"name": "Dragon Dance"}]}},
+  "Arceus-Electric": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
   "Arceus-Fairy": {
+    "ubers": {"sets": [{"name": "Calm Mind"}, {"name": "Stealth Rock"}, {"name": "Utility"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2040,7 +2052,9 @@
     },
     "nationaldexubers": {"sets": [{"name": "Utility"}, {"name": "Defensive Calm Mind"}, {"name": "Offensive Calm Mind"}]}
   },
+  "Arceus-Fighting": {"ubers": {"sets": [{"name": "Cosmic Power"}]}},
   "Arceus-Fire": {
+    "ubers": {"sets": [{"name": "Dragon Dance"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2056,6 +2070,7 @@
     }
   },
   "Arceus-Flying": {
+    "ubers": {"sets": [{"name": "Calm Mind + Taunt"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2067,6 +2082,7 @@
     }
   },
   "Arceus-Ghost": {
+    "ubers": {"sets": [{"name": "Dragon Dance"}, {"name": "Calm Mind"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2083,6 +2099,7 @@
     "nationaldexubers": {"sets": [{"name": "Dragon Dance"}]}
   },
   "Arceus-Grass": {
+    "ubers": {"sets": [{"name": "Calm Mind"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2094,6 +2111,7 @@
     }
   },
   "Arceus-Ground": {
+    "ubers": {"sets": [{"name": "Dragon Dance"}, {"name": "Calm Mind"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2105,7 +2123,9 @@
     },
     "nationaldexubers": {"sets": [{"name": "Calm Mind"}, {"name": "Physical Setup Sweeper"}, {"name": "Stallbreaker"}, {"name": "Defensive"}]}
   },
+  "Arceus-Ice": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
   "Arceus-Poison": {
+    "ubers": {"sets": [{"name": "Support"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2116,7 +2136,11 @@
       "credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
     }
   },
+  "Arceus-Psychic": {"ubers": {"sets": [{"name": "Stored Power"}]}},
+  "Arceus-Rock": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
+  "Arceus-Steel": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
   "Arceus-Water": {
+    "ubers": {"sets": [{"name": "Calm Mind"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2982,7 +3006,7 @@
       "credits": {"writtenBy": [{"username": "Giyu", "user_id": 574288}], "teams": [{"name": "Water analysis by", "members": [{"username": "Giyu", "user_id": 574288}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "Swiffix", "user_id": 547532}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     }
   },
-  "Mudbray": {"lc": {"sets": [{"name": "RestTalk"}, {"name": "Stealth Rock"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "grape tylenol", "user_id": 593128}, {"username": "Flou", "user_id": 605215}]}]}}, "nfe": {"sets": [{"name": "Stealth Rock"}]}},
+  "Mudbray": {"lc": {"sets": [{"name": "RestTalk"}, {"name": "Stealth Rock"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "grape tylenol", "user_id": 593128}, {"username": "Flou", "user_id": 605215}]}]}}, "nfe": {"sets": [{"name": "Stealth Rock"}]}, "zu": {"sets": [{"name": "Offensive Stealth Rock"}]}},
   "Mudsdale": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}]}},
   "Lurantis": {
     "nu": {
@@ -3663,7 +3687,7 @@
     },
     "nationaldexubers": {"sets": [{"name": "Offensive"}, {"name": "T-Killer (Defensive)"}]}
   },
-  "Kubfu": {"nfe": {"sets": [{"name": "Choice Scarf"}]}},
+  "Kubfu": {"nfe": {"sets": [{"name": "Choice Scarf"}]}, "zu": {"sets": [{"name": "Choice Scarf"}]}},
   "Urshifu-Rapid-Strike": {
     "nationaldex": {
       "sets": [
@@ -4510,7 +4534,7 @@
     "zu": {"sets": [{"name": "SubSeed"}, {"name": "Choice Specs"}, {"name": "Sun Attacker"}]}
   },
   "Rabsca": {"pu": {"sets": [{"name": "Offensive Trick Room"}, {"name": "Bulky Setup"}, {"name": "Trick Room Setter"}]}, "doublesou": {"sets": [{"name": "Trick Room Setter"}]}},
-  "Flittle": {"nfe": {"sets": [{"name": "Calm Mind"}]}, "zu": {"sets": [{"name": "SubTect"}]}},
+  "Flittle": {"nfe": {"sets": [{"name": "Calm Mind"}]}},
   "Espathra": {
     "ubers": {
       "sets": [
@@ -4715,7 +4739,7 @@
       "sets": [{"name": "Shed Tail", "description": "<p>Shed Tail, Regenerator, and good Speed give Cyclizar a unique role on offensive teams: safely bringing in powerful attackers like Cinderace and Polteageist multiple times per battle. Draco Meteor KOes opposing Cyclizar and picks off weakened foes. U-turn lets Cyclizar pivot out without self-damage, healing from Regenerator to potentially use Shed Tail again later. Rapid Spin and/or Knock Off provide further utility. Choice Scarf + Shed Tail is preferred against Chien-Pao and other fast threats, but Heavy-Duty Boots can be used to avoid entry hazard damage and the Choice lock. Cyclizar benefits greatly from a strong physical wall or Dazzling user to deal with priority attackers like Hatterene. Strong attackers like Cinderace and Greninja are also valuable for dealing with phazers like Hippowdon and Ting-Lu.</p> "}],
       "credits": {"writtenBy": [{"username": "Tanny89k", "user_id": 546606}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
-    "stabmons": {"sets": [{"name": "Shed Tail"}, {"name": "Choice Scarf"}]}
+    "stabmons": {"sets": [{"name": "Choice Specs"}]}
   },
   "Orthworm": {
     "ubers": {
