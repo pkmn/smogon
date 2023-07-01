@@ -603,7 +603,7 @@
       "credits": {"writtenBy": [{"username": "nimzowitsch", "user_id": 272785}], "teams": [{"name": "Quality checked by", "members": [{"username": "Ryuji", "user_id": 515767}, {"username": "Sulo", "user_id": 528036}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     }
   },
-  "Mewtwo": {"nationaldexubers": {"sets": [{"name": "Setup Sweeper"}]}},
+  "Mewtwo": {"ubers": {"sets": [{"name": "StallTwo"}, {"name": "Choice Specs"}]}, "nationaldexubers": {"sets": [{"name": "Setup Sweeper"}]}},
   "Mew": {
     "ou": {"sets": [{"name": "Demon Mew (Double Dance)", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
     "almostanyability": {"sets": [{"name": "Regenerator"}, {"name": "Prankster"}, {"name": "All-out Attacker"}, {"name": "Setup Sweeper"}]},
@@ -1398,6 +1398,7 @@
   },
   "Kyogre": {"nationaldexubers": {"sets": [{"name": "Wallbreaker"}, {"name": "Bulky Calm Mind"}]}},
   "Groudon": {
+    "ubers": {"sets": [{"name": "Bulky Wallbreaker"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -1961,6 +1962,7 @@
   "Rotom-Fan": {"pu": {"sets": [{"name": "Pivot"}, {"name": "Choice Scarf"}]}},
   "Rotom-Mow": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Scarf"}, {"name": "Nasty Plot"}]}, "uu": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice Scarf"}]}},
   "Azelf": {"ou": {"sets": [{"name": "Lead", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "almostanyability": {"sets": [{"name": "Psychic Surge"}]}},
+  "Dialga": {"ubers": {"sets": [{"name": "Choiced"}]}},
   "Dialga-Origin": {
     "balancedhackmons": {
       "sets": [
@@ -1976,6 +1978,7 @@
       "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "Sulo", "user_id": 528036}]}]}
     }
   },
+  "Palkia": {"ubers": {"sets": [{"name": "Substitute"}]}},
   "Palkia-Origin": {
     "balancedhackmons": {
       "sets": [
@@ -2017,6 +2020,7 @@
     }
   },
   "Giratina": {
+    "ubers": {"sets": [{"name": "Defog"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2031,7 +2035,7 @@
       "credits": {"writtenBy": [{"username": "TTTech", "user_id": 338877}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}]}]}
     }
   },
-  "Giratina-Origin": {"nationaldexubers": {"sets": [{"name": "Physical Utility"}, {"name": "Special Utility"}]}},
+  "Giratina-Origin": {"ubers": {"sets": [{"name": "Physical Utility"}, {"name": "Special Utility"}]}, "nationaldexubers": {"sets": [{"name": "Physical Utility"}, {"name": "Special Utility"}]}},
   "Cresselia": {"ou": {"sets": [{"name": "Calm Mind", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "almostanyability": {"sets": [{"name": "Unaware Setup"}]}, "nationaldex": {"sets": [{"name": "Stored Power", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}},
   "Arceus": {"ubers": {"sets": [{"name": "E-Killer"}, {"name": "Dragon Dance"}]}, "balancedhackmons": {"sets": [{"name": "Ice Scales"}]}, "nationaldexubers": {"sets": [{"name": "Swords Dance"}, {"name": "Dragon Dance"}]}},
   "Arceus-Bug": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
@@ -2099,7 +2103,7 @@
     "nationaldexubers": {"sets": [{"name": "Dragon Dance"}]}
   },
   "Arceus-Grass": {
-    "ubers": {"sets": [{"name": "Calm Mind"}]},
+    "ubers": {"sets": [{"name": "Calm Mind"}, {"name": "3 Attacks"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2125,7 +2129,7 @@
   },
   "Arceus-Ice": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
   "Arceus-Poison": {
-    "ubers": {"sets": [{"name": "Support"}]},
+    "ubers": {"sets": [{"name": "Support"}, {"name": "Iron Defense"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2140,7 +2144,7 @@
   "Arceus-Rock": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
   "Arceus-Steel": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
   "Arceus-Water": {
-    "ubers": {"sets": [{"name": "Calm Mind"}]},
+    "ubers": {"sets": [{"name": "Calm Mind"}, {"name": "Support"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2592,6 +2596,7 @@
   },
   "Landorus-Therian": {
     "ou": {"sets": [{"name": "Choice Scarf"}, {"name": "Defensive", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
+    "ubers": {"sets": [{"name": "Defensive"}, {"name": "Choice Scarf"}]},
     "monotype": {"sets": [{"name": "Choice Scarf (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "RoyalReloaded", "user_id": 246753}]}]}},
     "almostanyability": {"sets": [{"name": "RegenVest"}, {"name": "Fluffy"}]},
     "nationaldex": {
@@ -3677,6 +3682,7 @@
     }
   },
   "Eternatus": {
+    "ubers": {"sets": [{"name": "Defensive"}, {"name": "Life Orb"}]},
     "balancedhackmons": {
       "sets": [
         {"name": "Fur Coat", "description": "<p>Fur Coat Eternatus is a bulky wall that can set up late-game to clean through weakened teams. Spikes helps provide team support by setting entry hazards, while Teleport provides teammates with a safe switch-in. Torch Song hits most Steel-types and sets up at the same time; alternatively, Scorching Sands hits Steel-types for super effective damage with an additional chance to burn foes for constant chip. Heavy-Duty Boots increases longevity, while Draco Plate allows Eternatus to self-Imposter-proof with Judgment. Good teammates for Fur Coat Eternatus are Ice Scales Arceus-Fairy and RegenVest Dialga-O, as they can Imposter-proof or provide opportunities for Eternatus to switch in. Tera Flying provides Eternatus with a Ground-type immunity and helps with Imposter-proofing, whereas Tera Fairy grants a Dragon-type move immunity + Fighting-type resistance.</p> "},
@@ -7046,14 +7052,14 @@
     }
   },
   "Smokomodo": {"cap": {"sets": [{"name": "Bone Zone"}]}},
-  "Snaelstrom": {"cap": {"sets": [{"name": "Bulky Swords Dance"}]}},
+  "Snaelstrom": {"cap": {"sets": [{"name": "Stealth Rock"}, {"name": "Bulky Swords Dance"}]}},
   "Equilibra": {
     "cap": {
       "comments": "<h1>Checks and Counters</h1> <p><strong>Water-types</strong>: Rotom-W hard counters Equilibra, as it takes negligible damage from any of Equilibra's moves and threatens it with Hydro Pump. Arghonaut similarly brushes off Equilibra's attacks and threatens to cripple it with Knock Off. Greninja and Krilowatt can switch in on Flash Cannon and threaten to deal significant damage to Equilibra, but they are 2HKOed by Earth Power.</p> <p><strong>Bulky Flying-types: Bulky Flying-types such as Corviknight, Venomicon, and Tomohawk give Equilibra trouble, as they don’t take much damage from Equilibra's moves and force it out with super effective attacks.</p> <p><strong>Ground-types: Offensive Great Tusk sets OHKO Equilibra with Close Combat, while defensive sets can either deal significant damage with Body Press or cripple it with Knock Off. Other bulky Ground-types such as Ting-Lu and Clodsire are easily capable of dealing with Bulletproof Equilibra, but it has little to fear from them if it forgoes Bulletproof for Levitate.</p> <p><strong>Item Manipulation: Equilibra heavily relies on the passive recovery granted by Leftovers, so it must be careful when switching in on Pokemon with Knock Off or Trick, such as Iron Treads and Gholdengo, so as not to risk taking a significant blow to its longevity.</p> ",
       "sets": [
         {
           "name": "Defensive Pivot",
-          "description": "<h1>Set Details</h1> <p>Equilibra's solid typing, great stats, and access to Rapid Spin make it one of the premier defensive pivots and entry hazard removers in the metagame. Bulletproof is the recommended ability, as it blocks Focus Blast from Pokemon such as Gholdengo and Jumbao and Shadow Ball from Ghost-types such as Dragapult and Hisuian Zoroark. Alternatively, Levitate drastically improves Equilibra's matchups against opposing Ground-types, such as Clodsire and Garchomp, while also presenting more opportunities to clear entry hazards without worrying about taking Spikes damage. Protect allows Equilibra to scout the foe's moves and get additional healing from Leftovers, while Pain Split gives it an alternative form of recovery, lowering its reliance on Leftovers. Alternatively, Aura Sphere allows Equilibra to beat opposing Levitate Equilibra and improves its matchup against Dark-types such as Roaring Moon and Colossoil. The given EV spread allows Equilibra to avoid an OHKO from Choice Specs Greninja's Hydro Pump, survive the combination of Moonblast into Close Combat from mixed Tera Fairy Iron Valiant, and outspeed Adamant Breloom after getting a Speed boost from Rapid Spin. Tera Flying flips Equilibra's matchups against Fighting-types such as Great Tusk and Breloom on their heads while allowing Bulletproof Equilibra to safely stay in against opposing Ground-types. Alternatively, Tera Water allows Equilibra to check Fire-types such as Iron Moth, Astrolotl, Skeledirge, and Volcarona.</p> <p>Equilibra struggles against Water- and Flying-types, so Electric-types such as Caribolt, Iron Hands, and Plasmanta make for great partners. Water-types such as Arghonaut and Rotom-W synergize well with Equilibra, since they can switch in on Fire-type attacks aimed at it; they, in turn, appreciate Equilibra's ability to absorb Electric-type attacks and pressure Jumbao, one of their greatest threats. Venomicon is one of the best defensive partners for Equilibra, since it walls many of the Fighting- and Ground-types that Equilibra struggles against such as Great Tusk; in return, Equilibra deals with Pokemon that Venomicon struggles against, such as Stratagem and Hatterene. Equilibra relies heavily on Leftovers for recovery, so it appreciates support from teammates that don't mind taking Knock Off, like Corviknight and Toxapex. Thanks to Equilibra's ability to consistently keep entry hazards off the field, it works well with teammates that are worn down by them, such as Snaelstrom, Iron Moth, and Loaded Dice Baxcalibur.</p> "
+          "description": "<h1>Set Details</h1> <p>Equilibra's solid typing, great stats, and access to Rapid Spin make it one of the premier defensive pivots and entry hazard removers in the metagame. Levitate is the recommended ability, as it drastically improves Equilibra's matchups against opposing Ground-types, such as Clodsire and Garchomp, while also presenting more opportunities to clear entry hazards without worrying about taking Spikes damage. Alternatively, Bulletproof blocks Focus Blast from Pokemon such as Gholdengo and Jumbao and Shadow Ball from Ghost-types such as Dragapult and Hisuian Zoroark. Protect allows Equilibra to scout the foe's moves and get additional healing from Leftovers, while Pain Split gives it an alternative form of recovery, lowering its reliance on Leftovers. Alternatively, Aura Sphere allows Equilibra to beat opposing Levitate Equilibra and improves its matchup against Dark-types such as Roaring Moon and Colossoil. The given EV spread allows Equilibra to avoid an OHKO from Choice Specs Greninja's Hydro Pump, survive the combination of Moonblast into Close Combat from mixed Tera Fairy Iron Valiant, and outspeed Adamant Breloom after getting a Speed boost from Rapid Spin. Tera Water allows Equilibra to tank Fire-type attacks from Pokemon such as Iron Moth, Astrolotl, and Skeledirge. Alternatively, Tera Flying flips Equilibra's matchups against Fighting-types such as Great Tusk and Breloom on their heads while allowing Bulletproof Equilibra to safely stay in against opposing Ground-types.</p> <p>Equilibra struggles against Water- and Flying-types, so Electric-types such as Caribolt, Iron Hands, and Plasmanta make for great partners. Water-types such as Arghonaut and Rotom-W synergize well with Equilibra, since they can switch in on Fire-type attacks aimed at it; they, in turn, appreciate Equilibra's ability to absorb Electric-type attacks and pressure Jumbao, one of their greatest threats. Venomicon is one of the best defensive partners for Equilibra, since it walls many of the Fighting- and Ground-types that Equilibra struggles against such as Great Tusk; in return, Equilibra deals with Pokemon that Venomicon struggles against, such as Stratagem and Hatterene. Equilibra relies heavily on Leftovers for recovery, so it appreciates support from teammates that don't mind taking Knock Off, like Corviknight and Toxapex. Thanks to Equilibra's ability to consistently keep entry hazards off the field, it works well with teammates that are worn down by them, such as Snaelstrom, Iron Moth, and Loaded Dice Baxcalibur.</p> "
         }
       ],
       "credits": {"writtenBy": [{"username": "Da Pizza Man", "user_id": 221710}], "teams": [{"name": "Quality checked by", "members": [{"username": "Lasen", "user_id": 273339}, {"username": "quziel", "user_id": 297859}]}, {"name": "Grammar checked by", "members": [{"username": "dex", "user_id": 277988}, {"username": "Rabia", "user_id": 336073}]}]}
@@ -7062,7 +7068,7 @@
   "Astrolotl": {"cap": {"sets": [{"name": "Offensive Utility"}]}},
   "Miasmaw": {"cap": {"sets": [{"name": "Swords Dance"}]}},
   "Chromera": {"cap": {"sets": [{"name": "Choice Specs"}]}},
-  "Venomicon": {"cap": {"sets": [{"name": "Book"}, {"name": "Utility Wall"}]}},
+  "Venomicon": {"cap": {"sets": [{"name": "Book"}]}},
   "Venomicon-Epilogue": {"cap": {"sets": [{"name": "E-Book"}, {"name": "Stealth Rock Pivot"}]}},
   "Saharaja": {"cap": {"sets": [{"name": "Standard Camel"}]}},
   "Hemogoblin": {"cap": {"sets": [{"name": "Bulk Up"}]}}
