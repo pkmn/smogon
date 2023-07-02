@@ -28,7 +28,18 @@
   "Zapdos-Galar": {"sets": [{"name": "Magic Guard"}, {"name": "Choice Band"}]},
   "Moltres": {"sets": [{"name": "Magic Guard"}, {"name": "Desolate Land"}]},
   "Moltres-Galar": {"sets": [{"name": "Double Dance"}]},
-  "Mew": {"sets": [{"name": "Regenerator"}, {"name": "Prankster"}, {"name": "All-out Attacker"}, {"name": "Setup Sweeper"}]},
+  "Mew": {
+    "sets": [
+      {"name": "Regenerator"},
+      {
+        "name": "Prankster",
+        "description": "<p>Prankster Mew is a good dual screens lead for hyper offense teams thanks to its good bulk, Speed, and movepool. Taunt blocks foes such as Garchomp, Landorus-T, and Iron Treads from setting entry hazards, Corviknight from clearing screens with Defog, and opposing setup sweepers like Volcarona from taking advantage of free turns. U-turn lets it pivot into its teammates and potentially re-set screens later in the game. Stealth Rock or Spikes can be used over U-turn to chip foes for teammates to KO. 96 Speed EVs and a Jolly Nature ensure that Mew always moves first against opposing leads like Prankster Corviknight and Masquerain, allowing Mew to hinder them with Taunt. Prankster Mew should only be used as a dual screens lead on hyper offense teams. Teammates such as Chien-Pao, Polteageist, Volcarona, and Roaring Moon all appreciate screens, which allow them to easily set up and make them less susceptible to revenge killers. The aforementioned Pokemon also provide good options for Mew to pivot into and gain momentum. Dark-type Pokemon such as Ting-Lu, Meowscarada, and Chien-Pao are immune to Prankster Taunt and can take advantage of Mew, so counters to them such as Zamazenta-C and Triage users, like Enamorus-T and Ursaluna, are good teammates.</p> "
+      },
+      {"name": "All-out Attacker"},
+      {"name": "Setup Sweeper"}
+    ],
+    "credits": {"writtenBy": [{"username": "Frozoid", "user_id": 532881}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+  },
   "Typhlosion-Hisui": {"sets": [{"name": "Desolate Land"}, {"name": "Magic Guard"}]},
   "Slowking": {
     "sets": [
@@ -176,7 +187,15 @@
   "Sylveon": {"sets": [{"name": "Unaware"}]},
   "Hawlucha": {"sets": [{"name": "Magic Guard"}]},
   "Goodra": {"sets": [{"name": "RegenVest"}]},
-  "Goodra-Hisui": {"sets": [{"name": "RegenVest"}]},
+  "Goodra-Hisui": {
+    "sets": [
+      {
+        "name": "RegenVest",
+        "description": "<p>Hisuian Goodra, with its excellent defensive typing and enormous special bulk, is a premier RegenVest user that is able to check common special attackers such as Zapdos, Hisuian Electrode, and Greninja while also being able to phase setup sweepers like Volcarona and Polteageist with Dragon Tail. Earthquake hits opposing Hisuian Goodra and can also OHKO Fire-types like Iron Moth, while Flamethrower can threaten Steel-types like Corviknight. Thunderbolt provides coverage for offensive Water-types like Greninja, Volcanion, and Inteleon while denying minimum Speed Corviknight an opportunity to use Roost; Draco Meteor is a strong STAB move for threats like Garchomp, and Ice Beam provides coverage against prominent special attackers like Zapdos, Hisuian Electrode, and Kilowattrel. Goodra is a great teammate for frail offensive Pokemon like Galarian Zapdos and Talonflame, as it can soak up hits from Choice Scarf revenge killers like Greninja and Azelf; in return, Zapdos and Talonflame can revenge kill strong special wallbreakers such as Thundurus-T and Hoopa, which could otherwise threaten Goodra. Goodra is vulnerable to strong physical attackers like Galarian Zapdos and Landorus-T, so pairing it with a physical wall such as Corviknight is recommended. Goodra can also be chipped down by entry hazards, which limit its walling prowess, so spinners like Quaquaval and Iron Treads make for good teammates to provide Goodra with more longevity.</p> "
+      }
+    ],
+    "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "LordBox", "user_id": 611238}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "UT", "user_id": 523866}]}]}
+  },
   "Diancie": {"sets": [{"name": "Defensive"}, {"name": "Triage"}]},
   "Hoopa": {"sets": [{"name": "Special Wallbreaker"}]},
   "Volcanion": {"sets": [{"name": "Choice Specs"}, {"name": "Magic Guard"}]},
