@@ -25,7 +25,16 @@
   "Gyarados": {"sets": [{"name": "Dragon Dance"}]},
   "Vaporeon": {"sets": [{"name": "Defensive"}]},
   "Zapdos": {"sets": [{"name": "No Guard"}, {"name": "Primordial Sea", "description": "<p>An EV spread of 252 HP / 4 SpA / 252 Spe can be used with Primordial Sea for more defensive utility.</p> "}]},
-  "Zapdos-Galar": {"sets": [{"name": "Magic Guard"}, {"name": "Choice Band"}]},
+  "Zapdos-Galar": {
+    "sets": [
+      {
+        "name": "Choice Band",
+        "description": "<p>Choice Band Galarian Zapdos is a fearsome wallbreaker that can overwhelm common defensive cores. Close Combat and Brave Bird have fantastic neutral coverage and power, OHKOing virtually everything short of a physical wall and 2HKOing those, further amplified by Choice Band. Thunderous Kick overpowers some of its few checks like Fluffy Corviknight, which could otherwise stall it out. Adamant is the preferred nature to have a high chance to 2HKO Intimidate Corviknight after Leftovers recovery, but Jolly is an option to Speed tie Zapdos and outspeed Jolly Hisuian Arcanine. Galarian Zapdos pairs exceptionally well with special pivots like Hisuian Electrode and Kilowattrel, as they can draw in special walls like Hisuian Goodra and Meloetta for it. Fast physical cleaners like Chien-Pao and Meowscarada appreciate Galarian Zapdos blowing through physical walls for them. Since Galarian Zapdos is prone to Stealth Rock, opposing Rocky Helmet, and Brave Bird recoil wearing it down, it appreciates pivots like Iron Treads and Corviknight that can also clear Stealth Rock and Wish passers like Scream Tail. Galarian Zapdos is relatively slow and easily revenge killed, so it relies on a sturdy defensive core like Intimidate Corviknight and RegenVest Hisuian Goodra to switch out to.</p> "
+      },
+      {"name": "Magic Guard"}
+    ],
+    "credits": {"writtenBy": [{"username": "UT", "user_id": 523866}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+  },
   "Moltres": {"sets": [{"name": "Magic Guard"}, {"name": "Desolate Land"}]},
   "Moltres-Galar": {"sets": [{"name": "Double Dance"}]},
   "Mew": {
@@ -492,13 +501,13 @@
   "Iron Thorns": {"sets": [{"name": "Dragon Dance"}]},
   "Chien-Pao": {
     "sets": [
-      {"name": "Choice Band", "description": "<p>Choice Band Chien-Pao is a threatening wallbreaker thanks to its high Speed and decent STAB coverage that hits common physically defensive walls like Ting-Lu and Hippowdon. Sucker Punch picks off faster offensive threats such as Barraskewda and common Choice Scarf users; alternatively, Ice Shard is weaker but hits Roaring Moon super effectively. Sacred Sword beats Steel-types like Kingambit and bypasses Garganacl's Defense boosts. Chien-Pao's best fit is on balance teams that can provide it with safe switch-ins and take advantage of the holes it creates. Iron Moth and Sandy Shocks are recommended teammates, as both can help Chien-Pao beat the incredibly troublesome Dondozo and Toxapex. Corviknight and Iron Treads are both good teammates thanks to their ability to pivot Chien-Pao in safely, in addition to clearing Stealth Rock.</p> "},
       {
-        "name": "Dazzling",
-        "description": "<p>Dazzling Chien-Pao boasts high Attack and Speed, which enable it to check common priority users such as Triage Hatterene as well as offensive threats like Sucker Punch Meowscarada. Sacred Sword can be used to deal with Kingambit and Garganacl, which can otherwise safely switch into Chien-Pao, while Ice Shard can be used as a priority option for faster threats like Choice Scarf Meowscarada and Sandy Shocks. Heavy-Duty Boots allows for Chien-Pao to more reliably check its common targets, while Life Orb can be used to wallbreak more effectively. Frail offensive teammates like Inteleon and Iron Moth appreciate Chien-Pao's ability to handle priority users that they'd otherwise be susceptible to. Chien-Pao can have a hard time breaking through physically defensive walls like Corviknight and Dondozo, so pairing it with a specially offensive threat that can handle them like Sandy Shocks or Rotom-W is advised. Chien-Pao is also quite frail, so slow pivots like Corviknight and Slowking can bring it onto the field safely.</p> "
-      }
+        "name": "Choice Band",
+        "description": "<p>With its incredible Attack and a near-unparalleled Speed tier, Chien-Pao excels as a revenge killer and late-game sweeper that can easily dispatch weakened defensive foes. Icicle Crash and Crunch are its main offensive options, threatening common pivots like Garchomp and Skeledirge; Icicle Crash also bypasses Fluffy. Sacred Sword picks up an OHKO on Steel-types like Hisuian Goodra, Heatran, and Kingambit while also threatening physical walls like Zamazenta-C and Garganacl. Ice Shard lets Chien-Pao revenge kill Choice Scarf Meowscarada and Hisuian Electrode, as well as Agility or Dragon Dance users like Galarian Moltres or Roaring Moon. This Pokemon is often paired with defensive entry hazard setters and slow, defensive pivots that can allow it to switch in freely. For example, Corviknight has both a slow U-turn to pivot Chien-Pao in freely and Defog to remove hazards. Additionally, Rapid Spin users like Iron Treads can clear the opponent's hazards, which punish Chien-Pao for switching in. Finally, bulky wallbreakers and Fire-type attackers like Kingambit or Ceruledge help Chien-Pao deal with physically defensive Steel-types, like Tinkaton and Intimidate Corviknight, weakening them and making Chien-Pao's job as an endgame cleaner more efficient.</p> "
+      },
+      {"name": "Swords Dance"}
     ],
-    "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Sulo", "user_id": 528036}]}]}
+    "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
   },
   "Ting-Lu": {
     "sets": [

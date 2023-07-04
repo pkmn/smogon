@@ -469,7 +469,16 @@
   "Zapdos-Galar": {
     "ou": {"sets": [{"name": "Choice Band", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
     "monotype": {"sets": [{"name": "Choice Band (Fighting)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Choice Scarf (Flying)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Giyu", "user_id": 574288}, {"username": "Dead by Daylight", "user_id": 571069}]}]}},
-    "almostanyability": {"sets": [{"name": "Magic Guard"}, {"name": "Choice Band"}]},
+    "almostanyability": {
+      "sets": [
+        {
+          "name": "Choice Band",
+          "description": "<p>Choice Band Galarian Zapdos is a fearsome wallbreaker that can overwhelm common defensive cores. Close Combat and Brave Bird have fantastic neutral coverage and power, OHKOing virtually everything short of a physical wall and 2HKOing those, further amplified by Choice Band. Thunderous Kick overpowers some of its few checks like Fluffy Corviknight, which could otherwise stall it out. Adamant is the preferred nature to have a high chance to 2HKO Intimidate Corviknight after Leftovers recovery, but Jolly is an option to Speed tie Zapdos and outspeed Jolly Hisuian Arcanine. Galarian Zapdos pairs exceptionally well with special pivots like Hisuian Electrode and Kilowattrel, as they can draw in special walls like Hisuian Goodra and Meloetta for it. Fast physical cleaners like Chien-Pao and Meowscarada appreciate Galarian Zapdos blowing through physical walls for them. Since Galarian Zapdos is prone to Stealth Rock, opposing Rocky Helmet, and Brave Bird recoil wearing it down, it appreciates pivots like Iron Treads and Corviknight that can also clear Stealth Rock and Wish passers like Scream Tail. Galarian Zapdos is relatively slow and easily revenge killed, so it relies on a sturdy defensive core like Intimidate Corviknight and RegenVest Hisuian Goodra to switch out to.</p> "
+        },
+        {"name": "Magic Guard"}
+      ],
+      "credits": {"writtenBy": [{"username": "UT", "user_id": 523866}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+    },
     "nationaldex": {"sets": [{"name": "Choice Band"}, {"name": "Bulk Up", "description": "<p>The set(s) displayed are used as a placeholder untill an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]},
     "nationaldexmonotype": {"sets": [{"name": "Choice Scarf (Fighting)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
@@ -804,7 +813,7 @@
       "credits": {"writtenBy": [{"username": "Togkey", "user_id": 400664}], "teams": [{"name": "Quality checked by", "members": [{"username": "Rabia", "user_id": 336073}]}, {"name": "Grammar checked by", "members": [{"username": "Rabia", "user_id": 336073}]}]}
     }
   },
-  "Qwilfish-Hisui": {"nu": {"sets": [{"name": "Defensive"}, {"name": "Swords Dance"}]}, "pu": {"sets": [{"name": "Spikes"}, {"name": "Swords Dance"}]}, "nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Utility"}]}},
+  "Qwilfish-Hisui": {"nu": {"sets": [{"name": "Defensive"}, {"name": "Swords Dance"}]}, "nfe": {"sets": [{"name": "Swords Dance"}, {"name": "Utility"}]}},
   "Scizor": {
     "uu": {"sets": [{"name": "Swords Dance"}, {"name": "Offensive Swords Dance"}, {"name": "Choice Band"}]},
     "nationaldex": {
@@ -1125,7 +1134,6 @@
   "Gardevoir": {
     "uu": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}]},
     "nationaldex": {"sets": [{"name": "Offensive"}]},
-    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}]},
     "battlestadiumsingles": {
       "sets": [
         {
@@ -1173,7 +1181,6 @@
       "credits": {"writtenBy": [{"username": "pichus", "user_id": 374620}], "teams": [{"name": "Quality checked by", "members": [{"username": "corvere", "user_id": 306317}, {"username": "Lasen", "user_id": 273339}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
     "ou": {"sets": [{"name": "Sticky Web"}]},
-    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Sticky Web"}]},
     "almostanyability": {"sets": [{"name": "Sticky Web Lead"}]}
   },
   "Breloom": {
@@ -1352,7 +1359,7 @@
     }
   },
   "Altaria": {
-    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defog", "description": "<p>The EV spread is to avoid the 2HKO from unboosted Flamigo's Brave Bird. Fire Spin should be run alongside Perish Song.</p> "}]},
+    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defog", "description": "<p>The EV spread is to outrun Adamant Brute Bonnet. Fire Spin should be run alongside Perish Song.</p> "}]},
     "nationaldex": {"sets": [{"name": "Dragon Dance", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]},
     "nationaldexmonotype": {
       "sets": [
@@ -1411,7 +1418,7 @@
   },
   "Kyogre": {"ubers": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}, {"name": "Bulky Calm Mind"}, {"name": "Offensive Calm Mind"}]}, "nationaldexubers": {"sets": [{"name": "Wallbreaker"}, {"name": "Bulky Calm Mind"}]}},
   "Groudon": {
-    "ubers": {"sets": [{"name": "Bulky Wallbreaker"}]},
+    "ubers": {"sets": [{"name": "Bulky Wallbreaker"}, {"name": "Defensive Utility"}]},
     "balancedhackmons": {
       "sets": [
         {
@@ -2005,7 +2012,10 @@
   },
   "Heatran": {
     "ou": {"sets": [{"name": "Offensive"}, {"name": "Specially Defensive", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
-    "monotype": {"sets": [{"name": "Choice Scarf (Steel)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Specially Defensive (Steel)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}, {"username": "Neko", "user_id": 542526}]}]}},
+    "monotype": {
+      "sets": [{"name": "Choice Scarf (Steel)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Specially Defensive (Steel)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Stallbreaker (Fire)", "description": "<p>Heavy Slam OHKOs Flutter Mane.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}],
+      "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}, {"username": "Neko", "user_id": 542526}]}]}
+    },
     "doublesou": {"sets": [{"name": "Assault Vest"}]},
     "almostanyability": {"sets": [{"name": "Desolate Land", "description": "<p>A set with maximum Special Attack investment and a Modest nature can be used instead for more offensive pressure.</p> "}, {"name": "Magic Guard"}, {"name": "IronPress"}]},
     "nationaldex": {
@@ -2178,7 +2188,7 @@
   "Krokorok": {"nfe": {"sets": [{"name": "Stealth Rock"}]}},
   "Krookodile": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Stealth Rock"}, {"name": "Bulk Up"}]}, "1v1": {"sets": [{"name": "Choice Band"}]}},
   "Zorua": {"lc": {"sets": [{"name": "Choice Scarf"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "TheShoddyStrawman", "user_id": 585065}]}]}}},
-  "Zorua-Hisui": {"lc": {"sets": [{"name": "Pivot"}, {"name": "Nasty Plot"}]}},
+  "Zorua-Hisui": {"lc": {"sets": [{"name": "Pivot"}, {"name": "Nasty Plot"}]}, "zu": {"sets": [{"name": "Illusion"}]}},
   "Zoroark-Hisui": {
     "ou": {
       "sets": [
@@ -2373,7 +2383,7 @@
     "almostanyability": {"sets": [{"name": "Protean"}]},
     "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Swords Dance"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}}
   },
-  "Beartic": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Slush Rush Sweeper", "description": "<p>+2 Tera Dark Crunch KOes Slowbro after Stealth Rock.</p> "}]}, "pu": {"sets": [{"name": "Rain Sweeper"}]}},
+  "Beartic": {"pu": {"sets": [{"name": "Rain Sweeper"}]}},
   "Cryogonal": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Rapid Spin"}]}},
   "Pawniard": {
     "lc": {
@@ -2820,7 +2830,7 @@
   },
   "Dedenne": {"zu": {"sets": [{"name": "Choice Specs"}]}},
   "Sliggoo": {"nfe": {"sets": [{"name": "Curse"}]}},
-  "Sliggoo-Hisui": {"nu": {"sets": [{"name": "Curse Sweeper"}, {"name": "All-Out Attacker"}]}, "pu": {"sets": [{"name": "Curse"}]}, "nfe": {"sets": [{"name": "Curse"}, {"name": "Acid Spray"}]}},
+  "Sliggoo-Hisui": {"nu": {"sets": [{"name": "Curse Sweeper"}, {"name": "All-Out Attacker"}]}, "nfe": {"sets": [{"name": "Curse"}, {"name": "Acid Spray"}]}},
   "Goodra": {"almostanyability": {"sets": [{"name": "RegenVest"}]}, "1v1": {"sets": [{"name": "Assault Vest"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}}},
   "Goodra-Hisui": {
     "ou": {"sets": [{"name": "Assault Vest", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
@@ -3063,7 +3073,6 @@
   "Oranguru": {"zu": {"sets": [{"name": "Calm Mind"}, {"name": "Specially Defensive"}]}},
   "Sandygast": {"lc": {"sets": [{"name": "Defensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Hacker", "user_id": 387847}]}]}}, "nfe": {"sets": [{"name": "Physically Defensive"}]}, "zu": {"sets": [{"name": "Physical Wall"}]}},
   "Palossand": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}]}, "almostanyability": {"sets": [{"name": "Physically Defensive"}]}},
-  "Komala": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Rapid Spin", "description": "<p>24 Speed EVs are to outrun Modest Toxtricity after a Rapid Spin, Mismagius and Cryogonal at +2, and Choice Scarf Passimian at +3 Speed.</p> "}]}},
   "Mimikyu": {
     "uu": {"sets": [{"name": "Swords Dance", "description": "<p>Tera Fire allows Mimikyu to avoid Flame Body and Will-O-Wisp from Talonflame and Coalossal. Tera Ghost powers up Shadow Claw and lets it OHKO Tinkaton after a boost.</p> "}]},
     "ou": {"sets": [{"name": "Swords Dance"}]},
@@ -3126,6 +3135,7 @@
     },
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}]}
   },
+  "Magearna": {"ubers": {"sets": [{"name": "Demon"}, {"name": "Trick Room Setter"}]}},
   "Grookey": {"lc": {"sets": [{"name": "Choice Scarf"}, {"name": "Pivot"}]}},
   "Thwackey": {"nfe": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Swords Dance"}]}, "pu": {"sets": [{"name": "Choice"}]}, "zu": {"sets": [{"name": "Choice Scarf"}, {"name": "Offensive Pivot"}]}},
   "Rillaboom": {
@@ -3350,7 +3360,7 @@
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Stealth Rock"}]}
   },
   "Barraskewda": {
-    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Band"}]},
+    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Physical Attacker"}]},
     "anythinggoes": {"sets": [{"name": "Choice Band"}]},
     "ou": {"sets": [{"name": "Rain Sweeper"}]},
     "uu": {"sets": [{"name": "Choice Band"}]},
@@ -3909,7 +3919,7 @@
     }
   },
   "Fuecoco": {"lc": {"sets": [{"name": "Defensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Joeshh", "user_id": 607664}]}]}}},
-  "Crocalor": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}, "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Unaware"}]}, "nu": {"sets": [{"name": "Defensive"}]}, "zu": {"sets": [{"name": "Unaware Wall"}]}},
+  "Crocalor": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive"}]}, "nu": {"sets": [{"name": "Defensive"}]}, "zu": {"sets": [{"name": "Unaware Wall"}]}},
   "Skeledirge": {
     "anythinggoes": {
       "sets": [
@@ -5184,7 +5194,6 @@
   },
   "Farigiraf": {
     "nu": {"sets": [{"name": "Stored Power"}]},
-    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Stored Power"}]},
     "doublesou": {"sets": [{"name": "TR Attacker"}]},
     "vgc2023": {
       "overview": "<ul> <li> <p>Farigiraf is currently one of the bulkiest Trick Room setters in the meta. Its ability, Armor Tail, prevents its teammates from succumbing to priority moves, making it difficult to prevent Farigiraf from setting Trick Room.</p> </li> <li> <p>Hariyama, Amoonguss, and Kingambit are good partners for Farigiraf. Hariyama and Farigiraf both benefit from each other, as Fake Out allows Farigiraf to more consistently get up Trick Room, which enables Hariyama, as it thrives inside of Trick Room and checks Farigiraf's common counters. Amoonguss can redirect moves targeted at Farigiraf and Spore anything inside Trick Room to take them out of the game. Kingambit benefits from the Snarl that Farigiraf struggles against and plays well in Trick Room.</p> </li> <li> <p>Choice Band Meowscarada and Hydreigon are the biggest checks to Farigiraf, as both threaten to OHKO it. Amoonguss is another check, as it can Spore Farigiraf before it manages to get Trick Room up. It also struggles against Imprison from Indeedee, Gallade, and opposing Farigiraf.</p> </li> </ul> ",
@@ -5262,7 +5271,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Azick", "user_id": 468541}, {"username": "Arkter", "user_id": 319437}], "teams": [{"name": "Dark analysis by", "members": [{"username": "Azick", "user_id": 468541}]}, {"name": "Steel analysis by", "members": [{"username": "Arkter", "user_id": 319437}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "Ashbala", "user_id": 518038}, {"username": "maroon", "user_id": 305839}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "ken", "user_id": 594478}, {"username": "Dead by Daylight", "user_id": 571069}, {"username": "Adeleine", "user_id": 517429}]}]}
     },
-    "doublesou": {"sets": [{"name": "Bigsharp"}]},
+    "doublesou": {"sets": [{"name": "Swords Dance"}]},
     "battlestadiumsingles": {
       "overview": "<p>This analysis is for the Regulation C format of Battle Stadium Singles, which lasts until June 30th, 2023. For more information on this format and its current events, check out this page!</p> <p>If you feel this analysis is missing anything important or needs an update, feel free to suggest any changes here.</p> ",
       "sets": [
@@ -5758,7 +5767,7 @@
       "sets": [
         {
           "name": "Specially Defensive",
-          "description": "<ul> <li>A decent defensive typing allows Iron Treads to act as a check to Miraidon and Flutter Mane, and use the opportunity to remove or set entry hazards.</li> <li>Knock Off cripples common switch-ins such as Ting-Lu and Corviknight, while Volt Switch keeps momentum for your team.</li> <li>16 IVs in Defense mean that Iron Treads will receive a Special Defense boost in Electric Terrain, helping with switching into Miraidon.</li> <li>Iron Treads can use Tera Fairy to remove its weaknesses to Fighting and Fire, which can be helpful versus Koraidon and Chien-Pao, and with taking coverage from Miraidon and Flutter Mane. However, it loses its immunity to Electric and resistances to Dragon and Fairy. Iron Treads can alternatively use Tera Ground for an extra boost to Earthquake, but it suffers from similar demerits as Tera Fairy.</li> <li>Since both Miraidon and Flutter Mane have Fire-type coverage options, Iron Treads appreciates being paired with Pokemon such as Ting-Lu that can handle those attacks. Choice Scarf Koraidon and Booster Energy Flutter Mane are also good teammates, as they can revenge kill Miraidon and Flutter Mane while benefitting from Iron Treads removing entry hazards.</li> <li>Skeledirge's ability to check Koraidon and Iron Valiant also makes it a great partner for Iron Treads. Teammates that can switch into Great Tusk such as Dondozo and Alomomola also pair well, with Alomomola even providing Wish support to increase Iron Treads's longevity.</li> </ul> "
+          "description": "<ul> <li>A decent defensive typing allows Iron Treads to act as a check to Miraidon and Flutter Mane, and use the opportunity to remove or set entry hazards.</li> <li>Knock Off cripples common switch-ins such as Ting-Lu and Corviknight, while Volt Switch keeps momentum for your team.</li> <li>16 IVs in Defense mean that Iron Treads will receive a Special Defense boost in Electric Terrain, helping with switching into Miraidon.</li> <li>Iron Treads can use Tera Fairy to remove its weaknesses to Fighting and Fire, which can be helpful versus Koraidon and Chien-Pao, and with taking coverage from Miraidon and Flutter Mane. However, it loses its immunity to Electric and resistance to Fairy. Iron Treads can alternatively use Tera Ground for an extra boost to Earthquake, but it suffers from similar demerits as Tera Fairy.</li> <li>Since both Miraidon and Flutter Mane have Fire-type coverage options, Iron Treads appreciates being paired with Pokemon such as Ting-Lu that can handle those attacks. Choice Scarf Koraidon and Booster Energy Flutter Mane are also good teammates, as they can revenge kill Miraidon and Flutter Mane while benefitting from Iron Treads removing entry hazards.</li> <li>Skeledirge's ability to check Koraidon and Iron Valiant also makes it a great partner for Iron Treads. Teammates that can switch into Great Tusk such as Dondozo and Alomomola also pair well, with Alomomola even providing Wish support to increase Iron Treads's longevity.</li> </ul> "
         },
         {
           "name": "Assault Vest",
@@ -6394,13 +6403,13 @@
     "vgc2023": {"sets": [{"name": "Offensive"}]},
     "almostanyability": {
       "sets": [
-        {"name": "Choice Band", "description": "<p>Choice Band Chien-Pao is a threatening wallbreaker thanks to its high Speed and decent STAB coverage that hits common physically defensive walls like Ting-Lu and Hippowdon. Sucker Punch picks off faster offensive threats such as Barraskewda and common Choice Scarf users; alternatively, Ice Shard is weaker but hits Roaring Moon super effectively. Sacred Sword beats Steel-types like Kingambit and bypasses Garganacl's Defense boosts. Chien-Pao's best fit is on balance teams that can provide it with safe switch-ins and take advantage of the holes it creates. Iron Moth and Sandy Shocks are recommended teammates, as both can help Chien-Pao beat the incredibly troublesome Dondozo and Toxapex. Corviknight and Iron Treads are both good teammates thanks to their ability to pivot Chien-Pao in safely, in addition to clearing Stealth Rock.</p> "},
         {
-          "name": "Dazzling",
-          "description": "<p>Dazzling Chien-Pao boasts high Attack and Speed, which enable it to check common priority users such as Triage Hatterene as well as offensive threats like Sucker Punch Meowscarada. Sacred Sword can be used to deal with Kingambit and Garganacl, which can otherwise safely switch into Chien-Pao, while Ice Shard can be used as a priority option for faster threats like Choice Scarf Meowscarada and Sandy Shocks. Heavy-Duty Boots allows for Chien-Pao to more reliably check its common targets, while Life Orb can be used to wallbreak more effectively. Frail offensive teammates like Inteleon and Iron Moth appreciate Chien-Pao's ability to handle priority users that they'd otherwise be susceptible to. Chien-Pao can have a hard time breaking through physically defensive walls like Corviknight and Dondozo, so pairing it with a specially offensive threat that can handle them like Sandy Shocks or Rotom-W is advised. Chien-Pao is also quite frail, so slow pivots like Corviknight and Slowking can bring it onto the field safely.</p> "
-        }
+          "name": "Choice Band",
+          "description": "<p>With its incredible Attack and a near-unparalleled Speed tier, Chien-Pao excels as a revenge killer and late-game sweeper that can easily dispatch weakened defensive foes. Icicle Crash and Crunch are its main offensive options, threatening common pivots like Garchomp and Skeledirge; Icicle Crash also bypasses Fluffy. Sacred Sword picks up an OHKO on Steel-types like Hisuian Goodra, Heatran, and Kingambit while also threatening physical walls like Zamazenta-C and Garganacl. Ice Shard lets Chien-Pao revenge kill Choice Scarf Meowscarada and Hisuian Electrode, as well as Agility or Dragon Dance users like Galarian Moltres or Roaring Moon. This Pokemon is often paired with defensive entry hazard setters and slow, defensive pivots that can allow it to switch in freely. For example, Corviknight has both a slow U-turn to pivot Chien-Pao in freely and Defog to remove hazards. Additionally, Rapid Spin users like Iron Treads can clear the opponent's hazards, which punish Chien-Pao for switching in. Finally, bulky wallbreakers and Fire-type attackers like Kingambit or Ceruledge help Chien-Pao deal with physically defensive Steel-types, like Tinkaton and Intimidate Corviknight, weakening them and making Chien-Pao's job as an endgame cleaner more efficient.</p> "
+        },
+        {"name": "Swords Dance"}
       ],
-      "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Sulo", "user_id": 528036}]}]}
+      "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
     "1v1": {"sets": [{"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "TheShadowClaw", "user_id": 443250}]}]}}
   },
