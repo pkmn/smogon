@@ -73,7 +73,18 @@
   "Fearow": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}]},
   "Sandshrew": {"sets": [{"name": "Hazard Utility"}]},
   "Gloom": {"sets": [{"name": "Physically Defensive"}]},
-  "Persian": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Scarf"}, {"name": "Mixed Wallbreaker"}, {"name": "Weather Setter"}]},
+  "Persian": {
+    "sets": [
+      {"name": "Offensive Pivot"},
+      {"name": "Choice Scarf"},
+      {"name": "Mixed Wallbreaker"},
+      {
+        "name": "Weather Setter",
+        "description": "<p>This Persian set forgoes its usual roles as a revenge killer and wallbreaker, and it instead focuses on Persian supporting weather-based strategies. Persian is the fastest Pokemon with access to all of a weather-setting move, U-turn, and Taunt, which lets it set ideal conditions for Pokemon reliant on weather. Return is the necessary STAB move that allows Persian to threaten damage on its own, but Double-Edge is an alternative to apply more pressure.</p> <p>This Persian set should find itself alongside weather attackers and support Pokemon. On rain teams, Agility Pelipper and Beartic are excellent wallbreakers, and they can clean through weakened teams with their incredible power and Speed under rain. Raichu can make use of a perfectly accurate Thunder under rain, and its Nasty Plot boosted Hidden Power Ice helps wear down Grass-types like Meganium and Ivysaur for Water-type teammates they might wall otherwise. Kingler and Walrein under rain are terrifying threats, using the power boost to destroy all but the bulkiest of checks. Persian cannot keep up weather all on its own, though, and it should pair with other Rain Dance users for consistency. Phione has the best defensive profile of the Rain Dance users, and it utilizes Hydration and Water-type STAB moves to be surprisingly difficult to handle. Illumise is another option, able to use a slow U-turn while setting priority Rain Dance for endgames against fast cleaners.</p> "
+      }
+    ],
+    "credits": {"writtenBy": [{"username": "Monai", "user_id": 482455}], "teams": [{"name": "Quality checked by", "members": [{"username": "Gangsta Spongebob", "user_id": 535530}, {"username": "btboy", "user_id": 528652}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+  },
   "Abra": {"sets": [{"name": "Revenge Killer"}]},
   "Weepinbell": {"sets": [{"name": "Sun Sweeper"}]},
   "Graveler": {"sets": [{"name": "Tank"}]},
