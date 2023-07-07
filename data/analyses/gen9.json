@@ -2,7 +2,7 @@
   "Charmander": {"lc": {"sets": [{"name": "Sun Wallbreaker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Flou", "user_id": 605215}]}]}}},
   "Charmeleon": {"zu": {"sets": [{"name": "Sun Attacker"}]}},
   "Charizard": {
-    "pu": {"sets": [{"name": "Special Attacker"}, {"name": "Setup Sweeper"}]},
+    "pu": {"sets": [{"name": "Special Attacker", "description": "<p>Solar Power should only be used on sun teams, as it's virtually useless otherwise. Tera Blast should be used with Tera Steel to reliably beat Carbink.</p> <p>Sample set. Stay tuned for updates!</p> "}, {"name": "Mixed Dragon Dance"}, {"name": "Setup Sweeper"}]},
     "nationaldex": {
       "sets": [
         {
@@ -788,6 +788,7 @@
   "Slowking-Galar": {
     "ou": {"sets": [{"name": "Assault Vest"}, {"name": "Pivot", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
     "monotype": {"sets": [{"name": "Assault Vest (Poison)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Assault Vest (Psychic)", "description": "<p>Guarantees a 2HKO on Heatran after Stealth Rock damage.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Pengairxan", "user_id": 622813}]}]}},
+    "battlestadiumsingles": {"sets": [{"name": "Assault Vest"}]},
     "almostanyability": {"sets": [{"name": "Specially Defensive Pivot"}]},
     "nationaldex": {
       "sets": [
@@ -1636,16 +1637,14 @@
     "vgc2023": {"sets": [{"name": "Offensive"}, {"name": "Scarf"}]},
     "almostanyability": {
       "sets": [
+        {"name": "Specially Defensive"},
         {
-          "name": "RegenVest",
-          "description": "<p>Garchomp's typing, natural bulk, and versatile movepool makes it a great RegenVest user, allowing it to check specially offensive threats such as Iron Moth, Kilowattrel, and Sandy Shocks. Stone Edge checks Kilowattrel and Volcarona; alternatively Power Gem can be used to hit Bulk Up Talonflame. Dragon Tail allows it to phaze away setup sweepers such as Dondozo, and Fire Blast hits non-Well-Baked Body Corviknight. Poison Jab and Dragon Breath allow Garchomp to spread status. Garchomp struggles against stronger physical threats such as Chien-Pao and Meowscarada, with Meowscarada threatening to use Knock Off, effectively lowering Garchomp's bulk permanently. This makes physically defensive Corviknight a reliable partner which can also help remove entry hazards, and in exchange Garchomp absorbs the Fire and Electric-type moves Corviknight struggles against. Garchomp also has a crucial weakness to Fairy- and Dragon-types, making Unaware Scream Tail and Sylveon decent partners for Garchomp.</p> "
+          "name": "Mixed Attacker",
+          "description": "<p>Mixed Garchomp, with its naturally great coverage, good Speed tier, and high-Base Power STAB moves, is a reliable entry hazard setter that deters common removal options from switching in. Life Orb is an option over Leftovers for a harder hit on hazard removers. Draco Meteor provides immediate power against Quaquaval, Earthquake hits non-Earth Eater Iron Treads, and Fire Blast chips Corviknight. A Naive nature allows Garchomp to offensively check Sandy Shocks, Thundurus-T, and the crowded base 100 Speed tier without weakening its attacks. A Naive nature is preferred over Hasty to allow Garchomp to better switch in on common hazard removers. Offensive threats like Iron Moth, Chien-Pao, and Galarian Zapdos greatly appreciate the presence of mixed Garchomp, which disincentivizes common defensive pieces from entering the battle, and for its entry hazards. Similarly, more defensive Pokemon like Corviknight and Unaware Scream Tail also appreciate Garchomp outspeeding and heavily damaging offensive threats like non-Choice Scarf Slither Wing, Hisuian Arcanine, and Galarian Zapdos. Mixed Garchomp is vulnerable to faster threats that force it out with super effective moves, like Chien-Pao and Pixilate Scream Tail, and U-turn users that swing momentum in their favor, such as Meowscarada, Iron Moth, and Roaring Moon: slow, bulky pivots that help combat these weaknesses and turn momentum back in your favor, such as Corviknight, RegenVest Meloetta, and slow Iron Treads, are recommended.</p> "
         },
-        {
-          "name": "Entry Hazard Setter",
-          "description": "<p>With good natural bulk, a great typing, phazing, and both Spikes and Stealth Rock, Garchomp is an effective entry hazard setter that also checks common threats like Ceruledge. Swords Dance is an option over either entry hazard to pressure bulkier teams. Dragon Tail forces switches and potentially create a favorable situation for Garchomp and helps rack up even more entry hazard damage. As Garchomp does not have any reliable recovery, Leftovers is the preferred option to give Garchomp longevity, but Heavy-Duty Boots is great for opposing hazard-stack matchups. Due to Garchomp mainly being an entry hazard setter, it greatly appreciates teammates such as Skeledirge to keep the entry hazards up in the face of Defog and Rapid Spin. Garchomp also works well with offensive threats such as Iron Moth, as the entry hazards can wear down its checks into KO range. Garchomp struggles to check common attackers like Greninja, so secondary checks like Iron Moth are appreciated.</p> "
-        }
+        {"name": "Sword of Ruin"}
       ],
-      "credits": {"writtenBy": [{"username": "Codename C.A.T", "user_id": 537972}, {"username": "Natcrozma", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}, {"username": "Alexender", "user_id": 313542}, {"username": "LordBox", "user_id": 611238}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "UT", "user_id": 523866}]}]}
+      "credits": {"writtenBy": [{"username": "AlexSaysBruh123", "user_id": 540420}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
     "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}},
     "nationaldexmonotype": {"sets": [{"name": "Defensive Entry Hazard Setter (Dragon)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Offensive Entry Hazard Setter (Dragon)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Swords Dance (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
@@ -3415,7 +3414,7 @@
     "1v1": {"sets": [{"name": "Kasib Berry"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
     "nationaldex": {"sets": [{"name": "Shell Smash", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}
   },
-  "Hattrem": {"pu": {"sets": [{"name": "Physically Defensive"}, {"name": "Trick Room Setter"}]}, "nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Fast Utility"}]}},
+  "Hattrem": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Fast Utility"}]}},
   "Hatterene": {
     "ou": {
       "sets": [
@@ -3744,7 +3743,7 @@
     "nationaldexubers": {"sets": [{"name": "Offensive"}, {"name": "T-Killer (Defensive)"}]}
   },
   "Kubfu": {"nfe": {"sets": [{"name": "Choice Scarf"}]}, "zu": {"sets": [{"name": "Choice Scarf"}]}},
-  "Urshifu": {"ubers": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}]}},
+  "Urshifu": {"ubers": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}]}, "battlestadiumsingles": {"sets": [{"name": "Choice Attacker"}]}},
   "Urshifu-Rapid-Strike": {
     "ubers": {"sets": [{"name": "Choice Band"}]},
     "nationaldex": {
