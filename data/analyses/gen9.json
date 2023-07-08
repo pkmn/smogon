@@ -440,7 +440,7 @@
     "ou": {"sets": [{"name": "Offensive"}, {"name": "Defensive", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
     "monotype": {"sets": [{"name": "Choice Specs (Electric)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "ASKid679", "user_id": 532439}]}]}},
     "doublesou": {"sets": [{"name": "Tailwind Support"}]},
-    "battlestadiumsingles": {"sets": [{"name": "Defensive Pivot"}]},
+    "battlestadiumsingles": {"sets": [{"name": "Defensive Pivot"}, {"name": "Choice Scarf"}]},
     "almostanyability": {"sets": [{"name": "No Guard"}, {"name": "Primordial Sea", "description": "<p>An EV spread of 252 HP / 4 SpA / 252 Spe can be used with Primordial Sea for more defensive utility.</p> "}]},
     "nationaldex": {
       "sets": [
@@ -512,7 +512,7 @@
     },
     "nationaldexmonotype": {"sets": [{"name": "Nasty Plot (Dark)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Nasty Plot (Flying)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Dragonair": {"nfe": {"sets": [{"name": "Dragon Dance"}]}, "pu": {"sets": [{"name": "Dragon Dance"}]}},
+  "Dragonair": {"nfe": {"sets": [{"name": "Dragon Dance"}]}, "pu": {"sets": [{"name": "Dragon Dance"}]}, "zu": {"sets": [{"name": "Dragon Dance"}]}},
   "Dragonite": {
     "ou": {
       "sets": [
@@ -1460,7 +1460,7 @@
     "nationaldexmonotype": {"sets": [{"name": "Physically Defensive (Normal)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Kricketune": {"zu": {"sets": [{"name": "Sticky Web"}]}},
-  "Vespiquen": {"nu": {"sets": [{"name": "Pivot"}]}, "pu": {"sets": [{"name": "Spikes"}]}},
+  "Vespiquen": {"nu": {"sets": [{"name": "Pivot"}]}, "pu": {"sets": [{"name": "Spikes"}]}, "zu": {"sets": [{"name": "Spikes"}]}},
   "Pachirisu": {"zu": {"sets": [{"name": "Defensive Pivot"}]}},
   "Buizel": {"lc": {"sets": [{"name": "Rain Wallbreaker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Altariel von Sweep", "user_id": 330191}]}]}}},
   "Floatzel": {
@@ -1663,7 +1663,7 @@
       "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     }
   },
-  "Hippopotas": {"nfe": {"sets": [{"name": "Physical Wall"}]}, "zu": {"sets": [{"name": "Mixed Wall"}]}},
+  "Hippopotas": {"zu": {"sets": [{"name": "Mixed Wall"}]}},
   "Hippowdon": {
     "uu": {
       "sets": [
@@ -2019,6 +2019,7 @@
       "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}, {"username": "Neko", "user_id": 542526}]}]}
     },
     "doublesou": {"sets": [{"name": "Assault Vest"}]},
+    "battlestadiumsingles": {"sets": [{"name": "Specially Defensive"}, {"name": "Assault Vest"}]},
     "almostanyability": {"sets": [{"name": "Desolate Land", "description": "<p>A set with maximum Special Attack investment and a Modest nature can be used instead for more offensive pressure.</p> "}, {"name": "Magic Guard"}, {"name": "IronPress"}]},
     "nationaldex": {
       "sets": [
@@ -2628,6 +2629,7 @@
     "ubers": {"sets": [{"name": "Defensive"}, {"name": "Choice Scarf"}]},
     "monotype": {"sets": [{"name": "Choice Scarf (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "RoyalReloaded", "user_id": 246753}]}]}},
     "doublesou": {"sets": [{"name": "Support"}, {"name": "Assault Vest"}]},
+    "battlestadiumsingles": {"sets": [{"name": "Stealth Rock Support"}, {"name": "Choice"}, {"name": "Assault Vest"}, {"name": "Focus Sash"}]},
     "almostanyability": {"sets": [{"name": "RegenVest"}, {"name": "Fluffy"}]},
     "nationaldex": {
       "sets": [
@@ -2862,7 +2864,15 @@
       ],
       "credits": {"writtenBy": [{"username": "Swiffix", "user_id": 547532}], "teams": [{"name": "Quality checked by", "members": [{"username": "Aqua Jet", "user_id": 531302}, {"username": "maroon", "user_id": 305839}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     },
-    "nationaldexmonotype": {"sets": [{"name": "Dual Screens (Fairy)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
+    "nationaldexmonotype": {
+      "sets": [
+        {
+          "name": "Screen Setter (Fairy)",
+          "description": "<p>Klefki is the ideal dual screens setter on Fairy due to its Steel typing, which negates Poison-type attacks from Nihilego and Alolan Muk and ability to fend off threats like Mega Scizor with Foul Play. Klefki is a better option than Grimmsnarl due to its typing and ability to set up Spikes, which, like its screens, go up quickly with Prankster. This support allows for Pokemon like Tapu Bulu and Azumarill from setting up and sweeping, teams. Foul Play prevents Pokemon like Mega Scizor and Mimikyu to set up and sweep while Thunder Wave cripples foes and allows Mega Diancie to outspeed threats such as +1 Mega Charizard X and Nihilego, which will normally beat Klefki one on one. Setting up Spikes creates solid chip damage on Alolan Muk and Gholdengo, allowing for late-game sweeping from its teammates Iron Valiant and Choice Scarf Tapu Lele. Mega Diancie punishes opponents trying to set up entry hazards against Klefki and beats Fire-types such as Heatran and Mega Charizard Y. Tapu Bulu helps Klefki with Grassy Terrain, which halves the damage it takes from Earthquake, making Pokemon such as Iron Treads and Mamoswine not hit as hard.</p> "
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "Don Bork", "user_id": 623713}], "teams": [{"name": "Type analysis by", "members": [{"username": "Don Bork", "user_id": 623713}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "Mateeus", "user_id": 321991}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+    }
   },
   "Avalugg": {
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Physical Wall"}]},
@@ -3058,7 +3068,7 @@
       "credits": {"writtenBy": [{"username": "Giyu", "user_id": 574288}], "teams": [{"name": "Water analysis by", "members": [{"username": "Giyu", "user_id": 574288}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "Swiffix", "user_id": 547532}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     }
   },
-  "Mudbray": {"lc": {"sets": [{"name": "RestTalk"}, {"name": "Stealth Rock"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "grape tylenol", "user_id": 593128}, {"username": "Flou", "user_id": 605215}]}]}}, "nfe": {"sets": [{"name": "Stealth Rock"}]}, "zu": {"sets": [{"name": "Offensive Stealth Rock"}]}},
+  "Mudbray": {"lc": {"sets": [{"name": "RestTalk"}, {"name": "Stealth Rock"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "grape tylenol", "user_id": 593128}, {"username": "Flou", "user_id": 605215}]}]}}, "zu": {"sets": [{"name": "Offensive Stealth Rock"}]}},
   "Mudsdale": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}]}},
   "Lurantis": {
     "nu": {
@@ -3491,7 +3501,7 @@
     "1v1": {"sets": [{"name": "Weakness Policy"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}}
   },
   "Impidimp": {"lc": {"sets": [{"name": "Dual Screens"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Sanjay das", "user_id": 557942}]}]}}},
-  "Morgrem": {"nfe": {"sets": [{"name": "Dual Screens"}, {"name": "Choice Specs"}]}},
+  "Morgrem": {"nfe": {"sets": [{"name": "Dual Screens"}, {"name": "Choice Specs"}]}, "zu": {"sets": [{"name": "Substitute + Nasty Plot"}]}},
   "Grimmsnarl": {
     "nationaldex": {
       "sets": [
@@ -3761,7 +3771,7 @@
       "credits": {"writtenBy": [{"username": "Taka", "user_id": 595062}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "adem", "user_id": 529732}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     },
     "monotype": {"sets": [{"name": "Swords Dance (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Havens", "user_id": 391540}]}]}},
-    "battlestadiumsingles": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Attacker"}]},
+    "battlestadiumsingles": {"sets": [{"name": "Offensive"}, {"name": "Choice Attacker"}]},
     "nationaldexmonotype": {"sets": [{"name": "Choice Band (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Zarude": {"monotype": {"sets": [{"name": "Swords Dance (Grass)", "description": "<p>Decent in the Steel matchup. Black Glasses lets it 2HKO Skeledirge with Crunch.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Neko", "user_id": 542526}]}]}}, "almostanyability": {"sets": [{"name": "Bulk Up"}]}},
@@ -4603,7 +4613,6 @@
     "zu": {"sets": [{"name": "SubSeed"}, {"name": "Choice Specs"}, {"name": "Sun Attacker"}]}
   },
   "Rabsca": {"pu": {"sets": [{"name": "Offensive Trick Room"}, {"name": "Bulky Setup"}, {"name": "Trick Room Setter"}]}, "doublesou": {"sets": [{"name": "Trick Room Setter"}]}},
-  "Flittle": {"nfe": {"sets": [{"name": "Calm Mind"}]}},
   "Espathra": {
     "ubers": {
       "sets": [
