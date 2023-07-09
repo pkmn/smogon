@@ -685,7 +685,7 @@
     },
     "ubers": {"Mixed Attacker": {"moves": [["Surf", "Hydro Pump"], "Waterfall", "Outrage", "Draco Meteor"], "item": "Life Orb", "nature": ["Mild", "Rash"], "evs": {"atk": 4, "spa": 252, "spe": 252}}, "Dragon Dance": {"moves": ["Dragon Dance", "Waterfall", "Outrage", ["Draco Meteor", "Yawn"]], "item": "Life Orb", "nature": ["Lonely", "Naughty"], "evs": {"atk": 252, "spa": 4, "spe": 252}}, "Choice Specs": {"moves": ["Draco Meteor", "Hydro Pump", ["Dragon Pulse", "Ice Beam"], ["Surf", "Ice Beam"]], "item": "Choice Specs", "nature": ["Modest", "Timid"], "evs": {"hp": 4, "spa": 252, "spe": 252}}},
     "ou": {"Rain Dance": {"moves": ["Rain Dance", "Hydro Pump", "Draco Meteor", "Surf"], "item": "Life Orb", "nature": "Modest", "evs": {"hp": 4, "spa": 252, "spe": 252}}},
-    "doublesou": {"Rain Attacker": {"moves": ["Muddy Water", "Draco Meteor", ["Hydro Pump", "Substitute"], "Protect"], "item": ["Life Orb", "Dragon Gem"], "nature": "Modest", "evs": {"spa": 252, "spd": 4, "spe": 252}}},
+    "doublesou": {"Weather Attacker": {"moves": ["Muddy Water", "Draco Meteor", ["Substitute", "Hydro Pump"], "Protect"], "item": "Life Orb", "nature": "Modest", "evs": {"def": 4, "spa": 252, "spe": 252}}},
     "vgc2012": {"Rain Dance Kingdra": {"moves": [["Surf", "Hydro Pump"], ["Dragon Pulse", "Draco Meteor"], ["Ice Beam", "Hidden Power Electric"], "Protect"], "item": ["Life Orb", "Haban Berry"], "nature": "Modest", "evs": {"hp": 4, "spa": 252, "spe": 252}}}
   },
   "Phanpy": {"lc": {"Utility": {"moves": ["Stealth Rock", "Earthquake", ["Knock Off", "Ice Shard"], ["Toxic", "Roar"]], "ability": "Sand Veil", "item": "Eviolite", "nature": "Impish", "evs": {"hp": 196, "def": 196, "spd": 116}}}},
