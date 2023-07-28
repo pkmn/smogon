@@ -51,7 +51,10 @@
   "Moltres-Galar": {"sets": [{"name": "Double Dance"}]},
   "Mew": {
     "sets": [
-      {"name": "Regenerator"},
+      {
+        "name": "Choice Scarf Regenerator",
+        "description": "<p>Choice Scarf Regenerator Mew is a strong utility pivot that checks fast physical attackers with the combination of Will-O-Wisp + Volt Switch while still pressuring defensive cores with entry hazards and Trick. Ice Beam can be used as an alternative to Spikes to pressure Pokemon like Garchomp and Landorus-T. Trick can be used to neutralize support Pokemon and defensive pivots like Corviknight while serving as an emergency stop to bulky setup sweepers like Calm Mind Enamorus-T. 136 Speed EVs with a Timid nature ensure that Mew outspeeds Chien Pao, Hisuian Electrode, and +1 Jolly Quaquaval, as well as positive natured Slither Wing and Heatran after Trick. Bulky teammates like Corviknight, Garganacl, Zapdos, and Skeledirge benefit from Mew's ability to spread burns and set hazards, allowing them to absorb more hits from physical attackers and whittle down these attackers more quickly; Mew can also pressure fast attackers like Meowscarada and Talonflame that they struggle with. Additionally, late-game cleaners like Chien-Pao, Hisuian Arcanine, and Quaquaval benefit from Mew's ability to chip defensive switch-ins and hinder walls by giving them a Choice Scarf.</p> "
+      },
       {
         "name": "Prankster",
         "description": "<p>Prankster Mew is a good dual screens lead for hyper offense teams thanks to its good bulk, Speed, and movepool. Taunt blocks foes such as Garchomp, Landorus-T, and Iron Treads from setting entry hazards, Corviknight from clearing screens with Defog, and opposing setup sweepers like Volcarona from taking advantage of free turns. U-turn lets it pivot into its teammates and potentially re-set screens later in the game. Stealth Rock or Spikes can be used over U-turn to chip foes for teammates to KO. 96 Speed EVs and a Jolly Nature ensure that Mew always moves first against opposing leads like Prankster Corviknight and Masquerain, allowing Mew to hinder them with Taunt. Prankster Mew should only be used as a dual screens lead on hyper offense teams. Teammates such as Chien-Pao, Polteageist, Volcarona, and Roaring Moon all appreciate screens, which allow them to easily set up and make them less susceptible to revenge killers. The aforementioned Pokemon also provide good options for Mew to pivot into and gain momentum. Dark-type Pokemon such as Ting-Lu, Meowscarada, and Chien-Pao are immune to Prankster Taunt and can take advantage of Mew, so counters to them such as Zamazenta-C and Triage users, like Enamorus-T and Ursaluna, are good teammates.</p> "
@@ -59,7 +62,7 @@
       {"name": "All-out Attacker"},
       {"name": "Setup Sweeper"}
     ],
-    "credits": {"writtenBy": [{"username": "Frozoid", "user_id": 532881}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+    "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}, {"username": "Frozoid", "user_id": 532881}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}, {"username": "Adeleine", "user_id": 517429}]}]}
   },
   "Typhlosion-Hisui": {"sets": [{"name": "Desolate Land"}, {"name": "Magic Guard"}]},
   "Slowking": {
@@ -98,6 +101,7 @@
   "Masquerain": {"sets": [{"name": "Sticky Web Lead"}]},
   "Salamence": {"sets": [{"name": "Aerilate"}]},
   "Gastrodon": {"sets": [{"name": "Fluffy"}]},
+  "Mismagius": {"sets": [{"name": "Normalize"}, {"name": "Triage"}]},
   "Garchomp": {
     "sets": [
       {
@@ -303,7 +307,7 @@
     ],
     "credits": {"writtenBy": [{"username": "Natcrozma", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
   },
-  "Zarude": {"sets": [{"name": "Bulk Up"}]},
+  "Zarude": {"sets": [{"name": "Adaptability"}, {"name": "Fluffy"}]},
   "Regieleki": {"sets": [{"name": "Special"}, {"name": "Physical"}]},
   "Ursaluna": {"sets": [{"name": "Belly Drum"}, {"name": "Turboblaze"}]},
   "Enamorus": {"sets": [{"name": "Sheer Force"}, {"name": "Choice Specs"}]},
@@ -505,17 +509,13 @@
   },
   "Iron Moth": {
     "sets": [
+      {"name": "Desolate Land"},
       {
-        "name": "Desolate Land",
-        "description": "<p>Iron Moth is a powerful special attacker with a diverse movepool, which allows it to check other threats such as Kingambit and Quaquaval and physical walls such as Corviknight while providing Desolate Land support to help with weather control. Fiery Dance checks Steel-types such as Kingambit and Corviknight, and Discharge allows Iron Moth to threaten Well-Baked Body Corviknight as well as other Water-types such as Dondozo and Quaquaval. Morning Sun has exceptional synergy with Desolate Land and allows Iron Moth to stay healthy. U-turn allows Iron Moth to pivot against threats such as Garganacl and Garchomp into a more favorable match up. Alternatively, Solar Beam can 2HKO Sand Stream Garganacl due to Desolate Land nullifying sand, and Toxic Spikes forces progress and chips down foes with poison damage. Iron Moth is vulnerable to faster Primordial Sea users such as Greninja and Barraskewda; therefore, thus it appreciates priority users and fast teammates such as Triage Hatterene and Choice Scarf Sandy Shocks, respectively. Due to its lower physical bulk, Iron Moth is threatened by strong physical attackers such as Garchomp and Meowscarada; thus, it appreciates having physical walls on the team such as Corviknight and Ting-Lu. Iron Moth also appreciates physical threats like Chien-Pao, which can demolish special walls such as Garchomp, Clodsire, and Blissey.</p> "
-      },
-      {
-        "name": "Offensive",
-        "description": "<p>Offensive Iron Moth trades safety and utility for sheer wallbreaking coverage and power. Fire Blast grants greater immediate power than Fiery Dance but forgoes boosting. Discharge hits Well-Baked Body Corviknight and Primordial Sea users such as Greninja and Barraskewda on the switch in. Energy Ball lets Iron Moth hit checks such as Garganacl, U-turn keeps up momentum by bringing in physical threats such as Garchomp and Chien-Pao into common Iron Moth switch-ins like Blissey, Morning Sun can allow Iron Moth to maintain its HP throughout the game, and Sludge Wave is a powerful STAB option that can threaten bulky Fairy-types like Hatterene and Florges. Sheer Force + Life Orb provides greater power, while Beads of Ruin + Expert Belt avoids Life Orb recoil on Dazzling Gleam and U-turn. Iron Moth highly appreciates partners like Iron Treads and Corviknight that can dually serve as entry hazard removal and pivots to safely get Iron Moth on the field. Iron Moth also partners well with strong physical breakers like Choice Band Slither Wing and Quaquaval that can pressure and beat sturdier checks like Blissey and specially defensive Garganacl.</p> "
-      },
-      {"name": "Specially Defensive", "description": "<p>Specially defensive Iron Moth uses its solid bulk, good defensive typing, and sun-boosted Morning Sun to consistently check foes like Volcarona. It's not entirely passive either, as the boosts from Fiery Dance under sun allow it to eventually overwhelm passive foes like Blissey, Scream Tail, and Florges. U-turn lets it gain momentum by pivoting out safely, and Toxic Spikes punishes grounded foes like Garganacl and Ting-Lu. Due to its devastating Ground weakness, Ground-immune Pokemon like Corviknight make good pairings with it. Iron Moth works well with wallbreakers like Quaquaval and Chien-Pao, as they appreciate being given free entry to threaten its switch-ins like Clodsire, Ting-Lu, and Garganacl. Iron Moth is a great complement to special walls like Corviknight and Clodsire, as it covers their type weaknesses.</p> "}
+        "name": "All Out Attacker",
+        "description": "<p>Iron Moth is a potent and aggressive special attacker with access to relevant STAB attacks and convenient coverage options. Flamethrower and Sludge Wave help Iron Moth dispatch of Almost Any Ability's staple Steel- and Fairy-types like Corviknight and Scream Tail as well as outputting massive damage to anything that doesn't resist its attacks. Fire Blast can be used for more damage output, outdamaging RegenVest Meloetta and Hisuian Goodra's Regenerator healing. Energy Ball can be used instead of Sludge Wave to help Iron Moth's matchup with Well-Baked Body Iron Treads and Regenerator Ting-Lu. Dazzling Gleam improves Iron Moth's offensive chances against Dragon-types like Garchomp and Roaring Moon. Discharge is a coverage alternative that hits Well-Baked Body Corviknight as well as becoming a monstrously strong offensive option when combined with Iron Moth's alternate ability, Hadron Engine. Additionally, Hadron Engine helps Iron Moth score a 2HKO on specially defensive Garchomp with Dazzling Gleam. Balance and offense teams that appreciate explosive offensive power look forward to having Iron Moth as a teammate, as it can easily wipe some defensive pivots like Corviknight and Scream Tail off of the opponent's team. Additionally, Iron Moth struggles heavily against special walls like Garchomp, Garganacl, and RegenVest Hisuian Goodra, so heavy hitters like Kingambit and Slither Wing can be used to make progress against these, making it easier for Iron Moth to sweep late-game. Finally, tools found on hyper offense teams like dual screens, Sticky Web, and entry hazard stacking help Iron Moth more effectively avoid revenge killers and more easily eliminate any of its switch-ins.</p> "
+      }
     ],
-    "credits": {"writtenBy": [{"username": "Alexender", "user_id": 313542}, {"username": "royalfluxh", "user_id": 493260}, {"username": "LordBox", "user_id": 611238}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}, {"username": "Atha", "user_id": 450411}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}, {"username": "Sulo", "user_id": 528036}, {"username": "Sabelette", "user_id": 583793}]}]}
+    "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
   },
   "Iron Thorns": {"sets": [{"name": "Dragon Dance"}]},
   "Chien-Pao": {
