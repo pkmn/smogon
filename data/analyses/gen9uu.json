@@ -1,7 +1,8 @@
 {
-  "Arcanine-Hisui": {"sets": [{"name": "Choice Band"}]},
+  "Arcanine-Hisui": {"sets": [{"name": "Offensive Utility"}, {"name": "Choice Band"}]},
   "Slowbro": {"sets": [{"name": "Defensive"}, {"name": "Iron Defense"}]},
   "Slowbro-Galar": {"sets": [{"name": "Calm Mind"}, {"name": "Quick Claw + Quick Draw"}]},
+  "Muk-Alola": {"sets": [{"name": "Poison Touch + Protect"}, {"name": "Assault Vest"}]},
   "Cloyster": {"sets": [{"name": "Shell Smash"}]},
   "Gengar": {
     "sets": [
@@ -29,6 +30,8 @@
   "Articuno-Galar": {"sets": [{"name": "Double Dance"}]},
   "Zapdos-Galar": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Band"}]},
   "Moltres": {"sets": [{"name": "Offensive"}]},
+  "Moltres-Galar": {"sets": [{"name": "Double Dance"}]},
+  "Mew": {"sets": [{"name": "Double Dance"}]},
   "Typhlosion-Hisui": {"sets": [{"name": "Choice Scarf"}]},
   "Quagsire": {
     "sets": [
@@ -107,9 +110,11 @@
   "Azelf": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}]},
   "Cresselia": {"sets": [{"name": "Calm Mind"}]},
   "Samurott": {"sets": [{"name": "Swords Dance"}]},
+  "Zoroark-Hisui": {"sets": [{"name": "Choice Specs"}, {"name": "Nasty Plot"}]},
   "Alomomola": {"sets": [{"name": "Wish + Protect"}]},
   "Haxorus": {"sets": [{"name": "Dragon Dance"}]},
   "Bisharp": {"sets": [{"name": "Swords Dance"}]},
+  "Hydreigon": {"sets": [{"name": "Choice Specs"}, {"name": "Choice Scarf"}, {"name": "Nasty Plot"}]},
   "Tornadus-Therian": {"sets": [{"name": "Pivot"}, {"name": "Nasty Plot"}, {"name": "Assault Vest", "description": "<p>The given EV spread allows Tornadus-Therian to outspeed Azelf as well as survive a Draco Meteor from Modest Choice Specs Hydreigon after Stealth Rock.</p> "}]},
   "Thundurus": {"sets": [{"name": "Pivot"}]},
   "Thundurus-Therian": {"sets": [{"name": "Nasty Plot"}, {"name": "Pivot"}]},
@@ -131,6 +136,7 @@
   "Florges": {"sets": [{"name": "Calm Mind + Wish"}]},
   "Sylveon": {"sets": [{"name": "Calm Mind + Wish", "description": "<p>48 SpD EVs allows Sylveon to avoid the 2HKO from Tera Flying Booster Energy Iron Jugulis Hurricane.</p> "}]},
   "Hawlucha": {"sets": [{"name": "Choice Scarf"}, {"name": "Unburden Sweeper"}]},
+  "Goodra-Hisui": {"sets": [{"name": "Specially Defensive Wall"}]},
   "Noivern": {"sets": [{"name": "Pivot", "description": "<p>Tera Fairy lets Noivern check opposing Dragon-types while retaining its important resistances to Fighting and Bug. Tera Dragon boosts the power of Draco Meteor significantly. Tera Steel lets Noivern better handle Pokemon like Scizor, Grafaiai, and Lucario.</p> "}]},
   "Decidueye": {"sets": [{"name": "Defog"}]},
   "Decidueye-Hisui": {"sets": [{"name": "Defog"}]},
@@ -143,7 +149,11 @@
   "Toxtricity": {"sets": [{"name": "Wallbreaker", "description": "<p>Tera Normal boosts the power of Boomburst to insane levels, being able to outright OHKO specially defensive Hippowdon and Gastrodon after only one layer of Spikes.</p> "}, {"name": "Choice Scarf", "description": "<p>Tera Normal boosts the power of Boomburst to make up for the decreased power, being able to still have great odds to OHKO Hippowdon after 1 layer of Spikes and 2HKO Gastrodon with no entry hazards on the field.</p> "}]},
   "Polteageist": {"sets": [{"name": "Shell Smash", "description": "<p>Tera Blast in conjunction with Tera Fighting gives Polteageist the necessary coverage to break past Dark-types like Tyranitar, Bisharp, and Iron Jugulis that wall it otherwise. Tera Fighting also allows Polteageist to resist Sucker Punch from Bisharp and Accelrock from Lycanroc-D as well as take neutral damage from Mimikyu's Shadow Sneak.</p> "}]},
   "Grimmsnarl": {"sets": [{"name": "Dual Screens"}]},
+  "Regidrago": {"sets": [{"name": "Choice Specs"}, {"name": "Dragon Dance"}]},
   "Kleavor": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Scarf"}, {"name": "Lead"}]},
+  "Basculegion-F": {"sets": [{"name": "Choice Specs"}, {"name": "Choice Scarf"}, {"name": "Substitute + 3 Attacks"}]},
+  "Overqwil": {"sets": [{"name": "Defensive"}, {"name": "Rain Sweeper"}]},
+  "Enamorus-Therian": {"sets": [{"name": "Calm Mind + Iron Defense"}]},
   "Meowscarada": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Lead"}]},
   "Skeledirge": {"sets": [{"name": "Unaware Wall"}]},
   "Quaquaval": {"sets": [{"name": "Swords Dance"}, {"name": "Bulk Up"}, {"name": "Choice Scarf"}]},
@@ -233,5 +243,6 @@
       }
     ],
     "credits": {"writtenBy": [{"username": "Mystras", "user_id": 530118}, {"username": "NoahDeKnight", "user_id": 458971}], "teams": [{"name": "Quality checked by", "members": [{"username": "Twilight", "user_id": 344575}, {"username": "Estarossa", "user_id": 461329}, {"username": "Sulo", "user_id": 528036}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "Sabelette", "user_id": 583793}]}]}
-  }
+  },
+  "Iron Leaves": {"sets": [{"name": "Swords Dance"}]}
 }
