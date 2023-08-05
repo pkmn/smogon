@@ -197,7 +197,7 @@
   },
   "Thundurus": {"sets": [{"name": "Sheer Force"}, {"name": "Magic Guard"}]},
   "Thundurus-Therian": {"sets": [{"name": "Sheer Force"}]},
-  "Landorus": {"sets": [{"name": "Sheer Force"}]},
+  "Landorus": {"sets": [{"name": "Sheer Force"}, {"name": "Well-Baked Body"}]},
   "Landorus-Therian": {
     "sets": [
       {
@@ -451,7 +451,7 @@
     "sets": [{"name": "Shed Tail", "description": "<p>Shed Tail, Regenerator, and good Speed give Cyclizar a unique role on offensive teams: safely bringing in powerful attackers like Cinderace and Polteageist multiple times per battle. Draco Meteor KOes opposing Cyclizar and picks off weakened foes. U-turn lets Cyclizar pivot out without self-damage, healing from Regenerator to potentially use Shed Tail again later. Rapid Spin and/or Knock Off provide further utility. Choice Scarf + Shed Tail is preferred against Chien-Pao and other fast threats, but Heavy-Duty Boots can be used to avoid entry hazard damage and the Choice lock. Cyclizar benefits greatly from a strong physical wall or Dazzling user to deal with priority attackers like Hatterene. Strong attackers like Cinderace and Greninja are also valuable for dealing with phazers like Hippowdon and Ting-Lu.</p> "}],
     "credits": {"writtenBy": [{"username": "Tanny89k", "user_id": 546606}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
   },
-  "Glimmora": {"sets": [{"name": "Earth Eater"}, {"name": "Corrosion"}]},
+  "Glimmora": {"sets": [{"name": "Defensive"}]},
   "Dondozo": {
     "sets": [
       {
@@ -530,13 +530,16 @@
   },
   "Iron Moth": {
     "sets": [
-      {"name": "Desolate Land"},
+      {
+        "name": "Desolate Land",
+        "description": "<p>With incredible Special Attack and a solid Speed tier, Iron Moth is a fearsome wallbreaker that utilizes Desolate Land and Fiery Dance to OHKO common foes like Chien-Pao, Zamazenta, and non-Well-Baked Body Corviknight variants, as well as get the maximum amount of recovery out of Morning Sun. Iron Moth has several coverage options: Discharge threatens Quaquaval and Well-Baked Body Corviknight, Dazzling Gleam hits Garchomp and Roaring Moon, and Sludge Wave can 2HKO Scream Tail and Primordial Sea Zapdos. Iron Moth synergizes well with other offensive pivots such as Meowscarada and Slither Wing that it can bring in to threaten Pokemon like Hisuian Goodra that it struggles with. Iron Moth also has a hard time damaging Pokemon like opposing Iron Moth and Well-Baked Body Iron Treads, so Ground- and Water-type teammates like Garchomp and Quaquaval that can handle them make good teammates. Iron Moth is a great offensive check to common Water-types like Inteleon and Rotom-W, making it a good partner for defensive cores that lack Water resistances like Corviknight and Meloetta cores. Additionally, Iron Moth's low Defense means that it needs physically defensive teammates like Corviknight and Ting-Lu that can switch into physical attacks.</p> "
+      },
       {
         "name": "All Out Attacker",
         "description": "<p>Iron Moth is a potent and aggressive special attacker with access to relevant STAB attacks and convenient coverage options. Flamethrower and Sludge Wave help Iron Moth dispatch of Almost Any Ability's staple Steel- and Fairy-types like Corviknight and Scream Tail as well as outputting massive damage to anything that doesn't resist its attacks. Fire Blast can be used for more damage output, outdamaging RegenVest Meloetta and Hisuian Goodra's Regenerator healing. Energy Ball can be used instead of Sludge Wave to help Iron Moth's matchup with Well-Baked Body Iron Treads and Regenerator Ting-Lu. Dazzling Gleam improves Iron Moth's offensive chances against Dragon-types like Garchomp and Roaring Moon. Discharge is a coverage alternative that hits Well-Baked Body Corviknight as well as becoming a monstrously strong offensive option when combined with Iron Moth's alternate ability, Hadron Engine. Additionally, Hadron Engine helps Iron Moth score a 2HKO on specially defensive Garchomp with Dazzling Gleam. Balance and offense teams that appreciate explosive offensive power look forward to having Iron Moth as a teammate, as it can easily wipe some defensive pivots like Corviknight and Scream Tail off of the opponent's team. Additionally, Iron Moth struggles heavily against special walls like Garchomp, Garganacl, and RegenVest Hisuian Goodra, so heavy hitters like Kingambit and Slither Wing can be used to make progress against these, making it easier for Iron Moth to sweep late-game. Finally, tools found on hyper offense teams like dual screens, Sticky Web, and entry hazard stacking help Iron Moth more effectively avoid revenge killers and more easily eliminate any of its switch-ins.</p> "
       }
     ],
-    "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
+    "credits": {"writtenBy": [{"username": "Theia", "user_id": 439018}, {"username": "berry", "user_id": 226455}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Tranquility", "user_id": 475288}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "ken", "user_id": 594478}]}]}
   },
   "Iron Thorns": {"sets": [{"name": "Dragon Dance"}]},
   "Chien-Pao": {
