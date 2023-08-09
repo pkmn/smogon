@@ -23,7 +23,16 @@
     "credits": {"writtenBy": [{"username": "gali", "user_id": 107567}], "teams": [{"name": "Quality checked by", "members": [{"username": "DC", "user_id": 449990}]}, {"name": "Grammar checked by", "members": [{"username": "aurora", "user_id": 109385}]}]}
   },
   "Grimer-Alola": {"sets": [{"name": "Tank"}]},
-  "Shellder": {"sets": [{"name": "Physical Shell Smash"}, {"name": "Special Shell Smash"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "RedPee428", "user_id": 611652}, {"username": "Kaboom", "user_id": 300935}]}]}},
+  "Shellder": {
+    "sets": [
+      {
+        "name": "Physical Shell Smash",
+        "description": "<p>Shellder is a powerful sweeper with access to Shell Smash, especially when supported by its ability Skill Link. Shellder’s base 100 Defense gives it plenty of opportunities to set up versus the tier's physical attackers such as Pawniard, Mudbray, and Alolan Grimer. Rock Blast is a fantastic compliment to Liquidation, allowing Shellder to break through Water resistances such as Foongus, and Hisuian Voltorb.Protect is useful for scouting foes' Tera types while blocking priority moves such as Sucker Punch and First Impression. Tera Water boosts its STAB damage even further, demolishing neutral targets that would otherwise take a hit such as Crabrawler and Pawniard. Tera Rock guarantees KOs on Water resistances such as Foongus and Hisuian Voltorb. Tera Dark doesn’t have the benefits of added power but instead blocks Prankster Encore from Shroodle and improves Shellder’s defensive profile by resisting Sucker Punch.</p> <p>Glimmet can greatly facilitate a sweep with its ability to set entry hazards. Alolan Grimer helps deal with Grass-types that deter Shellder's sweep and weakens the opposing team by using Knock Off. Grookey's Grassy Terrain provides Shellder with some passive recovery, and Grookey can pivot in Shellder via U-turn in addition to also having access to Knock Off. Choice Scarf Gothita can trap Pokemon via Shadow Tag to help facilitate a sweep, removing key pieces of the opposing team or using Trick to trap them using a non-helpful move. Memento support works wonderfully from teammates such as Drifloon, which can also use Will-O-Wisp to provide more Shell Smash opportunities, or Alolan Diglett, which can also set up Stealth Rock.</p> "
+      },
+      {"name": "Special Shell Smash"}
+    ],
+    "credits": {"writtenBy": [{"username": "TheShoddyStrawman", "user_id": 585065}], "teams": [{"name": "Quality checked by", "members": [{"username": "Éric", "user_id": 440139}, {"username": "Hacker", "user_id": 387847}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}, {"name": "Submitted by", "members": [{"username": "RedPee428", "user_id": 611652}, {"username": "Kaboom", "user_id": 300935}]}]}
+  },
   "Voltorb": {
     "sets": [
       {
@@ -36,10 +45,10 @@
   "Voltorb-Hisui": {"sets": [{"name": "Offensive Pivot"}]},
   "Wingull": {"sets": [{"name": "Offensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "gali", "user_id": 107567}]}]}},
   "Azurill": {"sets": [{"name": "Belly Drum"}]},
-  "Numel": {"sets": [{"name": "Double Dance"}, {"name": "Stockpile + Body Press"}], "credits": {"writtenBy": [], "teams": [{"name": "submitted by", "members": [{"username": "Kaboom", "user_id": 300935}]}]}},
+  "Numel": {"sets": [{"name": "Growth"}, {"name": "Stockpile + Body Press"}], "credits": {"writtenBy": [], "teams": [{"name": "submitted by", "members": [{"username": "Kaboom", "user_id": 300935}]}]}},
   "Buizel": {"sets": [{"name": "Rain Wallbreaker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Altariel von Sweep", "user_id": 330191}]}]}},
   "Shellos": {"sets": [{"name": "Defensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Charis_Akins", "user_id": 588203}]}]}},
-  "Drifloon": {"sets": [{"name": "Defog", "description": "<p>This set runs 19 HP IVs to activate Unburden after 2 Substitutes or rounds of Stealth Rock damage.</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "gali", "user_id": 107567}]}]}},
+  "Drifloon": {"sets": [{"name": "Utility"}, {"name": "Mixed Attacker", "description": "<p>Drifloon runs 19 HP IVs to activate Unburden after 2 rounds of Stealth Rock damage.</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "gali", "user_id": 107567}]}]}},
   "Stunky": {"sets": [{"name": "Nasty Plot"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Kaboom", "user_id": 300935}]}]}},
   "Snover": {"sets": [{"name": "Physical Wall"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "TheShoddyStrawman", "user_id": 585065}]}]}},
   "Sandile": {"sets": [{"name": "Sticky Web Attacker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Hacker", "user_id": 387847}]}]}},
@@ -48,6 +57,7 @@
   "Gothita": {"sets": [{"name": "Choice Scarf"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Lialiabeast", "user_id": 564420}]}]}},
   "Deerling": {"sets": [{"name": "Offensive"}]},
   "Foongus": {"sets": [{"name": "Defensive"}]},
+  "Axew": {"sets": [{"name": "Dragon Dance"}]},
   "Pawniard": {
     "sets": [
       {
@@ -97,7 +107,7 @@
   },
   "Wattrel": {"sets": [{"name": "Offensive Pivot"}]},
   "Maschiff": {"sets": [{"name": "Choice Scarf"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Shandeur", "user_id": 580548}]}]}},
-  "Shroodle": {"sets": [{"name": "Prankster Pivot"}, {"name": "Terrain Sweeper"}, {"name": "Weather Setter"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Charis_Akins", "user_id": 588203}, {"username": "gali", "user_id": 107567}]}]}},
+  "Shroodle": {"sets": [{"name": "Prankster Pivot"}, {"name": "Terrain Sweeper"}]},
   "Bramblin": {"sets": [{"name": "Spinner"}]},
   "Toedscool": {
     "sets": [
