@@ -298,7 +298,19 @@
     }
   },
   "Voltorb-Hisui": {"lc": {"sets": [{"name": "Offensive Pivot"}]}},
-  "Electrode": {"pu": {"sets": [{"name": "Pivot"}, {"name": "Rain Setter"}]}, "nu": {"sets": [{"name": "Offensive Pivot"}]}},
+  "Electrode": {
+    "pu": {
+      "sets": [
+        {"name": "Pivot"},
+        {
+          "name": "Rain Dance",
+          "description": "<p>Electrode's phenomenal Speed, which allows it to outrun the entire unboosted metagame, good utility options, and ability to quickly pivot out after setting up Rain Dance allows it to be PU's best lead for rain teams. Taunt can prevent opposing leads such as Sticky Web Masquerain, and Stealth Rock Alolan Dugtrio from setting up entry hazards and block Gogoat from attempting to set up to break the team in the early game. Thunder is gives Electrode a powerful, accurate STAB move in rain. Explosion is normally used in the last slot, as it gives Electrode a nuclear option and gives a guaranteed free switch to a partner, but Volt Switch allows Electrode to pivot into a teammate after setting up Rain Dance to set up Rain Dance again.</p> <p>Swift Swim sweepers like Golduck and Beartic are necessary teammates to exploit Rain Dance. Other Water-types such as Basculin and Wugtrio enjoy having their Water-moves boosted as well. Masquerain is a particularly notable partner, as it has its Hurricane made 100% accurate, it can set up on foes it could normally not set up on outside of rain, such as Pyroar and Camerupt and has its Water-type coverage boosted as well, letting it chip foes like Carbink harder. Electric-types such as Raichu and Rotom-F enjoy being able to use a 100% accurate Thunder and can offensively check the opposing Water-types that would want to take advantage of rain, such as Basculin. Other Rain Dance setters such as Murkrow and Golduck are helpful for Electrode to not have to exclusively set Rain Dance for its team.</p> "
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "uhBella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "asa", "user_id": 400292}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Tranquility", "user_id": 475288}]}]}
+    },
+    "nu": {"sets": [{"name": "Offensive Pivot"}]}
+  },
   "Electrode-Hisui": {"uu": {"sets": [{"name": "Pivot"}]}, "almostanyability": {"sets": [{"name": "Offensive Pivot"}]}},
   "Chansey": {
     "ou": {"sets": [{"name": "Defensive"}]},
@@ -573,21 +585,7 @@
     "nationaldex": {"sets": [{"name": "Choice Band"}, {"name": "Bulk Up", "description": "<p>The set(s) displayed are used as a placeholder untill an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]},
     "nationaldexmonotype": {"sets": [{"name": "Choice Scarf (Fighting)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Moltres": {
-    "ou": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
-    "uu": {"sets": [{"name": "Offensive"}]},
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Physically Defensive",
-          "description": "<p>Moltres's useful typing and decent bulk allow it to check various dangerous physical attackers such as Groudon, Hoopa-U, and Zacian. Nuzzle reliably slows down offensive threats and bypasses Good as Gold, whereas Glare paralyzes Ground-types and Covert Cloak users. U-turn allows Moltres to maintain momentum against Nuzzle or Glare switch-ins. Covert Cloak grants immunity to the secondary effects of moves like Nuzzle, Magical Torque, and Salt Cure; alternatively, Heavy-Duty Boots gives it an immunity to Stealth Rock. Dangerous wallbreakers like Palkia-O are recommended to take maximum advantage of U-turn. Groudon is another good example, especially since Moltres can Imposter-proof it. Moltres is threatened by powerful special attackers, like Palkia-O, so a specially defensive Ground-type, like Ice Scales Groudon or Ting-Lu, is a strong partner. It's best to Imposter-proof Moltres with a teammate immune to Nuzzle and not weak to Torch Song, such as Ting-Lu.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "Codename C.A.T", "user_id": 537972}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
-    },
-    "almostanyability": {"sets": [{"name": "Magic Guard"}, {"name": "Desolate Land"}]},
-    "nationaldex": {"sets": [{"name": "Defensive", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}
-  },
+  "Moltres": {"ou": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "uu": {"sets": [{"name": "Offensive"}]}, "almostanyability": {"sets": [{"name": "Magic Guard"}, {"name": "Desolate Land"}]}, "nationaldex": {"sets": [{"name": "Defensive", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}},
   "Moltres-Galar": {
     "uu": {"sets": [{"name": "Double Dance"}]},
     "ou": {"sets": [{"name": "Double Dance", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
@@ -1312,6 +1310,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Photon", "user_id": 516307}], "teams": [{"name": "Quality checked by", "members": [{"username": "Thick Fat Azumarill", "user_id": 330577}]}, {"name": "Grammar checked by", "members": [{"username": "Deezcastforms", "user_id": 423085}, {"username": "autumn", "user_id": 384270}]}]}
     },
+    "balancedhackmons": {"sets": [{"name": "Pixilate"}]},
     "almostanyability": {
       "sets": [
         {
@@ -1626,6 +1625,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Taka", "user_id": 595062}, {"username": "corvere", "user_id": 306317}], "teams": [{"name": "Quality checked by", "members": [{"username": "Taka", "user_id": 595062}, {"username": "corvere", "user_id": 306317}, {"username": "Manaphy", "user_id": 50695}, {"username": "Lasen", "user_id": 273339}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "Dead by Daylight", "user_id": 571069}, {"username": "Dawn of Ares", "user_id": 467437}, {"username": "aurora", "user_id": 109385}]}]}
     },
+    "balancedhackmons": {"sets": [{"name": "RegenVest"}, {"name": "Ice Scales"}]},
     "nationaldexubers": {"sets": [{"name": "Wallbreaker"}, {"name": "Bulky Calm Mind"}]}
   },
   "Groudon": {
@@ -1888,6 +1888,7 @@
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}, {"username": "Thick Fat Azumarill", "user_id": 330577}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}, {"username": "StarkGod", "user_id": 62165}, {"username": "Butch Hardnight", "user_id": 265677}, {"username": "Pearl", "user_id": 47861}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}, {"username": "Sulo", "user_id": 528036}]}]}
     },
     "vgc2023": {"sets": [{"name": "Offensive"}, {"name": "Scarf"}]},
+    "balancedhackmons": {"sets": [{"name": "Mixed Setup"}, {"name": "Choice Band"}]},
     "almostanyability": {
       "sets": [
         {
@@ -2430,24 +2431,13 @@
       "credits": {"writtenBy": [{"username": "nimzowitsch", "user_id": 272785}], "teams": [{"name": "Quality checked by", "members": [{"username": "Manaphy", "user_id": 50695}, {"username": "Taka", "user_id": 595062}, {"username": "Lasen", "user_id": 273339}]}, {"name": "Grammar checked by", "members": [{"username": "berry", "user_id": 226455}, {"username": "aurora", "user_id": 109385}, {"username": "ken", "user_id": 594478}]}]}
     },
     "anythinggoes": {"sets": [{"name": "Swords Dance"}, {"name": "Dragon Dance"}]},
-    "balancedhackmons": {"sets": [{"name": "Ice Scales"}]},
+    "balancedhackmons": {"sets": [{"name": "Guts"}]},
     "nationaldexubers": {"sets": [{"name": "Swords Dance"}, {"name": "Dragon Dance"}]}
   },
   "Arceus-Bug": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
   "Arceus-Dark": {"ubers": {"sets": [{"name": "Calm Mind + Taunt"}, {"name": "Defensive"}]}, "nationaldexubers": {"sets": [{"name": "Utility"}]}},
   "Arceus-Dragon": {"ubers": {"sets": [{"name": "Dragon Dance"}]}},
-  "Arceus-Electric": {
-    "ubers": {"sets": [{"name": "Calm Mind"}]},
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Ice Scales",
-          "description": "<p>Arceus-Electric's typing and bulk offer it two main niches. The first is that it's the only Ice Scales Arceus forme that doesn't fold to Tera Flying Rayquaza, which 2HKOes all other Arceus formes with Collision Course or Extreme Speed. The other is that, with Calm Mind and STAB on Thunder Cage, it will almost always beat opposing Calm Mind Arceus formes one-on-one. Calm Mind offers the aforementioned benefits against opposing Arceus and some extra security against Flare Boost Flutter Mane, whereas Judgment OHKOes non-Terastallized Rayquaza, prevents Groudon and Assault Vest-less Ting-Lu from switching in safely, and allows Arceus-Electric to sponge Knock Off. Mortal Spin provides entry hazard removal and also dissuades Imposter users from switching in due to poison, with Covert Cloak preventing said Imposter user from poisoning Arceus-Electric. Alternatively, Toxic threatens Covert Cloak users and inflicts toxic poison, but sacrifices hazard removal and means Arceus-Electric now needs to switch out against Imposter users. Strength Sap provides higher healing against most RegenVest users, but falters against most special attackers and Chansey. Arceus-Electric's main flaw is that, outside of Rayquaza, its typing doesn't offer many useful resistances; it can thus occasionally be overwhelmed by Choice Specs attackers like Flutter Mane and Eternatus, provided they have Spikes support. As such, hazard removal from the likes of Tidy Up Groudon or Mortal Spin users like Ting-Lu is recommended. Arceus-Electric also can't check Headlong Rush Enamorus and Rayquaza, as well as Arceus-Ground, so Corviknight is a useful teammate. Imposter-proof Arceus-Electric with a Ground-type that can withstand Mortal Spin, like Ting-Lu or Covert Cloak Groudon, as Arceus-Electric can poison Imposter users but will rarely beat them by itself. Tera Steel offers an immunity to Toxic and Mortal Spin, as well as helps Arceus-Electric better handle Flutter Mane, Iron Bundle, Palkia-O, and Eternatus.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
-    }
-  },
+  "Arceus-Electric": {"ubers": {"sets": [{"name": "Calm Mind"}]}},
   "Arceus-Fairy": {
     "ubers": {
       "sets": [
@@ -2472,8 +2462,7 @@
         {
           "name": "Pixilate",
           "description": "<p>Pixilate Arceus-Fairy is a solid wallbreaker that also reliably removes entry hazards with Boomburst and unblockable Rapid Spin, respectively. Extreme Speed provides a strong priority option against opposing attackers like Koraidon and Palkia-O; alternatively, Nuzzle lets Arceus-Fairy cripple Palkia-O, Imposter users, and defensive checks, and a pivoting move like Volt Switch or Flip Turn is also an option to retain momentum. Heavy-Duty Boots increases Arceus-Fairy's longevity and further improves its entry hazard removal potential, while Covert Cloak protects Arceus-Fairy from common moves with secondary effects, such as Nuzzle and Mortal Spin. Pixie Plate is another alternative to provide more immediate power, notably allowing Tera Fairy Arceus-Fairy to potentially OHKO Palkia-O, and also is immune to Knock Off. Wallbreakers such as Enamorus and Koraidon appreciate Arceus-Fairy removing entry hazards, threatening opposing sweepers, and pressuring common walls like Dondozo and Ting-Lu. Tera Fairy further boosts Arceus-Fairy's damage output, whereas Tera Steel provides a wide array of useful resistances, allowing Arceus-Fairy to pick off threats like Dialga-O.</p> "
-        },
-        {"name": "Ice Scales"}
+        }
       ],
       "credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     },
@@ -2496,18 +2485,7 @@
       "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "augustakira", "user_id": 445464}], "teams": [{"name": "Quality checked by", "members": [{"username": "TTTech", "user_id": 338877}, {"username": "Chessking345", "user_id": 355040}, {"username": "Tea Guzzler", "user_id": 577920}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "Tea Guzzler", "user_id": 577920}]}]}
     }
   },
-  "Arceus-Flying": {
-    "ubers": {"sets": [{"name": "Calm Mind + Taunt"}]},
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Aerilate",
-          "description": "<p>Aerilate Arceus-Flying takes advantage of its typing and ability to act as a reliable entry hazard remover and a defensive check to Ground-types such as Groudon and Ursaluna. Aerilate allows Boomburst to deal significant damage to those that don't resist it, such as Dondozo and Groudon. Rapid Spin provides guaranteed entry hazard removal, complemented by Arceus-Flying's immunity to Spikes and its ability to pressure common entry hazard setters. Nuzzle allows Arceus-Flying to punish offensive threats like Palkia-O and Imposter users. Covert Cloak protects Arceus-Flying from secondary effects from moves like Nuzzle and Mortal Spin, while Sky Plate cannot be removed and provides more immediate power. Offensive partners like Enamorus and Eternatus appreciate Arceus-Flying weakening their checks like Arceus-Steel and RegenVest Ting-Lu, while also providing a Ground immunity. Tera Flying further boosts Arceus-Flying's damage output, whereas Tera Electric provides a resistance to an Imposter user's moves.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
-    }
-  },
+  "Arceus-Flying": {"ubers": {"sets": [{"name": "Calm Mind + Taunt"}]}},
   "Arceus-Ghost": {
     "ubers": {"sets": [{"name": "Dragon Dance"}, {"name": "Calm Mind"}]},
     "balancedhackmons": {
@@ -2525,18 +2503,7 @@
     },
     "nationaldexubers": {"sets": [{"name": "Dragon Dance"}]}
   },
-  "Arceus-Grass": {
-    "ubers": {"sets": [{"name": "Calm Mind"}, {"name": "3 Attacks"}]},
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Ice Scales Wall",
-          "description": "<p>Ice Scales Arceus-Grass is a reliable switch-in to many of the most threatening special attackers, such as Enamorus, Pixilate Flutter Mane, and Palkia-O. Nuzzle hinders setup sweepers, such as Palkia-O and Arceus-Ghost, with paralysis and dissuades threats such as Arceus-Fire and Imposter users from switching in freely. Knock Off removes items such as Covert Cloak, Leftovers, and Choice items from various Pokemon. Spikes forces chip damage on foes, letting offensive teammates wallbreak more easily. Alternatively, Whirlwind phazes setup sweepers that Arceus-Grass cannot deter, such as Groudon. Leftovers provides longevity, whereas Ability Shield counters Normalize Flutter Mane and Arceus-Ghost. Arceus-Grass appreciates offensive teammates such as Palkia-O, Groudon, and Koraidon that can take advantage of Spikes and Knock Off wearing down their defensive checks; notably, Arceus-Grass can also Imposter-proof the former two. Physical walls such as Fur Coat Moltres and Groudon can take on physical attackers that threaten Arceus-Grass, like Arceus-Fire. Arceus-Grass usually doesn't need to Terastallize, but Tera Steel offers a resistance to Dragon Energy from  Palkia-O and Boomburst from Pixilate Flutter Mane. Arceus-Grass can Imposter-proof itself with Nuzzle and Knock Off.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "memesketch", "user_id": 537558}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}]}]}
-    }
-  },
+  "Arceus-Grass": {"ubers": {"sets": [{"name": "Calm Mind"}, {"name": "3 Attacks"}]}},
   "Arceus-Ground": {
     "ubers": {
       "sets": [
@@ -3384,7 +3351,6 @@
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}], "teams": [{"name": "Quality checked by", "members": [{"username": "Thick Fat Azumarill", "user_id": 330577}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
     },
     "vgc2023": {"sets": [{"name": "AcidPress"}]},
-    "balancedhackmons": {"sets": [{"name": "RegenVest"}]},
     "almostanyability": {
       "sets": [
         {
@@ -3445,6 +3411,7 @@
       "credits": {"writtenBy": [{"username": "ChrisPBacon", "user_id": 544502}], "teams": [{"name": "Quality checked by", "members": [{"username": "Ryuji", "user_id": 515767}, {"username": "Sulo", "user_id": 528036}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     },
     "doublesou": {"sets": [{"name": "Trick Room Sweeper", "description": "<p>A Sassy Nature allows Diancie to survive a Steam Eruption from Volcanion.</p> "}]},
+    "balancedhackmons": {"sets": [{"name": "Mixed Pixilate"}, {"name": "Choice Specs"}]},
     "almostanyability": {"sets": [{"name": "Defensive"}, {"name": "Triage"}]},
     "nationaldexmonotype": {
       "sets": [
@@ -3468,16 +3435,6 @@
       "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Bka Onon", "user_id": 532439}]}]}
     },
     "doublesou": {"sets": [{"name": "Physical Attacker"}]},
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Tough Claws",
-          "description": "<p>Hoopa-U's unmatched mixed attacking stats make it an incredibly threatening wallbreaker and sweeper. Shift Gear allows Hoopa-U to outrun the entire tier after a boost, and it increases its damage output to levels able to OHKO Arceus. Grass Knot hits Ting-Lu, Dondozo, and Arceus-Water, bypassing Fur Coat. Hoopa-U's best fit is on offensive teams that appreciate its sweeping potential and nearly unmatched stallbreaking ability. Koraidon and Groudon are good teammates, as they help weaken the Fur Coat Arceus formes that aren't vulnerable to Hoopa-U, such as Arceus-Fire and Arceus-Fairy, helping enable its sweep. Tera Dark removes Hoopa-U's 4x weakness to U-turn and also increases Wicked Blow's damage, whereas Tera Fire boosts V-create's damage and potentially allows Hoopa-U to set up in front of Arceus-Fairy. Imposter-proofing requires a Fur Coat user, normally an Arceus forme like Arceus-Fire; however, if the Imposter user lacks Eviolite, then they must be wary of an OHKO if Hoopa-U moves first.</p> "
-        },
-        {"name": "Sheer Force"}
-      ],
-      "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "TTTech", "user_id": 338877}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
-    },
     "nationaldex": {
       "sets": [
         {
@@ -3891,7 +3848,6 @@
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}], "teams": [{"name": "Quality checked by", "members": [{"username": "StarkGod", "user_id": 62165}, {"username": "Butch Hardnight", "user_id": 265677}, {"username": "DerpySuX", "user_id": 528485}, {"username": "Kiby", "user_id": 534158}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "Adeleine", "user_id": 517429}, {"username": "CryoGyro", "user_id": 331519}]}]}
     },
     "vgc2023": {"sets": [{"name": "Bulk Up"}, {"name": "Tailwind Support"}]},
-    "balancedhackmons": {"sets": [{"name": "Prankster"}]},
     "almostanyability": {
       "sets": [
         {
@@ -4426,7 +4382,7 @@
     "nationaldexmonotype": {"sets": [{"name": "Choice Band (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Zarude": {"monotype": {"sets": [{"name": "Swords Dance (Grass)", "description": "<p>Decent in the Steel matchup. Black Glasses lets it 2HKO Skeledirge with Crunch.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Neko", "user_id": 542526}]}]}}, "almostanyability": {"sets": [{"name": "Adaptability"}, {"name": "Fluffy"}]}},
-  "Regieleki": {"ubers": {"sets": [{"name": "Dual Screens"}]}, "monotype": {"sets": [{"name": "Entry Hazard Support", "description": "<p>28 Atk EVs may be invested if using Wild Charge to OHKO Flutter Mane.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Havens", "user_id": 391540}]}]}}, "doublesou": {"sets": [{"name": "Special Attacker"}]}, "balancedhackmons": {"sets": [{"name": "Choice Specs", "description": "<p>Minimum Special Defense is used in order to deal massive damage to Imposter.</p> "}]}, "almostanyability": {"sets": [{"name": "Special"}, {"name": "Physical"}]}},
+  "Regieleki": {"ubers": {"sets": [{"name": "Dual Screens"}]}, "monotype": {"sets": [{"name": "Entry Hazard Support", "description": "<p>28 Atk EVs may be invested if using Wild Charge to OHKO Flutter Mane.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Havens", "user_id": 391540}]}]}}, "doublesou": {"sets": [{"name": "Special Attacker"}]}, "almostanyability": {"sets": [{"name": "Special"}, {"name": "Physical"}]}},
   "Regidrago": {"uu": {"sets": [{"name": "Choice Specs"}, {"name": "Dragon Dance"}]}, "ou": {"sets": [{"name": "Choice Specs", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "monotype": {"sets": [{"name": "Choice Specs", "description": "<p>Modest nature guarantees the 2HKO on Corviknight with Dragon Energy.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Ultraman1", "user_id": 598658}]}]}}},
   "Glastrier": {"ou": {"sets": [{"name": "Trick Room Sweeper", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "monotype": {"sets": [{"name": "Swords Dance", "description": "<p>240 Speed EVs outspeeds Corviknight.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Giyu", "user_id": 574288}, {"username": "Neko", "user_id": 542526}]}]}}, "doublesou": {"sets": [{"name": "Trick Room Attacker"}]}},
   "Spectrier": {
@@ -4505,15 +4461,6 @@
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}, {"username": "greilmercenary9", "user_id": 336524}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
     },
     "vgc2023": {"sets": [{"name": "TR Sweeper"}]},
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Choice Band",
-          "description": "<p>Ursaluna is an incredibly dangerous wallbreaker thanks to its great Attack and STAB combination. Population Bomb packs absurd power, 2HKOing Fur Coat Dondozo with 8 or more hits. Headlong Rush excels at removing the Steel- and Ghost-types that would switch in on Population Bomb, such as Zamazenta-C and Arceus-Ghost. Extreme Speed is the strongest priority in the tier and excels at picking off offensive threats, like Enamorus and Palkia-O, after slight chip damage. U-turn lets Ursaluna maintain momentum against switch-ins and helps scout Rocky Helmet. Ursaluna's best fit is on balance and offense teams, which can maximize the opportunities it gets to switch in and wallbreak. Knock Off support is mandatory to remove Rocky Helmet, as using Population Bomb into a holder often instantly KOes Ursaluna; for this reason, teammates like Groudon or RegenVest users like Ting-Lu are recommended, the latter of which also offers safe pivoting. Ursaluna struggles to break Fur Coat Ghost-types, such as Arceus-Ghost and Giratina, so teammates like Hoopa-U and Arceus-Ghost are recommended to overcome these. It's best to Imposter-proof Ursaluna with a bulky Rocky Helmet user, such as Fur Coat Dondozo or Groudon. Tera Normal boosts Ursaluna's damage output, notably allowing Extreme Speed to OHKO Palkia-O after Spikes.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}]}]}
-    },
     "almostanyability": {"sets": [{"name": "Belly Drum"}, {"name": "Turboblaze"}]}
   },
   "Basculegion": {"ubers": {"sets": [{"name": "Rain Sweeper"}]}, "ou": {"sets": [{"name": "Swift Swim", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "monotype": {"sets": [{"name": "Choice Band (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}}, "doublesou": {"sets": [{"name": "Bulky"}, {"name": "Choice Scarf"}, {"name": "Swift Swim"}]}},
@@ -4602,15 +4549,6 @@
       "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Bka Onon", "user_id": 532439}, {"username": "DreamPrince", "user_id": 274634}, {"username": "Giyu", "user_id": 574288}]}]}
     },
     "doublesou": {"sets": [{"name": "Assault Vest"}]},
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Pixilate",
-          "description": "<p>Enamorus's good offensive stats combined with Pixilate make it a reliable offensive utility Pokemon. Boomburst deals heavy damage to all targets, except the limited pool of Fairy-resistant Pokemon, and bypassing Substitute means Enamorus can soft check its users like Arceus-Dark. Rapid Spin makes Enamorus a strong entry hazard clearer, with a Spikes immunity making it difficult to wear down, and the Speed boost ensures Enamorus can threaten faster Pokemon like Palkia-O and Koraidon. V-create lets Enamorus significantly damage Ice Scales or Assault Vest users like Hisuian Goodra; alternatively, Headlong Rush hits many of these special walls super effectively at the cost of Base Power. Strength Sap provides reliable recovery, negates Life Orb recoil, and allows Enamorus to beat threats like Groudon and Zamazenta-C one-on-one. Life Orb notably ensures Boomburst will 2HKO Arceus, and V-create can OHKO Tera Grass Ice Scales Clodsire. Enamorus's best fit is on balance and offense teams, which appreciate a non-passive entry hazard remover. It synergizes with Ground-type attackers like Groudon and Ursaluna, as these can threaten Enamorus's walls like Arceus-Fire. Teammates that can bring Enamorus in safely, such as Koraidon and RegenVest Dialga-O, help bypass its middling bulk. Tera Fire boosts V-create's damage and allows Enamorus to beat a weakened Imposter user, whereas Tera Ground allows Headlong Rush to OHKO Hisuian Goodra and Clodsire.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
-    },
     "almostanyability": {"sets": [{"name": "Sheer Force"}, {"name": "Choice Specs"}]},
     "nationaldex": {"sets": [{"name": "Choice Specs"}, {"name": "Mixed Attacker"}, {"name": "Choice Scarf"}]}
   },
@@ -4871,7 +4809,6 @@
     "1v1": {"sets": [{"name": "Sitrus Berry"}, {"name": "Liechi Berry + Reversal"}, {"name": "Choice Scarf"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "LRXC", "user_id": 289008}]}]}},
     "nationaldex": {"sets": [{"name": "Swords Dance"}, {"name": "Bulk Up", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}
   },
-  "Oinkologne-F": {"zu": {"sets": [{"name": "Body Press"}]}},
   "Spidops": {
     "pu": {"sets": [{"name": "Entry Hazard Lead"}, {"name": "Heavy-Duty Boots"}]},
     "almostanyability": {
@@ -6034,21 +5971,6 @@
     },
     "1v1": {"sets": [{"name": "Choice Specs"}, {"name": "Life Orb"}]}
   },
-  "Dudunsparce": {
-    "nu": {
-      "sets": [
-        {
-          "name": "Coil",
-          "description": "<p>Coil Dudunsparce is an imposing setup sweeper that is difficult to take down thanks to its excellent bulk and great longevity with Roost. It can boost through common walls such as Sandaconda and Muk and support its team by spreading paralysis with Serene Grace-boosted Body Slam. Dragon Tail allows Dudunsparce to beat opposing setup sweepers such as Eelektross and Muk by forcing them out, while Bite hits Ghost-types such as Rotom and Haunter as well as Tera Ghost users such as Sandaconda and opposing Dudunsparce. The given EV spread allows Dudunsparce to outspeed Vaporeon as well as paralyzed Pyroar and Scyther and improves its matchup against special attackers such as Oricorio-F and Zoroark. Tera Ghost lets Dudunsparce turn the tables on Fighting-types such as Toxicroak and Medicham, while Tera Fairy gives Dudunsparce a generally strong defensive typing that improves its matchup against Tera Dragon Clawitzer and Dark-types such as Zoroark and Cacturne; it also makes it immune to Dragon Tail from Eelektross and Appletun, which prevents them from stopping Dudunsparce's setup. Slow wallbreakers such as Toxicroak and Cacturne greatly appreciate Dudunsparce's ability to spread paralysis to faster foes and can reciprocate by taking on Vaporeon. Before setting up, Dudunsparce struggles against powerful physical attackers such as Bruxish, Medicham, and Ursaring, so it appreciates partners like Vaporeon, Drifblim, and Sandaconda that can switch into them. Muk, Chansey, and Umbreon can deal with special attackers that are too strong for Dudunsparce to handle, such as Pyroar, Clawitzer, and Haunter.</p> "
-        },
-        {
-          "name": "Calm Mind",
-          "description": "<p>Dudunsparce's solid bulk, access to Roost, and relative lack of type weaknesses make it a dangerous Calm Mind sweeper. The sheer power of STAB Boomburst makes up for Dudunsparce's mediocre Special Attack and tends to dissuade Fighting-types and other offensive checks from switching directly into it. Shadow Ball targets Ghost-types such as Drifblim and Rotom. Alternatively, Flamethrower hits Frosmoth and Steel-types like Copperajah, Magneton, and Tera Steel Eelektross harder; however, since these Pokemon lack recovery, it is often better to simply wear them down before trying to sweep. Rattled punishes weaker Dark- and Ghost-type attacks, which foes will likely use if they expect Dudunsparce to Terastallize or if it already has, as well as U-turn and Paldean Tauros's Intimidate. 84 Speed EVs allow Dudunsparce to outrun Umbreon and Haze Vaporeon, thus easing setup versus them; make sure the former does not have Thunder Wave before committing to this, though. Tera Ghost gives Dudunsparce an edge against Fighting-types and powers up Shadow Ball. Dudunsparce seriously struggles against special walls like Muk, Copperajah, and Assault Vest Crabominable, so it should be paired with strong physical attackers like Mabosstiff and Passimian that can pressure them. Zoroark is another option that goes even further in baiting in special walls, as well as Ghost-types, thanks to Illusion. Paralysis support from Pokemon like Sandaconda, Qwilfish, and Umbreon improves Dudunsparce's matchup against offense and decreases the number of hits it has to take while setting up. Sandaconda and Qwilfish also set up entry hazards to wear down Dudunsparce's switch-ins and can punish Fighting-types like Medicham and Passimian with Rocky Helmet, while Umbreon can use Wish to help it stay healthy and conserve Roost's limited PP.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "memesketch", "user_id": 537558}, {"username": "asa", "user_id": 400292}], "teams": [{"name": "Quality checked by", "members": [{"username": "Togkey", "user_id": 400664}]}, {"name": "Grammar checked by", "members": [{"username": "deetah", "user_id": 297659}, {"username": "Rabia", "user_id": 336073}]}]}
-    }
-  },
   "Kingambit": {
     "ou": {
       "sets": [
@@ -6689,15 +6611,6 @@
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}], "teams": [{"name": "Quality checked by", "members": [{"username": "Thick Fat Azumarill", "user_id": 330577}]}, {"name": "Grammar checked by", "members": [{"username": "CryoGyro", "user_id": 331519}]}]}
     },
     "vgc2023": {"sets": [{"name": "Glass Cannon"}, {"name": "Snow Abuser"}]},
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Refrigerate",
-          "description": "<p>Iron Bundle's niche lies in its good Speed and fair Special Attack, allowing it to outrun and chase out Koraidon and Flutter Mane. Refrigerate + Boomburst hits every relevant special wall for decent damage, notably OHKOing Ting-Lu after Spikes. Steam Eruption targets non-Desolate Land Arceus-Fire, which can otherwise tank Boomburst, and it also threatens to force extra chip damage on foes with a burn. Volt Switch maintains momentum against Iron Bundle's checks and helps rack up Spikes damage. Electro Drift 2HKOes Arceus-Water, Kyogre, and Eviolite Imposter users; alternatively, Trick can cripple switch-ins like Chansey, although it's ineffective against most Arceus. Iron Bundle's best fit is on balance teams, which can give it multiple opportunities to wallbreak and can keep it safe from entry hazards. Iron Bundle's damage output is relatively low compared to other special attackers like Flutter Mane and Palkia-O, even with Tera Ice, so entry hazard support from the likes of Zacian and Ting-Lu is highly recommended to break through walls like Ice Scales Dialga-O and Arceus. Iron Bundle's low bulk and vulnerability to paralysis mean that slow pivoting teammates, like Dialga-O and Ting-Lu, are recommended to get it on the field safely. Imposter-proof Iron Bundle with Chansey or an Ice Scales user like Zacian or Dialga-O.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
-    },
     "1v1": {
       "sets": [
         {"name": "Choice Specs", "description": "<ul> <li>Hydro Pump OHKOes Skeledirge, Arcanine, non-Passho Berry Volcarona, non-Assault Vest Iron Moth, Iron Treads, and physically defensive Espathra.</li> <li>Freeze-Dry beats Dondozo and non-Speed Booster Energy Walking Wake.</li> <li>Blizzard OHKOes non-Assault Vest Iron Leaves and Wo-Chien.</li> <li>Hyper Beam OHKOes opposing Iron Bundle.</li> <li>Iron Bundle can run an alternative EV spread of 232 HP / 68 Def / 160 SpA / 48 Spe with a Timid Nature. The HP and Defense EVs allow Iron Bundle to live a Giga Impact from Choice Band Slaking after Chilling Water. The Speed EVs allow Iron Bundle to outspeed Iron Moth and Adamant Meowscarada.</li> <li>While Ice Beam has a high chance to beat non-specially defensive Pressure stall Corviknight, if you are sure that Corviknight is a specially defensive Pressure stall set, you can attempt to use Hydro Pump to win, but this is not reliable.</li> </ul> "},
@@ -7753,7 +7666,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "TaxFraud", "user_id": 584685}, {"username": "pichus", "user_id": 374620}, {"username": "Frozoid", "user_id": 532881}, {"username": "Geysers", "user_id": 426798}], "teams": [{"name": "Quality checked by", "members": [{"username": "pichus", "user_id": 374620}, {"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "Geysers", "user_id": 426798}, {"username": "Guard", "user_id": 360582}, {"username": "Seldanna", "user_id": 471586}, {"username": "lotiasite", "user_id": 302985}]}, {"name": "Grammar checked by", "members": [{"username": "Lumii", "user_id": 493772}, {"username": "UT", "user_id": 523866}, {"username": "lotiasite", "user_id": 302985}, {"username": "Sulo", "user_id": 528036}]}]}
-    }
+    },
+    "balancedhackmons": {"sets": [{"name": "Defensive"}, {"name": "Choice Specs"}]}
   },
   "Walking Wake": {
     "ou": {
