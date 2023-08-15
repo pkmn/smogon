@@ -15,7 +15,16 @@
   },
   "Raichu": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice"}]},
   "Dugtrio": {"sets": [{"name": "Swords Dance"}]},
-  "Dugtrio-Alola": {"sets": [{"name": "Wallbreaker"}, {"name": "Choiced Attacker"}]},
+  "Dugtrio-Alola": {
+    "sets": [
+      {
+        "name": "Wallbreaker",
+        "description": "<p>While slower than its Kantonian cousin, Alolan Dugtrio still serves as one of the PU metagame's strongest wallbreakers thanks to its uncommon Steel typing, high power, and great coverage. This access to a rare STAB typing, as well as a still excellent Speed tier, cement its niche alongside other powerful Ground-types such as Dugtrio and Gabite. Earthquake and Iron Head allow Alolan Dugtrio to threaten commonplace Pokemon such as Carbink, Pyroar, Dachsbun, and Lycanroc-N. Stone Edge allows Alolan Dugtrio to hit Charizard for meaningful damage while also providing extra power against targets such as Masquerain and Vespiquen. Substitute, on the other hand, allows Alolan Dugtrio to take advantage of slower, more passive Pokemon, such as Vespiquen, Tinkatuff, and Carbink, in order to buffer a hit, gain momentum from a forced switch, or safely set up with Swords Dance. Sucker Punch provides insurance against Choice Scarf users and Pokemon that are naturally faster than Alolan Dugtrio, such as Basculin and Dugtrio, respectively. Swords Dance allows Alolan Dugtrio to take advantage of passive opponents and forced switches as well as break through naturally bulky Pokemon it may not have coverage for, such as Whiscash. Heavy-Duty Boots helps to provide more opportunities for Alolan Dugtrio to come in by negating entry hazards, while Life Orb provides a damage boost, which can be especially helpful if Alolan Dugtrio chooses not to run Swords Dance. Air Balloon is also a choice, making Alolan Dugtrio immune to Ground-type moves, like Dugtrio or Gabite's Earthquake, as well as providing a temporary immunity to Sticky Web and Spikes. Tera Ground allows for Alolan Dugtrio's Earthquake to deal even more damage, which is especially helpful against neutral targets like Gabite. Tera Steel is also an option, as it provides key resistances against moves such as Gogoat's Horn Leech and Choice Scarf Rotom-F's Blizzard while also boosting the power of Iron Head.</p> <p>Alolan Dugtrio serves as an excellent wallbreaker for fast-paced offensive teams that need a combination of speed and power to deal with threats such as Carbink, Pyroar, and Dachsbun. Due to being one of the few Steel-types available in the tier, Alolan Dugtrio's access to a strong, fast Iron Head is a quality greatly appreciated by common Fire-type wallbreakers such as Charizard, Pyroar, and Houndoom, which struggle against common Rock-types such as Carbink and Lycanroc-N. In return, Alolan Dugtrio greatly appreciates the Fire-types' ability to deal with Grass-types such as Gogoat and Thwackey, as these Grass-types resist Earthquake and also often have good matchups against the entry hazard setters it is paired with. This especially applies to Thwackey, which further reduces the damage of Alolan Dugtrio's Earthquake by setting Grassy Terrain. A teammate that can deal with Misdreavus, such as Haunter or Houndoom, is also imperative, as Misdreavus can easily cripple Alolan Dugtrio with Will-O-Wisp.</p> "
+      },
+      {"name": "Choiced Attacker"}
+    ],
+    "credits": {"writtenBy": [{"username": "Melt Gibson", "user_id": 617840}], "teams": [{"name": "Quality checked by", "members": [{"username": "uhBella", "user_id": 567483}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+  },
   "Persian-Alola": {"sets": [{"name": "Pivot"}, {"name": "Nasty Plot"}]},
   "Golduck": {"sets": [{"name": "Rain Sweeper"}, {"name": "Choice Scarf"}]},
   "Electrode": {
@@ -28,7 +37,6 @@
     ],
     "credits": {"writtenBy": [{"username": "uhBella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "asa", "user_id": 400292}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Tranquility", "user_id": 475288}]}]}
   },
-  "Flareon": {"sets": [{"name": "Wish Passer"}]},
   "Dragonair": {"sets": [{"name": "Dragon Dance"}]},
   "Ampharos": {"sets": [{"name": "Assault Vest"}]},
   "Murkrow": {"sets": [{"name": "Weather Setter", "description": "<p>Thunder Wave supports teammates that are still rather slow even under rain or sun like Beartic and Scovillain, respectively. Taunt denies entry hazards, recovery, and status moves. Haze neutralizes setup sweepers like Masquerain, Lilligant, and Hisuian Sliggoo.</p> <p>Sample set. Stay tuned for updates!</p> "}]},
@@ -48,7 +56,6 @@
   "Dunsparce": {"sets": [{"name": "Stealth Rock"}]},
   "Sneasel": {"sets": [{"name": "Swords Dance"}]},
   "Houndoom": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice Scarf"}]},
-  "Pupitar": {"sets": [{"name": "Dragon Dance", "description": "<p>The investment in bulk lets Pupitar avoid being OHKOed by Raichu's Surf from full after Stealth Rock and makes Jolly Honchkrow's Night Slash only a 3HKO. 152 Speed EVs allow Pupitar to outrun Raichu at +2. Stone Edge is stronger than Rock Slide but has less PP and lower accuracy. Tera Dragon and Tera Water both patch up Pupitar's Water weakness, but the former also lets it resist Grass- and Electric-type attacks while the latter helps more against Ice-type attacks.</p> <p>Sample set. Stay tuned for updates!</p> "}]},
   "Masquerain": {
     "sets": [
       {
@@ -65,7 +72,7 @@
   "Vigoroth": {"sets": [{"name": "Bulk Up"}]},
   "Swalot": {"sets": [{"name": "Defensive"}]},
   "Camerupt": {"sets": [{"name": "Specially Defensive"}, {"name": "Trick Room Attacker"}]},
-  "Grumpig": {"sets": [{"name": "Nasty Plot", "description": "<p>136 Speed EVs let Grumpig outspeed Modest Glaceon. 44 SpA EVs allow unboosted Tera Ground Grumpig to KO offensive Skuntank with Earth Power after Stealth Rock damage.</p> <p>Sample set. Stay tuned for updates!</p> "}]},
+  "Grumpig": {"sets": [{"name": "Nasty Plot", "description": "<p>Grumpig is not viable in PU, but this is considered its best set.</p> <p>136 Speed EVs let Grumpig outspeed Modest Glaceon. 44 SpA EVs allow unboosted Tera Ground Grumpig to KO offensive Skuntank with Earth Power after Stealth Rock damage.</p> "}]},
   "Zangoose": {
     "sets": [
       {
@@ -129,7 +136,6 @@
   "Sawsbuck": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Scarf"}]},
   "Beartic": {"sets": [{"name": "Rain Sweeper"}]},
   "Quilladin": {"sets": [{"name": "Defensive Spikes", "description": "<p>Stone Edge threatens Fire- and Flying-types like Charizard, Vespiquen, and Honchkrow. Poison Jab prevents Quilladin from being walled by opposing Grass-types, such as Gogoat and Lilligant. Leech Seed offers additional recovery and decreases how often Quilladin needs to use Synthesis. Tera Rock helps against the aforementioned Fire- and Flying-types on top of powering up Stone Edge, but Tera Ghost can be used instead for spinblocking.</p> <p>Sample set. Stay tuned for updates!</p> "}]},
-  "Frogadier": {"sets": [{"name": "Choice Scarf"}]},
   "Pyroar": {"sets": [{"name": "Special Attacker"}, {"name": "Choice"}]},
   "Gogoat": {
     "sets": [
@@ -165,7 +171,6 @@
   },
   "Mareanie": {"sets": [{"name": "Defensive"}]},
   "Thwackey": {"sets": [{"name": "Choice"}]},
-  "Carkol": {"sets": [{"name": "Rapid Spin"}]},
   "Flapple": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Choice Specs"}, {"name": "Dragon Dance"}]},
   "Perrserker": {
     "sets": [
@@ -178,8 +183,6 @@
     "credits": {"writtenBy": [{"username": "uhBella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "Hera", "user_id": 414072}]}, {"name": "Grammar checked by", "members": [{"username": "aurora", "user_id": 109385}]}]}
   },
   "Falinks": {"sets": [{"name": "No Retreat"}, {"name": "Choice"}]},
-  "Pincurchin": {"sets": [{"name": "Specially Defensive"}]},
-  "Stonjourner": {"sets": [{"name": "Stealth Rock"}, {"name": "Double Dance"}]},
   "Indeedee-F": {
     "sets": [
       {
@@ -190,8 +193,7 @@
     ],
     "credits": {"writtenBy": [{"username": "uhBella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "Hera", "user_id": 414072}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
   },
-  "Drakloak": {"sets": [{"name": "RestTalk"}, {"name": "Offensive Pivot"}]},
-  "Calyrex": {"sets": [{"name": "Double Dance"}]},
+  "Calyrex": {"sets": [{"name": "Double Dance", "description": "<p>Calyrex is not viable in PU, but this is considered its best set.</p> <p>The Speed investment lets +2 Calyrex outspeed Choice Scarf Alolan Dugtrio.</p> "}]},
   "Quaxwell": {"sets": [{"name": "Rapid Spin"}]},
   "Spidops": {"sets": [{"name": "Entry Hazard Lead"}, {"name": "Heavy-Duty Boots"}]},
   "Dachsbun": {
