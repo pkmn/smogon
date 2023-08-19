@@ -156,9 +156,9 @@
     "uu": {"sets": [{"name": "Defensive"}, {"name": "Iron Defense"}]},
     "monotype": {"sets": [{"name": "Physically Defensive (Psychic)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
     "nationaldexmonotype": {"sets": [{"name": "Defensive (Psychic)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
-    "nationaldexru": {"sets": [{"name": "Defensive Pivot"}]}
+    "nationaldexru": {"sets": [{"name": "Physically Defensive"}, {"name": "Defensive"}, {"name": "Calm Mind"}]}
   },
-  "Slowbro-Galar": {"uu": {"sets": [{"name": "Calm Mind"}, {"name": "Quick Claw + Quick Draw"}]}},
+  "Slowbro-Galar": {"uu": {"sets": [{"name": "Calm Mind"}, {"name": "Quick Claw + Quick Draw"}]}, "nationaldexru": {"sets": [{"name": "Calm Mind"}]}},
   "Magnemite": {
     "lc": {
       "sets": [
@@ -412,7 +412,7 @@
     },
     "1v1": {"sets": [{"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}}
   },
-  "Tauros-Paldea-Aqua": {"anythinggoes": {"sets": [{"name": "Defensive"}]}, "uu": {"sets": [{"name": "Choice Band"}, {"name": "Bulk Up"}]}, "battlestadiumsingles": {"sets": [{"name": "Choice Band", "description": "<p><a href=\"https://www.smogon.com/forums/threads/water-tauros-gp-0-1.3718595/#post-9561667\">This set is currently in copyediting. It can be found here.</a></p> "}]}, "almostanyability": {"sets": [{"name": "Choice Band"}]}, "1v1": {"sets": [{"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}}},
+  "Tauros-Paldea-Aqua": {"anythinggoes": {"sets": [{"name": "Defensive"}]}, "uu": {"sets": [{"name": "Choice Band"}, {"name": "Bulk Up"}]}, "battlestadiumsingles": {"sets": [{"name": "Choice Band", "description": "<p><a href=\"https://www.smogon.com/forums/threads/water-tauros-gp-0-1.3718595/#post-9561667\">This set is currently in copyediting. It can be found here.</a></p> "}]}, "almostanyability": {"sets": [{"name": "Choice Band"}]}, "1v1": {"sets": [{"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}}, "nationaldexru": {"sets": [{"name": "Choice Band"}, {"name": "Bulk Up"}]}},
   "Gyarados": {
     "nationaldex": {
       "sets": [
@@ -483,11 +483,23 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "Illecent Excaliburn", "user_id": 475589}], "teams": [{"name": "Normal Analysis By", "members": [{"username": "Illecent Excaliburn", "user_id": 475589}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "Giyu", "user_id": 574288}, {"username": "Swiffix", "user_id": 547532}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
-    }
+    },
+    "nationaldexru": {"sets": [{"name": "Choice Scarf", "description": "<p>248 HP EVs ensure that Ditto will be able to use Struggle four times before fainting, and 252 Defense EVs minimize Struggle damage from an opposing Ditto. The minimum possible Speed allows Imposter to not activate first and therefore allow Ditto to have more Transform PP.</p> <p>This is a sample set, stay tuned for future updates!</p> "}]}
   },
   "Vaporeon": {"almostanyability": {"sets": [{"name": "Defensive"}]}},
   "Flareon": {"zu": {"sets": [{"name": "Specially Defensive"}]}},
-  "Articuno": {"nu": {"sets": [{"name": "Special Tank", "description": "<p>The provided Speed outpaces max Speed Sandaconda, although a slower and bulkier spread can be used as well.</p> "}]}, "monotype": {"sets": [{"name": "Specially Defensive (Flying)", "description": "<p>Outspeeds uninvested Landorus-T. An alternative spread of 240 HP / 84 SpD / 184 Spe lets Articuno never 2HKO'ed by Greninja and lets it outspeed Pelipper.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}}},
+  "Articuno": {
+    "nu": {
+      "sets": [
+        {
+          "name": "Special Wall",
+          "description": "<p>Articuno solidifies itself as a top tier special wall in NU, thanks to its ability to take on scary wallbreakers such as Abomasnow, Clawitzer, and Appletun that can tear through slower teams. Haze helps stop setup sweepers like Farigiraf, Mesprit, and Lilligant, but Hurricane can be used to hit Pokemon like Appletun, Abomasnow, and Cryogonal harder while also helping against Fighting-types such as Hiusian Sneasel and Toxicroak in a pinch. U-turn lets Articuno pivot on incoming Ice-resistant foes like Magneton and Cryogonal while also generating momentum for offensive teammates on the switches Articuno can force against the bevy of Grass-, Water-, and Fighting-types in the tier. The given EV spread allows Articuno to outspeed maximum Speed Cacturne and Ursaring while maintaining as much special bulk as possible. Tera Ground gifts an Electric-type immunity, letting Articuno easily handle Rotom and Eelektross, and it gets a Stealth Rock resistance, which helps Articuno if it gets hit by a Knock Off; Tera Steel helps against setup sweepers such as Mesprit, Lilligant, and Farigiraf so that Articuno can use Haze without fear of being OHKOed; and Tera Fairy can be used to take care of Fighting-types which overwhelm it otherwise with their powerful STAB moves.</p> <p>Articuno easily falters in the face of physical wallbreakers like Mabosstiff, Medicham, and Tauros, so Pokemon like Sandaconda, Sableye, and Mesprit to check them pair well with Articuno as they love a partner to tank special attacks. Electric-types like Magneton, Eelektross, and Rotom tend to overpower Articuno; therefore, partners like Appletun, Lurantis, and Eelektross pair well alongside it. Item displacement from Knock Off or Trick is very detrimental for Articuno’s longevity. To combat this, Knock Off absorbers like Sandaconda and Sticky Hold Muk work well to help it. Entry hazard support from Hattrem, Drifblim, and Lurantis also helps Articuno if it happens to lose its item. Wallbreakers such as Samurott, Bruxish, and Pyroar work well alongside Articuno, as it can take care of their checks like Cacturne, Appletun, and Qwilfish. Because Articuno beats Ground- and Grass-types, Electric-types pair well as partners, as they can create a VoltTurn core and whittle down each other’s checks.</p> "
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "PowerOfMemes", "user_id": 583607}], "teams": [{"name": "Quality checked by", "members": [{"username": "Togkey", "user_id": 400664}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Tranquility", "user_id": 475288}]}]}
+    },
+    "monotype": {"sets": [{"name": "Specially Defensive (Flying)", "description": "<p>Outspeeds uninvested Landorus-T. An alternative spread of 240 HP / 84 SpD / 184 Spe lets Articuno never 2HKO'ed by Greninja and lets it outspeed Pelipper.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}}
+  },
   "Articuno-Galar": {"ou": {"sets": [{"name": "Double Dance", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}},
   "Zapdos": {
     "ou": {
@@ -572,7 +584,16 @@
     "nationaldexmonotype": {"sets": [{"name": "Choice Scarf (Fighting)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
   "Moltres": {
-    "ou": {"sets": [{"name": "Physically Defensive"}, {"name": "Specially Defensive", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
+    "ou": {
+      "sets": [
+        {
+          "name": "Physically Defensive",
+          "description": "<p>Thanks to its natural bulk, typing, and Flame Body, physically defensive Moltres can threaten crippling burns to most physical attackers in the tier and force out threats such as Kingambit, Zamazenta, Swords Dance Iron Valiant, Dragonite, Roaring Moon, and Sneasler. Moltres gets many free turns over the course of a game thanks to the many Pokemon it forces out, which makes U-turn a fantastic tool for pivoting and gaining momentum while also ensuring that Moltres is not passive against Pokemon such as Baxcalibur, Heatran, and Ting-Lu. Hurricane is an alternative that can OHKO Great Tusk, Iron Valiant, and Sneasler and 2HKO Zamazenta, and it also hits Baxcalibur without boosting its Attack. 12 Speed EVs allows Moltres to outspeed Jolly Kingambit. Tera Fairy removes all of Moltres' previous weaknesses and strengthen its matchup against Kingambit and Roaring Moon. Alternatively, Tera Water is a solid defensive type that also Improves Moltres's Rain matchup allowing it to live rain-boosted Tera Water Wave Crash from Floatzel and Basculegion and be able to threaten them back with Will-O-Wisp. Great Tusk can form a good core with Moltres thanks to Great Tusk's ability to threaten Moltres's switch-ins, such as Garganacl, Ting-Lu, Galarian Slowking, and Heatran, and remove Stealth Rock if Moltres loses its Heavy-Duty Boots. Ting-Lu can take advantage of Moltres's switch-ins such as Zapdos, Dragapult, and Iron Moth to lay entry hazards while Moltres covers it against Fighting- and Fairy-types such as Great Tusk, Iron Valiant, and Sneasler. Similarly, Gholdengo handles offensive threats that may overwhelm Moltres, such as pivot Sneasler and Iron Valiant, while Moltres covers it against Cinderace and Kingambit. Setup sweepers such as Kingambit, Baxcalibur, and Iron Valiant can make great use of Moltres's ability to generate free turns by pivoting them into play and spreading burn for easier setup.</p> "
+        },
+        {"name": "Specially Defensive"}
+      ],
+      "credits": {"writtenBy": [{"username": "SenSequ", "user_id": 642099}], "teams": [{"name": "Quality checked by", "members": [{"username": "hamiltonion", "user_id": 40598}, {"username": "SetsuSetsuna", "user_id": 548068}]}, {"name": "Grammar checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}]}]}
+    },
     "monotype": {"sets": [{"name": "Physically Defensive (Flying)", "description": "<p>Brave Bird with a specially defensive spread may be considered if Spectrier is an issue to the team, but a physically defensive spread lets it be a check to Chien-Pao.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}},
     "almostanyability": {"sets": [{"name": "Magic Guard"}, {"name": "Desolate Land"}]},
     "nationaldex": {"sets": [{"name": "Defensive", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}
@@ -787,7 +808,8 @@
       ],
       "credits": {"writtenBy": [{"username": "Itchy", "user_id": 518399}], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}, {"name": "Quality checked by", "members": [{"username": "swag god", "user_id": 500233}, {"username": "bored_glitch", "user_id": 579035}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
     },
-    "nationaldexmonotype": {"sets": [{"name": "Belly Drum (Fairy)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
+    "nationaldexmonotype": {"sets": [{"name": "Belly Drum (Fairy)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
+    "nationaldexru": {"sets": [{"name": "Belly Drum"}, {"name": "Choice Band"}]}
   },
   "Sudowoodo": {"zu": {"sets": [{"name": "Stealth Rock + Spikes"}]}},
   "Jumpluff": {"zu": {"sets": [{"name": "Offensive Pivot"}, {"name": "Swords Dance"}, {"name": "Sun Setter"}]}},
@@ -869,7 +891,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "ChrisPBacon", "user_id": 544502}, {"username": "Sulo", "user_id": 528036}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
-    }
+    },
+    "nationaldexru": {"sets": [{"name": "Specially Defensive", "description": "<p>Defense avoids OHKO from Krookodile’s Knock Off.</p> "}, {"name": "Physically Defensive"}]}
   },
   "Slowking-Galar": {
     "ou": {
@@ -1068,7 +1091,7 @@
     "1v1": {"sets": [{"name": "Eviolite"}]}
   },
   "Delibird": {"zu": {"sets": [{"name": "Suicide Lead"}]}},
-  "Houndoom": {"pu": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice Scarf"}]}},
+  "Houndoom": {"pu": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice Scarf"}]}, "nationaldexru": {"sets": [{"name": "Nasty Plot"}]}},
   "Donphan": {
     "uu": {"sets": [{"name": "Offensive Utility"}, {"name": "Assault Vest"}]},
     "almostanyability": {
@@ -1410,7 +1433,8 @@
       ],
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}, {"username": "zapper22001", "user_id": 45824}], "teams": [{"name": "Quality checked by", "members": [{"username": "Kiby", "user_id": 534158}, {"username": "StarkGod", "user_id": 62165}, {"username": "Butch Hardnight", "user_id": 265677}, {"username": "Pearl", "user_id": 47861}, {"username": "Theorymon", "user_id": 29010}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Lumii", "user_id": 493772}, {"username": "UT", "user_id": 523866}]}]}
     },
-    "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Life Orb"}]}
+    "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Life Orb"}]},
+    "nationaldexru": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}
   },
   "Vigoroth": {"nfe": {"sets": [{"name": "Bulk Up"}]}, "pu": {"sets": [{"name": "Bulk Up"}]}},
   "Slaking": {"1v1": {"sets": [{"name": "Choice Band"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}}, "zu": {"sets": [{"name": "Choice Band"}]}},
@@ -1684,7 +1708,8 @@
       "credits": {"writtenBy": [{"username": "Petele", "user_id": 548107}], "teams": [{"name": "Normal analysis by", "members": [{"username": "Petele", "user_id": 548107}]}, {"name": "Quality checked by", "members": [{"username": "Ashbala", "user_id": 518038}, {"username": "Giyu", "user_id": 574288}, {"username": "Neko", "user_id": 542526}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "Rabia", "user_id": 336073}]}]}
     },
     "1v1": {"sets": [{"name": "Choice Band"}]},
-    "nationaldexmonotype": {"sets": [{"name": "Physically Defensive (Normal)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
+    "nationaldexmonotype": {"sets": [{"name": "Physically Defensive (Normal)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
+    "nationaldexru": {"sets": [{"name": "Choice Band"}, {"name": "Offensive Pivot"}, {"name": "Choice Scarf"}]}
   },
   "Kricketune": {"zu": {"sets": [{"name": "Sticky Web"}]}},
   "Vespiquen": {"nu": {"sets": [{"name": "Pivot"}]}, "pu": {"sets": [{"name": "Spikes"}]}, "zu": {"sets": [{"name": "Specially Defensive"}]}},
@@ -1762,7 +1787,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "Giyu", "user_id": 574288}], "teams": [{"name": "Ground analysis by", "members": [{"username": "Giyu", "user_id": 574288}]}, {"name": "Quality checked by", "members": [{"username": "Mateeus", "user_id": 321991}, {"username": "CrossHeart", "user_id": 593863}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}, {"username": "Sulo", "user_id": 528036}]}]}
-    }
+    },
+    "nationaldexru": {"sets": [{"name": "Specially Defensive"}]}
   },
   "Drifloon": {"lc": {"sets": [{"name": "Utility"}, {"name": "Mixed Attacker", "description": "<p>Drifloon runs 19 HP IVs to activate Unburden after 2 rounds of Stealth Rock damage.</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "gali", "user_id": 107567}]}]}}},
   "Drifblim": {
@@ -1809,7 +1835,7 @@
       "credits": {"writtenBy": [{"username": "Pengairxan", "user_id": 622813}], "teams": [{"name": "Poison analysis by", "members": [{"username": "Pengairxan", "user_id": 622813}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "CrossHeart", "user_id": 593863}, {"username": "Mateeus", "user_id": 321991}]}, {"name": "Grammar checked by", "members": [{"username": "royalfluxh", "user_id": 493260}]}]}
     }
   },
-  "Bronzong": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Stealth Rock"}, {"name": "Bulky Setup Sweeper"}]}},
+  "Bronzong": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Stealth Rock"}, {"name": "Bulky Setup Sweeper"}]}, "nationaldexru": {"sets": [{"name": "Tank"}]}},
   "Spiritomb": {"nu": {"sets": [{"name": "Calm Mind"}]}},
   "Gabite": {
     "pu": {
@@ -2074,7 +2100,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "TheSorcer3r", "user_id": 580037}], "teams": [{"name": "Quality checked by", "members": [{"username": "ChrisPBacon", "user_id": 544502}, {"username": "Sulo", "user_id": 528036}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
-    }
+    },
+    "nationaldexru": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs", "description": "<p>Timid can be run to trap Tinkaton, but outspeeds nothing else of note.</p> "}, {"name": "Defensive"}]}
   },
   "Leafeon": {"pu": {"sets": [{"name": "Wish", "description": "<p>X-Scissor hits opposing Grass-types like Flapple and Gogoat; if these Pokemon aren't a concern, Leafeon can run Yawn to force switches, Leech Seed for additional recovery, or Swords Dance to make up for its relative passivity.</p> <p>Sample set. Stay tuned for updates!</p> "}]}},
   "Glaceon": {
@@ -2146,6 +2173,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Manaphy", "user_id": 50695}], "teams": [{"name": "Quality checked by", "members": [{"username": "Lasen", "user_id": 273339}, {"username": "ox04", "user_id": 507268}]}, {"name": "Grammar checked by", "members": [{"username": "aurora", "user_id": 109385}]}]}
     },
+    "ou": {"sets": [{"name": "Lead", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Spikes Lead"}]},
     "monotype": {
       "sets": [
@@ -2193,7 +2221,8 @@
       ],
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}], "teams": [{"name": "Quality checked by", "members": [{"username": "StarkGod", "user_id": 62165}, {"username": "Butch Hardnight", "user_id": 265677}, {"username": "Pearl", "user_id": 47861}, {"username": "Thick Fat Azumarill", "user_id": 330577}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Lumari", "user_id": 232216}]}]}
     },
-    "1v1": {"sets": [{"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s created by", "members": [{"username": "fruan", "user_id": 536219}]}]}}
+    "1v1": {"sets": [{"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
+    "nationaldexru": {"sets": [{"name": "Offensive Pivot", "description": "<p>44 Defense EVs as a benchmark to avoid the 2HKO from Adamant Life Orb Mamoswine whilst maintaining speed.</p> "}, {"name": "Nasty Plot"}]}
   },
   "Rotom-Wash": {
     "ou": {
@@ -2319,7 +2348,7 @@
       "credits": {"writtenBy": [{"username": "PowerOfMemes", "user_id": 583607}], "teams": [{"name": "Quality checked by", "members": [{"username": "Togkey", "user_id": 400664}, {"username": "Rabia", "user_id": 336073}]}, {"name": "Grammar checked by", "members": [{"username": "Rabia", "user_id": 336073}]}]}
     }
   },
-  "Azelf": {"ou": {"sets": [{"name": "Lead", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "uu": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}]}, "almostanyability": {"sets": [{"name": "Psychic Surge"}]}, "nationaldexmonotype": {"sets": [{"name": "Entry Hazard Lead", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
+  "Azelf": {"ou": {"sets": [{"name": "Lead", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "uu": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}]}, "almostanyability": {"sets": [{"name": "Psychic Surge"}]}, "nationaldexmonotype": {"sets": [{"name": "Entry Hazard Lead", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldexru": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}, {"name": "Suicide Lead"}]}},
   "Dialga": {"ubers": {"sets": [{"name": "Choiced"}]}},
   "Dialga-Origin": {
     "ubers": {"sets": [{"name": "Stealth Rock Setter"}]},
@@ -2639,7 +2668,7 @@
   "Basculin": {"pu": {"overview": "<p>Note: Despite the two variants being very similar, Basculin-Blue-Striped is generally considered superior due to having access to two viable abilities (Adaptability and Rock Head), which makes it harder for your opponent to predict which set you're using.</p> ", "sets": [{"name": "Adaptability"}, {"name": "Choice Specs"}]}, "nu": {"sets": [{"name": "Choice Band"}]}},
   "Sandile": {"lc": {"sets": [{"name": "Sticky Web Attacker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Hacker", "user_id": 387847}]}]}}},
   "Krokorok": {"nfe": {"sets": [{"name": "Stealth Rock"}]}, "zu": {"sets": [{"name": "Offensive Stealth Rock"}, {"name": "Choice Scarf"}]}},
-  "Krookodile": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Stealth Rock"}, {"name": "Bulk Up"}]}, "1v1": {"sets": [{"name": "Choice Band"}]}},
+  "Krookodile": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Stealth Rock"}, {"name": "Bulk Up"}]}, "1v1": {"sets": [{"name": "Choice Band"}]}, "nationaldexru": {"sets": [{"name": "Offensive Pivot", "description": "<p>EV spread avoids an OHKO from Cobalion’s Close Combat while still outpacing Jolly Lucario.</p> "}, {"name": "Choice Scarf"}, {"name": "Choice Band"}]}},
   "Zorua": {"lc": {"sets": [{"name": "Choice Scarf"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "TheShoddyStrawman", "user_id": 585065}]}]}}},
   "Zorua-Hisui": {"lc": {"sets": [{"name": "Pivot"}, {"name": "Nasty Plot"}]}},
   "Zoroark-Hisui": {
@@ -2738,15 +2767,13 @@
       "credits": {"writtenBy": [{"username": "Neko", "user_id": 542526}], "teams": [{"name": "Poison analysis by", "members": [{"username": "Neko", "user_id": 542526}]}, {"name": "Quality checked by", "members": [{"username": "Aqua Jet", "user_id": 531302}, {"username": "maroon", "user_id": 305839}]}, {"name": "Grammar checked by", "members": [{"username": "Clouds", "user_id": 356215}, {"username": "deetah", "user_id": 297659}]}]}
     },
     "doublesou": {
-      "overview": "<p>Amoonguss is the tier’s premier redirector, sustaining its teammates with Pollen Puff and neutralizing foes with Spore. Its defensive prowess, coupled with Regenerator, provides it the sustainability to soak up hits while supporting its team. Due to its effectiveness, Amoonguss finds itself on a large variety of team styles, from Trick Room to hyper offense. Setup attackers such as Nasty Plot Gholdengo and Swords Dance Iron Hands appreciate its redirection and healing capabilities, and they make up for its near-nonexistent offenses. Amoonguss's Grass / Poison typing provides resistances to key attackers such as Palafin-H and Iron Hands but leaves it weak to Fire- and Ice-types like Chi-Yu and Chien-Pao. Further, its passivity diminishes its utility against status-immune Pokemon such as Gholdengo and Garganacl. Finally, opposing Grass-types such as Meowscarada, Abomasnow, and Tera Grass Iron Hands and Safety Goggles users such as Farigiraf and Sylveon are immune to Amoonguss's Spore and Rage Powder, invalidating its support options.</p> ",
-      "comments": "<h1>Other Options</h1> <p>With Covert Cloak, Amoonguss can turn the tables on Fake Out users and put them to sleep as well as reliably check Garganacl by ignoring its Salt Cure. Rocky Helmet punishes contact attackers such as Dragonite and Palafin-H and KOes Maushold after 8 hits of Population Bomb. Occa Berry allows Amoonguss to survive a Heat Wave from Choice Specs Chi-Yu and Eruption from Charcoal Torkoal. Eject Button can be used to switch into or redirect an attack and then pivot to a frail attacking teammate. None of these items complement Amoonguss's bulk as well as Sitrus Berry, however. Clear Smog allows Amoonguss to check setup foes such as Swords Dance Iron Hands and Iron Defense Garganacl. Foul Play can be used to hit strong physical attackers such as Choice Band Dragonite and Garchomp.</p> ",
       "sets": [
         {
           "name": "Redirection Support",
-          "description": "<ul> <li> <p>Spore dissuades foes from staying in and prevents them from setting up Trick Room. If Trick Room ends up active, Amoonguss can utilize its low Speed to threaten foes with sleep.</p> </li> <li> <p>Rage Powder enables teammates to set field conditions such as Trick Room or Tailwind safely.</p> </li> <li> <p>Pollen Puff heals teammates and damages foes in a pinch, notably OHKOing Meowscarada.</p> </li> <li> <p>Leaf Storm is Amoonguss’s biggest source of damage, OHKOing Iron Bundle, 2HKOing Palafin-H, and pressuring the sleep-immune Garganacl. Protect is useful in scouting foes’ moves, blocking Fake Out, and improving overall survivability.</p> </li> <li> <p>Regenerator allows Amoonguss to come into the field and absorb attacks repeatedly.</p> </li> <li> <p>The EV spread allows Amoonguss to survive two consecutive Make It Rains from Choice Specs Gholdengo after Sitrus Berry.</p> </li> <li> <p>28 Speed IVs allow Amoonguss to underspeed Iron Hands and Kingambit under Trick Room.</p> </li> <li> <p>Tera Water turns Amoonguss's Fire- and Ice-type weaknesses into resistances and is overall a great defensive typing. It also removes its Flying-type weakness, further improving its matchup against rain teams.</p> </li> </ul> "
+          "description": "<ul> <li> <p>Amoonguss is the tier’s premier redirector, neutralizing foes with Spore and sustaining its teammates with Pollen Puff. Its defensive prowess, coupled with Regenerator, provides the sustainability to soak up hits while supporting its team. Amoonguss pairs incredibly well with setup attackers such as Bulk Up Palafin-H and Swords Dance Iron Hands, which appreciate its redirection and healing capabilities and make up for its near-nonexistent offensive pressure. While Amoonguss is a great support Pokemon, it struggles against Fire-types like Heatran and Volcanion, and its utility is diminished by Cresselia's Lunar Blessing and Safety Goggles users.</p> </li> <li> <p>As the most consistent sleep user in the tier, Amoonguss's Spore forces switches to powder-immune foes. This is especially powerful in Trick Room, as Amoonguss can utilize its low Speed to render foes immobile before they can act.</p> </li> <li> <p>Rage Powder makes it easier for teammates to use setup moves like Swords Dance and Bulk Up or set field conditions such as Trick Room or Tailwind safely. In addition, it can draw attacks away from frail attackers like Chien-Pao and Flutter Mane, generating space for them.</p> </li> <li> <p>Pollen Puff heals teammates and damages foes in a pinch, allowing Amoonguss to provide value even during the effects of Taunt.</p> </li> <li> <p>Clear Smog enables Amoonguss to check setup threats like Bulk Up Palafin-H and Belly Drum Iron Hands. Protect is helpful in scouting foes’ moves, blocking Fake Out, and improving overall survivability.</p> </li> <li> <p>244 HP and 136 Special Defense EVs ensure that Amoonguss can take two Shadow Balls from Choice Specs Flutter Mane after Sitrus Berry recovery. The remaining EVs are dumped into Defense.</p> </li> <li> <p>28 Speed IVs let Amoonguss underspeed Iron Hands and Kingambit under Trick Room.</p> </li> <li> <p>Sitrus Berry improves Amoonguss's survivability when redirecting multiple attacks. Rocky Helmet can be used to rack up damage upon redirecting contact attacks such as Palafin-H's Jet Punch and punish U-turn from Rillaboom and Landorus-T.</p> </li> <li> <p>Tera Water turns Amoonguss's weaknesses to Fire- and Ice-type moves from foes such as Volcanion and Chien-Pao into resistances. Tera Dark can be used to improve its matchup against Indeedee-F and Armarouge teams and gain immunity to Prankster Taunt from Tornadus and Grimmsnarl.</p> </li> </ul> "
         }
       ],
-      "credits": {"writtenBy": [{"username": "AIRedzone", "user_id": 512635}], "teams": [{"name": "Quality checked by", "members": [{"username": "qsns", "user_id": 230771}, {"username": "Smudge", "user_id": 550367}]}, {"name": "Grammar checked by", "members": [{"username": "royalfluxh", "user_id": 493260}, {"username": "dex", "user_id": 277988}]}]}
+      "credits": {"writtenBy": [{"username": "AIRedzone", "user_id": 512635}], "teams": [{"name": "Quality checked by", "members": [{"username": "ryo yamada2001", "user_id": 192134}, {"username": "zee", "user_id": 501951}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}, {"username": "zoe", "user_id": 531334}]}]}
     },
     "battlestadiumsingles": {
       "overview": "<p>This analysis is for the Regulation C format of Battle Stadium Singles, which lasts until June 30th, 2023. For more information on this format and its current events, check out this page!</p> <p>If you feel this analysis is missing anything important or needs an update, feel free to suggest any changes here.</p> ",
@@ -2771,7 +2798,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "Sulo", "user_id": 528036}], "teams": [{"name": "Quality checked by", "members": [{"username": "ChrisPBacon", "user_id": 544502}, {"username": "hidin", "user_id": 589564}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
-    }
+    },
+    "nationaldexru": {"sets": [{"name": "Physically Defensive", "description": "<p>252 HP EVs and 80 Special Defense EVs allow Amoonguss to avoid the 2HKO from Choice Specs Primarina's Hydro Pump after Stealth Rock and guarantee that it survives Mega Manectric's Overheat after Stealth Rock. Seed Bomb lets it handle Calm Mind Primarina</p> "}, {"name": "Specially Defensive"}]}
   },
   "Alomomola": {
     "anythinggoes": {
@@ -2836,7 +2864,8 @@
       "credits": {"writtenBy": [{"username": "smushedtomato", "user_id": 505592}], "teams": [{"name": "Quality Checked by", "members": [{"username": "DerpySuX", "user_id": 528485}]}, {"name": "Grammar Checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
     "almostanyability": {"sets": [{"name": "Protean"}]},
-    "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Swords Dance"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}}
+    "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Swords Dance"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
+    "nationaldexru": {"sets": [{"name": "Swords Dance"}, {"name": "Dragon Dance"}]}
   },
   "Beartic": {"pu": {"sets": [{"name": "Rain Sweeper"}]}},
   "Cryogonal": {"nu": {"sets": [{"name": "Utility"}]}, "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Rapid Spin"}]}},
@@ -3036,7 +3065,8 @@
       ],
       "credits": {"writtenBy": [{"username": "Arcticblast", "user_id": 27554}], "teams": [{"name": "Quality checked by", "members": [{"username": "qsns", "user_id": 230771}, {"username": "Smudge", "user_id": 550367}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
     },
-    "vgc2023": {"sets": [{"name": "Bulky Mental Herb"}]}
+    "vgc2023": {"sets": [{"name": "Bulky Mental Herb"}]},
+    "nationaldexru": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}]}
   },
   "Tornadus-Therian": {
     "uu": {"sets": [{"name": "Pivot"}, {"name": "Nasty Plot"}, {"name": "Assault Vest", "description": "<p>The given EV spread allows Tornadus-Therian to outspeed Azelf as well as survive a Draco Meteor from Modest Choice Specs Hydreigon after Stealth Rock.</p> "}]},
@@ -3069,7 +3099,7 @@
       "credits": {"writtenBy": [{"username": "Mateeus", "user_id": 321991}], "teams": [{"name": "Flying analysis by", "members": [{"username": "Mateeus", "user_id": 321991}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "Swiffix", "user_id": 547532}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
     }
   },
-  "Thundurus": {"ou": {"sets": [{"name": "Nasty Plot", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "uu": {"sets": [{"name": "Pivot"}]}, "doublesou": {"sets": [{"name": "Support"}]}, "vgc2023": {"sets": [{"name": "Support"}]}, "almostanyability": {"sets": [{"name": "Sheer Force"}, {"name": "Magic Guard"}]}},
+  "Thundurus": {"ou": {"sets": [{"name": "Nasty Plot", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "uu": {"sets": [{"name": "Pivot"}]}, "doublesou": {"sets": [{"name": "Support"}]}, "vgc2023": {"sets": [{"name": "Support"}]}, "almostanyability": {"sets": [{"name": "Sheer Force"}, {"name": "Magic Guard"}]}, "nationaldexru": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}]}},
   "Thundurus-Therian": {
     "uu": {"sets": [{"name": "Nasty Plot"}, {"name": "Pivot"}]},
     "ou": {"sets": [{"name": "Choice Specs"}, {"name": "Nasty Plot"}, {"name": "Pivot", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
@@ -3090,7 +3120,8 @@
     },
     "almostanyability": {"sets": [{"name": "Sheer Force"}]},
     "nationaldex": {"sets": [{"name": "Nasty Plot"}]},
-    "nationaldexmonotype": {"sets": [{"name": "Electrium Z (Flying)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
+    "nationaldexmonotype": {"sets": [{"name": "Electrium Z (Flying)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
+    "nationaldexru": {"sets": [{"name": "Choice Scarf"}, {"name": "Nasty Plot"}]}
   },
   "Landorus": {
     "ubers": {"sets": [{"name": "Wallbreaker"}]},
@@ -3109,7 +3140,17 @@
     }
   },
   "Landorus-Therian": {
-    "ou": {"sets": [{"name": "Choice Scarf"}, {"name": "Defensive"}, {"name": "Substitute", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
+    "ou": {
+      "sets": [
+        {
+          "name": "Choice Scarf",
+          "description": "<p>Landorus-T is an effective Choice Scarf user thanks to its high Attack stat and useful movepool. This, combined with its typing, natural bulk, and exceptional ability in Intimidate, makes it a good offensive pivot. U-turn is useful for generating momentum and bringing in teammates safely when the foe is forced to switch out. Stone Edge hits Flying-types such as Enamorus, Zapdos, Dragonite, and Moltres, notably providing good coverage alongside Earthquake. Grass Knot is crucial for hitting Great Tusk, which would otherwise comfortably take Landorus-T's physical attacks. It is also the best option for hitting Dondozo and Tera Water, Curse, or Iron Defense Garganacl. Tera Ground can be used to boost Landorus-T's already strong Earthquake, potentially helping it clean late-game when all Ground-immune foes have been removed. Tera Blast can be used alongside Tera Flying, as it still hits Great Tusk hard while also hitting Amoonguss and Zamazenta for super effective damage. It also guarantees an OHKO against Iron Valiant. Becoming pure Flying-type also lets Landorus-T potentially survive priority moves such as Ice Shard from Baxcalibur and Aqua Jet from Hisuian Samurott in a pinch.</p> <p>Landorus-T fits well on balanced and bulky offense teams that appreciate speed control and the ability to generate momentum. Wallbreakers and setup sweepers such as Iron Valiant, Dragapult, and Enamorus appreciate being brought in safely with U-turn. Choice Specs Enamorus and Choice Specs Dragapult especially appreciate being in against certain Pokemon that commonly switch into Landorus-T, such as Great Tusk and defensive Zapdos. Offensive Zapdos can also take advantage of these Pokemon while forming a potent VoltTurn core with Landorus-T. Faster special attackers such as Booster Energy Iron Valiant and Choice Scarf Enamorus are problematic for Landorus-T. Therefore, specially defensive Galarian Slowking is a solid teammate to help deal with them. It also consistently switches into Rotom-W, which takes very little from Landorus-T's attacks. Furthermore, Galarian Slowking forms a momentum-generating core with Landorus-T and provides Future Sight support, making Landorus-T more difficult for foes to switch into. Great Tusk forms a strong core alongside Landorus-T to deal with physical attackers such as Sneasler and Cinderace that tend to be overwhelming for one of them to take on alone. Notably, Landorus-T outspeeds Cinderace and can threaten it before getting burned by Will-O-Wisp.</p> "
+        },
+        {"name": "Defensive"},
+        {"name": "Substitute"}
+      ],
+      "credits": {"writtenBy": [{"username": "DKM", "user_id": 402001}], "teams": [{"name": "Quality checked by", "members": [{"username": "chimp", "user_id": 197439}, {"username": "SetsuSetsuna", "user_id": 548068}]}, {"name": "Grammar checked by", "members": [{"username": "Clouds", "user_id": 356215}, {"username": "autumn", "user_id": 384270}]}]}
+    },
     "ubers": {"sets": [{"name": "Defensive"}, {"name": "Choice Scarf"}]},
     "monotype": {
       "sets": [
@@ -3238,7 +3279,8 @@
       ],
       "credits": {"writtenBy": [{"username": "UT", "user_id": 523866}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
-    "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Stall"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}}
+    "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Stall"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}},
+    "nationaldexru": {"sets": [{"name": "Utility"}]}
   },
   "Vivillon": {
     "nu": {
@@ -3274,7 +3316,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Alexender", "user_id": 313542}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}]}]}
     },
-    "1v1": {"sets": [{"name": "Stall", "description": "<p>Defense gives the best odds against opposing Chien-Pao.</p> "}]}
+    "1v1": {"sets": [{"name": "Stall", "description": "<p>Defense gives the best odds against opposing Chien-Pao.</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set created by", "members": [{"username": "Justdelemon", "user_id": 563325}]}]}}
   },
   "Gogoat": {
     "pu": {
@@ -3376,7 +3418,7 @@
     }
   },
   "Sliggoo": {"nfe": {"sets": [{"name": "Curse"}]}},
-  "Sliggoo-Hisui": {"pu": {"sets": [{"name": "Curse"}, {"name": "Special Tank", "description": "<p>Acid Spray can be used to lower a foe's Special Defense, effectively strengthening Hisuian Sliggoo. Thunderbolt and Ice Beam are other options that offer Hisuian Sliggoo great coverage and deal more damage to Pokemon like Charizard and Gogoat, respectively.</p> <p>Sample set. Stay tuned for updates!</p> "}]}, "nu": {"sets": [{"name": "Curse Sweeper"}, {"name": "All-Out Attacker"}]}, "nfe": {"sets": [{"name": "Curse"}, {"name": "Acid Spray"}]}},
+  "Sliggoo-Hisui": {"pu": {"sets": [{"name": "Curse"}, {"name": "Special Tank", "description": "<p>Acid Spray can be used instead of Dragon Pulse to help Hisuian Sliggoo take on specially bulky foes like Chansey, Gogoat, and Calm Mind Misdreavus. Thunderbolt and Ice Beam are other options that offer Hisuian Sliggoo great coverage and deal more damage to Pokemon like Charizard and Gogoat, respectively.</p> <p>Sample set. Stay tuned for updates!</p> "}, {"name": "Special Wall"}]}, "nu": {"sets": [{"name": "Curse Sweeper"}, {"name": "All-Out Attacker"}]}, "nfe": {"sets": [{"name": "Curse"}, {"name": "Acid Spray"}]}},
   "Goodra": {"almostanyability": {"sets": [{"name": "RegenVest"}]}, "1v1": {"sets": [{"name": "Assault Vest"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}]}]}}},
   "Goodra-Hisui": {
     "uu": {"sets": [{"name": "Specially Defensive Wall"}]},
@@ -3449,7 +3491,7 @@
     "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Sitrus Berry"}]}
   },
   "Avalugg-Hisui": {"nu": {"sets": [{"name": "Physically Defensive"}]}},
-  "Noivern": {"uu": {"sets": [{"name": "Pivot", "description": "<p>Tera Fairy lets Noivern check opposing Dragon-types while retaining its important resistances to Fighting and Bug. Tera Dragon boosts the power of Draco Meteor significantly. Tera Steel lets Noivern better handle Pokemon like Scizor, Grafaiai, and Lucario.</p> "}]}},
+  "Noivern": {"uu": {"sets": [{"name": "Pivot", "description": "<p>Tera Fairy lets Noivern check opposing Dragon-types while retaining its important resistances to Fighting and Bug. Tera Dragon boosts the power of Draco Meteor significantly. Tera Steel lets Noivern better handle Pokemon like Scizor, Grafaiai, and Lucario.</p> "}]}, "nationaldexru": {"sets": [{"name": "Offensive Pivot", "description": "<p>Investment in defense helps it stomach a hit from Choice Scarf Zarude. Can go max max offensive too.</p> "}, {"name": "Choice Specs"}]}},
   "Diancie": {
     "nationaldex": {
       "sets": [
@@ -3500,7 +3542,8 @@
     "monotype": {"sets": [{"name": "Water Absorb (Fire)", "description": "<p>96 Speed EVs outspeeds Adamant Azumarill, but 172 Speed EVs may be used to outspeed Jolly Azumarill, though that nature is not preferred on Azumarill.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Wallbreaker (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "iBones", "user_id": 475928}, {"username": "Giyu", "user_id": 574288}]}]}},
     "doublesou": {"sets": [{"name": "Assault Vest", "description": "<p>A Quiet Nature instead of a Modest Nature allows Volcanion to OHKO Flutter Mane without bulk investment with Heavy Slam.</p> "}, {"name": "Substitute"}]},
     "almostanyability": {"sets": [{"name": "Choice Specs"}, {"name": "Magic Guard"}]},
-    "nationaldex": {"sets": [{"name": "Choice Specs"}, {"name": "Wallbreaker", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}
+    "nationaldex": {"sets": [{"name": "Choice Specs"}, {"name": "Wallbreaker", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]},
+    "nationaldexru": {"sets": [{"name": "Offensive Pivot"}]}
   },
   "Dartrix": {"pu": {"sets": [{"name": "Defog"}]}, "nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Swords Dance"}]}},
   "Decidueye": {"almostanyability": {"sets": [{"name": "Defensive"}]}},
@@ -3530,7 +3573,7 @@
       "credits": {"writtenBy": [{"username": "Togkey", "user_id": 400664}], "teams": [{"name": "Quality checked by", "members": [{"username": "Bella", "user_id": 567483}, {"username": "gum", "user_id": 434150}]}, {"name": "Grammar checked by", "members": [{"username": "aurora", "user_id": 109385}]}]}
     }
   },
-  "Lycanroc-Dusk": {"uu": {"sets": [{"name": "All-out Attacker"}]}, "monotype": {"sets": [{"name": "Choice Band (Rock)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
+  "Lycanroc-Dusk": {"uu": {"sets": [{"name": "All-out Attacker"}]}, "monotype": {"sets": [{"name": "Choice Band (Rock)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldexru": {"sets": [{"name": "Swords Dance"}, {"name": "All-Out Attacker"}]}},
   "Mareanie": {
     "lc": {
       "sets": [{"name": "Defensive", "description": "<p>Mareanie is one of the top walls in Little Cup, capable of checking threats such as Hisuian Growlithe, Crabrawler, and Shellder. Haze shuts down dangerous set-up sweepers like Crabrawler and Swords Dance Pawniard, while Ice Beam hits Toedscool and Foongus. Mareanie has some other viable options for its fourth moveslot; Toxic Spikes wears down foes like Toedscool and synergizes with partners like Hex Hisuian Zorua, and Iron Defense turns Mareanie into a defensive wincon. Tera Ghost lets Mareanie excape Gothita's Shadow Tag while letting it take neutral damage from Crabrawler's coverage. Grass-types like Toedscool and Foongus are great partners that can switch into foes like Hisuian Voltorb and Mudbray; Foongus forms a potent Regenerator core with Mareanie as well.</p> "}],
@@ -3965,7 +4008,7 @@
     },
     "nationaldexmonotype": {"sets": [{"name": "Choice Band (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Toxtricity": {"uu": {"sets": [{"name": "Wallbreaker", "description": "<p>Tera Normal boosts the power of Boomburst to insane levels, being able to outright OHKO specially defensive Hippowdon and Gastrodon after only one layer of Spikes.</p> "}, {"name": "Choice Scarf", "description": "<p>Tera Normal boosts the power of Boomburst to make up for the decreased power, being able to still have great odds to OHKO Hippowdon after 1 layer of Spikes and 2HKO Gastrodon with no entry hazards on the field.</p> "}]}, "almostanyability": {"sets": [{"name": "Shift Gear"}, {"name": "Choiced Attacker"}]}},
+  "Toxtricity": {"uu": {"sets": [{"name": "Wallbreaker", "description": "<p>Tera Normal boosts the power of Boomburst to insane levels, being able to outright OHKO specially defensive Hippowdon and Gastrodon after only one layer of Spikes.</p> "}, {"name": "Choice Scarf", "description": "<p>Tera Normal boosts the power of Boomburst to make up for the decreased power, being able to still have great odds to OHKO Hippowdon after 1 layer of Spikes and 2HKO Gastrodon with no entry hazards on the field.</p> "}]}, "almostanyability": {"sets": [{"name": "Shift Gear"}, {"name": "Choiced Attacker"}]}, "nationaldexru": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}, {"name": "Shift Gear"}]}},
   "Sinistea": {"nfe": {"sets": [{"name": "Shell Smash"}]}},
   "Polteageist": {
     "ou": {
@@ -4155,7 +4198,11 @@
   },
   "Falinks": {"pu": {"sets": [{"name": "No Retreat"}, {"name": "Choice"}]}},
   "Pincurchin": {"ou": {"sets": [{"name": "Terrain Setter"}]}, "zu": {"sets": [{"name": "Specially Defensive"}]}},
-  "Frosmoth": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Quiver Dance"}]}, "monotype": {"sets": [{"name": "Quiver Dance (Bug)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Ultraman1", "user_id": 598658}]}]}}},
+  "Frosmoth": {
+    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Quiver Dance"}]},
+    "ou": {"sets": [{"name": "Quiver Dance", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
+    "monotype": {"sets": [{"name": "Quiver Dance (Bug)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Ultraman1", "user_id": 598658}]}]}}
+  },
   "Stonjourner": {"zu": {"sets": [{"name": "Offensive Stealth Rock"}, {"name": "IronPress"}, {"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Rock Polish"}]}},
   "Eiscue": {"zu": {"sets": [{"name": "Choice Specs"}, {"name": "Belly Drum"}]}},
   "Indeedee": {
@@ -4418,7 +4465,7 @@
     "vgc2023": {"sets": [{"name": "Bulky Attacker"}, {"name": "Choice Scarf"}]},
     "nationaldexmonotype": {"sets": [{"name": "Choice Band (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Zarude": {"monotype": {"sets": [{"name": "Swords Dance (Grass)", "description": "<p>Decent in the Steel matchup. Black Glasses lets it 2HKO Skeledirge with Crunch.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Neko", "user_id": 542526}]}]}}, "almostanyability": {"sets": [{"name": "Adaptability"}, {"name": "Fluffy"}]}},
+  "Zarude": {"monotype": {"sets": [{"name": "Swords Dance (Grass)", "description": "<p>Decent in the Steel matchup. Black Glasses lets it 2HKO Skeledirge with Crunch.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Neko", "user_id": 542526}]}]}}, "almostanyability": {"sets": [{"name": "Adaptability"}, {"name": "Fluffy"}]}, "nationaldexru": {"sets": [{"name": "Offensive Pivot"}, {"name": "Swords Dance", "description": "<p>Bulk Up can be run in order to give Zarude more bulk while setting up.</p> "}, {"name": "Choice Scarf"}]}},
   "Regieleki": {"ubers": {"sets": [{"name": "Dual Screens"}]}, "monotype": {"sets": [{"name": "Entry Hazard Support", "description": "<p>28 Atk EVs may be invested if using Wild Charge to OHKO Flutter Mane.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Havens", "user_id": 391540}]}]}}, "doublesou": {"sets": [{"name": "Special Attacker"}]}, "almostanyability": {"sets": [{"name": "Special"}, {"name": "Physical"}]}},
   "Regidrago": {"uu": {"sets": [{"name": "Choice Specs"}, {"name": "Dragon Dance"}]}, "ou": {"sets": [{"name": "Choice Specs", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "monotype": {"sets": [{"name": "Choice Specs", "description": "<p>Modest nature guarantees the 2HKO on Corviknight with Dragon Energy.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Ultraman1", "user_id": 598658}]}]}}},
   "Glastrier": {"ou": {"sets": [{"name": "Trick Room Sweeper", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "monotype": {"sets": [{"name": "Swords Dance", "description": "<p>240 Speed EVs outspeeds Corviknight.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Giyu", "user_id": 574288}, {"username": "Neko", "user_id": 542526}]}]}}, "doublesou": {"sets": [{"name": "Trick Room Attacker"}]}},
@@ -4596,7 +4643,7 @@
   },
   "Enamorus-Therian": {
     "uu": {"sets": [{"name": "Calm Mind + Iron Defense"}]},
-    "ou": {"sets": [{"name": "Calm Mind", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
+    "ou": {"sets": [{"name": "Double Dance", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]},
     "monotype": {"sets": [{"name": "Calm Mind (Fairy)", "description": "<p>The last moveslot can utilize Grass Knot to beat Unaware Quagsire or Substitute to avoid status, but being able to make progress against Steel-types like Heatran is generally preferred.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "MikuChan", "user_id": 466388}]}]}},
     "doublesou": {"sets": [{"name": "Trick Room Attacker", "description": "<p>The EV spread allows Enamorus-Therian to survive an Ice Spinner from Jolly Chien-Pao.</p> "}, {"name": "Calm Mind", "description": "<p>The EV spread allows Enamorus-Therian to survive an Ice Spinner from Jolly Chien-Pao.</p> "}]},
     "almostanyability": {"sets": [{"name": "Triage"}, {"name": "Sheer Force"}]}
@@ -4952,7 +4999,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "LordBox", "user_id": 611238}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
-    }
+    },
+    "nationaldexru": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Scarf"}]}
   },
   "Maushold": {
     "uu": {"sets": [{"name": "The Smaller Family"}]},
@@ -5494,7 +5542,8 @@
       ],
       "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}, {"username": "memesketch", "user_id": 537558}], "teams": [{"name": "Quality checked by", "members": [{"username": "LordBox", "user_id": 611238}, {"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}]}
     },
-    "1v1": {"sets": [{"name": "Air Balloon"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "bored_glitch", "user_id": 579035}]}]}}
+    "1v1": {"sets": [{"name": "Air Balloon"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "bored_glitch", "user_id": 579035}]}]}},
+    "nationaldexru": {"sets": [{"name": "Tank"}]}
   },
   "Wugtrio": {"pu": {"sets": [{"name": "Choice Band"}]}, "zu": {"sets": [{"name": "Choice Band"}]}},
   "Bombirdier": {
@@ -5731,7 +5780,7 @@
     },
     "1v1": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Band"}]}
   },
-  "Cetitan": {"ou": {"sets": [{"name": "Slush Rush Sweeper"}]}, "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Slush Rush Sweeper"}]}, "monotype": {"sets": [{"name": "Belly Drum", "description": "<p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. These will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
+  "Cetitan": {"ou": {"sets": [{"name": "Slush Rush Sweeper"}]}, "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Slush Rush Sweeper"}]}, "monotype": {"sets": [{"name": "Belly Drum", "description": "<p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. These will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldexru": {"sets": [{"name": "Belly Drum"}]}},
   "Veluza": {
     "nu": {
       "overview": "<p>Fillet Away in conjunction with Sharpness-boosted STAB moves turns Veluza into a terrifying sweeper capable of shredding teams with only a single turn of setup. Veluza is an excellent choice for hyper offense teams, where it acts as a deadly wallbreaker and late-game cleaner. Veluza can easily find setup opportunities against passive foes, such as Vaporeon, and Choice-locked foes, such as a Passimian that just used Close Combat. Although Veluza is extremely powerful after setting up, it may not always get the chance to do so due to its frailty. Veluza's defensive typing is also relatively poor; it is weak to common attacks, including pivoting moves like U-turn from Scyther and Volt Switch from Rotom. Furthermore, Veluza's speed and firepower are rather mediocre prior to setup.</p> ",
@@ -6384,11 +6433,11 @@
       "sets": [
         {
           "name": "Offensive",
-          "description": "<ul> <li> <p>Flutter Mane's blistering Speed and Special Attack along with its powerful unresisted STAB combination exerts an oppressive amount of pressure on most teams, making it one of the premier offensive Pokemon in the format.</p> </li> <li> <p><strong>Mystical Fire</strong>: Mystical Fire heavily disrupts enemy special attackers, especially in tandem with its already impressive base 135 Special Defense.</p> </li> <li> <p><strong>Psyshock</strong>: Psyshock significantly dents defensive checks like Clodsire and Toxapex, deals massive damage to Iron Moth, and gets arounds Special Defense boosting from the likes of Quiver Dance Volcarona.</p> </li> <li> <p><strong>Calm Mind: A fast Calm Mind utilizes Flutter Mane's naturally strong Special Defense to set up against other special attackers. This is especially strong for winning Flutter Mane mirrors: if your Flutter Mane goes first, it can cushion even an opposing Choice Specs Shadow Ball with the Special Defense boost, then fire back next turn with a +1 Shadow Ball of its own.</p> </li> <li> <p><strong>Power Gem</strong>: Power Gem covers Iron Moth and Chi-Yu with a single attack, and still hits Volcarona very hard so long as it hasn't Terrastallized.</p> </li> <li> <p><strong>Perish Song: This is an effective late-game win condition against a wide variety of Pokemon, and is one of the best ways to shut down Baton Pass foes like Espathra in the game.</p> </li> </ul> <h1>Other Options</h1> <ul> <li><strong>Taunt and Thunder Wave</strong>: Taunt and Thunder Wave take advantage of Flutter Mane's incredible Speed to disrupt opposing setup strategies, though these options tend to be less reliable than Charm sets.</li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Booster Energy: Flutter Mane's incredible Speed is put to good use, outspeeding almost everything in the metagame with the major exceptions being Booster Energy Iron Bundle and Choice Scarf Dragapult.</p> </li> <li> <p><strong>Choice Specs: With Choice Specs, Flutter Mane becomes a potent wall breaker, 2HKOing almost anything that doesn't resist it.</p> </li> <li> <p><strong>Focus Sash</strong>: Focus Sash patches up Flutter Mane's poor physical bulk, giving it new revenge kill chances.</p> </li> <li> <p><strong>Choice Scarf</strong>: Choice Scarf's consistent Speed boost allows Flutter Mane to run EV spreads that give a better balance of bulk and power, since Speed no longer has to be the highest stat for Booster Energy boosts.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Tera Dependency - Low</strong>: While Flutter Mane benefits from Terastallization, it's generally flexible enough to go without it.</p> </li> <li> <p><strong>Fairy</strong>: Tera Fairy makes Moonblast a potent sweeping move, while reducing damage against Chien-Pao's Sucker Punch and Mimikyu's Shadow Sneak.</p> </li> <li> <p><strong>Fire: Tera Fire gives Flutter Mane a resistance to Steel, most notably living Scizor's Bullet Punch. It also boosts the power of Mystical Fire.</p> </li> <li> <p><strong>Normal: Tera Normal should be considered mostly for the mirror match as well as the opportunity to avoid Mimikyu's Shadow Sneak.</p> </li> <li> <p><strong>Ghost</strong>: Tera Ghost powering up Shadow Ball can be a devastating surprise against bulky Fairy resistances such as Iron Moth.</p> </li> <li> <p><strong>Water</strong>: Tera Water has a niche for giving a resistance to Steel, Ice, and Fire, giving improved matchups against Scizor, Ting-Lu, Chien-Pao, and Chi-Yu.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li>Flutter Mane's lack of physical bulk makes it extremely vulnerable to getting revenge killed, so consider these alternative EV spreads if a simple offensive spread is not working well. Note that Flutter Mane has many more viable EV spreads, these are just examples!</li> </ul> <h1>EV Spreads That Boost Speed With Protosynthesis</h1> <ul> <li> <p><strong>252 HP / 44 Def / 148 SpA / 4 SpD / 60 Spe with Timid: This EV spread outspeeds up to Iron Moth, survives Focus Sash Chien-Pao's Icicle Crash, and almost always avoids a 2HKO from Iron Bundle's Hydro Pump when it lacks Choice Specs.</p> </li> <li> <p><strong>188 HP / 228 Def / 20 SpA / 4 SpD / 68 Spe with Timid</strong>: This spread survives Life Orb Chien-Pao's Sucker Punch after Stealth Rock damage and outspeeds Iron Moth and the rare Scream Tail.</p> </li> <li> <p><strong>252 HP / 244 Def / 12 Spe with Bold or Timid: This extremely defensive spread allows Flutter Mane to survive Tera Dark Life Orb Chien-Pao's Sucker Punch without needing to Terastallize itself, while still outspeeding Jolly Annihilape. If outspeeding Timid Chi-Yu and Jolly Garchomp is more important, Flutter Mane can use Timid instead of Bold at the cost of some bulk against priority.</p> </li> <li> <p><strong>116 HP / 4 Def / 252 SpA / 4 SpD / 132 Spe with Timid: This EV spread outspeeds Jolly Roaring Moon and survives an opposing Flutter Mane's Shadow Ball without Terastallization. In addition, Life Orb Mimikyu's Shadow Sneak has a fairly low chance of OHKOing, and Iron Bundle fails to KO with the combination of Hydro Pump and Freeze Dry.</p> </li> </ul> <h1>EV Spreads That Don't Boost Speed With Protosynthesis</h1> <ul> <li> <p><strong>252 HP / 44 Def / 92 SpA / 4 SpD / 116 Spe with Modest: This spread outspeeds Jolly Garchomp and Timid Chi-Yu, survives Focus Sash Chien-Pao's Icicle Crash. and has a very likely chance of surviving two Hydro Pumps from Iron Bundle when it's not using Choice Specs.</p> </li> <li> <p><strong>188 HP / 228 Def / 76 SpA / 4 SpD / 12 Spe with Modest</strong>: This EV spread only outspeeds up to Jolly Annihilape, but in exchange, has more power than most Flutter Mane and survives Life Orb Chien-Pao's Sucker Punch after Stealth Rock damage.</p> </li> </ul> "
+          "description": "<ul> <li> <p>Flutter Mane's blistering Speed and Special Attack along with its powerful unresisted STAB combination exerts an oppressive amount of pressure on most teams, making it one of the premier offensive Pokemon in the format.</p> </li> <li> <p><strong>Mystical Fire</strong>: Mystical Fire heavily disrupts enemy special attackers, especially in tandem with its already impressive base 135 Special Defense.</p> </li> <li> <p><strong>Psyshock</strong>: Psyshock significantly dents defensive checks like Clodsire and Toxapex, deals massive damage to Iron Moth, and gets arounds Special Defense boosting from the likes of Quiver Dance Volcarona.</p> </li> <li> <p><strong>Substitute: Calm Mind + Substitute is a classic duo that grealty assists Flutter Mane's setup attempts, allowing it to set up infront of Toxapex.</p> </li> <li> <p><strong>Calm Mind</strong>: A fast Calm Mind utilizes Flutter Mane's naturally strong Special Defense to set up against other special attackers. This is especially strong for winning Flutter Mane mirrors: if your Flutter Mane goes first, it can cushion even an opposing Choice Specs Shadow Ball with the Special Defense boost, then fire back next turn with a +1 Shadow Ball of its own.</p> </li> <li> <p><strong>Perish Song</strong>: This is an effective late-game win condition against a wide variety of Pokemon, and is one of the best ways to shut down Baton Pass foes like Espathra in the game.</p> </li> </ul> <h1>Other Options</h1> <ul> <li><strong>Taunt and Thunder Wave</strong>: Taunt and Thunder Wave take advantage of Flutter Mane's incredible Speed to disrupt opposing setup strategies, though these options tend to be less reliable than Charm sets.</li> </ul> <h1>Items</h1> <ul> <li> <p><strong>Booster Energy: Flutter Mane's incredible Speed is put to good use, outspeeding almost everything in the metagame with the major exceptions being Booster Energy Iron Bundle and Choice Scarf Dragapult.</p> </li> <li> <p><strong>Choice Specs: With Choice Specs, Flutter Mane becomes a potent wall breaker, 2HKOing almost anything that doesn't resist it.</p> </li> <li> <p><strong>Focus Sash</strong>: Focus Sash patches up Flutter Mane's poor physical bulk, giving it new revenge kill chances.</p> </li> <li> <p><strong>Choice Scarf</strong>: Choice Scarf's consistent Speed boost allows Flutter Mane to run EV spreads that give a better balance of bulk and power, since Speed no longer has to be the highest stat for Booster Energy boosts.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Tera Dependency - Low</strong>: While Flutter Mane benefits from Terastallization, it's generally flexible enough to go without it.</p> </li> <li> <p><strong>Fairy</strong>: Tera Fairy makes Moonblast a potent sweeping move, while reducing damage against Chien-Pao's Sucker Punch and Mimikyu's Shadow Sneak.</p> </li> <li> <p><strong>Water: Tera Water has a niche for giving a resistance to Steel, Ice, and Fire, giving improved matchups against Scizor, Ting-Lu, Chien-Pao, and Chi-Yu.</p> </li> <li> <p><strong>Normal: Tera Normal is a purely defensive option, ridding Flutter Mane of its troublesome Ghost-type weakness.</p> </li> <li> <p><strong>Fire</strong>: Tera Fire gives Flutter Mane a resistance to Steel, most notably living Scizor's Bullet Punch. It also boosts the power of Mystical Fire.</p> </li> <li> <p><strong>Ghost</strong>: Tera Ghost powering up Shadow Ball can be a devastating surprise against bulky Fairy resistances such as Iron Moth.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li>Flutter Mane's lack of physical bulk makes it extremely vulnerable to getting revenge killed, so consider these alternative EV spreads if a simple offensive spread is not working well. Note that Flutter Mane has many more viable EV spreads, these are just examples!</li> </ul> <h1>EV Spreads That Boost Speed With Protosynthesis</h1> <ul> <li> <p><strong>252 HP / 44 Def / 148 SpA / 4 SpD / 60 Spe with Timid</strong>: This EV spread outspeeds up to Iron Moth, survives Focus Sash Chien-Pao's Icicle Crash, and almost always avoids a 2HKO from Iron Bundle's Hydro Pump when it lacks Choice Specs.</p> </li> <li> <p><strong>188 HP / 228 Def / 20 SpA / 4 SpD / 68 Spe with Timid</strong>: This spread survives Life Orb Chien-Pao's Sucker Punch after Stealth Rock damage and outspeeds Iron Moth and the rare Scream Tail.</p> </li> <li> <p><strong>252 HP / 244 Def / 12 Spe with Bold or Timid: This extremely defensive spread allows Flutter Mane to survive Tera Dark Life Orb Chien-Pao's Sucker Punch without needing to Terastallize itself, while still outspeeding Jolly Annihilape. If outspeeding Timid Chi-Yu and Jolly Garchomp is more important, Flutter Mane can use Timid instead of Bold at the cost of some bulk against priority.</p> </li> <li> <p><strong>116 HP / 4 Def / 252 SpA / 4 SpD / 132 Spe with Timid: This EV spread outspeeds Jolly Roaring Moon and survives an opposing Flutter Mane's Shadow Ball without Terastallization. In addition, Life Orb Mimikyu's Shadow Sneak has a fairly low chance of OHKOing, and Iron Bundle fails to KO with the combination of Hydro Pump and Freeze Dry.</p> </li> </ul> <h1>EV Spreads That Don't Boost Speed With Protosynthesis</h1> <ul> <li> <p><strong>252 HP / 44 Def / 92 SpA / 4 SpD / 116 Spe with Modest: This spread outspeeds Jolly Garchomp and Timid Chi-Yu, survives Focus Sash Chien-Pao's Icicle Crash. and has a very likely chance of surviving two Hydro Pumps from Iron Bundle when it's not using Choice Specs.</p> </li> <li> <p><strong>188 HP / 228 Def / 76 SpA / 4 SpD / 12 Spe with Modest</strong>: This EV spread only outspeeds up to Jolly Annihilape, but in exchange, has more power than most Flutter Mane and survives Life Orb Chien-Pao's Sucker Punch after Stealth Rock damage.</p> </li> </ul> "
         },
         {
           "name": "Charm",
-          "description": "<ul> <li> <p>The combination of Charm and Pain Split turns Flutter Mane into a devastating control option, massively crippling opposing offensive threats and healing itself with the combination of Pain Split and Draining Kiss.</p> </li> <li> <p><strong>Calm Mind versus coverage</strong>: Calm Mind allows Flutter Mane to maintain its role as a sweeper by increasing its damage output while simultaneously reinforcing its longevity. However, this leaves Flutter Mane quite vulnerable to Steel-types, so Shadow Ball and Mystical Fire are reasonable alternatives.</p> </li> <li> <p><strong>Draining Kiss versus Moonblast</strong>: Moonblast's far superior damage output is a great option versus more defensive teams, while Draining Kiss supplies superior lasting power against more offensive teams.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Tera Dependency - Medium</strong>: Since this Flutter Mane is trying to defeat unexpected physical threats one-on-one, Terastallization is great at patching up some matchups that Charm can't on its own, even if it's not required for this set to work.</p> </li> <li> <p><strong>Fire</strong>: Tera Fire helps Flutter Mane deal with Scizor and boosts the power of Mystical Fire.</p> </li> <li> <p><strong>Fairy: Tera Fairy Further boosts Moonblast's impressive damage output while removing Flutter Mane's Ghost weakness.</p> </li> <li> <p><strong>Water</strong>: Tera Water gives Flutter Mane a very useful resistance to Steel, Ice, and Fire, giving it improved matchups against Scizor, Ting-Lu, Chien-Pao, and Chi-Yu.</p> </li> <li> <p><strong>Normal: Tera Normal is a purely defensive option, ridding Flutter Mane of its troublesome Ghost-type weakness.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li><strong>124 HP / 252 Def / 132 Spe with Timid</strong>: The chosen EVs ensure that Flutter Mane will always outspeed Jolly Booster Energy Roaring Moon. Maximum Defense investment gets the most out of Charm with the rest placed into HP.</li> </ul> "
+          "description": "<ul> <li> <p>The combination of Charm and Pain Split turns Flutter Mane into a devastating control option, massively crippling opposing offensive threats and healing itself with the combination of Pain Split and Draining Kiss.</p> </li> <li> <p><strong>Calm Mind versus coverage</strong>: Calm Mind allows Flutter Mane to maintain its role as a sweeper by increasing its damage output while simultaneously reinforcing its longevity. However, this leaves Flutter Mane quite vulnerable to Steel-types, so Shadow Ball and Mystical Fire are reasonable alternatives.</p> </li> <li> <p><strong>Draining Kiss versus Moonblast</strong>: Moonblast's far superior damage output is a great option versus more defensive teams, while Draining Kiss supplies superior lasting power against more offensive teams.</p> </li> </ul> <h1>Tera Types</h1> <ul> <li> <p><strong>Tera Dependency - Medium</strong>: Since this Flutter Mane is trying to defeat unexpected physical threats one-on-one, Terastallization is great at patching up some matchups that Charm can't on its own, even if it's not required for this set to work.</p> </li> <li> <p><strong>Fairy</strong>: Tera Fairy Further boosts Moonblast's impressive damage output while removing Flutter Mane's Ghost weakness.</p> </li> <li> <p><strong>Water</strong>: Tera Water gives Flutter Mane a very useful resistance to Steel, Ice, and Fire, giving it improved matchups against Scizor, Ting-Lu, Chien-Pao, and Chi-Yu.</p> </li> <li> <p><strong>Fire: Tera Fire helps Flutter Mane deal with Scizor and boosts the power of Mystical Fire.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li><strong>124 HP / 252 Def / 132 Spe with Timid</strong>: The chosen EVs ensure that Flutter Mane will always outspeed Jolly Booster Energy Roaring Moon. Maximum Defense investment gets the most out of Charm with the rest placed into HP.</li> </ul> "
         }
       ],
       "credits": {"writtenBy": [{"username": "StarkGod", "user_id": 62165}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}, {"username": "Theorymon", "user_id": 29010}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
@@ -6461,7 +6510,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "hidin", "user_id": 589564}], "teams": [{"name": "Quality checked by", "members": [{"username": "ChrisPBacon", "user_id": 544502}, {"username": "Sulo", "user_id": 528036}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
-    }
+    },
+    "nationaldexru": {"sets": [{"name": "Choice Band"}, {"name": "Defensive Pivot"}]}
   },
   "Sandy Shocks": {
     "ou": {
@@ -6772,7 +6822,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "hidin", "user_id": 589564}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "ChrisPBacon", "user_id": 544502}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
-    }
+    },
+    "nationaldexru": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Scarf"}, {"name": "Choice Specs"}]}
   },
   "Iron Moth": {
     "ou": {
@@ -6899,7 +6950,8 @@
     "monotype": {"sets": [{"name": "Dragon Dance (Electric)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
     "battlestadiumsingles": {"overview": "<p>This new Paradox Pokemon might have a niche in Battle Stadium Singles Series 2, though their viability is uncertain. While we wait for the metagame to settle, here id s sample set that may be viable. <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-2-paradox-pandemonium-speed-tiers-and-more-inside.3714699/\">For more information on Series 2, check out the resource thread.</a></p> <p><a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-2.3715382/\">If you feel that this analysis is missing important information, feel free to leave feedback here.</a></p> ", "sets": [{"name": "Dragon Dance"}]},
     "almostanyability": {"sets": [{"name": "Dragon Dance"}]},
-    "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Air Balloon"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}}
+    "1v1": {"sets": [{"name": "Choice Band"}, {"name": "Air Balloon"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}},
+    "nationaldexru": {"sets": [{"name": "Dragon Dance"}, {"name": "Choice Band"}]}
   },
   "Arctibax": {"nfe": {"sets": [{"name": "Choice Scarf"}]}},
   "Baxcalibur": {
@@ -7645,15 +7697,6 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "Frozoid", "user_id": 532881}, {"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "Geysers", "user_id": 426798}], "teams": [{"name": "Quality checked by", "members": [{"username": "pichus", "user_id": 374620}, {"username": "Guard", "user_id": 360582}, {"username": "Frozoid", "user_id": 532881}]}, {"name": "Grammar checked by", "members": [{"username": "lotiasite", "user_id": 302985}, {"username": "UT", "user_id": 523866}, {"username": "Sabelette", "user_id": 583793}]}]}
-    },
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Choice Band",
-          "description": "<p>Choice Band Koraidon is a premier wallbreaker thanks to its Speed and typing. Glaive Rush is immensely spammable and lacks consistent switch-ins outside of Fur Coat Dondozo and Zacian, and it's bolstered even further by Tera Dragon, which allows Koraidon to 2HKO Fur Coat Groudon and Arceus after Spikes. Mold Breaker is an alternative to Sword of Ruin that secures said 2HKOes without the need for Spikes, albeit at the cost of less damage against non-Fur Coat Pokemon. Close Combat nukes Ting-Lu and Corviknight. Gigaton Hammer threatens Zacian, Arceus-Fairy, and Enamorus, which are otherwise hard counters, and it also helps against Tera Fairy users like Groudon. Flip turn allows Koraidon to maintain momentum, helps scout Terastallization, and dents Groudon, whereas Toxic can benefit its team by forcing extra chip damage onto Fur Coat users. Koraidon's best fit is on balance and offense teams, as these give it multiple opportunities to wallbreak, and they easily take advantage of the passive walls it can't beat one-on-one, like Fur Coat Dondozo. Koraidon's mediocre defensive typing and vulnerability to status mean that slow-pivoting teammates, like Ting-Lu and Dialga-O, are recommended to bring it in safely; helpfully, Koraidon forces out Imposter users transformed into these pivots. Teammates that can limit opposing Strength Sap, like Chansey and Liquid Ooze users, help ensure that foes hit by Gigaton Hammer can't safely heal as Koraidon switches. To Imposter-proof Flip Turn sets, use bulky Fur Coat users that aren't weak to Koraidon's attacks, like Groudon or Arceus-Water, and Imposter-proof Toxic variants with Fur Coat Arceus-Poison or Prankster Corviknight.</p> "
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     },
     "nationaldexubers": {"sets": [{"name": "Choice Scarf"}, {"name": "Swords Dance"}]}
   },
