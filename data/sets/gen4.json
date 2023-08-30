@@ -774,16 +774,7 @@
   "Salamence": {"ubers": {"Dragon Dance": {"moves": ["Dragon Dance", "Outrage", "Earthquake", ["Fire Blast", "Flamethrower"]], "item": "Life Orb", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}, "Wallbreaker": {"moves": ["Draco Meteor", "Fire Blast", "Outrage", "Dragon Dance"], "item": "Life Orb", "nature": "Naive", "evs": {"atk": 4, "spa": 252, "spe": 252}}}},
   "Beldum": {"lc": {"Physical Attacker": {"moves": ["Iron Head", "Zen Headbutt", ["Headbutt", "Take Down"], "Iron Defense"], "item": ["Oran Berry", "Life Orb"], "nature": "Adamant", "evs": {"atk": 236, "def": 236, "spe": 38}}}},
   "Metang": {"uu": {"Dual Screens": {"moves": ["Light Screen", "Reflect", ["Stealth Rock", "Meteor Mash"], "Explosion"], "item": "Light Clay", "nature": "Careful", "evs": {"hp": 252, "def": 48, "spd": 208}}}, "pu": {"Defensive": {"moves": ["Stealth Rock", "Meteor Mash", ["Toxic", "Zen Headbutt", "Bullet Punch"], "Earthquake"], "item": "Leftovers", "nature": "Impish", "evs": {"hp": 248, "def": 172, "spd": 88}}}},
-  "Metagross": {
-    "ou": {
-      "Lead": {"moves": ["Stealth Rock", ["Meteor Mash", "Earthquake"], "Bullet Punch", "Explosion"], "item": ["Lum Berry", "Occa Berry"], "nature": "Adamant", "evs": {"hp": 252, "atk": 252, "spe": 4}},
-      "Agility": {"moves": ["Agility", "Meteor Mash", "Earthquake", ["Thunder Punch", "Zen Headbutt"]], "item": "Life Orb", "nature": ["Jolly", "Adamant"], "evs": {"hp": 60, "atk": 252, "spe": 196}},
-      "Choice Scarf": {"moves": ["Meteor Mash", "Earthquake", ["Thunder Punch", "Zen Headbutt"], ["Explosion", "Trick"]], "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}},
-      "Choice Band": {"moves": ["Meteor Mash", "Earthquake", "Explosion", ["Zen Headbutt", "Bullet Punch", "Trick"]], "item": "Choice Band", "nature": "Adamant", "evs": {"atk": 252, "def": 4, "spe": 252}},
-      "Mixed Attacker": {"moves": ["Meteor Mash", "Psychic", ["Hidden Power Fire", "Earthquake"], ["Grass Knot", "Bullet Punch"]], "item": ["Leftovers", "Expert Belt"], "nature": "Quiet", "evs": {"hp": 80, "atk": 124, "spa": 252, "spe": 52}},
-      "Trick + Iron Ball": {"moves": ["Trick", "Earthquake", "Meteor Mash", ["Explosion", "Stealth Rock"]], "item": "Iron Ball", "nature": "Adamant", "evs": {"hp": 236, "atk": 252, "spe": 20}}
-    }
-  },
+  "Metagross": {"ou": {"Utility": {"moves": ["Meteor Mash", "Earthquake", "Explosion", ["Stealth Rock", "Thunder Punch", "Bullet Punch"]], "item": ["Lum Berry", "Leftovers", "Shuca Berry", "Focus Sash"], "nature": "Adamant", "evs": {"hp": 252, "atk": 252, "spd": 4}}, "Agility": {"moves": ["Agility", "Earthquake", ["Meteor Mash", "Zen Headbutt", "Thunder Punch"], ["Explosion", "Ice Punch"]], "item": "Lum Berry", "nature": ["Adamant", "Jolly"], "evs": {"atk": 252, "spd": 4, "spe": 252}}, "Trick + Iron Ball": {"moves": ["Trick", "Earthquake", "Meteor Mash", ["Explosion", "Stealth Rock"]], "item": "Iron Ball", "nature": "Adamant", "evs": {"hp": 252, "atk": 236, "spe": 20}}, "Choice Scarf": {"moves": ["Meteor Mash", "Earthquake", ["Thunder Punch", "Ice Punch"], ["Explosion", "Pursuit", "Trick"]], "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}}},
   "Latias": {
     "ou": {
       "Choice Specs": {"moves": ["Draco Meteor", ["Dragon Pulse", "Hidden Power Fire", "Thunderbolt"], ["Surf", "Sleep Talk"], ["Trick", "Sleep Talk"]], "item": "Choice Specs", "nature": ["Timid", "Modest"], "evs": {"spa": 252, "spd": 4, "spe": 252}},
