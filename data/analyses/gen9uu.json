@@ -1,6 +1,6 @@
 {
   "Arcanine-Hisui": {"sets": [{"name": "Offensive Utility"}, {"name": "Choice Band"}]},
-  "Slowbro": {"sets": [{"name": "Defensive"}, {"name": "Iron Defense"}]},
+  "Slowbro": {"sets": [{"name": "Defensive"}]},
   "Slowbro-Galar": {"sets": [{"name": "Calm Mind"}, {"name": "Quick Claw + Quick Draw"}]},
   "Muk-Alola": {"sets": [{"name": "Poison Touch + Protect"}, {"name": "Assault Vest"}]},
   "Cloyster": {"sets": [{"name": "Shell Smash"}]},
@@ -17,8 +17,7 @@
       {
         "name": "Choice Scarf",
         "description": "<p>Choice Scarf Gengar is an adept revenge killer and late-game cleaner thanks to its blazing Speed tier alongside solid offensive presence between its remarkable Special Attack and offensive movepool. It can outspeed boosted threats like Polteageist, Toxtricity, Salamence, and opposing Choice Scarf users like Sandy Shocks, Pawmot, and Staraptor. Energy Ball blows away Gastrodon and Sandy Shocks while doing servicable damage to Tyranitar and Hippowdon. On the other hand, Focus Blast hits Grafaiai and Dark-types like Tyranitar and Bisharp, and it lets Gengar revenge kill foes like Tera Normal Lucario and Lycanroc-D, although Gengar likes the ability to immediately KO Gastrodon. Thunderbolt allows Gengar to nail Dragon Dance Gyarados and Booster Energy Iron Jugulis super effectively. Trick improves its matchup against defensive teams by crippling switch-ins like Tinkaton, Hippowdon, and Tera Poison Wo-Chien, as well as shutting down bulky setup sweepers like Oricorio-E. Tera Ghost amplifies Shadow Ball damage, notably 2HKOing Quagsire and OHKOing Gallade, Gardevoir, and Slowbro, while still maintaining Gengar's immunity to Lucario's Extreme Speed.</p> <p>Gengar finds a place on bulky offense and offense teams. Early-game wallbreakers like Scizor, Slither Wing, Tyranitar, and Bisharp can severely weaken or overwhelm Tinkaton, Hippowdon, and Dark-types for Gengar to clean up late-game. Tyranitar and Bisharp also provide a solid defensive backbone against opposing Choice Scarf Gengar to avoid risking Speed ties, with the latter switching into Lokix and opposing Bisharp's Sucker Punch as well. In return, Gengar matches up well against offensive threats like Pawmot, Lucario, and Choice Scarf Gallade that would pose a threat to them. Offensive pivots like Sandy Shocks, Tsareena, and the aforementioned Scizor and Slither Wing can bring Gengar in safely on foes such as opposing Tsareena, Talonflame, Paldean Tauros-W, and Scream Tail, respectively. Moreover, Sandy Shocks provides entry hazards to chip down Gengar's checks, while Tsareena threatens bulky Ground-types like Hippowdon and Gastrodon, the latter of which is especially problematic since its Sticky Hold prevents Gengar's Trick.</p> "
-      },
-      {"name": "Nasty Plot", "description": "<p>Tera Ghost powers up Gengar's Shadow Ball, possibly OHKOing Gastrodon at +2 and maximizing its damage versus Unaware Quagsire, all while removing its Ground weakness.</p> "}
+      }
     ],
     "credits": {"writtenBy": [{"username": "Sulo", "user_id": 528036}, {"username": "royalfluxh", "user_id": 493260}, {"username": "Slip", "user_id": 566907}], "teams": [{"name": "Quality checked by", "members": [{"username": "Estarossa", "user_id": 461329}, {"username": "Lily", "user_id": 481709}, {"username": "Monky25", "user_id": 515132}, {"username": "Twilight", "user_id": 344575}, {"username": "Sulo", "user_id": 528036}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Sulo", "user_id": 528036}, {"username": "Sabelette", "user_id": 583793}]}]}
   },
@@ -29,7 +28,6 @@
   "Zapdos-Galar": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Band"}]},
   "Moltres-Galar": {"sets": [{"name": "Double Dance"}]},
   "Mew": {"sets": [{"name": "Double Dance"}]},
-  "Typhlosion-Hisui": {"sets": [{"name": "Choice Scarf"}]},
   "Quagsire": {
     "sets": [
       {
@@ -63,7 +61,6 @@
   },
   "Gardevoir": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}]},
   "Breloom": {"sets": [{"name": "Offensive"}]},
-  "Torkoal": {"sets": [{"name": "Sun Setter"}]},
   "Salamence": {
     "sets": [
       {
@@ -105,11 +102,12 @@
   "Alomomola": {"sets": [{"name": "Wish + Protect"}]},
   "Haxorus": {"sets": [{"name": "Dragon Dance"}]},
   "Bisharp": {"sets": [{"name": "Swords Dance"}]},
+  "Braviary-Hisui": {"sets": [{"name": "Agility"}, {"name": "Calm Mind"}]},
   "Hydreigon": {"sets": [{"name": "Choice Specs"}, {"name": "Choice Scarf"}, {"name": "Nasty Plot"}]},
   "Tornadus-Therian": {"sets": [{"name": "Pivot"}, {"name": "Nasty Plot"}, {"name": "Assault Vest", "description": "<p>The given EV spread allows Tornadus-Therian to outspeed Azelf as well as survive a Draco Meteor from Modest Choice Specs Hydreigon after Stealth Rock.</p> "}]},
   "Thundurus": {"sets": [{"name": "Pivot"}]},
-  "Thundurus-Therian": {"sets": [{"name": "Nasty Plot"}, {"name": "Pivot"}]},
-  "Chesnaught": {"sets": [{"name": "Spikes Utility"}, {"name": "Iron Defense"}]},
+  "Thundurus-Therian": {"sets": [{"name": "Pivot"}, {"name": "Nasty Plot"}]},
+  "Chesnaught": {"sets": [{"name": "Spikes Utility"}]},
   "Talonflame": {
     "sets": [
       {
@@ -126,22 +124,24 @@
   "Florges": {"sets": [{"name": "Calm Mind + Wish"}]},
   "Sylveon": {"sets": [{"name": "Calm Mind + Wish", "description": "<p>48 SpD EVs allows Sylveon to avoid the 2HKO from Tera Flying Booster Energy Iron Jugulis Hurricane.</p> "}]},
   "Hawlucha": {"sets": [{"name": "Choice Scarf"}, {"name": "Unburden Sweeper"}]},
-  "Goodra-Hisui": {"sets": [{"name": "Specially Defensive Wall"}]},
+  "Goodra-Hisui": {"sets": [{"name": "Specially Defensive Wall"}, {"name": "Choice Specs"}, {"name": "RestTalk"}]},
   "Noivern": {"sets": [{"name": "Pivot", "description": "<p>Tera Fairy lets Noivern check opposing Dragon-types while retaining its important resistances to Fighting and Bug. Tera Dragon boosts the power of Draco Meteor significantly. Tera Steel lets Noivern better handle Pokemon like Scizor, Grafaiai, and Lucario.</p> "}]},
   "Decidueye-Hisui": {"sets": [{"name": "Defog"}]},
   "Lycanroc-Dusk": {"sets": [{"name": "All-out Attacker"}]},
   "Mimikyu": {"sets": [{"name": "Swords Dance", "description": "<p>Tera Fire allows Mimikyu to avoid Flame Body and Will-O-Wisp from Talonflame and Coalossal. Tera Ghost powers up Shadow Claw and lets it OHKO Tinkaton after a boost.</p> "}]},
+  "Rillaboom": {"sets": [{"name": "Choice Scarf"}]},
   "Toxtricity": {"sets": [{"name": "Wallbreaker", "description": "<p>Tera Normal boosts the power of Boomburst to insane levels, being able to outright OHKO specially defensive Hippowdon and Gastrodon after only one layer of Spikes.</p> "}, {"name": "Choice Scarf", "description": "<p>Tera Normal boosts the power of Boomburst to make up for the decreased power, being able to still have great odds to OHKO Hippowdon after 1 layer of Spikes and 2HKO Gastrodon with no entry hazards on the field.</p> "}]},
   "Polteageist": {"sets": [{"name": "Shell Smash", "description": "<p>Tera Blast in conjunction with Tera Fighting gives Polteageist the necessary coverage to break past Dark-types like Tyranitar, Bisharp, and Iron Jugulis that wall it otherwise. Tera Fighting also allows Polteageist to resist Sucker Punch from Bisharp and Accelrock from Lycanroc-D as well as take neutral damage from Mimikyu's Shadow Sneak.</p> "}]},
   "Grimmsnarl": {"sets": [{"name": "Dual Screens"}]},
+  "Zarude": {"sets": [{"name": "Pivot"}, {"name": "Setup Sweeper"}]},
   "Regidrago": {"sets": [{"name": "Choice Specs"}, {"name": "Dragon Dance"}]},
-  "Kleavor": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Scarf"}, {"name": "Lead"}]},
+  "Kleavor": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Scarf"}, {"name": "Swords Dance"}]},
   "Basculegion-F": {"sets": [{"name": "Choice Specs"}, {"name": "Choice Scarf"}, {"name": "Substitute + 3 Attacks"}]},
   "Overqwil": {"sets": [{"name": "Defensive"}, {"name": "Rain Sweeper"}]},
   "Enamorus-Therian": {"sets": [{"name": "Calm Mind + Iron Defense"}]},
-  "Skeledirge": {"sets": [{"name": "Unaware Wall"}]},
+  "Skeledirge": {"sets": [{"name": "Unaware Wall"}, {"name": "3 Attacks + Slack Off"}]},
   "Quaquaval": {"sets": [{"name": "Swords Dance"}, {"name": "Bulk Up"}, {"name": "Choice Scarf"}]},
-  "Lokix": {"sets": [{"name": "Choice Band", "description": "<p>Tera Bug is generally more useful to maximize Lokix's revenge killing capabilities, but Tera Fighting allows Lokix to OHKO Talonflame with Axe Kick.</p> "}]},
+  "Lokix": {"sets": [{"name": "Pivot"}, {"name": "Wallbreaker"}]},
   "Pawmot": {
     "sets": [
       {
@@ -186,8 +186,8 @@
     ],
     "credits": {"writtenBy": [], "teams": [{"name": "Utility set written by", "members": [{"username": "romanji", "user_id": 524894}]}, {"name": "Quality checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "Queen of Bean", "user_id": 587685}, {"username": "Estarossa", "user_id": 461329}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}]}]}
   },
-  "Cyclizar": {"sets": [{"name": "Offensive"}, {"name": "Utility"}]},
-  "Scream Tail": {"sets": [{"name": "Wish Support", "description": "<p>Scream Tail should very rarely be Terastillized, as its typing is needed to check foes like Salamence, Pawmot, and Quaquaval and there are far better users of the mechanic. However, Tera Poison lets Scream Tail switch into Gengar more easily, obstain resistances to Bug- and Fairy-type attacks from foes like Slither Wing and Mimikyu, and retain its resistance to Fighting-type moves. Alternatively, Tera Steel can let it check Gardevoir, Grafaiai and Staraptor in a pinch.</p> "}]},
+  "Cyclizar": {"sets": [{"name": "Utility", "description": "<p>The given Speed EVs allows Cyclizar to outspeed Hisuian Zoroark. If running Draco Meteor or Overheat, Cyclizar should be run with a Timid Nature, 80 Special Attack EVs, and 176 Speed EVs in order to outspeed Maushold.</p> "}]},
+  "Scream Tail": {"sets": [{"name": "Wish Support"}]},
   "Brute Bonnet": {"sets": [{"name": "Wallbreaker"}]},
   "Slither Wing": {
     "sets": [
