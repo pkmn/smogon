@@ -778,7 +778,7 @@
       "sets": [{"name": "Choice Band", "description": "<p>Kecleon has a decent Attack stat in UU matches, and STAB on Return lets it really hit some Pokemon hard. When Kecleon reaches the end of its run, you can always Trick some unsuspecting Pokemon and really hurt them for the rest of the match.</p> "}]
     }
   },
-  "Duskull": {"pu": {"sets": [{"name": "Physically Defensive"}]}},
+  "Duskull": {"lc": {"sets": [{"name": "Defensive"}]}, "pu": {"sets": [{"name": "Physically Defensive"}]}},
   "Dusclops": {
     "ou": {
       "overview": "<p>Tired of laying hazards only to have them spun away? Dusclops is hands down the best source of Rapid Spin protection. Its immunities to Normal and Fighting greatly benefit many teams as well, especially stall teams. Though its HP stat is low, Dusclops's immense defenses let it survive many attacks. It has a number of tricks at its disposal, and can generally be a prick with Pressure.</p> ",
@@ -1287,6 +1287,7 @@
     }
   },
   "Koffing": {
+    "lc": {"sets": [{"name": "Defensive"}]},
     "zu": {
       "comments": "<h1>Other Options</h1> <p>Koffing can opt to use Explosion, as most Rock- and Steel-types are too threatened by Hidden Power Grass and Flamethrower to safely switch in. Fire Blast is an option over Flamethrower to OHKO Naughty Delibird; however, Koffing appreciates the extra PP that Flamethrower provides. Taunt can be used to prevent opposing defensive Pokemon and setup sweepers from taking advantage of Koffing.</p> <h1>Checks and Counters</h1> <p><strong>Special Attackers: Spoink, Staryu, and Growlithe can all threaten Koffing with their STAB attacks. Staryu is worth noting because it can absorb Koffing's Will-O-Wisp with Natural Cure and use Recover to mitigate any damage.</p> <p><strong>Magnemite: Magnemite's immunity to Koffing's STAB moves and base 95 Special Attack allow it to reliably check Koffing forgoing Fire-type coverage.</p> <p><strong>Bulky Poison-types</strong>: Grimer and Dustox are able to take advantage Koffing's overall passiveness. Dustox's reliable recovery, Psychic-type coverage, and considerable bulk allows it to threaten Koffing. Grimer can use Koffing as setup fodder if it lacks Haze or Taunt.</p> ",
       "sets": [
@@ -1458,7 +1459,8 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "DurzaOffTopic", "user_id": 357488}], "teams": [{"name": "Quality checked by", "members": [{"username": "Oglemi", "user_id": 40358}, {"username": "Bughouse", "user_id": 52547}]}, {"name": "Grammar checked by", "members": [{"username": "Rabia", "user_id": 336073}, {"username": "Lumari", "user_id": 232216}]}]}
-    }
+    },
+    "lc": {"sets": [{"name": "Offensive Trapper"}]}
   },
   "Persian": {
     "uu": {
@@ -1487,6 +1489,7 @@
       "sets": [{"name": "Mixed Attacker", "description": "<p>Fire away with special attacks, and when your opponent brings in Blissey, Snorlax, or Regice, use Focus Punch or Cross Chop. While Cross Chop is only a 3HKO on Blissey, its high critical hit rate gives Golduck a good shot at a 2HKO, or even OHKO with Spikes down. Psychic 2HKOes Heracross and possibly OHKOes Gengar, while Hidden Power Electric hits enemy Water-types, especially Gyarados.</p> <p>Some Attack investment is needed to hurt the standard special walls, but Golduck doesn't usually need more than 220 Attack. The Speed EVs let Golduck outspeed unboosted Tyranitar, allowing it to take Tyranitar down with Cross Chop or Surf; the rest are put into Special Attack to enable it to sweep.</p> "}]
     }
   },
+  "Mankey": {"lc": {"sets": [{"name": "Substitute + Reversal"}]}},
   "Primeape": {
     "uu": {
       "overview": "<p>Primeape can go on a rampage when given some breathing room. Its high Speed and power are nothing to scoff at. Its defenses, however, are really sub-par and will force Primeape to switch out or die more often than not. It relies heavily on sleep inflicting moves like Sleep Powder to come in, which is risky business. In both standard and UU, it can put a great hurting into teams, provided you know how to predict and eliminate its many counters.</p> ",
@@ -1535,6 +1538,7 @@
     }
   },
   "Abra": {
+    "lc": {"sets": [{"name": "SubThief"}]},
     "nu": {
       "overview": "<p>Abra's combination of speed and power can make it difficult to handle both offensively and defensively. This combination is supplemented by useful utility in Substitute and Endure as well as decent coverage options, which help Abra avoid being easily revenge killed or walled. Unfortunately, Abra's bulk is nonexistent; even Choice Band Hitmonchan's resisted Mach Punch can KO Abra after one layer of Spikes, and almost anything naturally faster than Abra such as Raticate or Murkrow will easily OHKO it. Additionally, certain Pokemon like Chimecho, Sableye, and Kecleon will always reliably check Abra defensively, meaning it requires a fair bit of support to bypass such checks.</p> ",
       "comments": "<h1>Other Options</h1> <p>If coverage is wanted over the utility of Substitute, Hidden Power Grass is an option to hit Crawdaunt super effectively while letting Abra OHKO Pupitar and Whiscash without needing to use Calm Mind. Thunder Punch can also be considered to hit both Crawdaunt and Murkrow; it's also Abra's best way to damage bulky Water-types like Wailord and Dewgong. Encore lets Abra lock foes into non-attacking moves, which can give it the opportunity to set up Calm Mind; however, Abra rarely gets the chance to use it. Hidden Power Dark gives Abra a much greater matchup against Calm Mind Chimecho, although it provides overall worse coverage than Fire Punch.</p> <h1>Checks and Counters</h1> <p><strong>Sableye: Even with Spikes support and Calm Mind, Abra struggles to break through Sableye before it uses Recover to gain back any lost HP and KOes Abra in return with Shadow Ball.</p> <p><strong>Faster Pokemon</strong>: Pokemon like Raticate, Murkrow, and Pidgeot can't reliably switch into Abra, but they easily OHKO it. Additionally, Haunter's Explosion can bypass any Calm Mind boosts Abra accrues. Diglett in particular is problematic, since it can remove Abra if it ever enters the field by trapping it.</p> <p><strong>Chimecho: Chimecho can switch into Abra's +1 Fire Punch and boost with Calm Mind alongside it, although its lack of recovery outside of Leftovers and potentially Rest can make checking Abra a bit dicier.</p> <p><strong>Specially Defensive Pokemon</strong>: Pokemon like Kecleon, Vigoroth, and Wailord have the bulk to take at least one boosted hit from Abra and OHKO or severely dent it.</p> ",
@@ -1575,6 +1579,7 @@
       ]
     }
   },
+  "Bellsprout": {"lc": {"sets": [{"name": "Sunny Day Sweeper"}]}},
   "Weepinbell": {
     "nu": {
       "overview": "<p>With the ability to run a physically based offensive set, Weepinbell differentiates itself from other prominent sun hyper offense Pokemon such as Tangela and Bellossom. While Tropius does compete with Weepinbell as a physical Chlorophyll sweeper, Weepinbell sports not only a higher Attack stat but also higher Base Power on its physical STAB move. However, Weepinbell is exceedingly frail, being 2HKOed even by neutral hits such as Mawile's Hidden Power Steel and Relicanth's Rock Slide. Weepinbell is also not particularly fast outside of sun, making it susceptible to being revenge killed. Weepinbell has an exceedingly difficult time breaking past certain Pokemon like Golbat and Pelipper, as its Poison + Ground coverage only covers so much. Lastly, Weepinbell does not fit on any team archetype outside of sun hyper offense, as it's otherwise outclassed by other Grass- and Poison-types such as Cacturne, Roselia, and Arbok.</p> ",
@@ -1670,7 +1675,7 @@
       "credits": {"writtenBy": [{"username": "mikmer", "user_id": 511989}], "teams": [{"name": "Earlier version by", "members": [{"username": "Triangles", "user_id": 118250}, {"username": "danilo", "user_id": 88470}]}, {"name": "Quality checked by", "members": [{"username": "vapicuno", "user_id": 5454}, {"username": "M Dragon", "user_id": 21345}]}, {"name": "Grammar checked by", "members": [{"username": "Rabia", "user_id": 336073}, {"username": "CryoGyro", "user_id": 331519}]}]}
     }
   },
-  "Doduo": {"pu": {"sets": [{"name": "Choice Band"}]}},
+  "Doduo": {"lc": {"sets": [{"name": "Choice Band"}]}, "pu": {"sets": [{"name": "Choice Band"}]}},
   "Dewgong": {
     "nu": {
       "overview": "<p>Dewgong is a fantastic Water-type in the NU tier and a staple of heavy stall teams thanks to its great bulk, ability to hard counter Huntail, and access to Perish Song. A resistance to Water- and Ice-type attacks and lack of a 4x weakness to Grass are the main advantages Dewgong has over Whiscash and Relicanth, and Dewgong even sports a resistance to Fire as well thanks to Thick Fat. Weaknesses to Rock- and Fighting-type attacks limit Dewgong's effectiveness overall as a defensive threat, particularly physically defensively, meaning its specially defensive set is far more common. Overall, Dewgong is a great choice for defensive teams needing a solid backing.</p> ",
@@ -1800,6 +1805,7 @@
     }
   },
   "Voltorb": {
+    "lc": {"sets": [{"name": "Rain Dance"}, {"name": "Offensive"}]},
     "nu": {
       "overview": "<p>Voltorb carves a niche for itself by being the absolute fastest Pokemon in the tier with its blazing base 100 Speed, and a plethora of utility options such as Rain Dance, Light Screen, Taunt, and Explosion to differentiate it from other fast Electric-types such as Pikachu and Plusle. However, because rain hyper offense is an uncommon team archetype, the utility Voltorb brings to the table generally isn't worth it. Outside of dedicated rain teams, Voltorb suffers from being outclassed by the aforementioned Electric-types due to its extreme frailty and relative lack of power.</p> ",
       "comments": "<h1>Other Options</h1> <p>Leftovers promotes Voltorb's longevity, but longevity isn't necessary for a suicide lead such as Voltorb, and Silk Scarf is important to boost its Explosion. Magnet is another, more offensive item option that boosts Voltorb's Thunder. Again, though, Voltorb's primary purpose is setting up Rain Dance and getting off the field, and it would miss the power boost to Explosion greatly. Hidden Power Grass nails Whiscash but doesn't really hit much else. Lead Whiscash is also extremely uncommon, and even if Whiscash tries to switch into Voltorb, Voltorb can just use Explosion the following turn. Thunderbolt has a more reliable accuracy than Thunder outside of rain, but because Voltorb's primary function is to set up rain, Thunder is more often than not a better option. Thunder Wave is another utility option that generates free turns for Voltorb's teammates similarly to its Static ability. However, Voltorb usually doesn't have room in its moveslot to use it.</p> <h1>Checks and Counters</h1> <p>Because Voltorb is faster than every other Pokemon in the tier and is bulky enough to take the strongest priority move in the metagame (an Adamant Choice Band-boosted STAB Mach Punch from Hitmonchan), it is absolutely guaranteed to set up Rain Dance when used in the lead position and by extension has no true counters. However, Voltorb telegraphs strongly that the opponent is facing full rain offense, which in itself is a weakness to using Voltorb, as the element of surprise is completely lost. Ghost-types such as Haunter and Sableye can even immediately switch into Voltorb turn 2 to absorb its Explosion. Furthermore, several Pokemon can check the team archetype of full rain. Opposing Huntail may win the Speed tie and countersweep Voltorb's team, RestTalk Dewgong checks Huntail and Seaking, Bellossom can eat an Ice Beam in a pinch and countersweep with Sunny Day, and Tangela sets up on Relicanth and similarly countersweeps with Sunny Day.</p> ",
@@ -1814,6 +1820,7 @@
     "zu": {"sets": [{"name": "Rain Setter"}]}
   },
   "Exeggcute": {
+    "lc": {"sets": [{"name": "Sunny Day Sweeper"}]},
     "zu": {
       "comments": "<h1>Other Options</h1> <p>Exeggcute can opt to run a second status move like Toxic or Stun Spore over Psychic, but it would then be completely walled by Koffing alongside the other Poison-types that it already struggles with. It can also opt to run 136 Speed EVs to outspeed offensive Rhyhorn, although this greatly takes away from its role as a wall.</p> <h1>Checks and Counters</h1> <p><strong>Special Attackers: Delibird and Elekid both greatly threaten Exeggcute, but they have to worry about switching into Sleep Powder.</p> <p><strong>Fire-types: Growlithe and Cyndaquil are in a class of their own because they can safely come in on Exeggcute, since they commonly run Lum Berry, and outright OHKO it.</p> <p><strong>Bulky Poison-types: Poison-types like Grimer and Dustox aren't bothered by Exeggcute, as Grimer is 3HKOed by Psychic and Dustox 4HKOed. Grimer can bypass sleep with Sleep Talk, while Dustox is naturally faster and can threaten it with Toxic.</p> <p><strong>Choice Band Users: Aipom and Pidgeotto can come in and 2HKO Exeggcute, although they do have to worry about being put to sleep and taking chip damage on switch-ins.</p> <p><strong>Lileep: Lileep can sit on Exeggcute and wear it down with Toxic and Rock Slide while Exeggcute does very little back. Exeggcute can put it to sleep with Sleep Powder, but it finds difficulty taking it down one-on-one unless it gets favorable sleep turns and Special Defense drops.</p> <p><strong>Bug-Type Moves</strong>: With Exeggcute having a 4x weakness to Bug, it has to be aware of Seaking and Rhyhorn, which typically carry Megahorn and outspeed it.</p> ",
       "sets": [
@@ -1929,6 +1936,7 @@
     }
   },
   "Horsea": {
+    "lc": {"sets": [{"name": "Rain Sweeper"}]},
     "zu": {
       "comments": "<h1>Other Options</h1> <p>Lum Berry can be used to avoid status, but Horsea's extreme frailty means that most foes can OHKO it, meaning opponents rarely use status. Surf can be used over Hydro Pump for its greater PP and accuracy, though the loss in power is noticeable against foes like Dustox, which its fails to 2HKO in rain. Horsea has access to Dragon Dance, though its terrible bulk and physical movepool largely consisting of Double-Edge and Hidden Power make it unviable.</p> <h1>Checks and Counters</h1> <p><strong>Opposing Water-types: Chinchou can easily tank a rain-boosted Hydro Pump or Hidden Power Grass and OHKO Horsea back, with specially defensive Chinchou not even being 2HKOed by any of Horsea's moves. Seaking carrying Hidden Power Grass can OHKO Horsea, while Megahorn 2HKOes it. In return, Horsea can threaten a 2HKO on offensive variants of Seaking with rain-boosted Hydro Pump and Hidden Power Grass, though it struggles to 4HKO specially defensive variants. Rain sweeper Seaking also outspeeds Horsea thanks to its higher base Speed and Swift Swim. Other Water-types like Staryu can threaten to OHKO Horsea, though they must be wary of being outsped and OHKOed in rain.</p> <p><strong>Castform: Forecast lets Castfrom resist Horsea's boosted STAB attacks, while it has the bulk to take Hidden Power Grass. In return, Castform OHKOes with Thunderbolt, and depending on its set, Double-Edge.</p> <p><strong>Grass-types</strong>: Even with Ice Beam, Horsea cannot OHKO Grass-types like Bayleef, Sunflora, and Lileep, while they can OHKO it back with their Grass-type STAB moves. Sunflora deserves a special mention, as its specially defensive set isn't 2HKOed by any of Horsea's attacks, while its Sunny Day set can replace the weather, turning it into setup fodder.</p> <p><strong>Faster Offensive Threats: Outside of rain, Horsea is both extremely frail while being fairly slow, making it easy KOed by foes like Aipom, Pidgeotto, and Elekid.</p> ",
       "sets": [
@@ -2197,6 +2205,7 @@
       "credits": {"writtenBy": [{"username": "Rabia", "user_id": 336073}], "teams": [{"name": "Quality checked by", "members": [{"username": "Bughouse", "user_id": 52547}, {"username": "ArcticBreeze", "user_id": 437400}]}, {"name": "Grammar checked by", "members": [{"username": "deetah", "user_id": 297659}]}]}
     }
   },
+  "Porygon": {"lc": {"sets": [{"name": "Tank"}]}},
   "Omanyte": {"pu": {"sets": [{"name": "Defensive Spikes"}, {"name": "Rain Sweeper"}]}},
   "Omastar": {
     "uu": {
@@ -2426,6 +2435,7 @@
     }
   },
   "Chinchou": {
+    "lc": {"sets": [{"name": "All-Out Attacker"}]},
     "pu": {"sets": [{"name": "Offensive Utility"}]},
     "zu": {
       "comments": "<h1>Other Options</h1> <p>Chinchou can be used on teams that utilize Rain Dance as a wallbreaker or Rain Dance user. Thunder gives Chinchou an even more powerful Electric-type STAB move, which allows it to OHKO opposing Seaking and heavily chip foes resistant to Electric. Hydro Pump in conjunction with Mystic Water in rain allows Chinchou to 2HKO common switch-ins such as Dustox, Delcatty, and physically defensive Lileep. Surf is always an option over Hydro Pump for reliable accuracy and more PP, but the power difference is noticeable, especially when considering Chinchou’s mediocre Special Attack. Hidden Power Grass can be used in order to threaten opposing Chinchou, but the loss of Ice Beam makes it seldom worth it.</p> <h1>Checks and Counters</h1> <p><strong>Special Walls: Pokemon such as Delcatty, Dustox, Lileep, and Sunflora can all wall Chinchou. However, Lileep and Sunflora must be wary of Toxic, as it severely limits their ability to wall Chinchou.</p> <p><strong>Bulky Attackers: Seaking can threaten and remove Chinchou if it hasn't taken much damage. Sunflora and Castform can both wall and OHKO Chinchou with their STAB attacks, though Castform should remain wary of status. Sunflora is worth noting, as it can absorb status with Lum Berry and use Chinchou as a free window to set Sunny Day.</p> <p><strong>Physical Attackers: Chinchou's poor Defense and average Dpeed means it's able to be forced out or OHKOed by a plethora of physical attackers such as Aipom, Pidgeotto, and Taillow.</p> ",
@@ -2893,7 +2903,7 @@
       "credits": {"writtenBy": [{"username": "Lasen", "user_id": 273339}], "teams": [{"name": "Quality checked by", "members": [{"username": "Inspirited", "user_id": 127823}, {"username": "SuperEpicAmpharos", "user_id": 306959}]}, {"name": "Grammar checked by", "members": [{"username": "Rabia", "user_id": 336073}, {"username": "Adeleine", "user_id": 517429}]}]}
     }
   },
-  "Houndour": {"pu": {"sets": [{"name": "Offensive"}]}},
+  "Houndour": {"lc": {"sets": [{"name": "Special Attacker"}, {"name": "Endure + Reversal"}]}, "pu": {"sets": [{"name": "Offensive"}]}},
   "Houndoom": {
     "ou": {
       "overview": "<p>At first glance, Houndoom seems unsuited to the ADV metagame, being entirely walled by the sponges Blissey and Curselax, stopped by bulky Water-types such as Milotic and Suicune, and trapped by the ubiquitous Dugtrio. However, Houndoom is capable of filling an often pivotal role: Pursuit-trapping the spinblocker Gengar while also providing a consistent switch-in to Celebi and Superachi with its immunity to Psychic, resistance to Grass, and powerful Fire Blast. Its ability to remove Gengar is especially significant, as it allows for the likes of Forretress and Cloyster to successfully Rapid Spin with greater ease. Pursuit also helps open up a sweep from the likes of Earthquake Curselax and allows Explosion to be used with less fear.</p> ",
@@ -3028,7 +3038,7 @@
       "credits": {"writtenBy": [{"username": "Ajencis", "user_id": 479200}], "teams": [{"name": "Quality checked by", "members": [{"username": "SuperEpicAmpharos", "user_id": 306959}, {"username": "Inspirited", "user_id": 127823}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "UT", "user_id": 523866}]}]}
     }
   },
-  "Larvitar": {"zu": {"sets": [{"name": "Dragon Dance"}]}},
+  "Larvitar": {"lc": {"sets": [{"name": "Dragon Dance"}]}, "zu": {"sets": [{"name": "Dragon Dance"}]}},
   "Pupitar": {
     "nu": {
       "overview": "<p>A trolly base 51 Speed (getting to outspeed fully invested base 50s before boosting is pretty golden) and a great offensive typing are enough tools to give Pupitar an edge in the NU metagame, but what really makes Pupitar one of the absolute top offensive threats in the tier is its access to Dragon Dance. At just +1, Pupitar packs only slightly less power than Choice Band Relicanth while also outspeeding every unboosted Pokemon in the tier. Its access to fantastic offensive STAB moves cannot be understated, and Hidden Power Bug and Hidden Power Flying both give Pupitar the coverage it needs. Even its ability Shed Skin is a gigantic perk that protects it somewhat against sleep, burn, and paralysis, and with a natural immunity to Thunder Wave, Pupitar has an easy time steamrolling over purely defensive teams. The only major downside is that Pupitar is rather slow before boosting, which can leave it vulnerable to more offensive teams. Outside of Dragon Dance, though, Pupitar is heavily outclassed by the other Rock-types in the tier, which are far stronger and bulkier, including Graveler, Sudowoodo, and Relicanth.</p> ",
@@ -3485,6 +3495,7 @@
       "credits": {"writtenBy": [{"username": "Oglemi", "user_id": 40358}], "teams": [{"name": "Quality checked by", "members": [{"username": "eriados", "user_id": 76767}]}, {"name": "Grammar checked by", "members": [{"username": "frenzyplant", "user_id": 185509}, {"username": "CryoGyro", "user_id": 331519}]}]}
     }
   },
+  "Carvanha": {"lc": {"sets": [{"name": "Offensive"}]}},
   "Sharpedo": {
     "uu": {
       "overview": "<p>Those defenses are just too low. I mean, even Fearow lasts longer. And the amount of weaknesses Sharpedo has doesn't help. But if you're good at predicting switches, using the right moves at the right time, and are just that little bit lucky, you may want to consider Sharpedo. At least you can use it as a Reversal / Flail counter. Must count for something.</p> ",
@@ -3496,6 +3507,7 @@
     }
   },
   "Wailmer": {
+    "lc": {"sets": [{"name": "Bulky Attacker"}, {"name": "Water Spout"}]},
     "zu": {
       "comments": "<h1>Other Options</h1> <p>Ice Beam can be used to reliably beat Lileep one-on-one, but this requires giving up Roar, which forces Wailmer to use an attack on Snorunt. An EV spread of 174 Def / 140 SpA / 132 SpD / 62 Spe and a Modest nature can be used in order to prevent lead Aipom and lead Elekid from OHKOing Wailmer, but this drastically reduces Wailmer's capabilities as an attacker.</p> <h1>Checks and Counters</h1> <p><strong>Aipom: Choice Band Aipom can outspeed Wailmer and OHKO it with Double Edge.</p> <p><strong>Electric-types</strong>: Elekid and Chinchou can both outspeed Wailmer and OHKO it with Thunderbolt.</p> <p><strong>Rock-, Steel-, and Ghost-types: Pokemon such as Magnemite, Nosepass, and Shuppet can all switch into Wailmer on a Self-Destruct prediction. These Pokemon are only able to switch in on Self-Destruct, as Hydro Pump or Water Spout dispatches them otherwise.</p> <p><strong>Lileep and Bayleef: Lileep and Bayleef are able to survive a Water Spout into a Self-Destruct and, in return, 2HKO Wailmer with their Grass-type STAB moves. While neither can switch into it, they are regarded as the most reliable defensive answers to all of Wailmer's moves, bar Ice Beam.</p> ",
       "sets": [
@@ -3707,7 +3719,7 @@
       "sets": [{"name": "Physical Attacker", "description": "<p>Cradily is a truly great special sponge, and will make the majority of Electric-types cry for their respective Pokemon mothers. It's fairly easy to use: Toxic foes such as Suicune and stall with Recover. Try to catch Metagross on the switch with Earthquake, as it will OHKO with Meteor Mash. As for EVs, go for lots of HP and Special Defense.</p> "}, {"name": "Defensive", "description": "<p>This Cradily is an industrial-strength stall Pokemon. Its great niche is Suction Cups, which prevents it from being phazed. Better hope your opponent doesn't have a Weezing.</p> "}, {"name": "Barrier + Mirror Coat", "description": "<p>Barrier up, and when they give up and attack you with a special attack, Mirror Coat it back in their faces.</p> "}, {"name": "Special Attacker", "description": "<p>Special Cradily is a great Swampert counter. Watch out for Giga Drain's low PP.</p> "}]
     }
   },
-  "Anorith": {"pu": {"sets": [{"name": "Swords Dance"}]}},
+  "Anorith": {"lc": {"sets": [{"name": "Swords Dance"}]}, "pu": {"sets": [{"name": "Swords Dance"}]}},
   "Armaldo": {
     "ou": {
       "overview": "<p>Knock Off is evil, Rapid Spin is always useful, and Hidden Power Bug OHKOes Starmie and Celebi. Armaldo can be both a deadly sweeper and an excellent supporter thanks to Knock Off and Rapid Spin, as it has one of the best physically offensive typings in Bug / Rock. However, its weakness to Surf can prove a handicap.</p> ",
@@ -3872,6 +3884,7 @@
       "sets": [{"name": "Rain Dance \"Sweeper\"", "description": "<p>With Blizzard, Luvdisc OHKOes Salamence; Ice Beam does 99% max... Rain Dance up against something like Rhydon that won't survive a Surf and hit everything \"hard\" with Surf and Blizzard. If you come across a Water-type, hit it with Hidden Power Grass. Lum Berry is more useful than Leftovers because, if Luvdisc get statused, it basically loses instantly and everything will either OHKO it or do 90% or so anyway so Leftovers aren't really that important. Even Suicune 2HKOes with Surf in the rain.</p> "}]
     }
   },
+  "Bagon": {"lc": {"sets": [{"name": "Dragon Dance"}]}},
   "Shelgon": {
     "nu": {
       "overview": "<p>Shelgon stands out in the NU tier as the only usable Dragon-type (Dragonair is there but not really usable), giving it a unique defensive and offensive niche. Access to Dragon Dance makes it very dangerous, and setting up is pretty easy overall thanks to its typing and good physical bulk. It's also a very durable defensive option with access to Wish to keep it and its teammates healthy throughout the match. A huge weakness to Ice and being specially frail hurts it, though, and it lacks a usable STAB move. Still, for teams looking for a good surprise offensive or defensive option, Shelgon is certainly a viable candidate.</p> ",
