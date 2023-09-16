@@ -2733,7 +2733,6 @@
     "vgc2023": {"sets": [{"name": "Bulky Attacker"}, {"name": "Assault Vest"}]},
     "almostanyability": {
       "sets": [
-        {"name": "Desolate Land", "description": "<p>A set with maximum Special Attack investment and a Modest nature can be used instead for more offensive pressure.</p> "},
         {
           "name": "Magic Guard",
           "description": "<p>Magic Guard Heatran is a strong mixed attacker that threatens massive damage to the format's defensive pivots with its powerful Steel- and Fire-type attacks. Steel Beam is Heatran's best offensive option, as Magic Guard negates its massive recoil, while Flare Blitz acts as a strong secondary STAB attack that breaks down Steel-types and special walls like Hisuian Goodra. Power Gem acts as a strong coverage option, targeting common Fire- and Steel-type switch-ins like Skeledirge and Primordial Sea Zapdos. A Hasty nature is chosen to maximize both Heatran's physical and special power, and 96 Attack EVs let it 2HKO common RegenVest users like Meloetta and Hisuian Goodra after Stealth Rock damage. 200 Speed EVs let Heatran outspeed Slither Wing, Volcanion, and defensive Garchomp; the rest of the available EVs are put into Special Attack to maximize Steel Beam's power. Heatran relies on being able to consistently force foes out to make progress, so bulky entry hazard setters like Garchomp and Ting-Lu can help set up Spikes alongside Heatran's Stealth Rock to consistently chip and punish the opponent's switches. Additionally, to help seal the deal against bulky pivots like Garchomp and fast revenge killers like Chien-Pao, Heatran appreciates teammates like Scream Tail to absorb their hits and have a chance to make progress against them. Finally, offensive teammates like Chien-Pao can take advantage of Heatran's ability to chip switch-ins early-game, as well as defeating Goodra, leading to a more threatening end-game presence.</p> "
@@ -2741,7 +2740,8 @@
         {
           "name": "IronPress",
           "description": "<p>IronPress Heatran trades immediate damage for more defensive utility and sweeping potential, being able to handle common Ground-types like Garchomp, Landorus-T, and Ting-Lu. Lava Plume is preferred over Flamethrower to spread burns against switch-ins like Hisuian Goodra, Magic Guard Quaquaval, and Ting-Lu. IronPress allows Heatran to better take on RegenVest users such as Alolan Muk and Meloetta, Garchomp, and Well-Baked Body Steel-types, most notably Kingambit. Substitute blocks Dragon Tail from Garchomp and Knock Off from Iron Treads, takes advantage of the switches Heatran forces versus foes like Blissey, and also benefits from Iron Defense boosts. 200 Speed EVs and a Timid nature make Heatran outrun Timid Volcanion and Adamant Slither Wing. This Heatran variant is very vulnerable to common Primordial Sea users in Zapdos, Kilowattrel, and Inteleon, so partners that can take them on like Hisuian Goodra and Meloetta are mandatory. Primordial Sea Zapdos can switch in against Fire-types such as Iron Moth, Skeledirge, and Ceruledge that threaten Heatran. In return, Heatran takes on RegenVest users that Zapdos struggles to break through. Another Fire-type teammate with Desolate Land like Cinderace, Iron Moth, or Ceruledge appreciates Heatran taking on Ground-types for it, while they can punish Water-types and the aforementioned Primordial Sea users.</p> "
-        }
+        },
+        {"name": "Desolate Land", "description": "<p>A set with maximum Special Attack investment and a Modest nature can be used instead for more offensive pressure.</p> "}
       ],
       "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}, {"username": "longhiep341", "user_id": 500884}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Tranquility", "user_id": 475288}, {"username": "KarpeChan", "user_id": 536333}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}, {"username": "Tea Guzzler", "user_id": 577920}]}]}
     },
@@ -8853,6 +8853,9 @@
     },
     "1v1": {"sets": [{"name": "Booster Energy: Attack"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "SwordIsBored", "user_id": 489963}]}]}}
   },
+  "Ogerpon": {"battlestadiumsingles": {"sets": [{"name": "Offensive Pivot"}]}},
+  "Ogerpon-Hearthflame": {"battlestadiumsingles": {"sets": [{"name": "Offensive"}, {"name": "Leech Seed"}]}},
+  "Ogerpon-Cornerstone": {"battlestadiumsingles": {"sets": [{"name": "Sturdy Offense"}]}},
   "Syclant": {"cap": {"sets": [{"name": "Offensive Pivot"}]}},
   "Revenankh": {"cap": {"sets": [{"name": "Bulk Up"}]}},
   "Pyroak": {"cap": {"sets": [{"name": "Contrary Tank"}]}},
