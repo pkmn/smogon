@@ -74,6 +74,7 @@
   },
   "Raichu-Alola": {"nationaldexmonotype": {"sets": [{"name": "Surge Surfer (Electric)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
   "Clefable": {
+    "ou": {"sets": [{"name": "Utility"}]},
     "nationaldex": {
       "sets": [
         {
@@ -98,6 +99,7 @@
     }
   },
   "Ninetales-Alola": {
+    "ou": {"sets": [{"name": "Aurora Veil"}]},
     "nationaldex": {"sets": [{"name": "Aurora Veil Setter"}]},
     "nationaldexmonotype": {
       "sets": [
@@ -471,6 +473,7 @@
       "credits": {"writtenBy": [{"username": "Hera", "user_id": 414072}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Gimmickyasitgets", "user_id": 540420}]}, {"name": "Grammar checked by", "members": [{"username": "Lumari", "user_id": 232216}]}]}
     }
   },
+  "Weezing-Galar": {"ou": {"sets": [{"name": "Defensive"}]}},
   "Chansey": {
     "pu": {"sets": [{"name": "Defensive"}]},
     "ou": {"sets": [{"name": "Defensive"}]},
@@ -2443,6 +2446,7 @@
     }
   },
   "Gliscor": {
+    "ou": {"sets": [{"name": "Spikes"}, {"name": "Swords Dance"}]},
     "nationaldex": {
       "sets": [
         {
@@ -2458,7 +2462,7 @@
     },
     "nationaldexmonotype": {"sets": [{"name": "Stallbreaker (Flying)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Mamoswine": {"nationaldexmonotype": {"sets": [{"name": "Choice Band (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldexru": {"sets": [{"name": "Offensive"}]}},
+  "Mamoswine": {"ou": {"sets": [{"name": "Stealth Rock"}]}, "nationaldexmonotype": {"sets": [{"name": "Choice Band (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldexru": {"sets": [{"name": "Offensive"}]}},
   "Gallade": {
     "ru": {"sets": [{"name": "Wallbreaker"}, {"name": "Choice Scarf"}]},
     "ou": {"sets": [{"name": "Swords Dance"}]},
@@ -2881,6 +2885,7 @@
     }
   },
   "Manaphy": {
+    "ou": {"sets": [{"name": "Tail Glow"}, {"name": "Double Dance"}]},
     "nationaldex": {
       "sets": [
         {
@@ -4229,6 +4234,7 @@
     },
     "nu": {"sets": [{"name": "Assault Vest Tank"}]}
   },
+  "Ribombee": {"ou": {"sets": [{"name": "Sticky Web"}]}},
   "Lycanroc": {"ru": {"sets": [{"name": "Swords Dance"}, {"name": "Suicide Lead"}]}, "almostanyability": {"sets": [{"name": "Rocky Payload"}]}},
   "Lycanroc-Midnight": {
     "pu": {
@@ -4445,6 +4451,7 @@
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Choice Band"}, {"name": "Swords Dance"}]}
   },
   "Kommo-o": {
+    "ou": {"sets": [{"name": "Clangorous Soul"}]},
     "nationaldex": {
       "sets": [
         {
@@ -5402,6 +5409,7 @@
     },
     "vgc2023": {"sets": [{"name": "TR Sweeper"}]}
   },
+  "Ursaluna-Bloodmoon": {"ou": {"sets": [{"name": "Offensive Calm Mind"}, {"name": "Bulky Calm Mind"}]}},
   "Basculegion": {
     "ru": {"sets": [{"name": "Choice Specs"}]},
     "ubers": {"sets": [{"name": "Rain Sweeper"}]},
@@ -8927,6 +8935,7 @@
   "Munkidori": {"battlestadiumsingles": {"sets": [{"name": "Choice Scarf Pivot"}, {"name": "Focus Sash Lead"}]}},
   "Fezandipiti": {"battlestadiumsingles": {"sets": [{"name": "Calm Mind"}, {"name": "Toxic Staller"}]}},
   "Ogerpon": {"battlestadiumsingles": {"sets": [{"name": "Offensive Pivot"}]}},
+  "Ogerpon-Wellspring": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Offensive Pivot"}]}},
   "Ogerpon-Hearthflame": {"battlestadiumsingles": {"sets": [{"name": "Offensive", "description": "<h1>Alternate EV Spreads</h1> <ul> <li><strong>252 HP / 100 Atk / 92 Def / 60 Spe with Adamant</strong>: This bulkier spread outspeeds Iron Bundle after Trailblaze, while avoiding a 2HKO from Focus Sash Chien-Pao's Sucker Punch. The Speed EVs can be dropped to 36 if not using Trailblaze, to outspeed Jolly Breloom.</li> </ul> "}, {"name": "Leech Seed"}]}},
   "Ogerpon-Cornerstone": {"battlestadiumsingles": {"sets": [{"name": "Sturdy Offense"}]}},
   "Syclant": {"cap": {"sets": [{"name": "Offensive Pivot"}]}},
