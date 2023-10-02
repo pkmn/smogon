@@ -1,5 +1,6 @@
 {
   "Charmander": {"sets": [{"name": "Sun Wallbreaker"}]},
+  "Sandshrew-Alola": {"sets": [{"name": "Snow Sweeper"}]},
   "Diglett-Alola": {"sets": [{"name": "Stealth Rock"}]},
   "Meowth": {"sets": [{"name": "Revenge Killer"}]},
   "Psyduck": {"sets": [{"name": "Rain Wallbreaker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Altariel von Sweep", "user_id": 330191}]}]}},
@@ -12,16 +13,9 @@
     ],
     "credits": {"writtenBy": [{"username": "Drifting", "user_id": 342456}], "teams": [{"name": "Quality checked by", "members": [{"username": "gali", "user_id": 107567}, {"username": "Éric", "user_id": 440139}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
   },
+  "Bellsprout": {"sets": [{"name": "Sun Sweeper"}]},
   "Slowpoke": {"sets": [{"name": "Defensive"}]},
-  "Magnemite": {
-    "sets": [
-      {
-        "name": "Choice Scarf",
-        "description": "<p>Magnemite is a powerful Choice Scarf user, capable of capitalizing on switches it forces with the combination of its high Special Attack, STAB Volt Switch, and Analytic. Tera Blast in combination with Tera Ice gives Magnemite STAB on the BoltBeam combination, letting it hit common checks such as Toedscool, Mudbray, and Wattrel for super effective damage. Alternatively, Tera Steel makes Flash Cannon a much more spammable attack and turns Steel Beam into a nuke. A Modest nature is preferred to improve damage rolls, especially with an Analytic boost; a Timid nature is an alternative to ensure Magnemite outspeeds Speed-boosted foes like Choice Scarf Gothita and Quaxly after a Rapid Spin. Ground-types like opposing Toedscool, Alolan Diglett, and Mudbray are the biggest threats to Magnemite; Pokemon like Grookey and Toedscool that can check Ground-types make good teammates. Magnemite can form a powerful VoltTurn core with other pivot move users such as Hisuian Voltorb and Nymble. Frail attackers such as Wingull appreciate Magnemite bringing them in safely with Volt Switch.</p> "
-      }
-    ],
-    "credits": {"writtenBy": [{"username": "gali", "user_id": 107567}], "teams": [{"name": "Quality checked by", "members": [{"username": "DC", "user_id": 449990}]}, {"name": "Grammar checked by", "members": [{"username": "aurora", "user_id": 109385}]}]}
-  },
+  "Magnemite": {"sets": [{"name": "Choice Scarf"}]},
   "Grimer-Alola": {
     "sets": [
       {
@@ -51,9 +45,11 @@
     "credits": {"writtenBy": [{"username": "goldenghost", "user_id": 32350}], "teams": [{"name": "Quality checked by", "members": [{"username": "gali", "user_id": 107567}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
   },
   "Voltorb-Hisui": {"sets": [{"name": "Special Attacker"}]},
+  "Koffing": {"sets": [{"name": "Tank"}]},
   "Wingull": {"sets": [{"name": "Offensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "gali", "user_id": 107567}]}]}},
   "Azurill": {"sets": [{"name": "Belly Drum"}]},
   "Numel": {"sets": [{"name": "Growth"}]},
+  "Corphish": {"sets": [{"name": "Dragon Dance"}]},
   "Buizel": {"sets": [{"name": "Rain Wallbreaker"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Altariel von Sweep", "user_id": 330191}]}]}},
   "Shellos": {"sets": [{"name": "Defensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Charis_Akins", "user_id": 588203}]}]}},
   "Drifloon": {
@@ -65,9 +61,10 @@
     ],
     "credits": {"writtenBy": [{"username": "gali", "user_id": 107567}], "teams": [{"name": "Quality checked by", "members": [{"username": "goldenghost", "user_id": 32350}, {"username": "Hacker", "user_id": 387847}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
   },
-  "Stunky": {"sets": [{"name": "Nasty Plot"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Kaboom", "user_id": 300935}]}]}},
+  "Stunky": {"sets": [{"name": "Physical Attacker"}]},
   "Croagunk": {"sets": [{"name": "Bulky Attacker"}]},
-  "Snover": {"sets": [{"name": "Physical Wall"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "TheShoddyStrawman", "user_id": 585065}]}]}},
+  "Snover": {"sets": [{"name": "Snow Setter"}]},
+  "Timburr": {"sets": [{"name": "Phyiscal Attacker"}]},
   "Sandile": {"sets": [{"name": "Bulky Stealth Rock"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Quinn", "user_id": 553008}]}]}},
   "Zorua": {"sets": [{"name": "Choice Scarf"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "TheShoddyStrawman", "user_id": 585065}]}]}},
   "Zorua-Hisui": {
@@ -86,7 +83,7 @@
   "Mienfoo": {"sets": [{"name": "Fast Pivot"}, {"name": "Bulky Pivot"}, {"name": "Choice Scarf"}]},
   "Pawniard": {"sets": [{"name": "Stealth Rock"}]},
   "Vullaby": {"sets": [{"name": "Physical Attacker"}, {"name": "Nasty Plot"}]},
-  "Larvesta": {"sets": [{"name": "Defensive Pivot"}], "credits": {"writtenBy": [], "teams": [{"name": "Sunmitted by", "members": [{"username": "Charis_Akins", "user_id": 588203}]}]}},
+  "Larvesta": {"sets": [{"name": "Defensive"}]},
   "Crabrawler": {
     "sets": [
       {
@@ -100,15 +97,7 @@
     "sets": [{"name": "Defensive", "description": "<p>Mareanie is one of the top walls in Little Cup, capable of checking threats such as Hisuian Growlithe, Crabrawler, and Shellder. Haze shuts down dangerous set-up sweepers like Crabrawler and Swords Dance Pawniard, while Ice Beam hits Toedscool and Foongus. Mareanie has some other viable options for its fourth moveslot; Toxic Spikes wears down foes like Toedscool and synergizes with partners like Hex Hisuian Zorua, and Iron Defense turns Mareanie into a defensive wincon. Tera Ghost lets Mareanie excape Gothita's Shadow Tag while letting it take neutral damage from Crabrawler's coverage. Grass-types like Toedscool and Foongus are great partners that can switch into foes like Hisuian Voltorb and Mudbray; Foongus forms a potent Regenerator core with Mareanie as well.</p> "}],
     "credits": {"writtenBy": [{"username": "Flou", "user_id": 605215}], "teams": [{"name": "Quality checked by", "members": [{"username": "DC", "user_id": 449990}, {"username": "gali", "user_id": 107567}]}, {"name": "Grammar checked by", "members": [{"username": "CryoGyro", "user_id": 331519}]}]}
   },
-  "Mudbray": {
-    "sets": [
-      {
-        "name": "Stealth Rock",
-        "description": "<p>Mudbray is a solid check to many of Little Cup's hardest hitting attackers, shrugging off attacks from the likes of Glimmet, Alolan Grimer, Unburden Shroodle, and Growth Numel. High Horsepower can be run over Earthquake to give Mudbray a better matchup against Grassy Terrain teams, but it has worse damage rolls against threats like Choice Scarf Gothita. Stone Edge is capable of OHKOing the likes of Drifloon, Wattrel, and Tera Flying Shroodle, while Rock Tomb deters switch-ins from faster Pokemon and stifles setup sweepers like Numel. Roar helps with the latter as well, preventing setup sweepers like Numel and Shellder from boosting. The EVs let Mudbray hit a whopping 20 Attack, while adding onto its already respectable natural bulk. This, in addition to Stamina means ample opportunity to switch in and set Stealth Rock or attack back hard. Tera Dragon provides useful resistances to Fire, Water, and Grass, surprising would-be threats in Shellder and non-Tera Ice Hisuian Voltorb. Tera Fire can alternatively be used, sacrificing defensive utility for Will-o-Wisp immunity and the ability to lure in and OHKO Grass-types like Hisuian Voltorb, Toedscool, and Grookey with Tera Blast.</p> <p>Mudbray struggles primarily against Grass-types such as Grookey, Hisuian Voltorb, and Foongus. Alolan Grimer, Wattrel, and Drifloon cover this weakness, while Mudbray provides an answer to Glimmet and opposing Alolan Grimer for these Pokemon in return. Between Mudbray's durability and its utility options in Roar and Rock Tomb, many teams will appreciate it as a blanket check to a lot of the metagame's dangerous offensive threats like Pawniard and Numel. Grookey, Drifloon, and Hisuian Voltorb appreciate Mudbray as a switch-in to Alolan Grimer. Setup sweepers like Numel, Shellder, and Unburden Shroodle take advantage of Mudbray's Stealth Rock to wear down checks. If Mudbray is running Tera Fire, Grookey especially likes the luring in of Hisuian Voltorb and Drifloon to clear the way for its Wood Hammer.</p> "
-      }
-    ],
-    "credits": {"writtenBy": [{"username": "Kaboom", "user_id": 300935}], "teams": [{"name": "Quality checked by", "members": [{"username": "goldenghost", "user_id": 32350}, {"username": "gali", "user_id": 107567}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
-  },
+  "Mudbray": {"sets": [{"name": "Offensive"}, {"name": "RestTalk"}]},
   "Sandygast": {"sets": [{"name": "Defensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Hacker", "user_id": 387847}]}]}},
   "Grookey": {"sets": [{"name": "Choice Scarf"}, {"name": "Pivot"}]},
   "Chewtle": {"sets": [{"name": "Shell Smash"}]},
@@ -153,15 +142,7 @@
     "credits": {"writtenBy": [{"username": "BlackKnight_Gawain", "user_id": 205631}], "teams": [{"name": "Quality checked by", "members": [{"username": "Éric", "user_id": 440139}, {"username": "goldenghost", "user_id": 32350}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
   },
   "Bramblin": {"sets": [{"name": "Spinner"}]},
-  "Toedscool": {
-    "sets": [
-      {
-        "name": "Utility",
-        "description": "<p>Toedscool is one of the premier forms of entry hazard removal in Little Cup, punishing Spore absorbers and spinblockers with Knock Off while using its good natural bulk and typing to serve as a check to Ground- and Electric-types like Hisuian Voltorb and Mudbray. The given EV spread allows Toedscool to hit 17 Speed, which outspeeds common 16 Speed entry hazard setters like Glimmet and Pawniard. Giga Drain gives Toedscool a form of recovery and the ability to beat Mudbray, while Spore punishes common switch-ins like Wattrel. Power Whip is an option to beat opposing Toedscool; if running the move, Toedscool should run an additional 36 Attack EVs and a Jolly nature. Toedscool's Tera type occasionally allows it to avoid super effective attacks. Tera Water is preferred to tank Hisuian Growlithe's Flare Blitz and serve as an emergency check to Wingull and offensive Quaxly. Tera Steel can also be used to deal with Tera Ice Electric-types more easily and to give it a favorable matchup against Foongus, but at the cost of adding unfortunate Ground and Fighting weaknesses. Toedscool pairs well with Pokemon that struggle with Stealth Rock chip, like Hisuian Growlithe, Nymble, and Wattrel, and teammates that appreciate the momentum that Toedscool generates, like Hisuian Voltorb, Grookey, and Hisuian Zorua. Water-types such as Mareanie and Quaxly have defensive synergy with Toedscool, both checking the Ice- and Fire-types that threaten Toedscool and benefitting from Toedscool's ability to absorb Electric-type moves.</p> "
-      }
-    ],
-    "credits": {"writtenBy": [{"username": "yellowfin", "user_id": 416460}], "teams": [{"name": "Quality checked by", "members": [{"username": "DC", "user_id": 449990}, {"username": "Acehunter1", "user_id": 430377}]}, {"name": "Grammar checked by", "members": [{"username": "dex", "user_id": 277988}]}]}
-  },
+  "Toedscool": {"sets": [{"name": "Utility"}]},
   "Tinkatink": {"sets": [{"name": "Utility"}]},
   "Glimmet": {"sets": [{"name": "Physically Defensive"}]},
   "Greavard": {"sets": [{"name": "Bulky Spinblocker"}]}
