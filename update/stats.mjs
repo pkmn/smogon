@@ -46,7 +46,9 @@ async function convert(format, date) {
   const leads = !stats.isNonSinglesFormat(format) && !UNSUPPORTED.includes(format);
   const metagame = !UNSUPPORTED.includes(format);
   const gen = gens.get(format.startsWith('gen') ? +format.charAt(3) : 6);
-  const url = report => smogon.Statistics.url(date, format, true, report);
+  // FIXME: bug with gen9doublesou missing a report
+  const weighted = format === 'gen9doublesou' && date == '2023-09' ? 1500 : true;
+  const url = report => smogon.Statistics.url(date, format, weighted, report);
 
   return stats.Display.fromReports(gen,
     await (await request(url('usage'))).text(),
