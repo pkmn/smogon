@@ -1067,6 +1067,7 @@
   },
   "Espeon": {"ru": {"sets": [{"name": "Choice Specs"}, {"name": "Calm Mind"}, {"name": "Choice Scarf"}]}, "uu": {"sets": [{"name": "Offensive"}, {"name": "Dual Screens"}]}},
   "Umbreon": {
+    "ou": {"sets": [{"name": "Specially Defensive"}]},
     "nu": {
       "overview": "<p>Umbreon's amazing utility movepool and peerless bulk make it a top-notch support Pokemon and check to many top tier threats, like Bruxish, Qwilfish, and Mabosstiff. Despite its great bulk, Umbreon's offenses are quite lackluster, though this can be somewhat alleviated by STAB Foul Play to punish setup sweepers attempting to exploit Umbreon's passivity, like Coil Eelektross and Bulk Up Ursaring. Setup sweepers that don't mind taking a Foul Play, like Calm Mind Dudunsparce and Quiver Dance Oricorio, can easily take advantage of it. Umbreon also dislikes the plethora of Fighting-types in the tier, like Toxicroak, Medicham, and Paldean Tauros.</p> ",
       "comments": "<h1>Other Options</h1> <p>Umbreon has a myriad of utility options at its disposal, including being able to set up with Calm Mind. Unfortunately, due to Umbreon's terrible Special Attack, a Calm Mind set typically requires too many boosts to be effective. Umbreon can fit two utility moves if it chooses to use Moonlight instead of Wish and Protect, but the limited PP can become a detriment in longer games. Umbreon can beat setup sweepers that typically take advantage of it, such as Quiver Dance Oricorio and Calm Mind Vaporeon, with Tera Ghost and Curse. Umbreon can also use Taunt and a few extra Speed EVs to stop setup sweepers like Sandaconda and Vaporeon or other support Pokemon like Vespiquen and Muk from using their own status moves. Lastly, Umbreon can trap an unsuspecting foe with Mean Look and wear it down with Foul Play or even drop its stats with Tickle to more easily take it out.</p> <h1>Checks and Counters</h1> <p><strong>Fighting-types: NU has a plethora of Fighting-types, such as Crabominable, Medicham, and Sneasel-Hisui. Umbreon can Terastallize to reverse this weakness, but that always comes with a new set of weaknesses and removes the option to Terastallize later. Other Pokemon like Scyther and Zangoose have a powerful Close Combat that can threaten Umbreon as well.</p> <p><strong>Opposing Utility Moves: Regardless of Synchronize, a poisoned Umbreon, whether by Toxic or Toxic Spikes, is extremely impaired and struggles to fulfill its role. Trick from a Choice Scarf Haunter or Rotom can completely ruin Umbreon despite it being a suitable check to them otherwise. Taunt from Pokemon like Bombirdier, Qwilfish, and opposing Umbreon can limit Umbreon to only an exploitable Foul Play.</p> <p><strong>Special Setup Sweepers: Setup sweepers that don't mind Foul Play, mainly special attackers like Oricorio, Vivillon, and a Terastallized Farigiraf can easily boost against Umbreon.</p> ",
@@ -1078,7 +1079,6 @@
       ],
       "credits": {"writtenBy": [{"username": "Togkey", "user_id": 400664}], "teams": [{"name": "Quality checked by", "members": [{"username": "Rabia", "user_id": 336073}, {"username": "Pokeslice", "user_id": 509790}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}, {"username": "Rabia", "user_id": 336073}]}]}
     },
-    "ou": {"sets": [{"name": "Specially Defensive"}]},
     "battlestadiumsingles": {
       "overview": "<p>With Paradox Pokemon being introduced, Series 2 is bringing big changes to Battle Stadium Singles! This is a modified Series 1 analysis that takes Paradox Pokemon into account. We will update this overview and analysis again once the metagame settles more. <a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-2-paradox-pandemonium-speed-tiers-and-more-inside.3714699/\">For more information on Series 2, check out the resource thread.</a></p> <p><a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-series-2.3715382/\">If you feel that this analysis is missing important information, feel free to leave feedback here.</a></p> ",
       "sets": [
@@ -1875,7 +1875,7 @@
     }
   },
   "Corphish": {"lc": {"sets": [{"name": "Dragon Dance"}]}},
-  "Crawdaunt": {"nationaldex": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}},
+  "Crawdaunt": {"ou": {"sets": [{"name": "Mr. Craw (Swords Dance)"}, {"name": "Choice Band"}]}, "nationaldex": {"sets": [{"name": "Choice Band"}, {"name": "Swords Dance", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}},
   "Banette": {"zu": {"sets": [{"name": "Swords Dance"}]}},
   "Tropius": {"zu": {"sets": [{"name": "Defensive Pivot"}, {"name": "Dragon Dance"}]}},
   "Snorunt": {"nfe": {"sets": [{"name": "Moody"}]}},
@@ -1991,7 +1991,9 @@
     "nationaldexubers": {"sets": [{"name": "Setup Sweeper"}, {"name": "Choice Band"}]}
   },
   "Jirachi": {"nationaldexmonotype": {"sets": [{"name": "Specially Defensive (Psychic)", "description": "<p>20 Spe EVs lets it outspeed Breloom and Pokemon around that speed tier</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Z-Happy Hour (Psychic)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Choice Scarf (Psychic)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
+  "Torterra": {"ou": {"sets": [{"name": "Shell Smash"}]}},
   "Infernape": {"nationaldexru": {"sets": [{"name": "Choice Band"}, {"name": "Suicide Lead"}, {"name": "Mixed Wallbreaker"}, {"name": "Swords Dance"}, {"name": "Nasty Plot"}, {"name": "Choice Scarf"}]}},
+  "Empoleon": {"ou": {"sets": [{"name": "Defensive Pivot"}]}},
   "Staraptor": {
     "monotype": {
       "sets": [
@@ -4732,9 +4734,9 @@
     }
   },
   "Barraskewda": {
+    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Physical Attacker"}]},
     "anythinggoes": {"sets": [{"name": "Choice Band"}]},
     "ou": {"sets": [{"name": "Rain Sweeper"}]},
-    "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Physical Attacker"}]},
     "monotype": {"sets": [{"name": "Swift Swim (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
     "doublesou": {"sets": [{"name": "Swift Swim Attacker"}]},
     "almostanyability": {
@@ -5980,7 +5982,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Mashing", "user_id": 537354}], "teams": [{"name": "Quality checked by", "members": [{"username": "corvere", "user_id": 306317}, {"username": "Taka", "user_id": 595062}]}, {"name": "Grammar checked by", "members": [{"username": "aurora", "user_id": 109385}]}]}
     },
-    "ou": {"sets": [{"name": "Skill"}]},
+    "ou": {"sets": [{"name": "Tidy Up Sweeper"}]},
     "monotype": {"sets": [{"name": "Tidy Up", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
     "doublesou": {"sets": [{"name": "Offensive Supporter"}, {"name": "Utility Supporter"}]},
     "vgc2023": {"sets": [{"name": "Friend Guard"}]},
@@ -8900,10 +8902,10 @@
   "Okidogi": {"battlestadiumsingles": {"sets": [{"name": "Bulk Up", "description": "<h1>EV Spreads</h1> <ul> <li><strong>100 Speed EVs</strong>: This Speed investment outspeeds Jolly Ursaluna.</li> </ul> "}, {"name": "Assault Vest"}]}},
   "Munkidori": {"battlestadiumsingles": {"sets": [{"name": "Choice Scarf Pivot"}, {"name": "Focus Sash Lead"}]}},
   "Fezandipiti": {"battlestadiumsingles": {"sets": [{"name": "Calm Mind"}, {"name": "Toxic Staller"}]}},
-  "Ogerpon": {"battlestadiumsingles": {"sets": [{"name": "Offensive Pivot"}]}},
+  "Ogerpon": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}, "battlestadiumsingles": {"sets": [{"name": "Offensive Pivot"}]}},
   "Ogerpon-Wellspring": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Offensive Pivot"}]}},
   "Ogerpon-Hearthflame": {"battlestadiumsingles": {"sets": [{"name": "Offensive", "description": "<h1>Alternate EV Spreads</h1> <ul> <li><strong>252 HP / 100 Atk / 92 Def / 60 Spe with Adamant</strong>: This bulkier spread outspeeds Iron Bundle after Trailblaze, while avoiding a 2HKO from Focus Sash Chien-Pao's Sucker Punch. The Speed EVs can be dropped to 36 if not using Trailblaze, to outspeed Jolly Breloom.</li> </ul> "}, {"name": "Leech Seed"}]}},
-  "Ogerpon-Cornerstone": {"battlestadiumsingles": {"sets": [{"name": "Sturdy Offense"}]}},
+  "Ogerpon-Cornerstone": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Utility"}]}, "battlestadiumsingles": {"sets": [{"name": "Sturdy Offense"}]}},
   "Syclant": {"cap": {"sets": [{"name": "Offensive Pivot"}]}},
   "Revenankh": {"cap": {"sets": [{"name": "Bulk Up"}]}},
   "Pyroak": {"cap": {"sets": [{"name": "Contrary Tank"}]}},
