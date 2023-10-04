@@ -59,7 +59,7 @@ const FORMATS = {
   dwou: 'dreamworldou', zu: 'zu', nfe: 'nfe', farceusuber: 'anythinggoes', middlecup: 'middlecup',
   // Other Metagames
   almostanyability: 'almostanyability', mixandmega: 'mixandmega', godlygift: 'godlygift',
-  camomons: 'camomons',   stabmons: 'stabmons',
+  camomons: 'camomons',   stabmons: 'stabmons', pic: 'partnersincrime',
   // VGC
   vgc11: 'vgc2011', vgc12: 'vgc2012', vgc14: 'vgc2014', vgc15: 'vgc2015', vgc16: 'vgc2016',
   vgc17: 'vgc2017', vgc18: 'vgc2018', vgc19: 'vgc2019', vgc20: 'vgc2020', vgc21: 'vgc2021',
@@ -153,7 +153,7 @@ async function importPokemon(gen, species) {
     let format = `gen${gen}${FORMATS[tier] || tier}`;
     // NB: we can't simply check Format.exists because @pkmn/sim doesn't support all mods
     if (Dex.formats.get(format).effectType !== 'Format' && !FORMATS[tier]) {
-      throw new Error(`Unknown format: ${format} (${tier})`);
+      throw new Error(`Unknown format: ${format} (${tier}) for gen ${gen.num} ${species.name}`);
     }
     format = format.slice(4); // trim gen<N> to save space
 
