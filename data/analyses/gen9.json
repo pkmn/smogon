@@ -74,8 +74,10 @@
   },
   "Raichu-Alola": {"nationaldexmonotype": {"sets": [{"name": "Surge Surfer (Electric)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
   "Sandshrew-Alola": {"lc": {"sets": [{"name": "Snow Sweeper"}]}},
+  "Sandslash-Alola": {"monotype": {"sets": [{"name": "Slush Rush Support (Ice)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}}},
   "Clefable": {
     "ou": {"sets": [{"name": "Utility"}]},
+    "monotype": {"sets": [{"name": "Calm Mind", "description": "<p>76 Spe EVs outspeeds Corviknight.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Neko", "user_id": 542526}]}]}},
     "nationaldex": {
       "sets": [
         {
@@ -457,7 +459,8 @@
     }
   },
   "Koffing": {"lc": {"sets": [{"name": "Tank"}]}},
-  "Weezing-Galar": {"ou": {"sets": [{"name": "Defensive"}]}},
+  "Weezing": {"monotype": {"sets": [{"name": "Physically Defensive (Poison)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Pengairxan", "user_id": 622813}]}]}}},
+  "Weezing-Galar": {"ou": {"sets": [{"name": "Defensive"}]}, "monotype": {"sets": [{"name": "Physically Defensive (Poison)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Pengairxan", "user_id": 622813}]}]}}},
   "Chansey": {
     "pu": {"sets": [{"name": "Defensive"}]},
     "ou": {"sets": [{"name": "Defensive"}]},
@@ -1503,7 +1506,7 @@
       "credits": {"writtenBy": [{"username": "Mashing", "user_id": 537354}], "teams": [{"name": "Quality checked by", "members": [{"username": "corvere", "user_id": 306317}, {"username": "Taka", "user_id": 595062}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
     },
     "ou": {"sets": [{"name": "Choice Band"}, {"name": "Defensive"}]},
-    "monotype": {"sets": [{"name": "Choice Band (Rock)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
+    "monotype": {"sets": [{"name": "Sand Stream (Rock)", "description": "<p>The given EV spread lets Tyranitat outspeed Kingambit and not get 2HKO'ed by Flutter Mane.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Specially Defensive (Dark)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}},
     "doublesou": {"sets": [{"name": "Bulky Attacker"}]},
     "battlestadiumsingles": {"sets": [{"name": "Dragon Dance"}, {"name": "Assault Vest"}, {"name": "Support"}]},
     "vgc2023": {"sets": [{"name": "Assault Vest"}]},
@@ -1599,6 +1602,7 @@
   "Gardevoir": {
     "nationaldex": {"sets": [{"name": "Offensive"}]},
     "uu": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}]},
+    "monotype": {"sets": [{"name": "Choice Specs (Psychic)", "description": "<p>A Modest nature lets Gardevoir OHKO Kingambit with Vacuum Wave after Stealth Rock damage.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}},
     "battlestadiumsingles": {
       "sets": [
         {
@@ -1991,10 +1995,13 @@
     },
     "nationaldexubers": {"sets": [{"name": "Setup Sweeper"}, {"name": "Choice Band"}]}
   },
-  "Jirachi": {"nationaldexmonotype": {"sets": [{"name": "Specially Defensive (Psychic)", "description": "<p>20 Spe EVs lets it outspeed Breloom and Pokemon around that speed tier</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Z-Happy Hour (Psychic)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Choice Scarf (Psychic)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
-  "Torterra": {"ou": {"sets": [{"name": "Shell Smash"}]}},
-  "Infernape": {"nationaldexru": {"sets": [{"name": "Choice Band"}, {"name": "Suicide Lead"}, {"name": "Mixed Wallbreaker"}, {"name": "Swords Dance"}, {"name": "Nasty Plot"}, {"name": "Choice Scarf"}]}},
-  "Empoleon": {"ou": {"sets": [{"name": "Defensive Pivot"}]}, "monotype": {"sets": [{"name": "Specially Defensiive (Water)", "description": "<p>60 Speed EVs lets Empoleon outspeed and 2HKO Corviknight with +2 Surf.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "mushamu", "user_id": 362454}]}]}}},
+  "Jirachi": {
+    "monotype": {"sets": [{"name": "Specially Defensive (Psychic)", "description": "<p>96 Speed EVs lets it outspeed Adamant Mamoswine.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}},
+    "nationaldexmonotype": {"sets": [{"name": "Specially Defensive (Psychic)", "description": "<p>20 Spe EVs lets it outspeed Breloom and Pokemon around that speed tier</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Z-Happy Hour (Psychic)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Choice Scarf (Psychic)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
+  },
+  "Torterra": {"ou": {"sets": [{"name": "Shell Smash"}]}, "monotype": {"sets": [{"name": "Shell Smash (Grass)", "description": "<p>Heavy Slam lets it target Galarian Weezing, Soft Sand lets it have favorable rolls to OHKO Amoonguss at +2.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Dead by Daylight", "user_id": 571069}]}]}}},
+  "Infernape": {"monotype": {"sets": [{"name": "Choiced Attacker (Fire)", "description": "<p>Mach Punch is still an option on Choice Scarf sets, as Kingambit OHKO'es Infernape with +2 Sucker Punch at Supreme Overlord boosts over five stacks, and very few Pokemon on Fire deal with Kingambit.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "CaptainDaimyo", "user_id": 602431}]}]}}, "nationaldexru": {"sets": [{"name": "Choice Band"}, {"name": "Suicide Lead"}, {"name": "Mixed Wallbreaker"}, {"name": "Swords Dance"}, {"name": "Nasty Plot"}, {"name": "Choice Scarf"}]}},
+  "Empoleon": {"ou": {"sets": [{"name": "Defensive Pivot"}]}, "monotype": {"sets": [{"name": "Specially Defensive (Water)", "description": "<p>60 Speed EVs lets Empoleon outspeed and 2HKO Corviknight with +2 Surf.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Specially Defensive (Steel)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "mushamu", "user_id": 362454}, {"username": "TheRealBigC", "user_id": 532450}]}]}}},
   "Staraptor": {
     "monotype": {
       "sets": [
@@ -2176,7 +2183,7 @@
         },
         {
           "name": "Swords Dance",
-          "description": "<p>Mega Garchomp is a passable wallbreaker thanks to its its staggering Attack stat alongside Swords Dance, busting through bulky Pokemon like Garganacl, Hippowdon, and Toxapex. Its typing and solid natural bulk grant it it multiple setup opportunities, such as in the face of Volcarona, Mega Tyranitar, non-Toxic Heatran, and Zapdos. Scale Shot's multi-hit nature makes it effective against Dragonite and Substitute users like Kyurem and Seperior, as well as offensive teams supported by Cyclizar's Shed Tail. Most importantly, the Speed boost lets Mega Garchomp outpace would-be revenge killers like Dragapult, Iron Valiant, Tapu Koko, and—if it decides not to Mega Evolve yet—Choice Scarf Tapu Lele, allowing it to potentially clean up late-game. Fire Fang hits Skarmory, Corviknight, Tangrowth, and cleanly OHKOes Ferrothorn at +2. Mega Garchomp works well on offensive teams, ranging from offense to hyper offense. Pivots like Tapu Koko, Dragapult, Tornadus-T, and Victini give Mega Garchomp easy entry, bringing it onto their switch-ins such as Clodsire, Toxapex, Heatran, and Skeledirge, respectively. Tapu Fini provides Misty Terrain to prevent Mega Garchomp from being crippled by the aforementioned walls—at the cost of weakening its Scale Shot, however—as well as a switch-in to Ice Shard users like Baxcalibur and Weavile that can revenge kill Mega Garchomp easily. Dual screens and Shed Tail support from Tapu Koko or Grimmsnarl and Cyclizar give Mega Garchomp more setup opportunities. Setup sweepers such as Volcarona, Iron Valiant, and Dragonite enjoy Mega Garchomp pressuring foes like Skeledirge and Toxapex. Special wallbreakers like the aforementioned Iron Valiant, Tapu Lele, and Dragapult help against physical walls such as Dondozo and Tera Water Skeledirge that Mega Garchomp struggles with; Tapu Lele's Psychic Terrain also prevents Mega Garchomp's sweep from being cut short by priority attacks from the likes of Weavile, Mega Lopunny, and Kingambit.</p> "
+          "description": "<p>Mega Garchomp is a passable wallbreaker thanks to its its staggering Attack stat alongside Swords Dance, busting through bulky Pokemon like Garganacl, Hippowdon, and Toxapex. Its typing and solid natural bulk grant it it multiple setup opportunities, such as in the face of Volcarona, Mega Tyranitar, non-Toxic Heatran, and Zapdos. Scale Shot's multi-hit nature makes it effective against Dragonite and Substitute users like Kyurem and Serperior, as well as offensive teams supported by Cyclizar's Shed Tail. Most importantly, the Speed boost lets Mega Garchomp outpace would-be revenge killers like Dragapult, Iron Valiant, Tapu Koko, and—if it decides not to Mega Evolve yet—Choice Scarf Tapu Lele, allowing it to potentially clean up late-game. Fire Fang hits Skarmory, Corviknight, Tangrowth, and cleanly OHKOes Ferrothorn at +2. Mega Garchomp works well on offensive teams, ranging from offense to hyper offense. Pivots like Tapu Koko, Dragapult, Tornadus-T, and Victini give Mega Garchomp easy entry, bringing it onto their switch-ins such as Clodsire, Toxapex, Heatran, and Skeledirge, respectively. Tapu Fini provides Misty Terrain to prevent Mega Garchomp from being crippled by the aforementioned walls—at the cost of weakening its Scale Shot, however—as well as a switch-in to Ice Shard users like Baxcalibur and Weavile that can revenge kill Mega Garchomp easily. Dual screens and Shed Tail support from Tapu Koko or Grimmsnarl and Cyclizar give Mega Garchomp more setup opportunities. Setup sweepers such as Volcarona, Iron Valiant, and Dragonite enjoy Mega Garchomp pressuring foes like Skeledirge and Toxapex. Special wallbreakers like the aforementioned Iron Valiant, Tapu Lele, and Dragapult help against physical walls such as Dondozo and Tera Water Skeledirge that Mega Garchomp struggles with; Tapu Lele's Psychic Terrain also prevents Mega Garchomp's sweep from being cut short by priority attacks from the likes of Weavile, Mega Lopunny, and Kingambit.</p> "
         }
       ],
       "credits": {"writtenBy": [{"username": "hidin", "user_id": 589564}, {"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "Ryuji", "user_id": 515767}, {"username": "Sulo", "user_id": 528036}, {"username": "2020 idm boomer", "user_id": 385157}]}, {"name": "Grammar checked by", "members": [{"username": "CryoGyro", "user_id": 331519}, {"username": "Sulo", "user_id": 528036}]}]}
@@ -2464,7 +2471,7 @@
     },
     "nationaldexmonotype": {"sets": [{"name": "Stallbreaker (Flying)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}
   },
-  "Mamoswine": {"ou": {"sets": [{"name": "Stealth Rock"}]}, "nationaldexmonotype": {"sets": [{"name": "Choice Band (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldexru": {"sets": [{"name": "Offensive"}]}},
+  "Mamoswine": {"ou": {"sets": [{"name": "Stealth Rock"}]}, "monotype": {"sets": [{"name": "Entry Hazard Support (Ice)", "description": "<p>56 Speed EVs lets Mamoswine outspeed Adamant Crawdaunt. Smack Down lets it threaten Corviknight, deterring it from staying in to Defog Mamoswine's Stealth Rock.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}}, "nationaldexmonotype": {"sets": [{"name": "Choice Band (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldexru": {"sets": [{"name": "Offensive"}]}},
   "Gallade": {
     "ru": {"sets": [{"name": "Wallbreaker"}, {"name": "Choice Scarf"}]},
     "ou": {"sets": [{"name": "Swords Dance"}]},
@@ -2709,7 +2716,7 @@
       "credits": {"writtenBy": [{"username": "PowerOfMemes", "user_id": 583607}], "teams": [{"name": "Quality checked by", "members": [{"username": "Togkey", "user_id": 400664}, {"username": "Rabia", "user_id": 336073}]}, {"name": "Grammar checked by", "members": [{"username": "Rabia", "user_id": 336073}]}]}
     }
   },
-  "Azelf": {"ru": {"sets": [{"name": "Expert Belt"}, {"name": "Choice Scarf"}, {"name": "Offensive Stealth Rock"}]}, "uu": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}]}, "almostanyability": {"sets": [{"name": "Psychic Surge"}]}, "nationaldexmonotype": {"sets": [{"name": "Entry Hazard Lead", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldexru": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}, {"name": "Suicide Lead"}]}},
+  "Azelf": {"ru": {"sets": [{"name": "Expert Belt"}, {"name": "Choice Scarf"}, {"name": "Offensive Stealth Rock"}]}, "uu": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}]}, "almostanyability": {"sets": [{"name": "Choice Scarf"}, {"name": "Choice Specs"}]}, "nationaldexmonotype": {"sets": [{"name": "Entry Hazard Lead", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldexru": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}, {"name": "Suicide Lead"}]}},
   "Dialga": {"ubers": {"sets": [{"name": "Choiced"}]}},
   "Dialga-Origin": {
     "ubers": {"sets": [{"name": "Stealth Rock Setter"}]},
@@ -2889,6 +2896,7 @@
   },
   "Manaphy": {
     "ou": {"sets": [{"name": "Tail Glow"}, {"name": "Double Dance"}]},
+    "monotype": {"sets": [{"name": "Tail Glow", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Havens", "user_id": 391540}]}]}},
     "nationaldex": {
       "sets": [
         {
@@ -2903,6 +2911,7 @@
       "credits": {"writtenBy": [{"username": "TheSorcer3r", "user_id": 580037}, {"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "hidin", "user_id": 589564}, {"username": "Sulo", "user_id": 528036}, {"username": "TheSorcer3r", "user_id": 580037}, {"username": "ChrisPBacon", "user_id": 544502}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     }
   },
+  "Darkrai": {"monotype": {"sets": [{"name": "Choiced Attacker", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Havens", "user_id": 391540}]}]}}},
   "Arceus": {
     "ubers": {
       "sets": [
@@ -2917,7 +2926,7 @@
       ],
       "credits": {"writtenBy": [{"username": "nimzowitsch", "user_id": 272785}], "teams": [{"name": "Quality checked by", "members": [{"username": "Manaphy", "user_id": 50695}, {"username": "Taka", "user_id": 595062}, {"username": "Lasen", "user_id": 273339}]}, {"name": "Grammar checked by", "members": [{"username": "berry", "user_id": 226455}, {"username": "aurora", "user_id": 109385}, {"username": "ken", "user_id": 594478}]}]}
     },
-    "anythinggoes": {"sets": [{"name": "Swords Dance"}, {"name": "Dragon Dance"}]},
+    "anythinggoes": {"sets": [{"name": "Bulky Setup"}, {"name": "Offensive"}]},
     "balancedhackmons": {"sets": [{"name": "Guts"}]},
     "nationaldexubers": {"sets": [{"name": "Swords Dance"}, {"name": "Dragon Dance"}]}
   },
@@ -3386,7 +3395,12 @@
   },
   "Braviary-Hisui": {"ou": {"sets": [{"name": "Calm Mind", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p> "}]}, "uu": {"sets": [{"name": "Agility"}, {"name": "Calm Mind"}]}},
   "Vullaby": {"lc": {"sets": [{"name": "Physical Attacker"}, {"name": "Nasty Plot"}]}},
-  "Mandibuzz": {"nationaldex": {"sets": [{"name": "Defensive", "description": "<p>The spread allows Mandibuzz to take two Draco Meteors from Choice Specs Dragapult from full, and outspeed defensive Rotom-W.</p> <p>The set(s) displayed are used as a plalceholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]}, "nationaldexmonotype": {"sets": [{"name": "Physically Defensive (Dark)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}, "nationaldexru": {"sets": [{"name": "Defensive", "description": "<p>Speed investment outspeeds Specs Primarina and Modest Magnezone. 252 HP / 160 SpD / 96 Spe is an alternative specially defensive spread.</p> <p>This is a sample set, stay tuned for future updates!</p> "}]}},
+  "Mandibuzz": {
+    "monotype": {"sets": [{"name": "Defog (Dark)", "description": "<p>16 Speed EVs lets it outspeed Adamant Azumarill.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}},
+    "nationaldex": {"sets": [{"name": "Defensive", "description": "<p>The spread allows Mandibuzz to take two Draco Meteors from Choice Specs Dragapult from full, and outspeed defensive Rotom-W.</p> <p>The set(s) displayed are used as a plalceholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]},
+    "nationaldexmonotype": {"sets": [{"name": "Physically Defensive (Dark)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
+    "nationaldexru": {"sets": [{"name": "Defensive", "description": "<p>Speed investment outspeeds Specs Primarina and Modest Magnezone. 252 HP / 160 SpD / 96 Spe is an alternative specially defensive spread.</p> <p>This is a sample set, stay tuned for future updates!</p> "}]}
+  },
   "Zweilous": {"nfe": {"sets": [{"name": "Wallbreaker"}]}, "zu": {"sets": [{"name": "Special Wall"}]}},
   "Hydreigon": {
     "uu": {"sets": [{"name": "Choice Specs"}, {"name": "Choice Scarf"}, {"name": "Nasty Plot"}]},
@@ -3815,6 +3829,7 @@
       "credits": {"writtenBy": [{"username": "UT", "user_id": 523866}, {"username": "Estarossa", "user_id": 461329}], "teams": [{"name": "Quality checked by", "members": [{"username": "Lily", "user_id": 481709}, {"username": "Sulo", "user_id": 528036}, {"username": "Mystras", "user_id": 530118}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "skippergamez", "user_id": 620268}, {"username": "UT", "user_id": 523866}]}]}
     },
     "ou": {"sets": [{"name": "Defensive Utility"}]},
+    "monotype": {"sets": [{"name": "Defog (Fire)", "description": "<p>128 Speed Evs lets Talonflame outspeed Ogerpon-W.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Neko", "user_id": 542526}]}]}},
     "vgc2023": {"sets": [{"name": "Support"}]},
     "almostanyability": {
       "sets": [
@@ -4438,6 +4453,7 @@
   },
   "Kommo-o": {
     "ou": {"sets": [{"name": "Clangorous Soul"}]},
+    "monotype": {"sets": [{"name": "Clangorous Soul (Dragon)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Clangorous Soul (Fighting)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Havens", "user_id": 391540}]}]}},
     "nationaldex": {
       "sets": [
         {
@@ -5324,7 +5340,7 @@
   },
   "Calyrex": {"pu": {"sets": [{"name": "Double Dance", "description": "<p>Calyrex is not viable in PU, but this is considered its best set.</p> <p>The Speed investment lets +2 Calyrex outspeed Choice Scarf Alolan Dugtrio.</p> "}]}},
   "Calyrex-Ice": {"ubers": {"sets": [{"name": "Offensive Trick Room"}, {"name": "Choice Band"}, {"name": "Agility"}]}},
-  "Calyrex-Shadow": {"anythinggoes": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice Specs"}, {"name": "Choice Scarf"}]}},
+  "Calyrex-Shadow": {"anythinggoes": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice Specs"}, {"name": "Choice Scarf"}, {"name": "Life Orb"}]}},
   "Wyrdeer": {"pu": {"sets": [{"name": "Double Dance", "description": "<p>Grassy Seed should only be used alongside Thwackey, which is the only reliable Grassy Terrain setter. 216 Speed EVs let Wyrdeer outspeed Electrode after using Agility, and the investment in bulk ensures it isn't 2HKOed by Choice Scarf Basculin's Wave Crash. Wyrdeer's EV spread is rather flexible, though, meaning it can be customized to suit a particular team's needs.</p> <p>Sample set. Stay tuned for updates!</p> "}, {"name": "Choice Specs"}]}},
   "Kleavor": {
     "uu": {"sets": [{"name": "Offensive Pivot"}, {"name": "Choice Scarf"}, {"name": "Swords Dance"}]},
@@ -5405,7 +5421,10 @@
     },
     "vgc2023": {"sets": [{"name": "TR Sweeper"}]}
   },
-  "Ursaluna-Bloodmoon": {"ou": {"sets": [{"name": "Offensive Calm Mind"}, {"name": "Bulky Calm Mind"}]}, "monotype": {"sets": [{"name": "Bulky Wallbreaker (Ground)", "description": "<p>68 Speed EVs lets it outspeed uninvested Magnezone and Hisuian Goodra. Wise Glasses lets Vacuum Wave OHKO Chien-Pao.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "mushamu", "user_id": 362454}]}]}}},
+  "Ursaluna-Bloodmoon": {
+    "ou": {"sets": [{"name": "Offensive Calm Mind"}, {"name": "Bulky Calm Mind"}]},
+    "monotype": {"sets": [{"name": "Bulky Wallbreaker (Ground)", "description": "<p>68 Speed EVs lets it outspeed uninvested Magnezone and Hisuian Goodra. Wise Glasses lets Vacuum Wave OHKO Chien-Pao.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}, {"name": "Calm Mind (Ground)", "description": "<p>68 Speed EVs lets it outspeed uninvested Magnezone and Hisuian Goodra.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "mushamu", "user_id": 362454}, {"username": "TheRealBigC", "user_id": 532450}]}]}}
+  },
   "Basculegion": {
     "ru": {"sets": [{"name": "Choice Specs"}]},
     "ubers": {"sets": [{"name": "Rain Sweeper"}]},
@@ -5564,6 +5583,19 @@
         }
       ],
       "credits": {"writtenBy": [{"username": "ChrisPBacon", "user_id": 544502}], "teams": [{"name": "Quality checked by", "members": [{"username": "sealoo", "user_id": 514772}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
+    },
+    "nationaldexuu": {
+      "sets": [
+        {
+          "name": "Calm Mind Sweeper",
+          "description": "<p>Enamorus is a potent sweeper, capable of beating common defensive staples in Skarmory, Mega Sableye, and Iron Treads. Its expansive coverage in Earth Power and Mystical Fire allows it to hit every Steel-type in the tier, such as Celesteela, Skarmory, Aegislash, and Scizor, for super effective damage, securing either an OHKO or a 2HKO on them with a Calm Mind boost. It also allows Enamorus to work around other Fairy-resistant foes such as Skeledirge, Galarian Slowking, and Iron Moth as well as offensive checks in Hisuian Arcanine and Victini, while its Speed tier allows it to outspeed and OHKO Nihilego. Taunt is an option to potentially beat and deny recovery from status users like Clefable, Hippowdon, and Chansey that try to slow down or stall Enamorus. These traits make it an excellent partner for Aegislash, with SubToxic variants appreciating the ability to threaten or KO Skeledirge and Steel-types like Iron Treads, while Swords Dance variants enjoy its ability to threaten Buzzwole, Iron Hands, and Whirlwind Skarmory. Similarly, Iron Moth enjoys many of its checks being removed, particularly Mega Tyranitar and Latias. However, Enamorus's frailty and lack of immediate power makes it difficult for it to break past checks such as Galarian Slowking and Celesteela, which threaten to OHKO it with Sludge Bomb and Heavy Slam, respectively, and are only 2HKOed after a Calm Mind boost. Similarly, Chansey can use Toxic and Seismic Toss to take advantage of Enamorus's lack of longevity. This means it appreciates partners such as Tyranitar and Bisharp, which are capable of Pursuit trapping Galarian Slowking and Chansey, as well as Cinderace, which can break past Celesteela as well as provide pivoting to bring Enamorus in safely. Its Speed tier also means it is pressured by faster threats such as Iron Moth and Latios. This means it enjoys speed control from partners such as Cinderace and Meowscarada, which are able to outspeed its offensive checks. To compensate for its relative frailty, it also enjoys slow pivots to bring it in safely, such as Slowbro, Galarian Slowking, and Scizor, and in return it provides an offensive check to the Dark-types they are threatened by, such as Mega Tyranitar, Meowscarada, and Hydreigon.</p> "
+        },
+        {
+          "name": "Choice Specs",
+          "description": "<p>Choice Specs allows Enamorus to be more immediately fearsome against bulky teams, now threatening 2HKOs on most Fairy-resistant foes without the need for a turn of setup. In addition to Earth Power and Mystical Fire, Superpower allows it to threaten a 3HKO on Chansey. This also allows Enamorus to potentially snowball through weakened teams once faster foes like Meowscarada and Cinderace have been removed. Alternatively, Psychic hits Poison-types that aren't weak to Earth Power, such as Mega Venusaur and Amoonguss. In addition to Pursuit trappers like Mega Tyranitar, speed control from the likes of Cinderace, and slow pivots like Slowbro, Choice Specs Enamorus functions as an excellent partner to special sweepers such as Iron Moth, Keldeo, Blacephalon, and Serperior due to its ability to remove Galarian Slowking without competing for the same team slot. These options can also be used to remove Steel- and Poison-types to allow Enamorus to use its powerful Moonblast more freely. As Enamorus is weak to Stealth Rock, it appreciates being partnered with strong entry hazard removal options, such as Rapid Spin Iron Treads, Defog Salamence, Defog Tapu Fini, and Court Change Cinderace, which allow it to more easily work around opposing entry hazard setters such as Hippowdon and suicide leads like Excadrill. Due to its Choice Specs, however, Enamorus becomes prediction-reliant against teams that stack multiple Fairy-resistant foes, so Stealth Rock and Knock Off support from Clefable, Tyranitar, and Scizor allows it to more effectively break down its checks over the course of a game.</p> "
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "TBIC106", "user_id": 585020}], "teams": [{"name": "Quality Checked by", "members": [{"username": "Runo", "user_id": 568189}]}, {"name": "Grammar checked by", "members": [{"username": "red fintans", "user_id": 637479}, {"username": "Milak", "user_id": 262594}]}]}
     }
   },
   "Enamorus-Therian": {
@@ -6357,6 +6389,7 @@
   },
   "Bramblin": {"lc": {"sets": [{"name": "Spinner"}]}, "zu": {"sets": [{"name": "Utility"}]}},
   "Brambleghast": {
+    "ru": {"sets": [{"name": "Rapid Spin"}]},
     "almostanyability": {
       "sets": [{"name": "Physically Defensive", "description": "<p>Brambleghast boasts several attributes that make it a ideal choice on hazard stacking teams; its typing is ideal for spinblocking in the face of Donphan, Iron Treads, and Quaquaval, and it offers role compression in Spikes and Rapid Spin. Giga Drain allows Brambleghast to force out Dondozo as well as the aforementioned Rapid Spin users, and Fluffy further enhances its ability to beat such threats. Alternatively, Triage lets it pick off weakened sweepers like Greninja and Sandy Shocks, as well safely use Strength Sap against faster foes. Brambleghast appreciates partners such as Kilowattrel and Sandy Shocks, who threaten Corviknight and dissuade it from using Defog, letting Brambleghast's team maintain entry hazards in the face of both Rapid Spin and Defog. Poison-types like Iron Moth removing Toxic Spikes let Brambleghast not have to worry about switching into Knock Off and getting its Heavy-Duty Boots removed.</p> "}],
       "credits": {"writtenBy": [{"username": "Tanny89k", "user_id": 546606}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
@@ -8902,17 +8935,17 @@
     },
     "1v1": {"sets": [{"name": "Booster Energy: Attack"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "SwordIsBored", "user_id": 489963}]}]}}
   },
-  "Sinistcha": {"battlestadiumsingles": {"sets": [{"name": "Defensive"}]}},
+  "Sinistcha": {"monotype": {"sets": [{"name": "Calm Mind (Ghost)", "description": "<p>96 Speed EVs outspeeds Adamant Azumarill.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Giyu", "user_id": 574288}]}]}}, "battlestadiumsingles": {"sets": [{"name": "Defensive"}]}},
   "Okidogi": {"battlestadiumsingles": {"sets": [{"name": "Bulk Up", "description": "<h1>EV Spreads</h1> <ul> <li><strong>100 Speed EVs</strong>: This Speed investment outspeeds Jolly Ursaluna.</li> </ul> "}, {"name": "Assault Vest"}]}},
   "Munkidori": {"battlestadiumsingles": {"sets": [{"name": "Choice Scarf Pivot"}, {"name": "Focus Sash Lead"}]}},
   "Fezandipiti": {"battlestadiumsingles": {"sets": [{"name": "Calm Mind"}, {"name": "Toxic Staller"}]}},
   "Ogerpon": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]}, "battlestadiumsingles": {"sets": [{"name": "Offensive Pivot"}]}},
-  "Ogerpon-Wellspring": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Offensive Pivot"}]}},
+  "Ogerpon-Wellspring": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Offensive Pivot"}]}, "monotype": {"sets": [{"name": "Swords Dance (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "CaptainDaimyo", "user_id": 602431}]}]}}},
   "Ogerpon-Hearthflame": {
     "monotype": {"sets": [{"name": "Swords Dance (Fire)", "description": "<p>Knock Off, Power Whip, Encore, and Taunt are are also all possible moves. Knock Off lets it break through Skeledirge, Power Whip nearly OHKOes Toxapex at +2, and Encore and Taunt murks defensive counterplay and opens up setup opportunities for Ogerpon.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Swiffix", "user_id": 547532}]}]}},
     "battlestadiumsingles": {"sets": [{"name": "Offensive", "description": "<h1>Alternate EV Spreads</h1> <ul> <li><strong>252 HP / 100 Atk / 92 Def / 60 Spe with Adamant</strong>: This bulkier spread outspeeds Iron Bundle after Trailblaze, while avoiding a 2HKO from Focus Sash Chien-Pao's Sucker Punch. The Speed EVs can be dropped to 36 if not using Trailblaze, to outspeed Jolly Breloom.</li> </ul> "}, {"name": "Leech Seed"}]}
   },
-  "Ogerpon-Cornerstone": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Utility"}]}, "battlestadiumsingles": {"sets": [{"name": "Sturdy Offense"}]}},
+  "Ogerpon-Cornerstone": {"ou": {"sets": [{"name": "Swords Dance"}, {"name": "Utility"}]}, "monotype": {"sets": [{"name": "Swords Dance (Rock)", "description": "<p>Power Whip provides Ogerpon-C the ability to possibly OHKO Toxapex at +2, while Knock Off lets it deal with Gholdengo.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Dead by Daylight", "user_id": 571069}]}]}}, "battlestadiumsingles": {"sets": [{"name": "Sturdy Offense"}]}},
   "Syclant": {"cap": {"sets": [{"name": "Offensive Pivot"}]}},
   "Revenankh": {"cap": {"sets": [{"name": "Bulk Up"}]}},
   "Pyroak": {"cap": {"sets": [{"name": "Contrary Tank"}]}},
