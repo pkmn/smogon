@@ -74,6 +74,7 @@
   },
   "Raichu-Alola": {"nationaldexmonotype": {"sets": [{"name": "Surge Surfer (Electric)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
   "Sandshrew-Alola": {"lc": {"sets": [{"name": "Snow Sweeper"}]}},
+  "Sandslash": {"nu": {"sets": [{"name": "Sand Wallbreaker"}, {"name": "Physical Wall"}]}},
   "Sandslash-Alola": {"monotype": {"sets": [{"name": "Slush Rush Support (Ice)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}}},
   "Clefable": {
     "ou": {"sets": [{"name": "Utility"}]},
@@ -229,6 +230,7 @@
     }
   },
   "Bellsprout": {"lc": {"sets": [{"name": "Sun Sweeper"}]}},
+  "Victreebel": {"nu": {"sets": [{"name": "Sun Sweeper"}]}},
   "Golem-Alola": {"monotype": {"sets": [{"name": "Choice Band (Rock)", "description": "<p>Choice Band lets Alolan Golem OHKO Kingambit with Brick Break.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "TheRealBigC", "user_id": 532450}]}]}}},
   "Slowpoke": {"lc": {"sets": [{"name": "Defensive"}]}},
   "Slowbro": {
@@ -471,7 +473,7 @@
     }
   },
   "Koffing": {"lc": {"sets": [{"name": "Tank"}]}},
-  "Weezing": {"monotype": {"sets": [{"name": "Physically Defensive (Poison)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Pengairxan", "user_id": 622813}]}]}}},
+  "Weezing": {"nu": {"sets": [{"name": "Physical Wall"}]}, "monotype": {"sets": [{"name": "Physically Defensive (Poison)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Pengairxan", "user_id": 622813}]}]}}},
   "Weezing-Galar": {"ou": {"sets": [{"name": "Defensive"}]}, "monotype": {"sets": [{"name": "Physically Defensive (Poison)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Pengairxan", "user_id": 622813}]}]}}},
   "Chansey": {
     "pu": {"sets": [{"name": "Defensive"}]},
@@ -480,7 +482,7 @@
       "sets": [
         {
           "name": "Utility Wall",
-          "description": "<p>While Chansey is bulkier than Blissey thanks to Eviolite, this is rendered moot due to it being affected by hazards and Blissey’s ability to use Heavy-Duty Boots. However, this set has a niche on stall teams, as it takes over as the utility wall, freeing up Blissey to run Calm Mind to better beat special setup sweepers like Oricorio-P, Vivillon, and Mesprit. Thunder Wave allows Chansey to cripple Fighting-types that love to switch in on it and threaten it out while also slowing down Quiver Dance users. Heal Bell allows Chansey to clear status conditions for its teammates, which helps it against more defensive teams that may carry Toxic. Tera Ghost allows it to soft check a multitude of common physical attackers like Toxicroak and Tauros, while Tera Fairy grants it a great defensive typing against most of the metagame as well as a resistance to Fighting-type attacks.</p> <p>Thanks to Chansey taking care of Blissey’s utility and ability to run Stealth Rock, Blissey and Sandaconda can now use Calm Mind and Coil for added insurance against special and physical boosters, respectively. Chansey quickly falls against physical attackers, so physical walls like Avalugg, Sableye, and Sandaconda make for great teammates. Because Chansey is forced to run Eviolite, it requires hazard control from the likes of Avalugg and Braviary. Common switch-ins to Trick and Knock Off like Sandaconda and Sticky Hold Muk are also greatly appreciated against Pokemon like Sableye, Mesprit, and Bombirdier, as Chansey requires its Eviolite. Setup sweepers like Mesprit and Hisuian Sneasel tend to overwhelm Chansey, so Pokemon like Sableye and Choice Scarf Ditto make for amazing partners. Against Rotom, Chansey is completely useless and is especially taken advantage of by Nasty Plot sets or crippled by Choice Scarf sets with Trick, so Pokemon like Umbreon, Crocalor, and Sticky Hold Muk check it.</p> "
+          "description": "<p>Thunder Wave allows Chansey to cripple Fighting-types that love to switch in on it and threaten it out. Tera Ghost allows it to soft check a multitude of common physical attackers like Toxicroak and Tauros, while Tera Fairy grants it a great defensive typing against most of the metagame as well as a resistance to Fighting-type attacks.</p> <p>Thanks to Chansey's ability to run Stealth Rock, Sandaconda and Bronzong can now use Coil and Iron Defense for added insurance against physical boosters. Chansey quickly falls against physical attackers, so physical walls like Avalugg, Sableye, and Sandaconda make for great teammates. Because Chansey is forced to run Eviolite, it requires hazard control from the likes of Avalugg and Braviary. Common switch-ins to Trick and Knock Off like Sandaconda and Sticky Hold Muk are also greatly appreciated against Pokemon like Sableye, Mesprit, and Bombirdier, as Chansey requires its Eviolite. Setup sweepers like Mesprit and Hisuian Sneasel tend to overwhelm Chansey, so Pokemon like Sableye and Choice Scarf Ditto make for amazing partners.</p> "
         }
       ],
       "credits": {"writtenBy": [{"username": "PowerOfMemes", "user_id": 583607}], "teams": [{"name": "Quality checked by", "members": [{"username": "plznostep", "user_id": 595639}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
@@ -1209,7 +1211,7 @@
   "Girafarig": {"nfe": {"sets": [{"name": "Nasty Plot"}, {"name": "Calm Mind"}]}},
   "Forretress": {"ru": {"sets": [{"name": "Support"}]}, "monotype": {"sets": [{"name": "Entry Hazard Support (Bug)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]}},
   "Dunsparce": {"nfe": {"sets": [{"name": "Calm Mind"}, {"name": "Utility"}, {"name": "Coil"}]}, "pu": {"sets": [{"name": "Stealth Rock"}]}},
-  "Gligar": {"nationaldexru": {"sets": [{"name": "Physically Defensive"}]}},
+  "Gligar": {"nu": {"sets": [{"name": "Physical Wall"}]}, "nationaldexru": {"sets": [{"name": "Physically Defensive"}]}},
   "Qwilfish": {
     "nu": {
       "sets": [
@@ -1858,6 +1860,7 @@
     }
   },
   "Altaria": {
+    "nu": {"sets": [{"name": "Utility"}, {"name": "Trapper"}]},
     "nationaldex": {"sets": [{"name": "Dragon Dance", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p> "}]},
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defog", "description": "<p>The EV spread is to outrun Adamant Brute Bonnet. Fire Spin should be run alongside Perish Song.</p> "}]},
     "nationaldexmonotype": {
@@ -2171,7 +2174,7 @@
       "credits": {"writtenBy": [{"username": "Pengairxan", "user_id": 622813}], "teams": [{"name": "Poison analysis by", "members": [{"username": "Pengairxan", "user_id": 622813}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "CrossHeart", "user_id": 593863}, {"username": "Mateeus", "user_id": 321991}]}, {"name": "Grammar checked by", "members": [{"username": "royalfluxh", "user_id": 493260}]}]}
     }
   },
-  "Bronzong": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Stealth Rock"}, {"name": "Bulky Setup Sweeper"}]}, "nationaldexru": {"sets": [{"name": "Tank"}]}},
+  "Bronzong": {"nu": {"sets": [{"name": "Utility"}, {"name": "IronPress"}]}, "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Stealth Rock"}, {"name": "Bulky Setup Sweeper"}]}, "nationaldexru": {"sets": [{"name": "Tank"}]}},
   "Spiritomb": {"pu": {"sets": [{"name": "Calm Mind"}, {"name": "Nasty Plot"}, {"name": "Utility"}]}, "nu": {"sets": [{"name": "Calm Mind"}]}},
   "Gabite": {
     "pu": {
@@ -2291,7 +2294,7 @@
       "credits": {"writtenBy": [{"username": "Hera", "user_id": 414072}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Lumari", "user_id": 232216}]}]}
     }
   },
-  "Hippopotas": {"zu": {"sets": [{"name": "Mixed Wall"}]}},
+  "Hippopotas": {"nu": {"sets": [{"name": "Sand Setter"}]}, "zu": {"sets": [{"name": "Mixed Wall"}]}},
   "Hippowdon": {
     "uu": {
       "sets": [
@@ -2749,13 +2752,16 @@
     "uu": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}]},
     "almostanyability": {
       "sets": [
-        {"name": "Choice Scarf"},
+        {
+          "name": "Choice Scarf",
+          "description": "<p>With its high Speed allowing it to outspeed nearly the entire unboosted metagame, a wide movepool, and powerful Psychic Terrain-boosted Expanding Force, Azelf functions as one of the best anti-offense pivots and cleaners in the tier. U-turn provides fast pivoting while threatening an OHKO on Meowscarada and putting pressure on the opponent. Trick allows Azelf to cripple a passive foe such as Blissey or Empoleon with a Choice Scarf while also securing a 2HKO on Manaphy with Expanding Force after minor hazard chip removing its Assault Vest. Flamethrower threatens an OHKO on Chien-Pao and a 2HKO on Corviknight and Kingambit, while Dazzling Gleam threatens an OHKO on offensive Roaring Moon, 2HKOes Hisuian Samurott, and chips Mandibuzz, forcing it to Roost. Knock Off is another option, allowing Azelf to cripple switch-ins such as Empoleon, Hisuian Goodra, and Scream Tail without the loss of its own item. Azelf pairs fantastically with fast, frail offensive pivots such as Barraskewda, Hisuian Electrode, and Roaring Moon, which appreciate Psychic Terrain eliminating their priority weakness while forming a potent VoltTurn core with Azelf, taking advantage of the special walls like Hisuian Goodra and Heatran that it can struggle with. Azelf is frail and vulnerable to entry hazards, so bulky hazard removers such as Corviknight, Great Tusk, and Quaquaval are recommended teammates, allowing Azelf to come in repeatedly over the course of a game to threaten out strong offensive threats that pressure these walls.</p> "
+        },
         {
           "name": "Choice Specs",
           "description": "<p>A combination of excellent Special Attack, high Speed, Psychic Surge, Expanding Force, and good coverage allows Choice Specs Azelf to function as a powerful threat that can OHKO many of the tier's dangerous offensive threats and sweep weakened teams with ease. Knock Off lets Azelf reliably 2HKO RegenVest Manaphy with Expanding Force and cripple switch-ins such as Empoleon, Heatran, and RegenVest Hisuian Goodra, while U-turn allows Azelf to pivot out of the aforementioned switch-ins. Dazzling Gleam threatens an OHKO on RegenVest Roaring Moon after a Knock Off and 2HKOes Mandibuzz. Trick can be used instead to more permanently cripple defensive switch-ins such as Blissey, Empoleon, and Mandibuzz, while Flamethrower can be used to threaten Steel-types, allowing Azelf to OHKO Kingambit and 2HKO Corviknight. Choice Specs allows Azelf to threaten an OHKO against Pokemon such as Dragonite, Primordial Sea Zapdos, and non-specially defensive Garchomp. Azelf pairs up well with fast and frail offensive Pokemon such as Barraskewda, Meowscarada, and Hisuian Electrode, as they appreciate the Psychic Terrain Azelf sets up. Azelf also appreciates pivots such as the previously mentioned teammates, Galarian Zapdos, and Roaring Moon, as they help pressure switch-ins such as Empoleon, Heatran, and RegenVest Hisuian Goodra, while also forming a VoltTurn core with Azelf to generate momentum. Defensive teammates such as Corviknight, RegenVest Manaphy, and Kommo-o are appreciated as they can check the faster threats that force Azelf out such as Roaring Moon, Meowscarada, and Chien-Pao. Pokemon that can remove the entry hazards Azelf is prone to, such as the aforementioned Corviknight, make great teammates as well.</p> "
         }
       ],
-      "credits": {"writtenBy": [{"username": "Kinetic1000", "user_id": 552227}], "teams": [{"name": "Quality checked by", "members": [{"username": "cat", "user_id": 580765}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "Clouds", "user_id": 356215}]}]}
+      "credits": {"writtenBy": [{"username": "Gimmickyasitgets", "user_id": 540420}, {"username": "Kinetic1000", "user_id": 552227}], "teams": [{"name": "Quality checked by", "members": [{"username": "cat", "user_id": 580765}, {"username": "Kinetic1000", "user_id": 552227}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}, {"username": "Clouds", "user_id": 356215}]}]}
     },
     "nationaldexmonotype": {"sets": [{"name": "Entry Hazard Lead", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}]},
     "nationaldexru": {"sets": [{"name": "Offensive Pivot"}, {"name": "Nasty Plot"}, {"name": "Suicide Lead"}]}
@@ -2956,6 +2962,7 @@
     }
   },
   "Darkrai": {"monotype": {"sets": [{"name": "Choiced Attacker", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Havens", "user_id": 391540}]}]}}},
+  "Shaymin": {"nu": {"sets": [{"name": "Healing Wish"}, {"name": "Offensive"}]}},
   "Arceus": {
     "ubers": {
       "sets": [
@@ -3073,10 +3080,10 @@
       "sets": [
         {
           "name": "Fur Coat",
-          "description": "<p>Fur Coat Arceus-Poison's great bulk and typing make it an effective check to Koraidon and Enamorus. Its natural immunity to poison notably inflicted by Mortal Spin and Toxic, which are common countermeasures to setup Arceus formes, also makes it a dangerous Calm Mind sweeper. Icicle Plate Judgment hits numerous threats super effectively, including Koraidon, Groudon, Eternatus, Rayquaza, and Ting-Lu while also hitting both Dialga-O and Corviknight neutrally, preventing them from comfortably blocking Mortal Spin and Toxic. Mortal Spin removes entry hazards and bypasses Magic Bounce, while Toxic bypasses Covert Cloak and exerts more pressure on defensive checks like Ice Scales Arceus formes. Tera Steel retains Arceus-Poison's poison immunity while granting a resistance to Flying-type attacks from Rayquaza. Arceus-Poison is susceptible to Imposter users, as Imposter copies Arceus-Poison's immunity to poison, so a threatening Imposter-proof like Flare Boost Flutter Mane is recommended. Groudon is a physical attacker that Arceus-Poison cannot handle, so it appreciates a teammate like Corviknight or a Jungle Healing Pokemon such as Dondozo. Offensive wallbreakers like Koraidon and Enamorus can be Imposter-proofed by Arceus-Poison and offer high immediate power to compensate for Arceus-Poison's low initial power.</p> "
+          "description": "<p>Fur Coat Arceus-Poison is a pretty good wall thanks to its typing, which gives it an edge against foes like Ash-Greninja, Pheromosa, Mega Beedrill, and Choice Band Mega Mewtwo X. Earth Plate + Judgment provides a solid way to hit most Steel-types and synergizes well with Mortal Spin, which can remove entry hazards against most teams. Strength Sap slows down most physical threats, provides an advantage against Imposter users, and offers some leeway against Ground-type coverage like Headlong Rush. Arceus-Poison's biggest nemesis is Magic Guard Mega Mewtwo X; it can ruin Arceus-Poison with Lumina Crash, eat Judgment completely fine, and it enjoys switching in on Mortal Spin as a means to block paralysis. As such, support against it, like Yveltal and Ho-Oh, is highly recommended; these also help against Ground-type threats like Mega Garchomp. Arceus-Poison also appreciates allied hazard removal, as Celesteela completely shuts it down, and Steel-types like Mega Steelix can spinblock if Arceus-Poison doesn't have many boosts. Arceus-Poison Imposter-proofs itself thanks to Earth Plate, although it usually takes a while to win the one-on-one; Jungle Healing Chansey can also deny its healing and shake off poison.</p> "
         }
       ],
-      "credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
+      "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
     }
   },
   "Arceus-Psychic": {"ubers": {"sets": [{"name": "Stored Power"}]}},
@@ -4301,7 +4308,7 @@
     "nu": {"sets": [{"name": "Assault Vest Tank"}]}
   },
   "Ribombee": {"ou": {"sets": [{"name": "Sticky Web"}]}, "monotype": {"sets": [{"name": "Sticky Web (Bug)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "lavarina", "user_id": 566051}]}]}}},
-  "Lycanroc": {"ru": {"sets": [{"name": "Swords Dance"}, {"name": "Suicide Lead"}]}, "almostanyability": {"sets": [{"name": "Rocky Payload"}]}},
+  "Lycanroc": {"nu": {"sets": [{"name": "Sand Wallbreaker"}, {"name": "Lead"}]}, "ru": {"sets": [{"name": "Swords Dance"}, {"name": "Suicide Lead"}]}, "almostanyability": {"sets": [{"name": "Rocky Payload"}]}},
   "Lycanroc-Midnight": {
     "pu": {
       "sets": [
@@ -4442,7 +4449,7 @@
   "Oranguru": {"zu": {"sets": [{"name": "Calm Mind"}]}},
   "Passimian": {"nu": {"sets": [{"name": "Choice Scarf"}]}},
   "Sandygast": {"lc": {"sets": [{"name": "Defensive"}], "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Hacker", "user_id": 387847}]}]}}, "nfe": {"sets": [{"name": "Physically Defensive"}]}, "zu": {"sets": [{"name": "Physical Wall"}]}},
-  "Palossand": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}]}, "almostanyability": {"sets": [{"name": "Physically Defensive"}]}},
+  "Palossand": {"nu": {"sets": [{"name": "Physical Wall"}]}, "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Defensive"}]}, "almostanyability": {"sets": [{"name": "Physically Defensive"}]}},
   "Mimikyu": {
     "ou": {"sets": [{"name": "Swords Dance"}]},
     "uu": {"sets": [{"name": "Swords Dance", "description": "<p>Tera Fire allows Mimikyu to avoid Flame Body and Will-O-Wisp from Talonflame and Coalossal. Tera Ghost powers up Shadow Claw and lets it OHKO Tinkaton after a boost.</p> "}]},
@@ -4956,6 +4963,7 @@
   "Impidimp": {"lc": {"sets": [{"name": "Dual Screens"}]}},
   "Morgrem": {"nfe": {"sets": [{"name": "Dual Screens"}, {"name": "Choice Specs"}]}, "zu": {"sets": [{"name": "Substitute + Nasty Plot"}]}},
   "Grimmsnarl": {
+    "nu": {"sets": [{"name": "Offensive"}, {"name": "Bulk Up"}]},
     "nationaldex": {
       "sets": [
         {
@@ -6747,6 +6755,7 @@
     "stabmons": {"sets": [{"name": "Choice Specs"}]}
   },
   "Orthworm": {
+    "nu": {"sets": [{"name": "Coil"}, {"name": "Utility"}]},
     "ubers": {
       "sets": [
         {
@@ -6992,6 +7001,7 @@
     }
   },
   "Tatsugiri": {
+    "nu": {"sets": [{"name": "Nasty Plot"}, {"name": "Choice Item"}]},
     "ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p> ", "sets": [{"name": "Offensive Spinner", "description": "<p>Despite having no effect in singles, Commander is used so Gardevoir can't Trace Storm Drain and wall Tatsugiri. Tera Steel turns the tide on Fairy-types such as Gardevoir and Sylveon. It also helps against Cryogonal's Freeze Dry.</p> "}]},
     "vgc2023": {"sets": [{"name": "Choice Item"}, {"name": "Sash"}]},
     "almostanyability": {
