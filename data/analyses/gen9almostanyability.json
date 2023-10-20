@@ -37,17 +37,6 @@
     ],
     "credits": {"writtenBy": [{"username": "Hera", "user_id": 414072}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Gimmickyasitgets", "user_id": 540420}]}, {"name": "Grammar checked by", "members": [{"username": "Lumari", "user_id": 232216}]}]}
   },
-  "Tauros-Paldea-Blaze": {
-    "sets": [
-      {"name": "Bulk Up"},
-      {
-        "name": "Wallbreaker",
-        "description": "<p>Paldean Tauros-F secures a niche in AAA thanks to Desolate Land, which allows it to take advantage of its powerful STAB moves, decent Speed tier, and great Attack. Raging Bull is a consistent STAB option with no drawbacks, whereas Flare Blitz provides the power necessary to 2HKO particularly sturdy foes like Ting-Lu. Earthquake lets Paldean Tauros-F hit Skeledirge, which otherwise blanks it. Paldean Tauros-F is limited by its good but not great Speed tier and bulky Fire-resistant foes like Dondozo and Gyarados, so ways to deal with its offensive and defensive counterplay are important. Fast Pokemon like Chien-Pao and Iron Moth can force out foes like Kilowattrel and Sandy Shocks. Speed control via Thunder Wave from allies like Blissey and Scream Tail is useful in deterring faster foes like Greninja. Electric-types like Rotom-W and Kilowattrel can consistently force out the sturdy Water-types that threaten Paldean Tauros-F while bringing it in on their switch-ins like Roaring Moon and Ting-Lu.</p> "
-      }
-    ],
-    "credits": {"writtenBy": [{"username": "Hera", "user_id": 414072}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}, {"username": "autumn", "user_id": 384270}]}]}
-  },
-  "Tauros-Paldea-Aqua": {"sets": [{"name": "Choice Band"}]},
   "Gyarados": {"sets": [{"name": "Dragon Dance"}]},
   "Vaporeon": {"sets": [{"name": "Defensive"}]},
   "Zapdos": {
@@ -172,15 +161,6 @@
     "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
   },
   "Weavile": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}]},
-  "Glaceon": {
-    "sets": [
-      {
-        "name": "Choice Specs",
-        "description": "<p>Glaceon is a potent special attacker that can pressure common specially defensive threats like Garchomp, Roaring Moon, and Toxapex with Ice Beam + Freeze-Dry. Shadow Ball is used for Skeledirge and Scream Tail, while Mud Shot hits Steel-types like Regenerator Tinkaton and can OHKO Iron Moth. 22 Speed EVs allow Glaceon to outspeed Corviknight, and the rest are invested into bulk to better take hits from Body Press Corviknight and Torch Song Skeledirge. Special attackers like Choice Scarf Sandy Shocks and Iron Moth benefit from Glaceon breaking through special walls like Garchomp and Roaring Moon that they could otherwise struggle with. Glaceon can have a hard time switching in due its poor defensive typing and susceptibility to entry hazards, so having a teammate that can remove hazards and safely pivot it in like Corviknight or Iron Treads is recommended. Glaceon can struggle with bulky Steel-types like Kingambit, so pairing it with a Fighting-type like Lucario or Slither Wing is advised. Glaceon is also slow and would benefit from faster teammates like Choice Scarf Meowscarada that can pressure offensive threats that may threaten it.</p> "
-      }
-    ],
-    "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "royalfluxh", "user_id": 493260}]}]}
-  },
   "Rotom-Wash": {
     "sets": [
       {
@@ -227,7 +207,16 @@
     ],
     "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}]}]}
   },
-  "Manaphy": {"sets": [{"name": "RegenVest"}, {"name": "Tail Glow"}]},
+  "Manaphy": {
+    "sets": [
+      {
+        "name": "RegenVest",
+        "description": "<p>Manaphy with its good all around stats and excellent defensive typing in conjunction with fantastic moves in Scald, Knock Off, and U-turn makes for one of the premier RegenVest users that is able to check Gholdengo, Iron Moth, Walking Wake, and Magic Guard Heatran. Ice Beam can be used to hit Dragonite, Kommo-o, and Desolate Land Landorus, while Take Heart can be used to make Manaphy a late game setup threat as well as curing any status if its Assault Vest is removed by Knock Off. 0 Speed IVs and a Sassy nature ensure that Manaphy can slow pivot against opposing Manaphy, providing safer entry for its teammates. An alternative EV Spread of 252 HP / 252 Def / 4 SpD with a Relaxed nature can also be used to better check physical threats like Dragonite, Roaring Moon, and Great Tusk while still maintaining solid special bulk with an Assault Vest. Physically defensive walls like Mandibuzz, Corviknight, and defensive Zapdos appreciate Manaphy being able to soak up special hits and allowing them to wall more easily thanks to Scald + Knock Off. Frail offensive wallbreakers like Gengar, Roaring Moon, and Barraskewda are also good teammates, as Manaphy can give them safe entry with slow U-turn along with crippling walls with Scald and Knock Off, thus making it easier for them to clean through teams. Manaphy is vulnerable to Electric-type users like Thundurus, Sandy Shocks, and Regieleki, so it is recommended to pair it with an Electric-immunity like Volt Absorb Mandibuzz or Ground-types like Great Tusk and Garchomp. Manaphy can also be easily weakened by entry hazards, so it is advised to pair it with reliable hazard removers like Corviknight and Great Tusk.</p> "
+      },
+      {"name": "Tail Glow"}
+    ],
+    "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "cat", "user_id": 580765}, {"username": "Gimmickyasitgets", "user_id": 540420}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
+  },
   "Samurott-Hisui": {
     "sets": [
       {
@@ -376,7 +365,23 @@
     "credits": {"writtenBy": [{"username": "UT", "user_id": 523866}], "teams": [{"name": "Quality checked by", "members": [{"username": "KarpeChan", "user_id": 536333}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Lumari", "user_id": 232216}]}]}
   },
   "Palossand": {"sets": [{"name": "Physically Defensive"}]},
-  "Kommo-o": {"sets": [{"name": "Defensive"}, {"name": "Triage"}, {"name": "Galvanize"}]},
+  "Kommo-o": {
+    "sets": [
+      {
+        "name": "Defensive",
+        "description": "<p>Kommo-o uses its unique typing and excellent bulk to serve as an fantastic physical wall, taking on the likes of Barraskewda, Meowscarada, and Roaring Moon while also taking advantage of the turns it generates by forcing these wallbreakers out to set up Stealth Rock. Body Press chips hazard removal options like Corviknight and Quaquaval, while Dragon Tail forces foes out, quickly racking up entry hazard chip on the opposing team. Iron Defense bolsters Kommo-o's walling capabilities and Body Press's damage output, turning it into a potential late-game wincon. Intimidate Corviknight is a good partner for Kommo-o, taking on the Ice-, Flying-, and Dragon-types that threaten it like Weavile, Galarian Zapdos, and Dragonite, while Kommo-o takes on the Electric- and Fire-types like Hisuian Electrode, Ogerpon-H, and Ceruledge that Corviknight struggles with. Empoleon particularly makes for another good partner with its ability to check Fairy- and Psychic-types like Enamorus-T and Azelf. Offensive pivots like Azelf and Barraskewda appreciate Kommo-o wearing down their checks like Corviknight and Roaring Moon, allowing them to form powerful a VoltTurn core that takes advantage of Kommo-o's Stealth Rock to quickly wear down those checks.</p> "
+      },
+      {
+        "name": "Triage",
+        "description": "<p>Triage Kommo-o serves as the tier's do-or-die sweeper, using Belly Drum to boost its Attack to staggering levels. Drain Punch, in combination with Triage, allows it to virtually outprioritize the whole tier and regain the health lost from Belly Drum. Earthquake OHKOes non-Prankster Toxapex, which can otherwise use Haze to remove Kommo-o's stat boosts, Rock Slide OHKOes Zapdos, while Poison Jab hits Fairy-types like Scream Tail and Enamorus-T. While a Sitrus Berry improves Kommo-o's longevity, a Life Orb allows it to have good odds of OHKOing standard Dragon Dance Dragonite with Drain Punch. Unaware Scream Tail completely walls Kommo-o, taking minimal damage from Poison Jab bar the occasional poison, threatening a 2HKO in return with Dazzling Gleam, and healing off the damage sustained from Poison Jab with Wish. Hence, wallbreakers that can heavily wear down Scream Tail like Gengar and Cinderace make for good partners. Azelf and Ghost-types like Gengar and Ceruledge are immune to Drain Punch and threaten Kommo-o in return; therefore, teammates that threaten and remove these Pokemon like Weavile and Roaring Moon make for excellent teammates. Dual screens Mew pairs well with Kommo-o, allowing Kommo-o to set up with Belly Drum safely.</p> "
+      },
+      {
+        "name": "Galvanize",
+        "description": "<p>Galvanize Kommo-o stands out as one of the tier's few mixed attackers while being flexible in its role as a Stealth Rock setter or setup sweeper depending on what its team requires. Boomburst denies Corviknight, Mandibuzz, and Quaquaval from removing hazards by unexpectedly OHKOing them, while Clanging Scales 2HKOes Great Tusk. Close Combat allows Kommo-o to threaten special walls like Hisuian Goodra and Blissey looking to switch into it and tank its special moves freely. With Kommo-o's ability to maintain Stealth Rock, it becomes an extremely effective offensive Stealth Rock setter when running it as its 4th move; alternatively, Clangorous Soul improves its bulk, damage output, and Speed, making it harder to revenge kill and allowing it to clean teams late-game. A Life Orb is preferred on Stealth Rock variants for consistency, while Throat Spray is better for Clangorous Soul variants to reduce the chip taken by Kommo-o while still increasing its damage output. Wallbreakers like Meowscarada and Chien-Pao appreciate Kommo's ability to remove checks like Corviknight and Quaquaval, allowing them to clean up after. Faster offensive pivots like Azelf and Barraskewda appreciate Kommo-o's Stealth Rock when forming a VoltTurn core, which wears down the opposing team quickly, or Kommo-o's ability to clean up with Clangorous Soul after they have heavily chipped the opposing team. Kommo-o requires good defensive pivots like Corviknight and RegenVest Manaphy as teammates, with their ability to switch into revenge killers that threaten Kommo-o like Weavile, Dragonite, and Enamorus-T and pivot out.</p> "
+      }
+    ],
+    "credits": {"writtenBy": [{"username": "cat", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "Gimmickyasitgets", "user_id": 540420}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
+  },
   "Cinderace": {
     "sets": [
       {"name": "Heavy-Duty Boots"},
@@ -517,15 +522,6 @@
     ],
     "credits": {"writtenBy": [{"username": "cat", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "Gimmickyasitgets", "user_id": 540420}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Lumari", "user_id": 232216}]}]}
   },
-  "Armarouge": {
-    "sets": [
-      {
-        "name": "Choice Scarf",
-        "description": "<p>Choice Scarf Armarouge is a passable revenge killer that outspeeds naturally fast Pokemon like Cinderace and Chien-Pao, threatening them with its high-Base Power STAB attacks. Moreover, it can clean up late-game easily thanks to Psychic Surge, which protects it from common priority attacks such as Slither Wing's First Impression and Kingambit's Sucker Punch. Trick cripples bulky foes it can't immediately threaten like Blissey, Florges, and Garganacl. Focus Blast hits Chi-Yu and Roaring Moon, while Psyshock 2HKOes Clodsire. Utility moves in Destiny Bond and Will-O-Wisp can also be used, with the former checking setup sweepers like Talonflame and the latter punishing switch-ins. Wallbreakers like Greninja can overwhelm shared checks and appreciate Armarouge's Psychic Terrain protecting them from the likes of Ceruledge's Shadow Sneak. Armarouge's susceptibility to entry hazards makes teammates like Defog Corviknight and Rapid Spin Iron Treads valuable options.</p> "
-      }
-    ],
-    "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
-  },
   "Ceruledge": {
     "sets": [
       {"name": "Desolate Land"},
@@ -578,15 +574,6 @@
     ],
     "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
   },
-  "Tatsugiri": {
-    "sets": [
-      {
-        "name": "Nasty Plot",
-        "description": "<p>Tatsugiri is a decent Nasty Plot user that is able to threaten slower foes with its powerful STAB moves and it provides further utility by functioning as a spinner for teams that appreciate more hazard control. Magic Guard affords Tatsugiri some additional safety from entry hazards and chip damage from the likes of Salt Cure and Toxic. Instead of Hydro Pump, Surf can be used for more reliability. Tatsugiri is able to come in on and threaten spinblockers such as Skeledirge and Brambleghast, allowing it to use Nasty Plot or Rapid Spin on prediction. If left unchecked, Tatsugiri may be able to rack up enough boosts from Nasty Plot + Rapid Spin to serve as a frail sweeper. Due to its mediocre physical bulk, Tatsugiri appreciates physical walls such as Corviknight, which can also serve as a slow pivot to bring Tatsugiri safely into a favorable matchup. Tatsugiri also pairs well with physical attackers, such as Cinderace, that can threaten special walls such as Florges and Blissey, which Tatsugiri struggles against. Tatsugiri also appreciates entry hazards or other chip damage to secure KOs that it would typically miss, so Garganacl, with its ability to use Salt Cure and Stealth Rock, is a helpful teammate. Due to its low Speed, Tatsugiri appreciates faster teammates that can act as speed control, such as Chien-Pao or priority users such as Hatterene.</p> "
-      }
-    ],
-    "credits": {"writtenBy": [{"username": "Alexender", "user_id": 313542}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Atha", "user_id": 450411}]}, {"name": "Grammar checked by", "members": [{"username": "P Squared", "user_id": 168392}]}]}
-  },
   "Clodsire": {
     "sets": [
       {
@@ -605,23 +592,24 @@
     ],
     "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
   },
-  "Great Tusk": {"sets": [{"name": "Physically Defensive"}, {"name": "Offensive Bulk Up", "description": "<p>Other viable abilities include: Scrappy, Sword of Ruin, Well-Baked Body, Water Absorb, Sap Sipper.</p> "}]},
+  "Great Tusk": {
+    "sets": [
+      {"name": "Physically Defensive"},
+      {
+        "name": "Offensive Bulk Up",
+        "description": "<p>A solid offensive typing, a high Attack stat, and wide coverage make Great Tusk a potent wallbreaker. Bulk Up is the main source of Great Tusk's power, increasing its tanking capabilities and offensive prowess. Great Tusk's typing and coverage allow it to set up in front of multiple physical attackers like Roaring Moon, Kingambit, and Zamazenta-C. Ice Spinner OHKOes Primordial Sea Zapdos after a Bulk Up, OHKOes Dragonite and 2HKOes Landorus-Therian, while Knock Off threatens Skeledirge and Ceruledge if not running Headlong Rush and cripples defensive Pokemon like Corviknight, Quaquaval, and Earth Eater Gholdengo looking to switch in. Close Combat threatens Earth Eater Kingambit and Empoleon, as well as Roaring Moon, while Headlong Rush threatens Iron Moth, Skeledirge and Ceruledge. Toxic Debris provides a layer of danger, putting offensive teams on a timer and forcing Poison-type Pokemon to switch in, while Fluffy helps Great Tusk set up Bulk Up more easily with its heightened physical bulk, making it a powerful tank. Great Tusk is a potent wallbreaker and entry hazard remover, so Pokemon that are vulnerable to entry hazards like Ogerpon-H and Weavile benefit from its presence. In return, they threaten common defensive Pokemon that wall Great Tusk, such as Manaphy and Corviknight. Great Tusk has terrible special bulk and appreciates pivoting, so special walls like RegenVest Roaring Moon and the aforementioned Manaphy make for great teammates. Despite Great Tusk's high Attack stat, it still requires entry hazard chip damage to pick up KOes, Stealth Rock to OHKO itemless Zapdos at +1 and Stealth Rock and three layers of Spikes to OHKO Toxapex. Therefore, teammates like Sandy Shocks and Garchomp, which can set up Stealth Rock and Spikes, are appreciated.</p> "
+      }
+    ],
+    "credits": {"writtenBy": [{"username": "LOrd Fernado", "user_id": 629794}], "teams": [{"name": "Quality checked by", "members": [{"username": "Gimmickyasitgets", "user_id": 540420}, {"username": "Kinetic1000", "user_id": 552227}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+  },
   "Scream Tail": {
     "sets": [
       {
         "name": "Unaware",
-        "description": "<p>Unaware Scream Tail is a premier defensive threat in the metagame, capable of walling foes such as Azelf, Roaring Moon, and Quaquaval, stonewalling most setup attempts, and being a powerful wincon. Wish + Protect is vital to ensure Scream Tail's health throughout the match, and it is also useful for healing teammates like Kingambit and Slither Wing, which often lack recovery of their own and are prone to being chipped down throughout a match. Calm Mind is suggested to ensure Scream Tail can become a late-game wincon, but Thunder Wave can be run instead as further team support for Hex users like Skeledirge and Hisuian Typhlosion. Encore and Stealth Rock can also be used for further protection against setup sweepers and role compression, respectively. Unaware ensures it can check boosted foes like Chien-Pao and opposing Calm Mind users like Triage Enamorus-T. 20 Speed EVs ensure it will always outspeed Hoopa, Volcanion, and Adamant Slither Wing. Scream Tail is taken advantage of by common Steel-, Fire-, and Poison-types like Hisuian Goodra, Hisuan Arcanine, and Iron Moth, so switch-ins to them like Heatran, Garchomp, and Alolan Muk are recommended; they also benefit from Scream Tail's Wish. Teammates that are weak to Fighting- and Psychic-type attacks like Iron Treads and Galarian Zapdos greatly appreciate Scream Tail's ability to switch into them.</p> "
-      },
-      {
-        "name": "Pixilate",
-        "description": "<p>Pixilate Scream Tail uses its excellent bulk and Speed to set up Calm Minds, while the power of Pixilate Boomburst makes up for its lackluster Special Attack stat. Wish + Protect provides Scream Tail with longevity and excellent defensive utility on a team, allowing it to help check threats like Galarian Zapdos, Garchomp, and Choice Band Slither Wing,. It can also opt to beat more of its checks with coverage; Psyshock 2HKOes Iron Moth at +1, and Focus Blast OHKOes Kingambit and 2HKOes non-RegenVest Iron Treads at +1. Scream Tail can also opt for Stealth Rock or Thunder Wave to cripple checks such as Corviknight and Heatran. Scream Tail struggles to break through common Fire-types like Heatran, Hisuian Arcanine, and Iron Moth without coverage, so it appreciates teammates like RegenVest Goodra, Primordial Sea Zapdos, and Well-Baked Body Iron Treads handling these threats. The latter two can also pivot Scream Tail into their switch-ins like Garchomp and Corviknight. Scream Tail also struggles against Unaware Pokemon like Cresselia and opposing Scream Tail; as such, teammates like Dragon Tail Hisuian Goodra, Toxapex, and Alolan Muk are appreciated to force them out.</p> "
-      },
-      {
-        "name": "Regenerator",
-        "description": "<p>Scream Tail is a solid defensive pivot for strong physical attackers such as Slither Wing and Chien-Pao that is able to have great longevity thanks to Regenerator. Scream Tail also makes for a good Wish passer for bulky teammates that lack reliable recovery such as Garchomp, Volcanion, and Zamazenta-C as it can pass Wish to them while also recovering on its own with Regenerator. Encore is used to stop set up threats like Quaquaval and Kingambit, while also being able to waste PP on Corviknight's and Zapdos's Roosts. Thunder Wave can be used to cripple fast threats like Chien-Pao and Talonflame, making it easier for them to be revenge killed, while Stealth Rock can provide entry hazard support for a team. Scream Tail can opt to run Rocky Helmet to more punish Sword of Ruin Galarian Zapdos, Meloetta, and Corviknight, Heavy-Duty Boots provides better longevity against hazards, while Choice Scarf can be used in conjunction with Trick to cripple defensive walls like Corviknight and Hisuian Goodra while also being able to stop potential set up attempts. Iron Treads makes for a good partner with Scream Tail as it can remove hazards while Scream Tail can switch-in on incoming Fighting-type moves and also Wish pass to Iron Treads, allowing it to last much longer. Slower offensive Pokemon such as Hoopa and Volcanion also appreciate Scream Tail, as its able to spread paralysis on faster offensive Pokemon, making it easier for them to sweep. Scream Tail is vulnerable to strong special attackers like Thundurus-T, Iron Moth, and Magic Guard Heatran and since it also takes up the Regenerator ability slot, it is highly recommended to run a special wall with reliable recovery like Blissey or specially defensive Iron Moth that can withstand strong special attackers.</p> "
+        "description": "<p>Scream Tail with its good bulk and excellent typing is a great Unaware user that is able to check a variety of threatening physical setup sweepers like Great Tusk, Dragonite, and Kommo-o while also being potential wincon on its own with Calm Mind. Scream Tail also functions as a Wish passer, providing longevity to Pokemon lacking reliable recovery such as Zamazenta-C, Heatran, and Walking Wake. Calm Mind can be used to set up on opposing setup Pokemon like Manaphy and Triage Enamorus-T, while Thunder Wave can be used to cripple incoming switch-ins such as Ceruledge and Heatran. Frail offensive Pokemon such as Barraskewda, Roaring Moon, and Weavile appreciate Scream Tail being able to take priority moves from Dragonite and Triage Kommo-o. Scream Tail is vulnerable to Ghost-types like Gholdengo, Gengar, and Ceruledge, so defensive checks to them like Manaphy and Mandibuzz are recommended. Scream Tail is also weak to entry hazard damage, so it is essential to pair it with a reliable hazard remover like Corviknight, Mandibuzz, or Great Tusk.</p> "
       }
     ],
-    "credits": {"writtenBy": [{"username": "Hera", "user_id": 414072}, {"username": "KarpeChan", "user_id": 536333}, {"username": "Gimmickyasitgets", "user_id": 540420}, {"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}, {"username": "cat", "user_id": 580765}, {"username": "Gimmickyasitgets", "user_id": 540420}, {"username": "Atha", "user_id": 450411}, {"username": "KarpeChan", "user_id": 536333}]}, {"name": "Grammar checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Adeleine", "user_id": 517429}, {"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+    "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Gimmickyasitgets", "user_id": 540420}, {"username": "cat", "user_id": 580765}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
   },
   "Slither Wing": {
     "sets": [
