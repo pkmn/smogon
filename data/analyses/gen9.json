@@ -4237,7 +4237,7 @@
     "nationaldexru": {"sets": [{"name": "Offensive Pivot"}]}
   },
   "Dartrix": {"nfe": {"sets": [{"name": "Physically Defensive"}, {"name": "Swords Dance"}]}, "pu": {"sets": [{"name": "Defog"}]}},
-  "Decidueye": {"almostanyability": {"sets": [{"name": "Defensive"}]}},
+  "Decidueye": {"nu": {"sets": [{"name": "Swords Dance"}, {"name": "Utility"}]}, "almostanyability": {"sets": [{"name": "Defensive"}]}},
   "Decidueye-Hisui": {"ru": {"sets": [{"name": "Defog"}]}},
   "Gumshoos": {"zu": {"sets": [{"name": "Choice Band"}]}},
   "Vikavolt": {"monotype": {"sets": [{"name": "Sticky Web (Electric)", "description": "<p>200 Speed EVs lets Vikavolt outspeed Corviknight.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p> "}], "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "boomp611", "user_id": 637295}]}]}}},
@@ -5238,7 +5238,16 @@
       ],
       "credits": {"writtenBy": [{"username": "ox04", "user_id": 507268}, {"username": "Manaphy", "user_id": 50695}], "teams": [{"name": "Quality checked by", "members": [{"username": "Manaphy", "user_id": 50695}, {"username": "Taka", "user_id": 595062}, {"username": "Lasen", "user_id": 273339}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
     },
-    "anythinggoes": {"sets": [{"name": "Defensive"}, {"name": "Offensive"}]},
+    "anythinggoes": {
+      "sets": [
+        {
+          "name": "Defensive",
+          "description": "<p>Eternatus is usually seen on bulky offense and balance teams, as it is a decent check to Pokemon such as Arceus-Fairy and Kyogre, and it can set up and absorb Toxic Spikes. Flamethrower is used to hit Zacian-C, which can otherwise take advantage of Eternatus's inability to damage it. Dragon Tail phazes setup sweepers like Arceus and Calm Mind Kyogre, and it can also annoy switch-ins to Eternatus such as Ting-Lu and Clodsire with Toxic Spikes able to poison the former. Toxic is used to immediately put Pokemon such as Calm Mind Arceus formes on a timer, while Toxic Spikes is used to spread status across the opposing team. Tera Fairy makes Eternatus immune to Dragon-type moves from Pokemon such as Miraidon and Koraidon. Tera Water allows Eternatus to resist both Ice Beam from Kyogre as well as Behemoth Blade from Zacian-C. Tera Steel flips the matchup on Zacian-C, Koraidon, and Miraidon while resisting Arceus's Extreme Speed. 176 Speed EVs are used to outspeed Calm Mind Arceus formes that can otherwise take advantage of Eternatus with Taunt. 96 HP EVs allow Eternatus to live Dragon Claw from Jolly Koraidon at full HP. An alternative, bulkier spead spread of 212 HP / 252 SpD / 44 Spe can be run with a Calm nature, with 44 Speed EVs allowing Eternatus to outspeed Timid Kyogre. This spread, however, makes Eternatus vulnerable to Taunt Arceus formes such as Arceus-Fairy, so teammates that can revenge kill them, such as Zacian-C and Koraidon, or deal with then otherwise, such as Encore Calyrex-S, are appreciated. Eternatus is also able to lure in Ting-Lu and weaken it, so teammates that can take advantage of its ability to do so, such as Calyrex-S and Miraidon, are appreciated. Similarly, Pokemon such as Zacian-C, Extreme Killer Arceus, and Koraidon appreciate Eternatus's ability to take advantage of their checks such as Skeledirge and Arceus-Fairy, and they threaten Ting-Lu and Clodsire for it in return. Eternatus also appreciates teammates such as Landorus-T and Ting-Lu, which can set up additional entry hazards, while also providing Eternatus with refuge from the likes of Miraidon, Koraidon, Arceus-Ground, and Calyrex-S. Eternatus is a great fit for balance and bulky offense teams due to its ability to absorb Toxic Spikes, thus enabling offensive teammates such as Koraidon, Calyrex-S, and Arceus formes without Heavy-Duty Boots.</p> "
+        },
+        {"name": "Offensive"}
+      ],
+      "credits": {"writtenBy": [{"username": "2448a", "user_id": 609321}], "teams": [{"name": "Quality checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "Taka", "user_id": 595062}]}, {"name": "Grammar checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}]}]}
+    },
     "balancedhackmons": {
       "sets": [
         {
