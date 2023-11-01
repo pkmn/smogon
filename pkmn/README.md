@@ -52,7 +52,7 @@ import {Dex} from '@pkmn/dex';
 import {Generations} from '@pkmn/data';
 import {Smogon} from '@pkmn/smogon';
 
-const gens = new Generations(dex);
+const gens = new Generations(Dex);
 const smogon = new Smogon(fetch);
 
 smogon.sets(gens.get(8), 'Dragapult');
