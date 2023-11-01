@@ -95,7 +95,8 @@ export interface DisplayStatistics<T = DisplayUsageStatistics> {
 }
 
 /** Output format for legacy smogon.com/stats reports converted to the new @pkmn/stats format. */
-export interface LegacyDisplayStatistics extends Omit<DisplayStatistics, 'metagame'> {
+export interface LegacyDisplayStatistics extends
+  Omit<DisplayStatistics<LegacyDisplayUsageStatistics>, 'metagame'> {
   metagame?: DisplayMetagameStatistics;
 }
 
