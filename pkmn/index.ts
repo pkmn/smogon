@@ -316,7 +316,7 @@ export class Smogon {
     let stats = this.cache.format.stats[format];
     if (!stats) {
       const response = await this.fetch(`${URL}/stats/${format}.json`);
-      stats = await response.json();
+      stats = this.cache.format.stats[format] = await response.json();
     }
 
     return stats.pokemon[this.name(gen, species, false, true)];
