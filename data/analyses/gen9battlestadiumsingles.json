@@ -1148,7 +1148,15 @@
   "Munkidori": {"sets": [{"name": "Choice Scarf Pivot"}, {"name": "Focus Sash Lead"}]},
   "Fezandipiti": {"sets": [{"name": "Calm Mind"}, {"name": "Toxic Staller"}]},
   "Ogerpon": {"sets": [{"name": "Offensive Pivot"}]},
-  "Ogerpon-Wellspring": {"sets": [{"name": "Specially Defensive", "description": "<ul> <li>The given EV spread lets Ogerpon outspeed pokemon with a base speed of 85 and 252 EVs invested into Speed such as Rillaboom.</li> </ul> "}]},
+  "Ogerpon-Wellspring": {
+    "sets": [
+      {
+        "name": "Specially Defensive",
+        "description": "<ul> <li> <p>Ogerpon-W's great support movepool and Embody Aspect's Special Defense boost give it the opportunity to face premier special attackers such as Flutter Mane, Ursaluna-B, and Gholdengo head on.</p> </li> <li> <p><strong>Horn Leech: Horn Leech's recovery can help maintain Ogerpon-W's defensive profile without compromising its offenses.</p> </li> <li> <p><strong>Substitute</strong>: Substitute has great synergy alongside Ogerpon-W's other support moves, especially Leech Seed. It's also useful for blocking Toxic from Gliscor, which coupled with Ogerpon-W's Ground resistance allows it to heavily disrupt Gliscor's attempts to cripple foes.</p> </li> <li> <p><strong>Leech Seed: Due to being forced to run Wellspring Mask, Ogerpon-W misses passive recovery from items such as Leftovers, making Leech Seed a solid option for recovery alongside Synthesis.</p> </li> <li> <p><strong>Encore</strong>: Locking targets into an undesirable move can discourage setup attempts and passive play and allow opportunities for healing.</p> </li> </ul> <h1>EV Spreads</h1> <ul> <li><strong>252 HP / 4 Atk / 4 Def / 188 SpD / 60 Spe with Careful</strong>: This spread aims to maximize Ogerpon-W's special bulk, and it outspeeds positive nature base 70 Speed foes such as Jolly Breloom and neutral nature base 85 Speed foes such as Rillaboom.</li> </ul> <h1>Embody Aspect</h1> <p>Ogerpon-W is locked into a Water Tera type. When it Terastallizes, Water Absorb becomes Embody Aspect. This forme's Embody Aspect boosts Special Defense, making it essentially like an Assault Vest without the downsides, which can be key to taking strong hits such as those from Choice Specs Tera Fairy Flutter Mane and Tera Normal Ursaluna-B.</p> "
+      }
+    ],
+    "credits": {"writtenBy": [{"username": "Thick Fat Azumarill", "user_id": 330577}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}]}, {"name": "Grammar checked by", "members": [{"username": "Gangsta Spongebob", "user_id": 535530}, {"username": "autumn", "user_id": 384270}]}]}
+  },
   "Ogerpon-Hearthflame": {"sets": [{"name": "Offensive", "description": "<h1>Alternate EV Spreads</h1> <ul> <li><strong>252 HP / 100 Atk / 92 Def / 60 Spe with Adamant</strong>: This bulkier spread outspeeds Iron Bundle after Trailblaze, while avoiding a 2HKO from Focus Sash Chien-Pao's Sucker Punch. The Speed EVs can be dropped to 36 if not using Trailblaze, to outspeed Jolly Breloom.</li> </ul> "}, {"name": "Leech Seed"}]},
   "Ogerpon-Cornerstone": {"sets": [{"name": "Sturdy Offense"}]}
 }
