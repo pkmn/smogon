@@ -34,6 +34,7 @@ interface FormatSets {
 // The raw analysis data from https://data.pkmn.cc/ - this needs to be joined with the sets data
 // to form an Analysis which matches what is on Smogon.
 interface RawAnalysis {
+  outdated?: boolean;
   overview?: string;
   comments?: string;
   sets: Array<{

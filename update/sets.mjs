@@ -173,6 +173,7 @@ async function importPokemon(gen, species) {
     delete analysis.movesets;
 
     analyses[format] = {
+      outdated: !!analysis.outdated || undefined,
       overview: sanitize(analysis.overview),
       comments: sanitize(analysis.comments),
       sets: analysis.sets,
@@ -250,7 +251,7 @@ function sanitize(html) {
     }
   }).replace(/\n/g, ' ');
   // NOTE: 200 is an incredibly scientific number pulled directly out of my ass
-  return PLACEHOLDER.test(clean) && clean.length < 200 ? undefined : clean;
+  return PLACEHOLDER.test(clean) && clean.length < 200 ? undefined : clean.trim();
 }
 
 async function serialize(data, file) {
