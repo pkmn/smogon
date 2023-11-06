@@ -81,6 +81,7 @@ const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magear
 const SUFFIXES = ['-Antique', '-Totem'];
 function eligible(gen, species) {
   if (!species.exists || species.gen > gen || species.tier === 'Illegal') return false;
+  if (species.name.endsWith('-Crowned')) return true; // no clue
   if (species.battleOnly || NONSTANDARD.includes(species.isNonstandard)) return false;
   if (species.baseSpecies === species.name) return true;
   if (PREFIXES.some(prefix => species.name.startsWith(prefix))) return false;
