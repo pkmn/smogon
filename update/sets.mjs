@@ -105,14 +105,16 @@ function eligible(gen, species) {
     const data = {gen: {analyses: {}, sets: {}}, format: {analyses: {}, sets: {}}};
     for (const pokemon of await Promise.all(imports)) {
       if (!pokemon) continue;
-      data.gen.analyses[pokemon.name] = pokemon.analyses;
-      data.gen.sets[pokemon.name] = pokemon.sets;
-      for (const tierid in pokemon.analyses) {
-        const format = `gen${gen}${tierid}`;
-        data.format.analyses[format] = data.format.analyses[format]  || {};
-        data.format.analyses[format][pokemon.name] = pokemon.analyses[tierid];
-        data.format.sets[format] = data.format.sets[format] || {};
-        data.format.sets[format][pokemon.name] = pokemon.sets[tierid];
+      for (const p of pokemon) {
+        data.gen.analyses[p.name] = p.analyses;
+        data.gen.sets[p.name] = p.sets;
+        for (const tierid in p.analyses) {
+          const format = `gen${gen}${tierid}`;
+          data.format.analyses[format] = data.format.analyses[format]  || {};
+          data.format.analyses[format][p.name] = p.analyses[tierid];
+          data.format.sets[format] = data.format.sets[format] || {};
+          data.format.sets[format][p.name] = p.sets[tierid];
+        }
       }
     }
 
@@ -157,7 +159,7 @@ async function importPokemon(gen, species) {
     if (Dex.formats.get(format).effectType !== 'Format' && !FORMATS[tier]) {
       throw new Error(`Unknown format: ${format} (${tier}) for gen ${gen.num} ${species.name}`);
     }
-    format = format.slice(4); // trim gen<N> to save space
+    format = format.slice(4); // trim gen<N> to save space (BUG)
 
     analysis.sets = [];
     const s = sets[format] || (sets[format] = {});
@@ -179,7 +181,7 @@ async function importPokemon(gen, species) {
     }
   }
 
-  return {name: species.name, analyses, sets};
+  return [{name: species.name, analyses, sets}];
 }
 
 // Remove any fields from the Moveset that contain redundant info that we can just fill back in
