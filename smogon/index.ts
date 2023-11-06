@@ -14,6 +14,7 @@ export type StatsTable<T = number> = { [stat in StatID]: T };
 
 export interface Analysis {
   format: string;
+  outdated: string | null;
   overview: string;
   comments: string;
   movesets: Moveset[];
