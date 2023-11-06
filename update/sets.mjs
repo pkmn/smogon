@@ -80,7 +80,8 @@ const NONSTANDARD = ['Unobtainable', 'Gigantamax'];
 const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magearna'];
 const SUFFIXES = ['-Antique', '-Totem'];
 function eligible(gen, species) {
-  if (!species.exists || species.gen > gen || species.tier === 'Illegal') return false;
+  // Note that we can't include species.tier === 'Illegal' because of National Dex...
+  if (!species.exists || species.gen > gen) return false;
   if (species.name.endsWith('-Crowned')) return true; // no clue
   if (species.battleOnly || NONSTANDARD.includes(species.isNonstandard)) return false;
   if (species.baseSpecies === species.name) return true;
