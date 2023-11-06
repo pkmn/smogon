@@ -59,7 +59,7 @@ const FORMATS = {
   dwou: 'dreamworldou', zu: 'zu', nfe: 'nfe', farceusuber: 'anythinggoes', middlecup: 'middlecup',
   // Other Metagames
   almostanyability: 'almostanyability', mixandmega: 'mixandmega', godlygift: 'godlygift',
-  camomons: 'camomons',   stabmons: 'stabmons', pic: 'partnersincrime',
+  camomons: 'camomons', stabmons: 'stabmons', pic: 'partnersincrime',
   // VGC
   vgc11: 'vgc2011', vgc12: 'vgc2012', vgc14: 'vgc2014', vgc15: 'vgc2015', vgc16: 'vgc2016',
   vgc17: 'vgc2017', vgc18: 'vgc2018', vgc19: 'vgc2019', vgc20: 'vgc2020', vgc21: 'vgc2021',
@@ -67,7 +67,7 @@ const FORMATS = {
   vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023',
   // DW deciding to go rogue. VGC 22 Series 13 -> "BSD" Series 13 = BSD
   vgc22series13: 'battlestadiumdoubles',
-  // RBWhY?
+  // RBwhY?
   nintendocup1998: 'nintendocup1998', nintendocup1999: 'nintendocup1999', lclevel100: 'lclevel100',
   petitcup: 'petitcup', pikacup: 'pikacup', monotype: 'monotype', pu: 'pu', lc: 'lc', '1v1': '1v1',
   '2v2doubles': '2v2doubles'

@@ -1,9 +1,11 @@
 {
+  "Clefairy": {"sets": [{"name": "Full Support"}]},
   "Ninetales-Alola": {"sets": [{"name": "Screens Setter"}]},
   "Arcanine": {"sets": [{"name": "Utility"}]},
   "Arcanine-Hisui": {"sets": [{"name": "Choice Band"}]},
+  "Weezing": {"sets": [{"name": "N.Gas support"}]},
   "Gyarados": {"sets": [{"name": "Bulky Pivot"}]},
-  "Dragonite": {"sets": [{"name": "TeraNormal"}, {"name": "TeraFlying"}]},
+  "Dragonite": {"sets": [{"name": "Choice Band"}, {"name": "Assault Vest"}]},
   "Murkrow": {"sets": [{"name": "Tailwind Support"}]},
   "Tyranitar": {"sets": [{"name": "Assault Vest"}]},
   "Pelipper": {"sets": [{"name": "Rain Setter"}]},
@@ -56,9 +58,10 @@
   "Indeedee-F": {"sets": [{"name": "TR Support"}]},
   "Dragapult": {"sets": [{"name": "Glass Cannon"}]},
   "Urshifu": {"sets": [{"name": "Glass Cannon"}]},
-  "Urshifu-Rapid-Strike": {"sets": [{"name": "Scarf"}]},
+  "Urshifu-Rapid-Strike": {"sets": [{"name": "Scarf"}, {"name": "Bulky Attacker"}]},
   "Regidrago": {"sets": [{"name": "Tailroom"}]},
   "Ursaluna": {"sets": [{"name": "TR Sweeper"}]},
+  "Ursaluna-Bloodmoon": {"sets": [{"name": "Bulky Attacker"}]},
   "Basculegion": {"sets": [{"name": "Rain Abuser"}]},
   "Meowscarada": {"sets": [{"name": "Offensive"}]},
   "Pawmot": {"sets": [{"name": "Revival Blessing"}]},
@@ -86,19 +89,10 @@
   },
   "Palafin": {"sets": [{"name": "Bulky Attacker"}]},
   "Glimmora": {"sets": [{"name": "Specs"}, {"name": "Mortal Spin"}]},
-  "Dondozo": {"sets": [{"name": "Offensive Commander"}, {"name": "Defensive Solo"}]},
-  "Tatsugiri": {"sets": [{"name": "Choice Item"}, {"name": "Sash"}]},
+  "Dondozo": {"sets": [{"name": "Commander Sweeper"}]},
+  "Tatsugiri": {"sets": [{"name": "Scarf Commander"}]},
   "Annihilape": {"sets": [{"name": "Rage Fist"}, {"name": "Final Gambit"}]},
-  "Farigiraf": {
-    "overview": "<ul> <li> <p>Farigiraf is currently one of the bulkiest Trick Room setters in the meta. Its ability, Armor Tail, prevents its teammates from succumbing to priority moves, making it difficult to prevent Farigiraf from setting Trick Room.</p> </li> <li> <p>Hariyama, Amoonguss, and Kingambit are good partners for Farigiraf. Hariyama and Farigiraf both benefit from each other, as Fake Out allows Farigiraf to more consistently get up Trick Room, which enables Hariyama, as it thrives inside of Trick Room and checks Farigiraf's common counters. Amoonguss can redirect moves targeted at Farigiraf and Spore anything inside Trick Room to take them out of the game. Kingambit benefits from the Snarl that Farigiraf struggles against and plays well in Trick Room.</p> </li> <li> <p>Choice Band Meowscarada and Hydreigon are the biggest checks to Farigiraf, as both threaten to OHKO it. Amoonguss is another check, as it can Spore Farigiraf before it manages to get Trick Room up. It also struggles against Imprison from Indeedee, Gallade, and opposing Farigiraf.</p> </li> </ul> ",
-    "sets": [
-      {
-        "name": "Bulky Trick Room",
-        "description": "<ul> <li> <p>Hyper Voice is a decently strong Normal-type STAB move for Farigiraf to spread chip damage that softens up opponents for its allies. Psyshock tackles common Psychic-weak Pokemon such as Amoonguss and Gengar, whereas Dazzling Gleam improves its matchup into common checks like Meowscarada and Hydreigon. Helping Hand allows Farigiraf to supplement a harder hitting teammate's damage output. Imprison is used on fast offensive teams that would otherwise struggle against opposing Trick Room teams.</p> </li> <li> <p>Safety Goggles provides an immunity to Spore from Amoonguss and Breloom, who would otherwise prevent Trick Room from going up with it. Sitrus Berry gives Farigiraf longevity with recovery. Colbur Berry allows Farigiraf to consistently get Trick Room up in the face of Meowscarada and Hydreigon.</p> </li> <li> <p>For other notable items, Mental Herb prevents fast Taunt users like Talonflame from interrupting Farigiraf's Trick Room. Life Orb or Throat Spray are good options to improve Farigiraf's already decent damage output. Rocky Helmet can also be used for an answer to unsuspecting Maushold.</p> </li> <li> <p>180 EVs in HP allow Farigiraf to survive maximum HP Annihilape Final Gambit, and the defensive investment allows it to always survive Tera Steel Choice Specs Gholdengo Make It Rain and Focus Sash Meowscarada Knock Off.</p> </li> <li> <p>Tera Fairy is more of a defensive Tera type, giving it a resistance to all the types that Farigiraf was previously weak to while gaining STAB on Dazzling Gleam. Tera Normal adds damage onto Hyper Voice and removes its Dark weakness.</p> </li> </ul> "
-      }
-    ],
-    "credits": {"writtenBy": [{"username": "CbuttyVGC", "user_id": 615665}], "teams": [{"name": "Quality checked by", "members": [{"username": "yuki", "user_id": 294287}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
-  },
+  "Farigiraf": {"sets": [{"name": "TR support"}]},
   "Kingambit": {"sets": [{"name": "Swords Dance"}]},
   "Great Tusk": {"sets": [{"name": "Offensive"}, {"name": "All-Out-Attacker"}]},
   "Scream Tail": {"sets": [{"name": "Support"}, {"name": "Perish Song"}]},
@@ -108,12 +102,13 @@
   "Iron Hands": {"sets": [{"name": "Offensive Pivot"}]},
   "Iron Jugulis": {"sets": [{"name": "Tailwind Support"}]},
   "Iron Moth": {"sets": [{"name": "Acid Spray"}]},
-  "Baxcalibur": {"sets": [{"name": "Offensive"}, {"name": "Loaded Dice"}]},
+  "Baxcalibur": {"sets": [{"name": "Scale Shot"}]},
   "Gholdengo": {"sets": [{"name": "Nasty Plot"}]},
   "Chien-Pao": {"sets": [{"name": "Glass Cannon"}]},
   "Ting-Lu": {"sets": [{"name": "Bulky Attacker"}]},
   "Chi-Yu": {"sets": [{"name": "Choice Specs"}, {"name": "Glass Cannon"}]},
   "Roaring Moon": {"sets": [{"name": "Dragon Dance"}, {"name": "Tailwind Setter"}]},
+  "Sinistcha": {"sets": [{"name": "Bulky Support"}]},
   "Ogerpon-Wellspring": {"sets": [{"name": "Setup Sweeper"}, {"name": "Bulky Redirection"}]},
   "Ogerpon-Hearthflame": {"sets": [{"name": "All-out Offense"}, {"name": "Setup Sweeper"}]}
 }
