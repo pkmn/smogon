@@ -135,8 +135,8 @@ describe('Smogon', () => {
     };
     const names = (n: GenerationNum, s: string) => [name(n, s), name(n, s, false, true)];
 
-    expect(names(6, 'Venusaur-Mega')).toEqual(['Venusaur', 'Venusaur-Mega']);
-    expect(names(6, 'Kyogre-Primal')).toEqual(['Kyogre', 'Kyogre-Primal']);
+    expect(names(6, 'Venusaur-Mega')).toEqual(['Venusaur-Mega', 'Venusaur-Mega']);
+    expect(names(6, 'Kyogre-Primal')).toEqual(['Kyogre-Primal', 'Kyogre-Primal']);
     expect(names(7, 'Greninja-Ash')).toEqual(['Greninja', 'Greninja-Ash']);
     expect(names(7, 'Mimikyu-Busted')).toEqual(['Mimikyu', 'Mimikyu']);
     expect(names(8, 'Butterfree-Gmax')).toEqual(['Butterfree', 'Butterfree-Gmax']);

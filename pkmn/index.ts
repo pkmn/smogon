@@ -390,9 +390,9 @@ export class Smogon {
   // Returns the name of the species in the provided gen that the data will be keyed as, optionally
   // returning a specific cosmetic forme or the key for stats as opposed to for sets/analyses.
   private name(gen: Generation, species: Specie, specific = false, stats = false) {
-    if (species.name.endsWith('-Crowned')) return species.name;
-    if (species.isMega || species.isPrimal || species.name === 'Greninja-Ash') {
-      return stats ? species.name : species.baseSpecies;
+    if (species.name === 'Greninja-Ash') return stats ? species.name : species.baseSpecies;
+    if (species.isMega || species.isPrimal || species.name.endsWith('-Crowned')) {
+      return species.name;
     }
 
     if (species.battleOnly) {
