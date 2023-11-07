@@ -163,15 +163,15 @@ async function importPokemon(dex, gen, species) {
 
     const analyses = {};
     for (const ms of analysis.movesets) {
-      imports[ms.pokemon] ||= {analyses: {}, sets: {}};
-      analyses[ms.pokemon] ||= [];
-      analyses[ms.pokemon].push({
+      const pokemon = dex.species.get(ms.pokemon);
+      imports[pokemon.name] ||= {analyses: {}, sets: {}};
+      analyses[pokemon.name] ||= [];
+      analyses[pokemon.name].push({
         name: ms.name,
         description: sanitize(ms.description),
       });
-      imports[ms.pokemon].sets[format] ||= {};
-      imports[ms.pokemon].sets[format][ms.name] =
-        compress(gen, format, ms, dex.species.get(ms.pokemon));
+      imports[pokemon.name].sets[format] ||= {};
+      imports[pokemon.name].sets[format][ms.name] = compress(gen, format, ms, pokemon);
     }
 
     for (const pokemon in imports) {
