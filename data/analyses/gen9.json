@@ -65,7 +65,7 @@
       "credits": {"writtenBy": [{"username": "Giyu", "user_id": 574288}], "teams": [{"name": "Quality check by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "CrossHeart", "user_id": 593863}]}, {"name": "Grammar check by", "members": [{"username": "ken", "user_id": 594478}, {"username": "autumn", "user_id": 384270}]}]}
     }
   },
-  "Beedrill": {"balancedhackmons": {"sets": [{"name": "Choice Band"}]}},
+  "Beedrill-Mega": {"balancedhackmons": {"sets": [{"name": "Choice Band"}]}},
   "Pidgeot": {"nationaldexru": {"sets": [{"name": "Offensive Pivot"}]}},
   "Pikachu": {
     "balancedhackmons": {
@@ -989,6 +989,10 @@
       ],
       "credits": {"writtenBy": [{"username": "corvere", "user_id": 306317}], "teams": [{"name": "Quality checked by", "members": [{"username": "Lasen", "user_id": 273339}, {"username": "ox04", "user_id": 507268}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
     },
+    "balancedhackmons": {"credits": {"writtenBy": [{"username": "LTG", "user_id": 473639}, {"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Clouds", "user_id": 356215}, {"username": "UT", "user_id": 523866}]}]}},
+    "nationaldexubers": {"sets": [{"name": "Setup Sweeper"}]}
+  },
+  "Mewtwo-Mega-X": {
     "balancedhackmons": {
       "sets": [
         {
@@ -1002,7 +1006,7 @@
       ],
       "credits": {"writtenBy": [{"username": "LTG", "user_id": 473639}, {"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Clouds", "user_id": 356215}, {"username": "UT", "user_id": 523866}]}]}
     },
-    "nationaldexubers": {"sets": [{"name": "Setup Sweeper"}]}
+    "nationaldexubers": {}
   },
   "Mew": {
     "ou": {"sets": [{"name": "Demon Mew (Double Dance)", "description": "<p>These are sample set(s) as we wait for the metagame to settle before working on <a href=\"https://www.smogon.com/forums/forums/ou-analyses.758/\">new analyses</a>. They will be updated as the metagame continues to develop, so stay tuned!</p>"}]},
@@ -1266,7 +1270,7 @@
   "Forretress": {"ru": {"sets": [{"name": "Support"}]}, "monotype": {"outdated": true, "sets": [{"name": "Entry Hazard Support (Bug)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}]}},
   "Dunsparce": {"nfe": {"sets": [{"name": "Calm Mind"}, {"name": "Utility"}, {"name": "Coil"}]}, "pu": {"sets": [{"name": "Stealth Rock"}]}},
   "Gligar": {"nu": {"sets": [{"name": "Physical Wall"}]}, "nationaldexru": {"sets": [{"name": "Physically Defensive"}]}},
-  "Steelix": {
+  "Steelix-Mega": {
     "balancedhackmons": {
       "sets": [
         {
@@ -1276,8 +1280,9 @@
       ],
       "credits": {"writtenBy": [{"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     },
-    "nationaldexru": {"sets": [{"name": "Tank", "description": "<p>Max HP and 8 Defense EVs takes any attack from +2 Cobalion barring All-Out Pummeling. 32 Attack Evs guarantee an OHKO on Houndoom-Mega.</p> <p>This is a sample set, stay tuned for future updates!</p>"}]}
+    "nationaldexru": {}
   },
+  "Steelix": {"nationaldexru": {"sets": [{"name": "Tank", "description": "<p>Max HP and 8 Defense EVs takes any attack from +2 Cobalion barring All-Out Pummeling. 32 Attack Evs guarantee an OHKO on Houndoom-Mega.</p> <p>This is a sample set, stay tuned for future updates!</p>"}]}},
   "Qwilfish": {
     "nu": {
       "sets": [
@@ -1657,7 +1662,8 @@
     "nationaldexubers": {"sets": [{"name": "Defensive"}, {"name": "Offensive"}]}
   },
   "Sceptile": {"nationaldexru": {"sets": [{"name": "Offensive"}]}},
-  "Blaziken": {"nationaldex": {"sets": [{"name": "Swords Dance", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p>"}]}, "balancedhackmons": {"sets": [{"name": "Desolate Land"}, {"name": "Tinted Lens"}]}},
+  "Blaziken": {"nationaldex": {"sets": [{"name": "Swords Dance", "description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p>"}]}, "balancedhackmons": {}},
+  "Blaziken-Mega": {"balancedhackmons": {"sets": [{"name": "Desolate Land"}, {"name": "Tinted Lens"}]}},
   "Swampert": {
     "nationaldex": {
       "sets": [
@@ -1668,6 +1674,11 @@
       ],
       "credits": {"writtenBy": [{"username": "TheSorcer3r", "user_id": 580037}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "Kaede", "user_id": 483087}]}, {"name": "Grammar checked by", "members": [{"username": "royalfluxh", "user_id": 493260}, {"username": "dex", "user_id": 277988}]}]}
     },
+    "balancedhackmons": {"credits": {"writtenBy": [{"username": "LOrd Fernado", "user_id": 629794}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}, {"username": "Tea Guzzler", "user_id": 577920}]}, {"name": "Grammar checked by", "members": [{"username": "Gangsta Spongebob", "user_id": 535530}, {"username": "autumn", "user_id": 384270}]}]}},
+    "nationaldexmonotype": {"sets": [{"name": "Rain Sweeper (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}, {"name": "Specially Defensive (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}]},
+    "nationaldexru": {"sets": [{"name": "Specially Defensive"}]}
+  },
+  "Swampert-Mega": {
     "balancedhackmons": {
       "sets": [
         {
@@ -1677,8 +1688,8 @@
       ],
       "credits": {"writtenBy": [{"username": "LOrd Fernado", "user_id": 629794}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}, {"username": "Tea Guzzler", "user_id": 577920}]}, {"name": "Grammar checked by", "members": [{"username": "Gangsta Spongebob", "user_id": 535530}, {"username": "autumn", "user_id": 384270}]}]}
     },
-    "nationaldexmonotype": {"sets": [{"name": "Rain Sweeper (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}, {"name": "Specially Defensive (Water)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}]},
-    "nationaldexru": {"sets": [{"name": "Specially Defensive"}]}
+    "nationaldexmonotype": {},
+    "nationaldexru": {}
   },
   "Ludicolo": {"nu": {"sets": [{"name": "Rain Dance Sweeper"}]}},
   "Swellow": {"nationaldexru": {"sets": [{"name": "Choice Specs"}]}},
@@ -1757,7 +1768,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Photon", "user_id": 516307}], "teams": [{"name": "Quality checked by", "members": [{"username": "Thick Fat Azumarill", "user_id": 330577}]}, {"name": "Grammar checked by", "members": [{"username": "Deezcastforms", "user_id": 423085}, {"username": "autumn", "user_id": 384270}]}]}
     },
-    "balancedhackmons": {"sets": [{"name": "Pixilate"}]},
+    "balancedhackmons": {},
     "almostanyability": {
       "outdated": true,
       "sets": [
@@ -1771,6 +1782,7 @@
     },
     "1v1": {"outdated": true, "sets": [{"name": "Encore + Disable"}, {"name": "Choice Scarf"}]}
   },
+  "Gardevoir-Mega": {"balancedhackmons": {"sets": [{"name": "Pixilate"}]}, "almostanyability": {"outdated": true, "credits": {"writtenBy": [{"username": "Frozoid", "user_id": 532881}], "teams": [{"name": "Quality checked by", "members": [{"username": "Atha", "user_id": 450411}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}}, "1v1": {"outdated": true}},
   "Masquerain": {
     "pu": {
       "sets": [
@@ -2153,6 +2165,10 @@
       "credits": {"writtenBy": [{"username": "OreoSpeedruns", "user_id": 597293}, {"username": "Taka", "user_id": 595062}, {"username": "corvere", "user_id": 306317}], "teams": [{"name": "Quality checked by", "members": [{"username": "Taka", "user_id": 595062}, {"username": "Lasen", "user_id": 273339}, {"username": "corvere", "user_id": 306317}, {"username": "Manaphy", "user_id": 50695}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Adeleine", "user_id": 517429}, {"username": "Dead by Daylight", "user_id": 571069}, {"username": "Dawn of Ares", "user_id": 467437}, {"username": "aurora", "user_id": 109385}]}]}
     },
     "anythinggoes": {"sets": [{"name": "Bulky Calm Mind"}, {"name": "Choice Scarf"}, {"name": "Choice Specs"}, {"name": "Offensive"}]},
+    "balancedhackmons": {"credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}, {"username": "LOrd Fernado", "user_id": 629794}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "TTTech", "user_id": 338877}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "xapx", "user_id": 406162}, {"username": "autumn", "user_id": 384270}]}]}},
+    "nationaldexubers": {"sets": [{"name": "Wallbreaker"}, {"name": "Bulky Calm Mind"}]}
+  },
+  "Kyogre-Primal": {
     "balancedhackmons": {
       "sets": [
         {
@@ -2166,7 +2182,7 @@
       ],
       "credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}, {"username": "LOrd Fernado", "user_id": 629794}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "TTTech", "user_id": 338877}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "xapx", "user_id": 406162}, {"username": "autumn", "user_id": 384270}]}]}
     },
-    "nationaldexubers": {"sets": [{"name": "Wallbreaker"}, {"name": "Bulky Calm Mind"}]}
+    "nationaldexubers": {}
   },
   "Groudon": {
     "ubers": {
@@ -2484,19 +2500,7 @@
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}, {"username": "Thick Fat Azumarill", "user_id": 330577}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}, {"username": "StarkGod", "user_id": 62165}, {"username": "Butch Hardnight", "user_id": 265677}, {"username": "Pearl", "user_id": 47861}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}, {"username": "Sulo", "user_id": 528036}]}]}
     },
     "vgc2023": {"sets": [{"name": "Offensive"}, {"name": "Scarf"}]},
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Setup Sweeper",
-          "description": "<p>Mega Garchomp is an incredibly powerful wallbreaker and sweeper with favorable matchups against common physical walls like Miraidon and Arceus-Poison. Shift Gear and Tidy Up increase its offensive power and help offset Mega Garchomp's poor Speed, allowing it to outspeed common physical walls; the former ensures Mega Garchomp outspeeds Deoxys-A, while the latter provides role compression by removing entry hazards. Jungle Healing helps offset accumulated chip damage and Life Orb recoil while also removing crippling status conditions like burn and poison. This allows Mega Garchomp to much more freely switch into Mortal Spin users like Arceus-Poison and Miraidon not running a Dragon-type attack. Life Orb, Adaptability, and an Adamant nature provide a crucial power boost, letting unboosted Mega Garchomp OHKO Mega Steelix and 2HKO Fur Coat Arceus-Poison. If desired, Defense EVs can be lowered to allow Mega Garchomp to always OHKO Eviolite Imposter Chansey with +1 Glaive Rush. Mega Garchomp pairs well with other physical wallbreakers like Choice Band Mega Mewtwo X and Kartana to heavily pressure Fur Coat users like Yveltal and Arceus-Ghost; in return they appreciate Mega Garchomp handling Arceus-Poison and Miraidon. Teammates, such as Magic Bounce Mega Audino, can limit Strength Sap recovery from opposing physical walls like Fur Coat Arceus-Ghost and Yveltal, allowing Mega Garchomp to eventually break through them. Mega Garchomp can be Imposter-proofed by Fur Coat users like Arceus-Fairy and Arceus-Ghost.</p>"
-        },
-        {
-          "name": "Choice Band",
-          "description": "<p>Thanks to an excellent offensive typing and Attack, Mega Garchomp is an incredibly strong wallbreaker that, thanks to its Ground typing, resists Stealth Rock and can naturally destroy foes that competitors like Kyurem-B and Kartana can't. Adaptability, which Mega Garchomp can afford to run thanks to its Ground STAB, gives a strong power boost that Imposter users aren't immune to, while Mold Breaker ignores Fur Coat on targets like Arceus-Ghost; Sword of Ruin fares worse into Imposter users than Adaptability, but it boosts Glacial Lance’s and Gigaton Hammer's damage. Gigaton Hammer hits Pokemon like Arceus-Fairy and Mega Audino, making them shaky switch-ins, while Glacial Lance can be used on Mold Breaker sets to OHKO Yveltal after slight chip damage. Mega Garchomp synergizes well with Kartana; Mega Garchomp pressures Miraidon and Fire-types like Ho-Oh, while Kartana can help break past walls to Mega Garchomp like Fur Coat Arceus-Fairy. Because of its low Speed and lack of longevity, Mega Garchomp appreciates slow pivots like RegenVest Mega Steelix and Primal Kyogre. Mega Garchomp can be Imposter-proofed by the likes of Fur Coat Arceus-Fairy and Yveltal.</p>"
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}, {"username": "Notagamer", "user_id": 619896}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "Gangsta Spongebob", "user_id": 535530}, {"username": "deetah", "user_id": 297659}, {"username": "WrathoftheLeopard", "user_id": 511181}]}]}
-    },
+    "balancedhackmons": {"credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}, {"username": "Notagamer", "user_id": 619896}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "Gangsta Spongebob", "user_id": 535530}, {"username": "deetah", "user_id": 297659}, {"username": "WrathoftheLeopard", "user_id": 511181}]}]}},
     "almostanyability": {
       "sets": [
         {
@@ -2516,6 +2520,24 @@
     },
     "1v1": {"outdated": true, "sets": [{"name": "Choice Band"}, {"name": "Choice Scarf"}, {"name": "Life Orb"}], "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}},
     "nationaldexmonotype": {"sets": [{"name": "Defensive Entry Hazard Setter (Dragon)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}, {"name": "Offensive Entry Hazard Setter (Dragon)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}, {"name": "Swords Dance (Ground)", "description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}]}
+  },
+  "Garchomp-Mega": {
+    "balancedhackmons": {
+      "sets": [
+        {
+          "name": "Setup Sweeper",
+          "description": "<p>Mega Garchomp is an incredibly powerful wallbreaker and sweeper with favorable matchups against common physical walls like Miraidon and Arceus-Poison. Shift Gear and Tidy Up increase its offensive power and help offset Mega Garchomp's poor Speed, allowing it to outspeed common physical walls; the former ensures Mega Garchomp outspeeds Deoxys-A, while the latter provides role compression by removing entry hazards. Jungle Healing helps offset accumulated chip damage and Life Orb recoil while also removing crippling status conditions like burn and poison. This allows Mega Garchomp to much more freely switch into Mortal Spin users like Arceus-Poison and Miraidon not running a Dragon-type attack. Life Orb, Adaptability, and an Adamant nature provide a crucial power boost, letting unboosted Mega Garchomp OHKO Mega Steelix and 2HKO Fur Coat Arceus-Poison. If desired, Defense EVs can be lowered to allow Mega Garchomp to always OHKO Eviolite Imposter Chansey with +1 Glaive Rush. Mega Garchomp pairs well with other physical wallbreakers like Choice Band Mega Mewtwo X and Kartana to heavily pressure Fur Coat users like Yveltal and Arceus-Ghost; in return they appreciate Mega Garchomp handling Arceus-Poison and Miraidon. Teammates, such as Magic Bounce Mega Audino, can limit Strength Sap recovery from opposing physical walls like Fur Coat Arceus-Ghost and Yveltal, allowing Mega Garchomp to eventually break through them. Mega Garchomp can be Imposter-proofed by Fur Coat users like Arceus-Fairy and Arceus-Ghost.</p>"
+        },
+        {
+          "name": "Choice Band",
+          "description": "<p>Thanks to an excellent offensive typing and Attack, Mega Garchomp is an incredibly strong wallbreaker that, thanks to its Ground typing, resists Stealth Rock and can naturally destroy foes that competitors like Kyurem-B and Kartana can't. Adaptability, which Mega Garchomp can afford to run thanks to its Ground STAB, gives a strong power boost that Imposter users aren't immune to, while Mold Breaker ignores Fur Coat on targets like Arceus-Ghost; Sword of Ruin fares worse into Imposter users than Adaptability, but it boosts Glacial Lance’s and Gigaton Hammer's damage. Gigaton Hammer hits Pokemon like Arceus-Fairy and Mega Audino, making them shaky switch-ins, while Glacial Lance can be used on Mold Breaker sets to OHKO Yveltal after slight chip damage. Mega Garchomp synergizes well with Kartana; Mega Garchomp pressures Miraidon and Fire-types like Ho-Oh, while Kartana can help break past walls to Mega Garchomp like Fur Coat Arceus-Fairy. Because of its low Speed and lack of longevity, Mega Garchomp appreciates slow pivots like RegenVest Mega Steelix and Primal Kyogre. Mega Garchomp can be Imposter-proofed by the likes of Fur Coat Arceus-Fairy and Yveltal.</p>"
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}, {"username": "Notagamer", "user_id": 619896}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "TTTech", "user_id": 338877}]}, {"name": "Grammar checked by", "members": [{"username": "Gangsta Spongebob", "user_id": 535530}, {"username": "deetah", "user_id": 297659}, {"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+    },
+    "almostanyability": {"credits": {"writtenBy": [{"username": "Gimmickyasitgets", "user_id": 540420}, {"username": "cat", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "Kinetic1000", "user_id": 552227}, {"username": "UT", "user_id": 523866}, {"username": "Tranquility", "user_id": 475288}, {"username": "Isaiah", "user_id": 375662}, {"username": "Gimmickyasitgets", "user_id": 540420}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "Milak", "user_id": 262594}]}]}},
+    "1v1": {"outdated": true, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "fruan", "user_id": 536219}]}]}},
+    "nationaldexmonotype": {}
   },
   "Lucario": {
     "ru": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Band"}, {"name": "Nasty Plot"}]},
@@ -3474,7 +3496,6 @@
     },
     "nationaldex": {"sets": [{"name": "Swords Dance"}, {"name": "Choice Scarf"}]}
   },
-  "Tranquill": {},
   "Excadrill": {
     "nationaldex": {
       "sets": [
@@ -3503,7 +3524,7 @@
       "credits": {"writtenBy": [{"username": "Runo", "user_id": 568189}], "teams": [{"name": "Quality checked by", "members": [{"username": "Arishem", "user_id": 546157}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     }
   },
-  "Audino": {
+  "Audino-Mega": {
     "balancedhackmons": {
       "sets": [
         {
@@ -4644,19 +4665,7 @@
       ],
       "credits": {"writtenBy": [{"username": "NinjaSnapple", "user_id": 552611}], "teams": [{"name": "Quality checked by", "members": [{"username": "ryo yamada2001", "user_id": 192134}, {"username": "Smudge", "user_id": 550367}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     },
-    "balancedhackmons": {
-      "sets": [
-        {
-          "name": "Mixed",
-          "description": "<p>Mixed Mega Diancie is a powerful wallbreaker that also provides utility with its strong priority. Life Orb-boosted Pixilate Extreme Speed OHKOes fast threats like Pheromosa, Palkia-O, and Mega Mewtwo X, with only the latter requiring slight chip damage to do so. V-create is the strongest coverage option against Steel-types, OHKOing Solgaleo, Ferrothorn, and Mega Scizor, as well as KOing Mega Steelix that has switched into Boomburst. Precipice Blades is a weaker alternative that misses KOs on the aforementioned but instead hits Fire-types like Arceus-Fire and Victini. Pain Split is an effective recovery move due to Mega Diancie's low HP to offset Life Orb recoil, and it's also ineffective for Imposter users. Strength Sap is an alternative that is more reliable, but it can be more annoying to Imposter-proof. Stone Axe forgoes longevity for coverage against Ho-Oh and also allows Mega Diancie to make progress against walls like Arceus-Poison. Mega Diancie has difficulties bypassing certain walls like Fur Coat Arceus-Poison, so offensive partners like mixed Mega Mewtwo X and Mega Garchomp synergize well. Knock Off support also is helpful for removing Assault Vest from Pokemon like Primal Kyogre and Mega Steelix to make Boomburst more spammable, and it's also useful against Heavy-Duty Boots Ho-Oh. Mega Diancie can be Imposter-proofed by Arceus-Poison, Ice Scales Arceus formes, and, depending on the coverage option, Ho-Oh and Steel-types not weak to Ground or Fire.</p>"
-        },
-        {
-          "name": "Choice Specs",
-          "description": "<p>Choice Specs Mega Diancie is a threatening wallbreaker thanks to a strong and fast Pixilate-boosted Boomburst, which can rip through anything that doesn't resist it or have Ice Scales or Assault Vest. Revelation Dance chunks Fire-types like Ho-Oh and Arceus-Fire for heavy damage, invalidating both as checks. Volt Switch helps keep momentum against bulky checks like Primal Kyogre and Arceus-Fairy, giving opportunities to teammates to help whittle them down. The last move is fairly customizable; Extreme Speed picks off faster threats like Pheromosa and weakened Mega Mewtwo X and Palkia-O, while the other moves target Poison- and Steel-types like Arceus-Poison and Mega Steelix. Mega Diancie's main drawback is that it often lacks the raw power to beat special walls like Ice Scales Arceus formes, so supporting allies like Eternatus help wear them down over time. Mega Steelix is a severe thorn in Mega Diancie's side, as it can reliably scout the move it locks into, denies Volt Switch, and can pivot in an offensive teammate; as such, Knock Off support is recommended, as Mega Steelix is 2HKOed by Boomburst without its Assault Vest. Imposter-proof Mega Diancie with Mega Steelix, Chansey, or Fur Coat Arceus-Poison, depending on its last move.</p>"
-        }
-      ],
-      "credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}, {"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "UT", "user_id": 523866}]}]}
-    },
+    "balancedhackmons": {"credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}, {"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "UT", "user_id": 523866}]}]}},
     "almostanyability": {"outdated": true, "sets": [{"name": "Defensive"}, {"name": "Triage"}]},
     "nationaldexmonotype": {
       "sets": [
@@ -4671,6 +4680,23 @@
       ],
       "credits": {"writtenBy": [{"username": "Don Bork", "user_id": 623713}, {"username": "Swiffix", "user_id": 547532}], "teams": [{"name": "Rock analysis by", "members": [{"username": "Don Bork", "user_id": 623713}]}, {"name": "Fairy analysis by", "members": [{"username": "Swiffix", "user_id": 547532}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "CrossHeart", "user_id": 593863}, {"username": "maroon", "user_id": 305839}, {"username": "Giyu", "user_id": 574288}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}, {"username": "autumn", "user_id": 384270}, {"username": "Adeleine", "user_id": 517429}]}]}
     }
+  },
+  "Diancie-Mega": {
+    "balancedhackmons": {
+      "sets": [
+        {
+          "name": "Mixed",
+          "description": "<p>Mixed Mega Diancie is a powerful wallbreaker that also provides utility with its strong priority. Life Orb-boosted Pixilate Extreme Speed OHKOes fast threats like Pheromosa, Palkia-O, and Mega Mewtwo X, with only the latter requiring slight chip damage to do so. V-create is the strongest coverage option against Steel-types, OHKOing Solgaleo, Ferrothorn, and Mega Scizor, as well as KOing Mega Steelix that has switched into Boomburst. Precipice Blades is a weaker alternative that misses KOs on the aforementioned but instead hits Fire-types like Arceus-Fire and Victini. Pain Split is an effective recovery move due to Mega Diancie's low HP to offset Life Orb recoil, and it's also ineffective for Imposter users. Strength Sap is an alternative that is more reliable, but it can be more annoying to Imposter-proof. Stone Axe forgoes longevity for coverage against Ho-Oh and also allows Mega Diancie to make progress against walls like Arceus-Poison. Mega Diancie has difficulties bypassing certain walls like Fur Coat Arceus-Poison, so offensive partners like mixed Mega Mewtwo X and Mega Garchomp synergize well. Knock Off support also is helpful for removing Assault Vest from Pokemon like Primal Kyogre and Mega Steelix to make Boomburst more spammable, and it's also useful against Heavy-Duty Boots Ho-Oh. Mega Diancie can be Imposter-proofed by Arceus-Poison, Ice Scales Arceus formes, and, depending on the coverage option, Ho-Oh and Steel-types not weak to Ground or Fire.</p>"
+        },
+        {
+          "name": "Choice Specs",
+          "description": "<p>Choice Specs Mega Diancie is a threatening wallbreaker thanks to a strong and fast Pixilate-boosted Boomburst, which can rip through anything that doesn't resist it or have Ice Scales or Assault Vest. Revelation Dance chunks Fire-types like Ho-Oh and Arceus-Fire for heavy damage, invalidating both as checks. Volt Switch helps keep momentum against bulky checks like Primal Kyogre and Arceus-Fairy, giving opportunities to teammates to help whittle them down. The last move is fairly customizable; Extreme Speed picks off faster threats like Pheromosa and weakened Mega Mewtwo X and Palkia-O, while the other moves target Poison- and Steel-types like Arceus-Poison and Mega Steelix. Mega Diancie's main drawback is that it often lacks the raw power to beat special walls like Ice Scales Arceus formes, so supporting allies like Eternatus help wear them down over time. Mega Steelix is a severe thorn in Mega Diancie's side, as it can reliably scout the move it locks into, denies Volt Switch, and can pivot in an offensive teammate; as such, Knock Off support is recommended, as Mega Steelix is 2HKOed by Boomburst without its Assault Vest. Imposter-proof Mega Diancie with Mega Steelix, Chansey, or Fur Coat Arceus-Poison, depending on its last move.</p>"
+        }
+      ],
+      "credits": {"writtenBy": [{"username": "Chessking345", "user_id": 355040}, {"username": "Tea Guzzler", "user_id": 577920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}, {"username": "Chessking345", "user_id": 355040}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "UT", "user_id": 523866}]}]}
+    },
+    "almostanyability": {"outdated": true},
+    "nationaldexmonotype": {"credits": {"writtenBy": [{"username": "Don Bork", "user_id": 623713}, {"username": "Swiffix", "user_id": 547532}], "teams": [{"name": "Rock analysis by", "members": [{"username": "Don Bork", "user_id": 623713}]}, {"name": "Fairy analysis by", "members": [{"username": "Swiffix", "user_id": 547532}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "CrossHeart", "user_id": 593863}, {"username": "maroon", "user_id": 305839}, {"username": "Giyu", "user_id": 574288}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}, {"username": "autumn", "user_id": 384270}, {"username": "Adeleine", "user_id": 517429}]}]}}
   },
   "Hoopa": {
     "nu": {"sets": [{"name": "Substitute Wallbreaker"}, {"name": "Choice User"}, {"name": "Utility"}]},
@@ -5263,7 +5289,7 @@
     }
   },
   "Necrozma": {"nationaldexru": {"sets": [{"name": "Dragon Dance"}, {"name": "Calm Mind", "description": "<p>A more defensive spread of 252 HP / 4 Def / 252 Spe Timid can be used with Cosmic Power over Calm Mind</p>"}, {"name": "Meteor Beam"}]}},
-  "Necrozma-Dusk-Mane": {"nationaldexubers": {"sets": [{"name": "Defensive"}, {"name": "Defensive Dragon Dance"}, {"name": "Offensive Dragon Dance"}, {"name": "Ultra Physical"}, {"name": "Ultra Special"}]}},
+  "Necrozma-Dusk Mane": {"nationaldexubers": {"sets": [{"name": "Defensive"}, {"name": "Defensive Dragon Dance"}, {"name": "Offensive Dragon Dance"}, {"name": "Ultra Physical"}, {"name": "Ultra Special"}]}},
   "Magearna": {"ubers": {"sets": [{"name": "Double Dance"}, {"name": "Trick Room Setter"}]}},
   "Marshadow": {"nationaldexubers": {"sets": [{"name": "Choice Band"}, {"name": "Life Orb"}]}},
   "Blacephalon": {
