@@ -24,6 +24,7 @@ export interface Analysis {
 export interface Moveset {
   name: string;
   description: string;
+  pokemon: string;
   levels: number[];
   abilities: string[];
   items: string[];

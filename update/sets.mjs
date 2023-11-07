@@ -99,21 +99,22 @@ function eligible(gen, species) {
     const imports = [];
     for (const species of dex.species.all()) {
       if (!eligible(gen, species)) continue;
-      imports.push(importPokemon(gen, species));
+      imports.push(importPokemon(dex, gen, species));
     }
 
     const data = {gen: {analyses: {}, sets: {}}, format: {analyses: {}, sets: {}}};
-    for (const pokemon of await Promise.all(imports)) {
-      if (!pokemon) continue;
-      for (const p of pokemon) {
-        data.gen.analyses[p.name] = p.analyses;
-        data.gen.sets[p.name] = p.sets;
-        for (const tierid in p.analyses) {
+    for (const results of await Promise.all(imports)) {
+      if (!results) continue;
+      for (const name in results) {
+        const {sets, analyses} = results[name];
+        data.gen.analyses[name] = analyses;
+        data.gen.sets[name] = sets;
+        for (const tierid in analyses) {
           const format = `gen${gen}${tierid}`;
           data.format.analyses[format] = data.format.analyses[format]  || {};
-          data.format.analyses[format][p.name] = p.analyses[tierid];
+          data.format.analyses[format][name] = analyses[tierid];
           data.format.sets[format] = data.format.sets[format] || {};
-          data.format.sets[format][p.name] = p.sets[tierid];
+          data.format.sets[format][name] = sets[tierid];
         }
       }
     }
@@ -145,44 +146,47 @@ function eligible(gen, species) {
 // Fetch a Pokémon's analysis and split out the sets from the analysis text, compressing the
 // set information and sanitizing the analysis text. If the Pokémon doesn't have any strategies we
 // simply return undefined to ensure it will be elided during serialization.
-async function importPokemon(gen, species) {
+async function importPokemon(dex, gen, species) {
   const json = await request(Analyses.request(species, gen));
   if (!json || !json.strategies.length) return undefined;
 
-  const analyses = {};
-  const sets = {};
+  const imports = {};
   for (const analysis of json.strategies) {
     const tier = toID(analysis.format);
     if (tier === 'limbo' || tier.endsWith('rentals')) continue;
     let format = `gen${gen}${FORMATS[tier] || tier}`;
     // NB: we can't simply check Format.exists because @pkmn/sim doesn't support all mods
     if (Dex.formats.get(format).effectType !== 'Format' && !FORMATS[tier]) {
-      throw new Error(`Unknown format: ${format} (${tier}) for gen ${gen.num} ${species.name}`);
+      throw new Error(`Unknown format: ${format} (${tier}) for gen ${gen} ${species.name}`);
     }
     format = format.slice(4); // trim gen<N> to save space (BUG)
 
-    analysis.sets = [];
-    const s = sets[format] || (sets[format] = {});
+    const analyses = {};
     for (const ms of analysis.movesets) {
-      analysis.sets.push({
+      imports[ms.pokemon] ||= {analyses: {}, sets: {}};
+      analyses[ms.pokemon] ||= [];
+      analyses[ms.pokemon].push({
         name: ms.name,
         description: sanitize(ms.description),
       });
-      s[ms.name] = compress(gen, format, ms, species);
+      imports[ms.pokemon].sets[format] ||= {};
+      imports[ms.pokemon].sets[format][ms.name] =
+        compress(gen, format, ms, dex.species.get(ms.pokemon));
     }
-    delete analysis.movesets;
 
-    analyses[format] = {
-      outdated: !!analysis.outdated || undefined,
-      overview: sanitize(analysis.overview),
-      comments: sanitize(analysis.comments),
-      sets: analysis.sets,
-      credits: !analysis.credits.teams.length && !analysis.credits.writtenBy.length
-        ? undefined : analysis.credits,
+    for (const pokemon in imports) {
+      imports[pokemon].analyses[format] = {
+        outdated: !!analysis.outdated || undefined,
+        overview: sanitize(analysis.overview),
+        comments: sanitize(analysis.comments),
+        sets: analyses[pokemon],
+        credits: !analysis.credits.teams.length && !analysis.credits.writtenBy.length
+            ? undefined : analysis.credits,
+      };
     }
   }
 
-  return [{name: species.name, analyses, sets}];
+  return imports;
 }
 
 // Remove any fields from the Moveset that contain redundant info that we can just fill back in
