@@ -37,10 +37,7 @@ interface RawAnalysis {
   outdated?: boolean;
   overview?: string;
   comments?: string;
-  sets: Array<{
-    name: string;
-    description?: string;
-  }>;
+  sets: { [name: string]: {description?: string}};
   credits?: Credits;
 }
 
@@ -64,7 +61,7 @@ interface Member {
  */
 export interface Analysis extends Omit<RawAnalysis, 'sets'> {
   format: ID;
-  sets: Array<Moveset & {name: string; description?: string}>;
+  sets: {[name: string]: Moveset & {description?: string}};
 }
 
 /** A compressed version of the default smogon Moveset type which is smaller to serialize. */
@@ -246,21 +243,22 @@ export class Smogon {
         overview: a.overview,
         comments: a.comments,
         credits: a.credits,
-        sets: [],
+        sets: {},
       };
 
-      for (const stub of a.sets) {
-        const set = s[stub.name];
+      let present = false;
+      for (const setName in a.sets) {
+        const set = s[setName];
         if (set && this.match(species, this.toSet(species, set))) {
-          analysis.sets.push({
-            name: stub.name,
-            description: stub.description,
+          present = true;
+          analysis.sets[setName] = {
+            description: a.sets[setName].description,
             ...set,
-          } as Moveset & {name: string; description?: string});
+          } as Moveset & {description?: string};
         }
       }
 
-      if (analysis.sets.length) result.push(analysis);
+      if (present) result.push(analysis);
     }
 
     return result;

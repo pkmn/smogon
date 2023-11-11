@@ -165,11 +165,8 @@ async function importPokemon(dex, gen, species) {
     for (const ms of analysis.movesets) {
       const pokemon = dex.species.get(ms.pokemon);
       imports[pokemon.name] ||= {analyses: {}, sets: {}};
-      analyses[pokemon.name] ||= [];
-      analyses[pokemon.name].push({
-        name: ms.name,
-        description: sanitize(ms.description),
-      });
+      analyses[pokemon.name] ||= {};
+      analyses[pokemon.name][ms.name] = {description: sanitize(ms.description)};
       imports[pokemon.name].sets[format] ||= {};
       imports[pokemon.name].sets[format][ms.name] = compress(gen, format, ms, pokemon);
     }

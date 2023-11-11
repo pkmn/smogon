@@ -29,7 +29,7 @@ const fetch = async (url: string) => {
 describe('Smogon', () => {
   for (const minimal of [false, true]) {
     test(`analyses (minimal=${minimal.toString()})`, async () => {
-      const sets = (as: Analysis[]) => as.map(a => a.sets.map(s => s.name));
+      const sets = (as: Analysis[]) => as.map(a => Object.keys(a.sets));
       const smogon = new Smogon(fetch, minimal);
 
       expect(await smogon.analyses(gen(1), 'Fakemon')).toEqual([]);
@@ -57,13 +57,14 @@ describe('Smogon', () => {
 
       expect(sets(await smogon.analyses(gen(8), 'Darmanitan-Galar-Zen', 'gen81v1' as ID)))
         .toEqual([['Zen Mode']]);
-      expect((await smogon.analyses(gen(3), 'Gengar', 'gen3ou' as ID))[0].overview)
+      const gengar = await smogon.analyses(gen(3), 'Gengar', 'gen3ou' as ID);
+      expect(gengar[0].overview)
         .toMatch('Gengar is a centralizing threat in ADV OU');
-      expect((await smogon.analyses(gen(3), 'Gengar', 'gen3ou' as ID))[0].sets[0].description)
+      expect(gengar[0].sets['Defensive'].description)
         .toMatch('Defensive Gengar is most commonly used on teams that');
       const clefable = await smogon.analyses(gen(4), 'Clefable', 'gen4uu' as ID);
       expect(clefable[0].format).toBe('gen4uu');
-      expect(clefable[0].sets[0].moves[0]).toEqual(['Ice Beam', 'Encore']);
+      expect(clefable[0].sets['Support'].moves[0]).toEqual(['Ice Beam', 'Encore']);
       expect((await smogon.analyses(gen(8), 'Incineroar', 'gen8vgc2021series10' as ID))[0].format)
         .toBe('gen8vgc2021series10');
     });
