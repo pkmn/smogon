@@ -242,12 +242,8 @@ function sanitize(html) {
   if (!html) return undefined;
   const clean = sanitizeHtml(html, {
     transformTags: {
-      // Here we are making use (abusing) of the fact that sanitize-html will strip img tags by
-      // default but retain their text contents. exclusiveFilter seems like it would be a more
-      // direct way to accomplish what we want, but exclusiveFilter removes the entire tag and its
-      // text content as opposed to just the tag.
       'a': (tagName, attribs) => {
-        return (attribs.href.startsWith('/')) ? {tagName: 'img'} : {tagName, attribs};
+        return (attribs.href.startsWith('/')) ? {tagName: ''} : {tagName, attribs};
       }
     }
   }).replace(/\n/g, ' ');
