@@ -49,29 +49,30 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
 // these format names on Pokémon Showdown update frequently as new series are introduced yet
 // Smogon treats all of the series as the same format.
 const FORMATS = {
-  ag: 'anythinggoes', battlestadiumsingles: 'battlestadiumsingles',
-  battlestadiumdoubles: 'battlestadiumdoubles', bssseries1: 'battlestadiumsingles',
+  ag: 'anythinggoes', battlestadiumdoubles: 'battlestadiumdoubles', bssseries1: 'battlestadiumsingles',
   bssseries2: 'battlestadiumsingles', bssseries12: 'battlestadiumsingles',
-  bssseries13: 'battlestadiumsingles', nationaldexag: 'nationaldexag',
-  nationaldexru: 'nationaldexru', nationaldexmonotype: 'nationaldexmonotype', lgpeou: 'letsgoou',
+  bssseries13: 'battlestadiumsingles', battlestadiumsingles: 'battlestadiumsingles',
+  nationaldexag: 'nationaldexag', nationaldexru: 'nationaldexru',
+  nationaldexmonotype: 'nationaldexmonotype', lgpeou: 'letsgoou',
   bdspou: 'bdspou', bh: 'balancedhackmons', doubles: 'doublesou', uber: 'ubers',
   // NB: technically 'Farceus Uber' is different than Anything Goes...
   dwou: 'dreamworldou', zu: 'zu', nfe: 'nfe', farceusuber: 'anythinggoes', middlecup: 'middlecup',
   // Other Metagames
   almostanyability: 'almostanyability', mixandmega: 'mixandmega', godlygift: 'godlygift',
   camomons: 'camomons', stabmons: 'stabmons', pic: 'partnersincrime',
+  // DW deciding to go rogue. VGC 22 Series 13 -> "BSD" Series 13 = BSD
+  vgc22series13: 'battlestadiumdoubles',
   // VGC
   vgc11: 'vgc2011', vgc12: 'vgc2012', vgc14: 'vgc2014', vgc15: 'vgc2015', vgc16: 'vgc2016',
   vgc17: 'vgc2017', vgc18: 'vgc2018', vgc19: 'vgc2019', vgc20: 'vgc2020', vgc21: 'vgc2021',
   vgc22: 'vgc2022', vgc23series1: 'vgc2023', vgc23series2: 'vgc2023', vgc23series3: 'vgc2023',
   vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023',
-  // DW deciding to go rogue. VGC 22 Series 13 -> "BSD" Series 13 = BSD
-  vgc22series13: 'battlestadiumdoubles',
   // RBwhY?
   nintendocup1998: 'nintendocup1998', nintendocup1999: 'nintendocup1999', lclevel100: 'lclevel100',
   petitcup: 'petitcup', pikacup: 'pikacup', monotype: 'monotype', pu: 'pu', lc: 'lc', '1v1': '1v1',
   '2v2doubles': '2v2doubles'
 };
+const ORDER = Object.keys(FORMATS);
 
 // Iterating through dex.species.all() returns a bunch of formes that Smogon either doesn't support
 // or will simply redirect to the base species - instead we filter to only the 'eligible' Pokémon to
@@ -151,16 +152,7 @@ async function importPokemon(dex, gen, species) {
   if (!json || !json.strategies.length) return undefined;
 
   const imports = {};
-  for (const analysis of json.strategies) {
-    const tier = toID(analysis.format);
-    if (tier === 'limbo' || tier.endsWith('rentals')) continue;
-    let format = `gen${gen}${FORMATS[tier] || tier}`;
-    // NB: we can't simply check Format.exists because @pkmn/sim doesn't support all mods
-    if (Dex.formats.get(format).effectType !== 'Format' && !FORMATS[tier]) {
-      throw new Error(`Unknown format: ${format} (${tier}) for gen ${gen} ${species.name}`);
-    }
-    format = format.slice(4); // trim gen<N> to save space (BUG)
-
+  for (const [format, analysis] of Object.entries(toFormats(gen, species, json.strategies))) {
     const analyses = {};
     for (const ms of analysis.movesets) {
       const pokemon = dex.species.get(ms.pokemon);
@@ -184,6 +176,36 @@ async function importPokemon(dex, gen, species) {
   }
 
   return imports;
+}
+
+function toFormats(gen, species, analyses) {
+  const mapping = {};
+  const formats = {};
+  for (const analysis of analyses) {
+    const tier = toID(analysis.format);
+    if (tier === 'limbo' || tier.endsWith('rentals')) continue;
+    let format = `gen${gen}${FORMATS[tier] || tier}`;
+    // NB: we can't simply check Format.exists because @pkmn/sim doesn't support all mods
+    if (Dex.formats.get(format).effectType !== 'Format' && !FORMATS[tier]) {
+      throw new Error(`Unknown format: ${format} (${tier}) for gen ${gen} ${species.name}`);
+    }
+    format = format.slice(4); // trim gen<N> to save space (BUG)
+    // BSS/VGC etc can sometimes have multiple formats (BSS, BSS12, BSS13 etc)
+    if (formats[format]) {
+      const a = ORDER.indexOf(tier) || tier;
+      const b = ORDER.indexOf(mapping[format]) || mapping[format] || 0;
+      if (a > b) {
+        mapping[format] = tier;
+      } else {
+        continue;
+      }
+    } else {
+      mapping[format] = tier;
+    }
+
+    formats[format] = analysis;
+  }
+  return formats;
 }
 
 // Remove any fields from the Moveset that contain redundant info that we can just fill back in
