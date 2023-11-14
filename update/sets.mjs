@@ -164,6 +164,7 @@ async function importPokemon(dex, gen, species) {
     }
 
     for (const pokemon in imports) {
+      if (!analyses[pokemon]) continue;
       imports[pokemon].analyses[format] = {
         outdated: !!analysis.outdated || undefined,
         overview: sanitize(analysis.overview),
