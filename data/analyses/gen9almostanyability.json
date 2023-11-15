@@ -29,7 +29,15 @@
     },
     "credits": {"writtenBy": [{"username": "Theia", "user_id": 439018}, {"username": "Kinetic1000", "user_id": 552227}], "teams": [{"name": "Quality checked by", "members": [{"username": "Kinetic1000", "user_id": 552227}, {"username": "UT", "user_id": 523866}, {"username": "cat", "user_id": 580765}, {"username": "Gimmickyasitgets", "user_id": 540420}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "Milak", "user_id": 262594}]}]}
   },
-  "Electrode-Hisui": {"sets": {"Magic Guard": {}}},
+  "Electrode-Hisui": {
+    "outdated": true,
+    "sets": {
+      "Magic Guard": {
+        "description": "<p>Hisuian Electrode's excellent Speed tier, powerful Volt Switch, and ability to nail Ground-types like Garchomp and Iron Treads make it an outstanding offensive pivot. Leech Seed lets Hisuian Electrode chip down targets it can't meaningfully damage like Hisuian Goodra and Blissey, while Worry Seed directly forces out these Pokemon and can generate momentum for Hisuian Electrode by denying its checks of their Regenerator, wearing them down. Hisuian Electrode works best with strong physically offensive pivots like Cinderace and Galarian Zapdos that can wear down shared checks like Garchomp; in return, Hisuian Electrode can force in Pokemon they take advantage of like Meloetta, Hisuian Goodra, and Blissey. Entry hazards setters like Landorus-T and Garchomp make solid partners, as the residual damage they provide greatly helps to wear down Hisuian Electrode's switch-ins, such as Hisuain Goodra. In return, Landorus-T can use its slow U-Turn to pivot Hisuian Electrode in, while Garchomp can come in on Pokemon like Heatran for Hisuian Electrode.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "Hera", "user_id": 414072}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Gimmickyasitgets", "user_id": 540420}]}, {"name": "Grammar checked by", "members": [{"username": "Lumari", "user_id": 232216}]}]}
+  },
   "Gyarados": {"outdated": true, "sets": {"Dragon Dance": {}}},
   "Vaporeon": {"outdated": true, "sets": {"Defensive": {}}},
   "Zapdos": {
@@ -89,11 +97,40 @@
     },
     "credits": {"writtenBy": [{"username": "I am BONK", "user_id": 603931}], "teams": [{"name": "Quality checked by", "members": [{"username": "KarpeChan", "user_id": 536333}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Clouds", "user_id": 356215}]}]}
   },
-  "Slowking": {"outdated": true, "sets": {"Defensive Pivot": {}}},
+  "Slowking": {
+    "outdated": true,
+    "sets": {
+      "Defensive Pivot": {
+        "description": "<p>Slowking serves as a decent defensive wall due to its overall good bulk and support movepool, switching into various physical attackers such as Talonflame, Cinderace, and Quaquaval. Chilly Reception lets Slowking pivot into teammates in order to gain momentum, notably Chien-Pao. Slowking's low Speed stat with 0 Speed IVs allows it to switch into a favorable teammate after pivoting. Surf is a reliable STAB move that most notably deals huge damage to Sandy Shocks, Talonflame, and Iron Moth. Ice Beam threatens Garchomp and stops it from using Slowking as a setup fodder. Thunder Wave can be used in order to cripple Iron Moth and Roaring Moon that usually switch into Slowking and can pressure it. Intimidate is the preferred choice of ability, as it combines well with Slowking's ability to pivot, making it difficult to KO. Fluffy can be used as an alternative in order to deal with Roaring Moon better. Rocky Helmet punishes U-turn users such as Cinderace and Quaquaval from freely pivoting against Slowking, while Heavy-Duty Boots keeps Slowking healthy. Slowking fits best on balance teams where it can switch into aforementioned Pokemon while also being able to pivot into teammates like Chien-Pao and Kingambit, providing them a good setup opportunity.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "Frozoid", "user_id": 532881}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Alexender", "user_id": 313542}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
+  },
   "Slowking-Galar": {"outdated": true, "sets": {"Specially Defensive Pivot": {}}},
-  "Donphan": {"outdated": true, "sets": {"Fluffy": {}}},
-  "Blissey": {"sets": {"Unaware": {}}},
-  "Gardevoir": {"outdated": true, "sets": {"Tinted Lens": {}, "Prankster": {}, "Hadron Engine": {}}},
+  "Donphan": {
+    "outdated": true,
+    "sets": {"RegenVest": {"description": "<p>Assault Vest Donphan is a solid special pivot that can check the likes of Sandy Shocks while also removing entry hazards with Rapid Spin. Knock Off cripples switch-ins and can support offensive teammates. Body Press is used as a coverage option for Earth Eater Kingambit and Iron Treads, which would otherwise wall Donphan. Offensive Pokemon susceptible to hazards such as Chien-Pao and Dragonite appreciate Donphan's spinning capabilities. Physically defensive Pokemon like Corviknight and Garganacl also pair well with Donphan, as it can handle special attackers like Sandy Shocks that threaten them. Donphan can be prone to residual damage, so it's recommended to pair it with a Wish user like Scream Tail or Florges to extend its longevity.</p>"}},
+    "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+  },
+  "Blissey": {
+    "outdated": true,
+    "sets": {
+      "Special Wall": {
+        "description": "<p>Magic Guard Blissey is a solid wall and utility Pokemon that can effectively shrug off most viable special attackers, but it struggles against the tier's premier physically offensive options. Although it excels at switching into special attacks, it is left with rather passive options mainly chosen to maximize the potential of its teammates. Soft-Boiled is its essential recovery option that keeps it healthy to continue absorbing damage in the future. Heal Bell, Stealth Rock, and Thunder Wave are Blissey's utility options, allowing it to act as a cleric, entry hazard setter, or status spreader, respectively, to set up its teammates for success. Finally, Shadow Ball is a niche option that prevents Blissey from being passive against Ghost-types like Skeledirge, Hisuian Typhlosion, and Ceruledge. Well-Baked Body can be used instead of Magic Guard, improving its matchup against Fire-types like Magic Guard Volcanion and Heatran, as well as completely walling Skeledirge. Teams that use Blissey should also opt to carry a physical wall like Corviknight, Quaquaval, or Fluffy Landorus-T, as their ability to absorb physical attacks is valuable for preserving it as a special wall. Blissey can offer offensive teammates the ability to thwart their revenge killers with its switching unimpeded by entry hazards and damaging status conditions.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "KarpeChan", "user_id": 536333}]}, {"name": "Grammar checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}]}]}
+  },
+  "Gardevoir": {
+    "outdated": true,
+    "sets": {
+      "Tinted Lens": {
+        "description": "<p>Gardevoir is a good special wallbreaker due to a combination of its good Special Attack and Choice Specs. Tinted Lens allows Gardevoir to 2HKO Steel-types such as Iron Treads and Corviknight. Moonblast is its strongest STAB option and OHKOes a plethora of Pokemon such as Garchomp and RegenVest Roaring Moon while also 2HKOing walls such as RegenVest Ting-Lu and Corviknight. Psyshock OHKOes specially defensive Iron Moth and Clodsire and deals huge damage to Blissey. Healing Wish is an useful late-game move that lets Gardevoir gain momentum for its team by healing one of its teammates. Gardevoir can be easily revenge killed by Pokemon such as Slither Wing and Cinderace due to its low Speed, so Pokemon such as Corviknight and Gargancl are good teammates. U-turn users such as Corviknight, Cinderace, and Greninja can pivot and provide Gardevoir with a good opportunity to put huge dents in opposing teams. Entry hazard setters such as Garchomp and Clodsire provide additional chip damage, allowing Gardevoir to wallbreak efficiently.</p>"
+      },
+      "Prankster": {}
+    },
+    "credits": {"writtenBy": [{"username": "Frozoid", "user_id": 532881}], "teams": [{"name": "Quality checked by", "members": [{"username": "Atha", "user_id": 450411}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
+  },
   "Masquerain": {"outdated": true, "sets": {"Sticky Web Lead": {}}},
   "Salamence": {"outdated": true, "sets": {"Aerilate": {}}},
   "Empoleon": {"sets": {"Type Immunity": {}}},
@@ -122,7 +159,11 @@
     },
     "credits": {"writtenBy": [{"username": "Hera", "user_id": 414072}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Lumari", "user_id": 232216}]}]}
   },
-  "Hippowdon": {"outdated": true, "sets": {"Defensive": {}}},
+  "Hippowdon": {
+    "outdated": true,
+    "sets": {"Fluffy": {"description": "<p>Fluffy Hippowdon is a remarkable physical wall thanks to its defensive stats, reliable recovery in Slack Off, and pure Ground typing, letting it check offensive threats like Ceruledge, Kingambit, and Slither Wing. Whirlwind prevents foes like Talonflame from setting up. Rocky Helmet punishes the physical attackers it checks and lets it pseudo-spinblock Cyclizar and Iron Treads; alternatively, Leftovers gives it extra recovery without having to waste Slack Off PP. 25 Speed IVs let it underspeed Corviknight, allowing it to punish its Roost with Earthquake. Specially defensive walls like Corviknight, Florges, and Blissey can compensate for Hippowdon's poor Special Defense and check foes like Chi-Yu and Greninja. In return, they appreciate Hippowdon dealing with Ceruledge, Kingambit, and Slither Wing.</p>"}},
+    "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
+  },
   "Weavile": {
     "sets": {
       "Swords Dance": {
@@ -206,7 +247,18 @@
     },
     "credits": {"writtenBy": [{"username": "Gimmickyasitgets", "user_id": 540420}], "teams": [{"name": "Quality checked by", "members": [{"username": "cat", "user_id": 580765}, {"username": "Tranquility", "user_id": 475288}, {"username": "KarpeChan", "user_id": 536333}]}, {"name": "Grammar checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}]}]}
   },
-  "Volcarona": {"outdated": true, "sets": {"Quiver Dance": {}}},
+  "Volcarona": {
+    "outdated": true,
+    "sets": {
+      "Fast Support": {
+        "description": "<p>Volcarona serves as a solid support pokemon with valuable defensive utility to check the likes of Hariyama and Glaceon. Fiery Dance lets Volcarona increase its Special Attack without having to setup, while Flamethrower has more PP and immediate power. U-turn allows Volcarona to maintain momentum, while Quiver Dance serves as an option to go for a potential late-game sweep. Will-O-Wisp cripples switch-ins like Garganacl and is generally great for weakening physical attackers like Quaquaval. Teammates such as Meowscarada and Roaring Moon appreciate Volcarona's ability to sponge priority moves from Slither Wing and Hatterene. Bulky Ground-types like Ting-Lu and Donphan also benefit from Volcarona ability to somewhat safely switch into offensive Water-types such as Inteleon and non-Brave Bird Quaquaval. Volcarona is walled by common Well-Baked Body users like Kingambit and Corviknight, so attackers like Quaquaval and Sandy Shocks are helpful for breaking through them. Volcarona can also have trouble getting past Fire-resistant specially defensive walls that resist fire like Roaring Moon and Garganacl, so a physical wallbreaker such as Slither Wing is recommended.</p>"
+      },
+      "Offensive": {
+        "description": "<p>Volcarona serves as a passable late-game sweeper after checks such as Well-Baked Body Corviknight and special walls such as Garganacl, Blissey, and Clodsire have been eliminated from the game. Volcarona wants to quickly rack up stat boosts with Quiver Dance and Fiery Dance to sweep the enemy team while also providing a Water immunity in the form of Desolate Land. Alternatively, Volcarona can opt for Storm Drain to turn fast Primordial Sea users such as Greninja and Barraskewda into setup fodder. Will-O-Wisp is preferred on the last slot to cripple physical attackers such as Garchomp and Quaquaval, which seek to exploit Volcarona's low Defense, but Volcarona can run Bug Buzz to threaten bulky phazers such as Ting-Lu and RegenVest Roaring Moon or Psychic to chunk Haze users such as Toxapex and Clodsire. Volcarona is completely walled by Well-Baked Body Steel-types such as Corviknight and Kingambit; thus, partners such as Sandy Shocks help to eliminate them in the early-game. While Giga Drain can hurt Garganacl, Volcarona's massive weakness to Rock means it doesn't want to stay into Garganacl at all; thus, teammates such as Magic Guard Quaquaval are particularly helpful. Lastly, Volcarona appreciates entry hazard setters such as Garchomp and Clodsire, as the chip damage allows Volcarona to sweep more effectively.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}, {"username": "Alexender", "user_id": 313542}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "Sabelette", "user_id": 583793}, {"username": "autumn", "user_id": 384270}]}]}
+  },
   "Thundurus": {
     "sets": {
       "Nasty Plot": {
@@ -265,11 +317,27 @@
     },
     "credits": {"writtenBy": [{"username": "Hiusi guy", "user_id": 603640}], "teams": [{"name": "Quality checked by", "members": [{"username": "Kinetic1000", "user_id": 552227}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Gangsta Spongebob", "user_id": 535530}, {"username": "autumn", "user_id": 384270}]}]}
   },
-  "Florges": {"outdated": true, "sets": {"Defensive": {}}},
+  "Florges": {
+    "outdated": true,
+    "sets": {
+      "Defensive": {
+        "description": "<p>Florges's extremely high Special Defense stat makes it an effective wall that also provides utility in the form of Wishpassing. With Unaware, Florges is able to comfortably set up on and check Pokemon such as Quiver Dance Volcarona, Fiery Dance Iron Moth, and Hatterene. Tablets of Ruin is also a viable option that allows Florges to easily switch into and threaten Pokemon such as Chien-Pao. Calm Mind + Wish and Synthesis give Florges the longevity necessary to serve a bulky sweeper. Wish + Protect provides guaranteed healing and can be used to scout options from foes; it also synergizes well with chip damage from other sources, like Garganacl's Salt Cure and poison damage from Toxic Spikes. Despite its naturally high Special Defense, Florges is threatened by special attackers that can muscle through it, such as Shell Smash Polteageist. Florges thus appreciates teammates that can handle these threats such as RegenVest Roaring Moon and Blissey. To compensate for its relatively low physical bulk, Florges can be paired with teammates who are more physically defensive, such as Dondozo and Corviknight.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "Alexender", "user_id": 313542}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}]}]}
+  },
   "Sylveon": {"outdated": true, "sets": {"Unaware": {}}},
   "Hawlucha": {"outdated": true, "sets": {"Magic Guard": {}}},
   "Goodra": {"sets": {"RegenVest": {}}},
-  "Goodra-Hisui": {"sets": {"RegenVest": {}}},
+  "Goodra-Hisui": {
+    "outdated": true,
+    "sets": {
+      "RegenVest": {
+        "description": "<p>Hisuian Goodra, with its excellent defensive typing and enormous special bulk, is a premier RegenVest user that is able to check common special attackers such as Zapdos, Hisuian Electrode, and Greninja while also being able to phase setup sweepers like Volcarona and Polteageist with Dragon Tail. Earthquake hits opposing Hisuian Goodra and can also OHKO Fire-types like Iron Moth, while Flamethrower can threaten Steel-types like Corviknight. Thunderbolt provides coverage for offensive Water-types like Greninja, Volcanion, and Inteleon while denying minimum Speed Corviknight an opportunity to use Roost; Draco Meteor is a strong STAB move for threats like Garchomp, and Ice Beam provides coverage against prominent special attackers like Zapdos, Hisuian Electrode, and Kilowattrel. Hisuian Goodra is a great teammate for frail offensive Pokemon like Galarian Zapdos and Talonflame, as it can soak up hits from Choice Scarf revenge killers like Greninja and Azelf; in return, Zapdos and Talonflame can revenge kill strong special wallbreakers such as Thundurus-T and Hoopa, which could otherwise threaten Goodra. Goodra is vulnerable to strong physical attackers like Galarian Zapdos and Landorus-T, so pairing it with a physical wall such as Corviknight is recommended. Goodra can also be chipped down by entry hazards, which limit its walling prowess, so spinners like Quaquaval and Iron Treads make for good teammates to provide Goodra with more longevity.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "LordBox", "user_id": 611238}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "UT", "user_id": 523866}]}]}
+  },
   "Diancie": {"outdated": true, "sets": {"Defensive": {}, "Triage": {}}},
   "Hoopa": {
     "outdated": true,
@@ -355,8 +423,24 @@
     "credits": {"writtenBy": [{"username": "Gimmickyasitgets", "user_id": 540420}], "teams": [{"name": "Quality checked by", "members": [{"username": "LordBox", "user_id": 611238}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
   },
   "Toxtricity": {"outdated": true, "sets": {"Shift Gear": {}, "Choiced Attacker": {}}},
-  "Polteageist": {"outdated": true, "sets": {"Queenly Majesty": {}, "Fluffy": {}}},
-  "Hatterene": {"outdated": true, "sets": {"Triage": {}}},
+  "Polteageist": {
+    "outdated": true,
+    "sets": {
+      "Shell Smash": {
+        "description": "<p>Polteageist is a dangerous setup sweeper and cleaner thanks to Shell Smash, Stored Power, and its excellent Special Attack, allowing it to sweep with a single turn of setup. Giga Drain provides coverage for Ting-Lu and Garganacl, Strength Sap gives Polteageist a way to restore its Focus Sash after chip damage and set up on weaker physical attackers, while Substitute allows for safe setup on status-reliant walls like Blissey. Focus Sash the preferred item to safely ensure Polteageist can use Shell Smash. Polteageist can often struggle to get itself onto the field safely, so it appreciates a slow pivot from Corviknight or Shed Tail Cyclizar who can also facilitate Polteageist's setup with screens or a passed Substitute. Polteageist pairs well with physical wallbreakers like Swords Dance Cinderace that can break through opposing walls. Due to its reliance on Focus Sash, Polteageist needs reliable entry hazard removal like Cyclizar and Iron Treads.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "LordBox", "user_id": 611238}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
+  },
+  "Hatterene": {
+    "outdated": true,
+    "sets": {
+      "Triage": {
+        "description": "<p>Hatterene is a decent Triage user that can successfully check dangerous attackers like Meowscarada, Greninja, and most Chien-Pao. Calm Mind and its good bulk allow it to set up and beat bulkier foes as well. Psyshock provides effectively mixed coverage, most notably beating Blissey. For the last moveslot, Mystical Fire beats non-Well-Baked Body Corviknight, Nuzzle cripples switch-ins like Kingambit, and Giga Drain hits Garganacl hard while providing more recovery and priority. Other sweepers benefit greatly from the dents placed by Hatterene, such as Shell Smash Polteageist and Quaquaval. Hatterene is weak to mainly priority-immune Chien-Pao and Shell Smash Polteageist. Kingambit, with or without RegenVest, is a reliable check to Polteageist. Corviknight is a solid partner, as it provides entry hazard removal and pivoting to safely bring Hatterene in. Hatterene also struggles with Fire-type Pokemon, making teammates like Garchomp and Well-Baked Body Kingambit naturally good partners.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "cat", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
+  },
   "Zamazenta-Crowned": {
     "sets": {
       "IronPress": {
@@ -366,7 +450,16 @@
     "credits": {"writtenBy": [{"username": "Kinetic1000", "user_id": 552227}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "Gimmickyasitgets", "user_id": 540420}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
   },
   "Zarude": {"outdated": true, "sets": {"Adaptability": {}, "Fluffy": {}}},
-  "Regieleki": {"sets": {"Refrigerate": {}}},
+  "Regieleki": {
+    "outdated": true,
+    "sets": {
+      "Special Refrigerate": {
+        "description": "<p>Regieleki makes use of its amazing Speed along with Refrigerate to be a solid offensive spinner and pivot that cannot be spinblocked; it also threatens Ground-types that could otherwise switch in and block Volt Switch such as Garchomp, Landorus-T, and Sandy Shocks with Tera Blast. Thunderbolt is a stronger STAB option to use on switch-ins such as Iron Moth and Skeledirge, forcing them to use their recovery moves while Regieleki can pivot out, while Explosion can be used to heavily chip common RegenVest users like Hisuian Goodra and Meloetta, opening up opportunities for Regieleki's teammates like Iron Moth and Enamorus-T. Heavy-Duty Boots is the preferred item, as it allows Regieleki to have better longevity for spinning and pivoting, but Never-Melt Ice and Life Orb can also be used to make Tera Blast and Explosion more potent. Since Regieleki has a very high natural Speed tier, an alternative EV spread of 244 HP / 252 SpA / 12 Spe can be ran with a Mild nature to have more bulk while still being able to outspeed every unboosted Pokemon in the tier. Due to its frail bulk, it is highly recommended to pair Regieleki with another spinner such as Quaquaval or Iron Treads, as they can take hits from common hazard setters like Garchomp and allow Regieleki to pivot in teammates more freely with Volt Switch. Regieleki also pairs up well with physical pivots like Galarian Zapdos, Slither Wing, and Meowscarada, as they can create a strong VoltTurn duo and threaten the Pokemon that Regieleki lures in such as Hisuian Goodra and Meloetta while Regieleki can pivot them in safely. Regieleki can struggle with breaking through bulky Pokemon such as Iron Treads and Scream Tail, so pairing it with a Pokemon that can break through both of them such as Zamazenta-C, Magic Guard Volcanion, or Heatran is advised.</p>"
+      },
+      "Physical": {}
+    },
+    "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "LordBox", "user_id": 611238}, {"username": "KarpeChan", "user_id": 536333}, {"username": "cat", "user_id": 580765}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
+  },
   "Enamorus-Therian": {
     "sets": {
       "Triage": {
@@ -375,7 +468,15 @@
     },
     "credits": {"writtenBy": [{"username": "Tbolt", "user_id": 555379}], "teams": [{"name": "Quality checked by", "members": [{"username": "cat", "user_id": 580765}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
   },
-  "Meowscarada": {"sets": {"Choice Item": {}}},
+  "Meowscarada": {
+    "outdated": true,
+    "sets": {
+      "Choice Item": {
+        "description": "<p>With its great Speed and good coverage, Meowscarada is one of the best offense pivots in the tier, as Flower Trick + Knock Off provide excellent power, with Knock Off also frustrating common switch-ins like Corviknight. Alternatively, Choice Scarf sets let Meowscarada outspeed Pokemon like Chien-Pao, Hisuian Electrode, and Regieleki. Dazzling is a option over Sword of Ruin on Choice Scarf sets, letting Meowscarada deal with Slither Wing's First Impression and Ice Shard from Chien-Pao. For the last moveslot, Low Kick targets Kingambit, while Play Rough can potentially break Slither Wing; Power Gem is also a niche option on Choice Scarf sets to revenge kill Bulk Up Talonflame. Wallbreakers like Ceruledge and Iron Moth pair well with Meowscarada by punching holes into the opposing team so that Meowscarada can take over the game later on. Corviknight is also a fantastic partner for Meowscarada, tanking all of the Bug- and Ice-type moves, especially U-turn that threaten Meowscarada while also being able to pivot in Meowscarada safely. Meowscarada also pairs well with Pokemon such as Kingambit and Enamorus-T which appriciate Corviknight being weakened.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "yokoisop", "user_id": 617542}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
+  },
   "Skeledirge": {
     "outdated": true,
     "sets": {
@@ -385,10 +486,45 @@
     },
     "credits": {"writtenBy": [{"username": "Theia", "user_id": 439018}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "cat", "user_id": 580765}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
   },
-  "Quaquaval": {"sets": {"Intimidate": {}, "Magic Guard": {}}},
-  "Spidops": {"sets": {"Sticky Web Setter": {}}},
-  "Pawmot": {"outdated": true, "sets": {"Offensive": {}}},
-  "Garganacl": {"sets": {"Immunity Ability": {}}},
+  "Quaquaval": {
+    "outdated": true,
+    "sets": {
+      "Magic Guard": {
+        "description": "<p>Magic Guard Quaquaval is a formidable offensive Pokemon that also uses its excellent typing and movepool to serve as the premier offensive entry hazard remover in the tier. Wave Crash is a powerful, drawback-free STAB move that deals heavy damage to foes lacking resistance to Water. Brave Bird is used to hit common Water move switch-ins, like Desolate Land users and opposing Quaquaval. Close Combat can be used as a powerful secondary STAB move and is useful for hitting Steel types like Heatran and Hisuian Goodra, but its drawbacks and typing leave Quaquaval vulnerable to Desolate Land users like Iron Moth, Ceruledge, and Volcarona. Rapid Spin has fantastic synergy with Quaquaval's immunity to passive damage and ability to force out common hazard setters like Garchomp and Landorus-T; Quaquaval also appreciates the Speed boost and can use it in conjunction with Swords Dance to sweep later in the game. Roost greatly improves Quaquaval's longevity, allowing it to repeatedly check threats like Chien-Pao and Kingambit, while U-turn is used to safely bring in teammates after Quaquaval forces a switch. Quaquaval is hard to wear down thanks to Magic Guard, but its middling Speed and bulk leave it vulnerable to faster threats like Iron Moth, Zapdos, and Meowscarada. Fast, offensive teammates like Chien-Pao and Iron Moth appreciate Quaquaval's wallbreaking prowress and ability to remove hazards. Thanks to the passive damage immunity, Quaquaval excels as an offensive rapid spinner on hazard stacking teams, where teammates like Garchomp, Ting-Lu, and Glimmora can set hazards without worrying about enemy hazards wearing them down.</p>"
+      },
+      "Defensive": {
+        "description": "<p>Defensive Quaquaval uses its good physical bulk and typing to act as a physically defensive pivot, checking dangerous threats like Kingambit, Chien-Pao, and Hisuian Arcanine. Intimidate allows Quaquaval to weaken foes like Chien-Pao and Cinderace for its teammates, while Fluffy grants better bulk to better check Slither Wing and Roaring Moon. U-turn allows Quaquaval to maintain momentum and allows frailer teammates like Slither Wing and Hydreigon to pivot in safely while Rapid Spin offers role compression by allowing it to remove hazards while having a good matchup against entry hazard setters like Iron Treads and Garchomp. A Relaxed nature and 0 Speed IVs allow it to pivot out as slow as possible. Meloetta is a valuable teammate that can switch in on special threats such as Iron Moth and Zapdos that force Quaquaval out. Physical wallbreakers like Meowscarada and Talonflame have a good type matchup against Quaquaval, hence teammates that can force them out like Zamazenta-C and Regieleki make solid partners.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "Eggs", "user_id": 517099}, {"username": "cat", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "LordBox", "user_id": 611238}, {"username": "Isaiah", "user_id": 375662}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
+  },
+  "Spidops": {
+    "outdated": true,
+    "sets": {
+      "Sticky Web Setter": {
+        "description": "<p>Prankster Spidops is the optimal Sticky Web setter for hyper offense teams. Spikes and Toxic Spikes add more residual damage for opposing switch-ins, which can be valuable for securing KOs. Taunt is used to block setup and Defog, while Circle Throw forces switches and can rack up residual damage in combination with Spikes. Focus Sash is used to ensure that Spidops can get up Sticky Web and at least one layer of Spikes before fainting. Slow wallbreakers like Chi-Yu and Quaquaval appreciate the opportunities provided by Sticky Web support. Setup attackers such as Chien-Pao and Ceruledge also pair well with Spidops, as it enables them to outspeed would-be revenge killers. Spidops struggles to set Sticky Web against spinners, so it's recommended to pair Spidops with a Ghost-type like Earth Eater Skeledirge that can beat spinners like Iron Treads. Additionally, common Dark-types like Kingambit and Roaring Moon can set up on Spidops lacking Circle Throw, so pairing it with a strong Fighting type like Slither Wing is advised.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}]}]}
+  },
+  "Pawmot": {
+    "outdated": true,
+    "sets": {
+      "Offensive": {
+        "description": "<p>Pawmot leverages its potent typing that hits popular defensive staples such as Corviknight and Ting-Lu to serve as a powerful wallbreaker. Expert Belt capitalizes on Pawmot's great coverage, while Choice Band allows 2HKOs on neutral targets like Scream Tail and Skeledirge; alternatively, Magic Guard + Life Orb with Double Shock and Thunder Punch can also be used for similar neutral damage and the freedom to switch moves. Mach Punch allows Pawmot to beat faster offensive mons such as Chien-Pao, Meowscarada, and Greninja. Ice Punch allows Pawmot to reliably OHKO Garchomp and beat Clodsire, while Volt Switch can keep up momentum against defensive switch-ins such as Scream Tail and Fluffy Brambleghast. Jolly lets Pawmot outspeed Garchomp and non-Choice Scarf Sandy Shocks, while an Adamant nature bolsters its 2HKO chances on targets such as Scream Tail and Skeledirge with Choice Band Wild Charge. Pawmot often struggles to switch in safely, so it appreciates teammates like Corviknight and Iron Treads that can safely pivot Pawmot in.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "LordBox", "user_id": 611238}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
+  },
+  "Garganacl": {
+    "outdated": true,
+    "sets": {
+      "Specially Defensive": {
+        "description": "<p>Garganacl finds itself as a Stealth Rock setter that fits on balance and stall teams with its ability to force progress through passive damage and maintain entry hazards by annoying popular hazard removal options with Salt Cure. Toxic Debris allows Garganacl to punish weak physical attacks like U-turn from Corviknight and Meloetta, while Earth Eater allows it to check and set up with Iron Defense or Curse on Ground-types like Iron Treads, Landorus-T, and Garchomp, and Water Absorb allows it to check Greninja, Inteleon, and Quaquaval lacking Close Combat. Stealth Rock pairs well with Salt Cure, as Salt Cure heavily chips common hazard removal options like Iron Treads and Corviknight, while Iron Defense and Curse allow Garganacl to act as a bulky cleaner late-game. Protect allows Garganacl to scout the opponent's move, heal with Leftovers, and force more passive damage on foes, while Earthquake and Body Press hit Magic Guard Pokemon like Quaquaval and Heatran that otherwise switch in freely. Garganacl's inability to check common special wallbreakers like Sheer Force Iron Moth and Enamorus-T makes pivots like Regieleki and Slither Wing and physical wallbreakers like Chien-Pao great partners; in return, they appreciate Garganacl's ability to maintain Stealth Rock on the field and annoy their checks like Hisuian Goodra and Corviknight with Salt Cure. Garganacl gets rapidly worn down by entry hazards when carrying Leftovers, making physically defensive hazard removal options like Corviknight and defensive Quaquaval good partners; these Pokemon also check physical wallbreakers that threaten Garganacl like Galarian Zapdos, while it checks the special wallbreakers that threaten them. The aforementioned Magic Guard Quaquaval checks Garganacl lacking Iron Defense + Body Press and can spin away Garganacl's Stealth Rock; Desolate Land Skeledirge can spinblock Quaquaval effectively, making it a good partner for Garganacl.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "cat", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "Gimmickyasitgets", "user_id": 540420}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Lumari", "user_id": 232216}]}]}
+  },
   "Ceruledge": {
     "sets": {
       "Desolate Land": {
@@ -409,7 +545,11 @@
     },
     "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
   },
-  "Brambleghast": {"outdated": true, "sets": {"Physically Defensive": {}}},
+  "Brambleghast": {
+    "outdated": true,
+    "sets": {"Physically Defensive": {"description": "<p>Brambleghast boasts several attributes that make it a ideal choice on hazard stacking teams; its typing is ideal for spinblocking in the face of Donphan, Iron Treads, and Quaquaval, and it offers role compression in Spikes and Rapid Spin. Giga Drain allows Brambleghast to force out Dondozo as well as the aforementioned Rapid Spin users, and Fluffy further enhances its ability to beat such threats. Alternatively, Triage lets it pick off weakened sweepers like Greninja and Sandy Shocks, as well safely use Strength Sap against faster foes. Brambleghast appreciates partners such as Kilowattrel and Sandy Shocks, who threaten Corviknight and dissuade it from using Defog, letting Brambleghast's team maintain entry hazards in the face of both Rapid Spin and Defog. Poison-types like Iron Moth removing Toxic Spikes let Brambleghast not have to worry about switching into Knock Off and getting its Heavy-Duty Boots removed.</p>"}},
+    "credits": {"writtenBy": [{"username": "Tanny89k", "user_id": 546606}], "teams": [{"name": "Quality checked by", "members": [{"username": "Isaiah", "user_id": 375662}, {"username": "UT", "user_id": 523866}, {"username": "Alexender", "user_id": 313542}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
+  },
   "Tinkaton": {
     "outdated": true,
     "sets": {
@@ -430,9 +570,33 @@
     "credits": {"writtenBy": [{"username": "UT", "user_id": 523866}], "teams": [{"name": "Quality checked by", "members": [{"username": "Alexender", "user_id": 313542}, {"username": "Tea Guzzler", "user_id": 577920}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
   },
   "Glimmora": {"outdated": true, "sets": {"Defensive": {}}},
-  "Dondozo": {"outdated": true, "sets": {"Curse": {}}},
-  "Clodsire": {"outdated": true, "sets": {"Specially Defensive": {}}},
-  "Kingambit": {"sets": {"Immunity Ability": {}}},
+  "Dondozo": {
+    "outdated": true,
+    "sets": {
+      "Curse": {
+        "description": "<p>A pure Water typing, titanic physical bulk, and Tablets of Ruin make Dondozo a nearly impenetrable physical wall that can blanket check common physical attackers including Cinderace, Roaring Moon, and Chien-Pao. Other options like Unaware can be used to ignore setup sweepers and wallbreakers that attempts to boost past Dondozo, while Magic Guard prevents it from being overwhelmed by entry hazards, Toxic, and Wave Crash recoil. Aside from turning it into a bulky setup sweeper, Curse also lets Dondozo contest with opposing setup from the likes of Talonflame and Kingambit, especially on non-Unaware variants. Earthquake is a necessary coverage move to hit Toxapex and Desolate Land users like Iron Moth, Cinderace, and Ceruledge. Rest + Leftovers provide much needed longevity, with Rest preventing Dondozo from being permanently crippled by Clodsire's Toxic, Iron Moth's Toxic Spikes, and Volcarona and Skeledirge's Will-O-Wisp. Special walls such as Clodsire, Ting-Lu, Garganacl, and Corviknight are necessary to deal with special attackers like Iron Moth, Sandy Shocks, and Chi-Yu respectively; the former three spread further passive damage onto foes between entry hazards, Toxic, Ruination, and Salt Cure, slowly whittling down foes for Dondozo to sweep easier. In return, Dondozo covers the likes of Quaquaval and Cinderace for them.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
+  },
+  "Clodsire": {
+    "outdated": true,
+    "sets": {
+      "Specially Defensive": {
+        "description": "<p>A unique defensive typing, reliable recovery, and remarkable special bulk enhanced by Vessel of Ruin allow Clodsire to check prominent special attackers like Iron Moth and Hydreigon. Toxic can cripple Heavy-Duty Boots users like Volcarona and Kilowattrel. Corrosion + Toxic notably hits Corviknight and Toxapex, which are common switch ins and wears them down. Toxic Spikes and Poison Jab are better on Prankster sets to punish Dark-types such as Meowscarada, Roaring Moon, and Ting-Lu; in particular, Toxic Spikes lets Clodsire match up well against hyper offense teams filled with setup sweepers. Prankster + Haze allows Clodsire to shut down setup sweepers, like Volcarona and Polteageist, while they whittle down from poison damage. Pokemon like Garganacl and Scream Tail form a hazard-stacking core with Clodsire. Physical walls like the aforementioned Pokemon, Corviknight, and Dondozo handle physical threats such as Quaquaval and Earth Eater Kingambit that can exploit Clodsire's poor physical bulk.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "skippergamez", "user_id": 620268}]}]}
+  },
+  "Kingambit": {
+    "outdated": true,
+    "sets": {
+      "Swords Dance": {
+        "description": "<p>Swords Dance Kingambit excels as a mid-game wallbreaker that can boost on passive foes and tear through the opponent's team with its Adaptability-boosted STAB attacks. Kowtow Cleave and Iron Head are Kingambit's main attacks, heavily damaging defensive pivots like Corviknight, Hisuian Goodra, Scream Tail, and Garganacl. Sucker Punch lets it predict and punish faster attackers like Quaquaval, Volcarona, and Slither Wing that try and come in to revenge kill. 140 Speed EVs let Kingambit outspeed uninvested Corviknight and Skeledirge. Black Glasses lets Kingambit OHKO Iron Moth with Sucker Punch. Immunity abilities like Well-Baked Body and Earth Eater are options to pick up additional setup chances. Fast endgame sweepers like Chien-Pao, Meowscarada, and Hisuian Electrode benefit from Kingambit's early-game presence, capitalizing on chipped foes and scoring easy KOs. Defensive pivots like Intimidate Corviknight, RegenVest Meloetta, and Fluffy Landorus-T can thwart revenge killers targeting Kingambit and use U-turn to bring it in safely again. Finally, Primordial Sea Zapdos can help Kingambit by forcing Corviknight and Quaquaval, two of its most consistent checks, letting it chip them on their switch-in repeatedly.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
+  },
   "Great Tusk": {
     "sets": {
       "Physically Defensive": {
@@ -455,8 +619,27 @@
     },
     "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}, {"username": "cat", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "Gimmickyasitgets", "user_id": 540420}, {"username": "cat", "user_id": 580765}, {"username": "Kinetic1000", "user_id": 552227}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}, {"username": "WrathoftheLeopard", "user_id": 511181}]}]}
   },
-  "Slither Wing": {"sets": {"Choice Band": {}}},
-  "Sandy Shocks": {"outdated": true, "sets": {"Choice Scarf": {}, "Earth Eater": {}}},
+  "Slither Wing": {
+    "outdated": true,
+    "sets": {
+      "Choice Band": {
+        "description": "<p>Choice Band Slither Wing leverages its large base Attack and STAB Close Combat, U-turn, and First Impression to serve as an extremely potent wallbreaker, revenge killer, and offensive pivot. Flare Blitz is preferred on Tinted Lens sets, allowing it to 2HKO Intimidate and Fluffy Corviknight, while Earthquake is an option to hit checks like non-Earth Eater Skeledirge and Toxapex when running Sword of Ruin. Tinted Lens better allows Slither Wing to revenge kill foes, do more damage to switch-ins with U-turn, and more easily break potential checks like Zapdos and Toxapex while Sword of Ruin grants more overall power for neutral targets such as Fluffy Quaquaval. Slither Wing pairs well with special wallbreakers like Magic Guard Hisuian Electrode and Hydreigon, which can threaten Slither Wing's checks and pivot it in on special walls for it to break. Faster offensive cleaners like Chien-Pao and Meowscarada also pair well with Slither Wing for their ability to handle fast threats and overload physical walls. Defensive pivots like Corviknight and Iron Treads also partner well with Slither Wing, as they're able to safely pivot Slither Wing it in to break wallbreak, and they also absorb revenge killing attempts; furthermore, they are particularly useful for their ability to remove entry hazards, which wear down Slither Wing quickly throughout a game as it pivots frequently.</p>"
+      },
+      "Magic Guard": {
+        "description": "<p>Magic Guard Slither Wing serves as a revenge killer that aims to wear down and outlast its checks. Slither Wing possesses a unique combination of a strong STAB First Impression, U-turn, and Close Combat that is further boosted by a recoilless Life Orb with Magic Guard, which also allows it to switch in freely without racking up chip damage from entry hazards. Flare Blitz allows Slither Wing to hit checks like Intimidate Corviknight harder, while Earthquake hits walls like Toxapex and Skeledirge effectively, Will-O-Wisp can cripple checks like Fluffy Quaquaval and help to wear down defensive checks with added chip damage, and Morning Sun allows Slither Wing to remain healthy throughout a game. Specially offensive threats like Hisuian Electrode and Primordial Sea Inteleon pair well with Slither Wing for its ability to pivot and bring them in on physical walls to force them out and wear them down as well as for opportunities to wallbreak; together, they form a deadly VoltTurn core. Fast physical threats like Meowscarada and Chien-Pao also work well in combination Slither Wing to continuously wear down and overwhelm common physical walls like Corviknight, Quaquaval, and Scream Tail. Reliable hazard setters like Garchomp and Heatran are also appreciated to help wear down checks like Corviknight over the game and take advantage of the plethora of switches Slither Wing forces. Defensive pivots like Corviknight and RegenVest Meloetta are recommended to help pivot Slither Wing in to wallbreak and also absorb revenge killing attempts from the likes of Galarian Zapdos and Iron Moth.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "LordBox", "user_id": 611238}, {"username": "cat", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "UT", "user_id": 523866}, {"username": "Lumari", "user_id": 232216}]}]}
+  },
+  "Sandy Shocks": {
+    "outdated": true,
+    "sets": {
+      "Hadron Engine": {
+        "description": "<p>Hadron Engine Sandy Shocks is a powerful attacker with good STAB coverage and utility in Spikes. Choice Scarf outspeeds major threats like Cinderace, Choice Scarf Chi-Yu, and +2 Modest Polteageist, while Choice Specs better pressures opposing walls like Corviknight and Iron Treads. Spikes forces progress even when the opponent has a solid answer to Sandy Shocks, such as Ting-Lu. Sandy Shocks pairs well with strong attackers like Iron Moth and Hydreigon, as they take advantage of weakened special walls and the former can also fire off Terrain-boosted Discharge. Sandy Shocks also appreciates Pokemon that can switch into Ground-type attacks, such as Corviknight, which also gives a slow U-turn to bring Sandy Shocks in safely, and Garchomp, which can also help with stacking entry hazards. Entry hazard removal is particularly helpful, as the Pokemon that usually switch into Sandy Shocks, like Ting-Lu, will often use the opportunity to set entry hazards.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "SparksBlade", "user_id": 225217}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Isaiah", "user_id": 375662}]}]}
+  },
   "Iron Treads": {
     "outdated": true,
     "sets": {
@@ -501,7 +684,14 @@
     },
     "credits": {"writtenBy": [{"username": "Hiusi guy", "user_id": 603640}], "teams": [{"name": "Quality checked by", "members": [{"username": "cat", "user_id": 580765}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
   },
-  "Ting-Lu": {"outdated": true, "sets": {"Regenerator": {}}},
+  "Ting-Lu": {
+    "outdated": true,
+    "sets": {
+      "Specially Defensive": {"description": "<p>Ting-Lu's absurd mixed bulk and unusual typing make it a formidable mixed wall, capable of checking several key threats such as Kingambit, Ceruledge, and Iron Moth. Ting-Lu's best entry hazard depends on its team, as it can form a strong hazard-stacking core with Stealth Rock and/or Spikes setters like Garganacl and Glimmora. Ruination spreads consistent damage, especially against Ground-immune foes like Earth Eater Kingambit, and forces defensive Pokemon like Corviknight, Hippowdon, and Blissey to waste their recovery PP. Whirlwind forces entry hazard damage onto foes and ensures Ting-Lu isn't setup fodder for threats like Talonflame and Quaquaval. The Speed IVs let it underspeed Corviknight to punish its Roost with Earthquake. Foes like Scream Tail and Lucario can endanger Ting-Lu by targeting its weaknesses, so Corviknight is a good teammate that also provides Defog.</p>"},
+      "RegenVest Wall": {"description": "<p>Ting-Lu's excellent defensive stats and useful typing let it check a plethora of special attackers such as Hydreigon and Iron Moth. Throat Chop provides STAB damage and lets it beat Boomburst users, Ruination + Sand Tomb traps and eliminates opposing Ting-Lu and Skeledirge, while also draining recovery PP from Hippowdon and Blissey. Some special attackers like Scream Tail can prove dangerous, so pairing Ting-Lu with Corviknight and Desolate Land Iron Moth are good options. Ting-Lu can switch into weaker physical attackers like Roaring Moon, but it should be used as help for the main physical wall on the team. Ting-Lu is vulnerable to opposing setup sweepers, so teammates like Unaware Corviknight are greatly appreciated. Corviknight can also reduce Ting-Lu's weakness to entry hazards.</p>"}
+    },
+    "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}, {"username": "PociekMociek", "user_id": 345494}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "Isaiah", "user_id": 375662}, {"username": "Lunaflare", "user_id": 430518}]}]}
+  },
   "Chi-Yu": {
     "outdated": true,
     "sets": {
