@@ -1,7 +1,8 @@
 {
-  "Arcanine-Hisui": {"sets": {"Offensive Utility": {}}},
+  "Arcanine-Hisui": {"sets": {"Offensive": {}}},
+  "Victreebel": {"sets": {"Sun Sweeper": {}}},
   "Slowbro": {"sets": {"Defensive": {}}},
-  "Slowbro-Galar": {"sets": {"Calm Mind": {}, "Quick Claw + Quick Draw": {}}},
+  "Slowbro-Galar": {"sets": {"Calm Mind": {}}},
   "Muk-Alola": {"sets": {"Poison Touch + Protect": {}}},
   "Gengar": {
     "sets": {
@@ -15,7 +16,6 @@
     "credits": {"writtenBy": [{"username": "Sulo", "user_id": 528036}, {"username": "royalfluxh", "user_id": 493260}, {"username": "Slip", "user_id": 566907}], "teams": [{"name": "Quality checked by", "members": [{"username": "Estarossa", "user_id": 461329}, {"username": "Lily", "user_id": 481709}, {"username": "Monky25", "user_id": 515132}, {"username": "Twilight", "user_id": 344575}, {"username": "Sulo", "user_id": 528036}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Sulo", "user_id": 528036}, {"username": "Sabelette", "user_id": 583793}]}]}
   },
   "Weezing-Galar": {"sets": {"Defensive Utility": {}}},
-  "Tauros-Paldea-Aqua": {"sets": {"Choice Band": {}, "Bulk Up": {}}},
   "Gyarados": {"sets": {"Dragon Dance + Taunt": {}}},
   "Ditto": {"sets": {"Suspicious Imposter": {}}},
   "Zapdos-Galar": {"sets": {"Choice Scarf": {}, "Choice Band": {}}},
@@ -50,6 +50,8 @@
   "Pelipper": {"sets": {"Rain Setter": {}, "Offensive": {}}},
   "Gardevoir": {"sets": {"Choice Scarf": {}}},
   "Breloom": {"sets": {"Offensive": {}}},
+  "Torkoal": {"sets": {"Sun Setter": {}}},
+  "Crawdaunt": {"sets": {"Choice Band": {}}},
   "Salamence": {
     "sets": {
       "Special Wallbreaker": {
@@ -63,6 +65,8 @@
   },
   "Jirachi": {"sets": {"Calm Mind + Wish": {}, "Choice Scarf": {}}},
   "Infernape": {"sets": {"Nasty Plot": {}}},
+  "Empoleon": {"sets": {"Offensive": {}, "Defensive Pivot": {}}},
+  "Floatzel": {"sets": {"Choice Band": {}}},
   "Gastrodon": {"sets": {"Specially Defensive": {}}},
   "Hippowdon": {
     "sets": {
@@ -73,43 +77,39 @@
     "credits": {"writtenBy": [{"username": "Easter Bliss", "user_id": 630045}], "teams": [{"name": "Quality checked by", "members": [{"username": "Twilight", "user_id": 344575}, {"username": "Estarossa", "user_id": 461329}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
   },
   "Weavile": {"sets": {"Swords Dance": {}, "Choice Band": {}}},
-  "Magnezone": {"sets": {"Magnet Pull Trapper": {}}},
   "Mamoswine": {"sets": {"Wallbreaker": {}}},
-  "Rotom-Wash": {"sets": {"Utility Pivot": {}, "Nasty Plot": {}}},
-  "Heatran": {"sets": {"Specially Defensive": {}, "Offensive": {}}},
+  "Rotom-Wash": {"sets": {"Utility Pivot": {}}},
   "Cresselia": {"sets": {"Calm Mind": {}}},
+  "Conkeldurr": {"sets": {"Wallbreaker": {}}},
   "Zoroark-Hisui": {"sets": {"Choice Specs": {}}},
   "Amoonguss": {"sets": {"Defensive": {"description": "<p>The given EV spread allows Amoonguss to avoid the 2HKO from Modest Choice Scarf Basculegion-F's Shadow Ball.</p>"}}},
-  "Alomomola": {"sets": {"Wish + Protect": {}}},
   "Haxorus": {"sets": {"Swords Dance": {}}},
   "Mienshao": {"sets": {"Wallbreaker": {}, "Choice Scarf": {}}},
   "Mandibuzz": {"sets": {"Defensive": {}}},
-  "Hydreigon": {"sets": {"Choice Specs": {}, "Choice Scarf": {}, "Nasty Plot": {}}},
-  "Tornadus-Therian": {"sets": {"Nasty Plot": {}, "Pivot": {}, "Assault Vest": {"description": "<p>The given EV spread allows Tornadus-Therian to outspeed Maushold as well as survive a Draco Meteor from Modest Choice Specs Hydreigon after Stealth Rock.</p>"}}},
-  "Thundurus": {"sets": {"Pivot": {}}},
+  "Hydreigon": {"sets": {"Nasty Plot": {}, "Choice Specs": {}, "Choice Scarf": {}}},
+  "Tornadus-Therian": {"sets": {"Assault Vest": {"description": "<p>The given EV spread allows Tornadus-Therian to outspeed Ogerpon as well as survive a Draco Meteor from Modest Choice Specs Hydreigon after Stealth Rock.</p>"}, "Nasty Plot": {}, "Choice Specs": {}, "Pivot": {}}},
+  "Thundurus": {"sets": {"Nasty Plot": {}}},
   "Thundurus-Therian": {"sets": {"Pivot": {}, "Nasty Plot": {}}},
   "Chesnaught": {"sets": {"Spikes Utility": {}}},
-  "Talonflame": {"sets": {"Utility": {}}},
   "Sylveon": {"sets": {"Calm Mind + Wish": {}}},
   "Hawlucha": {"sets": {"Unburden Sweeper": {}}},
   "Goodra-Hisui": {"sets": {"Specially Defensive Wall": {}, "Choice Specs": {}}},
-  "Hoopa-Unbound": {"sets": {"Choice Scarf": {}, "Assault Vest": {}}},
+  "Hoopa-Unbound": {"sets": {"Choice Scarf": {}, "Mixed": {}, "Choice Specs": {}}},
   "Volcanion": {"sets": {"Offensive": {}}},
   "Lycanroc-Dusk": {"sets": {"All-out Attacker": {}}},
-  "Mimikyu": {"sets": {"Swords Dance": {"description": "<p>Tera Fire allows Mimikyu to avoid Flame Body and Will-O-Wisp from Talonflame and Coalossal. Tera Ghost powers up Shadow Claw and lets it OHKO Tinkaton after a boost.</p>"}}},
   "Barraskewda": {"sets": {"Choice Band": {}}},
   "Polteageist": {"sets": {"Shell Smash": {"description": "<p>Tera Blast in conjunction with Tera Fighting gives Polteageist the necessary coverage to break past Dark-types like Tyranitar, Bisharp, and Iron Jugulis that wall it otherwise. Tera Fighting also allows Polteageist to resist Sucker Punch from Bisharp and Accelrock from Lycanroc-D as well as take neutral damage from Mimikyu's Shadow Sneak.</p>"}}},
   "Grimmsnarl": {"sets": {"Dual Screens": {}}},
   "Regidrago": {"sets": {"Choice Specs": {}, "Dragon Dance": {}}},
-  "Kleavor": {"sets": {"Choice Scarf": {}, "Swords Dance": {}}},
+  "Kleavor": {"sets": {"Choice Scarf": {}}},
   "Ursaluna": {"sets": {"Bulk Up": {}, "Wallbreaker": {}}},
-  "Basculegion-F": {"sets": {"Choice Specs": {}, "Choice Scarf": {}, "Substitute + 3 Attacks": {}}},
+  "Basculegion-F": {"sets": {"Choice Specs": {}, "Choice Scarf": {}}},
   "Overqwil": {"sets": {"Rain Sweeper": {}}},
   "Enamorus-Therian": {"sets": {"Offensive": {}, "Calm Mind + Iron Defense": {}}},
-  "Meowscarada": {"sets": {"Pivot": {}, "Choice Scarf": {}, "Choice Band": {}, "Lead": {}}},
+  "Meowscarada": {"sets": {"Pivot": {}, "Choice Band": {}, "Choice Scarf": {}}},
   "Skeledirge": {"sets": {"Unaware Wall": {}, "3 Attacks + Slack Off": {}}},
   "Quaquaval": {"sets": {"Swords Dance": {}, "Rapid Spin": {}}},
-  "Lokix": {"sets": {"Pivot": {}, "Wallbreaker": {}}},
+  "Lokix": {"sets": {"Pivot": {}}},
   "Pawmot": {
     "sets": {
       "Wallbreaker": {
@@ -125,7 +125,6 @@
   "Maushold-Four": {"sets": {"The Family": {}}},
   "Armarouge": {"sets": {"Endure + Weakness Policy": {}, "Calm Mind": {}}},
   "Bellibolt": {"sets": {"Physically Defensive Static": {}}},
-  "Grafaiai": {"sets": {"Choice Scarf": {}, "Swords Dance": {"description": "<p>Tera Ground + Tera Blast lets Grafaiai break through Hisuian Goodra and Tinkaton. Grassy Seed lets Grafaiai activate Unburden when used with Rillaboom, and lets it avoid being revenge killed by Scizor so easily.</p>"}}},
   "Tinkaton": {
     "sets": {
       "Utility": {
@@ -136,7 +135,6 @@
   },
   "Cyclizar": {"sets": {"Utility": {"description": "<p>The given Speed EVs allows Cyclizar to outspeed Hisuian Zoroark. If running Draco Meteor or Overheat, Cyclizar should be run with a Timid Nature, 80 Special Attack EVs, and 176 Speed EVs in order to outspeed Maushold.</p>"}}},
   "Clodsire": {"sets": {"Defensive": {}}},
-  "Scream Tail": {"sets": {"Wish Support": {}}},
   "Slither Wing": {
     "sets": {
       "Bulky Pivot": {
@@ -145,13 +143,15 @@
     },
     "credits": {"writtenBy": [{"username": "HydreigonTheChild", "user_id": 492518}], "teams": [{"name": "Quality checked by", "members": [{"username": "Twilight", "user_id": 344575}, {"username": "Monky25", "user_id": 515132}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}, {"username": "Lumii", "user_id": 493772}]}]}
   },
-  "Sandy Shocks": {"sets": {"Pivot": {}, "Booster Energy": {}}},
+  "Sandy Shocks": {"sets": {"Pivot": {}, "Booster Energy": {"description": "<p>Tera Blast should only be used alongside Tera Ice.</p>"}}},
   "Iron Treads": {"sets": {"Offensive Utility": {}, "Booster Energy": {}, "Bulky Utility": {}}},
-  "Iron Hands": {"sets": {"Swords Dance": {}}},
+  "Iron Hands": {"sets": {"Swords Dance": {"description": "<p>The second EV spread allows Iron Hands with Booster Energy to OHKO SpD Clodsire with Earthquake and 2HKO Phys Def variants with Ice Punch after Stealth Rock.</p>"}, "Swords Dance + Substitute": {}}},
   "Iron Jugulis": {"sets": {"Booster Energy": {}}},
   "Iron Leaves": {"sets": {"Swords Dance": {}}},
   "Sinistcha": {"sets": {"Calm Mind": {}}},
-  "Okidogi": {"sets": {"Choice Band": {}}},
+  "Sinistcha-Masterpiece": {"sets": {"Calm Mind": {}}},
+  "Okidogi": {"sets": {"Bulk Up": {"description": "<p>The given EV spread allows Okidogi to avoid the 2HKO from Pivot Tornadus-T's Hurricane after Stealth Rock when terastallized into Tera Fairy or Dragon while outspeeding Azumarill. The leftover investment goes into attack along with an Adamant nature.</p>"}, "Choice Band": {}, "Choice Scarf": {}}},
+  "Munkidori": {"sets": {"Choice Scarf": {}}},
   "Fezandipiti": {"sets": {"Bulky Pivot": {}, "Calm Mind": {}}},
-  "Ogerpon": {"sets": {"Swords Dance": {}, "Pivot": {}}}
+  "Ogerpon": {"sets": {"Swords Dance": {}}}
 }
