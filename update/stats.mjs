@@ -35,7 +35,7 @@ import * as smogon from 'smogon';
 const gens = stats.newGenerations(Dex);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const request = wrapr.retrying(wrapr.throttling(fetch));
+const request = wrapr.retrying(wrapr.throttling(fetch, 5, 1000));
 
 const N = 1e4;
 

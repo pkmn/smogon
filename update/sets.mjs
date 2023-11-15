@@ -30,7 +30,7 @@ import {Dex, toID} from '@pkmn/sim';
 import {Analyses} from 'smogon';
 
 const request = wrapr.retrying(wrapr.throttling(async args =>
-  (await fetch(args.url, args.init)).json(), 10, 500));
+  (await fetch(args.url, args.init)).json(), 5, 1000));
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.resolve(__dirname, '../data');
