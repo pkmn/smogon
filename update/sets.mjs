@@ -49,24 +49,25 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
 // these format names on Pokémon Showdown update frequently as new series are introduced yet
 // Smogon treats all of the series as the same format.
 const FORMATS = {
-  ag: 'anythinggoes', battlestadiumsingles: 'battlestadiumsingles',
-  battlestadiumdoubles: 'battlestadiumdoubles', bssseries1: 'battlestadiumsingles',
-  bssseries2: 'battlestadiumsingles', bssseries12: 'battlestadiumsingles',
-  bssseries13: 'battlestadiumsingles', nationaldexag: 'nationaldexag',
-  nationaldexru: 'nationaldexru', nationaldexmonotype: 'nationaldexmonotype', lgpeou: 'letsgoou',
+  ag: 'anythinggoes', nationaldexag: 'nationaldexag', nationaldexru: 'nationaldexru',
+  nationaldexmonotype: 'nationaldexmonotype', lgpeou: 'letsgoou',
   bdspou: 'bdspou', bh: 'balancedhackmons', doubles: 'doublesou', uber: 'ubers',
   // NB: technically 'Farceus Uber' is different than Anything Goes...
   dwou: 'dreamworldou', zu: 'zu', nfe: 'nfe', farceusuber: 'anythinggoes', middlecup: 'middlecup',
   // Other Metagames
   almostanyability: 'almostanyability', mixandmega: 'mixandmega', godlygift: 'godlygift',
   camomons: 'camomons', stabmons: 'stabmons', pic: 'partnersincrime',
+  // BSS
+  bssseries1: 'battlestadiumsingles', bssseries2: 'battlestadiumsingles',
+  bssseries12: 'battlestadiumsingles', bssseries13: 'battlestadiumsingles',
+  battlestadiumsingles: 'battlestadiumsingles',
+  // BSD + DW deciding to go rogue. VGC 22 Series 13 -> "BSD" Series 13 = BSD
+  vgc22series13: 'battlestadiumdoubles', battlestadiumdoubles: 'battlestadiumdoubles',
   // VGC
   vgc11: 'vgc2011', vgc12: 'vgc2012', vgc14: 'vgc2014', vgc15: 'vgc2015', vgc16: 'vgc2016',
   vgc17: 'vgc2017', vgc18: 'vgc2018', vgc19: 'vgc2019', vgc20: 'vgc2020', vgc21: 'vgc2021',
   vgc22: 'vgc2022', vgc23series1: 'vgc2023', vgc23series2: 'vgc2023', vgc23series3: 'vgc2023',
   vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023',
-  // DW deciding to go rogue. VGC 22 Series 13 -> "BSD" Series 13 = BSD
-  vgc22series13: 'battlestadiumdoubles',
   // RBwhY?
   nintendocup1998: 'nintendocup1998', nintendocup1999: 'nintendocup1999', lclevel100: 'lclevel100',
   petitcup: 'petitcup', pikacup: 'pikacup', monotype: 'monotype', pu: 'pu', lc: 'lc', '1v1': '1v1',
