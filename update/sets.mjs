@@ -73,6 +73,7 @@ const FORMATS = {
   petitcup: 'petitcup', pikacup: 'pikacup', monotype: 'monotype', pu: 'pu', lc: 'lc', '1v1': '1v1',
   '2v2doubles': '2v2doubles'
 };
+const ORDER = Object.keys(FORMATS);
 
 // Iterating through dex.species.all() returns a bunch of formes that Smogon either doesn't support
 // or will simply redirect to the base species - instead we filter to only the 'eligible' Pokémon to
@@ -152,7 +153,16 @@ async function importPokemon(dex, gen, species) {
   if (!json || !json.strategies.length) return undefined;
 
   const imports = {};
-  for (const analysis of json.strategies) {
+  for (const analysis of json.strategies.sort((a, b) => {
+    // Sort to ensure that outdated info for the same format comes second (and implicitly outdated
+    // VGC/BSS formats come after as well)
+    if (a.format === b.format) return a.outdated ? (b.outdated ? 0 : 1) : -1;
+    const aid = toID(a.format);
+    const bid = toID(b.format);
+    const ao = ORDER.indexOf(aid);
+    const bo = ORDER.indexOf(bid);
+    return ao >= 0 && bo >= 0 ? bo - ao : bid.localeCompare(aid);
+  })) {
     const tier = toID(analysis.format);
     if (tier === 'limbo' || tier.endsWith('rentals')) continue;
     let format = `gen${gen}${FORMATS[tier] || tier}`;
@@ -165,15 +175,27 @@ async function importPokemon(dex, gen, species) {
     const analyses = {};
     for (const ms of analysis.movesets) {
       const pokemon = dex.species.get(ms.pokemon);
-      imports[pokemon.name] ||= {analyses: {}, sets: {}};
       analyses[pokemon.name] ||= {};
-      analyses[pokemon.name][ms.name] = {description: sanitize(ms.description)};
+      imports[pokemon.name] ||= {analyses: {}, sets: {}};
       imports[pokemon.name].sets[format] ||= {};
-      imports[pokemon.name].sets[format][ms.name] = compress(gen, format, ms, pokemon);
+      imports[pokemon.name].sets[format][ms.name] || {};
+      if (!imports[pokemon.name].sets[format][ms.name]) {
+        analyses[pokemon.name][ms.name] = {description: sanitize(ms.description)};
+        imports[pokemon.name].sets[format][ms.name] = compress(gen, format, ms, pokemon);
+      }
     }
 
     for (const pokemon in imports) {
       if (!analyses[pokemon]) continue;
+      if  (imports[pokemon].analyses[format]) {
+        for (const set in analyses[pokemon]) {
+          imports[pokemon].analyses[format].sets[set] = {
+            outdated: true,
+            ...analyses[pokemon][set],
+          }
+        }
+        continue;
+      }
       imports[pokemon].analyses[format] = {
         outdated: !!analysis.outdated || undefined,
         overview: sanitize(analysis.overview),

@@ -37,7 +37,7 @@ interface RawAnalysis {
   outdated?: boolean;
   overview?: string;
   comments?: string;
-  sets: { [name: string]: {description?: string}};
+  sets: { [name: string]: {description?: string; outdated?: boolean}};
   credits?: Credits;
 }
 
@@ -61,7 +61,7 @@ interface Member {
  */
 export interface Analysis extends Omit<RawAnalysis, 'sets'> {
   format: ID;
-  sets: {[name: string]: Moveset & {description?: string}};
+  sets: {[name: string]: Moveset & {description?: string; outdated?: boolean}};
 }
 
 /** A compressed version of the default smogon Moveset type which is smaller to serialize. */
