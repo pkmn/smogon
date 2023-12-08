@@ -47,6 +47,23 @@
     "credits": {"writtenBy": [{"username": "Bella", "user_id": 567483}, {"username": "Hera", "user_id": 414072}], "teams": [{"name": "Quality checked by", "members": [{"username": "asa", "user_id": 400292}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
   },
   "Golduck": {"sets": {"Rain Sweeper": {}, "Choice Scarf": {}}},
+  "Victreebel": {
+    "sets": {
+      "Sun Sweeper": {"description": "<p>Giga Drain offsets Life Orb damage and doesn’t require sun, but Solar Beam is significantly stronger. Using a Modest nature maximizes Victreebel’s damage output, but opting for a Timid nature lets it outspeed foes like +1 Morpeko, +2 Adamant Veluza, and Choice Scarf Swanna under sun. Tera Fire makes Weather Ball even stronger, while Tera Grass does the same for Giga Drain or Solar Beam.</p> <p>Sample set. Stay tuned for updates!</p>"},
+      "Swords Dance": {"description": "<p>Trailblaze boosts Victreebel’s Speed in exchange for not being as immediately strong as Power Whip. Sucker Punch is useful against revenge killers like Rotom and Alolan Raichu. Poison Jab applies more pressure to opposing Grass-types like Arboliva and Appletun than Victreebel’s other moves. Strength Sap can turn foes like Orthworm into setup fodder as well as let Victreebel stay healthy and use its resistances throughout the game.</p> <p>Sample set. Stay tuned for updates!</p>"},
+      "Special Attacker": {"description": "<p>Tera Blast Fire shreds Steel-types like Orthworm and Perrserker and hits Articuno harder than Sludge Bomb. Tera Blast Ground breaks through Muk, Skuntank, and Hisuian Sneasel. Knock Off makes it harder for foes like Articuno, Poison Touch Muk, and Ursaring to repeatedly take Victreebel’s hits. Eject Pack forces Victreebel out after it uses Leaf Storm, instantly giving a teammate momentum. Rocky Helmet punishes weaker contact moves, notably Passimian’s U-turn, Muk’s Knock Off, and Floatzel’s Flip Turn. Tera Ghost gives Victreebel an immunity to Fighting and Normal, which helps it take on Hisuian Sneasel and Tauros.</p> <p>Sample set. Stay tuned for updates!</p>"}
+    }
+  },
+  "Golem": {"sets": {"Stealth Rock": {"description": "<p>44 Speed EVs allow Golem to outspeed uninvested base 50s, notably Muk. Specially defensive spreads let Golem more easily take hits from foes like Rotom, Charizard, and Pyroar. Tera Grass and Tera Water both eliminate many of Golem’s weaknesses, though the former helps more against Grass-types like Arboliva and Appletun while the latter is better against Ice-types like Rotom-F.</p> <p>Sample set. Stay tuned for updates!</p>"}}},
+  "Golem-Alola": {"sets": {"Tank": {"description": "<p>Galvanize-boosted Explosion is incredibly strong, even against bulky and Electric-resistant foes like Orthworm, Weezing, and Arboliva, but Volt Switch offers more overall utility. If Alolan Golem’s team already has a Stealth Rock user, it can run Stone Edge to threaten Grass-types like Appletun. Double-Edge hits significantly harder than Body Slam but comes with recoil damage, which hurts Alolan Golem’s longevity. Maximum Speed investment can be used to let Alolan Golem outrun more threats, though this takes away from its ability to take resisted or weaker neutral attacks.</p> <p>Tera Electric gives Alolan Golem the strength to OHKO most non-Electric-immune targets with Explosion, but Tera Grass covers it against Ground- and Water-types like Alolan Dugtrio and Floatzel.</p> <p>Sample set. Stay tuned for updates!</p>"}}},
+  "Muk": {
+    "sets": {
+      "Curse": {},
+      "Utility": {
+        "description": "<p>Poison Jab is a reliable STAB option that can poison foes even if Muk doesn’t run Poison Touch. Toxic discourages bulky foes like Houndstone and Whiscash from switching into or staying in on Muk. Toxic Spikes puts grounded Pokemon like Passimian and Samurott on a timer and synergizes well with Knock Off. Protect lets Muk scout for moves, gain extra Leftovers recovery, and rack up additional poison damage. Haze prevents setup sweepers like Hisuian Sneasel from exploiting Muk.</p> <p>Sticky Hold prevents Knock Off from removing Muk’s Leftovers and blocks Trick and Switcheroo, but Poison Touch can help Muk more quickly wear foes like Golem and Whiscash down. Tera Dark makes Muk immune to Psychic-type moves from the likes of Alolan Raichu and Indeedee and helps against Ghost- and physical Dark-types like Rotom and Morpeko. Tera Water offers Muk a generally good defensive typing that also lets it better stomach Fire- and Water-type moves from Charizard and Floatzel.</p> <p>Sample set. Stay tuned for updates!</p>"
+      }
+    }
+  },
   "Haunter": {
     "sets": {
       "Choice Scarf": {},
@@ -83,7 +100,20 @@
     "credits": {"writtenBy": [{"username": "sleid", "user_id": 601970}, {"username": "rien", "user_id": 474994}], "teams": [{"name": "Quality checked by", "members": [{"username": "Bella", "user_id": 567483}, {"username": "Hera", "user_id": 414072}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "ken", "user_id": 594478}]}]}
   },
   "Dunsparce": {"sets": {"Stealth Rock": {}}},
-  "Sneasel": {"sets": {"Swords Dance": {}}},
+  "Sneasel": {"sets": {"Swords Dance": {"description": "<p>Life Orb compensates for Sneasel’s naturally middling damage output and makes taking its hits more difficult. Eviolite augments Sneasel’s bulk, which can translate to setup opportunities against threats like Morpeko. However, both options are generally less consistent than Heavy-Duty Boots, which lets Sneasel freely switch in and out to wear foes down or revenge kill weakened targets like Skuntank and Tauros. Tera Ghost makes Sneasel immune to Fighting-type attacks from the likes of Hisuian Sneasel and Passimian, allowing it to either retaliate with a strong attack or set up on them.</p> <p>Sample set. Stay tuned for updates!</p>"}, "Choice Band": {}}},
+  "Sneasel-Hisui": {
+    "sets": {
+      "Swords Dance": {"description": "<p>Trailblaze lets Hisuian Sneasel outspeed potential revenge killers like Choice Scarf Passimian and Rotom. Substitute is useful for turning Muk and Weezing into setup fodder. Lash Out hits Ghost-types like Rotom, Tera Ghost Orthworm, and Sableye and should be used alongside Tera Dark. Tera Fire protects Hisuian Sneasel from being burned and, when used with Tera Blast, lets it break through Houndstone. In addition to pairing well with Lash Out, Tera Dark also turns the tables on Psychic- and Ghost-types like Choice Scarf Indeedee and Haunter. Tera Blast Psychic is a niche option to more immediately bypass Muk, opposing Hisuian Sneasel, and Weezing. Tera Grass gets rid of Hisuian Sneasel's Ground weakness and also powers up Trailblaze.</p> <p>Sample set. Stay tuned for updates!</p>"},
+      "Choice Band": {"description": "<p>Shadow Claw and Lash Out both target Ghost-types like Rotom, though Shadow Claw comes with the added benefit of hitting opposing Hisuian Sneasel neutrally. Tera Dark makes Hisuian Sneasel immune to Psychic-type moves from Alolan Raichu and Indeedee and also powers up Lash Out. Tera Blast with Tera Psychic or Tera Fire offers great coverage against Muk, Tera Poison Arboliva, and Houndstone.</p> <p>Sample set. Stay tuned for updates!</p>"},
+      "Choice Scarf": {"description": "<p>Tera Fighting makes Close Combat more reliable for cleaning mid- to late-game, but Tera Ghost can be used instead to OHKO Rotom after Stealth Rock with Shadow Claw.</p> <p>Sample set. Stay tuned for updates!</p>"}
+    }
+  },
+  "Ursaring": {
+    "sets": {
+      "RestTalk": {"description": "<p>Bulk Up can be used over an attacking move so that Ursaring doubles as a setup sweeper, though this limits its coverage and thus makes it less self-sufficient. Running 88 Speed EVs lets Ursaring outspeed uninvested Weezing. Ursaring can also run specially defensive EV spreads to act as a special wall.</p> <p>Sample set. Stay tuned for updates!</p>"},
+      "Flame Orb": {"description": "<p>Shadow Claw threatens Rotom, an otherwise solid offensive check to Ursaring. Earthquake hits Skuntank without triggering Aftermath and deals more damage to Houndstone than Shadow Claw. Protect lets Ursaring immediately activate Flame Orb, but Trailblaze lets it outrun foes like Skuntank, Morpeko, and Pyroar. Tera Normal further powers up Facade but offers nothing defensively. Tera Ghost and Tera Fighting boost Shadow Claw and Close Combat, respectively, and also flip the matchup against Fighting- and Dark-types like Passimian and Skuntank.</p> <p>Sample set. Stay tuned for updates!</p>"}
+    }
+  },
   "Houndoom": {
     "sets": {
       "Nasty Plot": {
@@ -93,6 +123,7 @@
     },
     "credits": {"writtenBy": [{"username": "Melt Gibson", "user_id": 617840}], "teams": [{"name": "Quality checked by", "members": [{"username": "Bella", "user_id": 567483}]}, {"name": "Grammar checked by", "members": [{"username": "Lumari", "user_id": 232216}]}]}
   },
+  "Ludicolo": {"sets": {"Rain Sweeper": {"description": "<p>Surf is reliable due to its perfect accuracy, Weather Ball is stronger but reliant on rain being up, and Hydro Pump is even stronger but has lower accuracy. Ice Beam nails Appletun and Trevenant, but Focus Blast hits Arboliva harder. Using a Modest nature maximizes Ludicolo’s damage output, but opting for a Timid nature lets it outspeed foes like +1 Morpeko, +2 Adamant Veluza, and Choice Scarf Swanna under rain.</p> <p>Sample set. Stay tuned for updates!</p>"}}},
   "Masquerain": {
     "sets": {
       "Quiver Dance": {
@@ -163,6 +194,13 @@
   },
   "Leafeon": {"sets": {"Wish": {"description": "<p>X-Scissor hits opposing Grass-types like Flapple and Gogoat; if these Pokemon aren't a concern, Leafeon can run Yawn to force switches, Leech Seed for additional recovery, or Swords Dance to make up for its relative passivity.</p> <p>Sample set. Stay tuned for updates!</p>"}}},
   "Glaceon": {"sets": {"Calm Mind": {}, "Choice Specs": {}}},
+  "Rotom": {
+    "sets": {
+      "Choice Scarf": {"description": "<p>Thunderbolt is stronger than Volt Switch and doesn’t force Rotom out. Nasty Plot lets Rotom bolster its offensive presence after using Trick. Will-O-Wisp punishes foes like Arboliva and Morpeko for trying to switch in on Rotom and also slows down physical attackers like Hisuian Sneasel. Tera Electric and Tera Ghost both boost Rotom’s STAB moves, but Tera Fairy helps out against Dark-types like Morpeko and Skuntank.</p> <p>Sample set. Stay tuned for updates!</p>"},
+      "Utility": {"description": "<p>Tera Steel offers Rotom several useful resistances, including to Stealth Rock, and makes it neutral to Dark and immune to Poison, which lets it trade with threats like Passimian and +2 Hisuian Sneasel.</p> <p>Sample set. Stay tuned for updates!</p>"},
+      "Nasty Plot": {"description": "<p>Discharge is weaker than Thunderbolt but has a higher chance of paralyzing foes, which can support both Rotom and slower teammates. Volt Switch lets Rotom wear down its checks while also generating momentum for its team. Substitute shuts down passive foes like Naclstack. Protect lets Rotom scout for moves and gain extra Leftovers recovery. Tera Electric and Tera Ghost both boost Rotom’s STAB moves, but Tera Fairy helps out against Dark-types like Morpeko and Skuntank.</p> <p>Sample set. Stay tuned for updates!</p>"}
+    }
+  },
   "Rotom-Frost": {
     "sets": {
       "Offensive Pivot": {
@@ -175,6 +213,7 @@
     "credits": {"writtenBy": [{"username": "ishtar", "user_id": 471436}, {"username": "Bella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "Hera", "user_id": 414072}, {"username": "rien", "user_id": 474994}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}, {"username": "UT", "user_id": 523866}, {"username": "Lumii", "user_id": 493772}]}]}
   },
   "Rotom-Fan": {"sets": {"Pivot": {}, "Choice Scarf": {}}},
+  "Leavanny": {"sets": {"Sticky Web": {}}},
   "Sawsbuck": {
     "sets": {
       "Swords Dance": {},
@@ -204,6 +243,7 @@
     },
     "credits": {"writtenBy": [{"username": "Hera", "user_id": 414072}], "teams": [{"name": "Quality checked by", "members": [{"username": "rien", "user_id": 474994}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
   },
+  "Clawitzer": {"sets": {"Choice Specs": {"description": "<p>Aura Sphere 2HKOes Cryogonal and threatens common Tera Steel users like Poliwrath and Appletun. Dark Pulse hits Pokemon like Farigiraf, Veluza, and Trevenant harder than Clawitzer's other moves while also being decent neutral coverage. A Modest nature is generally preferred to maximize Clawitzer’s damage output, but a Timid nature can be used to outspeed threats like defensive Articuno. Tera Dragon further powers up Dragon Pulse and helps against Grass- and Electric-types like Arboliva and Rotom.</p> <p>Sample set. Stay tuned for updates!</p>"}}},
   "Carbink": {
     "sets": {
       "Stealth Rock": {
@@ -236,6 +276,7 @@
     "credits": {"writtenBy": [{"username": "Togkey", "user_id": 400664}], "teams": [{"name": "Quality checked by", "members": [{"username": "Bella", "user_id": 567483}, {"username": "gum", "user_id": 434150}]}, {"name": "Grammar checked by", "members": [{"username": "aurora", "user_id": 109385}]}]}
   },
   "Mareanie": {"sets": {"Defensive": {}}},
+  "Passimian": {"sets": {"Choice": {}}},
   "Thwackey": {"sets": {"Choice": {}}},
   "Flapple": {
     "sets": {
@@ -248,6 +289,7 @@
     },
     "credits": {"writtenBy": [{"username": "Bella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "avarice", "user_id": 346653}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
   },
+  "Hattrem": {"sets": {"Defensive": {"description": "<p>Mystical Fire threatens Steel-types like Orthworm and Alolan Dugtrio, whereas Draining Kiss hits Dark-types like Morpeko and Spiritomb. Eviolite gives Hattrem an easier time taking hits from foes like Hisuian Sneasel and entry hazard setters like Orthworm and Whiscash. Eject Button is an alternative for offensive teams, which don’t always need to preserve Hattrem and benefit a lot from immediate momentum. The Speed investment lets Hattrem outrun uninvested base 50s such as Muk and Perrserker.</p> <p>Sample set. Stay tuned for updates!</p>"}}},
   "Perrserker": {
     "sets": {
       "Stealth Rock": {
@@ -258,6 +300,7 @@
     "credits": {"writtenBy": [{"username": "Bella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "Hera", "user_id": 414072}]}, {"name": "Grammar checked by", "members": [{"username": "aurora", "user_id": 109385}]}]}
   },
   "Falinks": {"sets": {"No Retreat": {}, "Choice": {}}},
+  "Indeedee": {"sets": {"Choice": {"description": "<p>Psyshock hits special walls like Articuno harder than Psychic. Tera Blast is more flexible than Hyper Voice due to its interaction with Terastallization but slightly weaker. Healing Wish supports weakened teammates, while Trick debilitates walls like Orthworm and Wish Farigiraf. Tera Fairy boosts Dazzling Gleam and improves Indeedee’s matchup against Dark- and Fighting-types like Morpeko, Tera Dark Muk, and Passimian. Tera Psychic enables Indeedee to 2HKO foes like Houndstone and Articuno with Psychic and Psyshock, respectively, no matter its item choice. Tera Blast Fire breaks through Orthworm while still hitting Dark-types neutrally.</p> <p>Sample set. Stay tuned for updates!</p>"}}},
   "Indeedee-F": {
     "sets": {
       "Choice": {
@@ -278,6 +321,12 @@
       }
     },
     "credits": {"writtenBy": [{"username": "asa", "user_id": 400292}], "teams": [{"name": "Quality checked by", "members": [{"username": "Bella", "user_id": 567483}, {"username": "rien", "user_id": 474994}]}, {"name": "Grammar checked by", "members": [{"username": "ken", "user_id": 594478}]}]}
+  },
+  "Arboliva": {
+    "sets": {
+      "Choice Specs": {"description": "<p>Giga Drain is a backup Grass STAB move that also keeps Arboliva healthy, but Dazzling Gleam 2HKOes specially defensive Appletun. 92 Speed EVs allow Arboliva to outrun uninvested base 50s like Muk and Perrserker. Tera Poison offers key resistances to Poison and Fighting, letting Arboliva more easily trade with Hisuian Sneasel, Passimian, and Muk. Tera Ground still lets Arboliva resist Poison while also strengthening Earth Power and letting it block Volt Switch. Tera Normal allows Hyper Voice to 2HKO Muk and Articuno and also eliminates almost all of Arboliva’s weaknesses.</p> <p>Sample set. Stay tuned for updates!</p>"},
+      "Defensive": {"description": "<p>Earth Power targets Poison-, Steel-, and Fire-types like Skuntank, Tera Steel Appletun, and Pyroar. Giga Drain can be used instead to improve Arboliva’s longevity and also hit Rotom. Protect lets Arboliva scout moves and gives it free recovery from Leftovers, Leech Seed, or Grassy Terrain. Substitute protects Arboliva from status conditions and lets it exploit passive Pokemon like Whiscash and Naclstack. Alternatively, a specially defensive set with a Calm nature can be used to improve Arboliva’s matchup against threats like Trick Room Spiritomb.</p> <p>Tera Poison lets Arboliva beat Poison- and Fighting-types like Weezing, Hisuian Sneasel, and Passimian one-on-one. Seed Sower summoning Grassy Terrain also mitigates the added Ground weakness that comes with this choice. Tera Water is an alternative that especially helps against Fire- and Ice-type attacks from the likes of Charizard and Rotom-F.</p> <p>Sample set. Stay tuned for updates!</p>"}
+    }
   },
   "Squawkabilly": {"sets": {"Guts Attacker": {}, "Pivot": {}, "Choice Scarf": {}}},
   "Squawkabilly-Blue": {"sets": {"Guts Attacker": {}, "Pivot": {}, "Choice Scarf": {}}},
@@ -310,5 +359,12 @@
     "credits": {"writtenBy": [{"username": "Hera", "user_id": 414072}], "teams": [{"name": "Quality checked by", "members": [{"username": "Togkey", "user_id": 400664}]}, {"name": "Grammar checked by", "members": [{"username": "Lumari", "user_id": 232216}]}]}
   },
   "Wugtrio": {"sets": {"Choice Band": {}}},
+  "Bombirdier": {"sets": {"Offensive Pivot": {"description": "<p>Rocky Payload and Tera Rock should only be used if Bombirdier runs Stone Edge. Tera Ground lets Bombirdier lure and KO threats like Rotom, Alolan Raichu, and Haunter as well as block Volt Switch. An EV spread of 248 HP / 180 SpD / 80 Spe with a Careful nature lets Bombirdier outspeed and potentially beat Modest Clawitzer one-on-one. This spread also improves Bombirdier’s matchup against special attackers in general, which can help its team better pivot around threats like Arboliva.</p> <p>Sample set. Stay tuned for updates!</p>"}, "Choice": {}, "Entry Hazard Lead": {"description": "<p>U-turn can be used over Memento to generate momentum without immediately sacrificing Bombirdier, and it also hits Morpeko. However, Memento is generally more useful, especially on the hyper offensive teams that commonly use Bombirdier.</p> <p>Sample set. Stay tuned for updates!</p>"}}},
+  "Orthworm": {
+    "sets": {
+      "Coil": {"description": "<p>Iron Tail is stronger than Heavy Slam but less accurate before Orthworm uses Coil. Substitute is an option to protect Orthworm from status and weaker attackers as it sets up. The Speed investment lets Orthworm outrun Modest Clawitzer, but more Defense investment can be used if Clawitzer isn’t a concern. Tera Ghost helps against Fighting-types like Passimian and Hisuian Sneasel, but Tera Electric gives Orthworm no weaknesses due to Earth Eater.</p> <p>Sample set. Stay tuned for updates!</p>"},
+      "Utility": {"description": "<p>Protect lets Orthworm scout and gain extra Leftovers recovery, while Coil reduces its passivity and also lets it serve as a wincon. Spikes is an option if Orthworm's team wants to set as many entry hazards as possible or already has a Stealth Rock user. Iron Defense boosts Body Press faster than Coil and also lets Orthworm more easily trade with physical attackers like Passimian and Floatzel. The Speed investment lets Orthworm outrun Modest Clawitzer, but more Defense investment can be used if Clawitzer isn’t a concern.</p> <p>Sample set. Stay tuned for updates!</p>"}
+    }
+  },
   "Glimmet": {"sets": {"Suicide Lead": {}, "Specially Defensive": {}}}
 }

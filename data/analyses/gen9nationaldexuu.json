@@ -47,7 +47,14 @@
   "Quagsire": {"sets": {"Unaware Wall": {}}},
   "Slowking": {"sets": {"Specially Defensive Pivot": {}}},
   "Scizor": {"sets": {"Offensive Swords Dance": {}, "Bulky Swords Dance": {"description": "<p>Avoids 2HKO from Choice Band Meowscarada Knock Off. When running Heavy-Duty Boots, more EVs should be moved to Special Defense for Pokemon like SubToxic Aegislash.</p>"}, "Choice Band": {}}},
-  "Heracross": {"sets": {"Swords Dance": {}}},
+  "Heracross": {
+    "sets": {
+      "Swords Dance": {
+        "description": "<p>Mega Heracross uses its gigantic Attack stat alongside Swords Dance to be a powerful wallbreaker, pressuring common physical walls like Skarmory and Mega Venusaur. Swords Dance boosts Mega Heracross's Attack to incredible heights and lets it OHKO a majority of the Pokemon in the tier, including walls like Skarmory and Hippowdon. Close Combat OHKOes threats like Cinderace and Mega Tyranitar while 2HKOing bulkier Pokemon like Iron Hands and Skarmory. Rock Blast threatens Flying-types such as Enamorus, Salamence, and both Thundurus formes, as well as Fire-types like Iron Moth and Ceruledge that could otherwise take Close Combat and force Mega Heracross out. Pin Missile threatens Slowbro and Mega Venusaur, while Substitute lets Mega Heracross avoid Will-O-Wisp from Mega Sableye, capitalize from the forced switches it generates, and ease prediction against Pokemon it forces out. Fast physical cleaners like Meowscarada appreciate Mega Heracross being able to threaten their switch-ins, such as Skarmory and Mega Venusaur, allowing them to sweep late-game. Mega Heracross is prone to being revenge killed by faster threats like Cinderace, Iron Moth, and Enamorus, so teammates that can deal with them such as Tapu Fini, Mega Tyranitar, and Celesteela, respectively, are appreciated. Fire-type partners like Cinderace and Iron Moth can threaten Buzzwole, which walls Mega Heracross; Poison-types like Amoonguss can threaten Fairy-types like Tapu Fini and Unaware Clefable, which also wall it.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "Kinetic", "user_id": 552227}], "teams": [{"name": "Quality checked by", "members": [{"username": "sealoo", "user_id": 514772}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
+  },
   "Skarmory": {
     "sets": {
       "Defensive": {
@@ -149,7 +156,17 @@
     "credits": {"writtenBy": [{"username": "sealoo", "user_id": 514772}], "teams": [{"name": "Quality checked by", "members": [{"username": "Runo", "user_id": 568189}]}, {"name": "Grammar checked by", "members": [{"username": "Gangsta Spongebob", "user_id": 535530}, {"username": "deetah", "user_id": 297659}]}]}
   },
   "Bisharp": {"sets": {"Swords Dance": {}, "Pursuit Trapper": {}}},
-  "Hydreigon": {"sets": {"Choice Scarf": {}, "Nasty Plot": {}, "Choice Specs": {}, "Offensive Utility": {}}},
+  "Hydreigon": {
+    "sets": {
+      "Choice Scarf": {},
+      "Nasty Plot": {},
+      "Choice Specs": {
+        "description": "<p>Choice Specs Hydreigon is a potent wallbreaker, being able to threaten common special walls such as Mega Tyranitar and Celesteela with its powerful STAB moves and coverage options. It also has more longevity and defensive utility, including a resistance to Pursuit, at the cost of Speed and more consistent STAB moves compared to other special wallbreakers like Latios. Draco Meteor OHKOes threats like Iron Moth and Mega Heracross while doing significant damage to foes such as Galarian Moltres, Iron Hands, and Mega Sableye. Dark Pulse threatens Slowking and gives Hydreigon a spammable STAB move. Flash Cannon hits Fairy-types like Enamorus, Mega Altaria, and Clefable. Fire Blast threatens Celesteela, Tangrowth, and Bisharp, Roost takes advantage of forced switches and lets Hydreigon stay healthy to switch in several times throughout the match, while U-turn lets it pivot out of foes it can struggle against such as Tapu Fini, Azumarill, and Clefable. A Timid nature lets Hydreigon outspeed Excadrill and Ceruledge, while Modest gives Draco Meteor a high chance of OHKOing Choice Band Iron Hands.</p> <p>Hydreigon struggles to break through Fairy-types such as Tapu Fini, Azumarill, and Clefable, as well as Celesteela if not running Fire Blast, so teammates that can pressure them like both Thundurus formes and Mega Venusaur are helpful. Hydreigon also appreciates pivots such as Cinderace and Slowking that can safely get it onto the field; Cinderace can use U-turn to pivot out of switch-ins that Hydreigon threatens like Slowbro and Mega Venusaur, while Slowking can safely pivot it in with Teleport. Knock Off support from the likes of Mega Vensaur, Iron Treads, and Thundurus-T is appreciated to help Hydreigon break through Pokemon like Celesteela, Tapu Fini, and Assault Vest Tangrowth. Setup sweepers like Tapu Fini and Galarian Moltres benefit from Hydreigon's longevity and ability to pressure their checks such as Mega Venusaur and Mega Tyranitar, respectively, allowing them to become wincons late-game; fast teammates such as Choice Scarf Enamorus and Keldeo also appreciate Hydreigon for this reason, with it being able to pressure their switch-ins such as Slowking and Assault Vest Tangrowth, which can open the way for them to clean late-game. Hydreigon can also easily be revenge killed by faster Pokemon such as Hawlucha, Latios, and Enamorus; Skarmory can deal with Hawlucha while providing Spikes support, and Slowking can deal with Latios and Enamorus.</p>"
+      },
+      "Offensive Utility": {}
+    },
+    "credits": {"writtenBy": [{"username": "Kinetic", "user_id": 552227}], "teams": [{"name": "Quality checked by", "members": [{"username": "Arishem", "user_id": 546157}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
+  },
   "Thundurus": {"sets": {"Nasty Plot": {}}},
   "Thundurus-Therian": {"sets": {"Offensive Pivot": {}, "Nasty Plot": {}}},
   "Keldeo": {"sets": {"Choice Specs": {}, "Calm Mind": {}, "Choice Scarf": {}}},
