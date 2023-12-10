@@ -942,14 +942,7 @@
       "Choice Band": {"moves": ["Stone Edge", "Earthquake", "Megahorn", ["Rock Blast", "Aqua Tail"]], "ability": "Solid Rock", "item": "Choice Band", "nature": "Adamant", "evs": {"hp": 92, "atk": 252, "spe": 164}},
       "Trick Room": {"moves": ["Earthquake", "Stone Edge", "Megahorn", ["Swords Dance", "Aqua Tail"]], "ability": "Solid Rock", "item": "Life Orb", "nature": "Brave", "ivs": {"spe": 0}, "evs": {"hp": 248, "atk": 252, "def": 8}}
     },
-    "ou": {
-      "Choice Band": {"moves": ["Earthquake", "Stone Edge", "Aqua Tail", ["Megahorn", "Fire Punch"]], "ability": "Solid Rock", "item": "Choice Band", "nature": "Adamant", "evs": {"atk": 252, "spd": 4, "spe": 252}},
-      "Rock Polish": {"moves": ["Rock Polish", "Earthquake", "Stone Edge", ["Megahorn", "Aqua Tail", "Substitute"]], "ability": "Solid Rock", "item": "Life Orb", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
-      "Swords Dance": {"moves": ["Swords Dance", "Earthquake", "Stone Edge", ["Megahorn", "Fire Punch"]], "ability": "Solid Rock", "item": "Life Orb", "nature": "Adamant", "evs": {"atk": 252, "def": 4, "spe": 252}},
-      "Su(b)perior": {"moves": ["Substitute", ["Swords Dance", "Megahorn"], "Earthquake", "Stone Edge"], "ability": "Solid Rock", "item": "Leftovers", "nature": "Adamant", "evs": {"hp": 136, "atk": 192, "spd": 16, "spe": 164}},
-      "Tank": {"moves": ["Earthquake", "Stone Edge", ["Megahorn", "Avalanche"], ["Stealth Rock", "Roar"]], "ability": "Solid Rock", "item": "Leftovers", "nature": "Impish", "evs": {"hp": 244, "def": 184, "spd": 80}},
-      "RestTalk": {"moves": ["Rest", "Sleep Talk", "Earthquake", "Stone Edge"], "ability": "Solid Rock", "item": "Leftovers", "nature": "Impish", "evs": {"hp": 244, "def": 184, "spd": 80}}
-    },
+    "ou": {"Choice Band": {"moves": ["Earthquake", ["Rock Slide", "Stone Edge"], "Megahorn", ["Rock Wrecker", "Ice Punch"]], "ability": "Solid Rock", "item": "Choice Band", "nature": "Adamant", "evs": {"atk": 252, "spd": 4, "spe": 252}}, "Substitute": {"moves": ["Substitute", "Earthquake", "Stone Edge", ["Ice Punch", "Megahorn", "Swords Dance"]], "ability": "Solid Rock", "item": "Leftovers", "nature": "Adamant", "evs": {"hp": 136, "atk": 208, "spe": 164}}},
     "doublesou": {"Bulky Attacker": {"moves": ["Earthquake", "Rock Slide", ["Stone Edge", "Swords Dance"], "Protect"], "ability": ["Solid Rock", "Lightning Rod"], "item": ["Sitrus Berry", "Life Orb", "Stone Plate"], "nature": ["Adamant", "Brave"], "evs": {"hp": 252, "atk": 252, "spd": 4}}}
   },
   "Tangrowth": {
