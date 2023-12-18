@@ -555,7 +555,6 @@
     "stabmons": {"outdated": true, "sets": {"Defensive": {}}}
   },
   "Chansey": {
-    "pu": {"sets": {"Defensive": {}}},
     "stabmons": {"outdated": true, "sets": {"Transform": {}}},
     "ou": {"outdated": true, "sets": {"Defensive": {}}},
     "nu": {
@@ -5056,7 +5055,7 @@
   "Tsareena": {"ru": {"sets": {"Rapid Spin": {}}}, "doublesou": {"outdated": true, "sets": {"Assault Vest": {"description": "<ul> <li>The given EV spread and nature allow Tsareena to outspeed Iron Bundle under Tailwind, retain enough Attack to OHKO 252 HP Palafin-Hero with Power Whip, then invests the remaining EVs in HP.</li> </ul> <p>This is a sample set as we work on proper analyses. Stay tuned!</p>"}}}},
   "Passimian": {"pu": {"sets": {"Choice": {}}}, "nu": {"sets": {"Choice Scarf": {}}}},
   "Sandygast": {"lc": {"sets": {"Defensive": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Submitted by", "members": [{"username": "Hacker", "user_id": 387847}]}]}}, "nfe": {"outdated": true, "sets": {"Physically Defensive": {}}}},
-  "Palossand": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p>", "sets": {"Defensive": {}}}, "nu": {"sets": {"Physical Wall": {}}}, "almostanyability": {"outdated": true, "sets": {"Physically Defensive": {}}}},
+  "Palossand": {"ru": {"overview": "<p>The tier is still in its infancy and the metagame develops with each passing day. The sample set(s) provided below will be regularly updated until proper analyses are in the works. See it as a rough outline to get started and accustomed to what sets are commonly used.</p>", "sets": {"Defensive": {}}}, "nu": {"sets": {"Physical Wall": {}}}},
   "Mimikyu": {
     "ou": {"outdated": true, "sets": {"Swords Dance": {}}},
     "monotype": {
@@ -7461,18 +7460,8 @@
   "Revavroom": {"ru": {"sets": {"Shift Gear": {}, "Choice Scarf": {}, "Specially Defensive": {}}}, "1v1": {"outdated": true, "sets": {"Air Balloon": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "fruan", "user_id": 536219}]}]}}},
   "Cyclizar": {
     "uu": {"sets": {"Utility": {"description": "<p>The given Speed EVs allows Cyclizar to outspeed Hisuian Zoroark. If running Draco Meteor or Overheat, Cyclizar should be run with a Timid Nature, 80 Special Attack EVs, and 176 Speed EVs in order to outspeed Maushold.</p>"}}},
-    "ou": {"outdated": true, "sets": {"Pivot": {}, "Assault Vest": {}}},
-    "monotype": {
-      "outdated": true,
-      "sets": {
-        "Shed Tail Support (Normal)": {
-          "description": "<p>Cyclizar is a good choice on Normal teams, as it facilitates sweeping attempts from Ursaluna as well as giving dangerous offensive threats, such as Hisuian Zoroark, a free switch-in opportunity. Shed Tail, when combined with Regenerator, causes Cyclizar to effectively only lose 27% of its HP every time it uses the move. This lets Cyclizar enable its powerful teammates multiple times throughout the game. Rapid Spin allows Cyclizar to act as an entry hazard removal option if it cannot set up Shed Tail. Draco Meteor is run over a secondary utility move to hit Baxcalibur and Hydreigon trying to set up on a predicted Shed Tail, but it can be dropped for another utility move. Additionally, Shed Tail allows Cyclizar to remove Draco Meteor's stat drops. Knock Off is useful for removing defensive items such as Leftovers and Heavy-Duty Boots, while Taunt stops any setup attempts from Quiver Dance Volcarona as well as preventing more than one layer of hazards from Ting-Lu. Finally, U-turn allows Cyclizar to keep momentum for its team while chipping the opponent and without having to use Shed Tail.</p> <p>Ursaluna is a great teammate for Cyclizar, as it can utilize Shed Tail to start setting up Swords Dance and activate Flame Orb safely. Additionally, Ursaluna's massive physical bulk means that defensive Pokemon such as Clodsire struggle to break Ursaluna's Substitute. Staraptor takes care of Fighting-types such as offensive Great Tusk and Zamazenta for Cyclizar while providing crucial speed control thanks to Choice Scarf. In return, Cyclizar provides an effective source of entry hazard control for Staraptor. Choice Scarf Indeedee also threatens Fighting-types while protecting Cyclizar from priority such as Breloom's Mach Punch thanks to Psychic Surge. Hisuian Zoroark can switch in on Fighting-type attacks thanks to its Ghost typing, allowing it to gain crucial momentum and deal with threats such as Urshifu-R. In exchange, Hisuian Zoroark appreciates a fairly safe switch-in opportunity as well as being able to gain pivotal turns to set up using Nasty Plot with Illusion disguising it. Maushold is another decent teammate for Cyclizar, as it can clean up games with Tidy Up and Population Bomb while appreciating Rocky Helmet being removed from foes thanks to Cyclizar's Knock Off. Tidy Up does remove Cyclizar's Shed Tail, however. Finally, Ditto can punish foes such as Swords Dance Chien-Pao and Quiver Dance Volcarona attempting to set up on a predicted Shed Tail by copying their boosts.</p>"
-        },
-        "Shed Tail (Dragon)": {}
-      },
-      "credits": {"writtenBy": [{"username": "Dead by Daylight", "user_id": 571069}], "teams": [{"name": "Normal analysis by", "members": [{"username": "Dead by Daylight", "user_id": 571069}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "TheRealBigC", "user_id": 532450}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
-    },
     "stabmons": {"outdated": true, "sets": {"Choice Specs": {}}},
+    "ou": {"outdated": true, "sets": {"Pivot": {}, "Assault Vest": {}}},
     "nationaldexmonotype": {"sets": {"Shed Tail (Dragon)": {"description": "<p>164 Atk Evs lets it OHKO Mega Diancie with Iron Head.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}, "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Bka Onon", "user_id": 532439}]}]}},
     "anythinggoes": {
       "outdated": true,
@@ -9547,19 +9536,7 @@
       "credits": {"writtenBy": [{"username": "Frozoid", "user_id": 532881}], "teams": [{"name": "Quality checked by", "members": [{"username": "Geysers", "user_id": 426798}, {"username": "WrathoftheLeopard", "user_id": 511181}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
     }
   },
-  "Iron Leaves": {
-    "uu": {"sets": {"Swords Dance": {}}},
-    "1v1": {"outdated": true, "sets": {"Booster Energy: Attack": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "SwordIsBored", "user_id": 489963}]}]}},
-    "monotype": {"outdated": true, "sets": {"Swords Dance (Grass)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}},
-    "almostanyability": {
-      "outdated": true,
-      "sets": {
-        "Choice Band": {"description": "<p>With its high Attack stat and variety of Sharpness-boosted moves, Iron Leaves is a decent wallbreaker that can OHKO common metagame threats like Garganacl and Quaquaval. Sacred Sword allows Iron Leaves to hit Grass- and Psychic-resistant foes like Kingambit and Hydreigon, while Wild Charge threatens Flying-types like Talonflame and Corviknight. Iron Leaves struggles with being prediction-reliant and having low physical bulk, especially with its 4x weakness to the extremely prevalent U-turn, which makes wrong predictions very punishing. Therefore, having defensive teammates like Ting-Lu and Corviknight that can repeatedly pivot it in safely are necessary. Due to its lack of recovery and need for repeated switching, Iron Leaves appreciates entry hazard removers like Iron Treads to keep it from getting worn down. Hadron Engine users like Sandy Shocks are also great teammates that power up both Psyblade and Wild Charge with Electric Terrain.</p>"}
-      },
-      "credits": {"writtenBy": [{"username": "Theia", "user_id": 439018}], "teams": [{"name": "Quality checked by", "members": [{"username": "Alexender", "user_id": 313542}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
-    },
-    "anythinggoes": {"outdated": true, "sets": {"Swords Dance": {}}}
-  },
+  "Iron Leaves": {"uu": {"sets": {"Swords Dance": {}}}, "1v1": {"outdated": true, "sets": {"Booster Energy: Attack": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) created by", "members": [{"username": "bo_bobson27", "user_id": 546922}, {"username": "SwordIsBored", "user_id": 489963}]}]}}, "monotype": {"outdated": true, "sets": {"Swords Dance (Grass)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}}, "anythinggoes": {"outdated": true, "sets": {"Swords Dance": {}}}},
   "Sinistcha": {"uu": {"sets": {"Calm Mind": {}}}, "monotype": {"outdated": true, "sets": {"Calm Mind (Ghost)": {"description": "<p>96 Speed EVs outspeeds Adamant Azumarill.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}, "credits": {"writtenBy": [], "teams": [{"name": "Set by", "members": [{"username": "Giyu", "user_id": 574288}]}]}}, "vgc2023": {"sets": {"Bulky Support": {}}}, "battlestadiumsingles": {"sets": {"Defensive": {}}}, "stabmons": {"outdated": true, "sets": {"Bulky Setup Sweeper": {}}}},
   "Sinistcha-Masterpiece": {"uu": {"sets": {"Calm Mind": {}}}},
   "Okidogi": {
