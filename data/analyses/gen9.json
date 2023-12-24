@@ -1,6 +1,6 @@
 {
   "Venusaur": {
-    "ou": {"sets": {"Chlorophyll Sweeper": {}}},
+    "ou": {"sets": {"Sun Sweeper": {}}},
     "nationaldexuu": {"sets": {"Physically Defensive": {}}},
     "nationaldexmonotype": {
       "sets": {
@@ -101,6 +101,7 @@
   "Sandshrew-Alola": {"lc": {"sets": {"Snow Sweeper": {}}}},
   "Sandslash": {"nu": {"sets": {"Sand Wallbreaker": {}, "Physical Wall": {}}}},
   "Sandslash-Alola": {
+    "ru": {"sets": {"Slush Rush Sweeper": {}}},
     "monotype": {
       "outdated": true,
       "comments": "<h1>Other Options</h1> <section><h1>Ice</h1> <p>Icicle Crash can be used in place of Knock Off to punish foes such as Dragapult, Garchomp, and Choice Scarf Landorus; however, Knock Off's utility in threatening spinblockers and removing items is generally more useful, as Alolan Sandslash's teammates can deal with these threats. Rock Slide can be used to allow Alolan Sandslash to outspeed and OHKO +1 Volcarona under snow, as well as 2HKO Moltres, but it is difficult to fit on its moveset over other mostly more useful options.</p> </section>",
@@ -304,6 +305,7 @@
   "Bellsprout": {"lc": {"sets": {"Sun Sweeper": {}}}},
   "Victreebel": {
     "uu": {"sets": {"Sun Sweeper": {}}},
+    "ru": {"sets": {"Sun Sweeper": {}}},
     "pu": {
       "sets": {
         "Sun Sweeper": {"description": "<p>Giga Drain offsets Life Orb damage and doesn’t require sun, but Solar Beam is significantly stronger. Using a Modest nature maximizes Victreebel’s damage output, but opting for a Timid nature lets it outspeed foes like +1 Morpeko, +2 Adamant Veluza, and Choice Scarf Swanna under sun. Tera Fire makes Weather Ball even stronger, while Tera Grass does the same for Giga Drain or Solar Beam.</p> <p>Sample set. Stay tuned for updates!</p>"},
@@ -1154,6 +1156,7 @@
     },
     "nationaldexmonotype": {"sets": {"Belly Drum (Fairy)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}}
   },
+  "Politoed": {"ru": {"sets": {"Rain Setter": {}}}},
   "Quagsire": {
     "uu": {
       "sets": {
@@ -1513,6 +1516,7 @@
   "Kingdra": {"nationaldex": {"sets": {"Swift Swim": {"description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p>"}}}},
   "Donphan": {
     "uu": {"sets": {"Offensive Utility": {}}},
+    "ru": {"sets": {"Rapid Spin": {"description": "<p>Outspeeds Bisharp and Tyranitar after a Rapid Spin.</p>"}}},
     "1v1": {
       "outdated": true,
       "sets": {
@@ -1685,7 +1689,7 @@
           "description": "<p>Mega Swampert is a common pick on rain teams thanks to Swift Swim and its typing. Its Electric immunity is invaluable for rain teams, which can struggle against foes such as Tapu Koko. Ice Punch covers foes such as Mega Latias, Tangrowth, Tera Grass Volcarona, and Dragonite. Flip Turn provides momentum against defensive checks such as Tera Water Skeledirge, Slowbro, and Rotom-W. Alternatively, Superpower hits Ferrothorn and secures a KO on Kartana, while Stealth Rock takes advantage of forced switches. However, losing Flip Turn's momentum can be harmful for rain teams, since they have a limited number of weather turns to take advantage of. Pelipper sets rain for Mega Swampert while also acting as a slow pivot, granting it free switches. Ferrothorn sets entry hazards to weaken foes for Mega Swampert, checks opposing rain teams featuring faster Swift Swim users such as Barraskewda and Floatzel, and switches into foes such as Dragapult. If Mega Swampert runs Stealth Rock, Ferrothorn can take advantage of the extra moveslot to run more utility options. Mega Swampert struggles against foes such as Ferrothorn and Tangrowth, so it appreciates Tornadus-T handling them. Tornadus-T also switches into Grass-type moves for Mega Swampert, helping alleviate its massive weakness against foes such as Kartana. Mega Swampert also appreciates Barraskewda significantly wearing down their shared checks such as the previously mentioned Rotom-W and Slowbro, which creates opportunities for each other to sweep the opposing team.</p>"
         }
       },
-      "credits": {"writtenBy": [{"username": "TheSorcer3r", "user_id": 580037}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "Kaede", "user_id": 483087}]}, {"name": "Grammar checked by", "members": [{"username": "royalfluxh", "user_id": 493260}, {"username": "dex", "user_id": 277988}]}]}
+      "credits": {"writtenBy": [{"username": "TheSorcer3r", "user_id": 580037}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "Steorra", "user_id": 483087}]}, {"name": "Grammar checked by", "members": [{"username": "royalfluxh", "user_id": 493260}, {"username": "dex", "user_id": 277988}]}]}
     },
     "nationaldexmonotype": {"sets": {"Rain Sweeper (Water)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}, "Specially Defensive (Water)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}},
     "nationaldexru": {"sets": {"Specially Defensive": {}}}
@@ -1700,7 +1704,8 @@
       "credits": {"writtenBy": [{"username": "LOrd Fernado", "user_id": 629794}], "teams": [{"name": "Quality checked by", "members": [{"username": "Chessking345", "user_id": 355040}, {"username": "Tea Guzzler", "user_id": 577920}]}, {"name": "Grammar checked by", "members": [{"username": "Gangsta Spongebob", "user_id": 535530}, {"username": "autumn", "user_id": 384270}]}]}
     }
   },
-  "Ludicolo": {"uu": {"sets": {"Rain Sweeper": {}}}, "pu": {"sets": {"Rain Sweeper": {"description": "<p>Surf is reliable due to its perfect accuracy, Weather Ball is stronger but reliant on rain being up, and Hydro Pump is even stronger but has lower accuracy. Ice Beam nails Appletun and Trevenant, but Focus Blast hits Arboliva harder. Using a Modest nature maximizes Ludicolo’s damage output, but opting for a Timid nature lets it outspeed foes like +1 Morpeko, +2 Adamant Veluza, and Choice Scarf Swanna under rain.</p> <p>Sample set. Stay tuned for updates!</p>"}}}, "nu": {"sets": {"Rain Dance Sweeper": {}}}},
+  "Ludicolo": {"uu": {"sets": {"Rain Sweeper": {}}}, "ru": {"sets": {"Rain Sweeper": {}}}, "pu": {"sets": {"Rain Sweeper": {"description": "<p>Surf is reliable due to its perfect accuracy, Weather Ball is stronger but reliant on rain being up, and Hydro Pump is even stronger but has lower accuracy. Ice Beam nails Appletun and Trevenant, but Focus Blast hits Arboliva harder. Using a Modest nature maximizes Ludicolo’s damage output, but opting for a Timid nature lets it outspeed foes like +1 Morpeko, +2 Adamant Veluza, and Choice Scarf Swanna under rain.</p> <p>Sample set. Stay tuned for updates!</p>"}}}, "nu": {"sets": {"Rain Dance Sweeper": {}}}},
+  "Shiftry": {"ru": {"sets": {"Sun Sweeper": {}}}},
   "Wingull": {"lc": {"outdated": true, "sets": {"Offensive": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "gali", "user_id": 107567}]}]}}},
   "Pelipper": {
     "vgc2023": {
@@ -1965,7 +1970,7 @@
           "description": "<p>Mega Medicham is a tremendously strong wallbreaker due to Pure Power, strong STAB moves, and coverage. Fake Out lets Mega Medicham chip down and revenge kill Pokemon like Mega Lopunny, Iron Valiant, and Tapu Koko. It also can let Mega Medicham stall out rain, Toxic, and Terrain on foes, all while putting opponents into range for one of its stronger attacks safely. Ice Punch lets Mega Medicham get rid of Landorus-T and Dragonite, which can enable it to freely use its STAB moves. Bullet Punch can be used to snipe Pokemon like Iron Valiant, Mega Diancie, and Weavile, and it also removes revenge killers like Tapu Koko and Mega Lopunny after chip damage. Thunder Punch can be used to hit Slowbro, and in tandem with Electric Terrain, it can 2HKO Pokemon like Gholdengo and Victini. Alternatively, Thief can be used to immediately damage the aforementioned Pokemon, so it can use its STAB moves more. Due to Mega Medicham’s frailty and mediocre Speed tier, it is easily revenge killed. Defensive partners like Gholdengo, Ting-Lu, and Ferrothorn help check threats like Choice Scarf Tapu Lele and Dragapult. Knock Off and Pursuit users like Kingambit and Weavile also support Mega Medicham, as they break through Psychic- and Ghost-type Pokemon Mega Medicham struggle with, such as Slowbro, Victini, Gholdengo and Skeledirge, allowing it to consistently use its STAB attacks. Entry hazard support from Pokemon like Ting-Lu, Garchomp, and Ferrothorn benefit Mega Medicham, as it forces a lot of switches and entry hazards wear down checks quickly. Tapu Koko is a good partner for Mega Medicham, as it handles Pokemon like Tornadus-T and Slowbro reliably and powers up Mega Medicham's Thunder Punch. Tapu Lele can also be a good partner for Mega Medicham, as it powers up Zen Headbutt to insane levels, but blocking Fake Out and Bullet Punch from being used can be problematic. Pokemon like Volcarona and Kartana appreciate Torandus-T, Skeledirge, Clodsire, and Gholdengo being pressured constantly by Mega Medicham, enabling them to wreak havoc once the checks are removed or chipped.</p>"
         }
       },
-      "credits": {"writtenBy": [{"username": "hidin", "user_id": 589564}], "teams": [{"name": "Quality checked by", "members": [{"username": "Kaede", "user_id": 483087}, {"username": "adem", "user_id": 529732}]}, {"name": "Grammar checked by", "members": [{"username": "skippergamez", "user_id": 620268}, {"username": "Sulo", "user_id": 528036}]}]}
+      "credits": {"writtenBy": [{"username": "hidin", "user_id": 589564}], "teams": [{"name": "Quality checked by", "members": [{"username": "Steorra", "user_id": 483087}, {"username": "adem", "user_id": 529732}]}, {"name": "Grammar checked by", "members": [{"username": "skippergamez", "user_id": 620268}, {"username": "Sulo", "user_id": 528036}]}]}
     }
   },
   "Manectric": {"nationaldexru": {"sets": {"Offensive Pivot": {}}}},
@@ -2277,7 +2282,7 @@
     "monotype": {"outdated": true, "sets": {"Specially Defensive (Psychic)": {"description": "<p>96 Speed EVs lets it outspeed Adamant Mamoswine.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}, "Choice Scarf (Psychic)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "TheRealBigC", "user_id": 532450}, {"username": "CaptainDaimyo", "user_id": 602431}]}]}}
   },
   "Deoxys-Attack": {"ubers": {"sets": {"Mixed Attacker": {"description": "<p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.759/\">new analyses</a>. These will update as the metagame continues to develop. Stay tuned!</p>"}}}, "nationaldexubers": {"sets": {"Mixed Attacker": {}}}},
-  "Deoxys-Speed": {"ubers": {"sets": {"Lead": {"description": "<p>16 Speed EVs allow Deoxys-S to outspeed Zacian-C, Miraidon, and Koraidon.</p> <p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.759/\">new analyses</a>. These will update as the metagame continues to develop. Stay tuned!</p>"}}}, "ou": {"sets": {"Lead": {}, "Nasty Plot": {}, "Offensive": {}}}, "nationaldexubers": {"sets": {"Lead": {}}}, "nationaldexmonotype": {"sets": {"Nasty Plot (Psychic)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned</p>"}}}},
+  "Deoxys-Speed": {"ubers": {"sets": {"Lead": {"description": "<p>16 Speed EVs allow Deoxys-S to outspeed Zacian-C, Miraidon, and Koraidon.</p> <p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.759/\">new analyses</a>. These will update as the metagame continues to develop. Stay tuned!</p>"}}}, "ou": {"sets": {"Lead": {}, "Nasty Plot": {}, "All-Out Attacker": {}}}, "nationaldexubers": {"sets": {"Lead": {}}}, "nationaldexmonotype": {"sets": {"Nasty Plot (Psychic)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned</p>"}}}},
   "Torterra": {
     "ou": {"outdated": true, "sets": {"Shell Smash": {}}},
     "monotype": {
@@ -2359,6 +2364,7 @@
   "Buizel": {"lc": {"sets": {"Rain Wallbreaker": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "Altariel von Sweep", "user_id": 330191}]}]}}},
   "Floatzel": {
     "uu": {"sets": {"Choice Band": {}}},
+    "ru": {"sets": {"Choice Band": {}}},
     "ou": {
       "outdated": true,
       "sets": {
@@ -3979,7 +3985,7 @@
     }
   },
   "Lampent": {"nfe": {"sets": {"Choice Item": {}, "Calm Mind": {}}}},
-  "Chandelure": {"uu": {"sets": {"Choice Specs": {}}}, "nationaldexru": {"sets": {"Choice Specs": {}, "Calm Mind": {}, "Hex": {}}}},
+  "Chandelure": {"uu": {"sets": {"Choice Specs": {}}}, "ru": {"sets": {"Choice Specs": {}}}, "nationaldexru": {"sets": {"Choice Specs": {}, "Calm Mind": {}, "Hex": {}}}},
   "Axew": {"lc": {"sets": {"Dragon Dance": {}}}},
   "Fraxure": {"nfe": {"sets": {"Setup Sweeper": {}, "Choice Band": {}}}},
   "Haxorus": {
@@ -5252,7 +5258,7 @@
           "description": "<p>Tapu Koko's high Speed and ability make it the premier dual screen setter on hyper offense teams. Taunt denies Defog from foes such as Tornadus-T and Rotom-W while also denying entry hazards from foes such as Ferrothorn. It also prevents foes such as Dragonite and Volcarona from using Tapu Koko as setup fodder. U-turn allows Tapu Koko to generate momentum and pivot into teammates such as Volcarona and Dragapult after setting screens. Tapu Koko will very rarely use Tera since teammates such as Dragonite or Volcarona rely on it to be effective. In a pinch, however, Tera Flying offers a Ground immunity for foes such as Clodsire. Pokemon that take advantage of dual screens, such as Volcarona, Dragonite, and Dragapult, are good partners, as they allow them to set up safely and survive potential revenge killers such as Mega Lopunny, Kingambit, and Mega Scizor. Iron Valiant also benefits greatly from Tapu Koko setting Electric Terrain in addition to dual screens. Tapu Koko is also weak to Stealth Rock setters such as Great Tusk, Landorus-T, and Garchomp, and it can have difficulty denying entry hazards from them, so it appreciates teammates such as Dragonite and Gyarados pivoting in to Ground-type attacks from them.</p>"
         }
       },
-      "credits": {"writtenBy": [{"username": "TheSorcer3r", "user_id": 580037}], "teams": [{"name": "Quality checked by", "members": [{"username": "chichille38", "user_id": 528306}, {"username": "Kaede", "user_id": 483087}, {"username": "ChrisPBacon", "user_id": 544502}, {"username": "Ryuji", "user_id": 515767}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
+      "credits": {"writtenBy": [{"username": "TheSorcer3r", "user_id": 580037}], "teams": [{"name": "Quality checked by", "members": [{"username": "chichille38", "user_id": 528306}, {"username": "Steorra", "user_id": 483087}, {"username": "ChrisPBacon", "user_id": 544502}, {"username": "Ryuji", "user_id": 515767}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     }
   },
   "Tapu Lele": {
@@ -7518,7 +7524,7 @@
       "credits": {"writtenBy": [{"username": "WrathoftheLeopard", "user_id": 511181}], "teams": [{"name": "Quality checked by", "members": [{"username": "pichus", "user_id": 374620}, {"username": "Guard", "user_id": 360582}]}, {"name": "Grammar checked by", "members": [{"username": "UT", "user_id": 523866}]}]}
     }
   },
-  "Revavroom": {"ru": {"sets": {"Shift Gear": {}, "Choice Scarf": {}, "Specially Defensive": {}}}, "1v1": {"outdated": true, "sets": {"Air Balloon": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "fruan", "user_id": 536219}]}]}}},
+  "Revavroom": {"ru": {"sets": {"Shift Gear": {}, "Choice Scarf": {}}}, "1v1": {"outdated": true, "sets": {"Air Balloon": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "fruan", "user_id": 536219}]}]}}},
   "Cyclizar": {
     "uu": {"sets": {"Utility": {"description": "<p>The given Speed EVs allows Cyclizar to outspeed Hisuian Zoroark. If running Draco Meteor or Overheat, Cyclizar should be run with a Timid Nature, 80 Special Attack EVs, and 176 Speed EVs in order to outspeed Maushold.</p>"}}},
     "stabmons": {"outdated": true, "sets": {"Choice Specs": {}}},
@@ -9618,7 +9624,7 @@
     "nationaldexuu": {"sets": {"Bulk Up": {}}}
   },
   "Munkidori": {"uu": {"sets": {"Choice Scarf": {}}}, "ru": {"sets": {"Offensive Pivot": {}, "Choice Scarf": {}}}, "ou": {"outdated": true, "sets": {"Pivot": {}}}, "monotype": {"outdated": true, "sets": {"Choice Scarf (Psychic)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "CaptainDaimyo", "user_id": 602431}]}]}}, "battlestadiumsingles": {"sets": {"Choice Scarf Pivot": {}, "Focus Sash Lead": {}}}},
-  "Fezandipiti": {"uu": {"sets": {"Bulky Pivot": {"description": "<p>184 Speed allows you to outspeed Hisuian Arcanine, to allow you to freely U-turn for Toxic Chain chances against it.152 Speed allows you to underspeed Moltres and Moltres-Galar for slow U-turns against them, while still outspeeding Rotom-W to prevent it freely using Volt Switch for free damage.</p>"}, "Calm Mind": {}}}, "battlestadiumsingles": {"sets": {"Calm Mind": {}, "Toxic Staller": {}}}},
+  "Fezandipiti": {"uu": {"sets": {"Bulky Pivot": {"description": "<p>184 Speed allows you to outspeed Hisuian Arcanine, to allow you to freely U-turn for Toxic Chain chances against it.152 Speed allows you to underspeed Moltres and Moltres-Galar for slow U-turns against them, while still outspeeding Rotom-W to prevent it freely using Volt Switch for free damage.</p>"}, "Calm Mind": {}}}, "ru": {"sets": {"Calm Mind": {}, "Pivot": {}}}, "battlestadiumsingles": {"sets": {"Calm Mind": {}, "Toxic Staller": {}}}},
   "Ogerpon": {
     "vgc2023": {"sets": {"Swords Dance Sweeper": {}}},
     "uu": {"sets": {"Swords Dance": {}}},
