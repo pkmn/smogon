@@ -1,5 +1,5 @@
 {
-  "Charizard": {"Fire Spin Pivot": {"moves": ["Fire Spin", "Fire Blast", "Earthquake", ["Slash", "Swords Dance", "Toxic"]]}, "Swords Dance Sweeper": {"moves": ["Swords Dance", "Earthquake", "Hyper Beam", ["Fire Spin", "Mega Kick", "Fire Blast"]]}},
+  "Charizard": {"Mixed Attacker Lead": {"moves": ["Fire Blast", "Earthquake", ["Body Slam", "Slash"], ["Counter", "Slash", "Fire Spin"]]}, "Swords Dance Lead": {"moves": ["Swords Dance", "Body Slam", "Earthquake", ["Fire Blast", "Hyper Beam"]]}, "Swords Dance Sweeper": {"moves": ["Swords Dance", "Earthquake", "Hyper Beam", ["Fire Blast", "Body Slam", "Fire Spin"]]}},
   "Blastoise": {"Bulky Attacker": {"moves": ["Surf", "Seismic Toss", "Counter", ["Body Slam", "Blizzard"]]}},
   "Raticate": {"All-out Attacker": {"moves": ["Hyper Beam", ["Body Slam", "Super Fang"], ["Bubble Beam", "Thunderbolt"], ["Thunderbolt", "Super Fang"]]}},
   "Fearow": {"All-Out Attacker": {"moves": ["Hyper Beam", "Double-Edge", "Drill Peck", ["Agility", "Mirror Move"]]}},
@@ -13,12 +13,12 @@
   "Venomoth": {"Double Powder": {"moves": ["Sleep Powder", "Stun Spore", "Psychic", "Double-Edge"]}},
   "Primeape": {"All-out Attacker": {"moves": ["Submission", "Body Slam", "Rock Slide", ["Hyper Beam", "Thunderbolt"]]}},
   "Arcanine": {"Defensive": {"moves": ["Fire Blast", "Body Slam", "Hyper Beam", "Rest"]}},
-  "Abra": {"Special Attacker": {"moves": ["Psychic", "Thunder Wave", "Seismic Toss", "Reflect"]}},
+  "Abra": {"Special Attacker": {"moves": ["Psychic", "Thunder Wave", "Seismic Toss", "Counter"]}},
   "Machamp": {"All-Out Attacker": {"moves": ["Submission", "Rock Slide", "Earthquake", ["Body Slam", "Hyper Beam", "Substitute"]]}},
   "Golem": {"Bulky Attacker": {"moves": ["Earthquake", "Rock Slide", "Explosion", ["Substitute", "Body Slam"]]}},
   "Rapidash": {"Fire Spinner": {"moves": ["Fire Spin", "Fire Blast", ["Body Slam", "Toxic"], ["Hyper Beam", "Toxic"]]}},
   "Slowpoke": {"Amnesia": {"moves": ["Amnesia", "Surf", "Thunder Wave", "Rest"]}},
-  "Magneton": {"Offensive": {"moves": ["Thunder Wave", "Thunder", "Double-Edge", "Rest"]}},
+  "Magneton": {"Offensive": {"moves": ["Thunder Wave", "Thunderbolt", ["Thunder", "Rest"], ["Rest", "Reflect", "Double-Edge"]]}},
   "Gastly": {"Hypnosis": {"moves": ["Hypnosis", "Thunderbolt", ["Mega Drain", "Psychic"], ["Night Shade", "Psychic"]]}},
   "Drowzee": {"Standard": {"moves": ["Psychic", ["Seismic Toss", "Hypnosis"], "Thunder Wave", "Rest"]}},
   "Kingler": {"The Cringe Crab (Swords Dance)": {"moves": ["Swords Dance", "Body Slam", "Hyper Beam", "Crabhammer"]}},
@@ -31,5 +31,5 @@
   "Porygon": {"Standard": {"moves": ["Thunderbolt", ["Psychic", "Blizzard"], "Thunder Wave", "Recover"]}, "Conversion": {"moves": ["Conversion", ["Ice Beam", "Psychic", "Thunderbolt"], "Thunder Wave", "Recover"]}},
   "Kabutops": {"Swords Dance": {"moves": ["Slash", "Swords Dance", "Hyper Beam", "Surf"]}},
   "Moltres": {"Offensive": {"moves": ["Fire Blast", "Hyper Beam", "Fire Spin", ["Agility", "Toxic"]]}, "Defensive": {"moves": ["Fire Blast", ["Fire Spin", "Reflect"], ["Toxic", "Fire Spin"], "Rest"]}},
-  "Dragonair": {"Agility + Wrap": {"moves": ["Wrap", "Thunder Wave", "Hyper Beam", ["Agility", "Thunderbolt"]]}}
+  "Dragonair": {"Wrap": {"moves": ["Wrap", ["Thunder Wave", "Agility"], "Blizzard", ["Thunderbolt", "Hyper Beam"]]}}
 }
