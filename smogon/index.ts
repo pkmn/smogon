@@ -32,7 +32,7 @@ export interface Moveset {
   evconfigs: StatsTable[];
   ivconfigs: StatsTable[];
   natures: string[];
-  teratypes: TypeName[];
+  teratypes: (TypeName | 'Stellar')[];
 }
 
 export interface Credits {
