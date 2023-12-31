@@ -69,7 +69,7 @@ const FORMATS = {
   vgc22: 'vgc2022', vgc23series1: 'vgc2023', vgc23series2: 'vgc2023', vgc23series3: 'vgc2023',
   vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023', vgc24regulationf: 'vgc2024',
   // RBwhY?
-  nintendocup1998: 'nintendocup1998', nintendocup1999: 'nintendocup1999', lclevel100: 'lclevel100',
+  nintendocup1998: 'nc1998', nintendocup1999: 'nc1999', lclevel100: 'lclevel100',
   petitcup: 'petitcup', pikacup: 'pikacup', monotype: 'monotype', pu: 'pu', lc: 'lc', '1v1': '1v1',
   '2v2doubles': '2v2doubles'
 };
