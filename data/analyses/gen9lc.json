@@ -13,6 +13,7 @@
     },
     "credits": {"writtenBy": [{"username": "Drifting", "user_id": 342456}], "teams": [{"name": "Quality checked by", "members": [{"username": "gali", "user_id": 107567}, {"username": "Éric", "user_id": 440139}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}]}]}
   },
+  "Growlithe-Hisui": {"sets": {"Choice Scarf": {}, "Flame Charge": {}}},
   "Bellsprout": {"sets": {"Sun Sweeper": {}}},
   "Slowpoke": {"sets": {"Defensive": {}}},
   "Magnemite": {"sets": {"Choice Scarf": {}}},
@@ -25,6 +26,7 @@
     "credits": {"writtenBy": [{"username": "Charis_Akins", "user_id": 588203}], "teams": [{"name": "Quality checked by", "members": [{"username": "goldenghost", "user_id": 32350}, {"username": "Éric", "user_id": 440139}]}, {"name": "Grammar checked by", "members": [{"username": "Clouds", "user_id": 356215}]}]}
   },
   "Shellder": {"sets": {"Physical Shell Smash": {}}},
+  "Gastly": {"sets": {"Choice Scarf": {}, "Life Orb": {}, "Hex": {}}},
   "Voltorb": {
     "outdated": true,
     "sets": {
@@ -36,23 +38,23 @@
   },
   "Voltorb-Hisui": {"sets": {"Special Attacker": {}}},
   "Koffing": {"sets": {"Tank": {}}},
+  "Porygon": {"sets": {"Agility": {}, "Choice Scarf": {}}},
+  "Chinchou": {"sets": {"Pivot": {}}},
+  "Snubbull": {"sets": {"Physically Defensive": {}}},
+  "Elekid": {"sets": {"Offensive Pivot": {}}},
+  "Magby": {"sets": {"Belly Drum": {}}},
+  "Torchic": {"sets": {"Life Orb": {}}},
   "Wingull": {"outdated": true, "sets": {"Offensive": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "gali", "user_id": 107567}]}]}},
   "Azurill": {"outdated": true, "sets": {"Belly Drum": {}}},
   "Numel": {"sets": {"Special Attacker": {}}},
+  "Trapinch": {"sets": {"Trapper": {}}},
   "Corphish": {"sets": {"Dragon Dance": {}}},
   "Buizel": {"sets": {"Rain Wallbreaker": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "Altariel von Sweep", "user_id": 330191}]}]}},
   "Shellos": {"outdated": true, "sets": {"Defensive": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "Charis_Akins", "user_id": 588203}]}]}},
-  "Drifloon": {
-    "sets": {
-      "Utility": {
-        "description": "<p>With a useful defensive typing, fantastic ability in Unburden, and a wide variety of utility options, Drifloon is one of Little Cup's premier support Pokemon. Will-O-Wisp cripples the metagame's powerful physical attackers like Alolan Grimer, Mudbray, and Pawniard. Acrobatics synergizes well with Unburden, allowing Drifloon to revenge kill a chipped Shellder or Numel. Drifloon is the only viable Defogger in LC, making it an invaluable tool for supporting teammates weak to entry hazards such as Wattrel or checking setup sweepers by removing dual screens. Drifloon's 4th moveslot can be filled by one of several utility options. Memento can be used to support a setup sweeper teammate or neutralize opposing ones, Endure lets Drifloon live an attack and activate Unburden, and Destiny Bond can be used to take out a dangerous attacker. Drifloon can also run a mixed attacker set with Hex to better deal with Stealth Rock setters like Mudbray and Glimmet; if running Hex, an EV spread of 116 Atk / 4 Def / 116 SpA / 196 Spe with a Naive nature should be used. 164 Defense EVs let Drifloon live Toedscool's Knock Off, with the remaining EVs placed in Attack and Speed; Drifloon also runs reduced HP IVs to activate Unburden after two rounds of Stealth Rock damage. Tera Flying is used to boost the power of Acrobatics, while Tera Dragon can be used to turn the table on Hisuian Voltorb, Drifloon's most common check.</p> <p>As previously mentioned, Drifloon is vulnerable to Hisuian Voltorb, so checks like Foongus and Axew are good partners for it. Mudbray, Alolan Grimer, and Croagunk are great defensive switch-ins to opposing Alolan Grimer's Knock Off, which threatens to OHKO Drifloon, although it can live a hit after burning it; the former is also a great switch-in to Glimmet, which threatens Drifloon with Power Gem. Setup sweepers like Shellder, Numel, and Grassy Seed Shroodle are good partners thanks to the setup opportunities provided by Will-O-Wisp and Memento. Ground-weak teammates such as Alolan Grimer and Glimmet appreciate Drifloon checking Mudbray. Stealth Rock-weak Pokemon such as Wattrel and Nymble appreciate the hazard control that Drifloon provides.</p>"
-      }
-    },
-    "credits": {"writtenBy": [{"username": "gali", "user_id": 107567}], "teams": [{"name": "Quality checked by", "members": [{"username": "goldenghost", "user_id": 32350}, {"username": "Hacker", "user_id": 387847}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
-  },
   "Stunky": {"sets": {"Physical Attacker": {}}},
   "Croagunk": {"sets": {"Bulky Attacker": {}}},
   "Snover": {"sets": {"Snow Setter": {}}},
+  "Snivy": {"sets": {"Contrary Wallbreaker": {}, "Choice Scarf": {}}},
   "Timburr": {"sets": {"Physical Attacker": {}}},
   "Sandile": {"sets": {"Bulky Stealth Rock": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "Quinn", "user_id": 553008}]}]}},
   "Zorua": {"sets": {"Choice Scarf": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "TheShoddyStrawman", "user_id": 585065}]}]}},
@@ -64,12 +66,13 @@
     },
     "credits": {"writtenBy": [{"username": "goldenghost", "user_id": 32350}], "teams": [{"name": "Quality checked by", "members": [{"username": "gali", "user_id": 107567}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
   },
+  "Minccino": {"sets": {"Skill Link Attacker": {}}},
   "Gothita": {"sets": {"Trapper": {}}},
   "Deerling": {"outdated": true, "sets": {"Offensive": {}}},
   "Foongus": {"sets": {"Defensive": {}}},
   "Axew": {"sets": {"Dragon Dance": {}}},
-  "Mienfoo": {"sets": {"Fast Pivot": {}, "SubSD": {}, "Choice Scarf": {}}},
-  "Pawniard": {"sets": {"Swords Dance": {}}},
+  "Mienfoo": {"sets": {"Fast Pivot": {}, "Bulky Pivot": {}, "Choice Scarf": {}, "SubSD": {}}},
+  "Pawniard": {"sets": {"Swords Dance": {}, "Stealth Rock": {}}},
   "Vullaby": {"sets": {"Physical Attacker": {}, "Nasty Plot": {}}},
   "Larvesta": {"sets": {"Defensive": {}}},
   "Crabrawler": {
@@ -80,10 +83,7 @@
     },
     "credits": {"writtenBy": [{"username": "TheShoddyStrawman", "user_id": 585065}], "teams": [{"name": "Quality checked by", "members": [{"username": "DC", "user_id": 449990}, {"username": "gali", "user_id": 107567}]}, {"name": "Grammar checked by", "members": [{"username": "autumn", "user_id": 384270}, {"username": "Lunaflare", "user_id": 430518}]}]}
   },
-  "Mareanie": {
-    "sets": {"Defensive": {"description": "<p>Mareanie is one of the top walls in Little Cup, capable of checking threats such as Hisuian Growlithe, Crabrawler, and Shellder. Haze shuts down dangerous set-up sweepers like Crabrawler and Swords Dance Pawniard, while Ice Beam hits Toedscool and Foongus. Mareanie has some other viable options for its fourth moveslot; Toxic Spikes wears down foes like Toedscool and synergizes with partners like Hex Hisuian Zorua, and Iron Defense turns Mareanie into a defensive wincon. Tera Ghost lets Mareanie excape Gothita's Shadow Tag while letting it take neutral damage from Crabrawler's coverage. Grass-types like Toedscool and Foongus are great partners that can switch into foes like Hisuian Voltorb and Mudbray; Foongus forms a potent Regenerator core with Mareanie as well.</p>"}},
-    "credits": {"writtenBy": [{"username": "Flou", "user_id": 605215}], "teams": [{"name": "Quality checked by", "members": [{"username": "DC", "user_id": 449990}, {"username": "gali", "user_id": 107567}]}, {"name": "Grammar checked by", "members": [{"username": "CryoGyro", "user_id": 331519}]}]}
-  },
+  "Mareanie": {"sets": {"Defensive": {}}},
   "Mudbray": {"sets": {"Offensive": {}, "RestTalk": {}}},
   "Sandygast": {"sets": {"Defensive": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "Hacker", "user_id": 387847}]}]}},
   "Grookey": {"sets": {"Choice Scarf": {}, "Pivot": {}}},
