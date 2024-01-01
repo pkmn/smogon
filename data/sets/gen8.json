@@ -445,7 +445,7 @@
     "monotype": {"Xatu (Flying)": {"moves": ["Light Screen", "Reflect", "U-turn", "Thunder Wave"], "ability": "Magic Bounce", "item": "Light Clay", "nature": "Jolly", "evs": {"hp": 252, "spd": 4, "spe": 252}}}
   },
   "Ampharos": {"nationaldexru": {"Wallbreaker": {"moves": ["Thunderbolt", "Dragon Pulse", "Focus Blast", "Volt Switch"], "item": "Ampharosite", "nature": "Modest", "ivs": {"atk": 0}, "evs": {"hp": 128, "spa": 252, "spe": 128}}}},
-  "Bellossom": {"zu": {"Quiver Dance": {"moves": ["Quiver Dance", "Strength Sap", "Giga Drain", "Safeguard"], "item": "Kee Berry", "nature": "Timid", "evs": {"hp": 252, "def": 4, "spe": 252}}}},
+  "Bellossom": {"zu": {"Quiver Dance": {"moves": ["Quiver Dance", "Strength Sap", "Giga Drain", ["Moonblast", "Safeguard"]], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 252, "spd": 4, "spe": 252}}}},
   "Azumarill": {
     "uu": {"Choice Band": {"moves": ["Liquidation", "Play Rough", "Aqua Jet", ["Ice Punch", "Knock Off"]], "ability": "Huge Power", "item": "Choice Band", "nature": "Adamant", "evs": {"atk": 252, "spd": 4, "spe": 252}}, "Belly Drum": {"moves": ["Belly Drum", "Aqua Jet", "Play Rough", "Knock Off"], "ability": "Huge Power", "item": "Sitrus Berry", "nature": "Adamant", "evs": {"hp": 4, "atk": 252, "spe": 252}}},
     "ou": {"Belly Drum": {"moves": ["Belly Drum", "Play Rough", "Aqua Jet", "Knock Off"], "ability": "Huge Power", "item": "Sitrus Berry", "nature": "Adamant", "evs": {"hp": 4, "atk": 252, "spe": 252}}},
@@ -825,7 +825,7 @@
   },
   "Claydol": {"pu": {"Defensive": {"moves": [["Stealth Rock", "Rapid Spin"], "Toxic", ["Psychic", "Scorching Sands"], ["Teleport", "Protect"]], "item": ["Colbur Berry", "Leftovers"], "nature": "Bold", "evs": {"hp": 252, "def": 240, "spe": 16}}}},
   "Cradily": {"monotype": {"Specially Defensive (Grass)": {"moves": ["Rock Blast", "Stealth Rock", "Toxic", "Recover"], "ability": "Storm Drain", "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "atk": 4, "spd": 252}}}},
-  "Armaldo": {"zu": {"Utility": {"moves": ["Stealth Rock", "Rapid Spin", "Stone Edge", "Knock Off"], "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": {"atk": 252, "def": 4, "spe": 252}}}},
+  "Armaldo": {"zu": {"Offensive Utility": {"moves": ["Stealth Rock", "Rapid Spin", "Stone Edge", "Knock Off"], "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": {"atk": 252, "spd": 4, "spe": 252}}}},
   "Milotic": {
     "ru": {"Defensive": {"moves": ["Scald", "Recover", ["Flip Turn", "Ice Beam"], ["Toxic", "Haze"]], "item": "Leftovers", "nature": "Bold", "ivs": {"atk": 0}, "evs": {"hp": 252, "def": 168, "spe": 88}}},
     "mixandmega": {"Sablenite Defensive": {"moves": ["Flip Turn", "Scald", "Recover", ["Haze", "Ice Beam"]], "item": "Sablenite", "nature": "Bold", "evs": {"hp": 252, "def": 208, "spd": 48}}},
