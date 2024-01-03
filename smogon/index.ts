@@ -200,6 +200,8 @@ const LEGACY = new Set([
 
 export type Report = 'usage' | 'leads' | 'moveset' | 'metagame' | 'chaos';
 
+const RE = />(\d{4}-\d{2})\/</;
+
 export const Statistics = new (class {
   readonly URL = 'https://www.smogon.com/stats/';
 
@@ -214,7 +216,9 @@ export const Statistics = new (class {
     while (i--) {
       const line = lines[i];
       if (line.startsWith('<a href=')) {
-        return line.slice(9, 16);
+        const m = RE.exec(line);
+        if (!m) continue;
+        return m[1];
       }
     }
     throw new Error('Unexpected format for index');

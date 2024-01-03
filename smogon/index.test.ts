@@ -77,7 +77,7 @@ describe('Statistics', () => {
 
   test('latest', async () => {
     expect(() => Statistics.latest('foo')).toThrow('Unexpected format for index');
-    expect(Statistics.latest(await FIXTURES.index)).toBe('2022-11');
+    expect(Statistics.latest(await FIXTURES.index)).toBe('2023-11');
   });
 
   test('formats', async () => {
