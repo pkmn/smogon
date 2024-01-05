@@ -18,13 +18,13 @@
   "Tyranitar": {"sets": {"Assault Vest": {}}},
   "Pelipper": {
     "sets": {
-      "Rain Setter": {},
+      "Defensive": {},
+      "Offensive": {},
+      "Rain Setter": {"outdated": true},
       "Pelipper": {
         "outdated": true,
         "description": "<ul> <li> <p>Hurricane's full accuracy in Rain makes it mandatory on Pelipper. It provides consistent damage and threatens the Grass-type Pokemon that resist Water.</p> </li> <li> <p>Hydro Pump is Pelipper's best Water-type attack but can be forgone if accuracy is a concern. Helping Hand paired with a fast Water-type Pokemon can compensate for the lack of reliable Water-type damage.</p> </li> <li> <p>Wide Guard can be used over Protect to answer ubiquitous spread moves such as Gholdengo's Make it Rain and Sylveon's Hyper Voice.</p> </li> <li> <p>Focus Sash ensures Pelipper survives attacks from Pokemon that might otherwise outspeed and OHKO it, such as Hydreigon and Annihilape. Damp Rock extends the uptime of Pelipper's rain-reliant teammates, allowing them to beat bulkier teams without requiring repeat switch-ins.</p> </li> <li> <p>252 Speed EVs with a Timid nature allow Pelipper to outspeed the entire metagame with Tailwind, as well as some notable Choice Scarf threats such as Annihilape.</p> </li> <li> <p>A Ground Tera type grants Pelipper an immunity to Electric and a resistance to Rock, which are its main concerns. With a Grass Tera type, it instead resists Electric, but this grants an immunity to Spore and Rage Powder.</p> </li> </ul>"
-      },
-      "Defensive": {"outdated": true},
-      "Offensive": {"outdated": true}
+      }
     }
   },
   "Torkoal": {
@@ -121,13 +121,14 @@
   "Basculegion": {"sets": {"Rain Abuser": {}}},
   "Meowscarada": {"sets": {"Offensive": {}}},
   "Pawmot": {
+    "overview": "<ul> <li> <p>Pawmot has a strong niche in being one of only two Pokemon with a potentially game-winning tool in Revival Blessing. It is preferred over Rabsca thanks to its high Speed and better offensive typing, hitting Pokemon such as Murkrow, Meowscarada, and Hydreigon for OHKOs or near OHKOs. This, combined with its access to Fake Out, makes Pawmot useful offensively in addition to bringing Revival Blessing.</p> </li> <li> <p>Powerful teammates such as Dondozo, when paired with Tatsugiri's Commander, and Meowscarada particularly appreciate Pawmot's Revival Blessing, as it gives them another opportunity at denting opposing teams. Choice Band Meowscarada pairs particularly well with Pawmot, as it can hit the only relevant Ground-type in Garchomp with both Flower Trick and Play Rough. Pawmot, in return, covers the few Pokemon that can handle Meowscarada's STAB moves, such as Hydreigon—even when it Terastallizes into a typing such as Steel.</p> </li> <li> <p>Such Pawmot teams can, however, be vulnerable to well-played dual screens teams, which nullify most of the offensive presence from Pawmot's allies, even after it revives one of them. In particular, Pawmot teams must bring Pokemon and moves that can beat Amoonguss, which can be used on these teams.</p> </li> </ul>",
     "sets": {
-      "Revival Blessing": {},
       "Revival Blessing Support": {
-        "outdated": true,
         "description": "<ul> <li> <p>Revival Blessing is an extremely invaluable tool that lets Pawmot revive crucial teammates such as Dondozo and Meowscarada, very likely turning the battle in the user's favor. It is Pawmot's most important move, but an attack is slotted first in case the timer forces Pawmot to use its first move. Double Shock is better here if Pawmot Terastallizes into the Electric typing, which lets it repeatedly use the move without drawback or failure. If running the Fighting Tera type or not Terastallized, Close Combat is better in this moveslot.</p> </li> <li> <p>Focus Sash, in tandem with Pawmot's high Speed, ensures it gets at least two moves off if it is not double targeted.</p> </li> <li> <p>Volt Absorb synergizes with Electric-weak teammates such as Dondozo, while Natural Cure allows Pawmot to brush off status moves such as Amoonguss's Spore.</p> </li> <li> <p>Both the Electric and Fighting Tera types provide offensive benefits to Pawmot, turning an attack into a reliable source of damage against a plethora of common Pokemon such as Murkrow, Dondozo, and/or Hydreigon. The Electric Tera type lets it use Double Shock repeatedly, which avoids the drawback of Close Combat lowering its defenses, turning it into a potent cleaner.</p> </li> </ul>"
-      }
-    }
+      },
+      "Revival Blessing": {"outdated": true}
+    },
+    "credits": {"writtenBy": [{"username": "Sole Survivor", "user_id": 518634}], "teams": [{"name": "Quality checked by", "members": [{"username": "yuki", "user_id": 294287}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}]}]}
   },
   "Maushold": {"sets": {"Friend Guard": {}, "Wide Lens": {"outdated": true}, "Support": {"outdated": true}}},
   "Maushold-Four": {"sets": {"Wide Lens": {}, "Support": {}}},
@@ -151,7 +152,11 @@
       }
     }
   },
-  "Ceruledge": {"sets": {"Bulk Up Sweeper": {}, "Bulk Up": {"outdated": true, "description": "<ul> <li> <p>Shadow Sneak finishes off weakened Pokemon, Focus Sash users like Kilowattral, hits opposing Ceruledge, and lets Ceruledge revenge kill Ghost-weak Pokemon like Gholdengo. Tera Blast + Tera Grass lets Ceruledge hit Fire-resistant Pokemon like Tyranitar, Rotom-W, and Garchomp.</p> </li> <li> <p>Clear Amulet prevents Ceruledge from being weakened by Intimidate users like Paldean Tauros-A, Arcanine, and Gyarados, as well as Parting Shot Grimmsnarl.</p> </li> <li> <p>Grass is easily Ceruledge's best Tera type, giving it a Water and Ground resistance for the likes of Garchomp and Rotom-W and making it immune to Amoonguss's powder moves. Flash Fire lets Ceruledge do extremely well against opposing Fire-types, especially when Terastallized, as it will shed its weakness to super effective coverage moves like Torkoal's Earth Power and opposing Ceruledge's Shadow Sneak.</p> </li> </ul>"}}},
+  "Ceruledge": {
+    "overview": "<ul> <li> <p>Ceruledge is a strong Bulk Up sweeper in Series 1. The combination of Bulk Up's Defense boost and Bitter Blade's healing help Ceruledge stay healthy during a sweep.</p> </li> <li> <p>Ceruledge's unique defensive qualities let it set up in the face of Pokemon like Torkoal, Maushold, and Arcanine, and Tera Grass lets it set up against even more Pokemon. Pokemon that can help Ceruledge set up like Rage Powder Amoonguss can make good teammates.</p> </li> <li> <p>Ceruledge struggles against some of the metagame's best Pokemon like Hydreigon, Tyranitar, and Garchomp. Paldean Tauros-A, Sylveon, and Pawmot check Hydreigon and Tyranitar for Ceruledge. Tera Steel Hydreigon, Rotom-W, and Abomasnow check Garchomp.</p> </li> </ul>",
+    "sets": {"Bulk Up": {"description": "<ul> <li> <p>Shadow Sneak finishes off weakened Pokemon, Focus Sash users like Kilowattral, hits opposing Ceruledge, and lets Ceruledge revenge kill Ghost-weak Pokemon like Gholdengo. Tera Blast + Tera Grass lets Ceruledge hit Fire-resistant Pokemon like Tyranitar, Rotom-W, and Garchomp.</p> </li> <li> <p>Clear Amulet prevents Ceruledge from being weakened by Intimidate users like Paldean Tauros-A, Arcanine, and Gyarados, as well as Parting Shot Grimmsnarl.</p> </li> <li> <p>Grass is easily Ceruledge's best Tera type, giving it a Water and Ground resistance for the likes of Garchomp and Rotom-W and making it immune to Amoonguss's powder moves. Flash Fire lets Ceruledge do extremely well against opposing Fire-types, especially when Terastallized, as it will shed its weakness to super effective coverage moves like Torkoal's Earth Power and opposing Ceruledge's Shadow Sneak.</p> </li> </ul>"}, "Bulk Up Sweeper": {"outdated": true}},
+    "credits": {"writtenBy": [{"username": "Yourwelcomethanku", "user_id": 541847}], "teams": [{"name": "Quality checked by", "members": [{"username": "yuki", "user_id": 294287}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
+  },
   "Kilowattrel": {
     "overview": "<ul> <li> <p>Kilowattrel stands out as one of the best Tailwind setters in the current metagame. Its base 125 Speed stat lets it set Tailwind first, with very little Prankster Tailwind Pokemon stopping it from doing so.</p> </li> <li> <p>Kilowattrel has a respectable base 105 Special Attack stat and a good offensive typing, allowing it to tackle the likes of Meowscarada and Gyarados well.</p> </li> <li> <p>Kilowattrel appreciates immediately hard-hitting partners such as Choice Specs Gholdengo and Garchomp to break through opposing teams. Gholdengo is great in particular thanks to its immunity to Dragonite's Extreme Speed.</p> </li> <li> <p>Kilowattrel is particularly frail, meaning it often only gets to set Tailwind and fire off a single attack before it faints. It also means in late-game scenarios, it is unreliable at dueling the meta's most common attackers like Gholdengo and Hydreigon.</p> </li> </ul>",
     "sets": {"Support": {"description": "<ul> <li> <p>Air Slash is Kilowattrel's primary Flying-type STAB move of choice due to its higher accuracy than Hurricane, though the latter may be seen on rain teams.</p> </li> <li> <p>Discharge is a good spread option when next to a Ground- or Electric-type partner like Garchomp or Rotom-F. Volt Switch allows Kilowattrel to use its high base Speed to pivot into a partner that can better use the extra Speed from Tailwind.</p> </li> <li> <p>Competitive acts as an Intimidate-deterrent for physically attacking partners such as Garchomp, Baxcalibur, and Ceruledge.</p> </li> <li> <p>Focus Sash is a must-have, as Kilowattrel is incredibly frail and unable to take any super effective or strong neutral attacks such as Baxcalibur's Icicle Crash and Tera Normal Dragonite's Extreme Speed.</p> </li> <li> <p>Kilowattrel rarely Terastallizes, but when it does, it prefers to use same type Tera to boost the power of one of its STAB moves.</p> </li> </ul>"}},
@@ -168,7 +173,7 @@
   },
   "Palafin": {"sets": {"Bulky Attacker": {}, "Choiced Attacker": {"outdated": true}}},
   "Glimmora": {"sets": {"Specs": {}, "Mortal Spin": {}, "Focus Sash Lead": {"outdated": true}}},
-  "Dondozo": {"sets": {"Offensive Commander": {}, "Defensive Solo": {}, "Commander Sweeper": {"outdated": true}}},
+  "Dondozo": {"sets": {"Commander Sweeper": {}, "Offensive Commander": {"outdated": true}, "Defensive Solo": {"outdated": true}}},
   "Tatsugiri": {"sets": {"Scarf Commander": {}, "Choice Item": {"outdated": true}, "Sash": {"outdated": true}}},
   "Annihilape": {
     "sets": {
@@ -202,7 +207,7 @@
   "Iron Hands": {"sets": {"Offensive Pivot": {}, "Setup Sweeper": {"outdated": true}, "Assault Vest": {"outdated": true}, "Setup": {"outdated": true}}},
   "Iron Jugulis": {"sets": {"Tailwind Support": {}}},
   "Iron Moth": {"sets": {"Acid Spray": {}}},
-  "Baxcalibur": {"sets": {"Offensive": {}, "Loaded Dice": {}, "Scale Shot": {"outdated": true}, "Assault Vest": {"outdated": true}, "Dragon Dance": {"outdated": true}}},
+  "Baxcalibur": {"sets": {"Scale Shot": {}, "Assault Vest": {}, "Offensive": {"outdated": true}, "Loaded Dice": {"outdated": true}, "Dragon Dance": {"outdated": true}}},
   "Gholdengo": {
     "sets": {
       "Nasty Plot": {},
@@ -213,7 +218,7 @@
   "Chien-Pao": {"sets": {"Glass Cannon": {}, "Offensive": {"outdated": true}}},
   "Ting-Lu": {"sets": {"Bulky Attacker": {}}},
   "Chi-Yu": {"sets": {"Choice Specs": {}, "Glass Cannon": {}, "Offensive": {}, "Nasty Plot": {"outdated": true}, "Choice Scarf": {"outdated": true}}},
-  "Roaring Moon": {"sets": {"Speed Booster": {}, "Attack Booster": {}, "Sun Attacker": {}, "Dragon Dance": {"outdated": true}, "Tailwind Setter": {"outdated": true}}},
+  "Roaring Moon": {"sets": {"Dragon Dance": {}, "Tailwind Setter": {}, "Speed Booster": {"outdated": true}, "Attack Booster": {"outdated": true}, "Sun Attacker": {"outdated": true}}},
   "Sinistcha": {"sets": {"Bulky Support": {}}},
   "Okidogi": {"sets": {"Bulk Up": {}}},
   "Ogerpon": {"sets": {"Swords Dance Sweeper": {}}},
