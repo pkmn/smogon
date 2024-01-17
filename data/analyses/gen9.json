@@ -5376,7 +5376,7 @@
     },
     "monotype": {"outdated": true, "sets": {"Choice Band": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "CaptainDaimyo", "user_id": 602431}]}]}},
     "vgc2023": {"sets": {"Offensive Pivot": {}, "Priority Attacker": {}, "Bulky Attacker": {"outdated": true}}},
-    "ubersuu": {"sets": {"Chocie Band": {}, "Assault Vest": {"description": "<p>168 attack EVs allow you to KO Palkia-O with Wood Hammer + Grassy Glide</p>"}}},
+    "ubersuu": {"sets": {"Choice Band": {}, "Assault Vest": {"description": "<p>168 attack EVs allow you to KO Palkia-O with Wood Hammer + Grassy Glide</p>"}}},
     "stabmons": {"outdated": true, "sets": {"Choice Band": {}, "Swords Dance": {}}},
     "doublesou": {
       "outdated": true,
@@ -5956,7 +5956,16 @@
   },
   "Zamazenta": {
     "ou": {"sets": {"Heavy-Duty Boots": {}, "Iron Defense": {}, "Choice Band": {}}},
-    "nationaldex": {"sets": {"Choice Band": {}, "Howl": {}, "Iron Defense": {"description": "<p>These sets are currently up for reservation for a revamp; please check out the C&amp;C thread for more information!</p>"}}},
+    "nationaldex": {
+      "sets": {
+        "Choice Band": {},
+        "Howl": {"description": "<p>These sets are currently up for reservation for a revamp; please check out the C&amp;C thread for more information!</p>"},
+        "Iron Defense + Body Press": {
+          "description": "<p>Boasting extraordinary physical bulk and the highest unboosted Speed in the tier, Zamazenta can use Iron Defense and Body Press to become a powerful setup sweeper and cleaner. Substitute allows Zamazenta to set up on Pokemon such as Gliscor and Alomomola that heavily rely on Toxic for their offensive pressure and to be unthreatened by Knock Off from the likes of Mega Tyranitar and Hisuian Samurott, while Heavy Slam allows Zamazenta to immediately threaten Tapu Lele and Iron Valiant, both of which commonly use Choice Scarf and Booster Energy respectively to outspeed Zamazenta and have enough bulk coupled with a Fighting resistance to take a Body Press and threaten Zamazenta immediately. Alternatively, Crunch can be used to deal with Galarian Slowking and is also stronger than Heavy Slam against Pokemon such as Ferrothorn that commonly Terastallize into the Ghost typing, and Stone Edge is another option that threatens Volcarona and Zapdos while avoiding Flame Body and Static, respectively, and allows Zamazenta to deal with Tornadus-T without the need to Terastallize. Zamazenta struggles to break through Pokemon such as Galarian Slowking, Zapdos, and Toxapex that have the bulk to take multiple boosted Body Press and either threaten it back directly or can use Haze to remove Zamazenta's boosts. Therefore, teammates such as Mega Tyranitar that can Pursuit trap and wear down these Pokemon are invaluable. Other options such as Calm Mind Iron Valiant can also trade for heavy damage against most of these Pokemon, clearing the way for Zamazenta to sweep. Tera Electric allows Zamazenta to turn Zapdos into a setup opportunity, resisting both of its STAB attacks and being unafraid of Static, while Tera Steel allows Zamazenta to set up on Choice-locked Tapu Lele and Iron Valiant as well as turning Heavy Slam into an OHKO on both.</p>"
+        }
+      },
+      "credits": {"writtenBy": [{"username": "omarsgarciav", "user_id": 526618}], "teams": [{"name": "Quality checked by", "members": [{"username": "sealoo", "user_id": 514772}, {"username": "ChrisPBacon", "user_id": 544502}]}, {"name": "Grammar checked by", "members": [{"username": "red fintans", "user_id": 637479}]}]}
+    },
     "monotype": {
       "outdated": true,
       "comments": "<h1>Other Options</h1> <p><strong>Choice Band</strong>: Zamazenta is able to run Stone Edge to hit opposing Flying-type targets such as Zapdos harder than with Ice Fang or Wild Charge, and it is especially noteworthy for OHKOing Articuno, Moltres and Volcarona. However, its lower accuracy makes it an inconsistent choice. Choice Band Zamazenta can also opt to run Play Rough to target Sableye, which typically can switch into Zamazenta's attacks safely.</p> <p><strong>Iron Defense</strong>: Crunch provides good coverage against Ghost-types such as Hisuian Zoroark and Dragapult that otherwise would be able to wall Zamazenta. However, Crunch is mostly useless against Ghost-types with recovery such as bulky Gholdengo and Skeledirge. Stone Edge is able to take care of Zapdos and Moltres, which can cripple Zamazenta otherwise with Static and Flame Body respectively, as well as other Flying-types such as Tornadus-T. An alternative EV spread of 212 HP / 56 Def / 240 Spe can be used to ensure that Quagsire's Earthquake will not break Zamazenta's Substitute while still outspeeding Barraskewda.</p>",
@@ -9136,7 +9145,7 @@
       },
       "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "Scarfire", "user_id": 472328}, {"username": "Neko", "user_id": 542526}]}]}
     },
-    "almostanyability": {"sets": {"Dragon Dance": {}}}
+    "almostanyability": {"sets": {"Magic Guard": {}, "Desolate Land": {}, "Earth Eater": {}}}
   },
   "Raging Bolt": {
     "ou": {"sets": {"Calm Mind": {}}},
