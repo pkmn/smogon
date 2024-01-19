@@ -30,7 +30,7 @@ import {Dex, toID} from '@pkmn/sim';
 import {Analyses} from 'smogon';
 
 const request = wrapr.retrying(wrapr.throttling(async args =>
-  (await fetch(args.url, args.init)).json(), 20, 1000));
+  (await fetch(args.url, args.init)).json(), +process.argv[2] || 20, 1000));
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.resolve(__dirname, '../data');
@@ -57,6 +57,7 @@ const FORMATS = {
   // Other Metagames
   almostanyability: 'almostanyability', mixandmega: 'mixandmega', godlygift: 'godlygift',
   camomons: 'camomons', stabmons: 'stabmons', pic: 'partnersincrime',
+  partnersincrime: 'partnersincrime', draft: 'draft',
   // BSS
   bssseries1: 'battlestadiumsingles', bssseries2: 'battlestadiumsingles',
   bssseries12: 'battlestadiumsingles', bssseries13: 'battlestadiumsingles',
@@ -164,7 +165,7 @@ async function importPokemon(dex, gen, species) {
     return ao >= 0 && bo >= 0 ? bo - ao : bid.localeCompare(aid);
   })) {
     const tier = toID(analysis.format);
-    if (tier === 'limbo' || tier === 'draft' || tier.endsWith('rentals')) continue;
+    if (tier === 'limbo' || tier.endsWith('rentals')) continue;
     let format = `gen${gen}${FORMATS[tier] || tier}`;
     // NB: we can't simply check Format.exists because @pkmn/sim doesn't support all mods
     if (Dex.formats.get(format).effectType !== 'Format' && !FORMATS[tier]) {
