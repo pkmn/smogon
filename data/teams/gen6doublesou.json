@@ -1,0 +1,97 @@
+[
+  {
+    "name": "tvalks",
+    "author": "zee",
+    "data": [
+      {"name": "kangaskhan", "species": "kangaskhan", "item": "kangaskhanite", "ability": "scrappy", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["crunch", "fakeout", "lowkick", "seismictoss"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "amoonguss", "species": "amoonguss", "gender": "M", "item": "rockyhelmet", "ability": "regenerator", "shiny": true, "evs": {"hp": 252, "atk": 0, "def": 76, "spa": 0, "spd": 176, "spe": 4}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["gigadrain", "protect", "ragepowder", "spore"], "level": 100},
+      {"name": "landorustherian", "species": "landorustherian", "item": "assaultvest", "ability": "intimidate", "evs": {"hp": 252, "atk": 28, "def": 0, "spa": 0, "spd": 200, "spe": 28}, "moves": ["earthquake", "stoneedge", "superpower", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "sylveon", "species": "sylveon", "gender": "M", "item": "leftovers", "ability": "pixilate", "shiny": true, "evs": {"hp": 252, "atk": 0, "def": 36, "spa": 136, "spd": 60, "spe": 24}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "hypervoice", "protect", "substitute"], "level": 100},
+      {"name": "thundurus", "species": "thundurus", "item": "sitrusberry", "ability": "prankster", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 160, "spe": 96}, "moves": ["hiddenpowerice", "skydrop", "thunderbolt", "thunderwave"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "level": 100},
+      {"name": "volcanion", "species": "volcanion", "item": "safetygoggles", "ability": "waterabsorb", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 216, "spe": 40}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "heatwave", "protect", "steameruption"], "level": 100}
+    ]
+  },
+  {
+    "name": "Hyper Off DeoSharp + M Kangas (Vig Sigs)",
+    "author": "JRL & Tenzai",
+    "data": [
+      {"name": "kangaskhan", "species": "kangaskhan", "item": "kangaskhanite", "ability": "scrappy", "evs": {"hp": 168, "atk": 88, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["fakeout", "lowkick", "seismictoss", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "bisharp", "species": "bisharp", "gender": "M", "item": "lifeorb", "ability": "defiant", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 0, "spd": 31, "spe": 31}, "moves": ["ironhead", "knockoff", "protect", "suckerpunch"], "level": 100},
+      {"name": "deoxysattack", "species": "deoxysattack", "item": "lifeorb", "ability": "pressure", "evs": {"hp": 0, "atk": 32, "def": 0, "spa": 224, "spd": 0, "spe": 252}, "moves": ["extremespeed", "protect", "psychoboost", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 252, "atk": 160, "def": 96, "spa": 0, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["gyroball", "leechseed", "powerwhip", "protect"], "level": 100},
+      {"name": "keldeo", "species": "keldeo", "item": "lifeorb", "ability": "justified", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "protect", "quickguard", "secretsword"], "level": 100},
+      {"name": "talonflame", "species": "talonflame", "gender": "M", "item": "choiceband", "ability": "galewings", "evs": {"hp": 232, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 24}, "moves": ["bravebird", "flareblitz", "mefirst", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Whimsicott Offense",
+    "author": "Memoric",
+    "data": [
+      {"name": "gengar", "species": "gengar", "gender": "M", "item": "gengarite", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 152, "spe": 104}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["disable", "protect", "sludgebomb", "willowisp"], "level": 100},
+      {"name": "landorustherian", "species": "landorustherian", "item": "assaultvest", "ability": "intimidate", "evs": {"hp": 252, "atk": 28, "def": 0, "spa": 0, "spd": 200, "spe": 28}, "moves": ["earthquake", "stoneedge", "superpower", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "terrakion", "species": "terrakion", "item": "lumberry", "ability": "justified", "shiny": true, "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "earthquake", "protect", "rockslide"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "thundurus", "species": "thundurus", "item": "assaultvest", "ability": "defiant", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["skydrop", "superpower", "voltswitch", "wildcharge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "volcanion", "species": "volcanion", "item": "assaultvest", "ability": "waterabsorb", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 216, "spe": 40}, "ivs": {"hp": 31, "atk": 0, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "heatwave", "hiddenpowerice", "steameruption"], "level": 100},
+      {"name": "whimsicott", "species": "whimsicott", "gender": "M", "item": "sitrusberry", "ability": "prankster", "shiny": true, "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["beatup", "encore", "moonblast", "tailwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Sample Version MGar + Conk",
+    "author": "Memoric",
+    "data": [
+      {"name": "gengar", "species": "gengar", "gender": "M", "item": "gengarite", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 28, "spa": 0, "spd": 52, "spe": 176}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["protect", "shadowball", "sludgebomb", "willowisp"], "level": 100},
+      {"name": "conkeldurr", "species": "conkeldurr", "gender": "M", "item": "assaultvest", "ability": "guts", "evs": {"hp": 248, "atk": 16, "def": 0, "spa": 0, "spd": 244, "spe": 0}, "moves": ["drainpunch", "icepunch", "knockoff", "machpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "shedshell", "ability": "ironbarbs", "evs": {"hp": 240, "atk": 180, "def": 88, "spa": 0, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["gyroball", "leechseed", "powerwhip", "protect"], "level": 100},
+      {"name": "landorustherian", "species": "landorustherian", "item": "choicescarf", "ability": "intimidate", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "stoneedge", "superpower", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "thundurus", "species": "thundurus", "item": "sitrusberry", "ability": "prankster", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "thunderbolt", "thunderwave", "toxic"], "level": 100},
+      {"name": "volcanion", "species": "volcanion", "item": "assaultvest", "ability": "waterabsorb", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 184, "spe": 72}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "moves": ["earthpower", "heatwave", "hiddenpowergrass", "steameruption"], "level": 100}
+    ]
+  },
+  {
+    "name": "XY Mence Ferro Sand",
+    "author": "DLTME 3-peat",
+    "data": [
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 252, "atk": 184, "def": 72, "spa": 0, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["gyroball", "leechseed", "powerwhip", "protect"], "level": 100},
+      {"name": "cresselia", "species": "cresselia", "item": "safetygoggles", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 12, "spa": 244, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["icebeam", "psychic", "toxic", "trickroom"], "level": 100},
+      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "lifeorb", "ability": "sandrush", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "ironhead", "protect", "rockslide"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "salamence", "species": "salamence", "gender": "M", "item": "salamencite", "ability": "intimidate", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "hiddenpowerice", "hypervoice", "protect"], "level": 100},
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "rockyhelmet", "ability": "sandstream", "evs": {"hp": 240, "atk": 132, "def": 136, "spa": 0, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 17}, "moves": ["lowkick", "pursuit", "stealthrock", "stoneedge"], "level": 100},
+      {"name": "volcanion", "species": "volcanion", "item": "safetygoggles", "ability": "waterabsorb", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "heatwave", "protect", "steameruption"], "level": 100}
+    ]
+  },
+  {
+    "name": "Sample Rain",
+    "author": "Viper",
+    "data": [
+      {"name": "politoed", "species": "politoed", "gender": "M", "item": "ejectbutton", "ability": "drizzle", "evs": {"hp": 248, "atk": 0, "def": 232, "spa": 0, "spd": 0, "spe": 28}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["encore", "helpinghand", "protect", "scald"], "level": 100},
+      {"name": "kingdra", "species": "kingdra", "gender": "M", "item": "lifeorb", "ability": "swiftswim", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "hydropump", "muddywater", "protect"], "level": 100},
+      {"name": "ludicolo", "species": "ludicolo", "gender": "M", "item": "rockyhelmet", "ability": "swiftswim", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["energyball", "fakeout", "hydropump", "icebeam"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "swampert", "species": "swampert", "gender": "M", "item": "swampertite", "ability": "torrent", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "icepunch", "protect", "waterfall"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "talonflame", "species": "talonflame", "gender": "M", "item": "choiceband", "ability": "galewings", "evs": {"hp": 240, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 16}, "moves": ["bravebird", "flareblitz", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "thundurus", "species": "thundurus", "item": "safetygoggles", "ability": "prankster", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["protect", "raindance", "taunt", "thunder"], "level": 100}
+    ]
+  },
+  {
+    "name": "Sample MGarde + 2 Redirects",
+    "author": "Memoric",
+    "data": [
+      {"name": "gardevoir", "species": "gardevoir", "gender": "M", "item": "gardevoirite", "ability": "trace", "evs": {"hp": 184, "atk": 0, "def": 0, "spa": 140, "spd": 0, "spe": 184}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "hypervoice", "protect", "psyshock"], "level": 100},
+      {"name": "amoonguss", "species": "amoonguss", "gender": "M", "item": "rockyhelmet", "ability": "regenerator", "evs": {"hp": 232, "atk": 0, "def": 96, "spa": 0, "spd": 180, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["protect", "ragepowder", "sludgebomb", "spore"], "level": 100},
+      {"name": "landorustherian", "species": "landorustherian", "item": "assaultvest", "ability": "intimidate", "evs": {"hp": 248, "atk": 0, "def": 52, "spa": 0, "spd": 112, "spe": 96}, "moves": ["earthquake", "stoneedge", "superpower", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "thundurus", "species": "thundurus", "item": "sitrusberry", "ability": "prankster", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 8}, "moves": ["hiddenpowerice", "superpower", "thunderbolt", "thunderwave"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "level": 100},
+      {"name": "togekiss", "species": "togekiss", "gender": "M", "item": "safetygoggles", "ability": "serenegrace", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 72, "spe": 184}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fireblast", "followme", "protect", "tailwind"], "level": 100},
+      {"name": "volcanion", "species": "volcanion", "item": "assaultvest", "ability": "waterabsorb", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 184, "spe": 72}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "moves": ["earthpower", "heatwave", "hiddenpowergrass", "steameruption"], "level": 100}
+    ]
+  },
+  {
+    "author": "qsns",
+    "data": [
+      {"name": "manectric", "species": "manectric", "gender": "M", "item": "manectite", "ability": "lightningrod", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 40, "spd": 0, "spe": 216}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["overheat", "protect", "snarl", "voltswitch"], "level": 100},
+      {"name": "genesect", "species": "genesect", "item": "choiceband", "ability": "download", "shiny": true, "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["explosion", "extremespeed", "ironhead", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "landorustherian", "species": "landorustherian", "item": "safetygoggles", "ability": "intimidate", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 168, "spd": 0, "spe": 88}, "moves": ["earthpower", "stealthrock", "toxic", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "porygon2", "species": "porygon2", "item": "eviolite", "ability": "download", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 136, "spd": 120, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["icebeam", "recover", "thunderbolt", "trickroom"], "level": 100},
+      {"name": "sylveon", "species": "sylveon", "gender": "M", "item": "leftovers", "ability": "pixilate", "evs": {"hp": 252, "atk": 0, "def": 156, "spa": 52, "spd": 16, "spe": 32}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "hypervoice", "protect", "substitute"], "level": 100},
+      {"name": "volcanion", "species": "volcanion", "item": "assaultvest", "ability": "waterabsorb", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 16, "spd": 228, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "heatwave", "overheat", "steameruption"], "level": 100}
+    ]
+  }
+]

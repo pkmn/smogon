@@ -7,4 +7,5 @@
   <a href="https://data.pkmn.cc/imgs">imgs</a>&sdot;
   <a href="https://data.pkmn.cc/sets">sets</a>&sdot;
   <a href="https://data.pkmn.cc/stats">stats</a>
+  <a href="https://data.pkmn.cc/teams">teams</a>
 </p>

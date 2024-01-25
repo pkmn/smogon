@@ -19,15 +19,15 @@ sourceMapSupport.install();
 import * as fs from 'fs';
 import * as path from 'path';
 import {fileURLToPath} from 'url';
-import * as wrapr from 'wrapr';
-import stringify from 'json-stringify-pretty-compact';
-import sanitizeHtml from 'sanitize-html';
-import * as zlib from 'zlib';
 import * as util from 'util';
+import * as zlib from 'zlib';
 const gzip = util.promisify(zlib.gzip);
 
 import {Dex, toID} from '@pkmn/sim';
+import stringify from 'json-stringify-pretty-compact';
+import sanitizeHtml from 'sanitize-html';
 import {Analyses} from 'smogon';
+import * as wrapr from 'wrapr';
 
 const request = wrapr.retrying(wrapr.throttling(async args =>
   (await fetch(args.url, args.init)).json(), +process.argv[2] || 20, 1000));

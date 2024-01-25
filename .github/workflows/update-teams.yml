@@ -1,0 +1,30 @@
+name: Update Teams
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '08 0 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v3
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+    - name: Install dependencies
+      run: npm install
+    - name: Update
+      run: node --no-warnings --experimental-specifier-resolution=node update/teams.mjs
+    - name: Test
+      run: npm run test
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        git commit -m "Teams ($(date "+%Y-%m-%d"))" || exit 0
+        git push

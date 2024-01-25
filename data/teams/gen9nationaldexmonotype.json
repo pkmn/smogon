@@ -1,0 +1,374 @@
+[
+  {
+    "name": "[Bug] M.Pinsir + SD Lokix Offense",
+    "author": "style.css",
+    "data": [
+      {"name": "lokix", "species": "lokix", "gender": "M", "item": "darkiniumz", "ability": "tintedlens", "teraType": "Bug", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["firstimpression", "leechlife", "suckerpunch", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "armaldo", "species": "armaldo", "gender": "M", "item": "heavydutyboots", "ability": "battlearmor", "teraType": "Rock", "evs": {"hp": 248, "atk": 16, "def": 24, "spa": 0, "spd": 220, "spe": 0}, "moves": ["knockoff", "rapidspin", "stealthrock", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "buzzwole", "species": "buzzwole", "item": "choicescarf", "ability": "beastboost", "teraType": "Bug", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "earthquake", "icepunch", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "pinsir", "species": "pinsir", "gender": "M", "item": "pinsirite", "ability": "moxie", "happiness": 0, "teraType": "Bug", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "frustration", "quickattack", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "scizor", "species": "scizor", "gender": "M", "item": "leftovers", "ability": "technician", "teraType": "Bug", "evs": {"hp": 248, "atk": 44, "def": 0, "spa": 0, "spd": 0, "spe": 216}, "moves": ["bulletpunch", "closecombat", "swordsdance", "trailblaze"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "volcarona", "species": "volcarona", "gender": "M", "item": "heavydutyboots", "ability": "flamebody", "teraType": "Bug", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fierydance", "gigadrain", "hiddenpowerground", "quiverdance"], "level": 100, "hpType": "Ground"}
+    ]
+  },
+  {
+    "name": "[Bug] Mega Scizor Webs Offense",
+    "author": "Captainbruh1008",
+    "data": [
+      {"name": "araquanid", "species": "araquanid", "gender": "M", "item": "heavydutyboots", "ability": "waterbubble", "teraType": "Water", "evs": {"hp": 248, "atk": 8, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "moves": ["liquidation", "magiccoat", "stickyweb", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "armaldo", "species": "armaldo", "gender": "M", "item": "heavydutyboots", "ability": "battlearmor", "teraType": "Rock", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "moves": ["knockoff", "rapidspin", "stealthrock", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "buzzwole", "species": "buzzwole", "item": "choicescarf", "ability": "beastboost", "teraType": "Bug", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "earthquake", "icepunch", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "galvantula", "species": "galvantula", "gender": "M", "item": "heavydutyboots", "ability": "compoundeyes", "teraType": "Bug", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bugbuzz", "hiddenpowerice", "thunder", "voltswitch"], "level": 100, "hpType": "Ice"},
+      {"name": "scizor", "species": "scizor", "gender": "M", "item": "scizorite", "ability": "technician", "teraType": "Bug", "evs": {"hp": 124, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 132}, "moves": ["bulletpunch", "closecombat", "knockoff", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "volcarona", "species": "volcarona", "gender": "M", "item": "heavydutyboots", "ability": "flamebody", "teraType": "Bug", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bugbuzz", "fierydance", "hiddenpowerground", "quiverdance"], "level": 100, "hpType": "Ground"}
+    ]
+  },
+  {
+    "name": "[Dark] Weavile Balance",
+    "author": "Sunnyboi0",
+    "data": [
+      {"name": "weavile", "species": "weavile", "gender": "M", "item": "iciumz", "ability": "pressure", "teraType": "Dark", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["iceshard", "iciclecrash", "knockoff", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "hydreigon", "species": "hydreigon", "gender": "M", "item": "leftovers", "ability": "levitate", "teraType": "Dark", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["darkpulse", "flamethrower", "nastyplot", "substitute"], "level": 100},
+      {"name": "mandibuzz", "species": "mandibuzz", "item": "heavydutyboots", "ability": "overcoat", "teraType": "Dark", "evs": {"hp": 252, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 16}, "moves": ["defog", "foulplay", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "meowscarada", "species": "meowscarada", "gender": "M", "item": "choicescarf", "ability": "protean", "teraType": "Grass", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["flowertrick", "knockoff", "playrough", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "sableye", "species": "sableye", "gender": "M", "item": "sablenite", "ability": "prankster", "teraType": "Dark", "evs": {"hp": 252, "atk": 0, "def": 144, "spa": 0, "spd": 112, "spe": 0}, "moves": ["knockoff", "protect", "recover", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tinglu", "species": "tinglu", "item": "leftovers", "ability": "vesselofruin", "teraType": "Dark", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "whirlwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Dark] Roaring Moon Balance",
+    "author": "Bka Onon",
+    "data": [
+      {"name": "roaringmoon", "species": "roaringmoon", "item": "covertcloak", "ability": "protosynthesis", "teraType": "Dragon", "evs": {"hp": 252, "atk": 36, "def": 0, "spa": 0, "spd": 0, "spe": 220}, "moves": ["dragondance", "jawlock", "roost", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "mandibuzz", "species": "mandibuzz", "item": "heavydutyboots", "ability": "overcoat", "teraType": "Dark", "evs": {"hp": 248, "atk": 0, "def": 164, "spa": 0, "spd": 0, "spe": 96}, "moves": ["defog", "foulplay", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "meowscarada", "species": "meowscarada", "gender": "M", "item": "choicescarf", "ability": "protean", "teraType": "Grass", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["flowertrick", "knockoff", "playrough", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "mukalola", "species": "mukalola", "gender": "M", "item": "assaultvest", "ability": "poisontouch", "teraType": "Poison", "evs": {"hp": 252, "atk": 20, "def": 12, "spa": 0, "spd": 224, "spe": 0}, "moves": ["knockoff", "poisonjab", "pursuit", "rockslide"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "sableye", "species": "sableye", "gender": "M", "item": "sablenite", "ability": "prankster", "teraType": "Dark", "evs": {"hp": 252, "atk": 0, "def": 112, "spa": 0, "spd": 144, "spe": 0}, "moves": ["knockoff", "metalburst", "recover", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tinglu", "species": "tinglu", "item": "leftovers", "ability": "vesselofruin", "teraType": "Dark", "evs": {"hp": 252, "atk": 4, "def": 252, "spa": 0, "spd": 0, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "whirlwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Dragon] Bulky Offense",
+    "author": "Sunnyboi0",
+    "data": [
+      {"name": "roaringmoon", "species": "roaringmoon", "item": "choicescarf", "ability": "protosynthesis", "teraType": "Dragon", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["crunch", "ironhead", "outrage", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "altaria", "species": "altaria", "gender": "M", "item": "altarianite", "ability": "naturalcure", "teraType": "Dragon", "evs": {"hp": 252, "atk": 0, "def": 80, "spa": 0, "spd": 0, "spe": 176}, "moves": ["bodyslam", "defog", "roost", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "dragalge", "species": "dragalge", "gender": "M", "item": "blacksludge", "ability": "adaptability", "teraType": "Poison", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 24}, "moves": ["flipturn", "gunkshot", "protect", "toxicspikes"], "level": 100},
+      {"name": "garchomp", "species": "garchomp", "gender": "M", "item": "rockyhelmet", "ability": "roughskin", "teraType": "Dragon", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 20, "spe": 240}, "moves": ["earthquake", "fireblast", "roar", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kommoo", "species": "kommoo", "gender": "M", "item": "kommoniumz", "ability": "soundproof", "teraType": "Dragon", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["clangingscales", "drainpunch", "flamethrower", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyurem", "species": "kyurem", "item": "heavydutyboots", "ability": "pressure", "teraType": "Dragon", "evs": {"hp": 56, "atk": 0, "def": 0, "spa": 192, "spd": 8, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "freezedry", "roost", "substitute"], "level": 100}
+    ]
+  },
+  {
+    "name": "[Dragon] Goodra-H Balance",
+    "author": "Yeet3r",
+    "data": [
+      {"name": "altaria", "species": "altaria", "gender": "F", "item": "altarianite", "ability": "naturalcure", "happiness": 0, "teraType": "Dragon", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["dragondance", "earthquake", "frustration", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "garchomp", "species": "garchomp", "gender": "M", "item": "rockyhelmet", "ability": "roughskin", "teraType": "Dragon", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "roar", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "goodrahisui", "species": "goodrahisui", "gender": "M", "item": "chestoberry", "ability": "shellarmor", "teraType": "Steel", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "moves": ["bodypress", "curse", "heavyslam", "rest"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kommoo", "species": "kommoo", "gender": "M", "item": "kommoniumz", "ability": "soundproof", "teraType": "Dragon", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["clangingscales", "drainpunch", "flamethrower", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyurem", "species": "kyurem", "item": "heavydutyboots", "ability": "pressure", "teraType": "Dragon", "evs": {"hp": 56, "atk": 0, "def": 0, "spa": 192, "spd": 8, "spe": 252}, "moves": ["earthpower", "freezedry", "roost", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "latias", "species": "latias", "item": "choicescarf", "ability": "levitate", "teraType": "Dragon", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["defog", "dracometeor", "healingwish", "psychic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Electric] Z-Alolan Raichu + Iron Hands Offense",
+    "author": "Neko",
+    "data": [
+      {"name": "zapdos", "species": "zapdos", "item": "choicespecs", "ability": "static", "teraType": "Electric", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["heatwave", "hiddenpowerice", "hurricane", "voltswitch"], "level": 100, "hpType": "Ice"},
+      {"name": "ironhands", "species": "ironhands", "item": "assaultvest", "ability": "quarkdrive", "teraType": "Electric", "evs": {"hp": 196, "atk": 12, "def": 0, "spa": 0, "spd": 252, "spe": 48}, "moves": ["drainpunch", "icepunch", "rockslide", "voltswitch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "raichualola", "species": "raichualola", "gender": "M", "item": "psychiumz", "ability": "surgesurfer", "teraType": "Electric", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "nastyplot", "psyshock", "risingvoltage"], "level": 100},
+      {"name": "rotomwash", "species": "rotomwash", "item": "leftovers", "ability": "levitate", "teraType": "Electric", "evs": {"hp": 252, "atk": 0, "def": 212, "spa": 0, "spd": 0, "spe": 44}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "hydropump", "voltswitch", "willowisp"], "level": 100},
+      {"name": "tapukoko", "species": "tapukoko", "item": "expertbelt", "ability": "electricsurge", "teraType": "Electric", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "grassknot", "hiddenpowerice", "voltswitch"], "level": 100, "hpType": "Ice"},
+      {"name": "zeraora", "species": "zeraora", "item": "choiceband", "ability": "voltabsorb", "teraType": "Electric", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "knockoff", "plasmafists", "playrough"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Electric] Z-Zeraora+ Magnezone Offense",
+    "author": "style.css",
+    "data": [
+      {"name": "tapukoko", "species": "tapukoko", "item": "expertbelt", "ability": "electricsurge", "teraType": "Electric", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "grassknot", "hiddenpowerice", "voltswitch"], "level": 100, "hpType": "Ice"},
+      {"name": "magnezone", "species": "magnezone", "item": "airballoon", "ability": "magnetpull", "teraType": "Electric", "evs": {"hp": 252, "atk": 0, "def": 120, "spa": 0, "spd": 44, "spe": 92}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bodypress", "discharge", "irondefense", "magnetrise"], "level": 100},
+      {"name": "raichualola", "species": "raichualola", "gender": "M", "item": "lifeorb", "ability": "surgesurfer", "teraType": "Electric", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["grassknot", "nastyplot", "psyshock", "risingvoltage"], "level": 100},
+      {"name": "rotomwash", "species": "rotomwash", "item": "leftovers", "ability": "levitate", "teraType": "Electric", "evs": {"hp": 252, "atk": 0, "def": 96, "spa": 0, "spd": 116, "spe": 44}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "hydropump", "voltswitch", "willowisp"], "level": 100},
+      {"name": "zapdos", "species": "zapdos", "item": "choicespecs", "ability": "static", "teraType": "Electric", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 248, "spd": 8, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["heatwave", "hiddenpowerice", "hurricane", "voltswitch"], "level": 100, "hpType": "Ice"},
+      {"name": "zeraora", "species": "zeraora", "item": "fightiniumz", "ability": "voltabsorb", "teraType": "Electric", "evs": {"hp": 56, "atk": 248, "def": 0, "spa": 0, "spd": 0, "spe": 204}, "moves": ["bulkup", "closecombat", "knockoff", "plasmafists"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Fairy] Screens Hyper Offense",
+    "author": "Hakukias",
+    "data": [
+      {"name": "ironvaliant", "species": "ironvaliant", "item": "fightiniumz", "ability": "quarkdrive", "teraType": "Fairy", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "knockoff", "spiritbreak", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "diancie", "species": "diancie", "item": "diancite", "ability": "clearbody", "teraType": "Rock", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["diamondstorm", "earthpower", "moonblast", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "klefki", "species": "klefki", "gender": "M", "item": "lightclay", "ability": "prankster", "teraType": "Steel", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["foulplay", "lightscreen", "reflect", "spikes"], "level": 100},
+      {"name": "tapubulu", "species": "tapubulu", "item": "babiriberry", "ability": "grassysurge", "teraType": "Grass", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "highhorsepower", "hornleech", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tapukoko", "species": "tapukoko", "item": "choicespecs", "ability": "electricsurge", "teraType": "Electric", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "hiddenpowerice", "thunderbolt", "voltswitch"], "level": 100, "hpType": "Ice"},
+      {"name": "tapulele", "species": "tapulele", "item": "choicescarf", "ability": "psychicsurge", "teraType": "Psychic", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "hiddenpowerfire", "moonblast", "psychic"], "level": 100, "hpType": "Fire"}
+    ]
+  },
+  {
+    "name": "[Fighting] Balance",
+    "author": "Hakukias | Bka Onon",
+    "data": [
+      {"name": "greattusk", "species": "greattusk", "item": "heavydutyboots", "ability": "protosynthesis", "teraType": "Ground", "evs": {"hp": 252, "atk": 0, "def": 212, "spa": 0, "spd": 0, "spe": 44}, "moves": ["earthquake", "knockoff", "rapidspin", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "hpType": "Fighting"},
+      {"name": "gallade", "species": "gallade", "item": "galladite", "ability": "justified", "teraType": "Psychic", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "knockoff", "swordsdance", "zenheadbutt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ironhands", "species": "ironhands", "item": "assaultvest", "ability": "quarkdrive", "teraType": "Fighting", "evs": {"hp": 72, "atk": 92, "def": 52, "spa": 0, "spd": 248, "spe": 44}, "moves": ["drainpunch", "heavyslam", "icepunch", "voltswitch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ironvaliant", "species": "ironvaliant", "item": "choicespecs", "ability": "quarkdrive", "teraType": "Fairy", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["moonblast", "psyshock", "shadowball", "trick"], "level": 100},
+      {"name": "kommoo", "species": "kommoo", "gender": "M", "item": "kommoniumz", "ability": "soundproof", "teraType": "Dragon", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["clangingscales", "drainpunch", "flamethrower", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "sneasler", "species": "sneasler", "gender": "M", "item": "choicescarf", "ability": "poisontouch", "teraType": "Fighting", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "direclaw", "rockslide", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Fire] Screens Offense",
+    "author": "Hakukias",
+    "data": [
+      {"name": "rotomheat", "species": "rotomheat", "item": "lightclay", "ability": "levitate", "teraType": "Electric", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 8, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "lightscreen", "reflect", "voltswitch"], "level": 100},
+      {"name": "ceruledge", "species": "ceruledge", "gender": "M", "item": "focussash", "ability": "weakarmor", "teraType": "Fire", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["bitterblade", "closecombat", "shadowsneak", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "charizard", "species": "charizard", "gender": "M", "item": "charizarditex", "ability": "blaze", "teraType": "Fire", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["blazekick", "dragonclaw", "dragondance", "earthquake"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ironmoth", "species": "ironmoth", "item": "choicescarf", "ability": "quarkdrive", "teraType": "Fire", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "energyball", "fireblast", "sludgewave"], "level": 100},
+      {"name": "torkoal", "species": "torkoal", "gender": "M", "item": "heatrock", "ability": "drought", "teraType": "Fire", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "moves": ["bodypress", "rapidspin", "stealthrock", "yawn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "volcarona", "species": "volcarona", "gender": "M", "item": "heavydutyboots", "ability": "flamebody", "teraType": "Bug", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bugbuzz", "fireblast", "gigadrain", "quiverdance"], "level": 100}
+    ]
+  },
+  {
+    "name": "[Fire] M. Charizard-Y",
+    "author": "Bka Onon",
+    "data": [
+      {"name": "charizard", "species": "charizard", "gender": "M", "item": "charizarditey", "ability": "blaze", "teraType": "Fire", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "roost", "solarbeam", "weatherball"], "level": 100},
+      {"name": "arcaninehisui", "species": "arcaninehisui", "gender": "M", "item": "choiceband", "ability": "rockhead", "teraType": "Fire", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["extremespeed", "flareblitz", "headsmash", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "blacephalon", "species": "blacephalon", "item": "choicescarf", "ability": "beastboost", "teraType": "Fire", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "hiddenpowerice", "shadowball", "trick"], "level": 100, "hpType": "Ice"},
+      {"name": "cinderace", "species": "cinderace", "gender": "M", "item": "heavydutyboots", "ability": "blaze", "teraType": "Fire", "evs": {"hp": 224, "atk": 32, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["courtchange", "pyroball", "uturn", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "volcanion", "species": "volcanion", "item": "heavydutyboots", "ability": "waterabsorb", "teraType": "Fire", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 144, "spe": 116}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "earthpower", "sludgebomb", "steameruption"], "level": 100},
+      {"name": "volcarona", "species": "volcarona", "gender": "M", "item": "psychiumz", "ability": "flamebody", "teraType": "Bug", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fierydance", "gigadrain", "psychic", "quiverdance"], "level": 100}
+    ]
+  },
+  {
+    "name": "[Flying] M.Aerodactyl + Z-Galarian Moltres Offense",
+    "author": "Neko",
+    "data": [
+      {"name": "aerodactyl", "species": "aerodactyl", "gender": "M", "item": "aerodactylite", "ability": "rockhead", "teraType": "Rock", "evs": {"hp": 48, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 204}, "moves": ["dragondance", "dualwingbeat", "earthquake", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "corviknight", "species": "corviknight", "gender": "M", "item": "leftovers", "ability": "pressure", "teraType": "Flying", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bodypress", "defog", "roost", "uturn"], "level": 100},
+      {"name": "landorus", "species": "landorus", "item": "lifeorb", "ability": "sheerforce", "teraType": "Ground", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["earthpower", "focusblast", "rockslide", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "moltresgalar", "species": "moltresgalar", "item": "flyiniumz", "ability": "berserk", "teraType": "Dark", "evs": {"hp": 64, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 188}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["agility", "fierywrath", "hurricane", "nastyplot"], "level": 100},
+      {"name": "thundurustherian", "species": "thundurustherian", "item": "heavydutyboots", "ability": "voltabsorb", "teraType": "Electric", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["grassknot", "hiddenpowerice", "thunderbolt", "voltswitch"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "level": 100, "hpType": "Ice"},
+      {"name": "zapdosgalar", "species": "zapdosgalar", "item": "choicescarf", "ability": "defiant", "teraType": "Fighting", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["blazekick", "bravebird", "closecombat", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Flying] Balance",
+    "author": "BakingSoda",
+    "data": [
+      {"name": "celesteela", "species": "celesteela", "item": "leftovers", "ability": "beastboost", "teraType": "Steel", "evs": {"hp": 252, "atk": 0, "def": 160, "spa": 0, "spd": 96, "spe": 0}, "moves": ["flamethrower", "heavyslam", "leechseed", "protect"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "charizard", "species": "charizard", "gender": "M", "item": "charizarditey", "ability": "blaze", "teraType": "Fire", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fireblast", "focusblast", "roost", "solarbeam"], "level": 100},
+      {"name": "dragonite", "species": "dragonite", "gender": "M", "item": "heavydutyboots", "ability": "multiscale", "teraType": "Dragon", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["dragonclaw", "dragondance", "earthquake", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "gliscor", "species": "gliscor", "gender": "M", "item": "toxicorb", "ability": "poisonheal", "teraType": "Ground", "evs": {"hp": 244, "atk": 0, "def": 20, "spa": 0, "spd": 124, "spe": 120}, "moves": ["defog", "earthquake", "knockoff", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "mantine", "species": "mantine", "gender": "M", "item": "heavydutyboots", "ability": "waterabsorb", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 160, "spa": 0, "spd": 0, "spe": 96}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "haze", "roost", "scald"], "level": 100},
+      {"name": "thundurustherian", "species": "thundurustherian", "item": "choicescarf", "ability": "voltabsorb", "teraType": "Electric", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["grassknot", "hiddenpowerice", "thunderbolt", "uturn"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "level": 100, "hpType": "Ice"}
+    ]
+  },
+  {
+    "name": "[Flying] Semi Stall",
+    "author": "Hakukias",
+    "data": [
+      {"name": "tornadustherian", "species": "tornadustherian", "item": "heavydutyboots", "ability": "regenerator", "teraType": "Flying", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 44, "spe": 216}, "moves": ["defog", "hurricane", "knockoff", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "celesteela", "species": "celesteela", "item": "leftovers", "ability": "beastboost", "teraType": "Steel", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["flamethrower", "heavyslam", "leechseed", "protect"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "gliscor", "species": "gliscor", "gender": "M", "item": "toxicorb", "ability": "poisonheal", "teraType": "Ground", "evs": {"hp": 244, "atk": 0, "def": 28, "spa": 0, "spd": 60, "spe": 176}, "moves": ["earthquake", "knockoff", "roost", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "mantine", "species": "mantine", "gender": "M", "item": "heavydutyboots", "ability": "waterabsorb", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 160, "spe": 96}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "haze", "roost", "scald"], "level": 100},
+      {"name": "moltresgalar", "species": "moltresgalar", "item": "darkiniumz", "ability": "berserk", "teraType": "Dark", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fierywrath", "hurricane", "nastyplot", "taunt"], "level": 100},
+      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ability": "pressure", "teraType": "Electric", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["discharge", "roost", "substitute", "toxic"], "level": 100}
+    ]
+  },
+  {
+    "name": "[Ghost] Hazard Stack",
+    "author": "Don Bork",
+    "data": [
+      {"name": "gholdengo", "species": "gholdengo", "item": "ghostiumz", "ability": "goodasgold", "teraType": "Steel", "evs": {"hp": 252, "atk": 0, "def": 32, "spa": 0, "spd": 0, "spe": 224}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["makeitrain", "nastyplot", "recover", "shadowball"], "level": 100},
+      {"name": "blacephalon", "species": "blacephalon", "item": "choicescarf", "ability": "beastboost", "teraType": "Fire", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "psyshock", "shadowball", "trick"], "level": 100},
+      {"name": "brambleghast", "species": "brambleghast", "gender": "M", "item": "heavydutyboots", "ability": "infiltrator", "teraType": "Grass", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["powerwhip", "rapidspin", "spikes", "strengthsap"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "corsolagalar", "species": "corsolagalar", "gender": "M", "item": "eviolite", "ability": "cursedbody", "teraType": "Ghost", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["nightshade", "stealthrock", "strengthsap", "willowisp"], "level": 100},
+      {"name": "mimikyu", "species": "mimikyu", "gender": "M", "item": "lifeorb", "ability": "disguise", "teraType": "Ghost", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["drainpunch", "playrough", "shadowsneak", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "sableye", "species": "sableye", "gender": "M", "item": "sablenite", "ability": "prankster", "teraType": "Dark", "evs": {"hp": 248, "atk": 0, "def": 104, "spa": 0, "spd": 156, "spe": 0}, "moves": ["knockoff", "metalburst", "recover", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Grass] Standard",
+    "author": "DimLug",
+    "data": [
+      {"name": "rillaboom", "species": "rillaboom", "gender": "M", "item": "lifeorb", "ability": "grassysurge", "teraType": "Grass", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["grassyglide", "highhorsepower", "superpower", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "cradily", "species": "cradily", "gender": "M", "item": "leftovers", "ability": "stormdrain", "teraType": "Grass", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "moves": ["recover", "rockblast", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "teraType": "Grass", "evs": {"hp": 252, "atk": 4, "def": 252, "spa": 0, "spd": 0, "spe": 0}, "moves": ["gyroball", "leechseed", "protect", "spikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "meowscarada", "species": "meowscarada", "gender": "M", "item": "choicescarf", "ability": "protean", "teraType": "Grass", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["flowertrick", "knockoff", "playrough", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "venusaur", "species": "venusaur", "gender": "M", "item": "venusaurite", "ability": "chlorophyll", "teraType": "Grass", "evs": {"hp": 252, "atk": 0, "def": 144, "spa": 0, "spd": 96, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerfire", "leechseed", "sludgebomb", "synthesis"], "level": 100, "hpType": "Fire"},
+      {"name": "whimsicott", "species": "whimsicott", "gender": "M", "item": "heavydutyboots", "ability": "prankster", "teraType": "Grass", "evs": {"hp": 48, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 208}, "moves": ["defog", "encore", "moonblast", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Ground] Sand Offense",
+    "author": "Hakukias",
+    "data": [
+      {"name": "hippowdon", "species": "hippowdon", "gender": "M", "item": "leftovers", "ability": "sandstream", "teraType": "Ground", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["earthquake", "slackoff", "stealthrock", "whirlwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "clodsire", "species": "clodsire", "gender": "M", "item": "blacksludge", "ability": "waterabsorb", "teraType": "Poison", "evs": {"hp": 252, "atk": 0, "def": 160, "spa": 0, "spd": 96, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthquake", "poisonjab", "recover", "toxic"], "level": 100},
+      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "choiceband", "ability": "sandrush", "teraType": "Ground", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "ironhead", "rapidspin", "rockslide"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "garchomp", "species": "garchomp", "gender": "M", "item": "garchompite", "ability": "roughskin", "teraType": "Dragon", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "firefang", "scaleshot", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "greattusk", "species": "greattusk", "item": "choicescarf", "ability": "protosynthesis", "teraType": "Ground", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["closecombat", "headlongrush", "icespinner", "knockoff"], "level": 100},
+      {"name": "landorus", "species": "landorus", "item": "lifeorb", "ability": "sheerforce", "teraType": "Ground", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "focusblast", "gravity", "sludgewave"], "level": 100}
+    ]
+  },
+  {
+    "name": "[Ground] Bulky Offense",
+    "author": "Giyulol",
+    "data": [
+      {"name": "gastrodoneast", "species": "gastrodoneast", "gender": "M", "item": "heavydutyboots", "ability": "stormdrain", "teraType": "Ground", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["recover", "scald", "stealthrock", "toxic"], "level": 100},
+      {"name": "greattusk", "species": "greattusk", "item": "fightiniumz", "ability": "protosynthesis", "teraType": "Ground", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["bulkup", "closecombat", "earthquake", "rapidspin"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "hpType": "Fighting"},
+      {"name": "landorus", "species": "landorus", "item": "lifeorb", "ability": "sheerforce", "teraType": "Ground", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["earthpower", "gravity", "rockslide", "sludgewave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "mamoswine", "species": "mamoswine", "gender": "M", "item": "choicescarf", "ability": "thickfat", "teraType": "Ground", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "iciclecrash", "knockoff", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "steelix", "species": "steelix", "gender": "M", "item": "steelixite", "ability": "rockhead", "teraType": "Ground", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "moves": ["curse", "heavyslam", "rest", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tinglu", "species": "tinglu", "item": "leftovers", "ability": "vesselofruin", "teraType": "Ground", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["bodypress", "earthquake", "spikes", "whirlwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Normal] Mega Pidgeot",
+    "author": "Don Bork",
+    "data": [
+      {"name": "staraptor", "species": "staraptor", "gender": "M", "item": "heavydutyboots", "ability": "intimidate", "teraType": "Normal", "evs": {"hp": 248, "atk": 0, "def": 244, "spa": 0, "spd": 0, "spe": 16}, "moves": ["bravebird", "defog", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "bewear", "species": "bewear", "gender": "M", "item": "leftovers", "ability": "fluffy", "teraType": "Normal", "evs": {"hp": 252, "atk": 192, "def": 0, "spa": 0, "spd": 0, "spe": 64}, "moves": ["bulkup", "darkestlariat", "drainpunch", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "blissey", "species": "blissey", "item": "heavydutyboots", "ability": "naturalcure", "teraType": "Normal", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["seismictoss", "softboiled", "stealthrock", "teleport"], "level": 100},
+      {"name": "ditto", "species": "ditto", "item": "choicescarf", "ability": "imposter", "teraType": "Normal", "evs": {"hp": 248, "atk": 8, "def": 252, "spa": 0, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["transform"], "level": 100},
+      {"name": "pidgeot", "species": "pidgeot", "gender": "M", "item": "pidgeotite", "ability": "keeneye", "teraType": "Normal", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["heatwave", "hiddenpowerground", "hurricane", "roost"], "level": 100, "hpType": "Ground"},
+      {"name": "ursaluna", "species": "ursaluna", "gender": "M", "item": "flameorb", "ability": "guts", "teraType": "Ground", "evs": {"hp": 248, "atk": 252, "def": 0, "spa": 0, "spd": 8, "spe": 0}, "moves": ["drainpunch", "facade", "firepunch", "headlongrush"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Normal] Mega Lopunny Offense",
+    "author": "Neko",
+    "data": [
+      {"name": "lopunny", "species": "lopunny", "gender": "M", "item": "lopunnite", "ability": "limber", "teraType": "Normal", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "fakeout", "tripleaxel", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "blissey", "species": "blissey", "item": "heavydutyboots", "ability": "naturalcure", "teraType": "Normal", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["seismictoss", "softboiled", "stealthrock", "teleport"], "level": 100},
+      {"name": "ditto", "species": "ditto", "item": "choicescarf", "ability": "imposter", "teraType": "Normal", "evs": {"hp": 248, "atk": 8, "def": 252, "spa": 0, "spd": 0, "spe": 0}, "moves": ["transform"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "porygon2", "species": "porygon2", "item": "eviolite", "ability": "download", "teraType": "Normal", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["discharge", "icebeam", "recover", "substitute"], "level": 100},
+      {"name": "staraptor", "species": "staraptor", "gender": "M", "item": "heavydutyboots", "ability": "intimidate", "teraType": "Normal", "evs": {"hp": 248, "atk": 0, "def": 244, "spa": 0, "spd": 0, "spe": 16}, "moves": ["bravebird", "defog", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "zoroarkhisui", "species": "zoroarkhisui", "gender": "M", "item": "normaliumz", "ability": "illusion", "teraType": "Normal", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "moves": ["focusblast", "hypervoice", "nastyplot", "shadowball"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Poison] Semi-Stall",
+    "author": "Sunnyboi0",
+    "data": [
+      {"name": "venusaur", "species": "venusaur", "gender": "M", "item": "venusaurite", "ability": "chlorophyll", "teraType": "Grass", "evs": {"hp": 252, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["gigadrain", "hiddenpowerfire", "leechseed", "synthesis"], "level": 100, "hpType": "Fire"},
+      {"name": "crobat", "species": "crobat", "gender": "M", "item": "heavydutyboots", "ability": "infiltrator", "teraType": "Poison", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 56, "spe": 200}, "moves": ["bravebird", "defog", "roost", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "mukalola", "species": "mukalola", "gender": "M", "item": "assaultvest", "ability": "poisontouch", "teraType": "Poison", "evs": {"hp": 252, "atk": 20, "def": 12, "spa": 0, "spd": 224, "spe": 0}, "moves": ["drainpunch", "knockoff", "poisonjab", "pursuit"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "nidoking", "species": "nidoking", "item": "lifeorb", "ability": "sheerforce", "teraType": "Poison", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "icebeam", "stealthrock", "thunderbolt"], "level": 100},
+      {"name": "slowkinggalar", "species": "slowkinggalar", "gender": "M", "item": "assaultvest", "ability": "regenerator", "teraType": "Poison", "evs": {"hp": 252, "atk": 44, "def": 0, "spa": 0, "spd": 212, "spe": 0}, "moves": ["earthquake", "futuresight", "icebeam", "sludgebomb"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "toxapex", "species": "toxapex", "gender": "M", "item": "iciumz", "ability": "regenerator", "teraType": "Poison", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["haze", "recover", "scald", "toxic"], "level": 100}
+    ]
+  },
+  {
+    "name": "[Poison] Sneasler Balance",
+    "author": "Hakukias",
+    "data": [
+      {"name": "sneasler", "species": "sneasler", "gender": "M", "item": "choicescarf", "ability": "poisontouch", "teraType": "Fighting", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "direclaw", "rockslide", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "crobat", "species": "crobat", "gender": "M", "item": "heavydutyboots", "ability": "infiltrator", "teraType": "Poison", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 56, "spe": 200}, "moves": ["bravebird", "defog", "roost", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "mukalola", "species": "mukalola", "gender": "M", "item": "assaultvest", "ability": "poisontouch", "teraType": "Poison", "evs": {"hp": 248, "atk": 0, "def": 12, "spa": 0, "spd": 248, "spe": 0}, "moves": ["drainpunch", "knockoff", "poisonjab", "pursuit"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "nidoking", "species": "nidoking", "item": "lifeorb", "ability": "sheerforce", "teraType": "Poison", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "flamethrower", "icebeam", "stealthrock"], "level": 100},
+      {"name": "toxapex", "species": "toxapex", "gender": "M", "item": "iciumz", "ability": "regenerator", "teraType": "Poison", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["haze", "recover", "scald", "toxic"], "level": 100},
+      {"name": "venusaur", "species": "venusaur", "gender": "M", "item": "venusaurite", "ability": "chlorophyll", "teraType": "Grass", "evs": {"hp": 248, "atk": 0, "def": 244, "spa": 0, "spd": 0, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["gigadrain", "hiddenpowerfire", "leechseed", "synthesis"], "level": 100, "hpType": "Fire"}
+    ]
+  },
+  {
+    "name": "[Psychic] Balance",
+    "author": "Dunes",
+    "data": [
+      {"name": "jirachi", "species": "jirachi", "item": "leftovers", "ability": "serenegrace", "teraType": "Steel", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 224, "spe": 32}, "moves": ["ironhead", "stealthrock", "thunderwave", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "gallade", "species": "gallade", "item": "galladite", "ability": "justified", "teraType": "Psychic", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "knockoff", "psychocut", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "latios", "species": "latios", "item": "dragoniumz", "ability": "levitate", "teraType": "Dragon", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "dracometeor", "psychic", "roost"], "level": 100},
+      {"name": "slowbro", "species": "slowbro", "gender": "M", "item": "heavydutyboots", "ability": "regenerator", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["futuresight", "scald", "slackoff", "teleport"], "level": 100},
+      {"name": "tapulele", "species": "tapulele", "item": "choicescarf", "ability": "psychicsurge", "teraType": "Psychic", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "moonblast", "psyshock", "thunderbolt"], "level": 100},
+      {"name": "victini", "species": "victini", "item": "choiceband", "ability": "victorystar", "teraType": "Psychic", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["boltstrike", "trick", "uturn", "vcreate"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Rock] Webs Offense",
+    "author": "ASKid679 | Neko | style.css",
+    "data": [
+      {"name": "diancie", "species": "diancie", "item": "diancite", "ability": "clearbody", "teraType": "Rock", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "moonblast", "mysticalfire", "spikes"], "level": 100},
+      {"name": "minior", "species": "minior", "item": "whiteherb", "ability": "shieldsdown", "teraType": "Rock", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["acrobatics", "earthquake", "shellsmash", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "omastar", "species": "omastar", "gender": "M", "item": "airballoon", "ability": "weakarmor", "teraType": "Rock", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowergrass", "icebeam", "shellsmash", "surf"], "level": 100, "hpType": "Grass"},
+      {"name": "shuckle", "species": "shuckle", "gender": "M", "item": "mentalherb", "ability": "sturdy", "teraType": "Bug", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "moves": ["encore", "knockoff", "stealthrock", "stickyweb"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "terrakion", "species": "terrakion", "item": "fightiniumz", "ability": "justified", "teraType": "Rock", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["closecombat", "earthquake", "stoneedge", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "choiceband", "ability": "sandstream", "teraType": "Rock", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["crunch", "firepunch", "heavyslam", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Rock] Bulky Offense",
+    "author": "Don Bork",
+    "data": [
+      {"name": "diancie", "species": "diancie", "item": "diancite", "ability": "clearbody", "teraType": "Rock", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["diamondstorm", "earthpower", "moonblast", "mysticalfire"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "coalossal", "species": "coalossal", "gender": "M", "item": "heavydutyboots", "ability": "flamebody", "teraType": "Rock", "evs": {"hp": 248, "atk": 8, "def": 252, "spa": 0, "spd": 0, "spe": 0}, "moves": ["flamethrower", "rapidspin", "rocktomb", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "cradily", "species": "cradily", "gender": "M", "item": "leftovers", "ability": "stormdrain", "teraType": "Rock", "evs": {"hp": 252, "atk": 4, "def": 252, "spa": 0, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["gigadrain", "leechseed", "recover", "stealthrock"], "level": 100},
+      {"name": "garganacl", "species": "garganacl", "gender": "M", "item": "heavydutyboots", "ability": "purifyingsalt", "teraType": "Rock", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "moves": ["bodypress", "irondefense", "recover", "saltcure"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "nihilego", "species": "nihilego", "item": "choicescarf", "ability": "beastboost", "teraType": "Rock", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["grassknot", "hiddenpowerice", "sludgewave", "thunderbolt"], "level": 100, "hpType": "Ice"},
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "choiceband", "ability": "sandstream", "teraType": "Rock", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["crunch", "earthquake", "pursuit", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Steel] Z-Gholdengo Balance",
+    "author": "Bka Onon | Sunnyboi0",
+    "data": [
+      {"name": "scizor", "species": "scizor", "gender": "M", "item": "scizorite", "ability": "technician", "teraType": "Bug", "evs": {"hp": 116, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 140}, "moves": ["bulletpunch", "closecombat", "swordsdance", "trailblaze"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "celesteela", "species": "celesteela", "item": "leftovers", "ability": "beastboost", "shiny": true, "teraType": "Steel", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["flamethrower", "heavyslam", "leechseed", "protect"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "teraType": "Grass", "evs": {"hp": 252, "atk": 0, "def": 72, "spa": 0, "spd": 184, "spe": 0}, "moves": ["leechseed", "powerwhip", "protect", "spikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "gholdengo", "species": "gholdengo", "item": "ghostiumz", "ability": "goodasgold", "teraType": "Steel", "evs": {"hp": 252, "atk": 0, "def": 72, "spa": 0, "spd": 0, "spe": 184}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hex", "nastyplot", "recover", "thunderwave"], "level": 100},
+      {"name": "heatran", "species": "heatran", "gender": "M", "item": "leftovers", "ability": "flashfire", "shiny": true, "teraType": "Fire", "evs": {"hp": 248, "atk": 28, "def": 0, "spa": 0, "spd": 180, "spe": 52}, "moves": ["earthpower", "magmastorm", "stealthrock", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "irontreads", "species": "irontreads", "item": "choicescarf", "ability": "quarkdrive", "teraType": "Ground", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "icespinner", "ironhead", "rapidspin"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Water] Rain Offense",
+    "author": "Bka Onon",
+    "data": [
+      {"name": "pelipper", "species": "pelipper", "gender": "M", "item": "heavydutyboots", "ability": "drizzle", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 4, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 21}, "moves": ["defog", "hurricane", "roost", "uturn"], "level": 100},
+      {"name": "barraskewda", "species": "barraskewda", "gender": "M", "item": "choiceband", "ability": "swiftswim", "teraType": "Water", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "flipturn", "liquidation", "poisonjab"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "greninja", "species": "greninja", "gender": "M", "item": "choicescarf", "ability": "protean", "teraType": "Water", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["darkpulse", "gunkshot", "icebeam", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "manaphy", "species": "manaphy", "item": "wateriumz", "ability": "hydration", "teraType": "Water", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["psychic", "raindance", "surf", "tailglow"], "level": 100},
+      {"name": "swampert", "species": "swampert", "gender": "M", "item": "leftovers", "ability": "torrent", "teraType": "Water", "evs": {"hp": 240, "atk": 0, "def": 16, "spa": 0, "spd": 252, "spe": 0}, "moves": ["earthquake", "flipturn", "roar", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "toxapex", "species": "toxapex", "gender": "M", "item": "blacksludge", "ability": "regenerator", "teraType": "Poison", "evs": {"hp": 252, "atk": 4, "def": 252, "spa": 0, "spd": 0, "spe": 0}, "moves": ["haze", "poisonjab", "recover", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Water] Rainless Balance",
+    "author": "Neko",
+    "data": [
+      {"name": "dondozo", "species": "dondozo", "gender": "M", "item": "leftovers", "ability": "unaware", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "moves": ["curse", "rest", "sleeptalk", "waterfall"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "gastrodon", "species": "gastrodon", "gender": "M", "item": "heavydutyboots", "ability": "stickyhold", "teraType": "Water", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "moves": ["clearsmog", "earthquake", "recover", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "greninja", "species": "greninja", "gender": "M", "item": "choicescarf", "ability": "protean", "teraType": "Water", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["darkpulse", "gunkshot", "icebeam", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "rotomwash", "species": "rotomwash", "item": "leftovers", "ability": "levitate", "teraType": "Electric", "evs": {"hp": 252, "atk": 0, "def": 208, "spa": 0, "spd": 0, "spe": 48}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "painsplit", "toxic", "voltswitch"], "level": 100},
+      {"name": "toxapex", "species": "toxapex", "gender": "M", "item": "iciumz", "ability": "regenerator", "teraType": "Water", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "moves": ["haze", "poisonjab", "recover", "scald"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "urshifurapidstrike", "species": "urshifurapidstrike", "gender": "M", "item": "protectivepads", "ability": "unseenfist", "teraType": "Fighting", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "surgingstrikes", "swordsdance", "zenheadbutt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "[Water] Rainless Balance",
+    "author": "Don Bork",
+    "data": [
+      {"name": "toxapex", "species": "toxapex", "gender": "M", "item": "iciumz", "ability": "regenerator", "teraType": "Poison", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["haze", "recover", "scald", "toxic"], "level": 100},
+      {"name": "gastrodon", "species": "gastrodon", "gender": "M", "item": "leftovers", "ability": "stormdrain", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 4, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["clearsmog", "earthquake", "recover", "stealthrock"], "level": 100},
+      {"name": "gyarados", "species": "gyarados", "gender": "M", "item": "gyaradosite", "ability": "intimidate", "teraType": "Water", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["crunch", "dragondance", "earthquake", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tapufini", "species": "tapufini", "item": "leftovers", "ability": "mistysurge", "teraType": "Water", "evs": {"hp": 248, "atk": 0, "def": 68, "spa": 0, "spd": 0, "spe": 192}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "drainingkiss", "scald", "taunt"], "level": 100},
+      {"name": "urshifurapidstrike", "species": "urshifurapidstrike", "gender": "M", "item": "choicescarf", "ability": "unseenfist", "teraType": "Fighting", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "surgingstrikes", "thunderpunch", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "volcanion", "species": "volcanion", "item": "heavydutyboots", "ability": "waterabsorb", "teraType": "Fire", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "earthpower", "flamethrower", "steameruption"], "level": 100}
+    ]
+  },
+  {
+    "name": "[Water] Stall",
+    "author": "Myself12",
+    "data": [
+      {"name": "toxapex", "species": "toxapex", "gender": "M", "item": "iciumz", "ability": "regenerator", "teraType": "Poison", "evs": {"hp": 252, "atk": 0, "def": 116, "spa": 0, "spd": 140, "spe": 0}, "moves": ["haze", "recover", "scald", "toxicspikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "azumarill", "species": "azumarill", "gender": "M", "item": "leftovers", "ability": "sapsipper", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "moves": ["perishsong", "protect", "rest", "whirlpool"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "dondozo", "species": "dondozo", "gender": "M", "item": "leftovers", "ability": "unaware", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["curse", "liquidation", "rest", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "gastrodon", "species": "gastrodon", "gender": "M", "item": "leftovers", "ability": "stormdrain", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["earthpower", "recover", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "lanturn", "species": "lanturn", "gender": "M", "item": "leftovers", "ability": "voltabsorb", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "moves": ["healbell", "protect", "toxic", "voltswitch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "mantine", "species": "mantine", "gender": "M", "item": "heavydutyboots", "ability": "waterabsorb", "teraType": "Water", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "moves": ["defog", "haze", "roost", "scald"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  }
+]

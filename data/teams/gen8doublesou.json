@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Whimsicott Offense",
+    "author": "Z Strats",
+    "data": [
+      {"name": "whimsicott", "species": "whimsicott", "gender": "M", "item": "focussash", "ability": "prankster", "evs": {"hp": 252, "atk": 0, "def": 192, "spa": 0, "spd": 56, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 0, "spd": 31, "spe": 31}, "moves": ["encore", "faketears", "protect", "tailwind"], "level": 100},
+      {"name": "celesteela", "species": "celesteela", "item": "powerherb", "ability": "beastboost", "evs": {"hp": 164, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 92}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["airslash", "flashcannon", "meteorbeam", "protect"], "level": 100},
+      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "heavydutyboots", "ability": "intimidate", "evs": {"hp": 248, "atk": 60, "def": 0, "spa": 0, "spd": 160, "spe": 40}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 0, "spd": 31, "spe": 31}, "moves": ["fakeout", "flareblitz", "knockoff", "partingshot"], "level": 100},
+      {"name": "landorus", "species": "landorus", "item": "lifeorb", "ability": "sheerforce", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "focusblast", "protect", "sludgebomb"], "level": 100},
+      {"name": "naganadel", "species": "naganadel", "item": "lifeorb", "ability": "beastboost", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "fireblast", "protect", "sludgebomb"], "level": 100},
+      {"name": "tapufini", "species": "tapufini", "item": "choicespecs", "ability": "mistysurge", "evs": {"hp": 24, "atk": 0, "def": 0, "spa": 228, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "icebeam", "moonblast", "muddywater"], "level": 100}
+    ]
+  },
+  {
+    "name": "Pheromosa PsySpam",
+    "author": "DaWoblefet",
+    "data": [
+      {"name": "pheromosa", "species": "pheromosa", "item": "lifeorb", "ability": "beastboost", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "protect", "tripleaxel", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "amoonguss", "species": "amoonguss", "gender": "M", "item": "sitrusberry", "ability": "regenerator", "evs": {"hp": 216, "atk": 0, "def": 112, "spa": 0, "spd": 180, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 28}, "moves": ["clearsmog", "protect", "ragepowder", "spore"], "level": 100},
+      {"name": "heatran", "species": "heatran", "gender": "M", "item": "charcoal", "ability": "flashfire", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "eruption", "flamethrower", "protect"], "level": 100},
+      {"name": "naganadel", "species": "naganadel", "item": "focussash", "ability": "beastboost", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "flamethrower", "sludgebomb", "tailwind"], "level": 100},
+      {"name": "necrozma", "species": "necrozma", "item": "powerherb", "ability": "prismarmor", "evs": {"hp": 152, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 104}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "expandingforce", "meteorbeam", "protect"], "level": 100},
+      {"name": "tapulele", "species": "tapulele", "item": "sitrusberry", "ability": "psychicsurge", "evs": {"hp": 20, "atk": 0, "def": 80, "spa": 252, "spd": 0, "spe": 156}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["moonblast", "protect", "psychic", "taunt"], "level": 100}
+    ]
+  },
+  {
+    "name": "Rain",
+    "author": "Actuarily",
+    "data": [
+      {"name": "kingdra", "species": "kingdra", "gender": "M", "item": "choicespecs", "ability": "swiftswim", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "hurricane", "hydropump", "muddywater"], "level": 100},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "assaultvest", "ability": "ironbarbs", "evs": {"hp": 248, "atk": 252, "def": 0, "spa": 0, "spd": 8, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["gyroball", "knockoff", "powerwhip", "steelroller"], "level": 100},
+      {"name": "politoed", "species": "politoed", "gender": "M", "item": "ejectbutton", "ability": "drizzle", "evs": {"hp": 248, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 20}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["helpinghand", "protect", "scald", "toxic"], "level": 100},
+      {"name": "tsareena", "species": "tsareena", "item": "widelens", "ability": "queenlymajesty", "evs": {"hp": 252, "atk": 36, "def": 16, "spa": 0, "spd": 76, "spe": 128}, "moves": ["powerwhip", "taunt", "tripleaxel", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "urshifurapidstrike", "species": "urshifurapidstrike", "gender": "M", "item": "choiceband", "ability": "unseenfist", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["aquajet", "closecombat", "surgingstrikes", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "zapdos", "species": "zapdos", "item": "safetygoggles", "ability": "static", "evs": {"hp": 56, "atk": 0, "def": 0, "spa": 200, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hurricane", "protect", "tailwind", "thunder"], "level": 100}
+    ]
+  },
+  {
+    "name": "nails week 1",
+    "author": "umbry ✿",
+    "data": [
+      {"name": "rillaboom", "species": "rillaboom", "gender": "M", "item": "assaultvest", "ability": "grassysurge", "evs": {"hp": 64, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 192}, "moves": ["fakeout", "grassyglide", "highhorsepower", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "genesect", "species": "genesect", "item": "choiceband", "ability": "download", "shiny": true, "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["blazekick", "extremespeed", "ironhead", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "heavydutyboots", "ability": "intimidate", "evs": {"hp": 252, "atk": 0, "def": 136, "spa": 0, "spd": 72, "spe": 48}, "moves": ["fakeout", "knockoff", "overheat", "partingshot"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "mew", "species": "mew", "item": "sitrusberry", "ability": "synchronize", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["snarl", "spikes", "tailwind", "willowisp"], "level": 100},
+      {"name": "tapufini", "species": "tapufini", "item": "leftovers", "ability": "mistysurge", "evs": {"hp": 252, "atk": 0, "def": 56, "spa": 136, "spd": 0, "spe": 64}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "moonblast", "muddywater", "protect"], "level": 100},
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "sitrusberry", "ability": "sandstream", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 216, "spe": 44}, "moves": ["dragontail", "highhorsepower", "icepunch", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "vs actuarily blt",
+    "author": "SMB",
+    "data": [
+      {"name": "spectrier", "species": "spectrier", "item": "grassyseed", "ability": "grimneigh", "evs": {"hp": 184, "atk": 0, "def": 0, "spa": 136, "spd": 0, "spe": 188}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["mudshot", "nastyplot", "protect", "shadowball"], "level": 100},
+      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "sitrusberry", "ability": "intimidate", "evs": {"hp": 252, "atk": 0, "def": 76, "spa": 0, "spd": 160, "spe": 20}, "moves": ["fakeout", "flareblitz", "knockoff", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyuremblack", "species": "kyuremblack", "item": "assaultvest", "ability": "teravolt", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 20, "spd": 88, "spe": 152}, "moves": ["dragontail", "earthpower", "freezedry", "icywind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "metagross", "species": "metagross", "item": "leftovers", "ability": "clearbody", "evs": {"hp": 252, "atk": 52, "def": 16, "spa": 0, "spd": 128, "spe": 60}, "moves": ["bodypress", "cosmicpower", "icepunch", "protect"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "rillaboom", "species": "rillaboom", "gender": "M", "item": "sitrusberry", "ability": "grassysurge", "evs": {"hp": 248, "atk": 0, "def": 36, "spa": 0, "spd": 212, "spe": 12}, "moves": ["fakeout", "grassyglide", "taunt", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tapufini", "species": "tapufini", "item": "choicescarf", "ability": "mistysurge", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["healpulse", "hydropump", "moonblast", "trick"], "level": 100}
+    ]
+  },
+  {
+    "name": "Lurantis Semiroom",
+    "author": "MADARAAAA & SMB",
+    "data": [
+      {"name": "lurantis", "species": "lurantis", "gender": "M", "item": "leftovers", "ability": "contrary", "evs": {"hp": 252, "atk": 216, "def": 24, "spa": 0, "spd": 16, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["leafblade", "protect", "substitute", "superpower"], "level": 100},
+      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "sitrusberry", "ability": "intimidate", "evs": {"hp": 252, "atk": 56, "def": 24, "spa": 0, "spd": 176, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 30}, "moves": ["fakeout", "flareblitz", "knockoff", "partingshot"], "level": 100},
+      {"name": "mew", "species": "mew", "item": "sitrusberry", "ability": "synchronize", "evs": {"hp": 252, "atk": 0, "def": 72, "spa": 136, "spd": 48, "spe": 0}, "moves": ["earthpower", "fakeout", "pollenpuff", "trickroom"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "porygon2", "species": "porygon2", "item": "eviolite", "ability": "download", "evs": {"hp": 252, "atk": 0, "def": 80, "spa": 136, "spd": 40, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["icebeam", "recover", "thunderbolt", "trickroom"], "level": 100},
+      {"name": "tapufini", "species": "tapufini", "item": "choicescarf", "ability": "mistysurge", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "icebeam", "moonblast", "trick"], "level": 100},
+      {"name": "zygarde", "species": "zygarde", "item": "choiceband", "ability": "aurabreak", "evs": {"hp": 144, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 112}, "moves": ["extremespeed", "haze", "superpower", "thousandarrows"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "week 9 vs dnagerbdager",
+    "author": "Nails ☎ ☎ ☎",
+    "data": [
+      {"name": "mew", "species": "mew", "item": "sitrusberry", "ability": "synchronize", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["snarl", "spikes", "tailwind", "willowisp"], "level": 100},
+      {"name": "dracovish", "species": "dracovish", "item": "choiceband", "ability": "sandrush", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["fishiousrend", "icefang", "sleeptalk", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "dragapult", "species": "dragapult", "gender": "M", "item": "choicespecs", "ability": "clearbody", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["dracometeor", "fireblast", "shadowball", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "heavydutyboots", "ability": "intimidate", "evs": {"hp": 252, "atk": 0, "def": 136, "spa": 0, "spd": 72, "spe": 48}, "moves": ["fakeout", "flareblitz", "knockoff", "partingshot"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "rillaboom", "species": "rillaboom", "gender": "M", "item": "assaultvest", "ability": "grassysurge", "evs": {"hp": 184, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 72}, "moves": ["fakeout", "grassyglide", "knockoff", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "sitrusberry", "ability": "sandstream", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 216, "spe": 44}, "moves": ["dragontail", "icepunch", "stealthrock", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  }
+]
