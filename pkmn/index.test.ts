@@ -123,6 +123,13 @@ describe('Smogon', () => {
     expect((await smogon.stats(gen(8), 'zaciancrowned', 'gen8vgc2022' as ID))).toBeDefined();
   });
 
+  test('teams', async () => {
+    const smogon = new Smogon(fetch);
+    await expect(smogon.teams('gen8faketier' as ID)).rejects.toThrow();
+    expect((await smogon.teams('gen2ou' as ID))
+      .some(team => team.data.some(set => set.species === 'snorlax'))).toBe(true);
+  });
+
   test('format', () => {
     expect(Smogon.format(gen(2), 'Snorlax')).toBe('gen2ou');
     expect(Smogon.format(gen(3), 'Dragonair')).toBe('gen3pu');

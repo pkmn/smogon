@@ -4,10 +4,8 @@
 import sourceMapSupport from 'source-map-support';
 sourceMapSupport.install();
 
-// FIXME
-// - add comments
-// - update documentation/README etc
-// - add support to @pkmn/smogon for teams
+// FIXME add comments
+// TODO https://www.smogon.com/roa/ + https://www.smogon.com/roa/sample-files/gen1lc.txt
 
 import * as fs from 'fs';
 import * as path from 'path';
@@ -17,7 +15,7 @@ import * as zlib from 'zlib';
 const gzip = util.promisify(zlib.gzip);
 
 import {Team} from '@pkmn/sets';
-import {Dex, TeamValidator, toID} from '@pkmn/sim';
+import {Dex, TeamValidator} from '@pkmn/sim';
 import {JSDOM} from 'jsdom';
 import stringify from 'json-stringify-pretty-compact';
 import ts from "typescript";

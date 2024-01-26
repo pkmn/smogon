@@ -21,7 +21,7 @@ provide a stable way of accessing the data Smogon exposes on its site. Two packa
 
 [https://data.pkmn.cc](https://data.pkmn.cc) contains several curated datasets pulled from Smogon
 and Pokémon Showdown which have been processed to allow for efficient batch access of analysis,
-sets, and statistics data by format or generation. Analysis and set data is [refreshed
+sets, teams, and statistics data by format or generation. Analysis and set data is [refreshed
 automatically](https://simonwillison.net/2020/Oct/9/git-scraping/) every [24
 hours](https://github.com/pkmn/smogon/tree/main/.github/workflows/update-sets.yml), the best stats
 data for each generation is converted each month into

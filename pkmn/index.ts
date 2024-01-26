@@ -56,6 +56,13 @@ interface Member {
   username: string;
 }
 
+// The Team datatype from https://data.pkmn.cc/teams/genNtier.json
+interface Team {
+  name?: string;
+  author?: string;
+  data: PokemonSet<ID>[];
+}
+
 /**
  * The reconstituted analysis made from joining a RawAnalysis with the referenced Moveset objects.
  */
@@ -201,13 +208,17 @@ export class Smogon {
       analyses: {[formatid: string]: FormatAnalyses};
       sets: {[formatid: string]: FormatSets};
       stats: {[formatid: string]: DisplayStatistics | LegacyDisplayStatistics};
+      teams: {[formatid: string]: Team[]};
     };
   };
   private readonly minimal: boolean;
 
   constructor(fetch: (url: string) => Promise<{json(): Promise<any>}>, minimal = false) {
     this.fetch = fetch;
-    this.cache = {gen: {analyses: {}, sets: {}}, format: {analyses: {}, sets: {}, stats: {}}};
+    this.cache = {
+      gen: {analyses: {}, sets: {}},
+      format: {analyses: {}, sets: {}, stats: {}, teams: {}},
+    };
     this.minimal = minimal;
   }
 
@@ -321,6 +332,19 @@ export class Smogon {
     }
 
     return stats.pokemon[this.name(gen, species, false, true)];
+  }
+
+  /** Returns sample teams for a given format. */
+  async teams(format: ID) {
+    format = this.baseFormat(format);
+
+    let teams = this.cache.format.teams[format];
+    if (!teams) {
+      const response = await this.fetch(`${URL}/teams/${format}.json`);
+      teams = this.cache.format.teams[format] = await response.json();
+    }
+
+    return teams;
   }
 
   /** Returns the format ID for the 'native' format of a species in the given gen. */
