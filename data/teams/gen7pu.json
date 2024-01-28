@@ -58,5 +58,53 @@
       {"name": "silvallyfairy", "species": "silvallyfairy", "item": "fairymemory", "ability": "rkssystem", "evs": {"hp": 0, "atk": 248, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "moves": ["defog", "flamethrower", "multiattack", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
       {"name": "simisear", "species": "simisear", "gender": "M", "item": "grassiumz", "ability": "gluttony", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fireblast", "focusblast", "grassknot", "nastyplot"], "level": 100}
     ]
+  },
+  {
+    "name": "Absol + Victreebel Bulky Offense",
+    "author": "Specs",
+    "data": [
+      {"name": "absol", "species": "absol", "gender": "M", "item": "choiceband", "ability": "superluck", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["knockoff", "playrough", "pursuit", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "lanturn", "species": "lanturn", "gender": "M", "item": "leftovers", "ability": "voltabsorb", "evs": {"hp": 40, "atk": 0, "def": 220, "spa": 0, "spd": 248, "spe": 0}, "moves": ["healbell", "scald", "toxic", "voltswitch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "primeape", "species": "primeape", "gender": "M", "item": "choicescarf", "ability": "defiant", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "earthquake", "stoneedge", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "regirock", "species": "regirock", "item": "leftovers", "ability": "clearbody", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "moves": ["drainpunch", "stealthrock", "stoneedge", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "silvallyfairy", "species": "silvallyfairy", "item": "fairymemory", "ability": "rkssystem", "evs": {"hp": 0, "atk": 216, "def": 40, "spa": 0, "spd": 0, "spe": 252}, "moves": ["defog", "flamethrower", "multiattack", "partingshot"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "victreebel", "species": "victreebel", "gender": "F", "item": "grassiumz", "ability": "chlorophyll", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 1, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerfire", "leafstorm", "sludgebomb", "strengthsap"], "level": 100, "hpType": "Fire"}
+    ]
+  },
+  {
+    "name": "Grass Spam",
+    "author": "Megazard",
+    "data": [
+      {"name": "mudsdale", "species": "mudsdale", "gender": "M", "item": "leftovers", "ability": "stamina", "evs": {"hp": 248, "atk": 0, "def": 244, "spa": 0, "spd": 0, "spe": 16}, "moves": ["closecombat", "earthquake", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "eelektross", "species": "eelektross", "gender": "M", "item": "assaultvest", "ability": "levitate", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 8, "spd": 252, "spe": 0}, "moves": ["drainpunch", "flamethrower", "gigadrain", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "jellicent", "species": "jellicent", "gender": "M", "item": "colburberry", "ability": "cursedbody", "evs": {"hp": 252, "atk": 0, "def": 224, "spa": 0, "spd": 0, "spe": 32}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hex", "recover", "taunt", "willowisp"], "level": 100},
+      {"name": "leafeon", "species": "leafeon", "gender": "M", "item": "normaliumz", "ability": "leafguard", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["celebrate", "doubleedge", "leafblade", "synthesis"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "skuntank", "species": "skuntank", "gender": "M", "item": "choicescarf", "ability": "aftermath", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["crunch", "defog", "poisonjab", "pursuit"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "victreebel", "species": "victreebel", "gender": "M", "item": "lifeorb", "ability": "chlorophyll", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["knockoff", "poisonjab", "powerwhip", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Triple U-turn Offense",
+    "author": "tlenit",
+    "data": [
+      {"name": "drampa", "species": "drampa", "gender": "M", "item": "choicespecs", "ability": "sapsipper", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "energyball", "fireblast", "hypervoice"], "level": 100},
+      {"name": "oricoriosensu", "species": "oricoriosensu", "gender": "M", "item": "colburberry", "ability": "dancer", "evs": {"hp": 156, "atk": 0, "def": 0, "spa": 100, "spd": 0, "spe": 252}, "moves": ["hurricane", "revelationdance", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "primeape", "species": "primeape", "gender": "M", "item": "choicescarf", "ability": "defiant", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "gunkshot", "stoneedge", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "regirock", "species": "regirock", "item": "leftovers", "ability": "clearbody", "evs": {"hp": 244, "atk": 0, "def": 180, "spa": 0, "spd": 76, "spe": 8}, "moves": ["drainpunch", "rockslide", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "silvallyfairy", "species": "silvallyfairy", "item": "fairymemory", "ability": "rkssystem", "evs": {"hp": 0, "atk": 248, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "moves": ["defog", "flamethrower", "multiattack", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "simisear", "species": "simisear", "gender": "M", "item": "grassiumz", "ability": "blaze", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fireblast", "focusblast", "grassknot", "nastyplot"], "level": 100}
+    ]
+  },
+  {
+    "name": "Specs Drampa Bulky Offense",
+    "author": "LordST",
+    "data": [
+      {"name": "drampa", "species": "drampa", "gender": "M", "item": "choicespecs", "ability": "sapsipper", "evs": {"hp": 84, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 172}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "energyball", "fireblast", "hypervoice"], "level": 100},
+      {"name": "jellicent", "species": "jellicent", "gender": "M", "item": "rindoberry", "ability": "cursedbody", "evs": {"hp": 252, "atk": 0, "def": 212, "spa": 12, "spd": 0, "spe": 32}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["recover", "scald", "taunt", "willowisp"], "level": 100},
+      {"name": "mudsdale", "species": "mudsdale", "gender": "M", "item": "figyberry", "ability": "stamina", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["earthquake", "rockslide", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "rotomfrost", "species": "rotomfrost", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["blizzard", "thunderbolt", "trick", "voltswitch"], "level": 100},
+      {"name": "silvallypoison", "species": "silvallypoison", "item": "poisonmemory", "ability": "rkssystem", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 108, "spe": 148}, "moves": ["defog", "flamethrower", "multiattack", "partingshot"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "simisear", "species": "simisear", "gender": "M", "item": "firiumz", "ability": "blaze", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fireblast", "grassknot", "nastyplot", "protect"], "level": 100}
+    ]
   }
 ]

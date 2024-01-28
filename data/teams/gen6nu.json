@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Sash Archeops Hyper Offense",
+    "author": "Shaneghoul",
+    "data": [
+      {"name": "archeops", "species": "archeops", "gender": "M", "item": "focussash", "ability": "defeatist", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["endeavor", "headsmash", "stealthrock", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "garbodor", "species": "garbodor", "gender": "M", "item": "normalgem", "ability": "weakarmor", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["explosion", "gunkshot", "spikes", "toxicspikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kangaskhan", "species": "kangaskhan", "item": "silkscarf", "ability": "scrappy", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["doubleedge", "earthquake", "fakeout", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "lilligant", "species": "lilligant", "item": "miracleseed", "ability": "chlorophyll", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "moves": ["gigadrain", "hiddenpowerfire", "quiverdance", "sleeppowder"], "level": 100},
+      {"name": "rotom", "species": "rotom", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["shadowball", "thunderbolt", "trick", "voltswitch"], "level": 100},
+      {"name": "samurott", "species": "samurott", "gender": "M", "item": "lumberry", "ability": "torrent", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["aquajet", "megahorn", "swordsdance", "waterfall"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Shell Smash Omastar Offense",
+    "author": "Rapture",
+    "data": [
+      {"name": "omastar", "species": "omastar", "gender": "M", "item": "shucaberry", "ability": "shellarmor", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "moves": ["earthpower", "hydropump", "icebeam", "shellsmash"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "magmortar", "species": "magmortar", "gender": "M", "item": "assaultvest", "ability": "vitalspirit", "evs": {"hp": 64, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 192}, "moves": ["earthquake", "fireblast", "hiddenpowergrass", "thunderbolt"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "level": 100},
+      {"name": "mesprit", "species": "mesprit", "item": "colburberry", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "moves": ["icebeam", "psychic", "signalbeam", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "mismagius", "species": "mismagius", "gender": "M", "item": "colburberry", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["hex", "memento", "taunt", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "shiftry", "species": "shiftry", "gender": "M", "item": "lifeorb", "ability": "chlorophyll", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["defog", "knockoff", "leafstorm", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tauros", "species": "tauros", "item": "lifeorb", "ability": "sheerforce", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["earthquake", "fireblast", "irontail", "rockclimb"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Work Up Tauros",
+    "author": "Eternally",
+    "data": [
+      {"name": "tauros", "species": "tauros", "item": "lifeorb", "ability": "sheerforce", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["earthquake", "fireblast", "rockclimb", "workup"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "hariyama", "species": "hariyama", "gender": "M", "item": "assaultvest", "ability": "guts", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 204, "spe": 52}, "moves": ["bulletpunch", "closecombat", "knockoff", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "magmortar", "species": "magmortar", "gender": "M", "item": "assaultvest", "ability": "vitalspirit", "evs": {"hp": 96, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 160}, "moves": ["earthquake", "fireblast", "hiddenpowergrass", "thunderbolt"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "level": 100},
+      {"name": "mesprit", "species": "mesprit", "item": "choicespecs", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["healingwish", "icebeam", "psychic", "signalbeam"], "level": 100},
+      {"name": "pelipper", "species": "pelipper", "gender": "M", "item": "leftovers", "ability": "keeneye", "evs": {"hp": 248, "atk": 0, "def": 156, "spa": 0, "spd": 104, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "hurricane", "roost", "scald"], "level": 100},
+      {"name": "steelix", "species": "steelix", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 244, "atk": 96, "def": 0, "spa": 0, "spd": 164, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Malamar Bulky Offense",
+    "author": "Abejas",
+    "data": [
+      {"name": "malamar", "species": "malamar", "gender": "M", "item": "leftovers", "ability": "contrary", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 240, "spe": 16}, "moves": ["knockoff", "rest", "sleeptalk", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "archeops", "species": "archeops", "gender": "M", "ability": "defeatist", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["acrobatics", "earthquake", "roost", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "garbodor", "species": "garbodor", "gender": "M", "item": "rockyhelmet", "ability": "aftermath", "evs": {"hp": 252, "atk": 0, "def": 200, "spa": 0, "spd": 0, "spe": 56}, "moves": ["gunkshot", "seedbomb", "spikes", "toxicspikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "hariyama", "species": "hariyama", "gender": "M", "item": "assaultvest", "ability": "thickfat", "evs": {"hp": 0, "atk": 216, "def": 0, "spa": 0, "spd": 220, "spe": 72}, "moves": ["bulletpunch", "closecombat", "fakeout", "knockoff"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "pelipper", "species": "pelipper", "gender": "M", "item": "leftovers", "ability": "keeneye", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 4, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "hurricane", "roost", "scald"], "level": 100},
+      {"name": "steelix", "species": "steelix", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 248, "atk": 56, "def": 0, "spa": 0, "spd": 204, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Standard ORAS NU",
+    "author": "Teddeh",
+    "data": [
+      {"name": "clefairy", "species": "clefairy", "gender": "M", "item": "eviolite", "ability": "magicguard", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 252, "spe": 0}, "moves": ["knockoff", "seismictoss", "softboiled", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "hariyama", "species": "hariyama", "gender": "M", "item": "assaultvest", "ability": "thickfat", "evs": {"hp": 0, "atk": 216, "def": 0, "spa": 0, "spd": 220, "spe": 72}, "moves": ["bulletpunch", "closecombat", "fakeout", "knockoff"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "liepard", "species": "liepard", "gender": "M", "item": "choiceband", "ability": "limber", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["knockoff", "pursuit", "seedbomb", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "steelix", "species": "steelix", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 248, "atk": 56, "def": 0, "spa": 0, "spd": 204, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "vileplume", "species": "vileplume", "gender": "M", "item": "blacksludge", "ability": "effectspore", "evs": {"hp": 248, "atk": 0, "def": 216, "spa": 0, "spd": 0, "spe": 44}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["gigadrain", "moonlight", "sludgebomb", "worryseed"], "level": 100},
+      {"name": "xatu", "species": "xatu", "gender": "M", "item": "leftovers", "ability": "magicbounce", "evs": {"hp": 248, "atk": 0, "def": 204, "spa": 0, "spd": 0, "spe": 56}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "heatwave", "psyshock", "roost"], "level": 100}
+    ]
+  },
+  {
+    "name": "Copycat + Nasty Plot Liepard",
+    "author": "Abejas",
+    "data": [
+      {"name": "liepard", "species": "liepard", "gender": "M", "item": "blackglasses", "ability": "prankster", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["copycat", "darkpulse", "encore", "nastyplot"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "garbodor", "species": "garbodor", "gender": "M", "item": "rockyhelmet", "ability": "aftermath", "evs": {"hp": 52, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 204}, "moves": ["drainpunch", "gunkshot", "seedbomb", "spikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "hariyama", "species": "hariyama", "gender": "M", "item": "assaultvest", "ability": "thickfat", "evs": {"hp": 0, "atk": 216, "def": 0, "spa": 0, "spd": 220, "spe": 72}, "moves": ["bulletpunch", "closecombat", "knockoff", "thunderpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kangaskhan", "species": "kangaskhan", "item": "silkscarf", "ability": "scrappy", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["doubleedge", "earthquake", "fakeout", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "rotom", "species": "rotom", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["shadowball", "thunderbolt", "trick", "voltswitch"], "level": 100},
+      {"name": "steelix", "species": "steelix", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 248, "atk": 56, "def": 0, "spa": 0, "spd": 204, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  }
+]

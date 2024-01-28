@@ -138,5 +138,53 @@
       {"name": "metagross", "species": "metagross", "item": "ironball", "ability": "clearbody", "evs": {"hp": 236, "atk": 84, "def": 8, "spa": 0, "spd": 152, "spe": 28}, "moves": ["earthquake", "explosion", "meteormash", "trick"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
       {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "lumberry", "ability": "sandstream", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 152, "spd": 104, "spe": 252}, "moves": ["crunch", "fireblast", "superpower", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
     ]
+  },
+  {
+    "name": "Lead Azelf + LoomTar Hyper Offense",
+    "author": "Jimmy Turtwig",
+    "data": [
+      {"name": "azelf", "species": "azelf", "item": "colburberry", "ability": "levitate", "evs": {"hp": 8, "atk": 0, "def": 0, "spa": 140, "spd": 144, "spe": 216}, "moves": ["explosion", "fireblast", "psychic", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "breloom", "species": "breloom", "gender": "M", "item": "toxicorb", "ability": "poisonheal", "evs": {"hp": 248, "atk": 220, "def": 0, "spa": 0, "spd": 0, "spe": 40}, "moves": ["machpunch", "seedbomb", "spore", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "gyarados", "species": "gyarados", "gender": "M", "item": "leftovers", "ability": "intimidate", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["bounce", "dragondance", "stoneedge", "waterfall"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "jirachi", "species": "jirachi", "item": "leftovers", "ability": "serenegrace", "evs": {"hp": 252, "atk": 156, "def": 0, "spa": 0, "spd": 4, "spe": 96}, "moves": ["bodyslam", "firepunch", "healingwish", "ironhead"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "rotomheat", "species": "rotomheat", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 104, "atk": 0, "def": 0, "spa": 168, "spd": 0, "spe": 236}, "ivs": {"hp": 31, "atk": 2, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "shadowball", "thunderbolt", "trick"], "level": 100},
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "passhoberry", "ability": "sandstream", "evs": {"hp": 8, "atk": 188, "def": 0, "spa": 48, "spd": 152, "spe": 112}, "moves": ["crunch", "fireblast", "pursuit", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Toxic Spikes + SubTect Tran Balance",
+    "author": "BKC",
+    "data": [
+      {"name": "roserade", "species": "roserade", "gender": "F", "item": "focussash", "ability": "poisonpoint", "shiny": true, "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 2, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "leafstorm", "sleeppowder", "toxicspikes"], "level": 100},
+      {"name": "heatran", "species": "heatran", "gender": "M", "item": "leftovers", "ability": "flashfire", "shiny": true, "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "lavaplume", "protect", "substitute"], "level": 100},
+      {"name": "latias", "species": "latias", "item": "choicespecs", "ability": "levitate", "shiny": true, "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "dragonpulse", "sleeptalk", "surf"], "level": 100},
+      {"name": "rotomwash", "species": "rotomwash", "item": "choicescarf", "ability": "levitate", "shiny": true, "evs": {"hp": 48, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 208}, "ivs": {"hp": 31, "atk": 2, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "shadowball", "thunderbolt", "trick"], "level": 100},
+      {"name": "swampert", "species": "swampert", "gender": "M", "item": "leftovers", "ability": "torrent", "shiny": true, "evs": {"hp": 252, "atk": 0, "def": 224, "spa": 0, "spd": 32, "spe": 0}, "moves": ["earthquake", "icebeam", "protect", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "choiceband", "ability": "sandstream", "shiny": true, "evs": {"hp": 248, "atk": 252, "def": 4, "spa": 0, "spd": 4, "spe": 0}, "moves": ["crunch", "icepunch", "pursuit", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Breloom + CroCune Spikes Stack",
+    "author": "SFG",
+    "data": [
+      {"name": "jirachi", "species": "jirachi", "item": "leftovers", "ability": "serenegrace", "evs": {"hp": 252, "atk": 0, "def": 40, "spa": 0, "spd": 40, "spe": 176}, "moves": ["firepunch", "ironhead", "stealthrock", "thunder"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "breloom", "species": "breloom", "gender": "M", "item": "toxicorb", "ability": "poisonheal", "evs": {"hp": 76, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 180}, "moves": ["focuspunch", "seedbomb", "spore", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "latias", "species": "latias", "item": "choicescarf", "ability": "levitate", "shiny": true, "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "healingwish", "thunderbolt", "trick"], "level": 100},
+      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "leftovers", "ability": "keeneye", "shiny": true, "evs": {"hp": 252, "atk": 0, "def": 220, "spa": 0, "spd": 0, "spe": 36}, "moves": ["bravebird", "roost", "spikes", "whirlwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "suicune", "species": "suicune", "item": "leftovers", "ability": "pressure", "shiny": true, "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["calmmind", "rest", "sleeptalk", "surf"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "lumberry", "ability": "sandstream", "evs": {"hp": 100, "atk": 144, "def": 0, "spa": 56, "spd": 0, "spe": 208}, "moves": ["crunch", "fireblast", "pursuit", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Skarmory + Lucario Offense",
+    "author": "DeepBlueC and Excal",
+    "data": [
+      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "lumberry", "ability": "keeneye", "evs": {"hp": 248, "atk": 48, "def": 20, "spa": 0, "spd": 8, "spe": 184}, "moves": ["drillpeck", "spikes", "stealthrock", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "flygon", "species": "flygon", "gender": "M", "item": "expertbelt", "ability": "levitate", "evs": {"hp": 0, "atk": 64, "def": 0, "spa": 192, "spd": 0, "spe": 252}, "moves": ["dracometeor", "earthquake", "fireblast", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "gyarados", "species": "gyarados", "gender": "M", "item": "lumberry", "ability": "intimidate", "evs": {"hp": 40, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 216}, "moves": ["dragondance", "earthquake", "icefang", "waterfall"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "lucario", "species": "lucario", "gender": "M", "item": "lifeorb", "ability": "innerfocus", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["bulletpunch", "closecombat", "extremespeed", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "rotomheat", "species": "rotomheat", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["overheat", "shadowball", "thunderbolt", "trick"], "level": 100},
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "leftovers", "ability": "sandstream", "evs": {"hp": 252, "atk": 172, "def": 0, "spa": 72, "spd": 0, "spe": 12}, "moves": ["crunch", "focuspunch", "icebeam", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
   }
 ]

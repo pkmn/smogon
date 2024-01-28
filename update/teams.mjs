@@ -5,7 +5,6 @@ import sourceMapSupport from 'source-map-support';
 sourceMapSupport.install();
 
 // FIXME add comments
-// TODO https://www.smogon.com/roa/ + https://www.smogon.com/roa/sample-files/gen1lc.txt
 
 import * as fs from 'fs';
 import * as path from 'path';
@@ -14,8 +13,8 @@ import * as util from 'util';
 import * as zlib from 'zlib';
 const gzip = util.promisify(zlib.gzip);
 
-import {Team} from '@pkmn/sets';
-import {Dex, TeamValidator} from '@pkmn/sim';
+import {Team, Teams} from '@pkmn/sets';
+import {Dex, TeamValidator, toID} from '@pkmn/sim';
 import {JSDOM} from 'jsdom';
 import stringify from 'json-stringify-pretty-compact';
 import ts from "typescript";
@@ -32,7 +31,8 @@ for (const file of fs.readdirSync(path.join(DATA, 'teams'))) {
 }
 
 // FIXME doc discrepancy between live and @pkmn/sim
-const URL = 'https://raw.githubusercontent.com/smogon/pokemon-showdown/master/config/formats.ts';
+const SHOWDOWN = 'https://raw.githubusercontent.com/smogon/pokemon-showdown/master/config/formats.ts';
+const SMOGON = 'https://www.smogon.com/roa/';
 
 const POST = /posts\/(\d+)\/?$/;
 
@@ -46,7 +46,7 @@ const IGNORE = [
 (async () => {
   let data;
   {
-    const source = await (await fetch(URL)).text();
+    const source = await (await fetch(SHOWDOWN)).text();
     const options = { compilerOptions: { module: ts.ModuleKind.CommonJS } };
     const result = ts.transpileModule(source, options);
     const exports = {};
@@ -81,6 +81,23 @@ const IGNORE = [
     throw new Error(`Mismatched ignored URLs:\n\n${msg}`);
   }
 
+  const html = await (await fetch(SMOGON)).text();
+  let m = /<script>window.scmsJSON = ({.*})<\/script>/.exec(html);
+  for (const f of JSON.parse(m[1]).FORMATS) {
+    const format = Dex.formats.get(f);
+    // TODO: Use @pkmn/mods to support mods
+    if (!/^gen\d$/.test(format.mod)) continue;
+    if (!Dex.forFormat(format)) throw new Error(`Missing format '${f}'`);
+
+    const url = `https://www.smogon.com/roa/sample-files/${format.id}.txt`;
+    let existing = await formats[format.id] ?? [];
+    if (!existing) formats[format.id] = Promise.resolve([]);
+    const teams = await scrapeArchive(format, url, existing);
+    if (teams.length) {
+      formats[format.id] = Promise.resolve([...existing, ...teams]);
+    }
+  }
+
   const sorted = {};
   for (const key of Object.keys(formats).sort()) {
     sorted[key] = await serialize(await formats[key], `teams/${key}.json`);
@@ -91,6 +108,43 @@ const IGNORE = [
   process.exit(1);
 });
 
+async function scrapeArchive(format, url, existing) {
+  const teams = [];
+
+  const dex = Dex.forFormat(format);
+  const validator = format.id === 'gen9lc' ? undefined : new TeamValidator(format, dex);
+
+  const seen = new Set();
+  for (const {data} of existing) seen.add(JSON.stringify(data));
+
+  const imports = Teams.importTeams(await (await fetch(url)).text());
+  for (let {team, name} of imports) {
+    if (team.length < 6) continue;
+    try {
+      team = clean(dex, validator, team);
+    } catch (e) {
+      console.error(`Failed to parse team from text`, e);
+      continue;
+    }
+    if (seen.has(JSON.stringify(team))) continue;
+
+    let author = undefined;
+    let m =
+      /(.*) \(by (.*)\)/.exec(name) ??
+      /(.*) (?:submitted )?by (.*)$/.exec(name) ??
+      /(.*) \[(.*)\]$/.exec(name) ??
+      /(.*), (.*)$/.exec(name) ??
+      /(.*) - ([^-]*)$/.exec(name);
+    if (m) {
+      name = m[1];
+      author = m[2];
+    }
+
+    teams.push({name, author, data: team});
+  }
+
+  return teams;
+}
 
 async function scrapeThread(format, url) {
   const document = new JSDOM(await (await fetch(url)).text()).window.document;
@@ -167,17 +221,18 @@ function parse(s, dex, validator) {
   if (!team) return undefined;
   if (!team.some(s => s.moves?.length)) return undefined;
 
-  team = team.map(set => fixSet(dex, validator?.format, set));
+  return clean(dex, validator, team);
+}
+
+function clean(dex, validator, team) {
+  team = team.map(set => fixSet(dex, set));
   const errors = validator?.validateTeam(team);
   // if (errors) throw new Error(`Invalid team:\n\n${s.trim()}\n\n===\n\n${errors.join('\n -' )}\n`);
   if (errors) throw new Error(errors.join('\n'));
-
   return Team.canonicalize(team, dex);
 }
 
-const CROWNED = {'zaciancrowned': 'behemothblade', 'zamazentacrowned': 'behemothbash'};
-
-function fixSet(dex, format, set) {
+function fixSet(dex, set) {
   const species = dex.species.get(set.species);
 
   // TODO: remove hardcode when no longer eventOnly
@@ -196,6 +251,8 @@ function fixSet(dex, format, set) {
   set.ability = set.ability?.split(' / ')[0];
   set.item = set.item?.split(' / ')[0];
   set.moves = set.moves?.map(m => m.split(' / ')[0]);
+
+  if (['none', 'noability'].includes(toID(set.ability))) set.ability = undefined;
 
   // validating with {removeNicknames: true} still complains about name length -_-
   set.name = undefined;

@@ -205,5 +205,88 @@
       {"name": "magnezone", "species": "magnezone", "item": "choicescarf", "ability": "magnetpull", "evs": {"hp": 8, "atk": 0, "def": 4, "spa": 244, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flashcannon", "hiddenpowerfire", "toxic", "voltswitch"], "level": 100, "hpType": "Fire"},
       {"name": "slowbro", "species": "slowbro", "gender": "M", "item": "leftovers", "ability": "regenerator", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["futuresight", "icebeam", "scald", "slackoff"], "level": 100}
     ]
+  },
+  {
+    "name": "Life Orb Clefable and Electrium Z Rotom-Wash",
+    "author": "Tricking",
+    "data": [
+      {"name": "clefable", "species": "clefable", "gender": "M", "item": "lifeorb", "ability": "magicguard", "evs": {"hp": 76, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 180}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fireblast", "moonblast", "softboiled", "thunderbolt"], "level": 100},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 252, "atk": 0, "def": 8, "spa": 0, "spd": 248, "spe": 0}, "moves": ["leechseed", "powerwhip", "spikes", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "heatran", "species": "heatran", "gender": "M", "item": "leftovers", "ability": "flashfire", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 180, "spe": 80}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "magmastorm", "protect", "toxic"], "level": 100},
+      {"name": "landorustherian", "species": "landorustherian", "item": "choicescarf", "ability": "intimidate", "evs": {"hp": 0, "atk": 244, "def": 68, "spa": 0, "spd": 0, "spe": 196}, "moves": ["defog", "earthquake", "hiddenpowerice", "uturn"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "level": 100, "hpType": "Ice"},
+      {"name": "latias", "species": "latias", "item": "latiasite", "ability": "levitate", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "icebeam", "recover", "storedpower"], "level": 100},
+      {"name": "rotomwash", "species": "rotomwash", "item": "electriumz", "ability": "levitate", "evs": {"hp": 144, "atk": 0, "def": 4, "spa": 176, "spd": 0, "spe": 184}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "painsplit", "thunder", "voltswitch"], "level": 100}
+    ]
+  },
+  {
+    "name": "Hyper Offense",
+    "author": "Xtra",
+    "data": [
+      {"name": "hawlucha", "species": "hawlucha", "gender": "M", "item": "electricseed", "ability": "unburden", "evs": {"hp": 8, "atk": 252, "def": 0, "spa": 0, "spd": 136, "spe": 112}, "moves": ["acrobatics", "highjumpkick", "swordsdance", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyuremblack", "species": "kyuremblack", "item": "iciumz", "ability": "teravolt", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["freezeshock", "fusionbolt", "icebeam", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "landorustherian", "species": "landorustherian", "item": "rockyhelmet", "ability": "intimidate", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 8, "spd": 0, "spe": 0}, "moves": ["earthquake", "hiddenpowerfire", "stealthrock", "uturn"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "level": 100, "hpType": "Fire"},
+      {"name": "magearna", "species": "magearna", "item": "assaultvest", "ability": "soulheart", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 4}, "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fleurcannon", "hiddenpowerfire", "ironhead", "voltswitch"], "level": 100, "hpType": "Fire"},
+      {"name": "medicham", "species": "medicham", "gender": "M", "item": "medichamite", "ability": "purepower", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["fakeout", "highjumpkick", "icepunch", "zenheadbutt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tapukoko", "species": "tapukoko", "item": "choicescarf", "ability": "electricsurge", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "hiddenpowerice", "thunderbolt", "voltswitch"], "level": 100, "hpType": "Ice"}
+    ]
+  },
+  {
+    "name": "Sun Offense By ABR",
+    "data": [
+      {"name": "kartana", "species": "kartana", "item": "grassiumz", "ability": "beastboost", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["defog", "knockoff", "leafblade", "synthesis"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "charizard", "species": "charizard", "gender": "M", "item": "charizarditey", "ability": "blaze", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "focusblast", "roost", "solarbeam"], "level": 100},
+      {"name": "heatran", "species": "heatran", "gender": "M", "item": "leftovers", "ability": "flashfire", "evs": {"hp": 244, "atk": 0, "def": 0, "spa": 0, "spd": 216, "spe": 48}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "magmastorm", "stealthrock", "taunt"], "level": 100},
+      {"name": "landorustherian", "species": "landorustherian", "item": "choicescarf", "ability": "intimidate", "evs": {"hp": 0, "atk": 232, "def": 68, "spa": 0, "spd": 0, "spe": 208}, "moves": ["defog", "earthquake", "explosion", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tapufini", "species": "tapufini", "item": "leftovers", "ability": "mistysurge", "evs": {"hp": 248, "atk": 0, "def": 172, "spa": 0, "spd": 88, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["moonblast", "naturesmadness", "taunt", "whirlpool"], "level": 100},
+      {"name": "weavile", "species": "weavile", "gender": "M", "item": "choiceband", "ability": "pressure", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["iciclecrash", "knockoff", "lowkick", "pursuit"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Lopunny-Mega Balance",
+    "author": "Mob Barley",
+    "data": [
+      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "rockyhelmet", "ability": "sturdy", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["counter", "roost", "spikes", "whirlwind"], "level": 100},
+      {"name": "chansey", "species": "chansey", "item": "eviolite", "ability": "naturalcure", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "moves": ["seismictoss", "softboiled", "stealthrock", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "gliscor", "species": "gliscor", "gender": "M", "item": "toxicorb", "ability": "poisonheal", "shiny": true, "evs": {"hp": 244, "atk": 0, "def": 0, "spa": 0, "spd": 128, "spe": 136}, "moves": ["defog", "earthquake", "knockoff", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "lopunny", "species": "lopunny", "gender": "M", "item": "lopunnite", "ability": "limber", "shiny": true, "happiness": 0, "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 0, "spd": 31, "spe": 31}, "moves": ["fakeout", "frustration", "highjumpkick", "quickattack"], "level": 100},
+      {"name": "reuniclus", "species": "reuniclus", "gender": "M", "item": "psychiumz", "ability": "magicguard", "evs": {"hp": 160, "atk": 0, "def": 252, "spa": 52, "spd": 0, "spe": 44}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "psyshock", "recover", "thunder"], "level": 100},
+      {"name": "toxapex", "species": "toxapex", "gender": "M", "item": "blacksludge", "ability": "regenerator", "evs": {"hp": 252, "atk": 0, "def": 248, "spa": 0, "spd": 0, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["haze", "recover", "scald", "toxicspikes"], "level": 100}
+    ]
+  },
+  {
+    "name": "Psychic Spam",
+    "author": "SM Community",
+    "data": [
+      {"name": "kartana", "species": "kartana", "item": "choicescarf", "ability": "beastboost", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["knockoff", "leafblade", "sacredsword", "smartstrike"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "alakazam", "species": "alakazam", "gender": "M", "item": "alakazite", "ability": "magicguard", "evs": {"hp": 0, "atk": 0, "def": 120, "spa": 252, "spd": 0, "spe": 136}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "focusblast", "psychic", "shadowball"], "level": 100},
+      {"name": "landorustherian", "species": "landorustherian", "item": "iapapaberry", "ability": "intimidate", "evs": {"hp": 248, "atk": 0, "def": 204, "spa": 0, "spd": 0, "spe": 56}, "moves": ["earthquake", "knockoff", "stealthrock", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "magearna", "species": "magearna", "item": "assaultvest", "ability": "soulheart", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 4, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 20}, "moves": ["explosion", "hiddenpowerfire", "icebeam", "voltswitch"], "level": 100, "hpType": "Fire"},
+      {"name": "rotomwash", "species": "rotomwash", "item": "iapapaberry", "ability": "levitate", "evs": {"hp": 224, "atk": 0, "def": 0, "spa": 96, "spd": 0, "spe": 188}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "hydropump", "voltswitch", "willowisp"], "level": 100},
+      {"name": "tapulele", "species": "tapulele", "item": "fightiniumz", "ability": "psychicsurge", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "focusblast", "moonblast", "psyshock"], "level": 100}
+    ]
+  },
+  {
+    "name": "MMedi ScarfTom",
+    "author": "Finchinator",
+    "data": [
+      {"name": "medicham", "species": "medicham", "gender": "M", "item": "medichamite", "ability": "telepathy", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["fakeout", "highjumpkick", "icepunch", "zenheadbutt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "greninjabond", "species": "greninjabond", "item": "choicespecs", "ability": "battlebond", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "moves": ["darkpulse", "hydropump", "spikes", "watershuriken"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "hpType": "Ghost"},
+      {"name": "landorustherian", "species": "landorustherian", "item": "rockiumz", "ability": "intimidate", "evs": {"hp": 252, "atk": 60, "def": 140, "spa": 0, "spd": 0, "spe": 56}, "moves": ["earthquake", "stealthrock", "stoneedge", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "magearna", "species": "magearna", "item": "assaultvest", "ability": "soulheart", "evs": {"hp": 252, "atk": 0, "def": 96, "spa": 0, "spd": 160, "spe": 0}, "moves": ["hiddenpowerfire", "icebeam", "ironhead", "voltswitch"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "level": 100, "hpType": "Fire"},
+      {"name": "rotomwash", "species": "rotomwash", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 232, "atk": 0, "def": 4, "spa": 12, "spd": 8, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "trick", "voltswitch", "willowisp"], "level": 100},
+      {"name": "tornadustherian", "species": "tornadustherian", "item": "rockyhelmet", "ability": "regenerator", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 0, "spe": 252}, "moves": ["defog", "heatwave", "hurricane", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Ditto Semi Stall",
+    "author": "Punny",
+    "data": [
+      {"name": "scizor", "species": "scizor", "gender": "M", "item": "scizorite", "ability": "technician", "evs": {"hp": 248, "atk": 0, "def": 40, "spa": 0, "spd": 0, "spe": 220}, "moves": ["bulletpunch", "roost", "superpower", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "chansey", "species": "chansey", "item": "eviolite", "ability": "naturalcure", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "moves": ["seismictoss", "softboiled", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ditto", "species": "ditto", "item": "choicescarf", "ability": "imposter", "hpType": "Ground", "evs": {"hp": 252, "atk": 4, "def": 252, "spa": 0, "spd": 0, "spe": 0}, "moves": ["transform"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "gliscor", "species": "gliscor", "gender": "M", "item": "toxicorb", "ability": "poisonheal", "evs": {"hp": 244, "atk": 0, "def": 0, "spa": 0, "spd": 152, "spe": 112}, "moves": ["defog", "earthquake", "knockoff", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kartana", "species": "kartana", "item": "grassiumz", "ability": "beastboost", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["knockoff", "leafblade", "swordsdance", "synthesis"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "reuniclus", "species": "reuniclus", "gender": "M", "item": "rockyhelmet", "ability": "magicguard", "evs": {"hp": 240, "atk": 0, "def": 212, "spa": 0, "spd": 0, "spe": 56}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "focusblast", "psyshock", "recover"], "level": 100}
+    ]
   }
 ]

@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Deoxys-S Offense",
+    "data": [
+      {"name": "deoxysspeed", "species": "deoxysspeed", "item": "rockyhelmet", "ability": "pressure", "evs": {"hp": 248, "atk": 0, "def": 196, "spa": 0, "spd": 44, "spe": 20}, "ivs": {"hp": 31, "atk": 2, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "moves": ["darkpulse", "hiddenpowerfire", "spikes", "stealthrock"], "level": 100},
+      {"name": "arceus", "species": "arceus", "item": "silkscarf", "ability": "multitype", "evs": {"hp": 128, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 128}, "moves": ["earthquake", "extremespeed", "shadowclaw", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "darkrai", "species": "darkrai", "item": "lifeorb", "ability": "baddreams", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["darkpulse", "darkvoid", "focusblast", "taunt"], "level": 100},
+      {"name": "genesect", "species": "genesect", "item": "choicescarf", "ability": "download", "shiny": true, "evs": {"hp": 0, "atk": 232, "def": 0, "spa": 8, "spd": 16, "spe": 252}, "moves": ["explosion", "icebeam", "ironhead", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 0, "atk": 176, "def": 248, "spa": 0, "spd": 0, "spe": 84}, "moves": ["dragontail", "magiccoat", "shadowsneak", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "latios", "species": "latios", "item": "souldew", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 12, "spa": 228, "spd": 16, "spe": 252}, "ivs": {"hp": 31, "atk": 2, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "moves": ["dracometeor", "hiddenpowerfire", "psyshock", "surf"], "level": 100}
+    ]
+  },
+  {
+    "name": "Steel Arceus Offense",
+    "data": [
+      {"name": "deoxysspeed", "species": "deoxysspeed", "item": "rockyhelmet", "ability": "pressure", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["darkpulse", "spikes", "stealthrock", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceussteel", "species": "arceussteel", "item": "ironplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "judgment", "recover", "thunder"], "level": 100},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 0, "atk": 168, "def": 248, "spa": 0, "spd": 0, "spe": 92}, "moves": ["dragontail", "earthquake", "magiccoat", "shadowsneak"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kabutops", "species": "kabutops", "gender": "M", "item": "lifeorb", "ability": "swiftswim", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["lowkick", "rapidspin", "stoneedge", "waterfall"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyogre", "species": "kyogre", "item": "choicespecs", "ability": "drizzle", "evs": {"hp": 168, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 88}, "moves": ["hydropump", "icebeam", "thunder", "waterspout"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "palkia", "species": "palkia", "item": "habanberry", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["dragontail", "fireblast", "hydropump", "spacialrend"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Hazard Stack Sun HO",
+    "author": "Steelskitty",
+    "data": [
+      {"name": "deoxysattack", "species": "deoxysattack", "item": "focussash", "ability": "pressure", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["darkpulse", "extremespeed", "spikes", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceusghost", "species": "arceusghost", "item": "spookyplate", "ability": "multitype", "evs": {"hp": 160, "atk": 0, "def": 0, "spa": 96, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "focusblast", "judgment", "recover"], "level": 100},
+      {"name": "darkrai", "species": "darkrai", "item": "lifeorb", "ability": "baddreams", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["darkpulse", "darkvoid", "focusblast", "taunt"], "level": 100},
+      {"name": "genesect", "species": "genesect", "item": "choicescarf", "ability": "download", "evs": {"hp": 0, "atk": 248, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "moves": ["flamethrower", "icebeam", "ironhead", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "groudon", "species": "groudon", "item": "earthplate", "ability": "drought", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["dragontail", "earthquake", "stealthrock", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "latias", "species": "latias", "item": "souldew", "ability": "levitate", "evs": {"hp": 24, "atk": 0, "def": 0, "spa": 252, "spd": 48, "spe": 184}, "ivs": {"hp": 31, "atk": 2, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "moves": ["dracometeor", "hiddenpowerfire", "psyshock", "roar"], "level": 100}
+    ]
+  },
+  {
+    "name": "Pi Face Revamp",
+    "author": "Hack",
+    "data": [
+      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "leftovers", "ability": "moldbreaker", "evs": {"hp": 32, "atk": 92, "def": 0, "spa": 0, "spd": 252, "spe": 132}, "moves": ["earthquake", "protect", "rapidspin", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceusghost", "species": "arceusghost", "item": "spookyplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["judgment", "recover", "stealthrock", "willowisp"], "level": 100},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["gyroball", "knockoff", "leechseed", "spikes"], "level": 100},
+      {"name": "genesect", "species": "genesect", "item": "choicescarf", "ability": "download", "evs": {"hp": 0, "atk": 8, "def": 0, "spa": 248, "spd": 0, "spe": 252}, "moves": ["bugbuzz", "icebeam", "thunder", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyogre", "species": "kyogre", "item": "leftovers", "ability": "drizzle", "evs": {"hp": 252, "atk": 0, "def": 120, "spa": 0, "spd": 136, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["rest", "roar", "scald", "sleeptalk"], "level": 100},
+      {"name": "latias", "species": "latias", "item": "souldew", "ability": "levitate", "evs": {"hp": 88, "atk": 0, "def": 0, "spa": 168, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "roar", "roost", "thunder"], "level": 100}
+    ]
+  },
+  {
+    "name": "Dracomasters \"Magic\" Sun",
+    "data": [
+      {"name": "darkrai", "species": "darkrai", "item": "focussash", "ability": "baddreams", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["darkpulse", "darkvoid", "focusblast", "taunt"], "level": 100},
+      {"name": "arceus", "species": "arceus", "item": "silkscarf", "ability": "multitype", "evs": {"hp": 128, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 128}, "moves": ["brickbreak", "extremespeed", "shadowclaw", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "espeon", "species": "espeon", "gender": "F", "item": "focussash", "ability": "magicbounce", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 3, "def": 30, "spa": 30, "spd": 30, "spe": 30}, "moves": ["grassknot", "hiddenpowerfighting", "psyshock", "shadowball"], "level": 100},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 0, "atk": 156, "def": 248, "spa": 0, "spd": 0, "spe": 104}, "moves": ["dragontail", "earthquake", "outrage", "shadowsneak"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "groudon", "species": "groudon", "item": "leftovers", "ability": "drought", "evs": {"hp": 240, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 16}, "moves": ["earthquake", "stealthrock", "stoneedge", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "hooh", "species": "hooh", "item": "choiceband", "ability": "regenerator", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["bravebird", "earthquake", "sacredfire", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Fight Arceus + CM Latias Balance",
+    "data": [
+      {"name": "deoxysspeed", "species": "deoxysspeed", "item": "rockyhelmet", "ability": "pressure", "evs": {"hp": 240, "atk": 0, "def": 0, "spa": 16, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["darkpulse", "spikes", "stealthrock", "taunt"], "level": 100},
+      {"name": "arceusfighting", "species": "arceusfighting", "item": "fistplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "moves": ["judgment", "recover", "stoneedge", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "genesect", "species": "genesect", "item": "choicescarf", "ability": "download", "evs": {"hp": 0, "atk": 248, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "moves": ["explosion", "icebeam", "ironhead", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 0, "atk": 160, "def": 252, "spa": 0, "spd": 0, "spe": 96}, "moves": ["dragontail", "earthquake", "shadowsneak", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyogre", "species": "kyogre", "item": "choicespecs", "ability": "drizzle", "evs": {"hp": 88, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 168}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "icebeam", "thunder", "waterspout"], "level": 100},
+      {"name": "latias", "species": "latias", "item": "souldew", "ability": "levitate", "evs": {"hp": 112, "atk": 0, "def": 0, "spa": 200, "spd": 0, "spe": 196}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "dracometeor", "psyshock", "recover"], "level": 100}
+    ]
+  },
+  {
+    "name": "IDM Standard Sand",
+    "data": [
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "lumberry", "ability": "sandstream", "evs": {"hp": 248, "atk": 64, "def": 0, "spa": 0, "spd": 184, "spe": 12}, "moves": ["crunch", "pursuit", "stealthrock", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceusgrass", "species": "arceusgrass", "item": "meadowplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 4, "spa": 4, "spd": 0, "spe": 252}, "moves": ["icebeam", "judgment", "recover", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "airballoon", "ability": "sandrush", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "ironhead", "rapidspin", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "genesect", "species": "genesect", "item": "choicescarf", "ability": "download", "evs": {"hp": 0, "atk": 248, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "moves": ["explosion", "icebeam", "ironhead", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "hooh", "species": "hooh", "item": "leftovers", "ability": "regenerator", "evs": {"hp": 208, "atk": 176, "def": 0, "spa": 0, "spd": 28, "spe": 96}, "moves": ["bravebird", "roost", "sacredfire", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "palkia", "species": "palkia", "item": "lustrousorb", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["dragontail", "fireblast", "hydropump", "spacialrend"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "inalienable dreamless",
+    "author": "steelskitty",
+    "data": [
+      {"name": "deoxysattack", "species": "deoxysattack", "item": "lifeorb", "ability": "pressure", "evs": {"hp": 0, "atk": 48, "def": 0, "spa": 208, "spd": 0, "spe": 252}, "ivs": {"hp": 29, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["extremespeed", "psychoboost", "superpower", "taunt"], "level": 100},
+      {"name": "arceus", "species": "arceus", "item": "silkscarf", "ability": "multitype", "evs": {"hp": 128, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 128}, "moves": ["earthquake", "extremespeed", "shadowclaw", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "shiny": true, "evs": {"hp": 248, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 4}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["gyroball", "leechseed", "spikes", "stealthrock"], "level": 100},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "shiny": true, "evs": {"hp": 0, "atk": 208, "def": 252, "spa": 0, "spd": 0, "spe": 48}, "moves": ["dragontail", "magiccoat", "shadowsneak", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kingdra", "species": "kingdra", "gender": "M", "item": "lifeorb", "ability": "swiftswim", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 29, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "dragonpulse", "hydropump", "yawn"], "level": 100},
+      {"name": "kyogre", "species": "kyogre", "item": "leftovers", "ability": "drizzle", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 216, "spe": 44}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["rest", "roar", "scald", "sleeptalk"], "level": 100}
+    ]
+  },
+  {
+    "name": "Sand Spike Stack",
+    "author": "Problems n' Hack",
+    "data": [
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "focussash", "ability": "sandstream", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["crunch", "fireblast", "stealthrock", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceusfighting", "species": "arceusfighting", "item": "fistplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 0, "spe": 252}, "moves": ["judgment", "recover", "stoneedge", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "moves": ["knockoff", "leechseed", "powerwhip", "spikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "genesect", "species": "genesect", "item": "choicescarf", "ability": "download", "evs": {"hp": 0, "atk": 8, "def": 0, "spa": 248, "spd": 0, "spe": 252}, "moves": ["bugbuzz", "icebeam", "thunder", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 0, "atk": 156, "def": 248, "spa": 0, "spd": 0, "spe": 104}, "moves": ["dragontail", "earthquake", "shadowsneak", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyogre", "species": "kyogre", "item": "leftovers", "ability": "drizzle", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 224, "spe": 36}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["rest", "roar", "scald", "sleeptalk"], "level": 100}
+    ]
+  },
+  {
+    "name": "Ground Arceus + Kingdra",
+    "author": "Problems",
+    "data": [
+      {"name": "kyogre", "species": "kyogre", "item": "choicespecs", "ability": "drizzle", "evs": {"hp": 152, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 104}, "moves": ["hydropump", "icebeam", "thunder", "waterspout"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceusground", "species": "arceusground", "item": "earthplate", "ability": "multitype", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "recover", "stoneedge", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "dialga", "species": "dialga", "item": "lumberry", "ability": "pressure", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 28, "spd": 208, "spe": 20}, "moves": ["dracometeor", "fireblast", "roar", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 0, "atk": 240, "def": 176, "spa": 0, "spd": 0, "spe": 92}, "moves": ["aquatail", "dragontail", "shadowsneak", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kingdra", "species": "kingdra", "gender": "M", "item": "lifeorb", "ability": "swiftswim", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "moves": ["dracometeor", "dragonpulse", "hydropump", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 240, "atk": 0, "def": 0, "spa": 0, "spd": 248, "spe": 20}, "moves": ["roost", "spikes", "taunt", "whirlwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "SmashPass Smeargle + E-Killer Arceus",
+    "data": [
+      {"name": "smeargle", "species": "smeargle", "gender": "M", "item": "focussash", "ability": "owntempo", "evs": {"hp": 4, "atk": 0, "def": 252, "spa": 0, "spd": 0, "spe": 252}, "moves": ["batonpass", "shellsmash", "spore", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceus", "species": "arceus", "item": "lumberry", "ability": "multitype", "evs": {"hp": 200, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 56}, "moves": ["brickbreak", "extremespeed", "shadowclaw", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "focussash", "ability": "skilllink", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["iciclespear", "rapidspin", "shellsmash", "spikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "dialga", "species": "dialga", "item": "whiteherb", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "moves": ["aurasphere", "dragonpulse", "flamethrower", "thunder"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "groudon", "species": "groudon", "item": "earthplate", "ability": "drought", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["dragontail", "earthquake", "sleeptalk", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyuremwhite", "species": "kyuremwhite", "item": "whiteherb", "ability": "turboblaze", "evs": {"hp": 0, "atk": 0, "def": 56, "spa": 252, "spd": 0, "spe": 200}, "moves": ["ancientpower", "dragonpulse", "fusionflare", "icebeam"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Blaziken Sun",
+    "author": "Hack",
+    "data": [
+      {"name": "groudon", "species": "groudon", "item": "earthplate", "ability": "drought", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["dragontail", "earthquake", "stealthrock", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceus", "species": "arceus", "item": "silkscarf", "ability": "multitype", "evs": {"hp": 200, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 56}, "moves": ["brickbreak", "extremespeed", "shadowclaw", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "blaziken", "species": "blaziken", "gender": "M", "item": "lifeorb", "ability": "speedboost", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["flareblitz", "lowkick", "protect", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "forretress", "species": "forretress", "gender": "M", "item": "custapberry", "ability": "sturdy", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 0}, "ivs": {"hp": 0, "atk": 31, "def": 0, "spa": 0, "spd": 0, "spe": 0}, "moves": ["gyroball", "rapidspin", "spikes", "toxicspikes"], "level": 100},
+      {"name": "hooh", "species": "hooh", "item": "choiceband", "ability": "regenerator", "evs": {"hp": 112, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 144}, "moves": ["bravebird", "earthquake", "sacredfire", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "latias", "species": "latias", "item": "souldew", "ability": "levitate", "evs": {"hp": 48, "atk": 0, "def": 4, "spa": 252, "spd": 8, "spe": 196}, "moves": ["dracometeor", "healingwish", "hiddenpowerfire", "psyshock"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "level": 100}
+    ]
+  },
+  {
+    "name": "Grassceus HO",
+    "author": "Zf",
+    "data": [
+      {"name": "dialga", "species": "dialga", "item": "lifeorb", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["aurasphere", "dracometeor", "stealthrock", "thunder"], "level": 100},
+      {"name": "arceusgrass", "species": "arceusgrass", "item": "meadowplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "moves": ["calmmind", "icebeam", "judgment", "recover"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "deoxysattack", "species": "deoxysattack", "item": "focussash", "ability": "pressure", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["darkpulse", "icywind", "spikes", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "genesect", "species": "genesect", "item": "choicescarf", "ability": "download", "evs": {"hp": 0, "atk": 248, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "moves": ["icebeam", "ironhead", "thunder", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 0, "atk": 168, "def": 248, "spa": 0, "spd": 0, "spe": 92}, "moves": ["dragontail", "magiccoat", "shadowsneak", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyogre", "species": "kyogre", "item": "choicespecs", "ability": "drizzle", "evs": {"hp": 88, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 168}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "icebeam", "thunder", "waterspout"], "level": 100}
+    ]
+  },
+  {
+    "name": "Arc-Electric + Deo-A",
+    "author": "Dice",
+    "data": [
+      {"name": "deoxysspeed", "species": "deoxysspeed", "item": "rockyhelmet", "ability": "pressure", "evs": {"hp": 240, "atk": 0, "def": 0, "spa": 16, "spd": 0, "spe": 252}, "moves": ["darkpulse", "spikes", "stealthrock", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceuselectric", "species": "arceuselectric", "item": "zapplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "icebeam", "recover", "thunder"], "level": 100},
+      {"name": "genesect", "species": "genesect", "item": "choicescarf", "ability": "download", "evs": {"hp": 0, "atk": 248, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "moves": ["explosion", "icebeam", "ironhead", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 0, "atk": 252, "def": 160, "spa": 0, "spd": 0, "spe": 96}, "moves": ["dragontail", "earthquake", "shadowsneak", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyogre", "species": "kyogre", "item": "choicespecs", "ability": "drizzle", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "icebeam", "thunder", "waterspout"], "level": 100},
+      {"name": "palkia", "species": "palkia", "item": "lustrousorb", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["dragontail", "fireblast", "hydropump", "spacialrend"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "blim heatran sun mod",
+    "data": [
+      {"name": "deoxysspeed", "species": "deoxysspeed", "item": "focussash", "ability": "pressure", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["firepunch", "skillswap", "spikes", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceus", "species": "arceus", "item": "silkscarf", "ability": "multitype", "evs": {"hp": 128, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 128}, "moves": ["earthquake", "extremespeed", "shadowclaw", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 168, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 88}, "moves": ["dragontail", "earthquake", "shadowsneak", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "groudon", "species": "groudon", "item": "lumberry", "ability": "drought", "evs": {"hp": 80, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 176}, "moves": ["earthquake", "rockpolish", "stoneedge", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "heatran", "species": "heatran", "gender": "F", "item": "leftovers", "ability": "flashfire", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 4}, "moves": ["lavaplume", "roar", "stealthrock", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "palkia", "species": "palkia", "item": "habanberry", "ability": "pressure", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["dragontail", "fireblast", "spacialrend", "thunder"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Reshiram + Arceus-Dark",
+    "author": "Sweep",
+    "data": [
+      {"name": "groudon", "species": "groudon", "item": "leftovers", "ability": "drought", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 200, "spe": 52}, "moves": ["earthquake", "stealthrock", "stoneedge", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceusdark", "species": "arceusdark", "item": "dreadplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 76, "spa": 8, "spd": 0, "spe": 176}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "judgment", "recover", "refresh"], "level": 100},
+      {"name": "forretress", "species": "forretress", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["painsplit", "rapidspin", "spikes", "toxic"], "level": 100},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 152, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 104}, "moves": ["dragontail", "earthquake", "magiccoat", "shadowsneak"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "latios", "species": "latios", "item": "souldew", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "dracometeor", "psyshock", "roost"], "level": 100},
+      {"name": "reshiram", "species": "reshiram", "item": "choicescarf", "ability": "turboblaze", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["blueflare", "dracometeor", "sleeptalk", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Refinement of the Decline",
+    "author": "Steelskitty",
+    "data": [
+      {"name": "lugia", "species": "lugia", "item": "leftovers", "ability": "multiscale", "evs": {"hp": 248, "atk": 0, "def": 56, "spa": 0, "spd": 0, "spe": 204}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["icebeam", "roost", "substitute", "whirlwind"], "level": 100},
+      {"name": "arceusgrass", "species": "arceusgrass", "item": "meadowplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["judgment", "recover", "stealthrock", "willowisp"], "level": 100},
+      {"name": "forretress", "species": "forretress", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["painsplit", "rapidspin", "spikes", "toxic"], "level": 100},
+      {"name": "giratina", "species": "giratina", "item": "leftovers", "ability": "pressure", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 212, "spe": 48}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["rest", "roar", "sleeptalk", "willowisp"], "level": 100},
+      {"name": "jirachi", "species": "jirachi", "item": "leftovers", "ability": "serenegrace", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 8}, "moves": ["ironhead", "protect", "thunder", "wish"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyogre", "species": "kyogre", "item": "leftovers", "ability": "drizzle", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 200, "spe": 60}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["rest", "roar", "scald", "sleeptalk"], "level": 100}
+    ]
+  },
+  {
+    "name": "Tyranitar Ferrothorn Stall",
+    "data": [
+      {"name": "gliscor", "species": "gliscor", "gender": "M", "item": "toxicorb", "ability": "poisonheal", "evs": {"hp": 248, "atk": 0, "def": 44, "spa": 0, "spd": 0, "spe": 216}, "moves": ["earthquake", "substitute", "taunt", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceusfighting", "species": "arceusfighting", "item": "fistplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 84, "spe": 176}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["icebeam", "judgment", "recover", "toxic"], "level": 100},
+      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "airballoon", "ability": "sandrush", "evs": {"hp": 0, "atk": 248, "def": 0, "spa": 0, "spd": 68, "spe": 192}, "moves": ["earthquake", "rapidspin", "shadowclaw", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "shiny": true, "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 252, "spe": 0}, "moves": ["leechseed", "powerwhip", "protect", "spikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "giratina", "species": "giratina", "item": "leftovers", "ability": "pressure", "evs": {"hp": 224, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 32}, "moves": ["dragontail", "rest", "roar", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "chopleberry", "ability": "sandstream", "evs": {"hp": 252, "atk": 84, "def": 48, "spa": 0, "spd": 124, "spe": 0}, "moves": ["fireblast", "payback", "pursuit", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  },
+  {
+    "name": "Sun Stall",
+    "data": [
+      {"name": "groudon", "species": "groudon", "item": "earthplate", "ability": "drought", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["dragontail", "earthquake", "stealthrock", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "arceusfighting", "species": "arceusfighting", "item": "fistplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 84, "spa": 0, "spd": 0, "spe": 176}, "moves": ["judgment", "recover", "stoneedge", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "forretress", "species": "forretress", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 248, "atk": 8, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["painsplit", "rapidspin", "spikes", "toxic"], "level": 100},
+      {"name": "giratina", "species": "giratina", "item": "leftovers", "ability": "pressure", "shiny": true, "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 248, "spe": 12}, "moves": ["dragontail", "rest", "sleeptalk", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "heatran", "species": "heatran", "gender": "M", "item": "leftovers", "ability": "flashfire", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 8}, "moves": ["lavaplume", "roar", "taunt", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "lugia", "species": "lugia", "item": "leftovers", "ability": "multiscale", "evs": {"hp": 248, "atk": 0, "def": 56, "spa": 0, "spd": 0, "spe": 204}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["roost", "substitute", "toxic", "whirlwind"], "level": 100}
+    ]
+  },
+  {
+    "name": "RainStall Mod",
+    "author": "Lance",
+    "data": [
+      {"name": "arceusrock", "species": "arceusrock", "item": "stoneplate", "ability": "multitype", "evs": {"hp": 252, "atk": 0, "def": 80, "spa": 0, "spd": 0, "spe": 176}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["judgment", "recover", "stealthrock", "willowisp"], "level": 100},
+      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["gyroball", "leechseed", "protect", "spikes"], "level": 100},
+      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 0, "spe": 252}, "moves": ["dragontail", "rest", "roar", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "kyogre", "species": "kyogre", "item": "choicescarf", "ability": "drizzle", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["icebeam", "surf", "thunder", "waterspout"], "level": 100},
+      {"name": "lugia", "species": "lugia", "item": "leftovers", "ability": "multiscale", "evs": {"hp": 248, "atk": 0, "def": 56, "spa": 0, "spd": 0, "spe": 204}, "moves": ["roost", "substitute", "toxic", "whirlwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
+      {"name": "tentacruel", "species": "tentacruel", "gender": "M", "item": "leftovers", "ability": "raindish", "evs": {"hp": 252, "atk": 0, "def": 32, "spa": 0, "spd": 224, "spe": 0}, "moves": ["rapidspin", "scald", "toxic", "toxicspikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+    ]
+  }
+]
