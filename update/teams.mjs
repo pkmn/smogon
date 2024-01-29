@@ -87,8 +87,12 @@ const IGNORE = [
         const format = Dex.formats.get(f.name);
         // TODO: Use @pkmn/mods to support mods
         if (!GEN.test(format.mod)) continue;
-        if (!Dex.forFormat(format)) throw new Error(`Missing format '${f.name}'`);
-        formats[format.id] = scrapeThread(format, url);
+        if (!format.exists) {
+          console.error(`Missing format '${format.name}'`);
+          format.gen = +format.id[3];
+          format.mod = format.id.slice(0, 4);
+        }
+        formats[format.id] = wrapr.retrying(() => scrapeThread(format, url))();
         continue outer;
       }
     }
@@ -102,10 +106,15 @@ const IGNORE = [
   const html = await (await fetch(SMOGON)).text();
   let m = SCMS.exec(html);
   for (const f of JSON.parse(m[1]).FORMATS) {
+    if (!f.startsWith('gen')) continue;
     const format = Dex.formats.get(f);
     // TODO: Use @pkmn/mods to support mods
     if (!GEN.test(format.mod)) continue;
-    if (!Dex.forFormat(format)) throw new Error(`Missing format '${f}'`);
+    if (!format.exists) {
+      console.error(`Missing format '${format.name}'`);
+      format.gen = +format.id[3];
+      format.mod = format.id.slice(0, 4);
+    }
 
     const url = `https://www.smogon.com/roa/sample-files/${format.id}.txt`;
     // Awkward because of concurrency, but we ultimately want to be able to dedupe the team info in
@@ -269,7 +278,7 @@ function clean(dex, validator, team) {
   const errors = validator?.validateTeam(team);
   // if (errors) throw new Error(`Invalid team:\n\n${s.trim()}\n\n===\n\n${errors.join('\n -' )}\n`);
   if (errors) throw new Error(errors.join('\n'));
-  return Team.canonicalize(team, dex); // FIXME minimize
+  return Team.canonicalize(team, dex).map(s => minimize(dex, s, validator?.ruleTable?.defaultLevel));
 }
 
 function fixSet(dex, set) {
@@ -296,6 +305,32 @@ function fixSet(dex, set) {
 
   // validating with {removeNicknames: true} still complains about name length -_-
   set.name = undefined;
+
+  return set;
+}
+
+function minimize(dex, set, level) {
+  const base = dex.gen >= 3 ? 0 : 252;
+
+  let count = 0;
+  const ivs = {};
+  for (const iv in set.ivs) {
+    if (set.ivs[iv] === 31) continue;
+    ivs[iv] = set.ivs[iv];
+    count++;
+  }
+  set.ivs = count > 0 ? ivs : undefined;
+
+  count = 0;
+  const evs = {};
+  for (const ev in set.evs) {
+    if (set.evs[ev] === base) continue;
+    evs[ev] = set.evs[ev];
+    count++;
+  }
+  set.evs = count > 0 ? evs : undefined;
+
+  if (set.level === level) set.level = undefined;
 
   return set;
 }
