@@ -4,7 +4,13 @@
 import sourceMapSupport from 'source-map-support';
 sourceMapSupport.install();
 
-// FIXME add comments
+// This script scrapes sample team information from threads linked in Pokémon
+// Showdown's config/formats.ts and from https://www.smogon.com/roa/ and produces:
+//
+//   - data/teams/*.json: teams for each supported format, optionally with names
+//     and author information.
+//   - data/teams/index.json: an index of the [size, compressed size] for each of the
+//     format files.
 
 import * as fs from 'fs';
 import * as path from 'path';
@@ -20,6 +26,7 @@ import stringify from 'json-stringify-pretty-compact';
 import ts from "typescript";
 import * as wrapr from 'wrapr';
 
+// pokepast.es chokes if we don't throttle
 const request = wrapr.retrying(wrapr.throttling(async url =>
   (await fetch(url)).json(), +process.argv[2] || 20, 1000));
 
@@ -30,11 +37,17 @@ for (const file of fs.readdirSync(path.join(DATA, 'teams'))) {
   fs.unlinkSync(path.join(DATA, 'teams', file));
 }
 
-// FIXME doc discrepancy between live and @pkmn/sim
-const SHOWDOWN = 'https://raw.githubusercontent.com/smogon/pokemon-showdown/master/config/formats.ts';
 const SMOGON = 'https://www.smogon.com/roa/';
+const SHOWDOWN =
+  'https://raw.githubusercontent.com/smogon/pokemon-showdown/master/config/formats.ts';
 
 const POST = /posts\/(\d+)\/?$/;
+const SAMPLE = /"(http.*)".*ample/;
+const GEN = /^gen\d$/;
+const SCMS = /<script>window.scmsJSON = ({.*})<\/script>/;
+const BY = /(.*)(?: \(by (.*)\)| (?:submitted )?by (.*)| \[(.*)\]$|, (.*)$| - ([^-]*)$)/;
+const UNTITLED = /Untitled \d+/;
+const GUEST = /Guest \d+/;
 
 const IGNORE = [
   // Uncurated user submitted teams
@@ -44,6 +57,11 @@ const IGNORE = [
 ];
 
 (async () => {
+  // @pkmn/sim doesn't include the sample thread information because it prunes the data files so we
+  // need to fetch it directly from source. The main concern here is that upstream will be ahead of
+  // @pkmn/sim most of the time so the format being used for validations may be incorrect - this is
+  // kind of unavoidable because even if we could "pin" the thread URLs by using a @pkmn/sim version
+  // the *data* in the thread (which is what actually matters) is always going to be volatile
   let data;
   {
     const source = await (await fetch(SHOWDOWN)).text();
@@ -59,7 +77,7 @@ const IGNORE = [
   outer: for (const f of data) {
     if (!f.name || !f.threads) continue;
     for (const t of f.threads) {
-      const m = /"(http.*)".*ample/.exec(t)
+      const m = SAMPLE.exec(t)
       if (m) {
         const url = m[1];
         if (IGNORE.includes(url)) {
@@ -68,7 +86,7 @@ const IGNORE = [
         }
         const format = Dex.formats.get(f.name);
         // TODO: Use @pkmn/mods to support mods
-        if (!/^gen\d$/.test(format.mod)) continue;
+        if (!GEN.test(format.mod)) continue;
         if (!Dex.forFormat(format)) throw new Error(`Missing format '${f.name}'`);
         formats[format.id] = scrapeThread(format, url);
         continue outer;
@@ -82,14 +100,17 @@ const IGNORE = [
   }
 
   const html = await (await fetch(SMOGON)).text();
-  let m = /<script>window.scmsJSON = ({.*})<\/script>/.exec(html);
+  let m = SCMS.exec(html);
   for (const f of JSON.parse(m[1]).FORMATS) {
     const format = Dex.formats.get(f);
     // TODO: Use @pkmn/mods to support mods
-    if (!/^gen\d$/.test(format.mod)) continue;
+    if (!GEN.test(format.mod)) continue;
     if (!Dex.forFormat(format)) throw new Error(`Missing format '${f}'`);
 
     const url = `https://www.smogon.com/roa/sample-files/${format.id}.txt`;
+    // Awkward because of concurrency, but we ultimately want to be able to dedupe the team info in
+    // case both the threads and the ROA archives have the same data (which honestly should be
+    // common but realistically one or both are going to be out of date)
     let existing = await formats[format.id] ?? [];
     if (!existing) formats[format.id] = Promise.resolve([]);
     const teams = await scrapeArchive(format, url, existing);
@@ -112,8 +133,10 @@ async function scrapeArchive(format, url, existing) {
   const teams = [];
 
   const dex = Dex.forFormat(format);
+  // TODO: pkmn/ps#25
   const validator = format.id === 'gen9lc' ? undefined : new TeamValidator(format, dex);
 
+  // Avoid adding teams which were already scraped from threads
   const seen = new Set();
   for (const {data} of existing) seen.add(JSON.stringify(data));
 
@@ -129,15 +152,12 @@ async function scrapeArchive(format, url, existing) {
     if (seen.has(JSON.stringify(team))) continue;
 
     let author = undefined;
-    let m =
-      /(.*) \(by (.*)\)/.exec(name) ??
-      /(.*) (?:submitted )?by (.*)$/.exec(name) ??
-      /(.*) \[(.*)\]$/.exec(name) ??
-      /(.*), (.*)$/.exec(name) ??
-      /(.*) - ([^-]*)$/.exec(name);
+    // There's really no consistency with respect to distinguishing the author from the team name
+    // but we make a best-effort attempt to do so
+    const m = BY.exec(name);
     if (m) {
       name = m[1];
-      author = m[2];
+      author = m[2] ?? m[3] ?? m[4] ?? m[5] ?? m[6];
     }
 
     teams.push({name, author, data: team});
@@ -148,10 +168,19 @@ async function scrapeArchive(format, url, existing) {
 
 async function scrapeThread(format, url) {
   const document = new JSDOM(await (await fetch(url)).text()).window.document;
+
   const dex = Dex.forFormat(format);
+  // TODO: pkmn/ps#25
   const validator = format.id === 'gen9lc' ? undefined : new TeamValidator(format, dex);
 
   let teams = [];
+  // Some sample team links are to one specific post (yay!) whereas others are to a thread. In the
+  // latter case we need to hunt through the posts one-by-one to figure out which one "looks" like
+  // it has data. The main confounder are some threads which list an "example" team in the OP to
+  // demonstrate the format - to combat this we use the heuristic that if there's only one team in a
+  // post then we keep looking.
+  //
+  // Upstream maintainers could help a lot here by *always* linking to a singular post...
   const m = POST.exec(url);
   if (m) {
     const post = document.getElementById(`post-${m[1]}`).parentElement;
@@ -169,6 +198,8 @@ async function scrapeThread(format, url) {
 async function scrapeTeams(post, dex, validator) {
   let teams = [];
 
+  // Some threads have a raw pokepast.es link but also link the sprites or name of the team so we
+  // need to dedupe the URLs to avoid fetching them multiple times
   const fetched = new Set();
   for (const a of post.getElementsByTagName('a')) {
     if (spoiler(a)) continue;
@@ -181,8 +212,13 @@ async function scrapeTeams(post, dex, validator) {
       try {
         const data = parse(json.paste, dex, validator);
         if (!data) continue;
-        const name = (!json.title || /Untitled \d+/.test(json.title)) ? undefined : json.title;
-        const author = (!json.author ||/Guest \d+/.test(json.author)) ? undefined : json.author;
+        // Regrettably, the author and title here is *not* guaranteed to match the "true" author and
+        // title specified in the body of the sample teams threads. Actually parsing this data out
+        // of the post itself is kind of a fool's errand given how difficult it is to reconcile the
+        // vastly inconsistent formatting used by each subcommunity --- curators concerned with
+        // misattribution shouldwork to fix the problem at the source instead of here ("GIGO")
+        const name = (!json.title || UNTITLED.test(json.title)) ? undefined : json.title;
+        const author = (!json.author || GUEST.test(json.author)) ? undefined : json.author;
         teams.push({name, author, data});
       } catch (e) {
         console.error(`Failed to parse team from ${link}`, e);
@@ -212,6 +248,10 @@ function spoiler(e) {
 }
 
 function parse(s, dex, validator) {
+  // Typically paragraphs of prose tend to get parsed by the team importer as having too many team
+  // members or multiple moves etc. Some basic sanity checking on the "shape" of the team up front
+  // allows us to fairly liberally attempt to parse every code block without getting lots of errors
+  // from the team validator later on.
   let team;
   try {
     team = Team.import(s)?.team.slice(0, 6);
@@ -229,7 +269,7 @@ function clean(dex, validator, team) {
   const errors = validator?.validateTeam(team);
   // if (errors) throw new Error(`Invalid team:\n\n${s.trim()}\n\n===\n\n${errors.join('\n -' )}\n`);
   if (errors) throw new Error(errors.join('\n'));
-  return Team.canonicalize(team, dex);
+  return Team.canonicalize(team, dex); // FIXME minimize
 }
 
 function fixSet(dex, set) {
