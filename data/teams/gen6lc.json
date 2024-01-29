@@ -3,120 +3,120 @@
     "name": "Special Carvahna Dual Scarf Offense",
     "author": "Joltage",
     "data": [
-      {"name": "carvanha", "species": "carvanha", "gender": "M", "item": "lifeorb", "ability": "speedboost", "level": 5, "evs": {"hp": 0, "atk": 36, "def": 0, "spa": 236, "spd": 0, "spe": 236}, "ivs": {"hp": 9, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["aquajet", "darkpulse", "hydropump", "icebeam"]},
-      {"name": "gothita", "species": "gothita", "gender": "M", "item": "choicescarf", "ability": "shadowtag", "level": 5, "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 240, "spd": 0, "spe": 240}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "moves": ["energyball", "hiddenpowerfire", "psychic", "trick"]},
-      {"name": "magnemite", "species": "magnemite", "item": "choicescarf", "ability": "magnetpull", "level": 5, "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 240, "spd": 0, "spe": 240}, "ivs": {"hp": 31, "atk": 1, "def": 30, "spa": 30, "spd": 30, "spe": 30}, "moves": ["flashcannon", "hiddenpowerfighting", "thunderbolt", "voltswitch"]},
-      {"name": "mienfoo", "species": "mienfoo", "gender": "M", "item": "eviolite", "ability": "regenerator", "level": 5, "evs": {"hp": 0, "atk": 76, "def": 196, "spa": 0, "spd": 116, "spe": 76}, "moves": ["acrobatics", "highjumpkick", "knockoff", "uturn"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "onix", "species": "onix", "gender": "M", "item": "berryjuice", "ability": "sturdy", "level": 5, "evs": {"hp": 76, "atk": 236, "def": 0, "spa": 0, "spd": 0, "spe": 196}, "moves": ["earthquake", "rockblast", "stealthrock", "taunt"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "vullaby", "species": "vullaby", "item": "eviolite", "ability": "overcoat", "level": 5, "evs": {"hp": 116, "atk": 156, "def": 0, "spa": 0, "spd": 76, "spe": 116}, "moves": ["bravebird", "knockoff", "roost", "uturn"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Carvanha", "gender": "M", "item": "Life Orb", "ability": "Speed Boost", "evs": {"atk": 36, "spa": 236, "spe": 236}, "nature": "Mild", "ivs": {"hp": 9}, "moves": ["Aqua Jet", "Dark Pulse", "Hydro Pump", "Ice Beam"]},
+      {"species": "Gothita", "gender": "M", "item": "Choice Scarf", "ability": "Shadow Tag", "evs": {"spa": 240, "spe": 240}, "nature": "Timid", "ivs": {"atk": 0, "spa": 30, "spe": 30}, "moves": ["Energy Ball", "Hidden Power Fire", "Psychic", "Trick"]},
+      {"species": "Magnemite", "item": "Choice Scarf", "ability": "Magnet Pull", "evs": {"spa": 240, "spe": 240}, "nature": "Timid", "ivs": {"atk": 1, "def": 30, "spa": 30, "spd": 30, "spe": 30}, "moves": ["Flash Cannon", "Hidden Power Fighting", "Thunderbolt", "Volt Switch"]},
+      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "evs": {"atk": 76, "def": 196, "spd": 116, "spe": 76}, "nature": "Careful", "moves": ["Acrobatics", "High Jump Kick", "Knock Off", "U-turn"]},
+      {"species": "Onix", "gender": "M", "item": "Berry Juice", "ability": "Sturdy", "evs": {"hp": 76, "atk": 236, "spe": 196}, "nature": "Jolly", "moves": ["Earthquake", "Rock Blast", "Stealth Rock", "Taunt"]},
+      {"species": "Vullaby", "item": "Eviolite", "ability": "Overcoat", "evs": {"hp": 116, "atk": 156, "spd": 76, "spe": 116}, "nature": "Jolly", "moves": ["Brave Bird", "Knock Off", "Roost", "U-turn"]}
     ]
   },
   {
     "name": "GothPawn Balance",
     "author": "Corporal Levi",
     "data": [
-      {"name": "mienfoo", "species": "mienfoo", "gender": "M", "item": "eviolite", "ability": "regenerator", "level": 5, "evs": {"hp": 156, "atk": 0, "def": 196, "spa": 0, "spd": 116, "spe": 0}, "moves": ["acrobatics", "highjumpkick", "knockoff", "uturn"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "ferroseed", "species": "ferroseed", "gender": "M", "item": "eviolite", "ability": "ironbarbs", "level": 5, "evs": {"hp": 84, "atk": 36, "def": 188, "spa": 0, "spd": 148, "spe": 36}, "moves": ["bulletseed", "ironhead", "stealthrock", "thunderwave"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gothita", "species": "gothita", "gender": "M", "item": "choicescarf", "ability": "shadowtag", "level": 5, "evs": {"hp": 0, "atk": 0, "def": 36, "spa": 236, "spd": 0, "spe": 236}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["energyball", "psychic", "thunderbolt", "trick"]},
-      {"name": "pawniard", "species": "pawniard", "gender": "M", "item": "eviolite", "ability": "defiant", "level": 5, "evs": {"hp": 0, "atk": 156, "def": 36, "spa": 0, "spd": 116, "spe": 196}, "moves": ["ironhead", "knockoff", "suckerpunch", "swordsdance"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "ponyta", "species": "ponyta", "gender": "M", "item": "eviolite", "ability": "flamebody", "level": 5, "evs": {"hp": 0, "atk": 76, "def": 156, "spa": 0, "spd": 76, "spe": 196}, "moves": ["flamecharge", "flareblitz", "morningsun", "willowisp"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "staryu", "species": "staryu", "item": "eviolite", "ability": "naturalcure", "level": 5, "evs": {"hp": 116, "atk": 0, "def": 156, "spa": 0, "spd": 0, "spe": 236}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["rapidspin", "recover", "scald", "thunderwave"]}
+      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "evs": {"hp": 156, "def": 196, "spd": 116}, "nature": "Careful", "moves": ["Acrobatics", "High Jump Kick", "Knock Off", "U-turn"]},
+      {"species": "Ferroseed", "gender": "M", "item": "Eviolite", "ability": "Iron Barbs", "evs": {"hp": 84, "atk": 36, "def": 188, "spd": 148, "spe": 36}, "nature": "Careful", "moves": ["Bullet Seed", "Iron Head", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Gothita", "gender": "M", "item": "Choice Scarf", "ability": "Shadow Tag", "evs": {"def": 36, "spa": 236, "spe": 236}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Energy Ball", "Psychic", "Thunderbolt", "Trick"]},
+      {"species": "Pawniard", "gender": "M", "item": "Eviolite", "ability": "Defiant", "evs": {"atk": 156, "def": 36, "spd": 116, "spe": 196}, "nature": "Adamant", "moves": ["Iron Head", "Knock Off", "Sucker Punch", "Swords Dance"]},
+      {"species": "Ponyta", "gender": "M", "item": "Eviolite", "ability": "Flame Body", "evs": {"atk": 76, "def": 156, "spd": 76, "spe": 196}, "nature": "Jolly", "moves": ["Flame Charge", "Flare Blitz", "Morning Sun", "Will-O-Wisp"]},
+      {"species": "Staryu", "item": "Eviolite", "ability": "Natural Cure", "evs": {"hp": 116, "def": 156, "spe": 236}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Rapid Spin", "Recover", "Scald", "Thunder Wave"]}
     ]
   },
   {
     "name": "Snivy + BulkUp Timburr Balance",
     "author": "zf",
     "data": [
-      {"name": "snivy", "species": "snivy", "gender": "F", "item": "eviolite", "ability": "contrary", "level": 5, "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 240, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 1, "def": 31, "spa": 30, "spd": 30, "spe": 31}, "moves": ["glare", "hiddenpowerground", "leafstorm", "synthesis"]},
-      {"name": "gothita", "species": "gothita", "gender": "M", "item": "eviolite", "ability": "shadowtag", "level": 5, "evs": {"hp": 236, "atk": 0, "def": 196, "spa": 0, "spd": 76, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "psyshock", "rest", "sleeptalk"]},
-      {"name": "onix", "species": "onix", "gender": "M", "item": "berryjuice", "ability": "sturdy", "level": 5, "evs": {"hp": 76, "atk": 236, "def": 0, "spa": 0, "spd": 0, "spe": 196}, "moves": ["earthquake", "rockblast", "stealthrock", "taunt"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pawniard", "species": "pawniard", "gender": "M", "item": "choicescarf", "ability": "defiant", "level": 5, "evs": {"hp": 0, "atk": 236, "def": 36, "spa": 0, "spd": 36, "spe": 196}, "moves": ["brickbreak", "ironhead", "knockoff", "pursuit"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "spritzee", "species": "spritzee", "gender": "M", "item": "eviolite", "ability": "aromaveil", "level": 5, "evs": {"hp": 212, "atk": 0, "def": 196, "spa": 12, "spd": 76, "spe": 12}, "moves": ["covet", "moonblast", "protect", "wish"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "timburr", "species": "timburr", "gender": "M", "item": "eviolite", "ability": "guts", "level": 5, "evs": {"hp": 0, "atk": 116, "def": 156, "spa": 0, "spd": 236, "spe": 0}, "moves": ["bulkup", "drainpunch", "knockoff", "machpunch"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Snivy", "gender": "F", "item": "Eviolite", "ability": "Contrary", "evs": {"spa": 240, "spe": 252}, "nature": "Timid", "ivs": {"atk": 1, "spa": 30, "spd": 30}, "moves": ["Glare", "Hidden Power Ground", "Leaf Storm", "Synthesis"]},
+      {"species": "Gothita", "gender": "M", "item": "Eviolite", "ability": "Shadow Tag", "evs": {"hp": 236, "def": 196, "spd": 76}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Psyshock", "Rest", "Sleep Talk"]},
+      {"species": "Onix", "gender": "M", "item": "Berry Juice", "ability": "Sturdy", "evs": {"hp": 76, "atk": 236, "spe": 196}, "nature": "Jolly", "moves": ["Earthquake", "Rock Blast", "Stealth Rock", "Taunt"]},
+      {"species": "Pawniard", "gender": "M", "item": "Choice Scarf", "ability": "Defiant", "evs": {"atk": 236, "def": 36, "spd": 36, "spe": 196}, "nature": "Jolly", "moves": ["Brick Break", "Iron Head", "Knock Off", "Pursuit"]},
+      {"species": "Spritzee", "gender": "M", "item": "Eviolite", "ability": "Aroma Veil", "evs": {"hp": 212, "def": 196, "spa": 12, "spd": 76, "spe": 12}, "nature": "Bold", "moves": ["Covet", "Moonblast", "Protect", "Wish"]},
+      {"species": "Timburr", "gender": "M", "item": "Eviolite", "ability": "Guts", "evs": {"atk": 116, "def": 156, "spd": 236}, "nature": "Careful", "moves": ["Bulk Up", "Drain Punch", "Knock Off", "Mach Punch"]}
     ]
   },
   {
     "name": "Shellder Offense",
     "author": "trash",
     "data": [
-      {"name": "diglett", "species": "diglett", "gender": "M", "item": "lifeorb", "ability": "arenatrap", "level": 5, "evs": {"hp": 36, "atk": 236, "def": 0, "spa": 0, "spd": 0, "spe": 236}, "moves": ["earthquake", "memento", "rockslide", "substitute"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "archen", "species": "archen", "gender": "M", "item": "berryjuice", "ability": "defeatist", "level": 5, "evs": {"hp": 0, "atk": 180, "def": 76, "spa": 4, "spd": 0, "spe": 196}, "moves": ["acrobatics", "earthquake", "heatwave", "stealthrock"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mienfoo", "species": "mienfoo", "gender": "M", "item": "eviolite", "ability": "regenerator", "level": 5, "evs": {"hp": 156, "atk": 0, "def": 116, "spa": 0, "spd": 196, "spe": 0}, "moves": ["drainpunch", "knockoff", "poisonjab", "uturn"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pawniard", "species": "pawniard", "gender": "M", "item": "eviolite", "ability": "defiant", "level": 5, "evs": {"hp": 0, "atk": 156, "def": 36, "spa": 0, "spd": 116, "spe": 196}, "moves": ["ironhead", "knockoff", "stealthrock", "suckerpunch"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "shellder", "species": "shellder", "gender": "M", "item": "eviolite", "ability": "skilllink", "level": 5, "evs": {"hp": 36, "atk": 236, "def": 36, "spa": 0, "spd": 0, "spe": 196}, "moves": ["iceshard", "iciclespear", "rockblast", "shellsmash"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "spritzee", "species": "spritzee", "gender": "M", "item": "eviolite", "ability": "aromaveil", "level": 5, "evs": {"hp": 212, "atk": 0, "def": 196, "spa": 12, "spd": 76, "spe": 12}, "moves": ["calmmind", "moonblast", "protect", "wish"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Diglett", "gender": "M", "item": "Life Orb", "ability": "Arena Trap", "evs": {"hp": 36, "atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Earthquake", "Memento", "Rock Slide", "Substitute"]},
+      {"species": "Archen", "gender": "M", "item": "Berry Juice", "ability": "Defeatist", "evs": {"atk": 180, "def": 76, "spa": 4, "spe": 196}, "nature": "Jolly", "moves": ["Acrobatics", "Earthquake", "Heat Wave", "Stealth Rock"]},
+      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "evs": {"hp": 156, "def": 116, "spd": 196}, "nature": "Impish", "moves": ["Drain Punch", "Knock Off", "Poison Jab", "U-turn"]},
+      {"species": "Pawniard", "gender": "M", "item": "Eviolite", "ability": "Defiant", "evs": {"atk": 156, "def": 36, "spd": 116, "spe": 196}, "nature": "Jolly", "moves": ["Iron Head", "Knock Off", "Stealth Rock", "Sucker Punch"]},
+      {"species": "Shellder", "gender": "M", "item": "Eviolite", "ability": "Skill Link", "evs": {"hp": 36, "atk": 236, "def": 36, "spe": 196}, "nature": "Adamant", "moves": ["Ice Shard", "Icicle Spear", "Rock Blast", "Shell Smash"]},
+      {"species": "Spritzee", "gender": "M", "item": "Eviolite", "ability": "Aroma Veil", "evs": {"hp": 212, "def": 196, "spa": 12, "spd": 76, "spe": 12}, "nature": "Bold", "moves": ["Calm Mind", "Moonblast", "Protect", "Wish"]}
     ]
   },
   {
     "name": "Corphish Waterspam",
     "author": "Brazilian Army",
     "data": [
-      {"name": "corphish", "species": "corphish", "gender": "M", "item": "eviolite", "ability": "adaptability", "level": 5, "evs": {"hp": 0, "atk": 196, "def": 76, "spa": 0, "spd": 0, "spe": 236}, "moves": ["aquajet", "crabhammer", "dragondance", "knockoff"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "chinchou", "species": "chinchou", "gender": "M", "item": "choicescarf", "ability": "voltabsorb", "level": 5, "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 152, "spd": 0, "spe": 144}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "moves": ["hiddenpowerfire", "hydropump", "scald", "voltswitch"]},
-      {"name": "diglett", "species": "diglett", "gender": "M", "item": "lifeorb", "ability": "arenatrap", "level": 5, "evs": {"hp": 36, "atk": 236, "def": 0, "spa": 0, "spd": 0, "spe": 236}, "moves": ["earthquake", "rockslide", "substitute", "suckerpunch"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "foongus", "species": "foongus", "gender": "M", "item": "eviolite", "ability": "regenerator", "level": 5, "evs": {"hp": 124, "atk": 0, "def": 156, "spa": 0, "spd": 156, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["gigadrain", "sludgebomb", "spore", "stunspore"]},
-      {"name": "mienfoo", "species": "mienfoo", "gender": "M", "item": "eviolite", "ability": "regenerator", "level": 5, "evs": {"hp": 0, "atk": 0, "def": 196, "spa": 0, "spd": 36, "spe": 236}, "moves": ["fakeout", "highjumpkick", "knockoff", "uturn"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pawniard", "species": "pawniard", "gender": "M", "item": "eviolite", "ability": "defiant", "level": 5, "evs": {"hp": 0, "atk": 156, "def": 36, "spa": 0, "spd": 116, "spe": 196}, "moves": ["ironhead", "knockoff", "stealthrock", "suckerpunch"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Corphish", "gender": "M", "item": "Eviolite", "ability": "Adaptability", "evs": {"atk": 196, "def": 76, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Jet", "Crabhammer", "Dragon Dance", "Knock Off"]},
+      {"species": "Chinchou", "gender": "M", "item": "Choice Scarf", "ability": "Volt Absorb", "evs": {"spa": 152, "spe": 144}, "nature": "Timid", "ivs": {"atk": 0, "spa": 30, "spe": 30}, "moves": ["Hidden Power Fire", "Hydro Pump", "Scald", "Volt Switch"]},
+      {"species": "Diglett", "gender": "M", "item": "Life Orb", "ability": "Arena Trap", "evs": {"hp": 36, "atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Earthquake", "Rock Slide", "Substitute", "Sucker Punch"]},
+      {"species": "Foongus", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "evs": {"hp": 124, "def": 156, "spd": 156}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Sludge Bomb", "Spore", "Stun Spore"]},
+      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "evs": {"def": 196, "spd": 36, "spe": 236}, "nature": "Jolly", "moves": ["Fake Out", "High Jump Kick", "Knock Off", "U-turn"]},
+      {"species": "Pawniard", "gender": "M", "item": "Eviolite", "ability": "Defiant", "evs": {"atk": 156, "def": 36, "spd": 116, "spe": 196}, "nature": "Jolly", "moves": ["Iron Head", "Knock Off", "Stealth Rock", "Sucker Punch"]}
     ]
   },
   {
     "name": "Set-Up Spam",
     "author": "Holiday",
     "data": [
-      {"name": "shellder", "species": "shellder", "gender": "M", "item": "eviolite", "ability": "skilllink", "level": 5, "evs": {"hp": 36, "atk": 236, "def": 36, "spa": 0, "spd": 0, "spe": 196}, "moves": ["iceshard", "iciclespear", "rockblast", "shellsmash"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "croagunk", "species": "croagunk", "gender": "M", "item": "berryjuice", "ability": "dryskin", "level": 5, "evs": {"hp": 0, "atk": 28, "def": 116, "spa": 188, "spd": 116, "spe": 36}, "moves": ["focusblast", "sludgewave", "thief", "vacuumwave"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "diglett", "species": "diglett", "gender": "M", "item": "lifeorb", "ability": "arenatrap", "level": 5, "evs": {"hp": 36, "atk": 236, "def": 0, "spa": 0, "spd": 0, "spe": 236}, "moves": ["earthquake", "rockslide", "substitute", "suckerpunch"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "fletchling", "species": "fletchling", "gender": "M", "ability": "galewings", "level": 5, "evs": {"hp": 76, "atk": 196, "def": 12, "spa": 36, "spd": 0, "spe": 180}, "moves": ["acrobatics", "overheat", "swordsdance", "uturn"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pawniard", "species": "pawniard", "gender": "M", "item": "eviolite", "ability": "defiant", "level": 5, "evs": {"hp": 0, "atk": 156, "def": 36, "spa": 0, "spd": 116, "spe": 196}, "moves": ["ironhead", "knockoff", "stealthrock", "suckerpunch"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "porygon", "species": "porygon", "item": "eviolite", "ability": "download", "level": 5, "evs": {"hp": 156, "atk": 0, "def": 36, "spa": 240, "spd": 0, "spe": 40}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "moves": ["hiddenpowerfire", "psychic", "recover", "triattack"]}
+      {"species": "Shellder", "gender": "M", "item": "Eviolite", "ability": "Skill Link", "evs": {"hp": 36, "atk": 236, "def": 36, "spe": 196}, "nature": "Impish", "moves": ["Ice Shard", "Icicle Spear", "Rock Blast", "Shell Smash"]},
+      {"species": "Croagunk", "gender": "M", "item": "Berry Juice", "ability": "Dry Skin", "evs": {"atk": 28, "def": 116, "spa": 188, "spd": 116, "spe": 36}, "nature": "Modest", "moves": ["Focus Blast", "Sludge Wave", "Thief", "Vacuum Wave"]},
+      {"species": "Diglett", "gender": "M", "item": "Life Orb", "ability": "Arena Trap", "evs": {"hp": 36, "atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Earthquake", "Rock Slide", "Substitute", "Sucker Punch"]},
+      {"species": "Fletchling", "gender": "M", "ability": "Gale Wings", "evs": {"hp": 76, "atk": 196, "def": 12, "spa": 36, "spe": 180}, "nature": "Naughty", "moves": ["Acrobatics", "Overheat", "Swords Dance", "U-turn"]},
+      {"species": "Pawniard", "gender": "M", "item": "Eviolite", "ability": "Defiant", "evs": {"atk": 156, "def": 36, "spd": 116, "spe": 196}, "nature": "Jolly", "moves": ["Iron Head", "Knock Off", "Stealth Rock", "Sucker Punch"]},
+      {"species": "Porygon", "item": "Eviolite", "ability": "Download", "evs": {"hp": 156, "def": 36, "spa": 240, "spe": 40}, "nature": "Modest", "ivs": {"atk": 0, "spa": 30, "spe": 30}, "moves": ["Hidden Power Fire", "Psychic", "Recover", "Tri Attack"]}
     ]
   },
   {
     "name": "Dual Scarf Offense",
     "author": "Fiend",
     "data": [
-      {"name": "pawniard", "species": "pawniard", "gender": "M", "item": "choicescarf", "ability": "defiant", "level": 5, "evs": {"hp": 0, "atk": 236, "def": 36, "spa": 0, "spd": 36, "spe": 196}, "moves": ["ironhead", "knockoff", "pursuit", "stealthrock"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "drilbur", "species": "drilbur", "gender": "M", "item": "choicescarf", "ability": "moldbreaker", "level": 5, "evs": {"hp": 0, "atk": 236, "def": 36, "spa": 0, "spd": 0, "spe": 212}, "moves": ["earthquake", "poisonjab", "rapidspin", "rockslide"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "fletchling", "species": "fletchling", "gender": "M", "ability": "galewings", "level": 5, "evs": {"hp": 76, "atk": 200, "def": 92, "spa": 120, "spd": 0, "spe": 20}, "moves": ["acrobatics", "hiddenpowergrass", "swordsdance", "uturn"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 31}},
-      {"name": "foongus", "species": "foongus", "gender": "F", "item": "eviolite", "ability": "regenerator", "level": 5, "evs": {"hp": 124, "atk": 0, "def": 160, "spa": 0, "spd": 160, "spe": 0}, "ivs": {"hp": 31, "atk": 1, "def": 30, "spa": 30, "spd": 30, "spe": 30}, "moves": ["gigadrain", "hiddenpowerfighting", "sludgebomb", "spore"]},
-      {"name": "mienfoo", "species": "mienfoo", "gender": "M", "item": "eviolite", "ability": "regenerator", "level": 5, "evs": {"hp": 0, "atk": 0, "def": 196, "spa": 0, "spd": 36, "spe": 236}, "moves": ["acrobatics", "highjumpkick", "knockoff", "uturn"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tirtouga", "species": "tirtouga", "gender": "M", "item": "eviolite", "ability": "solidrock", "level": 5, "evs": {"hp": 4, "atk": 212, "def": 92, "spa": 0, "spd": 76, "spe": 100}, "moves": ["aquajet", "shellsmash", "waterfall", "zenheadbutt"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Pawniard", "gender": "M", "item": "Choice Scarf", "ability": "Defiant", "evs": {"atk": 236, "def": 36, "spd": 36, "spe": 196}, "nature": "Adamant", "moves": ["Iron Head", "Knock Off", "Pursuit", "Stealth Rock"]},
+      {"species": "Drilbur", "gender": "M", "item": "Choice Scarf", "ability": "Mold Breaker", "evs": {"atk": 236, "def": 36, "spe": 212}, "nature": "Jolly", "moves": ["Earthquake", "Poison Jab", "Rapid Spin", "Rock Slide"]},
+      {"species": "Fletchling", "gender": "M", "ability": "Gale Wings", "evs": {"hp": 76, "atk": 200, "def": 92, "spa": 120, "spe": 20}, "nature": "Naughty", "moves": ["Acrobatics", "Hidden Power Grass", "Swords Dance", "U-turn"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Foongus", "gender": "F", "item": "Eviolite", "ability": "Regenerator", "evs": {"hp": 124, "def": 160, "spd": 160}, "nature": "Bold", "ivs": {"atk": 1, "def": 30, "spa": 30, "spd": 30, "spe": 30}, "moves": ["Giga Drain", "Hidden Power Fighting", "Sludge Bomb", "Spore"]},
+      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "evs": {"def": 196, "spd": 36, "spe": 236}, "nature": "Jolly", "moves": ["Acrobatics", "High Jump Kick", "Knock Off", "U-turn"]},
+      {"species": "Tirtouga", "gender": "M", "item": "Eviolite", "ability": "Solid Rock", "evs": {"hp": 4, "atk": 212, "def": 92, "spd": 76, "spe": 100}, "nature": "Adamant", "moves": ["Aqua Jet", "Shell Smash", "Waterfall", "Zen Headbutt"]}
     ]
   },
   {
     "name": "Fletchling balance",
     "author": "Brazilian Army",
     "data": [
-      {"name": "fletchling", "species": "fletchling", "gender": "M", "ability": "galewings", "level": 5, "evs": {"hp": 156, "atk": 196, "def": 92, "spa": 0, "spd": 52, "spe": 0}, "moves": ["acrobatics", "roost", "swordsdance", "uturn"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "diglett", "species": "diglett", "gender": "M", "item": "lifeorb", "ability": "arenatrap", "level": 5, "evs": {"hp": 36, "atk": 236, "def": 0, "spa": 0, "spd": 0, "spe": 236}, "moves": ["earthquake", "rockslide", "substitute", "suckerpunch"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "foongus", "species": "foongus", "gender": "M", "item": "eviolite", "ability": "regenerator", "level": 5, "evs": {"hp": 124, "atk": 0, "def": 160, "spa": 0, "spd": 160, "spe": 0}, "moves": ["gigadrain", "hiddenpowerfighting", "sludgebomb", "spore"], "ivs": {"hp": 31, "atk": 31, "def": 30, "spa": 30, "spd": 30, "spe": 30}},
-      {"name": "pawniard", "species": "pawniard", "gender": "M", "item": "choicescarf", "ability": "defiant", "level": 5, "evs": {"hp": 0, "atk": 236, "def": 36, "spa": 0, "spd": 36, "spe": 196}, "moves": ["brickbreak", "ironhead", "knockoff", "pursuit"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "staryu", "species": "staryu", "item": "eviolite", "ability": "naturalcure", "level": 5, "evs": {"hp": 116, "atk": 0, "def": 156, "spa": 0, "spd": 0, "spe": 236}, "moves": ["psychic", "rapidspin", "recover", "scald"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tirtouga", "species": "tirtouga", "gender": "M", "item": "eviolite", "ability": "solidrock", "level": 5, "evs": {"hp": 164, "atk": 52, "def": 92, "spa": 0, "spd": 156, "spe": 20}, "moves": ["aquajet", "knockoff", "stealthrock", "stoneedge"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Fletchling", "gender": "M", "ability": "Gale Wings", "evs": {"hp": 156, "atk": 196, "def": 92, "spd": 52}, "nature": "Adamant", "moves": ["Acrobatics", "Roost", "Swords Dance", "U-turn"]},
+      {"species": "Diglett", "gender": "M", "item": "Life Orb", "ability": "Arena Trap", "evs": {"hp": 36, "atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Earthquake", "Rock Slide", "Substitute", "Sucker Punch"]},
+      {"species": "Foongus", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "evs": {"hp": 124, "def": 160, "spd": 160}, "nature": "Bold", "moves": ["Giga Drain", "Hidden Power Fighting", "Sludge Bomb", "Spore"], "ivs": {"def": 30, "spa": 30, "spd": 30, "spe": 30}},
+      {"species": "Pawniard", "gender": "M", "item": "Choice Scarf", "ability": "Defiant", "evs": {"atk": 236, "def": 36, "spd": 36, "spe": 196}, "nature": "Jolly", "moves": ["Brick Break", "Iron Head", "Knock Off", "Pursuit"]},
+      {"species": "Staryu", "item": "Eviolite", "ability": "Natural Cure", "evs": {"hp": 116, "def": 156, "spe": 236}, "nature": "Timid", "moves": ["Psychic", "Rapid Spin", "Recover", "Scald"]},
+      {"species": "Tirtouga", "gender": "M", "item": "Eviolite", "ability": "Solid Rock", "evs": {"hp": 164, "atk": 52, "def": 92, "spd": 156, "spe": 20}, "nature": "Careful", "moves": ["Aqua Jet", "Knock Off", "Stealth Rock", "Stone Edge"]}
     ]
   },
   {
     "name": "Dweb HO",
     "author": "Brazilian Army",
     "data": [
-      {"name": "dwebble", "species": "dwebble", "gender": "M", "item": "berryjuice", "ability": "sturdy", "level": 5, "evs": {"hp": 0, "atk": 236, "def": 0, "spa": 0, "spd": 0, "spe": 236}, "moves": ["knockoff", "rockblast", "spikes", "stealthrock"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "abra", "species": "abra", "gender": "M", "item": "focussash", "ability": "magicguard", "level": 5, "evs": {"hp": 0, "atk": 36, "def": 0, "spa": 240, "spd": 0, "spe": 200}, "moves": ["dazzlinggleam", "hiddenpowerfighting", "protect", "psychic"], "ivs": {"hp": 31, "atk": 31, "def": 30, "spa": 30, "spd": 30, "spe": 30}},
-      {"name": "fletchling", "species": "fletchling", "gender": "M", "ability": "galewings", "level": 5, "evs": {"hp": 76, "atk": 196, "def": 12, "spa": 36, "spd": 0, "spe": 180}, "moves": ["acrobatics", "overheat", "roost", "swordsdance"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pawniard", "species": "pawniard", "gender": "M", "item": "eviolite", "ability": "defiant", "level": 5, "evs": {"hp": 0, "atk": 156, "def": 36, "spa": 0, "spd": 116, "spe": 196}, "moves": ["ironhead", "knockoff", "suckerpunch", "swordsdance"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pumpkaboosuper", "species": "pumpkaboosuper", "gender": "M", "item": "eviolite", "ability": "frisk", "level": 5, "evs": {"hp": 204, "atk": 0, "def": 36, "spa": 4, "spd": 236, "spe": 28}, "moves": ["bulletseed", "shadowsneak", "synthesis", "willowisp"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "timburr", "species": "timburr", "gender": "M", "item": "eviolite", "ability": "guts", "level": 5, "evs": {"hp": 76, "atk": 0, "def": 156, "spa": 0, "spd": 236, "spe": 0}, "moves": ["bulkup", "drainpunch", "knockoff", "machpunch"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Dwebble", "gender": "M", "item": "Berry Juice", "ability": "Sturdy", "evs": {"atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Knock Off", "Rock Blast", "Spikes", "Stealth Rock"]},
+      {"species": "Abra", "gender": "M", "item": "Focus Sash", "ability": "Magic Guard", "evs": {"atk": 36, "spa": 240, "spe": 200}, "nature": "Timid", "moves": ["Dazzling Gleam", "Hidden Power Fighting", "Protect", "Psychic"], "ivs": {"def": 30, "spa": 30, "spd": 30, "spe": 30}},
+      {"species": "Fletchling", "gender": "M", "ability": "Gale Wings", "evs": {"hp": 76, "atk": 196, "def": 12, "spa": 36, "spe": 180}, "nature": "Naughty", "moves": ["Acrobatics", "Overheat", "Roost", "Swords Dance"]},
+      {"species": "Pawniard", "gender": "M", "item": "Eviolite", "ability": "Defiant", "evs": {"atk": 156, "def": 36, "spd": 116, "spe": 196}, "nature": "Jolly", "moves": ["Iron Head", "Knock Off", "Sucker Punch", "Swords Dance"]},
+      {"species": "Pumpkaboo-Super", "gender": "M", "item": "Eviolite", "ability": "Frisk", "evs": {"hp": 204, "def": 36, "spd": 236, "spe": 28}, "nature": "Careful", "moves": ["Bullet Seed", "Shadow Sneak", "Synthesis", "Will-O-Wisp"]},
+      {"species": "Timburr", "gender": "M", "item": "Eviolite", "ability": "Guts", "evs": {"hp": 76, "def": 156, "spd": 236}, "nature": "Careful", "moves": ["Bulk Up", "Drain Punch", "Knock Off", "Mach Punch"]}
     ]
   },
   {
     "name": "Scarf Scraggy Balance",
     "author": "The LC Community",
     "data": [
-      {"name": "scraggy", "species": "scraggy", "gender": "M", "item": "choicescarf", "ability": "moxie", "level": 5, "evs": {"hp": 0, "atk": 236, "def": 0, "spa": 0, "spd": 36, "spe": 212}, "moves": ["drainpunch", "highjumpkick", "knockoff", "zenheadbutt"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "archen", "species": "archen", "gender": "M", "ability": "defeatist", "level": 5, "evs": {"hp": 76, "atk": 20, "def": 76, "spa": 0, "spd": 76, "spe": 196}, "moves": ["acrobatics", "roost", "stealthrock", "stoneedge"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "chinchou", "species": "chinchou", "gender": "M", "item": "berryjuice", "ability": "voltabsorb", "level": 5, "evs": {"hp": 76, "atk": 0, "def": 212, "spa": 148, "spd": 0, "spe": 60}, "moves": ["icebeam", "scald", "thunderwave", "voltswitch"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "foongus", "species": "foongus", "gender": "M", "item": "eviolite", "ability": "regenerator", "level": 5, "evs": {"hp": 124, "atk": 0, "def": 156, "spa": 0, "spd": 156, "spe": 0}, "moves": ["clearsmog", "gigadrain", "sludgebomb", "spore"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "honedge", "species": "honedge", "gender": "M", "item": "eviolite", "ability": "noguard", "level": 5, "evs": {"hp": 0, "atk": 116, "def": 116, "spa": 0, "spd": 140, "spe": 132}, "moves": ["ironhead", "pursuit", "shadowsneak", "swordsdance"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "timburr", "species": "timburr", "gender": "M", "item": "eviolite", "ability": "guts", "level": 5, "evs": {"hp": 0, "atk": 116, "def": 156, "spa": 0, "spd": 236, "spe": 0}, "moves": ["bulkup", "drainpunch", "knockoff", "machpunch"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Scraggy", "gender": "M", "item": "Choice Scarf", "ability": "Moxie", "evs": {"atk": 236, "spd": 36, "spe": 212}, "nature": "Jolly", "moves": ["Drain Punch", "High Jump Kick", "Knock Off", "Zen Headbutt"]},
+      {"species": "Archen", "gender": "M", "ability": "Defeatist", "evs": {"hp": 76, "atk": 20, "def": 76, "spd": 76, "spe": 196}, "nature": "Jolly", "moves": ["Acrobatics", "Roost", "Stealth Rock", "Stone Edge"]},
+      {"species": "Chinchou", "gender": "M", "item": "Berry Juice", "ability": "Volt Absorb", "evs": {"hp": 76, "def": 212, "spa": 148, "spe": 60}, "nature": "Bold", "moves": ["Ice Beam", "Scald", "Thunder Wave", "Volt Switch"]},
+      {"species": "Foongus", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "evs": {"hp": 124, "def": 156, "spd": 156}, "nature": "Bold", "moves": ["Clear Smog", "Giga Drain", "Sludge Bomb", "Spore"]},
+      {"species": "Honedge", "gender": "M", "item": "Eviolite", "ability": "No Guard", "evs": {"atk": 116, "def": 116, "spd": 140, "spe": 132}, "nature": "Adamant", "moves": ["Iron Head", "Pursuit", "Shadow Sneak", "Swords Dance"]},
+      {"species": "Timburr", "gender": "M", "item": "Eviolite", "ability": "Guts", "evs": {"atk": 116, "def": 156, "spd": 236}, "nature": "Careful", "moves": ["Bulk Up", "Drain Punch", "Knock Off", "Mach Punch"]}
     ]
   }
 ]

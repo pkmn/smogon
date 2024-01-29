@@ -60,7 +60,7 @@ interface Member {
 interface Team {
   name?: string;
   author?: string;
-  data: PokemonSet<ID>[];
+  data: PokemonSet[];
 }
 
 /**

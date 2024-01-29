@@ -3,84 +3,84 @@
     "name": "Muk+Trapper",
     "author": "Anty",
     "data": [
-      {"name": "muk", "species": "muk", "gender": "M", "item": "blacksludge", "ability": "stickyhold", "evs": {"hp": 252, "atk": 0, "def": 12, "spa": 0, "spd": 244, "spe": 0}, "moves": ["curse", "poisonjab", "rest", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "clefairy", "species": "clefairy", "gender": "M", "item": "eviolite", "ability": "magicguard", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 4, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["moonblast", "softboiled", "stealthrock", "thunderwave"], "level": 100},
-      {"name": "leafeon", "species": "leafeon", "gender": "M", "item": "yacheberry", "ability": "chlorophyll", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["knockoff", "leafblade", "swordsdance", "synthesis"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mrmime", "species": "mrmime", "gender": "M", "item": "choicescarf", "ability": "soundproof", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "focusblast", "healingwish", "psychic"], "level": 100},
-      {"name": "probopass", "species": "probopass", "gender": "M", "item": "airballoon", "ability": "magnetpull", "evs": {"hp": 172, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 84}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "flashcannon", "taunt", "voltswitch"], "level": 100},
-      {"name": "vullaby", "species": "vullaby", "item": "eviolite", "ability": "overcoat", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "moves": ["defog", "foulplay", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Muk", "gender": "M", "item": "Black Sludge", "ability": "Sticky Hold", "evs": {"hp": 252, "def": 12, "spd": 244}, "nature": "Careful", "moves": ["Curse", "Poison Jab", "Rest", "Sleep Talk"]},
+      {"species": "Clefairy", "gender": "M", "item": "Eviolite", "ability": "Magic Guard", "evs": {"hp": 252, "spa": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Moonblast", "Soft-Boiled", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Leafeon", "gender": "M", "item": "Yache Berry", "ability": "Chlorophyll", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Knock Off", "Leaf Blade", "Swords Dance", "Synthesis"]},
+      {"species": "Mr. Mime", "gender": "M", "item": "Choice Scarf", "ability": "Soundproof", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dazzling Gleam", "Focus Blast", "Healing Wish", "Psychic"]},
+      {"species": "Probopass", "gender": "M", "item": "Air Balloon", "ability": "Magnet Pull", "evs": {"hp": 172, "spa": 252, "spe": 84}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Flash Cannon", "Taunt", "Volt Switch"]},
+      {"species": "Vullaby", "item": "Eviolite", "ability": "Overcoat", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Impish", "moves": ["Defog", "Foul Play", "Roost", "U-turn"]}
     ]
   },
   {
     "name": "Muk+Articuno",
     "author": "False.",
     "data": [
-      {"name": "articuno", "species": "articuno", "item": "leftovers", "ability": "pressure", "shiny": true, "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hurricane", "icebeam", "roost", "substitute"], "level": 100},
-      {"name": "grumpig", "species": "grumpig", "gender": "M", "item": "choicescarf", "ability": "thickfat", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "psychic", "shadowball", "trick"], "level": 100},
-      {"name": "leafeon", "species": "leafeon", "gender": "M", "item": "yacheberry", "ability": "leafguard", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["knockoff", "leafblade", "swordsdance", "synthesis"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "lumineon", "species": "lumineon", "gender": "M", "item": "leftovers", "ability": "stormdrain", "evs": {"hp": 244, "atk": 0, "def": 188, "spa": 0, "spd": 0, "spe": 76}, "moves": ["defog", "scald", "toxic", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "muk", "species": "muk", "gender": "M", "item": "blacksludge", "ability": "stickyhold", "evs": {"hp": 252, "atk": 0, "def": 8, "spa": 0, "spd": 236, "spe": 12}, "moves": ["curse", "poisonjab", "rest", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "probopass", "species": "probopass", "gender": "M", "item": "airballoon", "ability": "magnetpull", "evs": {"hp": 80, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 176}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "flashcannon", "stealthrock", "voltswitch"], "level": 100}
+      {"species": "Articuno", "item": "Leftovers", "ability": "Pressure", "shiny": true, "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hurricane", "Ice Beam", "Roost", "Substitute"]},
+      {"species": "Grumpig", "gender": "M", "item": "Choice Scarf", "ability": "Thick Fat", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Psychic", "Shadow Ball", "Trick"]},
+      {"species": "Leafeon", "gender": "M", "item": "Yache Berry", "ability": "Leaf Guard", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Knock Off", "Leaf Blade", "Swords Dance", "Synthesis"]},
+      {"species": "Lumineon", "gender": "M", "item": "Leftovers", "ability": "Storm Drain", "evs": {"hp": 244, "def": 188, "spe": 76}, "nature": "Bold", "moves": ["Defog", "Scald", "Toxic", "U-turn"]},
+      {"species": "Muk", "gender": "M", "item": "Black Sludge", "ability": "Sticky Hold", "evs": {"hp": 252, "def": 8, "spd": 236, "spe": 12}, "nature": "Careful", "moves": ["Curse", "Poison Jab", "Rest", "Sleep Talk"]},
+      {"species": "Probopass", "gender": "M", "item": "Air Balloon", "ability": "Magnet Pull", "evs": {"hp": 80, "spa": 252, "spe": 176}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Flash Cannon", "Stealth Rock", "Volt Switch"]}
     ]
   },
   {
     "name": "Rotom-S Bulky Offense",
     "author": "RawMelon",
     "data": [
-      {"name": "rotomfan", "species": "rotomfan", "item": "leftovers", "ability": "levitate", "evs": {"hp": 248, "atk": 0, "def": 208, "spa": 0, "spd": 0, "spe": 52}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["airslash", "painsplit", "voltswitch", "willowisp"], "level": 100},
-      {"name": "bouffalant", "species": "bouffalant", "gender": "M", "item": "leftovers", "ability": "sapsipper", "happiness": 0, "evs": {"hp": 120, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 136}, "moves": ["earthquake", "frustration", "substitute", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "choiceband", "ability": "sturdy", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "explosion", "stoneedge", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mrmime", "species": "mrmime", "gender": "M", "item": "choicescarf", "ability": "soundproof", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "healingwish", "psychic", "trick"], "level": 100},
-      {"name": "prinplup", "species": "prinplup", "gender": "M", "item": "eviolite", "ability": "torrent", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "scald", "signalbeam", "stealthrock"], "level": 100},
-      {"name": "rapidash", "species": "rapidash", "gender": "M", "item": "leftovers", "ability": "flashfire", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["drillrun", "flareblitz", "morningsun", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Rotom-Fan", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "def": 208, "spe": 52}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Air Slash", "Pain Split", "Volt Switch", "Will-O-Wisp"]},
+      {"species": "Bouffalant", "gender": "M", "item": "Leftovers", "ability": "Sap Sipper", "happiness": 0, "evs": {"hp": 120, "atk": 252, "spe": 136}, "nature": "Adamant", "moves": ["Earthquake", "Frustration", "Substitute", "Swords Dance"]},
+      {"species": "Golem", "gender": "M", "item": "Choice Band", "ability": "Sturdy", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Explosion", "Stone Edge", "Sucker Punch"]},
+      {"species": "Mr. Mime", "gender": "M", "item": "Choice Scarf", "ability": "Soundproof", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dazzling Gleam", "Healing Wish", "Psychic", "Trick"]},
+      {"species": "Prinplup", "gender": "M", "item": "Eviolite", "ability": "Torrent", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Defog", "Scald", "Signal Beam", "Stealth Rock"]},
+      {"species": "Rapidash", "gender": "M", "item": "Leftovers", "ability": "Flash Fire", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Drill Run", "Flare Blitz", "Morning Sun", "Will-O-Wisp"]}
     ]
   },
   {
     "name": "Dodrio+Cacturne HO",
     "author": "EnemyJurist",
     "data": [
-      {"name": "dodrio", "species": "dodrio", "gender": "M", "item": "choiceband", "ability": "earlybird", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["bravebird", "knockoff", "quickattack", "return"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255},
-      {"name": "cacturne", "species": "cacturne", "gender": "M", "item": "lifeorb", "ability": "waterabsorb", "evs": {"hp": 0, "atk": 40, "def": 0, "spa": 252, "spd": 0, "spe": 216}, "ivs": {"hp": 29, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["darkpulse", "focusblast", "gigadrain", "suckerpunch"], "level": 100},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "weaknesspolicy", "ability": "sturdy", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "stealthrock", "stoneedge", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mawile", "species": "mawile", "gender": "M", "item": "lifeorb", "ability": "sheerforce", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "ivs": {"hp": 29, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["ironhead", "playrough", "suckerpunch", "swordsdance"], "level": 100},
-      {"name": "mrmime", "species": "mrmime", "gender": "M", "item": "choicescarf", "ability": "soundproof", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "focusblast", "healingwish", "psychic"], "level": 100},
-      {"name": "rotomfan", "species": "rotomfan", "item": "leftovers", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 30, "spa": 30, "spd": 31, "spe": 31}, "moves": ["airslash", "hiddenpowerwater", "thunderbolt", "willowisp"], "level": 100}
+      {"species": "Dodrio", "gender": "M", "item": "Choice Band", "ability": "Early Bird", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brave Bird", "Knock Off", "Quick Attack", "Return"], "happiness": 255},
+      {"species": "Cacturne", "gender": "M", "item": "Life Orb", "ability": "Water Absorb", "evs": {"atk": 40, "spa": 252, "spe": 216}, "nature": "Rash", "ivs": {"hp": 29}, "moves": ["Dark Pulse", "Focus Blast", "Giga Drain", "Sucker Punch"]},
+      {"species": "Golem", "gender": "M", "item": "Weakness Policy", "ability": "Sturdy", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Stealth Rock", "Stone Edge", "Sucker Punch"]},
+      {"species": "Mawile", "gender": "M", "item": "Life Orb", "ability": "Sheer Force", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "ivs": {"hp": 29}, "moves": ["Iron Head", "Play Rough", "Sucker Punch", "Swords Dance"]},
+      {"species": "Mr. Mime", "gender": "M", "item": "Choice Scarf", "ability": "Soundproof", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dazzling Gleam", "Focus Blast", "Healing Wish", "Psychic"]},
+      {"species": "Rotom-Fan", "item": "Leftovers", "ability": "Levitate", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30, "spa": 30}, "moves": ["Air Slash", "Hidden Power Water", "Thunderbolt", "Will-O-Wisp"]}
     ]
   },
   {
     "name": "Stout-Muk Balance",
     "author": "Megazard",
     "data": [
-      {"name": "stoutland", "species": "stoutland", "gender": "M", "item": "choiceband", "ability": "scrappy", "happiness": 0, "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["facade", "frustration", "pursuit", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mrmime", "species": "mrmime", "gender": "M", "item": "twistedspoon", "ability": "soundproof", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "focusblast", "nastyplot", "psyshock"], "level": 100},
-      {"name": "muk", "species": "muk", "gender": "M", "item": "blacksludge", "ability": "stickyhold", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 4}, "moves": ["curse", "poisonjab", "rest", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "prinplup", "species": "prinplup", "gender": "M", "item": "eviolite", "ability": "torrent", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 0, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "scald", "signalbeam", "yawn"], "level": 100},
-      {"name": "probopass", "species": "probopass", "gender": "M", "item": "airballoon", "ability": "magnetpull", "evs": {"hp": 168, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 88}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "flashcannon", "stealthrock", "voltswitch"], "level": 100},
-      {"name": "zebstrika", "species": "zebstrika", "gender": "M", "item": "lifeorb", "ability": "lightningrod", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "moves": ["hiddenpowergrass", "overheat", "thunderbolt", "voltswitch"], "level": 100}
+      {"species": "Stoutland", "gender": "M", "item": "Choice Band", "ability": "Scrappy", "happiness": 0, "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Jolly", "moves": ["Facade", "Frustration", "Pursuit", "Superpower"]},
+      {"species": "Mr. Mime", "gender": "M", "item": "Twisted Spoon", "ability": "Soundproof", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dazzling Gleam", "Focus Blast", "Nasty Plot", "Psyshock"]},
+      {"species": "Muk", "gender": "M", "item": "Black Sludge", "ability": "Sticky Hold", "evs": {"hp": 252, "spd": 252, "spe": 4}, "nature": "Careful", "moves": ["Curse", "Poison Jab", "Rest", "Sleep Talk"]},
+      {"species": "Prinplup", "gender": "M", "item": "Eviolite", "ability": "Torrent", "evs": {"hp": 248, "def": 252, "spe": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Defog", "Scald", "Signal Beam", "Yawn"]},
+      {"species": "Probopass", "gender": "M", "item": "Air Balloon", "ability": "Magnet Pull", "evs": {"hp": 168, "spa": 252, "spe": 88}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Flash Cannon", "Stealth Rock", "Volt Switch"]},
+      {"species": "Zebstrika", "gender": "M", "item": "Life Orb", "ability": "Lightning Rod", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "spa": 30}, "moves": ["Hidden Power Grass", "Overheat", "Thunderbolt", "Volt Switch"]}
     ]
   },
   {
     "name": "Monferno Offense",
     "author": "2xTheTap",
     "data": [
-      {"name": "mrmime", "species": "mrmime", "gender": "M", "item": "lifeorb", "ability": "soundproof", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 29, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "focusblast", "futuresight", "healingwish"], "level": 100},
-      {"name": "dusknoir", "species": "dusknoir", "gender": "M", "item": "lifeorb", "ability": "frisk", "evs": {"hp": 192, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 64}, "moves": ["earthquake", "icepunch", "pursuit", "shadowsneak"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "weaknesspolicy", "ability": "sturdy", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "stealthrock", "stoneedge", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "leafeon", "species": "leafeon", "gender": "M", "item": "yacheberry", "ability": "chlorophyll", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["knockoff", "leafblade", "sunnyday", "synthesis"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "monferno", "species": "monferno", "gender": "M", "item": "eviolite", "ability": "ironfist", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["closecombat", "flareblitz", "machpunch", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "rotomfrost", "species": "rotomfrost", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["blizzard", "thunderbolt", "trick", "voltswitch"], "level": 100}
+      {"species": "Mr. Mime", "gender": "M", "item": "Life Orb", "ability": "Soundproof", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"hp": 29, "atk": 0}, "moves": ["Dazzling Gleam", "Focus Blast", "Future Sight", "Healing Wish"]},
+      {"species": "Dusknoir", "gender": "M", "item": "Life Orb", "ability": "Frisk", "evs": {"hp": 192, "atk": 252, "spe": 64}, "nature": "Adamant", "moves": ["Earthquake", "Ice Punch", "Pursuit", "Shadow Sneak"]},
+      {"species": "Golem", "gender": "M", "item": "Weakness Policy", "ability": "Sturdy", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Stealth Rock", "Stone Edge", "Sucker Punch"]},
+      {"species": "Leafeon", "gender": "M", "item": "Yache Berry", "ability": "Chlorophyll", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Knock Off", "Leaf Blade", "Sunny Day", "Synthesis"]},
+      {"species": "Monferno", "gender": "M", "item": "Eviolite", "ability": "Iron Fist", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Close Combat", "Flare Blitz", "Mach Punch", "Swords Dance"]},
+      {"species": "Rotom-Frost", "item": "Choice Scarf", "ability": "Levitate", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Blizzard", "Thunderbolt", "Trick", "Volt Switch"]}
     ]
   },
   {
     "name": "Crutch",
     "author": "RawMelon",
     "data": [
-      {"name": "monferno", "species": "monferno", "gender": "M", "item": "eviolite", "ability": "ironfist", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["closecombat", "firepunch", "machpunch", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "bouffalant", "species": "bouffalant", "gender": "M", "item": "assaultvest", "ability": "sapsipper", "happiness": 0, "evs": {"hp": 248, "atk": 252, "def": 0, "spa": 0, "spd": 8, "spe": 0}, "moves": ["earthquake", "facade", "frustration", "pursuit"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "floatzel", "species": "floatzel", "gender": "M", "item": "choicescarf", "ability": "waterveil", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["hiddenpowergrass", "hydropump", "icebeam", "switcheroo"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "level": 100},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "weaknesspolicy", "ability": "sturdy", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "rockblast", "stealthrock", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "grumpig", "species": "grumpig", "gender": "M", "item": "colburberry", "ability": "thickfat", "evs": {"hp": 80, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 176}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "psychic", "taunt", "thunderwave"], "level": 100},
-      {"name": "rotomfrost", "species": "rotomfrost", "item": "leftovers", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["blizzard", "substitute", "thunderbolt", "willowisp"], "level": 100}
+      {"species": "Monferno", "gender": "M", "item": "Eviolite", "ability": "Iron Fist", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Close Combat", "Fire Punch", "Mach Punch", "Swords Dance"]},
+      {"species": "Bouffalant", "gender": "M", "item": "Assault Vest", "ability": "Sap Sipper", "happiness": 0, "evs": {"hp": 248, "atk": 252, "spd": 8}, "nature": "Adamant", "moves": ["Earthquake", "Facade", "Frustration", "Pursuit"]},
+      {"species": "Floatzel", "gender": "M", "item": "Choice Scarf", "ability": "Water Veil", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "moves": ["Hidden Power Grass", "Hydro Pump", "Ice Beam", "Switcheroo"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Golem", "gender": "M", "item": "Weakness Policy", "ability": "Sturdy", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Rock Blast", "Stealth Rock", "Sucker Punch"]},
+      {"species": "Grumpig", "gender": "M", "item": "Colbur Berry", "ability": "Thick Fat", "evs": {"hp": 80, "spa": 252, "spe": 176}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Psychic", "Taunt", "Thunder Wave"]},
+      {"species": "Rotom-Frost", "item": "Leftovers", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Blizzard", "Substitute", "Thunderbolt", "Will-O-Wisp"]}
     ]
   }
 ]

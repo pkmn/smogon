@@ -3,48 +3,48 @@
     "name": "Roar Suicune",
     "author": "Adaam",
     "data": [
-      {"name": "suicune", "species": "suicune", "item": "leftovers", "ability": "pressure", "evs": {"hp": 252, "atk": 0, "def": 180, "spa": 0, "spd": 0, "spe": 76}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "rest", "roar", "scald"], "level": 100},
-      {"name": "aerodactyl", "species": "aerodactyl", "gender": "M", "item": "aerodactylite", "ability": "rockhead", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["aerialace", "earthquake", "pursuit", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "bronzong", "species": "bronzong", "item": "leftovers", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["protect", "psywave", "stealthrock", "toxic"], "level": 100},
-      {"name": "florges", "species": "florges", "item": "leftovers", "ability": "flowerveil", "evs": {"hp": 252, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["healbell", "moonblast", "synthesis", "wish"], "level": 100},
-      {"name": "krookodile", "species": "krookodile", "gender": "M", "item": "choiceband", "ability": "intimidate", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "knockoff", "pursuit", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tentacruel", "species": "tentacruel", "gender": "M", "item": "blacksludge", "ability": "liquidooze", "evs": {"hp": 252, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 16}, "moves": ["haze", "knockoff", "rapidspin", "scald"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Suicune", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 252, "def": 180, "spe": 76}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Rest", "Roar", "Scald"]},
+      {"species": "Aerodactyl", "gender": "M", "item": "Aerodactylite", "ability": "Rock Head", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Aerial Ace", "Earthquake", "Pursuit", "Stone Edge"]},
+      {"species": "Bronzong", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "ivs": {"atk": 0}, "moves": ["Protect", "Psywave", "Stealth Rock", "Toxic"]},
+      {"species": "Florges", "item": "Leftovers", "ability": "Flower Veil", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Heal Bell", "Moonblast", "Synthesis", "Wish"]},
+      {"species": "Krookodile", "gender": "M", "item": "Choice Band", "ability": "Intimidate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Knock Off", "Pursuit", "Superpower"]},
+      {"species": "Tentacruel", "gender": "M", "item": "Black Sludge", "ability": "Liquid Ooze", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Bold", "moves": ["Haze", "Knock Off", "Rapid Spin", "Scald"]}
     ]
   },
   {
     "name": "AV Mienshao + CB Metagross",
     "author": "Wanka",
     "data": [
-      {"name": "mienshao", "species": "mienshao", "gender": "M", "item": "assaultvest", "ability": "regenerator", "evs": {"hp": 100, "atk": 0, "def": 0, "spa": 0, "spd": 192, "spe": 216}, "moves": ["highjumpkick", "knockoff", "poisonjab", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "aerodactyl", "species": "aerodactyl", "gender": "M", "item": "aerodactylite", "ability": "rockhead", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["aerialace", "crunch", "pursuit", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "empoleon", "species": "empoleon", "gender": "M", "item": "leftovers", "ability": "torrent", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "roar", "scald", "signalbeam"], "level": 100},
-      {"name": "krookodile", "species": "krookodile", "gender": "M", "item": "rockyhelmet", "ability": "intimidate", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "knockoff", "stealthrock", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "metagross", "species": "metagross", "item": "choiceband", "ability": "clearbody", "evs": {"hp": 120, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 136}, "moves": ["earthquake", "meteormash", "trick", "zenheadbutt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "slowking", "species": "slowking", "gender": "M", "item": "colburberry", "ability": "regenerator", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 4, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["psychic", "scald", "slackoff", "toxic"], "level": 100}
+      {"species": "Mienshao", "gender": "M", "item": "Assault Vest", "ability": "Regenerator", "evs": {"hp": 100, "spd": 192, "spe": 216}, "nature": "Jolly", "moves": ["High Jump Kick", "Knock Off", "Poison Jab", "U-turn"]},
+      {"species": "Aerodactyl", "gender": "M", "item": "Aerodactylite", "ability": "Rock Head", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Aerial Ace", "Crunch", "Pursuit", "Stone Edge"]},
+      {"species": "Empoleon", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 248, "spd": 252, "spe": 8}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Defog", "Roar", "Scald", "Signal Beam"]},
+      {"species": "Krookodile", "gender": "M", "item": "Rocky Helmet", "ability": "Intimidate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Knock Off", "Stealth Rock", "Taunt"]},
+      {"species": "Metagross", "item": "Choice Band", "ability": "Clear Body", "evs": {"hp": 120, "atk": 252, "spe": 136}, "nature": "Adamant", "moves": ["Earthquake", "Meteor Mash", "Trick", "Zen Headbutt"]},
+      {"species": "Slowking", "gender": "M", "item": "Colbur Berry", "ability": "Regenerator", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Psychic", "Scald", "Slack Off", "Toxic"]}
     ]
   },
   {
     "name": "SubRoost Kyurem",
     "author": "Wanka",
     "data": [
-      {"name": "kyurem", "species": "kyurem", "item": "leftovers", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "icebeam", "roost", "substitute"], "level": 100},
-      {"name": "aerodactyl", "species": "aerodactyl", "gender": "M", "item": "aerodactylite", "ability": "rockhead", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["aerialace", "crunch", "pursuit", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "empoleon", "species": "empoleon", "gender": "M", "item": "leftovers", "ability": "torrent", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "roar", "scald", "signalbeam"], "level": 100},
-      {"name": "nidoqueen", "species": "nidoqueen", "item": "lifeorb", "ability": "sheerforce", "evs": {"hp": 56, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 200}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "icebeam", "sludgewave", "stealthrock"], "level": 100},
-      {"name": "slowking", "species": "slowking", "gender": "M", "item": "colburberry", "ability": "regenerator", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 4, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "psyshock", "scald", "slackoff"], "level": 100},
-      {"name": "whimsicott", "species": "whimsicott", "gender": "M", "item": "leftovers", "ability": "prankster", "evs": {"hp": 248, "atk": 0, "def": 68, "spa": 0, "spd": 0, "spe": 192}, "moves": ["leechseed", "moonblast", "taunt", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Kyurem", "item": "Leftovers", "ability": "Pressure", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Earth Power", "Ice Beam", "Roost", "Substitute"]},
+      {"species": "Aerodactyl", "gender": "M", "item": "Aerodactylite", "ability": "Rock Head", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Aerial Ace", "Crunch", "Pursuit", "Stone Edge"]},
+      {"species": "Empoleon", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 248, "spd": 252, "spe": 8}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Defog", "Roar", "Scald", "Signal Beam"]},
+      {"species": "Nidoqueen", "item": "Life Orb", "ability": "Sheer Force", "evs": {"hp": 56, "spa": 252, "spe": 200}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Ice Beam", "Sludge Wave", "Stealth Rock"]},
+      {"species": "Slowking", "gender": "M", "item": "Colbur Berry", "ability": "Regenerator", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Psyshock", "Scald", "Slack Off"]},
+      {"species": "Whimsicott", "gender": "M", "item": "Leftovers", "ability": "Prankster", "evs": {"hp": 248, "def": 68, "spe": 192}, "nature": "Timid", "moves": ["Leech Seed", "Moonblast", "Taunt", "U-turn"]}
     ]
   },
   {
     "name": "Leech Seed Mega Sceptile",
     "author": "KillinTime",
     "data": [
-      {"name": "sceptile", "species": "sceptile", "gender": "M", "item": "sceptilite", "ability": "overgrow", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dragonpulse", "focusblast", "leafstorm", "leechseed"], "level": 100},
-      {"name": "florges", "species": "florges", "item": "leftovers", "ability": "flowerveil", "evs": {"hp": 252, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["aromatherapy", "moonblast", "synthesis", "wish"], "level": 100},
-      {"name": "mandibuzz", "species": "mandibuzz", "item": "leftovers", "ability": "overcoat", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 208, "spe": 48}, "moves": ["defog", "foulplay", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "metagross", "species": "metagross", "item": "leftovers", "ability": "clearbody", "evs": {"hp": 248, "atk": 108, "def": 96, "spa": 0, "spd": 0, "spe": 56}, "moves": ["earthquake", "meteormash", "protect", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mienshao", "species": "mienshao", "gender": "M", "item": "assaultvest", "ability": "regenerator", "evs": {"hp": 100, "atk": 0, "def": 0, "spa": 0, "spd": 192, "spe": 216}, "moves": ["highjumpkick", "knockoff", "poisonjab", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "seismitoad", "species": "seismitoad", "gender": "M", "item": "leftovers", "ability": "waterabsorb", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["knockoff", "scald", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Sceptile", "gender": "M", "item": "Sceptilite", "ability": "Overgrow", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dragon Pulse", "Focus Blast", "Leaf Storm", "Leech Seed"]},
+      {"species": "Florges", "item": "Leftovers", "ability": "Flower Veil", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Aromatherapy", "Moonblast", "Synthesis", "Wish"]},
+      {"species": "Mandibuzz", "item": "Leftovers", "ability": "Overcoat", "evs": {"hp": 252, "spd": 208, "spe": 48}, "nature": "Careful", "moves": ["Defog", "Foul Play", "Roost", "U-turn"]},
+      {"species": "Metagross", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 248, "atk": 108, "def": 96, "spe": 56}, "nature": "Impish", "moves": ["Earthquake", "Meteor Mash", "Protect", "Toxic"]},
+      {"species": "Mienshao", "gender": "M", "item": "Assault Vest", "ability": "Regenerator", "evs": {"hp": 100, "spd": 192, "spe": 216}, "nature": "Jolly", "moves": ["High Jump Kick", "Knock Off", "Poison Jab", "U-turn"]},
+      {"species": "Seismitoad", "gender": "M", "item": "Leftovers", "ability": "Water Absorb", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Relaxed", "moves": ["Knock Off", "Scald", "Stealth Rock", "Toxic"]}
     ]
   }
 ]

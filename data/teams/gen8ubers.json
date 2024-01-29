@@ -2,111 +2,111 @@
   {
     "name": "Xerneas + Darmanitan-G Magnezone Balance",
     "data": [
-      {"name": "xerneas", "species": "xerneas", "item": "powerherb", "ability": "fairyaura", "evs": {"hp": 0, "atk": 0, "def": 168, "spa": 252, "spd": 0, "spe": 88}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "geomancy", "moonblast", "thunder"], "level": 100},
-      {"name": "darmanitangalar", "species": "darmanitangalar", "gender": "M", "item": "choicescarf", "ability": "gorillatactics", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "iciclecrash", "rockslide", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "eternatus", "species": "eternatus", "item": "heavydutyboots", "ability": "pressure", "evs": {"hp": 164, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 92}, "moves": ["dynamaxcannon", "mysticalfire", "recover", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magnezone", "species": "magnezone", "item": "airballoon", "ability": "magnetpull", "evs": {"hp": 4, "atk": 0, "def": 252, "spa": 0, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bodypress", "irondefense", "magnetrise", "thunderwave"], "level": 100},
-      {"name": "necrozmaduskmane", "species": "necrozmaduskmane", "item": "leftovers", "ability": "prismarmor", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 216, "spe": 40}, "moves": ["morningsun", "stealthrock", "sunsteelstrike", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "heavydutyboots", "ability": "darkaura", "evs": {"hp": 72, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 184}, "moves": ["defog", "foulplay", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 168, "spa": 252, "spe": 88}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Geomancy", "Moonblast", "Thunder"]},
+      {"species": "Darmanitan-Galar", "gender": "M", "item": "Choice Scarf", "ability": "Gorilla Tactics", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Icicle Crash", "Rock Slide", "U-turn"]},
+      {"species": "Eternatus", "item": "Heavy-Duty Boots", "ability": "Pressure", "evs": {"hp": 164, "spd": 252, "spe": 92}, "nature": "Timid", "moves": ["Dynamax Cannon", "Mystical Fire", "Recover", "Toxic"]},
+      {"species": "Magnezone", "item": "Air Balloon", "ability": "Magnet Pull", "evs": {"hp": 4, "def": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Body Press", "Iron Defense", "Magnet Rise", "Thunder Wave"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Leftovers", "ability": "Prism Armor", "evs": {"hp": 252, "spd": 216, "spe": 40}, "nature": "Careful", "moves": ["Morning Sun", "Stealth Rock", "Sunsteel Strike", "Thunder Wave"]},
+      {"species": "Yveltal", "item": "Heavy-Duty Boots", "ability": "Dark Aura", "evs": {"hp": 72, "spd": 252, "spe": 184}, "nature": "Jolly", "moves": ["Defog", "Foul Play", "Roost", "U-turn"]}
     ]
   },
   {
     "name": "Sun Ho-Oh + Marshadow Offense",
     "data": [
-      {"name": "hooh", "species": "hooh", "item": "heavydutyboots", "ability": "regenerator", "evs": {"hp": 248, "atk": 192, "def": 0, "spa": 0, "spd": 52, "spe": 16}, "moves": ["bravebird", "sacredfire", "thunderwave", "whirlwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "eternatus", "species": "eternatus", "item": "shucaberry", "ability": "pressure", "evs": {"hp": 40, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 216}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dynamaxcannon", "mysticalfire", "recover", "toxic"], "level": 100},
-      {"name": "groudon", "species": "groudon", "item": "leftovers", "ability": "drought", "evs": {"hp": 252, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 16}, "moves": ["precipiceblades", "stealthrock", "stoneedge", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "marshadow", "species": "marshadow", "item": "lifeorb", "ability": "technician", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["icepunch", "lowkick", "shadowsneak", "spectralthief"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "necrozmaduskmane", "species": "necrozmaduskmane", "item": "leftovers", "ability": "prismarmor", "evs": {"hp": 136, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 120}, "moves": ["dragondance", "knockoff", "moonlight", "sunsteelstrike"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "heavydutyboots", "ability": "darkaura", "evs": {"hp": 16, "atk": 0, "def": 0, "spa": 0, "spd": 240, "spe": 252}, "moves": ["defog", "knockoff", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Ho-Oh", "item": "Heavy-Duty Boots", "ability": "Regenerator", "evs": {"hp": 248, "atk": 192, "spd": 52, "spe": 16}, "nature": "Adamant", "moves": ["Brave Bird", "Sacred Fire", "Thunder Wave", "Whirlwind"]},
+      {"species": "Eternatus", "item": "Shuca Berry", "ability": "Pressure", "evs": {"hp": 40, "spd": 252, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dynamax Cannon", "Mystical Fire", "Recover", "Toxic"]},
+      {"species": "Groudon", "item": "Leftovers", "ability": "Drought", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Impish", "moves": ["Precipice Blades", "Stealth Rock", "Stone Edge", "Toxic"]},
+      {"species": "Marshadow", "item": "Life Orb", "ability": "Technician", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Punch", "Low Kick", "Shadow Sneak", "Spectral Thief"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Leftovers", "ability": "Prism Armor", "evs": {"hp": 136, "spd": 252, "spe": 120}, "nature": "Careful", "moves": ["Dragon Dance", "Knock Off", "Moonlight", "Sunsteel Strike"]},
+      {"species": "Yveltal", "item": "Heavy-Duty Boots", "ability": "Dark Aura", "evs": {"hp": 16, "spd": 240, "spe": 252}, "nature": "Timid", "moves": ["Defog", "Knock Off", "Roost", "U-turn"]}
     ]
   },
   {
     "name": "Zekrom + Encore Calyrex-S HO",
     "data": [
-      {"name": "aerodactyl", "species": "aerodactyl", "gender": "M", "item": "focussash", "ability": "unnerve", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["rocktomb", "stealthrock", "tailwind", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "calyrexshadow", "species": "calyrexshadow", "item": "focussash", "ability": "asonespectrier", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["astralbarrage", "drainingkiss", "encore", "nastyplot"], "level": 100},
-      {"name": "eternatus", "species": "eternatus", "item": "powerherb", "ability": "pressure", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["dynamaxcannon", "flamethrower", "meteorbeam", "sludgebomb"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "necrozmaduskmane", "species": "necrozmaduskmane", "item": "lumberry", "ability": "prismarmor", "evs": {"hp": 80, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 176}, "moves": ["dragondance", "knockoff", "stoneedge", "sunsteelstrike"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "lifeorb", "ability": "darkaura", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["darkpulse", "oblivionwing", "suckerpunch", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zekrom", "species": "zekrom", "item": "lifeorb", "ability": "teravolt", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["boltstrike", "dracometeor", "dragonclaw", "dragondance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Aerodactyl", "gender": "M", "item": "Focus Sash", "ability": "Unnerve", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Jolly", "moves": ["Rock Tomb", "Stealth Rock", "Tailwind", "Taunt"]},
+      {"species": "Calyrex-Shadow", "item": "Focus Sash", "ability": "As One (Spectrier)", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Astral Barrage", "Draining Kiss", "Encore", "Nasty Plot"]},
+      {"species": "Eternatus", "item": "Power Herb", "ability": "Pressure", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "moves": ["Dynamax Cannon", "Flamethrower", "Meteor Beam", "Sludge Bomb"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Lum Berry", "ability": "Prism Armor", "evs": {"hp": 80, "atk": 252, "spe": 176}, "nature": "Adamant", "moves": ["Dragon Dance", "Knock Off", "Stone Edge", "Sunsteel Strike"]},
+      {"species": "Yveltal", "item": "Life Orb", "ability": "Dark Aura", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Dark Pulse", "Oblivion Wing", "Sucker Punch", "Taunt"]},
+      {"species": "Zekrom", "item": "Life Orb", "ability": "Teravolt", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bolt Strike", "Draco Meteor", "Dragon Claw", "Dragon Dance"]}
     ]
   },
   {
     "name": "Zekrom + Specs Calyrex-S Balance",
     "data": [
-      {"name": "xerneas", "species": "xerneas", "item": "airballoon", "ability": "fairyaura", "evs": {"hp": 192, "atk": 0, "def": 252, "spa": 0, "spd": 0, "spe": 64}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["aromatherapy", "moonblast", "rest", "sleeptalk"], "level": 100},
-      {"name": "calyrexshadow", "species": "calyrexshadow", "item": "choicespecs", "ability": "asonespectrier", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["astralbarrage", "nastyplot", "psyshock", "trick"], "level": 100},
-      {"name": "eternatus", "species": "eternatus", "item": "ejectpack", "ability": "pressure", "evs": {"hp": 164, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 92}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "mysticalfire", "recover", "sludgebomb"], "level": 100},
-      {"name": "necrozmaduskmane", "species": "necrozmaduskmane", "item": "leftovers", "ability": "prismarmor", "evs": {"hp": 216, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 40}, "moves": ["ironhead", "moonlight", "stealthrock", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "heavydutyboots", "ability": "darkaura", "evs": {"hp": 16, "atk": 0, "def": 0, "spa": 0, "spd": 240, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "foulplay", "roost", "taunt"], "level": 100},
-      {"name": "zekrom", "species": "zekrom", "item": "habanberry", "ability": "teravolt", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["boltstrike", "dragonclaw", "dragondance", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Xerneas", "item": "Air Balloon", "ability": "Fairy Aura", "evs": {"hp": 192, "def": 252, "spe": 64}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Aromatherapy", "Moonblast", "Rest", "Sleep Talk"]},
+      {"species": "Calyrex-Shadow", "item": "Choice Specs", "ability": "As One (Spectrier)", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Astral Barrage", "Nasty Plot", "Psyshock", "Trick"]},
+      {"species": "Eternatus", "item": "Eject Pack", "ability": "Pressure", "evs": {"hp": 164, "spd": 252, "spe": 92}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Mystical Fire", "Recover", "Sludge Bomb"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Leftovers", "ability": "Prism Armor", "evs": {"hp": 216, "spd": 252, "spe": 40}, "nature": "Careful", "moves": ["Iron Head", "Moonlight", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Yveltal", "item": "Heavy-Duty Boots", "ability": "Dark Aura", "evs": {"hp": 16, "spd": 240, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Defog", "Foul Play", "Roost", "Taunt"]},
+      {"species": "Zekrom", "item": "Haban Berry", "ability": "Teravolt", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bolt Strike", "Dragon Claw", "Dragon Dance", "Roost"]}
     ]
   },
   {
     "name": "Groudon + Trick NP Calyrex-S Balance",
     "data": [
-      {"name": "xerneas", "species": "xerneas", "item": "airballoon", "ability": "fairyaura", "evs": {"hp": 192, "atk": 0, "def": 252, "spa": 0, "spd": 0, "spe": 64}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["aromatherapy", "moonblast", "rest", "sleeptalk"], "level": 100},
-      {"name": "calyrexshadow", "species": "calyrexshadow", "item": "choicespecs", "ability": "asonespectrier", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["astralbarrage", "nastyplot", "psyshock", "trick"], "level": 100},
-      {"name": "eternatus", "species": "eternatus", "item": "heavydutyboots", "ability": "pressure", "evs": {"hp": 40, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 216}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dynamaxcannon", "mysticalfire", "recover", "toxic"], "level": 100},
-      {"name": "groudon", "species": "groudon", "item": "leftovers", "ability": "drought", "evs": {"hp": 104, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 152}, "moves": ["heatcrash", "precipiceblades", "stoneedge", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "necrozmaduskmane", "species": "necrozmaduskmane", "item": "leftovers", "ability": "prismarmor", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 136, "spe": 120}, "moves": ["ironhead", "morningsun", "stealthrock", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "heavydutyboots", "ability": "darkaura", "evs": {"hp": 72, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 184}, "moves": ["defog", "knockoff", "roost", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Xerneas", "item": "Air Balloon", "ability": "Fairy Aura", "evs": {"hp": 192, "def": 252, "spe": 64}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Aromatherapy", "Moonblast", "Rest", "Sleep Talk"]},
+      {"species": "Calyrex-Shadow", "item": "Choice Specs", "ability": "As One (Spectrier)", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Astral Barrage", "Nasty Plot", "Psyshock", "Trick"]},
+      {"species": "Eternatus", "item": "Heavy-Duty Boots", "ability": "Pressure", "evs": {"hp": 40, "spd": 252, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dynamax Cannon", "Mystical Fire", "Recover", "Toxic"]},
+      {"species": "Groudon", "item": "Leftovers", "ability": "Drought", "evs": {"hp": 104, "atk": 252, "spe": 152}, "nature": "Adamant", "moves": ["Heat Crash", "Precipice Blades", "Stone Edge", "Swords Dance"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Leftovers", "ability": "Prism Armor", "evs": {"hp": 252, "spd": 136, "spe": 120}, "nature": "Careful", "moves": ["Iron Head", "Morning Sun", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Yveltal", "item": "Heavy-Duty Boots", "ability": "Dark Aura", "evs": {"hp": 72, "spd": 252, "spe": 184}, "nature": "Jolly", "moves": ["Defog", "Knock Off", "Roost", "Sucker Punch"]}
     ]
   },
   {
     "name": "Specs Calyrex-S Offensive Groudon BO",
     "data": [
-      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "moves": ["curse", "knockoff", "leechseed", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "calyrexshadow", "species": "calyrexshadow", "item": "choicespecs", "ability": "asonespectrier", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["aromatherapy", "astralbarrage", "psyshock", "trick"], "level": 100},
-      {"name": "eternatus", "species": "eternatus", "item": "airballoon", "ability": "pressure", "evs": {"hp": 248, "atk": 0, "def": 44, "spa": 0, "spd": 0, "spe": 216}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "flamethrower", "recover", "toxic"], "level": 100},
-      {"name": "groudon", "species": "groudon", "item": "leftovers", "ability": "drought", "evs": {"hp": 248, "atk": 108, "def": 0, "spa": 0, "spd": 0, "spe": 152}, "moves": ["heatcrash", "precipiceblades", "rocktomb", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "necrozmaduskmane", "species": "necrozmaduskmane", "item": "colburberry", "ability": "prismarmor", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 136, "spe": 120}, "moves": ["dragondance", "knockoff", "moonlight", "sunsteelstrike"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "heavydutyboots", "ability": "darkaura", "evs": {"hp": 248, "atk": 0, "def": 112, "spa": 0, "spd": 68, "spe": 80}, "moves": ["defog", "foulplay", "knockoff", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "moves": ["Curse", "Knock Off", "Leech Seed", "Stealth Rock"]},
+      {"species": "Calyrex-Shadow", "item": "Choice Specs", "ability": "As One (Spectrier)", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Aromatherapy", "Astral Barrage", "Psyshock", "Trick"]},
+      {"species": "Eternatus", "item": "Air Balloon", "ability": "Pressure", "evs": {"hp": 248, "def": 44, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Flamethrower", "Recover", "Toxic"]},
+      {"species": "Groudon", "item": "Leftovers", "ability": "Drought", "evs": {"hp": 248, "atk": 108, "spe": 152}, "nature": "Adamant", "moves": ["Heat Crash", "Precipice Blades", "Rock Tomb", "Swords Dance"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Colbur Berry", "ability": "Prism Armor", "evs": {"hp": 252, "spd": 136, "spe": 120}, "nature": "Careful", "moves": ["Dragon Dance", "Knock Off", "Moonlight", "Sunsteel Strike"]},
+      {"species": "Yveltal", "item": "Heavy-Duty Boots", "ability": "Dark Aura", "evs": {"hp": 248, "def": 112, "spd": 68, "spe": 80}, "nature": "Careful", "moves": ["Defog", "Foul Play", "Knock Off", "Roost"]}
     ]
   },
   {
     "name": "RestTalk Kyogre + Marshadow Spikes",
     "data": [
-      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bodypress", "irondefense", "leechseed", "spikes"], "level": 100},
-      {"name": "eternatus", "species": "eternatus", "item": "heavydutyboots", "ability": "pressure", "evs": {"hp": 40, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 216}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dynamaxcannon", "flamethrower", "recover", "sludgebomb"], "level": 100},
-      {"name": "kyogre", "species": "kyogre", "item": "leftovers", "ability": "drizzle", "evs": {"hp": 252, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "rest", "scald", "sleeptalk"], "level": 100},
-      {"name": "marshadow", "species": "marshadow", "item": "lifeorb", "ability": "technician", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["icepunch", "lowkick", "shadowsneak", "spectralthief"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "necrozmaduskmane", "species": "necrozmaduskmane", "item": "leftovers", "ability": "prismarmor", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 136, "spe": 120}, "moves": ["ironhead", "moonlight", "stealthrock", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "heavydutyboots", "ability": "darkaura", "evs": {"hp": 16, "atk": 0, "def": 0, "spa": 0, "spd": 240, "spe": 252}, "moves": ["knockoff", "roost", "suckerpunch", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Body Press", "Iron Defense", "Leech Seed", "Spikes"]},
+      {"species": "Eternatus", "item": "Heavy-Duty Boots", "ability": "Pressure", "evs": {"hp": 40, "spd": 252, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dynamax Cannon", "Flamethrower", "Recover", "Sludge Bomb"]},
+      {"species": "Kyogre", "item": "Leftovers", "ability": "Drizzle", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Rest", "Scald", "Sleep Talk"]},
+      {"species": "Marshadow", "item": "Life Orb", "ability": "Technician", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Punch", "Low Kick", "Shadow Sneak", "Spectral Thief"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Leftovers", "ability": "Prism Armor", "evs": {"hp": 252, "spd": 136, "spe": 120}, "nature": "Careful", "moves": ["Iron Head", "Moonlight", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Yveltal", "item": "Heavy-Duty Boots", "ability": "Dark Aura", "evs": {"hp": 16, "spd": 240, "spe": 252}, "nature": "Jolly", "moves": ["Knock Off", "Roost", "Sucker Punch", "Taunt"]}
     ]
   },
   {
     "name": "Weavile + Offensive Kyogre Spikes",
     "data": [
-      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bodypress", "irondefense", "leechseed", "spikes"], "level": 100},
-      {"name": "eternatus", "species": "eternatus", "item": "habanberry", "ability": "pressure", "evs": {"hp": 40, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 216}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dynamaxcannon", "flamethrower", "recover", "toxic"], "level": 100},
-      {"name": "kyogre", "species": "kyogre", "item": "leftovers", "ability": "drizzle", "evs": {"hp": 104, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 152}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "icebeam", "originpulse", "thunder"], "level": 100},
-      {"name": "necrozmaduskmane", "species": "necrozmaduskmane", "item": "leftovers", "ability": "prismarmor", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 216, "spe": 40}, "moves": ["knockoff", "moonlight", "stealthrock", "sunsteelstrike"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weavile", "species": "weavile", "gender": "M", "item": "heavydutyboots", "ability": "pressure", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["iceshard", "knockoff", "swordsdance", "tripleaxel"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "heavydutyboots", "ability": "darkaura", "evs": {"hp": 16, "atk": 0, "def": 0, "spa": 0, "spd": 240, "spe": 252}, "moves": ["knockoff", "roost", "suckerpunch", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Body Press", "Iron Defense", "Leech Seed", "Spikes"]},
+      {"species": "Eternatus", "item": "Haban Berry", "ability": "Pressure", "evs": {"hp": 40, "spd": 252, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dynamax Cannon", "Flamethrower", "Recover", "Toxic"]},
+      {"species": "Kyogre", "item": "Leftovers", "ability": "Drizzle", "evs": {"hp": 104, "spa": 252, "spe": 152}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Ice Beam", "Origin Pulse", "Thunder"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Leftovers", "ability": "Prism Armor", "evs": {"hp": 252, "spd": 216, "spe": 40}, "nature": "Careful", "moves": ["Knock Off", "Moonlight", "Stealth Rock", "Sunsteel Strike"]},
+      {"species": "Weavile", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Pressure", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Knock Off", "Swords Dance", "Triple Axel"]},
+      {"species": "Yveltal", "item": "Heavy-Duty Boots", "ability": "Dark Aura", "evs": {"hp": 16, "spd": 240, "spe": 252}, "nature": "Jolly", "moves": ["Knock Off", "Roost", "Sucker Punch", "Taunt"]}
     ]
   },
   {
     "name": "LO Marshadow + CM Offensive Kyogre Balance",
     "data": [
-      {"name": "landorustherian", "species": "landorustherian", "item": "leftovers", "ability": "intimidate", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 0, "spe": 8}, "moves": ["earthquake", "stealthrock", "toxic", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "eternatus", "species": "eternatus", "item": "heavydutyboots", "ability": "pressure", "evs": {"hp": 164, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 92}, "moves": ["dynamaxcannon", "mysticalfire", "recover", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kyogre", "species": "kyogre", "item": "lumberry", "ability": "drizzle", "evs": {"hp": 252, "atk": 0, "def": 124, "spa": 116, "spd": 0, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "icebeam", "originpulse", "thunderwave"], "level": 100},
-      {"name": "marshadow", "species": "marshadow", "item": "lifeorb", "ability": "technician", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["bulkup", "lowkick", "shadowsneak", "spectralthief"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "necrozmaduskmane", "species": "necrozmaduskmane", "item": "leftovers", "ability": "prismarmor", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 136, "spe": 120}, "moves": ["dragondance", "knockoff", "morningsun", "sunsteelstrike"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "heavydutyboots", "ability": "darkaura", "evs": {"hp": 72, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 184}, "moves": ["defog", "knockoff", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Landorus-Therian", "item": "Leftovers", "ability": "Intimidate", "evs": {"hp": 248, "def": 252, "spe": 8}, "nature": "Impish", "moves": ["Earthquake", "Stealth Rock", "Toxic", "U-turn"]},
+      {"species": "Eternatus", "item": "Heavy-Duty Boots", "ability": "Pressure", "evs": {"hp": 164, "spd": 252, "spe": 92}, "nature": "Timid", "moves": ["Dynamax Cannon", "Mystical Fire", "Recover", "Toxic"]},
+      {"species": "Kyogre", "item": "Lum Berry", "ability": "Drizzle", "evs": {"hp": 252, "def": 124, "spa": 116, "spe": 16}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Ice Beam", "Origin Pulse", "Thunder Wave"]},
+      {"species": "Marshadow", "item": "Life Orb", "ability": "Technician", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Bulk Up", "Low Kick", "Shadow Sneak", "Spectral Thief"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Leftovers", "ability": "Prism Armor", "evs": {"hp": 252, "spd": 136, "spe": 120}, "nature": "Careful", "moves": ["Dragon Dance", "Knock Off", "Morning Sun", "Sunsteel Strike"]},
+      {"species": "Yveltal", "item": "Heavy-Duty Boots", "ability": "Dark Aura", "evs": {"hp": 72, "spd": 252, "spe": 184}, "nature": "Jolly", "moves": ["Defog", "Knock Off", "Roost", "U-turn"]}
     ]
   },
   {
     "name": "Stalltwo + Offensive Groudon BO",
     "data": [
-      {"name": "mewtwo", "species": "mewtwo", "item": "leftovers", "ability": "pressure", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["psystrike", "recover", "taunt", "willowisp"], "level": 100},
-      {"name": "eternatus", "species": "eternatus", "item": "powerherb", "ability": "pressure", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 40, "spe": 216}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["cosmicpower", "dragonpulse", "meteorbeam", "recover"], "level": 100},
-      {"name": "groudon", "species": "groudon", "item": "leftovers", "ability": "drought", "evs": {"hp": 248, "atk": 108, "def": 0, "spa": 0, "spd": 0, "spe": 152}, "moves": ["earthquake", "heatcrash", "rocktomb", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "marshadow", "species": "marshadow", "item": "lifeorb", "ability": "technician", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["icepunch", "lowkick", "shadowsneak", "spectralthief"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "necrozmaduskmane", "species": "necrozmaduskmane", "item": "leftovers", "ability": "prismarmor", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 216, "spe": 40}, "moves": ["ironhead", "knockoff", "moonlight", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "heavydutyboots", "ability": "darkaura", "evs": {"hp": 248, "atk": 0, "def": 72, "spa": 0, "spd": 188, "spe": 0}, "moves": ["defog", "knockoff", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Mewtwo", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 248, "spa": 8, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Psystrike", "Recover", "Taunt", "Will-O-Wisp"]},
+      {"species": "Eternatus", "item": "Power Herb", "ability": "Pressure", "evs": {"hp": 252, "spd": 40, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Cosmic Power", "Dragon Pulse", "Meteor Beam", "Recover"]},
+      {"species": "Groudon", "item": "Leftovers", "ability": "Drought", "evs": {"hp": 248, "atk": 108, "spe": 152}, "nature": "Adamant", "moves": ["Earthquake", "Heat Crash", "Rock Tomb", "Swords Dance"]},
+      {"species": "Marshadow", "item": "Life Orb", "ability": "Technician", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Punch", "Low Kick", "Shadow Sneak", "Spectral Thief"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Leftovers", "ability": "Prism Armor", "evs": {"hp": 252, "spd": 216, "spe": 40}, "nature": "Careful", "moves": ["Iron Head", "Knock Off", "Moonlight", "Stealth Rock"]},
+      {"species": "Yveltal", "item": "Heavy-Duty Boots", "ability": "Dark Aura", "evs": {"hp": 248, "def": 72, "spd": 188}, "nature": "Careful", "moves": ["Defog", "Knock Off", "Roost", "U-turn"]}
     ]
   }
 ]

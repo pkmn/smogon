@@ -278,7 +278,7 @@ function clean(dex, validator, team) {
   const errors = validator?.validateTeam(team);
   // if (errors) throw new Error(`Invalid team:\n\n${s.trim()}\n\n===\n\n${errors.join('\n -' )}\n`);
   if (errors) throw new Error(errors.join('\n'));
-  return Team.canonicalize(team, dex).map(s => minimize(dex, s, validator?.ruleTable?.defaultLevel));
+  return Team.canonicalize(team, dex).map(s => pretty(dex, s, validator?.ruleTable?.defaultLevel));
 }
 
 function fixSet(dex, set) {
@@ -309,7 +309,7 @@ function fixSet(dex, set) {
   return set;
 }
 
-function minimize(dex, set, level) {
+function pretty(dex, set, level) {
   const base = dex.gen >= 3 ? 0 : 252;
 
   let count = 0;
@@ -332,13 +332,19 @@ function minimize(dex, set, level) {
 
   if (set.level === level) set.level = undefined;
 
+  set.species = dex.species.get(set.species).name;
+  set.moves = set.moves.map(m => dex.moves.get(m).name);
+  if (set.item) set.item = dex.items.get(set.item).name;
+  if (set.ability) set.ability = dex.abilities.get(set.ability).name;
+  if (set.nature) set.nature = dex.natures.get(set.nature).name;
+
   return set;
 }
 
 async function serialize(data, file) {
   // NOTE: This pretty stringify will result in ~10% larger files, though we don't care because
   // this will amount to significantly less after gzip and we want to have meaningful diffs
-  const json = stringify(data, {maxLength: 1000});
+  const json = stringify(data, {maxLength: 400});
   await fs.promises.writeFile(path.join(DATA, file), json);
   const compressed = await gzip(json);
   return [json.length, compressed.length];

@@ -3,60 +3,60 @@
     "name": "Lead Lovely Kiss Snorlax",
     "author": "Caetano93",
     "data": [
-      {"name": "snorlax", "species": "snorlax", "moves": ["bodyslam", "earthquake", "lovelykiss", "selfdestruct"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "chansey", "species": "chansey", "moves": ["reflect", "seismictoss", "softboiled", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hypno", "species": "hypno", "moves": ["amnesia", "icepunch", "psychic", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "persian", "species": "persian", "moves": ["amnesia", "hypnosis", "slash", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "moves": ["recover", "surf", "thunderbolt", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tauros", "species": "tauros", "moves": ["bodyslam", "earthquake", "hyperbeam", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Snorlax", "moves": ["Body Slam", "Earthquake", "Lovely Kiss", "Self-Destruct"]},
+      {"species": "Chansey", "moves": ["Reflect", "Seismic Toss", "Soft-Boiled", "Thunder Wave"]},
+      {"species": "Hypno", "moves": ["Amnesia", "Ice Punch", "Psychic", "Rest"]},
+      {"species": "Persian", "moves": ["Amnesia", "Hypnosis", "Slash", "Thunderbolt"]},
+      {"species": "Starmie", "moves": ["Recover", "Surf", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Tauros", "moves": ["Body Slam", "Earthquake", "Hyper Beam", "Surf"]}
     ]
   },
   {
     "name": "Big 6",
     "author": "Melanie",
     "data": [
-      {"name": "starmie", "species": "starmie", "ivs": {"hp": 31, "atk": 3, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["blizzard", "recover", "thunderbolt", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "chansey", "species": "chansey", "ivs": {"hp": 31, "atk": 3, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["reflect", "seismictoss", "softboiled", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "exeggutor", "species": "exeggutor", "moves": ["explosion", "megadrain", "psychic", "sleeppowder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hypno", "species": "hypno", "ivs": {"hp": 31, "atk": 3, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["amnesia", "psychic", "reflect", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "snorlax", "species": "snorlax", "moves": ["bodyslam", "earthquake", "reflect", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tauros", "species": "tauros", "moves": ["bodyslam", "earthquake", "hyperbeam", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Starmie", "ivs": {"atk": 3}, "moves": ["Blizzard", "Recover", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Chansey", "ivs": {"atk": 3}, "moves": ["Reflect", "Seismic Toss", "Soft-Boiled", "Thunder Wave"]},
+      {"species": "Exeggutor", "moves": ["Explosion", "Mega Drain", "Psychic", "Sleep Powder"]},
+      {"species": "Hypno", "ivs": {"atk": 3}, "moves": ["Amnesia", "Psychic", "Reflect", "Rest"]},
+      {"species": "Snorlax", "moves": ["Body Slam", "Earthquake", "Reflect", "Rest"]},
+      {"species": "Tauros", "moves": ["Body Slam", "Earthquake", "Hyper Beam", "Surf"]}
     ]
   },
   {
     "name": "Standard Vaporeon",
     "author": "Caetano93",
     "data": [
-      {"name": "persian", "species": "persian", "moves": ["amnesia", "hypnosis", "slash", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gengar", "species": "gengar", "moves": ["explosion", "hypnosis", "icepunch", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hypno", "species": "hypno", "moves": ["amnesia", "icepunch", "psychic", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "moves": ["bodyslam", "reflect", "rest", "selfdestruct"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "moves": ["recover", "surf", "thunderbolt", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "vaporeon", "species": "vaporeon", "moves": ["acidarmor", "growth", "rest", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Persian", "moves": ["Amnesia", "Hypnosis", "Slash", "Thunderbolt"]},
+      {"species": "Gengar", "moves": ["Explosion", "Hypnosis", "Ice Punch", "Thunderbolt"]},
+      {"species": "Hypno", "moves": ["Amnesia", "Ice Punch", "Psychic", "Thunder Wave"]},
+      {"species": "Snorlax", "moves": ["Body Slam", "Reflect", "Rest", "Self-Destruct"]},
+      {"species": "Starmie", "moves": ["Recover", "Surf", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Vaporeon", "moves": ["Acid Armor", "Growth", "Rest", "Surf"]}
     ]
   },
   {
     "name": "Starmie Lead Physical Offence",
     "author": "Shellnuts",
     "data": [
-      {"name": "starmie", "species": "starmie", "moves": ["blizzard", "recover", "thunderbolt", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "exeggutor", "species": "exeggutor", "moves": ["explosion", "psychic", "sleeppowder", "stunspore"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gengar", "species": "gengar", "moves": ["explosion", "hypnosis", "icepunch", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "rhydon", "species": "rhydon", "moves": ["bodyslam", "earthquake", "rockslide", "substitute"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "moves": ["bodyslam", "earthquake", "hyperbeam", "selfdestruct"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tauros", "species": "tauros", "moves": ["blizzard", "bodyslam", "earthquake", "hyperbeam"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Starmie", "moves": ["Blizzard", "Recover", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Exeggutor", "moves": ["Explosion", "Psychic", "Sleep Powder", "Stun Spore"]},
+      {"species": "Gengar", "moves": ["Explosion", "Hypnosis", "Ice Punch", "Thunderbolt"]},
+      {"species": "Rhydon", "moves": ["Body Slam", "Earthquake", "Rock Slide", "Substitute"]},
+      {"species": "Snorlax", "moves": ["Body Slam", "Earthquake", "Hyper Beam", "Self-Destruct"]},
+      {"species": "Tauros", "moves": ["Blizzard", "Body Slam", "Earthquake", "Hyper Beam"]}
     ]
   },
   {
     "name": "Alakazam Lead Mixed Offence",
     "author": "Shellnuts",
     "data": [
-      {"name": "alakazam", "species": "alakazam", "moves": ["psychic", "recover", "seismictoss", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "exeggutor", "species": "exeggutor", "moves": ["explosion", "psychic", "sleeppowder", "stunspore"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gengar", "species": "gengar", "moves": ["explosion", "hypnosis", "icepunch", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "moves": ["bodyslam", "earthquake", "hyperbeam", "selfdestruct"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tauros", "species": "tauros", "moves": ["blizzard", "bodyslam", "earthquake", "hyperbeam"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "moves": ["agility", "drillpeck", "thunderbolt", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Alakazam", "moves": ["Psychic", "Recover", "Seismic Toss", "Thunder Wave"]},
+      {"species": "Exeggutor", "moves": ["Explosion", "Psychic", "Sleep Powder", "Stun Spore"]},
+      {"species": "Gengar", "moves": ["Explosion", "Hypnosis", "Ice Punch", "Thunderbolt"]},
+      {"species": "Snorlax", "moves": ["Body Slam", "Earthquake", "Hyper Beam", "Self-Destruct"]},
+      {"species": "Tauros", "moves": ["Blizzard", "Body Slam", "Earthquake", "Hyper Beam"]},
+      {"species": "Zapdos", "moves": ["Agility", "Drill Peck", "Thunderbolt", "Thunder Wave"]}
     ]
   }
 ]

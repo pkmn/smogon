@@ -3,48 +3,48 @@
     "name": "Specs Swoobat Offense",
     "author": "SergioRules",
     "data": [
-      {"name": "swoobat", "species": "swoobat", "gender": "M", "item": "choicespecs", "ability": "unaware", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["heatwave", "psychic", "signalbeam", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dwebble", "species": "dwebble", "gender": "M", "item": "custapberry", "ability": "sturdy", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["knockoff", "rockblast", "spikes", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "klang", "species": "klang", "item": "eviolite", "ability": "clearbody", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 30}, "moves": ["geargrind", "rest", "sleeptalk", "voltswitch"], "level": 100},
-      {"name": "monferno", "species": "monferno", "gender": "M", "item": "eviolite", "ability": "blaze", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "flareblitz", "machpunch", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "scraggy", "species": "scraggy", "gender": "F", "item": "eviolite", "ability": "shedskin", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 228, "spe": 32}, "moves": ["bulkup", "crunch", "drainpunch", "rest"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "torterra", "species": "torterra", "gender": "M", "item": "yacheberry", "ability": "overgrow", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "rockpolish", "stoneedge", "woodhammer"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Swoobat", "gender": "M", "item": "Choice Specs", "ability": "Unaware", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Heat Wave", "Psychic", "Signal Beam", "U-turn"]},
+      {"species": "Dwebble", "gender": "M", "item": "Custap Berry", "ability": "Sturdy", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Knock Off", "Rock Blast", "Spikes", "Stealth Rock"]},
+      {"species": "Klang", "item": "Eviolite", "ability": "Clear Body", "evs": {"hp": 248, "def": 8, "spd": 252}, "nature": "Careful", "ivs": {"spe": 30}, "moves": ["Gear Grind", "Rest", "Sleep Talk", "Volt Switch"]},
+      {"species": "Monferno", "gender": "M", "item": "Eviolite", "ability": "Blaze", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Flare Blitz", "Mach Punch", "U-turn"]},
+      {"species": "Scraggy", "gender": "F", "item": "Eviolite", "ability": "Shed Skin", "evs": {"hp": 248, "spd": 228, "spe": 32}, "nature": "Careful", "moves": ["Bulk Up", "Crunch", "Drain Punch", "Rest"]},
+      {"species": "Torterra", "gender": "M", "item": "Yache Berry", "ability": "Overgrow", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Rock Polish", "Stone Edge", "Wood Hammer"]}
     ]
   },
   {
     "name": "Torterra Semistall",
     "author": "Akir",
     "data": [
-      {"name": "audino", "species": "audino", "gender": "M", "item": "leftovers", "ability": "regenerator", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "moves": ["healbell", "knockoff", "protect", "wish"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "klang", "species": "klang", "item": "eviolite", "ability": "clearbody", "evs": {"hp": 252, "atk": 0, "def": 156, "spa": 0, "spd": 100, "spe": 0}, "moves": ["geargrind", "rest", "sleeptalk", "voltswitch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "swoobat", "species": "swoobat", "gender": "M", "item": "choicespecs", "ability": "unaware", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["airslash", "psychic", "signalbeam", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tentacool", "species": "tentacool", "gender": "M", "item": "eviolite", "ability": "liquidooze", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["acidspray", "rapidspin", "scald", "toxicspikes"], "level": 100},
-      {"name": "torterra", "species": "torterra", "gender": "M", "item": "leftovers", "ability": "shellarmor", "evs": {"hp": 252, "atk": 4, "def": 252, "spa": 0, "spd": 0, "spe": 0}, "moves": ["stealthrock", "swordsdance", "synthesis", "woodhammer"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "volbeat", "species": "volbeat", "item": "leftovers", "ability": "prankster", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "moves": ["encore", "roost", "toxic", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Audino", "gender": "M", "item": "Leftovers", "ability": "Regenerator", "evs": {"hp": 248, "spd": 252}, "nature": "Careful", "moves": ["Heal Bell", "Knock Off", "Protect", "Wish"]},
+      {"species": "Klang", "item": "Eviolite", "ability": "Clear Body", "evs": {"hp": 252, "def": 156, "spd": 100}, "nature": "Impish", "moves": ["Gear Grind", "Rest", "Sleep Talk", "Volt Switch"]},
+      {"species": "Swoobat", "gender": "M", "item": "Choice Specs", "ability": "Unaware", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Air Slash", "Psychic", "Signal Beam", "U-turn"]},
+      {"species": "Tentacool", "gender": "M", "item": "Eviolite", "ability": "Liquid Ooze", "evs": {"hp": 248, "def": 8, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Acid Spray", "Rapid Spin", "Scald", "Toxic Spikes"]},
+      {"species": "Torterra", "gender": "M", "item": "Leftovers", "ability": "Shell Armor", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Impish", "moves": ["Stealth Rock", "Swords Dance", "Synthesis", "Wood Hammer"]},
+      {"species": "Volbeat", "item": "Leftovers", "ability": "Prankster", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Impish", "moves": ["Encore", "Roost", "Toxic", "U-turn"]}
     ]
   },
   {
     "name": "Suicide Lead Rampardos HO V3",
     "author": "LordST",
     "data": [
-      {"name": "gabite", "species": "gabite", "gender": "M", "item": "choiceband", "ability": "roughskin", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["dragonclaw", "earthquake", "outrage", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "beheeyem", "species": "beheeyem", "gender": "M", "item": "leftovers", "ability": "analytic", "evs": {"hp": 252, "atk": 0, "def": 232, "spa": 20, "spd": 0, "spe": 4}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["nastyplot", "psychic", "recover", "signalbeam"], "level": 100},
-      {"name": "dodrio", "species": "dodrio", "gender": "M", "item": "choicescarf", "ability": "earlybird", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["bravebird", "pursuit", "quickattack", "return"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255},
-      {"name": "klang", "species": "klang", "item": "eviolite", "ability": "clearbody", "evs": {"hp": 252, "atk": 0, "def": 156, "spa": 0, "spd": 100, "spe": 0}, "moves": ["geargrind", "rest", "sleeptalk", "voltswitch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "rampardos", "species": "rampardos", "gender": "M", "item": "focussash", "ability": "moldbreaker", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["firepunch", "rockslide", "stealthrock", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "simisage", "species": "simisage", "gender": "M", "item": "flyinggem", "ability": "overgrow", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["acrobatics", "leafstorm", "superpower", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Gabite", "gender": "M", "item": "Choice Band", "ability": "Rough Skin", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Dragon Claw", "Earthquake", "Outrage", "Stone Edge"]},
+      {"species": "Beheeyem", "gender": "M", "item": "Leftovers", "ability": "Analytic", "evs": {"hp": 252, "def": 232, "spa": 20, "spe": 4}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Nasty Plot", "Psychic", "Recover", "Signal Beam"]},
+      {"species": "Dodrio", "gender": "M", "item": "Choice Scarf", "ability": "Early Bird", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Brave Bird", "Pursuit", "Quick Attack", "Return"], "happiness": 255},
+      {"species": "Klang", "item": "Eviolite", "ability": "Clear Body", "evs": {"hp": 252, "def": 156, "spd": 100}, "nature": "Impish", "moves": ["Gear Grind", "Rest", "Sleep Talk", "Volt Switch"]},
+      {"species": "Rampardos", "gender": "M", "item": "Focus Sash", "ability": "Mold Breaker", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Fire Punch", "Rock Slide", "Stealth Rock", "Superpower"]},
+      {"species": "Simisage", "gender": "M", "item": "Flying Gem", "ability": "Overgrow", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Hasty", "moves": ["Acrobatics", "Leaf Storm", "Superpower", "Taunt"]}
     ]
   },
   {
     "name": "CM Beheeyem Balance",
     "author": "SBPC",
     "data": [
-      {"name": "beheeyem", "species": "beheeyem", "gender": "F", "item": "colburberry", "ability": "analytic", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 4, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 3, "def": 30, "spa": 30, "spd": 30, "spe": 30}, "moves": ["calmmind", "hiddenpowerfighting", "psyshock", "recover"], "level": 100},
-      {"name": "mantine", "species": "mantine", "gender": "M", "item": "leftovers", "ability": "swiftswim", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["icebeam", "substitute", "surf", "toxic"], "level": 100},
-      {"name": "murkrow", "species": "murkrow", "gender": "M", "item": "eviolite", "ability": "prankster", "evs": {"hp": 84, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 172}, "moves": ["bravebird", "pursuit", "roost", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tentacool", "species": "tentacool", "gender": "M", "item": "eviolite", "ability": "liquidooze", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["acidspray", "rapidspin", "scald", "toxicspikes"], "level": 100},
-      {"name": "torterra", "species": "torterra", "gender": "M", "item": "yacheberry", "ability": "shellarmor", "evs": {"hp": 252, "atk": 48, "def": 0, "spa": 0, "spd": 208, "spe": 0}, "moves": ["earthquake", "stealthrock", "synthesis", "woodhammer"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zebstrika", "species": "zebstrika", "gender": "F", "item": "expertbelt", "ability": "sapsipper", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 2, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "overheat", "thunderbolt", "voltswitch"], "level": 100}
+      {"species": "Beheeyem", "gender": "F", "item": "Colbur Berry", "ability": "Analytic", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 3, "def": 30, "spa": 30, "spd": 30, "spe": 30}, "moves": ["Calm Mind", "Hidden Power Fighting", "Psyshock", "Recover"]},
+      {"species": "Mantine", "gender": "M", "item": "Leftovers", "ability": "Swift Swim", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Substitute", "Surf", "Toxic"]},
+      {"species": "Murkrow", "gender": "M", "item": "Eviolite", "ability": "Prankster", "evs": {"hp": 84, "atk": 252, "spe": 172}, "nature": "Adamant", "moves": ["Brave Bird", "Pursuit", "Roost", "Sucker Punch"]},
+      {"species": "Tentacool", "gender": "M", "item": "Eviolite", "ability": "Liquid Ooze", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Acid Spray", "Rapid Spin", "Scald", "Toxic Spikes"]},
+      {"species": "Torterra", "gender": "M", "item": "Yache Berry", "ability": "Shell Armor", "evs": {"hp": 252, "atk": 48, "spd": 208}, "nature": "Adamant", "moves": ["Earthquake", "Stealth Rock", "Synthesis", "Wood Hammer"]},
+      {"species": "Zebstrika", "gender": "F", "item": "Expert Belt", "ability": "Sap Sipper", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "def": 30}, "moves": ["Hidden Power Ice", "Overheat", "Thunderbolt", "Volt Switch"]}
     ]
   }
 ]

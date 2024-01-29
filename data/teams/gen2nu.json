@@ -3,192 +3,192 @@
     "name": "XaDug + RestTalk Deer Spikes",
     "author": "BeeOrSomething",
     "data": [
-      {"name": "xatu", "species": "xatu", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "psychic", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "dugtrio", "species": "dugtrio", "gender": "M", "item": "leftovers", "moves": ["earthquake", "rockslide", "screech", "substitute"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "rapidspin", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "stantler", "species": "stantler", "gender": "M", "item": "leftovers", "happiness": 0, "moves": ["earthquake", "frustration", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "fireblast", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Xatu", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Psychic", "Rest", "Sleep Talk"]},
+      {"species": "Dugtrio", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Rock Slide", "Screech", "Substitute"]},
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Earthquake", "Frustration", "Rest", "Sleep Talk"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Fire Blast", "Sludge Bomb", "Thunder"]}
     ]
   },
   {
     "name": "Lead RestTalk Deer Double Bird Spikes",
     "author": "MrSoup",
     "data": [
-      {"name": "stantler", "species": "stantler", "gender": "M", "item": "leftovers", "happiness": 0, "moves": ["earthquake", "frustration", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "fearow", "species": "fearow", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "drillpeck", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "rapidspin", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "fireblast", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "xatu", "species": "xatu", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "psychic", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Earthquake", "Frustration", "Rest", "Sleep Talk"]},
+      {"species": "Fearow", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Drill Peck", "Rest", "Sleep Talk"]},
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Fire Blast", "Sludge Bomb", "Thunder"]},
+      {"species": "Xatu", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Psychic", "Rest", "Sleep Talk"]}
     ]
   },
   {
     "name": "Porygon + Dugtrio Gong Spikes",
     "author": "dawnbuster",
     "data": [
-      {"name": "stantler", "species": "stantler", "gender": "M", "item": "leftovers", "happiness": 0, "moves": ["earthquake", "frustration", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dewgong", "species": "dewgong", "gender": "M", "item": "leftovers", "moves": ["icebeam", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dugtrio", "species": "dugtrio", "gender": "M", "item": "leftovers", "moves": ["earthquake", "rockslide", "screech", "substitute"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "gigadrain", "rapidspin", "spikes"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "porygon", "species": "porygon", "item": "leftovers", "moves": ["curse", "doubleedge", "recover", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "haze", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Earthquake", "Frustration", "Rest", "Sleep Talk"]},
+      {"species": "Dewgong", "gender": "M", "item": "Leftovers", "moves": ["Ice Beam", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Dugtrio", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Rock Slide", "Screech", "Substitute"]},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Giga Drain", "Rapid Spin", "Spikes"]},
+      {"species": "Porygon", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Recover", "Thunder Wave"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Haze", "Sludge Bomb", "Thunder"]}
     ]
   },
   {
     "name": "Chinchou Triple Normal Spikes",
     "author": "Estarossa",
     "data": [
-      {"name": "persian", "species": "persian", "gender": "M", "moves": ["doubleedge", "hypnosis", "screech", "thief"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "chinchou", "species": "chinchou", "gender": "M", "item": "leftovers", "moves": ["rest", "sleeptalk", "surf", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "fearow", "species": "fearow", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "drillpeck", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "moves": ["icebeam", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "rapidspin", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "stantler", "species": "stantler", "gender": "M", "item": "leftovers", "moves": ["curse", "earthquake", "lightscreen", "return"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255}
+      {"species": "Persian", "gender": "M", "moves": ["Double-Edge", "Hypnosis", "Screech", "Thief"]},
+      {"species": "Chinchou", "gender": "M", "item": "Leftovers", "moves": ["Rest", "Sleep Talk", "Surf", "Thunder"]},
+      {"species": "Fearow", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Drill Peck", "Rest", "Sleep Talk"]},
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "moves": ["Ice Beam", "Rest", "Sleep Talk", "Surf"], "ivs": {"hp": 15, "atk": 29}},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Earthquake", "Light Screen", "Return"], "happiness": 255}
     ]
   },
   {
     "name": "Fearow + RestTalk Ape + Porygon Oct Spikes",
     "author": "BeeOrSomething",
     "data": [
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "fearow", "species": "fearow", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "drillpeck", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "rapidspin", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "porygon", "species": "porygon", "item": "leftovers", "moves": ["curse", "doubleedge", "recover", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "primeape", "species": "primeape", "gender": "M", "item": "leftovers", "moves": ["crosschop", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "fireblast", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Fearow", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Drill Peck", "Rest", "Sleep Talk"]},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Porygon", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Recover", "Thunder Wave"]},
+      {"species": "Primeape", "gender": "M", "item": "Leftovers", "moves": ["Cross Chop", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Fire Blast", "Sludge Bomb", "Thunder"]}
     ]
   },
   {
     "name": "Lead Growth Pass Flare + Wiggly + Curse LS Deer",
     "author": "dawnbuster",
     "data": [
-      {"name": "flareon", "species": "flareon", "gender": "M", "item": "leftovers", "ivs": {"hp": 7, "atk": 29, "def": 29, "spa": 31, "spd": 31, "spe": 31}, "moves": ["batonpass", "fireblast", "growth", "hiddenpowergrass"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "dewgong", "species": "dewgong", "gender": "M", "item": "leftovers", "ivs": {"hp": 7, "atk": 29, "def": 29, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowergrass", "icebeam", "protect", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "stantler", "species": "stantler", "gender": "M", "item": "leftovers", "happiness": 0, "moves": ["curse", "earthquake", "frustration", "lightscreen"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["explosion", "hiddenpowerwater", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "wigglytuff", "species": "wigglytuff", "gender": "M", "item": "leftovers", "moves": ["curse", "doubleedge", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "xatu", "species": "xatu", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "psychic", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Flareon", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Baton Pass", "Fire Blast", "Growth", "Hidden Power Grass"]},
+      {"species": "Dewgong", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Hidden Power Grass", "Ice Beam", "Protect", "Surf"]},
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Curse", "Earthquake", "Frustration", "Light Screen"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Explosion", "Hidden Power Water", "Sludge Bomb", "Thunder"]},
+      {"species": "Wigglytuff", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Rest", "Sleep Talk"]},
+      {"species": "Xatu", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Psychic", "Rest", "Sleep Talk"]}
     ]
   },
   {
     "name": "Oct + Toxic Encore Gong + Mag Spikes",
     "author": "MrSoup",
     "data": [
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "dewgong", "species": "dewgong", "gender": "M", "item": "leftovers", "moves": ["encore", "icebeam", "protect", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magnemite", "species": "magnemite", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "rapidspin", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "stantler", "species": "stantler", "gender": "M", "item": "leftovers", "moves": ["earthquake", "rest", "return", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "fireblast", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Dewgong", "gender": "M", "item": "Leftovers", "moves": ["Encore", "Ice Beam", "Protect", "Toxic"]},
+      {"species": "Magnemite", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Rest", "Return", "Sleep Talk"], "happiness": 255},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Fire Blast", "Sludge Bomb", "Thunder"]}
     ]
   },
   {
     "name": "Sunny Tales + Weezing Xatu Spikes",
     "author": "BeeOrSomething",
     "data": [
-      {"name": "ninetales", "species": "ninetales", "gender": "M", "item": "leftovers", "moves": ["flamethrower", "rest", "sleeptalk", "sunnyday"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "rapidspin", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "stantler", "species": "stantler", "gender": "M", "item": "leftovers", "moves": ["earthquake", "rest", "return", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "fireblast", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "xatu", "species": "xatu", "gender": "M", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "psychic", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Ninetales", "gender": "M", "item": "Leftovers", "moves": ["Flamethrower", "Rest", "Sleep Talk", "Sunny Day"]},
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Rest", "Return", "Sleep Talk"], "happiness": 255},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Fire Blast", "Sludge Bomb", "Thunder"]},
+      {"species": "Xatu", "gender": "M", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Psychic", "Rest", "Sleep Talk"]}
     ]
   },
   {
     "name": "Edit of Dash Mag Wiggly Spikes",
     "author": "Estarossa",
     "data": [
-      {"name": "rapidash", "species": "rapidash", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "fireblast", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magnemite", "species": "magnemite", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "gigadrain", "rapidspin", "spikes"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "wigglytuff", "species": "wigglytuff", "gender": "M", "item": "leftovers", "moves": ["bodyslam", "curse", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "xatu", "species": "xatu", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "psychic", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Rapidash", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Fire Blast", "Rest", "Sleep Talk"]},
+      {"species": "Magnemite", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Giga Drain", "Rapid Spin", "Spikes"]},
+      {"species": "Wigglytuff", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Curse", "Rest", "Sleep Talk"]},
+      {"species": "Xatu", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Psychic", "Rest", "Sleep Talk"]}
     ]
   },
   {
     "name": "Lead Flare + Porygon + Primeape Gong Spikes",
     "author": "dawnbuster",
     "data": [
-      {"name": "flareon", "species": "flareon", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "fireblast", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dewgong", "species": "dewgong", "gender": "M", "item": "leftovers", "moves": ["icebeam", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "gigadrain", "rapidspin", "spikes"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "porygon", "species": "porygon", "item": "leftovers", "moves": ["curse", "doubleedge", "recover", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "primeape", "species": "primeape", "gender": "M", "item": "leftovers", "moves": ["crosschop", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "fireblast", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Flareon", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Fire Blast", "Rest", "Sleep Talk"]},
+      {"species": "Dewgong", "gender": "M", "item": "Leftovers", "moves": ["Ice Beam", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Giga Drain", "Rapid Spin", "Spikes"]},
+      {"species": "Porygon", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Recover", "Thunder Wave"]},
+      {"species": "Primeape", "gender": "M", "item": "Leftovers", "moves": ["Cross Chop", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Fire Blast", "Sludge Bomb", "Thunder"]}
     ]
   },
   {
     "name": "Edit of Lead Magmar + Magnemite Spikeless",
     "author": "Oathkeeper",
     "data": [
-      {"name": "magmar", "species": "magmar", "gender": "M", "item": "leftovers", "moves": ["crosschop", "fireblast", "sunnyday", "thunderpunch"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "fearow", "species": "fearow", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "drillpeck", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magnemite", "species": "magnemite", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "stantler", "species": "stantler", "gender": "M", "item": "leftovers", "happiness": 0, "moves": ["earthquake", "frustration", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "fireblast", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Magmar", "gender": "M", "item": "Leftovers", "moves": ["Cross Chop", "Fire Blast", "Sunny Day", "Thunder Punch"]},
+      {"species": "Fearow", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Drill Peck", "Rest", "Sleep Talk"]},
+      {"species": "Magnemite", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Earthquake", "Frustration", "Rest", "Sleep Talk"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Fire Blast", "Sludge Bomb", "Thunder"]}
     ]
   },
   {
     "name": "Hitmonlee + Curse LS Stantler Gong Spikeless",
     "author": "MrSoup",
     "data": [
-      {"name": "hitmonlee", "species": "hitmonlee", "item": "leftovers", "moves": ["bodyslam", "highjumpkick", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dewgong", "species": "dewgong", "gender": "M", "item": "leftovers", "moves": ["icebeam", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "fearow", "species": "fearow", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "drillpeck", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "graveler", "species": "graveler", "gender": "M", "item": "leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthquake", "explosion", "hiddenpowerrock", "rapidspin"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "stantler", "species": "stantler", "gender": "M", "item": "leftovers", "happiness": 0, "moves": ["curse", "earthquake", "frustration", "lightscreen"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "fireblast", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Hitmonlee", "item": "Leftovers", "moves": ["Body Slam", "High Jump Kick", "Rest", "Sleep Talk"]},
+      {"species": "Dewgong", "gender": "M", "item": "Leftovers", "moves": ["Ice Beam", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Fearow", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Drill Peck", "Rest", "Sleep Talk"]},
+      {"species": "Graveler", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Earthquake", "Explosion", "Hidden Power Rock", "Rapid Spin"]},
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Curse", "Earthquake", "Frustration", "Light Screen"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Fire Blast", "Sludge Bomb", "Thunder"]}
     ]
   },
   {
     "name": "Weezing Fearow Magmar Spikes",
     "author": "BeeOrSomething",
     "data": [
-      {"name": "stantler", "species": "stantler", "gender": "M", "item": "leftovers", "happiness": 0, "moves": ["earthquake", "frustration", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "fearow", "species": "fearow", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "drillpeck", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magmar", "species": "magmar", "gender": "M", "item": "leftovers", "ivs": {"hp": 7, "atk": 29, "def": 29, "spa": 31, "spd": 31, "spe": 31}, "moves": ["crosschop", "fireblast", "hiddenpowergrass", "sunnyday"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "rapidspin", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["explosion", "hiddenpowerwater", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Earthquake", "Frustration", "Rest", "Sleep Talk"]},
+      {"species": "Fearow", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Drill Peck", "Rest", "Sleep Talk"]},
+      {"species": "Magmar", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Cross Chop", "Fire Blast", "Hidden Power Grass", "Sunny Day"]},
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Explosion", "Hidden Power Water", "Sludge Bomb", "Thunder"]}
     ]
   },
   {
     "name": "Edit of Tales Sparce Grav Spikeless",
     "author": "Oathkeeper",
     "data": [
-      {"name": "ninetales", "species": "ninetales", "gender": "M", "item": "leftovers", "moves": ["flamethrower", "rest", "sleeptalk", "sunnyday"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dunsparce", "species": "dunsparce", "gender": "M", "item": "leftovers", "moves": ["curse", "rest", "return", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255},
-      {"name": "fearow", "species": "fearow", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "drillpeck", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gloom", "species": "gloom", "gender": "M", "item": "leftovers", "moves": ["curse", "moonlight", "sludgebomb", "stunspore"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "graveler", "species": "graveler", "gender": "M", "item": "leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthquake", "explosion", "hiddenpowerrock", "rapidspin"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Ninetales", "gender": "M", "item": "Leftovers", "moves": ["Flamethrower", "Rest", "Sleep Talk", "Sunny Day"]},
+      {"species": "Dunsparce", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Rest", "Return", "Sleep Talk"], "happiness": 255},
+      {"species": "Fearow", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Drill Peck", "Rest", "Sleep Talk"]},
+      {"species": "Gloom", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Moonlight", "Sludge Bomb", "Stun Spore"]},
+      {"species": "Graveler", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Earthquake", "Explosion", "Hidden Power Rock", "Rapid Spin"]},
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]}
     ]
   },
   {
     "name": "Edit of Grav Ape Spikes",
     "author": "Estarossa",
     "data": [
-      {"name": "xatu", "species": "xatu", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "psychic", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "graveler", "species": "graveler", "gender": "M", "item": "leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthquake", "explosion", "hiddenpowerrock", "rapidspin"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "octillery", "species": "octillery", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "leftovers", "moves": ["explosion", "rapidspin", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "primeape", "species": "primeape", "gender": "M", "item": "leftovers", "moves": ["crosschop", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "fireblast", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Xatu", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Psychic", "Rest", "Sleep Talk"]},
+      {"species": "Graveler", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Earthquake", "Explosion", "Hidden Power Rock", "Rapid Spin"]},
+      {"species": "Octillery", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Primeape", "gender": "M", "item": "Leftovers", "moves": ["Cross Chop", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Fire Blast", "Sludge Bomb", "Thunder"]}
     ]
   },
   {
     "name": "Triple Boom + Kingler + Chinch + Dug",
     "author": "MrSoup",
     "data": [
-      {"name": "pineco", "species": "pineco", "gender": "M", "item": "miracleberry", "moves": ["explosion", "rapidspin", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "chinchou", "species": "chinchou", "gender": "M", "item": "leftovers", "moves": ["rest", "sleeptalk", "surf", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dugtrio", "species": "dugtrio", "gender": "M", "item": "leftovers", "moves": ["earthquake", "rockslide", "screech", "substitute"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kingler", "species": "kingler", "gender": "M", "item": "leftovers", "happiness": 0, "ivs": {"hp": 15, "atk": 25, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["frustration", "hiddenpowerground", "substitute", "swordsdance"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "sudowoodo", "species": "sudowoodo", "gender": "M", "item": "leftovers", "moves": ["curse", "earthquake", "rockslide", "selfdestruct"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weezing", "species": "weezing", "gender": "M", "item": "leftovers", "moves": ["explosion", "fireblast", "sludgebomb", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Pineco", "gender": "M", "item": "Miracle Berry", "moves": ["Explosion", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Chinchou", "gender": "M", "item": "Leftovers", "moves": ["Rest", "Sleep Talk", "Surf", "Thunder"]},
+      {"species": "Dugtrio", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Rock Slide", "Screech", "Substitute"]},
+      {"species": "Kingler", "gender": "M", "item": "Leftovers", "happiness": 0, "ivs": {"hp": 15, "atk": 25}, "moves": ["Frustration", "Hidden Power Ground", "Substitute", "Swords Dance"]},
+      {"species": "Sudowoodo", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Earthquake", "Rock Slide", "Self-Destruct"]},
+      {"species": "Weezing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Fire Blast", "Sludge Bomb", "Thunder"]}
     ]
   }
 ]

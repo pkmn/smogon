@@ -127,7 +127,7 @@ describe('Smogon', () => {
     const smogon = new Smogon(fetch);
     await expect(smogon.teams('gen8faketier' as ID)).rejects.toThrow();
     expect((await smogon.teams('gen2ou' as ID))
-      .some(team => team.data.some(set => set.species === 'snorlax'))).toBe(true);
+      .some(team => team.data.some(set => set.species === 'Snorlax'))).toBe(true);
   });
 
   test('format', () => {

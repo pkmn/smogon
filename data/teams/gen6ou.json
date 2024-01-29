@@ -1,162 +1,162 @@
 [
   {
     "data": [
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "focussash", "ability": "skilllink", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["explosion", "iciclespear", "rapidspin", "shellsmash"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "aerodactyl", "species": "aerodactyl", "gender": "M", "item": "rockyhelmet", "ability": "pressure", "evs": {"hp": 72, "atk": 0, "def": 252, "spa": 0, "spd": 0, "spe": 184}, "moves": ["doubleedge", "earthquake", "stealthrock", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "scizor", "species": "scizor", "gender": "M", "item": "scizorite", "ability": "technician", "evs": {"hp": 32, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 224}, "moves": ["bugbite", "bulletpunch", "knockoff", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "thundurustherian", "species": "thundurustherian", "item": "sitrusberry", "ability": "voltabsorb", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "hiddenpowerice", "nastyplot", "thunderbolt"], "level": 100},
-      {"name": "volcarona", "species": "volcarona", "gender": "M", "item": "lumberry", "ability": "flamebody", "evs": {"hp": 0, "atk": 0, "def": 84, "spa": 252, "spd": 0, "spe": 172}, "ivs": {"hp": 31, "atk": 1, "def": 31, "spa": 30, "spd": 30, "spe": 31}, "moves": ["flamethrower", "gigadrain", "hiddenpowerground", "quiverdance"], "level": 100},
-      {"name": "weavile", "species": "weavile", "gender": "M", "item": "focussash", "ability": "pickpocket", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["iciclecrash", "knockoff", "lowkick", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Cloyster", "gender": "M", "item": "Focus Sash", "ability": "Skill Link", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Adamant", "moves": ["Explosion", "Icicle Spear", "Rapid Spin", "Shell Smash"]},
+      {"species": "Aerodactyl", "gender": "M", "item": "Rocky Helmet", "ability": "Pressure", "evs": {"hp": 72, "def": 252, "spe": 184}, "nature": "Jolly", "moves": ["Double-Edge", "Earthquake", "Stealth Rock", "Taunt"]},
+      {"species": "Scizor", "gender": "M", "item": "Scizorite", "ability": "Technician", "evs": {"hp": 32, "atk": 252, "spe": 224}, "nature": "Adamant", "moves": ["Bug Bite", "Bullet Punch", "Knock Off", "Swords Dance"]},
+      {"species": "Thundurus-Therian", "item": "Sitrus Berry", "ability": "Volt Absorb", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Focus Blast", "Hidden Power Ice", "Nasty Plot", "Thunderbolt"]},
+      {"species": "Volcarona", "gender": "M", "item": "Lum Berry", "ability": "Flame Body", "evs": {"def": 84, "spa": 252, "spe": 172}, "nature": "Modest", "ivs": {"atk": 1, "spa": 30, "spd": 30}, "moves": ["Flamethrower", "Giga Drain", "Hidden Power Ground", "Quiver Dance"]},
+      {"species": "Weavile", "gender": "M", "item": "Focus Sash", "ability": "Pickpocket", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Icicle Crash", "Knock Off", "Low Kick", "Swords Dance"]}
     ]
   },
   {
     "name": "Spanish Webs",
     "data": [
-      {"name": "shuckle", "species": "shuckle", "gender": "M", "item": "mentalherb", "ability": "sturdy", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["encore", "infestation", "stealthrock", "stickyweb"], "level": 100},
-      {"name": "azumarill", "species": "azumarill", "gender": "M", "item": "sitrusberry", "ability": "hugepower", "evs": {"hp": 80, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 176}, "moves": ["aquajet", "bellydrum", "knockoff", "playrough"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "bisharp", "species": "bisharp", "gender": "M", "item": "blackglasses", "ability": "defiant", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["ironhead", "knockoff", "suckerpunch", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hoopa", "species": "hoopa", "item": "choicescarf", "ability": "magician", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "hyperspacehole", "shadowball", "trick"], "level": 100},
-      {"name": "scizor", "species": "scizor", "gender": "M", "item": "scizorite", "ability": "lightmetal", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["bugbite", "bulletpunch", "superpower", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "thundurus", "species": "thundurus", "item": "leftovers", "ability": "prankster", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "hiddenpowerice", "nastyplot", "thunderbolt"], "level": 100}
+      {"species": "Shuckle", "gender": "M", "item": "Mental Herb", "ability": "Sturdy", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Encore", "Infestation", "Stealth Rock", "Sticky Web"]},
+      {"species": "Azumarill", "gender": "M", "item": "Sitrus Berry", "ability": "Huge Power", "evs": {"hp": 80, "atk": 252, "spe": 176}, "nature": "Adamant", "moves": ["Aqua Jet", "Belly Drum", "Knock Off", "Play Rough"]},
+      {"species": "Bisharp", "gender": "M", "item": "Black Glasses", "ability": "Defiant", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Iron Head", "Knock Off", "Sucker Punch", "Swords Dance"]},
+      {"species": "Hoopa", "item": "Choice Scarf", "ability": "Magician", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Hyperspace Hole", "Shadow Ball", "Trick"]},
+      {"species": "Scizor", "gender": "M", "item": "Scizorite", "ability": "Light Metal", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Bug Bite", "Bullet Punch", "Superpower", "Swords Dance"]},
+      {"species": "Thundurus", "item": "Leftovers", "ability": "Prankster", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Focus Blast", "Hidden Power Ice", "Nasty Plot", "Thunderbolt"]}
     ]
   },
   {
     "name": "sand screens",
     "author": "Luigi",
     "data": [
-      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "tyranitarite", "ability": "sandstream", "evs": {"hp": 16, "atk": 240, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["brickbreak", "dragondance", "icepunch", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "lifeorb", "ability": "sandrush", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "ironhead", "return", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255},
-      {"name": "landorustherian", "species": "landorustherian", "item": "focussash", "ability": "intimidate", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "explosion", "imprison", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "latias", "species": "latias", "item": "lightclay", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["healingwish", "lightscreen", "reflect", "safeguard"], "level": 100},
-      {"name": "serperior", "species": "serperior", "gender": "M", "item": "lightclay", "ability": "contrary", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["glare", "leafstorm", "lightscreen", "reflect"], "level": 100},
-      {"name": "volcarona", "species": "volcarona", "gender": "F", "item": "lifeorb", "ability": "flamebody", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 1, "def": 31, "spa": 30, "spd": 30, "spe": 31}, "moves": ["fireblast", "gigadrain", "hiddenpowerground", "quiverdance"], "level": 100}
+      {"species": "Tyranitar", "gender": "M", "item": "Tyranitarite", "ability": "Sand Stream", "evs": {"hp": 16, "atk": 240, "spe": 252}, "nature": "Jolly", "moves": ["Brick Break", "Dragon Dance", "Ice Punch", "Stone Edge"]},
+      {"species": "Excadrill", "gender": "M", "item": "Life Orb", "ability": "Sand Rush", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Iron Head", "Return", "Swords Dance"], "happiness": 255},
+      {"species": "Landorus-Therian", "item": "Focus Sash", "ability": "Intimidate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Explosion", "Imprison", "Stealth Rock"]},
+      {"species": "Latias", "item": "Light Clay", "ability": "Levitate", "evs": {"hp": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Healing Wish", "Light Screen", "Reflect", "Safeguard"]},
+      {"species": "Serperior", "gender": "M", "item": "Light Clay", "ability": "Contrary", "evs": {"hp": 252, "spa": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Glare", "Leaf Storm", "Light Screen", "Reflect"]},
+      {"species": "Volcarona", "gender": "F", "item": "Life Orb", "ability": "Flame Body", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Modest", "ivs": {"atk": 1, "spa": 30, "spd": 30}, "moves": ["Fire Blast", "Giga Drain", "Hidden Power Ground", "Quiver Dance"]}
     ]
   },
   {
     "data": [
-      {"name": "landorustherian", "species": "landorustherian", "item": "focussash", "ability": "intimidate", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["explosion", "imprison", "rocktomb", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "altaria", "species": "altaria", "gender": "M", "item": "altarianite", "ability": "naturalcure", "happiness": 0, "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 16, "spe": 240}, "moves": ["dragondance", "earthquake", "frustration", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "latias", "species": "latias", "item": "lightclay", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "healingwish", "lightscreen", "reflect"], "level": 100},
-      {"name": "manaphy", "species": "manaphy", "item": "sitrusberry", "ability": "hydration", "evs": {"hp": 200, "atk": 0, "def": 0, "spa": 176, "spd": 16, "spe": 116}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["energyball", "icebeam", "surf", "tailglow"], "level": 100},
-      {"name": "serperior", "species": "serperior", "gender": "F", "item": "lightclay", "ability": "contrary", "shiny": true, "evs": {"hp": 100, "atk": 0, "def": 0, "spa": 156, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["leafstorm", "lightscreen", "reflect", "taunt"], "level": 100},
-      {"name": "volcarona", "species": "volcarona", "gender": "F", "item": "lumberry", "ability": "flamebody", "evs": {"hp": 96, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 160}, "ivs": {"hp": 31, "atk": 1, "def": 31, "spa": 30, "spd": 30, "spe": 31}, "moves": ["flamethrower", "gigadrain", "hiddenpowerground", "quiverdance"], "level": 100}
+      {"species": "Landorus-Therian", "item": "Focus Sash", "ability": "Intimidate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Explosion", "Imprison", "Rock Tomb", "Stealth Rock"]},
+      {"species": "Altaria", "gender": "M", "item": "Altarianite", "ability": "Natural Cure", "happiness": 0, "evs": {"atk": 252, "spd": 16, "spe": 240}, "nature": "Adamant", "moves": ["Dragon Dance", "Earthquake", "Frustration", "Substitute"]},
+      {"species": "Latias", "item": "Light Clay", "ability": "Levitate", "evs": {"hp": 252, "spa": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Defog", "Healing Wish", "Light Screen", "Reflect"]},
+      {"species": "Manaphy", "item": "Sitrus Berry", "ability": "Hydration", "evs": {"hp": 200, "spa": 176, "spd": 16, "spe": 116}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Energy Ball", "Ice Beam", "Surf", "Tail Glow"]},
+      {"species": "Serperior", "gender": "F", "item": "Light Clay", "ability": "Contrary", "shiny": true, "evs": {"hp": 100, "spa": 156, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Leaf Storm", "Light Screen", "Reflect", "Taunt"]},
+      {"species": "Volcarona", "gender": "F", "item": "Lum Berry", "ability": "Flame Body", "evs": {"hp": 96, "spa": 252, "spe": 160}, "nature": "Modest", "ivs": {"atk": 1, "spa": 30, "spd": 30}, "moves": ["Flamethrower", "Giga Drain", "Hidden Power Ground", "Quiver Dance"]}
     ]
   },
   {
     "name": "trosko stall",
     "author": "Luigi",
     "data": [
-      {"name": "quagsire", "species": "quagsire", "gender": "M", "item": "leftovers", "ability": "unaware", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 4, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["haze", "recover", "scald", "toxic"], "level": 100},
-      {"name": "altaria", "species": "altaria", "gender": "M", "item": "altarianite", "ability": "naturalcure", "happiness": 0, "evs": {"hp": 248, "atk": 0, "def": 136, "spa": 0, "spd": 96, "spe": 28}, "moves": ["dragondance", "frustration", "healbell", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "chansey", "species": "chansey", "item": "eviolite", "ability": "naturalcure", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "moves": ["seismictoss", "softboiled", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magnezone", "species": "magnezone", "item": "choicescarf", "ability": "magnetpull", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "moves": ["flashcannon", "hiddenpowerfire", "thunderbolt", "voltswitch"], "level": 100},
-      {"name": "suicune", "species": "suicune", "item": "leftovers", "ability": "pressure", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "rest", "roar", "scald"], "level": 100},
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ability": "pressure", "evs": {"hp": 252, "atk": 0, "def": 60, "spa": 0, "spd": 180, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "hiddenpowerice", "roost", "thunderbolt"], "level": 100}
+      {"species": "Quagsire", "gender": "M", "item": "Leftovers", "ability": "Unaware", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Haze", "Recover", "Scald", "Toxic"]},
+      {"species": "Altaria", "gender": "M", "item": "Altarianite", "ability": "Natural Cure", "happiness": 0, "evs": {"hp": 248, "def": 136, "spd": 96, "spe": 28}, "nature": "Impish", "moves": ["Dragon Dance", "Frustration", "Heal Bell", "Roost"]},
+      {"species": "Chansey", "item": "Eviolite", "ability": "Natural Cure", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Bold", "moves": ["Seismic Toss", "Soft-Boiled", "Stealth Rock", "Toxic"]},
+      {"species": "Magnezone", "item": "Choice Scarf", "ability": "Magnet Pull", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "spa": 30, "spe": 30}, "moves": ["Flash Cannon", "Hidden Power Fire", "Thunderbolt", "Volt Switch"]},
+      {"species": "Suicune", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Rest", "Roar", "Scald"]},
+      {"species": "Zapdos", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 252, "def": 60, "spd": 180, "spe": 16}, "nature": "Calm", "ivs": {"atk": 0, "def": 30}, "moves": ["Defog", "Hidden Power Ice", "Roost", "Thunderbolt"]}
     ]
   },
   {
     "name": "megazor stall",
     "author": "Luigi",
     "data": [
-      {"name": "clefable", "species": "clefable", "gender": "M", "item": "leftovers", "ability": "unaware", "evs": {"hp": 248, "atk": 0, "def": 160, "spa": 0, "spd": 96, "spe": 4}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "moonblast", "protect", "wish"], "level": 100},
-      {"name": "chansey", "species": "chansey", "item": "eviolite", "ability": "naturalcure", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "moves": ["healbell", "seismictoss", "softboiled", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gastrodon", "species": "gastrodon", "gender": "F", "item": "leftovers", "ability": "stormdrain", "evs": {"hp": 248, "atk": 0, "def": 116, "spa": 0, "spd": 144, "spe": 0}, "moves": ["earthquake", "recover", "scald", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "scizor", "species": "scizor", "gender": "M", "item": "scizorite", "ability": "lightmetal", "evs": {"hp": 248, "atk": 16, "def": 184, "spa": 0, "spd": 0, "spe": 60}, "moves": ["bulletpunch", "defog", "roost", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "slowbro", "species": "slowbro", "gender": "M", "item": "rockyhelmet", "ability": "regenerator", "evs": {"hp": 248, "atk": 0, "def": 236, "spa": 0, "spd": 16, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["icebeam", "scald", "slackoff", "toxic"], "level": 100},
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ability": "pressure", "evs": {"hp": 184, "atk": 0, "def": 216, "spa": 0, "spd": 0, "spe": 108}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "discharge", "heatwave", "roost"], "level": 100}
+      {"species": "Clefable", "gender": "M", "item": "Leftovers", "ability": "Unaware", "evs": {"hp": 248, "def": 160, "spd": 96, "spe": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Moonblast", "Protect", "Wish"]},
+      {"species": "Chansey", "item": "Eviolite", "ability": "Natural Cure", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Bold", "moves": ["Heal Bell", "Seismic Toss", "Soft-Boiled", "Stealth Rock"]},
+      {"species": "Gastrodon", "gender": "F", "item": "Leftovers", "ability": "Storm Drain", "evs": {"hp": 248, "def": 116, "spd": 144}, "nature": "Sassy", "moves": ["Earthquake", "Recover", "Scald", "Toxic"]},
+      {"species": "Scizor", "gender": "M", "item": "Scizorite", "ability": "Light Metal", "evs": {"hp": 248, "atk": 16, "def": 184, "spe": 60}, "nature": "Adamant", "moves": ["Bullet Punch", "Defog", "Roost", "Superpower"]},
+      {"species": "Slowbro", "gender": "M", "item": "Rocky Helmet", "ability": "Regenerator", "evs": {"hp": 248, "def": 236, "spd": 16, "spe": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Scald", "Slack Off", "Toxic"]},
+      {"species": "Zapdos", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 184, "def": 216, "spe": 108}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Defog", "Discharge", "Heat Wave", "Roost"]}
     ]
   },
   {
     "name": "jon clef spike cofa",
     "author": "Seasons",
     "data": [
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "rockyhelmet", "ability": "sturdy", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["ironhead", "roost", "spikes", "whirlwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "clefable", "species": "clefable", "gender": "M", "item": "lifeorb", "ability": "magicguard", "evs": {"hp": 252, "atk": 0, "def": 152, "spa": 80, "spd": 0, "spe": 24}, "moves": ["calmmind", "knockoff", "moonblast", "softboiled"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cofagrigus", "species": "cofagrigus", "gender": "M", "item": "leftovers", "ability": "mummy", "evs": {"hp": 248, "atk": 0, "def": 216, "spa": 0, "spd": 0, "spe": 44}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hex", "painsplit", "toxicspikes", "willowisp"], "level": 100},
-      {"name": "gastrodon", "species": "gastrodon", "gender": "M", "item": "leftovers", "ability": "stormdrain", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 240, "spe": 20}, "moves": ["clearsmog", "earthquake", "recover", "scald"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "heatran", "species": "heatran", "gender": "M", "item": "leftovers", "ability": "flashfire", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["lavaplume", "protect", "roar", "stealthrock"], "level": 100},
-      {"name": "lopunny", "species": "lopunny", "gender": "F", "item": "lopunnite", "ability": "limber", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["fakeout", "highjumpkick", "quickattack", "return"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255}
+      {"species": "Skarmory", "gender": "M", "item": "Rocky Helmet", "ability": "Sturdy", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Iron Head", "Roost", "Spikes", "Whirlwind"]},
+      {"species": "Clefable", "gender": "M", "item": "Life Orb", "ability": "Magic Guard", "evs": {"hp": 252, "def": 152, "spa": 80, "spe": 24}, "nature": "Modest", "moves": ["Calm Mind", "Knock Off", "Moonblast", "Soft-Boiled"]},
+      {"species": "Cofagrigus", "gender": "M", "item": "Leftovers", "ability": "Mummy", "evs": {"hp": 248, "def": 216, "spe": 44}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Hex", "Pain Split", "Toxic Spikes", "Will-O-Wisp"]},
+      {"species": "Gastrodon", "gender": "M", "item": "Leftovers", "ability": "Storm Drain", "evs": {"hp": 248, "spd": 240, "spe": 20}, "nature": "Sassy", "moves": ["Clear Smog", "Earthquake", "Recover", "Scald"]},
+      {"species": "Heatran", "gender": "M", "item": "Leftovers", "ability": "Flash Fire", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Lava Plume", "Protect", "Roar", "Stealth Rock"]},
+      {"species": "Lopunny", "gender": "F", "item": "Lopunnite", "ability": "Limber", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Fake Out", "High Jump Kick", "Quick Attack", "Return"], "happiness": 255}
     ]
   },
   {
     "name": "Scarf Volcanion Sand",
     "data": [
-      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "tyranitarite", "ability": "sandstream", "evs": {"hp": 216, "atk": 244, "def": 0, "spa": 0, "spd": 0, "spe": 48}, "moves": ["crunch", "focuspunch", "pursuit", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "clefable", "species": "clefable", "gender": "M", "item": "leftovers", "ability": "magicguard", "evs": {"hp": 252, "atk": 0, "def": 236, "spa": 0, "spd": 0, "spe": 20}, "moves": ["knockoff", "moonblast", "softboiled", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "lifeorb", "ability": "sandrush", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "ironhead", "rapidspin", "rockslide"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "serperior", "species": "serperior", "gender": "F", "item": "chestoberry", "ability": "contrary", "evs": {"hp": 48, "atk": 0, "def": 0, "spa": 208, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 1, "def": 30, "spa": 31, "spd": 30, "spe": 30}, "moves": ["glare", "hiddenpowerrock", "leafstorm", "rest"], "level": 100},
-      {"name": "volcanion", "species": "volcanion", "item": "choicescarf", "ability": "waterabsorb", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "overheat", "sludgebomb", "steameruption"], "level": 100},
-      {"name": "zapdos", "species": "zapdos", "item": "rockyhelmet", "ability": "static", "evs": {"hp": 248, "atk": 0, "def": 168, "spa": 36, "spd": 0, "spe": 56}, "ivs": {"hp": 31, "atk": 0, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["heatwave", "hiddenpowerice", "roost", "voltswitch"], "level": 100}
+      {"species": "Tyranitar", "gender": "M", "item": "Tyranitarite", "ability": "Sand Stream", "evs": {"hp": 216, "atk": 244, "spe": 48}, "nature": "Adamant", "moves": ["Crunch", "Focus Punch", "Pursuit", "Stone Edge"]},
+      {"species": "Clefable", "gender": "M", "item": "Leftovers", "ability": "Magic Guard", "evs": {"hp": 252, "def": 236, "spe": 20}, "nature": "Bold", "moves": ["Knock Off", "Moonblast", "Soft-Boiled", "Stealth Rock"]},
+      {"species": "Excadrill", "gender": "M", "item": "Life Orb", "ability": "Sand Rush", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Iron Head", "Rapid Spin", "Rock Slide"]},
+      {"species": "Serperior", "gender": "F", "item": "Chesto Berry", "ability": "Contrary", "evs": {"hp": 48, "spa": 208, "spe": 252}, "nature": "Timid", "ivs": {"atk": 1, "def": 30, "spd": 30, "spe": 30}, "moves": ["Glare", "Hidden Power Rock", "Leaf Storm", "Rest"]},
+      {"species": "Volcanion", "item": "Choice Scarf", "ability": "Water Absorb", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Overheat", "Sludge Bomb", "Steam Eruption"]},
+      {"species": "Zapdos", "item": "Rocky Helmet", "ability": "Static", "evs": {"hp": 248, "def": 168, "spa": 36, "spe": 56}, "nature": "Bold", "ivs": {"atk": 0, "def": 30}, "moves": ["Heat Wave", "Hidden Power Ice", "Roost", "Volt Switch"]}
     ]
   },
   {
     "name": "Zam Glisc Ferro by fade",
     "author": "Seasons",
     "data": [
-      {"name": "clefable", "species": "clefable", "gender": "M", "item": "lifeorb", "ability": "magicguard", "evs": {"hp": 252, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "icebeam", "moonblast", "softboiled"], "level": 100},
-      {"name": "alakazam", "species": "alakazam", "gender": "M", "item": "alakazite", "ability": "magicguard", "evs": {"hp": 0, "atk": 0, "def": 24, "spa": 252, "spd": 0, "spe": 232}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "focusblast", "psychic", "shadowball"], "level": 100},
-      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 252, "atk": 0, "def": 8, "spa": 0, "spd": 248, "spe": 0}, "moves": ["leechseed", "powerwhip", "protect", "spikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gliscor", "species": "gliscor", "gender": "M", "item": "toxicorb", "ability": "poisonheal", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 192, "spe": 64}, "moves": ["earthquake", "knockoff", "roost", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "heatran", "species": "heatran", "gender": "M", "item": "leftovers", "ability": "flashfire", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["lavaplume", "protect", "roar", "stealthrock"], "level": 100},
-      {"name": "rotomwash", "species": "rotomwash", "item": "leftovers", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 40, "spa": 0, "spd": 0, "spe": 216}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "painsplit", "voltswitch", "willowisp"], "level": 100}
+      {"species": "Clefable", "gender": "M", "item": "Life Orb", "ability": "Magic Guard", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Ice Beam", "Moonblast", "Soft-Boiled"]},
+      {"species": "Alakazam", "gender": "M", "item": "Alakazite", "ability": "Magic Guard", "evs": {"def": 24, "spa": 252, "spe": 232}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Focus Blast", "Psychic", "Shadow Ball"]},
+      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 252, "def": 8, "spd": 248}, "nature": "Impish", "moves": ["Leech Seed", "Power Whip", "Protect", "Spikes"]},
+      {"species": "Gliscor", "gender": "M", "item": "Toxic Orb", "ability": "Poison Heal", "evs": {"hp": 252, "spd": 192, "spe": 64}, "nature": "Jolly", "moves": ["Earthquake", "Knock Off", "Roost", "Taunt"]},
+      {"species": "Heatran", "gender": "M", "item": "Leftovers", "ability": "Flash Fire", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Lava Plume", "Protect", "Roar", "Stealth Rock"]},
+      {"species": "Rotom-Wash", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 252, "def": 40, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Pain Split", "Volt Switch", "Will-O-Wisp"]}
     ]
   },
   {
     "name": "mgallade by xray",
     "author": "Seasons",
     "data": [
-      {"name": "clefable", "species": "clefable", "gender": "F", "item": "leftovers", "ability": "magicguard", "evs": {"hp": 248, "atk": 0, "def": 212, "spa": 0, "spd": 32, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["moonblast", "softboiled", "stealthrock", "thunderwave"], "level": 100},
-      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "leftovers", "ability": "moldbreaker", "evs": {"hp": 32, "atk": 8, "def": 56, "spa": 0, "spd": 160, "spe": 252}, "moves": ["earthquake", "ironhead", "rapidspin", "substitute"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gallade", "species": "gallade", "item": "galladite", "ability": "justified", "evs": {"hp": 152, "atk": 100, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["drainpunch", "psychocut", "shadowsneak", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "volcanion", "species": "volcanion", "item": "choicescarf", "ability": "waterabsorb", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "overheat", "steameruption", "toxic"], "level": 100},
-      {"name": "weavile", "species": "weavile", "gender": "F", "item": "choiceband", "ability": "pressure", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["iceshard", "iciclecrash", "knockoff", "pursuit"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "item": "rockyhelmet", "ability": "static", "evs": {"hp": 248, "atk": 0, "def": 236, "spa": 0, "spd": 0, "spe": 24}, "ivs": {"hp": 31, "atk": 0, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["heatwave", "hiddenpowerice", "roost", "voltswitch"], "level": 100}
+      {"species": "Clefable", "gender": "F", "item": "Leftovers", "ability": "Magic Guard", "evs": {"hp": 248, "def": 212, "spd": 32, "spe": 16}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Moonblast", "Soft-Boiled", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Excadrill", "gender": "M", "item": "Leftovers", "ability": "Mold Breaker", "evs": {"hp": 32, "atk": 8, "def": 56, "spd": 160, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Iron Head", "Rapid Spin", "Substitute"]},
+      {"species": "Gallade", "item": "Galladite", "ability": "Justified", "evs": {"hp": 152, "atk": 100, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Drain Punch", "Psycho Cut", "Shadow Sneak", "Swords Dance"]},
+      {"species": "Volcanion", "item": "Choice Scarf", "ability": "Water Absorb", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Overheat", "Steam Eruption", "Toxic"]},
+      {"species": "Weavile", "gender": "F", "item": "Choice Band", "ability": "Pressure", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Pursuit"]},
+      {"species": "Zapdos", "item": "Rocky Helmet", "ability": "Static", "evs": {"hp": 248, "def": 236, "spe": 24}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Heat Wave", "Hidden Power Ice", "Roost", "Volt Switch"]}
     ]
   },
   {
     "name": "xray Sun",
     "author": "Seasons",
     "data": [
-      {"name": "charizard", "species": "charizard", "gender": "M", "item": "charizarditey", "ability": "blaze", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "focusblast", "hiddenpowerice", "solarbeam"], "level": 100},
-      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "leftovers", "ability": "moldbreaker", "evs": {"hp": 96, "atk": 0, "def": 48, "spa": 0, "spd": 112, "spe": 252}, "moves": ["earthquake", "ironhead", "rapidspin", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "heatran", "species": "heatran", "gender": "M", "item": "leftovers", "ability": "flashfire", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 240, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "magmastorm", "taunt", "toxic"], "level": 100},
-      {"name": "serperior", "species": "serperior", "gender": "F", "item": "rockyhelmet", "ability": "contrary", "evs": {"hp": 48, "atk": 0, "def": 0, "spa": 208, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 1, "def": 30, "spa": 31, "spd": 30, "spe": 30}, "moves": ["glare", "hiddenpowerrock", "leafstorm", "synthesis"], "level": 100},
-      {"name": "slowbro", "species": "slowbro", "gender": "M", "item": "colburberry", "ability": "regenerator", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "futuresight", "slackoff", "thunderwave"], "level": 100},
-      {"name": "weavile", "species": "weavile", "gender": "M", "item": "choiceband", "ability": "pressure", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["iceshard", "iciclecrash", "knockoff", "pursuit"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Charizard", "gender": "M", "item": "Charizardite Y", "ability": "Blaze", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Flamethrower", "Focus Blast", "Hidden Power Ice", "Solar Beam"]},
+      {"species": "Excadrill", "gender": "M", "item": "Leftovers", "ability": "Mold Breaker", "evs": {"hp": 96, "def": 48, "spd": 112, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Iron Head", "Rapid Spin", "Stealth Rock"]},
+      {"species": "Heatran", "gender": "M", "item": "Leftovers", "ability": "Flash Fire", "evs": {"hp": 252, "spd": 240, "spe": 16}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Earth Power", "Magma Storm", "Taunt", "Toxic"]},
+      {"species": "Serperior", "gender": "F", "item": "Rocky Helmet", "ability": "Contrary", "evs": {"hp": 48, "spa": 208, "spe": 252}, "nature": "Timid", "ivs": {"atk": 1, "def": 30, "spd": 30, "spe": 30}, "moves": ["Glare", "Hidden Power Rock", "Leaf Storm", "Synthesis"]},
+      {"species": "Slowbro", "gender": "M", "item": "Colbur Berry", "ability": "Regenerator", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Future Sight", "Slack Off", "Thunder Wave"]},
+      {"species": "Weavile", "gender": "M", "item": "Choice Band", "ability": "Pressure", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Pursuit"]}
     ]
   },
   {
     "data": [
-      {"name": "metagross", "species": "metagross", "item": "metagrossite", "ability": "clearbody", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 36, "spe": 220}, "moves": ["brickbreak", "bulletpunch", "pursuit", "zenheadbutt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "leftovers", "ability": "moldbreaker", "evs": {"hp": 172, "atk": 0, "def": 32, "spa": 0, "spd": 52, "spe": 252}, "moves": ["earthquake", "ironhead", "rapidspin", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "rotomwash", "species": "rotomwash", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 248, "atk": 0, "def": 24, "spa": 0, "spd": 0, "spe": 236}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "trick", "voltswitch", "willowisp"], "level": 100},
-      {"name": "serperior", "species": "serperior", "gender": "F", "item": "chestoberry", "ability": "contrary", "evs": {"hp": 240, "atk": 0, "def": 0, "spa": 16, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 1, "def": 30, "spa": 31, "spd": 30, "spe": 30}, "moves": ["glare", "hiddenpowerrock", "leafstorm", "rest"], "level": 100},
-      {"name": "tornadustherian", "species": "tornadustherian", "item": "rockyhelmet", "ability": "regenerator", "evs": {"hp": 168, "atk": 0, "def": 132, "spa": 0, "spd": 0, "spe": 208}, "moves": ["hurricane", "knockoff", "taunt", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "volcanion", "species": "volcanion", "item": "leftovers", "ability": "waterabsorb", "evs": {"hp": 248, "atk": 0, "def": 152, "spa": 16, "spd": 84, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "protect", "roar", "steameruption"], "level": 100}
+      {"species": "Metagross", "item": "Metagrossite", "ability": "Clear Body", "evs": {"atk": 252, "spd": 36, "spe": 220}, "nature": "Adamant", "moves": ["Brick Break", "Bullet Punch", "Pursuit", "Zen Headbutt"]},
+      {"species": "Excadrill", "gender": "M", "item": "Leftovers", "ability": "Mold Breaker", "evs": {"hp": 172, "def": 32, "spd": 52, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Iron Head", "Rapid Spin", "Stealth Rock"]},
+      {"species": "Rotom-Wash", "item": "Choice Scarf", "ability": "Levitate", "evs": {"hp": 248, "def": 24, "spe": 236}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Trick", "Volt Switch", "Will-O-Wisp"]},
+      {"species": "Serperior", "gender": "F", "item": "Chesto Berry", "ability": "Contrary", "evs": {"hp": 240, "spa": 16, "spe": 252}, "nature": "Timid", "ivs": {"atk": 1, "def": 30, "spd": 30, "spe": 30}, "moves": ["Glare", "Hidden Power Rock", "Leaf Storm", "Rest"]},
+      {"species": "Tornadus-Therian", "item": "Rocky Helmet", "ability": "Regenerator", "evs": {"hp": 168, "def": 132, "spe": 208}, "nature": "Timid", "moves": ["Hurricane", "Knock Off", "Taunt", "U-turn"]},
+      {"species": "Volcanion", "item": "Leftovers", "ability": "Water Absorb", "evs": {"hp": 248, "def": 152, "spa": 16, "spd": 84, "spe": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Protect", "Roar", "Steam Eruption"]}
     ]
   },
   {
     "name": "Diancie Weavile TSpike",
     "author": "Seasons",
     "data": [
-      {"name": "weavile", "species": "weavile", "gender": "M", "item": "choiceband", "ability": "pressure", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["iceshard", "iciclecrash", "knockoff", "pursuit"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cofagrigus", "species": "cofagrigus", "gender": "F", "item": "leftovers", "ability": "mummy", "evs": {"hp": 248, "atk": 0, "def": 244, "spa": 0, "spd": 0, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["painsplit", "shadowball", "toxicspikes", "willowisp"], "level": 100},
-      {"name": "diancie", "species": "diancie", "item": "diancite", "ability": "clearbody", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["diamondstorm", "earthpower", "moonblast", "protect"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "excadrill", "species": "excadrill", "gender": "F", "item": "leftovers", "ability": "moldbreaker", "evs": {"hp": 56, "atk": 36, "def": 80, "spa": 0, "spd": 84, "spe": 252}, "moves": ["earthquake", "ironhead", "rapidspin", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tornadustherian", "species": "tornadustherian", "item": "rockyhelmet", "ability": "regenerator", "evs": {"hp": 248, "atk": 0, "def": 52, "spa": 0, "spd": 0, "spe": 208}, "moves": ["hurricane", "knockoff", "taunt", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "volcanion", "species": "volcanion", "item": "leftovers", "ability": "waterabsorb", "evs": {"hp": 248, "atk": 0, "def": 152, "spa": 0, "spd": 76, "spe": 32}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "protect", "steameruption", "toxic"], "level": 100}
+      {"species": "Weavile", "gender": "M", "item": "Choice Band", "ability": "Pressure", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Pursuit"]},
+      {"species": "Cofagrigus", "gender": "F", "item": "Leftovers", "ability": "Mummy", "evs": {"hp": 248, "def": 244, "spe": 16}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Pain Split", "Shadow Ball", "Toxic Spikes", "Will-O-Wisp"]},
+      {"species": "Diancie", "item": "Diancite", "ability": "Clear Body", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Diamond Storm", "Earth Power", "Moonblast", "Protect"]},
+      {"species": "Excadrill", "gender": "F", "item": "Leftovers", "ability": "Mold Breaker", "evs": {"hp": 56, "atk": 36, "def": 80, "spd": 84, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Iron Head", "Rapid Spin", "Stealth Rock"]},
+      {"species": "Tornadus-Therian", "item": "Rocky Helmet", "ability": "Regenerator", "evs": {"hp": 248, "def": 52, "spe": 208}, "nature": "Timid", "moves": ["Hurricane", "Knock Off", "Taunt", "U-turn"]},
+      {"species": "Volcanion", "item": "Leftovers", "ability": "Water Absorb", "evs": {"hp": 248, "def": 152, "spd": 76, "spe": 32}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Protect", "Steam Eruption", "Toxic"]}
     ]
   },
   {
     "name": "medi mana volturn",
     "author": "I♥CATGIRLS",
     "data": [
-      {"name": "manaphy", "species": "manaphy", "item": "sitrusberry", "ability": "hydration", "evs": {"hp": 108, "atk": 0, "def": 0, "spa": 148, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["energyball", "icebeam", "surf", "tailglow"], "level": 100},
-      {"name": "clefable", "species": "clefable", "gender": "M", "item": "leftovers", "ability": "magicguard", "evs": {"hp": 252, "atk": 0, "def": 168, "spa": 0, "spd": 88, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["encore", "moonblast", "softboiled", "thunderwave"], "level": 100},
-      {"name": "excadrill", "species": "excadrill", "gender": "M", "item": "leftovers", "ability": "moldbreaker", "evs": {"hp": 28, "atk": 32, "def": 80, "spa": 0, "spd": 200, "spe": 168}, "moves": ["earthquake", "ironhead", "rapidspin", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "medicham", "species": "medicham", "gender": "M", "item": "medichamite", "ability": "purepower", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["fakeout", "highjumpkick", "icepunch", "thunderpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "rotomwash", "species": "rotomwash", "item": "leftovers", "ability": "levitate", "shiny": true, "evs": {"hp": 252, "atk": 0, "def": 200, "spa": 4, "spd": 44, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "painsplit", "voltswitch", "willowisp"], "level": 100},
-      {"name": "tornadustherian", "species": "tornadustherian", "item": "assaultvest", "ability": "regenerator", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "moves": ["airslash", "heatwave", "knockoff", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Manaphy", "item": "Sitrus Berry", "ability": "Hydration", "evs": {"hp": 108, "spa": 148, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Energy Ball", "Ice Beam", "Surf", "Tail Glow"]},
+      {"species": "Clefable", "gender": "M", "item": "Leftovers", "ability": "Magic Guard", "evs": {"hp": 252, "def": 168, "spd": 88}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Encore", "Moonblast", "Soft-Boiled", "Thunder Wave"]},
+      {"species": "Excadrill", "gender": "M", "item": "Leftovers", "ability": "Mold Breaker", "evs": {"hp": 28, "atk": 32, "def": 80, "spd": 200, "spe": 168}, "nature": "Jolly", "moves": ["Earthquake", "Iron Head", "Rapid Spin", "Stealth Rock"]},
+      {"species": "Medicham", "gender": "M", "item": "Medichamite", "ability": "Pure Power", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Fake Out", "High Jump Kick", "Ice Punch", "Thunder Punch"]},
+      {"species": "Rotom-Wash", "item": "Leftovers", "ability": "Levitate", "shiny": true, "evs": {"hp": 252, "def": 200, "spa": 4, "spd": 44, "spe": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Pain Split", "Volt Switch", "Will-O-Wisp"]},
+      {"species": "Tornadus-Therian", "item": "Assault Vest", "ability": "Regenerator", "evs": {"hp": 248, "spa": 8, "spe": 252}, "nature": "Timid", "moves": ["Air Slash", "Heat Wave", "Knock Off", "U-turn"]}
     ]
   }
 ]

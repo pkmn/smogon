@@ -2,89 +2,89 @@
   {
     "name": "Hypno + Granbull Offense",
     "data": [
-      {"name": "hypno", "species": "hypno", "gender": "M", "item": "leftovers", "moves": ["lightscreen", "psychic", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "granbull", "species": "granbull", "gender": "M", "item": "leftovers", "happiness": 0, "ivs": {"hp": 15, "atk": 25, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["curse", "frustration", "hiddenpowerground", "lovelykiss"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "gyarados", "species": "gyarados", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerflying", "hydropump", "roar", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "haunter", "species": "haunter", "gender": "M", "item": "leftovers", "moves": ["destinybond", "explosion", "psychic", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "nidoqueen", "species": "nidoqueen", "item": "leftovers", "moves": ["earthquake", "icebeam", "moonlight", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "qwilfish", "species": "qwilfish", "gender": "M", "item": "leftovers", "moves": ["curse", "hydropump", "sludgebomb", "spikes"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Light Screen", "Psychic", "Rest", "Sleep Talk"]},
+      {"species": "Granbull", "gender": "M", "item": "Leftovers", "happiness": 0, "ivs": {"hp": 15, "atk": 25}, "moves": ["Curse", "Frustration", "Hidden Power Ground", "Lovely Kiss"]},
+      {"species": "Gyarados", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27}, "moves": ["Hidden Power Flying", "Hydro Pump", "Roar", "Thunder"]},
+      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Psychic", "Thunderbolt"]},
+      {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Moonlight", "Thunder"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
     ]
   },
   {
     "name": "Mr.Mime + Piloswine Offense",
     "data": [
-      {"name": "mrmime", "species": "mrmime", "gender": "M", "item": "leftovers", "moves": ["psychic", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "granbull", "species": "granbull", "gender": "M", "item": "leftovers", "happiness": 0, "moves": ["curse", "frustration", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gyarados", "species": "gyarados", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerflying", "hydropump", "roar", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "haunter", "species": "haunter", "gender": "M", "item": "leftovers", "moves": ["destinybond", "explosion", "psychic", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "piloswine", "species": "piloswine", "gender": "M", "item": "leftovers", "moves": ["earthquake", "icebeam", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "qwilfish", "species": "qwilfish", "gender": "M", "item": "leftovers", "moves": ["curse", "hydropump", "sludgebomb", "spikes"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Mr. Mime", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Granbull", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Curse", "Frustration", "Rest", "Sleep Talk"]},
+      {"species": "Gyarados", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27}, "moves": ["Hidden Power Flying", "Hydro Pump", "Roar", "Thunder"]},
+      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Psychic", "Thunderbolt"]},
+      {"species": "Piloswine", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Rest", "Sleep Talk"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
     ]
   },
   {
     "name": "Scyther + Pinsir Offense",
     "data": [
-      {"name": "hypno", "species": "hypno", "gender": "M", "item": "leftovers", "moves": ["psychic", "rest", "sleeptalk", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "haunter", "species": "haunter", "gender": "M", "item": "leftovers", "moves": ["destinybond", "explosion", "psychic", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "piloswine", "species": "piloswine", "gender": "M", "item": "leftovers", "moves": ["earthquake", "icebeam", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pinsir", "species": "pinsir", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 25, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bodyslam", "doubleedge", "hiddenpowerground", "swordsdance"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "qwilfish", "species": "qwilfish", "gender": "M", "item": "leftovers", "moves": ["curse", "hydropump", "sludgebomb", "spikes"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "scyther", "species": "scyther", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 25, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["doubleedge", "hiddenpowerground", "swordsdance", "wingattack"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Thunder Wave"]},
+      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Psychic", "Thunderbolt"]},
+      {"species": "Piloswine", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Rest", "Sleep Talk"]},
+      {"species": "Pinsir", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Body Slam", "Double-Edge", "Hidden Power Ground", "Swords Dance"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]},
+      {"species": "Scyther", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Double-Edge", "Hidden Power Ground", "Swords Dance", "Wing Attack"]}
     ]
   },
   {
     "name": "Lanturn + Piloswine",
     "data": [
-      {"name": "lanturn", "species": "lanturn", "gender": "M", "item": "leftovers", "moves": ["rest", "sleeptalk", "surf", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "blastoise", "species": "blastoise", "gender": "M", "item": "leftovers", "moves": ["rapidspin", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "haunter", "species": "haunter", "gender": "M", "item": "leftovers", "moves": ["destinybond", "explosion", "psychic", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "jumpluff", "species": "jumpluff", "gender": "M", "item": "leftovers", "moves": ["encore", "leechseed", "stunspore", "synthesis"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "piloswine", "species": "piloswine", "gender": "M", "item": "leftovers", "moves": ["earthquake", "icebeam", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "qwilfish", "species": "qwilfish", "gender": "M", "item": "leftovers", "moves": ["curse", "hydropump", "sludgebomb", "spikes"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Lanturn", "gender": "M", "item": "Leftovers", "moves": ["Rest", "Sleep Talk", "Surf", "Thunder"]},
+      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Psychic", "Thunderbolt"]},
+      {"species": "Jumpluff", "gender": "M", "item": "Leftovers", "moves": ["Encore", "Leech Seed", "Stun Spore", "Synthesis"]},
+      {"species": "Piloswine", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Rest", "Sleep Talk"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
     ]
   },
   {
     "name": "Magneton + Pinsir Offense",
     "data": [
-      {"name": "slowking", "species": "slowking", "gender": "M", "item": "leftovers", "moves": ["psychic", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gyarados", "species": "gyarados", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerflying", "hydropump", "roar", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "magneton", "species": "magneton", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "nidoqueen", "species": "nidoqueen", "item": "leftovers", "moves": ["earthquake", "icebeam", "lovelykiss", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pinsir", "species": "pinsir", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 25, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bodyslam", "doubleedge", "hiddenpowerground", "swordsdance"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "qwilfish", "species": "qwilfish", "gender": "M", "item": "leftovers", "moves": ["curse", "hydropump", "sludgebomb", "spikes"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Slowking", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Gyarados", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27}, "moves": ["Hidden Power Flying", "Hydro Pump", "Roar", "Thunder"]},
+      {"species": "Magneton", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunderbolt"]},
+      {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Lovely Kiss", "Thunder"]},
+      {"species": "Pinsir", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Body Slam", "Double-Edge", "Hidden Power Ground", "Swords Dance"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
     ]
   },
   {
     "name": "Electrode + Haunter Hyper Offense",
     "data": [
-      {"name": "granbull", "species": "granbull", "gender": "M", "item": "leftovers", "happiness": 0, "ivs": {"hp": 15, "atk": 25, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["curse", "frustration", "hiddenpowerground", "lovelykiss"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "electrode", "species": "electrode", "item": "miracleberry", "moves": ["explosion", "lightscreen", "reflect", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "haunter", "species": "haunter", "gender": "M", "item": "leftovers", "moves": ["destinybond", "explosion", "psychic", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mrmime", "species": "mrmime", "gender": "M", "item": "leftovers", "moves": ["batonpass", "psychic", "thunder", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pinsir", "species": "pinsir", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 25, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bodyslam", "doubleedge", "hiddenpowerground", "swordsdance"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "scyther", "species": "scyther", "gender": "M", "item": "miracleberry", "ivs": {"hp": 15, "atk": 25, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["doubleedge", "hiddenpowerground", "swordsdance", "wingattack"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Granbull", "gender": "M", "item": "Leftovers", "happiness": 0, "ivs": {"hp": 15, "atk": 25}, "moves": ["Curse", "Frustration", "Hidden Power Ground", "Lovely Kiss"]},
+      {"species": "Electrode", "item": "Miracle Berry", "moves": ["Explosion", "Light Screen", "Reflect", "Thunder"]},
+      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Psychic", "Thunder"]},
+      {"species": "Mr. Mime", "gender": "M", "item": "Leftovers", "moves": ["Baton Pass", "Psychic", "Thunder", "Thunder Wave"]},
+      {"species": "Pinsir", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Body Slam", "Double-Edge", "Hidden Power Ground", "Swords Dance"]},
+      {"species": "Scyther", "gender": "M", "item": "Miracle Berry", "ivs": {"hp": 15, "atk": 25}, "moves": ["Double-Edge", "Hidden Power Ground", "Swords Dance", "Wing Attack"]}
     ]
   },
   {
     "name": "Belly Drum Quagsire + Heal Bell Granbull",
     "data": [
-      {"name": "hypno", "species": "hypno", "gender": "M", "item": "leftovers", "moves": ["lightscreen", "psychic", "rest", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "blastoise", "species": "blastoise", "gender": "M", "item": "leftovers", "moves": ["rapidspin", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "granbull", "species": "granbull", "gender": "M", "item": "leftovers", "moves": ["healbell", "rest", "return", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255},
-      {"name": "omastar", "species": "omastar", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerelectric", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "quagsire", "species": "quagsire", "gender": "M", "item": "leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bellydrum", "earthquake", "hiddenpowerrock", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "scyther", "species": "scyther", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 25, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["batonpass", "hiddenpowerground", "swordsdance", "wingattack"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Light Screen", "Psychic", "Rest", "Thunder Wave"]},
+      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Granbull", "gender": "M", "item": "Leftovers", "moves": ["Heal Bell", "Rest", "Return", "Sleep Talk"], "happiness": 255},
+      {"species": "Omastar", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Quagsire", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Belly Drum", "Earthquake", "Hidden Power Rock", "Rest"]},
+      {"species": "Scyther", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Baton Pass", "Hidden Power Ground", "Swords Dance", "Wing Attack"]}
     ]
   },
   {
     "name": "Shuckle + Curse Hypno Stall",
     "data": [
-      {"name": "electabuzz", "species": "electabuzz", "gender": "M", "moves": ["psychic", "pursuit", "thief", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "blastoise", "species": "blastoise", "gender": "M", "item": "leftovers", "moves": ["rapidspin", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "chansey", "species": "chansey", "item": "leftovers", "moves": ["healbell", "present", "softboiled", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "crobat", "species": "crobat", "gender": "M", "item": "leftovers", "moves": ["haze", "protect", "toxic", "wingattack"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hypno", "species": "hypno", "gender": "M", "item": "leftovers", "moves": ["bodyslam", "curse", "psychic", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "shuckle", "species": "shuckle", "gender": "M", "item": "leftovers", "moves": ["defensecurl", "flash", "rest", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Electabuzz", "gender": "M", "moves": ["Psychic", "Pursuit", "Thief", "Thunderbolt"]},
+      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Chansey", "item": "Leftovers", "moves": ["Heal Bell", "Present", "Soft-Boiled", "Thunder"]},
+      {"species": "Crobat", "gender": "M", "item": "Leftovers", "moves": ["Haze", "Protect", "Toxic", "Wing Attack"]},
+      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Curse", "Psychic", "Rest"]},
+      {"species": "Shuckle", "gender": "M", "item": "Leftovers", "moves": ["Defense Curl", "Flash", "Rest", "Toxic"]}
     ]
   }
 ]

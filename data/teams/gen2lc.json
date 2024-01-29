@@ -2,56 +2,56 @@
   {
     "name": "LC Sample 1",
     "data": [
-      {"name": "diglett", "species": "diglett", "gender": "M", "item": "berryjuice", "ability": "sandveil", "level": 5, "ivs": {"hp": 31, "atk": 26, "def": 26, "spa": 31, "spd": 31, "spe": 31}, "moves": ["ancientpower", "earthquake", "hiddenpowerbug", "thief"], "teraType": "Ground", "evs": {"hp": 196, "atk": 176, "def": 176, "spa": 236, "spd": 236, "spe": 236}},
-      {"name": "chinchou", "species": "chinchou", "gender": "M", "item": "berryjuice", "ability": "voltabsorb", "level": 5, "moves": ["hydropump", "icebeam", "thunder", "thunderwave"], "teraType": "Water", "evs": {"hp": 236, "atk": 212, "def": 212, "spa": 228, "spd": 228, "spe": 220}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "exeggcute", "species": "exeggcute", "gender": "M", "item": "berryjuice", "level": 5, "moves": ["explosion", "gigadrain", "psychic", "sleeppowder"], "ability": "noability", "teraType": "Grass", "evs": {"hp": 196, "atk": 196, "def": 196, "spa": 196, "spd": 236, "spe": 196}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "houndour", "species": "houndour", "gender": "M", "item": "berryjuice", "ability": "earlybird", "level": 5, "ivs": {"hp": 6, "atk": 28, "def": 28, "spa": 31, "spd": 31, "spe": 31}, "moves": ["crunch", "fireblast", "hiddenpowergrass", "pursuit"], "teraType": "Dark", "evs": {"hp": 176, "atk": 208, "def": 208, "spa": 196, "spd": 196, "spe": 236}},
-      {"name": "magby", "species": "magby", "gender": "M", "item": "berryjuice", "level": 5, "ivs": {"hp": 6, "atk": 28, "def": 28, "spa": 31, "spd": 31, "spe": 31}, "moves": ["crosschop", "fireblast", "hiddenpowergrass", "thief"], "ability": "noability", "teraType": "Fire", "evs": {"hp": 176, "atk": 248, "def": 232, "spa": 196, "spd": 236, "spe": 252}},
-      {"name": "porygon", "species": "porygon", "item": "miracleberry", "ability": "trace", "level": 5, "moves": ["icebeam", "sharpen", "thunderwave", "triattack"], "teraType": "Normal", "evs": {"hp": 236, "atk": 196, "def": 196, "spa": 236, "spd": 236, "spe": 196}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Diglett", "gender": "M", "item": "Berry Juice", "level": 5, "ivs": {"atk": 27, "def": 27}, "moves": ["Ancient Power", "Earthquake", "Hidden Power Bug", "Thief"]},
+      {"species": "Chinchou", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Hydro Pump", "Ice Beam", "Thunder", "Thunder Wave"]},
+      {"species": "Exeggcute", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Explosion", "Giga Drain", "Psychic", "Sleep Powder"]},
+      {"species": "Houndour", "gender": "M", "item": "Berry Juice", "level": 5, "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Crunch", "Fire Blast", "Hidden Power Grass", "Pursuit"]},
+      {"species": "Magby", "gender": "M", "item": "Berry Juice", "level": 5, "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Cross Chop", "Fire Blast", "Hidden Power Grass", "Thief"]},
+      {"species": "Porygon", "item": "Miracle Berry", "level": 5, "moves": ["Ice Beam", "Sharpen", "Thunder Wave", "Tri Attack"]}
     ]
   },
   {
     "name": "LC Sample 2",
     "data": [
-      {"name": "gastly", "species": "gastly", "gender": "M", "item": "berryjuice", "level": 5, "evs": {"hp": 196, "atk": 236, "def": 196, "spa": 196, "spd": 236, "spe": 196}, "moves": ["gigadrain", "hypnosis", "thief", "thunderbolt"], "ability": "noability", "teraType": "Ghost", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "elekid", "species": "elekid", "gender": "M", "item": "berryjuice", "level": 5, "moves": ["crosschop", "icepunch", "thief", "thunder"], "ability": "noability", "teraType": "Electric", "evs": {"hp": 236, "atk": 252, "def": 220, "spa": 236, "spd": 236, "spe": 236}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "houndour", "species": "houndour", "gender": "M", "item": "berryjuice", "ability": "earlybird", "level": 5, "moves": ["crunch", "fireblast", "solarbeam", "sunnyday"], "teraType": "Dark", "evs": {"hp": 236, "atk": 196, "def": 196, "spa": 196, "spd": 196, "spe": 236}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "machop", "species": "machop", "gender": "M", "item": "berryjuice", "ability": "guts", "level": 5, "ivs": {"hp": 31, "atk": 26, "def": 26, "spa": 31, "spd": 31, "spe": 31}, "moves": ["crosschop", "curse", "earthquake", "hiddenpowerbug"], "teraType": "Fighting", "evs": {"hp": 196, "atk": 216, "def": 216, "spa": 236, "spd": 236, "spe": 236}},
-      {"name": "porygon", "species": "porygon", "item": "miracleberry", "ability": "trace", "level": 5, "moves": ["icebeam", "sharpen", "thunderwave", "triattack"], "teraType": "Normal", "evs": {"hp": 236, "atk": 196, "def": 196, "spa": 236, "spd": 236, "spe": 196}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "staryu", "species": "staryu", "item": "miracleberry", "ability": "illuminate", "level": 5, "moves": ["icebeam", "surf", "thunderbolt", "thunderwave"], "teraType": "Water", "evs": {"hp": 196, "atk": 236, "def": 236, "spa": 196, "spd": 236, "spe": 236}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Gastly", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Giga Drain", "Hypnosis", "Thief", "Thunderbolt"]},
+      {"species": "Elekid", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Cross Chop", "Ice Punch", "Thief", "Thunder"]},
+      {"species": "Houndour", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Crunch", "Fire Blast", "Solar Beam", "Sunny Day"]},
+      {"species": "Machop", "gender": "M", "item": "Berry Juice", "level": 5, "ivs": {"atk": 27, "def": 27}, "moves": ["Cross Chop", "Curse", "Earthquake", "Hidden Power Bug"]},
+      {"species": "Porygon", "item": "Miracle Berry", "level": 5, "moves": ["Ice Beam", "Sharpen", "Thunder Wave", "Tri Attack"]},
+      {"species": "Staryu", "item": "Miracle Berry", "level": 5, "moves": ["Ice Beam", "Surf", "Thunderbolt", "Thunder Wave"]}
     ]
   },
   {
     "name": "LC Sample 3",
     "data": [
-      {"name": "staryu", "species": "staryu", "item": "miracleberry", "ability": "illuminate", "level": 5, "moves": ["icebeam", "surf", "thunderbolt", "thunderwave"], "teraType": "Water", "evs": {"hp": 196, "atk": 236, "def": 236, "spa": 196, "spd": 236, "spe": 236}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "abra", "species": "abra", "gender": "M", "item": "berryjuice", "ability": "synchronize", "level": 5, "moves": ["encore", "icepunch", "psychic", "thief"], "teraType": "Psychic", "evs": {"hp": 236, "atk": 196, "def": 236, "spa": 236, "spd": 236, "spe": 196}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "chansey", "species": "chansey", "item": "berryjuice", "ability": "naturalcure", "level": 5, "moves": ["bodyslam", "icebeam", "softboiled", "thunderwave"], "teraType": "Normal", "evs": {"hp": 196, "atk": 236, "def": 236, "spa": 236, "spd": 236, "spe": 196}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cubone", "species": "cubone", "gender": "M", "item": "thickclub", "ability": "rockhead", "level": 5, "ivs": {"hp": 31, "atk": 26, "def": 26, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthquake", "hiddenpowerbug", "rockslide", "swordsdance"], "teraType": "Ground", "evs": {"hp": 196, "atk": 216, "def": 176, "spa": 196, "spd": 196, "spe": 236}},
-      {"name": "machop", "species": "machop", "gender": "M", "item": "berryjuice", "ability": "guts", "level": 5, "ivs": {"hp": 31, "atk": 26, "def": 26, "spa": 31, "spd": 31, "spe": 31}, "moves": ["crosschop", "curse", "earthquake", "hiddenpowerbug"], "teraType": "Fighting", "evs": {"hp": 196, "atk": 216, "def": 216, "spa": 236, "spd": 236, "spe": 236}},
-      {"name": "magby", "species": "magby", "gender": "M", "item": "berryjuice", "level": 5, "moves": ["crosschop", "fireblast", "thief", "thunderpunch"], "ability": "noability", "teraType": "Fire", "evs": {"hp": 236, "atk": 236, "def": 220, "spa": 196, "spd": 236, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Staryu", "item": "Miracle Berry", "level": 5, "moves": ["Ice Beam", "Surf", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Abra", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Encore", "Ice Punch", "Psychic", "Thief"]},
+      {"species": "Chansey", "item": "Berry Juice", "level": 5, "moves": ["Body Slam", "Ice Beam", "Soft-Boiled", "Thunder Wave"]},
+      {"species": "Cubone", "gender": "M", "item": "Thick Club", "level": 5, "ivs": {"atk": 27, "def": 27}, "moves": ["Earthquake", "Hidden Power Bug", "Rock Slide", "Swords Dance"]},
+      {"species": "Machop", "gender": "M", "item": "Berry Juice", "level": 5, "ivs": {"atk": 27, "def": 27}, "moves": ["Cross Chop", "Curse", "Earthquake", "Hidden Power Bug"]},
+      {"species": "Magby", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Cross Chop", "Fire Blast", "Thief", "Thunder Punch"]}
     ]
   },
   {
     "name": "LC Sample 4",
     "data": [
-      {"name": "exeggcute", "species": "exeggcute", "gender": "M", "item": "berryjuice", "ability": "chlorophyll", "level": 5, "moves": ["gigadrain", "psychic", "sleeppowder", "stunspore"], "teraType": "Grass", "evs": {"hp": 196, "atk": 196, "def": 196, "spa": 196, "spd": 236, "spe": 196}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "chansey", "species": "chansey", "item": "berryjuice", "ability": "naturalcure", "level": 5, "moves": ["icebeam", "softboiled", "thunderbolt", "thunderwave"], "teraType": "Normal", "evs": {"hp": 196, "atk": 236, "def": 236, "spa": 236, "spd": 236, "spe": 196}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "elekid", "species": "elekid", "gender": "M", "ability": "static", "level": 5, "moves": ["crosschop", "icepunch", "thief", "thunderbolt"], "teraType": "Electric", "evs": {"hp": 236, "atk": 252, "def": 220, "spa": 236, "spd": 236, "spe": 236}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "houndour", "species": "houndour", "gender": "M", "item": "berryjuice", "ability": "earlybird", "level": 5, "ivs": {"hp": 6, "atk": 28, "def": 28, "spa": 31, "spd": 31, "spe": 31}, "moves": ["crunch", "fireblast", "hiddenpowergrass", "pursuit"], "teraType": "Dark", "evs": {"hp": 176, "atk": 208, "def": 208, "spa": 196, "spd": 196, "spe": 236}},
-      {"name": "machop", "species": "machop", "gender": "M", "item": "berryjuice", "ability": "guts", "level": 5, "ivs": {"hp": 31, "atk": 26, "def": 26, "spa": 31, "spd": 31, "spe": 31}, "moves": ["crosschop", "curse", "earthquake", "hiddenpowerbug"], "teraType": "Fighting", "evs": {"hp": 196, "atk": 216, "def": 216, "spa": 236, "spd": 236, "spe": 236}},
-      {"name": "staryu", "species": "staryu", "item": "berryjuice", "ability": "illuminate", "level": 5, "moves": ["icebeam", "surf", "thunderbolt", "thunderwave"], "teraType": "Water", "evs": {"hp": 196, "atk": 236, "def": 236, "spa": 196, "spd": 236, "spe": 236}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Exeggcute", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Giga Drain", "Psychic", "Sleep Powder", "Stun Spore"]},
+      {"species": "Chansey", "item": "Berry Juice", "level": 5, "moves": ["Ice Beam", "Soft-Boiled", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Elekid", "gender": "M", "level": 5, "moves": ["Cross Chop", "Ice Punch", "Thief", "Thunderbolt"]},
+      {"species": "Houndour", "gender": "M", "item": "Berry Juice", "level": 5, "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Crunch", "Fire Blast", "Hidden Power Grass", "Pursuit"]},
+      {"species": "Machop", "gender": "M", "item": "Berry Juice", "level": 5, "ivs": {"atk": 27, "def": 27}, "moves": ["Cross Chop", "Curse", "Earthquake", "Hidden Power Bug"]},
+      {"species": "Staryu", "item": "Berry Juice", "level": 5, "moves": ["Ice Beam", "Surf", "Thunderbolt", "Thunder Wave"]}
     ]
   },
   {
     "name": "LC Sample 5",
     "data": [
-      {"name": "elekid", "species": "elekid", "gender": "M", "item": "berryjuice", "ability": "static", "level": 5, "moves": ["crosschop", "icepunch", "thief", "thunder"], "teraType": "Electric", "evs": {"hp": 236, "atk": 252, "def": 220, "spa": 236, "spd": 236, "spe": 236}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "doduo", "species": "doduo", "gender": "M", "item": "berryjuice", "ability": "runaway", "level": 5, "moves": ["drillpeck", "quickattack", "return", "thief"], "teraType": "Normal", "evs": {"hp": 236, "atk": 236, "def": 236, "spa": 236, "spd": 236, "spe": 236}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255},
-      {"name": "drowzee", "species": "drowzee", "gender": "M", "item": "berryjuice", "ability": "insomnia", "level": 5, "moves": ["firepunch", "lightscreen", "psychic", "thunderwave"], "teraType": "Psychic", "evs": {"hp": 196, "atk": 212, "def": 236, "spa": 252, "spd": 196, "spe": 180}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "machop", "species": "machop", "gender": "M", "item": "berryjuice", "ability": "guts", "level": 5, "ivs": {"hp": 31, "atk": 26, "def": 26, "spa": 31, "spd": 31, "spe": 31}, "moves": ["crosschop", "earthquake", "encore", "hiddenpowerbug"], "teraType": "Fighting", "evs": {"hp": 196, "atk": 216, "def": 216, "spa": 236, "spd": 236, "spe": 236}},
-      {"name": "poliwag", "species": "poliwag", "gender": "M", "item": "berryjuice", "ability": "waterabsorb", "level": 5, "moves": ["icebeam", "lovelykiss", "psychic", "surf"], "teraType": "Water", "evs": {"hp": 196, "atk": 196, "def": 196, "spa": 196, "spd": 196, "spe": 196}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "sandshrew", "species": "sandshrew", "gender": "M", "item": "berryjuice", "ability": "sandveil", "level": 5, "moves": ["counter", "earthquake", "rapidspin", "thief"], "teraType": "Ground", "evs": {"hp": 196, "atk": 236, "def": 236, "spa": 196, "spd": 196, "spe": 196}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Elekid", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Cross Chop", "Ice Punch", "Thief", "Thunder"]},
+      {"species": "Doduo", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Drill Peck", "Quick Attack", "Return", "Thief"], "happiness": 255},
+      {"species": "Drowzee", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Fire Punch", "Light Screen", "Psychic", "Thunder Wave"]},
+      {"species": "Machop", "gender": "M", "item": "Berry Juice", "level": 5, "ivs": {"atk": 27, "def": 27}, "moves": ["Cross Chop", "Earthquake", "Encore", "Hidden Power Bug"]},
+      {"species": "Poliwag", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Ice Beam", "Lovely Kiss", "Psychic", "Surf"]},
+      {"species": "Sandshrew", "gender": "M", "item": "Berry Juice", "level": 5, "moves": ["Counter", "Earthquake", "Rapid Spin", "Thief"]}
     ]
   }
 ]

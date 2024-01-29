@@ -3,106 +3,106 @@
     "name": "Mega Metagross + Zygarde",
     "author": "umbry",
     "data": [
-      {"name": "metagross", "species": "metagross", "item": "metagrossite", "ability": "clearbody", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["icepunch", "ironhead", "protect", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "figyberry", "ability": "intimidate", "evs": {"hp": 252, "atk": 12, "def": 20, "spa": 0, "spd": 136, "spe": 88}, "moves": ["fakeout", "flareblitz", "knockoff", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kartana", "species": "kartana", "item": "magoberry", "ability": "beastboost", "evs": {"hp": 128, "atk": 20, "def": 0, "spa": 0, "spd": 164, "spe": 196}, "moves": ["detect", "leafblade", "sacredsword", "tailwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tapufini", "species": "tapufini", "item": "wikiberry", "ability": "mistysurge", "evs": {"hp": 252, "atk": 0, "def": 32, "spa": 160, "spd": 40, "spe": 24}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "moonblast", "muddywater", "protect"], "level": 100},
-      {"name": "zeraora", "species": "zeraora", "item": "assaultvest", "ability": "voltabsorb", "evs": {"hp": 232, "atk": 0, "def": 0, "spa": 12, "spd": 72, "spe": 192}, "moves": ["fakeout", "hiddenpowerfire", "snarl", "voltswitch"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "level": 100, "hpType": "Fire"},
-      {"name": "zygarde", "species": "zygarde", "item": "groundiumz", "ability": "aurabreak", "evs": {"hp": 96, "atk": 220, "def": 0, "spa": 0, "spd": 8, "spe": 184}, "moves": ["dragondance", "protect", "substitute", "thousandarrows"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Metagross", "item": "Metagrossite", "ability": "Clear Body", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Punch", "Iron Head", "Protect", "Stealth Rock"]},
+      {"species": "Incineroar", "gender": "M", "item": "Figy Berry", "ability": "Intimidate", "evs": {"hp": 252, "atk": 12, "def": 20, "spd": 136, "spe": 88}, "nature": "Careful", "moves": ["Fake Out", "Flare Blitz", "Knock Off", "U-turn"]},
+      {"species": "Kartana", "item": "Mago Berry", "ability": "Beast Boost", "evs": {"hp": 128, "atk": 20, "spd": 164, "spe": 196}, "nature": "Jolly", "moves": ["Detect", "Leaf Blade", "Sacred Sword", "Tailwind"]},
+      {"species": "Tapu Fini", "item": "Wiki Berry", "ability": "Misty Surge", "evs": {"hp": 252, "def": 32, "spa": 160, "spd": 40, "spe": 24}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Moonblast", "Muddy Water", "Protect"]},
+      {"species": "Zeraora", "item": "Assault Vest", "ability": "Volt Absorb", "evs": {"hp": 232, "spa": 12, "spd": 72, "spe": 192}, "nature": "Timid", "moves": ["Fake Out", "Hidden Power Fire", "Snarl", "Volt Switch"], "ivs": {"atk": 30, "spa": 30, "spe": 30}, "hpType": "Fire"},
+      {"species": "Zygarde", "item": "Groundium Z", "ability": "Aura Break", "evs": {"hp": 96, "atk": 220, "spd": 8, "spe": 184}, "nature": "Adamant", "moves": ["Dragon Dance", "Protect", "Substitute", "Thousand Arrows"]}
     ]
   },
   {
     "name": "Mega Metagross Rain",
     "author": "emforbes",
     "data": [
-      {"name": "metagross", "species": "metagross", "item": "metagrossite", "ability": "clearbody", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["icepunch", "ironhead", "protect", "thunderpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "figyberry", "ability": "intimidate", "evs": {"hp": 248, "atk": 0, "def": 24, "spa": 0, "spd": 140, "spe": 96}, "moves": ["fakeout", "flareblitz", "taunt", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kingdra", "species": "kingdra", "gender": "M", "item": "choicespecs", "ability": "swiftswim", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "hydropump", "icebeam", "muddywater"], "level": 100},
-      {"name": "kommoo", "species": "kommoo", "gender": "M", "item": "kommoniumz", "ability": "soundproof", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["clangingscales", "flashcannon", "protect", "substitute"], "level": 100},
-      {"name": "pelipper", "species": "pelipper", "gender": "M", "item": "damprock", "ability": "drizzle", "evs": {"hp": 152, "atk": 0, "def": 4, "spa": 84, "spd": 120, "spe": 148}, "moves": ["hurricane", "hydropump", "tailwind", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tapukoko", "species": "tapukoko", "item": "choicespecs", "ability": "electricsurge", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "hiddenpowerfire", "thunder", "voltswitch"], "level": 100, "hpType": "Fire"}
+      {"species": "Metagross", "item": "Metagrossite", "ability": "Clear Body", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Punch", "Iron Head", "Protect", "Thunder Punch"]},
+      {"species": "Incineroar", "gender": "M", "item": "Figy Berry", "ability": "Intimidate", "evs": {"hp": 248, "def": 24, "spd": 140, "spe": 96}, "nature": "Careful", "moves": ["Fake Out", "Flare Blitz", "Taunt", "U-turn"]},
+      {"species": "Kingdra", "gender": "M", "item": "Choice Specs", "ability": "Swift Swim", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Hydro Pump", "Ice Beam", "Muddy Water"]},
+      {"species": "Kommo-o", "gender": "M", "item": "Kommonium Z", "ability": "Soundproof", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Clanging Scales", "Flash Cannon", "Protect", "Substitute"]},
+      {"species": "Pelipper", "gender": "M", "item": "Damp Rock", "ability": "Drizzle", "evs": {"hp": 152, "def": 4, "spa": 84, "spd": 120, "spe": 148}, "nature": "Modest", "moves": ["Hurricane", "Hydro Pump", "Tailwind", "U-turn"]},
+      {"species": "Tapu Koko", "item": "Choice Specs", "ability": "Electric Surge", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dazzling Gleam", "Hidden Power Fire", "Thunder", "Volt Switch"], "hpType": "Fire"}
     ]
   },
   {
     "name": "Mega Gardevoir Rain",
     "author": "Ezrael",
     "data": [
-      {"name": "gardevoir", "species": "gardevoir", "gender": "M", "item": "gardevoirite", "ability": "trace", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 212, "spd": 0, "spe": 44}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hypervoice", "protect", "psyshock", "trickroom"], "level": 100},
-      {"name": "amoonguss", "species": "amoonguss", "gender": "M", "item": "occaberry", "ability": "regenerator", "evs": {"hp": 252, "atk": 0, "def": 144, "spa": 0, "spd": 112, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 28}, "moves": ["foulplay", "ragepowder", "sludgebomb", "spore"], "level": 100},
-      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "figyberry", "ability": "intimidate", "evs": {"hp": 252, "atk": 0, "def": 12, "spa": 0, "spd": 160, "spe": 84}, "moves": ["fakeout", "flareblitz", "knockoff", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kartana", "species": "kartana", "item": "grassiumz", "ability": "beastboost", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 252}, "moves": ["detect", "leafblade", "sacredsword", "tailwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kingdra", "species": "kingdra", "gender": "M", "item": "choicespecs", "ability": "swiftswim", "evs": {"hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "hydropump", "icebeam", "muddywater"], "level": 100},
-      {"name": "politoed", "species": "politoed", "gender": "M", "item": "ejectbutton", "ability": "drizzle", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 8}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["encore", "helpinghand", "hydropump", "icywind"], "level": 100}
+      {"species": "Gardevoir", "gender": "M", "item": "Gardevoirite", "ability": "Trace", "evs": {"hp": 252, "spa": 212, "spe": 44}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Hyper Voice", "Protect", "Psyshock", "Trick Room"]},
+      {"species": "Amoonguss", "gender": "M", "item": "Occa Berry", "ability": "Regenerator", "evs": {"hp": 252, "def": 144, "spd": 112}, "nature": "Calm", "ivs": {"atk": 0, "spe": 28}, "moves": ["Foul Play", "Rage Powder", "Sludge Bomb", "Spore"]},
+      {"species": "Incineroar", "gender": "M", "item": "Figy Berry", "ability": "Intimidate", "evs": {"hp": 252, "def": 12, "spd": 160, "spe": 84}, "nature": "Adamant", "moves": ["Fake Out", "Flare Blitz", "Knock Off", "U-turn"]},
+      {"species": "Kartana", "item": "Grassium Z", "ability": "Beast Boost", "evs": {"hp": 4, "spd": 252, "spe": 252}, "nature": "Jolly", "moves": ["Detect", "Leaf Blade", "Sacred Sword", "Tailwind"]},
+      {"species": "Kingdra", "gender": "M", "item": "Choice Specs", "ability": "Swift Swim", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Hydro Pump", "Ice Beam", "Muddy Water"]},
+      {"species": "Politoed", "gender": "M", "item": "Eject Button", "ability": "Drizzle", "evs": {"hp": 248, "spa": 252, "spe": 8}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Encore", "Helping Hand", "Hydro Pump", "Icy Wind"]}
     ]
   },
   {
     "name": "Mega Venusaur + Aegislash",
     "author": "SMB",
     "data": [
-      {"name": "venusaur", "species": "venusaur", "gender": "M", "item": "venusaurite", "ability": "chlorophyll", "evs": {"hp": 252, "atk": 0, "def": 84, "spa": 0, "spd": 172, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerfire", "leechseed", "sludgebomb", "synthesis"], "level": 100, "hpType": "Fire"},
-      {"name": "aegislash", "species": "aegislash", "gender": "M", "item": "leftovers", "ability": "stancechange", "evs": {"hp": 220, "atk": 0, "def": 0, "spa": 148, "spd": 16, "spe": 124}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["kingsshield", "shadowball", "substitute", "toxic"], "level": 100},
-      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "figyberry", "ability": "intimidate", "evs": {"hp": 244, "atk": 0, "def": 112, "spa": 0, "spd": 132, "spe": 20}, "moves": ["fakeout", "flareblitz", "knockoff", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "landorustherian", "species": "landorustherian", "item": "groundiumz", "ability": "intimidate", "evs": {"hp": 112, "atk": 144, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "stealthrock", "stoneedge", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tapufini", "species": "tapufini", "item": "wikiberry", "ability": "mistysurge", "evs": {"hp": 252, "atk": 0, "def": 64, "spa": 92, "spd": 68, "spe": 32}, "moves": ["calmmind", "moonblast", "muddywater", "protect"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zeraora", "species": "zeraora", "item": "assaultvest", "ability": "voltabsorb", "evs": {"hp": 168, "atk": 0, "def": 0, "spa": 60, "spd": 84, "spe": 196}, "moves": ["fakeout", "hiddenpowerice", "snarl", "voltswitch"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "level": 100, "hpType": "Ice"}
+      {"species": "Venusaur", "gender": "M", "item": "Venusaurite", "ability": "Chlorophyll", "evs": {"hp": 252, "def": 84, "spd": 172}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Hidden Power Fire", "Leech Seed", "Sludge Bomb", "Synthesis"], "hpType": "Fire"},
+      {"species": "Aegislash", "gender": "M", "item": "Leftovers", "ability": "Stance Change", "evs": {"hp": 220, "spa": 148, "spd": 16, "spe": 124}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["King's Shield", "Shadow Ball", "Substitute", "Toxic"]},
+      {"species": "Incineroar", "gender": "M", "item": "Figy Berry", "ability": "Intimidate", "evs": {"hp": 244, "def": 112, "spd": 132, "spe": 20}, "nature": "Careful", "moves": ["Fake Out", "Flare Blitz", "Knock Off", "U-turn"]},
+      {"species": "Landorus-Therian", "item": "Groundium Z", "ability": "Intimidate", "evs": {"hp": 112, "atk": 144, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Stealth Rock", "Stone Edge", "U-turn"]},
+      {"species": "Tapu Fini", "item": "Wiki Berry", "ability": "Misty Surge", "evs": {"hp": 252, "def": 64, "spa": 92, "spd": 68, "spe": 32}, "nature": "Bold", "moves": ["Calm Mind", "Moonblast", "Muddy Water", "Protect"]},
+      {"species": "Zeraora", "item": "Assault Vest", "ability": "Volt Absorb", "evs": {"hp": 168, "spa": 60, "spd": 84, "spe": 196}, "nature": "Timid", "moves": ["Fake Out", "Hidden Power Ice", "Snarl", "Volt Switch"], "ivs": {"atk": 30, "def": 30}, "hpType": "Ice"}
     ]
   },
   {
     "name": "Mega Tyranitar + Volcarona",
     "author": "emforbes",
     "data": [
-      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "tyranitarite", "ability": "sandstream", "evs": {"hp": 188, "atk": 32, "def": 40, "spa": 0, "spd": 0, "spe": 248}, "moves": ["crunch", "dragondance", "protect", "rockslide"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kartana", "species": "kartana", "item": "magoberry", "ability": "beastboost", "shiny": true, "evs": {"hp": 72, "atk": 48, "def": 0, "spa": 0, "spd": 180, "spe": 208}, "moves": ["detect", "leafblade", "sacredsword", "tailwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "landorustherian", "species": "landorustherian", "item": "wikiberry", "ability": "intimidate", "evs": {"hp": 252, "atk": 0, "def": 28, "spa": 0, "spd": 216, "spe": 12}, "moves": ["defog", "earthpower", "stealthrock", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tapufini", "species": "tapufini", "item": "wikiberry", "ability": "mistysurge", "evs": {"hp": 252, "atk": 0, "def": 100, "spa": 0, "spd": 16, "spe": 140}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["healpulse", "icywind", "moonblast", "naturesmadness"], "level": 100},
-      {"name": "volcarona", "species": "volcarona", "gender": "M", "item": "buginiumz", "ability": "swarm", "evs": {"hp": 12, "atk": 0, "def": 0, "spa": 200, "spd": 56, "spe": 240}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bugbuzz", "heatwave", "protect", "quiverdance"], "level": 100},
-      {"name": "zeraora", "species": "zeraora", "item": "assaultvest", "ability": "voltabsorb", "evs": {"hp": 184, "atk": 0, "def": 68, "spa": 8, "spd": 0, "spe": 248}, "moves": ["fakeout", "hiddenpowerice", "snarl", "voltswitch"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "level": 100, "hpType": "Ice"}
+      {"species": "Tyranitar", "gender": "M", "item": "Tyranitarite", "ability": "Sand Stream", "evs": {"hp": 188, "atk": 32, "def": 40, "spe": 248}, "nature": "Adamant", "moves": ["Crunch", "Dragon Dance", "Protect", "Rock Slide"]},
+      {"species": "Kartana", "item": "Mago Berry", "ability": "Beast Boost", "shiny": true, "evs": {"hp": 72, "atk": 48, "spd": 180, "spe": 208}, "nature": "Jolly", "moves": ["Detect", "Leaf Blade", "Sacred Sword", "Tailwind"]},
+      {"species": "Landorus-Therian", "item": "Wiki Berry", "ability": "Intimidate", "evs": {"hp": 252, "def": 28, "spd": 216, "spe": 12}, "nature": "Calm", "moves": ["Defog", "Earth Power", "Stealth Rock", "U-turn"]},
+      {"species": "Tapu Fini", "item": "Wiki Berry", "ability": "Misty Surge", "evs": {"hp": 252, "def": 100, "spd": 16, "spe": 140}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Heal Pulse", "Icy Wind", "Moonblast", "Nature's Madness"]},
+      {"species": "Volcarona", "gender": "M", "item": "Buginium Z", "ability": "Swarm", "evs": {"hp": 12, "spa": 200, "spd": 56, "spe": 240}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Bug Buzz", "Heat Wave", "Protect", "Quiver Dance"]},
+      {"species": "Zeraora", "item": "Assault Vest", "ability": "Volt Absorb", "evs": {"hp": 184, "def": 68, "spa": 8, "spe": 248}, "nature": "Timid", "moves": ["Fake Out", "Hidden Power Ice", "Snarl", "Volt Switch"], "ivs": {"atk": 30, "def": 30}, "hpType": "Ice"}
     ]
   },
   {
     "name": "Mega Charizard Y + Nihilego",
     "data": [
-      {"name": "charizard", "species": "charizard", "gender": "M", "item": "charizarditey", "ability": "blaze", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["heatwave", "overheat", "protect", "tailwind"], "level": 100},
-      {"name": "genesect", "species": "genesect", "item": "wikiberry", "ability": "download", "shiny": true, "evs": {"hp": 0, "atk": 164, "def": 0, "spa": 92, "spd": 0, "spe": 252}, "moves": ["flamethrower", "icebeam", "ironhead", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "landorus", "species": "landorus", "item": "choicescarf", "ability": "sheerforce", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["earthpower", "hiddenpowerice", "rockslide", "uturn"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "level": 100, "hpType": "Ice"},
-      {"name": "nihilego", "species": "nihilego", "item": "rockiumz", "ability": "beastboost", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["powergem", "protect", "sludgebomb", "stealthrock"], "level": 100},
-      {"name": "scrafty", "species": "scrafty", "gender": "M", "item": "ejectbutton", "ability": "intimidate", "evs": {"hp": 244, "atk": 32, "def": 108, "spa": 0, "spd": 124, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["dragontail", "fakeout", "knockoff", "lowkick"], "level": 100},
-      {"name": "tapulele", "species": "tapulele", "item": "lifeorb", "ability": "psychicsurge", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["moonblast", "protect", "psychic", "taunt"], "level": 100}
+      {"species": "Charizard", "gender": "M", "item": "Charizardite Y", "ability": "Blaze", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Heat Wave", "Overheat", "Protect", "Tailwind"]},
+      {"species": "Genesect", "item": "Wiki Berry", "ability": "Download", "shiny": true, "evs": {"atk": 164, "spa": 92, "spe": 252}, "nature": "Hasty", "moves": ["Flamethrower", "Ice Beam", "Iron Head", "U-turn"]},
+      {"species": "Landorus", "item": "Choice Scarf", "ability": "Sheer Force", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Naive", "moves": ["Earth Power", "Hidden Power Ice", "Rock Slide", "U-turn"], "ivs": {"atk": 30, "def": 30}, "hpType": "Ice"},
+      {"species": "Nihilego", "item": "Rockium Z", "ability": "Beast Boost", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Power Gem", "Protect", "Sludge Bomb", "Stealth Rock"]},
+      {"species": "Scrafty", "gender": "M", "item": "Eject Button", "ability": "Intimidate", "evs": {"hp": 244, "atk": 32, "def": 108, "spd": 124}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Dragon Tail", "Fake Out", "Knock Off", "Low Kick"]},
+      {"species": "Tapu Lele", "item": "Life Orb", "ability": "Psychic Surge", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Moonblast", "Protect", "Psychic", "Taunt"]}
     ]
   },
   {
     "name": "Mega Latias Goodstuffs",
     "author": "EmbCPT",
     "data": [
-      {"name": "latias", "species": "latias", "item": "latiasite", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "psyshock", "recover", "shadowball"], "level": 100},
-      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "figyberry", "ability": "intimidate", "evs": {"hp": 252, "atk": 0, "def": 60, "spa": 0, "spd": 116, "spe": 80}, "moves": ["fakeout", "flareblitz", "knockoff", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kartana", "species": "kartana", "item": "grassiumz", "ability": "beastboost", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 0, "spd": 252, "spe": 252}, "moves": ["detect", "leafblade", "sacredsword", "tailwind"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "landorustherian", "species": "landorustherian", "item": "magoberry", "ability": "intimidate", "evs": {"hp": 252, "atk": 0, "def": 64, "spa": 0, "spd": 184, "spe": 8}, "moves": ["earthpower", "knockoff", "stealthrock", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tapufini", "species": "tapufini", "item": "wikiberry", "ability": "mistysurge", "evs": {"hp": 252, "atk": 0, "def": 60, "spa": 172, "spd": 0, "spe": 24}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "moonblast", "muddywater", "protect"], "level": 100},
-      {"name": "zeraora", "species": "zeraora", "item": "assaultvest", "ability": "voltabsorb", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 68, "spd": 0, "spe": 192}, "moves": ["fakeout", "hiddenpowerice", "snarl", "voltswitch"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "level": 100, "hpType": "Ice"}
+      {"species": "Latias", "item": "Latiasite", "ability": "Levitate", "evs": {"hp": 252, "def": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Psyshock", "Recover", "Shadow Ball"]},
+      {"species": "Incineroar", "gender": "M", "item": "Figy Berry", "ability": "Intimidate", "evs": {"hp": 252, "def": 60, "spd": 116, "spe": 80}, "nature": "Adamant", "moves": ["Fake Out", "Flare Blitz", "Knock Off", "U-turn"]},
+      {"species": "Kartana", "item": "Grassium Z", "ability": "Beast Boost", "evs": {"atk": 4, "spd": 252, "spe": 252}, "nature": "Jolly", "moves": ["Detect", "Leaf Blade", "Sacred Sword", "Tailwind"]},
+      {"species": "Landorus-Therian", "item": "Mago Berry", "ability": "Intimidate", "evs": {"hp": 252, "def": 64, "spd": 184, "spe": 8}, "nature": "Modest", "moves": ["Earth Power", "Knock Off", "Stealth Rock", "U-turn"]},
+      {"species": "Tapu Fini", "item": "Wiki Berry", "ability": "Misty Surge", "evs": {"hp": 252, "def": 60, "spa": 172, "spe": 24}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Moonblast", "Muddy Water", "Protect"]},
+      {"species": "Zeraora", "item": "Assault Vest", "ability": "Volt Absorb", "evs": {"hp": 248, "spa": 68, "spe": 192}, "nature": "Timid", "moves": ["Fake Out", "Hidden Power Ice", "Snarl", "Volt Switch"], "ivs": {"atk": 30, "def": 30}, "hpType": "Ice"}
     ]
   },
   {
     "name": "Mega Scizor + Kommo-o",
     "author": "SMB",
     "data": [
-      {"name": "scizor", "species": "scizor", "gender": "M", "item": "scizorite", "ability": "lightmetal", "evs": {"hp": 248, "atk": 132, "def": 0, "spa": 0, "spd": 36, "spe": 92}, "moves": ["bulletpunch", "protect", "superpower", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gothitelle", "species": "gothitelle", "gender": "M", "item": "wikiberry", "ability": "shadowtag", "evs": {"hp": 252, "atk": 0, "def": 152, "spa": 0, "spd": 104, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["healpulse", "protect", "psychic", "trickroom"], "level": 100},
-      {"name": "kommoo", "species": "kommoo", "gender": "M", "item": "kommoniumz", "ability": "soundproof", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["clangingscales", "flamethrower", "poisonjab", "protect"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "landorustherian", "species": "landorustherian", "item": "yacheberry", "ability": "intimidate", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 8, "spd": 32, "spe": 212}, "moves": ["earthpower", "hiddenpowerice", "stealthrock", "uturn"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "level": 100, "hpType": "Ice"},
-      {"name": "tapukoko", "species": "tapukoko", "item": "magnet", "ability": "electricsurge", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dazzlinggleam", "protect", "thunderbolt", "voltswitch"], "level": 100},
-      {"name": "volcanion", "species": "volcanion", "item": "shucaberry", "ability": "waterabsorb", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 188, "spd": 20, "spe": 52}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["heatwave", "protect", "sludgebomb", "steameruption"], "level": 100}
+      {"species": "Scizor", "gender": "M", "item": "Scizorite", "ability": "Light Metal", "evs": {"hp": 248, "atk": 132, "spd": 36, "spe": 92}, "nature": "Adamant", "moves": ["Bullet Punch", "Protect", "Superpower", "Swords Dance"]},
+      {"species": "Gothitelle", "gender": "M", "item": "Wiki Berry", "ability": "Shadow Tag", "evs": {"hp": 252, "def": 152, "spd": 104}, "nature": "Sassy", "ivs": {"atk": 0, "spe": 0}, "moves": ["Heal Pulse", "Protect", "Psychic", "Trick Room"]},
+      {"species": "Kommo-o", "gender": "M", "item": "Kommonium Z", "ability": "Soundproof", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Mild", "moves": ["Clanging Scales", "Flamethrower", "Poison Jab", "Protect"]},
+      {"species": "Landorus-Therian", "item": "Yache Berry", "ability": "Intimidate", "evs": {"hp": 248, "def": 8, "spa": 8, "spd": 32, "spe": 212}, "nature": "Modest", "moves": ["Earth Power", "Hidden Power Ice", "Stealth Rock", "U-turn"], "ivs": {"atk": 30, "def": 30}, "hpType": "Ice"},
+      {"species": "Tapu Koko", "item": "Magnet", "ability": "Electric Surge", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dazzling Gleam", "Protect", "Thunderbolt", "Volt Switch"]},
+      {"species": "Volcanion", "item": "Shuca Berry", "ability": "Water Absorb", "evs": {"hp": 248, "spa": 188, "spd": 20, "spe": 52}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Heat Wave", "Protect", "Sludge Bomb", "Steam Eruption"]}
     ]
   },
   {
     "name": "Mega Camerupt Fullroom",
     "data": [
-      {"name": "camerupt", "species": "camerupt", "gender": "M", "item": "cameruptite", "ability": "magmaarmor", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 252, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["earthpower", "heatwave", "naturepower", "protect"], "level": 100},
-      {"name": "bronzong", "species": "bronzong", "item": "psychiumz", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 96, "spa": 0, "spd": 160, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["gyroball", "hypnosis", "stealthrock", "trickroom"], "level": 100},
-      {"name": "diancie", "species": "diancie", "item": "weaknesspolicy", "ability": "clearbody", "evs": {"hp": 248, "atk": 252, "def": 0, "spa": 0, "spd": 8, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["diamondstorm", "moonblast", "protect", "trickroom"], "level": 100},
-      {"name": "incineroar", "species": "incineroar", "gender": "M", "item": "wikiberry", "ability": "intimidate", "evs": {"hp": 252, "atk": 0, "def": 100, "spa": 0, "spd": 156, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 1}, "moves": ["fakeout", "flareblitz", "taunt", "uturn"], "level": 100},
-      {"name": "porygon2", "species": "porygon2", "item": "eviolite", "ability": "download", "evs": {"hp": 252, "atk": 0, "def": 132, "spa": 16, "spd": 108, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["icebeam", "recover", "toxic", "trickroom"], "level": 100},
-      {"name": "tapubulu", "species": "tapubulu", "item": "assaultvest", "ability": "grassysurge", "evs": {"hp": 208, "atk": 64, "def": 0, "spa": 0, "spd": 236, "spe": 0}, "moves": ["hornleech", "stoneedge", "superpower", "woodhammer"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Camerupt", "gender": "M", "item": "Cameruptite", "ability": "Magma Armor", "evs": {"hp": 248, "def": 8, "spa": 252}, "nature": "Quiet", "ivs": {"atk": 0, "spe": 0}, "moves": ["Earth Power", "Heat Wave", "Nature Power", "Protect"]},
+      {"species": "Bronzong", "item": "Psychium Z", "ability": "Levitate", "evs": {"hp": 252, "def": 96, "spd": 160}, "nature": "Relaxed", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Hypnosis", "Stealth Rock", "Trick Room"]},
+      {"species": "Diancie", "item": "Weakness Policy", "ability": "Clear Body", "evs": {"hp": 248, "atk": 252, "spd": 8}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Diamond Storm", "Moonblast", "Protect", "Trick Room"]},
+      {"species": "Incineroar", "gender": "M", "item": "Wiki Berry", "ability": "Intimidate", "evs": {"hp": 252, "def": 100, "spd": 156}, "nature": "Sassy", "ivs": {"spe": 1}, "moves": ["Fake Out", "Flare Blitz", "Taunt", "U-turn"]},
+      {"species": "Porygon2", "item": "Eviolite", "ability": "Download", "evs": {"hp": 252, "def": 132, "spa": 16, "spd": 108}, "nature": "Quiet", "ivs": {"atk": 0, "spe": 0}, "moves": ["Ice Beam", "Recover", "Toxic", "Trick Room"]},
+      {"species": "Tapu Bulu", "item": "Assault Vest", "ability": "Grassy Surge", "evs": {"hp": 208, "atk": 64, "spd": 236}, "nature": "Brave", "moves": ["Horn Leech", "Stone Edge", "Superpower", "Wood Hammer"]}
     ]
   }
 ]

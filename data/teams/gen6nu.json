@@ -3,72 +3,72 @@
     "name": "Sash Archeops Hyper Offense",
     "author": "Shaneghoul",
     "data": [
-      {"name": "archeops", "species": "archeops", "gender": "M", "item": "focussash", "ability": "defeatist", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["endeavor", "headsmash", "stealthrock", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "garbodor", "species": "garbodor", "gender": "M", "item": "normalgem", "ability": "weakarmor", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["explosion", "gunkshot", "spikes", "toxicspikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kangaskhan", "species": "kangaskhan", "item": "silkscarf", "ability": "scrappy", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["doubleedge", "earthquake", "fakeout", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "lilligant", "species": "lilligant", "item": "miracleseed", "ability": "chlorophyll", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "moves": ["gigadrain", "hiddenpowerfire", "quiverdance", "sleeppowder"], "level": 100},
-      {"name": "rotom", "species": "rotom", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["shadowball", "thunderbolt", "trick", "voltswitch"], "level": 100},
-      {"name": "samurott", "species": "samurott", "gender": "M", "item": "lumberry", "ability": "torrent", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["aquajet", "megahorn", "swordsdance", "waterfall"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Archeops", "gender": "M", "item": "Focus Sash", "ability": "Defeatist", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Endeavor", "Head Smash", "Stealth Rock", "Taunt"]},
+      {"species": "Garbodor", "gender": "M", "item": "Normal Gem", "ability": "Weak Armor", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Explosion", "Gunk Shot", "Spikes", "Toxic Spikes"]},
+      {"species": "Kangaskhan", "item": "Silk Scarf", "ability": "Scrappy", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Double-Edge", "Earthquake", "Fake Out", "Sucker Punch"]},
+      {"species": "Lilligant", "item": "Miracle Seed", "ability": "Chlorophyll", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "spa": 30, "spe": 30}, "moves": ["Giga Drain", "Hidden Power Fire", "Quiver Dance", "Sleep Powder"]},
+      {"species": "Rotom", "item": "Choice Scarf", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Shadow Ball", "Thunderbolt", "Trick", "Volt Switch"]},
+      {"species": "Samurott", "gender": "M", "item": "Lum Berry", "ability": "Torrent", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Aqua Jet", "Megahorn", "Swords Dance", "Waterfall"]}
     ]
   },
   {
     "name": "Shell Smash Omastar Offense",
     "author": "Rapture",
     "data": [
-      {"name": "omastar", "species": "omastar", "gender": "M", "item": "shucaberry", "ability": "shellarmor", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "moves": ["earthpower", "hydropump", "icebeam", "shellsmash"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magmortar", "species": "magmortar", "gender": "M", "item": "assaultvest", "ability": "vitalspirit", "evs": {"hp": 64, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 192}, "moves": ["earthquake", "fireblast", "hiddenpowergrass", "thunderbolt"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "level": 100},
-      {"name": "mesprit", "species": "mesprit", "item": "colburberry", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "moves": ["icebeam", "psychic", "signalbeam", "stealthrock"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mismagius", "species": "mismagius", "gender": "M", "item": "colburberry", "ability": "levitate", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["hex", "memento", "taunt", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "shiftry", "species": "shiftry", "gender": "M", "item": "lifeorb", "ability": "chlorophyll", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["defog", "knockoff", "leafstorm", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tauros", "species": "tauros", "item": "lifeorb", "ability": "sheerforce", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["earthquake", "fireblast", "irontail", "rockclimb"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Omastar", "gender": "M", "item": "Shuca Berry", "ability": "Shell Armor", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Modest", "moves": ["Earth Power", "Hydro Pump", "Ice Beam", "Shell Smash"]},
+      {"species": "Magmortar", "gender": "M", "item": "Assault Vest", "ability": "Vital Spirit", "evs": {"hp": 64, "spa": 252, "spe": 192}, "nature": "Mild", "moves": ["Earthquake", "Fire Blast", "Hidden Power Grass", "Thunderbolt"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Mesprit", "item": "Colbur Berry", "ability": "Levitate", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "moves": ["Ice Beam", "Psychic", "Signal Beam", "Stealth Rock"]},
+      {"species": "Mismagius", "gender": "M", "item": "Colbur Berry", "ability": "Levitate", "evs": {"hp": 252, "def": 4, "spe": 252}, "nature": "Timid", "moves": ["Hex", "Memento", "Taunt", "Will-O-Wisp"]},
+      {"species": "Shiftry", "gender": "M", "item": "Life Orb", "ability": "Chlorophyll", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Lonely", "moves": ["Defog", "Knock Off", "Leaf Storm", "Sucker Punch"]},
+      {"species": "Tauros", "item": "Life Orb", "ability": "Sheer Force", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Earthquake", "Fire Blast", "Iron Tail", "Rock Climb"]}
     ]
   },
   {
     "name": "Work Up Tauros",
     "author": "Eternally",
     "data": [
-      {"name": "tauros", "species": "tauros", "item": "lifeorb", "ability": "sheerforce", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["earthquake", "fireblast", "rockclimb", "workup"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hariyama", "species": "hariyama", "gender": "M", "item": "assaultvest", "ability": "guts", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 204, "spe": 52}, "moves": ["bulletpunch", "closecombat", "knockoff", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magmortar", "species": "magmortar", "gender": "M", "item": "assaultvest", "ability": "vitalspirit", "evs": {"hp": 96, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 160}, "moves": ["earthquake", "fireblast", "hiddenpowergrass", "thunderbolt"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "level": 100},
-      {"name": "mesprit", "species": "mesprit", "item": "choicespecs", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["healingwish", "icebeam", "psychic", "signalbeam"], "level": 100},
-      {"name": "pelipper", "species": "pelipper", "gender": "M", "item": "leftovers", "ability": "keeneye", "evs": {"hp": 248, "atk": 0, "def": 156, "spa": 0, "spd": 104, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "hurricane", "roost", "scald"], "level": 100},
-      {"name": "steelix", "species": "steelix", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 244, "atk": 96, "def": 0, "spa": 0, "spd": 164, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Tauros", "item": "Life Orb", "ability": "Sheer Force", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Earthquake", "Fire Blast", "Rock Climb", "Work Up"]},
+      {"species": "Hariyama", "gender": "M", "item": "Assault Vest", "ability": "Guts", "evs": {"atk": 252, "spd": 204, "spe": 52}, "nature": "Adamant", "moves": ["Bullet Punch", "Close Combat", "Knock Off", "Stone Edge"]},
+      {"species": "Magmortar", "gender": "M", "item": "Assault Vest", "ability": "Vital Spirit", "evs": {"hp": 96, "spa": 252, "spe": 160}, "nature": "Modest", "moves": ["Earthquake", "Fire Blast", "Hidden Power Grass", "Thunderbolt"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Mesprit", "item": "Choice Specs", "ability": "Levitate", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Healing Wish", "Ice Beam", "Psychic", "Signal Beam"]},
+      {"species": "Pelipper", "gender": "M", "item": "Leftovers", "ability": "Keen Eye", "evs": {"hp": 248, "def": 156, "spd": 104}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Defog", "Hurricane", "Roost", "Scald"]},
+      {"species": "Steelix", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 244, "atk": 96, "spd": 164}, "nature": "Adamant", "moves": ["Earthquake", "Heavy Slam", "Stealth Rock", "Toxic"]}
     ]
   },
   {
     "name": "Malamar Bulky Offense",
     "author": "Abejas",
     "data": [
-      {"name": "malamar", "species": "malamar", "gender": "M", "item": "leftovers", "ability": "contrary", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 240, "spe": 16}, "moves": ["knockoff", "rest", "sleeptalk", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "archeops", "species": "archeops", "gender": "M", "ability": "defeatist", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["acrobatics", "earthquake", "roost", "stoneedge"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "garbodor", "species": "garbodor", "gender": "M", "item": "rockyhelmet", "ability": "aftermath", "evs": {"hp": 252, "atk": 0, "def": 200, "spa": 0, "spd": 0, "spe": 56}, "moves": ["gunkshot", "seedbomb", "spikes", "toxicspikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hariyama", "species": "hariyama", "gender": "M", "item": "assaultvest", "ability": "thickfat", "evs": {"hp": 0, "atk": 216, "def": 0, "spa": 0, "spd": 220, "spe": 72}, "moves": ["bulletpunch", "closecombat", "fakeout", "knockoff"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "pelipper", "species": "pelipper", "gender": "M", "item": "leftovers", "ability": "keeneye", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 4, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "hurricane", "roost", "scald"], "level": 100},
-      {"name": "steelix", "species": "steelix", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 248, "atk": 56, "def": 0, "spa": 0, "spd": 204, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Malamar", "gender": "M", "item": "Leftovers", "ability": "Contrary", "evs": {"hp": 252, "spd": 240, "spe": 16}, "nature": "Careful", "moves": ["Knock Off", "Rest", "Sleep Talk", "Superpower"]},
+      {"species": "Archeops", "gender": "M", "ability": "Defeatist", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Acrobatics", "Earthquake", "Roost", "Stone Edge"]},
+      {"species": "Garbodor", "gender": "M", "item": "Rocky Helmet", "ability": "Aftermath", "evs": {"hp": 252, "def": 200, "spe": 56}, "nature": "Impish", "moves": ["Gunk Shot", "Seed Bomb", "Spikes", "Toxic Spikes"]},
+      {"species": "Hariyama", "gender": "M", "item": "Assault Vest", "ability": "Thick Fat", "evs": {"atk": 216, "spd": 220, "spe": 72}, "nature": "Adamant", "moves": ["Bullet Punch", "Close Combat", "Fake Out", "Knock Off"]},
+      {"species": "Pelipper", "gender": "M", "item": "Leftovers", "ability": "Keen Eye", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Defog", "Hurricane", "Roost", "Scald"]},
+      {"species": "Steelix", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 248, "atk": 56, "spd": 204}, "nature": "Adamant", "moves": ["Earthquake", "Heavy Slam", "Stealth Rock", "Toxic"]}
     ]
   },
   {
     "name": "Standard ORAS NU",
     "author": "Teddeh",
     "data": [
-      {"name": "clefairy", "species": "clefairy", "gender": "M", "item": "eviolite", "ability": "magicguard", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 252, "spe": 0}, "moves": ["knockoff", "seismictoss", "softboiled", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hariyama", "species": "hariyama", "gender": "M", "item": "assaultvest", "ability": "thickfat", "evs": {"hp": 0, "atk": 216, "def": 0, "spa": 0, "spd": 220, "spe": 72}, "moves": ["bulletpunch", "closecombat", "fakeout", "knockoff"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "liepard", "species": "liepard", "gender": "M", "item": "choiceband", "ability": "limber", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["knockoff", "pursuit", "seedbomb", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "steelix", "species": "steelix", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 248, "atk": 56, "def": 0, "spa": 0, "spd": 204, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "vileplume", "species": "vileplume", "gender": "M", "item": "blacksludge", "ability": "effectspore", "evs": {"hp": 248, "atk": 0, "def": 216, "spa": 0, "spd": 0, "spe": 44}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["gigadrain", "moonlight", "sludgebomb", "worryseed"], "level": 100},
-      {"name": "xatu", "species": "xatu", "gender": "M", "item": "leftovers", "ability": "magicbounce", "evs": {"hp": 248, "atk": 0, "def": 204, "spa": 0, "spd": 0, "spe": 56}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "heatwave", "psyshock", "roost"], "level": 100}
+      {"species": "Clefairy", "gender": "M", "item": "Eviolite", "ability": "Magic Guard", "evs": {"hp": 248, "def": 8, "spd": 252}, "nature": "Careful", "moves": ["Knock Off", "Seismic Toss", "Soft-Boiled", "Thunder Wave"]},
+      {"species": "Hariyama", "gender": "M", "item": "Assault Vest", "ability": "Thick Fat", "evs": {"atk": 216, "spd": 220, "spe": 72}, "nature": "Adamant", "moves": ["Bullet Punch", "Close Combat", "Fake Out", "Knock Off"]},
+      {"species": "Liepard", "gender": "M", "item": "Choice Band", "ability": "Limber", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Knock Off", "Pursuit", "Seed Bomb", "U-turn"]},
+      {"species": "Steelix", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 248, "atk": 56, "spd": 204}, "nature": "Adamant", "moves": ["Earthquake", "Heavy Slam", "Stealth Rock", "Toxic"]},
+      {"species": "Vileplume", "gender": "M", "item": "Black Sludge", "ability": "Effect Spore", "evs": {"hp": 248, "def": 216, "spe": 44}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Moonlight", "Sludge Bomb", "Worry Seed"]},
+      {"species": "Xatu", "gender": "M", "item": "Leftovers", "ability": "Magic Bounce", "evs": {"hp": 248, "def": 204, "spe": 56}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Heat Wave", "Psyshock", "Roost"]}
     ]
   },
   {
     "name": "Copycat + Nasty Plot Liepard",
     "author": "Abejas",
     "data": [
-      {"name": "liepard", "species": "liepard", "gender": "M", "item": "blackglasses", "ability": "prankster", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["copycat", "darkpulse", "encore", "nastyplot"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "garbodor", "species": "garbodor", "gender": "M", "item": "rockyhelmet", "ability": "aftermath", "evs": {"hp": 52, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 204}, "moves": ["drainpunch", "gunkshot", "seedbomb", "spikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hariyama", "species": "hariyama", "gender": "M", "item": "assaultvest", "ability": "thickfat", "evs": {"hp": 0, "atk": 216, "def": 0, "spa": 0, "spd": 220, "spe": 72}, "moves": ["bulletpunch", "closecombat", "knockoff", "thunderpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kangaskhan", "species": "kangaskhan", "item": "silkscarf", "ability": "scrappy", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["doubleedge", "earthquake", "fakeout", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "rotom", "species": "rotom", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["shadowball", "thunderbolt", "trick", "voltswitch"], "level": 100},
-      {"name": "steelix", "species": "steelix", "gender": "M", "item": "leftovers", "ability": "sturdy", "evs": {"hp": 248, "atk": 56, "def": 0, "spa": 0, "spd": 204, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Liepard", "gender": "M", "item": "Black Glasses", "ability": "Prankster", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Copycat", "Dark Pulse", "Encore", "Nasty Plot"]},
+      {"species": "Garbodor", "gender": "M", "item": "Rocky Helmet", "ability": "Aftermath", "evs": {"hp": 52, "atk": 252, "spe": 204}, "nature": "Jolly", "moves": ["Drain Punch", "Gunk Shot", "Seed Bomb", "Spikes"]},
+      {"species": "Hariyama", "gender": "M", "item": "Assault Vest", "ability": "Thick Fat", "evs": {"atk": 216, "spd": 220, "spe": 72}, "nature": "Adamant", "moves": ["Bullet Punch", "Close Combat", "Knock Off", "Thunder Punch"]},
+      {"species": "Kangaskhan", "item": "Silk Scarf", "ability": "Scrappy", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Double-Edge", "Earthquake", "Fake Out", "Sucker Punch"]},
+      {"species": "Rotom", "item": "Choice Scarf", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Shadow Ball", "Thunderbolt", "Trick", "Volt Switch"]},
+      {"species": "Steelix", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 248, "atk": 56, "spd": 204}, "nature": "Adamant", "moves": ["Earthquake", "Heavy Slam", "Stealth Rock", "Toxic"]}
     ]
   }
 ]

@@ -3,84 +3,84 @@
     "name": "Offensive Qwilfish Water",
     "author": "Maroon",
     "data": [
-      {"name": "qwilfish", "species": "qwilfish", "gender": "M", "item": "focussash", "ability": "poisonpoint", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["explosion", "spikes", "taunt", "toxicspikes"], "teraType": "Water", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "empoleon", "species": "empoleon", "gender": "M", "item": "petayaberry", "ability": "torrent", "evs": {"hp": 12, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 240}, "moves": ["agility", "icebeam", "substitute", "surf"], "teraType": "Water", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "sharpedo", "species": "sharpedo", "gender": "M", "item": "choicescarf", "ability": "roughskin", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["crunch", "earthquake", "icefang", "waterfall"], "teraType": "Water", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "item": "lifeorb", "ability": "naturalcure", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hydropump", "psychic", "rapidspin", "thunderbolt"], "teraType": "Water", "level": 100},
-      {"name": "suicune", "species": "suicune", "item": "leftovers", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["calmmind", "hiddenpowerelectric", "hydropump", "icebeam"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "teraType": "Water", "level": 100, "hpType": "Electric"},
-      {"name": "swampert", "species": "swampert", "gender": "M", "item": "leftovers", "ability": "torrent", "evs": {"hp": 252, "atk": 4, "def": 252, "spa": 0, "spd": 0, "spe": 0}, "moves": ["earthquake", "icepunch", "roar", "stealthrock"], "teraType": "Water", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Qwilfish", "gender": "M", "item": "Focus Sash", "ability": "Poison Point", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Jolly", "moves": ["Explosion", "Spikes", "Taunt", "Toxic Spikes"]},
+      {"species": "Empoleon", "gender": "M", "item": "Petaya Berry", "ability": "Torrent", "evs": {"hp": 12, "def": 4, "spa": 252, "spe": 240}, "nature": "Modest", "moves": ["Agility", "Ice Beam", "Substitute", "Surf"]},
+      {"species": "Sharpedo", "gender": "M", "item": "Choice Scarf", "ability": "Rough Skin", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Adamant", "moves": ["Crunch", "Earthquake", "Ice Fang", "Waterfall"]},
+      {"species": "Starmie", "item": "Life Orb", "ability": "Natural Cure", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Psychic", "Rapid Spin", "Thunderbolt"]},
+      {"species": "Suicune", "item": "Leftovers", "ability": "Pressure", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Calm Mind", "Hidden Power Electric", "Hydro Pump", "Ice Beam"], "ivs": {"spa": 30}},
+      {"species": "Swampert", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Impish", "moves": ["Earthquake", "Ice Punch", "Roar", "Stealth Rock"]}
     ]
   },
   {
     "name": "Balanced Steel",
     "author": "maroon",
     "data": [
-      {"name": "bronzong", "species": "bronzong", "item": "leftovers", "ability": "levitate", "evs": {"hp": 252, "atk": 84, "def": 80, "spa": 0, "spd": 92, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["explosion", "gyroball", "payback", "stealthrock"], "teraType": "Steel", "level": 100},
-      {"name": "empoleon", "species": "empoleon", "gender": "M", "item": "petayaberry", "ability": "torrent", "evs": {"hp": 12, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 240}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["agility", "icebeam", "substitute", "surf"], "teraType": "Water", "level": 100},
-      {"name": "heatran", "species": "heatran", "gender": "F", "item": "choicescarf", "ability": "flashfire", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 2, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "flashcannon", "hiddenpowerice", "overheat"], "teraType": "Fire", "level": 100, "hpType": "Ice"},
-      {"name": "jirachi", "species": "jirachi", "item": "leftovers", "ability": "serenegrace", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 224, "spe": 32}, "moves": ["firepunch", "ironhead", "thunderwave", "wish"], "teraType": "Steel", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "scizor", "species": "scizor", "gender": "M", "item": "lifeorb", "ability": "technician", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["bugbite", "bulletpunch", "superpower", "swordsdance"], "teraType": "Bug", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "leftovers", "ability": "keeneye", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 0, "spe": 8}, "moves": ["bravebird", "roost", "spikes", "whirlwind"], "teraType": "Steel", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Bronzong", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 252, "atk": 84, "def": 80, "spd": 92}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Explosion", "Gyro Ball", "Payback", "Stealth Rock"]},
+      {"species": "Empoleon", "gender": "M", "item": "Petaya Berry", "ability": "Torrent", "evs": {"hp": 12, "def": 4, "spa": 252, "spe": 240}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Agility", "Ice Beam", "Substitute", "Surf"]},
+      {"species": "Heatran", "gender": "F", "item": "Choice Scarf", "ability": "Flash Fire", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "def": 30}, "moves": ["Earth Power", "Flash Cannon", "Hidden Power Ice", "Overheat"]},
+      {"species": "Jirachi", "item": "Leftovers", "ability": "Serene Grace", "evs": {"hp": 252, "spd": 224, "spe": 32}, "nature": "Careful", "moves": ["Fire Punch", "Iron Head", "Thunder Wave", "Wish"]},
+      {"species": "Scizor", "gender": "M", "item": "Life Orb", "ability": "Technician", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Adamant", "moves": ["Bug Bite", "Bullet Punch", "Superpower", "Swords Dance"]},
+      {"species": "Skarmory", "gender": "M", "item": "Leftovers", "ability": "Keen Eye", "evs": {"hp": 248, "def": 252, "spe": 8}, "nature": "Impish", "moves": ["Brave Bird", "Roost", "Spikes", "Whirlwind"]}
     ]
   },
   {
     "name": "Hyper Offensive Psychic",
     "author": "Jolly Togekiss",
     "data": [
-      {"name": "azelf", "species": "azelf", "item": "focussash", "ability": "levitate", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["explosion", "fireblast", "stealthrock", "taunt"], "teraType": "Psychic", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "celebi", "species": "celebi", "item": "leftovers", "ability": "naturalcure", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["batonpass", "gigadrain", "nastyplot", "recover"], "teraType": "Psychic", "level": 100},
-      {"name": "jirachi", "species": "jirachi", "item": "choicescarf", "ability": "serenegrace", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["firepunch", "hiddenpowerground", "ironhead", "thunderbolt"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 30, "spd": 30, "spe": 31}, "teraType": "Steel", "level": 100, "hpType": "Ground"},
-      {"name": "latias", "species": "latias", "item": "lifeorb", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dragonpulse", "icebeam", "psychic", "recover"], "teraType": "Dragon", "level": 100},
-      {"name": "medicham", "species": "medicham", "gender": "M", "item": "choicescarf", "ability": "purepower", "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["highjumpkick", "icepunch", "psychocut", "trick"], "teraType": "Fighting", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "metagross", "species": "metagross", "item": "choiceband", "ability": "clearbody", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "explosion", "meteormash", "pursuit"], "teraType": "Steel", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Azelf", "item": "Focus Sash", "ability": "Levitate", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Hasty", "moves": ["Explosion", "Fire Blast", "Stealth Rock", "Taunt"]},
+      {"species": "Celebi", "item": "Leftovers", "ability": "Natural Cure", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Baton Pass", "Giga Drain", "Nasty Plot", "Recover"]},
+      {"species": "Jirachi", "item": "Choice Scarf", "ability": "Serene Grace", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Hasty", "moves": ["Fire Punch", "Hidden Power Ground", "Iron Head", "Thunderbolt"], "ivs": {"spa": 30, "spd": 30}},
+      {"species": "Latias", "item": "Life Orb", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dragon Pulse", "Ice Beam", "Psychic", "Recover"]},
+      {"species": "Medicham", "gender": "M", "item": "Choice Scarf", "ability": "Pure Power", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Jolly", "moves": ["High Jump Kick", "Ice Punch", "Psycho Cut", "Trick"]},
+      {"species": "Metagross", "item": "Choice Band", "ability": "Clear Body", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Explosion", "Meteor Mash", "Pursuit"]}
     ]
   },
   {
     "name": "Offensive Flying",
     "author": "Starblim",
     "data": [
-      {"name": "aerodactyl", "species": "aerodactyl", "gender": "M", "item": "focussash", "ability": "pressure", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["doubleedge", "stealthrock", "stoneedge", "taunt"], "teraType": "Rock", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dragonite", "species": "dragonite", "gender": "M", "item": "lumberry", "ability": "innerfocus", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["dragondance", "earthquake", "extremespeed", "outrage"], "teraType": "Dragon", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gyarados", "species": "gyarados", "gender": "M", "item": "lumberry", "ability": "intimidate", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["dragondance", "earthquake", "stoneedge", "waterfall"], "teraType": "Water", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "moltres", "species": "moltres", "item": "choicescarf", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["airslash", "fireblast", "hiddenpowergrass", "uturn"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "teraType": "Fire", "level": 100, "hpType": "Grass"},
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "leftovers", "ability": "keeneye", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["bravebird", "roost", "spikes", "whirlwind"], "teraType": "Steel", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "item": "lifeorb", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["hiddenpowerice", "roost", "thunderbolt", "uturn"], "ivs": {"hp": 31, "atk": 30, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "teraType": "Electric", "level": 100, "hpType": "Ice"}
+      {"species": "Aerodactyl", "gender": "M", "item": "Focus Sash", "ability": "Pressure", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Double-Edge", "Stealth Rock", "Stone Edge", "Taunt"]},
+      {"species": "Dragonite", "gender": "M", "item": "Lum Berry", "ability": "Inner Focus", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Dragon Dance", "Earthquake", "Extreme Speed", "Outrage"]},
+      {"species": "Gyarados", "gender": "M", "item": "Lum Berry", "ability": "Intimidate", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Hasty", "moves": ["Dragon Dance", "Earthquake", "Stone Edge", "Waterfall"]},
+      {"species": "Moltres", "item": "Choice Scarf", "ability": "Pressure", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Air Slash", "Fire Blast", "Hidden Power Grass", "U-turn"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Skarmory", "gender": "M", "item": "Leftovers", "ability": "Keen Eye", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Brave Bird", "Roost", "Spikes", "Whirlwind"]},
+      {"species": "Zapdos", "item": "Life Orb", "ability": "Pressure", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Hidden Power Ice", "Roost", "Thunderbolt", "U-turn"], "ivs": {"atk": 30, "def": 30}}
     ]
   },
   {
     "name": "Offensive Fire",
     "author": "Starblim",
     "data": [
-      {"name": "heatran", "species": "heatran", "gender": "M", "item": "focussash", "ability": "flashfire", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["explosion", "fireblast", "stealthrock", "taunt"], "teraType": "Fire", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "blaziken", "species": "blaziken", "gender": "M", "item": "choicespecs", "ability": "blaze", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fireblast", "focusblast", "overheat", "vacuumwave"], "teraType": "Fire", "level": 100},
-      {"name": "charizard", "species": "charizard", "gender": "F", "item": "lifeorb", "ability": "blaze", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 2, "def": 31, "spa": 30, "spd": 31, "spe": 31}, "moves": ["airslash", "fireblast", "hiddenpowergrass", "roost"], "teraType": "Fire", "level": 100, "hpType": "Grass"},
-      {"name": "houndoom", "species": "houndoom", "gender": "M", "item": "blackglasses", "ability": "flashfire", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["darkpulse", "fireblast", "nastyplot", "suckerpunch"], "teraType": "Dark", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "infernape", "species": "infernape", "gender": "M", "item": "choicescarf", "ability": "blaze", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["closecombat", "flareblitz", "thunderpunch", "uturn"], "teraType": "Fire", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "torkoal", "species": "torkoal", "gender": "M", "item": "leftovers", "ability": "whitesmoke", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 4, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["lavaplume", "rapidspin", "stealthrock", "toxic"], "teraType": "Fire", "level": 100}
+      {"species": "Heatran", "gender": "M", "item": "Focus Sash", "ability": "Flash Fire", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Explosion", "Fire Blast", "Stealth Rock", "Taunt"]},
+      {"species": "Blaziken", "gender": "M", "item": "Choice Specs", "ability": "Blaze", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Fire Blast", "Focus Blast", "Overheat", "Vacuum Wave"]},
+      {"species": "Charizard", "gender": "F", "item": "Life Orb", "ability": "Blaze", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "moves": ["Air Slash", "Fire Blast", "Hidden Power Grass", "Roost"]},
+      {"species": "Houndoom", "gender": "M", "item": "Black Glasses", "ability": "Flash Fire", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Dark Pulse", "Fire Blast", "Nasty Plot", "Sucker Punch"]},
+      {"species": "Infernape", "gender": "M", "item": "Choice Scarf", "ability": "Blaze", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Hasty", "moves": ["Close Combat", "Flare Blitz", "Thunder Punch", "U-turn"]},
+      {"species": "Torkoal", "gender": "M", "item": "Leftovers", "ability": "White Smoke", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Lava Plume", "Rapid Spin", "Stealth Rock", "Toxic"]}
     ]
   },
   {
     "name": "Offensive Electric",
     "author": "Starblim",
     "data": [
-      {"name": "electrode", "species": "electrode", "item": "focussash", "ability": "soundproof", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moves": ["explosion", "taunt", "thunderbolt", "thunderwave"], "teraType": "Electric", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "luxray", "species": "luxray", "gender": "M", "item": "choiceband", "ability": "intimidate", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["crunch", "icefang", "quickattack", "superpower"], "teraType": "Electric", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magnezone", "species": "magnezone", "item": "custapberry", "ability": "sturdy", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["endure", "explosion", "flashcannon", "thunderbolt"], "teraType": "Electric", "level": 100},
-      {"name": "raikou", "species": "raikou", "item": "leftovers", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "protect", "substitute", "thunderbolt"], "teraType": "Electric", "level": 100},
-      {"name": "rotommow", "species": "rotommow", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 2, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "leafstorm", "shadowball", "trick"], "teraType": "Electric", "level": 100, "hpType": "Ice"},
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ability": "pressure", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "moves": ["heatwave", "roost", "thunderbolt", "uturn"], "teraType": "Electric", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Electrode", "item": "Focus Sash", "ability": "Soundproof", "evs": {"hp": 252, "atk": 4, "spe": 252}, "nature": "Hasty", "moves": ["Explosion", "Taunt", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Luxray", "gender": "M", "item": "Choice Band", "ability": "Intimidate", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Crunch", "Ice Fang", "Quick Attack", "Superpower"]},
+      {"species": "Magnezone", "item": "Custap Berry", "ability": "Sturdy", "evs": {"hp": 252, "spa": 252}, "nature": "Quiet", "ivs": {"atk": 0}, "moves": ["Endure", "Explosion", "Flash Cannon", "Thunderbolt"]},
+      {"species": "Raikou", "item": "Leftovers", "ability": "Pressure", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Protect", "Substitute", "Thunderbolt"]},
+      {"species": "Rotom-Mow", "item": "Choice Scarf", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "def": 30}, "moves": ["Hidden Power Ice", "Leaf Storm", "Shadow Ball", "Trick"]},
+      {"species": "Zapdos", "item": "Leftovers", "ability": "Pressure", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "moves": ["Heat Wave", "Roost", "Thunderbolt", "U-turn"]}
     ]
   },
   {
     "name": "Offensive Grass",
     "author": "Starblim",
     "data": [
-      {"name": "venusaur", "species": "venusaur", "gender": "M", "item": "choicescarf", "ability": "overgrow", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["earthquake", "hiddenpowerfire", "leafstorm", "sludgebomb"], "ivs": {"hp": 31, "atk": 30, "def": 31, "spa": 30, "spd": 31, "spe": 30}, "teraType": "Grass", "level": 100, "hpType": "Fire"},
-      {"name": "breloom", "species": "breloom", "gender": "M", "item": "toxicorb", "ability": "poisonheal", "evs": {"hp": 12, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 244}, "moves": ["focuspunch", "leechseed", "seedbomb", "substitute"], "teraType": "Grass", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "celebi", "species": "celebi", "item": "leftovers", "ability": "naturalcure", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["seedbomb", "swordsdance", "uturn", "zenheadbutt"], "teraType": "Psychic", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "exeggutor", "species": "exeggutor", "gender": "M", "item": "colburberry", "ability": "chlorophyll", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["explosion", "gigadrain", "psychic", "trickroom"], "teraType": "Grass", "level": 100},
-      {"name": "roserade", "species": "roserade", "gender": "F", "item": "focussash", "ability": "naturalcure", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 2, "def": 30, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "leafstorm", "sludgebomb", "toxicspikes"], "teraType": "Grass", "level": 100, "hpType": "Ice"},
-      {"name": "torterra", "species": "torterra", "gender": "M", "item": "leftovers", "ability": "overgrow", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moves": ["earthquake", "stealthrock", "synthesis", "woodhammer"], "teraType": "Grass", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Venusaur", "gender": "M", "item": "Choice Scarf", "ability": "Overgrow", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Earthquake", "Hidden Power Fire", "Leaf Storm", "Sludge Bomb"], "ivs": {"atk": 30, "spa": 30, "spe": 30}},
+      {"species": "Breloom", "gender": "M", "item": "Toxic Orb", "ability": "Poison Heal", "evs": {"hp": 12, "atk": 252, "spe": 244}, "nature": "Adamant", "moves": ["Focus Punch", "Leech Seed", "Seed Bomb", "Substitute"]},
+      {"species": "Celebi", "item": "Leftovers", "ability": "Natural Cure", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Seed Bomb", "Swords Dance", "U-turn", "Zen Headbutt"]},
+      {"species": "Exeggutor", "gender": "M", "item": "Colbur Berry", "ability": "Chlorophyll", "evs": {"hp": 252, "atk": 4, "spa": 252}, "nature": "Quiet", "ivs": {"spe": 0}, "moves": ["Explosion", "Giga Drain", "Psychic", "Trick Room"]},
+      {"species": "Roserade", "gender": "F", "item": "Focus Sash", "ability": "Natural Cure", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "def": 30}, "moves": ["Hidden Power Ice", "Leaf Storm", "Sludge Bomb", "Toxic Spikes"]},
+      {"species": "Torterra", "gender": "M", "item": "Leftovers", "ability": "Overgrow", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Earthquake", "Stealth Rock", "Synthesis", "Wood Hammer"]}
     ]
   }
 ]

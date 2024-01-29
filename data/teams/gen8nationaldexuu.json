@@ -3,106 +3,106 @@
     "name": "LO 3atks Hydreigon",
     "author": "N_Mareanie",
     "data": [
-      {"name": "hydreigon", "species": "hydreigon", "gender": "M", "item": "lifeorb", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["darkpulse", "dracometeor", "flashcannon", "roost"], "level": 100},
-      {"name": "aggron", "species": "aggron", "gender": "M", "item": "aggronite", "ability": "sturdy", "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "moves": ["earthquake", "heavyslam", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "buzzwole", "species": "buzzwole", "item": "rockyhelmet", "ability": "beastboost", "evs": {"hp": 72, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 184}, "moves": ["closecombat", "icepunch", "poisonjab", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "diggersby", "species": "diggersby", "gender": "M", "item": "choicescarf", "ability": "hugepower", "happiness": 0, "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "frustration", "knockoff", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "rotomwash", "species": "rotomwash", "item": "leftovers", "ability": "levitate", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 104, "spe": 156}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "hydropump", "painsplit", "voltswitch"], "level": 100},
-      {"name": "tangrowth", "species": "tangrowth", "gender": "M", "item": "assaultvest", "ability": "regenerator", "evs": {"hp": 252, "atk": 0, "def": 76, "spa": 0, "spd": 180, "spe": 0}, "moves": ["focusblast", "knockoff", "powerwhip", "sludgebomb"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Hydreigon", "gender": "M", "item": "Life Orb", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Draco Meteor", "Flash Cannon", "Roost"]},
+      {"species": "Aggron", "gender": "M", "item": "Aggronite", "ability": "Sturdy", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "moves": ["Earthquake", "Heavy Slam", "Stealth Rock", "Toxic"]},
+      {"species": "Buzzwole", "item": "Rocky Helmet", "ability": "Beast Boost", "evs": {"hp": 72, "atk": 252, "spe": 184}, "nature": "Adamant", "moves": ["Close Combat", "Ice Punch", "Poison Jab", "Roost"]},
+      {"species": "Diggersby", "gender": "M", "item": "Choice Scarf", "ability": "Huge Power", "happiness": 0, "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Frustration", "Knock Off", "U-turn"]},
+      {"species": "Rotom-Wash", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "spd": 104, "spe": 156}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Defog", "Hydro Pump", "Pain Split", "Volt Switch"]},
+      {"species": "Tangrowth", "gender": "M", "item": "Assault Vest", "ability": "Regenerator", "evs": {"hp": 252, "def": 76, "spd": 180}, "nature": "Sassy", "moves": ["Focus Blast", "Knock Off", "Power Whip", "Sludge Bomb"]}
     ]
   },
   {
     "author": "MudkipBeans",
     "data": [
-      {"name": "primarina", "species": "primarina", "gender": "M", "item": "heavydutyboots", "ability": "torrent", "evs": {"hp": 252, "atk": 0, "def": 124, "spa": 0, "spd": 132, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["moonblast", "rest", "scald", "sleeptalk"], "level": 100},
-      {"name": "hydreigon", "species": "hydreigon", "gender": "M", "item": "lifeorb", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["darkpulse", "dracometeor", "flashcannon", "roost"], "level": 100},
-      {"name": "moltres", "species": "moltres", "item": "heavydutyboots", "ability": "flamebody", "evs": {"hp": 80, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 176}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "flamethrower", "hurricane", "roost"], "level": 100},
-      {"name": "nidoqueen", "species": "nidoqueen", "item": "blacksludge", "ability": "sheerforce", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 128, "spd": 0, "spe": 128}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthpower", "icebeam", "sludgewave", "stealthrock"], "level": 100},
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "rockyhelmet", "ability": "sturdy", "evs": {"hp": 252, "atk": 0, "def": 232, "spa": 0, "spd": 0, "spe": 24}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bodypress", "irondefense", "roost", "spikes"], "level": 100},
-      {"name": "zeraora", "species": "zeraora", "item": "heavydutyboots", "ability": "voltabsorb", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "knockoff", "plasmafists", "voltswitch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Primarina", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Torrent", "evs": {"hp": 252, "def": 124, "spd": 132}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Moonblast", "Rest", "Scald", "Sleep Talk"]},
+      {"species": "Hydreigon", "gender": "M", "item": "Life Orb", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Draco Meteor", "Flash Cannon", "Roost"]},
+      {"species": "Moltres", "item": "Heavy-Duty Boots", "ability": "Flame Body", "evs": {"hp": 80, "spa": 252, "spe": 176}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Defog", "Flamethrower", "Hurricane", "Roost"]},
+      {"species": "Nidoqueen", "item": "Black Sludge", "ability": "Sheer Force", "evs": {"hp": 252, "spa": 128, "spe": 128}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Ice Beam", "Sludge Wave", "Stealth Rock"]},
+      {"species": "Skarmory", "gender": "M", "item": "Rocky Helmet", "ability": "Sturdy", "evs": {"hp": 252, "def": 232, "spe": 24}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Body Press", "Iron Defense", "Roost", "Spikes"]},
+      {"species": "Zeraora", "item": "Heavy-Duty Boots", "ability": "Volt Absorb", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Knock Off", "Plasma Fists", "Volt Switch"]}
     ]
   },
   {
     "name": "Scizor + Hex Chandy BO",
     "author": "Arishemm~",
     "data": [
-      {"name": "scizor", "species": "scizor", "gender": "M", "item": "buginiumz", "ability": "technician", "evs": {"hp": 248, "atk": 16, "def": 100, "spa": 0, "spd": 140, "spe": 4}, "moves": ["bulletpunch", "roost", "swordsdance", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "amoonguss", "species": "amoonguss", "gender": "M", "item": "rockyhelmet", "ability": "regenerator", "evs": {"hp": 252, "atk": 0, "def": 220, "spa": 0, "spd": 36, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["foulplay", "gigadrain", "sludgebomb", "spore"], "level": 100},
-      {"name": "chandelure", "species": "chandelure", "gender": "M", "item": "heavydutyboots", "ability": "flamebody", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flamethrower", "hex", "protect", "toxic"], "level": 100},
-      {"name": "hydreigon", "species": "hydreigon", "gender": "M", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["darkpulse", "defog", "dracometeor", "fireblast"], "level": 100},
-      {"name": "primarina", "species": "primarina", "gender": "M", "item": "heavydutyboots", "ability": "torrent", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 240, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["moonblast", "rest", "scald", "sleeptalk"], "level": 100},
-      {"name": "rhyperior", "species": "rhyperior", "gender": "M", "item": "leftovers", "ability": "solidrock", "evs": {"hp": 252, "atk": 16, "def": 0, "spa": 0, "spd": 180, "spe": 60}, "moves": ["earthquake", "stealthrock", "stoneedge", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Scizor", "gender": "M", "item": "Buginium Z", "ability": "Technician", "evs": {"hp": 248, "atk": 16, "def": 100, "spd": 140, "spe": 4}, "nature": "Adamant", "moves": ["Bullet Punch", "Roost", "Swords Dance", "U-turn"]},
+      {"species": "Amoonguss", "gender": "M", "item": "Rocky Helmet", "ability": "Regenerator", "evs": {"hp": 252, "def": 220, "spd": 36}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Foul Play", "Giga Drain", "Sludge Bomb", "Spore"]},
+      {"species": "Chandelure", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Flame Body", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Hex", "Protect", "Toxic"]},
+      {"species": "Hydreigon", "gender": "M", "item": "Choice Scarf", "ability": "Levitate", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Defog", "Draco Meteor", "Fire Blast"]},
+      {"species": "Primarina", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Torrent", "evs": {"hp": 252, "spd": 240, "spe": 16}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Moonblast", "Rest", "Scald", "Sleep Talk"]},
+      {"species": "Rhyperior", "gender": "M", "item": "Leftovers", "ability": "Solid Rock", "evs": {"hp": 252, "atk": 16, "spd": 180, "spe": 60}, "nature": "Adamant", "moves": ["Earthquake", "Stealth Rock", "Stone Edge", "Swords Dance"]}
     ]
   },
   {
     "name": "SD Rhyperior + Zarude Offense",
     "author": "Arishemm~",
     "data": [
-      {"name": "rhyperior", "species": "rhyperior", "gender": "M", "item": "rockiumz", "ability": "solidrock", "evs": {"hp": 32, "atk": 164, "def": 0, "spa": 0, "spd": 200, "spe": 112}, "moves": ["earthquake", "stealthrock", "stoneedge", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "aegislash", "species": "aegislash", "gender": "M", "item": "leftovers", "ability": "stancechange", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 56, "spd": 128, "spe": 72}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["flashcannon", "kingsshield", "shadowball", "toxic"], "level": 100},
-      {"name": "salamence", "species": "salamence", "gender": "M", "item": "heavydutyboots", "ability": "intimidate", "evs": {"hp": 100, "atk": 0, "def": 0, "spa": 156, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["dracometeor", "flamethrower", "hurricane", "roost"], "level": 100},
-      {"name": "volcanion", "species": "volcanion", "item": "heavydutyboots", "ability": "waterabsorb", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "flamethrower", "sludgebomb", "steameruption"], "level": 100},
-      {"name": "zarude", "species": "zarude", "item": "protectivepads", "ability": "leafguard", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["darkestlariat", "junglehealing", "powerwhip", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zeraora", "species": "zeraora", "item": "heavydutyboots", "ability": "voltabsorb", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "knockoff", "plasmafists", "voltswitch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Rhyperior", "gender": "M", "item": "Rockium Z", "ability": "Solid Rock", "evs": {"hp": 32, "atk": 164, "spd": 200, "spe": 112}, "nature": "Adamant", "moves": ["Earthquake", "Stealth Rock", "Stone Edge", "Swords Dance"]},
+      {"species": "Aegislash", "gender": "M", "item": "Leftovers", "ability": "Stance Change", "evs": {"hp": 252, "spa": 56, "spd": 128, "spe": 72}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Flash Cannon", "King's Shield", "Shadow Ball", "Toxic"]},
+      {"species": "Salamence", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Intimidate", "evs": {"hp": 100, "spa": 156, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Flamethrower", "Hurricane", "Roost"]},
+      {"species": "Volcanion", "item": "Heavy-Duty Boots", "ability": "Water Absorb", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Defog", "Flamethrower", "Sludge Bomb", "Steam Eruption"]},
+      {"species": "Zarude", "item": "Protective Pads", "ability": "Leaf Guard", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Darkest Lariat", "Jungle Healing", "Power Whip", "U-turn"]},
+      {"species": "Zeraora", "item": "Heavy-Duty Boots", "ability": "Volt Absorb", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Knock Off", "Plasma Fists", "Volt Switch"]}
     ]
   },
   {
     "name": "Glowbro + CB Bisharp Balance",
     "author": "Arishemm~",
     "data": [
-      {"name": "hippowdon", "species": "hippowdon", "gender": "M", "item": "leftovers", "ability": "sandstream", "evs": {"hp": 252, "atk": 0, "def": 16, "spa": 0, "spd": 240, "spe": 0}, "moves": ["earthquake", "slackoff", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "bisharp", "species": "bisharp", "gender": "M", "item": "choiceband", "ability": "defiant", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["ironhead", "knockoff", "pursuit", "suckerpunch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "safetygoggles", "ability": "sturdy", "evs": {"hp": 252, "atk": 0, "def": 156, "spa": 0, "spd": 0, "spe": 100}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bodypress", "irondefense", "roost", "spikes"], "level": 100},
-      {"name": "slowbrogalar", "species": "slowbrogalar", "gender": "M", "item": "rockyhelmet", "ability": "regenerator", "evs": {"hp": 252, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "scald", "slackoff", "sludgebomb"], "level": 100},
-      {"name": "tangrowth", "species": "tangrowth", "gender": "M", "item": "assaultvest", "ability": "regenerator", "evs": {"hp": 252, "atk": 0, "def": 76, "spa": 0, "spd": 180, "spe": 0}, "moves": ["focusblast", "knockoff", "powerwhip", "sludgebomb"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zeraora", "species": "zeraora", "item": "heavydutyboots", "ability": "voltabsorb", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "knockoff", "plasmafists", "voltswitch"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Hippowdon", "gender": "M", "item": "Leftovers", "ability": "Sand Stream", "evs": {"hp": 252, "def": 16, "spd": 240}, "nature": "Careful", "moves": ["Earthquake", "Slack Off", "Stealth Rock", "Toxic"]},
+      {"species": "Bisharp", "gender": "M", "item": "Choice Band", "ability": "Defiant", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Iron Head", "Knock Off", "Pursuit", "Sucker Punch"]},
+      {"species": "Skarmory", "gender": "M", "item": "Safety Goggles", "ability": "Sturdy", "evs": {"hp": 252, "def": 156, "spe": 100}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Body Press", "Iron Defense", "Roost", "Spikes"]},
+      {"species": "Slowbro-Galar", "gender": "M", "item": "Rocky Helmet", "ability": "Regenerator", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Scald", "Slack Off", "Sludge Bomb"]},
+      {"species": "Tangrowth", "gender": "M", "item": "Assault Vest", "ability": "Regenerator", "evs": {"hp": 252, "def": 76, "spd": 180}, "nature": "Sassy", "moves": ["Focus Blast", "Knock Off", "Power Whip", "Sludge Bomb"]},
+      {"species": "Zeraora", "item": "Heavy-Duty Boots", "ability": "Volt Absorb", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Knock Off", "Plasma Fists", "Volt Switch"]}
     ]
   },
   {
     "name": "SD Bulu + Tenta",
     "author": "Arishemm~",
     "data": [
-      {"name": "tapubulu", "species": "tapubulu", "item": "rockiumz", "ability": "grassysurge", "evs": {"hp": 168, "atk": 188, "def": 0, "spa": 0, "spd": 0, "spe": 152}, "moves": ["highhorsepower", "hornleech", "stoneedge", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "buzzwole", "species": "buzzwole", "item": "rockyhelmet", "ability": "beastboost", "evs": {"hp": 252, "atk": 112, "def": 0, "spa": 0, "spd": 0, "spe": 144}, "moves": ["closecombat", "icepunch", "roost", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hippowdon", "species": "hippowdon", "gender": "M", "item": "leftovers", "ability": "sandstream", "evs": {"hp": 252, "atk": 0, "def": 16, "spa": 0, "spd": 240, "spe": 0}, "moves": ["highhorsepower", "slackoff", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hydreigon", "species": "hydreigon", "gender": "M", "item": "choicescarf", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moves": ["darkpulse", "dracometeor", "fireblast", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "scizor", "species": "scizor", "gender": "M", "item": "protectivepads", "ability": "technician", "evs": {"hp": 248, "atk": 16, "def": 0, "spa": 0, "spd": 200, "spe": 44}, "moves": ["bulletpunch", "knockoff", "roost", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tentacruel", "species": "tentacruel", "gender": "M", "item": "blacksludge", "ability": "liquidooze", "evs": {"hp": 252, "atk": 0, "def": 120, "spa": 0, "spd": 0, "spe": 136}, "moves": ["knockoff", "rapidspin", "scald", "sludgebomb"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Tapu Bulu", "item": "Rockium Z", "ability": "Grassy Surge", "evs": {"hp": 168, "atk": 188, "spe": 152}, "nature": "Adamant", "moves": ["High Horsepower", "Horn Leech", "Stone Edge", "Swords Dance"]},
+      {"species": "Buzzwole", "item": "Rocky Helmet", "ability": "Beast Boost", "evs": {"hp": 252, "atk": 112, "spe": 144}, "nature": "Adamant", "moves": ["Close Combat", "Ice Punch", "Roost", "Toxic"]},
+      {"species": "Hippowdon", "gender": "M", "item": "Leftovers", "ability": "Sand Stream", "evs": {"hp": 252, "def": 16, "spd": 240}, "nature": "Careful", "moves": ["High Horsepower", "Slack Off", "Stealth Rock", "Toxic"]},
+      {"species": "Hydreigon", "gender": "M", "item": "Choice Scarf", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Dark Pulse", "Draco Meteor", "Fire Blast", "U-turn"]},
+      {"species": "Scizor", "gender": "M", "item": "Protective Pads", "ability": "Technician", "evs": {"hp": 248, "atk": 16, "spd": 200, "spe": 44}, "nature": "Adamant", "moves": ["Bullet Punch", "Knock Off", "Roost", "Swords Dance"]},
+      {"species": "Tentacruel", "gender": "M", "item": "Black Sludge", "ability": "Liquid Ooze", "evs": {"hp": 252, "def": 120, "spe": 136}, "nature": "Timid", "moves": ["Knock Off", "Rapid Spin", "Scald", "Sludge Bomb"]}
     ]
   },
   {
     "name": "Dracozolt Sand Balance",
     "author": "Arishemm~",
     "data": [
-      {"name": "buzzwole", "species": "buzzwole", "item": "rockyhelmet", "ability": "beastboost", "evs": {"hp": 252, "atk": 16, "def": 136, "spa": 0, "spd": 0, "spe": 104}, "moves": ["closecombat", "icepunch", "roost", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dracozolt", "species": "dracozolt", "item": "dragoniumz", "ability": "sandrush", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["boltbeak", "firespin", "outrage", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hippowdon", "species": "hippowdon", "gender": "M", "item": "leftovers", "ability": "sandstream", "evs": {"hp": 252, "atk": 0, "def": 16, "spa": 0, "spd": 240, "spe": 0}, "moves": ["earthquake", "slackoff", "stealthrock", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mandibuzz", "species": "mandibuzz", "item": "heavydutyboots", "ability": "overcoat", "evs": {"hp": 248, "atk": 0, "def": 80, "spa": 0, "spd": 164, "spe": 16}, "moves": ["defog", "foulplay", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "scizor", "species": "scizor", "gender": "M", "item": "heavydutyboots", "ability": "technician", "evs": {"hp": 248, "atk": 16, "def": 0, "spa": 0, "spd": 200, "spe": 44}, "moves": ["bulletpunch", "knockoff", "roost", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "slowking", "species": "slowking", "gender": "M", "item": "heavydutyboots", "ability": "regenerator", "evs": {"hp": 252, "atk": 0, "def": 116, "spa": 0, "spd": 140, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["futuresight", "scald", "slackoff", "teleport"], "level": 100}
+      {"species": "Buzzwole", "item": "Rocky Helmet", "ability": "Beast Boost", "evs": {"hp": 252, "atk": 16, "def": 136, "spe": 104}, "nature": "Adamant", "moves": ["Close Combat", "Ice Punch", "Roost", "Toxic"]},
+      {"species": "Dracozolt", "item": "Dragonium Z", "ability": "Sand Rush", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Bolt Beak", "Fire Spin", "Outrage", "Taunt"]},
+      {"species": "Hippowdon", "gender": "M", "item": "Leftovers", "ability": "Sand Stream", "evs": {"hp": 252, "def": 16, "spd": 240}, "nature": "Careful", "moves": ["Earthquake", "Slack Off", "Stealth Rock", "Toxic"]},
+      {"species": "Mandibuzz", "item": "Heavy-Duty Boots", "ability": "Overcoat", "evs": {"hp": 248, "def": 80, "spd": 164, "spe": 16}, "nature": "Impish", "moves": ["Defog", "Foul Play", "Roost", "U-turn"]},
+      {"species": "Scizor", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Technician", "evs": {"hp": 248, "atk": 16, "spd": 200, "spe": 44}, "nature": "Adamant", "moves": ["Bullet Punch", "Knock Off", "Roost", "Swords Dance"]},
+      {"species": "Slowking", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Regenerator", "evs": {"hp": 252, "def": 116, "spd": 140}, "nature": "Sassy", "ivs": {"atk": 0, "spe": 0}, "moves": ["Future Sight", "Scald", "Slack Off", "Teleport"]}
     ]
   },
   {
     "author": "astralydia",
     "data": [
-      {"name": "dragonite", "species": "dragonite", "gender": "M", "item": "heavydutyboots", "ability": "multiscale", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["dragonclaw", "dragondance", "earthquake", "fireblast"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "celesteela", "species": "celesteela", "item": "powerherb", "ability": "beastboost", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["airslash", "autotomize", "flamethrower", "meteorbeam"], "level": 100},
-      {"name": "necrozma", "species": "necrozma", "item": "powerherb", "ability": "prismarmor", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 200, "spd": 56, "spe": 252}, "moves": ["autotomize", "heatwave", "meteorbeam", "photongeyser"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "polteageist", "species": "polteageist", "item": "normaliumz", "ability": "weakarmor", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hyperbeam", "shadowball", "shellsmash", "storedpower"], "level": 100},
-      {"name": "sharpedo", "species": "sharpedo", "gender": "M", "item": "sharpedonite", "ability": "speedboost", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["crunch", "icefang", "protect", "psychicfangs"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "swampert", "species": "swampert", "gender": "M", "item": "rockyhelmet", "ability": "torrent", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["earthquake", "flipturn", "stealthrock", "yawn"], "level": 100}
+      {"species": "Dragonite", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Multiscale", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Dragon Claw", "Dragon Dance", "Earthquake", "Fire Blast"]},
+      {"species": "Celesteela", "item": "Power Herb", "ability": "Beast Boost", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Air Slash", "Autotomize", "Flamethrower", "Meteor Beam"]},
+      {"species": "Necrozma", "item": "Power Herb", "ability": "Prism Armor", "evs": {"spa": 200, "spd": 56, "spe": 252}, "nature": "Modest", "moves": ["Autotomize", "Heat Wave", "Meteor Beam", "Photon Geyser"]},
+      {"species": "Polteageist", "item": "Normalium Z", "ability": "Weak Armor", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hyper Beam", "Shadow Ball", "Shell Smash", "Stored Power"]},
+      {"species": "Sharpedo", "gender": "M", "item": "Sharpedonite", "ability": "Speed Boost", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Crunch", "Ice Fang", "Protect", "Psychic Fangs"]},
+      {"species": "Swampert", "gender": "M", "item": "Rocky Helmet", "ability": "Torrent", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Relaxed", "ivs": {"spe": 0}, "moves": ["Earthquake", "Flip Turn", "Stealth Rock", "Yawn"]}
     ]
   },
   {
     "name": "Ghost Spam HO ",
     "author": "Arishemm~",
     "data": [
-      {"name": "froslass", "species": "froslass", "item": "focussash", "ability": "cursedbody", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 8, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["destinybond", "icywind", "spikes", "taunt"], "level": 100},
-      {"name": "aegislash", "species": "aegislash", "gender": "M", "item": "airballoon", "ability": "stancechange", "evs": {"hp": 76, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 180}, "moves": ["closecombat", "shadowclaw", "shadowsneak", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cobalion", "species": "cobalion", "item": "rockyhelmet", "ability": "justified", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["closecombat", "ironhead", "stealthrock", "taunt"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mamoswine", "species": "mamoswine", "gender": "M", "item": "lifeorb", "ability": "thickfat", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["earthquake", "iceshard", "iciclecrash", "knockoff"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "polteageist", "species": "polteageist", "item": "normaliumz", "ability": "weakarmor", "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hyperbeam", "shadowball", "shellsmash", "substitute"], "level": 100},
-      {"name": "salamence", "species": "salamence", "gender": "M", "item": "lifeorb", "ability": "moxie", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "moves": ["dragondance", "dualwingbeat", "fireblast", "outrage"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Froslass", "item": "Focus Sash", "ability": "Cursed Body", "evs": {"hp": 248, "spa": 8, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Destiny Bond", "Icy Wind", "Spikes", "Taunt"]},
+      {"species": "Aegislash", "gender": "M", "item": "Air Balloon", "ability": "Stance Change", "evs": {"hp": 76, "atk": 252, "spe": 180}, "nature": "Adamant", "moves": ["Close Combat", "Shadow Claw", "Shadow Sneak", "Swords Dance"]},
+      {"species": "Cobalion", "item": "Rocky Helmet", "ability": "Justified", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Iron Head", "Stealth Rock", "Taunt"]},
+      {"species": "Mamoswine", "gender": "M", "item": "Life Orb", "ability": "Thick Fat", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Ice Shard", "Icicle Crash", "Knock Off"]},
+      {"species": "Polteageist", "item": "Normalium Z", "ability": "Weak Armor", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hyper Beam", "Shadow Ball", "Shell Smash", "Substitute"]},
+      {"species": "Salamence", "gender": "M", "item": "Life Orb", "ability": "Moxie", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Dragon Dance", "Dual Wingbeat", "Fire Blast", "Outrage"]}
     ]
   }
 ]

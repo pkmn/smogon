@@ -2,67 +2,67 @@
   {
     "name": "Traditional Hyper Offense",
     "data": [
-      {"name": "deoxysspeed", "species": "deoxysspeed", "item": "rockyhelmet", "ability": "pressure", "evs": {"hp": 252, "atk": 0, "def": 240, "spa": 0, "spd": 0, "spe": 16}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["skillswap", "spikes", "stealthrock", "taunt"], "level": 100},
-      {"name": "arceus", "species": "arceus", "item": "lifeorb", "ability": "multitype", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["earthquake", "extremespeed", "shadowclaw", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "darkrai", "species": "darkrai", "item": "lifeorb", "ability": "baddreams", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["darkpulse", "darkvoid", "nastyplot", "thunder"], "level": 100},
-      {"name": "groudon", "species": "groudon", "item": "redorb", "ability": "drought", "evs": {"hp": 168, "atk": 252, "def": 0, "spa": 0, "spd": 32, "spe": 56}, "moves": ["precipiceblades", "rockpolish", "stoneedge", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "salamence", "species": "salamence", "gender": "M", "item": "salamencite", "ability": "intimidate", "evs": {"hp": 216, "atk": 156, "def": 0, "spa": 0, "spd": 0, "spe": 136}, "moves": ["doubleedge", "dragondance", "earthquake", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "xerneas", "species": "xerneas", "item": "powerherb", "ability": "fairyaura", "evs": {"hp": 0, "atk": 0, "def": 208, "spa": 252, "spd": 0, "spe": 48}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["focusblast", "geomancy", "moonblast", "thunder"], "level": 100}
+      {"species": "Deoxys-Speed", "item": "Rocky Helmet", "ability": "Pressure", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Skill Swap", "Spikes", "Stealth Rock", "Taunt"]},
+      {"species": "Arceus", "item": "Life Orb", "ability": "Multitype", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Extreme Speed", "Shadow Claw", "Swords Dance"]},
+      {"species": "Darkrai", "item": "Life Orb", "ability": "Bad Dreams", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Dark Void", "Nasty Plot", "Thunder"]},
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 168, "atk": 252, "spd": 32, "spe": 56}, "nature": "Adamant", "moves": ["Precipice Blades", "Rock Polish", "Stone Edge", "Swords Dance"]},
+      {"species": "Salamence", "gender": "M", "item": "Salamencite", "ability": "Intimidate", "evs": {"hp": 216, "atk": 156, "spe": 136}, "nature": "Adamant", "moves": ["Double-Edge", "Dragon Dance", "Earthquake", "Roost"]},
+      {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 208, "spa": 252, "spe": 48}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Geomancy", "Moonblast", "Thunder"]}
     ]
   },
   {
     "name": "Double Primal + Double Hex Balance",
     "data": [
-      {"name": "groudon", "species": "groudon", "item": "redorb", "ability": "drought", "evs": {"hp": 248, "atk": 0, "def": 56, "spa": 0, "spd": 204, "spe": 0}, "moves": ["lavaplume", "precipiceblades", "stealthrock", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "arceusrock", "species": "arceusrock", "item": "stoneplate", "ability": "multitype", "evs": {"hp": 252, "atk": 0, "def": 0, "spa": 4, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "judgment", "recover", "refresh"], "level": 100},
-      {"name": "gengar", "species": "gengar", "gender": "M", "item": "gengarite", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 252}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["destinybond", "hex", "protect", "sludgebomb"], "level": 100},
-      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 248, "spa": 236, "spd": 0, "spe": 24}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "dracometeor", "hex", "willowisp"], "level": 100},
-      {"name": "klefki", "species": "klefki", "gender": "M", "item": "leftovers", "ability": "prankster", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "moves": ["healblock", "playrough", "spikes", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kyogre", "species": "kyogre", "item": "blueorb", "ability": "drizzle", "evs": {"hp": 248, "atk": 0, "def": 252, "spa": 0, "spd": 8, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["icebeam", "rest", "scald", "sleeptalk"], "level": 100}
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 248, "def": 56, "spd": 204}, "nature": "Relaxed", "moves": ["Lava Plume", "Precipice Blades", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Arceus-Rock", "item": "Stone Plate", "ability": "Multitype", "evs": {"hp": 252, "spa": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Judgment", "Recover", "Refresh"]},
+      {"species": "Gengar", "gender": "M", "item": "Gengarite", "ability": "Levitate", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Destiny Bond", "Hex", "Protect", "Sludge Bomb"]},
+      {"species": "Giratina-Origin", "item": "Griseous Orb", "ability": "Levitate", "evs": {"def": 248, "spa": 236, "spe": 24}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Defog", "Draco Meteor", "Hex", "Will-O-Wisp"]},
+      {"species": "Klefki", "gender": "M", "item": "Leftovers", "ability": "Prankster", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Careful", "moves": ["Heal Block", "Play Rough", "Spikes", "Thunder Wave"]},
+      {"species": "Kyogre", "item": "Blue Orb", "ability": "Drizzle", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Rest", "Scald", "Sleep Talk"]}
     ]
   },
   {
     "name": "Toxic Spikes Double Normal HO",
     "data": [
-      {"name": "groudon", "species": "groudon", "item": "redorb", "ability": "drought", "evs": {"hp": 128, "atk": 244, "def": 0, "spa": 0, "spd": 100, "spe": 36}, "moves": ["precipiceblades", "rockslide", "stealthrock", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "arceus", "species": "arceus", "item": "silkscarf", "ability": "multitype", "evs": {"hp": 192, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 64}, "moves": ["extremespeed", "recover", "shadowclaw", "swordsdance"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "focussash", "ability": "skilllink", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["iciclespear", "rapidspin", "shellsmash", "toxicspikes"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "hooh", "species": "hooh", "item": "lifeorb", "ability": "regenerator", "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moves": ["bravebird", "earthquake", "sacredfire", "sleeptalk"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kangaskhan", "species": "kangaskhan", "item": "kangaskhanite", "ability": "scrappy", "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252}, "moves": ["crunch", "doubleedge", "fakeout", "lowkick"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "xerneas", "species": "xerneas", "item": "powerherb", "ability": "fairyaura", "evs": {"hp": 0, "atk": 0, "def": 200, "spa": 252, "spd": 0, "spe": 56}, "moves": ["aromatherapy", "geomancy", "hiddenpowerrock", "moonblast"], "ivs": {"hp": 31, "atk": 31, "def": 30, "spa": 31, "spd": 30, "spe": 30}, "level": 100}
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 128, "atk": 244, "spd": 100, "spe": 36}, "nature": "Adamant", "moves": ["Precipice Blades", "Rock Slide", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Arceus", "item": "Silk Scarf", "ability": "Multitype", "evs": {"hp": 192, "atk": 252, "spe": 64}, "nature": "Adamant", "moves": ["Extreme Speed", "Recover", "Shadow Claw", "Swords Dance"]},
+      {"species": "Cloyster", "gender": "M", "item": "Focus Sash", "ability": "Skill Link", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Icicle Spear", "Rapid Spin", "Shell Smash", "Toxic Spikes"]},
+      {"species": "Ho-Oh", "item": "Life Orb", "ability": "Regenerator", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brave Bird", "Earthquake", "Sacred Fire", "Sleep Talk"]},
+      {"species": "Kangaskhan", "item": "Kangaskhanite", "ability": "Scrappy", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Crunch", "Double-Edge", "Fake Out", "Low Kick"]},
+      {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 200, "spa": 252, "spe": 56}, "nature": "Modest", "moves": ["Aromatherapy", "Geomancy", "Hidden Power Rock", "Moonblast"], "ivs": {"def": 30, "spd": 30, "spe": 30}}
     ]
   },
   {
     "name": "Mega Diancie + Double Bird BO",
     "data": [
-      {"name": "groudon", "species": "groudon", "item": "redorb", "ability": "drought", "evs": {"hp": 168, "atk": 252, "def": 0, "spa": 0, "spd": 32, "spe": 56}, "moves": ["precipiceblades", "rockslide", "stealthrock", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "arceusground", "species": "arceusground", "item": "earthplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 68, "spa": 0, "spd": 0, "spe": 192}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "icebeam", "judgment", "recover"], "level": 100},
-      {"name": "diancie", "species": "diancie", "item": "diancite", "ability": "clearbody", "evs": {"hp": 180, "atk": 0, "def": 0, "spa": 152, "spd": 0, "spe": 176}, "moves": ["diamondstorm", "healbell", "moonblast", "protect"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 248, "atk": 8, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["gyroball", "leechseed", "protect", "spikes"], "level": 100},
-      {"name": "hooh", "species": "hooh", "item": "lifeorb", "ability": "regenerator", "evs": {"hp": 248, "atk": 160, "def": 0, "spa": 0, "spd": 52, "spe": 48}, "moves": ["bravebird", "recover", "sacredfire", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yveltal", "species": "yveltal", "item": "choicescarf", "ability": "darkaura", "evs": {"hp": 0, "atk": 220, "def": 32, "spa": 0, "spd": 4, "spe": 252}, "moves": ["foulplay", "knockoff", "roost", "uturn"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 168, "atk": 252, "spd": 32, "spe": 56}, "nature": "Adamant", "moves": ["Precipice Blades", "Rock Slide", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Arceus-Ground", "item": "Earth Plate", "ability": "Multitype", "evs": {"hp": 248, "def": 68, "spe": 192}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Defog", "Ice Beam", "Judgment", "Recover"]},
+      {"species": "Diancie", "item": "Diancite", "ability": "Clear Body", "evs": {"hp": 180, "spa": 152, "spe": 176}, "nature": "Timid", "moves": ["Diamond Storm", "Heal Bell", "Moonblast", "Protect"]},
+      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 248, "atk": 8, "spd": 252}, "nature": "Careful", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Leech Seed", "Protect", "Spikes"]},
+      {"species": "Ho-Oh", "item": "Life Orb", "ability": "Regenerator", "evs": {"hp": 248, "atk": 160, "spd": 52, "spe": 48}, "nature": "Adamant", "moves": ["Brave Bird", "Recover", "Sacred Fire", "Thunder Wave"]},
+      {"species": "Yveltal", "item": "Choice Scarf", "ability": "Dark Aura", "evs": {"atk": 220, "def": 32, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Foul Play", "Knock Off", "Roost", "U-turn"]}
     ]
   },
   {
     "name": "Deoxys-A + Rockceus hazard stack BO",
     "data": [
-      {"name": "groudon", "species": "groudon", "item": "redorb", "ability": "drought", "evs": {"hp": 240, "atk": 124, "def": 0, "spa": 0, "spd": 68, "spe": 76}, "moves": ["precipiceblades", "stealthrock", "stoneedge", "thunderwave"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "arceusrock", "species": "arceusrock", "item": "stoneplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 68, "spd": 0, "spe": 192}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["calmmind", "judgment", "recover", "willowisp"], "level": 100},
-      {"name": "deoxysattack", "species": "deoxysattack", "item": "lifeorb", "ability": "pressure", "evs": {"hp": 0, "atk": 4, "def": 0, "spa": 252, "spd": 0, "spe": 252}, "moves": ["extremespeed", "knockoff", "psychoboost", "superpower"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "giratinaorigin", "species": "giratinaorigin", "item": "griseousorb", "ability": "levitate", "evs": {"hp": 0, "atk": 0, "def": 248, "spa": 248, "spd": 0, "spe": 12}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["defog", "dracometeor", "hex", "toxic"], "level": 100},
-      {"name": "klefki", "species": "klefki", "gender": "M", "item": "leftovers", "ability": "prankster", "evs": {"hp": 252, "atk": 4, "def": 0, "spa": 0, "spd": 252, "spe": 0}, "moves": ["playrough", "spikes", "thunderwave", "toxic"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "salamence", "species": "salamence", "gender": "M", "item": "salamencite", "ability": "intimidate", "happiness": 0, "evs": {"hp": 248, "atk": 136, "def": 0, "spa": 0, "spd": 0, "spe": 124}, "moves": ["dragondance", "earthquake", "frustration", "roost"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 240, "atk": 124, "spd": 68, "spe": 76}, "nature": "Adamant", "moves": ["Precipice Blades", "Stealth Rock", "Stone Edge", "Thunder Wave"]},
+      {"species": "Arceus-Rock", "item": "Stone Plate", "ability": "Multitype", "evs": {"hp": 248, "spa": 68, "spe": 192}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Judgment", "Recover", "Will-O-Wisp"]},
+      {"species": "Deoxys-Attack", "item": "Life Orb", "ability": "Pressure", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Rash", "moves": ["Extreme Speed", "Knock Off", "Psycho Boost", "Superpower"]},
+      {"species": "Giratina-Origin", "item": "Griseous Orb", "ability": "Levitate", "evs": {"def": 248, "spa": 248, "spe": 12}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Defog", "Draco Meteor", "Hex", "Toxic"]},
+      {"species": "Klefki", "gender": "M", "item": "Leftovers", "ability": "Prankster", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Careful", "moves": ["Play Rough", "Spikes", "Thunder Wave", "Toxic"]},
+      {"species": "Salamence", "gender": "M", "item": "Salamencite", "ability": "Intimidate", "happiness": 0, "evs": {"hp": 248, "atk": 136, "spe": 124}, "nature": "Adamant", "moves": ["Dragon Dance", "Earthquake", "Frustration", "Roost"]}
     ]
   },
   {
     "name": "Defiant Durians Stall",
     "data": [
-      {"name": "ferrothorn", "species": "ferrothorn", "gender": "M", "item": "leftovers", "ability": "ironbarbs", "evs": {"hp": 248, "atk": 0, "def": 8, "spa": 0, "spd": 252, "spe": 0}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "moves": ["gyroball", "leechseed", "protect", "spikes"], "level": 100},
-      {"name": "arceusground", "species": "arceusground", "item": "earthplate", "ability": "multitype", "evs": {"hp": 248, "atk": 0, "def": 164, "spa": 0, "spd": 0, "spe": 96}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["icebeam", "judgment", "recover", "stealthrock"], "level": 100},
-      {"name": "blissey", "species": "blissey", "item": "shedshell", "ability": "naturalcure", "evs": {"hp": 8, "atk": 0, "def": 252, "spa": 0, "spd": 248, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["aromatherapy", "confide", "softboiled", "toxic"], "level": 100},
-      {"name": "giratina", "species": "giratina", "item": "leftovers", "ability": "pressure", "evs": {"hp": 248, "atk": 0, "def": 204, "spa": 0, "spd": 56, "spe": 0}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 30}, "moves": ["defog", "dragontail", "rest", "toxic"], "level": 100},
-      {"name": "lugia", "species": "lugia", "item": "leftovers", "ability": "multiscale", "evs": {"hp": 248, "atk": 0, "def": 164, "spa": 0, "spd": 0, "spe": 96}, "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["psychic", "roost", "toxic", "whirlwind"], "level": 100},
-      {"name": "sableye", "species": "sableye", "gender": "M", "item": "sablenite", "ability": "prankster", "evs": {"hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 252, "spe": 8}, "moves": ["fakeout", "foulplay", "recover", "willowisp"], "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 248, "def": 8, "spd": 252}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Leech Seed", "Protect", "Spikes"]},
+      {"species": "Arceus-Ground", "item": "Earth Plate", "ability": "Multitype", "evs": {"hp": 248, "def": 164, "spe": 96}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Judgment", "Recover", "Stealth Rock"]},
+      {"species": "Blissey", "item": "Shed Shell", "ability": "Natural Cure", "evs": {"hp": 8, "def": 252, "spd": 248}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Aromatherapy", "Confide", "Soft-Boiled", "Toxic"]},
+      {"species": "Giratina", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 248, "def": 204, "spd": 56}, "nature": "Bold", "ivs": {"atk": 0, "spe": 30}, "moves": ["Defog", "Dragon Tail", "Rest", "Toxic"]},
+      {"species": "Lugia", "item": "Leftovers", "ability": "Multiscale", "evs": {"hp": 248, "def": 164, "spe": 96}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Psychic", "Roost", "Toxic", "Whirlwind"]},
+      {"species": "Sableye", "gender": "M", "item": "Sablenite", "ability": "Prankster", "evs": {"hp": 248, "spd": 252, "spe": 8}, "nature": "Careful", "moves": ["Fake Out", "Foul Play", "Recover", "Will-O-Wisp"]}
     ]
   }
 ]

@@ -2,217 +2,217 @@
   {
     "name": "Nidoking + Gengar Offense",
     "data": [
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["curse", "doubleedge", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gengar", "species": "gengar", "gender": "M", "item": "leftovers", "moves": ["dynamicpunch", "explosion", "icepunch", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "nidoking", "species": "nidoking", "moves": ["earthquake", "icebeam", "thief", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "leftovers", "moves": ["earthquake", "pursuit", "roar", "rockslide"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Rest", "Sleep Talk"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Gengar", "gender": "M", "item": "Leftovers", "moves": ["Dynamic Punch", "Explosion", "Ice Punch", "Thunder"]},
+      {"species": "Nidoking", "moves": ["Earthquake", "Ice Beam", "Thief", "Thunder"]},
+      {"species": "Tyranitar", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Pursuit", "Roar", "Rock Slide"]},
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]}
     ]
   },
   {
     "name": "Nidoking + Machamp Offense",
     "data": [
-      {"name": "nidoking", "species": "nidoking", "item": "leftovers", "moves": ["earthquake", "icebeam", "lovelykiss", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "machamp", "species": "machamp", "gender": "M", "item": "leftovers", "moves": ["crosschop", "curse", "earthquake", "rockslide"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["bodyslam", "curse", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "leftovers", "moves": ["fireblast", "pursuit", "roar", "rockslide"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 31, "atk": 23, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Nidoking", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Lovely Kiss", "Thunder"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Machamp", "gender": "M", "item": "Leftovers", "moves": ["Cross Chop", "Curse", "Earthquake", "Rock Slide"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Curse", "Rest", "Sleep Talk"]},
+      {"species": "Tyranitar", "gender": "M", "item": "Leftovers", "moves": ["Fire Blast", "Pursuit", "Roar", "Rock Slide"]},
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"atk": 23, "def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]}
     ]
   },
   {
     "name": "Jynx + Gengar Offense",
     "author": "Fear",
     "data": [
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "earthquake", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gengar", "species": "gengar", "gender": "M", "moves": ["explosion", "icepunch", "thief", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "leftovers", "moves": ["earthquake", "explosion", "rapidspin", "roar"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "jynx", "species": "jynx", "item": "leftovers", "moves": ["icebeam", "lovelykiss", "psychic", "substitute"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerwater", "protect", "thunderbolt", "whirlwind"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Earthquake", "Rest", "Sleep Talk"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Gengar", "gender": "M", "moves": ["Explosion", "Ice Punch", "Thief", "Thunderbolt"]},
+      {"species": "Golem", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Explosion", "Rapid Spin", "Roar"]},
+      {"species": "Jynx", "item": "Leftovers", "moves": ["Ice Beam", "Lovely Kiss", "Psychic", "Substitute"]},
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Protect", "Thunderbolt", "Whirlwind"]}
     ]
   },
   {
     "name": "Vaporeon + Explosions Offense",
     "author": "Borat",
     "data": [
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 23, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "exeggutor", "species": "exeggutor", "gender": "M", "item": "leftovers", "moves": ["explosion", "gigadrain", "psychic", "sleeppowder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["curse", "doubleedge", "earthquake", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "steelix", "species": "steelix", "gender": "M", "item": "leftovers", "moves": ["curse", "earthquake", "explosion", "roar"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "vaporeon", "species": "vaporeon", "gender": "F", "item": "leftovers", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 3, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["growth", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100}
+      {"species": "Zapdos", "item": "Leftovers", "evs": {"atk": 0}, "ivs": {"atk": 23, "def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Exeggutor", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Giga Drain", "Psychic", "Sleep Powder"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Earthquake", "Rest"]},
+      {"species": "Steelix", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Earthquake", "Explosion", "Roar"]},
+      {"species": "Vaporeon", "gender": "F", "item": "Leftovers", "evs": {"atk": 0}, "ivs": {"atk": 3}, "moves": ["Growth", "Rest", "Sleep Talk", "Surf"]}
     ]
   },
   {
     "name": "Paralysis & Marowak",
     "author": "Earthworm",
     "data": [
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "marowak", "species": "marowak", "gender": "M", "item": "thickclub", "moves": ["earthquake", "fireblast", "rockslide", "swordsdance"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 240, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "item": "leftovers", "moves": ["rapidspin", "recover", "surf", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "leftovers", "moves": ["dynamicpunch", "earthquake", "rockslide", "screech"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "thunder", "thunderwave", "whirlwind"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Marowak", "gender": "M", "item": "Thick Club", "moves": ["Earthquake", "Fire Blast", "Rock Slide", "Swords Dance"], "evs": {"atk": 240}},
+      {"species": "Starmie", "item": "Leftovers", "moves": ["Rapid Spin", "Recover", "Surf", "Thunder Wave"]},
+      {"species": "Tyranitar", "gender": "M", "item": "Leftovers", "moves": ["Dynamic Punch", "Earthquake", "Rock Slide", "Screech"]},
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Thunder", "Thunder Wave", "Whirlwind"]}
     ]
   },
   {
     "name": "Heracross + Explosions",
     "author": "Lavos & Sulcata",
     "data": [
-      {"name": "raikou", "species": "raikou", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerwater", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "exeggutor", "species": "exeggutor", "gender": "M", "item": "leftovers", "moves": ["explosion", "gigadrain", "psychic", "sleeppowder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "leftovers", "moves": ["earthquake", "explosion", "rapidspin", "roar"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "heracross", "species": "heracross", "gender": "M", "item": "leftovers", "moves": ["curse", "megahorn", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["bodyslam", "curse", "earthquake", "selfdestruct"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Raikou", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Exeggutor", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Giga Drain", "Psychic", "Sleep Powder"]},
+      {"species": "Golem", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Explosion", "Rapid Spin", "Roar"]},
+      {"species": "Heracross", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Megahorn", "Rest", "Sleep Talk"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Curse", "Earthquake", "Self-Destruct"]}
     ]
   },
   {
     "name": "Double Electric + Gengar Offense",
     "data": [
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gengar", "species": "gengar", "gender": "M", "item": "leftovers", "moves": ["dynamicpunch", "explosion", "icepunch", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "leftovers", "moves": ["earthquake", "explosion", "rapidspin", "roar"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "raikou", "species": "raikou", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerwater", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["curse", "doubleedge", "earthquake", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Gengar", "gender": "M", "item": "Leftovers", "moves": ["Dynamic Punch", "Explosion", "Ice Punch", "Thunderbolt"]},
+      {"species": "Golem", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Explosion", "Rapid Spin", "Roar"]},
+      {"species": "Raikou", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Earthquake", "Rest"]}
     ]
   },
   {
     "name": "Thief Exeggutor + Espeon Offense",
     "data": [
-      {"name": "exeggutor", "species": "exeggutor", "gender": "M", "ivs": {"hp": 7, "atk": 29, "def": 25, "spa": 31, "spd": 31, "spe": 31}, "moves": ["explosion", "hiddenpowerfire", "psychic", "thief"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "espeon", "species": "espeon", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["growth", "hiddenpowerwater", "morningsun", "psychic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "leftovers", "moves": ["earthquake", "explosion", "rapidspin", "roar"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["curse", "doubleedge", "earthquake", "selfdestruct"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Exeggutor", "gender": "M", "ivs": {"hp": 7, "atk": 29, "def": 25}, "moves": ["Explosion", "Hidden Power Fire", "Psychic", "Thief"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Espeon", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Growth", "Hidden Power Water", "Morning Sun", "Psychic"]},
+      {"species": "Golem", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Explosion", "Rapid Spin", "Roar"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Earthquake", "Self-Destruct"]},
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]}
     ]
   },
   {
     "name": "Alakazam + Explosions Offense",
     "data": [
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "alakazam", "species": "alakazam", "gender": "M", "item": "leftovers", "moves": ["encore", "firepunch", "psychic", "recover"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "exeggutor", "species": "exeggutor", "gender": "M", "item": "leftovers", "ivs": {"hp": 7, "atk": 29, "def": 25, "spa": 31, "spd": 31, "spe": 31}, "moves": ["explosion", "gigadrain", "hiddenpowerfire", "psychic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "gengar", "species": "gengar", "gender": "M", "item": "leftovers", "moves": ["destinybond", "explosion", "icepunch", "thunderbolt"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "earthquake", "fireblast", "selfdestruct"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Alakazam", "gender": "M", "item": "Leftovers", "moves": ["Encore", "Fire Punch", "Psychic", "Recover"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Exeggutor", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 25}, "moves": ["Explosion", "Giga Drain", "Hidden Power Fire", "Psychic"]},
+      {"species": "Gengar", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Ice Punch", "Thunderbolt"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Earthquake", "Fire Blast", "Self-Destruct"]}
     ]
   },
   {
     "name": "Moltres + Exeggutor Offense",
     "author": "RealJester",
     "data": [
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["curse", "doubleedge", "earthquake", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "exeggutor", "species": "exeggutor", "gender": "M", "item": "leftovers", "ivs": {"hp": 7, "atk": 29, "def": 25, "spa": 31, "spd": 31, "spe": 31}, "moves": ["explosion", "gigadrain", "hiddenpowerfire", "psychic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "leftovers", "moves": ["earthquake", "explosion", "rapidspin", "roar"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "moltres", "species": "moltres", "item": "charcoal", "moves": ["fireblast", "rest", "sleeptalk", "sunnyday"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Earthquake", "Rest"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Exeggutor", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 25}, "moves": ["Explosion", "Giga Drain", "Hidden Power Fire", "Psychic"]},
+      {"species": "Golem", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Explosion", "Rapid Spin", "Roar"]},
+      {"species": "Moltres", "item": "Charcoal", "moves": ["Fire Blast", "Rest", "Sleep Talk", "Sunny Day"]},
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]}
     ]
   },
   {
     "name": "Standard Agility Baton Pass",
     "data": [
-      {"name": "smeargle", "species": "smeargle", "gender": "M", "item": "miracleberry", "moves": ["agility", "batonpass", "spikes", "spore"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "jolteon", "species": "jolteon", "gender": "M", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["agility", "batonpass", "hiddenpowerwater", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "machamp", "species": "machamp", "gender": "M", "item": "miracleberry", "ivs": {"hp": 31, "atk": 27, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["crosschop", "hiddenpowerbug", "meditate", "rockslide"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "marowak", "species": "marowak", "gender": "M", "item": "thickclub", "ivs": {"hp": 31, "atk": 27, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["earthquake", "fireblast", "hiddenpowerbug", "rockslide"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "scizor", "species": "scizor", "gender": "M", "item": "miracleberry", "ivs": {"hp": 31, "atk": 27, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["agility", "batonpass", "hiddenpowerbug", "swordsdance"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["bellydrum", "doubleedge", "earthquake", "protect"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Smeargle", "gender": "M", "item": "Miracle Berry", "moves": ["Agility", "Baton Pass", "Spikes", "Spore"]},
+      {"species": "Jolteon", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Agility", "Baton Pass", "Hidden Power Water", "Thunder"]},
+      {"species": "Machamp", "gender": "M", "item": "Miracle Berry", "ivs": {"atk": 27, "def": 27}, "moves": ["Cross Chop", "Hidden Power Bug", "Meditate", "Rock Slide"]},
+      {"species": "Marowak", "gender": "M", "item": "Thick Club", "ivs": {"atk": 27, "def": 27}, "moves": ["Earthquake", "Fire Blast", "Hidden Power Bug", "Rock Slide"]},
+      {"species": "Scizor", "gender": "M", "item": "Miracle Berry", "ivs": {"atk": 27, "def": 27}, "moves": ["Agility", "Baton Pass", "Hidden Power Bug", "Swords Dance"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Belly Drum", "Double-Edge", "Earthquake", "Protect"]}
     ]
   },
   {
     "name": "Rest Marowak + Heal Bell Support",
     "data": [
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["bodyslam", "curse", "rest", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "marowak", "species": "marowak", "gender": "M", "item": "thickclub", "evs": {"hp": 252, "atk": 240, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "moves": ["earthquake", "rest", "rockslide", "swordsdance"], "nature": "serious", "level": 100, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "miltank", "species": "miltank", "item": "leftovers", "moves": ["bodyslam", "growl", "healbell", "milkdrink"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "raikou", "species": "raikou", "item": "leftovers", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunderbolt"], "nature": "serious", "level": 100},
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "leftovers", "moves": ["curse", "drillpeck", "rest", "whirlwind"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "item": "leftovers", "moves": ["rapidspin", "recover", "surf", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Curse", "Rest", "Thunder"]},
+      {"species": "Marowak", "gender": "M", "item": "Thick Club", "evs": {"atk": 240}, "moves": ["Earthquake", "Rest", "Rock Slide", "Swords Dance"]},
+      {"species": "Miltank", "item": "Leftovers", "moves": ["Body Slam", "Growl", "Heal Bell", "Milk Drink"]},
+      {"species": "Raikou", "item": "Leftovers", "evs": {"atk": 0}, "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunderbolt"]},
+      {"species": "Skarmory", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Drill Peck", "Rest", "Whirlwind"]},
+      {"species": "Starmie", "item": "Leftovers", "moves": ["Rapid Spin", "Recover", "Surf", "Thunder Wave"]}
     ]
   },
   {
     "name": "Paralysis + Drum Quagsire",
     "data": [
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerwater", "thunderbolt", "thunderwave", "whirlwind"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "miltank", "species": "miltank", "item": "leftovers", "moves": ["bodyslam", "growl", "healbell", "milkdrink"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "quagsire", "species": "quagsire", "gender": "M", "item": "leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bellydrum", "earthquake", "hiddenpowerrock", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["bodyslam", "curse", "fireblast", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "item": "leftovers", "moves": ["rapidspin", "recover", "surf", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "leftovers", "moves": ["fireblast", "pursuit", "roar", "rockslide"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Thunderbolt", "Thunder Wave", "Whirlwind"]},
+      {"species": "Miltank", "item": "Leftovers", "moves": ["Body Slam", "Growl", "Heal Bell", "Milk Drink"]},
+      {"species": "Quagsire", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Belly Drum", "Earthquake", "Hidden Power Rock", "Rest"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Curse", "Fire Blast", "Rest"]},
+      {"species": "Starmie", "item": "Leftovers", "moves": ["Rapid Spin", "Recover", "Surf", "Thunder Wave"]},
+      {"species": "Tyranitar", "gender": "M", "item": "Leftovers", "moves": ["Fire Blast", "Pursuit", "Roar", "Rock Slide"]}
     ]
   },
   {
     "name": "Paralysis + Drum Charizard Offense",
     "data": [
-      {"name": "exeggutor", "species": "exeggutor", "gender": "M", "item": "leftovers", "moves": ["explosion", "gigadrain", "psychic", "stunspore"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "charizard", "species": "charizard", "gender": "M", "item": "leftovers", "moves": ["bellydrum", "earthquake", "fireblast", "rockslide"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "raikou", "species": "raikou", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "rhydon", "species": "rhydon", "gender": "M", "item": "leftovers", "moves": ["earthquake", "roar", "rockslide", "zapcannon"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "earthquake", "lovelykiss", "selfdestruct"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "item": "leftovers", "moves": ["rapidspin", "recover", "surf", "thunderwave"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Exeggutor", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Giga Drain", "Psychic", "Stun Spore"]},
+      {"species": "Charizard", "gender": "M", "item": "Leftovers", "moves": ["Belly Drum", "Earthquake", "Fire Blast", "Rock Slide"]},
+      {"species": "Raikou", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Rhydon", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Roar", "Rock Slide", "Zap Cannon"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Earthquake", "Lovely Kiss", "Self-Destruct"]},
+      {"species": "Starmie", "item": "Leftovers", "moves": ["Rapid Spin", "Recover", "Surf", "Thunder Wave"]}
     ]
   },
   {
     "name": "Double Electric Stall",
     "data": [
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "leftovers", "moves": ["earthquake", "explosion", "rapidspin", "roar"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "raikou", "species": "raikou", "item": "leftovers", "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 216}, "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "roar", "thunderbolt"], "nature": "serious", "level": 100},
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "leftovers", "moves": ["curse", "drillpeck", "rest", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "earthquake", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Golem", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Explosion", "Rapid Spin", "Roar"]},
+      {"species": "Raikou", "item": "Leftovers", "evs": {"spe": 216}, "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Roar", "Thunderbolt"]},
+      {"species": "Skarmory", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Drill Peck", "Rest", "Toxic"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Earthquake", "Rest", "Sleep Talk"]}
     ]
   },
   {
     "name": "Spin Tentacruel Stall",
     "author": "Zokuru",
     "data": [
-      {"name": "raikou", "species": "raikou", "item": "leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerwater", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "forretress", "species": "forretress", "gender": "M", "item": "leftovers", "ivs": {"hp": 7, "atk": 29, "def": 25, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerfire", "rapidspin", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "leftovers", "moves": ["curse", "rest", "sleeptalk", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["curse", "doubleedge", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tentacruel", "species": "tentacruel", "gender": "M", "item": "leftovers", "moves": ["protect", "rapidspin", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tyranitar", "species": "tyranitar", "gender": "M", "item": "leftovers", "moves": ["pursuit", "rest", "roar", "rockslide"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Raikou", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Forretress", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 25}, "moves": ["Hidden Power Fire", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Skarmory", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Rest", "Sleep Talk", "Toxic"]},
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Rest", "Sleep Talk"]},
+      {"species": "Tentacruel", "gender": "M", "item": "Leftovers", "moves": ["Protect", "Rapid Spin", "Surf", "Toxic"]},
+      {"species": "Tyranitar", "gender": "M", "item": "Leftovers", "moves": ["Pursuit", "Rest", "Roar", "Rock Slide"]}
     ]
   },
   {
     "name": "Forretress + Umbreon Stall",
     "data": [
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["curse", "doubleedge", "flamethrower", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "forretress", "species": "forretress", "gender": "M", "item": "leftovers", "ivs": {"hp": 7, "atk": 29, "def": 25, "spa": 31, "spd": 31, "spe": 31}, "moves": ["explosion", "hiddenpowerfire", "spikes", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "raikou", "species": "raikou", "item": "leftovers", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "roar", "thunderbolt"], "nature": "serious", "level": 100},
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "leftovers", "moves": ["curse", "drillpeck", "rest", "whirlwind"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "item": "leftovers", "moves": ["psychic", "rapidspin", "recover", "surf"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "umbreon", "species": "umbreon", "gender": "F", "item": "leftovers", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 3, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["charm", "pursuit", "rest", "sleeptalk"], "nature": "serious", "level": 100}
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Flamethrower", "Rest"]},
+      {"species": "Forretress", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 25}, "moves": ["Explosion", "Hidden Power Fire", "Spikes", "Toxic"]},
+      {"species": "Raikou", "item": "Leftovers", "evs": {"atk": 0}, "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Roar", "Thunderbolt"]},
+      {"species": "Skarmory", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Drill Peck", "Rest", "Whirlwind"]},
+      {"species": "Starmie", "item": "Leftovers", "moves": ["Psychic", "Rapid Spin", "Recover", "Surf"]},
+      {"species": "Umbreon", "gender": "F", "item": "Leftovers", "evs": {"atk": 0}, "ivs": {"atk": 3}, "moves": ["Charm", "Pursuit", "Rest", "Sleep Talk"]}
     ]
   },
   {
     "name": "Double Dog Golem Stall",
     "author": "ABR & BKC",
     "data": [
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["curse", "doubleedge", "flamethrower", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["explosion", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "leftovers", "moves": ["earthquake", "explosion", "rapidspin", "roar"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "raikou", "species": "raikou", "item": "leftovers", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 252, "spd": 252, "spe": 216}, "ivs": {"hp": 31, "atk": 23, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "roar", "thunderbolt"], "nature": "serious", "level": 100},
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "leftovers", "moves": ["curse", "drillpeck", "rest", "sleeptalk"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "suicune", "species": "suicune", "item": "leftovers", "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 3, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["icebeam", "rest", "sleeptalk", "surf"], "nature": "serious", "level": 100}
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Flamethrower", "Rest"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Spikes", "Surf", "Toxic"]},
+      {"species": "Golem", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Explosion", "Rapid Spin", "Roar"]},
+      {"species": "Raikou", "item": "Leftovers", "evs": {"atk": 0, "spe": 216}, "ivs": {"atk": 23, "def": 27}, "moves": ["Hidden Power Ice", "Rest", "Roar", "Thunderbolt"]},
+      {"species": "Skarmory", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Drill Peck", "Rest", "Sleep Talk"]},
+      {"species": "Suicune", "item": "Leftovers", "evs": {"atk": 0}, "ivs": {"atk": 3}, "moves": ["Ice Beam", "Rest", "Sleep Talk", "Surf"]}
     ]
   },
   {
     "name": "Blissey + Golem Stall",
     "data": [
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "item": "leftovers", "moves": ["doubleedge", "earthquake", "flamethrower", "rest"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "blissey", "species": "blissey", "item": "leftovers", "moves": ["flamethrower", "healbell", "lightscreen", "softboiled"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "item": "leftovers", "moves": ["rest", "spikes", "surf", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "golem", "species": "golem", "gender": "M", "item": "leftovers", "moves": ["earthquake", "rapidspin", "rest", "roar"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "skarmory", "species": "skarmory", "gender": "M", "item": "leftovers", "moves": ["curse", "drillpeck", "rest", "toxic"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "item": "leftovers", "ivs": {"hp": 31, "atk": 31, "def": 27, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerice", "rest", "sleeptalk", "thunder"], "nature": "serious", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}}
+      {"species": "Snorlax", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Earthquake", "Flamethrower", "Rest"]},
+      {"species": "Blissey", "item": "Leftovers", "moves": ["Flamethrower", "Heal Bell", "Light Screen", "Soft-Boiled"]},
+      {"species": "Cloyster", "gender": "M", "item": "Leftovers", "moves": ["Rest", "Spikes", "Surf", "Toxic"]},
+      {"species": "Golem", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Rapid Spin", "Rest", "Roar"]},
+      {"species": "Skarmory", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Drill Peck", "Rest", "Toxic"]},
+      {"species": "Zapdos", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]}
     ]
   }
 ]

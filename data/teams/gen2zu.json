@@ -2,71 +2,71 @@
   {
     "name": "[t04ster] Boom Bulky Offense",
     "data": [
-      {"name": "togetic", "species": "togetic", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["doubleedge", "metronome", "rest", "sleeptalk"], "teraType": "Fairy", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "croconaw", "species": "croconaw", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["rest", "roar", "sleeptalk", "surf"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "grimer", "species": "grimer", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["curse", "explosion", "fireblast", "sludgebomb"], "teraType": "Poison", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mareep", "species": "mareep", "gender": "M", "item": "leftovers", "ability": "noability", "ivs": {"hp": 6, "atk": 28, "def": 28, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowergrass", "rest", "sleeptalk", "thunderbolt"], "teraType": "Electric", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Grass"},
-      {"name": "onix", "species": "onix", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["curse", "earthquake", "explosion", "rockslide"], "teraType": "Rock", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "parasect", "species": "parasect", "gender": "M", "item": "leftovers", "ability": "noability", "ivs": {"hp": 31, "atk": 26, "def": 26, "spa": 31, "spd": 31, "spe": 31}, "moves": ["gigadrain", "hiddenpowerbug", "sludgebomb", "spore"], "teraType": "Bug", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Bug"}
+      {"species": "Togetic", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Metronome", "Rest", "Sleep Talk"]},
+      {"species": "Croconaw", "gender": "M", "item": "Leftovers", "moves": ["Rest", "Roar", "Sleep Talk", "Surf"]},
+      {"species": "Grimer", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Explosion", "Fire Blast", "Sludge Bomb"]},
+      {"species": "Mareep", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Hidden Power Grass", "Rest", "Sleep Talk", "Thunderbolt"]},
+      {"species": "Onix", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Earthquake", "Explosion", "Rock Slide"]},
+      {"species": "Parasect", "gender": "M", "item": "Leftovers", "ivs": {"atk": 27, "def": 27}, "moves": ["Giga Drain", "Hidden Power Bug", "Sludge Bomb", "Spore"]}
     ]
   },
   {
     "name": "Standard Balance",
     "author": "JonAmon25",
     "data": [
-      {"name": "magby", "species": "magby", "gender": "M", "ability": "noability", "ivs": {"hp": 6, "atk": 28, "def": 28, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fireblast", "hiddenpowergrass", "sunnyday", "thief"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Grass"},
-      {"name": "croconaw", "species": "croconaw", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["icebeam", "rest", "sleeptalk", "surf"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "koffing", "species": "koffing", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["explosion", "haze", "painsplit", "sludgebomb"], "teraType": "Poison", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "smoochum", "species": "smoochum", "item": "leftovers", "ability": "noability", "moves": ["blizzard", "hiddenpowerdark", "icebeam", "psychic"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "teraType": "Ice", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Dark"},
-      {"name": "togetic", "species": "togetic", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["curse", "doubleedge", "rest", "sleeptalk"], "teraType": "Fairy", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weepinbell", "species": "weepinbell", "gender": "M", "item": "leftovers", "ability": "noability", "ivs": {"hp": 14, "atk": 24, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerground", "sleeppowder", "sludgebomb", "swordsdance"], "teraType": "Grass", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Ground"}
+      {"species": "Magby", "gender": "M", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Fire Blast", "Hidden Power Grass", "Sunny Day", "Thief"]},
+      {"species": "Croconaw", "gender": "M", "item": "Leftovers", "moves": ["Ice Beam", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Koffing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Haze", "Pain Split", "Sludge Bomb"]},
+      {"species": "Smoochum", "item": "Leftovers", "moves": ["Blizzard", "Hidden Power Dark", "Ice Beam", "Psychic"]},
+      {"species": "Togetic", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Rest", "Sleep Talk"]},
+      {"species": "Weepinbell", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Hidden Power Ground", "Sleep Powder", "Sludge Bomb", "Swords Dance"]}
     ]
   },
   {
     "name": "Double SD Poison Offense",
     "author": "ReeceHughes",
     "data": [
-      {"name": "togetic", "species": "togetic", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["curse", "doubleedge", "rest", "sleeptalk"], "teraType": "Fairy", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "croconaw", "species": "croconaw", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["icebeam", "rest", "sleeptalk", "surf"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "poliwag", "species": "poliwag", "gender": "M", "item": "leftovers", "ability": "noability", "ivs": {"hp": 14, "atk": 24, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["bellydrum", "hiddenpowerground", "lovelykiss", "return"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Ground", "happiness": 255},
-      {"name": "smoochum", "species": "smoochum", "ability": "noability", "moves": ["hiddenpowerdark", "icebeam", "psychic", "thief"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "teraType": "Ice", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Dark"},
-      {"name": "tentacool", "species": "tentacool", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["hydropump", "sludgebomb", "substitute", "swordsdance"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "weepinbell", "species": "weepinbell", "gender": "M", "item": "leftovers", "ability": "noability", "ivs": {"hp": 14, "atk": 24, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowerground", "sludgebomb", "stunspore", "swordsdance"], "teraType": "Grass", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Ground"}
+      {"species": "Togetic", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Rest", "Sleep Talk"]},
+      {"species": "Croconaw", "gender": "M", "item": "Leftovers", "moves": ["Ice Beam", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Poliwag", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Belly Drum", "Hidden Power Ground", "Lovely Kiss", "Return"], "happiness": 255},
+      {"species": "Smoochum", "moves": ["Hidden Power Dark", "Ice Beam", "Psychic", "Thief"]},
+      {"species": "Tentacool", "gender": "M", "item": "Leftovers", "moves": ["Hydro Pump", "Sludge Bomb", "Substitute", "Swords Dance"]},
+      {"species": "Weepinbell", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Hidden Power Ground", "Sludge Bomb", "Stun Spore", "Swords Dance"]}
     ]
   },
   {
     "name": "Lead Nidorino Offense",
     "author": "BeatsBlack",
     "data": [
-      {"name": "nidorino", "species": "nidorino", "ability": "noability", "moves": ["icebeam", "morningsun", "thief", "thunderbolt"], "teraType": "Poison", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "bayleef", "species": "bayleef", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["ancientpower", "gigadrain", "return", "swordsdance"], "teraType": "Grass", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "happiness": 255},
-      {"name": "croconaw", "species": "croconaw", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["icebeam", "rest", "roar", "surf"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "doduo", "species": "doduo", "gender": "M", "item": "pinkbow", "ability": "noability", "ivs": {"hp": 6, "atk": 28, "def": 28, "spa": 31, "spd": 31, "spe": 31}, "moves": ["endure", "flail", "hiddenpowergrass", "return"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Grass", "happiness": 255},
-      {"name": "dratini", "species": "dratini", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["haze", "icebeam", "thunderbolt", "thunderwave"], "teraType": "Dragon", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "smoochum", "species": "smoochum", "item": "leftovers", "ability": "noability", "moves": ["blizzard", "hiddenpowerdark", "icebeam", "psychic"], "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "teraType": "Ice", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Dark"}
+      {"species": "Nidorino", "moves": ["Ice Beam", "Morning Sun", "Thief", "Thunderbolt"]},
+      {"species": "Bayleef", "gender": "M", "item": "Leftovers", "moves": ["Ancient Power", "Giga Drain", "Return", "Swords Dance"], "happiness": 255},
+      {"species": "Croconaw", "gender": "M", "item": "Leftovers", "moves": ["Ice Beam", "Rest", "Roar", "Surf"]},
+      {"species": "Doduo", "gender": "M", "item": "Pink Bow", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Endure", "Flail", "Hidden Power Grass", "Return"], "happiness": 255},
+      {"species": "Dratini", "gender": "M", "item": "Leftovers", "moves": ["Haze", "Ice Beam", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Smoochum", "item": "Leftovers", "moves": ["Blizzard", "Hidden Power Dark", "Ice Beam", "Psychic"]}
     ]
   },
   {
     "name": "Seel FWG",
     "author": "t04ster",
     "data": [
-      {"name": "butterfree", "species": "butterfree", "gender": "M", "item": "miracleberry", "ability": "noability", "ivs": {"hp": 6, "atk": 28, "def": 28, "spa": 31, "spd": 31, "spe": 31}, "moves": ["hiddenpowergrass", "psychic", "sleeppowder", "substitute"], "teraType": "Bug", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Grass"},
-      {"name": "ivysaur", "species": "ivysaur", "gender": "M", "item": "leftovers", "ability": "noability", "ivs": {"hp": 6, "atk": 24, "def": 28, "spa": 31, "spd": 31, "spe": 31}, "moves": ["gigadrain", "hiddenpowerpoison", "swordsdance", "synthesis"], "teraType": "Grass", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Poison"},
-      {"name": "koffing", "species": "koffing", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["explosion", "haze", "painsplit", "sludgebomb"], "teraType": "Poison", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magby", "species": "magby", "gender": "M", "item": "leftovers", "ability": "noability", "ivs": {"hp": 6, "atk": 28, "def": 28, "spa": 31, "spd": 31, "spe": 31}, "moves": ["fireblast", "protect", "thunderpunch", "toxic"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}},
-      {"name": "seel", "species": "seel", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["encore", "rest", "sleeptalk", "surf"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "togetic", "species": "togetic", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["curse", "doubleedge", "rest", "sleeptalk"], "teraType": "Fairy", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Butterfree", "gender": "M", "item": "Miracle Berry", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Hidden Power Grass", "Psychic", "Sleep Powder", "Substitute"]},
+      {"species": "Ivysaur", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 25, "def": 29}, "moves": ["Giga Drain", "Hidden Power Poison", "Swords Dance", "Synthesis"]},
+      {"species": "Koffing", "gender": "M", "item": "Leftovers", "moves": ["Explosion", "Haze", "Pain Split", "Sludge Bomb"]},
+      {"species": "Magby", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Fire Blast", "Protect", "Thunder Punch", "Toxic"]},
+      {"species": "Seel", "gender": "M", "item": "Leftovers", "moves": ["Encore", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Togetic", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Rest", "Sleep Talk"]}
     ]
   },
   {
     "name": "Ancient Power Spam",
     "data": [
-      {"name": "growlithe", "species": "growlithe", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["bodyslam", "flamethrower", "rest", "sleeptalk"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "bayleef", "species": "bayleef", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["ancientpower", "razorleaf", "swordsdance", "synthesis"], "teraType": "Grass", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "croconaw", "species": "croconaw", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["ancientpower", "icebeam", "rest", "surf"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "larvitar", "species": "larvitar", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["ancientpower", "curse", "earthquake", "rest"], "teraType": "Rock", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "togetic", "species": "togetic", "gender": "M", "item": "leftovers", "ability": "noability", "moves": ["curse", "doubleedge", "rest", "sleeptalk"], "teraType": "Fairy", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "yanma", "species": "yanma", "gender": "M", "item": "leftovers", "ability": "noability", "ivs": {"hp": 31, "atk": 26, "def": 26, "spa": 31, "spd": 31, "spe": 31}, "moves": ["endure", "hiddenpowerbug", "reversal", "wingattack"], "teraType": "Bug", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "hpType": "Bug"}
+      {"species": "Growlithe", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Flamethrower", "Rest", "Sleep Talk"]},
+      {"species": "Bayleef", "gender": "M", "item": "Leftovers", "moves": ["Ancient Power", "Razor Leaf", "Swords Dance", "Synthesis"]},
+      {"species": "Croconaw", "gender": "M", "item": "Leftovers", "moves": ["Ancient Power", "Ice Beam", "Rest", "Surf"]},
+      {"species": "Larvitar", "gender": "M", "item": "Leftovers", "moves": ["Ancient Power", "Curse", "Earthquake", "Rest"]},
+      {"species": "Togetic", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Rest", "Sleep Talk"]},
+      {"species": "Yanma", "gender": "M", "item": "Leftovers", "ivs": {"atk": 27, "def": 27}, "moves": ["Endure", "Hidden Power Bug", "Reversal", "Wing Attack"]}
     ]
   }
 ]

@@ -2,122 +2,122 @@
   {
     "name": "[PvK] Normal with Kang",
     "data": [
-      {"name": "chansey", "species": "chansey", "ability": "noability", "moves": ["icebeam", "reflect", "sing", "softboiled"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dodrio", "species": "dodrio", "gender": "M", "ability": "noability", "moves": ["agility", "bodyslam", "drillpeck", "hyperbeam"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kangaskhan", "species": "kangaskhan", "ability": "noability", "moves": ["bodyslam", "counter", "earthquake", "hyperbeam"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "persian", "species": "persian", "gender": "M", "ability": "noability", "moves": ["bubblebeam", "hyperbeam", "slash", "thunderbolt"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "ability": "noability", "moves": ["amnesia", "blizzard", "bodyslam", "selfdestruct"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tauros", "species": "tauros", "ability": "noability", "moves": ["blizzard", "bodyslam", "earthquake", "hyperbeam"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Chansey", "moves": ["Ice Beam", "Reflect", "Sing", "Soft-Boiled"]},
+      {"species": "Dodrio", "moves": ["Agility", "Body Slam", "Drill Peck", "Hyper Beam"]},
+      {"species": "Kangaskhan", "moves": ["Body Slam", "Counter", "Earthquake", "Hyper Beam"]},
+      {"species": "Persian", "moves": ["Bubble Beam", "Hyper Beam", "Slash", "Thunderbolt"]},
+      {"species": "Snorlax", "moves": ["Amnesia", "Blizzard", "Body Slam", "Self-Destruct"]},
+      {"species": "Tauros", "moves": ["Blizzard", "Body Slam", "Earthquake", "Hyper Beam"]}
     ]
   },
   {
     "name": "[PvK] Psychic with Mr. Mime",
     "data": [
-      {"name": "jynx", "species": "jynx", "ability": "noability", "moves": ["blizzard", "counter", "lovelykiss", "psychic"], "teraType": "Ice", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "alakazam", "species": "alakazam", "gender": "M", "ability": "noability", "moves": ["psychic", "recover", "seismictoss", "thunderwave"], "teraType": "Psychic", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "exeggutor", "species": "exeggutor", "gender": "M", "ability": "noability", "moves": ["explosion", "psychic", "sleeppowder", "stunspore"], "teraType": "Grass", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mrmime", "species": "mrmime", "gender": "M", "ability": "noability", "moves": ["barrier", "psychic", "thunderbolt", "thunderwave"], "teraType": "Psychic", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "slowbro", "species": "slowbro", "gender": "M", "ability": "noability", "moves": ["amnesia", "rest", "surf", "thunderwave"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "ability": "noability", "moves": ["blizzard", "psychic", "recover", "thunderwave"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Jynx", "moves": ["Blizzard", "Counter", "Lovely Kiss", "Psychic"]},
+      {"species": "Alakazam", "moves": ["Psychic", "Recover", "Seismic Toss", "Thunder Wave"]},
+      {"species": "Exeggutor", "moves": ["Explosion", "Psychic", "Sleep Powder", "Stun Spore"]},
+      {"species": "Mr. Mime", "moves": ["Barrier", "Psychic", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Slowbro", "moves": ["Amnesia", "Rest", "Surf", "Thunder Wave"]},
+      {"species": "Starmie", "moves": ["Blizzard", "Psychic", "Recover", "Thunder Wave"]}
     ]
   },
   {
     "name": "[PvK] Water LeadWrath",
     "data": [
-      {"name": "poliwrath", "species": "poliwrath", "gender": "M", "ability": "noability", "moves": ["amnesia", "hydropump", "hypnosis", "submission"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "cloyster", "species": "cloyster", "gender": "M", "ability": "noability", "moves": ["blizzard", "clamp", "explosion", "surf"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gyarados", "species": "gyarados", "gender": "M", "ability": "noability", "moves": ["blizzard", "bodyslam", "hyperbeam", "thunderbolt"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "lapras", "species": "lapras", "gender": "M", "ability": "noability", "moves": ["blizzard", "bodyslam", "sing", "thunderbolt"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "slowbro", "species": "slowbro", "gender": "M", "ability": "noability", "moves": ["amnesia", "rest", "surf", "thunderwave"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "ability": "noability", "moves": ["psychic", "recover", "thunderbolt", "thunderwave"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Poliwrath", "moves": ["Amnesia", "Hydro Pump", "Hypnosis", "Submission"]},
+      {"species": "Cloyster", "moves": ["Blizzard", "Clamp", "Explosion", "Surf"]},
+      {"species": "Gyarados", "moves": ["Blizzard", "Body Slam", "Hyper Beam", "Thunderbolt"]},
+      {"species": "Lapras", "moves": ["Blizzard", "Body Slam", "Sing", "Thunderbolt"]},
+      {"species": "Slowbro", "moves": ["Amnesia", "Rest", "Surf", "Thunder Wave"]},
+      {"species": "Starmie", "moves": ["Psychic", "Recover", "Thunderbolt", "Thunder Wave"]}
     ]
   },
   {
     "name": "[PvK] Fire Toxic+FSpin",
     "data": [
-      {"name": "charizard", "species": "charizard", "gender": "M", "ability": "noability", "moves": ["counter", "fireblast", "firespin", "slash"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "arcanine", "species": "arcanine", "gender": "M", "ability": "noability", "moves": ["agility", "bodyslam", "fireblast", "toxic"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magmar", "species": "magmar", "gender": "M", "ability": "noability", "moves": ["fireblast", "psychic", "submission", "toxic"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "moltres", "species": "moltres", "ability": "noability", "moves": ["agility", "fireblast", "firespin", "toxic"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "ninetales", "species": "ninetales", "gender": "M", "ability": "noability", "moves": ["bodyslam", "fireblast", "firespin", "toxic"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "rapidash", "species": "rapidash", "gender": "M", "ability": "noability", "moves": ["agility", "fireblast", "firespin", "toxic"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Charizard", "moves": ["Counter", "Fire Blast", "Fire Spin", "Slash"]},
+      {"species": "Arcanine", "moves": ["Agility", "Body Slam", "Fire Blast", "Toxic"]},
+      {"species": "Magmar", "moves": ["Fire Blast", "Psychic", "Submission", "Toxic"]},
+      {"species": "Moltres", "moves": ["Agility", "Fire Blast", "Fire Spin", "Toxic"]},
+      {"species": "Ninetales", "moves": ["Body Slam", "Fire Blast", "Fire Spin", "Toxic"]},
+      {"species": "Rapidash", "moves": ["Agility", "Fire Blast", "Fire Spin", "Toxic"]}
     ]
   },
   {
     "name": "[PvK] Flying LeadZard",
     "data": [
-      {"name": "charizard", "species": "charizard", "gender": "M", "ability": "noability", "moves": ["counter", "fireblast", "firespin", "slash"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "articuno", "species": "articuno", "ability": "noability", "moves": ["agility", "blizzard", "doubleedge", "toxic"], "teraType": "Ice", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dodrio", "species": "dodrio", "gender": "M", "ability": "noability", "moves": ["agility", "bodyslam", "drillpeck", "hyperbeam"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dragonite", "species": "dragonite", "gender": "M", "ability": "noability", "moves": ["agility", "hyperbeam", "thunderwave", "wrap"], "teraType": "Dragon", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "moltres", "species": "moltres", "ability": "noability", "moves": ["agility", "fireblast", "firespin", "toxic"], "teraType": "Fire", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "ability": "noability", "moves": ["agility", "drillpeck", "thunderbolt", "thunderwave"], "teraType": "Electric", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Charizard", "moves": ["Counter", "Fire Blast", "Fire Spin", "Slash"]},
+      {"species": "Articuno", "moves": ["Agility", "Blizzard", "Double-Edge", "Toxic"]},
+      {"species": "Dodrio", "moves": ["Agility", "Body Slam", "Drill Peck", "Hyper Beam"]},
+      {"species": "Dragonite", "moves": ["Agility", "Hyper Beam", "Thunder Wave", "Wrap"]},
+      {"species": "Moltres", "moves": ["Agility", "Fire Blast", "Fire Spin", "Toxic"]},
+      {"species": "Zapdos", "moves": ["Agility", "Drill Peck", "Thunderbolt", "Thunder Wave"]}
     ]
   },
   {
     "name": "[PvK] Electric ScreechBoom Trode",
     "data": [
-      {"name": "electrode", "species": "electrode", "ability": "noability", "moves": ["explosion", "screech", "thunderbolt", "thunderwave"], "teraType": "Electric", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "electabuzz", "species": "electabuzz", "gender": "M", "ability": "noability", "moves": ["psychic", "submission", "thunderbolt", "thunderwave"], "teraType": "Electric", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "jolteon", "species": "jolteon", "gender": "M", "ability": "noability", "moves": ["doublekick", "pinmissile", "thunderbolt", "thunderwave"], "teraType": "Electric", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "magneton", "species": "magneton", "ability": "noability", "moves": ["doubleedge", "thunder", "thunderbolt", "thunderwave"], "teraType": "Electric", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "raichu", "species": "raichu", "gender": "M", "ability": "noability", "moves": ["agility", "surf", "thunderbolt", "thunderwave"], "teraType": "Electric", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "zapdos", "species": "zapdos", "ability": "noability", "moves": ["agility", "drillpeck", "thunderbolt", "thunderwave"], "teraType": "Electric", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Electrode", "moves": ["Explosion", "Screech", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Electabuzz", "moves": ["Psychic", "Submission", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Jolteon", "moves": ["Double Kick", "Pin Missile", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Magneton", "moves": ["Double-Edge", "Thunder", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Raichu", "moves": ["Agility", "Surf", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Zapdos", "moves": ["Agility", "Drill Peck", "Thunderbolt", "Thunder Wave"]}
     ]
   },
   {
     "name": "[PvK] Rock LeadAero",
     "data": [
-      {"name": "aerodactyl", "species": "aerodactyl", "gender": "M", "ability": "noability", "moves": ["doubleedge", "fireblast", "hyperbeam", "toxic"], "teraType": "Rock", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "golem", "species": "golem", "gender": "M", "ability": "noability", "moves": ["bodyslam", "earthquake", "explosion", "rockslide"], "teraType": "Rock", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kabutops", "species": "kabutops", "gender": "M", "ability": "noability", "moves": ["hyperbeam", "submission", "surf", "swordsdance"], "teraType": "Rock", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "omastar", "species": "omastar", "gender": "M", "ability": "noability", "moves": ["blizzard", "bodyslam", "seismictoss", "surf"], "teraType": "Rock", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "onix", "species": "onix", "gender": "M", "ability": "noability", "moves": ["bind", "earthquake", "rockslide", "toxic"], "teraType": "Rock", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "rhydon", "species": "rhydon", "gender": "M", "ability": "noability", "moves": ["bodyslam", "earthquake", "rockslide", "substitute"], "teraType": "Ground", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Aerodactyl", "moves": ["Double-Edge", "Fire Blast", "Hyper Beam", "Toxic"]},
+      {"species": "Golem", "moves": ["Body Slam", "Earthquake", "Explosion", "Rock Slide"]},
+      {"species": "Kabutops", "moves": ["Hyper Beam", "Submission", "Surf", "Swords Dance"]},
+      {"species": "Omastar", "moves": ["Blizzard", "Body Slam", "Seismic Toss", "Surf"]},
+      {"species": "Onix", "moves": ["Bind", "Earthquake", "Rock Slide", "Toxic"]},
+      {"species": "Rhydon", "moves": ["Body Slam", "Earthquake", "Rock Slide", "Substitute"]}
     ]
   },
   {
     "name": "[PvK] Ground Lead Bind Onix",
     "data": [
-      {"name": "onix", "species": "onix", "gender": "M", "ability": "noability", "moves": ["bind", "earthquake", "explosion", "rockslide"], "teraType": "Rock", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "dugtrio", "species": "dugtrio", "gender": "M", "ability": "noability", "moves": ["earthquake", "rockslide", "slash", "toxic"], "teraType": "Ground", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "golem", "species": "golem", "gender": "M", "ability": "noability", "moves": ["bodyslam", "earthquake", "explosion", "rockslide"], "teraType": "Rock", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "nidoking", "species": "nidoking", "ability": "noability", "moves": ["blizzard", "bodyslam", "earthquake", "thunderbolt"], "teraType": "Poison", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "rhydon", "species": "rhydon", "gender": "M", "ability": "noability", "moves": ["bodyslam", "earthquake", "rockslide", "substitute"], "teraType": "Ground", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "sandslash", "species": "sandslash", "gender": "M", "ability": "noability", "moves": ["earthquake", "rockslide", "submission", "swordsdance"], "teraType": "Ground", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Onix", "moves": ["Bind", "Earthquake", "Explosion", "Rock Slide"]},
+      {"species": "Dugtrio", "moves": ["Earthquake", "Rock Slide", "Slash", "Toxic"]},
+      {"species": "Golem", "moves": ["Body Slam", "Earthquake", "Explosion", "Rock Slide"]},
+      {"species": "Nidoking", "moves": ["Blizzard", "Body Slam", "Earthquake", "Thunderbolt"]},
+      {"species": "Rhydon", "moves": ["Body Slam", "Earthquake", "Rock Slide", "Substitute"]},
+      {"species": "Sandslash", "moves": ["Earthquake", "Rock Slide", "Submission", "Swords Dance"]}
     ]
   },
   {
     "name": "[PvK] Poison Tent+Veno",
     "data": [
-      {"name": "tentacruel", "species": "tentacruel", "gender": "M", "ability": "noability", "moves": ["blizzard", "hyperbeam", "surf", "wrap"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "gengar", "species": "gengar", "gender": "M", "ability": "noability", "moves": ["explosion", "hypnosis", "nightshade", "thunderbolt"], "teraType": "Ghost", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "muk", "species": "muk", "gender": "M", "ability": "noability", "moves": ["bodyslam", "explosion", "fireblast", "sludge"], "teraType": "Poison", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "nidoking", "species": "nidoking", "ability": "noability", "moves": ["blizzard", "bodyslam", "earthquake", "thunderbolt"], "teraType": "Poison", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "venomoth", "species": "venomoth", "gender": "M", "ability": "noability", "moves": ["doubleedge", "psychic", "sleeppowder", "stunspore"], "teraType": "Bug", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "victreebel", "species": "victreebel", "gender": "M", "ability": "noability", "moves": ["razorleaf", "sleeppowder", "stunspore", "wrap"], "teraType": "Grass", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Tentacruel", "moves": ["Blizzard", "Hyper Beam", "Surf", "Wrap"]},
+      {"species": "Gengar", "moves": ["Explosion", "Hypnosis", "Night Shade", "Thunderbolt"]},
+      {"species": "Muk", "moves": ["Body Slam", "Explosion", "Fire Blast", "Sludge"]},
+      {"species": "Nidoking", "moves": ["Blizzard", "Body Slam", "Earthquake", "Thunderbolt"]},
+      {"species": "Venomoth", "moves": ["Double-Edge", "Psychic", "Sleep Powder", "Stun Spore"]},
+      {"species": "Victreebel", "moves": ["Razor Leaf", "Sleep Powder", "Stun Spore", "Wrap"]}
     ]
   },
   {
     "name": "[PvK] Psychic with Mr. Mime",
     "data": [
-      {"name": "jynx", "species": "jynx", "ability": "noability", "moves": ["blizzard", "counter", "lovelykiss", "psychic"], "teraType": "Ice", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "alakazam", "species": "alakazam", "gender": "M", "ability": "noability", "moves": ["psychic", "recover", "seismictoss", "thunderwave"], "teraType": "Psychic", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "exeggutor", "species": "exeggutor", "gender": "M", "ability": "noability", "moves": ["doubleedge", "explosion", "psychic", "sleeppowder"], "teraType": "Grass", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "mrmime", "species": "mrmime", "gender": "M", "ability": "noability", "moves": ["psychic", "seismictoss", "thunderbolt", "thunderwave"], "teraType": "Psychic", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "slowbro", "species": "slowbro", "gender": "M", "ability": "noability", "moves": ["amnesia", "rest", "surf", "thunderwave"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "starmie", "species": "starmie", "ability": "noability", "moves": ["blizzard", "recover", "thunderbolt", "thunderwave"], "teraType": "Water", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Jynx", "moves": ["Blizzard", "Counter", "Lovely Kiss", "Psychic"]},
+      {"species": "Alakazam", "moves": ["Psychic", "Recover", "Seismic Toss", "Thunder Wave"]},
+      {"species": "Exeggutor", "moves": ["Double-Edge", "Explosion", "Psychic", "Sleep Powder"]},
+      {"species": "Mr. Mime", "moves": ["Psychic", "Seismic Toss", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Slowbro", "moves": ["Amnesia", "Rest", "Surf", "Thunder Wave"]},
+      {"species": "Starmie", "moves": ["Blizzard", "Recover", "Thunderbolt", "Thunder Wave"]}
     ]
   },
   {
     "name": "[PvK] Normal with Counter Kang v2",
     "data": [
-      {"name": "dodrio", "species": "dodrio", "gender": "M", "ability": "noability", "moves": ["agility", "bodyslam", "drillpeck", "hyperbeam"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "chansey", "species": "chansey", "ability": "noability", "moves": ["icebeam", "reflect", "sing", "softboiled"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "kangaskhan", "species": "kangaskhan", "ability": "noability", "moves": ["bodyslam", "counter", "earthquake", "hyperbeam"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "persian", "species": "persian", "gender": "M", "ability": "noability", "moves": ["bubblebeam", "hyperbeam", "slash", "thunderbolt"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "snorlax", "species": "snorlax", "gender": "M", "ability": "noability", "moves": ["amnesia", "blizzard", "bodyslam", "selfdestruct"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}},
-      {"name": "tauros", "species": "tauros", "ability": "noability", "moves": ["bodyslam", "earthquake", "hyperbeam", "thunderbolt"], "teraType": "Normal", "level": 100, "evs": {"hp": 252, "atk": 252, "def": 252, "spa": 252, "spd": 252, "spe": 252}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}}
+      {"species": "Dodrio", "moves": ["Agility", "Body Slam", "Drill Peck", "Hyper Beam"]},
+      {"species": "Chansey", "moves": ["Ice Beam", "Reflect", "Sing", "Soft-Boiled"]},
+      {"species": "Kangaskhan", "moves": ["Body Slam", "Counter", "Earthquake", "Hyper Beam"]},
+      {"species": "Persian", "moves": ["Bubble Beam", "Hyper Beam", "Slash", "Thunderbolt"]},
+      {"species": "Snorlax", "moves": ["Amnesia", "Blizzard", "Body Slam", "Self-Destruct"]},
+      {"species": "Tauros", "moves": ["Body Slam", "Earthquake", "Hyper Beam", "Thunderbolt"]}
     ]
   }
 ]
