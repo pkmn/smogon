@@ -20,13 +20,14 @@
   "Cloyster": {"outdated": true, "sets": {"Technician": {}}},
   "Gengar": {
     "sets": {
-      "Sheer Force": {},
-      "Normalize": {},
-      "Hadron Engine": {
-        "outdated": true,
-        "description": "<p>Hadron Engine Gengar uses its excellent Special Attack, good Speed, and good coverage options to function as a dangerous wallbreaker, pressuring physical and special walls alike. Hadron Engine-boosted Thunderbolt threatens an OHKO on Water- and Flying-types such as Empoleon and Mandibuzz and 2HKOes RegenVest Manaphy, while Focus Blast threatens an OHKO on Heatran and a 2HKO on Blissey, RegenVest Hisuian Goodra, and Roaring Moon. Trick can be used to cripple more defensive switch-ins such as Blissey and RegenVest users, while Sludge Bomb threatens an OHKO on Primordial Sea Zapdos and Ogerpon-C while also potentially crippling switch-ins with poison. Fast wallbreakers such as Barraskewda, Azelf, and Meowscarada appreciate Gengar's ability to pressure their walls like Kommo-o, Empoleon, and Corviknight, allowing them to clean late-game, while in return they can safely let in Gengar by pivoting out of such walls as they switch in. Azelf's Psychic Terrain blocking priority is appreciated by Gengar, as it allows it to avoid an OHKO from Dragonite's Extreme Speed and 2HKO it back with Sludge Bomb. Gengar's ability to absorb Toxic Spikes is greatly appreciated by offensive teams especially, as they can otherwise be crippled by them. Gengar is OHKOed by most Pokemon faster than it, such as Azelf, Barraskewda, and Roaring Moon, and takes takes heavy damage from most priority moves, so defensive teammates such as Corviknight, Great Tusk, and Empoleon are appreciated, with Corviknight and Great Tusk being able to remove the entry hazards that Gengar is prone to being chipped down by. Gengar also appreciates Corviknight and Empoleon being able to safely pivot it in due to their low Speed.</p>"
+      "Sheer Force": {
+        "description": "<p>Gengar makes for an amazing wallbreaker, breaking through offensive threats like Gholdengo, Great Tusk, and Enamorus-T, as well as having a decent Speed tier. Focus Blast hits Dark-types that try to switch in such as Chien-Pao and Roaring Moon as well as Steel-types such as Heatran and Hisuian Goodra. Nasty Plot turns Gengar into a threatening wallbreaker, allowing it to 2HKO RegenVest Hisuian Goodra and Manaphy with its coverage options. Sludge Wave hits Fairy- and Grass-types like Enamorus-T, Hisuian Electrode, and Ogerpon-W. Energy Ball hits Ground-types like Swampert and Great Tusk, while Thunderbolt hits non-Volt Absorb Corviknight and Mandibuzz. Gengar is great at threatening physical walls like Corviknight and Deoxys-D, so it partners well with physical wallbreakers like Galarian Zapdos and Chien-Pao; in return, they can pressure special walls that Gengar struggles to break through like Hisuian Goodra and Blissey. Due to Gengar's frailty, it struggles against faster threats such as Azelf, Roaring Moon, and Chien-Pao, so defensive switch-ins to them like Mandibuzz, Great Tusk, and Intimidate Corviknight make for good partners. Gengar greatly appreciates Knock Off support from Pokemon like Swampert, Manaphy, and Deoxys-D to remove Assault Vest from RegenVest Pokemon such as Swampert, Hisuian Goodra, and Meloetta, allowing it to have an easier time breaking past the opposing team.</p>"
+      },
+      "Normalize": {
+        "description": "<p>Normalize Gengar not only threatens to remove opposing RegenVest pivots, often the best check to more conventional Gengar sets, but also reliably sets Toxic Spikes and wins one-on-one against slower setup threats like Swords Dance Iron Hands and Calm Mind Cresselia. Mean Look in conjunction with Skill Swap traps and removes opposing specially defensive walls like Swampert, Manaphy, and Empoleon that are aiming to check it. Skill Swap also reliably forces out and generates a free turn against any Pokemon slower than Gengar such as Sandy Shocks and Beads of Ruin Walking Wake, as they will be unable to hit it through Normalize. This makes Gengar one of the most reliable Toxic Spikes setters, as it threatens most common removal options like Corviknight and Great Tusk. Gengar is an excellent teammate for fast special cleaners like Azelf, Deoxys-S, and Iron Moth, as they benefit tremendously from opposing special walls being removed or weakened with Toxic Spikes. Gengar struggles against teams with fast Dark-types like Roaring Moon, Meowscarada, and Chien-Pao, as it cannot meaningfully damage them and is immensely threatened by them, making Pokemon like Fluffy Corviknight and physically defensive Manaphy great partners; they can also provide a slow pivot to get Gengar in safely. Weather Ball from Pokemon with Primordial Sea or Desolate Land bypasses Normalize, meaning Gengar cannot reliably force out common users like Walking Wake and Volcanion, so sturdy checks to them like RegenVest Swampert and Blissey make solid teammates.</p>"
       }
-    }
+    },
+    "credits": {"writtenBy": [{"username": "UT", "user_id": 523866}, {"username": "skippergamez", "user_id": 620268}], "teams": [{"name": "Quality checked by", "members": [{"username": "Slither Wing", "user_id": 603931}, {"username": "LordBox", "user_id": 611238}, {"username": "Gimmickyasitgets", "user_id": 540420}, {"username": "cat", "user_id": 580765}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
   },
   "Electrode-Hisui": {"sets": {"Magic Guard": {}}},
   "Gyarados": {"outdated": true, "sets": {"Dragon Dance": {}}},
@@ -54,7 +55,14 @@
   },
   "Moltres": {"outdated": true, "sets": {"Magic Guard": {}, "Desolate Land": {}}},
   "Moltres-Galar": {"outdated": true, "sets": {"Double Dance": {}}},
-  "Dragonite": {"sets": {"Dragon Dance": {}}},
+  "Dragonite": {
+    "sets": {
+      "Dragon Dance": {
+        "description": "<p>Dragonite provides a variety of offensive utility, being an incredibly strong anti-offense tool, a potent setup sweeper, and a nigh-unparalleled late-game cleaner. Earthquake threatens Rock- and Steel-types like non-Earth Eater Garganacl, Kingambit, and Gholdengo, while Ice Spinner threatens select Electric-types like Sandy Shocks and Zapdos and removes Azelf's Psychic Terrain. Roost provides Dragonite with much-needed longevity, notably allowing it to turn Corviknight into setup fodder. Sharp Beak is an option over Life Orb to ensure that Dragonite does not wear itself down as quickly; alternatively, Heavy-Duty Boots improves its longevity, allowing it to pose a threat multiple times in a game and leverage its typing to act as a passable check to Water- and Fire-types like Barraskewda and Iron Moth. Dragonite's ability to clean late-game is appreciated by wallbreakers that can break open holes in the opposing team earlier in the game, like Volcarona and Chien-Pao. Its ability to act as potent speed control also allows it to make up for teammates that have middling Speed tiers like Ceruledge, Galarian Zapdos, and Choice Specs Walking Wake. Dragonite's tendency to get forced out by Azelf means it requires a partner that can consistently switch into it like Empoleon, RegenVest Manaphy, or Swampert. When not using Heavy-Duty Boots, entry hazard control from teammates like Corviknight, Great Tusk, and Mandibuzz is a must-have.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "cat", "user_id": 580765}], "teams": [{"name": "Quality checked by", "members": [{"username": "LordBox", "user_id": 611238}, {"username": "Slither Wing", "user_id": 603931}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+  },
   "Mew": {
     "outdated": true,
     "sets": {
@@ -177,7 +185,14 @@
     },
     "credits": {"writtenBy": [{"username": "Bella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "Slither Wing", "user_id": 603931}, {"username": "Gimmickyasitgets", "user_id": 540420}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
   },
-  "Heatran": {"sets": {"Desolate Land": {}, "Magic Guard": {"outdated": true}}},
+  "Heatran": {
+    "sets": {
+      "Desolate Land": {
+        "description": "<p>Heatran's useful typing and high natural Special Attack make it an effective Stealth Rock setter capable of dissuading common entry hazard removers like Corviknight and Great Tusk from switching in. Desolate Land allows Heatran to soft check opposing Water-types such as offensive Manaphy and users of Primordial Sea like Zapdos, Walking Wake, and Ogerpon-W while also amplifying the power of Magma Storm. Solar Beam allows Heatran to 2HKO opposing RegenVest Swampert, which would otherwise easily switch into it. Will-O-Wisp allows Heatran to incapacitate opposing physical attackers like Roaring Moon, Dragonite, and Iron Boulder that may otherwise be willing to switch into it. Alternatively, Earth Power can hit opposing Heatran, Iron Moth, and Well-Baked Body Gholdengo, while Power Gem can hit opposing Primordial Sea Zapdos and Well-Baked Body Mandibuzz. 60 Speed EVs allow Heatran to outspeed uninvested Gholdengo, with the remaining EVs maximizing its special bulk to better check Pokemon like Azelf and Deoxys-S. Heatran struggles to offensively break through opposing specially defensive Pokemon such as RegenVest Manaphy and Swampert, so physically offensive wallbreakers like Roaring Moon and Chien-Pao are good teammates; in return, Heatran can keep up Stealth Rock in front of entry hazard removers like Corviknight. Heatran's 4x Ground weakness mandates teammates like Corviknight and Zapdos that can answer opposing Ground-types like Great Tusk. Pokemon using Primordial Sea such as Zapdos and Ogerpon-W can switch into and threaten Heatran, so teammates that can check these Pokemon such as Swampert and Dragonite are useful.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "abriel", "user_id": 473082}], "teams": [{"name": "Quality checked by", "members": [{"username": "Kinetic", "user_id": 552227}, {"username": "Slither Wing", "user_id": 603931}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+  },
   "Cresselia": {"sets": {"Unaware": {}}},
   "Manaphy": {
     "sets": {
@@ -263,7 +278,14 @@
     },
     "credits": {"writtenBy": [{"username": "berry", "user_id": 226455}, {"username": "Don Vascus", "user_id": 322272}, {"username": "Frozoid", "user_id": 532881}], "teams": [{"name": "Quality checked by", "members": [{"username": "Tranquility", "user_id": 475288}, {"username": "UT", "user_id": 523866}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "Adeleine", "user_id": 517429}, {"username": "UT", "user_id": 523866}, {"username": "Tea Guzzler", "user_id": 577920}]}]}
   },
-  "Meloetta": {"sets": {"RegenVest": {}}},
+  "Meloetta": {
+    "sets": {
+      "RegenVest": {
+        "description": "<p>RegenVest Meloetta is a capable pivot thanks to its ability to switch into most special attackers like Gholdengo, Walking Wake, Deoxys-S, and Iron Moth. Knock Off gives Meloetta an option to support its teammates by removing key items such as Assault Vest from Swampert and Hisuian Goodra, while Thunderbolt hits Manaphy and non-Volt Absorb Corviknight for high damage. Low Kick lets Meloetta chip Hisuian Goodra and Heatran, but Energy Ball can be used instead to 2HKO Swampert after its Assault Vest has been removed. Good teammates include Pokemon like Roaring Moon, Galarian Zapdos, Barraskewda, Chien-Pao, and Ceruledge because Meloetta can safely get them into the field with a slow U-turn. Physical attackers like Roaring Moon and Chien-Pao naturally threaten Meloetta out, so Pokemon that can deal with them, like Corviknight, Great Tusk, and defensive Quaquaval, make for good partners. Lastly, Meloetta appreciates entry hazard removal from the likes of Corviknight, Great Tusk, and Mandibuzz, to keep its HP high enough to switch into strong attackers.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "corvere", "user_id": 306317}], "teams": [{"name": "Quality checked by", "members": [{"username": "Slither Wing", "user_id": 603931}, {"username": "Isaiah", "user_id": 375662}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+  },
   "Chesnaught": {"outdated": true, "sets": {"Triage": {}, "Well-Baked Body": {}}},
   "Greninja": {
     "outdated": true,
