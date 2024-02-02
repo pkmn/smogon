@@ -1,11 +1,7 @@
 {
   "Ninetales": {"sets": {"Sun Setter": {}}},
-  "Golduck": {"sets": {"Rain Sweeper": {}}},
   "Arcanine-Hisui": {"sets": {"Offensive": {}}},
-  "Victreebel": {"sets": {"Sun Sweeper": {}}},
   "Slowbro": {"sets": {"Defensive": {}}},
-  "Slowbro-Galar": {"sets": {"Calm Mind": {}}},
-  "Muk-Alola": {"sets": {"Poison Touch + Protect": {}}},
   "Gengar": {
     "sets": {
       "Hex": {
@@ -23,6 +19,7 @@
   "Zapdos-Galar": {"sets": {"Choice Scarf": {}, "Choice Band": {}}},
   "Moltres": {"sets": {"Offensive": {}, "Bulky Pivot": {}}},
   "Moltres-Galar": {"sets": {"Double Dance": {}}},
+  "Feraligatr": {"sets": {"Dragon Dance": {}}},
   "Azumarill": {"sets": {"Belly Drum": {}, "Choice Band": {}, "Assault Vest": {}}},
   "Quagsire": {
     "sets": {
@@ -49,11 +46,6 @@
     },
     "credits": {"writtenBy": [{"username": "royalfluxh", "user_id": 493260}, {"username": "Sulo", "user_id": 528036}, {"username": "SamuelIsono", "user_id": 519223}], "teams": [{"name": "Quality checked by", "members": [{"username": "Twilight", "user_id": 344575}, {"username": "Sulo", "user_id": 528036}, {"username": "Estarossa", "user_id": 461329}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "autumn", "user_id": 384270}, {"username": "YashGreninja", "user_id": 383911}]}]}
   },
-  "Ludicolo": {"sets": {"Rain Sweeper": {}}},
-  "Gardevoir": {"sets": {"Choice Scarf": {}}},
-  "Breloom": {"sets": {"Offensive": {}}},
-  "Crawdaunt": {"sets": {"Choice Band": {}}},
-  "Milotic": {"sets": {"Defensive": {}}},
   "Salamence": {
     "sets": {
       "Special Wallbreaker": {
@@ -68,8 +60,8 @@
   "Jirachi": {"sets": {"Calm Mind + Wish": {}, "Choice Scarf": {}}},
   "Infernape": {"sets": {"Nasty Plot": {}}},
   "Empoleon": {"sets": {"Offensive": {}, "Defensive Pivot": {}}},
-  "Floatzel": {"sets": {"Choice Band": {}}},
   "Gastrodon": {"sets": {"Specially Defensive": {}}},
+  "Garchomp": {"sets": {"TankChomp": {}, "Swords Dance": {}, "Lead": {}, "Choice Scarf": {}, "Mixed": {}}},
   "Hippowdon": {
     "sets": {
       "Stealth Rock": {
@@ -81,12 +73,11 @@
   "Mamoswine": {"sets": {"Wallbreaker": {}}},
   "Rotom-Wash": {"sets": {"Utility Pivot": {}}},
   "Cresselia": {"sets": {"Calm Mind": {}}},
-  "Conkeldurr": {"sets": {"Wallbreaker": {}}},
   "Lilligant-Hisui": {"sets": {"Victory Dance": {}}},
-  "Zoroark-Hisui": {"sets": {"Choice Specs": {}}},
-  "Amoonguss": {"sets": {"Defensive": {"description": "<p>The given EV spread allows Amoonguss to avoid the 2HKO from Modest Choice Scarf Basculegion-F's Shadow Ball.</p>"}}},
+  "Cinccino": {"sets": {"Tidy Up": {}}},
+  "Amoonguss": {"sets": {"Defensive": {}}},
+  "Alomomola": {"sets": {"Defensive Pivot": {}}},
   "Chandelure": {"sets": {"Choice Specs": {}}},
-  "Haxorus": {"sets": {"Swords Dance": {}}},
   "Mienshao": {"sets": {"Wallbreaker": {}, "Choice Scarf": {}}},
   "Mandibuzz": {"sets": {"Defensive": {}}},
   "Hydreigon": {"sets": {"Nasty Plot": {}, "Choice Specs": {}, "Choice Scarf": {}}},
@@ -94,37 +85,25 @@
   "Thundurus": {"sets": {"Nasty Plot": {}}},
   "Thundurus-Therian": {"sets": {"Pivot": {}, "Nasty Plot": {}}},
   "Chesnaught": {"sets": {"Spikes Utility": {}}},
+  "Greninja": {"sets": {"Battle Bond": {}, "Choice Specs": {}}},
   "Sylveon": {"sets": {"Calm Mind + Wish": {}}},
   "Hawlucha": {"sets": {"Unburden Sweeper": {}}},
   "Goodra-Hisui": {"sets": {"Specially Defensive Wall": {}, "Choice Specs": {}}},
   "Hoopa-Unbound": {"sets": {"Choice Scarf": {}, "Mixed": {}, "Choice Specs": {}}},
   "Volcanion": {"sets": {"Offensive": {}}},
-  "Lycanroc-Dusk": {"sets": {"All-out Attacker": {}}},
   "Barraskewda": {"sets": {"Choice Band": {}}},
   "Polteageist": {"sets": {"Shell Smash": {"description": "<p>Tera Blast in conjunction with Tera Fighting gives Polteageist the necessary coverage to break past Dark-types like Tyranitar, Bisharp, and Iron Jugulis that wall it otherwise. Tera Fighting also allows Polteageist to resist Sucker Punch from Bisharp and Accelrock from Lycanroc-D as well as take neutral damage from Mimikyu's Shadow Sneak.</p>"}}},
   "Grimmsnarl": {"sets": {"Dual Screens": {}}},
   "Indeedee": {"sets": {"Terrain Setter": {}}},
-  "Regidrago": {"sets": {"Choice Specs": {}, "Dragon Dance": {}}},
   "Kleavor": {"sets": {"Choice Scarf": {}}},
   "Ursaluna": {"sets": {"Bulk Up": {}, "Wallbreaker": {}}},
   "Basculegion-F": {"sets": {"Choice Specs": {}, "Choice Scarf": {}}},
-  "Overqwil": {"sets": {"Rain Sweeper": {}}},
   "Enamorus-Therian": {"sets": {"Offensive": {}, "Calm Mind + Iron Defense": {}}},
   "Quaquaval": {"sets": {"Swords Dance": {}, "Rapid Spin": {}}},
   "Lokix": {"sets": {"Pivot": {}}},
-  "Pawmot": {
-    "sets": {
-      "Wallbreaker": {
-        "description": "<p>Thanks to its high Speed, unique typing, and powerful Electric-type STAB move in Double Shock, Pawmot sets itself apart as one of the premier wallbreakers in UU. Seed Bomb allows Pawmot to lure common checks such as Quagsire and Gastrodon and OHKO them handily. Alternatively, Ice Punch provides a solid middle ground against Ground- and Flying-types, in cases where losing Pawmot's Electric typing via Double Shock is not ideal, as well as allowing Pawmot to hit Brambleghast effectively, although this does require backup for Gastrodon and Quagsire. Natural Cure allows it to not worry about Talonflame's Flame Body and use Rest to improve its longevity, offsetting the damage from Life Orb and entry hazards. Tera Electric allows for Pawmot to continuously use Double Shock without switching out and increases its power, making it even more difficult to handle. This also helps Pawmot's defensive matchup against threats such as Gardevoir, Noivern, and Brave Bird Talonflame; although, one should still be aware of losing important resistances to strong priority attacks such as Slither Wing's First Impression and Bisharp's Sucker Punch. Heavy-Duty Boots is also an option over Life Orb to preserve Pawmot's longevity.</p> <p>Pawmot fits well on teams that benefit from its ability to handle common threats such as Tinkaton, Slowking, and Tyranitar by breaking through them with raw power, as well as offensive teams that appreciate its excellent Speed. Reliable entry hazard setters such as Tinkaton and Sandy Shocks are worth considering, as the chip damage they provide makes it even easier for Pawmot to break through defensive threats, with the former also boasting Encore to help generate free turns. Grass-types such as Wo-Chien, Brambleghast, and Tsareena are also appreciated to handle Gastrodon and Quagsire, especially if Pawmot chooses Ice Punch, with the latter two also offering reliable hazard removal. Rock-types such as Tyranitar and Lycanroc-D that handle Talonflame as well as other Flying-types such as Iron Jugulis and Noivern are also appreciated. Scream Tail is also a teammate worth considering, as it has access to Stealth Rock and Encore, as well as Wish to keep Pawmot healthy and Thunder Wave to cripple fast threats like Grafaiai and Gengar while also having a strong matchup against revenge killers such as Noivern and Iron Jugulis. Pawmot also appreciates teammates with pivoting moves, such as Scizor, Tsareena, Noivern, and Grafaiai, to allow it to come in safely, especially against targets such as Tinkaton and Slowking.</p>"
-      },
-      "Choice Scarf": {
-        "description": "<p>Pawmot is a solid threat in the UU metagame and becomes an excellent revenge killer when paired with Choice Scarf, threatening Pokemon like Talonflame, Wo-Chien, and Salamence. Pawmot's last moveslot can be either Revival Blessing or Seed Bomb. Revival Blessing allows Pawmot to revive a teammate on a forced switch, while Seed Bomb can threaten Pokemon like Quagsire and Gastrodon better. Revival Blessing is more commonly run, as Close Combat can usually do enough damage to break these walls with some entry hazard assistance. An Electric Tera type is vital for Pawmot, as it allows Pawmot to spam Double Shock without repercussion. Natural Cure allows Pawmot to shrug off burns from the likes of Talonflame and Altaria, as they would otherwise hinder Pawmot's offensive presence.</p> <p>Choice Scarf Pawmot best fits on Spikes stacking teams in need of speed control. This makes Pokemon like Quagsire and Gastrodon good teammates, as they enjoy setting up Stealth Rock or Spikes, and the former can also use Toxic to chip teams down more efficiently for Pawmot. Pawmot struggles to deal with bulky Ground-types like Hippowdon, making teammates like Brambleghast and Wo-Chien appreciated due to their ability to soak up Earthquake while also removing hazards or removing Heavy-Duty Boots to rack up entry hazard damage, respectively. Pokemon that can outspeed Pawmot, like Choice Scarf Gengar and +2 Polteageist, can cause major issues, making priority users like Scizor and Lycanroc-D good partners to KO these threats.</p>"
-      }
-    },
-    "credits": {"writtenBy": [{"username": "Melt Gibson", "user_id": 617840}, {"username": "Slip", "user_id": 566907}], "teams": [{"name": "Quality checked by", "members": [{"username": "Mystras", "user_id": 530118}, {"username": "Twilight", "user_id": 344575}, {"username": "Queen of Bean", "user_id": 587685}]}, {"name": "Grammar checked by", "members": [{"username": "Band", "user_id": 301217}, {"username": "Lumii", "user_id": 493772}, {"username": "autumn", "user_id": 384270}]}]}
-  },
   "Maushold": {"sets": {"The Smaller Family": {}}},
   "Maushold-Four": {"sets": {"The Family": {}}},
+  "Garganacl": {"sets": {"Iron Defense": {}, "Curse": {}, "Stealth Rock": {}}},
   "Armarouge": {"sets": {"Endure + Weakness Policy": {}, "Calm Mind": {}}},
   "Bellibolt": {"sets": {"Physically Defensive Static": {}}},
   "Brambleghast": {"sets": {"Rapid Spin": {}}},
@@ -136,9 +115,6 @@
     },
     "credits": {"writtenBy": [{"username": "romanji", "user_id": 524894}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "Queen of Bean", "user_id": 587685}, {"username": "Estarossa", "user_id": 461329}]}, {"name": "Grammar checked by", "members": [{"username": "Sabelette", "user_id": 583793}]}]}
   },
-  "Cyclizar": {"sets": {"Utility": {"description": "<p>The given Speed EVs allows Cyclizar to outspeed Hisuian Zoroark. If running Draco Meteor or Overheat, Cyclizar should be run with a Timid Nature, 80 Special Attack EVs, and 176 Speed EVs in order to outspeed Maushold.</p>"}}},
-  "Brute Bonnet": {"sets": {"Sun Wallbreaker": {}}},
-  "Slither Wing": {"sets": {"Offensive Pivot": {}}},
   "Sandy Shocks": {"sets": {"Pivot": {}, "Booster Energy": {"description": "<p>Tera Blast should only be used alongside Tera Ice.</p>"}}},
   "Iron Treads": {"sets": {"Offensive Utility": {}, "Booster Energy": {}, "Bulky Utility": {}}},
   "Iron Jugulis": {"sets": {"Booster Energy": {}}},
@@ -146,7 +122,6 @@
   "Sinistcha": {"sets": {"Calm Mind": {}}},
   "Sinistcha-Masterpiece": {"sets": {"Calm Mind": {}}},
   "Okidogi": {"sets": {"Bulk Up": {"description": "<p>The given EV spread allows Okidogi to avoid the 2HKO from Pivot Tornadus-T's Hurricane after Stealth Rock when terastallized into Tera Fairy or Dragon while outspeeding Azumarill. The leftover investment goes into attack along with an Adamant nature.</p>"}, "Choice Band": {}, "Choice Scarf": {}}},
-  "Munkidori": {"sets": {"Choice Scarf": {}}},
   "Fezandipiti": {"sets": {"Bulky Pivot": {"description": "<p>184 Speed allows you to outspeed Hisuian Arcanine, to allow you to freely U-turn for Toxic Chain chances against it.152 Speed allows you to underspeed Moltres and Moltres-Galar for slow U-turns against them, while still outspeeding Rotom-W to prevent it freely using Volt Switch for free damage.</p>"}, "Calm Mind": {}}},
   "Ogerpon": {"sets": {"Swords Dance": {}}}
 }
