@@ -8,13 +8,30 @@
   "Blissey": {"sets": {"Wall": {}, "Specially Defensive": {}}},
   "Lugia": {"sets": {"Specially Defensive": {}, "Calm Mind": {}}},
   "Torkoal": {"sets": {"Sun Setter": {}}},
-  "Deoxys": {"sets": {"All-Out-Attacker": {}, "Lead": {}}},
+  "Deoxys": {
+    "sets": {
+      "All-Out-Attacker": {},
+      "Lead": {
+        "description": "<p>Deoxys is one of the best leads in Ubers UU thanks to its solid offensive stats and good movepool allowing it to act as an offensive threat after setting up entry hazards. Psycho Boost is an amazing one-time nuke, dealing serious damage to most Pokemon that don't resist it. Superpower allows Deoxys to target Pokemon like Arceus-Dark, Dialga, and Kyurem-W. Generally, Deoxys prefers Stealth Rock in the final moveslot, allowing it to nearly guarantee it sets up both Stealth Rock and a layer of Spikes, although Taunt can be run instead allowing it to stop Pokemon from setting up or laying their own entry hazards. Focus Sash allows Deoxys to guarantee at least one layer of entry hazards. Tera Psychic boosts Deoxys's Psycho Boost, although Tera Ghost can be run instead, allowing it to spinblock Pokemon like Great Tusk and Cyclizar and block Extreme Speed from Arceus-Fire, which otherwise troubles it. Deoxys fits best on offense and hyper offense teams looking for a dedicated lead that can set up hazards consistently. Offensive threats like Mewtwo, Zacian, and Ogerpon-H appreciate the entry hazards Deoxys sets up to wear down their switch-ins like Arceus-Dark, Solgaleo, and Giratina. Pokemon like Spectrier and Gholdengo that can spinblock are also nice to have. If Deoxys is not running Taunt threats like Arceus-Fire, Arceus-Dark, and Mewtwo may try to use it as set-up fodder, so Pokemon like Zamazenta-C, Palafin, and Magearna that can counter these threats are helpful to have.</p>"
+      }
+    },
+    "credits": {"writtenBy": [{"username": "Bella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "nap00", "user_id": 610920}, {"username": "Leo Justice", "user_id": 587908}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+  },
   "Garchomp": {"sets": {"Suicide Lead": {}, "TankChomp": {}}},
   "Dialga": {"sets": {"Mixed Utility": {}, "Specially Defensive": {}, "Trick Room Setter": {}}},
   "Palkia": {"sets": {"Choice Scarf": {}, "Trick Room Setter": {}}},
   "Palkia-Origin": {"sets": {"Wallbreaker": {}}},
   "Giratina": {"sets": {"Specially Defensive": {}, "Defog": {}}},
-  "Arceus-Dark": {"sets": {"Calm Mind + Taunt": {}, "Defensive": {}, "Support": {}}},
+  "Arceus-Dark": {
+    "sets": {
+      "Calm Mind": {
+        "description": "<p>Calm Mind Arceus-Dark is an incredibly potent sweeper and stallbreaker in Ubers UU. Its amazing bulk allows it to set up on the many special attackers in the tier, such as Kyurem-W, Chi-Yu, and Mewtwo, and Taunt stops Blissey and other Arceus formes from setting up alongside it with their own Calm Mind, blocks Encore from Magearna, and prevents phazing from Giratina, Skarmory, and Dialga. Recover allows it to increase its longevity and set up on some physical attackers, such as Solgaleo and Kingambit. Tera Fairy grants Arceus-Dark a resistance to Fighting-type moves from the likes of Urshifu-S, Deoxys, and Mewtwo, along with an immunity to Dragon Tail, the only phazing move that cannot be prevented by Taunt. Tera Poison turns its Fairy, Fighting, and Bug weaknesses into resistances, which is incredible for setting up on Zacian, Magearna, and Zamazenta-C. Arceus-Dark greatly benefits from the help of Pokemon that can deal with physical attackers, as Zacian and Zamazenta-C both offensively check it, so Dondozo, Lugia, Skarmory, physically defensive Solgaleo, and Magearna form good defensive cores with it. Other Pokemon that pair well with Arceus-Dark are Zamazenta-C and Annihilape, as both are Defense-boosting offensive sweepers that can wall and eliminate physical attackers for Arceus-Dark to freely take care of special attackers. Arceus-Dark is very entry hazard weak, so Pokemon like Giratina and Great Tusk that can remove hazards for Arceus-Dark are greatly appreciated. Giratina appreciates Arceus-Dark's ability to check Dark- and Ghost-types like Gholdengo and Spectrier, and Great Tusk appreciates Arceus-Dark beating common checks to it like Giratina, Skarmory, and Deoxys.</p>"
+      },
+      "Defensive": {},
+      "Support": {}
+    },
+    "credits": {"writtenBy": [{"username": "imperialorder241", "user_id": 626445}], "teams": [{"name": "Quality checked by", "members": [{"username": "Leo Justice", "user_id": 587908}, {"username": "nap00", "user_id": 610920}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+  },
   "Arceus-Dragon": {"sets": {"Support": {}}},
   "Arceus-Electric": {"sets": {"Calm Mind": {}}},
   "Arceus-Fighting": {"sets": {"Cosmic Power": {}}},
