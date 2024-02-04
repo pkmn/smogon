@@ -28,7 +28,7 @@ import * as wrapr from 'wrapr';
 
 // pokepast.es chokes if we don't throttle
 const request = wrapr.retrying(wrapr.throttling(async url =>
-  (await fetch(url)).json(), +process.argv[2] || 20, 1000));
+  (await fetch(url)).json(), +process.argv[2] || 5, 1000));
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.resolve(__dirname, '../data');
