@@ -34,6 +34,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.resolve(__dirname, '../data');
 
 for (const file of fs.readdirSync(path.join(DATA, 'teams'))) {
+  if (file === 'index.md') continue;
   fs.unlinkSync(path.join(DATA, 'teams', file));
 }
 
