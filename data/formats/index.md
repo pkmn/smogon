@@ -28,4 +28,3 @@ The following transformations are required to properly display the data:
   | `"suspecttest"` | `" (Suspect Test)"` |
 - tiers starting with `"pokebank"` should either get turned into a `" (Pokebank)"` suffix tag for
   all formats that don't already have a suffix tag otherwise should turn into a `"Pokebank "` prefix
-
