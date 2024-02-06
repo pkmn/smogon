@@ -26,9 +26,10 @@ import stringify from 'json-stringify-pretty-compact';
 import ts from "typescript";
 import * as wrapr from 'wrapr';
 
+const wrap = fn => wrapr.retrying(wrapr.throttling(fn, +process.argv[2] || 5, 1000), 20, 2000);
+
 // pokepast.es chokes if we don't throttle
-const request = wrapr.retrying(wrapr.throttling(async url =>
-  (await fetch(url)).json(), +process.argv[2] || 5, 1000));
+const request = wrap(async url => (await fetch(url)).json());
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.resolve(__dirname, '../data');
@@ -93,7 +94,7 @@ const IGNORE = [
           format.gen = +format.id[3];
           format.mod = format.id.slice(0, 4);
         }
-        formats[format.id] = wrapr.retrying(() => scrapeThread(format, url))();
+        formats[format.id] = wrap(() => scrapeThread(format, url))();
         continue outer;
       }
     }
