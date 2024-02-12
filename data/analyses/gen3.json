@@ -505,7 +505,7 @@
       "sets": {"SubSeed": {"description": "<p>A classic annoyer, this is almost useless without Spikes. Sleep Powder a foe, and set up with Substitute and Leech Seed until the opponent faints or switches out again. Encore can be used to keep foes such as Snorlax and Metagross using Curse and Earthquake respectively. The main problem with this set is that Substitute and Leech Seed each have a maximum of 16 PP, which can run out faster than you'd think. 340 Speed let Jumpluff beat Adamant Dugtrio; put the rest in HP and defenses.</p>"}, "Offensive": {"description": "<p>Same premise as the first, but you now have some sort of way to hurt Grass-types who are immune to Leech Seed. The 140 Attack EVs enable Jumpluff to OHKO Heracross and 2HKO Medicham.</p>"}}
     }
   },
-  "Snubbull": {"lc": {"sets": {"Utility Lead": {}, "Choice Band": {}}}},
+  "Snubbull": {"lc": {"sets": {"Utility": {}}}},
   "Granbull": {
     "uu": {
       "overview": "<p>With good stats, a nice ability, and an awesome movepool, Granbull is a great UU Pokemon. Not only can it be a hard hitter, it can also wipe away status from your team with Heal Bell while spreading paralysis around an opponent's team with Thunder Wave.</p>",
@@ -656,6 +656,7 @@
       "sets": {"Paralyzer": {"description": "<p>Bug-types tend to suck and Beautifly is no exception-actually, it's the third worst Bug-type Pokemon after Shuckle and Beautifly's cousin Dustox. Stun Spore something and, if you aren't dead, use Substitute until your opponent switches or is fully paralyzed or you can't use it anymore. If your opponent switches, Stun Spore the next Pokemon; otherwise, attack. This set dies pretty easily but it's the best thing Beautifly can do.</p>"}}
     }
   },
+  "Ralts": {"lc": {"sets": {"Utility": {}}}},
   "Gardevoir": {
     "ou": {
       "overview": "<p>Gardevoir has an immense movepool, and this is the key to keeping it from being outclassed by other Psychics. However, it has severe Speed problems, so it will not often sweep teams unless it has a Salac Berry to back it up. Nonetheless, it can mess with common Psychic counters, such as Metagross and Snorlax, and is an excellent team supporter.</p>",
@@ -1531,7 +1532,7 @@
       },
       "credits": {"writtenBy": [{"username": "Rabia", "user_id": 336073}], "teams": [{"name": "Quality checked by", "members": [{"username": "Oglemi", "user_id": 40358}, {"username": "Disjunction", "user_id": 224927}]}, {"name": "Grammar checked by", "members": [{"username": "Astra", "user_id": 240732}, {"username": "Lumari", "user_id": 232216}]}]}
     },
-    "lc": {"sets": {"Calm Mind": {}}}
+    "lc": {"sets": {"Offensive Calm Mind": {}, "Bulky Calm Mind": {}}}
   },
   "Machop": {"lc": {"sets": {"Offensive": {}}}},
   "Machoke": {
@@ -2394,7 +2395,7 @@
       }
     }
   },
-  "Chinchou": {"lc": {"sets": {"All-Out Attacker": {}}}, "pu": {"sets": {"Offensive Utility": {}}}},
+  "Chinchou": {"lc": {"sets": {"Offensive": {}}}, "pu": {"sets": {"Offensive Utility": {}}}},
   "Lanturn": {
     "uu": {
       "overview": "<p>With its high HP and good Special Defense, Lanturn is a viable Electric Pokemon counter. Lanturn is also really annoying to kill in general, especially in UU matches. Volt Absorb repeatedly zaps it back to high health, and it keeps on dishing out status and some damage. Definitely worth trying.</p>",
@@ -2914,7 +2915,7 @@
     }
   },
   "Elekid": {
-    "lc": {"sets": {"Substitute + 3 Attacks": {}}},
+    "lc": {"sets": {"Substitute + 3 Attacks": {}, "SubPunch": {}}},
     "zu": {
       "outdated": true,
       "comments": "<h1>Other Options</h1> <p>Elekid can use Thunder Wave to provide paralysis support. Magnet is an option to power up Thunderbolt, but the extra damage is generally outclassed by the survivability offered by Lum Berry and Leftovers. Psychic can be used to more substantially chip Dustox, but it still fails to 3HKO. Elekid can opt to use Ice Punch on sets without Toxic in order to hit Lileep harder; however, Toxic is almost always preferred due to it severely limiting Lileep's effectiveness as a wall.</p> <h1>Checks and Counters</h1> <p><strong>Special Walls</strong>: Pokemon such as Delcatty, Dustox, Lileep, and Sunflora can all wall Elekid despite its coverage. However, Delcatty and Lileep must be wary of Focus Punch when switching in or using a recovery move. Dustox is worth noting, as its Toxic immunity and bulk prevent it from being even remotely threatened by Elekid. Moreover, Shield Dust prevents Dustox from being crippled from secondary effects such as Thunderbolt's paralysis and Psychic's Special Defense drop. Grimer can switch into Elekid and use it as setup fodder.</p> <p><strong>Bulky Attackers</strong>: Bulky attackers such as Castform, Chinchou, Seaking, Cubone, and specially defensive variants of Rhyhorn can all threaten Elekid. However, they can be overwhelmed with chip damage. Moreover, offensive Chinchou variants are 2HKOed by Hidden Power Grass. If using Substitute, Elekid must be weary of Cubone's Bonemerang.</p> <p><strong>Priority Users</strong>: Pokemon with Quick Attack such as Pidgeotto, Delibird, and Tailow can pick off Elekid relatively early due to its frailty.</p>",
@@ -3711,6 +3712,7 @@
     }
   },
   "Snorunt": {
+    "lc": {"sets": {"Spikes": {}}},
     "zu": {
       "outdated": true,
       "comments": "<h1>Other Options</h1> <p>Hidden Power Fire is an option for threatening opposing Snorunt leads and Magnemite. However, without Hidden Power Grass, Snorunt cannot reliably threaten Water-types such as Staryu and Chinchou for any significant damage. Hidden Power Water is an option to threaten Fire-types such as Cyndaquil and Growlithe, which otherwise use Snorunt as setup fodder, but it comes with the same flaws that Hidden Power Fire does.</p> <h1>Checks and Counters</h1> <p><strong>Taunt</strong>: Faster Taunt users such as Spoink and Aipom can completely deny Snorunt from Spikes on the field, and they can either use it as setup fodder or OHKO it outright.</p> <p><strong>Status Spreaders</strong>: Status spreaders such as Aipom, Magnemite, and Butterfree can cripple Snorunt with paralysis, making Salac Berry useless. Aipom can also cripple it with Toxic, rendering Endure useless. Butterfree is notable for sleeping Snorunt before it even has a chance to set up Spikes, incapacitating it for most the game.</p> <p><strong>Setup Sweepers</strong> Setup Sweepers such as Growlithe and Spoink do not fear any of Snorunt's moves and can use Snorunt as set up fodder. However, Growlithe cannot consistently stop Snorunt from setting up Spikes.</p> <p><strong>Rapid Spin</strong> Hazard Removal from Rapid Spinners such as Staryu can completely ruin Snorunt's effectiveness by removing Spikes.</p> <p><strong>Priority Moves</strong>: Priority moves from Pokemon such as Pidgeotto, Elekid, and Cyndaquil can pick off Snorunt even when it has activated its Salac Berry. Cyndaquil is notable for being able to KO Snorunt before it can set up Spikes.</p>",
