@@ -1,14 +1,12 @@
 [
   {
-    "name": "grimm!!!",
-    "author": "Aislinn",
     "data": [
-      {"species": "Grimmsnarl", "item": "Light Clay", "ability": "Prankster", "teraType": "Steel", "evs": {"hp": 252, "spd": 240, "spe": 16}, "nature": "Careful", "moves": ["Light Screen", "Parting Shot", "Reflect", "Spirit Break"]},
-      {"species": "Azumarill", "gender": "M", "item": "Sitrus Berry", "ability": "Huge Power", "teraType": "Water", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Adamant", "moves": ["Aqua Jet", "Belly Drum", "Knock Off", "Play Rough"]},
-      {"species": "Garchomp", "gender": "M", "item": "Loaded Dice", "ability": "Rough Skin", "teraType": "Steel", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Scale Shot", "Stealth Rock", "Swords Dance"]},
-      {"species": "Moltres-Galar", "item": "Sitrus Berry", "ability": "Berserk", "teraType": "Fairy", "evs": {"hp": 80, "spa": 252, "spe": 176}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Agility", "Fiery Wrath", "Nasty Plot", "Tera Blast"]},
-      {"species": "Sandy Shocks", "item": "Booster Energy", "ability": "Protosynthesis", "teraType": "Ice", "evs": {"hp": 48, "spa": 208, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Charge Beam", "Earth Power", "Tera Blast", "Thunderbolt"]},
-      {"species": "Scizor", "gender": "M", "item": "Life Orb", "ability": "Technician", "teraType": "Normal", "evs": {"hp": 112, "atk": 252, "spd": 8, "spe": 136}, "nature": "Adamant", "moves": ["Bullet Punch", "Close Combat", "Quick Attack", "Swords Dance"]}
+      {"species": "Grimmsnarl", "item": "Light Clay", "ability": "Prankster", "teraType": "Steel", "evs": {"hp": 252, "spd": 240, "spe": 16}, "nature": "Careful", "moves": ["Light Screen", "Reflect", "Spirit Break", "Taunt"]},
+      {"species": "Azumarill", "gender": "M", "item": "Sitrus Berry", "ability": "Huge Power", "teraType": "Steel", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Adamant", "moves": ["Aqua Jet", "Belly Drum", "Knock Off", "Play Rough"]},
+      {"species": "Garchomp", "gender": "M", "item": "Loaded Dice", "ability": "Rough Skin", "teraType": "Steel", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Scale Shot", "Stone Edge", "Swords Dance"]},
+      {"species": "Iron Crown", "item": "Weakness Policy", "ability": "Quark Drive", "teraType": "Fairy", "evs": {"hp": 252, "def": 132, "spe": 124}, "nature": "Bold", "ivs": {"hp": 20, "atk": 20, "def": 20, "spa": 20, "spd": 20, "spe": 20}, "moves": ["Agility", "Calm Mind", "Stored Power", "Tachyon Cutter"], "hpType": "Fighting"},
+      {"species": "Latios", "item": "Leftovers", "ability": "Levitate", "teraType": "Electric", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Draco Meteor", "Recover", "Thunderbolt"]},
+      {"species": "Moltres-Galar", "item": "Sitrus Berry", "ability": "Berserk", "teraType": "Dark", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Agility", "Fiery Wrath", "Hurricane", "Nasty Plot"]}
     ]
   },
   {
