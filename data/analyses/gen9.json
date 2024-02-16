@@ -540,7 +540,18 @@
     },
     "nu": {"sets": {"Offensive Pivot": {}}}
   },
-  "Electrode-Hisui": {"pu": {"sets": {"Pivot": {}}}, "nu": {"sets": {"Offensive Pivot": {"description": "<p>20 Defense EVs allow Electrode-Hisui to avoid a 2HKO from Choice Scarf Bruxish Wave Crash. Fairy Tera Blast hits Dragon-types like Goodra and Tatsugiri. The given Speed outruns Jolteon.</p>"}}}, "almostanyability": {"sets": {"Magic Guard": {}}}},
+  "Electrode-Hisui": {
+    "pu": {"sets": {"Pivot": {}}},
+    "nu": {"sets": {"Offensive Pivot": {"description": "<p>20 Defense EVs allow Electrode-Hisui to avoid a 2HKO from Choice Scarf Bruxish Wave Crash. Fairy Tera Blast hits Dragon-types like Goodra and Tatsugiri. The given Speed outruns Jolteon.</p>"}}},
+    "almostanyability": {
+      "sets": {
+        "Magic Guard": {
+          "description": "<p>Hisuian Electrode is a great offensive pivot thanks to its amazing Speed, access to Volt Switch, and powerful STAB Chloroblast for Ground-types like Swampert, Great Tusk, and Sandy Shocks. Thunder Wave cripples switch-ins like Roaring Moon, Hisuian Goodra, and Ogerpon-H, potentially letting Hisuian Electrode's teammates outspeed and threaten them, while Leech Seed lets it chip down walls such as Blissey and Hisuian Goodra and heal. Worry Seed removes Volt Absorb from walls like Corviknight and Empoleon and Regenerator from Hisuian Goodra and Meloetta, letting it chip the latter two, especially with entry hazards on the field. Hisuian Electrode forms a great VoltTurn core with other offensive pivots like Barraskewda, Roaring Moon, and Slither Wing, as they can bring it in on physical walls like Corviknight and Great Tusk, and it can bring them in on special walls like Hisuian Goodra and Meloetta. Entry hazard setters like Heatran, Scream Tail, and Deoxys-D are great teammates thanks to hazards wearing down Hisuian Electrode's switch-ins like Roaring Moon, Hisuian Goodra, and Heatran; in return, it can threaten common hazard removers like Corviknight, Great Tusk, and Mandibuzz. Hisuian Electrode struggles to break through specially defensive walls like Blissey, Hisuian Goodra, and Meloetta, so physical wallbreakers like Ceruledge and Galarian Zapdos are appreciated. Hisuian Electrode is also frail and has a middling defensive typing, so slow, bulky pivots that can take a hit and safely pivot it in like Corviknight and Swampert make good partners.</p>"
+        }
+      },
+      "credits": {"writtenBy": [{"username": "Kinetic", "user_id": 552227}], "teams": [{"name": "Quality checked by", "members": [{"username": "Gimmicky", "user_id": 540420}, {"username": "Slither Wing", "user_id": 603931}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+    }
+  },
   "Marowak-Alola": {"nationaldex": {"sets": {"Trick Room Wallbreaker": {"description": "<p>The set(s) displayed are used as a placeholder until an analysis is written for this Pokemon. Stay tuned for any updates!</p>"}}}},
   "Koffing": {
     "lc": {
@@ -813,7 +824,8 @@
       "sets": {
         "Primordial Sea": {
           "description": "<p>Zapdos functions as an offensive pivot thanks to its high Special Attack and typing while simultaneously checking threatening Fire-types like Iron Moth and Heatran thanks to Primordial Sea; this also allows it to fire off completely accurate Hurricanes, which OHKO the likes of Galarian Zapdos and Great Tusk. Thunder can be used to deal significant damage to the likes of RegenVest Manaphy and Gholdengo and potentially paralyze foes, while Weather Ball hits Ground-types like Sandy Shocks as well as Fire-types like Desolate Land Heatran, Cinderace, and Ceruledge. Volt Switch can be used instead if you're not running U-turn to deal more damage when pivoting, at the cost of being blocked by the likes of Swampert. U-turn helps Zapdos maintain momentum against special walls and safely bring in teammates. Zapdos struggles against most RegenVest Pokemon, like Hisuian Goodra, Meloetta, and especially Swampert, so it needs physically offensive teammates like Iron Boulder and Chien-Pao that can take care of them. Due to its Stealth Rock weakness, Zapdos prefers to keep its item and benefits from Pokemon like Corviknight and Great Tusk that can absorb Knock Off.</p>"
-        }
+        },
+        "No Guard": {}
       },
       "credits": {"writtenBy": [{"username": "Theia", "user_id": 439018}], "teams": [{"name": "Quality checked by", "members": [{"username": "Slither Wing", "user_id": 603931}, {"username": "Kinetic", "user_id": 552227}]}, {"name": "Grammar checked by", "members": [{"username": "sunny004", "user_id": 197240}, {"username": "deetah", "user_id": 297659}]}]}
     },
@@ -850,7 +862,8 @@
       "sets": {
         "Choice Band": {
           "description": "<p>Choice Band Galarian Zapdos is an excellent wallbreaker whose power is further boosted by Sword of Ruin. Boasting two powerful STAB moves with excellent neutral coverage in Close Combat and Brave Bird, Galarian Zapdos can most notably 2HKO Deoxys-D and Intimidate Corviknight. Knock Off beats Gholdengo and hinders switch-ins like Fluffy Corviknight and defensive Zapdos, while U-turn allows for pivoting against Fluffy users. Adamant is the preferred nature for better odds to 2HKO Intimidate Corviknight, while Jolly allows Galarian Zapdos to Speed tie with the plethora of base 100 Speed Pokemon, at the cost of only 3HKOing Intimidate Corviknight. Galarian Zapdos is a relatively slow and frail wallbreaker and is forced out by offensive threats such as Azelf and Chien-Pao, so it appreciates being brought in by pivots such as Azelf and Walking Wake; in return, it can threaten special walls like Swampert and Hisuian Goodra for them. Slow pivots like Corviknight and Swampert are also appreciated, as they can take a hit for it and pivot it in safely, with the former also providing entry hazard control, extending Galarian Zapdos's longevity. Galarian Zapdos struggles against Fluffy walls such as Corviknight, so Fire-types such as Ceruledge and Iron Moth make for great teammates. Stealth Rock setters such as Great Tusk and Deoxys-D are also good teammates, allowing Galarian Zapdos to always 2HKO Intimidate Corviknight; in return, it can threaten opposing Great Tusk, preventing it from removing entry hazards. Galarian Zapdos's wallbreaking prowess is further empowered when paired with other offensive threats such as Barraskewda and Roaring Moon, as they can wear down shared checks like Fluffy Corviknight.</p>"
-        }
+        },
+        "The Kicker": {}
       },
       "credits": {"writtenBy": [{"username": "Vertigo", "user_id": 543620}], "teams": [{"name": "Quality checked by", "members": [{"username": "Kinetic", "user_id": 552227}, {"username": "Tranquility", "user_id": 475288}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
     },
@@ -1481,6 +1494,14 @@
   "Mantine": {"nationaldexmonotype": {"sets": {"Water Absorb (Flying)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "TheShowdownHoedown", "user_id": 508532}]}]}}},
   "Skarmory": {
     "ubersuu": {"sets": {"Physical Wall": {}}},
+    "nationaldex": {
+      "sets": {
+        "Defensive": {
+          "description": "<p>Skarmory's huge physical bulk and valuable defensive typing allow it to check common physical attackers like Mega Lopunny, Kartana, Weavile, and Dragonite. Its immunity to Toxic and Spikes further accentuates its defensive capabilities, making it a very resilient wall. Aside from granting Skarmory an adequate offensive presence, Iron Defense + Body Press lets it beat and contest with Attack-boosting foes like Mega Scizor, Garchomp, and Kingambit that attempt to break past it. Rocky Helmet punishes the physical attackers it’s tasked to check, notably Mega Scizor, Mega Lopunny, and Landorus-T's U-turn and Great Tusk and Excadrill’s Rapid Spin. Tera Dragon allows it to check Mega Swampert, Urshifu-R, Victini, and non-Dragon Claw Mega Charizard X better at the cost of being weaker against Weavile and Garchomp. Tera Fighting lets Skarmory deal with Kingambit more comfortably. The EV spread allows Skarmory to outspeed Mega Mawile and maximum speed Kingambit. Skarmory fits on defensive builds, ranging from balance to stall. Special walls like Garganacl and Hippowdon are necessary to cover threats like Dragapult and Volcarona that would exploit Skarmory's poor special bulk. Hippowdon is an exceptional partner, as it also deals with foes like Zapdos, Tapu Koko, Mega Charizard Y, as well as mixed attackers like Mega Diancie and Iron Valiant. Moreover, they form an entry hazard-stacking core with Skarmory by providing Stealth Rock and spreading further chip damage with Salt Cure, Toxic, and sand to slowly crumble the opposition. Pokemon like Mega Charizard X, Iron Hands, and Zamazenta are a few physical attackers that Skarmory can struggle with; Toxapex, Clefable, Tornadus-T, and Skeledirge, respectively, help handle them. Its inability to threaten Gholdengo can be covered by teammates like Kingambit and Clodsire. Late-game cleaners or bulky setup sweepers like Mega Lopunny, Volcarona, and Gholdengo appreciate Skamory's Spikes chipping down their checks like Great Tusk, Garganacl, and Kingambit, respectively; Gholdengo also prevents most entry hazard removal attempts due to its typing and Good as Gold.</p>"
+        }
+      },
+      "credits": {"writtenBy": [{"username": "Marnie", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "hidin", "user_id": 589564}, {"username": "TheSorcer3r", "user_id": 580037}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
+    },
     "monotype": {
       "comments": "<h1>Other Options</h1> <section><h1>Flying</h1> <p>Whirlwind can be used to force out threats like Archaludon, Dragonite, and Okidogi, only removing their boosts but also forcing them to take even more damage from Skarmory's entry hazards. Iron Head can be run on teams lacking Corviknight to deal with Fairy-types such as Iron Valiant and Mimikyu along with allowing Skarmory to hit Ghost-types.</p> </section>",
       "sets": {
@@ -1492,6 +1513,7 @@
       "credits": {"writtenBy": [{"username": "Pengairxan", "user_id": 622813}], "teams": [{"name": "Set(s) by", "members": [{"username": "Dead by Daylight", "user_id": 571069}, {"username": "Pengairxan", "user_id": 622813}]}, {"name": "Quality checked by", "members": [{"username": "Neko", "user_id": 542526}, {"username": "roxie", "user_id": 481576}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
     },
     "stabmons": {"sets": {"Physically Defensive": {}}},
+    "almostanyability": {"sets": {"Physical Wall": {}}},
     "ubers": {"sets": {"Defensive": {"description": "<p>These are sample sets before we work on <a href=\"https://www.smogon.com/forums/forums/ubers-analyses.759/\">new analyses</a>. These will update as the metagame continues to develop. Stay tuned!</p>"}}},
     "ou": {"sets": {"Iron Defense": {}}},
     "nationaldexuu": {
@@ -1501,14 +1523,6 @@
         }
       },
       "credits": {"writtenBy": [{"username": "Runo", "user_id": 568189}], "teams": [{"name": "Quality checked by", "members": [{"username": "Arishem", "user_id": 546157}]}, {"name": "Grammar checked by", "members": [{"username": "Clouds", "user_id": 356215}]}]}
-    },
-    "nationaldex": {
-      "sets": {
-        "Defensive": {
-          "description": "<p>Skarmory's huge physical bulk and valuable defensive typing allow it to check common physical attackers like Mega Lopunny, Kartana, Weavile, and Dragonite. Its immunity to Toxic and Spikes further accentuates its defensive capabilities, making it a very resilient wall. Aside from granting Skarmory an adequate offensive presence, Iron Defense + Body Press lets it beat and contest with Attack-boosting foes like Mega Scizor, Garchomp, and Kingambit that attempt to break past it. Rocky Helmet punishes the physical attackers it’s tasked to check, notably Mega Scizor, Mega Lopunny, and Landorus-T's U-turn and Great Tusk and Excadrill’s Rapid Spin. Tera Dragon allows it to check Mega Swampert, Urshifu-R, Victini, and non-Dragon Claw Mega Charizard X better at the cost of being weaker against Weavile and Garchomp. Tera Fighting lets Skarmory deal with Kingambit more comfortably. The EV spread allows Skarmory to outspeed Mega Mawile and maximum speed Kingambit. Skarmory fits on defensive builds, ranging from balance to stall. Special walls like Garganacl and Hippowdon are necessary to cover threats like Dragapult and Volcarona that would exploit Skarmory's poor special bulk. Hippowdon is an exceptional partner, as it also deals with foes like Zapdos, Tapu Koko, Mega Charizard Y, as well as mixed attackers like Mega Diancie and Iron Valiant. Moreover, they form an entry hazard-stacking core with Skarmory by providing Stealth Rock and spreading further chip damage with Salt Cure, Toxic, and sand to slowly crumble the opposition. Pokemon like Mega Charizard X, Iron Hands, and Zamazenta are a few physical attackers that Skarmory can struggle with; Toxapex, Clefable, Tornadus-T, and Skeledirge, respectively, help handle them. Its inability to threaten Gholdengo can be covered by teammates like Kingambit and Clodsire. Late-game cleaners or bulky setup sweepers like Mega Lopunny, Volcarona, and Gholdengo appreciate Skamory's Spikes chipping down their checks like Great Tusk, Garganacl, and Kingambit, respectively; Gholdengo also prevents most entry hazard removal attempts due to its typing and Good as Gold.</p>"
-        }
-      },
-      "credits": {"writtenBy": [{"username": "Marnie", "user_id": 493260}], "teams": [{"name": "Quality checked by", "members": [{"username": "hidin", "user_id": 589564}, {"username": "TheSorcer3r", "user_id": 580037}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     }
   },
   "Houndoom": {
@@ -2227,7 +2241,6 @@
   },
   "Latios": {
     "uu": {"sets": {"Calm Mind": {}, "Offensive": {}, "Choice Scarf": {}, "BoltBeam": {}}},
-    "stabmons": {"sets": {"Choice Specs": {}, "Choice Scarf": {}, "Take Heart": {}}},
     "ou": {"sets": {"Choice Scarf": {}, "Choice Specs": {}}},
     "nationaldexuu": {
       "sets": {
@@ -2272,7 +2285,9 @@
         "Bulky Stall Breaker": {"description": "<ul> <li> <p>This set's write-up has not started yet, but here's some basic info to get you started!</p> </li> <li> <p><strong>204 HP / 124 Def / 180 Spe</strong>: This outspeeds Timid Chi-Yu while avoiding a 2HKO from Adamant Choice Scarf Urshifu-R's Tera Water Surging Strikes</p> </li> <li> <p><strong>252 HP / 84 Def / 4 SpA / 4 SpD / 164 Spe</strong>: This slightly slower spread outspeeds Timid Iron Crown, avoids a 2HKO from Adamant Choice Scarf Tera Water Surging Strikes from Urshifu-R, and survives Timid Flutter Mane's Choice Specs Moonblast after Latios has used Calm Mind.</p> </li> </ul>"}
       },
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}], "teams": [{"name": "Quality checked by", "members": [{"username": "DerpySuX", "user_id": 528485}]}, {"name": "Grammar checked by", "members": [{"username": "Milak", "user_id": 262594}]}]}
-    }
+    },
+    "stabmons": {"sets": {"Choice Specs": {}, "Choice Scarf": {}, "Take Heart": {}}},
+    "almostanyability": {"sets": {"Choice Item": {}, "Calm Mind": {}}}
   },
   "Kyogre": {
     "ubers": {
@@ -2431,7 +2446,7 @@
     "almostanyability": {
       "sets": {
         "Unaware": {
-          "description": "<p>Boasting high defensive stats and a plethora of utility moves, Deoxys-D makes for an excellent Unaware wall that can check Iron Hands and setup Great Tusk while also providing additional utility like setting entry hazards and pivoting. Spikes is the preferred hazard, as Deoxys-D can usually set multiple layers, but Stealth Rock is an alternative for teams that lack a Stealth Rock setter otherwise, and Knock Off can be used to limit opposing setup threats like Iron Boulder and Quaquaval while also debilitating walls like Corviknight and Swampert. Teleport can be used in conjunction with Deoxys-D's low Speed to safely switch Pokemon in, while Thunder Wave can be used to cripple Iron Boulder and Dragonite. Leftovers is the preferred item for extra longevity, but Heavy-Duty Boots is an option on Teleport sets to enable easier pivoting. Defensive Pokemon like Corviknight and Mandibuzz appreciate Deoxys-D being able to take on setup threats such as Iron Hands and Iron Boulder, allowing them to better handle Dark-types like Roaring Moon. Offensive Pokemon like Galarian Zapdos, Chien-Pao, and Ceruledge appreciate Deoxys-D being able to weaken opposing walls with hazards or Knock Off, as well as potentially getting them in safely if it's running Teleport. Deoxys-D narrowly avoids 2HKOs from stronger wallbreakers like Iron Boulder, so hazard control options like Scrappy Great Tusk and Corviknight are highly recommended so that Deoxys-D can have more longevity.</p>"
+          "description": "<p>Boasting high defensive stats and a plethora of utility moves, Deoxys-D makes for an excellent Unaware wall that can check Iron Hands and setup Great Tusk while also providing additional utility like setting entry hazards and pivoting. Spikes is the preferred hazard, as Deoxys-D can usually set multiple layers, but Stealth Rock is an alternative for teams that lack a Stealth Rock setter otherwise, and Knock Off can be used to limit opposing setup threats like Iron Boulder and Quaquaval while also debilitating walls like Corviknight and Swampert. Teleport can be used in conjunction with Deoxys-D's low Speed to safely switch Pokemon in, while Thunder Wave can be used to cripple Iron Boulder and Dragonite. Leftovers is the preferred item for extra longevity, but Heavy-Duty Boots is an option on Teleport sets to enable easier pivoting. On teams that do not need setup control, Fluffy and Intimidate dramatically increase its physical bulk versus key targets like Iron Boulder. Defensive Pokemon like Corviknight and Mandibuzz appreciate Deoxys-D being able to take on setup threats such as Iron Hands and Iron Boulder, allowing them to better handle Dark-types like Roaring Moon. Offensive Pokemon like Galarian Zapdos, Chien-Pao, and Ceruledge appreciate Deoxys-D being able to weaken opposing walls with hazards or Knock Off, as well as potentially getting them in safely if it's running Teleport. Deoxys-D narrowly avoids 2HKOs from stronger wallbreakers like Iron Boulder, so hazard control options like Scrappy Great Tusk and Corviknight are highly recommended so that Deoxys-D can have more longevity.</p>"
         }
       },
       "credits": {"writtenBy": [{"username": "Tranquility", "user_id": 475288}], "teams": [{"name": "Quality checked by", "members": [{"username": "LordBox", "user_id": 611238}, {"username": "Kinetic", "user_id": 552227}, {"username": "UT", "user_id": 523866}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
@@ -2516,13 +2531,13 @@
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}], "teams": [{"name": "Quality checked by", "members": [{"username": "Thick Fat Azumarill", "user_id": 330577}]}, {"name": "Grammar checked by", "members": [{"username": "Tea Guzzler", "user_id": 577920}]}]}
     },
     "almostanyability": {
-      "outdated": true,
       "sets": {
+        "Specially Defensive": {},
         "Special Wall": {
+          "outdated": true,
           "description": "<p>Empoleon is a fantastic special wall and bulky slow pivot thanks to its bevy of resistances and great Special Defense, giving it a plethora of switch-in opportunities. Defensive abilities enhance Empoleon's utility, with Bulletproof letting it wall Gengar and Gholdengo, Volt Absorb allowing it to switch into Zapdos and Regieleki, and Earth Eater letting it wall Garchomp, as well as Great Tusk lacking Close Combat. Flip Turn allows Empoleon to take a hit and pivot out, Stealth Rock lets it rack up passive damage, and Knock Off allows it to hinder switch-ins such as Manaphy and Kommo-o. Ice Beam is an option over Surf, giving Empoleon a super effective move against Dragonite, Kommo-o, and Garchomp, while Earthquake can threaten Iron Moth and Heatran. 0 Speed IVs let Empoleon pivot out as slow as possible, maximizing its defensive utility. Empoleon has average physical bulk, so it appreciates physically defensive teammates like Corviknight, Zapdos, and Kommo-o that can take on physical foes like Great Tusk, Galarian Zapdos, and Ogerpon-H that otherwise threaten it, while Empoleon takes on special attackers like Gholdengo, Azelf, and Manaphy. Offensive teammates such as Walking Wake, Gengar, and Ogerpon-C all appreciate Empoleon's slow pivoting to bring them onto the field safely, giving them a natural synergy with Empoleon, which is relatively passive on its own. Empoleon is vulnerable to being overwhelmed by special attackers like Sandy Shocks and, depending on its ability, Gengar, Zapdos, and Landorus, so a secondary special wall like Blissey, Garchomp, or RegenVest Manaphy can make a good teammate.</p>"
         }
-      },
-      "credits": {"writtenBy": [{"username": "Gimmicky", "user_id": 540420}], "teams": [{"name": "Quality checked by", "members": [{"username": "cat", "user_id": 580765}, {"username": "Kinetic", "user_id": 552227}]}, {"name": "Grammar checked by", "members": [{"username": "berry", "user_id": 226455}, {"username": "autumn", "user_id": 384270}]}]}
+      }
     }
   },
   "Staraptor": {
@@ -3685,7 +3700,7 @@
   },
   "Arceus-Ice": {"ubers": {"sets": {"Calm Mind": {}}}},
   "Arceus-Poison": {
-    "ubersuu": {"sets": {"Dragon Dance": {}, "E-Killer": {}}},
+    "ubersuu": {"sets": {"Dragon Dance": {}, "E-Killer": {}, "Support": {}}},
     "ubers": {"sets": {"Support": {}, "Iron Defense": {}}},
     "balancedhackmons": {
       "sets": {
@@ -5309,7 +5324,7 @@
     "partnersincrime": {"sets": {"Support": {}}},
     "doublesou": {"sets": {"Pivot": {"description": "<ul> <li>This EV spread survives Tera Water Ivy Cudgel from Ogerpon-W after Intimidate and Steam Eruption from Volcanion.</li> </ul>"}}}
   },
-  "Primarina": {"ou": {"sets": {"Assault Vest": {}, "Calm Mind": {}}}, "monotype": {"sets": {"Calm Mind (Water)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "Ethereal Sword", "user_id": 591122}]}]}}, "battlestadiumsingles": {"sets": {"Bulky Attacker": {}, "Calm Mind": {}, "Focus Sash": {}}}, "nationaldexru": {"sets": {"Defensive": {}, "Choice Specs": {}, "Calm Mind": {}}}},
+  "Primarina": {"ou": {"sets": {"Assault Vest": {}, "Calm Mind": {}}}, "monotype": {"sets": {"Calm Mind (Water)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "Ethereal Sword", "user_id": 591122}]}]}}, "battlestadiumsingles": {"sets": {"Bulky Attacker": {}, "Calm Mind": {}, "Focus Sash": {}}}, "almostanyability": {"sets": {"Choice Specs": {}, "RegenVest": {}}}, "nationaldexru": {"sets": {"Defensive": {}, "Choice Specs": {}, "Calm Mind": {}}}},
   "Charjabug": {"nfe": {"sets": {"Sticky Web": {}}}},
   "Vikavolt": {"monotype": {"outdated": true, "sets": {"Sticky Web (Electric)": {"description": "<p>200 Speed EVs lets Vikavolt outspeed Corviknight.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/monotype-analyses.762/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "boomp", "user_id": 637295}]}]}}},
   "Crabrawler": {
@@ -5991,19 +6006,18 @@
       "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"username": "Arase", "user_id": 510430}]}]}
     },
     "almostanyability": {
-      "outdated": true,
       "sets": {
+        "Desolate Land": {},
+        "Magic Guard": {},
         "Swords Dance": {
+          "outdated": true,
           "description": "<p>Cinderace's high Attack and Speed combined with great coverage options and Swords Dance turn it into a powerful wallbreaker and cleaner. High Jump Kick threatens Roaring Moon and OHKOes Well-Baked Body Kingambit, while Gunk Shot threatens to cripple switch-ins such as Manaphy, Zapdos, Kommo-o, and physically defensive Garchomp. Life Orb lets High Jump Kick OHKO RegenVest Roaring Moon and lets Gunk Shot 2HKO Primordial Sea Zapdos, while Heavy-Duty Boots increases Cinderace's longevity. Desolate Land lets Cinderace come in on and force out Primordial Sea users like Zapdos if safely pivoted in by a teammate while also letting +2 Life Orb-boosted Pyro Ball OHKO defensive Great Tusk. Sword of Ruin + Heavy-Duty Boots provides more damage on Cinderace's coverage moves at the cost of a worse matchup into Primordial Sea and lowered damage on Pyro Ball. Fast cleaners such as Barraskewda and Dragonite appreciate Cinderace's ability to pressure their walls like Corviknight and Scream Tail, opening up the way for them to sweep late-game. Special pivots like Azelf, Zapdos, and Walking Wake are appreciated, as they can pivot Cinderace in against their switch-ins, such as Empoleon and Hisuian Goodra. Cinderace's frailty means it's easily revenge killed by most Pokemon faster than it like Chien-Pao and Choice Scarf Azelf, so teammates that can take a hit for it and pivot it in such as Corviknight and Manaphy are appreciated. Cinderace is also completely walled by Well-Baked Body Gholdengo, so teammates that can threaten it like Garchomp and Roaring Moon are appreciated.</p>"
         },
         "Utility": {
+          "outdated": true,
           "description": "<p>Cinderace is a good utility pivot thanks to its high Speed and great supporting movepool. U-turn lets it pivot out against Well-Baked Body Pokemon like Corviknight, Gholdengo, and Kingambit, as well as Primordial Sea users like Zapdos, Walking Wake, and Manaphy. Court Change punishes opposing teams for setting entry hazards or dual screens. Super Fang can be used instead to chip switch-ins like Kommo-o, Garganacl, and Quaquaval that Cinderace cannot meaningfully damage otherwise. Taunt prevents status moves, entry hazards, and recovery, which can help against foes like Scream Tail, while Will-O-Wisp cripples checks like Garchomp, Kommo-o, and Primordial Sea Zapdos. Cinderace is threatened by Primordial Sea users like Barraskewda, Ogerpon-W, and Walking Wake, which force it out, making walls like defensive Zapdos, Kommo-o, and Empoleon pair well with it. Offensive pivots such as Galarian Zapdos, Meowscarada, and Sandy Shocks pair well with Cinderace, as they form a VoltTurn core with it, being able to pivot it in to threaten walls like Corviknight, Meloetta, Hisuian Goodra. In return, Cinderace can pivot these teammates in to threaten its switch-ins like Kommo-o, Garaganacl, and Quaquaval.</p>"
-        },
-        "Magic Guard": {
-          "description": "<p>Magic Guard Cinderace provides a blend of utility and firepower in a single teamslot; this in combination with its excellent Speed tier lets it serve as either a strong pivot or wallbreaker. Magic Guard allows Cinderace to fire off its strong Flare Blitz and use Life Orb without recoil while negating entry hazard chip damage. High Jump Kick forces out Garganacl and Well-Baked Body Kingambit as well as being the strongest move against neutral targets like Quaquaval and Mandibuzz. U-turn allows Cinderace to pivot out on switch-ins like Well-Baked Body Corviknight and Quaquaval, while Swords Dance changes its role from a pivot to a wallbreaker and late-game cleaner. Gunk Shot further increases its coverage, preying on Fairy-types like Scream Tail and Enamorus-T and threatening switch-ins like Primordial Sea Zapdos and Dragonite, while Will-O-Wisp allows it to cripple its switch-ins like Regenerator Great Tusk and physically defensive Garchomp, and Court Change allows it to control hazards in a pinch. Cinderace's ability to force out Steel-types like Corviknight is greatly appreciated by other physical wallbreakers like Chien-Pao and Galarian Zapdos, which in return can remove Corviknight if it is running Well-Baked Body for Cinderace so it can clean up afterwards. Cinderace is vulnerable to revenge killers like Dragonite, Barraskewda, and Azelf, making walls like Corviknight, defensive Zapdos, and RegenVest Manaphy good partners that can switch into these revenge killers and pivot out. Well-Baked Body Gholdengo completely shuts down Cinderace, so teammates that can remove it like Gengar and offensive Roaring Moon make for great partners.</p>"
         }
-      },
-      "credits": {"writtenBy": [{"username": "Kinetic", "user_id": 552227}, {"username": "cat", "user_id": 580765}, {"username": "yoko", "user_id": 617542}], "teams": [{"name": "Quality checked by", "members": [{"username": "UT", "user_id": 523866}, {"username": "Kinetic", "user_id": 552227}, {"username": "LordBox", "user_id": 611238}, {"username": "cat", "user_id": 580765}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "Tea Guzzler", "user_id": 577920}]}]}
+      }
     },
     "nationaldexmonotype": {"sets": {"Swords Dance (Fire)": {"description": "<p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/natdex-mono-analyses.828/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned</p>"}}}
   },
@@ -6077,7 +6091,15 @@
       },
       "credits": {"writtenBy": [{"username": "Theorymon", "user_id": 29010}], "teams": [{"name": "Quality checked by", "members": [{"username": "StarkGod", "user_id": 62165}, {"username": "Butch Hardnight", "user_id": 265677}, {"username": "DerpySuX", "user_id": 528485}, {"username": "Kiby", "user_id": 534158}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "Adeleine", "user_id": 517429}, {"username": "CryoGyro", "user_id": 331519}]}]}
     },
-    "mixandmega": {"sets": {"Hazard Control Pivot": {}, "Bulky Setup Wall": {}}},
+    "mixandmega": {
+      "sets": {
+        "Defensive Pivot": {
+          "description": "<p>Thanks to its significant bulk, amazing typing, and access to U-turn and utility moves such as Defog and Roost, Corviknight functions incredibly as a defensive pivot and entry hazard remover. Sablenite makes Corviknight incredibly slow, improving its pivoting capabilities, and also gives it Magic Bounce, which can reflect hazards used by Pokemon like Arceus-Ground and Garganacl as well as Taunt from Deoxys-S, ensuring Corviknight can heal itself with Roost and keep its teammates such as Gouging Fire, Urshifu-R, and Raging Bolt from being chipped. U-turn helps provide momentum and allows safe switch-ins to frail attackers such as Nasty Plot Deoxys-S and Iron Boulder, which can threaten to sweep when positioned correctly. Brave Bird is used to deal decent damage against Fighting-types like Urshifu-R and Galarian Zapdos at the cost of recoil, while Body Press deals super effective damage versus the likes of Chien-Pao, Garganacl, and Iron Boulder but does less damage to neutral targets. Corviknight has a great matchup against many Pokemon, including Dragonite, Great Tusk, and Urshifu-R, thanks to its defensive traits and ability to bring in Pokemon like Hisuian Arcanine and Walking Wake to dispose of these threats. Some significant threats to Corviknight include Electric-types like Zapdos, Sandy Shocks, and Supercell Slam Regieleki as well as Fire-types such as Gouging Fire and Red Orb users like Landorus and Raging Bolt. Dragon-types like Eternatus and Arceus-Dragon are thus good teammates for their ability to handle the majority of Pokemon with these typings with ease. Corviknight can also be paired with Calm Mind Arceus-Ground, whose Judgment can threaten every relevant Electric- and Fire-type in the metagame bar Zapdos, which is threatened by Ice Beam. Additionally, Fire-types like Gouging Fire and non-Electric-type Red Orb users can be countered by Garganacl and Earth Power Arceus-Water.</p>"
+        },
+        "Bulky Setup Wall": {}
+      },
+      "credits": {"writtenBy": [{"username": "Gambit_Gamin", "user_id": 652656}], "teams": [{"name": "Quality checked by", "members": [{"username": "zastra", "user_id": 558636}, {"username": "Clas", "user_id": 545372}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+    },
     "almostanyability": {
       "sets": {
         "Physically Defensive": {
@@ -7090,7 +7112,7 @@
   "Meowscarada": {
     "ou": {
       "sets": {
-        "Heaby-Duty Boots Pivot": {
+        "Heavy-Duty Boots Pivot": {
           "description": "<p>Meowscarada is one of the tier's premier offensive pivots thanks to its stupendous base 123 Speed, a critical benchmark that lets it outspeed scary threats like Cinderace, Iron Valiant, Roaring Moon, and Serperior. Knock Off scares some of the tier's key dangers like Deoxys-Speed, Dragapult, and Gholdengo while simultaneously threatening to cripple other switch-ins like Archaludon, Hatterene, and Volcarona. Flower Trick cuts through bulky threats such as Dondozo, Great Tusk, and Primarina, even ignoring the former two's potential Defense boosts, while Triple Axel gives Meowscarada a crucial Ice-type STAB move that allows it to nail common Pokemon such as Clodsire, Gliscor, Raging Bolt, and Roaring Moon. U-turn could be used in the last slot for keeping momentum while chipping switch-ins such as Kingambit and Hatterene. Alternatively, Meowscarada can run Low Kick to smack some of the tier's most threatening staples such as Archaludon, Kingambit, and Kyurem. Heavy-Duty Boots is practically a requirement on this set, as Meowscarada will frequently be switching in and out of combat and is otherwise quite weak to hazards. Tera Grass and Dark enhance Flower Trick and Knock Off while Tera Fire grants Meowscarada some crucial resistances to Fairy, Ice, and Steel-type attacks such as those from Enamorus, Gouging Fire, and Choice Scarf Gholdengo. Tera Electric is an additional option that allows Meowscarada to feast on Zapdos more effectively thanks to a newly gained Static immunity and resistance to both of its STAB moves.</p> <p>Meowscarada fits best on balance teams that need a way to force hazard chip along with Knock Off spam to whittle down or outright threaten Pokemon that otherwise don't mind Knock Off such as Gliscor. Meowscarada's frailty courtesy of its pitiful bulk is sometimes hard to work around and limits its switch in opportunities, especially with common weaknesses courtesy of its exploitable defensive typing and a nasty 4x weakness to U-turn. Furthermore, Meowscarada, while being quite fast, is still outsped by monsters such as Darkrai, Dragapult, Weavile, and Zamazenta, the latter of which happens to be one of Meowscarada's best checks. Weavile's offensive tenacity combined with deadly Speed makes it a potent threat, which is why Rocky Helmet Skarmory is one of Meowscarada's best partner options on balance teams, as it punishes Triple Axel spam and shrugs off Weavile's hits comparatively easily. Meowscarada's role as an offensive pivot helps chip away at opposing cores while also bringing some of their key defensive threats into OHKO range for some frail teammates like Darkrai, Iron Boulder, and Gholdengo. Dragapult is another great partner for Meowscarada; it can blank Fighting-type attacks and follow up with a fast Will-O-Wisp to neuter Zamazenta as well. Meowscarada's defensive woes can be covered by bulky teammates that don't mind taking coverage moves from faster threats. On the physical side, Gouging Fire and Great Tusk are both excellent partners whose typings complement Meowscarada's. Gouging Fire acts as a great Will-O-Wisp absorber, while Great Tusk's role as a physically bulky offensive spinner with synergistic typing opens up multiple opportunities to clear hazards. On the special side, Clodsire and Galarian Slowking are both impressive partners thanks to their longevity and fantastic defensive profiles, with the former being able to blank setup sweepers like Darkrai and the latter being able to continue Meowscarada's momentum chain by using a slow Chilly Reception to take a hit or scout a switch, allowing Meowscarada to come in safely. Additionally, Galarian Slowking also threatens Pokemon that would commonly switch into Meowscarada like Iron Defense Zamazenta with Future Sight.</p>"
         },
         "Choice Item": {}
@@ -8247,7 +8269,14 @@
   },
   "Dudunsparce": {"pu": {"sets": {"Utility": {}, "Calm Mind": {"description": "<p>Serene Grace can be used to give Dudunsparce better odds of breaking through walls via Special Defense drops or status. Rattled is more consistent, though, and punishes the use of moves like U-turn and Knock Off, the latter being easier to bait if Dudunsparce runs Tera Ghost.</p> <p>Sample set. Stay tuned for updates!</p>"}, "Coil": {}}}, "nu": {"sets": {"Coil": {}, "Calm Mind": {}}}},
   "Kingambit": {
-    "vgc2024": {"sets": {"Swords Dance": {}, "Assault Vest": {}}},
+    "vgc2024": {
+      "overview": "<ul> <li> <p>Kingambit is a major threat with its amazing stat spread and the amount of pressure it exerts with Sucker Punch. Defiant also heavily discourages Intimidate, the most common way to impede physical attackers, which is appreciated by common partners such as Ogerpon-W.</p> </li> <li> <p>Kingambit's typing does make it a bit reliant on Terastallizing considering many teams carry Fighting-type moves on Pokemon like Chien-Pao and Urshifu-R and its weakness to the primary Intimidate user, Incineroar. However, this is something that can be accounted for in teambuilding , and when Kingambit does get to Terastallize it becomes very difficult to remove and puts major pressure on the opposing team.</p> </li> <li> <p>Swords Dance Kingambit depends on Terastallizing even more, requires a lot more support, and it can still struggle to make progress due to the amount of Dark-resistant Pokemon in the metagame and the fact that Follow Me Ogerpon-W, Rage Powder Amoonguss, and Substitute Landorus can take advantage of Sucker Punch. That being said, Swords Dance can also turn one minor misplay or wrong call into a massacre.</p> </li> <li> <p>Assault Vest Kingambit's best partner is Latias, which provides Tailwind to offset Kingambit's mediocre Speed tier and beats Pokemon that are difficult matchups for it such as Landorus and Urshifu-R. Swords Dance Kingambit's best partner is Ogerpon-W, as it redirects moves so Kingambit can have an easier time setting up and pressures Urshifu-R, which can stop Kingambit in its tracks otherwise.</p> </li> </ul>",
+      "sets": {
+        "Bulky Attacker": {"description": "<ul> <li> <p>Assault Vest improves Kingambit's naturally great bulk, making it even harder to remove and importantly letting it be one of the few Pokemon that can comfortably take on Flutter Mane.</p> </li> <li> <p>Low Kick is coverage for Incineroar and opposing Kingambit.</p> </li> <li> <p>The EVs allow Kingambit to outspeed Landorus when in Tailwind and survive -1 Chien-Pao's Sacred Sword.</p> </li> <li> <p>Fairy is the Tera type of choice because it's a great defensive typing across the board and discourages Fighting-type moves such as Urshifu-R's Close Combat and Chien-Pao's Sacred Sword from being used on Kingambit.</p> </li> </ul>"},
+        "Swords Dance": {"description": "<ul> <li> <p>Black Glasses is chosen because it provides a very welcome boost to both offensive moves without any drawbacks.</p> </li> <li> <p>Poison is a great defensive typing, having only two weaknesses and notably giving a resistance to Flutter Mane's Dazzling Gleam, but it does make the set even weaker to Substitute Landorus. Tera Dark lets Sucker Punch OHKO almost the entire unresisted metagame after a Swords Dance, but using this does mean giving up the opportunity to use a defensive Tera type, making setting up more difficult. Tera Dragon Kingambit plows through common Fire / Water / Grass cores, making it also a strong option; however, it has a tougher time against Chien-Pao and Flutter Mane, which are staples on many top archetypes.</p> </li> </ul>"}
+      },
+      "credits": {"writtenBy": [{"username": "Robbie35646", "user_id": 562330}], "teams": [{"name": "Quality checked by", "members": [{"username": "LameLiarLeo", "user_id": 641287}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}, {"username": "TheRealBigC", "user_id": 532450}]}]}
+    },
     "vgc2023": {"sets": {"Assault Vest": {}, "Swords Dance": {}}},
     "ubers": {
       "sets": {
@@ -8848,6 +8877,7 @@
       },
       "credits": {"writtenBy": [{"username": "adem", "user_id": 529732}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sulo", "user_id": 528036}, {"username": "Ryuji", "user_id": 515767}]}, {"name": "Grammar checked by", "members": [{"username": "Sulo", "user_id": 528036}]}]}
     },
+    "almostanyability": {"sets": {"Earth Eater": {}, "RegenVest": {}, "Surge Surfer": {}}},
     "doublesou": {"comments": "<ul> <li>This EV Spread survives 2 Tera Normal Choice Band Dragonite Extreme Speeds with Sword of Ruin active, as well as 2 Timid Choice Specs Flutter Mane Dazzling Gleams.</li> </ul>", "sets": {"Assault Vest": {}}},
     "nationaldexmonotype": {"sets": {"Assault Vest (Electric)": {"description": "<p>Survives Dragonite's +2 Earthquake and is not 2HKO'ed by Mega Charizard-Y. Outspeeds Blissey and OHKO's Garchomp with Ice Punch under Electric terrain.</p> <p>This is the sample set before we work on <a href=\"https://www.smogon.com/forums/forums/national-dex-analyses.765/\">new analyses</a>. This will be updated as the metagame continues to develop. Stay tuned!</p>"}}}
   },
@@ -9135,7 +9165,8 @@
       "sets": {
         "Physically Defensive": {
           "description": "<p>Gholdengo's naturally good offensive presence, fantastic typing, and access to reliable recovery combine to make it a staple defensive piece. Hex can be run over Shadow Ball in conjunction with Thunder Wave to increase its maximum Base Power while spreading paralysis to support Gholdengo's teammates. Well-Baked Body allows Gholdengo to wall Pokemon reliant on Fire-type moves to beat it, such as Iron Moth, Cinderace, and Ogerpon-H lacking Knock Off. Similarly, Earth Eater handles opposing Ground-types such as non-Scrappy Great Tusk. Bulletproof is used to negate Shadow Ball from Gengar, Hisuian Zoroark, and opposing Gholdengo. Gholdengo's natural typing allows it to use nearly any immunity ability effectively, so options like Water Absorb and Volt Absorb can also be used depending on the needs of its team, although these are generally less effective. 28 Speed EVs are used to outspeed minimally invested Great Tusk, with the remaining EVs being used to maximize Gholdengo's physical bulk to better check physical attackers. Gholdengo is particularly vulnerable to Dark-types like Roaring Moon and Chien-Pao, and many Pokemon like Iron Boulder and Ogerpon-C run Dark-type coverage specifically to hit all variants of it. Thus, Pokemon that can take hits from Dark-type attackers such as Corviknight and Great Tusk make good partners. Gholdengo cannot check most special attackers, so it appreciates having special walls such as Swampert and Manaphy as teammates. Finally, Gholdengo can be taken advantage of and used for momentum by RegenVest Pokemon such as Swampert and Meloetta, so it appreciates strong wallbreakers such as Roaring Moon and Galarian Zapdos to bust through these walls.</p>"
-        }
+        },
+        "Choice Scarf": {}
       },
       "credits": {"writtenBy": [{"username": "abriel", "user_id": 473082}], "teams": [{"name": "Quality checked by", "members": [{"username": "Kinetic", "user_id": 552227}, {"username": "LordBox", "user_id": 611238}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
     },
@@ -9455,7 +9486,8 @@
         },
         "Dragon Dance": {
           "description": "<p>Due to its high Attack and Speed further augmented by Dragon Dance, Roaring Moon functions incredibly as a threatening setup sweeper. Iron Head provides coverage for Fairy-types like Scream Tail, while Stone Edge nails Mandibuzz and can bypass Fluffy walls like Corviknight. Outrage is used to deal massive damage to physically bulky Pokemon such as Iron Hands at the cost of confusion; alternatively, Acrobatics can be used to handle Great Tusk and most Ogerpon formes after Weakness Policy's activation. Weakness Policy can easily be activated by a weak U-turn from Corviknight, Manaphy, or Azelf, while Life Orb provides consistent damage. Applicable partners include Prankster Corviknight for its dual screens support and ability to pivot Roaring Moon in safely, and Gholdengo, since it has incredible type synergy with Roaring Moon, being able to resist Fairy, Dragon, Bug, Ice, and having an immunity to Fighting. Roaring Moon struggles against defensive Great Tusk, especially Fluffy variants, and Fluffy Corviknight. With partners such as Azelf and Manaphy for Great Tusk and Iron Moth and Ogerpon-H for Corviknight, Roaring Moon's biggest checks and counters become quite threatened. Additionally, wallbreakers such as Choice Band Iron Boulder and Chien-Pao can both physically wear down defensive walls to clear the way for Roaring Moon to get a clean sweep.</p>"
-        }
+        },
+        "RegenVest": {}
       },
       "credits": {"writtenBy": [{"username": "Vertigo", "user_id": 543620}, {"username": "Gambit_Gamin", "user_id": 652656}], "teams": [{"name": "Quality checked by", "members": [{"username": "cat", "user_id": 580765}, {"username": "LordBox", "user_id": 611238}, {"username": "UT", "user_id": 523866}, {"username": "Kinetic", "user_id": 552227}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
     },
@@ -9893,7 +9925,7 @@
       "credits": {"writtenBy": [{"username": "SoulboyVGC", "user_id": 558405}], "teams": [{"name": "Quality checked by", "members": [{"username": "Sole Survivor", "user_id": 518634}]}, {"name": "Grammar checked by", "members": [{"username": "Tbolt", "user_id": 555379}]}]}
     },
     "vgc2023": {"sets": {"All-out Offense": {}, "Setup Sweeper": {}}},
-    "ubersuu": {"sets": {"Swords Dance": {}}},
+    "ubersuu": {"sets": {"Swords Dance": {}, "All Out Attacker": {}}},
     "battlestadiumsingles": {
       "overview": "<p>Welcome to Battle Stadium Singles Regulation F! This Pokemon has been updated to reflect the new Pokemon that The Indigo Disk has brought!</p> <p><a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-regulation-f-dex-updates-and-suggestions.3734864/\">If you feel that this analysis is missing important information, feel free to leave feedback here.</a></p>",
       "sets": {

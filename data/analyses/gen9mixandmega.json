@@ -16,7 +16,15 @@
   "Landorus": {"sets": {"Red Orb Wallbreaker": {}}},
   "Solgaleo": {"sets": {"Physical Breaker": {}, "Defensive Pivot": {}, "Special Sweeper": {}, "Bulky Calm Mind": {}}},
   "Lunala": {"sets": {"Meteor Beam": {}, "Physically Defensive": {}, "Specially Defensive": {}}},
-  "Corviknight": {"sets": {"Hazard Control Pivot": {}, "Bulky Setup Wall": {}}},
+  "Corviknight": {
+    "sets": {
+      "Defensive Pivot": {
+        "description": "<p>Thanks to its significant bulk, amazing typing, and access to U-turn and utility moves such as Defog and Roost, Corviknight functions incredibly as a defensive pivot and entry hazard remover. Sablenite makes Corviknight incredibly slow, improving its pivoting capabilities, and also gives it Magic Bounce, which can reflect hazards used by Pokemon like Arceus-Ground and Garganacl as well as Taunt from Deoxys-S, ensuring Corviknight can heal itself with Roost and keep its teammates such as Gouging Fire, Urshifu-R, and Raging Bolt from being chipped. U-turn helps provide momentum and allows safe switch-ins to frail attackers such as Nasty Plot Deoxys-S and Iron Boulder, which can threaten to sweep when positioned correctly. Brave Bird is used to deal decent damage against Fighting-types like Urshifu-R and Galarian Zapdos at the cost of recoil, while Body Press deals super effective damage versus the likes of Chien-Pao, Garganacl, and Iron Boulder but does less damage to neutral targets. Corviknight has a great matchup against many Pokemon, including Dragonite, Great Tusk, and Urshifu-R, thanks to its defensive traits and ability to bring in Pokemon like Hisuian Arcanine and Walking Wake to dispose of these threats. Some significant threats to Corviknight include Electric-types like Zapdos, Sandy Shocks, and Supercell Slam Regieleki as well as Fire-types such as Gouging Fire and Red Orb users like Landorus and Raging Bolt. Dragon-types like Eternatus and Arceus-Dragon are thus good teammates for their ability to handle the majority of Pokemon with these typings with ease. Corviknight can also be paired with Calm Mind Arceus-Ground, whose Judgment can threaten every relevant Electric- and Fire-type in the metagame bar Zapdos, which is threatened by Ice Beam. Additionally, Fire-types like Gouging Fire and non-Electric-type Red Orb users can be countered by Garganacl and Earth Power Arceus-Water.</p>"
+      },
+      "Bulky Setup Wall": {}
+    },
+    "credits": {"writtenBy": [{"username": "Gambit_Gamin", "user_id": 652656}], "teams": [{"name": "Quality checked by", "members": [{"username": "zastra", "user_id": 558636}, {"username": "Clas", "user_id": 545372}]}, {"name": "Grammar checked by", "members": [{"username": "WrathoftheLeopard", "user_id": 511181}]}]}
+  },
   "Eternatus": {
     "sets": {
       "Defensive": {},
