@@ -52,8 +52,6 @@ const UNTITLED = /Untitled \d+/;
 const GUEST = /Guest \d+/;
 
 const IGNORE = [
-  // Uncurated user submitted teams
-  'https://www.smogon.com/forums/threads/3632667/',
   // Multiple formats within a single post
   'https://www.smogon.com/forums/posts/6431094/',
 ];
