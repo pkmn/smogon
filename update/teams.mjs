@@ -26,7 +26,9 @@ import stringify from 'json-stringify-pretty-compact';
 import ts from "typescript";
 import * as wrapr from 'wrapr';
 
-const wrap = fn => wrapr.retrying(wrapr.throttling(fn, +process.argv[2] || 5, 1000), 20, 2000);
+const wrap = process.env.NODE_ENV === 'development'
+  ? fn => wrapr.retrying(wrapr.throttling(fn, 5, 1000), 3, 2000)
+  : fn => wrapr.retrying(wrapr.throttling(fn, 1, 2000), 10, 10000);
 
 // pokepast.es chokes if we don't throttle
 const request = wrap(async url => (await fetch(url)).json());
