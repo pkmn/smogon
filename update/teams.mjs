@@ -56,6 +56,8 @@ const GUEST = /Guest \d+/;
 const IGNORE = [
   // Multiple formats within a single post
   'https://www.smogon.com/forums/posts/6431094/',
+  // Muiltiple updates in one post all Within spoilers
+  'https://www.smogon.com/forums/threads/3725988/'
 ];
 
 (async () => {
