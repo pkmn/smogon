@@ -31,7 +31,13 @@ const wrap = process.env.NODE_ENV === 'development'
   : fn => wrapr.retrying(wrapr.throttling(fn, 1, 2000), 10, 10000);
 
 // pokepast.es chokes if we don't throttle
-const request = wrap(async url => (await fetch(url)).json());
+const request = wrap(async url => {
+    const response = await fetch(url);
+    if (!response.ok) {
+      console.error(url, response.code);
+    }
+    return response.json();
+});
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.resolve(__dirname, '../data');
@@ -159,7 +165,7 @@ async function scrapeArchive(format, url, existing) {
     try {
       team = clean(dex, validator, team);
     } catch (e) {
-      console.error(`Failed to parse team from text`, e);
+      console.error(`Failed to parse team from text (${url})\n`, e);
       continue;
     }
     if (seen.has(JSON.stringify(team))) continue;
@@ -197,10 +203,10 @@ async function scrapeThread(format, url) {
   const m = POST.exec(url);
   if (m) {
     const post = document.getElementById(`post-${m[1]}`).parentElement;
-    teams = await scrapeTeams(post, dex, validator);
+    teams = await scrapeTeams(post, dex, validator, url);
   } else {
     for (const post of document.getElementsByClassName('message-body')) {
-      teams = await scrapeTeams(post, dex, validator);
+      teams = await scrapeTeams(post, dex, validator, url);
       if (teams.length > 1) break;
     }
   }
@@ -208,7 +214,7 @@ async function scrapeThread(format, url) {
   return teams;
 }
 
-async function scrapeTeams(post, dex, validator) {
+async function scrapeTeams(post, dex, validator, url) {
   let teams = [];
 
   // Some threads have a raw pokepast.es link but also link the sprites or name of the team so we
@@ -234,7 +240,7 @@ async function scrapeTeams(post, dex, validator) {
         const author = (!json.author || GUEST.test(json.author)) ? undefined : json.author;
         teams.push({name, author, data});
       } catch (e) {
-        console.error(`Failed to parse team from ${link}`, e);
+        console.error(`Failed to parse team from ${link} (${url})\n`, e);
       }
     }
   }
@@ -248,7 +254,7 @@ async function scrapeTeams(post, dex, validator) {
       if (!data) continue;
       teams.push({data});
     } catch (e) {
-      console.error(`Failed to parse team from importable`, e);
+      console.error(`Failed to parse team from importable (${url})\n`, e);
     }
   }
 
