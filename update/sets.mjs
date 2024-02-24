@@ -59,7 +59,7 @@ const FORMATS = {
   // Other Metagames
   almostanyability: 'almostanyability', mixandmega: 'mixandmega', godlygift: 'godlygift',
   camomons: 'camomons', stabmons: 'stabmons', pic: 'partnersincrime',
-  partnersincrime: 'partnersincrime', draft: 'draft',
+  partnersincrime: 'partnersincrime', draft: 'draft', inh: 'inheritance',
   // BSS
   bssseries1: 'battlestadiumsingles', bssseries2: 'battlestadiumsingles',
   bssseries12: 'battlestadiumsingles', bssseries13: 'battlestadiumsingles',
