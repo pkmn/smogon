@@ -3,7 +3,18 @@
   "Ho-Oh": {"sets": {"Defensive": {}, "Offensive": {}}},
   "Salamence": {"sets": {"Dragon Dance": {}}},
   "Kyogre": {"sets": {"Wallbreaker": {}, "Defensive Calm Mind": {}}},
-  "Groudon": {"sets": {"Defensive": {}, "Double Dance": {}, "Utility Swords Dance": {}, "Offensive Support": {}, "Eruption": {}}},
+  "Groudon": {
+    "sets": {
+      "Defensive": {},
+      "Double Dance": {
+        "description": "<p>Primal Groudon's huge Attack and great defensive profile make it a fantastic wallbreaker and sweeper with Swords Dance and Rock Polish. Stone Edge hits Flying-types such as Ho-Oh and Mega Salamence. Heat Crash is an alternative that provides a perfectly accurate STAB option boosted by Desolate Land that hits certain foes harder than Precipice Blades, such as Ferrothorn and Xerneas, though running it leaves Primal Groudon unable to hit foes such as Giratina-O for neutral damage. However, most Fire-resistant Flying-types, like Ho-Oh and Mega Salamence, still take heavy damage from Heat Crash. The given EV spread maximizes Primal Groudon's Attack while providing just enough Speed to outspeed Choice Scarf Xerneas and Yveltal after using Rock Polish, with the rest being dumped into HP to increase its bulk. Primal Groudon best fits on offense teams looking for a powerful threat that can act as a sweeper or wallbreaker depending on the situation. Typically, it should use Swords Dance against defensive teams and Rock Polish against offensive teams. Primal Groudon's ability, typing, and bulk also let it check some foes in a pinch, like Primal Kyogre, Xerneas, and Arceus. Entry hazard setters such as Deoxys-S can help chip Primal Groudon's checks, such as Zygarde-C and Arceus-Ground, into KO range. Grimmsnarl can provide dual screens support to help Primal Groudon set up, sometimes even allowing it to set up both Swords Dance and Rock Polish. Both of those teammates carry Taunt, which can stop the opposing team from setting up hazards, making it easier for Primal Groudon to set up. Offensive teammates such as Mega Salamence and Zacian-C can help Primal Groudon's team maintain offensive pressure, either by breaking holes for it or by taking advantage of the holes it makes. Certain physically bulky Ground-types, such as Arceus-Ground and Zygarde-C, can beat Primal Groudon one-on-one and sometimes even set up alongside it. Primal Kyogre is effective at handling these foes, while Flying-types like Yveltal and Mega Salamence can switch into them in a pinch.</p>"
+      },
+      "Utility Swords Dance": {},
+      "Offensive Support": {},
+      "Eruption": {}
+    },
+    "credits": {"writtenBy": [{"username": "Gangsta Spongebob", "user_id": 535530}], "teams": [{"name": "Quality checked by", "members": [{"username": "Weirdhamster", "user_id": 611966}, {"username": "Bobsican", "user_id": 434487}]}, {"name": "Grammar checked by", "members": [{"username": "StupidFlandrs48", "user_id": 633500}]}]}
+  },
   "Rayquaza": {"sets": {"Setup Sweeper": {}, "Choice Band": {}}},
   "Deoxys-Attack": {"sets": {"Mixed Attacker": {}}},
   "Deoxys-Speed": {"sets": {"Lead": {}}},
