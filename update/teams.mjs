@@ -34,7 +34,8 @@ const wrap = process.env.NODE_ENV === 'development'
 const request = wrap(async url => {
     const response = await fetch(url);
     if (!response.ok) {
-      console.error(url, response.code);
+      console.error(url, response.status);
+      throw new Error(response.status);
     }
     return response.json();
 });
