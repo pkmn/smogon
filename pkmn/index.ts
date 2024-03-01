@@ -37,7 +37,7 @@ interface RawAnalysis {
   outdated?: boolean;
   overview?: string;
   comments?: string;
-  sets: { [name: string]: {description?: string; outdated?: boolean}};
+  sets: {[name: string]: {description?: string; outdated?: boolean}};
   credits?: Credits;
 }
 
@@ -95,7 +95,7 @@ export type DeepPartial<T> = {
 /** @pkmn/stats output format for statistics. */
 export interface DisplayStatistics<T = DisplayUsageStatistics> {
   battles: number;
-  pokemon: { [name: string]: T };
+  pokemon: {[name: string]: T};
   metagame: DisplayMetagameStatistics;
 }
 
@@ -116,12 +116,12 @@ export interface DisplayUsageStatistics {
   weight: number | null;
   viability: [number, number, number, number];
 
-  abilities: { [name: string]: number };
-  items: { [name: string]: number };
-  stats: { [stats: string]: number };
-  moves: { [name: string]: number };
-  teammates: { [name: string]: number };
-  counters: { [name: string]: [number, number, number] };
+  abilities: {[name: string]: number};
+  items: {[name: string]: number};
+  stats: {[stats: string]: number};
+  moves: {[name: string]: number};
+  teammates: {[name: string]: number};
+  counters: {[name: string]: [number, number, number]};
 }
 
 /**
@@ -130,13 +130,13 @@ export interface DisplayUsageStatistics {
  */
 export interface LegacyDisplayUsageStatistics
   extends Omit<DisplayUsageStatistics, 'unique' | 'win' | 'stats'> {
-  happinesses?: { [happiness: string]: number };
-  spreads: { [spreads: string]: number };
+  happinesses?: {[happiness: string]: number};
+  spreads: {[spreads: string]: number};
 }
 
 /** @pkmn/stats output format for metagame statistics. */
 export interface DisplayMetagameStatistics {
-  tags: { [tag: string]: number };
+  tags: {[tag: string]: number};
   stalliness: {
     histogram: Array<[number, number]>;
     mean: number;

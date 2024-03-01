@@ -3,14 +3,14 @@ const LATEST = (latest as unknown) as Promise<{
   [id: string]: [string, number] | [[string, number], [string, number]];
 }>;
 
-export type ID = '' | (string & { __isID: true });
+export type ID = '' | (string & {__isID: true});
 export type GenerationNum = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
 export type TypeName =
   'Normal' | 'Fighting' | 'Flying' | 'Poison' | 'Ground' | 'Rock' | 'Bug' | 'Ghost' | 'Steel' |
   'Fire' | 'Water' | 'Grass' | 'Electric' | 'Psychic' | 'Ice' | 'Dragon' | 'Dark' | 'Fairy' | '???';
 
 export type StatID = 'hp' | 'atk' | 'def' | 'spa' | 'spd' | 'spe';
-export type StatsTable<T = number> = { [stat in StatID]: T };
+export type StatsTable<T = number> = {[stat in StatID]: T};
 
 export interface Analysis {
   format: string;
@@ -28,7 +28,7 @@ export interface Moveset {
   levels: number[];
   abilities: string[];
   items: string[];
-  moveslots: Array<Array<{ move: string; type: TypeName | null }>>;
+  moveslots: Array<Array<{move: string; type: TypeName | null}>>;
   evconfigs: StatsTable[];
   ivconfigs: StatsTable[];
   natures: string[];
@@ -56,7 +56,7 @@ export interface UsageStatistics {
     'team type': ID | null;
     'number of battles': number;
   };
-  data: { [name: string]: MovesetStatistics };
+  data: {[name: string]: MovesetStatistics};
 }
 
 export interface MovesetStatistics {
@@ -64,16 +64,16 @@ export interface MovesetStatistics {
   usage: number;
   // num GXE, max GXE, 1% GXE, 20% GXE
   'Viability Ceiling': [number, number, number, number];
-  Abilities: { [ability: string]: number };
-  Items: { [item: string]: number };
-  Spreads: { [spread: string]: number };
-  Happiness?: { [happiness: string]: number };
-  Moves: { [move: string]: number };
-  Teammates: { [pokemon: string]: number };
+  Abilities: {[ability: string]: number};
+  Items: {[item: string]: number};
+  Spreads: {[spread: string]: number};
+  Happiness?: {[happiness: string]: number};
+  Moves: {[move: string]: number};
+  Teammates: {[pokemon: string]: number};
   // n = sum(POKE1_KOED...DOUBLE_SWITCH)
   // p = POKE1_KOED + POKE1_SWITCHED_OUT / n
   // d = sqrt((p * (1 - p)) / n)
-  'Checks and Counters': { [pokemon: string]: [number, number, number] };
+  'Checks and Counters': {[pokemon: string]: [number, number, number]};
 }
 
 interface DexSettings {
@@ -83,8 +83,8 @@ interface DexSettings {
     [
       // 'dump-pokemon'
       string, // key
-      DexDumpPokemonResponse
-    ]
+      DexDumpPokemonResponse,
+    ],
   ];
 }
 
