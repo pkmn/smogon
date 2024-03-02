@@ -23,15 +23,22 @@ const IGNORE = new Set([
 
 const SPECIAL = /^battlespotspecial(\d+)$/;
 const VGC = /^vgc(\d{4})$/;
+const PREFIXES = [
+  ['pokebank', 'Pokebank'],
+  ['predlc', 'Pre-DLC'],
+  ['dlc1', 'DLC 1'],
+];
 const SUFFIXES = [
   ['alpha', 'Alpha'],
   ['beta', 'Beta'],
   ['suspect', 'Suspect'],
-  ['suspecttest', 'Suspect Test']
+  ['suspecttest', 'Suspect Test'],
 ];
-function getName(tier, pokebank = false) {
-  if (tier.startsWith('pokebank')) return getName(tier.slice(8), true);
-  if (NAMES[tier]) return pokebank ? `${NAMES[tier]} (Pokebank)` : NAMES[tier];
+function getName(tier, prefix = false) {
+  for (const [prefix, name] of PREFIXES) {
+    if (tier.startsWith(prefix)) return getName(tier.slice(prefix.length), name);
+  }
+  if (NAMES[tier]) return prefix ? `${NAMES[tier]} (${prefix})` : NAMES[tier];
   let m = SPECIAL.exec(tier);
   if (m) return `Battle Spot Special #${m[1]}`;
   m = VGC.exec(tier);
@@ -41,7 +48,7 @@ function getName(tier, pokebank = false) {
     if (tier.endsWith(suffix)) {
       tier = tier.slice(0, -suffix.length);
       const n = getName(tier);
-      return n ? `${n} (${pokebank ? `Pokebank ${name}` : name})` : undefined;
+      return n ? `${n} (${prefix ? `${prefix} ${name}` : name})` : undefined;
     }
   }
   return undefined;
@@ -49,6 +56,7 @@ function getName(tier, pokebank = false) {
 
 for (const format of Dex.formats.all()) {
   const tier = /gen\d/.test(format.id) ? format.id.slice(4) : format.id;
+
   if (!getName(tier)) {
     NAMES[tier] = tier.startsWith('bdsp')
       ? `BDSP ${format.name.slice(13)}`
