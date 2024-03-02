@@ -1,14 +1,14 @@
 [
   {
-    "name": "FWG Offense",
-    "author": "BKG",
+    "name": "stunky tspikes",
+    "author": "vndrevc++!",
     "data": [
-      {"species": "Mienfoo", "gender": "F", "item": "Eviolite", "ability": "Regenerator", "level": 5, "teraType": "Steel", "evs": {"atk": 76, "def": 196, "spe": 236}, "nature": "Jolly", "moves": ["High Jump Kick", "Knock Off", "Taunt", "U-turn"]},
-      {"species": "Chinchou", "gender": "M", "item": "Eviolite", "ability": "Volt Absorb", "level": 5, "shiny": true, "teraType": "Water", "evs": {"def": 132, "spa": 148, "spd": 148, "spe": 60}, "nature": "Bold", "moves": ["Discharge", "Flip Turn", "Ice Beam", "Scald"]},
-      {"species": "Glimmet", "gender": "M", "item": "Eviolite", "ability": "Toxic Debris", "level": 5, "teraType": "Ghost", "evs": {"hp": 132, "def": 100, "spa": 76, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Mud Shot", "Power Gem", "Sludge Bomb", "Stealth Rock"]},
-      {"species": "Larvesta", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Flame Body", "level": 5, "teraType": "Ground", "evs": {"hp": 76, "atk": 236, "spe": 196}, "nature": "Jolly", "moves": ["Flare Blitz", "Morning Sun", "Tera Blast", "U-turn"]},
-      {"species": "Snivy", "gender": "M", "item": "Choice Scarf", "ability": "Contrary", "level": 5, "shiny": true, "teraType": "Ground", "evs": {"spa": 236, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Glare", "Leaf Storm", "Synthesis", "Tera Blast"]},
-      {"species": "Vullaby", "item": "Eviolite", "ability": "Weak Armor", "level": 5, "teraType": "Electric", "evs": {"atk": 236, "def": 76, "spe": 196}, "nature": "Jolly", "moves": ["Brave Bird", "Knock Off", "Roost", "U-turn"]}
+      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "level": 5, "teraType": "Steel", "evs": {"def": 196, "spd": 36, "spe": 236}, "nature": "Jolly", "moves": ["Fake Out", "High Jump Kick", "Knock Off", "U-turn"]},
+      {"species": "Mareanie", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "level": 5, "teraType": "Dragon", "evs": {"hp": 116, "def": 180, "spa": 12, "spd": 180}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Recover", "Sludge Bomb", "Surf", "Toxic Spikes"]},
+      {"species": "Mudbray", "gender": "M", "item": "Eviolite", "ability": "Stamina", "level": 5, "teraType": "Steel", "evs": {"hp": 36, "atk": 196, "def": 36, "spe": 236}, "nature": "Adamant", "moves": ["Earthquake", "Heavy Slam", "Stealth Rock", "Stone Edge"]},
+      {"species": "Stunky", "gender": "M", "item": "Eviolite", "ability": "Aftermath", "level": 5, "teraType": "Dark", "evs": {"hp": 12, "atk": 252, "spe": 244}, "nature": "Jolly", "moves": ["Gunk Shot", "Knock Off", "Sucker Punch", "Temper Flare"]},
+      {"species": "Voltorb-Hisui", "item": "Eviolite", "ability": "Aftermath", "level": 5, "teraType": "Flying", "evs": {"spa": 236, "spd": 76, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Protect", "Tera Blast", "Volt Switch"]},
+      {"species": "Vullaby", "item": "Eviolite", "ability": "Overcoat", "level": 5, "teraType": "Electric", "evs": {"hp": 196, "atk": 76, "def": 236}, "nature": "Impish", "moves": ["Brave Bird", "Knock Off", "Roost", "U-turn"]}
     ]
   },
   {
@@ -24,14 +24,13 @@
     ]
   },
   {
-    "author": "Hacker",
     "data": [
-      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "level": 5, "teraType": "Steel", "evs": {"def": 196, "spd": 36, "spe": 236}, "nature": "Jolly", "moves": ["Fake Out", "High Jump Kick", "Knock Off", "U-turn"]},
-      {"species": "Gastly", "gender": "M", "item": "Eviolite", "ability": "Levitate", "level": 5, "teraType": "Poison", "evs": {"def": 196, "spa": 116, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hex", "Pain Split", "Sludge Bomb", "Will-O-Wisp"]},
-      {"species": "Porygon", "item": "Choice Scarf", "ability": "Download", "level": 5, "teraType": "Psychic", "evs": {"def": 36, "spa": 236, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Psychic", "Tera Blast", "Thunderbolt", "Trick"]},
-      {"species": "Tinkatink", "item": "Eviolite", "ability": "Pickpocket", "level": 5, "teraType": "Fairy", "evs": {"hp": 116, "def": 156, "spd": 164, "spe": 52}, "nature": "Calm", "moves": ["Draining Kiss", "Knock Off", "Stealth Rock", "Thunder Wave"]},
-      {"species": "Trapinch", "gender": "M", "item": "Eviolite", "ability": "Arena Trap", "level": 5, "teraType": "Bug", "evs": {"hp": 76, "atk": 196, "def": 156, "spd": 76}, "nature": "Adamant", "moves": ["Earthquake", "First Impression", "Stone Edge", "Superpower"]},
-      {"species": "Vullaby", "item": "Eviolite", "ability": "Weak Armor", "level": 5, "teraType": "Dragon", "evs": {"atk": 236, "def": 76, "spe": 196}, "nature": "Jolly", "moves": ["Brave Bird", "Defog", "Knock Off", "Roost"]}
+      {"species": "Gastly", "gender": "M", "item": "Eviolite", "ability": "Levitate", "level": 5, "teraType": "Ground", "evs": {"hp": 116, "def": 36, "spa": 116, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hex", "Pain Split", "Tera Blast", "Will-O-Wisp"]},
+      {"species": "Houndour", "gender": "M", "item": "Eviolite", "ability": "Early Bird", "level": 5, "teraType": "Flying", "evs": {"atk": 36, "spa": 196, "spd": 36, "spe": 236}, "nature": "Hasty", "moves": ["Dark Pulse", "Destiny Bond", "Fire Blast", "Sucker Punch"]},
+      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "level": 5, "teraType": "Steel", "evs": {"atk": 236, "spd": 36, "spe": 236}, "nature": "Jolly", "moves": ["High Jump Kick", "Knock Off", "Substitute", "Swords Dance"]},
+      {"species": "Tinkatink", "item": "Eviolite", "ability": "Pickpocket", "level": 5, "teraType": "Water", "evs": {"hp": 36, "atk": 76, "def": 236, "spd": 84, "spe": 52}, "nature": "Impish", "moves": ["Knock Off", "Play Rough", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Toedscool", "gender": "M", "item": "Eviolite", "ability": "Mycelium Might", "level": 5, "teraType": "Water", "evs": {"hp": 116, "def": 156, "spd": 196, "spe": 36}, "nature": "Calm", "moves": ["Earth Power", "Knock Off", "Rapid Spin", "Spore"]},
+      {"species": "Voltorb-Hisui", "item": "Eviolite", "ability": "Static", "level": 5, "teraType": "Flying", "evs": {"hp": 36, "def": 36, "spa": 236, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Tera Blast", "Thunderbolt", "Volt Switch"]}
     ]
   },
   {
@@ -47,15 +46,26 @@
     ]
   },
   {
-    "name": "FooSnubGoth by genisu",
-    "author": "genisu x org",
+    "author": "Kipkluif",
     "data": [
-      {"species": "Snubbull", "gender": "M", "item": "Eviolite", "ability": "Intimidate", "level": 5, "teraType": "Poison", "evs": {"hp": 36, "atk": 196, "def": 196, "spd": 36, "spe": 36}, "nature": "Adamant", "moves": ["Earthquake", "Play Rough", "Psychic Fangs", "Thunder Wave"]},
-      {"species": "Gothita", "gender": "M", "item": "Choice Scarf", "ability": "Shadow Tag", "level": 5, "teraType": "Psychic", "evs": {"def": 36, "spa": 236, "spe": 236}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Psychic", "Sleep Talk"]},
-      {"species": "Growlithe-Hisui", "gender": "M", "item": "Eviolite", "ability": "Rock Head", "level": 5, "teraType": "Fairy", "evs": {"hp": 36, "atk": 156, "def": 76, "spe": 236}, "nature": "Jolly", "moves": ["Flare Blitz", "Head Smash", "Morning Sun", "Stealth Rock"]},
-      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "level": 5, "teraType": "Water", "evs": {"hp": 76, "def": 196, "spd": 196}, "nature": "Impish", "moves": ["Fake Out", "High Jump Kick", "Knock Off", "U-turn"]},
-      {"species": "Snivy", "gender": "M", "item": "Eviolite", "ability": "Contrary", "level": 5, "teraType": "Steel", "evs": {"spa": 236, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Leaf Storm", "Substitute", "Synthesis", "Tera Blast"]},
-      {"species": "Stunky", "gender": "M", "item": "Eviolite", "ability": "Aftermath", "level": 5, "teraType": "Ghost", "evs": {"hp": 12, "atk": 252, "spe": 244}, "nature": "Jolly", "moves": ["Gunk Shot", "Knock Off", "Sucker Punch", "Temper Flare"]}
+      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "level": 5, "teraType": "Steel", "evs": {"def": 196, "spd": 36, "spe": 236}, "nature": "Jolly", "moves": ["Fake Out", "High Jump Kick", "Knock Off", "U-turn"]},
+      {"species": "Gastly", "gender": "M", "item": "Choice Scarf", "ability": "Levitate", "level": 5, "teraType": "Ghost", "evs": {"hp": 36, "def": 36, "spa": 196, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Shadow Ball", "Sludge Bomb", "Thunderbolt", "Trick"]},
+      {"species": "Growlithe-Hisui", "gender": "M", "item": "Eviolite", "ability": "Rock Head", "level": 5, "teraType": "Grass", "evs": {"hp": 36, "atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Flame Charge", "Flare Blitz", "Head Smash", "Stealth Rock"]},
+      {"species": "Snubbull", "gender": "M", "item": "Eviolite", "ability": "Intimidate", "level": 5, "teraType": "Poison", "evs": {"hp": 36, "atk": 116, "def": 196, "spd": 116, "spe": 36}, "nature": "Adamant", "moves": ["Earthquake", "Play Rough", "Psychic Fangs", "Thunder Wave"]},
+      {"species": "Stunky", "gender": "M", "item": "Eviolite", "ability": "Aftermath", "level": 5, "teraType": "Dark", "evs": {"hp": 12, "atk": 252, "spe": 244}, "nature": "Jolly", "moves": ["Gunk Shot", "Knock Off", "Sucker Punch", "Temper Flare"]},
+      {"species": "Voltorb-Hisui", "item": "Eviolite", "ability": "Static", "level": 5, "teraType": "Fire", "evs": {"hp": 36, "def": 36, "spa": 236, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Protect", "Tera Blast", "Volt Switch"]}
+    ]
+  },
+  {
+    "name": "so fly",
+    "author": "Hacker",
+    "data": [
+      {"species": "Vullaby", "item": "Eviolite", "ability": "Weak Armor", "level": 5, "teraType": "Electric", "evs": {"atk": 236, "def": 76, "spe": 196}, "nature": "Adamant", "moves": ["Brave Bird", "Defog", "Knock Off", "Roost"]},
+      {"species": "Doduo", "gender": "M", "item": "Sky Plate", "ability": "Early Bird", "level": 5, "teraType": "Flying", "evs": {"atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Brave Bird", "Knock Off", "Protect", "Quick Attack"]},
+      {"species": "Mareanie", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "level": 5, "teraType": "Steel", "evs": {"hp": 116, "atk": 12, "def": 180, "spd": 180}, "nature": "Impish", "moves": ["Gunk Shot", "Liquidation", "Pin Missile", "Recover"]},
+      {"species": "Mienfoo", "gender": "M", "item": "Eviolite", "ability": "Regenerator", "level": 5, "teraType": "Steel", "evs": {"hp": 76, "def": 196, "spd": 196}, "nature": "Careful", "moves": ["Fake Out", "High Jump Kick", "Knock Off", "U-turn"]},
+      {"species": "Mudbray", "gender": "M", "item": "Eviolite", "ability": "Stamina", "level": 5, "teraType": "Water", "evs": {"hp": 36, "atk": 196, "def": 196, "spe": 76}, "nature": "Adamant", "moves": ["Earthquake", "Heavy Slam", "Roar", "Stealth Rock"]},
+      {"species": "Voltorb-Hisui", "item": "Eviolite", "ability": "Static", "level": 5, "teraType": "Ghost", "evs": {"hp": 36, "def": 36, "spa": 236, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Thunderbolt", "Thunder Wave", "Volt Switch"]}
     ]
   }
 ]
