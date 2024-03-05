@@ -63,7 +63,7 @@
   "Smeargle": {"sets": {"Lead": {}}},
   "Blissey": {"sets": {"Defensive": {}}},
   "Suicune": {"sets": {"Calm Mind": {}}},
-  "Tyranitar": {"sets": {"Choice Band": {"description": "<p>168 Speed EVs allow Tyranitar to outspeed Adamant Kingambit.</p>"}, "Sand setter": {"description": "<p>16 Defense EVs allow Tyranitar to survive Speed-boosting Great Tusk's Headlong Rush, while 24 Special Attack EVs guarantee a 2HKO on maximum HP Great Tusk after Stealth Rock.</p>"}}},
+  "Tyranitar": {"sets": {"Choice Band": {"description": "<p>168 Speed EVs allow Tyranitar to outspeed Adamant Kingambit.</p>"}, "Sand Setter": {"description": "<p>16 Defense EVs allow Tyranitar to survive Speed-boosting Great Tusk's Headlong Rush, while 24 Special Attack EVs guarantee a 2HKO on maximum HP Great Tusk after Stealth Rock.</p>"}}},
   "Blaziken": {"sets": {"Swords Dance": {}}},
   "Pelipper": {
     "sets": {
@@ -123,7 +123,15 @@
   },
   "Mamoswine": {"outdated": true, "sets": {"Stealth Rock": {}}},
   "Rotom-Wash": {"sets": {"Defensive Pivot": {"description": "<p>12 Speed EVs let Rotom-W outspeed uninvested Great Tusk.</p>"}}},
-  "Heatran": {"sets": {"Offensive": {}, "Specially Defensive": {}}},
+  "Heatran": {
+    "sets": {
+      "Offensive": {
+        "description": "<p>Heatran is a fearsome wallbreaker capable of easily shutting down defensive teams, leveraging its defensive profile to find multiple opportunities to switch in and wreak havoc. Magma Storm is a powerful Fire-type STAB move that can trap Pokemon like Blissey and Toxapex. Earth Power allows Heatran to hit bulky Fire-types that would otherwise resist Magma Storm such as Skeledirge, Gouging Fire and, most notably, opposing Leftovers Heatran. Taunt completely shuts down recovery from defensive Pokemon that would otherwise withstand its offensive assault such as Galarian Slowking and Blissey, and it allows Heatran to beat each of these Pokemon 1-on-1 in tandem with Magma Storm. Stealth Rock can be considered in the last slot, as Heatran's consistency in forcing switches can give it a free turn to set up Stealth Rock; however, Will-O-Wisp can be used to hinder switch-ins such as Roaring Moon and Ting-Lu that would otherwise freely switch in against Heatran. A Timid nature lets Heatran outspeed and threaten Choice Band Rillaboom, in addition to quickly burning Adamant Dragonite with Will-O-Wisp, though a Modest nature could be considered to guarantee an OHKO on bulky Kingambit variants. Tera Grass flips Heatran's matchup against Water- and Ground-types such as Hisuian Samurott and Landorus-T and synergizes very well with Flash Fire; Tera Ghost grants Heatran a crucial Fighting immunity that can help against Zamazenta, in addition to blocking Rapid Spin from the likes of Great Tusk and Iron Treads. Leftovers provides Heatran with passive recovery and allows it to stick around over the course of the match; Air Balloon could also be used to provide Heatran with a temporary Ground immunity, letting it safely switch into Gouging Fire and opposing Heatran.</p> <p>Heatran fits primarily on offense and bulky offense teams where it excels in ripping apart defensive cores for its teammates to exploit. Special sweepers such as Primarina and Raging Bolt greatly enjoy Heatran trapping and removing their checks, particularly Blissey. In return, Primarina discourages Ground-type switch-ins such as Landorus-T and Ting-Lu, while Raging Bolt can force out Water-types like Barraskewda and Hisuian Samurott. Rillaboom is another fantastic teammate for Heatran that not only provides it with extra passive recovery and more resistance against Earthquake but can form a formidable offensive core with it, with Rillaboom capable of handling Ground- and Water-types such as Great Tusk and Ogerpon-W and Heatran taking advantage of Rillaboom's switch-ins like Corviknight and Skeledirge, alongside setting Stealth Rock to spread chip damage for both itself and Rillaboom. Additionally, some of Rillaboom's teammates like Hawlucha and Hatterene appreciate Heatran removing their checks via Magma Storm, allowing them to more easily sweep late-game, while both Pokemon can force out Ground- and Fighting-types like Great Tusk and Zamazenta. Lastly, Heatran enjoys Rapid Spin support from Great Tusk removing entry hazards that cut into its longevity, and it also enjoys having a check to Dragonite. In exchange, Heatran can easily switch in on and threaten Pokemon such as Meowscarada, Weavile, and Calm Mind Iron Valiant that Great Tusk struggles against.</p>"
+      },
+      "Specially Defensive": {}
+    },
+    "credits": {"writtenBy": [{"username": "viivian", "user_id": 584916}], "teams": [{"name": "Quality checked by", "members": [{"username": "BT89", "user_id": 487308}, {"username": "autumn", "user_id": 384270}]}, {"name": "Grammar checked by", "members": [{"username": "SolarBeam", "user_id": 470115}]}]}
+  },
   "Cresselia": {
     "outdated": true,
     "sets": {
