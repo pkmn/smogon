@@ -393,6 +393,7 @@
     "RestTalk": {"moves": ["Calm Mind", "Psychic", "Rest", "Sleep Talk"], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "def": 252, "spd": 4}}
   },
   "Mesprit": {
+    "Physically Defensive": {"moves": ["Stealth Rock", "Psychic", "U-turn", ["Grass Knot", "Healing Wish"]], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 240, "def": 176, "spe": 92}},
     "Lead": {"moves": ["Stealth Rock", "Psychic", ["Ice Beam", "Grass Knot"], ["Thunderbolt", "U-turn"]], "item": ["Expert Belt", "Leftovers"], "nature": "Modest", "evs": {"hp": 120, "spa": 252, "spe": 136}},
     "Offensive Calm Mind": {"moves": ["Calm Mind", "Psychic", "Thunderbolt", ["Hidden Power Ground", "Ice Beam", "Substitute"]], "item": ["Life Orb", "Leftovers"], "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}},
     "Weather Support": {"moves": [["Rain Dance", "Sunny Day"], ["Psychic", "Zen Headbutt"], ["Stealth Rock", "Grass Knot", "U-turn"], "Healing Wish"], "item": ["Damp Rock", "Heat Rock"], "nature": ["Timid", "Jolly"], "evs": {"hp": 252, "spd": 4, "spe": 252}},
