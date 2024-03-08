@@ -39,8 +39,8 @@
   "Garchomp": {
     "Offensive Stealth Rock": {"moves": ["Earthquake", ["Outrage", "Stone Edge"], "Stealth Rock", "Swords Dance"], "ability": "Rough Skin", "item": ["Dragonium Z", "Rockium Z"], "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
     "TankChomp": {"moves": ["Earthquake", ["Dragon Tail", "Spikes"], ["Stealth Rock", "Spikes"], "Toxic"], "ability": "Rough Skin", "item": "Rocky Helmet", "nature": "Impish", "evs": {"hp": 252, "def": 200, "spe": 56}, "teratypes": "Ghost"},
-    "Swords Dance + Loaded Dice": {"moves": ["Swords Dance", "Earthquake", "Scale Shot", ["Fire Fang", "Iron Head"]], "ability": "Rough Skin", "item": "Loaded Dice", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}, "teratypes": ["Fire", "Steel"]},
-    "Swords Dance": {"moves": ["Swords Dance", "Earthquake", "Scale Shot", ["Fire Fang", "Fire Blast"]], "ability": "Rough Skin", "item": "Garchompite", "nature": ["Jolly", "Naive"], "evs": {"atk": 252, "spd": 4, "spe": 252}},
+    "Swords Dance + Loaded Dice": {"moves": ["Swords Dance", "Earthquake", "Scale Shot", "Fire Fang"], "ability": "Rough Skin", "item": "Loaded Dice", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}, "teratypes": ["Fire", "Steel"]},
+    "Mega Swords Dance": {"moves": ["Swords Dance", "Earthquake", "Scale Shot", "Fire Fang"], "ability": "Rough Skin", "item": "Garchompite", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
     "Mixed Attacker": {"moves": ["Earthquake", "Draco Meteor", ["Fire Blast", "Flamethrower"], ["Hidden Power Ice", "Spikes", "Stealth Rock"]], "ability": "Rough Skin", "item": "Garchompite", "nature": "Naive", "evs": {"atk": 4, "spa": 252, "spe": 252}}
   },
   "Hippowdon": {"Defensive": {"moves": ["Earthquake", "Stealth Rock", "Toxic", "Slack Off"], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "def": 4, "spd": 252}, "teratypes": "Steel"}},
