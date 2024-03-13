@@ -10,11 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v3
-    - name: Setup Node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
+      uses: actions/checkout@v4
     - name: Install dependencies
       run: npm install
     - name: Update
