@@ -1,37 +1,60 @@
 [
   {
-    "name": "sdfsdfgdgb",
-    "author": "DugZaッ",
+    "author": "gum",
     "data": [
-      {"species": "Sandaconda", "gender": "M", "item": "Rocky Helmet", "ability": "Shed Skin", "teraType": "Fairy", "evs": {"hp": 252, "def": 168, "spe": 88}, "nature": "Impish", "moves": ["Earthquake", "Rest", "Stealth Rock", "Stone Edge"]},
-      {"species": "Articuno", "item": "Heavy-Duty Boots", "ability": "Pressure", "teraType": "Poison", "evs": {"hp": 252, "spd": 200, "spe": 56}, "nature": "Calm", "moves": ["Freeze-Dry", "Haze", "Roost", "U-turn"]},
-      {"species": "Dudunsparce", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Serene Grace", "teraType": "Fairy", "evs": {"hp": 252, "atk": 4, "spd": 236, "spe": 16}, "nature": "Careful", "moves": ["Body Slam", "Coil", "Dragon Tail", "Roost"]},
-      {"species": "Hariyama", "gender": "M", "item": "Leftovers", "ability": "Guts", "teraType": "Steel", "evs": {"hp": 16, "atk": 56, "def": 20, "spd": 252, "spe": 164}, "nature": "Adamant", "moves": ["Bulk Up", "Bullet Punch", "Drain Punch", "Knock Off"]},
-      {"species": "Magneton", "item": "Choice Scarf", "ability": "Magnet Pull", "teraType": "Electric", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Flash Cannon", "Steel Beam", "Thunderbolt", "Volt Switch"]},
-      {"species": "Mesprit", "item": "Choice Specs", "ability": "Levitate", "teraType": "Fairy", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dazzling Gleam", "Healing Wish", "Psychic", "Trick"]}
+      {"species": "Arboliva", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Seed Sower", "teraType": "Poison", "evs": {"hp": 216, "spa": 176, "spe": 116}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Giga Drain", "Hyper Voice", "Strength Sap"]},
+      {"species": "Bruxish", "gender": "M", "item": "Choice Scarf", "ability": "Strong Jaw", "teraType": "Ice", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Flip Turn", "Ice Fang", "Psychic Fangs", "Wave Crash"]},
+      {"species": "Grafaiai", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Prankster", "teraType": "Dark", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Encore", "Gunk Shot", "Knock Off", "Parting Shot"]},
+      {"species": "Hariyama", "gender": "M", "item": "Leftovers", "ability": "Thick Fat", "teraType": "Steel", "evs": {"atk": 216, "def": 8, "spd": 252, "spe": 32}, "nature": "Adamant", "moves": ["Bulk Up", "Bullet Punch", "Drain Punch", "Knock Off"]},
+      {"species": "Sandaconda", "gender": "M", "item": "Rocky Helmet", "ability": "Shed Skin", "teraType": "Ghost", "evs": {"hp": 244, "def": 176, "spe": 88}, "nature": "Impish", "moves": ["Earthquake", "Glare", "Rest", "Stealth Rock"]},
+      {"species": "Scyther", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Technician", "teraType": "Ground", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Defog", "Dual Wingbeat", "U-turn"]}
+    ]
+  },
+  {
+    "name": "alcremie grassy terrain edit",
+    "author": "asa",
+    "data": [
+      {"species": "Thwackey", "gender": "M", "item": "Terrain Extender", "ability": "Grassy Surge", "teraType": "Grass", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Grassy Glide", "Knock Off", "Taunt", "U-turn"]},
+      {"species": "Alcremie", "item": "Grassy Seed", "ability": "Aroma Veil", "teraType": "Poison", "evs": {"hp": 252, "def": 188, "spe": 68}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Acid Armor", "Calm Mind", "Draining Kiss", "Stored Power"]},
+      {"species": "Grafaiai", "gender": "M", "item": "Grassy Seed", "ability": "Unburden", "teraType": "Flying", "evs": {"hp": 196, "atk": 252, "spe": 60}, "nature": "Adamant", "moves": ["Acrobatics", "Encore", "Low Kick", "Swords Dance"]},
+      {"species": "Jolteon", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Volt Absorb", "teraType": "Ghost", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Shadow Ball", "Thunderbolt", "Volt Switch"]},
+      {"species": "Sandaconda", "gender": "M", "item": "Eject Button", "ability": "Shed Skin", "teraType": "Ghost", "evs": {"hp": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Glare", "High Horsepower", "Rest", "Stealth Rock"]},
+      {"species": "Sceptile", "gender": "M", "item": "Grassy Seed", "ability": "Unburden", "teraType": "Fire", "evs": {"hp": 248, "atk": 252, "spd": 4, "spe": 4}, "nature": "Adamant", "moves": ["Acrobatics", "Drain Punch", "Leaf Blade", "Swords Dance"]}
+    ]
+  },
+  {
+    "name": "red card scept",
+    "author": "avarice",
+    "data": [
+      {"species": "Salazzle", "item": "Salac Berry", "ability": "Oblivious", "teraType": "Ghost", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Endure", "Fire Blast", "Nasty Plot", "Sludge Wave"]},
+      {"species": "Froslass", "item": "Life Orb", "ability": "Cursed Body", "teraType": "Ice", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Poltergeist", "Spikes", "Triple Axel"]},
+      {"species": "Jolteon", "gender": "M", "item": "Life Orb", "ability": "Volt Absorb", "teraType": "Fighting", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Alluring Voice", "Calm Mind", "Tera Blast", "Thunderbolt"]},
+      {"species": "Sceptile", "gender": "M", "item": "Red Card", "ability": "Unburden", "teraType": "Flying", "evs": {"hp": 252, "atk": 252, "spd": 4}, "nature": "Adamant", "moves": ["Acrobatics", "Drain Punch", "Leaf Blade", "Swords Dance"]},
+      {"species": "Scyther", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Technician", "teraType": "Normal", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Dual Wingbeat", "Quick Attack", "Swords Dance"]},
+      {"species": "Snorlax", "gender": "M", "item": "Custap Berry", "ability": "Gluttony", "teraType": "Ghost", "evs": {"atk": 252, "def": 136, "spd": 120}, "nature": "Adamant", "moves": ["Curse", "Double-Edge", "Hammer Arm", "Heat Crash"]}
+    ]
+  },
+  {
+    "name": "specs whims + bu yama",
+    "author": "asa",
+    "data": [
+      {"species": "Whimsicott", "gender": "M", "item": "Choice Specs", "ability": "Infiltrator", "teraType": "Fairy", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Giga Drain", "Moonblast", "Psychic", "U-turn"]},
+      {"species": "Grafaiai", "gender": "M", "item": "Choice Scarf", "ability": "Poison Touch", "teraType": "Dark", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Encore", "Gunk Shot", "Knock Off", "U-turn"]},
+      {"species": "Hariyama", "gender": "M", "item": "Leftovers", "ability": "Guts", "teraType": "Steel", "evs": {"hp": 12, "atk": 160, "spd": 252, "spe": 84}, "nature": "Adamant", "moves": ["Bulk Up", "Bullet Punch", "Drain Punch", "Knock Off"]},
+      {"species": "Lanturn", "gender": "M", "item": "Leftovers", "ability": "Volt Absorb", "teraType": "Flying", "evs": {"hp": 36, "def": 252, "spd": 180, "spe": 40}, "nature": "Calm", "moves": ["Flip Turn", "Ice Beam", "Scald", "Volt Switch"]},
+      {"species": "Sandslash-Alola", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Slush Rush", "teraType": "Ghost", "evs": {"hp": 252, "spd": 216, "spe": 40}, "nature": "Careful", "moves": ["Ice Spinner", "Knock Off", "Rapid Spin", "Spikes"]},
+      {"species": "Uxie", "item": "Rocky Helmet", "ability": "Levitate", "teraType": "Steel", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Relaxed", "ivs": {"spe": 6}, "moves": ["Encore", "Psychic Noise", "Stealth Rock", "U-turn"]}
     ]
   },
   {
     "author": "gum",
     "data": [
-      {"species": "Wo-Chien", "item": "Leftovers", "ability": "Tablets of Ruin", "teraType": "Poison", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Foul Play", "Knock Off", "Rest", "Sleep Talk"]},
-      {"species": "Floatzel", "gender": "M", "item": "Choice Scarf", "ability": "Swift Swim", "teraType": "Fighting", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Flip Turn", "Ice Spinner", "Low Kick", "Wave Crash"]},
-      {"species": "Hariyama", "gender": "M", "item": "Assault Vest", "ability": "Thick Fat", "teraType": "Steel", "evs": {"atk": 252, "spd": 252, "spe": 4}, "nature": "Adamant", "moves": ["Bullet Punch", "Close Combat", "Drain Punch", "Knock Off"]},
-      {"species": "Mismagius", "gender": "M", "item": "Choice Specs", "ability": "Levitate", "teraType": "Fairy", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dazzling Gleam", "Mystical Fire", "Shadow Ball", "Trick"]},
-      {"species": "Sandaconda", "gender": "M", "item": "Rocky Helmet", "ability": "Shed Skin", "teraType": "Dragon", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Earthquake", "Glare", "Rest", "Stealth Rock"]},
-      {"species": "Sandslash-Alola", "gender": "M", "item": "Leftovers", "ability": "Slush Rush", "teraType": "Ghost", "evs": {"hp": 252, "spd": 204, "spe": 52}, "nature": "Careful", "moves": ["Icicle Crash", "Knock Off", "Rapid Spin", "Spikes"]}
-    ]
-  },
-  {
-    "name": "subsd glastrier",
-    "author": "starshine gn",
-    "data": [
-      {"species": "Glastrier", "item": "Leftovers", "ability": "Chilling Neigh", "teraType": "Poison", "evs": {"hp": 252, "atk": 92, "spe": 164}, "nature": "Adamant", "moves": ["Close Combat", "Icicle Crash", "Substitute", "Swords Dance"]},
-      {"species": "Decidueye", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Long Reach", "teraType": "Fairy", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Bold", "moves": ["Defog", "Roost", "Shadow Ball", "U-turn"]},
-      {"species": "Hariyama", "gender": "M", "item": "Leftovers", "ability": "Thick Fat", "teraType": "Fairy", "evs": {"hp": 12, "def": 240, "spd": 252, "spe": 4}, "nature": "Careful", "moves": ["Close Combat", "Knock Off", "Rest", "Sleep Talk"]},
-      {"species": "Mesprit", "item": "Choice Scarf", "ability": "Levitate", "teraType": "Fairy", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Dazzling Gleam", "Healing Wish", "Mystical Power", "U-turn"]},
-      {"species": "Sandaconda", "gender": "M", "item": "Rocky Helmet", "ability": "Shed Skin", "teraType": "Dragon", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Earthquake", "Glare", "Rest", "Stealth Rock"]},
-      {"species": "Skuntank", "gender": "M", "item": "Black Glasses", "ability": "Aftermath", "teraType": "Ghost", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Timid", "moves": ["Dark Pulse", "Knock Off", "Nasty Plot", "Sludge Bomb"]}
+      {"species": "Frosmoth", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Ice Scales", "teraType": "Water", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Ice Beam", "Quiver Dance", "Tera Blast"]},
+      {"species": "Bombirdier", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Big Pecks", "teraType": "Dark", "evs": {"hp": 96, "atk": 252, "spe": 160}, "nature": "Jolly", "moves": ["Brave Bird", "Knock Off", "Roost", "Sucker Punch"]},
+      {"species": "Bronzong", "item": "Leftovers", "ability": "Heatproof", "teraType": "Ground", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Earthquake", "Gyro Ball", "Night Shade", "Protect"]},
+      {"species": "Decidueye", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Long Reach", "teraType": "Fairy", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Bold", "moves": ["Defog", "Knock Off", "Roost", "Shadow Ball"]},
+      {"species": "Grafaiai", "gender": "M", "item": "Choice Scarf", "ability": "Poison Touch", "teraType": "Dark", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Encore", "Gunk Shot", "Knock Off", "U-turn"]},
+      {"species": "Sandaconda", "gender": "M", "item": "Rocky Helmet", "ability": "Shed Skin", "teraType": "Steel", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Earthquake", "Rest", "Stealth Rock", "Stone Edge"]}
     ]
   }
 ]
