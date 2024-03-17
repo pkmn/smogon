@@ -32,6 +32,7 @@
   "Bulbasaur": {"lc": {"Choice Scarf": {"moves": ["Sleep Powder", "Sludge Bomb", "Leaf Storm", ["Hidden Power Ground", "Hidden Power Fire"]], "item": "Choice Scarf", "nature": ["Modest", "Timid"], "evs": {"spa": 240, "spe": 240}}}},
   "Venusaur": {
     "uu": {
+      "Bulky Swords Dance": {"moves": ["Swords Dance", "Power Whip", ["Earthquake", "Return"], ["Synthesis", "Sleep Powder"]], "item": "Black Sludge", "nature": "Adamant", "evs": {"hp": 252, "atk": 120, "spe": 136}},
       "Special Attacker": {"moves": ["Leaf Storm", "Sludge Bomb", "Sleep Powder", "Synthesis"], "item": "Life Orb", "nature": "Timid", "evs": {"hp": 4, "spa": 252, "spe": 252}},
       "Swords Dance": {"moves": ["Swords Dance", "Power Whip", ["Earthquake", "Return"], "Sleep Powder"], "item": ["Leftovers", "Life Orb"], "nature": "Jolly", "evs": {"hp": 4, "atk": 252, "spe": 252}},
       "Physically Defensive": {"moves": [["Grass Knot", "Leaf Storm"], "Sludge Bomb", ["Sleep Powder", "Roar"], ["Synthesis", "Leech Seed"]], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "def": 164, "spe": 92}},
@@ -277,7 +278,7 @@
   "Entei": {
     "uu": {
       "Physical Attacker": {"moves": ["Flare Blitz", "Stone Edge", "Extreme Speed", "Hidden Power Grass"], "item": ["Life Orb", "Choice Band"], "nature": "Adamant", "evs": {"atk": 252, "spa": 4, "spe": 252}},
-      "SubCM": {"moves": ["Substitute", "Calm Mind", ["Flamethrower", "Fire Blast"], ["Hidden Power Grass", "Hidden Power Electric"]], "item": "Leftovers", "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "evs": {"hp": 136, "spa": 156, "spe": 216}},
+      "SubCM": {"moves": ["Substitute", "Calm Mind", ["Lava Plume", "Flamethrower"], ["Hidden Power Grass", "Toxic", "Protect"]], "item": "Leftovers", "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "evs": {"hp": 136, "spa": 156, "spe": 216}},
       "Sunny Day": {"moves": ["Sunny Day", ["Fire Blast", "Flamethrower"], "Solar Beam", "Calm Mind"], "item": ["Life Orb", "Heat Rock"], "nature": "Timid", "evs": {"def": 4, "spa": 252, "spe": 252}},
       "Mixed Calm Mind": {"moves": ["Calm Mind", ["Fire Blast", "Flamethrower"], "Hidden Power Grass", "Stone Edge"], "item": "Life Orb", "nature": "Timid", "ivs": {"hp": 30, "atk": 30, "spa": 30}, "evs": {"hp": 4, "spa": 252, "spe": 252}},
       "Mono-Attacker": {"moves": [["Lava Plume", "Flamethrower"], "Calm Mind", "Rest", "Sleep Talk"], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "def": 252, "spd": 4}}
