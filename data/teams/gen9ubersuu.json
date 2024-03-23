@@ -104,5 +104,17 @@
       {"species": "Quagsire", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Unaware", "teraType": "Poison", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Earthquake", "Recover", "Spikes", "Toxic"]},
       {"species": "Slowking-Galar", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Regenerator", "teraType": "Water", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Chilly Reception", "Slack Off", "Sludge Bomb", "Toxic Spikes"]}
     ]
+  },
+  {
+    "name": "Zama Stall",
+    "author": "Leo Justice",
+    "data": [
+      {"species": "Dondozo", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Unaware", "teraType": "Fighting", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Relaxed", "ivs": {"spe": 0}, "moves": ["Body Press", "Curse", "Rest", "Waterfall"]},
+      {"species": "Blissey", "item": "Heavy-Duty Boots", "ability": "Natural Cure", "teraType": "Dark", "evs": {"hp": 24, "def": 4, "spa": 228, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Ice Beam", "Shadow Ball", "Soft-Boiled"]},
+      {"species": "Garganacl", "gender": "M", "item": "Leftovers", "ability": "Purifying Salt", "teraType": "Water", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "moves": ["Protect", "Recover", "Salt Cure", "Stealth Rock"]},
+      {"species": "Giratina", "item": "Heavy-Duty Boots", "ability": "Pressure", "teraType": "Fairy", "evs": {"hp": 248, "def": 244, "spe": 16}, "nature": "Bold", "moves": ["Defog", "Dragon Tail", "Rest", "Will-O-Wisp"]},
+      {"species": "Slowking-Galar", "gender": "M", "item": "Black Sludge", "ability": "Regenerator", "teraType": "Normal", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Chilly Reception", "Sludge Bomb", "Toxic Spikes", "Trick"]},
+      {"species": "Zamazenta", "item": "Rusted Shield", "ability": "Dauntless Shield", "teraType": "Water", "evs": {"atk": 116, "def": 192, "spe": 200}, "nature": "Jolly", "moves": ["Body Press", "Iron Defense", "Iron Head", "Rest"]}
+    ]
   }
 ]
