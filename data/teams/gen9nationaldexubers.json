@@ -33,25 +33,14 @@
     ]
   },
   {
-    "name": "Webs HO",
+    "name": "Deo-Speed Hyper Offense",
     "data": [
-      {"species": "Shuckle", "gender": "M", "item": "Mental Herb", "ability": "Sturdy", "teraType": "Ghost", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "moves": ["Encore", "Final Gambit", "Stealth Rock", "Sticky Web"]},
-      {"species": "Arceus", "item": "Silk Scarf", "ability": "Multitype", "teraType": "Normal", "evs": {"hp": 240, "atk": 252, "spe": 16}, "nature": "Adamant", "moves": ["Earthquake", "Extreme Speed", "Recover", "Swords Dance"]},
-      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "teraType": "Fire", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Eruption", "Precipice Blades", "Stone Edge", "Swords Dance"]},
-      {"species": "Necrozma-Dusk-Mane", "item": "Ultranecrozium Z", "ability": "Prism Armor", "teraType": "Psychic", "evs": {"atk": 224, "def": 32, "spe": 252}, "nature": "Adamant", "moves": ["Dragon Dance", "Earthquake", "Photon Geyser", "Stone Edge"]},
-      {"species": "Rayquaza", "item": "Life Orb", "ability": "Air Lock", "teraType": "Flying", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Dragon Ascent", "Dragon Dance", "Extreme Speed", "V-create"]},
-      {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "teraType": "Fighting", "evs": {"def": 180, "spa": 252, "spe": 76}, "nature": "Modest", "ivs": {"atk": 1}, "moves": ["Focus Blast", "Geomancy", "Hidden Power Rock", "Moonblast"], "hpType": "Rock"}
-    ]
-  },
-  {
-    "name": "Double Fairy Screens HO",
-    "data": [
-      {"species": "Deoxys-Speed", "item": "Light Clay", "ability": "Pressure", "teraType": "Ghost", "evs": {"hp": 100, "def": 44, "spa": 20, "spd": 92, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Light Screen", "Psycho Boost", "Reflect", "Taunt"]},
-      {"species": "Arceus", "item": "Life Orb", "ability": "Multitype", "teraType": "Normal", "evs": {"hp": 240, "atk": 252, "spe": 16}, "nature": "Adamant", "moves": ["Earthquake", "Extreme Speed", "Shadow Claw", "Swords Dance"]},
-      {"species": "Eternatus", "item": "Power Herb", "ability": "Pressure", "teraType": "Fire", "evs": {"def": 32, "spa": 252, "spd": 8, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dynamax Cannon", "Flamethrower", "Meteor Beam", "Sludge Bomb"]},
-      {"species": "Marshadow", "item": "Life Orb", "ability": "Technician", "teraType": "Ghost", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bulk Up", "Low Kick", "Poltergeist", "Shadow Sneak"]},
-      {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "teraType": "Fighting", "evs": {"hp": 32, "def": 136, "spa": 252, "spe": 88}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Geomancy", "Hidden Power Rock", "Moonblast"], "hpType": "Rock"},
-      {"species": "Zacian", "item": "Rusted Sword", "ability": "Intrepid Sword", "teraType": "Fighting", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Iron Head", "Swords Dance", "Wild Charge"]}
+      {"species": "Deoxys-Speed", "item": "Rocky Helmet", "ability": "Pressure", "teraType": "Steel", "evs": {"hp": 248, "def": 240, "spe": 16}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Magic Coat", "Spikes", "Stealth Rock", "Taunt"]},
+      {"species": "Arceus", "item": "Silk Scarf", "ability": "Multitype", "teraType": "Ghost", "evs": {"hp": 240, "atk": 252, "spe": 16}, "nature": "Adamant", "moves": ["Earthquake", "Extreme Speed", "Recover", "Swords Dance"]},
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "teraType": "Ground", "evs": {"hp": 140, "atk": 252, "spe": 116}, "nature": "Adamant", "moves": ["Heat Crash", "Precipice Blades", "Rock Polish", "Swords Dance"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Colbur Berry", "ability": "Prism Armor", "teraType": "Fairy", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Dragon Dance", "Earthquake", "Photon Geyser", "Stone Edge"]},
+      {"species": "Yveltal", "item": "Life Orb", "ability": "Dark Aura", "teraType": "Dark", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Naive", "moves": ["Dark Pulse", "Oblivion Wing", "Sucker Punch", "Taunt"]},
+      {"species": "Zacian", "item": "Rusted Sword", "ability": "Intrepid Sword", "teraType": "Electric", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Play Rough", "Swords Dance", "Wild Charge"]}
     ]
   },
   {
