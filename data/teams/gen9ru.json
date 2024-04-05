@@ -1,5 +1,17 @@
 [
   {
+    "name": "Barraskewda + Pawmot Balance",
+    "author": "Rarelyme",
+    "data": [
+      {"species": "Barraskewda", "gender": "M", "item": "Mystic Water", "ability": "Swift Swim", "teraType": "Water", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Aqua Jet", "Flip Turn", "Liquidation", "Psychic Fangs"]},
+      {"species": "Brambleghast", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Wind Rider", "teraType": "Ghost", "evs": {"hp": 252, "atk": 4, "spe": 252}, "nature": "Jolly", "moves": ["Poltergeist", "Power Whip", "Rapid Spin", "Strength Sap"]},
+      {"species": "Fezandipiti", "item": "Heavy-Duty Boots", "ability": "Toxic Chain", "teraType": "Water", "evs": {"hp": 248, "def": 248, "spe": 12}, "nature": "Bold", "moves": ["Moonblast", "Roost", "Sludge Bomb", "U-turn"]},
+      {"species": "Hippowdon", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Sand Stream", "teraType": "Water", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Impish", "moves": ["Earthquake", "Roar", "Slack Off", "Stealth Rock"]},
+      {"species": "Pawmot", "gender": "M", "item": "Magnet", "ability": "Iron Fist", "teraType": "Electric", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Double Shock", "Mach Punch", "Seed Bomb"]},
+      {"species": "Umbreon", "gender": "M", "item": "Leftovers", "ability": "Synchronize", "teraType": "Steel", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Foul Play", "Protect", "Toxic", "Wish"]}
+    ]
+  },
+  {
     "name": "Pawmot + Red Card Mimikyu BO",
     "author": "BpSnow_",
     "data": [
@@ -21,6 +33,16 @@
       {"species": "Milotic", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Marvel Scale", "teraType": "Dragon", "evs": {"hp": 200, "def": 56, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Haze", "Ice Beam", "Recover", "Scald"]},
       {"species": "Umbreon", "gender": "M", "item": "Leftovers", "ability": "Inner Focus", "teraType": "Poison", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Foul Play", "Protect", "Toxic", "Wish"]},
       {"species": "Zoroark-Hisui", "gender": "M", "item": "Choice Band", "ability": "Illusion", "teraType": "Ghost", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Low Kick", "Poltergeist", "Shadow Sneak", "U-turn"]}
+    ]
+  },
+  {
+    "data": [
+      {"species": "Politoed", "gender": "M", "item": "Damp Rock", "ability": "Drizzle", "teraType": "Steel", "evs": {"hp": 252, "def": 160, "spe": 96}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Encore", "Endeavor", "Ice Beam", "Surf"]},
+      {"species": "Barraskewda", "gender": "M", "item": "Mystic Water", "ability": "Swift Swim", "teraType": "Water", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Aqua Jet", "Close Combat", "Flip Turn", "Liquidation"]},
+      {"species": "Bisharp", "gender": "M", "item": "Eviolite", "ability": "Defiant", "teraType": "Ghost", "evs": {"hp": 148, "atk": 252, "spe": 108}, "nature": "Adamant", "moves": ["Iron Head", "Rain Dance", "Stealth Rock", "Sucker Punch"]},
+      {"species": "Kilowattrel", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Volt Absorb", "teraType": "Water", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hurricane", "Roost", "Volt Switch", "Weather Ball"]},
+      {"species": "Tornadus", "item": "Damp Rock", "ability": "Prankster", "teraType": "Steel", "evs": {"hp": 252, "spa": 4, "spe": 252}, "nature": "Timid", "moves": ["Bleakwind Storm", "Knock Off", "Rain Dance", "U-turn"]},
+      {"species": "Toxicroak", "gender": "M", "item": "Life Orb", "ability": "Dry Skin", "teraType": "Fighting", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Earthquake", "Gunk Shot", "Swords Dance"]}
     ]
   }
 ]
