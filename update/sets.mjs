@@ -74,7 +74,7 @@ const FORMATS = {
   // RBwhY?
   nintendocup1997: 'nc1997', nintendocup1998: 'nc1998', nintendocup1999: 'nc1999',
   lclevel100: 'lclevel100', petitcup: 'petitcup', pikacup: 'pikacup', monotype: 'monotype',
-  pu: 'pu', lc: 'lc', '1v1': '1v1', '2v2doubles': '2v2doubles'
+  pu: 'pu', lc: 'lc', '1v1': '1v1', '2v2doubles': '2v2doubles', stadiumou: 'stadiumou',
 };
 const ORDER = Object.keys(FORMATS);
 

@@ -545,7 +545,7 @@
   "Quagsire": {
     "uu": {"Wall": {"moves": ["Recover", "Earthquake", "Waterfall", ["Toxic", "Encore", "Yawn"]], "ability": "Water Absorb", "item": "Leftovers", "nature": "Impish", "evs": {"hp": 252, "atk": 4, "def": 252}}, "Curse": {"moves": ["Curse", "Recover", "Earthquake", "Waterfall"], "ability": "Water Absorb", "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "atk": 4, "spd": 252}}},
     "pu": {"Defensive": {"moves": [["Toxic", "Curse"], "Recover", "Earthquake", "Waterfall"], "ability": "Water Absorb", "item": "Leftovers", "nature": "Impish", "evs": {"hp": 252, "def": 200, "spd": 56}, "teratypes": "Water"}},
-    "ubers": {"Support": {"moves": ["Toxic", "Yawn", "Encore", "Recover"], "ability": "Water Absorb", "item": "Leftovers", "nature": "Calm", "evs": {"hp": 252, "def": 4, "spd": 252}}},
+    "ubers": {"Support": {"moves": ["Toxic", ["Earthquake", "Yawn"], "Encore", "Recover"], "ability": "Water Absorb", "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "def": 4, "spd": 252}}},
     "ou": {"Specially Defensive": {"moves": ["Earthquake", "Encore", "Recover", ["Toxic", "Ice Punch"]], "ability": "Water Absorb", "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "def": 56, "spd": 200}}}
   },
   "Espeon": {
