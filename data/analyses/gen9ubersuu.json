@@ -3,7 +3,8 @@
     "sets": {
       "Unaware Wall": {
         "description": "<p>Clefable carves a niche in Ubers UU as a bulky wall and Wish passer capable of stopping Pokemon like Nasty Plot Mewtwo and Zacian thanks to Unaware and a wincon thanks to Calm Mind. Calm Mind allows Clefable to become extremely bulky on the special side, letting it to take on Pokemon it otherwise couldn't like Palkia-O, and also reduces its passivity thanks to the Special Attack boost. The combination of Wish and Protect gives Clefable reliable recovery, allows it to PP stall, and can allow it to help Pokemon that lack reliable recovery like Palafin and Magearna out. Tera Dark allows Clefable to win against Pokemon it otherwise couldn't like Gholdengo and Mewtwo while also providing a useful immunity to Psychic-type attacks Deoxys and Stored Power Magearna. Clefable best fits on semi-stall as well as full stall and balance teams looking for a solid wall and Wish passer. Pokemon like Kyurem-W, Mewtwo, and Palafin that don't have reliable recovery appreciate Clefable providing Wish support to them, allowing them to excel better as offensive threats. Clefable struggles against Pokmeon like Arceus-Poison, Gholdengo, and Dialga that can muscle through it with their super effective STAB moves, so Pokemon that can take these threats on like Landorus and Ogerpon-H can be helpful to have.</p>"
-      }
+      },
+      "Magic Guard": {}
     },
     "credits": {"writtenBy": [{"username": "Bella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "Imperial", "user_id": 626445}, {"username": "Finchely", "user_id": 642468}]}, {"name": "Grammar checked by", "members": [{"username": "Rose", "user_id": 511181}]}]}
   },
@@ -154,6 +155,8 @@
     },
     "credits": {"writtenBy": [{"username": "vesp", "user_id": 610920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Imperial", "user_id": 626445}, {"username": "Bella", "user_id": 567483}]}, {"name": "Grammar checked by", "members": [{"username": "Rose", "user_id": 511181}]}]}
   },
+  "Shaymin-Sky": {"sets": {"All Out Attacker": {}, "Subseed": {}, "Choiced": {}}},
+  "Arceus-Bug": {"sets": {"Calm Mind": {}, "Utility": {}}},
   "Arceus-Dark": {
     "sets": {
       "Calm Mind": {
@@ -170,6 +173,7 @@
   },
   "Arceus-Dragon": {
     "sets": {
+      "Dragon Dance": {},
       "Support": {
         "description": "<p>Arceus-Dragon carves a small niche as a support Pokemon thanks to its incredible bulk, diverse amount of utility options, and solid typing allowing it to take on Pokemon like Palafin, Ogerpon-H, Arceus-Electric, and Chi-Yu. Draco Meteor is generally preferred as the STAB move, although Judgment is an option to trade off power for consistency and no Special Attack drop. Will-O-Wisp gives Arceus-Dragon the ability to more comfortably take on physical attackers like Kingambit, Great Tusk, and Zacian, but if these threats are not an issue, Thunder Wave can cripple the likes of Mewtwo, Kyurem-W, and Lunala with paralysis. The third moveslot is incredibly flexible; most commonly, Stealth Rock is run to allow Arceus-Dragon to provide support for its team. Dragon Tail and Roar are also options, as both provide phazing capabilities, with Dragon Tail not being affected by Taunt and Roar bypassing Substitutes and hitting Fairy-types like Zacian and Magearna. Flash Cannon is an option to provide coverage for Fairy-types, allowing Arceus-Dragon to not be completely walled by them, but it is extremely difficult to fit. Tera Steel gives Arceus-Dragon a valuable defensive typing, allowing it to take on Pokemon like Iron Bundle, Gholdengo, and Deoxys better while also providing a Toxic immunity. Tera Fairy and Tera Water are alternative Tera types that let Arceus-Dragon take on Pokemon like Great Tusk, Roaring Moon, (comma) and Kyurem-W better. The given EV spread allows Arceus-Dragon to be as bulky as possible while still outpacing Ogerpon-H. Arceus-Dragon generally finds use on defensive teams alongside other walls like Magearna and Toxapex. Fairy-types like Magearna, Zacian, and Clefable completely counter Arceus-Dragon, so checks to them like Galarian Slowking and Toxapex are valuable to have. Likewise, Ice-types like Chien-Pao and Kyurem-W beat Arceus-Dragon, so Pokemon like Magearna are helpful teammates.</p>"
       }
@@ -178,13 +182,15 @@
   },
   "Arceus-Electric": {
     "sets": {
+      "Ekiller": {},
+      "Dragon Dance": {},
       "Calm Mind": {
         "description": "<p>While it faces stiff competition from other Arceus formes like Arceus-Dark and Arceus-Fire, Arceus-Electric's offensive typing and near-unresisted coverage with Ice Beam makes it a dangerous setup sweeper. Electric-type Judgment deals to Pokemon like Palkia-O, Palafin, and Toxapex. Ice Beam allows Arceus-Electric to hit Pokemon that otherwise wall it like Great Tusk, Arceus-Grass, and Dialga. Tera Flying is generally preferred as it gives Arceus-Electric a valuable immunity to Ground-type attacks from Great Tusk and Landorus, though Tera Ice can be used to boost the power of Ice Beam. Arceus-Electric generally fits best on balance teams looking for a solid setup sweeper. Arceus-Electric's most immediate issue isGround-types like Great Tusk and Landorus that can threaten it. As such, Pokemon like Palkia-O, Kyurem-W, and Palafin that can threaten them out are naturally good partners. Arceus-Electric can also struggle to break through specially defensive walls like Giratina and Solgaleo, so partners like Kingambit, Chi-Yu, and Spectrier who can remove them form potent cores with it.</p>"
       }
     },
     "credits": {"writtenBy": [{"username": "Bella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "Finchely", "user_id": 642468}, {"username": "vesp", "user_id": 610920}]}, {"name": "Grammar checked by", "members": [{"username": "Rose", "user_id": 511181}]}]}
   },
-  "Arceus-Fighting": {"sets": {"Cosmic Power": {}}},
+  "Arceus-Fighting": {"sets": {"Cosmic Power": {}, "Support": {}}},
   "Arceus-Fire": {
     "sets": {
       "Extreme Killer": {
@@ -193,6 +199,7 @@
     },
     "credits": {"writtenBy": [{"username": "olivia", "user_id": 620359}], "teams": [{"name": "Quality checked by", "members": [{"username": "Bella", "user_id": 567483}, {"username": "vesp", "user_id": 610920}, {"username": "Imperial", "user_id": 626445}]}, {"name": "Grammar checked by", "members": [{"username": "Rose", "user_id": 511181}]}]}
   },
+  "Arceus-Ghost": {"sets": {"Ekiller": {}, "Calm Mind": {}}},
   "Arceus-Grass": {
     "sets": {
       "Calm Mind + Taunt": {
@@ -244,7 +251,7 @@
     "credits": {"writtenBy": [{"username": "Bella", "user_id": 567483}], "teams": [{"name": "Quality checked by", "members": [{"username": "Imperial", "user_id": 626445}, {"username": "Leo Justice", "user_id": 587908}]}, {"name": "Grammar checked by", "members": [{"username": "Rose", "user_id": 511181}]}]}
   },
   "Volcarona": {"sets": {"Quiver Dance": {"description": "<p>124 Speed is to outspeed Deoxys at +1</p>"}}},
-  "Reshiram": {"sets": {"Choice Scarf": {}}},
+  "Reshiram": {"sets": {"Choice Specs": {}}},
   "Landorus": {
     "sets": {
       "Choice Scarf": {
@@ -297,9 +304,12 @@
     },
     "credits": {"writtenBy": [{"username": "vesp", "user_id": 610920}], "teams": [{"name": "Quality checked by", "members": [{"username": "Imperial", "user_id": 626445}, {"username": "Bella", "user_id": 567483}, {"username": "Leo Justice", "user_id": 587908}]}, {"name": "Grammar checked by", "members": [{"username": "Rose", "user_id": 511181}]}]}
   },
+  "Lunala": {"sets": {"Bulky Calm Mind": {}, "Double Dance": {}, "Support": {}, "Trick Room Sweeper": {}}},
+  "Necrozma-Dawn-Wings": {"sets": {"Specially Defensive": {}, "Bulky Calm mind": {}, "Offensive Trick Room": {}}},
   "Magearna": {
     "sets": {
-      "Utility": {
+      "Physically Defensive": {},
+      "Specially Defensive": {
         "description": "<p>Magearna is one of the best defensive Pokemon in Ubers UU, thanks to its role compression as both a pivot and entry hazard stacker. Magearna provides its team with useful utility options like Spikes, Volt Switch, Encore, and Thunder Wave. Fleur Cannon is an extremely powerful move, being able to chunk most of the metagame hard, especially Fairy-weak Pokemon like Arceus-Dark, both Urshifu formes, and Kyurem-W, whereas Draining Kiss greatly improves Magearna's longevity, at the cost of increased passivity. Encore and Thunder Wave both attempt to offset Magearna's passivity, with Encore punishing Pokemon attempting to set up on it, like Zamazenta-C, Mewtwo, and Zacian, by locking them into a move. Alternatively, Thunder Wave provides speed control for its teammates and cripples offensive Pokemon, like Zacian, Palkia-O, and Mewtwo. Tera Water allows Magearna to check Pokemon like Arceus-Fire, Chi-Yu, and Great Tusk, which it wouldn’t be able to do otherwise. Tera Flying is another option, allowing it to check Pokemon like Landorus and Great Tusk while becoming immune to Spikes, though this comes at the cost of a Stealth Rock weakness. Magearna is pressured by offensive Pokemon like Chi-Yu, Landorus, and Ogerpon-H; as such, Pokemon like Giratina, Kyurem-W, and Arceus-Dark partner well with it. Magearna's unique combination of both Volt Switch and Spikes allows it to enable Pokemon like Palkia-O, Kyurem-W, and Chi-Yu fantastically, as their checks like Arceus-Dark, Solgaleo, and Palkia-O can't hold Heavy-Duty Boots.</p>"
       },
       "Double Dance": {
@@ -418,7 +428,8 @@
     "sets": {
       "Choice Band": {
         "description": "<p>Palafin is one of the most powerful revenge killers and cleaners in Ubers UU, sporting high base Attack stat and a STAB priority move with above-average Base Power. Jet Punch cleanly 2HKOes most offensive targets that don't resist it and allows Palafin to revenge kill setup sweepers such as Arceus. Close Combat hits common Water-resistant Pokemon such as Palkia-O and Kyurem-W. Flip Turn allows Palafin to deal good damage while reacting to an opponent's switches and grabbing momentum for its team. Tera Water powers up Palafin's Water-Type STAB moves, allowing Jet Punch to reach damage thresholds such as OHKOing Mewtwo after Stealth Rock and one layer of Spikes and having a favorable chance to OHKO +1 Defense Sneasler after a layer of Spikes. Palafin works very well on balance and bulky offense teams, as it can easily clean up late-game when the opponent’s Pokemon are all weakened. However, Palafin struggles to break through walls such as Giratina and Toxapex, so stallbreakers such as Hatterene, Mewtwo, and Kyurem-W work alongside it very well.</p>"
-      }
+      },
+      "Bulk Up": {}
     },
     "credits": {"writtenBy": [{"username": "Finchely", "user_id": 642468}], "teams": [{"name": "Quality checked by", "members": [{"username": "Imperial", "user_id": 626445}, {"username": "Bella", "user_id": 567483}]}, {"name": "Grammar checked by", "members": [{"username": "Rose", "user_id": 511181}]}]}
   },
@@ -460,12 +471,12 @@
       "Offensive Utility": {
         "description": "<p>Thanks to its good typing, stats, and ample movepool, Great Tusk can serve as both an effective entry hazard remover and wallbreaker. Knock Off helps Great Tusk punish Pokemon that wall it such as Giratina, Skarmory, and Landorus. Close Combat lets Great Tusk hit threats such as Arceus-Dark and Ursaluna hard, while Stealth Rock lets Great Tusk compress the roles of hazard setter, wallbreaker, and hazard remover. Tera Dark is used to bolster Knock Off and grant Great Tusk an immunity to Psychic-type moves from the likes of Deoxys and Mewtwo, letting it punish them with a super effective Knock Off. Tera Water can instead be used to grant Great Tusk a resistance to Palafin's Water moves and Arceus-Fire's Flare Blitz. Hazard-weak wallbreakers, such as Chi-Yu and Kyurem-W, appreciate Great Tusk removing hazards for them; in exchange, they target the physical walls that Great Tusk loathes. Kyurem-W in particular forms an excellent offensive core with it, being able to offensively pressure its checks such as Giratina and Lugia. Arceus-Dark also makes a good partner for Great Tusk, as it covers Great Tusk's weakness to special attackers while also enjoying hazards being removed. Furthermore, Arceus-Dark pressures the Ghost-types that block Great Tusk's attempts to use Rapid Spin.</p>"
       },
-      "Physically Defensive": {
-        "description": "<p>Great Tusk is one of the best physically defensive Pokemon in Ubers UU. It has an excellent utility movepool, with options like Rapid Spin and Knock Off, to support its teammates. Bulk Up can allow Great Tusk to use its amazing bulk to sweep weakened teams, and Stealth Rock allows it to provide even more utility to its team in the form of entry hazard support. Knock Off allows Great Tusk to hit incoming Psychic- and Ghost-types that try to block Rapid Spin, notably Mewtwo, Deoxys, and Giratina, while also providing greatly helping its team by removing a foe's item. Rapid Spin allows Great Tusk to remove hazards, which enables Pokemon like Kyurem-W and Chi-Yu, while also boosting its Speed, potentially allowing it a shot at sweeping the opposing team. Tera Steel is the best defensive Tera type for Great Tusk, as it flips its many weaknesses into resistances, such as Fairy, Psychic, and Ice, which helps against Pokemon like Baxcalibur, Zacian and Deoxys. Tera Ground is also good to remove its Psychic and Fairy weaknesses against Pokemon like Mewtwo and Zacian while also boosting Earthquake. Most strong special attackers will beat Great Tusk, such as Mewtwo and Palkia-O; therefore, it mostly pairs well with special walls, such as Blissey and Arceus-Dark. Great Tusk also has a very strong synergy with Wish passers like Alomomola and Clefable, as they vastly increase its longevity as it has due to it having no natural recovery outside of Leftovers. Great Tusk is an excellent check to Pokemon like Urshifu-S and Kingambit due to its great typing and bulk, which can enable teammates like Magearna and Kyurem-W.</p>"
-      }
+      "Physically Defensive": {},
+      "Bulk Up": {}
     },
-    "credits": {"writtenBy": [{"username": "Bice", "user_id": 236507}, {"username": "Imperial", "user_id": 626445}], "teams": [{"name": "Quality checked by", "members": [{"username": "Bella", "user_id": 567483}, {"username": "vesp", "user_id": 610920}, {"username": "Finchely", "user_id": 642468}]}, {"name": "Grammar checked by", "members": [{"username": "Rose", "user_id": 511181}]}]}
+    "credits": {"writtenBy": [{"username": "Bice", "user_id": 236507}], "teams": [{"name": "Quality checked by", "members": [{"username": "vesp", "user_id": 610920}, {"username": "Finchely", "user_id": 642468}]}, {"name": "Grammar checked by", "members": [{"username": "Rose", "user_id": 511181}]}]}
   },
+  "Iron Treads": {"sets": {"Utility": {}, "Booster Speed Lead": {}}},
   "Iron Moth": {"sets": {"Booster Energy": {}}},
   "Baxcalibur": {
     "sets": {
@@ -507,7 +518,6 @@
   },
   "Roaring Moon": {"sets": {"Dragon Dance": {}}},
   "Walking Wake": {"sets": {"Choice Specs": {}}},
-  "Ogerpon-Wellspring": {"sets": {"Swords Dance": {}}},
   "Ogerpon-Hearthflame": {
     "sets": {
       "Swords Dance": {
