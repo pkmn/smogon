@@ -3,7 +3,7 @@ name: Update Teams
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0 * * *'
+    - cron: '37 4 * * *'
 
 jobs:
   scheduled:
