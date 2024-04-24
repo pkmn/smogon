@@ -36,10 +36,10 @@
   "Crawdaunt": {"sets": {"Choice Band": {}, "Swords Dance": {}}},
   "Salamence": {"sets": {"Dragon Dance": {}, "Choice Item": {}, "Defensive": {}}},
   "Metagross": {"sets": {"Choice Band": {}}},
-  "Latias": {"sets": {"Setup Sweeper": {}}},
-  "Latios": {"sets": {"Choice Specs": {}, "Choice Scarf": {}, "Take Heart": {}}},
+  "Latias": {"sets": {"Setup Sweeper": {}, "Choice Scarf": {}, "Choice Specs": {}}},
   "Deoxys-Speed": {"sets": {"Suicide Lead": {}, "Dual Screens Lead": {}, "Nasty Plot": {}}},
   "Ambipom": {"sets": {"Population Bomb Sweeper": {}}},
+  "Weavile": {"sets": {"Choice Band": {}, "Swords Dance": {}}},
   "Magnezone": {"sets": {"Choice Specs": {}, "Parabolic Charge": {}}},
   "Yanmega": {"sets": {"Tail Glow": {}, "Quiver Dance": {}}},
   "Gliscor": {"sets": {"Utility": {}, "Swords Dance": {}}},
@@ -64,7 +64,7 @@
   "Reuniclus": {"sets": {"Take Heart": {}, "RegenVest": {}}},
   "Amoonguss": {"sets": {"Defensive Spinner": {}}},
   "Mienshao": {"sets": {"Thunderous Kick": {}, "Choice Scarf": {}}},
-  "Hydreigon": {"sets": {"Choice Scarf": {}, "Substitute + Nasty Plot": {}, "Offensive Nasty Plot": {}}},
+  "Hydreigon": {"sets": {"Choice Scarf": {}, "Choice Specs": {}, "Substitute + Nasty Plot": {}, "Offensive Nasty Plot": {}}},
   "Volcarona": {"sets": {"Quiver Dance": {}}},
   "Terrakion": {"sets": {"Wallbreaker": {}}},
   "Tornadus-Therian": {"sets": {"Utility": {}, "Assault Vest": {}, "Nasty Plot": {}}},
@@ -130,6 +130,7 @@
   "Dondozo": {"sets": {"Setup Sweeper": {}}},
   "Annihilape": {"sets": {"Bulk Up + Taunt": {}, "Bulk Up + Chesto Berry": {}, "Choice Scarf": {}, "Choice Band": {}}},
   "Clodsire": {"sets": {"Defensive": {}}},
+  "Kingambit": {"sets": {"Swords Dance": {}}},
   "Great Tusk": {
     "outdated": true,
     "sets": {
@@ -159,15 +160,6 @@
     },
     "credits": {"writtenBy": [{"username": "LBDC", "user_id": 464398}], "teams": [{"name": "Quality checked by", "members": [{"username": "Giagantic", "user_id": 220859}, {"username": "pannu", "user_id": 517892}]}, {"name": "Grammar checked by", "members": [{"username": "deetah", "user_id": 297659}]}]}
   },
-  "Roaring Moon": {
-    "outdated": true,
-    "sets": {
-      "Choice Band Wallbreaker": {
-        "description": "<p>Roaring Moon is an exceptional wallbreaker that deals devastating damage to typical defensive foes, such as Toxapex, Clodsire, and Rotom-W, thanks to its newfound access to high-power STAB moves such as Glaive Rush, Dragon Darts, and Knock Off. Moreover, its high Speed along with Sucker Punch allows it to revenge kill boosted setup sweepers such as Volcarona and Choice Scarf users like Gholdengo. Dragon Darts can be run over Glaive Rush to more easily ensure the 2HKO on Great Tusk by committing Tera without fainting to bulkier walls such as Great Tusk due to Glaive Rush's self damage multiplier. Earthquake can be used to inflict more damage against Toxapex and Pokemon that resist both Roaring Moon's STAB types such as Fairy-types like Azumarill. U-turn allows Roaring Moon to both maintain momentum when faced with difficult matchups like Ting-Lu and chip the opponent's Pokemon. Tera Dragon maximizes Glaive Rush and Dragon Darts's damage. Roaring Moon fits best alongside offensive teammates that can help to dismantle defensive cores; examples include Iron Valiant, Gholdengo, and Gyarados. Due to its lackluster coverage against Fairy-types like Azumarill and common physically defensive Tera Fairy users such as Skeledirge and Toxapex, Roaring Moon needs teammates capable of handling them such as Gholdengo, Kingambit, Clodsire, Toxapex, and Dondozo. As a final note, Roaring Moon heavily benefits from being on sun teams alongside teammates commonly found on them like Torkoal and Scovillain, as its ability, Protosynthesis, lets it gain an Attack boost.</p>"
-      }
-    },
-    "credits": {"writtenBy": [{"username": "LBDC", "user_id": 464398}], "teams": [{"name": "Quality checked by", "members": [{"username": "Giagantic", "user_id": 220859}, {"username": "Arcueid", "user_id": 192866}]}, {"name": "Grammar checked by", "members": [{"username": "Rose", "user_id": 511181}, {"username": "autumn", "user_id": 384270}]}]}
-  },
   "Iron Valiant": {
     "outdated": true,
     "sets": {
@@ -188,11 +180,10 @@
   "Ogerpon": {"sets": {"Choice Band": {}, "Swords Dance": {}}},
   "Ogerpon-Wellspring": {"sets": {"Offensive Utility": {}, "Swords Dance": {}}},
   "Ogerpon-Cornerstone": {"sets": {"Offensive Utility": {}, "Swords Dance": {}, "Offensive Lead": {}}},
-  "Archaludon": {"sets": {"Assault Vest": {}, "Offensive Stealth Rock": {}, "Electro Shot Sweeper": {}}},
+  "Archaludon": {"sets": {"Assault Vest": {}, "Offensive Stealth Rock": {}, "Dragon Dance": {}, "Electro Shot Sweeper": {}}},
   "Hydrapple": {"sets": {"Nasty Plot": {}, "Assault Vest": {}}},
   "Gouging Fire": {"sets": {"Dragon Dance": {}}},
   "Raging Bolt": {"sets": {"Offensive Calm Mind": {}, "Substitute + Calm Mind": {}, "Choice Specs": {}}},
   "Iron Boulder": {"sets": {"Swords Dance": {}}},
-  "Iron Crown": {"sets": {"Psychic Terrain Sweeper": {}, "Stored Power": {}, "Assault Vest": {}}},
-  "Pecharunt": {"sets": {"Coil": {}, "Defensive Pivot": {}}}
+  "Iron Crown": {"sets": {"Psychic Terrain Sweeper": {}, "Stored Power": {}, "Assault Vest": {}}}
 }
