@@ -11,8 +11,8 @@
     "Specially-Based Mixed Attacker": {"moves": ["Draco Meteor", "Shadow Sneak", "Thunder", ["Outrage", "Earthquake"]], "item": "Griseous Orb", "nature": ["Rash", "Naive"], "evs": {"atk": 64, "def": 200, "spa": 184, "spe": 60}},
     "Stallbreaker": {"moves": ["Calm Mind", ["Dragon Pulse", "Shadow Ball"], ["Shadow Ball", "Thunder", "Aura Sphere"], "Substitute"], "item": "Griseous Orb", "nature": "Modest", "evs": {"hp": 84, "spa": 216, "spd": 96, "spe": 112}},
     "Sleeping Beauty (Mono-Attacker)": {"moves": ["Dragon Pulse", "Calm Mind", "Rest", "Sleep Talk"], "item": "Griseous Orb", "nature": "Modest", "evs": {"hp": 200, "def": 44, "spa": 224, "spd": 40}},
-    "Physical Attacker": {"moves": ["Substitute", "Outrage", "Earthquake", ["Shadow Force", "Shadow Claw"]], "item": "Griseous Orb", "nature": "Adamant", "evs": {"hp": 84, "atk": 216, "spd": 96, "spe": 112}},
-    "RestTalk": {"moves": ["Rest", "Sleep Talk", "Outrage", ["Shadow Force", "Earthquake", "Shadow Claw"]], "item": "Griseous Orb", "nature": "Adamant", "evs": {"hp": 84, "atk": 216, "spd": 96, "spe": 112}}
+    "Physical Attacker": {"moves": [["Will-O-Wisp", "Substitute"], ["Outrage", "Dragon Claw"], "Earthquake", ["Shadow Force", "Shadow Claw"]], "item": "Griseous Orb", "nature": "Adamant", "evs": {"hp": 84, "atk": 216, "spd": 96, "spe": 112}},
+    "RestTalk": {"moves": ["Rest", "Sleep Talk", "Outrage", ["Shadow Force", "Earthquake"]], "item": "Griseous Orb", "nature": "Adamant", "evs": {"hp": 84, "atk": 216, "spd": 96, "spe": 112}}
   },
   "Cresselia": {"Wall": {"moves": ["Ice Beam", "Moonlight", "Thunder Wave", ["Hidden Power Fire", "Toxic", "Lunar Dance"]], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "def": 252, "spd": 4}}, "Dual Screens": {"moves": ["Light Screen", "Reflect", "Lunar Dance", ["Thunder Wave", "Moonlight", "Ice Beam"]], "item": "Light Clay", "nature": "Timid", "evs": {"hp": 252, "spd": 24, "spe": 232}}},
   "Tentacruel": {"Lead": {"moves": ["Toxic Spikes", "Rapid Spin", "Icy Wind", "Hydro Pump"], "item": ["Lum Berry", "Focus Sash"], "nature": "Timid", "evs": {"hp": 132, "spa": 160, "spe": 216}}},
