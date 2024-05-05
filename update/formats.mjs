@@ -13,8 +13,8 @@ import stringify from 'json-stringify-pretty-compact';
 
 import {Dex} from '@pkmn/sim';
 
-import NAMES from '../data/formats/index.json' assert {type: 'json'};
-import FORMATS from '../smogon/latest.json' assert {type: 'json'};
+import NAMES from '../data/formats/index.json' with {type: 'json'};
+import FORMATS from '../smogon/latest.json' with {type: 'json'};
 
 const IGNORE = new Set([
   'gen8tiershiftcamomonsobtainable',
