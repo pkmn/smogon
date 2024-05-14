@@ -331,7 +331,7 @@
   "Glaceon": {"uu": {"Choice": {"moves": ["Blizzard", ["Hidden Power Ground", "Hidden Power Grass"], "Baton Pass", ["Ice Beam", "Shadow Ball"]], "item": ["Choice Scarf", "Choice Specs"], "nature": ["Timid", "Modest"], "evs": {"hp": 4, "spa": 252, "spe": 252}}}, "pu": {"BRRRR (Choice Specs)": {"moves": ["Ice Beam", "Shadow Ball", "Hidden Power Ground", "Baton Pass"], "item": "Choice Specs", "nature": "Timid", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "evs": {"hp": 40, "spa": 252, "spd": 4, "spe": 212}}}},
   "Gallade": {"ou": {"Attacking Lead": {"moves": ["Close Combat", "Will-O-Wisp", "Taunt", ["Ice Punch", "Destiny Bond"]], "item": "Lum Berry", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}}},
   "Heatran": {
-    "ubers": {"Stallbreaker": {"moves": ["Taunt", "Roar", ["Flamethrower", "Lava Plume"], ["Dragon Pulse", "Toxic"]], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 252, "spd": 128, "spe": 128}}},
+    "ubers": {"Stallbreaker": {"moves": [["Taunt", "Roar"], "Protect", ["Lava Plume", "Flamethrower"], "Toxic"], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 252, "def": 4, "spd": 252}}},
     "ou": {
       "Utility": {"moves": [["Stealth Rock", "Will-O-Wisp"], ["Fire Blast", "Flamethrower"], ["Earth Power", "Hidden Power Grass"], "Explosion"], "item": ["Leftovers", "Shuca Berry", "Passho Berry", "Focus Sash"], "nature": ["Modest", "Timid"], "evs": {"hp": 252, "spa": 4, "spe": 252}},
       "Trapper": {"moves": ["Magma Storm", ["Dragon Pulse", "Toxic"], ["Hidden Power Grass", "Taunt", "Earth Power"], ["Explosion", "Taunt", "Protect"]], "item": ["Passho Berry", "Shuca Berry", "Leftovers", "Lum Berry"], "nature": "Modest", "evs": {"hp": 4, "spa": 252, "spe": 252}},
@@ -826,7 +826,7 @@
     }
   },
   "Jirachi": {
-    "ubers": {"Wish Support": {"moves": ["Wish", "U-turn", ["Protect", "Iron Head"], ["Body Slam", "Thunder Wave", "Stealth Rock"]], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "def": 40, "spd": 216}}, "Choice Scarf": {"moves": ["Iron Head", "Trick", ["Ice Punch", "Fire Punch"], "U-turn"], "item": "Choice Scarf", "nature": "Jolly", "evs": {"hp": 4, "atk": 252, "spe": 252}}, "Substitute + Thunder Wave": {"moves": ["Substitute", "Thunder Wave", "Iron Head", ["Ice Punch", "Body Slam", "Fire Punch"]], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "atk": 100, "spd": 156}}},
+    "ubers": {"Support": {"moves": ["Wish", ["U-turn", "Thunder Wave"], "Iron Head", ["Protect", "Thunder Wave", "Body Slam"]], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "def": 8, "spd": 216, "spe": 32}}, "Choice Scarf": {"moves": ["Iron Head", "Trick", ["Ice Punch", "Healing Wish"], "U-turn"], "item": "Choice Scarf", "nature": "Jolly", "evs": {"hp": 4, "atk": 252, "spe": 252}}, "Substitute + Thunder Wave": {"moves": ["Substitute", "Thunder Wave", "Iron Head", ["Ice Punch", "Body Slam", "Fire Punch"]], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "atk": 100, "spd": 156}}},
     "ou": {
       "Utility": {"moves": ["Iron Head", ["Body Slam", "Thunder", "Thunder Wave"], ["Fire Punch", "U-turn"], ["Protect", "Stealth Rock", "Substitute", "Wish"]], "item": "Leftovers", "nature": ["Jolly", "Adamant"], "evs": {"hp": 252, "atk": 80, "spe": 176}},
       "Wish + Protect": {"moves": ["Wish", "Protect", "Iron Head", ["Body Slam", "U-turn"]], "item": "Leftovers", "nature": ["Impish", "Careful"], "evs": {"hp": 252, "def": 224, "spe": 32}},
