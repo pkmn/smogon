@@ -503,15 +503,11 @@
   "Dragonite": {"ou": {"Offensive Dragon Dance": {"moves": ["Dragon Dance", "Outrage", ["Fire Punch", "Extreme Speed"], ["Earthquake", "Extreme Speed"]], "item": ["Lum Berry", "Yache Berry", "Life Orb"], "nature": "Adamant", "evs": {"atk": 252, "def": 4, "spe": 252}}, "Mixed": {"moves": ["Draco Meteor", ["Fire Blast", "Flamethrower"], "Superpower", ["Extreme Speed", "Roost", "Outrage"]], "item": "Life Orb", "nature": ["Rash", "Naive"], "evs": {"atk": 4, "spa": 252, "spe": 252}}, "Choice Band": {"moves": ["Outrage", "Extreme Speed", ["Superpower", "Fire Punch", "Earthquake"], ["Sleep Talk", "Fire Punch", "Dragon Claw"]], "item": "Choice Band", "nature": "Adamant", "evs": {"atk": 252, "def": 4, "spe": 252}}, "Bulky Dragon Dance": {"moves": ["Dragon Dance", ["Heal Bell", "Substitute"], "Roost", "Dragon Claw"], "item": "Leftovers", "nature": ["Careful", "Jolly"], "evs": {"hp": 248, "spd": 144, "spe": 116}}}},
   "Mewtwo": {
     "ubers": {
-      "Taunt + Calm Mind": {"moves": ["Taunt", "Calm Mind", ["Aura Sphere", "Thunder"], ["Ice Beam", "Shadow Ball"]], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 4, "spa": 252, "spe": 252}},
-      "Defensive Calm Mind": {"moves": [["Substitute", "Recover"], "Calm Mind", "Ice Beam", "Aura Sphere"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 204, "spa": 52, "spe": 252}},
+      "Calm Mind": {"moves": ["Calm Mind", "Ice Beam", ["Aura Sphere", "Thunder"], "Recover"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 252, "spa": 4, "spe": 252}},
       "All-Out Attacker": {"moves": ["Aura Sphere", "Ice Beam", "Self-Destruct", ["Fire Blast", "Thunder", "Grass Knot"]], "item": "Life Orb", "nature": ["Naive", "Hasty"], "evs": {"atk": 4, "spa": 252, "spe": 252}},
-      "Offensive Calm Mind": {"moves": ["Calm Mind", "Ice Beam", "Thunder", ["Aura Sphere", "Flamethrower", "Fire Blast"]], "item": "Life Orb", "nature": "Timid", "evs": {"hp": 4, "spa": 252, "spe": 252}},
-      "Physically Defensive": {"moves": ["Will-O-Wisp", ["Reflect", "Thunder", "Ice Beam"], "Taunt", "Recover"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 252, "def": 224, "spe": 32}},
-      "Specially Defensive": {"moves": ["Light Screen", ["Toxic", "Will-O-Wisp"], "Taunt", "Recover"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 252, "spd": 160, "spe": 96}},
-      "Choice Scarf": {"moves": ["Ice Beam", ["Thunder", "Flamethrower"], "Grass Knot", ["Trick", "Aura Sphere", "Self-Destruct"]], "item": "Choice Scarf", "nature": "Timid", "evs": {"def": 136, "spa": 196, "spe": 176}},
-      "Dual Screens": {"moves": ["Taunt", "Reflect", "Light Screen", "Self-Destruct"], "item": "Light Clay", "nature": "Jolly", "evs": {"hp": 252, "spd": 4, "spe": 252}},
-      "Choice Specs": {"moves": ["Aura Sphere", "Ice Beam", ["Thunder", "Grass Knot"], ["Flamethrower", "Trick"]], "item": "Choice Specs", "nature": "Timid", "evs": {"hp": 4, "spa": 252, "spe": 252}}
+      "Physically Defensive": {"moves": ["Will-O-Wisp", ["Ice Beam", "Aura Sphere", "Light Screen"], "Taunt", "Recover"], "item": "Leftovers", "nature": "Timid", "evs": [{"hp": 252, "def": 160, "spe": 96}, {"hp": 252, "def": 40, "spe": 216}]},
+      "Choice Scarf": {"moves": ["Ice Beam", ["Thunder", "Flamethrower"], "Grass Knot", ["Trick", "Aura Sphere", "Self-Destruct"]], "item": "Choice Scarf", "nature": "Timid", "evs": {"def": 48, "spa": 244, "spe": 216}},
+      "Dual Screens": {"moves": ["Taunt", "Reflect", "Light Screen", "Self-Destruct"], "item": "Light Clay", "nature": "Jolly", "evs": {"hp": 252, "spd": 4, "spe": 252}}
     }
   },
   "Mew": {
