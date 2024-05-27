@@ -116,6 +116,7 @@
   },
   "Typhlosion": {"sets": {"Choice Item": {}}},
   "Typhlosion-Hisui": {"sets": {"Status Spreader": {}, "Choice Item": {}}},
+  "Feraligatr": {"sets": {"Dragon Dance": {}}},
   "Quagsire": {"sets": {"Defensive": {}}},
   "Espeon": {"sets": {"Choice Specs": {}, "Sun Support": {}}},
   "Umbreon": {"sets": {"Utility": {}}},
@@ -272,7 +273,7 @@
     "credits": {"writtenBy": [{"user_id": 583607, "username": "PowerOfMemes"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 400664, "username": "Stories"}]}, {"name": "Grammar checked by", "members": [{"user_id": 226455, "username": "berry"}, {"user_id": 262594, "username": "Milak"}, {"user_id": 192841, "username": "antemortem"}, {"user_id": 336073, "username": "Rabia"}]}]}
   },
   "Magnezone": {"sets": {"Choice Specs": {}}},
-  "Rhyperior": {"sets": {"Defensive": {}}},
+  "Rhyperior": {"sets": {"Defensive": {}, "Substitute + Swords Dance": {"description": "<p>The given speed EVs allow Rhyperior to outspeed Water-types like Slowbro and Vaporeon, with the given bulk letting it set a Substitute against them after a Terastallizing.</p>"}}},
   "Glaceon": {"sets": {"Choice Specs": {}}},
   "Porygon-Z": {"sets": {"Choice Item": {}, "Agility": {}}},
   "Gallade": {"sets": {"Swords Dance": {}}},
@@ -329,8 +330,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 400664, "username": "Stories"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 336073, "username": "Rabia"}]}, {"name": "Grammar checked by", "members": [{"user_id": 577920, "username": "Tea Guzzler"}]}]}
   },
-  "Basculin": {"sets": {"Choice Band": {}}},
-  "Krookodile": {"sets": {"Choice Scarf": {}, "Bulk Up": {}}},
+  "Krookodile": {"sets": {"Choice Scarf": {}, "Bulk Up": {}, "Stealth Rock": {}}},
   "Scrafty": {"sets": {"Bulk Up": {}, "Dragon Dance": {}}},
   "Reuniclus": {"sets": {"Assault Vest": {}, "Calm Mind": {}}},
   "Galvantula": {"sets": {"Lead": {}}},
@@ -346,7 +346,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 400664, "username": "Stories"}, {"user_id": 369076, "username": "Tuthur"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 400664, "username": "Stories"}, {"user_id": 298730, "username": "poh"}, {"user_id": 336073, "username": "Rabia"}]}, {"name": "Grammar checked by", "members": [{"user_id": 384270, "username": "autumn"}]}]}
   },
-  "Chandelure": {"sets": {"Choice Item": {}}},
+  "Chandelure": {"sets": {"Choice Item": {}, "Calm Mind": {}}},
   "Cryogonal": {"sets": {"Utility": {}}},
   "Mienshao": {
     "overview": "<p>Mienshao is the best offensive pivot in NU thanks to its high Attack stat, great Speed tier, and good coverage. Mienshao is able to threaten most of the tier with its STAB Close Combat, which enables it as a late-game sweeper. Its great Speed paired with Choice Scarf lets it outspeed unboosted Pokemon like Lycanroc-D and Talonflame as well as boosted sweepers like Shell Smash Torterra and Dragon Dance Feraligatr. Knock Off punishes Mienshao's switch-ins like Slowbro, Reuniclus, and Talonflame as well as Ghost-types that are immune to Close Combat like Chandelure and Brambleghast, while other coverage options like Stone Edge, Ice Spinner, and Poison Jab hit Flying- and Fairy-type switch-ins with super effective damage. On top of that, Regenerator pushes Mienshao above the competition, effectively letting it ignore entry hazards on the switch. Mienshao often plays into high-risk, high-reward scenarios; the threat of using Close Combat is high, as Fighting-resistant Pokemon like Talonflame, Slowbro, and Vileplume can all switch in and punish it with Flame Body, Rocky Helmet, and Effect Spore, respectively. Even with the risk of Rocky Helmet, Mienshao can still pivot with U-turn on predicted switches, giving it the upper hand. Mienshao's poor bulk is heavily expressed when facing priority users like Lucario and Feraligatr as well as faster Choice Scarf users like Infernape and Munkidori.</p>",
@@ -499,9 +499,8 @@
   },
   "Copperajah": {"sets": {"Defensive": {}}},
   "Duraludon": {"sets": {"Iron Defense": {}}},
-  "Basculegion": {"sets": {"Choice Item": {}}},
+  "Basculegion": {"sets": {"Choice Item": {}, "Assault Vest Pivot": {"description": "<p>The allotted speed EVs allow Basculegion to outspeed base 60 Speed Pokemon such as Magnezone and Incineroar.</p>"}}},
   "Overqwil": {"sets": {"Defensive": {}, "Rain Sweeper": {}}},
-  "Crocalor": {"sets": {"Defensive": {}}},
   "Pawmot": {"sets": {"Wallbreaker": {}}},
   "Dachsbun": {"sets": {"Defensive": {}}},
   "Naclstack": {"sets": {"IronPress": {}, "Stealth Rock": {}}},
@@ -561,7 +560,7 @@
   },
   "Dudunsparce": {"sets": {"Coil": {}, "Calm Mind": {}}},
   "Scream Tail": {"sets": {"Utility": {}}},
-  "Brute Bonnet": {"sets": {"Tank": {}}},
+  "Brute Bonnet": {"sets": {"Tank": {"description": "<p>Synthesis can be used instead of extra coverage on Covert Cloak sets.</p>"}}},
   "Iron Thorns": {"sets": {"Dragon Dance": {}}},
   "Munkidori": {"sets": {"Pivot": {}}}
 }
