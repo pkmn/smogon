@@ -1,32 +1,86 @@
 [
   {
+    "name": "Rotom Bliss Stall",
+    "author": "SteamBuns",
+    "data": [
+      {"species": "Skarmory", "gender": "M", "item": "Shed Shell", "ability": "Keen Eye", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Drill Peck", "Roost", "Spikes", "Whirlwind"]},
+      {"species": "Arghonaut", "gender": "M", "item": "Leftovers", "ability": "Unaware", "evs": {"hp": 252, "def": 172, "spd": 84}, "nature": "Careful", "moves": ["Ice Punch", "Recover", "Roar", "Waterfall"]},
+      {"species": "Blissey", "item": "Leftovers", "ability": "Natural Cure", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Heal Bell", "Seismic Toss", "Soft-Boiled", "Wish"]},
+      {"species": "Clefable", "gender": "M", "item": "Leftovers", "ability": "Magic Guard", "evs": {"hp": 252, "def": 192, "spd": 64}, "nature": "Impish", "moves": ["Flamethrower", "Knock Off", "Soft-Boiled", "Stealth Rock"]},
+      {"species": "Fidgit", "gender": "M", "item": "Black Sludge", "ability": "Persistent", "evs": {"hp": 252, "def": 148, "spe": 108}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Earth Power", "Encore", "Rapid Spin", "Toxic"]},
+      {"species": "Rotom-Wash", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "def": 120, "spd": 140}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Rest", "Sleep Talk", "Will-O-Wisp"]}
+    ]
+  },
+  {
+    "name": "6 tubs of lard",
+    "author": "temp",
+    "data": [
+      {"species": "Hippowdon", "gender": "M", "item": "Leftovers", "ability": "Sand Stream", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Impish", "moves": ["Earthquake", "Roar", "Slack Off", "Stealth Rock"]},
+      {"species": "Arghonaut", "gender": "M", "item": "Leftovers", "ability": "Unaware", "evs": {"hp": 252, "def": 156, "spd": 100}, "nature": "Impish", "moves": ["Brick Break", "Knock Off", "Recover", "Toxic"]},
+      {"species": "Clefable", "gender": "M", "item": "Leftovers", "ability": "Magic Guard", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "moves": ["Heal Bell", "Knock Off", "Seismic Toss", "Soft-Boiled"]},
+      {"species": "Jirachi", "item": "Leftovers", "ability": "Serene Grace", "evs": {"hp": 252, "def": 224, "spe": 32}, "nature": "Impish", "moves": ["Body Slam", "Iron Head", "Protect", "Wish"]},
+      {"species": "Latias", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 252, "spa": 4, "spe": 252}, "nature": "Timid", "moves": ["Calm Mind", "Dragon Pulse", "Hidden Power Fire", "Recover"], "ivs": {"atk": 30, "spa": 30, "spe": 30}},
+      {"species": "Magneton", "item": "Choice Scarf", "ability": "Magnet Pull", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Naive", "moves": ["Explosion", "Flash Cannon", "Hidden Power Ice", "Thunderbolt"], "ivs": {"atk": 30, "def": 30}}
+    ]
+  },
+  {
+    "name": "Kitsunoh-Lead Balance",
+    "author": "Steam Buns",
     "data": [
       {"species": "Kitsunoh", "gender": "M", "item": "Shuca Berry", "ability": "Limber", "evs": {"hp": 252, "atk": 4, "spe": 252}, "nature": "Jolly", "moves": ["Shadow Strike", "Taunt", "U-turn", "Will-O-Wisp"]},
-      {"species": "Arghonaut", "gender": "M", "item": "Choice Band", "ability": "Unaware", "evs": {"hp": 112, "atk": 252, "spe": 144}, "nature": "Adamant", "moves": ["Aqua Jet", "Punishment", "Superpower", "Waterfall"]},
-      {"species": "Celebi", "item": "Expert Belt", "ability": "Natural Cure", "evs": {"hp": 64, "spa": 220, "spe": 224}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Hidden Power Fire", "Leaf Storm", "Rest", "Stealth Rock"]},
+      {"species": "Arghonaut", "gender": "M", "item": "Choice Band", "ability": "Unaware", "evs": {"hp": 252, "atk": 252, "spe": 4}, "nature": "Adamant", "moves": ["Aqua Jet", "Ice Punch", "Superpower", "Waterfall"]},
+      {"species": "Celebi", "item": "Leftovers", "ability": "Natural Cure", "evs": {"hp": 240, "spa": 152, "spe": 116}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Hidden Power Fire", "Leaf Storm", "Rest", "Stealth Rock"]},
       {"species": "Clefable", "gender": "M", "item": "Leftovers", "ability": "Magic Guard", "evs": {"hp": 252, "def": 64, "spd": 192}, "nature": "Calm", "moves": ["Knock Off", "Soft-Boiled", "Thunder Wave", "Wish"]},
-      {"species": "Colossoil", "gender": "M", "item": "Chople Berry", "ability": "Guts", "evs": {"atk": 168, "spd": 104, "spe": 236}, "nature": "Adamant", "moves": ["Earthquake", "Pursuit", "Rapid Spin", "Taunt"]},
-      {"species": "Zapdos", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 248, "def": 228, "spe": 32}, "nature": "Bold", "ivs": {"atk": 2, "def": 30}, "moves": ["Heat Wave", "Hidden Power Ice", "Roost", "Thunderbolt"]}
+      {"species": "Colossoil", "gender": "M", "item": "Leftovers", "ability": "Guts", "evs": {"hp": 36, "atk": 236, "spe": 236}, "nature": "Adamant", "moves": ["Earthquake", "Encore", "Pursuit", "Rapid Spin"]},
+      {"species": "Zapdos", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 248, "def": 228, "spe": 32}, "nature": "Bold", "ivs": {"atk": 2, "def": 30}, "moves": ["Discharge", "Heat Wave", "Hidden Power Ice", "Roost"]}
     ]
   },
   {
+    "name": "MagClant TrickGross",
+    "author": "Steam Buns",
     "data": [
-      {"species": "Hippowdon", "gender": "M", "item": "Leftovers", "ability": "Sand Stream", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Careful", "moves": ["Earthquake", "Roar", "Slack Off", "Stealth Rock"]},
-      {"species": "Arghonaut", "gender": "M", "item": "Leftovers", "ability": "Unaware", "evs": {"hp": 252, "def": 172, "spd": 84}, "nature": "Careful", "moves": ["Ice Punch", "Recover", "Revenge", "Roar"]},
-      {"species": "Clefable", "gender": "M", "item": "Leftovers", "ability": "Magic Guard", "evs": {"hp": 252, "def": 64, "spd": 192}, "nature": "Calm", "moves": ["Heal Bell", "Knock Off", "Soft-Boiled", "Thunder Wave"]},
-      {"species": "Fidgit", "gender": "M", "item": "Black Sludge", "ability": "Vital Spirit", "evs": {"hp": 252, "def": 120, "spe": 136}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Earth Power", "Encore", "Rapid Spin", "Toxic"]},
-      {"species": "Jirachi", "item": "Leftovers", "ability": "Serene Grace", "evs": {"hp": 252, "atk": 36, "def": 44, "spd": 176}, "nature": "Careful", "moves": ["Body Slam", "Iron Head", "Protect", "Wish"]},
-      {"species": "Skarmory", "gender": "M", "item": "Shed Shell", "ability": "Keen Eye", "evs": {"hp": 248, "def": 216, "spe": 44}, "nature": "Impish", "moves": ["Brave Bird", "Roost", "Spikes", "Taunt"]}
+      {"species": "Syclant", "gender": "M", "item": "Choice Band", "ability": "Mountaineer", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Ice Punch", "Ice Shard", "U-turn"]},
+      {"species": "Magneton", "item": "Choice Scarf", "ability": "Magnet Pull", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Flash Cannon", "Hidden Power Fire", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Metagross", "item": "Iron Ball", "ability": "Clear Body", "evs": {"hp": 252, "atk": 236, "spe": 20}, "nature": "Adamant", "moves": ["Earthquake", "Meteor Mash", "Trick", "Zen Headbutt"]},
+      {"species": "Revenankh", "gender": "M", "item": "Leftovers", "ability": "Air Lock", "evs": {"hp": 252, "atk": 252, "spd": 4}, "nature": "Adamant", "moves": ["Bulk Up", "Hammer Arm", "Ice Punch", "Shadow Sneak"]},
+      {"species": "Swampert", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 240, "atk": 152, "spd": 72, "spe": 44}, "nature": "Adamant", "moves": ["Earthquake", "Ice Punch", "Stealth Rock", "Waterfall"]},
+      {"species": "Togekiss", "gender": "M", "item": "Leftovers", "ability": "Serene Grace", "evs": {"hp": 248, "def": 188, "spd": 64, "spe": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Air Slash", "Aura Sphere", "Roost", "Thunder Wave"]}
     ]
   },
   {
+    "name": "Sandy Special spam v4",
+    "author": "Brigtel",
     "data": [
-      {"species": "Syclant", "gender": "M", "item": "Focus Sash", "ability": "Mountaineer", "evs": {"atk": 228, "def": 64, "spe": 216}, "nature": "Jolly", "moves": ["Earthquake", "Ice Shard", "Spikes", "Taunt"]},
-      {"species": "Gyarados", "gender": "M", "item": "Leftovers", "ability": "Intimidate", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Bounce", "Dragon Dance", "Stone Edge", "Waterfall"]},
-      {"species": "Kitsunoh", "gender": "M", "item": "Choice Scarf", "ability": "Limber", "evs": {"hp": 120, "atk": 136, "spe": 252}, "nature": "Jolly", "moves": ["Ice Punch", "Shadow Strike", "Trick", "U-turn"]},
-      {"species": "Latias", "item": "Lum Berry", "ability": "Levitate", "evs": {"hp": 252, "def": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Draco Meteor", "Psychic", "Recover"]},
-      {"species": "Magnezone", "item": "Custap Berry", "ability": "Magnet Pull", "evs": {"hp": 56, "spa": 236, "spe": 216}, "nature": "Rash", "moves": ["Endure", "Explosion", "Flash Cannon", "Thunderbolt"]},
-      {"species": "Voodoom", "gender": "M", "item": "Life Orb", "ability": "Volt Absorb", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Aura Sphere", "Dark Pulse", "Pain Split", "Substitute"]}
+      {"species": "Hippowdon", "gender": "M", "item": "Leftovers", "ability": "Sand Stream", "evs": {"hp": 252, "def": 32, "spd": 224}, "nature": "Impish", "moves": ["Earthquake", "Slack Off", "Stealth Rock", "Toxic"]},
+      {"species": "Breloom", "gender": "M", "item": "Toxic Orb", "ability": "Poison Heal", "evs": {"hp": 216, "atk": 188, "spe": 104}, "nature": "Adamant", "moves": ["Mach Punch", "Seed Bomb", "Spore", "Superpower"]},
+      {"species": "Jirachi", "item": "Leftovers", "ability": "Serene Grace", "evs": {"hp": 40, "atk": 252, "spe": 216}, "nature": "Jolly", "moves": ["Body Slam", "Fire Punch", "Iron Head", "Protect"]},
+      {"species": "Krilowatt", "gender": "M", "item": "Life Orb", "ability": "Magic Guard", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Copycat", "Discharge", "Substitute", "Surf"]},
+      {"species": "Latias", "item": "Choice Scarf", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Healing Wish", "Ice Beam", "Trick"]},
+      {"species": "Stratagem", "item": "Leftovers", "ability": "Levitate", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Flamethrower", "Shadow Ball", "Weather Ball"]}
+    ]
+  },
+  {
+    "name": "Champ TR",
+    "author": "Steam Buns",
+    "data": [
+      {"species": "Machamp", "gender": "M", "item": "Lum Berry", "ability": "No Guard", "evs": {"hp": 252, "atk": 252, "def": 4}, "nature": "Brave", "ivs": {"spe": 0}, "moves": ["Dynamic Punch", "Earthquake", "Payback", "Stone Edge"]},
+      {"species": "Cresselia", "item": "Choice Scarf", "ability": "Levitate", "evs": {"hp": 252, "spd": 24, "spe": 232}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Lunar Dance", "Trick", "Trick Room"]},
+      {"species": "Fidgit", "gender": "M", "item": "Sitrus Berry", "ability": "Persistent", "evs": {"hp": 252, "def": 12, "spd": 176}, "nature": "Relaxed", "ivs": {"spe": 0}, "moves": ["Encore", "Stealth Rock", "Trick Room", "U-turn"]},
+      {"species": "Rhyperior", "gender": "M", "item": "Life Orb", "ability": "Solid Rock", "evs": {"hp": 32, "atk": 252, "spd": 224}, "nature": "Brave", "ivs": {"spe": 0}, "moves": ["Earthquake", "Megahorn", "Stone Edge", "Swords Dance"]},
+      {"species": "Scizor", "gender": "M", "item": "Choice Band", "ability": "Technician", "evs": {"hp": 248, "atk": 252, "spd": 8}, "nature": "Brave", "ivs": {"spe": 0}, "moves": ["Bullet Punch", "Pursuit", "Superpower", "U-turn"]},
+      {"species": "Slowking", "gender": "M", "item": "Leftovers", "ability": "Own Tempo", "evs": {"hp": 252, "spa": 252, "spd": 4}, "nature": "Quiet", "ivs": {"atk": 0, "spe": 0}, "moves": ["Nasty Plot", "Psychic", "Surf", "Trick Room"]}
+    ]
+  },
+  {
+    "name": "AgiliGross Offense",
+    "author": "Steam Buns",
+    "data": [
+      {"species": "Azelf", "item": "Focus Sash", "ability": "Levitate", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Naive", "moves": ["Explosion", "Flamethrower", "Psychic", "Taunt"]},
+      {"species": "Dragonite", "gender": "M", "item": "Lum Berry", "ability": "Inner Focus", "evs": {"hp": 8, "atk": 188, "spd": 80, "spe": 232}, "nature": "Adamant", "moves": ["Dragon Dance", "Extreme Speed", "Fire Punch", "Outrage"]},
+      {"species": "Metagross", "item": "Shuca Berry", "ability": "Clear Body", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Agility", "Earthquake", "Thunder Punch", "Zen Headbutt"]},
+      {"species": "Revenankh", "gender": "M", "item": "Leftovers", "ability": "Air Lock", "evs": {"hp": 252, "atk": 168, "spe": 88}, "nature": "Adamant", "moves": ["Bulk Up", "Shadow Claw", "Superpower", "Taunt"]},
+      {"species": "Swampert", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 248, "spa": 168, "spd": 76, "spe": 16}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Hydro Pump", "Ice Beam", "Stealth Rock"]},
+      {"species": "Syclant", "gender": "M", "item": "Expert Belt", "ability": "Mountaineer", "evs": {"atk": 156, "spa": 100, "spe": 252}, "nature": "Naive", "moves": ["Earthquake", "Ice Beam", "Ice Shard", "U-turn"]}
     ]
   }
 ]
