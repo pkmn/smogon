@@ -64,7 +64,9 @@ const IGNORE = [
   // Multiple formats within a single post
   'https://www.smogon.com/forums/posts/6431094/',
   // Multiple updates in one post all within spoilers
-  'https://www.smogon.com/forums/threads/3725988/'
+  'https://www.smogon.com/forums/threads/3725988/',
+  // TODO: remove once updated
+  'https://www.smogon.com/forums/threads/3731755/',
 ];
 
 (async () => {
