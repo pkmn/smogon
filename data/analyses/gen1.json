@@ -1,5 +1,5 @@
 {
-  "Bulbasaur": {"petitcup": {"sets": {"Swords Dance": {}}}, "lclevel100": {"sets": {"Sleeper": {}}}},
+  "Bulbasaur": {"lc": {"sets": {"Sleeper": {}}}, "petitcup": {"sets": {"Swords Dance": {}}}, "lclevel100": {"sets": {"Sleeper": {}}}},
   "Ivysaur": {"middlecup": {"sets": {"Sleeper": {}}}},
   "Venusaur": {
     "uu": {
@@ -25,7 +25,7 @@
     "1v1": {"sets": {"SubSeed": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 298753, "username": "Elo Bandit"}]}]}},
     "nc1997": {"sets": {"Status Support": {}}}
   },
-  "Charmander": {"petitcup": {"sets": {"Slash": {}, "Swords Dance": {}}}, "lclevel100": {"sets": {"Slash": {}}}},
+  "Charmander": {"lc": {"sets": {"Mixed Attacker": {}}}, "petitcup": {"sets": {"Slash": {}, "Swords Dance": {}}}, "lclevel100": {"sets": {"Slash": {}}}},
   "Charmeleon": {"zu": {"sets": {"Mixed Attacker": {}}}, "middlecup": {"sets": {"Slash": {}}}},
   "Charizard": {
     "uu": {
@@ -67,7 +67,7 @@
     "nc1999": {"sets": {"Swords Dance": {}, "Slash": {}}},
     "nc1997": {"sets": {"Fire Spin Pivot": {}}}
   },
-  "Squirtle": {"petitcup": {"sets": {"Bulky Attacker": {}}}, "lclevel100": {"sets": {"Bulky Attacker": {}}}},
+  "Squirtle": {"lc": {"sets": {"Special Attacker": {}}}, "petitcup": {"sets": {"Bulky Attacker": {}}}, "lclevel100": {"sets": {"Bulky Attacker": {}}}},
   "Wartortle": {"zu": {"sets": {"Bulky Attacker": {}}}, "middlecup": {"sets": {"Mixed Attacker": {}}}},
   "Blastoise": {
     "uu": {
@@ -93,6 +93,7 @@
     "nc1999": {"sets": {"Bulky Attacker": {}}},
     "nc1997": {"sets": {"Dig": {}}}
   },
+  "Caterpie": {"lc": {"sets": {"\"Support\"": {"description": "<p>Sample \"set.\"</p>"}}}},
   "Butterfree": {
     "pu": {
       "overview": "<p>Despite its access to the powerful \"Double Powder\" combination, Butterfree has no place in PU. Its mediocre offenses and lack of decent STAB attacks mean it does pitiful damage despite its access to the excellent Psychic. It's overwhelmed by most physical attackers and 2HKOed by the plethora of Fire Blast, Blizzard, and Thunderbolt users thanks to its awful Bug / Flying typing. Additionally, while less common, Rock Slide from threats like Graveler easily OHKOes Butterfree. As a fast sleeper, it's completely outclassed by Gastly, which has a much better offensive presence and Speed tier. As a dual status spreader, Butterfree is outclassed by Drowzee, which does more damage and has fantastic defensive utility. Even fringe sleepers like Vileplume and Weepinbell still have more of a use thanks to their niche defensive utility. It is not advised to use Butterfree if your goal is to win.</p>",
@@ -105,6 +106,7 @@
     },
     "zu": {"sets": {"Double Powder": {}}}
   },
+  "Weedle": {"lc": {"sets": {"\"Support\"": {"description": "<p>Sample \"set.\"</p>"}}}},
   "Beedrill": {
     "pu": {
       "overview": "<p>Beedrill is thoroughly outclassed in RBY PU. At first glance, Twineedle seems usable and its boosting moves look promising, but Beedrill's incredibly poor stats prevent it from contributing to a victory. It is outsped by premier attackers including every viable Fire-type, Abra, Nidoqueen, Pinsir, and Fearow, all of which OHKO it or come extremely close. Beedrill can only effectively contribute by setting up with Swords Dance and Agility, which is nearly impossible to pull off since even the weakest foes 3HKO it. One would think Twineedle gives it a niche against Psychic-types, but Beedrill flops even against the incredibly frail Abra, OHKOing it a mere 25.6% of the time. Meanwhile, Abra OHKOes Beedrill 72% of the time, before accounting for critical hits, and is faster. Beedrill outspeeds Drowzee but isn't even guaranteed to 2HKO it, and Drowzee has a small chance to OHKO back. The ubiquity of Fire-types does Beedrill no favors, as it deals pitiful damage to them and they outspeed and OHKO it, leaving it few chances to even find entry, let alone progress. In short, Pinsir and Fearow are better attackers than Beedrill on any team.</p>",
@@ -112,7 +114,7 @@
       "credits": {"writtenBy": [{"user_id": 583793, "username": "Sabelette"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 540559, "username": "gastlies"}]}, {"name": "Grammar checked by", "members": [{"user_id": 383911, "username": "YashGreninja"}, {"user_id": 517429, "username": "Adeleine"}]}]}
     }
   },
-  "Pidgey": {"lclevel100": {"sets": {"Mirror Move": {}}}},
+  "Pidgey": {"lc": {"sets": {"Priority Attacker": {}}}, "lclevel100": {"sets": {"Mirror Move": {}}}},
   "Pidgeotto": {"middlecup": {"sets": {"Mirror Move": {}}}},
   "Pidgeot": {
     "pu": {
@@ -126,7 +128,7 @@
     },
     "zu": {"sets": {"Physical Attacker": {}}}
   },
-  "Rattata": {"petitcup": {"sets": {"Focus Energy": {}}}, "lclevel100": {"sets": {"Super Fang": {}}}},
+  "Rattata": {"lc": {"sets": {"Priority Attacker": {}}}, "petitcup": {"sets": {"Focus Energy": {}}}, "lclevel100": {"sets": {"Super Fang": {}}}},
   "Raticate": {
     "uu": {
       "overview": "<p>Raticate is a bit of a mixed bag. Its unique access to Super Fang allows it to weaken a Pokemon for threats like Dodrio to clean up later or outright KO foes itself with Hyper Beam. Not only that, Raticate also has an interesting special movepool that it can tap into akin to Persian, making it possible to fine-tune for a team. Raticate is also in a very unique Speed tier, being just above Haunter, and is immune to Body Slam paralysis thanks to being a Normal-type. Raticate's 18.97% critical hit rate adds significant volatility to many matchups as well, making it difficult to switch into when also considering Super Fang. These factors often let Raticate score at least one Super Fang before it goes down, which is more than enough for its teammates to break through and wreak havoc. All of these factors enable Raticate to fulfil a supportive role for its team while remaining a decent sweeper in its own right.</p> <p>However, Raticate faces some stiff competition from Kangaskhan and Persian, which possess much better stats, coverage, and general offensive potential. In addition, Raticate has poor special bulk, with attacks like Tentacruel's Surf being a guaranteed 2HKO. This makes it a nightmare to bring in without heavy support or one-for-one trades. Furthermore, Raticate relies heavily on its Speed to make progress, making paralysis a death sentence due to its fragility. Overall, this makes Raticate a high-risk, high-reward Pokemon.</p>",
@@ -159,7 +161,7 @@
       "credits": {"writtenBy": [{"user_id": 583793, "username": "Sabelette"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 400664, "username": "Stories"}, {"user_id": 593847, "username": "nicole7735"}, {"user_id": 375193, "username": "MrSoup"}]}, {"name": "Grammar checked by", "members": [{"user_id": 331519, "username": "CryoGyro"}, {"user_id": 168392, "username": "P Squared"}]}]}
     }
   },
-  "Spearow": {"petitcup": {"sets": {"Late-game Cleaner": {}}}, "lclevel100": {"sets": {"Agility Sweeper": {}}}},
+  "Spearow": {"lc": {"sets": {"Agility Sweeper": {}}}, "petitcup": {"sets": {"Late-game Cleaner": {}}}, "lclevel100": {"sets": {"Agility Sweeper": {}}}},
   "Fearow": {
     "pu": {
       "overview": "<p>Fearow's combination of sky-high Attack, Normal-type STAB, and excellent Speed makes it the premier offensive threat in the tier as well as perhaps the single most dominant Pokemon overall. It blasts opponents with powerful attacks early- and mid-game, and if it's left healthy it can easily clean up a weakened team. It has an excellent Speed stat that makes it faster than every Pokemon except Rapidash and Scyther while also giving it a fantastic 19.5% critical hit rate. Since most switch-ins will take two attacks from Fearow before being able to strike back, they have to be healthy enough to survive not only Double-Edge, but also a follow up Hyper Beam, making Fearow very hard to switch in to. Additionally, the chance for a critical hit means an otherwise decent check, such as Nidoqueen or Arcanine, can be forced out quickly.</p> <p>Despite Fearow's overwhelming positive qualities, its frailty and fear of paralysis prevent it from effortlessly blasting through teams. Although its Flying typing offers a nice immunity to Ground-type moves, it doesn’t have any other notable resistances and is weak to moves such as Blizzard and Thunderbolt from extremely common Pokemon, such as Nidoqueen and Seaking. Fearow's notable lack of Body Slam means it has to rely on the mediocre Double-Edge as its Normal-type STAB move, and the move's recoil further hinders Fearow's longevity, notably putting it in 2HKO range of Fire Blast from Rapidash and Arcanine and OHKO range of Scyther's Hyper Beam at +2. Fearow's frailty makes it very reliant on its Speed, forcing it to run away from Thunder Wave users it would normally beat, such as Drowzee and Staryu. Fearow is completely walled by Graveler and to a lesser extent Omanyte. Both Rock-types resist Fearow’s STAB combination and are capable of hitting it back with super effective damage. However, Graveler and Omanyte are easily exploitable thanks to Porygon, which can switch into all of their moves and hit them super effectively, alleviating Fearow's worst matchups. Fearow's strengths heavily outweigh its weaknesses; it is an elite Pokemon, and it should almost never be dropped when building a team.</p>",
@@ -182,7 +184,7 @@
       "credits": {"writtenBy": [{"user_id": 400664, "username": "Stories"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 583793, "username": "Sabelette"}, {"user_id": 486979, "username": "juoean"}]}, {"name": "Grammar checked by", "members": [{"user_id": 109385, "username": "aurora"}]}]}
     }
   },
-  "Ekans": {"petitcup": {"sets": {"Glare": {}}}, "lclevel100": {"sets": {"Glare + Wrap": {}}}},
+  "Ekans": {"lc": {"sets": {"Physical Attacker": {}}}, "petitcup": {"sets": {"Glare": {}}}, "lclevel100": {"sets": {"Glare + Wrap": {}}}},
   "Arbok": {
     "uu": {
       "overview": "<p>Arbok has an extremely small and specific niche in the metagame thanks to its unique access to Glare and Wrap. This lands it a role as a paralysis spreader, pivot, and wincon on some Wrap teams. It's also notable for its Poison typing, which blocks Toxic, a move that cripples most Wrap users. This allows it safe entry against Pokemon like Persian that often carry Toxic. Its typing also allows it to check Grass-types such as Tangela and Venusaur. In addition, Arbok has fantastic coverage in Earthquake and Rock Slide, the combination of which is unresisted in the tier.</p> <p>However, the positives end there. Arbok's typing, while providing it a niche, also leaves it cripplingly weak to Psychic and Earthquake, two very common moves in the metagame. This gives it poor matchups against some of the tier's most notable Pokemon, such as Kadabra and Dugtrio. These weaknesses, along with its poor bulk, mean Arbok is doomed to struggle defensively. Arbok is also weak and lacks a good STAB move, so it can struggle to threaten in ways outside of paralysis spreading and Wrap. Arbok also has to compete with Tentacruel, an omnipresent Pokemon with a better matchup spread and more offensive presence.</p>",
@@ -219,7 +221,7 @@
       "credits": {"writtenBy": [{"user_id": 583793, "username": "Sabelette"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 400664, "username": "Stories"}, {"user_id": 375193, "username": "MrSoup"}]}, {"name": "Grammar checked by", "members": [{"user_id": 168392, "username": "P Squared"}]}]}
     }
   },
-  "Pikachu": {"zu": {"sets": {"Fast Thunder Wave": {}}}, "petitcup": {"sets": {"Offensive": {}}}, "lclevel100": {"sets": {"Offensive": {}}}},
+  "Pikachu": {"lc": {"sets": {"Mixed Attacker": {}}}, "petitcup": {"sets": {"Offensive": {}}}, "lclevel100": {"sets": {"Offensive": {}}}, "zu": {"sets": {"Fast Thunder Wave": {}}}},
   "Raichu": {
     "uu": {
       "overview": "<p>Raichu has a niche in UU as an Electric-type that can threaten Ground-types like Golem thanks to its access to Surf. The combination of Surf and STAB Thunderbolt gives it excellent coverage and sweeping potential that can be difficult for many teams to handle. In addition, Raichu's Speed allows it to tie with the ever-present Tentacruel, as well as Dodrio. On top of that, the 19.53% critical hit rate its base Speed provides makes it surprisingly powerful offensively. It can further increase this Speed while invalidating the Speed drop from paralysis thanks to Agility, which comes with the added bonus of outspeeding Dugtrio. Furthermore, Raichu is quite customizable, possessing a wide movepool with moves like Body Slam and Seismic Toss to make use of.</p> <p>However, Raichu is physically frail, taking significant damage from threats like Dodrio, Persian, and Kangaskhan. In fact, it's not uncommon to see Raichu get KOed by their STAB Hyper Beams from around 80%. This fragility notably comes into play against Dugtrio, which can KO it consistently with Earthquake if it's taken even a minute amount of damage. It's not stellar on the Special end either, with threats like Tentacruel, Vaporeon, Hypno, and Kadabra all claiming 3HKOs on it with their STAB attacks. This has a negative effect on its offenses as well, with its Thunderbolt only 3HKOing Vaporeon and occasionally missing the OHKO on Gyarados. Raichu also competes heavily with Electabuzz for a place on teams, which has higher Speed than tier-king Tentacruel without the need to boost.</p>",
@@ -243,7 +245,7 @@
     "nc1999": {"sets": {"Offensive": {}}},
     "nc1997": {"sets": {"Special Sweeper": {}}}
   },
-  "Sandshrew": {"petitcup": {"sets": {"Swords Dance": {}}}, "lclevel100": {"sets": {"Swords Dance": {}}}},
+  "Sandshrew": {"lc": {"sets": {"Physical Attacker": {}}}, "petitcup": {"sets": {"Swords Dance": {}}}, "lclevel100": {"sets": {"Swords Dance": {}}}},
   "Sandslash": {
     "stadiumou": {"sets": {"Swords Dance": {}}},
     "pu": {
@@ -280,7 +282,7 @@
     "nc1999": {"sets": {"Swords Dance": {}}},
     "nc1997": {"sets": {"Swords Dance Sweeper": {}}}
   },
-  "Nidoran-F": {"lclevel100": {"sets": {"Mixed Attacker": {}}}},
+  "Nidoran-F": {"lc": {"sets": {"Mixed Attacker": {}}}, "lclevel100": {"sets": {"Mixed Attacker": {}}}},
   "Nidorina": {"middlecup": {"sets": {"Mixed Attacker": {}}}},
   "Nidoqueen": {
     "tradebacksou": {"sets": {"Sleeper": {}}},
@@ -307,7 +309,7 @@
     "nc1999": {"sets": {"Mixed Attacker": {}}},
     "nc1997": {"sets": {"Mixed Sweeper": {}}}
   },
-  "Nidoran-M": {"petitcup": {"sets": {"Focus Energy Sweeper": {}}}, "lclevel100": {"sets": {"Mixed Attacker": {}}}},
+  "Nidoran-M": {"lc": {"sets": {"Mixed Attacker": {}}}, "petitcup": {"sets": {"Focus Energy Sweeper": {}}}, "lclevel100": {"sets": {"Mixed Attacker": {}}}},
   "Nidorino": {"middlecup": {"sets": {"Mixed Attacker": {}}}},
   "Nidoking": {
     "uu": {
@@ -344,7 +346,7 @@
     "nc1999": {"sets": {"Focus Energy": {}}},
     "nc1997": {"sets": {"Mixed Sweeper": {}}}
   },
-  "Clefairy": {"petitcup": {"sets": {"Bulky Attacker": {}}}, "lclevel100": {"sets": {"Bulky Attacker": {}}}},
+  "Clefairy": {"lc": {"sets": {"Mixed Attacker": {}}}, "petitcup": {"sets": {"Bulky Attacker": {}}}, "lclevel100": {"sets": {"Bulky Attacker": {}}}},
   "Clefable": {
     "uu": {
       "overview": "<p><strong>NOTE: The following analysis was produced prior to the ban on Sleep-inducing moves and Lapras becoming legal. Clefable is generally considered less viable in the current metagame.</strong></p> <p>Clefable succeeds in RBY UU as a strong early-game offensive threat with great unpredictability and versatility, possessing an incredible movepool with Thunder Wave, STAB Body Slam, Thunderbolt, Blizzard, Counter, Sing, and more. With respectable bulk in tow, Clefable will incapacitate many Pokemon in some form before it goes down; this bulk also helps it take Wrap decently well, letting it stay in and punish misses with Thunder Wave in a tight spot. Furthermore, Clefable has coverage for every Pokemon in the tier, letting it fine-tune itself for a team and punish switch-ins if they get paralyzed prior; still, it won't have the right move for every situation at once.</p> <p>However, because of its low Speed, Clefable often finds itself getting easily worn down by wrappers like Tentacruel and Dragonite. Additionally, it is near-effortless to revenge kill with strong attackers that aren't normally even fast enough to revenge kill, such as Hypno, and critical hits don't help. This is compounded by a lack of recovery and resistances, causing it to sometimes struggle as a defensive team piece. Because Clefable provides inconsistent defensive utility and not quite elite offensive pressure, it is often outcompeted by other early-game wallbreakers like Kangaskhan. Regardless of this, Clefable pairs well alongside many Pokemon in the tier—particularly other Normal-types, Kadabra, and Articuno—for its support movepool, which backs its offensive pressure extremely well.</p>",
@@ -371,7 +373,7 @@
     "nc1997": {"sets": {"Bulky Support": {}}},
     "stabmons": {"sets": {"STABmons": {}}}
   },
-  "Vulpix": {"petitcup": {"sets": {"Confuse Ray + Substitute": {}}}, "lclevel100": {"sets": {"Confuse Ray": {}}}},
+  "Vulpix": {"lc": {"sets": {"Mixed Attacker": {}}}, "petitcup": {"sets": {"Confuse Ray + Substitute": {}}}, "lclevel100": {"sets": {"Confuse Ray": {}}}},
   "Ninetales": {
     "uu": {
       "outdated": true,
@@ -383,7 +385,7 @@
     "nc1999": {"sets": {"Confuse Ray + Substitute": {}}},
     "nc1997": {"sets": {"Dig": {}}}
   },
-  "Jigglypuff": {"petitcup": {"sets": {"Counter": {}}}, "lclevel100": {"sets": {"Mixed Attacker": {}}}},
+  "Jigglypuff": {"lc": {"sets": {"Mixed Attacker": {}}}, "petitcup": {"sets": {"Counter": {}}}, "lclevel100": {"sets": {"Mixed Attacker": {}}}},
   "Wigglytuff": {
     "nu": {
       "outdated": true,
@@ -397,7 +399,7 @@
       "credits": {"writtenBy": [{"user_id": 486979, "username": "juoean"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 236353, "username": "Plague von Karma"}, {"user_id": 583793, "username": "Sabelette"}, {"user_id": 530877, "username": "Volk"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
     }
   },
-  "Zubat": {"lclevel100": {"sets": {"Offensive": {}}}},
+  "Zubat": {"lc": {"sets": {"Mixed Attacker": {}}}, "lclevel100": {"sets": {"Offensive": {}}}},
   "Golbat": {
     "pu": {
       "overview": "<p>Clearly winging it, Golbat doesn't have even the slightest hope of taking flight in PU. Right off the bat, outside of its above-average Speed, all of its stats are below-average to bad. It lacks any powerful attacks or utility options, usually failing to draw blood from its target. In fact, it's completely unable to sink its fangs into Gastly due to its lack of coverage. Its typing is also very subpar, leaving it battered in the face of common Ice-, Psychic-, and Electric-type attacks. While its Speed and access to Confuse Ray are quite solid, the only thing blood curdling about this vampire bat is how terrible it is.</p>",
@@ -405,7 +407,7 @@
       "credits": {"writtenBy": [{"user_id": 535530, "username": "Gangsta Spongebob"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
     }
   },
-  "Oddish": {"lclevel100": {"sets": {"Sleeper": {}}}},
+  "Oddish": {"lc": {"sets": {"Status Spreader": {}}}, "lclevel100": {"sets": {"Sleeper": {}}}},
   "Gloom": {"middlecup": {"sets": {"Double Powder": {}}}},
   "Vileplume": {
     "pu": {
@@ -419,7 +421,7 @@
       "credits": {"writtenBy": [{"user_id": 625260, "username": "NotVeryCake"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 535530, "username": "Gangsta Spongebob"}, {"user_id": 540559, "username": "gastlies"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
     }
   },
-  "Paras": {"lclevel100": {"sets": {"Double Powder": {}}}},
+  "Paras": {"lc": {"sets": {"Status Spreader": {}}}, "lclevel100": {"sets": {"Double Powder": {}}}},
   "Parasect": {
     "pu": {
       "overview": "<p>Parasect is the only fully-evolved Pokemon in RBY with access to Spore, giving it the most consistent Double Powder combination in the game. It also has access to Swords Dance to boost its damage output with Hyper Beam, which can be effective with paralysis support from its teammates. Defensively, Parasect has resistances to Ground, Water, and Electric, meaning it can situationally switch in on Pokemon like Machamp, Seaking, and Staryu. Parasect is also generally unfazed by paralysis, making it a decent early-game status absorber. With these strengths, combined with RBY's brutal sleep mechanics, one would be forgiven for thinking Parasect can work in RBY PU.</p> <p>However, Parasect is entirely outclassed by other sleepers such as Gastly, which has some Speed to back up its Hypnosis, or Drowzee, which has a better typing. This combined with many teams choosing not to use a sleeper at all makes Parasect not worth using. In addition, Parasect's stats are all-around mediocre; its Speed is tied for the lowest among all fully evolved Pokemon. Its terrible typing also makes it very easy to OHKO. This especially applies in RBY PU, a tier filled with powerful Fire-types, such as Rapidash and Arcanine, to prey on its 4x Fire weakness, and other Pokemon like Fearow and Nidoqueen feast on its poor defensive typing as well. Unfortunately, Parasect's positive traits aren't nearly enough to give it a niche in the tier; it should not see use on any serious competitive team.</p>",
@@ -433,7 +435,7 @@
     "nc1997": {"sets": {"Double Powder": {}}},
     "zu": {"sets": {"Double Powder": {}}}
   },
-  "Venonat": {"lclevel100": {"sets": {"Sleeper": {}}}},
+  "Venonat": {"lc": {"sets": {"Status Spreader": {}}}, "lclevel100": {"sets": {"Sleeper": {}}}},
   "Venomoth": {
     "nu": {
       "outdated": true,
@@ -449,7 +451,7 @@
     "nc1999": {"sets": {"Paralysis Support": {}}},
     "nc1997": {"sets": {"Double Powder": {}}}
   },
-  "Diglett": {"zu": {"sets": {"Fast Earthquake": {}}}, "petitcup": {"sets": {"Physical Sweeper": {}}}, "lclevel100": {"sets": {"Physical Sweeper": {}}}},
+  "Diglett": {"lc": {"sets": {"Physical Sweeper": {}}}, "petitcup": {"sets": {"Physical Sweeper": {}}}, "lclevel100": {"sets": {"Physical Sweeper": {}}}, "zu": {"sets": {"Fast Earthquake": {}}}},
   "Dugtrio": {
     "uu": {
       "overview": "<p>NOTE: The following analysis was produced prior to the bans on Agility + Partial Trapping and Sleep-inducing moves, as well as Hypno being banned. The most up to date moveset for Dugtrio is the following.</p>",
@@ -467,7 +469,7 @@
     "pikacup": {"sets": {"Physical Sweeper": {}}},
     "nc1997": {"sets": {"Physical Sweeper": {}}}
   },
-  "Meowth": {"petitcup": {"sets": {"Revenge Killer": {}}}, "lclevel100": {"sets": {"Slash": {}}}},
+  "Meowth": {"lc": {"sets": {"Mixed Attacker": {}}}, "petitcup": {"sets": {"Revenge Killer": {}}}, "lclevel100": {"sets": {"Slash": {}}}},
   "Persian": {
     "uu": {
       "overview": "<p>The following analysis was produced prior to the ban on Agility + Partial Trapping. Information contained in the analysis may be misinformative in regards to the current RBY UU metagame.</p> <hr /> <h3>Overview</h3> <p>Persian's Speed and access to STAB Slash help make it a premier revenge killer and late-game sweeper in RBY UU. Outrunning every relevant Pokemon except Dugtrio, Persian can almost always make use of its high damage output from Slash. In addition, this high Speed makes Persian effective against Wrap users, most notably Tentacruel, allowing it to switch in and threaten to damage them with Slash or cripple them with Toxic. Persian will usually KO at least one Pokemon during a game thanks to the sheer power of Slash. Persian's bulk is also appealing, surpassing that of other fast threats like Kadabra and Dugtrio, allowing it to function much more effectively late-game. This bulk also makes it more viable to switch in on moves like Body Slam, which can't paralyze it thanks to Persian being Normal-type. All things considered, Persian is a UU staple.</p> <p>However, Persian's attacking stats are a bit middling, making Slash its main form of damage. To make matters worse, Persian is particularly lacking in physical coverage, with only Hyper Beam available as a second viable option. As a result, Persian relies on its middling special movepool to cover for Pokemon that resist Normal-type moves, making it relatively easy for Pokemon like Haunter to come in and threaten it. Persian is also crippled by paralysis in a big way, as it relies heavily on its Speed to sweep and threaten Wrap users, so it can be forced out by paralysis inducers if it can't KO them first.</p>",
@@ -506,7 +508,7 @@
     "nc1997": {"sets": {"Slash": {}}},
     "stabmons": {"sets": {"STABmons": {}}}
   },
-  "Psyduck": {"petitcup": {"sets": {"Amnesia": {}}}, "lclevel100": {"sets": {"Amnesia": {}}}},
+  "Psyduck": {"lc": {"sets": {"Amnesia": {}}}, "petitcup": {"sets": {"Amnesia": {}}}, "lclevel100": {"sets": {"Amnesia": {}}}},
   "Golduck": {
     "uu": {
       "overview": "<p>Golduck is the fastest Amnesia user in RBY UU, which gives it the potential to be a fairly terrifying sweeper given the chance. An Amnesia-boosted Golduck is not to be taken lightly: a +2 Blizzard OHKOes Dodrio, as well as Tangela 41% of the time. +2 Blizzard, along with Hydro Pump, will also 2HKO most neutral targets, though there are notable exceptions such as Articuno and Hypno. Amnesia also assists Golduck defensively, making it very difficult for conventional Water-types to KO and allowing it to PP stall them using Rest. Golduck's Speed is also fairly decent—tying it with Articuno and Pinsir—which lets it get the jump on Dragonite before it can set up Agility.</p> <p>However, Golduck has a myriad of issues that prevent it from seeing play. The main problem is that its good coverage falls flat in RBY UU due to the many bulky Water-types such as Tentacruel, Vaporeon, and Dewgong, all of which stonewall Golduck. Furthermore, Tentacruel makes actually getting mileage out of Golduck a nightmare, outspeeding it to delay its setup and chip it down with Wrap until it's placed in KO range. Golduck is fairly vulnerable to physical attackers like Kangaskhan that love to punish its Rest, blowing past it with their STAB moves. As a result, while Golduck works on paper, it flounders in practice. Poliwrath is a far superior pick as an Amnesia user, possessing a wider movepool and better overall stats.</p>",
@@ -521,7 +523,7 @@
     "nu": {"sets": {"Amnesia": {}}},
     "1v1": {"sets": {"Amnesia Attacker": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
-  "Mankey": {"lclevel100": {"sets": {"Physical Attacker": {}}}},
+  "Mankey": {"lc": {"sets": {"Physical Attacker": {}}}, "lclevel100": {"sets": {"Physical Attacker": {}}}},
   "Primeape": {
     "1v1": {"sets": {"Physical Attacker": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 298753, "username": "Elo Bandit"}]}]}},
     "pu": {
@@ -546,7 +548,7 @@
       "credits": {"writtenBy": [{"user_id": 520967, "username": "pac"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 236353, "username": "Plague von Karma"}, {"user_id": 233818, "username": "Enigami"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}]}
     }
   },
-  "Growlithe": {"petitcup": {"sets": {"Dragon Rage": {}}}, "lclevel100": {"sets": {"Agility Sweeper": {}}}},
+  "Growlithe": {"lc": {"sets": {"Agility Sweeper": {}}}, "petitcup": {"sets": {"Dragon Rage": {}}}, "lclevel100": {"sets": {"Agility Sweeper": {}}}},
   "Arcanine": {
     "uu": {
       "overview": "<p>Arcanine may be known as the Legendary Pokemon in-game, but in reality, it is largely underwhelming due to its abysmal Fire typing. RBY UU is chock full of bulky Water-types like Omastar and Vaporeon that can switch in and easily suppress Fire-type Pokemon. Tentacruel gets a special mention for being able to outspeed these Fire-types and either deal considerable damage with Surf, or predict a switch and pivot with Wrap. Even among Fire-types, however, it’s tough to justify using Arcanine over Moltres due to its inferior Special stat. Because of these flaws, Arcanine is not recommended for use on competitive RBY UU teams, and thus rarely sees play.</p> <p>While Arcanine lacks a real niche in the UU metagame, it has a few somewhat desirable traits. Its 95 base Speed and access to Agility lets Arcanine outpace some other Agility users, like Articuno and Dragonite, and it possesses a strong Body Slam to deter switch-ins. This sounds a lot like a weaker Dodrio at first, but what sets Arcanine apart is a powerful STAB Fire Blast and its 30% burn rate, not only threatening the likes of Kangaskhan and Persian, but also letting it deal considerable mixed damage.</p>",
@@ -581,6 +583,7 @@
     }
   },
   "Poliwag": {
+    "lc": {"sets": {"Sleeper": {}}},
     "pu": {
       "overview": "<p>Poliwag's blistering base 90 Speed and access to Hypnosis make it the fastest sleeper in the tier. Once it puts something to sleep, it can turn into a dangerous sweeper thanks to Amnesia. However, Poliwag's awful bulk leaves it completely reliant on landing Hypnosis to find any opportunities to set up, rendering it horribly inconsistent. To make matters worse, Poliwag struggles to OHKO targets weak to its Surf at +2, incentivizing further inconsistency by using Hydro Pump to reach these crucial damage rolls. Its Speed, while great, is still worse than several common threats, such as Fearow, Rapidash, and Arcanine. When choosing a sleeper, teams usually prefer the better offensive and defensive utility from Gastly and Drowzee, and Seaking is usually preferred as a Water-type setup sweeper. Thus, Poliwag should be used with extreme caution due to its reward often being lower than its risk.</p>",
       "comments": "<h3>Other Options</h3> <p>Blizzard can be used over Psychic, exchanging the ability to break through Water-types and fish for Special drops to instead hit Fearow and Dragonair for super effective damage and reach higher damage ranges against Grass-types. However, even at +2 Blizzard fails to OHKO Fearow and Dragonair, and Fearow is 2HKOed by +2 Surf anyway.</p> <h3>Checks and Counters</h3> <p><strong>Fearow</strong>: Fearow outspeeds Poliwag and has a 33.3% chance to OHKO it using Hyper Beam, while it can't even OHKO Fearow with +2 Hydro Pump or Blizzard.</p> <p><strong>Water-types</strong>: Barring Special drops, Seaking isn't even 3HKOed by +2 Psychic, and it can KO Poliwag with a combination of Double-Edge and Hyper Beam. Staryu struggles to deal damage to a boosted Poliwag without critical hits and is 3HKOed by +2 Psychic, but it can cripple Poliwag with Thunder Wave. While rare, Slowpoke resists all of Poliwag's attacks, can paralyze it with Thunder Wave, and can use it as setup fodder for its own Amnesia. However, given that they're all slower, these threats must watch out for Hypnosis.</p> <p><strong>Fire-types</strong>: Arcanine can outspeed and 2HKO Poliwag with Body Slam and Hyper Beam, though a +2 Hydro Pump has a 66.7% chance to OHKO it. While +2 Hydro Pump always OHKOes them, Rapidash and Magmar can also outspeed and KO Poliwag using a combination of Body Slam and Hyper Beam. Besides winning the one-on-one, all of these Fire-types can easily revenge kill a weakened Poliwag. However, these Pokemon struggle to switch in due to their weakness to Water.</p> <p><strong>Weepinbell</strong>: Though rare, Weepinbell can easily tank a +2 Psychic or Blizzard and OHKO Poliwag regardless of boosts using Razor Leaf.</p> <p><strong>Paralysis</strong>: Poliwag's paltry initial power leaves it vulnerable to paralysis spreaders like Abra, Vileplume, Dragonair, Drowzee, and Porygon once Sleep Clause is in effect. Once paralyzed, it is easily overwhelmed by most foes due to its low bulk.</p>",
@@ -630,6 +633,7 @@
     "stabmons": {"sets": {"STABmons": {}}}
   },
   "Abra": {
+    "lc": {"sets": {"Mixed Attacker": {}}},
     "pu": {
       "overview": "<p>While Abra may initially seem like one of PU's top threats thanks to its massive Special, high Speed, excellent Psychic typing, and access to Thunder Wave, the tier is extremely hostile to it, and it's barely viable as a result. Abra is held back by its horrendous physical bulk; despite its base 90 Speed outpacing key threats like Nidoqueen and Gastly, numerous foes such as Scyther, Fearow, Rapidash, Magmar, and Arcanine can outspeed and OHKO Abra. Teams with Abra can use Rock-types to check these faster foes, but they are exploitable and better suited supporting other Pokemon. While not as bad of a matchup, slower physical attackers like Pinsir can also beat Abra one-on-one even if they have to take a hit or paralysis first. To make matters worse, despite Abra's higher Special, the Fire-types actually do more damage to neutral targets due to Fire Blast having a higher Base Power than Psychic. Despite its access to Thunder Wave, Abra's frailty means it fears paralysis more than just about every other Pokemon in PU. One notable paralysis spreader is Drowzee, a foe that both counters Abra and turns it into a liability by threatening to spread status to its teammates. While Drowzee cannot match Abra's Speed and power, its higher bulk and access to Hypnosis gives Abra major competition as a Psychic-type status spreader.</p> <p>Abra's one saving grace is its fantastic Gastly matchup. Abra outspeeds Gastly, 2HKOes it with Psychic, threatens paralysis against its team if it switches out, and takes minimal damage from Gastly's Psychic and Thunderbolt. Unlike Drowzee, Abra outspeeding Gastly means Hypnosis is far less reliable against it, and once Sleep Clause is active Abra dominates Gastly like no other Pokemon in PU. It puts Gastly in a terrible situation if it doesn't have Drowzee supporting it, letting Abra enable teammates that fear Gastly such as Seaking and Scyther. Gastly isn't the only reason to use Abra, because it does have a few other favorable matchups, such as Nidoqueen and many Porygon variants.</p>",
       "comments": "<h3>Other Options</h3> <p>Reflect looks like an enticing option to increase Abra's physical bulk, notably letting it dodge OHKOs from the plethora of Hyper Beam users. However, Abra's lack of reliable recovery and the need for a free turn to set it up makes Reflect difficult to use, especially when many Hyper Beam users outspeed Abra. Additionally, Reflect is useless against Scyther and Pinsir due to Slash, and it can often be useless against common foes such as Rapidash, Arcanine, and Fearow due to their high critical hit rates. Rest is an extremely niche option that allows Abra to dominate Porygon sets that only have Psychic as an attacking move, though it is useless against every other relevant foe.</p> <h3>Checks and Counters</h3> <p><strong>Faster Threats</strong>: Scyther, Fearow, Arcanine, Magmar, and Rapidash outspeed Abra; the former three always OHKO it with Hyper Beam, and the latter two have a very high chance to OHKO it with their own Hyper Beam. Fearow also has a 51.3% chance to OHKO Abra with Double-Edge, and Scyther has a 74.4% chance to OHKO Abra with Slash. However, these threats have difficulty switching into Psychic and hate getting paralyzed.</p> <p><strong>Psychic-types</strong>: Drowzee and Slowpoke resist Psychic and are only 4HKOed by Seismic Toss. Both can paralyze Abra with Thunder Wave, and in return they don't mind Abra's Thunder Wave that much. Drowzee can also 3HKO Abra with Seismic Toss. As a result, both Pokemon can switch into Abra with ease and force it to sacrifice itself or make a teammate risk taking status or a powerful attack.</p> <p><strong>Physical Attackers</strong>: While it's outsped and dislikes being paralyzed, Pinsir is only 3HKOed by Psychic and OHKOes Abra back with Slash. Sandslash is immune to Thunder Wave and 3HKOed by Psychic, and it OHKOes Abra with Earthquake 92.3% of the time. Abra outspeeds and 2HKOes Machamp and Graveler, but they can also tank a hit in a pinch and retaliate; the former OHKOes Abra with Hyper Beam, and the latter has a 76.9% chance to OHKO it with Earthquake.</p> <p><strong>Thunder Wave Users</strong>: Thunder Wave users such as Staryu, Porygon, and Dragonair can paralyze Abra and leave it helpless against every physical attacker in the tier. However, they struggle to tank Abra's Psychic and hate being paralyzed themselves.</p>",
@@ -707,7 +711,7 @@
       "credits": {"writtenBy": [{"user_id": 123746, "username": "Sceptross"}, {"user_id": 236353, "username": "Plague von Karma"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 265630, "username": "Amaranth"}, {"user_id": 424525, "username": "FriendOfMrGolem120"}]}, {"name": "Grammar checked by", "members": [{"user_id": 240732, "username": "Astra"}, {"user_id": 388157, "username": "A Cake Wearing A Hat"}]}]}
     }
   },
-  "Machop": {"petitcup": {"sets": {"All-Out Attacker": {}}}, "lclevel100": {"sets": {"All-Out Attacker": {}}}},
+  "Machop": {"lc": {"sets": {"Physical Attacker": {}}}, "petitcup": {"sets": {"All-Out Attacker": {}}}, "lclevel100": {"sets": {"All-Out Attacker": {}}}},
   "Machoke": {"zu": {"sets": {"Bulky Attacker": {}}}, "middlecup": {"sets": {"All-Out Attacker": {}}}},
   "Machamp": {
     "pu": {
@@ -741,7 +745,7 @@
     },
     "1v1": {"sets": {"All-Out Attacker": {}}}
   },
-  "Bellsprout": {"petitcup": {"sets": {"Swords Dance": {}}}, "lclevel100": {"sets": {"Swords Dance + Wrap": {}}}},
+  "Bellsprout": {"lc": {"sets": {"Status Spreader": {}}}, "petitcup": {"sets": {"Swords Dance": {}}}, "lclevel100": {"sets": {"Swords Dance + Wrap": {}}}},
   "Weepinbell": {
     "pu": {
       "overview": "<p>Thanks to its access to the \"Double Powder\" combination, Weepinbell threatens the entire tier with reliable enough status. Its ability to spread paralysis also pairs nicely with Wrap. While its Speed is poor, it still outpaces notable foes like Drowzee, Porygon, Omanyte, and Graveler; the latter two are OHKOed by Weepinbell's Razor Leaf. However, besides these useful applications, Weepinbell has few other positives to it.</p> <p>While it can eke out some defensive utility using its Water and Electric resistances against Seaking and some Staryu, Weepinbell is a huge defensive liability owing to its bad bulk and typing. Its awful Fire, Flying, Psychic, and Ice weaknesses mean it gets demolished by common threats like Rapidash, Arcanine, Fearow, Gastly, and Nidoqueen. Its poor Speed adds to its woes, usually leaving it outsped and forced to take a hit before doing anything. To make matters worse, while its Razor Leaf destroys threats weak to it, it doesn't do enough damage to save it against neutral targets like Nidoqueen, and it struggles to deal notable damage to Grass-resistant Pokemon like Rapidash, Pinsir, Gastly, and Fearow.</p> <p>Weepinbell also has heavy competition from other status spreaders. Drowzee may be slower, but its Thunder Wave is more reliable and its Psychic-typing grants it both a better offensive and defensive presence. While Vileplume is even less offensively threatening than Weepinbell, its enormous bulk lets it spread status more effectively. Thus, despite the fact that Weepinbell is almost impossible to reliably check without taking status, it offers little else, and thus other status spreaders should be considered before it.</p>",
@@ -776,7 +780,7 @@
       "credits": {"writtenBy": [{"user_id": 530877, "username": "Volk"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 424525, "username": "FriendOfMrGolem120"}, {"user_id": 236353, "username": "Plague von Karma"}, {"user_id": 265630, "username": "Amaranth"}]}, {"name": "Grammar checked by", "members": [{"user_id": 388157, "username": "A Cake Wearing A Hat"}, {"user_id": 232216, "username": "Lumari"}, {"user_id": 51429, "username": "FroTW"}, {"user_id": 583793, "username": "Sabelette"}]}]}
     }
   },
-  "Tentacool": {"zu": {"sets": {"Special Wallbreaker": {}}}, "lclevel100": {"sets": {"Swords Dance + Wrap": {}, "Wrap Pivot": {}}}},
+  "Tentacool": {"lc": {"sets": {"Special Attacker": {}}}, "lclevel100": {"sets": {"Swords Dance + Wrap": {}, "Wrap Pivot": {}}}, "zu": {"sets": {"Special Wallbreaker": {}}}},
   "Tentacruel": {
     "uu": {
       "overview": "<p>Tentacruel is unquestionably the defining threat of RBY UU, shaping every facet of the tier and dictating the viability of many Pokemon. Access to Wrap combined with its incredible base 100 Speed gives it nigh-unmatched utility in nearly every game. Tentacruel's Wrap shapes the identity of RBY UU, defining offensive and defensive play in the tier. Wrap wears down foes and gains momentum by pivoting while they're immobilized, and Tentacruel's many strengths accentuate these positives. Its high Speed and Wrap give it the advantage in most one-on-one interactions: against any slower foe, Tentacruel can just use Wrap and switch as the move expires, giving its team free chip damage and a free switch. This strategy has no good short-term counterplay: switching a faster Pokemon or Haunter into Wrap won't let it punish Tentacruel, making it very hard to punish and gain momentum against Tentacruel. Tentacruel also easily switches in on the tier's many Surfs and Blizzards from threats like Vaporeon, Dewgong, and Articuno. With all these switch-in chances, Tentacruel gets on the field often, and since most Pokemon are slower and thus completely shut down by Wrap, Tentacruel is hard to force out too. This longevity and pressure is made even more potent if Tentacruel chooses to run Rest to stick around even longer and avoid getting worn down. All this field presence, chip damage, momentum, and safe pivoting for offensive teammates lets Tentacruel immensely pressure defensive Pokemon. Finally, not only does Wrap prevent defensive Pokemon from healing during its duration, but Tentacruel can run Swords Dance to emphasize this pressure even more.</p> <p>Tentacruel's many positive attributes support its Wrap, but they also have their own critical applications. With its base 120 Special, which is tied for the second-highest in the tier, STAB Surf or Hydro Pump, and good coverage with Blizzard, Tentacruel is an offensive behemoth. Its STAB moves deal significant damage to Kangaskhan, Omastar, Haunter, and Kadabra, while Blizzard hits Dodrio, Dragonite, Venusaur, Victreebel, and Tangela hard, if it doesn't just OHKO them outright. This wide coverage with Tentacruel's high Speed allows it to act as a revenge killer, a sweeper, and a wallbreaker. If it chooses to run Swords Dance, Tentacruel becomes a nigh-unwallable late-game sweeper, demolishing slower teams with Wrap, Hyper Beam, and Surf with near impunity. Meanwhile, with Rest and the fantastic Water typing, Tentacruel becomes a key defensive piece. It checks Articuno, one of the most dangerous Pokemon in the tier, and answers the myriad of Surfs and Blizzards from the tier's many Water-types, such as Vaporeon, Gyarados, Omastar, Dewgong, and itself, giving it a defensive niche as well as an entry opportunity. Further, all the above niches and Wrap synergize with each other. Wrap chip damage bolsters Tentacruel's offensive pressure, and whenever Tentacruel comes in to exploit a positive offensive or defensive matchup, it gains another chance to use Wrap.</p> <p>Despite all these positives, Tentacruel does have some very notable flaws. Its Poison typing, while making it immune to Toxic, gives it a glaring weakness to Psychic and Earthquake. These weaknesses make it hard to switch Tentacruel into Pokemon like Hypno and Kangaskhan, and they prevent it from staying in against Kadabra and Dugtrio, both of which outspeed Tentacruel and heavily damage it with their STAB moves. Another notable weakness of Tentacruel is its physical frailty, which can allow threats such as Persian and Aerodactyl to force Tentacruel out as well. Tentacruel is also severely crippled by paralysis, as the Speed drop and chance for full paralysis mid-Wrap heavily impact its utility. Lastly, Tentacruel's reliance on Rest to heal itself can be heavily punished by Psychic-types such as Kadabra and Hypno, Electric-types such as Raichu and Electabuzz, and physical attackers such as Kangaskhan, Dodrio, Persian, and Dugtrio. However, even with these flaws, Tentacruel is the tier's apex predator, with its utility and power making it a mandatory pick for competitive teams.</p>",
@@ -797,7 +801,7 @@
     "nc1997": {"sets": {"Wrap Pivot": {}}},
     "stabmons": {"sets": {"STABmons": {}}}
   },
-  "Geodude": {"petitcup": {"sets": {"Explosion": {}}}, "lclevel100": {"sets": {"Explosion": {}}}},
+  "Geodude": {"lc": {"sets": {"Physical Attacker": {}}}, "petitcup": {"sets": {"Explosion": {}}}, "lclevel100": {"sets": {"Explosion": {}}}},
   "Graveler": {
     "pu": {
       "overview": "<p>Graveler cements a role in the tier thanks to its high physical bulk and Rock typing, which make it a near-perfect counter to the ubiquitous Fearow as well as the less common but still deadly Scyther. A healthy Graveler can effortlessly switch into all of their attacks, taking a maximum of 17.8% from Scyther's Slash, 17.2% from Fearow's Double-Edge, and 25.8% from Fearow's normally devastating Hyper Beam. Graveler’s role in the tier isn’t strictly defensive, though. STAB Earthquake and Rock Slide give Graveler perfect coverage, and thanks to its high Attack, it is able to 2HKO many foes.</p> <p>Graveler is held back by its poor Speed and special bulk. It only outspeeds the rare Slowpoke and Speed ties Omanyte. These traits make it very difficult for Graveler to handle special attackers. It is notably outsped and walled by Porygon, which can switch into Graveler and threaten it with Blizzard. Graveler is OHKOed by Surf from Seaking, Staryu, and Dragonair, and it has a 40.7% chance to be 2HKOed by Drowzee's Psychic. This special frailty is exacerbated by Graveler’s fear of burn. Despite Graveler's resistance to Fire, it cannot switch into Rapidash or Arcanine's Fire Blast effectively. This weakness gives it competition with Omanyte, as the latter is able to switch into the Fire-types much more reliably. However, Graveler is much harder to switch into, since Seaking, Staryu, and Gastly are all very common Pokemon that take little damage from Omanyte's STAB moves. Additionally, Graveler's greater physical bulk makes it much more reliable against Fearow, as Omanyte can be ruined by a critical hit. Graveler also has Counter which can force Fearow into an uncomfortable prediction game, as well as Explosion, which can dent a bulky opponent, such as Porygon or Machamp. Overall, Graveler makes an excellent check to the ubiquitous Fearow, but its flaws make it difficult to fit on most teams.</p>",
@@ -857,7 +861,7 @@
     "nc1997": {"sets": {"Explosion": {}}},
     "stabmons": {"sets": {"STABmons": {}}}
   },
-  "Ponyta": {"zu": {"sets": {"Mixed Attacker": {}}}, "lclevel100": {"sets": {"AgiliSpin": {}}}},
+  "Ponyta": {"lc": {"sets": {"Agility Sweeper": {}}}, "lclevel100": {"sets": {"AgiliSpin": {}}}, "zu": {"sets": {"Mixed Attacker": {}}}},
   "Rapidash": {
     "uu": {
       "overview": "<p>Rapidash has good Attack, decent Special, and great Speed, but it struggles to make an impact in the Tentacruel-ridden metagame. Its Speed gives it a 20.5% critical hit rate and lets it notably outpace Tentacruel, giving it a good shot at dealing with it during Wrap chains, and letting it pivot to a teammate like Dugtrio or Persian with Fire Spin. Its Speed is boosted further by Agility, letting it use Fire Spin to exert heavy pressure on unequipped teams.</p> <p>Rapidash suffers from lacking coverage options outside of Normal-type attacks. Furthermore, it struggles against Water-types like Omastar, Tentacruel, and Gyarados when the shakily accurate Fire Spin misses. Rapidash is also prone to getting hit with Toxic due to Pokemon already running it for Draognite. Rapidash faces heavy competition from Moltres, which can switch into Earthquake from Dugtrio and Kangaskhan and get more damage off with Fire Blast and Fire Spin. Rapidash also faces heavy competition from Dragonite, which has the more accurate Wrap, a better typing, more bulk, and similar Agility sweeping potential.</p>",
@@ -893,6 +897,7 @@
     "nc1997": {"sets": {"AgiliSpin": {}}}
   },
   "Slowpoke": {
+    "lc": {"sets": {"Mixed Attacker": {}}},
     "pu": {
       "overview": "<p>While its stats are mediocre, Slowpoke is blessed with excellent tools that help mitigate this issue and make it a potent offensive threat in PU. Its initially terrible Special can be boosted with Amnesia, turning it into a devastating wallbreaker that can be very hard to KO. While Slowpoke's Speed is the worst in the game, Slowpoke can actually outspeed many foes due to its access to Thunder Wave and a boosting move. Slowpoke's excellent Water / Psychic typing grants neutral coverage against every foe except itself and lets it hit common threats like Nidoqueen and Rapidash for super effective damage. However, Slowpoke's awful base Special and Speed force it to spend multiple turns setting up, providing time for foes to break through or wear it down. This makes Slowpoke an all-or-nothing Pokemon: it often gets only one opportunity per game to set up, and it will rarely sweep due to how much damage it takes in the process. However, when played correctly, Slowpoke can smash through or cripple key pieces of the opposing team, paving the way for a teammate to clean late-game.</p>",
       "comments": "<h3>Other Options</h3> <p>Rest or Reflect can be used over either of Slowpoke's attacking moves. The former increases Slowpoke's longevity, making it easier for it to potentially sweep teams. However, Slowpoke's average physical bulk still leaves it 3HKOed by common foes like Fearow and Nidoqueen. The latter makes it much harder for physical attackers to break through it, but damage can still accumulate quickly over time, and many common physical attackers can bypass this boost through critical hits, such as Fearow and Pinsir. Additionally, only having one attacking move can leave Slowpoke walled by either Psychic-types, like Abra and Drowzee, or Water-types, like Staryu and Seaking. Ice-type moves may initially seem useable, since they target Grass-types and Dragonair, foes Slowpoke has huge trouble with. However, Psychic already hits every viable Grass-type for super effective damage, and if it can land an attack, Thunder Wave is more than enough to ruin Dragonair. Additionally, relying on Ice / Water coverage results in Slowpoke being walled by Water-types, while Ice / Psychic coverage is strictly worse against Psychic- and Fire-types than Slowpoke's STAB combination.</p> <h3>Checks and Counters</h3> <p><strong>Sleep Inducers</strong>: Every unparalyzed sleep user can outspeed Slowpoke and put it to sleep. Notably, Drowzee and Vileplume don't mind paralysis or Slowpoke's unboosted attacks that much, and thus are likely to eventually land sleep. However, other sleepers such as Gastly dislike Slowpoke's attacks and Thunder Wave, letting Slowpoke get past them if it gets lucky.</p> <p><strong>Thunderbolt Users</strong>: Nidoqueen, Gastly, Staryu, and Dragonair can 2HKO Slowpoke with Thunderbolt. However, these foes must be wary of taking Slowpoke's boosted attacks, and all but Nidoqueen hate Thunder Wave.</p> <p><strong>Physical Wallbreakers</strong>: Fearow and Pinsir can easily overwhelm Slowpoke while it's setting up. However, they are liable to take paralysis and significant damage while doing so, and thus they prefer only coming in against Slowpoke to revenge kill it.</p> <p><strong>Weepinbell</strong>: Weepinbell outspeeds Slowpoke, and its Razor Leaf has a 53.8% chance to OHKO with a critical hit. Weepinbell can also easily put Slowpoke into guaranteed KO range using Wrap, and it isn't OHKOed by a +2 Psychic.</p> <p><strong>Partial Trapping</strong>: Every unparalyzed Pokemon with a partial trapping move can outspeed, pivot around, and wear Slowpoke down into KO range. However, many of these, such as Pinsir and Rapidash, rely on very inaccurate partial trapping moves, and thus they need unreasonable amounts of luck to get Slowpoke into KO range from full. Wrap users and Dragonair in particular threaten Slowpoke the most due to Wrap having the highest accuracy out of any partial trapping move.</p>",
@@ -945,7 +950,7 @@
       "credits": {"writtenBy": [{"user_id": 42885, "username": "Crystal_"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 53302, "username": "Jorgen"}, {"user_id": 21345, "username": "M Dragon"}, {"user_id": 19, "username": "Hipmonlee"}]}, {"name": "Grammar checked by", "members": [{"user_id": 40064, "username": "Nix_Hex"}, {"user_id": 108993, "username": "Jellicent"}]}]}
     }
   },
-  "Magnemite": {"lclevel100": {"sets": {"Special Wallbreaker": {}}}},
+  "Magnemite": {"lc": {"sets": {"Special Attacker": {}}}, "lclevel100": {"sets": {"Special Wallbreaker": {}}}},
   "Magneton": {
     "zu": {"sets": {"Bulky Special Attacker": {}}},
     "uu": {
@@ -987,7 +992,7 @@
     },
     "petitcup": {"sets": {"Swords Dance": {}}}
   },
-  "Doduo": {"lclevel100": {"sets": {"Agility Sweeper": {}}}},
+  "Doduo": {"lc": {"sets": {"Agility Sweeper": {}}}, "lclevel100": {"sets": {"Agility Sweeper": {}}}},
   "Dodrio": {
     "uu": {
       "overview": "<p>NOTE: The following analysis was produced prior to the ban on Sleep-inducing moves and Hypno being banned.</p> <h3>Outdated Analysis</h3> <h3>Overview</h3> <p>Dodrio is a decently fast threat in RBY UU, notably Speed tying with Tentacruel and Raichu, and possesses great STAB options in Body Slam and Drill Peck. These traits and its amazing Attack stat make for powerful and frequent critical hits; the resulting 19.53% chance makes it a very volatile threat that's difficult for most Pokemon to switch into consistently. Dodrio can further boost its Speed and make up for Speed drops from paralysis through Agility, which has the added bonus of making it more difficult to pin down with Wrap. Its typing is also notable for its immunity to Earthquake and paralysis from Body Slam. These qualities make Dodrio a solid revenge killer and late-game sweeper on offensive teams.</p> <p>However, Dodrio's defenses are extremely poor, making it take heavy damage from even neutral hits and easy to OHKO. Worse still, it lacks coverage moves, leaving it stonewalled by Rock-types like Golem and Omastar. Dodrio is a common target for paralysis due to its Speed and fragility too, making it very easy to neuter. As a result, getting Dodrio into the fray can be a difficult task without support from Wrap or smart double-switching.</p>",
@@ -1012,7 +1017,7 @@
     "nc1997": {"sets": {"Physical Sweeper": {}}},
     "stabmons": {"sets": {"STABmons": {}}}
   },
-  "Seel": {"lclevel100": {"sets": {"Bulky Attacker": {}}}},
+  "Seel": {"lc": {"sets": {"Special Attacker": {}}}, "lclevel100": {"sets": {"Bulky Attacker": {}}}},
   "Dewgong": {
     "uu": {
       "overview": "<p>NOTE - The following analysis was produced prior to the ban on Sleep-inducing moves and Hypno being banned.</p> <hr /> <h3>Overview</h3> <p>Dewgong’s main role in RBY UU is being the third-best purely bulky Water-type Pokemon. In terms of raw bulk, Vaporeon is simply the strongest choice. The second most prominent purely bulky Water-type Pokemon is Omastar, which holds on to relevance thanks to a resistance to Normal-type moves. Additionally, other Water-types with more diverse movepools, like Tentacruel and Poliwrath, also give Dewgong some competition.</p> <p>The two main features that make Dewgong notable are its Ice typing and superior Speed relative to other Water-type Pokemon. Being an Ice-type gifts Dewgong an impressively strong STAB-boosted Blizzard. Despite Dewgong having lower Special than its closest competitors, its Blizzard tends to deal more damage than anything they can throw out. Just a few significant calculations include a possible 3HKO against Hypno, a very likely 3HKO against Gyarados, a 2HKO on Kangaskhan, and a guaranteed OHKO against Dodrio and Dragonite. The Ice type also improves some of Dewgong’s specific matchups. Most notably, Dewgong is the hardest Articuno counter available, as it is uniquely 4x resistant to Blizzard, cannot be frozen, and forces Articuno to take heavy recoil damage over time from using Double-Edge. Dewgong’s Speed is a relevant advantage primarily because Dewgong is able to outspeed and pressure Hypno, which other Water-type Pokemon may struggle with. The Speed and freeze immunity also help Dewgong when it faces other bulky Water-type Pokemon, namely Vaporeon.</p> <p>Despite these advantages, Dewgong is held back simply because its bulk is not as good as that of Vaporeon and Omastar. Poliwrath also largely surpasses it in physical bulk. Dewgong’s matchups against stronger attackers, both physical and special, simply do not compare to its competitors. As an example, Electabuzz will always 2HKO Dewgong with Thunderbolt but can only 3HKO Vaporeon. Dewgong does not have the longevity it needs; thus, it exists mainly as a niche pick, filling slots only on teams that truly demand its particular blend of strengths and can afford its shortcomings.</p>",
@@ -1027,7 +1032,7 @@
     "nc1999": {"sets": {"Horn Drill": {}}},
     "nc1997": {"sets": {"Double Team + Rest": {}}}
   },
-  "Grimer": {"lclevel100": {"sets": {"Explosion": {}}}},
+  "Grimer": {"lc": {"sets": {"Mixed Attacker": {}}}, "lclevel100": {"sets": {"Explosion": {}}}},
   "Muk": {
     "pu": {
       "overview": "<p>Muk possesses a couple useful traits, including solid bulk, good elemental coverage, and the tier's most powerful Explosion. However, it is held back by its Poison typing, which grants it no useful resistances alongside weaknesses to the common Earthquake and Psychic, and low Speed, which means it'll almost always move last. To make matters worse, it is dominated by Gastly, which is only 4HKOed by Fire Blast and is immune to Explosion. While teams lacking Gastly may have some trouble playing around it, Muk is too easy to overwhelm with common threats like Nidoqueen, and thus it's recommended that players avoid using this Pokemon.</p>",
@@ -1041,7 +1046,7 @@
     "pikacup": {"sets": {"Explosion": {}}},
     "zu": {"sets": {"Mixed Attacker": {}}}
   },
-  "Shellder": {"petitcup": {"sets": {"Clamp Pivot": {}}}, "lclevel100": {"sets": {"Clamp Pivot": {}}}},
+  "Shellder": {"lc": {"sets": {"Clamp": {}}}, "petitcup": {"sets": {"Clamp Pivot": {}}}, "lclevel100": {"sets": {"Clamp Pivot": {}}}},
   "Cloyster": {
     "tradebacksou": {"sets": {"Standard": {}}},
     "stadiumou": {"sets": {"Physical Wall": {}}},
@@ -1074,7 +1079,6 @@
       },
       "credits": {"writtenBy": [{"user_id": 535530, "username": "Gangsta Spongebob"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 540559, "username": "gastlies"}, {"user_id": 583793, "username": "Sabelette"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}, {"user_id": 168392, "username": "P Squared"}]}]}
     },
-    "petitcup": {"sets": {"Special Attacker": {}}},
     "nu": {
       "outdated": true,
       "overview": "<p>Gastly is one of the strongest pivots in the metagame due to its typing granting it complete immunity to numerous valuable offensive tools such as Body Slam, Hyper Beam, Slash, and Toxic. It's also one of the faster users of a sleep-inducing move in Hypnosis, which is incredibly important due to nearly every competitive team trying to spread sleep in some form. Its Ghost typing is also completely unique in the tier, allowing it to check Pinsir and Raticate; PP stall Wrap and Bind users such as Dragonair, Pinsir, and the niche Weepinbell; and pivot around the various Body Slams of the tier from the likes of Blastoise and Clefable.</p> <p>However, Gastly has some flaws that make it struggle to succeed consistently in the meta. Its typing faces issues defensively, being weak to common moves such as Psychic and Earthquake and giving it poor matchups versus numerous top-tier threats like Charizard, Nidoking, and the ubiquitous Mr. Mime. Gastly's Speed is also just not enough, leaving it outsped by all of the aforementioned threats, as well as the more notable sleepers in Venomoth and Poliwhirl. Finally, its bulk is generally quite poor, leaving it obliterated by key offensive threats like Charizard, Rapidash, and Mr. Mime once it has taken mild chip damage.</p>",
@@ -1085,6 +1089,8 @@
       },
       "credits": {"writtenBy": [{"user_id": 520967, "username": "pac"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 236353, "username": "Plague von Karma"}, {"user_id": 468904, "username": "SBPC"}]}, {"name": "Grammar checked by", "members": [{"user_id": 336073, "username": "Rabia"}]}]}
     },
+    "lc": {"sets": {"Sleeper": {}}},
+    "petitcup": {"sets": {"Special Attacker": {}}},
     "lclevel100": {"sets": {"Sleeper": {}}}
   },
   "Haunter": {
@@ -1161,6 +1167,7 @@
       "credits": {"writtenBy": [{"user_id": 487308, "username": "BT89"}, {"user_id": 535530, "username": "Gangsta Spongebob"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 540559, "username": "gastlies"}, {"user_id": 583793, "username": "Sabelette"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
     },
     "nu": {"sets": {"Standard": {}}},
+    "lc": {"sets": {"Status Spreader": {}}},
     "lclevel100": {"sets": {"Special Wall": {}}}
   },
   "Hypno": {
@@ -1188,7 +1195,7 @@
     },
     "nc1997": {"sets": {"Status Utility": {}}}
   },
-  "Krabby": {"lclevel100": {"sets": {"Swords Dance": {}}}},
+  "Krabby": {"lc": {"sets": {"Setup Attacker": {}}}, "lclevel100": {"sets": {"Swords Dance": {}}}},
   "Kingler": {
     "tradebacksou": {"sets": {"Swords Dance": {}}},
     "stadiumou": {
@@ -1221,7 +1228,7 @@
       "credits": {"writtenBy": [{"user_id": 473639, "username": "LTG"}, {"user_id": 583793, "username": "Sabelette"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 520967, "username": "pac"}, {"user_id": 468904, "username": "SBPC"}, {"user_id": 375193, "username": "MrSoup"}, {"user_id": 486979, "username": "juoean"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}, {"user_id": 331519, "username": "CryoGyro"}]}]}
     }
   },
-  "Voltorb": {"petitcup": {"sets": {"Explosion": {}}}, "lclevel100": {"sets": {"Explosion": {}}}},
+  "Voltorb": {"lc": {"sets": {"Fast Attacker": {}}}, "petitcup": {"sets": {"Explosion": {}}}, "lclevel100": {"sets": {"Explosion": {}}}},
   "Electrode": {
     "uu": {
       "overview": "<p>Electrode holds a highly specific niche in the RBY UU metagame. As the game's fastest Pokemon, Electrode is nearly guaranteed to attack before fainting if it enters the battle safely, even if it doesn't have the most diverse attacks. This Speed most notably allows Electrode to pressure quick tier mainstays like Tentacruel and Dugtrio. Its high Speed also blesses it with a 27.3% critical hit chance, which can elevate its weak attacks to extreme heights; for example, a critical hit Explosion will always OHKO Hypno. Its Speed and Thunder Wave make it an above average switch into Wrap users as well. These attributes also enable Electrode to be used as a lead or even a sweeper in some cases.</p> <p>Unfortunately, Electrode’s flaws are abundant and quite detrimental. Outside of Explosion, Electrode has very few distinctive moves for an Electric-type Pokemon. Without Body Slam or Double-Edge, let alone any diverse coverage move, Electrode is forced to use moves like Take Down just to damage Ground-type Pokemon. Electrode's offenses are also inferior to those of its main competitors, Electabuzz and Raichu. These flaws culminate into Electrode being relatively easy to wall and KO. As such, using Electrode often boils down to attacking once or twice and then trying to get lucky with Explosion. It is a high-risk Pokemon that requires accurate predictions and a little bit of luck to reap a proportionate reward.</p>",
@@ -1239,7 +1246,6 @@
     "ubers": {"sets": {"Explosion": {}}}
   },
   "Exeggcute": {
-    "petitcup": {"sets": {"Mixed Wall": {}}},
     "nu": {
       "outdated": true,
       "overview": "<p>What Exeggcute lacks in stats, it makes up for in status moves and typing, utilizing its key Psychic and Electric resistances to spread sleep and paralysis. It is one of the few Pokemon available that can inflict sleep consistently. It can switch into, status, and wear down the opponent's Mr. Mime without exposing your own Mr. Mime to paralysis, keeping it healthy so it can run rampant later in the match. Its resistance to Mr. Mime's, Electrode's, and Venomoth's primary attacks makes it good support for teams otherwise vulnerable to these foes, and it minds paralysis less than most Pokemon. It also packs Explosion to heavily damage a foe on the way out and grant free entry to a deadly attacker or setup sweeper, allowing for clever positioning to set up a nice endgame sweep.</p> <p>Exeggcute's typing does, however, make it extremely vulnerable to the plentiful Fire- and Ice-type attacks in the tier. Even though it resists Earthquake, its very low Speed and lack of Grass-type STAB moves make it a mediocre Golem check, and its low Special and Ice weakness make it an extremely unreliable switch-in to Nidoking. Its physical bulk, while passable, is insufficient to avoid OHKOs from Kingler's and Pinsir's +2 Hyper Beams, leaving it unable to stop their sweeps with Stun Spore. Additionally, its low offensive stats leave it rather passive after it spreads status, and it will almost certainly get paralyzed as it tries to put something to sleep, which leaves it with an inconsistent 56% chance to actually land its status moves thereafter. Nonetheless, Exeggcute is a considerable thorn in the side of almost any NU team given the sheer prevalence of Mr. Mime and Venomoth.</p>",
@@ -1251,6 +1257,8 @@
       },
       "credits": {"writtenBy": [{"user_id": 233818, "username": "Enigami"}, {"user_id": 583793, "username": "Sabelette"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 236353, "username": "Plague von Karma"}, {"user_id": 520967, "username": "pac"}, {"user_id": 96315, "username": "phoopes"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}]}
     },
+    "lc": {"sets": {"Status Spreader": {}}},
+    "petitcup": {"sets": {"Mixed Wall": {}}},
     "lclevel100": {"sets": {"Sleeper": {}}}
   },
   "Exeggutor": {
@@ -1290,7 +1298,7 @@
       "credits": {"writtenBy": [{"user_id": 265630, "username": "Amaranth"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 263906, "username": "Zokuru"}, {"user_id": 108993, "username": "Jellicent"}]}, {"name": "Grammar checked by", "members": [{"user_id": 331519, "username": "CryoGyro"}, {"user_id": 53214, "username": "JockeMS"}]}]}
     }
   },
-  "Cubone": {"petitcup": {"sets": {"Mixed Attacker": {}}}, "lclevel100": {"sets": {"Counter": {}}}},
+  "Cubone": {"lc": {"sets": {"Mixed Attacker": {}}}, "petitcup": {"sets": {"Mixed Attacker": {}}}, "lclevel100": {"sets": {"Counter": {}}}},
   "Marowak": {
     "pu": {
       "overview": "<p>Marowak has fringe viability as a result of being mostly outclassed by Sandslash, which has higher stats in everything except Defense, and even that's still equal. Marowak does have access to unique options in Fire Blast, Blizzard, and Counter, which can help against threats such as Pinsir and Fearow, but in general Sandslash's access to Swords Dance and Rock Slide is more useful. Sandslash itself isn't even that good as a result of its mediocre Speed and special bulk, so Marowak has little hope in this tier.</p>",
@@ -1346,7 +1354,7 @@
       "credits": {"writtenBy": [{"user_id": 625260, "username": "NotVeryCake"}, {"user_id": 233818, "username": "Enigami"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 265630, "username": "Amaranth"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
     }
   },
-  "Koffing": {"lclevel100": {"sets": {"Explosion": {}}}},
+  "Koffing": {"lc": {"sets": {"Mixed Attacker": {}}}, "lclevel100": {"sets": {"Explosion": {}}}},
   "Weezing": {
     "pu": {
       "overview": "<p>Despite its solid bulk, decent coverage, and access to Explosion, Weezing struggles to find a place in PU. Its Poison typing grants weaknesses to common Ground- and Psychic-type attacks and lacks useful resistances. Its low Speed and average attacking stats make it very easy to overwhelm, often forcing it to use Explosion early. While its Explosion is difficult to switch into, it's severely held back by Weezing's difficulty in threatening Gastly and Graveler, which can effortlessly switch in and absorb any of Weezing's attacks. To make matters worse, Weezing is largely outclassed by Muk. Weezing's higher physical bulk and Speed are generally less useful than Muk's higher Attack, which allows it to threaten KOs against more foes. Notably, Muk's Explosion is guaranteed to OHKO Fearow and Dragonair, while Weezing's is just a range; Muk also has higher odds to OHKO Porygon and Rapidash. Muk itself is on the verge of unviability, so being a generally worse Pokemon makes Weezing have an even harder time.</p>",
@@ -1355,7 +1363,7 @@
     },
     "zu": {"sets": {"Mixed Attacker": {}}}
   },
-  "Rhyhorn": {"zu": {"sets": {"Tank": {}}}, "lclevel100": {"sets": {"Substitute Attacker": {}}}},
+  "Rhyhorn": {"lc": {"sets": {"Physical Attacker": {}}}, "lclevel100": {"sets": {"Substitute Attacker": {}}}, "zu": {"sets": {"Tank": {}}}},
   "Rhydon": {
     "tradebacksou": {"sets": {"Standard": {}}},
     "stadiumou": {
@@ -1467,6 +1475,7 @@
     "stabmons": {"sets": {"STABmons": {}}}
   },
   "Horsea": {
+    "lc": {"sets": {"Agility Sweeper": {}}},
     "pu": {
       "overview": "<p>Horsea holds a micro-niche in PU as a second, weaker Seaking, acting as an Agility sweeper that threatens many top Pokemon, such as Fearow, Arcanine, and Nidoqueen, with a 2HKO from either Surf or Blizzard. Horsea also has access to Smokescreen, which makes it much harder for Seaking to reliably set up Agility in front of Horsea and sweep. However, Horsea is much frailer and weaker than Seaking, notably being 2HKOed by Slash from Scyther and Pinsir and Thunderbolt from every relevant user. It is also always KOed by Fearow's Double-Edge into Hyper Beam, and it is 3HKOed by Seaking's Double-Edge and Drowzee's Psychic. This frailty makes it much harder for Horsea to set up Agility compared to Seaking, which has enough bulk to reliably set up and sweep. Horsea's Speed is also poor before it sets up, only outspeeding the likes of Drowzee, Vileplume, and Porygon. Being entirely worse than Seaking means it must not be used as a replacement to Seaking, but as a partner to it. The combination of Horsea and Seaking stacks weaknesses to Staryu and Gastly; Staryu is especially problematic as even Double-Edge Seaking struggles to beat healthy Staryu without a critical hit and Horsea is completely useless into Staryu unless it manages to freeze it. Horsea's flaws massively outweigh its short list of benefits, and as a result Horsea should not be used in nearly any serious game.</p>",
       "sets": {
@@ -1476,9 +1485,9 @@
       },
       "credits": {"writtenBy": [{"user_id": 625260, "username": "NotVeryCake"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 540559, "username": "gastlies"}, {"user_id": 535530, "username": "Gangsta Spongebob"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
     },
+    "zu": {"sets": {"Agility Sweeper": {}}},
     "petitcup": {"sets": {"Late-game Cleaner": {}}},
-    "lclevel100": {"sets": {"Agility Sweeper": {}}},
-    "zu": {"sets": {"Agility Sweeper": {}}}
+    "lclevel100": {"sets": {"Agility Sweeper": {}}}
   },
   "Seadra": {
     "nu": {
@@ -1493,7 +1502,7 @@
       "credits": {"writtenBy": [{"user_id": 583793, "username": "Sabelette"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 520967, "username": "pac"}, {"user_id": 233818, "username": "Enigami"}, {"user_id": 375193, "username": "MrSoup"}, {"user_id": 593847, "username": "nicole7735"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}, {"user_id": 384270, "username": "autumn"}]}]}
     }
   },
-  "Goldeen": {"petitcup": {"sets": {"Bubble Beam + Horn Drill": {}}}, "lclevel100": {"sets": {"Agility Sweeper": {}}}},
+  "Goldeen": {"lc": {"sets": {"Agility Sweeper": {}}}, "petitcup": {"sets": {"Bubble Beam + Horn Drill": {}}}, "lclevel100": {"sets": {"Agility Sweeper": {}}}},
   "Seaking": {
     "tradebacksou": {
       "overview": "<p>With the addition of Swords Dance into its movepool, Seaking manages to function as a competent setup sweeper. With STAB Surf as an added bonus, it also blasts through common Hyper Beam switch-ins, such as Rhydon. Agility distinguishes Seaking from its competing Swords Dance users, as, even when paralyzed, it still poses a threat to sweep if the opposing team has been damaged. Once set up, Seaking can be a difficult Pokemon to stop, KOing frailer Pokemon such as Persian and Jolteon from over 75% HP with Hyper Beam. Seaking is decently sturdy as well, surviving two hits from Starmie's Thunderbolt and Alakazam's Thunder Punch a significant majority of the time, giving it more opportunities to set up than Kingler.</p> <p>However, Seaking has to use both Swords Dance and Agility to pose any threat to the opposition. With only Surf and a single physical attack in its attacking moveset due to this—most likely Hyper Beam or the middling Double-Edge—Seaking is not surpassingly rewarding either, struggling to break through bulky Pokemon like Reflect Chansey. It's also completely incapable of breaking through the common Gengar and is struck with Thunderbolt in return; the improved coverage of staples like Thunder Punch for Alakazam and Hypno does not help its case either. Seaking is rarely seen in Tradebacks OU by account of its committal nature and unexceptional reward, normally finding itself competing with Kingler, which, while lacking Agility, has far better damage output for the effort put in.</p>",
@@ -1516,6 +1525,7 @@
     }
   },
   "Staryu": {
+    "lc": {"sets": {"Special Attacker": {}}},
     "pu": {
       "overview": "<p>Staryu's phenomenal movepool—complete with fantastic coverage, Recover, and most importantly, Thunder Wave—and good Speed make it a dangerous offensive threat and elite paralysis spreader. Its Water-type STAB moves and Speed dissuade Ground-types like Nidoqueen from switching into it, making its Thunder Wave extremely hard to deny. Staryu isn't just limited to spreading paralysis either—STAB Surf and great coverage let it hit most of the tier for neutral damage, and it can hit notable foes like Arcanine, Rapidash, Fearow, and the aforementioned Nidoqueen super effectively. Despite its extreme frailty, Staryu's access to Recover makes it PU's best answer to Seaking, as its typing and Recover wall it completely bar critical hits as long as it's unparalyzed.</p> <p>However, it is essential that players don't overestimate Staryu's defensive capabilities—barring Seaking, just about every common foe can reliably paralyze or 2HKO Staryu, if not both, making it very difficult for it to use Recover outside of when it faces Seaking. Once paralyzed, Staryu loses one-on-one to most foes, especially if it's weakened beforehand. Even Seaking can break through Staryu, as Double-Edge into Hyper Beam has a 54.3% chance to KO. Magneton also threatens Staryu immensely, as it OHKOes Staryu and is only 4HKOed in return by Surf. Staryu's offensive presence isn't perfect either, as while only a handful of Pokemon outspeed it, these include common foes like Fearow, which can KO Staryu after the slightest chip damage, and Rapidash, Arcanine, and Magmar, which can paralyze Staryu with Body Slam and KO it with Hyper Beam. Slower paralysis spreaders also give Staryu considerable trouble, as while they dislike paralysis, Dragonair can wall Staryu depending on its chosen coverage, Porygon can trade Thunder Wave with Staryu, as it is only 3HKOed by Surf 16.4% of the time and threatens Staryu in return with its coverage, and Drowzee can easily switch into Staryu and threaten it and its team with STAB Psychic and dual status. Staryu also has difficulty fitting all of the moves it wants. Alongside the obligatory STAB Surf and Thunder Wave, it has to choose between Thunderbolt and Psychic as well as Recover and Blizzard, leaving it unable to wall Seaking or threaten foes like Grass-types and Dragonair depending on its choice of coverage.</p>",
       "comments": "<h3>Other Options</h3> <p>Hydro Pump can be used to hit higher damage ranges, notably 3HKOing Drowzee and Gastly, as well as having a chance to 3HKO Magneton, though it fails to KO most other foes faster than Surf and is much less reliable due to its shaky accuracy.</p> <h3>Checks and Counters</h3> <p><strong>Paralysis</strong>: Given that Staryu is 2HKOed by much of the tier, once paralyzed, it's easy to take out. Even foes that can't 2HKO Staryu, like Seaking, can overwhelm it after one turn of full paralysis. Body Slam users like Rapidash and Arcanine can fish for paralysis while dealing solid damage, while Thunder Wave users like Porygon, Abra, and opposing Staryu can use Thunder Wave. However, these foes tend to hate taking paralysis themselves and usually dislike Staryu's STAB and coverage options. Dragonair also has access to Thunder Wave and is more than happy to exchange paralysis with Staryu, as it resists Surf + Thunderbolt and can use Agility. Slowpoke can switch into and threaten paralysis on Staryu lacking Thunderbolt, although it is rare and incredibly weak otherwise. Drowzee deserves a special mention, as it minds neither paralysis nor Staryu's attacks that much, only being 4HKOed by Surf, while it threatens Staryu and its team with not only Thunder Wave but also Hypnosis and a strong STAB Psychic.</p> <p><strong>Faster Pokemon</strong>: Fearow's Double-Edge 2HKOes Staryu, and its Hyper Beam does a minimum of 81.7%. While Fearow dislikes Thunder Wave, it can negate the Speed drop by using Agility, and it's only reliably 2HKOed by Staryu's Blizzard. Although it cannot set up Swords Dance on Staryu, a +2 Scyther OHKOes it with Hyper Beam. Alongside threatening paralysis with Body Slam, Rapidash, Arcanine, and Magmar outspeed Staryu and can KO it from around 60% using Hyper Beam. Abra outspeeds Staryu and threatens paralysis with Thunder Wave and a 2HKO with Psychic, though it generally despises taking paralysis.</p> <p><strong>Magneton</strong>: Magneton OHKOes Staryu with Thunderbolt and is only 4HKOed in return by Surf. Magneton is also incredibly hard to switch into barring Ground-types, as it threatens paralysis and a strong STAB Thunderbolt on Staryu's teammates.</p> <p><strong>Gastly</strong>: Gastly 2HKOes Staryu with Thunderbolt and is only 3HKOed 75.3% of the time by Surf. It also threatens to sleep Staryu and its teammates with Hypnosis.</p> <p><strong>Grass-types</strong>: Grass-types like Vileplume and the uncommon Weepinbell resist Surf and Thunderbolt and threaten Staryu with Sleep Powder and Stun Spore. Vileplume's enormous bulk leaves it only 3HKOed by Blizzard and generally 4HKOed by Psychic, while Weepinbell outright OHKOes Staryu with Razor Leaf.</p> <p><strong>Pinsir</strong>: While Pinsir dislikes taking paralysis, it 2HKOes Staryu with Slash and is only 3HKOed by Surf, meaning it comfortably beats it one-on-one.</p> <p><strong>Machamp</strong>: Staryu can only 4HKO Machamp without Psychic, and Psychic still only 3HKOes it. In return, Machamp 2HKOes with Submission and has a 69.6% chance to 2HKO with Earthquake, and its combination of Body Slam into Submission has high odds to KO Staryu while also threatening paralysis; Machamp dislikes paralysis, though it can still function regardless.</p>",
@@ -1743,6 +1753,7 @@
       "credits": {"writtenBy": [{"user_id": 265630, "username": "Amaranth"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 108993, "username": "Jellicent"}, {"user_id": 424525, "username": "FriendOfMrGolem120"}]}, {"name": "Grammar checked by", "members": [{"user_id": 53214, "username": "JockeMS"}, {"user_id": 232216, "username": "Lumari"}]}]}
     }
   },
+  "Magikarp": {"lc": {"sets": {"...It's Magikarp.": {"description": "<p>Sample \"set.\"</p>"}}}},
   "Gyarados": {
     "uu": {
       "overview": "<p>Gyarados is among the strongest tanks and wallbreakers in RBY UU. Thanks to an impressive base stat total and deep movepool, Gyarados can comfortably stomach powerful attacks and threaten just about the entire tier with a super effective special move or strong physical move. It is equipped to handle many premier defensive and support Pokemon; Blizzard 2HKOes Venusaur and Tangela and can potentially OHKO Dragonite, Thunderbolt puts pressure on Water-type Pokemon like Tentacruel, Vaporeon, and Omastar, and the combination of Body Slam and Hyper Beam is more than enough to break through Kadabra and Hypno. Gyarados is no slouch against offensive Pokemon as well, boasting a Hydro Pump that can OHKO Dugtrio and 2HKO Kangaskhan and Persian. It is thus a highly customizable Pokemon that can fit on a wide variety of teams.</p> <p>Gyarados is also one of the strongest checks to Dugtrio in the tier. With an immunity to Earthquake and several moves that can OHKO or 2HKO it, Gyarados can switch in against Dugtrio and quickly force it out, sometimes several times in the same game. A healthy Gyarados can confidently prevent a Dugtrio sweep and heavily punish switch-ins with strong moves like Body Slam. Gyarados is also the only Dugtrio check that isn’t weak to Ice, meaning it doesn’t exacerbate a team's weakness to Pokemon like Articuno and Tentacruel nearly as much as other options like Dragonite, Aerodactyl, and Tangela. Versus its closest competitor, Dragonite, Gyarados has an additional point of Speed and STAB Water-type moves. Gyarados can thus reliably revenge kill Dragonite and Venusaur and deal more damage to Pokemon such as Kangaskhan and Haunter.</p> <p>While Gyarados may be able to shake off Blizzard, Thunderbolt absolutely terrifies it. Electabuzz and Raichu are very likely to OHKO Gyarados with the move and Persian, even with its underwhelming Special stat, scores a clean 2HKO. Gyarados’s weakness to Rock can be similarly exploited; while Gyarados is a strong answer to Dugtrio, Rock Slide can deal some hefty damage, especially with a critical hit. Finally, while Gyarados is rather bulky, it lacks any form of reliable recovery, and it isn’t particularly quick. This means that it can be worn down over the course of a match when used too liberally.</p>",
@@ -1808,7 +1819,7 @@
       "credits": {"writtenBy": [{"user_id": 535530, "username": "Gangsta Spongebob"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
     }
   },
-  "Eevee": {"lclevel100": {"sets": {"Physical Attacker": {}, "Reflect + Rest": {}}}},
+  "Eevee": {"lc": {"sets": {"Physical Attacker": {}}}, "lclevel100": {"sets": {"Physical Attacker": {}, "Reflect + Rest": {}}}},
   "Vaporeon": {
     "uu": {
       "overview": "<p>NOTE - The following analysis was produced prior to the ban on Sleep-inducing moves and Hypno being banned.</p> <hr /> <h3>Overview</h3> <p>Vaporeon stands out as the best among the many bulky Water-types in RBY UU, providing teams with a backbone against offensive behemoths like Tentacruel and Articuno. It often takes multiple Pokemon to KO Vaporeon, and because of its monstrous Special stat, they will also have to take very strong STAB Surfs in the process. Even many super effective attacks, such as Electabuzz's Thunderbolt, will fail to 2HKO it. Vaporeon is capable of dueling and checking mighty physical attackers like Kangaskhan and Dugtrio as well. Vaporeon isn't too concerned about paralysis either, making it one of the best absorbers of the status in the tier. Checking Normal-types, Articuno, Dugtrio, and even Tentacruel all in one, Vaporeon blends offense and defense perfectly, making it a very appreciated addition to many successful RBY UU teams.</p> <p>Still, though, Vaporeon is very slow, which can leave it vulnerable to Wrap from Dragonite or Tentacruel. Worse still, if Vaporeon is low on HP, this Wrap use will deny it from healing off damage with Rest. Vaporeon's reliance on Rest will also let heavy-hitting Pokemon like Persian, Kangaskhan, and Dugtrio safely switch in on the turn Rest is used, putting Vaporeon in a very precarious position. Being outrun by every sleeper in the tier, bar Tangela, can also make Vaporeon easy to put to sleep again after Rest if Sleep Clause isn't active. Finally, Vaporeon lacks coverage for opposing Water-types, though its higher damage output does tend to let it win prolonged interactions.</p>",
@@ -1930,6 +1941,7 @@
     "nu": {"sets": {"Standard": {}, "Conversion": {}}}
   },
   "Omanyte": {
+    "lc": {"sets": {"Special Attacker": {}}},
     "pu": {
       "overview": "<p>Omanyte's combination of solid bulk and a Rock / Water typing perfectly counters Rapidash and Arcanine, denying them meaningful progress, and also makes it an effective switch-in to Fearow and Scyther. As these Pokemon are incredibly common offensive threats, Omanyte will almost always have several opportunities to stop a powerful progress-maker in its tracks and then make its own progress. However, while few Pokemon enjoy switching into Omanyte's decently powerful Surf and Blizzard or risking Body Slam paralysis, choosing the wrong move for its switch-in—such as Surf for Seaking or Body Slam for Gastly—leaves it in a bad position. Most of these foes can also switch into Omanyte's attacks at least once and still beat it one-on-one. Omanyte also has an especially hard counter in Porygon, as Omanyte cannot 2HKO or paralyze it while Porygon can heal off the damage with Recover. Omanyte's terrible Speed makes it loses the one-on-one to a variety of metagame threats, such as Nidoqueen and Drowzee, which can force a powerful attack or status condition on one of Omanyte's teammate as it's forced out. Omanyte's low HP also leaves it extremely vulnerable to fixed-damage moves, which 3HKO it. Additionally, its switch-ins are very predictable, making it exploitable with double switching. Pokemon checked by Omanyte have ways to mitigate its effectiveness, as Fearow's sheer power and critical hit rate can quickly wear it down, while Rapidash can use Fire Spin to switch out if its team lacks a decent Omanyte switch-in. Effective use of Omanyte requires a team that can handle its shortcomings and careful management of its HP, and despite walling some top threats, players should consider other options before using Omanyte.</p>",
       "comments": "<h3>Other Options</h3> <p>Hydro Pump is much stronger than Surf, notably having around a 47% chance to 2HKO Gastly, a 59% chance to 2HKO Abra, an 83% chance to 2HKO opposing Omanyte, and an 85% chance to OHKO the rare Sandslash, feats Surf can never achieve without a critical hit. Hydro Pump's extra damage against Drowzee leaves it always in range of Machamp's Hyper Beam or two Seismic Tosses, and it gives Rapidash's Hyper Beam and Pinsir's Slash favorable odds to KO Drowzee as well. However, Hydro Pump's poor accuracy makes it quite unreliable, with Surf usually being preferred over its inconsistent counterpart.</p> <h3>Checks and Counters</h3> <p><strong>Porygon</strong>: Porygon outspeeds Omanyte, isn't 2HKOed by Surf or Blizzard, is immune to Body Slam paralysis, and can heal off damage with Recover, making it Omanyte's worst matchup.</p> <p><strong>Water-types</strong>: While they all dislike paralysis, none of Omanyte's attacks do significant damage to any of the tier's Water-types, whereas they can easily overwhelm it with their STAB moves in return. Staryu can wall Omanyte indefinitely as a result of its access to Recover, while Seaking can set up Agility to negate the Speed drop from paralysis. The rarer Slowpoke and Poliwag can use Omanyte as setup fodder for Amnesia freely.</p> <p><strong>Gastly</strong>: Gastly is uniquely immune to Body Slam while only being 3HKOed by Surf, affording it numerous opportunities to switch in and threaten Omanyte with its higher Speed, Hypnosis, and a 2HKO with Thunderbolt.</p> <p><strong>Drowzee</strong>: Drowzee can outspeed and put Omanyte to sleep with Hypnosis and can usually win the one-on-one with Psychic if sleep isn't available.</p> <p><strong>Earthquake Users</strong>: Machamp outspeeds and 2HKOes Omanyte with Earthquake while only being 3HKOed by Surf in return. While they cannot switch in, Ground-types such as Nidoqueen and the rare Sandslash outspeed and 2HKO Omanyte with Earthquake while only being 2HKOed in return, allowing them to easily win the one-on-one or pick off a weakened Omanyte.</p> <p><strong>Grass-types</strong>: While rare and vulnerable to Blizzard, Weepinbell and Vileplume serve as effective Omanyte checks. Both outspeed it; the former OHKOes Omanyte with Razor Leaf, while the sheer bulk of the latter allows it to reliably 2HKO Omanyte with Mega Drain. Both threats can also put Omanyte to sleep with Sleep Powder.</p>",
@@ -1970,7 +1982,7 @@
     "nc1997": {"sets": {"Double Team + Rest": {}}},
     "stabmons": {"sets": {"STABmons": {}}}
   },
-  "Kabuto": {"zu": {"sets": {"Fire Blast Switch-in": {}}}, "petitcup": {"sets": {"Mixed Attacker": {}}}, "lclevel100": {"sets": {"Slash": {}}}},
+  "Kabuto": {"lc": {"sets": {"Mixed Attacker": {}}}, "petitcup": {"sets": {"Mixed Attacker": {}}}, "lclevel100": {"sets": {"Slash": {}}}, "zu": {"sets": {"Fire Blast Switch-in": {}}}},
   "Kabutops": {
     "uu": {
       "overview": "<p>Kabutops is a powerful Swords Dance user that 2HKOes some of the tier's main defensive Pokemon, like Hypno, Vaporeon, and Tentacruel, with +2 Hyper Beam. It also has access to Slash, which gives it a powerful unboosted attack. Additionally, Kabutops resists Normal- and Ice-type attacks, thereby allowing it to be used in conjunction with Haunter to use against Wrap users like Dragonite. It can also switch into Hyper Beam for a free setup opportunity.</p> <p>However, even with a fearsome Hyper Beam, Kabutops is not very good in the RBY UU metagame due to the existence of Omastar, which is better defensively, in addition to it being weak to Thunderbolt from Gyarados, Persian, Haunter, and Electabuzz, as well as a weakness to Earthquake and Grass-type attacks. Not to mention, it is outsped by half the metagame. Finally, it has a mediocre Special stat, thus weakening special attacks, and has no Rock-type STAB moves. Due to these flaws, you likely will not be seeing Kabutops running around in RBY UU.</p>",
@@ -2189,7 +2201,7 @@
     "nc1999": {"sets": {"Fire Spin": {}}},
     "nc1997": {"sets": {"AgiliSpin": {}}}
   },
-  "Dratini": {"petitcup": {"sets": {"Agility Sweeper": {}}}, "lclevel100": {"sets": {"AgiliWrap": {}, "Wrap Pivot": {}}}},
+  "Dratini": {"lc": {"sets": {"Agility Sweeper": {}}}, "petitcup": {"sets": {"Agility Sweeper": {}}}, "lclevel100": {"sets": {"AgiliWrap": {}, "Wrap Pivot": {}}}},
   "Dragonair": {
     "pu": {
       "overview": "<p>Dragonair is one of the premier support Pokemon in RBY PU thanks to its access to Thunder Wave and Wrap, useful defensive typing, and diverse coverage. It is also the only viable user of the controversial \"AgiliWrap\" combination, which, while inconsistent, is able to spread chip damage onto the opposing team and bring foes into 2HKO or even OHKO range for Dragonair's teammates. Its base 70 Speed is relatively mediocre, but this still puts it ahead of threats like Seaking, Drowzee, and Porygon, and its Dragon typing helps it fend off Rapidash, Arcanine, and Staryu, which rarely runs Blizzard. In fact, both Rapidash and Arcanine have a mere 0.3% chance to 4HKO Dragonair with Fire Blast and only 3HKO it with Normal-type attacks; Staryu's Surf is a 6HKO, and Psychic is a 5HKO. Thanks to either Thunder Wave or Agility, Dragonair can outpace faster threats and use Wrap to force them to switch out. Its damage output is nothing to scoff at, either—not only does Wrap deal upwards of 4% per hit to most targets, but Blizzard 2HKOes Fearow and has a very slim chance to 2HKO Nidoqueen, while Thunderbolt easily 2HKOes Staryu. All of these factors combine to make Dragonair a difficult threat to handle, as the few faster Pokemon that can 2HKO it have difficulty finding safe entry, often fear paralysis, and usually take massive damage from Dragonair's coverage moves.</p> <p>Dragonair's weaknesses are typical of a non-fully evolved Pokemon in PU; it's relatively frail, fearing 2HKOs from Blizzard users, Pinsir, and Fearow, and this frailty is on full display once it's paralyzed and unable to use Wrap effectively. Its Speed falls short of some critical targets like Pinsir, Fearow, Rapidash, Arcanine, and notably Nidoqueen, so it's quickly worn down and easily revenge killed. It also has difficulty spreading paralysis without taking it in return from various faster Thunder Wave users, and Nidoqueen can switch into Wrap or a predicted Thunder Wave for a relatively safe entry. Dragonair's typing is useful defensively but useless offensively, so it's unable to deal significant damage to neutral targets without Wrap, and its 85% accuracy means it's bound to miss sooner or later. Moves that might alleviate this, like Hyper Beam, are hard to fit without giving up other matchups; Dragonair already struggles with the Wrap-immune Gastly and wants to avoid being walled by Omanyte and Graveler.</p>",
