@@ -249,5 +249,6 @@ describe('Smogon', () => {
     expect(baseFormat('gen8battlestadiumdoublesseries13')).toBe('gen8battlestadiumdoubles');
     expect(baseFormat('gen9vgc2023regulatione')).toBe('gen9vgc2023');
     expect(baseFormat('gen9vgc2024regf')).toBe('gen9vgc2024');
+    expect(baseFormat('gen9vgc2024regg')).toBe('gen9vgc2024');
   });
 });
