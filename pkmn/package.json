@@ -1,6 +1,6 @@
 {
   "name": "@pkmn/smogon",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "A rich client for processed and aggregated Smogon analysis and moveset information",
   "homepage": "https://data.pkmn.cc/",
   "repository": "github:pkmn/smogon",
@@ -14,10 +14,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@pkmn/data": "^0.9.5"
+    "@pkmn/data": "^0.9.8"
   },
   "devDependencies": {
-    "@pkmn/dex": "^0.9.5"
+    "@pkmn/dex": "^0.9.8"
   },
   "scripts": {
     "lint": "eslint --cache *.ts",
