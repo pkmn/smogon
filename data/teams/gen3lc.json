@@ -12,42 +12,6 @@
     ]
   },
   {
-    "name": "Standard ADV LC",
-    "author": "LeJames Chonk",
-    "data": [
-      {"species": "Wailmer", "gender": "M", "item": "Sitrus Berry", "ability": "Water Veil", "evs": {"hp": 36, "atk": 40, "def": 76, "spa": 120, "spd": 236}, "nature": "Sassy", "moves": ["Earthquake", "Hidden Power Grass", "Self-Destruct", "Surf"], "ivs": {"atk": 30, "spa": 30}},
-      {"species": "Abra", "gender": "F", "item": "Sitrus Berry", "ability": "Synchronize", "evs": {"spa": 240, "spe": 196}, "nature": "Timid", "ivs": {"atk": 2, "def": 30, "spa": 30}, "moves": ["Calm Mind", "Hidden Power Water", "Psychic", "Substitute"]},
-      {"species": "Diglett", "gender": "M", "item": "Sitrus Berry", "ability": "Arena Trap", "evs": {"hp": 36, "atk": 76, "spd": 156, "spe": 236}, "nature": "Jolly", "moves": ["Earthquake", "Rock Slide", "Substitute", "Thief"]},
-      {"species": "Doduo", "gender": "M", "item": "Choice Band", "ability": "Early Bird", "evs": {"atk": 240, "spe": 236}, "nature": "Naive", "moves": ["Double-Edge", "Drill Peck", "Hidden Power Grass", "Quick Attack"], "ivs": {"atk": 30, "spa": 30}},
-      {"species": "Gastly", "gender": "M", "item": "Petaya Berry", "ability": "Levitate", "evs": {"hp": 36, "def": 36, "spa": 196, "spe": 196}, "nature": "Timid", "moves": ["Explosion", "Giga Drain", "Psychic", "Substitute"]},
-      {"species": "Porygon", "item": "Sitrus Berry", "ability": "Trace", "evs": {"hp": 236, "def": 196, "spa": 76}, "nature": "Relaxed", "moves": ["Ice Beam", "Return", "Thief", "Thunder Wave"], "happiness": 255}
-    ]
-  },
-  {
-    "name": "Spikes HO",
-    "author": "reggg",
-    "data": [
-      {"species": "Pineco", "gender": "M", "item": "Sitrus Berry", "ability": "Sturdy", "evs": {"hp": 196, "def": 36, "spd": 236}, "nature": "Careful", "moves": ["Earthquake", "Explosion", "Light Screen", "Spikes"]},
-      {"species": "Anorith", "gender": "M", "item": "Salac Berry", "ability": "Battle Armor", "evs": {"atk": 156, "def": 36, "spd": 36, "spe": 236}, "nature": "Jolly", "moves": ["Brick Break", "Endure", "Rock Slide", "Swords Dance"]},
-      {"species": "Bagon", "gender": "M", "item": "Sitrus Berry", "ability": "Rock Head", "evs": {"atk": 236, "spd": 40, "spe": 196}, "nature": "Adamant", "moves": ["Brick Break", "Double-Edge", "Dragon Dance", "Hidden Power Ghost"], "ivs": {"def": 30, "spd": 30}},
-      {"species": "Duskull", "gender": "M", "item": "Sitrus Berry", "ability": "Levitate", "evs": {"hp": 196, "atk": 36, "def": 116, "spa": 116, "spd": 36}, "nature": "Relaxed", "moves": ["Memento", "Psychic", "Shadow Ball", "Thief"]},
-      {"species": "Larvitar", "gender": "M", "item": "Sitrus Berry", "ability": "Guts", "evs": {"hp": 36, "atk": 164, "spd": 120, "spe": 188}, "nature": "Jolly", "moves": ["Dragon Dance", "Earthquake", "Hidden Power Ghost", "Rock Slide"], "ivs": {"def": 30, "spd": 30}},
-      {"species": "Porygon", "item": "Sitrus Berry", "ability": "Trace", "evs": {"hp": 156, "def": 196, "spd": 156}, "nature": "Relaxed", "moves": ["Double-Edge", "Ice Beam", "Thief", "Thunder Wave"]}
-    ]
-  },
-  {
-    "name": "Triple Diglett Lure",
-    "author": "reggg",
-    "data": [
-      {"species": "Gastly", "gender": "M", "item": "Sitrus Berry", "ability": "Levitate", "evs": {"hp": 36, "spa": 196, "spd": 76, "spe": 196}, "nature": "Hasty", "moves": ["Explosion", "Psychic", "Thief", "Thunderbolt"]},
-      {"species": "Abra", "gender": "F", "item": "Sitrus Berry", "ability": "Synchronize", "evs": {"spa": 240, "spe": 196}, "nature": "Timid", "ivs": {"atk": 2, "def": 30, "spa": 30}, "moves": ["Calm Mind", "Encore", "Hidden Power Water", "Psychic"]},
-      {"species": "Chinchou", "gender": "F", "item": "Sitrus Berry", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spe": 220}, "nature": "Modest", "ivs": {"atk": 2, "spa": 30}, "moves": ["Hidden Power Grass", "Hydro Pump", "Thunderbolt", "Thunder Wave"]},
-      {"species": "Diglett", "gender": "M", "item": "Sitrus Berry", "ability": "Arena Trap", "evs": {"hp": 36, "atk": 76, "spd": 156, "spe": 236}, "nature": "Jolly", "moves": ["Earthquake", "Rock Slide", "Substitute", "Thief"]},
-      {"species": "Ponyta", "gender": "M", "item": "Sitrus Berry", "ability": "Run Away", "evs": {"spa": 236, "spd": 76, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Fire Blast", "Solar Beam", "Substitute", "Sunny Day"]},
-      {"species": "Porygon", "item": "Sitrus Berry", "ability": "Trace", "evs": {"hp": 156, "def": 196, "spa": 76, "spd": 76}, "nature": "Relaxed", "moves": ["Ice Beam", "Recycle", "Return", "Thief"], "happiness": 255}
-    ]
-  },
-  {
     "name": "Horsea Rain + Spikes",
     "author": "MOHAMEDALL",
     "data": [
@@ -57,30 +21,6 @@
       {"species": "Horsea", "gender": "F", "item": "Sitrus Berry", "ability": "Swift Swim", "evs": {"hp": 36, "def": 36, "spa": 200, "spe": 196}, "nature": "Modest", "ivs": {"atk": 2, "spa": 30}, "moves": ["Hidden Power Grass", "Hydro Pump", "Rain Dance", "Surf"]},
       {"species": "Porygon", "item": "Sitrus Berry", "ability": "Trace", "evs": {"hp": 236, "def": 36, "spd": 236}, "nature": "Sassy", "moves": ["Ice Beam", "Recycle", "Return", "Thief"], "happiness": 255},
       {"species": "Voltorb", "item": "Sitrus Berry", "ability": "Static", "evs": {"hp": 36, "def": 116, "spa": 160, "spe": 196}, "nature": "Naive", "moves": ["Explosion", "Hidden Power Grass", "Rain Dance", "Thunderbolt"], "ivs": {"atk": 30, "spa": 30}}
-    ]
-  },
-  {
-    "name": "bulky wail yellow gob",
-    "author": "BlackKnight_Gawain",
-    "data": [
-      {"species": "Wailmer", "gender": "M", "item": "Sitrus Berry", "ability": "Water Veil", "evs": {"hp": 36, "def": 236, "spd": 236}, "nature": "Sassy", "moves": ["Earthquake", "Hidden Power Grass", "Self-Destruct", "Surf"], "ivs": {"atk": 30, "spa": 30}},
-      {"species": "Abra", "gender": "F", "item": "Sitrus Berry", "ability": "Synchronize", "evs": {"spa": 240, "spe": 196}, "nature": "Timid", "ivs": {"atk": 2, "def": 30, "spa": 30}, "moves": ["Hidden Power Water", "Psychic", "Substitute", "Thief"]},
-      {"species": "Doduo", "gender": "M", "item": "Choice Band", "ability": "Early Bird", "evs": {"atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Double-Edge", "Drill Peck", "Hidden Power Ground", "Quick Attack"], "ivs": {"spa": 30, "spd": 30}},
-      {"species": "Elekid", "gender": "F", "item": "Sitrus Berry", "ability": "Static", "evs": {"spa": 240, "spe": 236}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "moves": ["Hidden Power Grass", "Ice Punch", "Substitute", "Thunderbolt"]},
-      {"species": "Koffing", "gender": "M", "item": "Sitrus Berry", "ability": "Levitate", "evs": {"hp": 116, "atk": 76, "def": 236, "spe": 76}, "nature": "Impish", "moves": ["Explosion", "Shadow Ball", "Sludge Bomb", "Thief"]},
-      {"species": "Porygon", "item": "Sitrus Berry", "ability": "Trace", "evs": {"hp": 156, "atk": 36, "def": 196, "spd": 76}, "nature": "Relaxed", "moves": ["Ice Beam", "Recycle", "Return", "Thunder Wave"], "happiness": 255}
-    ]
-  },
-  {
-    "name": "wail dig sun",
-    "author": "zeroouttathere",
-    "data": [
-      {"species": "Wailmer", "gender": "M", "item": "Sitrus Berry", "ability": "Water Veil", "evs": {"hp": 36, "def": 236, "spd": 236}, "nature": "Sassy", "moves": ["Earthquake", "Hidden Power Grass", "Self-Destruct", "Surf"], "ivs": {"atk": 30, "spa": 30}},
-      {"species": "Diglett", "gender": "M", "item": "Sitrus Berry", "ability": "Arena Trap", "shiny": true, "evs": {"hp": 36, "atk": 76, "spd": 156, "spe": 236}, "nature": "Jolly", "moves": ["Earthquake", "Rock Slide", "Sunny Day", "Thief"]},
-      {"species": "Exeggcute", "gender": "M", "item": "Sitrus Berry", "ability": "Chlorophyll", "evs": {"hp": 36, "spa": 196, "spd": 236, "spe": 36}, "nature": "Modest", "moves": ["Explosion", "Psychic", "Solar Beam", "Sunny Day"]},
-      {"species": "Houndour", "gender": "M", "item": "Sitrus Berry", "ability": "Early Bird", "evs": {"def": 36, "spa": 196, "spd": 36, "spe": 236}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Crunch", "Fire Blast", "Overheat", "Pursuit"]},
-      {"species": "Ponyta", "gender": "M", "item": "Sitrus Berry", "ability": "Run Away", "evs": {"spa": 236, "spd": 76, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Fire Blast", "Solar Beam", "Substitute", "Sunny Day"]},
-      {"species": "Porygon", "item": "Sitrus Berry", "ability": "Trace", "evs": {"hp": 156, "def": 196, "spa": 76, "spd": 76}, "nature": "Relaxed", "ivs": {"atk": 0, "spe": 0}, "moves": ["Ice Beam", "Recycle", "Thief", "Thunder Wave"]}
     ]
   }
 ]
