@@ -1115,7 +1115,7 @@
     "doublesou": {"Trick Room Attacker": {"moves": ["Blizzard", "Giga Drain", "Ice Shard", "Protect"], "item": "Abomasite", "nature": "Quiet", "ivs": {"spe": 0}, "evs": {"hp": 252, "atk": 4, "spa": 252}}}
   },
   "Weavile": {
-    "ou": {"Choice Band": {"moves": ["Knock Off", "Icicle Crash", "Ice Shard", "Pursuit"], "item": "Choice Band", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}},
+    "ou": {"Choice Band": {"moves": ["Icicle Crash", "Knock Off", ["Ice Shard", "Beat Up"], ["Pursuit", "Beat Up"]], "item": "Choice Band", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
     "1v1": {"Z-Move": {"moves": ["Foul Play", "Fake Out", "Icicle Crash", ["Taunt", "Dig"]], "item": ["Darkinium Z", "Icium Z"], "nature": "Adamant", "evs": {"hp": 16, "atk": 196, "def": 60, "spe": 236}}, "Pressure Stall": {"moves": ["Protect", "Substitute", "Spite", "Taunt"], "item": "Leftovers", "nature": "Jolly", "evs": {"hp": 248, "spd": 8, "spe": 252}}},
     "monotype": {"All-out Attacker (Dark)": {"moves": ["Icicle Crash", "Ice Shard", "Knock Off", "Pursuit"], "item": "Life Orb", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}, "Life Orb Attacker (Ice)": {"moves": ["Knock Off", "Icicle Crash", "Ice Shard", ["Low Kick", "Pursuit"]], "item": "Life Orb", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}},
     "mixandmega": {"Glalitite Attacker": {"moves": ["Fake Out", ["Swords Dance", "Feint"], ["Frustration", "Double-Edge"], ["Pursuit", "Frustration", "Double-Edge", "Throat Chop"]], "item": "Glalitite", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}},
