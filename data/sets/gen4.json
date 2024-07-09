@@ -1022,11 +1022,11 @@
   "Dialga": {
     "ubers": {
       "Defensive Support": {"moves": ["Stealth Rock", ["Dragon Pulse", "Draco Meteor"], "Thunder", "Roar"], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 252, "spd": 252, "spe": 4}},
-      "Mixed": {"moves": ["Draco Meteor", ["Outrage", "Brick Break"], "Fire Blast", ["Thunder", "Bulk Up"]], "item": ["Expert Belt", "Life Orb"], "nature": ["Mild", "Hasty"], "evs": {"atk": 144, "spa": 252, "spe": 112}},
+      "Wallbreaker": {"moves": ["Draco Meteor", ["Outrage", "Stealth Rock"], "Fire Blast", ["Thunder", "Aura Sphere"]], "item": ["Adamant Orb", "Life Orb"], "nature": "Mild", "evs": {"hp": 144, "spa": 252, "spe": 112}},
       "Defensive Bulk Up": {"moves": ["Bulk Up", ["Outrage", "Dragon Claw"], "Rest", "Sleep Talk"], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "atk": 4, "spd": 252}},
       "Choice Scarf": {"moves": ["Draco Meteor", "Thunder", ["Fire Blast", "Aura Sphere"], ["Dragon Pulse", "Outrage"]], "item": "Choice Scarf", "nature": ["Timid", "Hasty"], "evs": {"hp": 4, "spa": 252, "spe": 252}},
       "Choice Specs": {"moves": ["Draco Meteor", "Dragon Pulse", "Thunder", ["Fire Blast", "Aura Sphere"]], "item": "Choice Specs", "nature": "Modest", "evs": {"hp": 224, "spa": 252, "spe": 32}},
-      "Trick Room": {"moves": ["Trick Room", "Draco Meteor", "Outrage", ["Fire Blast", "Earthquake"]], "item": ["Life Orb", "Shuca Berry"], "nature": "Quiet", "ivs": {"atk": 30, "spe": 0}, "evs": {"hp": 4, "atk": 252, "spa": 252}},
+      "Trick Room": {"moves": ["Trick Room", "Draco Meteor", "Outrage", ["Thunder", "Fire Blast", "Earth Power"]], "item": ["Life Orb", "Shuca Berry"], "nature": "Quiet", "ivs": {"spe": 0}, "evs": {"hp": 4, "atk": 252, "spa": 252}},
       "Choice Band": {"moves": ["Outrage", "Earthquake", "Dragon Claw", ["Overheat", "Stone Edge"]], "item": "Choice Band", "nature": "Adamant", "evs": {"hp": 224, "atk": 252, "spe": 32}}
     }
   },
