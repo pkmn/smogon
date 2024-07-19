@@ -148,7 +148,7 @@
   "Dragapult": {
     "Hex (Dragon)": {"moves": ["Will-O-Wisp", "Hex", ["Dragon Darts", "Draco Meteor"], ["Substitute", "Thunder Wave"]], "ability": "Infiltrator", "item": ["Leftovers", "Heavy-Duty Boots"], "nature": ["Naive", "Timid"], "evs": [{"atk": 108, "spa": 148, "spe": 252}, {"def": 4, "spa": 252, "spe": 252}]},
     "Choice Specs (Dragon)": {"moves": ["Draco Meteor", "Shadow Ball", "Flamethrower", ["Thunderbolt", "U-turn"]], "ability": "Infiltrator", "item": "Choice Specs", "nature": "Timid", "evs": {"def": 4, "spa": 252, "spe": 252}},
-    "Choice Scarf (Dragon)": {"moves": ["Dragon Darts", "U-turn", "Phantom Force", ["Thunder Wave", "Fire Blast"]], "ability": "Infiltrator", "item": "Choice Scarf", "nature": ["Jolly", "Hasty"], "evs": {"atk": 252, "spa": 4, "spe": 252}},
+    "Choice Scarf (Dragon)": {"moves": ["Dragon Darts", ["Phantom Force", "Shadow Ball"], "U-turn", ["Thunder Wave", "Will-O-Wisp", "Fire Blast"]], "ability": "Infiltrator", "item": "Choice Scarf", "nature": ["Jolly", "Hasty"], "evs": {"atk": 252, "spd": 4, "spe": 252}},
     "Hex (Ghost)": {"moves": [["Will-O-Wisp", "Thunder Wave"], "Hex", "Dragon Darts", "U-turn"], "ability": "Infiltrator", "item": "Heavy-Duty Boots", "nature": "Naive", "evs": {"atk": 100, "spa": 184, "spe": 224}},
     "Dragon Dance (Ghost)": {"moves": ["Dragon Dance", "Dragon Darts", ["Phantom Force", "Disable"], "Substitute"], "ability": "Infiltrator", "item": ["Leftovers", "Dragon Fang"], "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}
   },
