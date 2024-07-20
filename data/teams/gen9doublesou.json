@@ -1,29 +1,5 @@
 [
   {
-    "name": "change p2 ivs before game",
-    "author": "theyummybagel",
-    "data": [
-      {"species": "Incineroar", "gender": "M", "item": "Assault Vest", "ability": "Intimidate", "teraType": "Fairy", "evs": {"hp": 252, "def": 56, "spd": 200}, "nature": "Careful", "moves": ["Fake Out", "Knock Off", "Snarl", "U-turn"]},
-      {"species": "Archaludon", "gender": "M", "item": "Leftovers", "ability": "Stamina", "teraType": "Grass", "evs": {"hp": 252, "spa": 20, "spd": 236}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Body Press", "Electro Shot", "Flash Cannon", "Protect"]},
-      {"species": "Ogerpon-Wellspring", "item": "Wellspring Mask", "ability": "Water Absorb", "teraType": "Water", "evs": {"hp": 72, "atk": 252, "spe": 184}, "nature": "Jolly", "moves": ["Follow Me", "Horn Leech", "Ivy Cudgel", "Spiky Shield"], "hpType": "Poison"},
-      {"species": "Pelipper", "gender": "M", "item": "Damp Rock", "ability": "Drizzle", "teraType": "Steel", "evs": {"hp": 252, "def": 16, "spd": 240}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Helping Hand", "Hurricane", "Weather Ball", "Wide Guard"]},
-      {"species": "Porygon2", "item": "Eviolite", "ability": "Download", "teraType": "Fairy", "evs": {"hp": 252, "def": 92, "spd": 164}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Ice Beam", "Recover", "Tera Blast", "Trick Room"]},
-      {"species": "Rillaboom", "gender": "M", "item": "Assault Vest", "ability": "Grassy Surge", "teraType": "Grass", "evs": {"hp": 252, "atk": 176, "spd": 56, "spe": 24}, "nature": "Adamant", "moves": ["Fake Out", "Grassy Glide", "U-turn", "Wood Hammer"]}
-    ]
-  },
-  {
-    "name": "Frosty Fanroom (Redux)",
-    "author": "fangame10",
-    "data": [
-      {"species": "Kyurem", "item": "Assault Vest", "ability": "Pressure", "shiny": true, "teraType": "Steel", "evs": {"hp": 128, "spa": 252, "spd": 128}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Blizzard", "Earth Power", "Flash Cannon", "Freeze-Dry"]},
-      {"species": "Incineroar", "gender": "F", "item": "Safety Goggles", "ability": "Intimidate", "shiny": true, "teraType": "Water", "evs": {"hp": 252, "atk": 128, "spd": 128}, "nature": "Adamant", "moves": ["Fake Out", "Flare Blitz", "Knock Off", "Parting Shot"]},
-      {"species": "Landorus", "item": "Life Orb", "ability": "Sheer Force", "shiny": true, "teraType": "Poison", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Earth Power", "Protect", "Sandsear Storm", "Sludge Bomb"]},
-      {"species": "Ninetales-Alola", "gender": "F", "item": "Light Clay", "ability": "Snow Warning", "shiny": true, "teraType": "Fire", "evs": {"hp": 92, "spa": 164, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Aurora Veil", "Blizzard", "Encore", "Protect"]},
-      {"species": "Sinistcha-Masterpiece", "item": "Sitrus Berry", "ability": "Hospitality", "shiny": true, "teraType": "Dark", "evs": {"hp": 252, "def": 180, "spd": 76}, "nature": "Relaxed", "ivs": {"atk": 0, "spe": 0}, "moves": ["Life Dew", "Matcha Gotcha", "Nasty Plot", "Trick Room"]},
-      {"species": "Ursaluna", "gender": "M", "item": "Flame Orb", "ability": "Guts", "shiny": true, "teraType": "Fire", "evs": {"hp": 160, "atk": 252, "spd": 96}, "nature": "Brave", "ivs": {"spe": 0}, "moves": ["Earthquake", "Facade", "Protect", "Swords Dance"]}
-    ]
-  },
-  {
     "author": "dltmeninas",
     "data": [
       {"species": "Orthworm", "gender": "M", "item": "Leftovers", "ability": "Earth Eater", "teraType": "Fire", "evs": {"hp": 252, "spd": 252, "spe": 4}, "nature": "Impish", "moves": ["Body Press", "Heavy Slam", "Iron Defense", "Protect"]},
@@ -47,27 +23,62 @@
     ]
   },
   {
-    "name": "Copy of Copy of Copy of Copy of gouging gambit",
-    "author": "tortuga desnuda",
+    "name": "VEILS+GAMBIT",
     "data": [
-      {"species": "Ogerpon-Wellspring", "item": "Wellspring Mask", "ability": "Water Absorb", "teraType": "Water", "evs": {"hp": 192, "atk": 132, "spe": 184}, "nature": "Jolly", "moves": ["Follow Me", "Horn Leech", "Ivy Cudgel", "Spiky Shield"], "hpType": "Poison"},
-      {"species": "Chien-Pao", "item": "Focus Sash", "ability": "Sword of Ruin", "teraType": "Ghost", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Icicle Crash", "Protect", "Sacred Sword", "Sucker Punch"]},
-      {"species": "Gouging Fire", "item": "Booster Energy", "ability": "Protosynthesis", "teraType": "Fairy", "evs": {"hp": 196, "atk": 92, "spe": 220}, "nature": "Jolly", "moves": ["Breaking Swipe", "Burning Bulwark", "Heat Crash", "Howl"], "ivs": {"hp": 20, "atk": 20, "def": 20, "spa": 20, "spd": 20, "spe": 20}, "hpType": "Fighting"},
-      {"species": "Kingambit", "gender": "M", "item": "Grassy Seed", "ability": "Defiant", "shiny": true, "teraType": "Dragon", "evs": {"hp": 236, "atk": 160, "spd": 80, "spe": 32}, "nature": "Adamant", "moves": ["Kowtow Cleave", "Protect", "Sucker Punch", "Swords Dance"]},
-      {"species": "Landorus", "item": "Life Orb", "ability": "Sheer Force", "shiny": true, "teraType": "Poison", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Earth Power", "Protect", "Sludge Bomb", "Substitute"]},
-      {"species": "Rillaboom", "gender": "M", "item": "Assault Vest", "ability": "Grassy Surge", "shiny": true, "teraType": "Fire", "evs": {"hp": 252, "atk": 156, "spd": 84, "spe": 16}, "nature": "Adamant", "moves": ["Fake Out", "Grassy Glide", "High Horsepower", "U-turn"]}
+      {"species": "Ninetales-Alola", "gender": "M", "item": "Light Clay", "ability": "Snow Warning", "teraType": "Ghost", "evs": {"hp": 164, "def": 64, "spa": 28, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Aurora Veil", "Blizzard", "Encore", "Protect"]},
+      {"species": "Incineroar", "gender": "M", "item": "Sitrus Berry", "ability": "Intimidate", "teraType": "Ghost", "evs": {"hp": 244, "atk": 44, "def": 156, "spd": 64}, "nature": "Impish", "moves": ["Fake Out", "Knock Off", "Parting Shot", "Will-O-Wisp"]},
+      {"species": "Kingambit", "gender": "M", "item": "Leftovers", "ability": "Defiant", "teraType": "Dragon", "evs": {"hp": 252, "atk": 216, "def": 20, "spd": 20}, "nature": "Adamant", "moves": ["Kowtow Cleave", "Protect", "Sucker Punch", "Swords Dance"]},
+      {"species": "Kyurem", "item": "Assault Vest", "ability": "Pressure", "teraType": "Fairy", "evs": {"hp": 72, "spa": 252, "spe": 184}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Blizzard", "Earth Power", "Flash Cannon", "Freeze-Dry"]},
+      {"species": "Landorus", "item": "Life Orb", "ability": "Sheer Force", "teraType": "Steel", "evs": {"spa": 236, "spd": 20, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Earth Power", "Protect", "Sludge Bomb", "Substitute"]},
+      {"species": "Ogerpon-Wellspring", "item": "Wellspring Mask", "ability": "Water Absorb", "teraType": "Water", "evs": {"hp": 192, "atk": 28, "def": 100, "spe": 188}, "nature": "Jolly", "moves": ["Follow Me", "Horn Leech", "Ivy Cudgel", "Spiky Shield"], "hpType": "Poison"}
     ]
   },
   {
-    "name": "scream tail",
-    "author": "Grandmas Cookin",
+    "name": "(Vancouver Regionals) DPL W7",
+    "author": "kenzoku nation",
     "data": [
-      {"species": "Kingambit", "gender": "M", "item": "Assault Vest", "ability": "Defiant", "teraType": "Fairy", "evs": {"hp": 116, "atk": 252, "spe": 140}, "nature": "Adamant", "moves": ["Assurance", "Iron Head", "Low Kick", "Sucker Punch"]},
-      {"species": "Glimmora", "gender": "M", "item": "Focus Sash", "ability": "Toxic Debris", "teraType": "Grass", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Mortal Spin", "Power Gem", "Spiky Shield", "Stealth Rock"]},
-      {"species": "Landorus", "item": "Life Orb", "ability": "Sheer Force", "teraType": "Steel", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Protect", "Sandsear Storm", "Sludge Bomb", "Substitute"]},
-      {"species": "Ogerpon-Wellspring", "item": "Wellspring Mask", "ability": "Water Absorb", "teraType": "Water", "evs": {"hp": 152, "atk": 172, "spe": 184}, "nature": "Jolly", "moves": ["Follow Me", "Ivy Cudgel", "Power Whip", "Spiky Shield"], "hpType": "Poison"},
-      {"species": "Scream Tail", "item": "Booster Energy", "ability": "Protosynthesis", "teraType": "Ghost", "evs": {"hp": 176, "def": 44, "spa": 36, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dazzling Gleam", "Disable", "Encore", "Protect"]},
-      {"species": "Tornadus", "item": "Sitrus Berry", "ability": "Prankster", "teraType": "Ghost", "evs": {"hp": 252, "spd": 52, "spe": 204}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Bleakwind Storm", "Icy Wind", "Protect", "Tailwind"]}
+      {"species": "Tyranitar", "gender": "M", "item": "Assault Vest", "ability": "Sand Stream", "teraType": "Flying", "evs": {"hp": 4, "atk": 244, "def": 4, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Knock Off", "Low Kick", "Rock Slide", "Stone Edge"]},
+      {"species": "Indeedee-F", "item": "Rocky Helmet", "ability": "Psychic Surge", "teraType": "Fairy", "evs": {"hp": 252, "def": 220, "spd": 36}, "nature": "Calm", "ivs": {"atk": 0, "spe": 29}, "moves": ["Follow Me", "Helping Hand", "Protect", "Psychic"]},
+      {"species": "Iron Crown", "item": "Booster Energy", "ability": "Quark Drive", "teraType": "Psychic", "evs": {"hp": 76, "def": 4, "spa": 172, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"hp": 20, "atk": 20, "def": 20, "spa": 20, "spd": 20, "spe": 20}, "moves": ["Calm Mind", "Expanding Force", "Protect", "Tachyon Cutter"], "hpType": "Fighting"},
+      {"species": "Kommo-o", "gender": "M", "item": "Leftovers", "ability": "Bulletproof", "teraType": "Flying", "evs": {"hp": 252, "atk": 4, "def": 36, "spd": 204, "spe": 12}, "nature": "Impish", "moves": ["Body Press", "Iron Defense", "Protect", "Throat Chop"]},
+      {"species": "Ogerpon-Hearthflame", "item": "Hearthflame Mask", "ability": "Mold Breaker", "teraType": "Fire", "evs": {"hp": 192, "atk": 60, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Follow Me", "Ivy Cudgel", "Spiky Shield", "Stomping Tantrum"], "hpType": "Poison"},
+      {"species": "Whimsicott", "gender": "M", "item": "Covert Cloak", "ability": "Prankster", "teraType": "Rock", "evs": {"hp": 252, "def": 28, "spa": 4, "spd": 4, "spe": 220}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Charm", "Misty Terrain", "Moonblast", "Tailwind"]}
+    ]
+  },
+  {
+    "name": "Ting lu Glim Prio Spam",
+    "author": "Mudkip",
+    "data": [
+      {"species": "Chien-Pao", "item": "Focus Sash", "ability": "Sword of Ruin", "teraType": "Ghost", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Spinner", "Protect", "Sacred Sword", "Sucker Punch"]},
+      {"species": "Dragonite", "gender": "M", "item": "Choice Band", "ability": "Inner Focus", "teraType": "Normal", "evs": {"hp": 252, "atk": 252, "spd": 4}, "nature": "Adamant", "moves": ["Dragon Claw", "Extreme Speed", "Fire Punch", "Ice Spinner"]},
+      {"species": "Glimmora", "gender": "M", "item": "Focus Sash", "ability": "Toxic Debris", "teraType": "Grass", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Earth Power", "Mortal Spin", "Power Gem", "Stealth Rock"]},
+      {"species": "Gouging Fire", "item": "Booster Energy", "ability": "Protosynthesis", "hpType": "Fighting", "teraType": "Fairy", "evs": {"hp": 164, "atk": 128, "spe": 216}, "nature": "Jolly", "moves": ["Breaking Swipe", "Burning Bulwark", "Heat Crash", "Howl"], "ivs": {"hp": 20, "atk": 20, "def": 20, "spa": 20, "spd": 20, "spe": 20}},
+      {"species": "Rillaboom", "gender": "M", "item": "Assault Vest", "ability": "Grassy Surge", "teraType": "Fire", "evs": {"hp": 252, "atk": 252, "spd": 4}, "nature": "Adamant", "moves": ["Fake Out", "Grassy Glide", "U-turn", "Wood Hammer"]},
+      {"species": "Ting-Lu", "item": "Leftovers", "ability": "Vessel of Ruin", "teraType": "Ghost", "evs": {"hp": 144, "def": 112, "spd": 184, "spe": 68}, "nature": "Careful", "moves": ["Spikes", "Stomping Tantrum", "Throat Chop", "Whirlwind"]}
+    ]
+  },
+  {
+    "name": "torkoal",
+    "author": "bagel",
+    "data": [
+      {"species": "Chi-Yu", "item": "Choice Scarf", "ability": "Beads of Ruin", "teraType": "Fire", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Heat Wave", "Overheat", "Snarl"]},
+      {"species": "Farigiraf", "gender": "M", "item": "Throat Spray", "ability": "Armor Tail", "teraType": "Fairy", "evs": {"hp": 160, "def": 128, "spa": 120, "spd": 100}, "nature": "Modest", "ivs": {"atk": 0, "spe": 0}, "moves": ["Hyper Voice", "Protect", "Psychic", "Trick Room"]},
+      {"species": "Iron Hands", "item": "Assault Vest", "ability": "Quark Drive", "teraType": "Water", "evs": {"atk": 252, "def": 4, "spd": 252}, "nature": "Adamant", "moves": ["Close Combat", "Fake Out", "Heavy Slam", "Wild Charge"]},
+      {"species": "Ogerpon-Cornerstone", "item": "Cornerstone Mask", "ability": "Sturdy", "teraType": "Rock", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Follow Me", "Ivy Cudgel", "Power Whip", "Spiky Shield"], "hpType": "Poison"},
+      {"species": "Torkoal", "gender": "M", "item": "Charcoal", "ability": "Drought", "teraType": "Fire", "evs": {"hp": 248, "spa": 252, "spd": 8}, "nature": "Quiet", "ivs": {"atk": 0, "spe": 0}, "moves": ["Earth Power", "Eruption", "Heat Wave", "Protect"]},
+      {"species": "Walking Wake", "item": "Life Orb", "ability": "Protosynthesis", "teraType": "Fairy", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Hydro Steam", "Protect", "Tera Blast"]}
+    ]
+  },
+  {
+    "name": "regidrago",
+    "author": "bagel",
+    "data": [
+      {"species": "Regidrago", "item": "Dragon Fang", "ability": "Dragon's Maw", "teraType": "Steel", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Dragon Energy", "Earth Power", "Protect"]},
+      {"species": "Farigiraf", "gender": "M", "item": "Throat Spray", "ability": "Armor Tail", "teraType": "Fairy", "evs": {"hp": 160, "def": 128, "spa": 56, "spd": 80, "spe": 84}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Hyper Voice", "Protect", "Psychic", "Trick Room"]},
+      {"species": "Iron Hands", "item": "Assault Vest", "ability": "Quark Drive", "teraType": "Grass", "evs": {"hp": 128, "atk": 112, "def": 16, "spd": 252}, "nature": "Adamant", "moves": ["Close Combat", "Fake Out", "Volt Switch", "Wild Charge"]},
+      {"species": "Ogerpon-Wellspring", "item": "Wellspring Mask", "ability": "Water Absorb", "teraType": "Water", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Follow Me", "Ivy Cudgel", "Spiky Shield", "Wood Hammer"], "hpType": "Poison"},
+      {"species": "Tornadus", "item": "Focus Sash", "ability": "Prankster", "teraType": "Ghost", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Bleakwind Storm", "Icy Wind", "Protect", "Tailwind"]},
+      {"species": "Ursaluna-Bloodmoon", "item": "Life Orb", "ability": "Mind's Eye", "teraType": "Normal", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Blood Moon", "Earth Power", "Hyper Voice", "Protect"]}
     ]
   }
 ]
