@@ -11,7 +11,7 @@
   "Tyranitar": {"sets": {"Choice Band": {}}},
   "Swampert": {"sets": {"Assault Vest": {}}},
   "Salamence": {"sets": {"Life Orb": {}}},
-  "Metagross": {"sets": {"Weakness Policy": {}, "Assault Vest": {}, "Choice Band": {}, "Choice Scarf": {}}},
+  "Metagross": {"sets": {"Assault Vest": {}, "Weakness Policy": {}, "Band": {}}},
   "Registeel": {"sets": {"Specially Defensive": {}, "Defensive": {}}},
   "Garchomp": {"sets": {"Haban Berry": {}}},
   "Rhyperior": {"sets": {"Choice Band": {}, "Custap Berry": {}, "Assault Vest": {}}},
@@ -29,16 +29,16 @@
   "Sylveon": {"sets": {"Life Orb": {}, "Custap Berry": {}, "Weakness Policy": {}, "Babiri Berry": {}}},
   "Goodra-Hisui": {"sets": {"Chople Berry": {}}},
   "Diancie": {"sets": {"Weakness Policy": {}, "Choice Specs": {}}},
-  "Hoopa-Unbound": {"sets": {"Choice Band": {}, "Bulky Choice Band": {}, "Fast Choice Specs": {}, "Bulky Choice Specs": {}, "Choice Scarf": {}, "Assault Vest": {}}},
+  "Hoopa-Unbound": {"sets": {"Choice Band": {}, "Bulky Choice Band": {}, "Fast Choice Specs": {}, "Bulky Choice Specs": {}, "Choice Scarf": {}, "Assault Vest": {}, "Custap": {}}},
   "Volcanion": {"sets": {"Assault Vest": {}, "Anti-Archaludon": {}, "Choice Specs": {}, "Specially Defensive": {}, "Choice Scarf": {}}},
-  "Primarina": {"sets": {"Custap Berry": {}, "Sitrus Berry": {}, "Choice Specs": {}, "Life Orb": {}, "Wacan Berry": {}}},
+  "Primarina": {"sets": {"Weakness Policy": {}, "Custap Berry": {}, "Choice Specs": {}}},
   "Rillaboom": {"sets": {"Life Orb": {}, "SubSeed": {}, "Specially Defensive SubSeed": {}, "Assault Vest": {}}},
-  "Corviknight": {"sets": {"Maranga Berry": {}, "Specially Defensive Maranga": {}, "Pressure Stall": {}, "Expert Belt": {}}},
+  "Corviknight": {"sets": {"Maranga Berry": {}}},
   "Dragapult": {"sets": {"Choice Band": {}, "Choice Specs": {}}},
   "Urshifu": {"sets": {"Custap Berry": {}, "Assault Vest": {}, "Chople Berry": {}}},
-  "Regidrago": {"sets": {"Assault Vest": {}, "Haban Berry": {}, "Anti-Archaludon": {}, "Fast Choice Band": {}, "Defensive Choice Band": {}, "Fast Choice Specs": {}, "Bulky Choice Specs": {}, "Choice Scarf": {}, "Dragon Fang": {}}},
+  "Regidrago": {"sets": {"Assault Vest": {}, "Haban Berry": {}, "Choice Scarf": {}, "Choice Specs": {}, "Choice Band": {}}},
   "Spectrier": {"sets": {"Life Orb": {}, "Choice Specs": {}, "Sitrus Berry + Disable": {}}},
-  "Ursaluna": {"sets": {"Choice Band": {}}},
+  "Ursaluna": {"sets": {"Choice Band": {}, "Guts": {}, "Assault Vest": {}}},
   "Ursaluna-Bloodmoon": {"sets": {"Chople Berry": {}, "Choice Scarf": {}, "Assault Vest": {}}},
   "Meowscarada": {"sets": {"Choice Band": {}, "Choice Scarf": {}, "Choice Specs": {}}},
   "Skeledirge": {"sets": {"Custap Berry": {}, "Air Balloon": {}, "Maranga Berry": {}}},
@@ -51,24 +51,14 @@
   "Iron Moth": {"sets": {"Power Herb": {}}},
   "Baxcalibur": {"sets": {"Fast Choice Band": {}, "Bulky Choice Band": {}, "Chople Berry": {}}},
   "Chien-Pao": {"sets": {"Choice Band": {}}},
-  "Iron Valiant": {
-    "sets": {
-      "Encore + Disable": {
-        "description": "<ul> <li>Protect allows Iron Valiant to scout the moves used before using Encore and Disable.</li> <li>Encore and Disable can be used in tandem with each other to force foes to Struggle. Generally, Iron Valiant will use Protect, Encore, Protect, Disable, and Encore in that order to ensure your opponent cannot attack. Against choice locked targets like Choice Specs Sylveon and Choice item Rotom-W, use Protect turn 1 followed by Disable.</li> <li>You should generally avoid possible matchups against faster Speed Booster Pokemon like Walking Wake or Choice Scarf users like Meowscarada; while they can't guarantee an OHKO, neither can Iron Valiant with Moonblast.</li> <li>Knowing when to use Moonblast is also key information. Some Pokemon, like Dragapult, can take advantage of Iron Valiant using Protect turn 1. Against Dragapult and opposing Iron Valiant, Iron Valiant should always use Moonblast turn 1 for the best chances of winning.</li> <li>If Iron Valiant locks the foe into a weak move or status move with Encore, do not use Disable, as you can repeat the Encore later on or go for the KO with Moonblast or Aura Sphere.</li> </ul>"
-      },
-      "Specially Defensive Encore + Disable": {},
-      "Choice Specs": {},
-      "Substitute + reversal": {},
-      "Choice Band": {}
-    }
-  },
+  "Iron Valiant": {"sets": {"Encore + Disable": {}, "Choice Specs": {}, "Choice Band": {}}},
   "Walking Wake": {"sets": {"Fast Booster Energy (Special Attack)": {}, "Breaking Swipe": {}, "Snarl": {}, "Booster Energy (Speed)": {}}},
   "Fezandipiti": {"sets": {"Life Orb": {}}},
-  "Ogerpon-Wellspring": {"sets": {"Offensive": {}, "SubSeed": {}, "Defensive": {}, "Specially Defensive": {}, "Anti-Porygon-Z": {}, "Charm + Synthesis": {}}},
+  "Ogerpon-Wellspring": {"sets": {"Offensive": {}, "Charm": {}, "Specially Defensive": {}, "Leech Seed": {}, "Defensive": {}}},
   "Hydrapple": {"sets": {"Haban Berry": {}, "Yache Berry": {}}},
-  "Gouging Fire": {"sets": {"Fast Booster Energy (Attack)": {}, "Bulky Booster Energy (Attack)": {}, "Assault Vest": {}, "Choice Band": {}, "Haban Berry": {}, "Clear Amulet": {}}},
-  "Raging Bolt": {"sets": {"Booster Energy (Special Attack)": {}, "Breaking Swipe": {}, "Assault Vest": {}, "Haban Berry": {}, "Choice Specs": {}, "Choice Scarf": {}}},
+  "Gouging Fire": {"sets": {"Fast Booster Energy (Attack)": {}, "Bulky Booster Energy (Attack)": {}, "Haban Berry": {}, "Clear Amulet": {}}},
+  "Raging Bolt": {"sets": {"Booster Energy (Special Attack)": {}, "Haban Berry": {}}},
   "Iron Boulder": {"sets": {"Choice Band": {}, "Booster Energy (Speed)": {}}},
-  "Iron Crown": {"sets": {"Fast Weakness Policy": {}, "Defensive Weakness Policy": {}, "Booster Energy (Speed)": {}, "Choice Specs": {}}},
-  "Pecharunt": {"sets": {"Stall": {}, "Maranga Berry": {}, "Anti-SubTect": {}, "Anti-Metagross": {}, "Toxic": {}, "Choice Specs": {}}}
+  "Iron Crown": {"sets": {"Fast Weakness Policy": {}, "Defensive Weakness Policy": {}}},
+  "Pecharunt": {"sets": {"Air Balloon": {}, "Leftovers": {}, "Maranga": {}, "Amulet": {}}}
 }
