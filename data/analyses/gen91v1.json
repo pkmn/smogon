@@ -11,7 +11,18 @@
   "Tyranitar": {"sets": {"Choice Band": {}}},
   "Swampert": {"sets": {"Assault Vest": {}}},
   "Salamence": {"sets": {"Life Orb": {}}},
-  "Metagross": {"sets": {"Assault Vest": {}, "Weakness Policy": {}, "Band": {}}},
+  "Metagross": {
+    "sets": {
+      "Weakness Policy": {},
+      "Assault Vest": {
+        "description": "<ul> <li>Heavy Slam is for Primarina, Iron Valiant, and Sylveon.</li> <li>Bullet Punch lets Metagross deal with Encore + Disable Iron Valiant and KO Haxorus and Custap or Sitrus Berry Primarina after Heavy Slam.</li> <li>Earthquake beats Iron Crown and is the best option Raging Bolt.</li> <li>Psychic Fangs gives Metagross a better matchup against Pecharunt and Reflect Primarina, while Ice Punch gives Metagross the best odds against non-Choice Band Regidrago, Assault Vest Landorus-T, and Life Orb Landorus.</li> <li>The HP and Defense EVs allow Metagross to survive Knock Off from Jolly Choice Band Meowscarada. The Special Defense EVs allow Metagross to take 2 Thunderbolts from Booster Energy Raging Bolt. The remaining EVs are put into Attack to maximize odds against Choice Band Earthquake Haxorus.</li> <li>Assault Vest Metagross has the most reliable matchups of any Metagross set against Regidrago and Primarina. It is important to note that Choice Band Regidrago can 2HKO Metagross with Earthquake before Metagross can with Ice Punch, so it is recommended to run a partner that can deal with that set.</li> </ul>"
+      },
+      "Choice Band": {
+        "description": "<ul> <li>Heavy Slam is used to defeat non-Custap Berry Primarina, while Meteor Mash allows Metagross to beat Kyurem. Both moves do well into Sylveon, Porygon-Z, and Azumarill.</li> <li>Psychic Fangs is for Pecharunt and Iron Hands.</li> <li>Bullet Punch targets Iron Valiant and Alolan Ninetales.</li> <li>Earthquake hits Iron Crown, Hisuian Goodra, Registeel, and has favorable odds to beat most Raging Bolt sets.</li> <li>The HP investment allows Metagross to survive Earthquake from Choice Band Iron Hands, while the Special Defense EVs allow it to survive Dark Pulse from Choice Specs Porygon-Z. The Attack EVs and an Adamant nature allow it to beat Encore + Disable Iron Valiant due to Struggle 2HKOing after a Bullet Punch.</li> <li>An alternative EV spread of 232 HP / 236 Atk / 40 Def can be used to survive Focus Blast from Timid Choice Specs Iron Valiant and Earthquake from Choice Band Haxorus. The remaining EVs are put in Attack for maximum damage output.</li> <li>Choice Band Metagross should almost always use the move that does the most damage to an opposing Pokemon. Notable exceptions to this rule are Alolan Ninetales and Iron Valiant, as Bullet Punch allows Metagross to beat Encore + Disable variants of these Pokemon.</li> </ul>"
+      }
+    },
+    "credits": {"writtenBy": [{"user_id": 493772, "username": "Lumii"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 563325, "username": "delemon"}, {"user_id": 520168, "username": "Murm"}, {"user_id": 493772, "username": "Lumii"}]}, {"name": "Quality checked by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 579035, "username": "glitched"}, {"user_id": 563650, "username": "bern"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
+  },
   "Registeel": {"sets": {"Specially Defensive": {}, "Defensive": {}}},
   "Garchomp": {"sets": {"Haban Berry": {}}},
   "Rhyperior": {"sets": {"Choice Band": {}, "Custap Berry": {}, "Assault Vest": {}}},
@@ -38,7 +49,16 @@
   "Urshifu": {"sets": {"Custap Berry": {}, "Assault Vest": {}, "Chople Berry": {}}},
   "Regidrago": {"sets": {"Assault Vest": {}, "Haban Berry": {}, "Choice Scarf": {}, "Choice Specs": {}, "Choice Band": {}}},
   "Spectrier": {"sets": {"Life Orb": {}, "Choice Specs": {}, "Sitrus Berry + Disable": {}}},
-  "Ursaluna": {"sets": {"Choice Band": {}, "Guts": {}, "Assault Vest": {}}},
+  "Ursaluna": {
+    "sets": {
+      "Choice Band": {
+        "description": "<ul> <li>Earthquake is for Raging Bolt, Gouging Fire, Iron Crown, and non-Air Balloon Pecharunt.</li> <li>Giga Impact is used for Choice Scarf Porygon-Z and non-Choice Band Azumarill.</li> <li>Avalanche targets Landorus, Landorus-T, and Garchomp.</li> <li>Gunk Shot is for Sylveon and Azumarill, while Low Kick is the best move against opposing Ursaluna, Ursaluna-B, and Air Balloon Heatran.</li> <li>Bulletproof helps against Choice Specs Iron Valiant and some Hoopa-U sets, while Guts helps against Will-O-Wisp users like Volcarona, Spectrier, and Weakness Policy + Will-O-Wisp Dragapult.</li> <li>The HP and Defense EVs allow Ursaluna to survive Hammer Arm from Choice Band Landorus-T, while the Special Defense EVs allow it to take Hyper Beam from Life Orb Sylveon. The remaining EVs are put in Attack.</li> <li>Choice Band Ursaluna should click the most damaging move against its foe unless multiple moves OHKO, in which case it is best to click the most accurate of said choices. Against Substitute users like Volcarona, it is usually better to use Earthquake to avoid a recharge turn with Giga Impact.</li> </ul>"
+      },
+      "Guts": {},
+      "Assault Vest": {}
+    },
+    "credits": {"writtenBy": [{"user_id": 493772, "username": "Lumii"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 546922, "username": "bo_bobson27"}]}, {"name": "Quality checked by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 563650, "username": "bern"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
+  },
   "Ursaluna-Bloodmoon": {"sets": {"Chople Berry": {}, "Choice Scarf": {}, "Assault Vest": {}}},
   "Meowscarada": {"sets": {"Choice Band": {}, "Choice Scarf": {}, "Choice Specs": {}}},
   "Skeledirge": {"sets": {"Custap Berry": {}, "Air Balloon": {}, "Maranga Berry": {}}},
@@ -51,13 +71,30 @@
   "Iron Moth": {"sets": {"Power Herb": {}}},
   "Baxcalibur": {"sets": {"Fast Choice Band": {}, "Bulky Choice Band": {}, "Chople Berry": {}}},
   "Chien-Pao": {"sets": {"Choice Band": {}}},
-  "Iron Valiant": {"sets": {"Encore + Disable": {}, "Choice Specs": {}, "Choice Band": {}}},
+  "Iron Valiant": {
+    "sets": {
+      "Encore + Disable": {
+        "description": "<ul> <li>Iron Valiant's main attack is very interchangeable. Moonblast is the most reliable and is usually the one that works in the most matchups like opposing Iron Valiant and Walking Wake, while Low Kick is extremely helpful in the Gouging Fire matchup and can help it break through Steel-type Pokemon like Hisuian Goodra and Registeel, though, it's scared of Counter from the former.</li> <li>The Speed EVs allow it to outspeed Gouging Fire after a Dragon Dance, with the remaining EVs going into Defense so it can bulk physical hits and fire back with its Encore + Disable setup.</li> <li>To utilize Encore + Disable effectively, you usually have to use Protect on the first turn to scout the foe's first move. If you are certain it is a Choice-locked Pokemon, you can just use Disable on the second turn and force it to use Struggle, and if it utilizes a status move, you are free to use Encore on its move and attack with your main STAB move; otherwise, it is recommended to use Encore on the second turn to take a hit, then Protect on the third turn, then Disable on the fourth turn, and, once Encore is over, you use Encore again. This ensures 2 turns of Struggle from the foe, at which point Iron Valiant should be able to KO it. On more passive Pokemon that have moves that do little damage like Registeel, and in some rare cases like Gouging Fire if you only have Moonblast, it sometimes can be better to opt out of using Protect and just use your main attack.</li> <li>Iron Valiant fits best on teams that can cover their main weakness to Steel-type Pokemon; therefore, Fire-type Pokemon like Volcarona and Gouging Fire make great teammates. In return, Iron Valiant can handle threats like Choice Specs Greninja and Choice Band Ursaluna. Iron Valiant also appreciates Pecharunt and Hisuian Goodra being extremely consistent against Fairy-types, as these can easily deal with them while it deals with Ground-type Pokemon like Great Tusk and the previously mentioned Ursaluna.</li> </ul>"
+      },
+      "Choice Specs": {},
+      "Choice Band": {}
+    },
+    "credits": {"writtenBy": [{"user_id": 563650, "username": "bern"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 546922, "username": "bo_bobson27"}, {"user_id": 563325, "username": "delemon"}]}, {"name": "Quality checked by", "members": [{"user_id": 493772, "username": "Lumii"}, {"user_id": 520168, "username": "Murm"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
+  },
   "Walking Wake": {"sets": {"Fast Booster Energy (Special Attack)": {}, "Breaking Swipe": {}, "Snarl": {}, "Booster Energy (Speed)": {}}},
   "Fezandipiti": {"sets": {"Life Orb": {}}},
   "Ogerpon-Wellspring": {"sets": {"Offensive": {}, "Charm": {}, "Specially Defensive": {}, "Leech Seed": {}, "Defensive": {}}},
   "Hydrapple": {"sets": {"Haban Berry": {}, "Yache Berry": {}}},
   "Gouging Fire": {"sets": {"Fast Booster Energy (Attack)": {}, "Bulky Booster Energy (Attack)": {}, "Haban Berry": {}, "Clear Amulet": {}}},
-  "Raging Bolt": {"sets": {"Booster Energy (Special Attack)": {}, "Haban Berry": {}}},
+  "Raging Bolt": {
+    "sets": {
+      "Haban Berry": {},
+      "Booster Energy (Special Attack)": {
+        "description": "<ul> <li>Thunderbolt is Raging Bolt's most consistent STAB attack and beats Primarina, non-Assault Vest Metagross, and Volcanion.</li> <li>Draco Meteor is Raging Bolt's strongest STAB attack and should be used against Skeledirge.</li> <li>Thunderclap allows Raging Bolt to get KOs after using Thunderbolt and Draco Meteor and helps in matchups against some Hoopa-U sets as well as against Custap Berry users like Primarina and the Urshifu formes.</li> <li>Taunt allows Raging Bolt to beat Pecharunt and Ogerpon-W.</li> <li>The HP and Defense EVs allow Raging Bolt to survive the Choice Band Urshifu formes' Close Combat, while the Special Defense EVs allow it to survive Moonblast from Wacan Berry and Assault Vest Primarina. The Speed EVs allow Raging Bolt to outspeed Modest Primarina. The remaining EVs are put in Special Attack to maximize power for best odds against specially defensive Primarina.</li> <li>Draco Meteor into Thunderclap is stronger than Thunderbolt into Thunderclap, so in matchups where there is no recovery from the foe, such as against non-Sitrus Berry Annihilape, it is better to use Draco Meteor into Thunderclap.</li> </ul>"
+      }
+    },
+    "credits": {"writtenBy": [{"user_id": 493772, "username": "Lumii"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}]}, {"name": "Quality checked by", "members": [{"user_id": 518399, "username": "Itchy"}, {"user_id": 520168, "username": "Murm"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
+  },
   "Iron Boulder": {"sets": {"Choice Band": {}, "Booster Energy (Speed)": {}}},
   "Iron Crown": {"sets": {"Fast Weakness Policy": {}, "Defensive Weakness Policy": {}}},
   "Pecharunt": {"sets": {"Air Balloon": {}, "Leftovers": {}, "Maranga": {}, "Amulet": {}}}
