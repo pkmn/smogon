@@ -42,7 +42,16 @@
   "Diancie": {"sets": {"Weakness Policy": {}, "Choice Specs": {}}},
   "Hoopa-Unbound": {"sets": {"Choice Band": {}, "Bulky Choice Band": {}, "Fast Choice Specs": {}, "Bulky Choice Specs": {}, "Choice Scarf": {}, "Assault Vest": {}, "Custap": {}}},
   "Volcanion": {"sets": {"Assault Vest": {}, "Anti-Archaludon": {}, "Choice Specs": {}, "Specially Defensive": {}, "Choice Scarf": {}}},
-  "Primarina": {"sets": {"Weakness Policy": {}, "Custap Berry": {}, "Choice Specs": {}}},
+  "Primarina": {
+    "sets": {
+      "Weakness Policy": {},
+      "Custap Berry": {},
+      "Choice Specs": {
+        "description": "<ul> <li>Hydro Cannon is Primarina's strongest attack and should be used against both Landorus formes, non-Custap Berry Skeledirge, and non-Substitute Volcarona.</li> <li>Moonblast defeats Regidrago, Haxorus, and Garchomp.</li> <li>Energy Ball should be used against Rhyperior and is Primarina's best way to deal with non-Sap Sipper Azumarill.</li> <li>Liquid Voice + Uproar makes Primarina defeat Registeel and gives it an option to defeat Custap Berry Skeledirge and Substitute Volcarona, while Psychic Noise + Torrent allows it to beat Whimsicott reliably and makes it more consistent agaisnt bulkier Choice Specs Hoopa sets, as Moonblast does not always OHKO them.</li> <li>The HP and Defense EVs allow Primarina to survive Earthquake from Choice Band Landorus-T, while the Special Defense EVs allow it to survive Sludge Wave from Timid Choice Specs Landorus.</li> <li>Choice Specs Primarina, unlike other Primarina sets, loses to Encore + Disable Iron Valiant sets, so it is important to use a teammate that can defeat the aforementioned sets.</li> </ul>"
+      }
+    },
+    "credits": {"writtenBy": [{"user_id": 493772, "username": "Lumii"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 493772, "username": "Lumii"}, {"user_id": 520168, "username": "Murm"}]}, {"name": "Quality checked by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 563650, "username": "bern"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
+  },
   "Rillaboom": {"sets": {"Life Orb": {}, "SubSeed": {}, "Specially Defensive SubSeed": {}, "Assault Vest": {}}},
   "Corviknight": {"sets": {"Maranga Berry": {}}},
   "Dragapult": {"sets": {"Choice Band": {}, "Choice Specs": {}}},
@@ -85,7 +94,19 @@
   "Fezandipiti": {"sets": {"Life Orb": {}}},
   "Ogerpon-Wellspring": {"sets": {"Offensive": {}, "Charm": {}, "Specially Defensive": {}, "Leech Seed": {}, "Defensive": {}}},
   "Hydrapple": {"sets": {"Haban Berry": {}, "Yache Berry": {}}},
-  "Gouging Fire": {"sets": {"Fast Booster Energy (Attack)": {}, "Bulky Booster Energy (Attack)": {}, "Haban Berry": {}, "Clear Amulet": {}}},
+  "Gouging Fire": {
+    "sets": {
+      "Fast Booster Energy (Attack)": {
+        "description": "<ul> <li>Dragon Dance allows Gouging Fire to beat most Ogerpon-W sets, Darkrai, and Meowscarada by allowing it to outspeed and OHKO them.</li> <li>Flare Blitz is Gouging Fire's best option against Steel-types like Corviknight, Metagross, and Iron Crown as well as Grass-types like Serperior.</li> <li>Outrage allows Gouging Fire to beat Skeledirge, non-Choice Scarf Volcanion, non-Haban Berry Raging Bolt, and non-Haban Berry or non-Choice Scarf Regidrago.</li> <li>Burning Bulwark helps against non-Choice Band Haxorus and Custap Berry Sylveon, while Earthquake allows Gouging Fire to secure its matchup against non-Air Balloon Volcanion.</li> <li>Fast Booster Energy Gouging Fire sacrifices surviving hits from Pokemon like Sylveon in order to have better matchups against most Regidrago sets and opposing Gouging Fire. However, Haban Berry or Choice Scarf Regidrago and Haban Berry Gouging Fire can still win, so it is recommended to have secondary answers to deal with those sets on a team.</li> </ul>"
+      },
+      "Bulky Booster Energy (Attack)": {
+        "description": "<ul> <li>Dragon Dance allows Gouging Fire to beat most Ogerpon-W sets by allowing it to outspeed and OHKO them.</li> <li>Flare Blitz is Gouging Fire's best option against Steel-types like Corviknight, Metagross, and Scizor as well as Grass-types like Serperior.</li> <li>Outrage allows Gouging Fire to beat Skeledirge, non-Choice Scarf Volcanion, non-Haban Berry Raging Bolt, and non-Custap Berry Hoopa-U.</li> <li>Burning Bulwark helps against Haxorus and Custap Berry Sylveon, while Earthquake allows Gouging Fire to secure its matchup against non-Air Balloon Volcanion.</li> <li>The HP EVs allow Gouging Fire to survive Earthquake from Choice Band Metagross, while the Special Defense EVs allow it to survive Hyper Beam from Life Orb Sylveon. The Speed EVs allow Gouging Fire to outspeed Ogerpon-W after using Dragon Dance. The rest of the EVs are put in Attack.</li> <li>Bulky Booster Energy Gouging Fire sacrifices matchups against some faster Pokemon like Regidrago to have a better matchup against bulkier Pokemon like Sylveon. It also can use Dragon Dance more effectively when bulky, as it is able to survive more hits.</li> <li>It is recommended to use Dragon Dance against Pokemon that get outsped by +1 Gouging Fire, such as Ogerpon-W.</li> <li>Against Encore + Disable Iron Valiant, it is recommended to use Dragon Dance on the first turn then use Flare Blitz on the second. If locked into Dragon Dance through Encore, Iron Valiant cannot KO Gouging Fire unless running Low Kick.</li> </ul>"
+      },
+      "Haban Berry": {},
+      "Clear Amulet": {}
+    },
+    "credits": {"writtenBy": [{"user_id": 493772, "username": "Lumii"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 546922, "username": "bo_bobson27"}]}, {"name": "Quality checked by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 518399, "username": "Itchy"}, {"user_id": 563650, "username": "bern"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
+  },
   "Raging Bolt": {
     "sets": {
       "Haban Berry": {},
