@@ -84,7 +84,7 @@
   "Uxie": {"Memento": {"moves": ["Light Screen", "Reflect", "Memento", ["U-turn", "Yawn", "Stealth Rock"]], "item": "Light Clay", "nature": ["Careful", "Impish", "Jolly"], "evs": {"hp": 252, "spd": 252, "spe": 4}}},
   "Azelf": {"Choice Scarf Lead": {"moves": ["U-turn", "Trick", "Stealth Rock", "Explosion"], "item": "Choice Scarf", "nature": "Jolly", "evs": {"hp": 4, "atk": 252, "spe": 252}}},
   "Dialga": {
-    "Defensive Support": {"moves": ["Stealth Rock", ["Dragon Pulse", "Draco Meteor"], "Thunder", "Roar"], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 252, "spd": 252, "spe": 4}},
+    "Support": {"moves": [["Dragon Pulse", "Draco Meteor"], "Thunder", "Roar", ["Earth Power", "Stealth Rock", "Protect"]], "item": "Leftovers", "nature": "Calm", "evs": {"hp": 252, "def": 4, "spd": 252}},
     "Wallbreaker": {"moves": ["Draco Meteor", ["Outrage", "Stealth Rock"], "Fire Blast", ["Thunder", "Aura Sphere"]], "item": ["Adamant Orb", "Life Orb"], "nature": "Mild", "evs": {"hp": 144, "spa": 252, "spe": 112}},
     "Defensive Bulk Up": {"moves": ["Bulk Up", ["Outrage", "Dragon Claw"], "Rest", "Sleep Talk"], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "atk": 4, "spd": 252}},
     "Choice Scarf": {"moves": ["Draco Meteor", "Thunder", ["Fire Blast", "Aura Sphere"], ["Dragon Pulse", "Outrage"]], "item": "Choice Scarf", "nature": ["Timid", "Hasty"], "evs": {"hp": 4, "spa": 252, "spe": 252}},
