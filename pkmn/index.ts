@@ -120,6 +120,7 @@ export interface DisplayUsageStatistics {
   items: {[name: string]: number};
   stats: {[stats: string]: number};
   moves: {[name: string]: number};
+  teraTypes: {[name: string]: number};
   teammates: {[name: string]: number};
   counters: {[name: string]: [number, number, number]};
 }

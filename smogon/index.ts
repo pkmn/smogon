@@ -66,6 +66,7 @@ export interface MovesetStatistics {
   'Viability Ceiling': [number, number, number, number];
   Abilities: {[ability: string]: number};
   Items: {[item: string]: number};
+  'Tera Types': {[key: string]: number};
   Spreads: {[spread: string]: number};
   Happiness?: {[happiness: string]: number};
   Moves: {[move: string]: number};
