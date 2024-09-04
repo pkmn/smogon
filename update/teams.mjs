@@ -40,6 +40,8 @@ const request = wrap(async url => {
     return response.json();
 });
 
+// FIXME https://www.smogon.com/dex/api/formats/by-ps-name/gen9ou
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.resolve(__dirname, '../data');
 
