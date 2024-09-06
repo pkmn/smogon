@@ -134,7 +134,7 @@
   "Shellder": {"lc": {"Clamp": {"moves": ["Clamp", ["Surf", "Double-Edge"], ["Blizzard", "Double-Edge"], "Explosion"]}}, "petitcup": {"Clamp Pivot": {"moves": ["Surf", "Blizzard", "Clamp", "Explosion"]}}, "lclevel100": {"Clamp Pivot": {"moves": ["Surf", "Blizzard", "Clamp", ["Explosion", "Rest"]]}}},
   "Cloyster": {
     "tradebacksou": {"Standard": {"moves": ["Clamp", "Explosion", "Blizzard", ["Rest", "Hyper Beam", "Screech"]]}},
-    "stadiumou": {"Physical Wall": {"moves": ["Surf", ["Blizzard", "Ice Beam"], "Explosion", ["Rest", "Clamp", "Reflect"]]}},
+    "stadiumou": {"Standard Wall": {"moves": ["Ice Beam", ["Blizzard", "Surf"], "Rest", "Explosion"]}},
     "1v1": {"Standard": {"moves": ["Blizzard", ["Surf", "Leer"], ["Toxic", "Hyper Beam"], "Rest"]}},
     "monotype": {"Clamp Pivot (Water)": {"moves": ["Clamp", "Blizzard", ["Surf", "Rest"], ["Explosion", "Rest"]]}},
     "pikacup": {"Reflect + Rest": {"level": [15, 20], "moves": ["Surf", ["Blizzard", "Ice Beam"], "Reflect", "Rest"]}, "Explosion": {"level": [15, 16], "moves": ["Surf", "Blizzard", ["Double-Edge", "Tri Attack"], "Explosion"]}},
