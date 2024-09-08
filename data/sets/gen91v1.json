@@ -60,7 +60,7 @@
     "Bulky Choice Specs": {"moves": [["Psychic Noise", "Psychic"], "Dark Pulse", "Thunderbolt", "Grass Knot"], "item": "Choice Specs", "nature": "Modest", "ivs": {"atk": 0}, "evs": {"hp": 228, "def": 252, "spa": 12, "spe": 16}},
     "Choice Scarf": {"moves": ["Hyperspace Fury", "Gunk Shot", "Focus Blast", ["Thunderbolt", "Rock Tomb"]], "item": "Choice Scarf", "nature": "Jolly", "evs": {"hp": 48, "atk": 192, "spd": 16, "spe": 252}},
     "Assault Vest": {"moves": ["Psychic Noise", "Knock Off", "Gunk Shot", "Drain Punch"], "item": "Assault Vest", "nature": "Careful", "evs": {"hp": 248, "atk": 48, "spd": 196, "spe": 16}},
-    "Custap": {"moves": ["Psychic", "Hyperspace Fury", "Gunk Shot", "Endure"], "item": "Custap Berry", "nature": "Naughty", "evs": {"hp": 48, "atk": 196, "def": 248, "spe": 16}}
+    "Custap Berry": {"moves": ["Psychic", "Hyperspace Fury", "Gunk Shot", "Endure"], "item": "Custap Berry", "nature": "Naughty", "evs": {"hp": 48, "atk": 196, "def": 248, "spe": 16}}
   },
   "Volcanion": {
     "Assault Vest": {"moves": ["Overheat", "Steam Eruption", "Sludge Wave", "Flare Blitz"], "item": "Assault Vest", "nature": "Modest", "evs": {"hp": 248, "spa": 252, "spd": 8}, "teratypes": "Fire"},
@@ -108,7 +108,7 @@
   "Fezandipiti": {"Life Orb": {"moves": ["Gunk Shot", "Play Rough", "Dual Wingbeat", ["Quick Attack", "Double Kick", "Swords Dance"]], "ability": "Technician", "item": "Life Orb", "nature": "Adamant", "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": "Poison"}},
   "Ogerpon-Wellspring": {
     "Offensive": {"moves": [["Power Whip", "Wood Hammer"], "Ivy Cudgel", ["Encore", "Superpower", "U-turn", "Knock Off"], ["Trailblaze", "Spiky Shield", "Swords Dance", "Superpower"]], "item": "Wellspring Mask", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}},
-    "Charm": {"moves": ["Charm", "Power Whip", "Ivy Cudgel", "Synthesis"], "item": "Wellspring Mask", "nature": "Jolly", "evs": {"hp": 112, "def": 244, "spe": 152}},
+    "Charm": {"moves": ["Charm", "Synthesis", "Ivy Cudgel", ["Power Whip", "Encore"]], "item": "Wellspring Mask", "nature": "Jolly", "evs": {"hp": 112, "def": 244, "spe": 152}},
     "Specially Defensive": {"moves": ["Power Whip", "Ivy Cudgel", "Knock Off", ["Superpower", "Encore"]], "item": "Wellspring Mask", "nature": "Careful", "evs": {"hp": 48, "atk": 8, "spd": 248, "spe": 204}},
     "Leech Seed": {"moves": ["Leech Seed", "Substitute", ["Power Whip", "Ivy Cudgel"], ["Spiky Shield", "Ivy Cudgel"]], "item": "Wellspring Mask", "nature": "Jolly", "evs": {"hp": 52, "def": 20, "spd": 184, "spe": 252}},
     "Defensive": {"moves": ["Power Whip", "Ivy Cudgel", ["Counter", "Knock Off"], ["U-turn", "Encore"]], "item": "Wellspring Mask", "nature": "Impish", "evs": {"hp": 172, "def": 220, "spe": 116}}
