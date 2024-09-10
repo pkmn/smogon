@@ -161,14 +161,14 @@ const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magear
 const SUFFIXES = ['-Antique', '-Totem'];
 
 // Conversion between a Pokémon's Tier and a format suffix.
-const FORMATS: {[key in Exclude<Tier.Singles | 'ZU' | Tier.Other, 'NFE'>]: string} = {
+const FORMATS: {[key in Exclude<Tier.Singles | 'ZU' | 'ZUBL' | Tier.Other, 'NFE'>]: string} = {
   AG: 'anythinggoes',
   Uber: 'ubers', '(Uber)': 'ubers',
   OU: 'ou', '(OU)': 'ou', 'UUBL': 'ou',
   UU: 'uu', 'RUBL': 'uu',
   RU: 'ru', 'NUBL': 'ru',
   NU: 'nu', '(NU)': 'nu', 'PUBL': 'nu',
-  PU: 'pu', '(PU)': 'pu',
+  PU: 'pu', '(PU)': 'pu', 'ZUBL': 'pu',
   ZU: 'zu',
   LC: 'lc',
   Unreleased: 'anythinggoes',
