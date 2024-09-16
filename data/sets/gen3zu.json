@@ -59,6 +59,6 @@
   "Shuppet": {"Stallbreaker": {"moves": ["Shadow Ball", "Hidden Power Fighting", "Substitute", ["Thunder Wave", "Toxic", "Will-O-Wisp"]], "item": "Leftovers", "nature": "Adamant", "evs": {"hp": 4, "atk": 252, "spe": 252}}},
   "Tropius": {"Sun Sweeper": {"moves": ["Sunny Day", "Solar Beam", "Earthquake", "Hidden Power Flying"], "item": "Leftovers", "nature": "Naughty", "evs": {"atk": 252, "spa": 4, "spe": 252}}, "Physically Defensive": {"moves": ["Hidden Power Flying", "Earthquake", ["Leech Seed", "Swords Dance"], "Synthesis"], "item": "Leftovers", "nature": "Impish", "evs": {"hp": 252, "def": 252, "spd": 4}}},
   "Snorunt": {"Spikes Lead": {"moves": ["Spikes", "Ice Beam", "Hidden Power Grass", "Endure"], "item": "Salac Berry", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}},
-  "Clamperl": {"Wallbreaker": {"moves": ["Surf", "Hidden Power Grass", "Ice Beam", "Substitute"], "item": "Deep Sea Tooth", "nature": "Modest", "ivs": {"atk": 2, "spa": 30}, "evs": {"hp": 136, "spa": 252, "spe": 120}}},
+  "Clamperl": {"Wallbreaker": {"moves": ["Surf", "Ice Beam", "Hidden Power Grass", ["Substitute", "Protect"]], "item": "Deep Sea Tooth", "nature": ["Modest", "Timid"], "evs": [{"hp": 216, "spa": 220, "spe": 72}, {"def": 4, "spa": 252, "spe": 252}]}},
   "Bagon": {"Dragon Dance": {"moves": ["Dragon Dance", "Double-Edge", "Brick Break", ["Hydro Pump", "Hidden Power Ghost"]], "item": "Lum Berry", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}}
 }
