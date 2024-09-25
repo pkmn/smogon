@@ -174,7 +174,17 @@
   "Koffing": {"lc": {"Mixed Attacker": {"moves": ["Sludge", "Fire Blast", "Thunderbolt", "Explosion"]}}, "lclevel100": {"Explosion": {"moves": ["Sludge", "Fire Blast", "Thunderbolt", "Explosion"]}}},
   "Weezing": {"pu": {"Mixed Attacker": {"moves": ["Fire Blast", "Thunderbolt", "Hyper Beam", "Explosion"]}}, "zu": {"Mixed Attacker": {"moves": ["Explosion", "Fire Blast", "Thunderbolt", "Hyper Beam"]}}},
   "Rhyhorn": {"lc": {"Physical Attacker": {"moves": ["Earthquake", "Body Slam", "Fire Blast", ["Substitute", "Rock Slide"]]}}, "lclevel100": {"Substitute Attacker": {"moves": ["Earthquake", "Rock Slide", "Body Slam", "Substitute"]}}, "zu": {"Tank": {"moves": ["Earthquake", "Rock Slide", ["Body Slam", "Rest"], "Substitute"]}}},
-  "Rhydon": {"tradebacksou": {"Standard": {"moves": ["Earthquake", "Body Slam", ["Rock Slide", "Rest"], "Substitute"]}}, "stadiumou": {"Standard": {"moves": ["Substitute", "Earthquake", ["Rock Slide", "Rest"], "Body Slam"]}}, "1v1": {"Standard": {"moves": ["Earthquake", "Rock Slide", "Body Slam", ["Bubble Beam", "Stomp", "Substitute", "Rest"]]}}, "pikacup": {"Substitute Attacker": {"moves": ["Earthquake", "Rock Slide", ["Body Slam", "Horn Drill"], "Substitute"]}}, "nc1999": {"Standard": {"moves": ["Earthquake", "Rock Slide", ["Body Slam", "Substitute"], ["Horn Drill", "Substitute"]]}}, "nc1997": {"Standard": {"level": [50, 55], "moves": ["Earthquake", "Rock Slide", ["Blizzard", "Fire Blast"], "Double Team"]}}, "stabmons": {"STABmons": {"moves": ["Earthquake", "Rock Slide", "Body Slam", "Substitute"]}}, "ubers": {"Standard": {"moves": ["Earthquake", "Rock Slide", "Body Slam", "Substitute"]}}, "ou": {"Standard": {"moves": ["Earthquake", "Rock Slide", "Body Slam", "Substitute"]}}},
+  "Rhydon": {
+    "tradebacksou": {"Standard": {"moves": ["Earthquake", "Body Slam", ["Rock Slide", "Rest"], "Substitute"]}},
+    "stadiumou": {"Standard": {"moves": ["Substitute", "Earthquake", ["Rock Slide", "Rest"], "Body Slam"]}},
+    "1v1": {"Standard": {"moves": ["Earthquake", "Rock Slide", "Body Slam", ["Bubble Beam", "Stomp", "Substitute", "Rest"]]}},
+    "pikacup": {"Substitute Attacker": {"moves": ["Earthquake", "Rock Slide", ["Body Slam", "Horn Drill"], "Substitute"]}},
+    "nc1999": {"Standard": {"moves": ["Earthquake", "Rock Slide", ["Body Slam", "Substitute"], ["Horn Drill", "Substitute"]]}},
+    "nc1997": {"Standard": {"level": [50, 55], "moves": ["Earthquake", "Rock Slide", ["Blizzard", "Fire Blast"], "Double Team"]}},
+    "stabmons": {"STABmons": {"moves": ["Earthquake", "Rock Slide", "Body Slam", "Substitute"]}},
+    "ubers": {"Physical Attacker": {"moves": ["Earthquake", "Body Slam", "Substitute", ["Rock Slide", "Leer", "Rest"]]}},
+    "ou": {"Standard": {"moves": ["Earthquake", "Rock Slide", "Body Slam", "Substitute"]}}
+  },
   "Chansey": {
     "tradebacksou": {"Reflect": {"moves": ["Reflect", ["Thunder Wave", "Sing"], "Seismic Toss", "Soft-Boiled"]}, "BoltBeam": {"moves": ["Ice Beam", "Thunderbolt", "Soft-Boiled", ["Thunder Wave", "Sing"]]}, "Counter": {"moves": ["Counter", "Soft-Boiled", ["Ice Beam", "Seismic Toss"], ["Sing", "Thunder Wave", "Thunderbolt"]]}},
     "stadiumou": {"Reflect": {"moves": ["Reflect", ["Seismic Toss", "Ice Beam"], "Soft-Boiled", "Thunder Wave"]}, "BoltBeam": {"moves": ["Thunderbolt", "Ice Beam", "Soft-Boiled", "Thunder Wave"]}, "Substitute": {"moves": ["Substitute", "Soft-Boiled", ["Seismic Toss", "Ice Beam"], "Thunder Wave"]}},
