@@ -14,10 +14,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@pkmn/data": "^0.9.19"
+    "@pkmn/data": "^0.9.20"
   },
   "devDependencies": {
-    "@pkmn/dex": "^0.9.19"
+    "@pkmn/dex": "^0.9.20"
   },
   "scripts": {
     "lint": "eslint --cache *.ts",
@@ -44,14 +44,5 @@
         "@babel/preset-typescript",
         ["@babel/preset-env", {"targets": {"node": "current"}}]
     ]
-  },
-  "eslintConfig": {
-    "extends": "@pkmn",
-    "overrides": [{
-      "files": ["index.test.ts"],
-      "rules": {
-        "jest/no-conditional-expect": "off"
-      }
-    }]
   }
 }
