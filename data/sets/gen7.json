@@ -1913,8 +1913,8 @@
   "Magearna": {
     "ubers": {"Specially Defensive": {"moves": ["Heart Swap", "Fleur Cannon", "Volt Switch", ["Heal Bell", "Pain Split"]], "item": ["Leftovers", "Normalium Z"], "nature": "Calm", "evs": {"hp": 252, "def": 4, "spd": 252}}},
     "ou": {
-      "Assault Vest": {"moves": ["Fleur Cannon", "Volt Switch", ["Hidden Power Fire", "Ice Beam"], ["Iron Head", "Hidden Power Fire"]], "item": "Assault Vest", "nature": "Sassy", "evs": {"hp": 248, "spd": 224, "spe": 36}},
-      "Heart Swap": {"moves": ["Heart Swap", "Pain Split", "Volt Switch", ["Flash Cannon", "Ice Beam"]], "item": "Leftovers", "nature": "Calm", "ivs": {"spe": 6}, "evs": {"hp": 248, "def": 28, "spd": 232}},
+      "Assault Vest": {"moves": ["Fleur Cannon", ["Ice Beam", "Energy Ball", "Iron Head"], ["Hidden Power Fire", "Focus Blast"], "Volt Switch"], "item": "Assault Vest", "nature": "Calm", "evs": {"hp": 248, "def": 72, "spd": 188}},
+      "Utility": {"moves": [["Fleur Cannon", "Ice Beam", "Flash Cannon"], "Pain Split", ["Heart Swap", "Heal Bell", "Thunder Wave"], "Volt Switch"], "item": ["Leftovers", "Fairium Z"], "nature": "Calm", "evs": {"hp": 248, "def": 72, "spd": 188}},
       "Calm Mind + Pain Split": {"moves": ["Calm Mind", "Pain Split", "Fleur Cannon", "Thunderbolt"], "item": "Fairium Z", "nature": "Modest", "evs": {"hp": 248, "def": 28, "spa": 224, "spd": 8}},
       "Shift Gear": {"moves": ["Shift Gear", ["Focus Blast", "Fleur Cannon", "Calm Mind"], ["Fleur Cannon", "Ice Beam"], ["Thunderbolt", "Calm Mind"]], "item": ["Fightinium Z", "Fairium Z", "Leftovers", "Wiki Berry", "Electrium Z"], "nature": "Timid", "ivs": {"atk": 0}, "evs": {"spa": 252, "spd": 4, "spe": 252}},
       "Trick Room": {"moves": ["Trick Room", "Fleur Cannon", ["Focus Blast", "Flash Cannon"], ["Thunderbolt", "Ice Beam"]], "item": "Fairium Z", "nature": "Quiet", "ivs": {"atk": 0, "spe": 0}, "evs": {"hp": 252, "def": 4, "spa": 252}}
