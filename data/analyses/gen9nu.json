@@ -51,7 +51,7 @@
   "Electrode-Hisui": {"sets": {"Offensive Pivot": {"description": "<p>20 Defense EVs allow Electrode-Hisui to avoid a 2HKO from Choice Scarf Bruxish Wave Crash. Fairy Tera Blast hits Dragon-types like Goodra and Tatsugiri. The given Speed outruns Jolteon.</p>"}}},
   "Hitmonlee": {"sets": {"Terrain Sweeper": {}}},
   "Weezing": {"sets": {"Physical Wall": {}}},
-  "Scyther": {"sets": {"Swords Dance": {}}},
+  "Scyther": {"sets": {"Swords Dance": {}, "Pivot": {}}},
   "Tauros": {
     "outdated": true,
     "sets": {
@@ -100,7 +100,7 @@
   "Typhlosion-Hisui": {"sets": {"All-out Attacker": {}, "Choice Item": {}}},
   "Quagsire": {"sets": {"Defensive": {}}},
   "Espeon": {"sets": {"Choice Specs": {}, "Rain Support": {}}},
-  "Gligar": {"sets": {"Physical Wall": {}}},
+  "Gligar": {"sets": {"Physical Wall": {"description": "<p>56 Speed EVs allows Gligar to outspeed Adamant Incineroar, while 140 Speed EVs lets it outpace Timid Incineroar and Adamant Decidueye.</p>"}, "Double Dance": {}}},
   "Qwilfish-Hisui": {"sets": {"Rain Sweeper": {}}},
   "Heracross": {"sets": {"Wallbreaker": {}, "Choice Scarf": {}, "Spikes Setter": {}}},
   "Sneasel": {"sets": {"Swords Dance": {}}},
@@ -163,6 +163,7 @@
   "Staraptor": {"sets": {"Choice Band": {}, "Choice Scarf": {}}},
   "Floatzel": {"sets": {"Rain Wallbreaker": {}}},
   "Gastrodon": {"sets": {"Defensive": {}}},
+  "Ambipom": {"sets": {"Pivot": {}}},
   "Mismagius": {"sets": {"Choice Scarf": {}, "Substitute + Draining Kiss": {}}},
   "Bronzong": {
     "overview": "<p>Bronzong is an elite Steel-type in NU thanks to both its great mixed bulk and an excellent ability in Levitate, which, unlike other Steel-types, allows it to check many Ground-types like Flygon and Gligar, along with other Pokémon that rely on Ground-type coverage to hit Steel-types like Diancie. Bronzong is remarkably resistant to entry hazards, as it simultaneously resists Stealth Rock and has an immunity to Spikes, making it a centerpiece on teams with little to no hazard removal. Furthermore, Bronzong excels at being a great hazard setter thanks to its ability to check threats like Munkidori, Sylveon, and Porygon-Z. It can take advantage of these positive matchups and its already tremendous bulk by instead being a bulky setup sweeper, becoming very difficult to take out. However, Bronzong's only form of recovery is Leftovers, meaning that it has to be even more wary about switching into the already threatening Knock Off from Pokemon that it would check otherwise like Copperajah, Tsareena, and Toxicroak. Additionally, foes that Bronzong is typically expected to check like Munkidori, Florges, and Rotom-C often run Trick to cripple it severely and especially hurts its setup sets.</p>",
@@ -282,7 +283,7 @@
   },
   "Golurk": {"sets": {"Choice Band": {}}},
   "Tornadus": {"sets": {"Rain Support": {}, "Offensive Pivot": {}, "Bulk Up": {}, "Nasty Plot": {}}},
-  "Meloetta": {"sets": {"Choice Item": {}, "Relic Song": {}}},
+  "Meloetta": {"sets": {"Choice Item": {}, "Sub Calm Mind": {}}},
   "Delphox": {"sets": {"Nasty Plot": {}}},
   "Talonflame": {
     "overview": "<p>In a tier with a number of powerful entry hazard setters, Talonflame soars to the top as a premier pivot with U-turn, spreading burns everywhere it goes with Will-O-Wisp while also being able to remove hazards with Defog. However, Talonflame is not only reserved as a utility option; it can act as a physical wall in a pinch thanks to its ability Flame Body and can invest in its bulk without losing out on Speed or power thanks to its high-Base Power STAB attacks like Brave Bird and Flare Blitz. Talonflame can force out Stealth Rock and Spikes setters like Registeel, Brambleghast, and Klefki by threatening them with Will-O-Wisp and using Defog to remove their hazards. Thanks to its high Speed, it can revenge kill fast threats like non-Choice Scarf variants of Mienshao, Flygon, and Infernape. However, its low offenses really stand out when trying to revenge kill bulkier wallbreakers and Pokemon that resist its STAB moves like Incineroar, Chandelure, and Oricorio-E, all of which can shrug off its attacks and don't care about being burned. Talonflame's reliance on Heavy-Duty Boots is made apparent when it commonly switches into Knock Off users like Mienshao, Copperajah, and Infernape, forcing it to take hazard damage every time it wants to switch in again. Talonflame's poor typing allows some other hazard setters to set up against it for free, like Swampert and Diancie.</p>",
@@ -357,6 +358,7 @@
   },
   "Hoopa": {"sets": {"Choice Specs": {}, "Substitute + 3 Attacks": {}, "All-out Attacker": {}, "Nasty Plot": {}}},
   "Decidueye": {"sets": {"Swords Dance": {}, "Wallbreaker": {}, "Defog": {}}},
+  "Decidueye-Hisui": {"sets": {"Defog": {}}},
   "Incineroar": {
     "overview": "<p>The combination of Knock Off, good typing, and Intimidate makes Incineroar a great wallbreaker while being a solid defensive Pokemon. Sword Dance sets can make Incineroar into a great wallbreaker, since many defensive staples like Vileplume, Galarian Slowbro, and Registeel just drop to its Swords Dance-boosted STAB attacks. Also, Incineroar easily checks the common Ghost-, Grass-, and Steel-types like Chandelure, Brambleghast, and Klefki, meaning it can take advantage of its utility moves it can go for a more defensively-oriented pivot set if it wishes. It has Will-O-Wisp and Knock Off to cripple incoming physical wallbreakers like Toxicroak, Flygon, and Mienshao and item-reliant Pokemon like Talonflame, Avalugg, and Swampert, respectively. Defensive Incineroar is solid for handling special wallbreakers such as Hisuian Typhlosion, Porygon-Z, and Heavy-Duty Boots Munkidori. However, Incineroar's low Speed stat makes it very easy for wallbreakers with a middling Speed tier like Basculegion, Breloom, and Heracross to outspeed and destroy it with their own STAB attacks. Incineroar's reliance on Heavy-Duty Boots can be felt, since it has to be wary of switching into opposing Knock Off from Tsareena, Alolan Muk, and Wo-Chien. It even has to worry about switching into the Pokemon it checks best, Chandelure, as it carries Trick to cripple Incineroar. Incineroar also lacks any form of recovery, making it easily worn down over the course of a battle.</p>",
     "comments": "<h3>Other Options</h3> <p>Close Combat is an option to hit many foes neutrally like Swampert and Diancie while also hitting foes like Iron Thorns and opposing Incineroar super effectively. Flame Charge gives Incineroar the opportunity to become a late-game cleaner after picking off a weakened threat. Alternatively, Trailblaze can be used alongside Tera Grass to hit Water-types super effectively but it's pretty reliant on Terastallization to do good damage. Iron Head can be used on Swords Dance Incineroar to surprise Sylveon, Diancie, and Florges, but the ability to pivot, boost its Speed, or use a high-Base Power coverage move tends to be better overall. Weakness Policy + Power Trip sets can be used on hyper offense teams, letting Incineroar become a dangerous sweeper. Incineroar has a bunch of usable defensive Tera types, but they are really inconsistent for many teams. Tera Flying helps Incineroar take on Fighting- and Ground-type attacks, but it retains its weakness to Stealth Rock. Tera Grass gives Incineroar a resistance to Water- and Ground-type attacks but gives it a bad matchup against opposing Fire-types like Chandelure, Infernape, and Hisuian Typhlosion.</p> <h3>Checks and Counters</h3> <p><strong>Water-types</strong>: Vaporeon, Milotic, and Swampert can switch into its Flare Blitz and threaten Incineroar back with their own STAB attacks, but they have to be wary about switching into a boosted Knock Off from Swords Dance sets. Offensive Water-types like Inteleon and Basculegion, while they have to be worried about switching into its Knock Off, can easily destroy it. Quagsire is notable for shutting down Incineroar sweeps due to Unaware and punish it back by spreading Toxic or hitting Incineroar with its STAB Earthquake.</p> <p><strong>Ground-types</strong>: Flygon, Swampert, and Quagsire destroy Incineroar with their STAB Earthquake, but they have to be wary about switching into Will-O-Wisp from bulkier sets.</p> <p><strong>Fighting-types</strong>: Mienshao, Toxicroak, and Breloom outspeed Incineroar and destroy it with their STAB Fighting-type attacks. Infernape and Paldean Tauros-W resist both of Incineroar's STAB attacks and use it as setup fodder.</p> <p><strong>Rock-types</strong>: Diancie and Iron Thorns can tank Incineroar's STAB attacks very well and use it to set up Stealth Rock or hit it back with their STAB Rock-type attacks.</p> <p><strong>Item Displacement</strong>: Common Knock Off users like Tsareena, Alolan Muk, and Wo-Chien can threaten Incineroar by removing its Heavy-Duty Boots, making it a lot weaker to entry hazards. On top of this, Pokemon it would love to switch into like Chandelure, Munkidori, and Porygon-Z often carry Trick to cripple it.</p>",
@@ -370,6 +372,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 609709, "username": "Pika134"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 583607, "username": "PowerOfMemes"}, {"user_id": 336073, "username": "Rabia"}]}, {"name": "Grammar checked by", "members": [{"user_id": 555379, "username": "Tbolt"}]}]}
   },
+  "Oricorio": {"sets": {"Quiver Dance": {}}},
   "Oricorio-Pom-Pom": {
     "overview": "<p>Oricorio-E's access to both Quiver Dance and Taunt alongside Roost means, unlike other setup sweepers, it can repeatedly beat common counterplay like Haze, Toxic, Encore, Whirlwind, and Trick. Its typing is also a huge boon in this department, as it's immune to Klefki's Thunder Wave and resists popular physical attackers' STAB moves like Mienshao's Close Combat and Breloom's Bullet Seed while blanking Flygon's Earthquake entirely. On top of that, since these Pokemon are often Choice-locked, they can become setup fodder for Oricorio-E. However, Oricorio-E must have two turns to become fully set up, as many Pokemon that are faster than it like Mienshao, Munkidori, and Inteleon often carry Choice Scarf and can still outspeed it after one boost. It also struggles to get much done versus offensive teams because they excel at outspeeding and overpowering Oricorio-E before it can amass enough boosts. Flying-resistant Pokemon like Iron Thorns, Diancie, and Copperajah are also big roadblocks for Oricorio-E.</p>",
     "comments": "<h3>Other Options</h3> <p>Oricorio-E can run Hurricane for more breaking power, but it then gets completely walled by Wind Rider Brambleghast, especially if it lacks Revelation Dance. Oricorio-E can also run a support set with Air Slash / U-turn / Roost / Defog, but this is generally considered a waste of its other talents due to there being better options for entry hazard control.</p> <h3>Checks and Counters</h3> <p><strong>Steel-types</strong>: Steel-types such as Registeel, Copperajah, and Bronzong can wall Oricorio-E, and when against non-Taunt sets, they can set entry hazards, phaze it, and start boosting themselves. Klefki is notable as well due to Prankster giving its status moves priority, meaning Oricorio-E must Terastallize into a Steel-type to avoid a Toxic Orb poisoning from its Switcheroo. However, Taunt shuts all of them down, barring Klefki, and both Registeel and Copperajah must be cautious of Tera Ground Revelation Dance sets.</p> <p><strong>Rock-types</strong>: Diancie walls Oricorio-E and forces it out with Diamond Storm or Meteor Beam. Because of this, it can typically take advantage of its free turn and set up hazards or Trick Room. Iron Thorns walls Oricorio-E as well, and it can take advantage of its free turns with Dragon Dance. But, these Rock-types must be cautious of Tera Ground Revelation Dance, as it easily deals with these threats.</p> <p><strong>Powerful Wallbreakers</strong>: Strong wallbreakers like Chandelure, Dragalge, and Staraptor have enough power to overwhelm Oricorio-E early on, and because of this, they can effectively stop setup. However, once Oricorio-E collects enough boosts, these Pokemon are no longer adequate answers.</p>",
@@ -380,6 +383,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 583607, "username": "PowerOfMemes"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 400664, "username": "Stories"}, {"user_id": 336073, "username": "Rabia"}]}, {"name": "Grammar checked by", "members": [{"user_id": 297659, "username": "deetah"}]}]}
   },
+  "Oricorio-Sensu": {"sets": {"Quiver Dance": {}}},
   "Mudsdale": {"sets": {"Defensive": {}}},
   "Araquanid": {"sets": {"Sticky Web": {"description": "<p>The Speed EVs help to outpace Vaporeon.</p>"}}},
   "Salazzle": {"sets": {"Nasty Plot": {}, "Utility": {}}},
@@ -442,7 +446,7 @@
     "credits": {"writtenBy": [{"user_id": 487308, "username": "BT89"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 583607, "username": "PowerOfMemes"}, {"user_id": 189361, "username": "Lucario"}]}, {"name": "Grammar checked by", "members": [{"user_id": 555379, "username": "Tbolt"}]}]}
   },
   "Overqwil": {"sets": {"Rain Sweeper": {}, "Spikes Setter": {}, "Setup Sweeper": {}}},
-  "Pawmot": {"sets": {"Wallbreaker": {}}},
+  "Pawmot": {"sets": {"Wallbreaker": {}, "Revival Blessing": {}}},
   "Bellibolt": {"sets": {"Physically Defensive": {}}},
   "Kilowattrel": {"sets": {"Pivot": {}, "Rain Sweeper": {}}},
   "Brambleghast": {
@@ -472,7 +476,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 272785, "username": "nimzowitsch"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 400664, "username": "Stories"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}, {"user_id": 423085, "username": "Deezcastforms"}]}]}
   },
-  "Dudunsparce": {"sets": {"Coil": {}, "Calm Mind": {}}},
+  "Dudunsparce": {"sets": {"Coil": {}, "Calm Mind": {}, "Stealth Rock": {}}},
   "Scream Tail": {"sets": {"Utility": {}, "Booster Energy Calm Mind": {"description": "<p>216 Speed EVs allows Scream Tail to outpace Choice Scarf Munkidori after activating its Speed-boosting Booster Energy.</p>"}, "Lead": {}}},
   "Brute Bonnet": {"sets": {"Covert Cloak": {}}},
   "Iron Thorns": {"sets": {"Dragon Dance": {}, "Lead Entry Hazards Setter": {"description": "<p>23 Attack IVs alongside a Timid nature ensures Iron Thorns boosts its Speed with Booster Energy.</p>"}}},
