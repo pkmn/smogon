@@ -151,10 +151,10 @@
   "Wo-Chien": {"Defensive Utility": {"moves": [["Matcha Gotcha", "Grav Apple", "Apple Acid"], ["Knock Off", "Ceaseless Edge", "Foul Play"], ["Parting Shot", "Ceaseless Edge", "Foul Play"], "Strength Sap"], "item": ["Leftovers", "Covert Cloak", "Rocky Helmet"], "nature": "Relaxed", "ivs": {"spe": 0}, "evs": {"hp": 248, "def": 252, "spd": 4}}},
   "Ting-Lu": {"Defensive Support": {"moves": ["Knock Off", "Precipice Blades", "Shore Up", ["Parting Shot", "Spikes", "Topsy-Turvy", "Stealth Rock"]], "item": ["Covert Cloak", "Leftovers"], "nature": ["Sassy", "Relaxed"], "ivs": {"spe": 0}, "evs": [{"hp": 252, "def": 4, "spd": 252}, {"hp": 252, "def": 252, "spd": 4}]}},
   "Iron Valiant": {
-    "Choice Specs": {"moves": ["Fleur Cannon", "Moonblast", "Secret Sword", ["Psyshock", "Thunderbolt", "Trick"]], "item": "Choice Specs", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}},
+    "Choice Specs": {"moves": [["Shadow Ball", "Fleur Cannon"], "Moonblast", "Secret Sword", ["Psyshock", "Thunderbolt", "Trick"]], "item": "Choice Specs", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}},
     "Choice Band": {"moves": ["Combat Torque", "Magical Torque", "Knock Off", ["Zen Headbutt", "Mach Punch", "Trick"]], "item": "Choice Band", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
     "Choice Scarf": {"moves": [["Fleur Cannon", "Magical Torque"], ["Close Combat", "Combat Torque"], "Knock Off", ["Trick", "Destiny Bond"]], "item": "Choice Scarf", "nature": ["Naive", "Jolly"], "evs": [{"atk": 56, "spa": 200, "spe": 252}, {"atk": 252, "def": 4, "spe": 252}]},
-    "Mixed Attacker": {"moves": ["Fleur Cannon", "Thunderous Kick", "Knock Off", "Zen Headbutt"], "item": "Life Orb", "nature": "Naive", "evs": {"atk": 176, "spa": 80, "spe": 252}},
+    "Mixed Attacker": {"moves": ["Fleur Cannon", "Thunderous Kick", ["Knock Off", "Mach Punch"], "Zen Headbutt"], "item": "Life Orb", "nature": "Naive", "evs": {"atk": 176, "spa": 80, "spe": 252}},
     "Swords Dance": {"moves": ["Magical Torque", ["Combat Torque", "Knock Off"], ["Zen Headbutt", "Encore", "Destiny Bond"], "Swords Dance"], "item": "Booster Energy", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
     "Calm Mind": {"moves": ["Moonblast", "Secret Sword", ["Psyshock", "Encore", "Destiny Bond"], "Calm Mind"], "item": "Booster Energy", "nature": "Timid", "ivs": {"atk": 0}, "evs": {"def": 4, "spa": 252, "spe": 252}}
   },

@@ -2,7 +2,6 @@
   "Snubbull": {
     "sets": {
       "Offensive": {},
-      "Choice Band": {},
       "Bulk Up": {},
       "Utility": {
         "outdated": true,
@@ -13,30 +12,65 @@
   "Duskull": {"sets": {"Defensive": {}}},
   "Koffing": {"sets": {"Defensive": {}}},
   "Trapinch": {"sets": {"Trapper": {}}},
-  "Diglett": {"sets": {"Specially Defensive Trapper": {}, "Offensive Trapper": {}}},
+  "Diglett": {"sets": {"Specially Defensive Trapper": {}, "Offensive Trapper": {}, "Choice Band": {}}},
   "Meowth": {"sets": {"Lead": {}}},
   "Mankey": {"sets": {"Substitute + Reversal": {}}},
   "Abra": {"sets": {"Offensive Calm Mind": {}, "Bulky Calm Mind": {}}},
   "Machop": {"sets": {"Offensive": {}}},
   "Bellsprout": {"sets": {"Sunny Day Sweeper": {}}},
-  "Ponyta": {"sets": {"Sunny Day": {}}},
+  "Ponyta": {"sets": {"Sunny Day": {}, "Offensive": {}}},
   "Magnemite": {"sets": {"Offensive Utility": {}}},
-  "Doduo": {"sets": {"Choice Band": {}}},
-  "Gastly": {"sets": {"Mixed Offensive": {}}},
+  "Doduo": {"sets": {"Choice Band": {}, "SubSitrus": {}}},
+  "Gastly": {
+    "sets": {
+      "Specially Defensive": {},
+      "Mixed Offensive": {
+        "outdated": true,
+        "description": "<p>Psychic is Gastly's most spammable attack, notably hitting opposing Poison-types like Koffing and Gastly super effectively while providing a strong hit against Diglett. Sludge Bomb deals decent damage to mixed bulky attacker Wailmer without activating Sitrus Berry, giving it high odds of being KOed by Thunderbolt afterwards. It also OHKOes Cacnea while having decent odds to do the same to Exeggcute, and it can possibly weaken other targets with its chance to poison. Shadow Ball is an alternative, also giving Gastly high, albeit slightly worse, odds of KOing mixed bulky attacker Wailmer when used before Thunderbolt. It's also Gastly's strongest move with no drawbacks against Duskull and Abra, KOing the former after Thunderbolt or Psychic and OHKOing the latter, though Gastly still loses one-on-one to them. Thunderbolt primarily hits Flying- and Water-types, damaging the aforementioned Wailmer and OHKOing foes like Doduo and Staryu. Thief is an alternative to let Gastly steal a foe's Sitrus Berry after Gastly has used up its own, notably preventing Porygon from using Recycle to stay healthy. Explosion lets Gastly sacrifice itself to OHKO most targets, including extremely bulky ones like Wailmer and Porygon. The given EV spread alongside a Hasty nature maximizes Gastly's Speed while providing enough Attack to OHKO Porygon. 76 Special Defense EVs let Gastly never be OHKOed by mixed bulky attacker Wailmer's Surf, with this matchup also being why Hasty is chosen over Naive. Of what is left over, 36 EVs are used to augment Gastly's Special Attack as much as possible, while the remainder is put into its Defense.</p> <p>Gastly is a natural fit on teams looking for a switch-in to Choice Band Doduo's Normal-type moves and Self-Destruct and Explosion users such as Wailmer, Koffing, and opposing Gastly, on teams that prefer Gastly's explosive offensive power over Duskull's better defenses. Essentially the entire metagame appreciates this support, with teammates unable to outspeed and OHKO these foes like Wailmer and Chinchou especially appreciating Gastly as a teammate. It is recommended that Gastly not reveal itself too early but instead switch in when it's clear the mentioned examples are committing to their Normal-type move. Either way, if the foe sacrifices itself for nothing or Doduo locks itself into a move that does no damage, Gastly will almost always get a KO in those situations. Gastly is also an effective answer to Porygon, as being able to KO it with Explosion is usually an advantageous trade, though players must be wary of not being too predictable and risking the opponent switching in their own Ghost-type. Beyond switching into Self-Destruct, Gastly also reliably handles Wailmer, helping Pokemon that struggle against it like Diglett, Elekid, and Koffing. Gastly primarily struggles with foes that are faster than it, such as Staryu, making a teammate like Chinchou useful at checking it. Gastly has an abhorrent matchup against Abra, being outsped and OHKOed by its STAB Psychic, with Abra even able to switch into many of Gastly's moves. Gastly is generally best off staying in to stop Abra from setting up, and once it's KOed, it can let in a faster teammate, like Elekid or Diglett, or a priority user, like Doduo, to revenge kill Abra.</p>"
+      }
+    }
+  },
   "Onix": {"sets": {"All-Out Attacker": {}}},
-  "Voltorb": {"sets": {"Offensive Pivot": {}}},
+  "Voltorb": {
+    "sets": {
+      "Offensive": {},
+      "Offensive Pivot": {
+        "outdated": true,
+        "description": "<p>The Defense investment allows Voltorb to always survive Earthquake from mixed bulky attacker Wailmer. 40 Attack EVs with a Timid nature are used to guarantee that Explosion OHKOes Trapinch and Wailmer. Thunder Wave is Voltorb’s best form of speed control, effectively neutering frail Pokemon that rely on their Speed such as Abra, Anorith, and Gastly. Thief gives Voltorb another option to cripple opposing Pokemon by removing their recovery in Sitrus Berry and using it itself or denying a sweep by removing their pinch Berries. Substitute is used to punish status attempts from slower Pokemon such as Porygon and Chinchou, giving Voltorb a free turn to attack or cripple the opposing Pokemon with Thunder Wave. Hidden Power Grass OHKOes Rock / Ground types such as Larvitar and Onix and lets Voltorb fight Electric-immune Pokemon without committing to Explosion. It is also worth mentioning that Hidden Power Grass into Thunderbolt KOes mixed bulky attacker Wailmer. Finally, Explosion OHKOes most of the tier, preventing troublesome Pokemon like Abra and Bagon from snowballing out of control and allowing it to beat otherwise strong checks in Chinchou and opposing Voltorb. Caution should be taken to avoid using Explosion into a Ghost-type, however.</p> <p>Voltorb pairs well with Pokemon that have trouble with Diglett and Trapinch, such as Houndour, Abra, and Elekid. Voltorb is an appealing target for Diglett and Trapinch, allowing it to force them out early, as well as having the potential to trade with them, albeit unreliably. Elekid in particular forms a potent offensive core with Voltorb, overloading their shared checks and smothering offense with their Speed and support options, like Light Screen and Thunder Wave. Wailmer is a good teammate, as it can struggle into Doduo, Staryu, and Gastly, and is a great switch-in to the Ground-types that will inevitably trap and remove Voltorb. Voltorb has strong synergy with Cacnea, as it can use Spikes against Diglett, Cubone, Trapinch, and Chinchou lacking Ice Beam. Voltorb in turn switches into Doduo locked into Drill Peck. Lastly, (add comma) Porygon and Trapinch can reliably remove Diglett in the event that Voltorb loses the Speed tie and remain healthy enough to check Abra or Elekid later in the match.</p>"
+      }
+    }
+  },
   "Exeggcute": {"sets": {"Sunny Day Sweeper": {}}},
   "Cubone": {"sets": {"Offensive": {}}},
   "Horsea": {"sets": {"Rain Sweeper": {}}},
   "Staryu": {"sets": {"Offensive Utility": {}}},
-  "Chinchou": {"sets": {"Offensive": {}, "SubToxic": {}}},
+  "Chinchou": {"sets": {"Offensive": {}}},
   "Pineco": {"sets": {"Spikes": {}}},
   "Houndour": {"sets": {"Special Attacker": {}}},
-  "Elekid": {"sets": {"Substitute + 3 Attacks": {}, "SubPunch": {}}},
+  "Elekid": {
+    "sets": {
+      "Substitute + 3 Attacks": {},
+      "SubPunch": {
+        "outdated": true,
+        "description": "<p>The highlight of this set is Focus Punch backed by 176 Attack EVs which allows Elekid to beat Diglett as long as Elekid is behind a Substitute. This can be the key to victory in some battles, as players will often send Diglett in on Elekid even when Elekid is behind a Substitute. This is because specially defensive Diglett, the most common Diglett set, will always beat Elekid barring a critical hit or freeze from Ice Punch. 80 Special Attack EVs are used to boost Thunderbolt's damage as well as to ensure a clean 2HKO on Porygon without triggering its Sitrus Berry by using Thunderbolt then Focus Punch. Thunder Wave has great utility and gives Elekid opportunities to fish for the opponent to be fully paralyzed, making it much easier to pull off a Focus Punch. Alternatively, Hidden Power Grass in combination with Thunderbolt allows it to beat common Pokemon such as Chinchou and Wailmer, as well as the more niche Onix, and is worth considering if its team already has paralysis support elsewhere.</p> <p>The two strengths of the SubPunch set are its ability to take out Diglett and its ability to spread paralysis, but it still has some weaknesses to cover. Slow Pokemon like Cubone and setup sweepers like Bagon and Larvitar that can take advantage of the paralysis Elekid spreads to the opposing team are good partners. As previously mentioned, without Hidden Power Grass, this set really struggles with Chinchou and Wailmer. A Pokemon that can handle both of them like Staryu or Porygon makes a good partner for Elekid. Elekid is also still vulnerable to Trapinch and Cubone, so a strong Water-type like Wailmer, Staryu, or Chinchou that can revenge kill Ground-types is a good idea too. Porygon is another good teammate for Elekid, as it can counter-trap and eliminate Trapinch and has a good matchup versus Cubone.</p>"
+      }
+    }
+  },
+  "Magby": {"sets": {"Offensive Utility": {}}},
   "Larvitar": {"sets": {"Dragon Dance": {}}},
   "Carvanha": {"sets": {"Offensive": {}}},
-  "Wailmer": {"sets": {"Mixed Bulky Attacker": {}, "Specially Offensive": {}}},
-  "Cacnea": {"sets": {"Offensive Spikes": {}, "Utility Spikes": {}}},
+  "Wailmer": {
+    "sets": {
+      "Physically Defensive": {},
+      "Specially Defensive": {},
+      "Specially Offensive": {},
+      "Mixed Bulky Attacker": {
+        "outdated": true,
+        "description": "<p>Bulky Wailmer is an incredible lead Pokemon due to its high bulk that provides with it a positive or neutral matchup against many other leads, such as Staryu, Voltorb, Elekid, and Abra. This set maximizes Special Defense investment for a 93% chance to survive Thunderbolt from two of the strongest Electric-type Pokemon in the tier, Elekid and Chinchou. The Special Defense investment is also generally useful against powerful special attackers in the tier such as Abra and Gastly. Earthquake is a great coverage move to hit Electric-types: with 40 Attack EVs, it lands an OHKO on Elekid while hitting Chinchou hard. Hidden Power Grass is used to hit other Water-types like Wailmer or Staryu. A Sassy nature lets Wailmer achieve maximum Special Defense and maintain the power of its physical moves while still outspeeding Porygon. Self-Destruct is excellent for trading Pokemon, as it is usually used against some of the tier's best Pokemon like Porygon. It can also be used in poor matchups or to sacrifice Wailmer to bring in one of its teammates.</p> <p>One of the few attacks capable of OHKOing Wailmer is Choice Band Doduo's Double-Edge, so Pokemon that can switch into Doduo such as Porygon, Snubbull, Gastly, or Duskull make good teammates. Despite being able to take on Electric-type Pokemon, Wailmer still appreciates Ground-type teammates like Trapinch or Diglett that can trap and remove Electric-types so that Wailmer is not overwhelmed. Wailmer's high bulk allows it to reliably check powerful threats like Abra, which is appreciated by Pokemon like Gastly, Doduo, and Koffing that are all scared out by it.</p>"
+      }
+    }
+  },
+  "Cacnea": {"sets": {"Utility Spikes": {}}},
   "Baltoy": {"sets": {"All-Out Attacker": {}}},
   "Lileep": {"sets": {"Defensive": {}}},
   "Anorith": {"sets": {"Swords Dance": {}}},

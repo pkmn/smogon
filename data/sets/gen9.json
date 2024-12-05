@@ -3012,10 +3012,10 @@
       "Swords Dance": {"moves": ["Swords Dance", ["Close Combat", "Encore"], ["Spirit Break", "Encore"], ["Shadow Sneak", "Knock Off"]], "item": ["Focus Sash", "Booster Energy", "Life Orb"], "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": ["Ghost", "Steel", "Fairy", "Fighting"]}
     },
     "stabmons": {
-      "Choice Specs": {"moves": ["Fleur Cannon", "Moonblast", "Secret Sword", ["Psyshock", "Thunderbolt", "Trick"]], "item": "Choice Specs", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}},
+      "Choice Specs": {"moves": [["Shadow Ball", "Fleur Cannon"], "Moonblast", "Secret Sword", ["Psyshock", "Thunderbolt", "Trick"]], "item": "Choice Specs", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}},
       "Choice Band": {"moves": ["Combat Torque", "Magical Torque", "Knock Off", ["Zen Headbutt", "Mach Punch", "Trick"]], "item": "Choice Band", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
       "Choice Scarf": {"moves": [["Fleur Cannon", "Magical Torque"], ["Close Combat", "Combat Torque"], "Knock Off", ["Trick", "Destiny Bond"]], "item": "Choice Scarf", "nature": ["Naive", "Jolly"], "evs": [{"atk": 56, "spa": 200, "spe": 252}, {"atk": 252, "def": 4, "spe": 252}]},
-      "Mixed Attacker": {"moves": ["Fleur Cannon", "Thunderous Kick", "Knock Off", "Zen Headbutt"], "item": "Life Orb", "nature": "Naive", "evs": {"atk": 176, "spa": 80, "spe": 252}},
+      "Mixed Attacker": {"moves": ["Fleur Cannon", "Thunderous Kick", ["Knock Off", "Mach Punch"], "Zen Headbutt"], "item": "Life Orb", "nature": "Naive", "evs": {"atk": 176, "spa": 80, "spe": 252}},
       "Swords Dance": {"moves": ["Magical Torque", ["Combat Torque", "Knock Off"], ["Zen Headbutt", "Encore", "Destiny Bond"], "Swords Dance"], "item": "Booster Energy", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
       "Calm Mind": {"moves": ["Moonblast", "Secret Sword", ["Psyshock", "Encore", "Destiny Bond"], "Calm Mind"], "item": "Booster Energy", "nature": "Timid", "ivs": {"atk": 0}, "evs": {"def": 4, "spa": 252, "spe": 252}}
     },
@@ -3282,5 +3282,5 @@
   "Saharaja": {"cap": {"Standard Camel": {"moves": ["Earthquake", "Diamond Storm", ["Horn Leech", "Temper Flare", "Rapid Spin"], "Swords Dance"], "item": ["Leftovers", "Heavy-Duty Boots"], "nature": "Jolly", "evs": {"hp": 88, "atk": 252, "spe": 168}, "teratypes": ["Grass", "Fire", "Steel"]}}},
   "Hemogoblin": {"cap": {"Bulk Up": {"moves": ["Bulk Up", "Extreme Speed", "Flare Blitz", ["Taunt", "Spikes", "Tera Blast"]], "item": "Heavy-Duty Boots", "nature": "Adamant", "evs": {"hp": 40, "atk": 252, "spe": 216}, "teratypes": ["Fairy", "Poison", "Ground"]}}},
   "Cresceidon": {"cap": {"Fast Wall": {"moves": ["Scald", "Moonblast", "Recover", ["Thunder Wave", "Encore"]], "ability": ["Multiscale", "Rough Skin"], "item": ["Heavy-Duty Boots", "Rocky Helmet"], "nature": "Timid", "evs": {"hp": 252, "spa": 4, "spe": 252}, "teratypes": ["Poison", "Dragon"]}}},
-  "Chuggalong": {"cap": {"Clangorous Soul": {"moves": ["Clangorous Soul", ["Clanging Scales", "Stored Power"], ["Sludge Bomb", "Stored Power"], ["Surf", "Flamethrower"]], "item": "Throat Spray", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": ["Water", "Psychic", "Fire"]}}}
+  "Chuggalong": {"cap": {"Clangorous Soul": {"moves": ["Clangorous Soul", ["Clanging Scales", "Stored Power"], ["Sludge Bomb", "Stored Power"], "Surf"], "item": "Throat Spray", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": ["Water", "Psychic"]}}}
 }
