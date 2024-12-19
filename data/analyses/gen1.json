@@ -186,6 +186,7 @@
   },
   "Ekans": {"lc": {"sets": {"Physical Attacker": {}}}, "petitcup": {"sets": {"Glare": {}}}, "lclevel100": {"sets": {"Glare + Wrap": {}}}},
   "Arbok": {
+    "zu": {"sets": {"Offensive": {}}},
     "uu": {
       "overview": "<p>Arbok has an extremely small and specific niche in the metagame thanks to its unique access to Glare and Wrap. This lands it a role as a paralysis spreader, pivot, and wincon on some Wrap teams. It's also notable for its Poison typing, which blocks Toxic, a move that cripples most Wrap users. This allows it safe entry against Pokemon like Persian that often carry Toxic. Its typing also allows it to check Grass-types such as Tangela and Venusaur. In addition, Arbok has fantastic coverage in Earthquake and Rock Slide, the combination of which is unresisted in the tier.</p> <p>However, the positives end there. Arbok's typing, while providing it a niche, also leaves it cripplingly weak to Psychic and Earthquake, two very common moves in the metagame. This gives it poor matchups against some of the tier's most notable Pokemon, such as Kadabra and Dugtrio. These weaknesses, along with its poor bulk, mean Arbok is doomed to struggle defensively. Arbok is also weak and lacks a good STAB move, so it can struggle to threaten in ways outside of paralysis spreading and Wrap. Arbok also has to compete with Tentacruel, an omnipresent Pokemon with a better matchup spread and more offensive presence.</p>",
       "sets": {
@@ -656,8 +657,7 @@
     },
     "lc": {"sets": {"Mixed Attacker": {}}},
     "petitcup": {"sets": {"Substitute": {}}},
-    "lclevel100": {"sets": {"Revenge Killer": {}}},
-    "zu": {"sets": {"Special Attacker": {}}}
+    "lclevel100": {"sets": {"Revenge Killer": {}}}
   },
   "Kadabra": {
     "uu": {
@@ -1181,7 +1181,7 @@
       "credits": {"writtenBy": [{"user_id": 535530, "username": "Gangsta Spongebob"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
     },
     "nc1997": {"sets": {"Toxic + Bind": {}}},
-    "zu": {"sets": {"Bind Pivot": {}}}
+    "zu": {"sets": {"Wall": {}}}
   },
   "Drowzee": {
     "lc": {"sets": {"Status Spreader": {}}},
@@ -1195,8 +1195,9 @@
       },
       "credits": {"writtenBy": [{"user_id": 487308, "username": "BT89"}, {"user_id": 535530, "username": "Gangsta Spongebob"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 540559, "username": "gastlies"}, {"user_id": 583793, "username": "Sabelette"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
     },
-    "nu": {"sets": {"Standard": {}}},
-    "lclevel100": {"sets": {"Special Wall": {}}}
+    "lclevel100": {"sets": {"Special Wall": {}}},
+    "zu": {"sets": {"Support": {}}},
+    "nu": {"sets": {"Standard": {}}}
   },
   "Hypno": {
     "ubers": {
@@ -1655,6 +1656,7 @@
       },
       "credits": {"writtenBy": [{"user_id": 540559, "username": "gastlies"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 535530, "username": "Gangsta Spongebob"}, {"user_id": 530877, "username": "Volk"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
     },
+    "zu": {"sets": {"Swords Dance": {}}},
     "nu": {
       "outdated": true,
       "overview": "<p>Scyther has an array of applicable offensive tools in the NU metagame. Slash bypasses Pokemon relying on Reflect, such as Abra and some Clefable variants, while Swords Dance and Hyper Beam make it tough for Normal-neutral Pokemon to switch into. Scyther is also one of the fastest unboosted Pokemon in the metagame; it ties for the second-fastest Pokemon in the tier with Rapidash and has a superb critical hit ratio of 20.5%. Its already terrific Speed can be bolstered with Agility, meaning it cannot be pinned down by partial trappers and opposing Agility users like Dragonair and Moltres either. With adequate paralysis support and good prediction, Scyther can theoretically be used as a powerful late-game cleaner.</p> <p>However, Scyther has too many flaws to warrant a spot on most teams. Its low bulk and horrid defensive typing render many attackers able to 2HKO or even OHKO it. These include notable Pokemon such as Blastoise, Nidoking, Golem, and Kingler. Scyther's reliance on Speed means that even with Agility, it is severely debilitated by paralysis compared to other sweepers. It also has a barren movepool: besides the miserably weak Wing Attack, it only possesses Normal-type attacks, meaning Rock-types like Golem and Kabutops can easily switch in and make progress against it. Other fast sweepers, such as Mr. Mime and Electrode, can provide more offensive presence throughout matches, as they sport better coverage moves and provide utility with status moves like Thunder Wave. While Scyther can be used to lure its counters and grant switch-in opportunities for its teammates like Blastoise and Kingler, this tends to be prediction-reliant and inconsistent.</p>",
@@ -1740,7 +1742,8 @@
         }
       },
       "credits": {"writtenBy": [{"user_id": 540559, "username": "gastlies"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 535530, "username": "Gangsta Spongebob"}, {"user_id": 583793, "username": "Sabelette"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
-    }
+    },
+    "zu": {"sets": {"Offensive": {}}}
   },
   "Pinsir": {
     "uu": {
@@ -2041,7 +2044,8 @@
       "credits": {"writtenBy": [{"user_id": 535530, "username": "Gangsta Spongebob"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 593464, "username": "Teh"}, {"user_id": 583793, "username": "Sabelette"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}, {"user_id": 384270, "username": "autumn"}]}]}
     },
     "petitcup": {"sets": {"Reflect + Rest": {}}},
-    "lclevel100": {"sets": {"Reflect + Rest": {}}}
+    "lclevel100": {"sets": {"Reflect + Rest": {}}},
+    "zu": {"sets": {"Defensive": {}}}
   },
   "Omastar": {
     "uu": {
@@ -2319,6 +2323,7 @@
       "credits": {"writtenBy": [{"user_id": 583793, "username": "Sabelette"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 540559, "username": "gastlies"}, {"user_id": 535530, "username": "Gangsta Spongebob"}]}, {"name": "Grammar checked by", "members": [{"user_id": 384270, "username": "autumn"}]}]}
     },
     "pikacup": {"sets": {"Dragon Rage": {}, "AgiliWrap": {}}},
+    "zu": {"sets": {"Agility": {}}},
     "ou": {
       "overview": "<p>Dragonair has a small niche in the tier as it fits onto Wrap teams thanks to its unique typing and access to Thunder Wave and Wrap; it forces paralysis onto fast foes such as Starmie and Alakazam thanks to these traits—which allows it to chip down and force out slower paralysis absorbers such as Chansey—while shielding its stronger teammates such as Dragonite and Victreebel from paralysis. Dragonair's unique mono-Dragon typing gives it useful resistances to Water- and Electric-type attacks. However, Dragonair's base stats are atrocious; it barely threatens anything offensively and is 2HKOed or 3HKOed by most neutral hits. Its weakness to Ice-type attacks also exacerbates Wrap teams' weaknesses to Ice-type attacks even further. Dragonair is also extremely hard to fit on teams; even dedicated Wrap teams usually only include Dragonite and Victreebel, as these teams are more reliable than teams with three or four Wrap users, which are the teams Dragonair fits on.</p>",
       "sets": {
