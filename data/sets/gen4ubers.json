@@ -63,7 +63,13 @@
     "ChestoRest": {"moves": ["Calm Mind", "Rest", "Surf", ["Ice Beam", "Thunder"]], "item": "Chesto Berry", "nature": "Modest", "evs": {"hp": 240, "def": 232, "spe": 36}},
     "Baitogre": {"moves": ["Waterfall", "Surf", "Thunder Wave", ["Thunder", "Ice Beam"]], "item": ["Life Orb", "Sea Incense"], "nature": ["Hasty", "Mild"], "evs": {"atk": 4, "spa": 252, "spe": 252}}
   },
-  "Groudon": {"Support": {"moves": ["Stealth Rock", "Earthquake", "Dragon Claw", ["Lava Plume", "Thunder Wave"]], "item": "Leftovers", "nature": ["Sassy", "Careful"], "evs": {"hp": 252, "atk": 4, "spd": 252}}, "Bulky Setup": {"moves": [["Rock Polish", "Substitute"], ["Swords Dance", "Fire Punch"], "Earthquake", "Dragon Claw"], "item": "Leftovers", "nature": "Adamant", "evs": {"hp": 252, "atk": 16, "spd": 104, "spe": 136}}, "Offensive Rock Polish": {"moves": ["Rock Polish", "Earthquake", ["Fire Punch", "Stone Edge"], "Dragon Claw"], "item": "Life Orb", "nature": "Adamant", "evs": {"hp": 112, "atk": 252, "def": 8, "spe": 136}}, "Thunder Wave + Swords Dance": {"moves": ["Thunder Wave", "Swords Dance", "Earthquake", "Stone Edge"], "item": "Leftovers", "nature": "Adamant", "evs": {"hp": 200, "atk": 200, "def": 108}}, "Choice Band": {"moves": ["Earthquake", "Stone Edge", "Dragon Claw", "Fire Punch"], "item": "Choice Band", "nature": "Adamant", "evs": {"hp": 252, "atk": 224, "def": 32}}},
+  "Groudon": {
+    "Support": {"moves": ["Earthquake", "Dragon Claw", ["Thunder Wave", "Lava Plume"], "Stealth Rock"], "item": "Leftovers", "nature": ["Sassy", "Careful"], "evs": [{"hp": 252, "atk": 4, "spd": 252}, {"hp": 252, "spd": 144, "spe": 112}]},
+    "Bulky Setup": {"moves": [["Rock Polish", "Substitute"], ["Swords Dance", "Fire Punch"], "Earthquake", "Dragon Claw"], "item": "Leftovers", "nature": "Adamant", "evs": {"hp": 252, "atk": 16, "spd": 104, "spe": 136}},
+    "Offensive Rock Polish": {"moves": ["Rock Polish", "Earthquake", ["Fire Punch", "Stone Edge"], "Dragon Claw"], "item": "Life Orb", "nature": "Adamant", "evs": {"hp": 112, "atk": 252, "def": 8, "spe": 136}},
+    "Thunder Wave + Swords Dance": {"moves": ["Thunder Wave", "Swords Dance", "Earthquake", "Stone Edge"], "item": "Leftovers", "nature": "Adamant", "evs": {"hp": 200, "atk": 200, "def": 108}},
+    "Choice Band": {"moves": ["Earthquake", "Stone Edge", "Dragon Claw", "Fire Punch"], "item": "Choice Band", "nature": "Adamant", "evs": {"hp": 252, "atk": 224, "def": 32}}
+  },
   "Rayquaza": {
     "Dragon Dance": {"moves": ["Dragon Dance", "Outrage", ["Earthquake", "Stone Edge"], "Overheat"], "item": "Life Orb", "nature": ["Jolly", "Adamant"], "evs": {"hp": 32, "atk": 252, "spd": 8, "spe": 216}},
     "Choice Scarf": {"moves": ["Outrage", ["Draco Meteor", "Dragon Claw"], ["Earthquake", "Extreme Speed"], "Fire Blast"], "item": "Choice Scarf", "nature": "Naive", "evs": {"atk": 252, "spa": 4, "spe": 252}},

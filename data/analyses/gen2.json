@@ -543,14 +543,7 @@
       "sets": {"Spikes": {"description": "<p>Lay down those Spikes first--it's Qwilfish's biggest asset. Don't use Curse right away, as they'll send in an easy counter and you'll have wasted a turn. Predict what the counter will be and hit with the attack you think will do more damage. If that counter uses Rest or gets poisoned, then is your chance to set up Curse and perhaps take out a couple more of the opponent's Pokemon.</p>"}}
     }
   },
-  "Magcargo": {
-    "pu": {"sets": {"Curse": {}, "Restalk": {}}},
-    "ou": {
-      "overview": "<p>Simply put, Magcargo stinks. Its typing is HORRIBLE (4x weak to Ground and Water and 2x weak to Rock and Fighting). Its stats are also bad, as it can't really take physical hits despite the 338 Defense (it can tank some things like Muk, but don't expect it to do much). Its movepool does it no favors either. If Magcargo got Explosion it could be more useful.</p>",
-      "comments": "<h3>Other Options</h3> <p>\"Pathetic\" would be the best word to describe Magcargo's movepool. Amnesia might let you live though some special attacks, and Toxic will help to do damage, since Magcargo's attacking stats aren't good at all.</p> <h3>Checks and Counters</h3> <p>Magcargo has many common weaknesses to capitalize upon; it is also pathetically slow. Even after a few Curses, a good Earthquake will OHKO it, and Rock Slide and Fighting attacks will deal a significant amount also. Surf and Hydro Pump are essentially guaranteed to OHKO it, regardless of which Pokemon delivers them. Overall, Magcargo is one of the most easily countered Pokemon in the game, and every team has something that will murder it.</p>",
-      "sets": {"Curse": {"description": "<p>Magcargo needs Curse to even begin thinking about doing some kind of damage--Rock Slide is for STAB, Earthquake is there because it's a good physical attack, and Fire Blast is there so Skarmory doesn't totally laugh at you. However, it may need Rest so that it can actually live long enough to do something useful.</p>"}}
-    }
-  },
+  "Magcargo": {"pu": {"sets": {"Curse": {}, "Restalk": {}}}},
   "Corsola": {
     "pu": {"sets": {"Curse": {}}},
     "ou": {
@@ -1474,26 +1467,8 @@
     },
     "1v1": {"sets": {"Amnesia + Growth": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
-  "Aipom": {
-    "pu": {"sets": {"Agility Pass": {}}},
-    "ou": {
-      "overview": "<p>Aipom is strictly an annoyance Pokemon, so it automatically isn't very effective. Killing something with Counter once is fun, but it's too bad Aipom can't do this more than one time. It has bad stats and a movepool it can't do anything with.</p>",
-      "comments": "<h3>Other Options</h3> <p>Curse doesn't really help Aipom, but it doesn't have many options. Screech can help Aipom when attacking, but it shouldn't be attacking anyway. Spite works if you want to waste Blissey's Heal Bells.</p> <h3>Checks and Counters</h3> <p>Aipom is just begging for Rhydon, Steelix, or Donphan to come in and begin Cursing. Forretress can set up Spikes while taking minimal damage. Strong Fighting-types such as Machamp can OHKO Aipom without fear of Counter, and Skarmory can Whirlwind away Aipom's attempts to Baton Pass.</p>",
-      "sets": {"Baton Pass": {"description": "<p>This set is about as good as it gets. Don't let the low HP and Defense fool you. Aipom can Counter back strong attacks, such as Megahorn from Heracross, for an OHKO. That's your best bet at killing something. You can also Baton Pass Agility if you want.</p>"}}
-    }
-  },
-  "Sunflora": {
-    "pu": {"sets": {"Growth": {}}},
-    "ou": {
-      "overview": "<p>Sunflora is UU for a reason. Its low Speed makes it lose against pretty much any Pokemon with a Fire attack, and it doesn't have enough defenses or movepool (like, say, Meganium) to be of any kind of use.</p>",
-      "comments": "<h3>Other Options</h3> <p>You can use Synthesis on the Curse or Sunny Day sets. Other than that, there isn't really much else Sunflora can do.</p> <h3>Checks and Counters</h3> <p>Pokemon with Fire attacks, Flying Pokemon, Muk, Heracross, and a lot of other stuff beats Sunflora since it's too slow to make an effective impact. Anything with a super effective move against this or a resistance to Grass will pretty much have Sunflora begging for mercy in no time.</p>",
-      "sets": {
-        "Growth": {"description": "<p>Two words: good luck. This definitely isn't Snorlax, so I don't think you'll do much with Sunflora, but here we go: Growth boosts that already pretty high 308 Special Attack. Razor Leaf can be used instead of Giga Drain for the critical hit rate and PP, but if you want to heal it that badly, use Giga Drain. Pick your Hidden Power of choice and see if you can pull off something nice.</p> <p>Hidden Power Water is mostly for Fire-types. Hidden Power Fire covers enemy Grass, Bug, and Steel Pokemon. Hidden Power Ice hits those annoying Flying-types, especially Dragonite, in addition to covering Grass Pokemon.</p>"},
-        "Curse": {"description": "<p>Lack of STAB on this set hurts of course, though you can replace one of the physical moves for Razor Leaf so Rhydon doesn't completely wall Sunflora. This is purely a novelty set.</p>"},
-        "SunnyBeam": {"description": "<p>You'll get smoked by Fire Blast before even pulling off a Growth. Don't expect to win with this set.</p>"}
-      }
-    }
-  },
+  "Aipom": {"pu": {"sets": {"Agility Pass": {}}}},
+  "Sunflora": {"pu": {"sets": {"Growth": {}}}},
   "Yanma": {
     "ou": {
       "overview": "<p>Yanma is a horrible Pokemon, no question about it. A lot of weaknesses and no means to attack doesn't help it at all. This Bug needs Attack Baton Passed to it so it can do something else other than die. Unfortunately, most other Pokemon can perform better with Attack passed to them, so it's hard to justify using Yanma.</p>",
@@ -1556,15 +1531,7 @@
     },
     "1v1": {"sets": {"Growth": {}, "Toxic Stall": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
-  "Murkrow": {
-    "pu": {"sets": {"Pursuit Trapper": {}}},
-    "ou": {
-      "overview": "<p>It possesses nice attacking stats, but almost no defenses. It might have some use in the UU environment though.</p>",
-      "comments": "<h3>Other Options</h3> <p>Psych Up might be useful, which isn't saying much. Unless Murkrow is faster than the opponent, or said opponent is a poor player, you won't make good use of those stat ups. Mirror Move might be good for laughs though. Making Murkrow a phazer with Whirlwind is very risky--it usually won't live long enough to phaze very many opponents.</p> <h3>Checks and Counters</h3> <p>Murkrow is one of the frailest Pokemon around, so any solid attack will do decent damage. Corsola has good Defense and Special Defense coupled with Recover, and enough offensive power to hurt Murkrow. Omastar has weaker Special Defense and no Recover, but possesses more powerful attacks. Magneton resists anything Murkrow can use and is immune to Toxic, and it OHKOs with Thunderbolt. Magcargo is also resistant to Drill Peck. Basically, anything that isn't weak to Dark or Flying attacks takes on Murkrow well enough.</p>",
-      "sets": {"All-Out Attacker": {"description": "<p>Murkrow has decent Speed and attacking stats, and a unique typing. But it isn't used. Why? Because its defenses stink. It won't live long, so this is all you can do mostly. Use Drill Peck and Feint Attack off of those decent attacking stats for double STAB. The last two moves aren't really important. Pursuit lets you hit the few Pokemon Murkrow can scare off for double the damage. Night Shade works for dependable damage that might do something to Steel-types, while Toxic will help you do some more damage over the long-run to defensive Pokemon without Rest.</p>"}}
-    },
-    "1v1": {"sets": {"Mixed Attacker": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
-  },
+  "Murkrow": {"1v1": {"sets": {"Mixed Attacker": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}, "pu": {"sets": {"Pursuit Trapper": {}}}},
   "Slowking": {
     "uu": {
       "overview": "<p>Slowking is a very well-rounded Pokemon with a solid typing, strong STAB attacks, and access to Thunder Wave. The reason Slowking isn't at the very top of GSC UU in terms of viability is that it competes with Slowbro, which is almost identical to Slowking, except Slowbro has higher Defense, whereas Slowking has higher Special Defense. Unfortunately for Slowking, Defense tends to be more valuable, meaning it can be hard to justify using it. However, Slowking does offer some perks against special attackers and notably Nidoqueen, the most commonly seen Pokemon in the tier.</p>",
@@ -1777,15 +1744,7 @@
       "credits": {"writtenBy": [{"user_id": 583728, "username": "BeeOrSomething"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 461329, "username": "Estarossa"}, {"user_id": 400664, "username": "Stories"}]}, {"name": "Grammar checked by", "members": [{"user_id": 336073, "username": "Rabia"}]}]}
     }
   },
-  "Delibird": {
-    "pu": {"sets": {"Spikes": {}}},
-    "ou": {
-      "overview": "<p>Delibird is really cool. But it's also really bad. Horrid typing and awful defensive stats don't help, and its attacking capabilities aren't so hot either. All it has going for it is Spikes and Rapid Spin, and it can't use both at once, which is really bad. Use this guy as a UU Spiker and watch out for Rock moves, STAB or not.</p>",
-      "comments": "<h3>Other Options</h3> <p>Rapid Spin is cool, and Delibird is the only Rapid Spinner who also resists Spikes, but you can't use both Rapid Spin and Spikes, so if you have to choose between the two, you should probably go with Spikes instead. Quick Attack can be used with Curse for a poor man's Dragonite Curse + Extreme Speed set. If you feel like taking a super risk and having some fun, use Present in Gold and Silver only. Present is a glitchy move in those two games, and can possibly deal a ton of damage to certain Pokemon.</p> <h3>Checks and Counters</h3> <p>Kabutops, Omastar, Corsola, and Scizor all resist Ice Beam and can hit it with a STAB super effective move. Electric-types like Raikou and Jolteon usually have high enough Special Defense to take Ice Beam, resist Hidden Power Flying, and have STAB Thunderbolt to hit Delibird with, but Zapdos isn't so good of a choice because it's weak to Ice Beam. Basically, anything that resists its moves and can attack stop Delibird. Things with Rapid Spin prevent it from getting use out of those Spikes, particularly Forretress.</p>",
-      "sets": {"Spiker": {"description": "<p>This is probably the best Delibird moveset you can use. You'll want to start by laying down some Spikes, then spread Toxic around on the opposing team. Never underestimate the impact of stealing Leftovers off something like Blissey or Snorlax with Thief--especially when in conjunction with Spikes. A pretty good moveset for something like Delibird.</p>"}, "Curse": {"description": "<p>Curse up and use Hidden Power Flying to do some damage with STAB, and then Rest off damage when you need to. You can either use a RestTalking version for more survivability, or use STAB Ice Beam to actually do some damage to the Rock-types who resist your Flying moves and to Skarmory when it Whirlwinds you out. Not a bad set, but there are about a million Pokemon who can do it better. Only the STAB Ice Beam sets it apart from some other Pokemon who could do the same thing.</p>"}}
-    },
-    "nu": {"sets": {"Spikes": {}}}
-  },
+  "Delibird": {"pu": {"sets": {"Spikes": {}}}, "nu": {"sets": {"Spikes": {}}}},
   "Skarmory": {
     "ou": {
       "overview": "<p>Since the very beginning of the GSC metagame, Skarmory has proved to be a force to be reckoned with. With an amazing base 140 Defense stat, 9 resistances, 2 immunities, and no physical weaknesses, Skarmory is easily the best physical wall available in GSC. Throw in Skarmory's ability to phaze opponents with Whirlwind and boost its already ridiculous Defense with Curse, and you have an excellent check to top threats such as Snorlax, Marowak, Heracross, Exeggutor, Machamp, Umbreon, Quagsire, and Espeon. In addition, Skarmory's resistance to Normal-type attacks also makes it a good switch-in to most predicted Explosions.</p> <p>While Skarmory is an amazing physical wall, it lacks the ability to effectively deal with special attacks from most special and mixed attackers, the reason being its measly base 70 Special Defense and poor base 65 HP. Skarmory's movepool is also rather limited; beyond Toxic and Drill Peck, it has little in the way of offense, and is forced to rely upon Rest and Leftovers for healing off damage due to its lack of recovery options. While sleeping, Skarmory will no longer be able to check some threats, such as Belly Drum Snorlax, Marowak, Machamp, and trappers, although others, such as Curse Snorlax, non-Seismic Toss Heracross, and most Exeggutor, still won't be able to get past Skarmory. That said, Skarmory is still an incredible defensive Pokemon that should always be considered when team building, especially when creating a stall-based team. Ignore this bird of steel at your own risk!</p>",
