@@ -134,7 +134,7 @@ describe('Smogon', () => {
     expect(Smogon.format(gen(2), 'Snorlax')).toBe('gen2ou');
     expect(Smogon.format(gen(3), 'Dragonair')).toBe('gen3pu');
     expect(Smogon.format(gen(6), 'Vanilluxe')).toBe('gen6zu');
-    expect(Smogon.format(gen(1), 'Arbok')).toBe('gen1pu');
+    expect(Smogon.format(gen(1), 'Arbok')).toBe('gen1zu');
   });
 
   test('name', () => {
