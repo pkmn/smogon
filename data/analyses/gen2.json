@@ -1,6 +1,6 @@
 {
   "Unown": {"ou": {"overview": "<p>Unown is a horrible Pokemon. It's not fast, it's not strong, and it can't take a hit. Don't use this unless you really want to lose. Or unless you're playing some novelty team which disallows the rest of the Pokemon in the game or something.</p>", "comments": "<h3>Other Options</h3> <p>You can choose any other Hidden Power type.</p> <h3>Checks and Counters</h3> <p>Anything that doesn't die in one hit to Hidden Power or is fast enough. Since Unown has a really hard time OHKOing anything in the first place, you probably won't have a hard time beating it.</p>", "sets": {"The Power Within": {"description": "<p>Pretty simple set I would say. Hidden Power Psychic is chosen because of STAB. Twisted Spoon is there because it won't be able to take any hits so Leftovers is pointless, so you might as well boost Hidden Power a bit. Don't expect this to beat anything, though.</p>"}}}},
-  "Ivysaur": {"zu": {"sets": {"Swords Dance": {}}}},
+  "Ivysaur": {"zu": {"sets": {"Swords Dance": {}, "Utility": {}}}},
   "Venusaur": {
     "ou": {
       "overview": "<p>Venusaur has great overall stats, but is mostly inferior to Meganium due to its typing. Venusaur doesn't learn Sludge Bomb in GSC; if it did, it'd probably be a lot more popular. In addition, the move Razor Leaf also lost the incredible critical hit ratio that it had in RBY, making it less of a threat.</p>",
@@ -9,7 +9,7 @@
     },
     "1v1": {"sets": {"Leech Seed Stall": {}, "Swords Dance + Return": {}, "Growth + Giga Drain": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
-  "Charmeleon": {"pu": {"sets": {"Booster": {}}}},
+  "Charmeleon": {"pu": {"sets": {"Booster": {}}}, "zu": {"sets": {"RestTalk": {}, "Swords Dance": {}}}},
   "Charizard": {
     "ou": {
       "overview": "<p>Charizard is the fastest user of Belly Drum in the whole tier and also packs a respectable special punch. However, due to its poor defensive stats and typing, Charizard fills very few defensive niches and is rather dependent on support from its teammates. Compared to other Belly Drum users, it lacks the bulk and recovery options to work consistently and won't be able to overcome most bulky Water-types, but it outshines them with its Speed and the ability to beat walls like Skarmory and Steelix with its powerful Fire Blast. Generally, Charizard needs quite a lot to go right for it to succeed, but with the right support, this fan-favorite Fire-type starter can become a powerhouse that can end games much like its anime counterpart.</p>",
@@ -23,6 +23,7 @@
     },
     "1v1": {"sets": {"Mixed Attacker": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
+  "Wartortle": {"zu": {"sets": {"RestTalk": {}}}},
   "Blastoise": {
     "uu": {
       "overview": "<p>The poster child of Pokemon Blue has the stats and typing to make it the most reliable spinner in GSC UU. Blastoise's Speed tier, respectable Special Attack, and bulk mean that it is a viable answer to several of the tier's threats, most notably the omnipresent Nidoqueen. Access to Rapid Spin in a tier where such a trait is rare also boosts Blastoise's viability. It faces competition from Qwilfish and Omastar, two other viable bulky Water-types, but its access to Rapid Spin and its lack of a weakness to Ground differentiates it from its peers.</p>",
@@ -288,6 +289,7 @@
     },
     "1v1": {"sets": {"Swords Dance + Leech Seed": {}, "Hidden Power Grass + Leech Seed": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
+  "Quilava": {"zu": {"sets": {"RestTalk": {}}}},
   "Typhlosion": {
     "ou": {
       "overview": "<p>Typhlosion has a small edge over its main competitors Charizard and Moltres with its Electric neutrality and lesser weakness to Rock, which allows Typhlosion to directly take on Zapdos as well as avoid an OHKO from some Rock-type move users like Tyranitar. Typhlosion also has Dynamic Punch, which despite its abysmal accuracy, allows it to threaten Tyranitar and annoy Snorlax.</p> <p>Unfortunately, even when considering the above traits, Typhlosion is still generally outclassed by other Fire-types. As a Sunny Day sweeper, Typhlosion struggles to stand out from Moltres, Houndoom, and even Entei, which have better Special Attack, typing, or bulk, respectively, that allow them to take on a much larger range of threats; notably, unlike Typhlosion, Houndoom and Entei can use Solar Beam, an incredibly useful move under sun. Typhlosion also faces competition from Charizard, which has the same base stats, a Flying typing that gives it an immunity to Ground-type moves, and access to Belly Drum to bolster its offensive prowess even further. Additionally, Typhlosion's poor bulk and common weaknesses mean that it heavily relies on prediction and team support to work effectively. Even when predicting correctly and having the right support, Typhlosion relies on moves with unreliable accuracy such as Fire Blast and Dynamic Punch, so it is generally inconsistent.</p>",
@@ -555,6 +557,7 @@
   "Mantine": {
     "1v1": {"sets": {"Toxic Stall": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}},
     "pu": {"sets": {"3 Attacks": {}, "Curse": {}}},
+    "zu": {"sets": {"Offensive": {}}},
     "ou": {
       "overview": "<p>Mantine is a special sponge that got ruined in the HP department. It can't sponge too well, and its movepool doesn't help it much either. Its Flying typing is totally unnecessary and only hurts it. Strictly a UU Pokemon.</p>",
       "comments": "<h3>Other Options</h3> <p>Not much here. Ice Beam can be used because most Water-types learn it, and it lets you hit Venusaur. You can use Attract for an annoyer set, though it isn't recommended. Mantine sucks enough as it is. A RestTalk set is always viable in UU, though.</p> <h3>Checks and Counters</h3> <p>Pokemon with Thunder, Snorlax, RestTalk users, Water- and Grass-types, Blissey or any other Pokemon with high Special Defense or that resists Water attacks and can hit hard.</p>",
@@ -681,6 +684,7 @@
     }
   },
   "Parasect": {
+    "zu": {"sets": {"Double Powder": {}, "Special Sweeper": {}, "Swords Dance": {}}},
     "ou": {
       "overview": "<p>Argh. This thing is probably one of the 5 worst fully-evolved Pokemon in the game. Definitely bottom 10. Very cool, however, and with Spore and Stun Spore, it can cause a few status ailments for support.</p>",
       "comments": "<h3>Other Options</h3> <p>It has access to Reflect and Light Screen and can actually pass them on to the team just as well as most other Pokemon. Thief is actually a good choice with Parasect's sparse movepool. You might want to consider Stun Spore + Spore + Thief + Reflect / Light Screen as an all-out support Parasect.</p> <h3>Checks and Counters</h3> <p>Parasect has the unfortunate trait of being both extremely slow and weak to many types of attacks. Sleep is not nearly as valuable in GSC as it is in other generations, and the variety of Pokemon with RestTalk detracts from the only advantage Parasect has in Spore. Parasect is 4x weak to Flying and Fire attacks, so something like Arcanine or Fearow will easily OHKO. Also not helpful are Parasect's Rock and Ice weaknesses. Additionally, Parasect isn't a very strong attacker either, so basically anything that resists Hidden Power Bug beats it. Basically, any decent team can handle Parasect.</p>",
@@ -734,7 +738,6 @@
     },
     "1v1": {"sets": {"Scope Lens": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
-  "Growlithe": {"zu": {"sets": {"RestTalk": {}}}},
   "Arcanine": {
     "ou": {
       "overview": "<p>Arcanine is one of those Pokemon that had a lot of potential but sadly wasn't able to take full advantage of it. Despite its nice spread of stats, its lack of a real usable movepool and the disadvantages of being a pure Fire-type leave it in the shadow of UU. Arcanine is a hit and run sort of Pokemon, and unlike most Fire-types, it can actually afford to take a hit.</p>",
@@ -796,7 +799,7 @@
     },
     "1v1": {"sets": {"Mint Berry + Rest": {}, "Mixed Attacker": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
-  "Geodude": {"pu": {"sets": {"Spinner": {}}}},
+  "Geodude": {"pu": {"sets": {"Spinner": {}}}, "zu": {"sets": {"Defensive": {}}}},
   "Graveler": {
     "uu": {"sets": {"SpinSplode": {}}},
     "nu": {
@@ -820,7 +823,7 @@
       "credits": {"writtenBy": [{"user_id": 583728, "username": "BeeOrSomething"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 508601, "username": "DAWNBUSTER"}]}, {"name": "Grammar checked by", "members": [{"user_id": 555379, "username": "Tbolt"}]}]}
     }
   },
-  "Slowpoke": {"pu": {"sets": {"Resttalk": {}}}},
+  "Slowpoke": {"pu": {"sets": {"Resttalk": {}}}, "zu": {"sets": {"RestTalk": {}}}},
   "Slowbro": {
     "uu": {
       "overview": "<p>Slowbro is one of the most powerful Pokemon in GSC UU. Its bulk and typing allow it to switch in and sponge attacks, while its base 100 Special Attack means that it can fire off powerful hits too. Access to Thunder Wave limits what even Pokemon with super effective moves can safely do against it. These factors mean that Slowbro can both offensively and defensively check many of the Pokemon in GSC UU. It can stick around for a long time with Rest and Sleep Talk, which allow its presence to be felt for most of the games that it is used in while also being able to absorb status-inducing moves for its teammates. When constructing teams and while playing games, one must always consider how to threaten an opposing Slowbro.</p>",
@@ -855,7 +858,6 @@
     }
   },
   "Doduo": {"zu": {"sets": {"Attacker": {}, "Flail": {}, "RestTalk": {}}}},
-  "Seel": {"zu": {"sets": {"Curse RestTalk": {}}}},
   "Dewgong": {
     "uu": {"sets": {"Rest Talk": {}}},
     "nu": {
@@ -961,7 +963,7 @@
       "credits": {"writtenBy": [{"user_id": 583728, "username": "BeeOrSomething"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 508601, "username": "DAWNBUSTER"}, {"user_id": 375193, "username": "MrSoup"}]}, {"name": "Grammar checked by", "members": [{"user_id": 555379, "username": "Tbolt"}, {"user_id": 528364, "username": "adorluigi"}]}]}
     }
   },
-  "Voltorb": {"pu": {"sets": {"Lead": {}}}},
+  "Voltorb": {"pu": {"sets": {"Lead": {}}}, "zu": {"sets": {"Offensive": {}}}},
   "Exeggcute": {"nu": {"sets": {"Boom Utility": {}}}},
   "Cubone": {
     "pu": {"sets": {"Restalk": {}, "Swords Dance": {}}},
@@ -1027,6 +1029,7 @@
     "1v1": {"sets": {"Anti-Blissey Reversal": {}, "Toxic Stall": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
   "Seadra": {"pu": {"sets": {"3 Attacks": {}, "RestTalk": {}}}},
+  "Goldeen": {"zu": {"sets": {"Swords Dance": {}}}},
   "Seaking": {
     "pu": {"sets": {"Swords Dance": {}}},
     "ou": {
@@ -1230,6 +1233,7 @@
       "credits": {"writtenBy": [{"user_id": 583728, "username": "BeeOrSomething"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 375193, "username": "MrSoup"}, {"user_id": 486979, "username": "juoean"}]}, {"name": "Grammar checked by", "members": [{"user_id": 511181, "username": "Rose"}, {"user_id": 517429, "username": "Adeleine"}]}]}
     }
   },
+  "Omanyte": {"zu": {"sets": {"Thief": {}}}},
   "Omastar": {
     "uu": {
       "overview": "<p>Omastar sports an unfortunate weakness to Ground in a metagame with numerous strong Ground-types and lacks the key resistance to Water that other bulky Water-types have. However, what sets it apart is its resistance to Normal and Flying. Granbull is an incredibly powerful threat in GSC UU, and Omastar is the best counter to it by far. Omastar's STAB Surf, solid coverage, and high Special Attack allow it to put a solid dent in almost any foe, an advantage it has over competing Normal-resistant Pokemon such as Magneton, which struggles to hit Ground- and Electric-types hard. However, outside of countering Granbull and Dodrio and checking Scyther without Hidden Power Ground, Omastar's favorable matchups are few and far between, so it can sometimes feel like dead weight if the opponent chooses not to bring them.</p>",
@@ -1385,7 +1389,6 @@
       "sets": {"Curse": {"description": "<p>Start setting up and Rest when you get low on health. Though it's unlikely Furret will survive through the setup, if it does, you can start sweeping with Double-Edge and/or Shadow Ball.</p>"}}
     }
   },
-  "Ledyba": {"zu": {"sets": {"Baton Pass": {}}}},
   "Ledian": {"ou": {"overview": "<p>One of the worst fully evolved Pokemon in the game. He cannot do a single thing at all. Seriously, the only stat he has is Special Defense, and that's negated by horrible HP. Don't say I didn't warn you.</p>", "comments": "<h3>Other Options</h3> <p>Barrier could be Baton Passed too.</p> <h3>Checks and Counters</h3> <p>Basically anything that can attack.</p>", "sets": {"Baton Pass": {"description": "<p>If they don't have a phazer, Baton Pass Agility to a sweeper. If they do, Reflect or Light Screen to help out your team.</p>"}}}, "nu": {"sets": {"Baton Pass": {}}}},
   "Crobat": {
     "uu": {
@@ -1467,7 +1470,7 @@
     },
     "1v1": {"sets": {"Amnesia + Growth": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
-  "Aipom": {"pu": {"sets": {"Agility Pass": {}}}},
+  "Aipom": {"pu": {"sets": {"Agility Pass": {}}}, "zu": {"sets": {"Curse": {}}}},
   "Sunflora": {"pu": {"sets": {"Growth": {}}}},
   "Yanma": {
     "ou": {
