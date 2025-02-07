@@ -45,7 +45,14 @@
     },
     "credits": {"writtenBy": [{"user_id": 493772, "username": "Lumii"}, {"user_id": 568493, "username": "ZackPalace"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 563325, "username": "delemon"}, {"user_id": 520168, "username": "Murm"}, {"user_id": 493772, "username": "Lumii"}, {"user_id": 546922, "username": "bo_bobson27"}, {"user_id": 579035, "username": "glitched"}]}, {"name": "Quality checked by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 579035, "username": "glitched"}, {"user_id": 563650, "username": "bern"}, {"user_id": 500233, "username": "RTM"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
   },
-  "Registeel": {"sets": {"Specially Defensive": {}, "Defensive": {}}},
+  "Registeel": {
+    "sets": {
+      "Stall": {
+        "description": "<ul> <li>Registeel is one of the bulkiest Pokemon in the entire metagame. With its pure Steel typing, sky-high defenses, and access to Amnesia, Iron Defense, and Rest, it's easily able to stall a huge chunk of the metagame, including Regidrago, Alolan Ninetales, Primarina, Iron Crown, and non-Trick Metagross.</li> <li>Body Press with Iron Defense is Registeel's best attacking move, allowing it to break through Pokemon such as Calm Mind Cresselia and Iron Defense Iron Crown.</li> <li>Leftovers is used for general healing against the majority of the metagame, especially helping against Encore Primarina and Encore + Disable Iron Valiant.</li> <li>Air Balloon helps tremendously against Ground-type Pokemon such as both Ursaluna formes and Garchomp.</li> <li>It's important to note that Registeel is crippled by its weakness to Fire- and Fighting-type attacks from the likes of Volcarona and both Urshifu formes, so Pokemon like Primarina and Volcanion make for good partners.</li> <li>Registeel is also weak to a lot of common status moves such as Taunt from Raging Bolt and Corviknight, Encore from Ogerpon-W, and Curse from Pecharunt. Finding a Pokemon that can deal with these, such as Raging Bolt, Passho Berry Volcarona, or Choice Scarf Hisuian Arcanine, is crucial for Registeel to fit on a team.</li> </ul>"
+      }
+    },
+    "credits": {"writtenBy": [{"user_id": 563650, "username": "bern"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 583189, "username": "LongRat"}, {"user_id": 375405, "username": "crow crumbs"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
+  },
   "Garchomp": {
     "sets": {
       "Choice Band": {
@@ -202,7 +209,14 @@
     },
     "credits": {"writtenBy": [{"user_id": 632691, "username": "happysh"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 546922, "username": "bo_bobson27"}]}, {"name": "Quality checked by", "members": [{"user_id": 579035, "username": "glitched"}, {"user_id": 520168, "username": "Murm"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
   },
-  "Dragapult": {"sets": {"Choice Band": {}, "Choice Specs": {}}},
+  "Dragapult": {
+    "sets": {
+      "Choice Band": {
+        "description": "<ul> <li>Outrage is for non-Choice Scarf and non-Haban Berry Dragon-type Pokemon and can be used to deal massive STAB damage against Pokemon such as Volcarona, Porygon-Z, and Zapdos.</li> <li>Dragon Darts is specifically used to break Substitute from Pokemon like Espathra.</li> <li>Phantom Force covers Ghost-type Pokemon like Spectrier, Pecharunt, Annihilape, and non-physically defensive Skeledirge.</li> <li>U-turn deals with physically defensive Hoopa-U.</li> <li>Dragapult's ability Clear Body allows it to ignore stat changes from Landorus-T and Pecharunt.</li> <li>Dragapult's Ghost typing allows it to safely attack without having to worry about getting hit by Counter from Defensive Ogerpon-W.</li> <li>While Adamant nature allows Dragapult to deals maximum damage and allows it to have better odds against other Pokemon such as Metagross and Skeledirge, Jolly nature allows it to outspeed Spectrier, Darkrai, and Chien-Pao.</li> <li>Dragapult struggles against Dark-, Dragon-, or Fairy-type Pokemon such as Urshifu-S, Primarina, and Speed Booster Energy Roaring Moon. Pokemon like Sylveon and Iron Valiant, which cover for Dragapult's Dark and Dragon weaknesses, and Scizor and Corviknight, which cover for Dragapult's Fairy and Dark weaknesses are good teammates.</li> </ul>"
+      }
+    },
+    "credits": {"writtenBy": [{"user_id": 568493, "username": "ZackPalace"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 583189, "username": "LongRat"}, {"user_id": 563650, "username": "bern"}]}, {"name": "Grammar checked by", "members": [{"user_id": 637479, "username": "red fintans"}]}]}
+  },
   "Urshifu": {
     "sets": {
       "Custap Berry": {
@@ -292,7 +306,14 @@
   "Tinkaton": {"sets": {"The Tink": {}}},
   "Annihilape": {"sets": {"Bulky Choice Band": {}, "Fast Choice Band": {}, "Fast Bulk Up": {}, "Defensive Bulk Up": {}, "Weakness Policy": {}}},
   "Great Tusk": {"sets": {"Choice Band": {}, "Bulky Choice Band": {}, "Booster Energy (Attack)": {}, "Choice Scarf": {}, "Booster Energy (Speed)": {}, "Custap Berry": {}, "Assault Vest": {}}},
-  "Iron Hands": {"sets": {"Booster Energy (Attack)": {}, "Anti-Gouging Fire": {}}},
+  "Iron Hands": {
+    "sets": {
+      "Booster Energy (Attack)": {
+        "description": "<ul> <li>Booster Energy lets Iron Hands hit as hard as possible without getting locked into one move by Choice Band.</li> <li>The given EV spread allows Iron Hands to live Choice Band Meowscarada's Play Rough and unboosted Modest Porygon-Z's Hyper Beam.</li> <li>Supercell Slam and Close Combat do heavy damage to obvious targets such as Galarian Moltres and Volcanion as well as neutrally affected Pokemon such as Haxorus, Ogerpon-W and Assault Vest Hoopa-U.</li> <li>Heavy Slam is vital coverage against Encore + Disable users like Iron Valiant and Alolan Ninetales. It also hits Protean Meowscarada using Play Rough and niche Fairy-types such as Diancie and Whimsicott.</li> <li>Fake Out gives Iron Hands strong odds to KO non-bulky variants of Regidrago and Walking Wake.</li> <li>Swords Dance is useful against Chople Berry Counter Hisuian Goodra and stall Pokemon like Corviknight and Manaphy.</li> <li>Iron Hands has clear issues against Ground-types and also loses to setup Pokemon that can comfortably take its attacks such as Cresselia, Iron Crown, and defensive variants of Volcarona. Its Primarina matchup is also uneasy without Assault Vest. Therefore, Ogerpon-W makes for an exceptional partner thanks to its strong STAB moves and access to Encore.</li> </ul>"
+      }
+    },
+    "credits": {"writtenBy": [{"user_id": 375405, "username": "crow crumbs"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 579035, "username": "glitched"}]}, {"name": "Quality checked by", "members": [{"user_id": 149971, "username": "Nuxl"}, {"user_id": 670315, "username": "Mentality"}]}, {"name": "Grammar checked by", "members": [{"user_id": 649096, "username": "a blue banana"}]}]}
+  },
   "Iron Moth": {"sets": {"Power Herb": {}}},
   "Baxcalibur": {"sets": {"Fast Choice Band": {}, "Bulky Choice Band": {}, "Chople Berry": {}}},
   "Chien-Pao": {"sets": {"Choice Band": {}}},
