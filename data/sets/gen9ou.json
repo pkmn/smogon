@@ -82,7 +82,7 @@
   "Hatterene": {
     "Calm Mind": {"moves": ["Calm Mind", "Draining Kiss", ["Psyshock", "Stored Power"], ["Mystical Fire", "Nuzzle"]], "ability": "Magic Bounce", "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "def": 204, "spe": 52}, "teratypes": ["Water", "Fire"]},
     "Healing Wish": {"moves": ["Healing Wish", "Psychic", "Dazzling Gleam", ["Nuzzle", "Mystical Fire"]], "ability": "Magic Bounce", "item": "Eject Button", "nature": "Bold", "evs": {"hp": 252, "def": 124, "spe": 132}, "teratypes": "Steel"},
-    "Assault Vest": {"moves": ["Psyshock", "Draining Kiss", "Mystical Fire", ["Nuzzle", "Future Sight"]], "ability": "Magic Bounce", "item": "Assault Vest", "nature": "Modest", "evs": {"hp": 252, "spa": 140, "spd": 104, "spe": 12}, "teratypes": ["Water", "Steel"]},
+    "Assault Vest": {"moves": ["Psyshock", "Draining Kiss", "Mystical Fire", ["Nuzzle", "Future Sight", "Psychic Noise"]], "ability": "Magic Bounce", "item": "Assault Vest", "nature": "Modest", "ivs": {"atk": 0}, "evs": {"hp": 252, "spa": 128, "spd": 104, "spe": 24}, "teratypes": ["Water", "Steel"]},
     "Trick Room": {"moves": ["Trick Room", "Psychic Noise", "Dazzling Gleam", "Healing Wish"], "ability": "Magic Bounce", "item": "Focus Sash", "nature": "Quiet", "ivs": {"atk": 0, "spe": 0}, "evs": {"hp": 252, "def": 4, "spa": 252}, "teratypes": ["Water", "Steel"]}
   },
   "Grimmsnarl": {"Dual Screens": {"moves": ["Reflect", "Light Screen", "Spirit Break", ["Parting Shot", "Taunt"]], "item": "Light Clay", "nature": ["Careful", "Impish"], "evs": [{"hp": 252, "def": 4, "spd": 252}, {"hp": 252, "def": 252, "spd": 4}], "teratypes": "Steel"}},
