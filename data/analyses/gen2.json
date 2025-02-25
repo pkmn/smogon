@@ -420,7 +420,7 @@
     }
   },
   "Hitmontop": {
-    "pu": {"sets": {"Restalk": {}}},
+    "pu": {"sets": {"Restalk": {}, "Curse": {}}},
     "ou": {
       "overview": "<p>Hitmontop has higher Defense when compared to Hitmonlee and Hitmonchan--pity it doesn't learn any useful moves. It's strictly a UU Fighting-type, since Primeape, and even Poliwrath, are better.</p>",
       "comments": "<h3>Other Options</h3> <p>Hitmontop can use Rapid Spin if you really need it that badly. But other than that, there's no good or useful alternative option for it.</p> <h3>Checks and Counters</h3> <p>Poison and Flying Pokemon resist High Jump Kick and aren't overly damaged by Hidden Power Ghost, so they can gradually wear Hitmontop down. Psychic-types kill Hitmontop much faster, but generally are hit decently hard in return by Hidden Power Ghost. Pokemon with a reasonable degree of physical durability will trump Hitmontop, as its attacks aren't particularly powerful. Very strong physical attackers will also work.</p>",
@@ -697,7 +697,7 @@
       }
     }
   },
-  "Venomoth": {"pu": {"sets": {"Offensive": {}, "Double Status": {}, "Curse Pass": {}}}},
+  "Venomoth": {"pu": {"sets": {"Status Moth": {}, "Offensive": {}, "Rest Talk": {}, "Curse Pass": {}}}},
   "Diglett": {"zu": {"sets": {"Substitute Attacker": {}, "Thief Lead": {}}}},
   "Meowth": {"zu": {"sets": {"Lead": {}}}},
   "Persian": {
@@ -747,7 +747,7 @@
     "1v1": {"sets": {"Curse": {}, "Mint Berry": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
   "Poliwhirl": {"uu": {"sets": {"Belly Drum Sweeper": {}}}, "pu": {"sets": {"Belly Drum": {}}}},
-  "Abra": {"pu": {"sets": {"Substitute": {}}}},
+  "Abra": {"pu": {"sets": {"Substitute": {}, "Rest Talk": {}}}},
   "Kadabra": {
     "uu": {
       "overview": "<p>Sporting high Speed, good coverage, and exceptional Special Attack, Kadabra is a fierce offensive threat in GSC UU and a tough Pokemon to switch into for most offensive teams. Kadabra is best played aggressively, brought in on double switches or a predicted Rest or Psychic from a foe such as Slowbro. It also threatens many common Pokemon such as Nidoqueen, Haunter, and Qwilfish with its strong Psychic and can keep itself healthy throughout a game with Recover. Its Speed is also excellent, outpacing naturally fast Pokemon such as Haunter, Dodrio, and Mr. Mime while only being outsped by Jumpluff and Electrode and Speed tying with Scyther. Access to useful moves such as Encore and Thunder Wave also lets it support its team well. However, Kadabra's defensive stats are pitiful, leaving it 2HKOed by a lot of Pokemon in the tier, and it loses much of its effectiveness when paralyzed. Furthermore, it faces competition from other Psychic-types such as Mr Mime and Hypno, which generally bring more utility to teams and are more consistent due to their wider movepools and greater bulk.</p>",
@@ -997,7 +997,7 @@
     },
     "nu": {"sets": {"Curse": {}}}
   },
-  "Rhyhorn": {"pu": {"sets": {"Curse": {}}}},
+  "Rhyhorn": {"pu": {"sets": {"Curse": {}, "TSR": {}}}},
   "Rhydon": {
     "ou": {
       "overview": "<p>Rhydon is a physical juggernaut capable of dismantling an opposing team's defenses with its powerful STAB attacks. Not only is it powerful, but it also fills the valuable defensive niches of Normal-resistant phazer and Electric-immune Pokemon capable of threatening both Zapdos and Raikou. However, its physical Ground- and Fighting-type weaknesses and many special weaknesses can hold it back. Moreover, it faces competition with other Normal-resistant Pokemon, namely Golem, Steelix, and Tyranitar, each of which fulfills the same primary defensive role—checking Snorlax—while offering defensive and team support capabilities that Rhydon lacks: Golem has access to Rapid Spin and Explosion; Steelix lacks double weaknesses, lacks an Ice-type weakness, is immune to Toxic, and also has access to Explosion; and Tyranitar can check Exeggutor, lacks an Ice-type weakness, and offers Pursuit support. Nonetheless, as a recipient rather than a provider of team support, Rhydon uniquely blends potent wallbreaking ability with defensive role-playing capabilities.</p>",
@@ -1028,10 +1028,10 @@
     },
     "1v1": {"sets": {"Anti-Blissey Reversal": {}, "Toxic Stall": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
-  "Seadra": {"pu": {"sets": {"3 Attacks": {}, "RestTalk": {}}}},
+  "Seadra": {"pu": {"sets": {"RestTalk": {}, "3 Attacks": {}}}},
   "Goldeen": {"zu": {"sets": {"Swords Dance": {}}}},
   "Seaking": {
-    "pu": {"sets": {"Swords Dance": {}}},
+    "pu": {"sets": {"Swords Dance": {}, "Curse": {}}},
     "ou": {
       "overview": "<p>Seaking isn't that good of a Pokemon, but usable if you are looking for a challenge. A Water-type Swords Dance user such as this is fairly unique, and its sizable HP can bring a lot to the table. It's unfair, really. Water is the deepest type in GSC and there are so many of the type clearly ahead of Seaking, it probably gets overlooked a lot.</p>",
       "comments": "<h3>Other Options</h3> <p>Icy Wind is always useful on slow Pokemon with the ability to make normally fast Pokemon humorously slow. Endure + Flail deserves a mention even if Seaking is probably too slow to pull it off effectively.</p> <h3>Checks and Counters</h3> <p>Faster Electric-types will easily beat Seaking, as its defenses are acceptable but nothing extraordinary. Examples of such Pokemon are Electabuzz and Jolteon, who also usually have good Special Defense with which to take Surf. Watch out for Hidden Power Ground, though. Grass-types that aren't too afraid of Ice Beam are also excellent choices, and include Meganium, Venusaur, and others.</p>",
@@ -1696,7 +1696,7 @@
     "1v1": {"sets": {"Toxic": {}, "Curse": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
   "Sneasel": {
-    "pu": {"sets": {"Mixed": {}}},
+    "pu": {"sets": {"Mixed Screech": {}}},
     "nu": {
       "sets": {
         "Defensive": {
@@ -1864,7 +1864,7 @@
     "1v1": {"sets": {"Counter + Mirror Coat": {}}, "credits": {"writtenBy": [], "teams": [{"name": "Set(s) by", "members": [{"user_id": 520168, "username": "Murm"}, {"user_id": 298753, "username": "Elo Bandit"}]}]}}
   },
   "Smoochum": {"zu": {"sets": {"Special Attacker": {}}}},
-  "Elekid": {"pu": {"sets": {"All-Out-Attacker": {}, "RestTalk": {}}}},
+  "Elekid": {"pu": {"sets": {"RestTalk": {}, "All-Out-Attacker": {}}}},
   "Magby": {"zu": {"sets": {"Thief": {}, "Rest": {}, "Barrier": {}}}},
   "Miltank": {
     "ou": {
