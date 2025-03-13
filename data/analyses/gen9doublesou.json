@@ -1,5 +1,6 @@
 {
   "Ninetales-Alola": {"sets": {"Aurora Veil": {"description": "<ul> <li>40 SpA EVs allow Ninetales to OHKO Deoxys-A with Blizzard or 2HKO with Icy Wind, especially useful after the speed drop.</li> </ul>"}}},
+  "Moltres-Galar": {"sets": {"Nasty Plot": {"description": "<p>The speed investment allows Moltres-G to outspeed Max Speed Booster Energy Gouging Fire and Choice Scarf Landorus-T in Tailwind.</p>"}}},
   "Dragonite": {
     "outdated": true,
     "overview": "<p>Thanks to the sheer power of Tera Normal Extreme Speed, Dragonite is one of DOU’s biggest threats, threatening to KO a large portion of the metagame. Dragonite also has excellent coverage, allowing it to hit any Pokémon that aren't afraid of Extreme Speed, such as Gholdengo and Iron Treads. Dragonite’s Dragon/Flying allows it to take attacks such as Chi-Yu's Heat Wave and Palafin's Jet Punch while also granting it immunity to Earthquakes from Garchomp and Great Tusk. Tera Normal also allows it to survive threatening Dragon- and Ice-type attacks. Inner Focus lets Dragonite avoid Attack drops from Intimidate and flinches from Fake Out. Dragonite is most commonly paired with Chien-Pao, as Sword of Ruin lowers the Defense of foes, allowing Extreme Speed to deal more damage. This pairing is preferred by offensive teams but can fit on other archetypes appreciate Dragonite's power and priority. Due to Dragonite's heavy dependence on Extreme Speed, Pokemon that can block priority moves such as Farigiraf, Tsareena, and Indeedee-F limit its effectiveness. Dragonite also struggles against Pokémon with high physical bulk that can take an Extreme Speed and threaten it in return such as Great Tusk, Iron Hands, Amoonguss, and Garganacl. Additionally, Dragonite is greatly hindered by Stealth Rock, which nullifies Multiscale and limits its longevity.</p>",
@@ -12,6 +13,7 @@
     "credits": {"writtenBy": [{"user_id": 554572, "username": "Lemurro"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 230771, "username": "qsns"}, {"user_id": 586432, "username": "big pichu"}]}, {"name": "Grammar checked by", "members": [{"user_id": 297659, "username": "deetah"}]}]}
   },
   "Porygon2": {"sets": {"Trick Room": {"description": "<ul> <li>This EV Spread survives two Deoxys-A Expanding Forces in Psychic Terrain, as well as two Iron Hands Drain Punches.</li> </ul>"}}},
+  "Entei": {"sets": {"Choice Band": {}}},
   "Tyranitar": {"outdated": true, "sets": {"Bulky Attacker": {}}},
   "Pelipper": {"sets": {"Rain Setter": {"description": "<ul> <li>This EV Spread survives Choice Specs Flutter Mane Moonblast and outspeeds Iron Bundle in Tailwind.</li> </ul>"}}},
   "Torkoal": {"outdated": true, "sets": {"TR Attacker": {}}},
@@ -63,16 +65,15 @@
     },
     "credits": {"writtenBy": [{"user_id": 552611, "username": "NinjaSnapple"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 192134, "username": "ryo yamada2001"}, {"user_id": 550367, "username": "Smudge"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}]}]}
   },
-  "Volcanion": {"outdated": true, "sets": {"Assault Vest": {"description": "<p>A Quiet Nature instead of a Modest Nature allows Volcanion to OHKO Flutter Mane without bulk investment with Heavy Slam.</p>"}, "Substitute": {}}},
+  "Volcanion": {"sets": {"Assault Vest": {}, "Leftovers": {}}},
   "Incineroar": {
     "sets": {
       "Defensive Pivot": {
-        "description": "<ul> <li>Incineroar's combination of Intimidate, Fake Out, and Parting Shot is one of the strongest utility toolkits in the tier, facilitating both defensive and offensive play by maintaining good positioning and increasing the longevity of its teammates. While it is a top-tier supportive piece, Incineroar lacks strong damage output against neutral targets and relies on the teammates it supports to win the game.</li> <li>Fake Out generates free turns for teammates, providing opportunities for a teammate like Kingambit to set up with Swords Dance. Alternatively, it can allow a teammate to safely switch in, take a KO, or use a supportive move like Tailwind or Trick Room.</li> <li>Flare Blitz and Knock Off are strong, consistent damaging options. Flare Blitz offers more immediate damage that can OHKO Chien-Pao and threatens common Pokemon like Gholdengo and Rillaboom. On the other hand, Knock Off adds to Incineroar's utility, removing items like Clear Amulet, Porygon2's Eviolite, and Choice items. With Incineroar's low Speed stat, Parting Shot will often go last, so teammates can enter the field without the risk of being hit.</li> <li>The given EV spread allows Incineroar to survive Volcanion's Steam Eruption and Ogerpon-W's Tera Water Ivy Cudgel after Intimidate. However, Incineroar's EV spreads are extremely flexible depending on the needs of a team, whether it be offensive investment, more defensive EVs, or a higher Speed tier.</li> <li>Tera Ghost stops opposing Fake Out and grants an immunity to Fighting-type moves such as Archaludon's Body Press and Iron Hands's Close Combat. Tera Grass flips matchups against threatening  foes such as Ogerpon-W and Landorus and grants a Spore immunity.</li> <li>Incineroar fits easily on any team, but it is quite commonly paired with Rillaboom to have constant Fake Out and repositioning options or Ogerpon-W, which provides redirection support and further adds to the team's defensive capabilities while maintaining a strong offensive presence on its own. Strong attackers such as Landorus,Chien-Pao, and slower, setup-based teammates like Swords Dance Kingambit greatly appreciate Incineroar's utility.</li> </ul>"
+        "description": "<ul> <li>Incineroar's combination of Intimidate, Fake Out, and Parting Shot is one of the strongest utility toolkits in the tier, facilitating both defensive and offensive play by maintaining good positioning and increasing the longevity of its teammates. While it is a top-tier supportive piece, Incineroar lacks strong damage output against neutral targets and relies on the teammates it supports to win the game.</li> <li>Fake Out generates free turns for teammates, providing opportunities for a teammate like Kingambit to set up with Swords Dance. Alternatively, it can allow a teammate to safely switch in, take a KO, or use a supportive move like Tailwind or Trick Room.</li> <li>Flare Blitz and Knock Off are strong, consistent damaging options. Flare Blitz offers more immediate damage that can OHKO Chien-Pao and threatens common Pokemon like Gholdengo and Rillaboom. On the other hand, Knock Off adds to Incineroar's utility, removing items like Clear Amulet, Porygon2's Eviolite, and Choice items. With Incineroar's low Speed stat, Parting Shot will often go last, so teammates can enter the field without the risk of being hit.</li> <li>The given EV spread allows Incineroar to survive Volcanion's Steam Eruption and Ogerpon-W's Tera Water Ivy Cudgel after Intimidate. However, Incineroar's EV spreads are extremely flexible depending on the needs of a team, whether it be offensive investment, more defensive EVs, or a higher Speed tier.</li> <li>Tera Ghost stops opposing Fake Out and grants an immunity to Fighting-type moves such as Iron Hands's Drain Punch. Tera Grass flips matchups against threatening  foes such as Ogerpon-W and Landorus and grants a Spore immunity.</li> <li>Incineroar fits easily on any team, but it is quite commonly paired with Rillaboom to have constant Fake Out and repositioning options or Ogerpon-W, which provides redirection support and further adds to the team's defensive capabilities while maintaining a strong offensive presence on its own. Strong attackers such as Landorus,Chien-Pao, and slower, setup-based teammates like Swords Dance Kingambit greatly appreciate Incineroar's utility.</li> </ul>"
       }
     },
     "credits": {"writtenBy": [{"user_id": 550367, "username": "Smudge"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 608134, "username": "bagel"}, {"user_id": 228280, "username": "DaAwesomeDude1"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
   },
-  "Tsareena": {"outdated": true, "sets": {"Assault Vest": {"description": "<ul> <li>The given EV spread and nature allow Tsareena to outspeed Iron Bundle under Tailwind, retain enough Attack to OHKO 252 HP Palafin-Hero with Power Whip, then invests the remaining EVs in HP.</li> </ul> <p>This is a sample set as we work on proper analyses. Stay tuned!</p>"}}},
   "Kommo-o": {"sets": {"Iron Defense": {}, "Clangorous Soul": {"description": "<ul> <li>This EV Spread survives a Chien-Pao Ice Spinner and outspeeds Dragapult after Clangorous Soul.</li> </ul>"}}},
   "Rillaboom": {
     "sets": {
@@ -85,8 +86,10 @@
   "Grimmsnarl": {"outdated": true, "sets": {"Dual Screens": {"description": "<ul> <li>The given EV spread and nature allow Grimmsnarl to survive a Swords of Ruin-boosted Extreme Speed from a Choice Band Tera Normal Dragonite, then invests the remaining EVs into Special Defense.</li> </ul> <p>This is a sample set as we work on proper analyses. Stay tuned!</p>"}}},
   "Indeedee-F": {"sets": {"Redirection Support": {"description": "<ul> <li>The given EV Spread survives a Rillaboom Wood Hammer in Grassy Terrain.</li> </ul>"}}},
   "Dragapult": {"outdated": true, "sets": {"Choice Band": {}, "Special Attacker": {}}},
+  "Regidrago": {"sets": {"Dragon Energy": {}}},
   "Ursaluna": {"sets": {"Trick Room Attacker": {}}},
   "Ursaluna-Bloodmoon": {"sets": {"Trick Room Attacker": {"description": "<ul> <li>Maximum Speed investment can be used on teams with Tailwind instead to outspeed Flutter Mane.</li> </ul>"}}},
+  "Basculegion-F": {"sets": {"Rain Attacker": {}, "Choice Scarf": {}}},
   "Armarouge": {"outdated": true, "sets": {"TR Attacker": {}}},
   "Palafin": {
     "sets": {
@@ -126,7 +129,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 216286, "username": "Fangame10"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 471503, "username": "YoBuddy"}, {"user_id": 230771, "username": "qsns"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}]}
   },
-  "Iron Hands": {"comments": "<ul> <li>This EV spread outspeeds Landorus in Tailwind and OHKOs Max HP Ogerpon-Wellspring with Wild Charge.</li> </ul>", "sets": {"Assault Vest": {}}},
+  "Iron Hands": {"comments": "<ul> <li>This EV spread outspeeds Tornadus in Tailwind and OHKOs Max HP Terastallized Ogerpon-Wellspring with Wild Charge.</li> </ul>", "sets": {"Assault Vest": {}}},
   "Baxcalibur": {"sets": {"Dragon Dance": {"description": "<ul> <li>188 Speed EVs outspeeds Dragapult after a Dragon Dance.</li> </ul>"}}},
   "Gholdengo": {
     "sets": {
@@ -189,6 +192,7 @@
     "credits": {"writtenBy": [{"user_id": 531334, "username": "zoe"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 192134, "username": "ryo yamada2001"}, {"user_id": 230771, "username": "qsns"}]}, {"name": "Grammar checked by", "members": [{"user_id": 633500, "username": "StupidFlandrs48"}, {"user_id": 384270, "username": "autumn"}]}]}
   },
   "Ogerpon-Hearthflame": {"sets": {"Cudgel Bonk": {}}},
+  "Ogerpon-Cornerstone": {"sets": {"Attacker": {}}},
   "Gouging Fire": {"sets": {"Howl Support": {}}},
   "Raging Bolt": {"sets": {"Assault Vest": {"description": "<ul> <li>This EV spread survives Icicle Crash from Adamant Chien Pao, OHKOes Max HP Tornadus with Thunderbolt, and outspeeds uninvested Rillaboom and Chien-Pao in Tailwind.</li> </ul>"}, "Calm Mind": {"description": "<ul> <li>This EV Spread survives a Life Orb Ice Spinner from Chien-Pao and +2 Kowtow Cleave from Kingambit.</li> </ul>"}}},
   "Iron Crown": {"sets": {"Psychic Terrain Attacker": {}, "Booster Speed": {"description": "<ul> <li>84 EVs have been allocated to HP instead of Special Attack to get the Speed boost from Booster Energy.</li> </ul>"}}}
