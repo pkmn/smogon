@@ -41,19 +41,31 @@ describe('Smogon', () => {
 
       expect(sets(await smogon.analyses(gen(2), 'Blastoise')))
         .toEqual(minimal
-          ? [] : [['Spinstoise (Rapid Spin)'], ['Bulky Water', 'RestTalk'], ['Special Attacker']]);
+          ? [] : [
+            ['Spinstoise (Rapid Spin)', 'Mixed'],
+            ['Bulky Water', 'RestTalk'],
+            ['Special Attacker'],
+          ]);
       expect(sets(await smogon.analyses(gen(2), 'Blastoise', 'gen2uu' as ID)))
-        .toEqual([['Spinstoise (Rapid Spin)']]);
+        .toEqual([['Spinstoise (Rapid Spin)', 'Mixed']]);
       expect(sets(await smogon.analyses(gen(2), 'Blastoise')))
         .toEqual(minimal
-          ? [['Spinstoise (Rapid Spin)']]
-          : [['Spinstoise (Rapid Spin)'], ['Bulky Water', 'RestTalk'], ['Special Attacker']]);
+          ? [['Spinstoise (Rapid Spin)', 'Mixed']]
+          : [
+            ['Spinstoise (Rapid Spin)', 'Mixed'],
+            ['Bulky Water', 'RestTalk'],
+            ['Special Attacker'],
+          ]);
       expect(sets(await smogon.analyses(gen(2), 'Blastoise', 'gen2ou' as ID)))
         .toEqual([['Bulky Water', 'RestTalk']]);
       expect(sets(await smogon.analyses(gen(2), 'Blastoise')))
         .toEqual(minimal
-          ? [['Spinstoise (Rapid Spin)'], ['Bulky Water', 'RestTalk']]
-          : [['Spinstoise (Rapid Spin)'], ['Bulky Water', 'RestTalk'], ['Special Attacker']]);
+          ? [['Spinstoise (Rapid Spin)', 'Mixed'], ['Bulky Water', 'RestTalk']]
+          : [
+            ['Spinstoise (Rapid Spin)', 'Mixed'],
+            ['Bulky Water', 'RestTalk'],
+            ['Special Attacker'],
+          ]);
 
       expect(sets(await smogon.analyses(gen(8), 'Darmanitan-Galar-Zen', 'gen81v1' as ID)))
         .toEqual([['Zen Mode']]);
@@ -82,19 +94,20 @@ describe('Smogon', () => {
 
       expect(names(await smogon.sets(gen(2), 'Blastoise')))
         .toEqual(minimal
-          ? [] : ['Spinstoise (Rapid Spin)', 'Bulky Water', 'RestTalk', 'Special Attacker']);
+          ? []
+          : ['Spinstoise (Rapid Spin)', 'Mixed', 'Bulky Water', 'RestTalk', 'Special Attacker']);
       expect(names(await smogon.sets(gen(2), 'Blastoise', 'gen2uu' as ID)))
-        .toEqual(['Spinstoise (Rapid Spin)']);
+        .toEqual(['Spinstoise (Rapid Spin)', 'Mixed']);
       expect(names(await smogon.sets(gen(2), 'Blastoise')))
         .toEqual(minimal
-          ? ['Spinstoise (Rapid Spin)']
-          : ['Spinstoise (Rapid Spin)', 'Bulky Water', 'RestTalk', 'Special Attacker']);
+          ? ['Spinstoise (Rapid Spin)', 'Mixed']
+          : ['Spinstoise (Rapid Spin)', 'Mixed', 'Bulky Water', 'RestTalk', 'Special Attacker']);
       expect(names(await smogon.sets(gen(2), 'Blastoise', 'gen2ou' as ID)))
         .toEqual(['Bulky Water', 'RestTalk']);
       expect(names(await smogon.sets(gen(2), 'Blastoise')))
         .toEqual(minimal
-          ? ['Spinstoise (Rapid Spin)', 'Bulky Water', 'RestTalk']
-          : ['Spinstoise (Rapid Spin)', 'Bulky Water', 'RestTalk', 'Special Attacker']);
+          ? ['Spinstoise (Rapid Spin)', 'Mixed', 'Bulky Water', 'RestTalk']
+          : ['Spinstoise (Rapid Spin)', 'Mixed', 'Bulky Water', 'RestTalk', 'Special Attacker']);
 
       expect(names(await smogon.sets(gen(8), 'Darmanitan-Galar-Zen', 'gen81v1' as ID)))
         .toEqual(['Zen Mode']);
