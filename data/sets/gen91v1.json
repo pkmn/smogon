@@ -96,10 +96,10 @@
   "Iron Valiant": {"Encore + Disable": {"moves": [["Moonblast", "Low Kick"], "Protect", "Disable", "Encore"], "item": "Booster Energy", "nature": ["Timid", "Jolly"], "evs": {"hp": 208, "def": 252, "spe": 48}}, "Choice Specs": {"moves": ["Moonblast", "Focus Blast", "Thunderbolt", ["Psyshock", "Icy Wind"]], "item": "Choice Specs", "nature": ["Timid", "Modest"], "evs": {"hp": 4, "spa": 220, "spd": 32, "spe": 252}}, "Choice Band": {"moves": ["Spirit Break", "Close Combat", "Ice Punch", ["Poison Jab", "Liquidation"]], "item": "Choice Band", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}},
   "Walking Wake": {
     "Booster Energy (Special Attack)": {"moves": ["Draco Meteor", "Hydro Pump", "Hurricane", "Aqua Jet"], "item": "Booster Energy", "nature": "Modest", "evs": {"hp": 120, "def": 68, "spa": 92, "spd": 4, "spe": 224}},
+    "Booster Energy (Speed)": {"moves": ["Hydro Pump", "Draco Meteor", "Chilling Water", ["Hurricane", "Flamethrower"]], "item": "Booster Energy", "nature": "Timid", "evs": {"hp": 4, "def": 60, "spa": 192, "spe": 252}, "teratypes": "Water"},
     "Fast Booster Energy (Special Attack)": {"moves": ["Draco Meteor", "Hydro Pump", ["Flamethrower", "Snarl"], ["Aqua Jet", "Snarl"]], "item": "Booster Energy", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": "Water"},
     "Breaking Swipe": {"moves": ["Draco Meteor", "Hydro Pump", "Breaking Swipe", ["Flamethrower", "Chilling Water", "Snarl", "Aqua Jet"]], "item": "Booster Energy", "nature": "Modest", "evs": {"hp": 160, "def": 124, "spe": 224}, "teratypes": "Water"},
-    "Snarl": {"moves": ["Draco Meteor", "Hydro Pump", "Snarl", "Flamethrower"], "item": "Booster Energy", "nature": "Timid", "evs": {"spa": 164, "spd": 172, "spe": 172}, "teratypes": "Water"},
-    "Booster Energy (Speed)": {"moves": ["Draco Meteor", "Hydro Pump", "Hurricane", ["Knock Off", "Flamethrower", "Snarl"]], "item": "Booster Energy", "nature": "Timid", "evs": {"spa": 244, "spd": 12, "spe": 252}, "teratypes": "Water"}
+    "Snarl": {"moves": ["Draco Meteor", "Hydro Pump", "Snarl", "Flamethrower"], "item": "Booster Energy", "nature": "Timid", "evs": {"spa": 164, "spd": 172, "spe": 172}, "teratypes": "Water"}
   },
   "Fezandipiti": {"Life Orb": {"moves": ["Gunk Shot", "Play Rough", "Dual Wingbeat", ["Quick Attack", "Double Kick", "Swords Dance"]], "ability": "Technician", "item": "Life Orb", "nature": "Adamant", "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": "Poison"}},
   "Ogerpon-Wellspring": {
