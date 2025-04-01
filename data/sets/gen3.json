@@ -204,11 +204,12 @@
   "Torkoal": {
     "ru": {"Tank": {"moves": ["Fire Blast", "Explosion", ["Toxic", "Yawn"], ["Rock Slide", "Hidden Power Electric", "Protect"]], "item": ["Leftovers", "Lum Berry"], "nature": "Relaxed", "evs": {"hp": 252, "spa": 184, "spd": 72}}},
     "nu": {
+      "Defensive": {"moves": ["Fire Blast", ["Explosion", "Protect"], ["Toxic", "Yawn"], ["Hidden Power Grass", "Hidden Power Electric", "Rock Slide", "Protect"]], "item": "Leftovers", "nature": "Relaxed", "evs": {"hp": 248, "spa": 92, "spd": 168}},
+      "RestTalk": {"moves": ["Flamethrower", ["Hidden Power Grass", "Hidden Power Electric", "Rock Slide"], "Rest", "Sleep Talk"], "item": "Leftovers", "nature": "Relaxed", "evs": {"hp": 248, "spa": 8, "spd": 252}},
       "Curse": {"moves": ["Curse", ["Fire Blast", "Overheat"], ["Rock Slide", "Return", "Hidden Power Fighting"], "Explosion"], "item": "Leftovers", "nature": "Relaxed", "evs": {"hp": 252, "atk": 184, "spd": 72}},
       "Yawn": {"moves": ["Yawn", "Explosion", ["Fire Blast", "Overheat"], ["Hidden Power Ice", "Hidden Power Grass"]], "item": "Leftovers", "nature": "Relaxed", "evs": {"hp": 252, "spa": 184, "spd": 72}},
       "Choice Band": {"moves": ["Explosion", "Overheat", "Rock Slide", ["Hidden Power Ground", "Hidden Power Fighting", "Hidden Power Bug"]], "item": "Choice Band", "nature": "Brave", "evs": {"hp": 252, "atk": 252, "spa": 4}},
-      "Staller": {"moves": [["Iron Defense", "Fire Blast", "Flamethrower"], "Amnesia", "Toxic", "Rest"], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "def": 176, "spd": 80}},
-      "RestTalk": {"moves": ["Rest", "Sleep Talk", "Fire Blast", ["Hidden Power Grass", "Hidden Power Ice"]], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "spa": 120, "spd": 136}}
+      "Staller": {"moves": [["Iron Defense", "Fire Blast", "Flamethrower"], "Amnesia", "Toxic", "Rest"], "item": "Leftovers", "nature": "Bold", "evs": {"hp": 252, "def": 176, "spd": 80}}
     }
   },
   "Lunatone": {"uu": {"Calm Mind + Baton Pass": {"moves": ["Baton Pass", "Calm Mind", "Hypnosis", ["Psychic", "Ice Beam"]], "item": "Leftovers", "nature": "Modest", "evs": {"hp": 252, "def": 240, "spe": 16}}, "Special Attacker": {"moves": ["Hypnosis", "Psychic", "Ice Beam", "Calm Mind"], "item": "Leftovers", "nature": "Modest", "evs": {"hp": 252, "def": 240, "spe": 16}}}},
