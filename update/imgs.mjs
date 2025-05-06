@@ -70,7 +70,9 @@ const HREF = /href="(.*?\.(png|gif))"/;
         let imgs = [];
         for (const line of page.split('\n')) {
           const m = HREF.exec(line);
-          if (m) imgs.push(size(`${URL}/${asset}/${m[1]}`));
+          if (m && !m[1].startsWith('//') && !m[1].includes('%26')) {
+            imgs.push(size(`${URL}/${asset}/${m[1]}`));
+          }
           if (imgs.length >= MAX) {
             for (const img of await Promise.all(imgs)) {
               index[source] += img.length;
