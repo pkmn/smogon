@@ -1,6 +1,6 @@
 {
   "Bulbasaur": {"lc": {"Sun Sweeper": {"moves": ["Growth", "Sleep Powder", ["Giga Drain", "Solar Beam"], "Weather Ball"], "ability": "Chlorophyll", "item": "Eviolite", "nature": "Timid", "ivs": {"atk": 0}, "evs": {"def": 44, "spa": 236, "spe": 156}, "teratypes": "Fire"}}},
-  "Ivysaur": {"nfe": {"Defensive": {"moves": ["Knock Off", "Sludge Bomb", "Giga Drain", "Synthesis"], "item": "Eviolite", "nature": "Bold", "evs": {"hp": 252, "def": 252, "spd": 4}}, "Offensive": {"moves": [["Leaf Storm", "Giga Drain"], "Sludge Bomb", "Knock Off", "Synthesis"], "item": "Eviolite", "nature": "Modest", "evs": {"spa": 252, "spd": 4, "spe": 252}}}},
+  "Ivysaur": {"nfe": {"Defensive": {"moves": ["Knock Off", "Sludge Bomb", "Giga Drain", "Synthesis"], "item": "Eviolite", "nature": "Bold", "evs": {"hp": 252, "def": 252, "spd": 4}}}},
   "Venusaur": {
     "ru": {"Sun Sweeper": {"moves": ["Growth", ["Giga Drain", "Solar Beam"], "Sludge Bomb", "Weather Ball"], "ability": "Chlorophyll", "item": "Life Orb", "nature": "Timid", "ivs": {"atk": 0}, "evs": {"def": 4, "spa": 252, "spe": 252}, "teratypes": "Fire"}},
     "nationaldexuu": {"Tank": {"moves": ["Sludge Bomb", ["Knock Off", "Giga Drain", "Leech Seed"], ["Earth Power", "Hidden Power Fire"], "Synthesis"], "ability": "Thick Fat", "item": "Venusaurite", "nature": "Modest", "ivs": {"atk": 0}, "evs": {"hp": 252, "spa": 152, "spe": 104}}},
@@ -1599,7 +1599,7 @@
     "ou": {
       "Choice Specs": {"moves": ["Ice Beam", "Freeze-Dry", "Draco Meteor", "Earth Power"], "item": "Choice Specs", "nature": ["Timid", "Modest"], "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": ["Ice", "Ground", "Fairy"]},
       "Boots Attacker": {"moves": ["Ice Beam", "Freeze-Dry", "Earth Power", "Draco Meteor"], "item": "Heavy-Duty Boots", "nature": ["Timid", "Modest"], "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": ["Ice", "Ground"]},
-      "Physical Dragon Dance": {"moves": ["Dragon Dance", "Scale Shot", "Icicle Spear", "Tera Blast"], "item": "Loaded Dice", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": ["Fire", "Ground"]},
+      "Physical Dragon Dance": {"moves": ["Dragon Dance", "Scale Shot", "Icicle Spear", "Tera Blast"], "item": "Loaded Dice", "nature": ["Jolly", "Adamant"], "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": ["Fire", "Ground"]},
       "Mixed Dragon Dance": {"moves": ["Dragon Dance", "Icicle Spear", "Freeze-Dry", "Earth Power"], "item": ["Never-Melt Ice", "Heavy-Duty Boots"], "nature": "Hasty", "evs": {"atk": 168, "spa": 88, "spe": 252}, "teratypes": ["Ice", "Ground"]},
       "Substitute + Protect": {"moves": ["Substitute", "Protect", "Freeze-Dry", "Earth Power"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 52, "spa": 204, "spe": 252}, "teratypes": "Ground"}
     },
