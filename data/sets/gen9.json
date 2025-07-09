@@ -1419,7 +1419,7 @@
   "Mienshao": {
     "vgc2024": {"Offensive Utility": {"moves": ["Close Combat", "Fake Out", "Feint", "Wide Guard"], "item": "Focus Sash", "nature": ["Jolly", "Adamant"], "evs": {"hp": 4, "atk": 252, "spe": 252}, "teratypes": "Fighting"}},
     "ru": {"Choice Scarf": {"moves": ["Close Combat", "Knock Off", ["Ice Spinner", "Stone Edge"], "U-turn"], "ability": "Regenerator", "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}, "teratypes": ["Fighting", "Dark"]}, "Life Orb": {"moves": ["Close Combat", "Knock Off", "U-turn", ["Triple Axel", "Ice Spinner"]], "ability": "Regenerator", "item": "Life Orb", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}, "teratypes": ["Steel", "Dark"]}},
-    "nationaldexuu": {"Life Orb": {"moves": ["Close Combat", "Knock Off", "U-turn", ["Fake Out", "Poison Jab"]], "ability": "Regenerator", "item": "Life Orb", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}, "Choice Scarf": {"moves": ["Close Combat", "Knock Off", ["Poison Jab", "Stone Edge", "Triple Axel"], "U-turn"], "ability": "Regenerator", "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}}
+    "nationaldexuu": {"Life Orb": {"moves": ["Close Combat", "Knock Off", "U-turn", ["Triple Axel", "Poison Jab", "Fake Out"]], "ability": "Regenerator", "item": "Life Orb", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}, "Choice Scarf": {"moves": ["Close Combat", "Knock Off", "U-turn", ["Triple Axel", "Poison Jab"]], "ability": "Regenerator", "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}}
   },
   "Golurk": {
     "ru": {"Wallbreaker": {"moves": ["Poltergeist", "Earthquake", "Dynamic Punch", ["Stone Edge", "Substitute", "Stealth Rock"]], "ability": "No Guard", "item": ["Choice Band", "Life Orb", "Colbur Berry"], "nature": "Adamant", "evs": {"hp": 132, "atk": 252, "spe": 124}, "teratypes": ["Ground", "Fighting"]}},
@@ -1587,7 +1587,7 @@
     "ou": {
       "Choice Specs": {"moves": ["Ice Beam", "Freeze-Dry", "Draco Meteor", "Earth Power"], "item": "Choice Specs", "nature": ["Timid", "Modest"], "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": ["Ice", "Ground", "Fairy"]},
       "Boots Attacker": {"moves": ["Ice Beam", "Freeze-Dry", "Earth Power", "Draco Meteor"], "item": "Heavy-Duty Boots", "nature": ["Timid", "Modest"], "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": ["Ice", "Ground"]},
-      "Physical Dragon Dance": {"moves": ["Dragon Dance", "Scale Shot", "Icicle Spear", "Tera Blast"], "item": "Loaded Dice", "nature": ["Jolly", "Adamant"], "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": ["Fire", "Ground"]},
+      "Physical Dragon Dance": {"moves": ["Dragon Dance", "Icicle Spear", "Tera Blast", ["Scale Shot", "Substitute"]], "item": "Loaded Dice", "nature": ["Jolly", "Adamant"], "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": ["Fire", "Ground", "Electric"]},
       "Mixed Dragon Dance": {"moves": ["Dragon Dance", "Icicle Spear", "Freeze-Dry", "Earth Power"], "item": ["Never-Melt Ice", "Heavy-Duty Boots"], "nature": "Hasty", "evs": {"atk": 168, "spa": 88, "spe": 252}, "teratypes": ["Ice", "Ground"]},
       "Substitute + Protect": {"moves": ["Substitute", "Protect", "Freeze-Dry", "Earth Power"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 52, "spa": 204, "spe": 252}, "teratypes": "Ground"}
     },
