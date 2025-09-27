@@ -329,6 +329,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 29010, "username": "Theorymon"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 197240, "username": "sunny"}, {"user_id": 649096, "username": "a blue banana"}]}]}
   },
+  "Deoxys-Attack": {"sets": {"TACTICAL NUKE": {}}},
   "Empoleon": {
     "outdated": true,
     "sets": {
@@ -450,6 +451,10 @@
     },
     "credits": {"writtenBy": [{"user_id": 528485, "username": "DerpySuX"}, {"user_id": 516307, "username": "Photon"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 336524, "username": "greilmercenary9"}, {"user_id": 29010, "username": "Theorymon"}]}, {"name": "Grammar checked by", "members": [{"user_id": 523866, "username": "UT"}, {"user_id": 262594, "username": "Milak"}]}]}
   },
+  "Shaymin-Sky": {"sets": {"Choice Scarf": {}}},
+  "Arceus": {"sets": {"Ekiller": {}}},
+  "Arceus-Fairy": {"sets": {"Offensive": {}}},
+  "Arceus-Ground": {"sets": {"Dragon Dance": {}}},
   "Serperior": {
     "outdated": true,
     "overview": "<p>Welcome to Battle Stadium Singles Regulation F! This Pokemon is a new addition from the Indigo Disk that happens to be relevant!</p> <p><a href=\"https://www.smogon.com/forums/threads/battle-stadium-singles-regulation-f-dex-updates-and-suggestions.3734864/\">If you feel that this analysis is missing important information, feel free to leave feedback here.</a></p>",
@@ -589,7 +594,15 @@
     },
     "credits": {"writtenBy": [{"user_id": 516307, "username": "Photon"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 330577, "username": "Thick Fat Azumarill"}]}, {"name": "Grammar checked by", "members": [{"user_id": 467437, "username": "Dawn of Ares"}]}]}
   },
-  "Incineroar": {"outdated": true, "sets": {"Pivot": {"description": "<ul> <li> <p>This set's write-up has not started yet, but here's some basic info to get you started!</p> </li> <li> <p><strong>252 HP / 252 Def / 4 SpD with Impish or Relaxed</strong>: Maximizing Defense gives Incineroar around a 90% chance of avoiding a 2HKO from Choice Band Chien-Pao's Sacred Sword. A lower Speed IV can be used to underspeed more threats, but this can be risky against Ursaluna-B.</p> </li> <li> <p><strong>252 HP / 44 Def / 212 SpD with Careful or Sassy</strong>: When used with Sitrus Berry, this spread avoids a 2HKO from Timid Choice Specs Flutter Mane's Moonblast.</p> </li> </ul>"}}},
+  "Incineroar": {
+    "sets": {
+      "Assault Vest": {
+        "description": "<ul> <li> <p>Assault Vest Incineroar functions as a bulky specially defensive pivot, switching into a variety of common threats—most notably Calyrex-S, as Incineroar resists its STAB combination—while using Intimidate to weaken physical attackers, particularly Chien-Pao.</p> </li> <li> <p><strong>Knock Off</strong>: Knock Off is crucial to this set's strength; the move is able to OHKO Calyrex-S, furthering Incineroar's ability to successfully check it, and provide immense value with item removal.</p> </li> <li> <p><strong>Flare Blitz</strong>: Flare Blitz's raw power and STAB make it a powerful option against Chien-Pao, Calyrex-I, and Zacian-C.</p> </li> <li> <p><strong>U-turn</strong>: U-turn is Incineroar's best move, allowing it to chip foes for decent damage while switching out to reset Intimidate and get a powerful partner in.</p> </li> <li> <p><strong>Bulldoze</strong>: Bulldoze can provide decent value in its speed control, enabling Incineroar to slow down foes before pivoting to a powerful and now faster attacker with U-turn.</p> </li> <li> <p><strong>Teammates</strong>: Incineroar fits on a variety of teams but pairs best with Calyrex-S and Flutter Mane, as it can check the Ghost-types that can threaten them, while in return, they can pivot into and threaten the Fighting-types that are particularly problematic for Incineroar, most notably Koraidon.</p> </li> </ul> <h4>Other Options</h4> <ul> <li><strong>Fake Out</strong>: Fake Out does small chip damage to foes for free, notably breaking Focus Sash and Sturdy on the likes of Chien-Pao and Ogerpon-C.</li> </ul> <h4>Tera Types</h4> <ul> <li> <p><strong>Tera Dependency - Very Situational</strong>: Incineroar only requires Terastallization in a pinch for difficult type matchups, as its regular typing is crucial to its defensive abilities, particularly handling Calyrex-S, and it can pivot out of bad type matchups with U-turn.</p> </li> <li> <p><strong>Water</strong>: Tera Water allows Incineroar to resist Water-type attacks, notably Surging Strikes from Urshifu-R, while giving it a generally strong defensive typing.</p> </li> <li> <p><strong>Fairy</strong>: Tera Fairy provides a resistance to Fighting-type attacks like Close Combat from Koraidon, as well as an immunity to Draco Meteor from Miraidon.</p> </li> <li> <p><strong>Fire</strong>: Tera Fire bolsters Incineroar's damage output, allowing it to potentially OHKO Calyrex-S and Calyrex-I, while dropping its Fighting-type weakness.</p> </li> </ul> <h4>EV Spreads</h4> <ul> <li> <p><strong>252 HP / 252 SpD / 4 Def with Careful or Sassy</strong>: This spread maximizes Incineroar's special bulk to allow it to answer opposing threats much better, particularly letting it survive Electro Drift from Modest Tera Electric Choice Specs Miraidon the majority of the time. A Careful nature allows Incineroar to outspeed important threats in Speed-invested Ursaluna-B and Calyrex-I, while a Sassy nature allows it to pivot more slowly in mirror matches.</p> </li> <li> <p><strong>252 HP / 212 Atk / 44 SpD with Adamant</strong>: This more offensive spread allows Incineroar to have a much greater offensive presence, notably OHKOing Flutter Mane and 2HKOing Calyrex-I with Flare Blitz, while still enabling it to take a Tera Blast Fighting from Choice Specs Calyrex-S.</p> </li> </ul>"
+      },
+      "Pivot": {"description": "<ul> <li> <p>This set's write-up has not started yet, but here's some basic info to get you started!</p> </li> <li> <p><strong>252 HP / 252 Def / 4 SpD with Impish or Relaxed</strong>: Maximizing Defense gives Incineroar around a 90% chance of avoiding a 2HKO from Choice Band Chien-Pao's Sacred Sword. A lower Speed IV can be used to underspeed more threats, but this can be risky against Ursaluna-B.</p> </li> <li> <p><strong>252 HP / 44 Def / 212 SpD with Careful or Sassy</strong>: When used with Sitrus Berry, this spread avoids a 2HKO from Timid Choice Specs Flutter Mane's Moonblast.</p> </li> </ul>"}
+    },
+    "credits": {"writtenBy": [{"user_id": 695310, "username": "sheepie"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 649096, "username": "a blue banana"}]}]}
+  },
   "Primarina": {
     "sets": {
       "Little Mermaid": {
@@ -1487,5 +1500,6 @@
       }
     },
     "credits": {"writtenBy": [{"user_id": 29010, "username": "Theorymon"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}]}, {"name": "Grammar checked by", "members": [{"user_id": 649096, "username": "a blue banana"}]}]}
-  }
+  },
+  "Pecharunt": {"sets": {"Defensive Pivot": {}}}
 }
