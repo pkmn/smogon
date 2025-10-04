@@ -29,7 +29,15 @@
   "Electrode": {"sets": {"Explosion": {}}},
   "Exeggutor": {"sets": {"Status Support": {}}},
   "Marowak": {"sets": {"Counter": {}}},
-  "Rhydon": {"sets": {"Standard": {}}},
+  "Rhydon": {
+    "comments": "<h3>Other Options</h3> <p>Substitute or Double Team can both be used to stay in on Ice-type switch-ins, potentially allowing Rhydon's threat potential to get out of hand. However, replacing Rest greatly limits the amount of damage that Rhydon can take and opens the door for it to lose to Zapdos, and even with evasion set up, the risk when staying in against Ice-types even is massive.</p> <h3>Checks and Counters</h3> <p><strong>Blizzard Users</strong>: Blizzard users that aren't immediately threatened by Rhydon's STAB combination like Starmie, level 55 Lapras, and Tauros can threaten an OHKO or 2HKO on Rhydon in addition to the 30% freeze chance, and they often deny Rhydon entry if they aren't using Rest.</p> <p><strong>Grass-types</strong>: While Exeggutor and Venusaur must be wary of Rhydon's Blizzard and its generally high damage output, they can often switch in and threaten status or an OHKO, preying on Rhydon's poor special bulk.</p>",
+    "sets": {
+      "Low Level Stall Breaker": {
+        "description": "<h4>Set Description</h4> <ul> <li> <p>Rhydon's massive power, STAB combination, defensive typing, and movepool make it one of the sturdiest and most threatening physical attackers in the game.</p> </li> <li> <p>Earthquake backed by base 130 Attack cleanly OHKOes Gengar and the best evasion staller in the game, Jolteon effectively bypassing the annoyance of Double Team + Rest stall strategies and switch stall strategies.</p> </li> <li> <p>Rock Slide OHKOes Jynx and low- to mid-level Articuno, which effectively makes Rhydon a late-game cleaner against stall teams with paralysis support.</p> </li> <li> <p>Despite Rhydon's abysmal base 45 Special, Blizzard's 30% freeze rate in Nintendo Cup 1997 enables it to fish for freezes against common switch-ins like Exeggutor and Tauros. This often deters the opponent from bringing any Pokemon forced out by Rhydon during the Team Preview phase.</p> </li> <li> <p>Rest ensures Rhydon can not be broken by evasion Zapdos, even after tanking a Psychic from Gengar or Exeggutor. Additionally, it provides added stability against mono-Normal-type attacking Tauros and Pokemon relying on Seismic Toss for damage.</p> </li> </ul>"
+      }
+    },
+    "credits": {"writtenBy": [{"user_id": 679405, "username": "TerraSpark"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 528485, "username": "DerpySuX"}, {"user_id": 610927, "username": "2xNoodle"}]}, {"name": "Grammar checked by", "members": [{"user_id": 583793, "username": "Sabelette"}]}]}
+  },
   "Chansey": {"sets": {"BlizzBolt": {}, "Reflect": {}}},
   "Tangela": {"sets": {"Growth Sweeper": {}}},
   "Kangaskhan": {"sets": {"Wallbreaker": {}}},
