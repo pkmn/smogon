@@ -25,6 +25,8 @@ export interface Moveset {
   name: string;
   description: string;
   pokemon: string;
+  shiny: boolean;
+  gender: string;
   levels: number[];
   abilities: string[];
   items: string[];
