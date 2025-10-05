@@ -41,7 +41,7 @@ describe('Analyses', () => {
   test('parse', async () => {
     expect(Analyses.parse('foo')).toBeUndefined();
     expect(Analyses.parse(await FIXTURES.snorlax)).toBeDefined();
-    expect(Analyses.parse(await FIXTURES.dragapult)).toBeUndefined();
+    expect(Analyses.parse(await FIXTURES.dragapult)).toEqual(JSON.parse(await FIXTURES.dragapult));
   });
 
   test('process', async () => {
@@ -60,7 +60,7 @@ describe('Analyses', () => {
     ]);
     expect(set.moveslots[2]).toEqual([{move: 'Hidden Power', type: 'Ice'}]);
 
-    processed = Analyses.process(JSON.parse(await FIXTURES.dragapult))!;
+    processed = Analyses.process(await FIXTURES.dragapult)!;
     expect(processed).toBeDefined();
     expect(processed.get('OU')![0].movesets[0].name).toBe('Choice Specs');
   });
