@@ -150,15 +150,9 @@ function eligible(gen, species) {
   process.exit(1);
 });
 
-// Fetch a Pokémon's analysis and split out the sets from the analysis text, compressing the
-// set information and sanitizing the analysis text. If the Pokémon doesn't have any strategies we
-// simply return undefined to ensure it will be elided during serialization.
-async function importPokemon(dex, gen, species) {
-  const json = await request(Analyses.request(species, gen));
-  if (!json || !json.strategies.length) return undefined;
-
+function importStrategies(dex, gen, species, strategies) {
   const imports = {};
-  for (const analysis of json.strategies.sort((a, b) => {
+  for (const analysis of strategies.sort((a, b) => {
     // Sort to ensure that outdated info for the same format comes second (and implicitly outdated
     // VGC/BSS formats come after as well)
     if (a.format === b.format) return a.outdated ? (b.outdated ? 0 : 1) : -1;
@@ -211,9 +205,25 @@ async function importPokemon(dex, gen, species) {
       };
     }
   }
-
   return imports;
 }
+
+// Fetch a Pokémon's analysis and split out the sets from the analysis text, compressing the
+// set information and sanitizing the analysis text. If the Pokémon doesn't have any strategies we
+// simply return undefined to ensure it will be elided during serialization.
+async function importPokemon(dex, gen, species) {
+  const json = await request(Analyses.request(species, gen));
+  if (!json) return undefined;
+  const imports = {};
+  if (json.strategies.length) Object.assign(imports, importStrategies(dex, gen, species, json.strategies));
+  if (json.formeStrategies.length) {
+    for (const {strategies} of json.formeStrategies) {
+      Object.assign(imports, importStrategies(dex, gen, species, strategies));
+    }
+  }
+  return imports;
+}
+
 
 // Remove any fields from the Moveset that contain redundant info that we can just fill back in
 // later in order to save space on disk and over the wire.
