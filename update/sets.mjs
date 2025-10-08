@@ -224,7 +224,6 @@ async function importPokemon(dex, gen, species) {
   return imports;
 }
 
-
 // Remove any fields from the Moveset that contain redundant info that we can just fill back in
 // later in order to save space on disk and over the wire.
 function compress(gen, format, set, species) {
