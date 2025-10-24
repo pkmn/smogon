@@ -147,6 +147,9 @@ export const Analyses = new (class {
    * Parses out the DexSettings object embedded in the raw HTML retrieved from the Smogon dex.
    */
   parse(raw: string) {
+    try {
+      return JSON.parse(raw) as DexSettings;
+    } catch {}
     const match = PARSE_REGEX.exec(raw);
     if (!match) return undefined;
     return JSON.parse(match[1]) as DexSettings;

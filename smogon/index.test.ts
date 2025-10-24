@@ -42,7 +42,7 @@ describe('Analyses', () => {
   test('parse', async () => {
     expect(Analyses.parse('foo')).toBeUndefined();
     expect(Analyses.parse(await FIXTURES.snorlax)).toBeDefined();
-    expect(Analyses.parse(await FIXTURES.dragapult)).toBeUndefined();
+    expect(Analyses.parse(await FIXTURES.dragapult)).toBeDefined();
   });
 
   test('process', async () => {
@@ -65,7 +65,7 @@ describe('Analyses', () => {
     expect(processed).toBeDefined();
     expect(processed.forme.get('Necrozma-Ultra')).toBeDefined();
 
-    processed = Analyses.process(JSON.parse(await FIXTURES.dragapult))!;
+    processed = Analyses.process(await FIXTURES.dragapult)!;
     expect(processed).toBeDefined();
     expect(processed.analyses.get('OU')![0].movesets[0].name).toBe('Choice Specs');
   });
