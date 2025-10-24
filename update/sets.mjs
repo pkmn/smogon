@@ -170,7 +170,6 @@ function importStrategies(dex, gen, species, strategies) {
       throw new Error(`Unknown format: ${format} (${tier}) for gen ${gen} ${species.name}`);
     }
     format = format.slice(4); // trim gen<N> to save space (BUG)
-
     const analyses = {};
     for (const ms of analysis.movesets) {
       const pokemon = dex.species.get(ms.pokemon);
@@ -218,7 +217,23 @@ async function importPokemon(dex, gen, species) {
   if (json.strategies.length) Object.assign(imports, importStrategies(dex, gen, species, json.strategies));
   if (json.formeStrategies.length) {
     for (const {strategies} of json.formeStrategies) {
-      Object.assign(imports, importStrategies(dex, gen, species, strategies));
+      const formeImports = importStrategies(dex, gen, species, strategies);
+      for (const forme in formeImports) {
+        if (!imports[forme]) {
+          imports[forme] = formeImports[forme];
+          continue;
+        }
+        if (!imports[forme].analyses) imports[forme].analyses = {};
+        if (!imports[forme].sets) imports[forme].sets = {};
+        for (const format in formeImports.analyses) {
+          if (!imports[forme].analyses[format]) imports[forme].analyses[format] = formeImports.analyses[format];
+          else Object.assign(imports[forme].analyses[format], formeImports.analyses[format])
+        }
+        for (const format in formeImports.sets) {
+          if (!imports[forme].sets[format]) imports[forme].sets[format] = formeImports.sets[format];
+          else Object.assign(imports[forme].sets[format], formeImports.sets[format])
+        }
+      }
     }
   }
   return imports;
