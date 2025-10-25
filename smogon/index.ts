@@ -95,6 +95,7 @@ interface DexDumpPokemonResponse {
   languages: string[];
   learnset: string[];
   strategies: Analysis[];
+  formeStrategies: {forme: string; strategies: Analysis[]}[];
 }
 
 const GENS = ['rb', 'gs', 'rs', 'dp', 'bw', 'xy', 'sm', 'ss', 'sv'];
@@ -164,15 +165,17 @@ export const Analyses = new (class {
     if (!parsed) return undefined;
 
     let strategies: Analysis[];
+    let formeStrategies: {forme: string; strategies: Analysis[]}[];
     if ('injectRpcs' in parsed) {
-      const valid = parsed.injectRpcs[2]?.[1]?.['strategies'];
-      if (!valid) return undefined;
-      strategies = valid;
+      strategies = parsed.injectRpcs[2]?.[1]?.['strategies'] || [];
+      formeStrategies = parsed.injectRpcs[2]?.[1]?.['formeStrategies'] || [];
     } else {
       strategies = parsed.strategies;
+      formeStrategies = parsed.formeStrategies || [];
     }
 
     const analysesByFormat: Map<string, Analysis[]> = new Map();
+    const formeAnalysesByFormat: Map<string, Map<string, Analysis[]>> = new Map();
     for (const analysis of strategies) {
       let analyses = analysesByFormat.get(analysis.format);
       if (!analyses) {
@@ -181,8 +184,22 @@ export const Analyses = new (class {
       }
       analyses.push(analysis);
     }
+    for (const {forme, strategies: analyses} of formeStrategies) {
+      formeAnalysesByFormat.set(forme, new Map());
+      const formeAnalyses = formeAnalysesByFormat.get(forme)!;
+      for (const analysis of analyses) {
+        let formatAnalyses = formeAnalyses.get(analysis.format);
+        if (!formatAnalyses) {
+          formatAnalyses = [];
+          formeAnalyses.set(analysis.format, formatAnalyses);
+        }
+        formatAnalyses.push(analysis);
+      }
+    }
 
-    return analysesByFormat;
+    return analysesByFormat.size || formeAnalysesByFormat.size
+      ? {analyses: analysesByFormat, forme: formeAnalysesByFormat}
+      : undefined;
   }
 
   /**

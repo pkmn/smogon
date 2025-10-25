@@ -9,6 +9,7 @@ const FIXTURES = {
   dragapult: fixture('dragapult.ss.json'),
   snorlax: fixture('snorlax.gs.html'),
   landorus: fixture('landorus.sm.html'),
+  ndw: fixture('necrozmadawnwings.sv.html'),
   index: fixture('stats.index.html'),
   formats: fixture('stats.formats.html'),
   gen6nu: fixture('gen6nu.json'),
@@ -49,20 +50,24 @@ describe('Analyses', () => {
 
     let processed = Analyses.process(Analyses.parse(await FIXTURES.snorlax)!)!;
     expect(processed).toBeDefined();
-    expect(processed.get('OU')![0].movesets[0].items).toEqual(['Leftovers']);
+    expect(processed.analyses.get('OU')![0].movesets[0].items).toEqual(['Leftovers']);
 
     processed = Analyses.process(Analyses.parse(await FIXTURES.landorus)!)!;
     expect(processed).toBeDefined();
-    const set = processed.get('Doubles')![0].movesets[0];
+    const set = processed.analyses.get('Doubles')![0].movesets[0];
     expect(set.moveslots[1]).toEqual([
       {move: 'Sludge Bomb', type: null},
       {move: 'Stone Edge', type: null},
     ]);
     expect(set.moveslots[2]).toEqual([{move: 'Hidden Power', type: 'Ice'}]);
 
+    processed = Analyses.process(Analyses.parse(await FIXTURES.ndw)!)!;
+    expect(processed).toBeDefined();
+    expect(processed.forme.get('Necrozma-Ultra')).toBeDefined();
+
     processed = Analyses.process(await FIXTURES.dragapult)!;
     expect(processed).toBeDefined();
-    expect(processed.get('OU')![0].movesets[0].name).toBe('Choice Specs');
+    expect(processed.analyses.get('OU')![0].movesets[0].name).toBe('Choice Specs');
   });
 
   test('gen', () => {
