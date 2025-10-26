@@ -5,7 +5,7 @@ format**](https://github.com/pkmn/stats/blob/main/stats/OUTPUT.md#pkmnstats) inv
 [`@pkmn/stats`](https://github.com/pkmn/stats/blob/main/stats#readme)  _converted_ from the legacy
 statistics information found at [www.smogon.com/stats](https://www.smogon.com/stats). Each available
 format gets its own resource under `/stats/FORMAT.json` _e.g_,
-[`/teams/gen9ou.json`](https://data.pkmn.cc/stats/gen9ou.json).
+[`/stats/gen9ou.json`](https://data.pkmn.cc/stats/gen9ou.json).
 
 The "best" statistics for each format are defined to be the latest statistics from the cutoff used
 for tiering that meets a certain minimimum number of battles, _i.e._, effectively capturing the data
