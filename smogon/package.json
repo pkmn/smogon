@@ -1,6 +1,6 @@
 {
   "name": "smogon",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Low-level wrapper around Smogon's analyses and usage statistics",
   "homepage": "https://smogon.com/",
   "repository": "github:pkmn/smogon",
@@ -23,35 +23,20 @@
   },
   "tsup": {
     "outDir": "build",
-    "format": [
-      "cjs",
-      "esm"
-    ],
+    "format": ["cjs", "esm"],
     "sourcemap": true,
     "dts": true,
     "clean": true
   },
-  "jest": {
+    "jest": {
     "testEnvironment": "node",
-    "testPathIgnorePatterns": [
-      "node_modules/",
-      "dist/"
-    ],
-    "modulePathIgnorePatterns": [
-      "fixtures/"
-    ]
+    "testPathIgnorePatterns": ["node_modules/", "dist/"],
+    "modulePathIgnorePatterns": ["fixtures/"]
   },
   "babel": {
     "presets": [
-      "@babel/preset-typescript",
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "node": "current"
-          }
-        }
-      ]
+        "@babel/preset-typescript",
+        ["@babel/preset-env", {"targets": {"node": "current"}}]
     ]
   }
 }
