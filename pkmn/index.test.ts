@@ -264,5 +264,10 @@ describe('Smogon', () => {
     expect(baseFormat('gen9vgc2023regulatione')).toBe('gen9vgc2023');
     expect(baseFormat('gen9vgc2024regf')).toBe('gen9vgc2024');
     expect(baseFormat('gen9vgc2024regg')).toBe('gen9vgc2024');
+    expect(baseFormat('gen9vgc2024regh')).toBe('gen9vgc2024');
+    expect(baseFormat('gen9vgc2025regf')).toBe('gen9vgc2024');
+    expect(baseFormat('gen9vgc2025regg')).toBe('gen9vgc2024');
+    expect(baseFormat('gen9vgc2025regh')).toBe('gen9vgc2024');
+    expect(baseFormat('gen9vgc2025regi')).toBe('gen9vgc2025');
   });
 });
