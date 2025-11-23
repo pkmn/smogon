@@ -184,7 +184,7 @@ const BANS = {
 };
 
 // eslint-disable-next-line max-len
-const SPECIAL = /(gen[789](?:vgc20(?:19|21|22|23|24)(reg(?:ulation)?[a-z])?|battlestadium(?:singles|doubles)|bs(?:s|d)))(.*)/;
+const SPECIAL = /(gen[789](?:vgc20(?:19|2\d)(reg(?:ulation)?[a-z])?|battlestadium(?:singles|doubles)|bs(?:s|d)))(.*)/;
 const TRANSLATE = {
   'gen8bss': 'gen8battlestadiumsingles',
   'gen8bsd': 'gen8battlestadiumdoubles',

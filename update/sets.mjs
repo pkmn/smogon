@@ -70,9 +70,16 @@ const FORMATS = {
   vgc11: 'vgc2011', vgc12: 'vgc2012', vgc14: 'vgc2014', vgc15: 'vgc2015', vgc16: 'vgc2016',
   vgc17: 'vgc2017', vgc18: 'vgc2018', vgc19: 'vgc2019', vgc20: 'vgc2020', vgc21: 'vgc2021',
   vgc22: 'vgc2022', vgc23series1: 'vgc2023', vgc23series2: 'vgc2023', vgc23series3: 'vgc2023',
-  vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023', vgc24regulationf: 'vgc2024',
-  vgc24regf: 'vgc2024', vgc24regg: 'vgc2024', vgc: 'vgc2024', vgc24regulationg: 'vgc2024',
-  vgc25regulationi: 'vgc2025',
+  vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023',
+  vgc24regf: 'vgc2024', vgc24regulationf: 'vgc2024',
+  vgc24regg: 'vgc2024', vgc24regulationg: 'vgc2024',
+  vgc24regh: 'vgc2024', vgc24regulationh: 'vgc2024',
+  // f,g,h are reruns of 2024
+  vgc25regf: 'vgc2024', vgc25regulationf: 'vgc2024',
+  vgc25regg: 'vgc2024', vgc25regulationg: 'vgc2024',
+  vgc25regh: 'vgc2024', vgc25regulationh: 'vgc2024',
+  vgc25regi: 'vgc2025', vgc25regulationi: 'vgc2025',  // j doesn't have separate smogon sets
+  vgc: 'vgc2024',
   // RBwhY?
   nintendocup1997: 'nc1997', nintendocup1998: 'nc1998', nintendocup1999: 'nc1999',
   lclevel100: 'lclevel100', petitcup: 'petitcup', pikacup: 'pikacup', monotype: 'monotype',

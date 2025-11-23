@@ -40,7 +40,7 @@ const request = wrapr.retrying(wrapr.throttling(fetch, 5, 1000));
 const N = 1e4;
 
 const UNSUPPORTED = ['1v1', 'challengecup1vs1'];
-const SPECIAL = /(gen[789](?:vgc20(?:19|21|22|23|24)|battlestadium(?:singles|doubles)))(.*)/;
+const SPECIAL = /(gen[789](?:vgc20(?:19|2\d)|battlestadium(?:singles|doubles)))(.*)/;
 
 async function convert(format, date) {
   const leads = !stats.isNonSinglesFormat(format) && !UNSUPPORTED.includes(format);
