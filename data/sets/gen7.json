@@ -55,7 +55,7 @@
   "Gourgeist-Small": {"pu": {"SubSeed": {"moves": ["Substitute", "Leech Seed", "Will-O-Wisp", "Phantom Force"], "ability": "Frisk", "item": "Leftovers", "nature": "Jolly", "evs": {"hp": 152, "def": 132, "spe": 224}}}},
   "Gourgeist-Large": {"pu": {"Defensive": {"moves": ["Seed Bomb", "Foul Play", "Will-O-Wisp", "Synthesis"], "ability": "Frisk", "item": "Leftovers", "nature": "Impish", "evs": {"hp": 72, "def": 252, "spe": 184}}}},
   "Hawlucha": {
-    "ou": {"Terrain Seed Sweeper": {"moves": ["Acrobatics", "Swords Dance", "High Jump Kick", "Roost"], "ability": "Unburden", "item": ["Electric Seed", "Grassy Seed", "Psychic Seed"], "nature": "Adamant", "evs": {"hp": 96, "atk": 252, "spd": 36, "spe": 124}}},
+    "ou": {"Terrain Seed Sweeper": {"moves": ["Swords Dance", "Acrobatics", "High Jump Kick", ["Substitute", "Roost"]], "ability": "Unburden", "item": ["Electric Seed", "Psychic Seed"], "nature": "Adamant", "evs": {"hp": 96, "atk": 252, "spd": 36, "spe": 124}}},
     "1v1": {"Flyinium Z": {"moves": ["Sky Attack", "Feather Dance", "Roost", "High Jump Kick"], "ability": "Mold Breaker", "item": "Flyinium Z", "nature": "Jolly", "evs": {"atk": 252, "def": 48, "spe": 208}}},
     "monotype": {"Offensive Defogger (Fighting)": {"moves": ["Defog", "Sky Attack", "Acrobatics", "High Jump Kick"], "ability": "Unburden", "item": "Power Herb", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}}, "Substitute + Swords Dance (Fighting)": {"moves": ["Substitute", "Swords Dance", "Acrobatics", "High Jump Kick"], "ability": "Unburden", "item": "Sitrus Berry", "nature": "Jolly", "ivs": {"hp": 30}, "evs": {"atk": 252, "def": 4, "spe": 252}}, "Unburden Sweeper (Flying)": {"moves": ["Swords Dance", "High Jump Kick", "Acrobatics", "Substitute"], "ability": "Unburden", "item": "Sitrus Berry", "nature": "Jolly", "ivs": {"hp": 30}, "evs": {"atk": 252, "def": 4, "spe": 252}}}
   },
@@ -823,7 +823,7 @@
   "Medicham": {
     "vgc2019": {"All-out Attacker": {"moves": ["Fake Out", "High Jump Kick", "Zen Headbutt", "Bullet Punch"], "item": "Medichamite", "nature": "Jolly", "evs": {"hp": 4, "atk": 252, "spe": 252}}},
     "ru": {"All-out Attacker": {"moves": ["High Jump Kick", "Zen Headbutt", "Thunder Punch", "Bullet Punch"], "item": "Life Orb", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}}},
-    "ou": {"All-out Attacker": {"moves": ["Fake Out", "High Jump Kick", "Ice Punch", ["Zen Headbutt", "Thunder Punch"]], "ability": "Telepathy", "item": "Medichamite", "nature": ["Jolly", "Adamant"], "evs": {"atk": 252, "def": 4, "spe": 252}}},
+    "ou": {"All-out Attacker": {"moves": ["High Jump Kick", "Fake Out", ["Ice Punch", "Bullet Punch"], ["Zen Headbutt", "Thunder Punch"]], "ability": "Telepathy", "item": "Medichamite", "nature": ["Jolly", "Adamant"], "evs": {"atk": 252, "spd": 4, "spe": 252}}},
     "nu": {"Wallbreaker": {"moves": ["High Jump Kick", ["Zen Headbutt", "Psycho Cut"], "Thunder Punch", "Bullet Punch"], "item": "Life Orb", "nature": "Jolly", "evs": {"hp": 4, "atk": 252, "spe": 252}}},
     "1v1": {"Offensive": {"moves": ["Fake Out", "High Jump Kick", "Zen Headbutt", ["Ice Punch", "Poison Jab"]], "item": "Medichamite", "nature": ["Jolly", "Adamant"], "evs": {"atk": 252, "spd": 4, "spe": 252}}}
   },
