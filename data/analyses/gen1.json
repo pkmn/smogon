@@ -17,7 +17,7 @@
     "nc1997": {"sets": {"Status Support": {}}}
   },
   "Charmander": {"lc": {"sets": {"Mixed Attacker": {}}}, "petitcup": {"sets": {"Slash": {}, "Swords Dance": {}}}, "lclevel100": {"sets": {"Slash": {}}}},
-  "Charmeleon": {"middlecup": {"sets": {"Slash": {}}}},
+  "Charmeleon": {"zu": {"sets": {"Mixed Attacker": {"description": "<p>Other Options: Seismic Toss, Submission</p>"}}}, "middlecup": {"sets": {"Slash": {}}}},
   "Charizard": {
     "ou": {
       "overview": "<p>Charizard is completely unviable in RBY OU, being outclassed by fellow Fire / Flying type Pokemon Moltres in almost every way. Moltres packs a higher Special stat and Agility, making it a more powerful threat better suited for the OU metagame. Charizard finds itself overwhelmed by common Water-types like Starmie, Slowbro, and Cloyster, and there's very little it can do in return. Additionally, while Swords Dance could make you assume it has some sort of niche, many better Swords Dance users exist such as Kingler, Kabutops, and Sandslash. The only benefits to using Charizard over Moltres are its base 100 Speed, Swords Dance, and Slash. +2 Hyper Beam or Earthquake can threaten most Pokemon, but it's difficult to use Swords Dance due to the omnipresence of Thunder Wave users like Alakazam and Starmie, and being paralyzed makes Charizard's fragility much more apparent. Its weaknesses to common attacking types leave it 2HKOed by Starmie, Slowbro, Zapdos, Jolteon, most Blizzards, and Gengar, as well as OHKOed by Rhydon and Golem. While Charizard is explosive after setting up, it just requires too much support and risk compared to its reward.</p>",
@@ -34,7 +34,7 @@
   },
   "Squirtle": {"lc": {"sets": {"Special Attacker": {}}}, "petitcup": {"sets": {"Bulky Attacker": {}}}, "lclevel100": {"sets": {"Bulky Attacker": {}}}},
   "Wartortle": {"middlecup": {"sets": {"Mixed Attacker": {}}}},
-  "Blastoise": {"nu": {"sets": {"Don't Use Blastoise": {"description": "<p>Other Options: Earthquake, Rest, Counter</p>"}}}, "nc1999": {"sets": {"Bulky Attacker": {}}}, "nc1997": {"sets": {"Dig": {}}}},
+  "Blastoise": {"nu": {"sets": {"Bulky Attacker": {"description": "<p>Other Options: Rest, Counter</p>"}}}, "nc1999": {"sets": {"Bulky Attacker": {}}}, "nc1997": {"sets": {"Dig": {}}}},
   "Caterpie": {"lc": {"sets": {"\"Support\"": {"description": "<p>Sample \"set.\"</p>"}}}},
   "Butterfree": {"zu": {"sets": {"Double Powder": {}}}},
   "Weedle": {"lc": {"sets": {"\"Support\"": {"description": "<p>Sample \"set.\"</p>"}}}},
@@ -1058,7 +1058,8 @@
         }
       },
       "credits": {"writtenBy": [{"user_id": 530877, "username": "Volk"}, {"user_id": 233818, "username": "Enigami"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 236353, "username": "Plague von Karma"}, {"user_id": 265630, "username": "Amaranth"}]}, {"name": "Grammar checked by", "members": [{"user_id": 517429, "username": "Adeleine"}]}]}
-    }
+    },
+    "nu": {"sets": {"Support": {"description": "<p>Other Options: Thunderbolt</p>"}}}
   },
   "Omanyte": {"lc": {"sets": {"Special Attacker": {}}}, "petitcup": {"sets": {"Reflect + Rest": {}}}, "lclevel100": {"sets": {"Reflect + Rest": {}}}, "zu": {"sets": {"Defensive": {"description": "<p>Other Options: Reflect, Substitute, Hydro Pump</p>"}}}},
   "Omastar": {

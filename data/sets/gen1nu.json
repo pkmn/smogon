@@ -1,7 +1,7 @@
 {
   "Venusaur": {"Sleeper": {"moves": ["Sleep Powder", "Razor Leaf", ["Body Slam", "Swords Dance"], ["Hyper Beam", "Swords Dance"]]}},
   "Charizard": {"Swords Dance": {"moves": ["Swords Dance", "Hyper Beam", "Earthquake", ["Fire Blast", "Body Slam"]]}, "Mixed Attacker": {"moves": ["Fire Blast", "Slash", "Earthquake", ["Body Slam", "Counter"]]}},
-  "Blastoise": {"Don't Use Blastoise": {"moves": ["Surf", "Blizzard", "Body Slam", "Seismic Toss"]}},
+  "Blastoise": {"Bulky Attacker": {"moves": ["Surf", "Body Slam", "Seismic Toss", ["Blizzard", "Earthquake"]]}},
   "Raticate": {"Offensive": {"moves": ["Body Slam", "Hyper Beam", "Blizzard", ["Super Fang", "Thunderbolt"]]}},
   "Fearow": {"Offensive": {"moves": ["Double-Edge", "Hyper Beam", "Drill Peck", "Agility"]}},
   "Nidoking": {"Mixed Attacker": {"moves": ["Earthquake", "Blizzard", ["Thunderbolt", "Rock Slide"], ["Substitute", "Rock Slide"]]}},
@@ -24,6 +24,7 @@
   "Seadra": {"Agility": {"moves": ["Agility", "Surf", "Blizzard", "Hydro Pump"]}, "Smokescreen + Rest": {"moves": ["Agility", "Surf", "Smokescreen", "Rest"]}},
   "Mr. Mime": {"Support": {"moves": ["Thunder Wave", "Psychic", "Thunderbolt", "Seismic Toss"]}},
   "Vaporeon": {"Defensive": {"moves": ["Surf", "Body Slam", "Blizzard", ["Rest", "Sand Attack"]]}, "Acid Armor": {"moves": ["Surf", "Acid Armor", ["Body Slam", "Blizzard", "Ice Beam"], "Rest"]}},
+  "Porygon": {"Support": {"moves": ["Thunder Wave", "Recover", "Double-Edge", "Blizzard"]}},
   "Omastar": {"Defensive": {"moves": [["Hydro Pump", "Surf"], "Blizzard", "Seismic Toss", "Body Slam"]}},
   "Kabutops": {"Bulky Attacker": {"moves": ["Slash", "Surf", ["Swords Dance", "Body Slam"], "Hyper Beam"]}},
   "Aerodactyl": {"Don't use Aerodactyl": {"moves": ["Double-Edge", "Hyper Beam", "Fire Blast", "Substitute"]}}
