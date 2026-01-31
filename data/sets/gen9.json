@@ -2922,13 +2922,7 @@
     "nu": {"Wallbreaker": {"moves": ["Sucker Punch", "Close Combat", "Seed Bomb", ["Crunch", "Thief"]], "item": "Booster Energy", "nature": "Adamant", "evs": {"hp": 92, "atk": 252, "spe": 164}, "teratypes": ["Dark", "Poison"]}}
   },
   "Flutter Mane": {
-    "monotype": {
-      "Choice Specs (Ghost)": {"moves": ["Moonblast", "Shadow Ball", "Thunderbolt", "Power Gem"], "item": "Choice Specs", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}},
-      "Choice Specs (Fairy)": {"moves": ["Moonblast", "Shadow Ball", ["Mystical Fire", "Psyshock"], ["Thunderbolt", "Energy Ball"]], "item": "Choice Specs", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}},
-      "Choice Scarf (Ghost)": {"moves": ["Moonblast", "Shadow Ball", ["Mystical Fire", "Psyshock"], ["Thunderbolt", "Energy Ball"]], "item": "Choice Scarf", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}},
-      "Bulky Choice Specs (Fairy)": {"moves": ["Moonblast", "Shadow Ball", ["Psyshock", "Mystical Fire", "Energy Ball"], "Thunderbolt"], "item": "Choice Specs", "nature": "Timid", "ivs": {"atk": 0}, "evs": {"hp": 32, "def": 216, "spa": 44, "spe": 216}},
-      "All-Out Attacker (Fairy)": {"moves": ["Shadow Ball", "Moonblast", "Energy Ball", "Thunderbolt"], "item": "Heavy-Duty Boots", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}
-    },
+    "monotype": {"Choice Specs (Ghost)": {"moves": ["Moonblast", "Shadow Ball", "Thunderbolt", "Power Gem"], "item": "Choice Specs", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}, "Choice Specs (Fairy)": {"moves": ["Moonblast", "Shadow Ball", ["Mystical Fire", "Psyshock"], ["Thunderbolt", "Energy Ball"]], "item": "Choice Specs", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}, "Choice Scarf (Ghost)": {"moves": ["Moonblast", "Shadow Ball", ["Mystical Fire", "Psyshock"], ["Thunderbolt", "Energy Ball"]], "item": "Choice Scarf", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}}, "Bulky Choice Specs (Fairy)": {"moves": ["Moonblast", "Shadow Ball", ["Psyshock", "Mystical Fire", "Energy Ball"], "Thunderbolt"], "item": "Choice Specs", "nature": "Timid", "ivs": {"atk": 0}, "evs": {"hp": 32, "def": 216, "spa": 44, "spe": 216}}},
     "vgc2025": {"Glass Cannon": {"moves": ["Shadow Ball", "Moonblast", "Icy Wind", ["Protect", "Taunt"]], "item": "Focus Sash", "nature": "Timid", "ivs": {"atk": 0}, "evs": {"hp": 4, "spa": 252, "spe": 252}, "teratypes": ["Normal", "Fairy", "Stellar"]}},
     "vgc2024": {
       "Offensive Speed Control": {"moves": ["Moonblast", ["Shadow Ball", "Thunder Wave"], "Icy Wind", "Protect"], "item": "Booster Energy", "nature": "Timid", "evs": {"hp": 244, "def": 132, "spa": 4, "spd": 4, "spe": 124}, "teratypes": "Fairy"},
@@ -3245,9 +3239,9 @@
       "Choice Scarf": {"moves": ["Knock Off", "Steam Eruption", "Clanging Scales", "Flip Turn"], "item": "Choice Scarf", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}},
       "Substitute": {"moves": [["Hydro Steam", "Scald"], ["Spacial Rend", "Fickle Beam"], "Knock Off", "Substitute"], "item": "Leftovers", "nature": "Timid", "evs": {"hp": 4, "spa": 244, "spd": 8, "spe": 252}}
     },
-    "godlygift": {"Choice Specs (SpA, Spe)": {"moves": ["Hydro Steam", "Draco Meteor", "Flamethrower", "Flip Turn"], "item": "Choice Specs", "nature": "Timid", "evs": {"spa": 244, "spd": 12, "spe": 252}, "teratypes": "Water"}},
     "ubers": {"Wallbreaker": {"moves": ["Hydro Steam", "Draco Meteor", "Flamethrower", "Dragon Pulse"], "item": "Choice Specs", "nature": ["Modest", "Timid"], "evs": {"def": 4, "spa": 252, "spe": 252}, "teratypes": ["Water", "Fairy", "Steel"]}},
     "ou": {"Sun Wallbreaker": {"moves": ["Hydro Steam", "Draco Meteor", ["Flamethrower", "Weather Ball"], ["Dragon Pulse", "Flip Turn"]], "item": "Choice Specs", "nature": ["Timid", "Modest"], "evs": [{"hp": 12, "spa": 244, "spe": 252}, {"spa": 252, "spd": 4, "spe": 252}], "teratypes": ["Water", "Fairy"]}, "Boots Attacker": {"moves": ["Surf", "Draco Meteor", "Knock Off", "Flip Turn"], "item": "Heavy-Duty Boots", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": ["Water", "Fairy"]}},
+    "godlygift": {"Choice Specs (SpA, Spe)": {"moves": ["Hydro Steam", "Draco Meteor", "Flamethrower", "Flip Turn"], "item": "Choice Specs", "nature": "Timid", "evs": {"spa": 244, "spd": 12, "spe": 252}, "teratypes": "Water"}},
     "doublesou": {"Sun Attacker": {"moves": ["Hydro Steam", "Draco Meteor", "Flamethrower", ["Protect", "Dragon Pulse"]], "item": ["Life Orb", "Choice Specs"], "nature": "Timid", "evs": {"spa": 244, "spd": 12, "spe": 252}, "teratypes": ["Fairy", "Dragon", "Water"]}},
     "nationaldexmonotype": {"Choice Specs (Water)": {"moves": ["Draco Meteor", ["Hydro Pump", "Hydro Steam"], ["Flip Turn", "Scald", "Hydro Steam"], "Flamethrower"], "item": "Choice Specs", "nature": "Timid", "evs": {"hp": 12, "spa": 244, "spe": 252}}}
   },
