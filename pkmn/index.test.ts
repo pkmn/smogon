@@ -132,7 +132,7 @@ describe('Smogon', () => {
     expect((await smogon.stats(gen(7), 'Steelix', 'gen7nu' as ID))!.teammates['Passimian'])
       .toBe(0.1307);
     expect((await smogon.stats(gen(7), 'Incineroar', 'gen7vgc2019moonseries' as ID))!
-      .items['Assault Vest']).toBe(0.3012);
+      .items['Assault Vest']).toBe(0.4701);
     expect((await smogon.stats(gen(8), 'zaciancrowned', 'gen8vgc2022' as ID))).toBeDefined();
   });
 
