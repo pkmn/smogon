@@ -67,10 +67,10 @@ const FORMATS = {
   // BSD + DW deciding to go rogue. VGC 22 Series 13 -> "BSD" Series 13 = BSD
   vgc22series13: 'battlestadiumdoubles', battlestadiumdoubles: 'battlestadiumdoubles',
   // VGC
-  vgc11: 'vgc2011', vgc12: 'vgc2012', vgc14: 'vgc2014', vgc15: 'vgc2015', vgc16: 'vgc2016',
-  vgc17: 'vgc2017', vgc18: 'vgc2018', vgc19: 'vgc2019', vgc20: 'vgc2020', vgc21: 'vgc2021',
-  vgc22: 'vgc2022', vgc23series1: 'vgc2023', vgc23series2: 'vgc2023', vgc23series3: 'vgc2023',
-  vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023',
+  vgc09: 'vgc2009', vgc11: 'vgc2011', vgc12: 'vgc2012', vgc14: 'vgc2014', vgc15: 'vgc2015',
+  vgc16: 'vgc2016', vgc17: 'vgc2017', vgc18: 'vgc2018', vgc19: 'vgc2019', vgc20: 'vgc2020',
+  vgc21: 'vgc2021', vgc22: 'vgc2022', vgc23series1: 'vgc2023', vgc23series2: 'vgc2023',
+  vgc23series3: 'vgc2023', vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023',
   vgc24regulationf: 'vgc2024', vgc24regulationg: 'vgc2024', vgc24regulationh: 'vgc2024',
   vgc25regulationf: 'vgc2025', vgc25regulationg: 'vgc2025', vgc25regulationh: 'vgc2025',
   vgc25regulationi: 'vgc2025',
