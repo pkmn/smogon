@@ -5,6 +5,7 @@
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "ignoreDeprecations": "6.0",
     "incremental": true,
     "lib": ["es2016"],
     "module": "commonjs",
@@ -14,6 +15,8 @@
     "sourceMap": true,
     "strict": true,
     "target": "es2017",
-    "tsBuildInfoFile": ".tsbuildinfo"
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "types": ["jest", "node"]
+    
   }
 }
