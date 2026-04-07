@@ -92,10 +92,8 @@
   },
   "Great Tusk": {
     "Speed Booster": {"moves": ["Headlong Rush", "Close Combat", "Bulk Up", ["Megahorn", "Knock Off", "Ice Spinner", "Taunt"]], "item": "Booster Energy", "nature": "Jolly", "evs": {"hp": 204, "atk": 4, "spd": 48, "spe": 252}},
-    "Choice Band": {"moves": ["Earthquake", "Close Combat", ["Supercell Slam", "Megahorn", "Ice Spinner", "Temper Flare"], ["Heavy Slam", "Megahorn", "Ice Spinner", "Temper Flare"]], "item": "Choice Band", "nature": ["Adamant", "Jolly"], "evs": {"atk": 252, "spd": 4, "spe": 252}, "teratypes": "Ground"},
-    "Bulky Choice Band": {"moves": ["Earthquake", "Close Combat", "Head Smash", ["Heavy Slam", "Supercell Slam", "Ice Spinner", "Temper Flare"]], "item": "Choice Band", "nature": "Impish", "evs": {"hp": 128, "atk": 200, "def": 140, "spe": 40}, "teratypes": "Ground"},
+    "Choice Band": {"moves": [["Headlong Rush", "Earthquake"], "Close Combat", "Megahorn", ["Ice Spinner", "Supercell Slam", "Heavy Slam"]], "item": "Choice Band", "nature": "Adamant", "evs": {"hp": 16, "atk": 200, "def": 132, "spe": 160}},
     "Booster Energy (Attack)": {"moves": ["Close Combat", "Headlong Rush", "Knock Off", ["Bulk Up", "Taunt", "Rock Tomb", "Megahorn", "Ice Spinner"]], "item": "Booster Energy", "nature": "Jolly", "evs": {"atk": 140, "spd": 116, "spe": 252}, "teratypes": "Ground"},
-    "Choice Scarf": {"moves": ["Earthquake", "Close Combat", "Head Smash", ["Knock Off", "Megahorn", "Ice Spinner", "Heavy Slam"]], "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}, "teratypes": "Ground"},
     "Booster Energy (Speed)": {"moves": ["Headlong Rush", "Close Combat", "Bulk Up", ["Knock Off", "Taunt", "Megahorn", "Ice Spinner", "Head Smash", "Heavy Slam"]], "item": "Booster Energy", "nature": "Jolly", "evs": {"hp": 144, "spd": 112, "spe": 252}, "teratypes": "Ground"},
     "Assault Vest": {"moves": ["Close Combat", "Earthquake", ["Heavy Slam", "Knock Off", "Rock Tomb", "Head Smash", "Temper Flare", "Play Rough", "Ice Spinner"], ["Megahorn", "Knock Off", "Rock Tomb", "Head Smash", "Temper Flare", "Play Rough", "Ice Spinner"]], "item": "Assault Vest", "nature": "Careful", "evs": {"hp": 248, "spd": 252, "spe": 8}, "teratypes": "Ground"}
   },
