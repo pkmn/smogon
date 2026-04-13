@@ -122,7 +122,7 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
 
         if (usage) {
           // https://www.smogon.com/stats/2016-10/cap-*.txt is invalid and doesn't match... *sigh*
-          const m = (await usage.text()).match(/^ Total battles: (.*)/);
+          const m = (await usage.text()).match(/^(?: )?Total battles: (.*)/);
           if (m) formats[format][date] = Number(m[1]);
         }
       }
