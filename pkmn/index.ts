@@ -268,7 +268,7 @@ export class Smogon {
           analysis.sets[setName] = {
             description: a.sets[setName].description,
             ...set,
-          } as Moveset & {description?: string};
+          };
         }
       }
 
