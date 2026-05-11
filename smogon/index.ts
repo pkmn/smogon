@@ -76,7 +76,9 @@ export interface MovesetStatistics {
   // n = sum(POKE1_KOED...DOUBLE_SWITCH)
   // p = POKE1_KOED + POKE1_SWITCHED_OUT / n
   // d = sqrt((p * (1 - p)) / n)
-  'Checks and Counters': {[pokemon: string]: [number, number, number]};
+  'Checks and Counters': {[pokemon: string]:
+    [number, number, number] | {n: number; p: number; d: number};
+  };
 }
 
 interface DexSettings {
