@@ -53,7 +53,7 @@
   "Whimsicott": {"Choice Specs": {"moves": ["Moonblast", "Energy Ball", "Shadow Ball", ["Switcheroo", "U-turn"]], "ability": ["Prankster", "Infiltrator"], "item": "Choice Specs", "nature": "Timid", "ivs": {"atk": 0}, "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": "Fairy"}},
   "Scrafty": {"Bulk Up": {"moves": ["Bulk Up", "Knock Off", "Drain Punch", "Rest"], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 248, "spd": 240, "spe": 20}, "teratypes": ["Poison", "Fairy"]}, "Dragon Dance": {"moves": ["Dragon Dance", "Knock Off", "Drain Punch", ["Poison Jab", "Encore"]], "item": "Leftovers", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}, "teratypes": ["Poison", "Fairy"]}},
   "Zoroark": {
-    "Choice Specs": {"moves": ["Dark Pulse", "Sludge Bomb", "Trick", ["Focus Blast", "U-turn"]], "item": "Choice Specs", "nature": "Timid", "ivs": {"atk": 0}, "evs": {"def": 4, "spa": 252, "spe": 252}, "teratypes": ["Dark", "Poison", "Fighting"]},
+    "Choice Specs": {"moves": ["Dark Pulse", "Sludge Bomb", ["Flamethrower", "Focus Blast"], "Grass Knot"], "item": "Choice Specs", "nature": "Timid", "ivs": {"atk": 0}, "evs": {"def": 4, "spa": 252, "spe": 252}, "teratypes": ["Dark", "Poison", "Fighting"]},
     "Choice Scarf": {"moves": ["Knock Off", "U-turn", "Trick", "Low Kick"], "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}, "teratypes": ["Dark", "Fighting"]},
     "Choice Band": {"moves": ["Knock Off", "U-turn", "Trick", "Sucker Punch"], "item": "Choice Band", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}, "teratypes": "Dark"},
     "Nasty Plot": {"moves": ["Nasty Plot", "Dark Pulse", "Sludge Bomb", ["Flamethrower", "Focus Blast"]], "item": "Life Orb", "nature": "Timid", "evs": {"spa": 252, "spd": 4, "spe": 252}, "teratypes": ["Dark", "Poison", "Ghost"]},
@@ -68,7 +68,7 @@
   "Florges": {
     "Choice Scarf": {"moves": ["Moonblast", "Synthesis", "Trick", ["Calm Mind", "Psychic Noise", "Psychic", "Wish"]], "item": "Choice Scarf", "nature": "Timid", "ivs": {"atk": 0}, "evs": [{"def": 4, "spa": 252, "spe": 252}, {"hp": 252, "def": 24, "spe": 232}], "teratypes": ["Fairy", "Poison"]},
     "Calm Mind": {"moves": ["Calm Mind", "Moonblast", ["Psychic Noise", "Wish"], "Synthesis"], "item": ["Covert Cloak", "Heavy-Duty Boots", "Leftovers"], "nature": "Bold", "ivs": {"atk": 0}, "evs": {"hp": 252, "def": 160, "spe": 96}, "teratypes": ["Poison", "Water"]},
-    "Choice Specs": {"moves": ["Moonblast", "Trick", ["Psychic", "Psychic Noise"], ["Synthesis", "Draining Kiss"]], "item": "Choice Specs", "nature": ["Modest", "Timid"], "ivs": {"atk": 0}, "evs": {"def": 4, "spa": 252, "spe": 252}, "teratypes": "Fairy"},
+    "Choice Specs": {"moves": ["Moonblast", "Trick", "Psychic Noise", ["Synthesis", "Draining Kiss"]], "item": "Choice Specs", "nature": "Modest", "evs": {"def": 4, "spa": 252, "spe": 252}, "teratypes": "Fairy"},
     "Wish": {"moves": ["Wish", ["Synthesis", "Protect"], "Moonblast", "Psychic Noise"], "item": ["Heavy-Duty Boots", "Leftovers"], "nature": "Timid", "ivs": {"atk": 0}, "evs": {"hp": 252, "def": 200, "spe": 56}, "teratypes": "Poison"}
   },
   "Malamar": {"Contrary RestTalk": {"moves": ["Rest", "Sleep Talk", "Knock Off", "Superpower"], "item": ["Leftovers", "Heavy-Duty Boots"], "nature": "Careful", "evs": {"hp": 252, "spd": 188, "spe": 68}, "teratypes": ["Poison", "Fighting", "Steel"]}},
