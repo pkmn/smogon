@@ -79,8 +79,13 @@ describe('Smogon', () => {
       expect(clefable[0].sets['Support'].moves[0]).toEqual(['Ice Beam', 'Encore']);
       expect((await smogon.analyses(gen(8), 'Incineroar', 'gen8vgc2021series10' as ID))[0].format)
         .toBe('gen8vgc2021series10');
-      const garchomp = await smogon.analyses(gen(9), 'Garchomp', 'ou' as ID, true);
-      expect(garchomp[0].format).toBe('ou');
+
+      const garchomp = await smogon.analyses(gen(9), 'Garchomp', 'championsou' as ID);
+      expect(garchomp[0].format).toBe('championsou');
+      const charizard = await smogon.analyses(gen(9), 'Charizard', 'championsvgc2026regmb' as ID);
+      expect(charizard[0].format).toBe('championsvgc2026regmb');
+      const aerodactyl = await smogon.analyses(gen(9), 'Aerodactyl', 'championsvgc2026' as ID);
+      expect(aerodactyl[0].format).toBe('championsvgc2026');
     });
 
     test(`sets (minimal=${minimal.toString()})`, async () => {
@@ -122,6 +127,13 @@ describe('Smogon', () => {
 
       expect((await smogon.sets(gen(8), 'Incineroar', 'gen8vgc2021fooseries' as ID))[0].name)
         .toBe('Utility');
+
+      expect((await smogon.sets(gen(9), 'Garchomp', 'championsvgc2026' as ID))[0].name)
+        .toBe('Fast Attacker');
+      expect((await smogon.sets(gen(9), 'Garchomp', 'championsvgc2026regfoo' as ID))[0].name)
+        .toBe('Fast Attacker');
+      expect((await smogon.sets(gen(9), 'Garchomp', 'championsou' as ID))[0].name)
+        .toBe('Mixed Attacker');
     });
   }
 
@@ -136,6 +148,9 @@ describe('Smogon', () => {
     expect((await smogon.stats(gen(7), 'Incineroar', 'gen7vgc2019moonseries' as ID))!
       .items['Assault Vest']).toBe(0.4701);
     expect((await smogon.stats(gen(8), 'zaciancrowned', 'gen8vgc2022' as ID))).toBeDefined();
+    expect((await smogon.stats(gen(9), 'garchomp', 'championsvgc2026' as ID))).toBeDefined();
+    expect((await smogon.stats(gen(9), 'aerodactyl', 'championsvgc2026regmb' as ID))).toBeDefined();
+    expect((await smogon.stats(gen(9), 'corviknight', undefined, true))).toBeDefined();
   });
 
   test('teams', async () => {

@@ -75,7 +75,7 @@ const FORMATS = {
   vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023', vgc24regulationf: 'vgc2024',
   vgc24regulationg: 'vgc2024', vgc24regulationh: 'vgc2024', vgc25regulationf: 'vgc2025',
   vgc25regulationg: 'vgc2025', vgc25regulationh: 'vgc2025', vgc25regulationi: 'vgc2025',
-  vgc26regulationma: 'championsvgc2026regma', vgc26regulationmb: 'championsvgc2026regmb',
+  vgc26regulationma: 'vgc2026', vgc26regulationmb: 'vgc2026',
   vgc: 'vgc2025',
   // RBwhY?
   nintendocup1997: 'nc1997', nintendocup1998: 'nc1998', nintendocup1999: 'nc1999',
@@ -179,6 +179,7 @@ function importStrategies(dex, gen, species, strategies) {
       throw new Error(`Unknown format: ${format} (${tier}) for gen ${gen} ${species.name}`);
     }
     format = format.slice(4); // trim gen<N> to save space (BUG)
+    if (format.startsWith('champions')) format = format.slice(9);
     const analyses = {};
     for (const ms of analysis.movesets) {
       const pokemon = dex.species.get(ms.pokemon);
