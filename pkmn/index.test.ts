@@ -79,6 +79,8 @@ describe('Smogon', () => {
       expect(clefable[0].sets['Support'].moves[0]).toEqual(['Ice Beam', 'Encore']);
       expect((await smogon.analyses(gen(8), 'Incineroar', 'gen8vgc2021series10' as ID))[0].format)
         .toBe('gen8vgc2021series10');
+      const garchomp = await smogon.analyses(gen(9), 'Garchomp', 'ou' as ID, true);
+      expect(garchomp[0].format).toBe('ou');
     });
 
     test(`sets (minimal=${minimal.toString()})`, async () => {

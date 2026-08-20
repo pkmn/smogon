@@ -100,7 +100,7 @@ interface DexDumpPokemonResponse {
   formeStrategies: {forme: string; strategies: Analysis[]}[];
 }
 
-const GENS = ['rb', 'gs', 'rs', 'dp', 'bw', 'xy', 'sm', 'ss', 'sv'];
+const GENS = ['champions', 'rb', 'gs', 'rs', 'dp', 'bw', 'xy', 'sm', 'ss', 'sv'];
 
 const PARSE_REGEX = /dexSettings = ({.*})/;
 
@@ -208,7 +208,7 @@ export const Analyses = new (class {
    * Returns Smogon's display representation of the given gen.
    */
   gen(gen: GenerationNum) {
-    return GENS[gen - 1];
+    return GENS[gen];
   }
 })();
 

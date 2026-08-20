@@ -40,7 +40,7 @@ const request = wrapr.retrying(wrapr.throttling(fetch, 5, 1000));
 const N = 1e4;
 
 const UNSUPPORTED = ['1v1', 'challengecup1vs1'];
-const SPECIAL = /(gen[789](?:vgc20(?:19|2\d)|battlestadium(?:singles|doubles)))(.*)/;
+const SPECIAL = /(gen[789](?:champions)?(?:vgc20(?:19|2\d)|bss|battlestadium(?:singles|doubles)))(.*)/;
 
 async function convert(format, date) {
   const leads = !stats.isNonSinglesFormat(format) && !UNSUPPORTED.includes(format);
@@ -73,7 +73,8 @@ const DATA = path.resolve(__dirname, '../data');
 const SUPPORTED = new Set(['gen8battlestadiumdoubles']);
 for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
   if (file === 'index.json' || /gen\d.json/.test(file) || file.endsWith('nfe.json')) continue;
-  const format = file.slice(0, file.indexOf('.'));
+  let format = file.slice(0, file.indexOf('.'));
+  if (format.startsWith('champions')) format = `gen9${format}`;
   SUPPORTED.add(format);
   // TODO: Smogon doesn't have analyses for most Generation 9 formats, so just carry over
   if (format.startsWith('gen8')) SUPPORTED.add(`gen9${format.slice(4)}`);

@@ -227,7 +227,7 @@ export class Smogon {
    * Returns Analysis objects for the given Pokémon species and gen, optionally scoped to a
    * particular format.
    */
-  async analyses(gen: Generation, species: string | Specie, format?: ID) {
+  async analyses(gen: Generation, species: string | Specie, format?: ID, isChampions = false) {
     if (typeof species === 'string') {
       const s = gen.species.get(species);
       if (!s) return [];
@@ -238,14 +238,14 @@ export class Smogon {
     const original = format;
     if (format) format = this.baseFormat(format);
     const data = {
-      analyses: (await this.get('analyses', gen, format) as GenAnalyses)[name],
-      sets: (await this.get('sets', gen, format) as GenSets)[name],
+      analyses: (await this.get('analyses', gen, format, isChampions) as GenAnalyses)[name],
+      sets: (await this.get('sets', gen, format, isChampions) as GenSets)[name],
     };
     if (!data.analyses || !data.sets) return [];
 
     const result: Analysis[] = [];
     for (const tierid in data.analyses) {
-      const f = `gen${gen.num}${tierid}` as ID;
+      const f = isChampions ? tierid as ID : `gen${gen.num}${tierid}` as ID;
       if (format && f !== format) continue;
 
       const a = data.analyses[tierid];
@@ -282,7 +282,7 @@ export class Smogon {
    * Returns PokemonSet objects for the given Pokémon species and gen, optionally scoped to a
    * particular format.
    */
-  async sets(gen: Generation, species: string | Specie, format?: ID) {
+  async sets(gen: Generation, species: string | Specie, format?: ID, isChampions = false) {
     if (typeof species === 'string') {
       const s = gen.species.get(species);
       if (!s) return [];
@@ -291,7 +291,7 @@ export class Smogon {
 
     const name = this.name(gen, species);
     if (format) format = this.baseFormat(format);
-    const data = (await this.get('sets', gen, format) as GenSets)[name];
+    const data = (await this.get('sets', gen, format, isChampions) as GenSets)[name];
     if (!data) return [];
 
     // Hackmons allows for various Pokémon to be in their battle-only state.
@@ -301,7 +301,8 @@ export class Smogon {
 
     const sets = [];
     for (const tierid in data) {
-      if (format && `gen${gen.num}${tierid}` !== format) continue;
+      const f = isChampions ? tierid as ID : `gen${gen.num}${tierid}` as ID;
+      if (format && f !== format) continue;
       for (const setName in data[tierid]) {
         const set = this.toSet(species, data[tierid][setName], setName, speciesName);
         if (hackmons || this.match(species, set)) sets.push(this.fixIVs(gen, set));
@@ -368,17 +369,22 @@ export class Smogon {
   }
 
   // Fetch analysis or set data for a specific gen and cache the result.
-  private async get(type: 'sets' | 'analyses', gen: Generation, format?: ID) {
+  private async get(type: 'sets' | 'analyses', gen: Generation, format?: ID, isChampions = false) {
     let data = this.cache.gen[type][gen.num];
     if (!data) {
       if (this.minimal) {
+        if (isChampions) format = 'champions' + format;
+        const n = isChampions ? 9 : 4;
         if (format) {
           let d = this.cache.format[type][format] as any;
           if (!d) {
-            const response = await this.fetch(`${URL}/${type}/${format}.json`);
+            const url = isChampions
+              ? `${URL}/${type}/champions${format.slice(n)}.json`
+              : `${URL}/${type}/${format}.json`;
+            const response = await this.fetch(url);
             d = this.cache.format[type][format] = await response.json();
           }
-          const tierid = format.slice(4);
+          const tierid = format.slice(n);
           const result: GenAnalyses | GenSets = {};
           for (const species in d) result[species] = {[tierid]: d[species]};
           return result;
@@ -386,7 +392,7 @@ export class Smogon {
           const result: GenAnalyses | GenSets = {};
           for (const f in this.cache.format[type]) {
             const d = this.cache.format[type][f] as any;
-            const tierid = f.slice(4);
+            const tierid = f.slice(n);
             for (const species in d) {
               if (result[species]) {
                 result[species][tierid] = d[species];
@@ -398,7 +404,10 @@ export class Smogon {
           return result;
         }
       } else {
-        const response = await this.fetch(`${URL}/${type}/gen${gen.num}.json`);
+        const url = isChampions
+          ? `${URL}/${type}/champions.json`
+          : `${URL}/${type}/gen${gen.num}.json`;
+        const response = await this.fetch(url);
         data = this.cache.gen[type][gen.num] = await response.json();
       }
     }

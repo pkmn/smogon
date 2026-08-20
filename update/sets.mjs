@@ -53,6 +53,7 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
 const FORMATS = {
   ag: 'anythinggoes', nationaldexag: 'nationaldexag', nationaldexru: 'nationaldexru',
   nationaldexmonotype: 'nationaldexmonotype', lgpeou: 'letsgoou',
+  nationaldexagdlc1: 'dlc1nationaldexag', '2v2': '2v2doubles', inheritance: 'inheritance',
   bdspou: 'bdspou', bh: 'balancedhackmons', doubles: 'doublesou', uber: 'ubers',
   // NB: technically 'Farceus Uber' is different than Anything Goes...
   dwou: 'dreamworldou', zu: 'zu', nfe: 'nfe', farceusuber: 'anythinggoes', middlecup: 'middlecup',
@@ -74,6 +75,7 @@ const FORMATS = {
   vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023', vgc24regulationf: 'vgc2024',
   vgc24regulationg: 'vgc2024', vgc24regulationh: 'vgc2024', vgc25regulationf: 'vgc2025',
   vgc25regulationg: 'vgc2025', vgc25regulationh: 'vgc2025', vgc25regulationi: 'vgc2025',
+  vgc26regulationma: 'championsvgc2026regma', vgc26regulationmb: 'championsvgc2026regmb',
   vgc: 'vgc2025',
   // RBwhY?
   nintendocup1997: 'nc1997', nintendocup1998: 'nc1998', nintendocup1999: 'nc1999',
@@ -102,12 +104,13 @@ function eligible(gen, species) {
 
 (async () => {
   const index = {analyses: {}, sets: {}};
-  for (let gen = 1; gen <= 9; gen++) {
-    const dex = Dex.forGen(gen);
+  for (let gen = 0; gen <= 9; gen++) {
+    const psGen = gen === 0 ? 9 : gen;
+    const dex = Dex.forGen(psGen);
 
     const imports = [];
     for (const species of dex.species.all()) {
-      if (!eligible(gen, species)) continue;
+      if (!eligible(psGen, species)) continue;
       imports.push(importPokemon(dex, gen, species));
     }
 
@@ -119,7 +122,9 @@ function eligible(gen, species) {
         data.gen.analyses[name] = analyses;
         data.gen.sets[name] = sets;
         for (const tierid in analyses) {
-          const format = `gen${gen}${tierid}`;
+          const format = gen === 0
+            ? (tierid.startsWith('champions') ? tierid : `champions${tierid}`)
+            : `gen${psGen}${tierid}`;
           data.format.analyses[format] = data.format.analyses[format]  || {};
           data.format.analyses[format][name] = analyses[tierid];
           data.format.sets[format] = data.format.sets[format] || {};
@@ -128,10 +133,11 @@ function eligible(gen, species) {
       }
     }
 
-    index.analyses[`gen${gen}.json`] =
-      await serialize(data.gen.analyses, `analyses/gen${gen}.json`);
-    index.sets[`gen${gen}.json`] =
-      await serialize(data.gen.sets, `sets/gen${gen}.json`);
+    const genFname = gen === 0 ? `champions.json` : `gen${gen}.json`;
+    index.analyses[genFname] =
+      await serialize(data.gen.analyses, `analyses/${genFname}`);
+    index.sets[genFname] =
+      await serialize(data.gen.sets, `sets/${genFname}`);
     for (const format in data.format.analyses) {
       index.analyses[`${format}.json`] =
         await serialize(data.format.analyses[format], `analyses/${format}.json`);
@@ -153,6 +159,7 @@ function eligible(gen, species) {
 });
 
 function importStrategies(dex, gen, species, strategies) {
+  gen = gen === 0 ? 9 : gen;
   const imports = {};
   for (const analysis of strategies.sort((a, b) => {
     // Sort to ensure that outdated info for the same format comes second (and implicitly outdated
