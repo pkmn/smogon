@@ -184,10 +184,14 @@ const BANS = {
 };
 
 // eslint-disable-next-line max-len
-const SPECIAL = /(gen[789](?:vgc20(?:19|2\d)(reg(?:ulation)?[a-z])?|battlestadium(?:singles|doubles)|bs(?:s|d)))(.*)/;
+const SPECIAL = /((?:gen[789]|champions)(?:vgc20(?:19|2\d)(reg(?:ulation)?[a-z])?|battlestadium(?:singles|doubles)|bs(?:s|d)))(.*)/;
 const TRANSLATE = {
   'gen8bss': 'gen8battlestadiumsingles',
   'gen8bsd': 'gen8battlestadiumdoubles',
+  'gen9bss': 'gen9battlestadiumsingles',
+  'gen9bsd': 'gen9battlestadiumdoubles',
+  'championsbss': 'championsbattlestadiumsingles',
+  'championsbsd': 'championsbattlestadiumdoubles',
 };
 
 /**
@@ -245,7 +249,8 @@ export class Smogon {
 
     const result: Analysis[] = [];
     for (const tierid in data.analyses) {
-      const f = `gen${gen.num}${tierid}` as ID;
+      const f = format?.startsWith('champions')
+        ? `champions${tierid}` as ID : `gen${gen.num}${tierid}` as ID;
       if (format && f !== format) continue;
 
       const a = data.analyses[tierid];
@@ -301,7 +306,9 @@ export class Smogon {
 
     const sets = [];
     for (const tierid in data) {
-      if (format && `gen${gen.num}${tierid}` !== format) continue;
+      const f = format?.startsWith('champions')
+        ? `champions${tierid}` as ID : `gen${gen.num}${tierid}` as ID;
+      if (format && f !== format) continue;
       for (const setName in data[tierid]) {
         const set = this.toSet(species, data[tierid][setName], setName, speciesName);
         if (hackmons || this.match(species, set)) sets.push(this.fixIVs(gen, set));
@@ -324,7 +331,13 @@ export class Smogon {
       species = s;
     }
 
-    format = this.baseFormat((format || Smogon.format(gen, species))!);
+    if (format === 'champions') {
+      // BUG: this should be the Champions-specific usage tier
+      format = 'gen9championsou' as ID;
+    } else {
+      format = this.baseFormat((format || Smogon.format(gen, species))!);
+      if (format.startsWith('champions')) format = `gen9${format}` as ID;
+    }
 
     let stats = this.cache.format.stats[format];
     if (!stats) {
@@ -364,21 +377,24 @@ export class Smogon {
     const m = SPECIAL.exec(format);
     if (!m) return format;
     const id = (TRANSLATE[m[1] as keyof typeof TRANSLATE] || m[1]) as ID;
-    return m[2] ? id.slice(0, 11) as ID : id;
+    const n = format.startsWith('champions') ? 16 : 11;
+    return m[2] ? id.slice(0, n) as ID : id;
   }
 
   // Fetch analysis or set data for a specific gen and cache the result.
   private async get(type: 'sets' | 'analyses', gen: Generation, format?: ID) {
-    let data = this.cache.gen[type][gen.num];
+    const num = format?.startsWith('champions') ? 0 : gen.num;
+    let data = this.cache.gen[type][num];
     if (!data) {
       if (this.minimal) {
-        if (format) {
+        const n = num === 0 ? 9 : 4;
+        if (format && format !== 'champions') {
           let d = this.cache.format[type][format] as any;
           if (!d) {
             const response = await this.fetch(`${URL}/${type}/${format}.json`);
             d = this.cache.format[type][format] = await response.json();
           }
-          const tierid = format.slice(4);
+          const tierid = format.slice(n);
           const result: GenAnalyses | GenSets = {};
           for (const species in d) result[species] = {[tierid]: d[species]};
           return result;
@@ -386,7 +402,7 @@ export class Smogon {
           const result: GenAnalyses | GenSets = {};
           for (const f in this.cache.format[type]) {
             const d = this.cache.format[type][f] as any;
-            const tierid = f.slice(4);
+            const tierid = f.slice(n);
             for (const species in d) {
               if (result[species]) {
                 result[species][tierid] = d[species];
@@ -398,8 +414,9 @@ export class Smogon {
           return result;
         }
       } else {
-        const response = await this.fetch(`${URL}/${type}/gen${gen.num}.json`);
-        data = this.cache.gen[type][gen.num] = await response.json();
+        const name = num === 0 ? 'champions' : `gen${num}`;
+        const response = await this.fetch(`${URL}/${type}/${name}.json`);
+        data = this.cache.gen[type][num] = await response.json();
       }
     }
     return data;

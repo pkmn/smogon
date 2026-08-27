@@ -40,7 +40,15 @@ const request = wrapr.retrying(wrapr.throttling(fetch, 5, 1000));
 const N = 1e4;
 
 const UNSUPPORTED = ['1v1', 'challengecup1vs1'];
-const SPECIAL = /(gen[789](?:vgc20(?:19|2\d)|battlestadium(?:singles|doubles)))(.*)/;
+const SPECIAL = /(gen[789](?:champions)?(?:vgc20(?:19|2\d)|bss|battlestadium(?:singles|doubles)))(.*)/;
+const TRANSLATE = {
+  gen8bss: 'gen8battlestadiumsingles',
+  gen8bsd: 'gen8battlestadiumdoubles',
+  gen9bss: 'gen9battlestadiumsingles',
+  gen9bsd: 'gen9battlestadiumdoubles',
+  gen9championsbss: 'gen9championsbattlestadiumsingles',
+  gen9championsbsd: 'gen9championsbattlestadiumdoubles',
+};
 
 async function convert(format, date) {
   const leads = !stats.isNonSinglesFormat(format) && !UNSUPPORTED.includes(format);
@@ -72,8 +80,9 @@ const DATA = path.resolve(__dirname, '../data');
 // NOTE: Smogon doesn't have any analyses for this but we still consider it a supported format
 const SUPPORTED = new Set(['gen8battlestadiumdoubles']);
 for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
-  if (file === 'index.json' || /gen\d.json/.test(file) || file.endsWith('nfe.json')) continue;
-  const format = file.slice(0, file.indexOf('.'));
+  if (file === 'index.json' || file === 'champions.json' || /gen\d\.json/.test(file) || file.endsWith('nfe.json')) continue;
+  let format = file.slice(0, file.indexOf('.'));
+  if (format.startsWith('champions')) format = `gen9${format}`;
   SUPPORTED.add(format);
   // TODO: Smogon doesn't have analyses for most Generation 9 formats, so just carry over
   if (format.startsWith('gen8')) SUPPORTED.add(`gen9${format.slice(4)}`);
@@ -107,7 +116,7 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
     const page = await (await request(`${smogon.Statistics.URL}${date}/`)).text();
 
     for (const line of page.split('\n')) {
-      const m = line.match(/<a href="(.*)-\d+.txt"/);
+      const m = line.match(/<a href="(.*)-\d+\.txt(?:\.gz)?"/);
       if (m) {
         const format = smogon.Statistics.canonicalize(m[1]);
         if (formats[format] && typeof formats[format][date] === 'number') continue;
@@ -173,6 +182,20 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
     state.formats[format] = [total, i];
   }
 
+  for (const format in info) {
+    const best = Array.isArray(info[format][0]) ? info[format][1] : info[format];
+    if (best[1] < N) continue;
+    const m = SPECIAL.exec(format);
+    if (m) {
+      const target = TRANSLATE[m[1]] || m[1];
+      if (SUPPORTED.has(target) && !index[`${target}.json`]) {
+        special.add(m[1]);
+      }
+    } else if (SUPPORTED.has(format) && !index[`${format}.json`]) {
+      index[`${format}.json`] = await serialize(await convert(format, best[0]), `${format}.json`);
+    }
+  }
+
   const bests = {}; // base => [format, [best, count]];
   for (const format in info) {
     for (const s of special) {
@@ -193,7 +216,10 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
   for (const base in bests) {
     const format = bests[base][0];
     const date = bests[base][1][0];
-    index[`${base}.json`] = await serialize(await convert(format, date), `${base}.json`);
+    const target = TRANSLATE[base] || base;
+    if (SUPPORTED.has(target)) {
+      index[`${target}.json`] = await serialize(await convert(format, date), `${target}.json`);
+    }
   }
 
   let sorted = {};

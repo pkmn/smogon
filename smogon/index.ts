@@ -125,14 +125,14 @@ export const Analyses = new (class {
    * Returns the Analysis URL for a given pokemon and gen.
    * @deprecated use Analyses.request
    */
-  url(pokemon: string, gen: GenerationNum = 9) {
+  url(pokemon: string, gen: GenerationNum | 'champions' = 9) {
     return `${Analyses.URL}${Analyses.gen(gen)}/pokemon/${toPokemonAlias(pokemon)}/`;
   }
 
   /**
    * Returns the Analysis RPC URL and request configuration for a given pokemon and gen.
    */
-  request(pokemon: string, gen: GenerationNum = 9, language = 'en') {
+  request(pokemon: string, gen: GenerationNum | 'champions' = 9, language = 'en') {
     return {
       url: `${Analyses.URL}${Analyses.RPC}`,
       init: {
@@ -207,8 +207,8 @@ export const Analyses = new (class {
   /**
    * Returns Smogon's display representation of the given gen.
    */
-  gen(gen: GenerationNum) {
-    return GENS[gen - 1];
+  gen(gen: GenerationNum | 'champions') {
+    return gen === 'champions' ? gen : GENS[gen - 1];
   }
 })();
 

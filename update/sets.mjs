@@ -53,6 +53,7 @@ for (const file of fs.readdirSync(path.join(DATA, 'sets'))) {
 const FORMATS = {
   ag: 'anythinggoes', nationaldexag: 'nationaldexag', nationaldexru: 'nationaldexru',
   nationaldexmonotype: 'nationaldexmonotype', lgpeou: 'letsgoou',
+  nationaldexagdlc1: 'dlc1nationaldexag', '2v2': '2v2doubles', inheritance: 'inheritance',
   bdspou: 'bdspou', bh: 'balancedhackmons', doubles: 'doublesou', uber: 'ubers',
   // NB: technically 'Farceus Uber' is different than Anything Goes...
   dwou: 'dreamworldou', zu: 'zu', nfe: 'nfe', farceusuber: 'anythinggoes', middlecup: 'middlecup',
@@ -67,13 +68,14 @@ const FORMATS = {
   // BSD + DW deciding to go rogue. VGC 22 Series 13 -> "BSD" Series 13 = BSD
   vgc22series13: 'battlestadiumdoubles', battlestadiumdoubles: 'battlestadiumdoubles',
   // VGC
-  vgc09: 'vgc2009', vgc11: 'vgc2011', vgc12: 'vgc2012', vgc13: 'vgc2013', vgc14: 'vgc2014',
-  vgc15: 'vgc2015', vgc16: 'vgc2016', vgc17: 'vgc2017', vgc18: 'vgc2018', vgc19: 'vgc2019',
-  vgc20: 'vgc2020', vgc21: 'vgc2021', vgc22: 'vgc2022',
+  vgc09: 'vgc2009', vgc10: 'vgc2010', vgc11: 'vgc2011', vgc12: 'vgc2012', vgc13: 'vgc2013',
+  vgc14: 'vgc2014', vgc15: 'vgc2015', vgc16: 'vgc2016', vgc17: 'vgc2017', vgc18: 'vgc2018',
+  vgc19: 'vgc2019', vgc20: 'vgc2020', vgc21: 'vgc2021', vgc22: 'vgc2022',
   vgc23series1: 'vgc2023', vgc23series2: 'vgc2023', vgc23series3: 'vgc2023',
   vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023', vgc24regulationf: 'vgc2024',
   vgc24regulationg: 'vgc2024', vgc24regulationh: 'vgc2024', vgc25regulationf: 'vgc2025',
   vgc25regulationg: 'vgc2025', vgc25regulationh: 'vgc2025', vgc25regulationi: 'vgc2025',
+  vgc26regulationma: 'vgc2026', vgc26regulationmb: 'vgc2026',
   vgc: 'vgc2025',
   // RBwhY?
   nintendocup1997: 'nc1997', nintendocup1998: 'nc1998', nintendocup1999: 'nc1999',
@@ -102,13 +104,14 @@ function eligible(gen, species) {
 
 (async () => {
   const index = {analyses: {}, sets: {}};
-  for (let gen = 1; gen <= 9; gen++) {
+  for (let i = 0; i <= 9; i++) {
+    const gen = i === 0 ? 9 : i;
     const dex = Dex.forGen(gen);
 
     const imports = [];
     for (const species of dex.species.all()) {
       if (!eligible(gen, species)) continue;
-      imports.push(importPokemon(dex, gen, species));
+      imports.push(importPokemon(dex, i === 0 ? 'champions' : gen, species));
     }
 
     const data = {gen: {analyses: {}, sets: {}}, format: {analyses: {}, sets: {}}};
@@ -119,7 +122,9 @@ function eligible(gen, species) {
         data.gen.analyses[name] = analyses;
         data.gen.sets[name] = sets;
         for (const tierid in analyses) {
-          const format = `gen${gen}${tierid}`;
+          const format = i === 0
+            ? (tierid.startsWith('champions') ? tierid : `champions${tierid}`)
+            : `gen${gen}${tierid}`;
           data.format.analyses[format] = data.format.analyses[format]  || {};
           data.format.analyses[format][name] = analyses[tierid];
           data.format.sets[format] = data.format.sets[format] || {};
@@ -128,10 +133,11 @@ function eligible(gen, species) {
       }
     }
 
-    index.analyses[`gen${gen}.json`] =
-      await serialize(data.gen.analyses, `analyses/gen${gen}.json`);
-    index.sets[`gen${gen}.json`] =
-      await serialize(data.gen.sets, `sets/gen${gen}.json`);
+    const name = i === 0 ? `champions.json` : `gen${gen}.json`;
+    index.analyses[name] =
+      await serialize(data.gen.analyses, `analyses/${name}`);
+    index.sets[name] =
+      await serialize(data.gen.sets, `sets/${name}`);
     for (const format in data.format.analyses) {
       index.analyses[`${format}.json`] =
         await serialize(data.format.analyses[format], `analyses/${format}.json`);
@@ -153,6 +159,7 @@ function eligible(gen, species) {
 });
 
 function importStrategies(dex, gen, species, strategies) {
+  gen = gen === 'champions' ? 9 : gen;
   const imports = {};
   for (const analysis of strategies.sort((a, b) => {
     // Sort to ensure that outdated info for the same format comes second (and implicitly outdated
@@ -172,6 +179,7 @@ function importStrategies(dex, gen, species, strategies) {
       throw new Error(`Unknown format: ${format} (${tier}) for gen ${gen} ${species.name}`);
     }
     format = format.slice(4); // trim gen<N> to save space (BUG)
+    if (format.startsWith('champions')) format = format.slice(9);
     const analyses = {};
     for (const ms of analysis.movesets) {
       const pokemon = dex.species.get(ms.pokemon);

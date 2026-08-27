@@ -24,6 +24,8 @@ describe('Analyses', () => {
   test('url', () => {
     expect(Analyses.url('Gengar')).toBe('https://www.smogon.com/dex/sv/pokemon/gengar/');
     expect(Analyses.url('Tapu Koko', 7)).toBe('https://www.smogon.com/dex/sm/pokemon/tapu-koko/');
+    expect(Analyses.url('Garchomp', 'champions'))
+      .toBe('https://www.smogon.com/dex/champions/pokemon/garchomp/');
   });
 
   test('request', () => {
@@ -35,6 +37,16 @@ describe('Analyses', () => {
           'content-type': 'application/json',
         },
         body: '{"gen":"rs","alias":"mr-mime","language":"en"}',
+      },
+    });
+    expect(Analyses.request('Garchomp', 'champions')).toEqual({
+      url: 'https://www.smogon.com/dex/_rpc/dump-pokemon',
+      init: {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+        },
+        body: '{"gen":"champions","alias":"garchomp","language":"en"}',
       },
     });
   });
@@ -72,6 +84,7 @@ describe('Analyses', () => {
 
   test('gen', () => {
     expect(Analyses.gen(3)).toBe('rs');
+    expect(Analyses.gen('champions')).toBe('champions');
   });
 });
 
