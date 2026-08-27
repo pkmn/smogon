@@ -120,6 +120,13 @@ describe('Smogon', () => {
 
       expect((await smogon.sets(gen(8), 'Incineroar', 'gen8vgc2021fooseries' as ID))[0].name)
         .toBe('Utility');
+
+      expect((await smogon.sets(gen(9), 'Garchomp', 'championsvgc2026' as ID))[0].name)
+        .toBe('Fast Attacker');
+      expect((await smogon.sets(gen(9), 'Garchomp', 'championsvgc2026regfoo' as ID))[0].name)
+        .toBe('Fast Attacker');
+      expect((await smogon.sets(gen(9), 'Garchomp', 'championsou' as ID))[0].name)
+        .toBe('Mixed Life Orb');
     });
   }
 
@@ -134,6 +141,14 @@ describe('Smogon', () => {
     expect((await smogon.stats(gen(7), 'Incineroar', 'gen7vgc2019moonseries' as ID))!
       .items['Assault Vest']).toBe(0.4701);
     expect((await smogon.stats(gen(8), 'zaciancrowned', 'gen8vgc2022' as ID))).toBeDefined();
+    expect((await smogon.stats(gen(9), 'garchomp', 'championsvgc2026' as ID))).toBeDefined();
+    expect((await smogon.stats(gen(9), 'aerodactyl', 'championsvgc2026regmb' as ID)))
+      .toBeDefined();
+    expect((await smogon.stats(gen(9), 'corviknight', 'champions' as ID))).toBeDefined();
+    expect((await smogon.stats(gen(9), 'dragonite', 'championsbattlestadiumsingles' as ID)))
+      .toBeDefined();
+    expect((await smogon.stats(gen(9), 'dragonite', 'championsbssregmb' as ID)))
+      .toBeDefined();
   });
 
   test('teams', async () => {
@@ -264,5 +279,8 @@ describe('Smogon', () => {
     expect(baseFormat('gen9vgc2023regulatione')).toBe('gen9vgc2023');
     expect(baseFormat('gen9vgc2024regf')).toBe('gen9vgc2024');
     expect(baseFormat('gen9vgc2025regf')).toBe('gen9vgc2025');
+    expect(baseFormat('gen9bssregf')).toBe('gen9battlestadiumsingles');
+    expect(baseFormat('championsbssregmb')).toBe('championsbattlestadiumsingles');
+    expect(baseFormat('championsvgc2026regmb')).toBe('championsvgc2026');
   });
 });
