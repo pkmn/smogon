@@ -34,6 +34,7 @@ const SUFFIXES = [
   ['beta', 'Beta'],
   ['suspect', 'Suspect'],
   ['suspecttest', 'Suspect Test'],
+  ['bo3', '(Bo3)']
 ];
 function getName(tier, prefix = false) {
   for (const [prefix, name] of PREFIXES) {
