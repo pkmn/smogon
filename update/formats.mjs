@@ -24,6 +24,7 @@ const IGNORE = new Set([
 const SPECIAL = /^battlespotspecial(\d+)$/;
 const VGC = /^vgc(\d{4})$/;
 const PREFIXES = [
+  ['champions', 'Champions'],
   ['pokebank', 'Pokebank'],
   ['predlc', 'Pre-DLC'],
   ['dlc1', 'DLC 1'],
