@@ -1,17 +1,17 @@
 {
-  "Snubbull": {
+  "Snubbull": {"sets": {"Bulk Up": {}, "Utility": {}}},
+  "Duskull": {"sets": {"Defensive": {}}},
+  "Koffing": {"sets": {"Defensive": {}}},
+  "Trapinch": {
     "sets": {
-      "Offensive": {},
-      "Bulk Up": {},
-      "Utility": {
+      "Bulky Trapper": {},
+      "Choice Band": {},
+      "Trapper": {
         "outdated": true,
-        "description": "<p>Shadow Ball hits the Ghost-types that Snubbull’s other moves cannot, OHKOing Gastly and dealing serious damage to Duskull. Thunder Wave offers extremely powerful speed control and team support to slower teams, but it can be eschewed in favor of Earthquake, which allows it to hit Rock- and Electric-types like Larvitar, Chinchou, and Voltorb. Perhaps just as importantly, Earthquake lets it deal chip damage to Porygon and Wailmer that doesn’t knock them into range of eating their Sitrus Berry. Shadow Ball can do the same to just Wailmer, only less consistently. Thief lets Snubbull stay healthy with some consistency and punish anything trying to switch into it by making them much more easily KOed through depriving them of their Sitrus Berry healing, and in Porygon’s case, Thief removes its ability to repeatedly heal using Recycle. 116 HP EVs and 36 Defense EVs are enough to comfortably switch into plenty of physically attacking threats like Diglett, Larvitar, Anorith, and, most importantly, Doduo. Specifically, it lets Snubbull live all but one roll of +1 Larvitar and Diglett’s Earthquake and -1 Choice Band Doduo’s Double-Edge. 196 Attack EVs on top of its high base 80 Attack allow it to directly threaten most of the tier with its STAB Return and do major damage to Rock-, Steel-, and Ghost-types with its coverage options. 36 Speed EVs mostly just cannot be reallocated anywhere more useful, but they do allow it to outspeed common Porygon sets as well as Duskull.</p> <p>Snubbull has two main strengths that lead to easy synergies: its ability to beat major offensive threats like Doduo and Abra, and its ability to spam Thunder Wave. With a reliable Doduo counter in Snubbull on the team, Porygon, for instance, can afford to run Special Defense EVs to improve the team’s matchup against special attackers such as Abra, Staryu, and even Horsea. Stacking multiple Doduo counters on a team like Snubbull and Duskull is another option that can create a situation where the opponent’s Doduo becomes merely a momentum sink for them, giving teammates that are checked by Doduo, like offensive Wailmer, chances to fire off attacks uninhibited. Slower offensive threats like Cubone and Trapinch, as well as really any Pokemon that makes use of Substitute, can also benefit greatly from Snubbull’s presence as a Thunder Wave spammer Paralyzing a Pokemon with extremely high Speed, like Elekid or Abra, can even flip crucial matchups for fast, but not quite fast enough teammates like Doduo, Houndour, Anorith, and the aforementioned offensive Wailmer.</p>"
+        "description": "<p>The HP and Special Defense investment on this set is what allows Trapinch to perform its role effectively as a trapper. With this investment, Trapinch can survive super effective coverage moves from Elekid, Voltorb, and Magnemite and powerful special attacks from Pokemon like Abra, as well as +1 Earthquake from Larvitar, then remove these Pokemon using Earthquake. Notably, Trapinch is able to survive Porygon's Ice Beam, unlike its counterpart Diglett, enabling it to remove Porygon as well if it's in range of Earthquake. Hidden Power Ghost is useful for getting the KO on Gastly and doing good damage to Duskull, but Rock Slide can be considered for a chance to OHKO Doduo. Additionally, running Rock Slide over Hidden Power Ghost frees up some EVs that Trapinch can combine with its otherwise useless Speed EVs to boost any of its other stats by one point; for example, investing these EVs in Special Defense gives Trapinch a good chance to survive a +1 Psychic from Abra. Quick Attack lets Trapinch bypass its abysmal Speed stat to remove weakened foes or get some chip damage off before it faints. Protect is useful for saving Trapinch from a predicted Explosion or Self-Destruct, usually from opposing Voltorb or Gastly, and is also a reliable tool for scouting an opponent's move.</p> <p>Any Pokemon that wants Electric-types such as Elekid, Voltorb, and Magnemite or strong but frail special attackers such as Abra removed will appreciate Trapinch's ability to trap and remove them. In return, Trapinch appreciates a teammate that can come in on Water-types that will likely come in to revenge kill Trapinch such as Chinchou, Wailmer, or Staryu. Trapinch is able to trap and OHKO Diglett with Earthquake, so Pokemon who have poor matchups versus Diglett such as the previously mentioned Elekid, Voltorb, and Magnemite will enjoy having Trapinch as a teammate. Porygon specifically appreciates Trapinch as a teammate for its ability to counter-trap Diglett, as this lets Porygon stay healthy for other matchups. Although it's not as commonly seen in the metagame, Larvitar is trapped and removed by Trapinch even at +1 Attack, so teams looking for a way to deal with Larvitar should look no further than Trapinch.</p>"
       }
     }
   },
-  "Duskull": {"sets": {"Defensive": {}}},
-  "Koffing": {"sets": {"Defensive": {}}},
-  "Trapinch": {"sets": {"Trapper": {}}},
   "Oddish": {"sets": {"Sunny Day": {}}},
   "Diglett": {"sets": {"Specially Defensive Trapper": {}, "Offensive Trapper": {}, "Choice Band": {}}},
   "Meowth": {"sets": {"Lead": {}}},
@@ -21,10 +21,11 @@
   "Bellsprout": {"sets": {"Sunny Day Sweeper": {}}},
   "Ponyta": {"sets": {"Sunny Day": {}, "Offensive": {}}},
   "Magnemite": {"sets": {"Offensive Utility": {}}},
-  "Doduo": {"sets": {"Choice Band": {}, "SubSitrus": {}}},
+  "Doduo": {"sets": {"Choice Band": {}, "Agility + Liechi": {}}},
   "Gastly": {
     "sets": {
       "Specially Defensive": {},
+      "Will-O-Wisp Lead": {},
       "Mixed Offensive": {
         "outdated": true,
         "description": "<p>Psychic is Gastly's most spammable attack, notably hitting opposing Poison-types like Koffing and Gastly super effectively while providing a strong hit against Diglett. Sludge Bomb deals decent damage to mixed bulky attacker Wailmer without activating Sitrus Berry, giving it high odds of being KOed by Thunderbolt afterwards. It also OHKOes Cacnea while having decent odds to do the same to Exeggcute, and it can possibly weaken other targets with its chance to poison. Shadow Ball is an alternative, also giving Gastly high, albeit slightly worse, odds of KOing mixed bulky attacker Wailmer when used before Thunderbolt. It's also Gastly's strongest move with no drawbacks against Duskull and Abra, KOing the former after Thunderbolt or Psychic and OHKOing the latter, though Gastly still loses one-on-one to them. Thunderbolt primarily hits Flying- and Water-types, damaging the aforementioned Wailmer and OHKOing foes like Doduo and Staryu. Thief is an alternative to let Gastly steal a foe's Sitrus Berry after Gastly has used up its own, notably preventing Porygon from using Recycle to stay healthy. Explosion lets Gastly sacrifice itself to OHKO most targets, including extremely bulky ones like Wailmer and Porygon. The given EV spread alongside a Hasty nature maximizes Gastly's Speed while providing enough Attack to OHKO Porygon. 76 Special Defense EVs let Gastly never be OHKOed by mixed bulky attacker Wailmer's Surf, with this matchup also being why Hasty is chosen over Naive. Of what is left over, 36 EVs are used to augment Gastly's Special Attack as much as possible, while the remainder is put into its Defense.</p> <p>Gastly is a natural fit on teams looking for a switch-in to Choice Band Doduo's Normal-type moves and Self-Destruct and Explosion users such as Wailmer, Koffing, and opposing Gastly, on teams that prefer Gastly's explosive offensive power over Duskull's better defenses. Essentially the entire metagame appreciates this support, with teammates unable to outspeed and OHKO these foes like Wailmer and Chinchou especially appreciating Gastly as a teammate. It is recommended that Gastly not reveal itself too early but instead switch in when it's clear the mentioned examples are committing to their Normal-type move. Either way, if the foe sacrifices itself for nothing or Doduo locks itself into a move that does no damage, Gastly will almost always get a KO in those situations. Gastly is also an effective answer to Porygon, as being able to KO it with Explosion is usually an advantageous trade, though players must be wary of not being too predictable and risking the opponent switching in their own Ghost-type. Beyond switching into Self-Destruct, Gastly also reliably handles Wailmer, helping Pokemon that struggle against it like Diglett, Elekid, and Koffing. Gastly primarily struggles with foes that are faster than it, such as Staryu, making a teammate like Chinchou useful at checking it. Gastly has an abhorrent matchup against Abra, being outsped and OHKOed by its STAB Psychic, with Abra even able to switch into many of Gastly's moves. Gastly is generally best off staying in to stop Abra from setting up, and once it's KOed, it can let in a faster teammate, like Elekid or Diglett, or a priority user, like Doduo, to revenge kill Abra.</p>"
@@ -35,17 +36,18 @@
   "Voltorb": {
     "sets": {
       "Offensive": {},
+      "Bulky Attacker": {},
       "Offensive Pivot": {
         "outdated": true,
         "description": "<p>The Defense investment allows Voltorb to always survive Earthquake from mixed bulky attacker Wailmer. 40 Attack EVs with a Timid nature are used to guarantee that Explosion OHKOes Trapinch and Wailmer. Thunder Wave is Voltorb’s best form of speed control, effectively neutering frail Pokemon that rely on their Speed such as Abra, Anorith, and Gastly. Thief gives Voltorb another option to cripple opposing Pokemon by removing their recovery in Sitrus Berry and using it itself or denying a sweep by removing their pinch Berries. Substitute is used to punish status attempts from slower Pokemon such as Porygon and Chinchou, giving Voltorb a free turn to attack or cripple the opposing Pokemon with Thunder Wave. Hidden Power Grass OHKOes Rock / Ground types such as Larvitar and Onix and lets Voltorb fight Electric-immune Pokemon without committing to Explosion. It is also worth mentioning that Hidden Power Grass into Thunderbolt KOes mixed bulky attacker Wailmer. Finally, Explosion OHKOes most of the tier, preventing troublesome Pokemon like Abra and Bagon from snowballing out of control and allowing it to beat otherwise strong checks in Chinchou and opposing Voltorb. Caution should be taken to avoid using Explosion into a Ghost-type, however.</p> <p>Voltorb pairs well with Pokemon that have trouble with Diglett and Trapinch, such as Houndour, Abra, and Elekid. Voltorb is an appealing target for Diglett and Trapinch, allowing it to force them out early, as well as having the potential to trade with them, albeit unreliably. Elekid in particular forms a potent offensive core with Voltorb, overloading their shared checks and smothering offense with their Speed and support options, like Light Screen and Thunder Wave. Wailmer is a good teammate, as it can struggle into Doduo, Staryu, and Gastly, and is a great switch-in to the Ground-types that will inevitably trap and remove Voltorb. Voltorb has strong synergy with Cacnea, as it can use Spikes against Diglett, Cubone, Trapinch, and Chinchou lacking Ice Beam. Voltorb in turn switches into Doduo locked into Drill Peck. Lastly, (add comma) Porygon and Trapinch can reliably remove Diglett in the event that Voltorb loses the Speed tie and remain healthy enough to check Abra or Elekid later in the match.</p>"
       }
     }
   },
-  "Exeggcute": {"sets": {"Sunny Day Sweeper": {}}},
+  "Exeggcute": {"sets": {"Sunny Day Sweeper": {}, "Defensive": {}}},
   "Cubone": {"sets": {"Offensive": {}}},
   "Horsea": {"sets": {"Rain Sweeper": {}}},
   "Staryu": {"sets": {"Offensive Utility": {}}},
-  "Chinchou": {"sets": {"Offensive": {}}},
+  "Chinchou": {"sets": {"Offensive": {}, "Substitute": {}}},
   "Pineco": {"sets": {"Spikes": {}}},
   "Houndour": {"sets": {"Special Attacker": {}}},
   "Elekid": {
@@ -66,6 +68,7 @@
       "Physically Defensive": {},
       "Specially Defensive": {},
       "Specially Offensive": {},
+      "Mixed Attacker": {},
       "Mixed Bulky Attacker": {
         "outdated": true,
         "description": "<p>Bulky Wailmer is an incredible lead Pokemon due to its high bulk that provides with it a positive or neutral matchup against many other leads, such as Staryu, Voltorb, Elekid, and Abra. This set maximizes Special Defense investment for a 93% chance to survive Thunderbolt from two of the strongest Electric-type Pokemon in the tier, Elekid and Chinchou. The Special Defense investment is also generally useful against powerful special attackers in the tier such as Abra and Gastly. Earthquake is a great coverage move to hit Electric-types: with 40 Attack EVs, it lands an OHKO on Elekid while hitting Chinchou hard. Hidden Power Grass is used to hit other Water-types like Wailmer or Staryu. A Sassy nature lets Wailmer achieve maximum Special Defense and maintain the power of its physical moves while still outspeeding Porygon. Self-Destruct is excellent for trading Pokemon, as it is usually used against some of the tier's best Pokemon like Porygon. It can also be used in poor matchups or to sacrifice Wailmer to bring in one of its teammates.</p> <p>One of the few attacks capable of OHKOing Wailmer is Choice Band Doduo's Double-Edge, so Pokemon that can switch into Doduo such as Porygon, Snubbull, Gastly, or Duskull make good teammates. Despite being able to take on Electric-type Pokemon, Wailmer still appreciates Ground-type teammates like Trapinch or Diglett that can trap and remove Electric-types so that Wailmer is not overwhelmed. Wailmer's high bulk allows it to reliably check powerful threats like Abra, which is appreciated by Pokemon like Gastly, Doduo, and Koffing that are all scared out by it.</p>"
@@ -73,10 +76,10 @@
     }
   },
   "Spoink": {"sets": {"Lead": {}}},
-  "Cacnea": {"sets": {"Utility Spikes": {}}},
+  "Cacnea": {"sets": {"Salac Spikes": {}, "Bulky Spikes": {}}},
   "Baltoy": {"sets": {"All-Out Attacker": {}}},
   "Lileep": {"sets": {"Defensive": {}}},
-  "Anorith": {"sets": {"Swords Dance": {}}},
+  "Anorith": {"sets": {"Swords Dance": {}, "Bulky Knock Off": {}, "Choice Band": {}}},
   "Snorunt": {"sets": {"Spikes": {}}},
   "Bagon": {"sets": {"Dragon Dance": {}}}
 }
