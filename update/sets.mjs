@@ -75,7 +75,7 @@ const FORMATS = {
   vgc23series4: 'vgc2023', vgc24regulatione: 'vgc2023', vgc24regulationf: 'vgc2024',
   vgc24regulationg: 'vgc2024', vgc24regulationh: 'vgc2024', vgc25regulationf: 'vgc2025',
   vgc25regulationg: 'vgc2025', vgc25regulationh: 'vgc2025', vgc25regulationi: 'vgc2025',
-  vgc26regulationma: 'vgc2026', vgc26regulationmb: 'vgc2026',
+  vgc26regulationma: 'vgc2026', vgc26regulationmb: 'vgc2026', vgc26regulationmc: 'vgc2026',
   vgc: 'vgc2025',
   // RBwhY?
   nintendocup1997: 'nc1997', nintendocup1998: 'nc1998', nintendocup1999: 'nc1999',
