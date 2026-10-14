@@ -89,7 +89,7 @@ const ORDER = Object.keys(FORMATS);
 // return just the set of Pokémon Smogon will actually have unique analyses for.
 const NONSTANDARD = ['Unobtainable', 'Gigantamax'];
 const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magearna'];
-const SUFFIXES = ['-Antique', '-Totem'];
+const SUFFIXES = ['-Antique', '-Totem', '-Mega-Z'];
 function eligible(gen, species) {
   // Note that we can't include species.tier === 'Illegal' because of National Dex...
   if (!species.exists || species.gen > gen) return false;
@@ -224,8 +224,8 @@ async function importPokemon(dex, gen, species) {
   const json = await request(Analyses.request(species, gen));
   if (!json) return undefined;
   const imports = {};
-  if (json.strategies.length) Object.assign(imports, importStrategies(dex, gen, species, json.strategies));
-  if (json.formeStrategies.length) {
+  if (json.strategies?.length) Object.assign(imports, importStrategies(dex, gen, species, json.strategies));
+  if (json.formeStrategies?.length) {
     for (const {strategies} of json.formeStrategies) {
       const formeImports = importStrategies(dex, gen, species, strategies);
       for (const forme in formeImports) {

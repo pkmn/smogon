@@ -59,6 +59,9 @@ describe('Analyses', () => {
 
   test('process', async () => {
     expect(Analyses.process('foo')).toBeUndefined();
+    expect(
+      Analyses.process('{"status":"alt","alias":"golisopod","forme":"mega"}')
+    ).toBeUndefined();
 
     let processed = Analyses.process(Analyses.parse(await FIXTURES.snorlax)!)!;
     expect(processed).toBeDefined();

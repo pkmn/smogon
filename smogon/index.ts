@@ -172,7 +172,7 @@ export const Analyses = new (class {
       strategies = parsed.injectRpcs[2]?.[1]?.['strategies'] || [];
       formeStrategies = parsed.injectRpcs[2]?.[1]?.['formeStrategies'] || [];
     } else {
-      strategies = parsed.strategies;
+      strategies = parsed.strategies || [];
       formeStrategies = parsed.formeStrategies || [];
     }
 
