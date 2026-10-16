@@ -89,7 +89,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 567483, "username": "Bella"}, {"user_id": 694111, "username": "Oofhixd"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 567483, "username": "Bella"}, {"user_id": 414072, "username": "Yunie"}, {"user_id": 355061, "username": "UberSkitty"}]}, {"name": "Grammar checked by", "members": [{"user_id": 555379, "username": "Tbolt"}, {"user_id": 537035, "username": "Rahul"}]}]}
   },
-  "Sneasel-Hisui": {"sets": {"Swords Dance": {}}},
+  "Sneasel-Hisui": {"sets": {"Swords Dance": {}, "Choice Band": {"outdated": true, "description": "<p>Shadow Claw and Lash Out both target Ghost-types like Rotom, though Shadow Claw comes with the added benefit of hitting opposing Hisuian Sneasel neutrally. Tera Dark makes Hisuian Sneasel immune to Psychic-type moves from Alolan Raichu and Indeedee and also powers up Lash Out. Tera Blast with Tera Psychic or Tera Fire offers great coverage against Muk, Tera Poison Arboliva, and Houndstone.</p> <p>Sample set. Stay tuned for updates!</p>"}, "Choice Scarf": {"outdated": true, "description": "<p>Tera Fighting makes Close Combat more reliable for cleaning mid- to late-game, but Tera Ghost can be used instead to OHKO Rotom after Stealth Rock with Shadow Claw.</p> <p>Sample set. Stay tuned for updates!</p>"}}},
   "Kingdra": {"sets": {"CritDra": {}, "Rain Sweeper": {}}},
   "Porygon2": {"sets": {"Offensive Trick Room": {"description": "<p>Shadow Ball deals heavy damage to Galarian Slowbro and Hoopa and also hits Alolan Sandslash neutrally, while Ice Beam has better coverage against bulky Ground-types in Rhydon and Mudsdale.</p> <p>Sample set. Stay tuned for updates!</p>"}, "Special Wall": {}}},
   "Smeargle": {"sets": {"Hazard Setter": {"description": "<p>Silk Trap is chosen over similar moves like Burning Bulwark for its ability to slow down foes like Paldean Tauros-W and Scyther; this gives Smeargle an easier time setting entry hazards or denying Defog attempts.</p> <p>Sample set. Stay tuned for updates!</p>"}}},
@@ -122,7 +122,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 435539, "username": "BloodAce"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 567483, "username": "Bella"}, {"user_id": 231074, "username": "S1nn0hC0nfirm3d"}]}, {"name": "Grammar checked by", "members": [{"user_id": 197240, "username": "sunny"}]}]}
   },
-  "Spiritomb": {"sets": {"Trick Room Sweeper": {}}},
+  "Spiritomb": {"sets": {"Trick Room Sweeper": {}, "Calm Mind": {"outdated": true}, "Nasty Plot": {"outdated": true}, "Utility": {"outdated": true}}},
   "Toxicroak": {"sets": {"Physical Wallbreaker": {}, "Nasty Plot": {}}},
   "Abomasnow": {"sets": {"Aurora Veil": {}}},
   "Froslass": {
@@ -293,7 +293,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 567483, "username": "Bella"}, {"user_id": 583607, "username": "PowerOfMemes"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 355061, "username": "UberSkitty"}, {"user_id": 567483, "username": "Bella"}, {"user_id": 400292, "username": "asa"}, {"user_id": 617840, "username": "eeriespell"}]}, {"name": "Grammar checked by", "members": [{"user_id": 400292, "username": "asa"}, {"user_id": 527276, "username": "Techno"}]}]}
   },
-  "Passimian": {"sets": {"Choice Scarf": {}}},
+  "Passimian": {"sets": {"Choice Scarf": {}, "Choice": {"outdated": true}}},
   "Palossand": {
     "sets": {
       "Physically Defensive": {
@@ -388,7 +388,14 @@
     },
     "credits": {"writtenBy": [{"user_id": 567483, "username": "Bella"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 414072, "username": "Yunie"}, {"user_id": 400292, "username": "asa"}]}, {"name": "Grammar checked by", "members": [{"user_id": 555379, "username": "Tbolt"}]}]}
   },
-  "Orthworm": {"sets": {"Hazard Setter": {}, "Bulky Sweeper": {}}},
+  "Orthworm": {
+    "sets": {
+      "Hazard Setter": {},
+      "Bulky Sweeper": {},
+      "Coil": {"outdated": true, "description": "<p>Iron Tail is stronger than Heavy Slam but less accurate before Orthworm uses Coil. Substitute is an option to protect Orthworm from status and weaker attackers as it sets up. The Speed investment lets Orthworm outrun Modest Clawitzer, but more Defense investment can be used if Clawitzer isn’t a concern. Tera Ghost helps against Fighting-types like Passimian and Hisuian Sneasel, but Tera Electric gives Orthworm no weaknesses due to Earth Eater.</p> <p>Sample set. Stay tuned for updates!</p>"},
+      "Utility": {"outdated": true, "description": "<p>Protect lets Orthworm scout and gain extra Leftovers recovery, while Coil reduces its passivity and also lets it serve as a wincon. Spikes is an option if Orthworm's team wants to set as many entry hazards as possible or already has a Stealth Rock user. Iron Defense boosts Body Press faster than Coil and also lets Orthworm more easily trade with physical attackers like Passimian and Floatzel. The Speed investment lets Orthworm outrun Modest Clawitzer, but more Defense investment can be used if Clawitzer isn’t a concern.</p> <p>Sample set. Stay tuned for updates!</p>"}
+    }
+  },
   "Veluza": {"sets": {"Fillet Away": {}}},
   "Tatsugiri": {
     "sets": {

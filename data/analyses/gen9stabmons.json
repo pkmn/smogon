@@ -18,7 +18,17 @@
   "Kingdra": {"sets": {"Dragon Dance": {}}},
   "Porygon2": {"sets": {"Specially Defensive": {}}},
   "Blissey": {"sets": {"Specially Defensive": {}}},
-  "Tyranitar": {"sets": {"Defensive": {}, "Choice Band": {}, "Offensive": {}}},
+  "Tyranitar": {
+    "sets": {
+      "Defensive": {},
+      "Choice Band": {},
+      "Offensive": {},
+      "Salt Cure": {
+        "outdated": true,
+        "description": "<p>With Ceaseless Edge and Stone Axe, Tyranitar becomes a potent entry hazard setter. Salt Cure pressures entry hazard removers like Corviknight, Great Tusk, and Toxapex while discouraging Pokemon that threaten Tyranitar like Iron Valiant and Gholdengo from switching in. Tyranitar also has the option of running Parting Shot to pivot on its would be switch-ins. Knock Off removes items like Covert Cloak from Pokemon like Toxapex and Gholdengo, which would otherwise block Salt Cure. The listed EV spread lets Tyranitar outrun most variants of Corviknight while having enough special bulk to survive +2 Make It Rain from defensive Gholdengo under Sand, and avoid a 2HKO from Never-Melt Ice Glacial Lance Kyurem on top of checking other special attackers like Skeledirge, Indeedee, and Rotom-H. Threats to Tyranitar include Annihilape, Iron Valiant, Palafin, Gholdengo, and Great Tusk. Tera Water checks Palafin and Gholdengo, while Tera Flying and Fairy check Great Tusk and Iron Valiant. Heavy-Duty Boots avoids entry hazard damage, which can be useful with Tera Flying, while Leftovers increases Tyranitar’s longevity. Tyranitar prefers bulky teammates like Corviknight, Rotom-W, and Rotom-C to patch up its Ground weakness. Physically defensive Toxapex is appreciated to handle the likes of Palafin and Iron Valiant and covers for Tyranitar's Fighting, Water, and Fairy weaknesses while also providing entry removal with Mortal Spin. Offensive Gholdengo is a good teammate, as it blocks entry hazard removal while also being able to throw off powerful attacks and spread status with Infernal Parade and Thunder Wave. Powerful offensive Pokemon like Iron Valiant, and Palafin can more easily break holes with the chip damage provided by Tyranitar.</p>"
+      }
+    }
+  },
   "Blaziken": {"sets": {"Swords Dance + Burning Bulwark": {}, "Offensive Swords Dance": {}}},
   "Pelipper": {"sets": {"Rain Setter": {}, "Choice Specs": {}}},
   "Torkoal": {"sets": {"Sun Setter": {}}},
@@ -35,7 +45,7 @@
   "Gliscor": {"sets": {"Utility": {}, "Swords Dance": {}}},
   "Mamoswine": {"sets": {"Offensive Utility": {}, "All-Out Attacker": {}, "Choice Band": {}}},
   "Rotom-Heat": {"sets": {"Physically Defensive": {}, "Offensive": {}}},
-  "Rotom-Wash": {"sets": {"Defensive Pivot": {}, "Nasty Plot": {}, "Choice Scarf": {}}},
+  "Rotom-Wash": {"sets": {"Defensive Pivot": {}, "Nasty Plot": {}, "Choice Scarf": {}, "Offensive": {"outdated": true}}},
   "Heatran": {"sets": {"Offensive": {}, "Defensive": {}}},
   "Cresselia": {"sets": {"Take Heart": {}}},
   "Manaphy": {"sets": {"Tail Glow": {}}},
@@ -68,7 +78,15 @@
   "Corviknight": {"sets": {"Defensive": {}}},
   "Barraskewda": {"sets": {"Rain Sweeper": {}}},
   "Hatterene": {"sets": {"Eject Button": {}}},
-  "Grimmsnarl": {"sets": {"Offensive Screens Setter": {}}},
+  "Grimmsnarl": {
+    "sets": {
+      "Offensive Screens Setter": {},
+      "Dual Screens": {
+        "outdated": true,
+        "description": "<p>Due to its access to Prankster, dual screens, Parting Shot, and Taunt, Grimmsnarl distinguishes itself as the most reliable dual screens setter on hyper offense teams. Dual screens support gives setup sweepers such as Swords Dance Scizor, and Iron Valiant an easier time setting up and makes revenge killing them significantly harder. Parting Shot gives Grimmsnarl a way to pivot the aforementioned Pokemon in. Grimmsnarl can also use Memento, which further drops the stats of foes, although it doesn't allow Grimmsnarl to set up screens afterwards. Taunt stops would-be setup sweepers like Swords Dance Iron Hands and blocks opposing Pokemon like Glimmora from setting up entry hazards. Alternatively, Thunder Wave cripples faster offensive Pokemon like Iron Valiant, whereas Ceaseless Edge sets up Spikes while not being too passive. Tera Ghost allows Grimmsnarl to block Rapid Spin attempts from Pokemon such as Iron Treads and Great Tusk, although it is inadvisable to waste Tera on Grimmsnarl, as your setup sweepers may require it.</p>"
+      }
+    }
+  },
   "Indeedee": {"sets": {"Psychic Terrain Attacker": {}}},
   "Zamazenta": {"sets": {"Choice Band": {}, "Thunderous Kick": {}, "Bulk Up": {}}},
   "Urshifu-Rapid-Strike": {"sets": {"Choice Band": {}, "Choice Scarf": {}, "Swords Dance": {}, "Bulk Up": {}, "Punching Glove Pivot": {}}},
@@ -86,14 +104,39 @@
   "Annihilape": {"sets": {"Taunt + Bulk Up": {}, "Rest + Bulk Up": {}, "Choice Scarf": {}, "Choice Band": {}, "Offensive Stealth Rock": {}}},
   "Clodsire": {"sets": {"Defensive": {}}},
   "Kingambit": {"sets": {"Swords Dance": {}}},
-  "Great Tusk": {"sets": {"Physically Defensive": {}, "Choice Band": {}, "3 Attacks": {}, "All-Out Attacker": {}}},
+  "Great Tusk": {
+    "sets": {
+      "Physically Defensive": {},
+      "Choice Band": {},
+      "3 Attacks": {},
+      "All-Out Attacker": {},
+      "Physically Defensive Utility": {
+        "outdated": true,
+        "description": "<p>Great Tusk is a fantastic physical wall with a high base HP and Defense stat as well as a good defensive typing in Ground / Fighting. Earthquake provides great coverage against many Pokemon in the tier, such as Skeledirge, Toxapex, and Gholdengo. Thunderous Kick is a powerful Fighting-type move that lowers the target's Defense by one stage; this can be helpful in taking down opposing Pokemon that would otherwise halt Great Tusk like opposing Great Tusk and Ting-Lu. Knock Off can cripple foes by removing their items, which is great against a lot of Pokemon, as it gets rid of annoying items such as Heavy-Duty Boots, Leftovers, and opposing Covert Cloak from Pokemon such as Garganacl, opposing Great Tusk, and Skeledirge. Rapid Spin is a potent utility move that allows Great Tusk to remove entry hazards from the user's side, while Spikes is an alternative to Rapid Spin, as it allows Great Tusk to set up hazards of its own if the user's team already has reliable hazard removal. Shore Up is a good recovery move, as it gets powered up by sand, and Great Tusk can use it often due to its decent Speed and bulk. Covert Cloak is the best item choice for Great Tusk, as it allows it to shrug off secondary effects from moves like Mortal Spin, Thunderous Kick, and Salt Cure without getting punished. This EV spread allows Great Tusk to maximize its physical bulk while still outspeeding some slower Pokemon such as Adamant Tyranitar and base 100 Speed Pokemon like Volcarona after a well-timed Rapid Spin. Maximizing Attack instead of HP is an alternative option due to Great Tusk's impressive base Attack stat; however, maximizing HP is the preferred way to go to maximize overall bulk. Tera Water allows Great Tusk to turn the tables on physically offensive Water-types such as Palafin, and Gyarados; this allows Great Tusk to tank their STAB moves if needed. Additionally, Tera Ghost is an option to block Rapid Spin from opposing Great Tusk and punish them for not carrying Knock Off. Good partners for Great Tusk include Corviknight, Tyranitar, Slowking, and Toxapex; these Pokemon can provide a way to take on special attacks and help pivot Great Tusk into the battle. Tyranitar can also set up sand, which can increase Great Tusk's Shore Up recovery.</p>"
+      },
+      "Suicide Lead": {"outdated": true}
+    }
+  },
   "Iron Treads": {"sets": {"Offensive Spinner": {}, "Suicide Lead": {}}},
   "Iron Hands": {"sets": {"Swords Dance": {}, "Belly Drum": {}, "Choice Band": {}}},
   "Iron Jugulis": {"sets": {"Booster Energy + Nasty Plot": {}}},
   "Iron Moth": {"sets": {"Offensive Utility": {}, "Choice Specs": {}}},
   "Gholdengo": {"sets": {"Choice Scarf": {}, "Offensive Nasty Plot": {}, "Defensive Utility": {}}},
   "Ting-Lu": {"sets": {"Defensive Support": {}}},
-  "Iron Valiant": {"sets": {"Choice Specs": {}, "Choice Band": {}, "Choice Scarf": {}, "Mixed Attacker": {}, "Swords Dance": {}, "Calm Mind": {}}},
+  "Iron Valiant": {
+    "sets": {
+      "Choice Specs": {},
+      "Choice Band": {},
+      "Choice Scarf": {},
+      "Mixed Attacker": {},
+      "Swords Dance": {},
+      "Calm Mind": {},
+      "Physical Life Orb": {
+        "outdated": true,
+        "description": "<p>Life Orb Iron Valiant uses its powerful moves and coverage to wallbreak and threaten a large portion of the tier. Thunderous Kick threatens most defensive Pokémon, such as Garganacl and Ting-Lu, with its ability to drop Defense. Zen Headbutt hits Toxapex and Clodsire, which resist Iron Valiant's STAB moves, and Iron Hands, which can be problematic for non-Magical Torque Iron Valiant. Mach Punch revenge kills offensive Pokemon such as Meowscarada. Knock Off wears down Iron Valiant's checks by removing their Leftovers or Heavy-Duty Boots, while Magical Torque gives it another strong STAB to hit the many Dark- and Fighting-types of the tier, such as Grimmsnarl and Iron Hands, respectively. Life Orb Iron Valiant's lack of longevity makes it fit best on bulky offense teams. It pairs well with defensive pivots who can help it safely switch in, such as Ting-Lu and Corviknight, and entry hazards setters who help it wear down its checks, such as Iron Treads and Great Tusk. Other physical attackers such as and Slither Wing make good partners, as together they can overwhelm most defensive cores.</p>"
+      }
+    }
+  },
   "Walking Wake": {"sets": {"Offensive Pivot": {}, "Booster Energy Wallbreaker": {}, "Choice Specs": {}, "Choice Scarf": {}, "Substitute": {}}},
   "Sinistcha": {"sets": {"Bulky Setup Sweeper": {}}},
   "Ogerpon": {"sets": {"Offensive Pivot": {}, "Swords Dance": {}}},

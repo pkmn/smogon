@@ -77,9 +77,9 @@
     },
     "credits": {"writtenBy": [{"user_id": 563650, "username": "bern"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 519863, "username": "Blanched"}]}, {"name": "Quality checked by", "members": [{"user_id": 670315, "username": "Mentality"}, {"user_id": 149971, "username": "Nuxl"}]}, {"name": "Grammar checked by", "members": [{"user_id": 593115, "username": "igiveuponaname"}]}]}
   },
-  "Tyranitar": {"sets": {"Choice Band": {}}},
+  "Tyranitar": {"sets": {"Choice Band": {}, "Assault Vest": {"outdated": true}}},
   "Swampert": {"sets": {"Assault Vest": {}}},
-  "Salamence": {"sets": {"Life Orb": {}}},
+  "Salamence": {"sets": {"Life Orb": {}, "Choice Specs": {"outdated": true}}},
   "Metagross": {
     "sets": {
       "Weakness Policy": {
@@ -243,7 +243,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 563650, "username": "bern"}, {"user_id": 670315, "username": "Mentality"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 579035, "username": "glitched"}, {"user_id": 670315, "username": "Mentality"}]}, {"name": "Quality checked by", "members": [{"user_id": 518399, "username": "Itchy"}, {"user_id": 563650, "username": "bern"}, {"user_id": 316445, "username": "lost heros"}, {"user_id": 670315, "username": "Mentality"}]}, {"name": "Grammar checked by", "members": [{"user_id": 664887, "username": "wisteriapurple"}]}]}
   },
-  "Greninja": {"sets": {"Life Orb": {}}},
+  "Greninja": {"sets": {"Life Orb": {}, "Choice Specs": {"outdated": true}, "Choice Scarf": {"outdated": true}, "Choice Band": {"outdated": true}, "Substitute + Petaya Berry": {"outdated": true}}},
   "Sylveon": {
     "sets": {
       "Life Orb": {
@@ -427,7 +427,20 @@
     "credits": {"writtenBy": [{"user_id": 375405, "username": "crow crumbs"}, {"user_id": 493772, "username": "bellchime"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 579035, "username": "glitched"}]}, {"name": "Quality checked by", "members": [{"user_id": 316445, "username": "lost heros"}, {"user_id": 493772, "username": "bellchime"}, {"user_id": 149971, "username": "Nuxl"}, {"user_id": 563650, "username": "bern"}]}, {"name": "Grammar checked by", "members": [{"user_id": 384270, "username": "autumn"}, {"user_id": 649096, "username": "a blue banana"}]}]}
   },
   "Maushold-Four": {"sets": {"The Maus": {}}},
-  "Bellibolt": {"sets": {"Life Orb": {}}},
+  "Bellibolt": {
+    "sets": {
+      "Life Orb": {},
+      "Mental Herb": {
+        "outdated": true,
+        "description": "<ul> <li>Thunder is used over Thunderbolt to 2HKO non-Choice item Iron Valiant.</li> <li>Mental Herb helps Bellibolt defeat Taunt and Encore users, such as Iron Valiant and Annihilape.</li> <li>The Speed EVs allow Bellibolt to outspeed uninvested base 60 Speed Pokemon like Magnezone and Sylveon.</li> <li>Bellibolt should almost always use Soak first, followed by Parabolic Charge to recover and secure the win.</li> <li>The HP EVs help Bellibolt against Modest Choice Specs Iron Valiant and the Defense EVs allow it to defeat Choice Band Meowscarada.</li> <li>Against Choice Band Meowscarada, Bellibolt should use Soak turn 1 and Thunder turn 2 to avoid being 2HKOed by Flower Trick.</li> <li>Against Speed Booster Energy Iron Valiant, Bellibolt should use Parabolic Charge turn 1 and Thunder turn 2 to avoid being locked into an unfavorable move by Encore.</li> <li>Against Choice item Iron Valiant, Bellibolt should use Thunder turn 1 to OHKO it after Electromophosis activates.</li> </ul>"
+      },
+      "Clear Amulet": {
+        "outdated": true,
+        "description": "<ul> <li>Charge Beam helps with Calm Mind users such as Sylveon and Espathra in order to outdamage them and make progress while they boost their Special Defense, as well as against stall Corviknight if enough Special Attack boosts are obtained.</li> <li>Slack Off provides recovery when needed in order to stall out Pokemon that have been weakened with Eerie Impulse, preventing them from being able to KO Bellibolt.</li> <li>Clear Amulet prevents Special Defense drops from non-Choice Specs Sylveon with Fake Tears, Espathra with Lumina Crash, and Assault Vest Iron Moth with Acid Spray.</li> <li>Against Sylveon, Bellibolt should always use Eerie Impulse first, making it impossible for Sylveon to KO if it tries to use Fake Tears thanks to the Clear Amulet. Choice Specs Sylveon Hyper Beam does not OHKO Bellibolt, and Hyper Voice does not 2HKO it after the Special Attack drop, which lets Bellibolt use Slack Off and Parabolic Charge freely in order to KO Sylveon.</li> <li>Against Espathra, Bellibolt should either use Charge Beam first to counter Calm Mind from Weakness Policy or Clear Amulet sets, or it can use Parabolic Charge to break Substitute against Petaya Berry sets, as +6 Speed and +1 Special Attack Stored Power does not OHKO Bellibolt while the damage taken by Lumina Crash is mitigated by Parabolic Charge's recovery.</li> </ul>"
+      },
+      "Sitrus Berry": {"outdated": true}
+    }
+  },
   "Espathra": {
     "sets": {
       "Stall": {
@@ -436,7 +449,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 563650, "username": "bern"}], "teams": [{"name": "Set(s) by", "members": [{"user_id": 563650, "username": "bern"}, {"user_id": 579035, "username": "glitched"}]}, {"name": "Quality checked by", "members": [{"user_id": 670315, "username": "Mentality"}, {"user_id": 425798, "username": "pqs"}]}, {"name": "Grammar checked by", "members": [{"user_id": 528364, "username": "adorluigi"}]}]}
   },
-  "Tinkaton": {"sets": {"The Tink": {}}},
+  "Tinkaton": {"sets": {"The Tink": {}, "Air Balloon": {"outdated": true}}},
   "Annihilape": {
     "sets": {
       "Bulky Choice Band": {
@@ -481,7 +494,7 @@
     },
     "credits": {"writtenBy": [{"user_id": 563650, "username": "bern"}], "teams": [{"name": "Quality checked by", "members": [{"user_id": 425798, "username": "pqs"}, {"user_id": 481149, "username": "bea"}]}, {"name": "Grammar checked by", "members": [{"user_id": 593115, "username": "igiveuponaname"}]}]}
   },
-  "Baxcalibur": {"sets": {"Fast Choice Band": {}, "Bulky Choice Band": {}, "Chople Berry": {}}},
+  "Baxcalibur": {"sets": {"Fast Choice Band": {}, "Bulky Choice Band": {}, "Chople Berry": {}, "Haban Berry": {"outdated": true}, "Choice Band": {"outdated": true}}},
   "Chien-Pao": {
     "sets": {
       "Choice Band": {
