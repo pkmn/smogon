@@ -125,7 +125,11 @@ describe('Smogon', () => {
         .toBe('Fast Attacker');
       expect((await smogon.sets(gen(9), 'Garchomp', 'championsvgc2026regfoo' as ID))[0].name)
         .toBe('Fast Attacker');
+      expect((await smogon.sets(gen(9), 'Garchomp', 'gen9championsvgc2026regfoo' as ID))[0].name)
+        .toBe('Fast Attacker');
       expect((await smogon.sets(gen(9), 'Garchomp', 'championsou' as ID))[0].name)
+        .toBe('Mixed Life Orb');
+      expect((await smogon.sets(gen(9), 'Garchomp', 'gen9championsou' as ID))[0].name)
         .toBe('Mixed Life Orb');
     });
   }
@@ -144,10 +148,14 @@ describe('Smogon', () => {
     expect((await smogon.stats(gen(9), 'garchomp', 'championsvgc2026' as ID))).toBeDefined();
     expect((await smogon.stats(gen(9), 'aerodactyl', 'championsvgc2026regmb' as ID)))
       .toBeDefined();
+    expect((await smogon.stats(gen(9), 'aerodactyl', 'gen9championsvgc2026regmb' as ID)))
+      .toBeDefined();
     expect((await smogon.stats(gen(9), 'corviknight', 'champions' as ID))).toBeDefined();
     expect((await smogon.stats(gen(9), 'dragonite', 'championsbattlestadiumsingles' as ID)))
       .toBeDefined();
     expect((await smogon.stats(gen(9), 'dragonite', 'championsbssregmb' as ID)))
+      .toBeDefined();
+    expect((await smogon.stats(gen(9), 'dragonite', 'gen9championsbssregmb' as ID)))
       .toBeDefined();
   });
 

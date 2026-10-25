@@ -81,13 +81,18 @@ const POST = /(?:posts\/|#?post-)(\d+)\/?$/;
 const POKEPASTES = /^https?:\/\/pokepast\.es\/([0-9a-f]+)\/?$/;
 const PSIM = /^https?:\/\/psim\.us\/t\/([0-9]+)(?:-([0-9a-z]+))?\/?$/;
 const SAMPLE = /sample/i;
-const GEN = /^gen\d$/;
 const SCMS = /<script>window.scmsJSON = ({.*})<\/script>/;
 const BY = /(.*)(?: \(by (.*)\)| (?:submitted )?by (.*)| \[(.*)\]$|, (.*)$| - ([^-]*)$)/;
 const UNTITLED = /Untitled \d+/;
 const GUEST = /Guest \d+/;
 const ARCHIVE =
   /\b(?:archiv\w*|old|outdated|past|previous|changelog|compendium|example|history|viability|vr|speed)\b/i;
+
+const FALLBACKS = {
+  gen9championsou: 'https://www.smogon.com/forums/threads/champions-ou-sample-teams.3783102/',
+  gen9championsuu:
+    'https://www.smogon.com/forums/threads/champions-uu-resources-speed-tiers-updated.3782976/#post-10971786',
+};
 
 const IGNORE = [
   // Multiple formats within a single post
@@ -114,34 +119,40 @@ const IGNORE = [
   }
 
   const formats = {};
+  const mods = {};
   const ignored = new Set();
   const seen = new Set();
-  outer: for (const f of data) {
-    // TODO: Use @pkmn/mods to support mods
-    if (!f.name || f.team || !GEN.test(f.mod || 'gen9')) continue;
-    const format = Dex.formats.get(f.name);
+  for (const f of data) {
+    if (!f.name || f.team) continue;
+    const dex = await getMod(f.mod);
+    if (!dex) continue;
+    const format = dex.formats.get(f.name);
+    mods[format.id] = dex;
     const url = `https://www.smogon.com/dex/api/formats/by-ps-name/${format.id}`;
     const resources = (await (await fetch(url)).json())?.resources;
-    if (!resources) continue;
-    for (const r of resources) {
-      if (SAMPLE.test(r.resource_name)) {
-        const thread = r.url;
-        if (thread.startsWith(SMOGON) || seen.has(thread)) continue outer;
-        if (IGNORE.includes(thread)) {
-          ignored.add(thread);
-          continue outer;
+    let thread;
+    if (resources) {
+      for (const r of resources) {
+        if (SAMPLE.test(r.resource_name)) {
+          thread = r.url;
+          break;
         }
-        seen.add(thread);
-        if (!format.exists) {
-          console.error(`Missing format '${format.name}'`);
-          format.effectType = 'Format';
-          format.gen = +format.id[3];
-          format.mod = format.id.slice(0, 4);
-        }
-        formats[format.id] = wrap(() => scrapeThread(format, thread))();
-        continue outer;
       }
     }
+    thread ||= FALLBACKS[format.id];
+    if (!thread || thread.startsWith(SMOGON) || seen.has(thread)) continue;
+    if (IGNORE.includes(thread)) {
+      ignored.add(thread);
+      continue;
+    }
+    seen.add(thread);
+    if (!format.exists) {
+      console.error(`Missing format '${format.name}'`);
+      format.effectType = 'Format';
+      format.gen = dex.gen;
+      format.mod = dex.currentMod;
+    }
+    formats[format.id] = wrap(() => scrapeThread(dex, format, thread))();
   }
 
   if (ignored.size !== IGNORE.length) {
@@ -153,14 +164,14 @@ const IGNORE = [
   const m = SCMS.exec(html);
   for (const f of JSON.parse(m[1]).FORMATS) {
     if (!f.startsWith('gen')) continue;
-    const format = Dex.formats.get(f);
-    // TODO: Use @pkmn/mods to support mods
-    if (!GEN.test(format.mod)) continue;
+    const dex = mods[f] ?? await getMod(f.slice(0, 4));
+    if (!dex) continue;
+    const format = dex.formats.get(f);
     if (!format.exists) {
       console.error(`Missing format '${format.name}'`);
       format.effectType = 'Format';
-      format.gen = +format.id[3];
-      format.mod = format.id.slice(0, 4);
+      format.gen = dex.gen;
+      format.mod = dex.currentMod;
     }
 
     const url = `https://www.smogon.com/roa/sample-files/${format.id}.txt`;
@@ -168,7 +179,7 @@ const IGNORE = [
     // case both the threads and the ROA archives have the same data (which honestly should be
     // common but realistically one or both are going to be out of date)
     const existing = await formats[format.id] ?? [];
-    const teams = await scrapeArchive(format, url, existing);
+    const teams = await scrapeArchive(dex, format, url, existing);
     if (teams.length) {
       formats[format.id] = Promise.resolve([...existing, ...teams]);
     }
@@ -185,10 +196,21 @@ const IGNORE = [
   process.exit(1);
 });
 
-async function scrapeArchive(format, url, existing) {
+async function getMod(mod = 'gen9') {
+  if (mod in Dex.dexes) return Dex.mod(mod);
+  try {
+    if (mod === 'gen9predlc' && !('gen9dlc1' in Dex.dexes)) {
+      Dex.mod('gen9dlc1', await import('@pkmn/mods/gen9dlc1'));
+    }
+    return Dex.mod(mod, await import(`@pkmn/mods/${mod}`));
+  } catch {
+    return undefined;
+  }
+}
+
+async function scrapeArchive(dex, format, url, existing) {
   const teams = [];
 
-  const dex = Dex.forFormat(format);
   const validator = new TeamValidator(format, dex);
 
   // Avoid adding teams which were already scraped from threads
@@ -231,10 +253,9 @@ async function scrapeArchive(format, url, existing) {
   return teams;
 }
 
-async function scrapeThread(format, url) {
+async function scrapeThread(dex, format, url) {
   const document = new JSDOM(await forum(url)).window.document;
 
-  const dex = Dex.forFormat(format);
   const validator = new TeamValidator(format, dex);
 
   let teams = [];
@@ -373,7 +394,8 @@ function clean(dex, validator, team) {
       }
     }
   }
-  return Team.canonicalize(team, dex).map(s => pretty(dex, s, validator?.ruleTable?.defaultLevel));
+  const level = validator?.ruleTable?.adjustLevel || validator?.ruleTable?.defaultLevel;
+  return Team.canonicalize(team, dex).map(s => pretty(dex, s, level));
 }
 
 function fixSet(dex, set) {
@@ -424,7 +446,9 @@ function pretty(dex, set, level) {
   set.species = dex.species.get(set.species).name;
   set.moves = set.moves.map(m => dex.moves.get(m).name);
   if (set.item) set.item = dex.items.get(set.item).name;
-  if (set.ability) set.ability = dex.abilities.get(set.ability).name;
+  if (set.ability) {
+    set.ability = set.ability === 'noability' ? undefined : dex.abilities.get(set.ability).name;
+  }
   if (set.nature) set.nature = dex.natures.get(set.nature).name;
 
   return set;

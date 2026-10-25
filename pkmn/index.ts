@@ -350,7 +350,12 @@ export class Smogon {
 
   /** Returns sample teams for a given format. */
   async teams(format: ID) {
-    format = this.baseFormat(format);
+    if (format === 'champions') {
+      format = 'gen9championsou' as ID;
+    } else {
+      format = this.baseFormat(format);
+      if (format.startsWith('champions')) format = `gen9${format}` as ID;
+    }
 
     let teams = this.cache.format.teams[format];
     if (!teams) {
@@ -374,6 +379,7 @@ export class Smogon {
 
   // Certain special formats like specific VGC or BSS series get reduced down to a 'base' format.
   private baseFormat(format: ID) {
+    if (format.startsWith('gen9champions')) format = format.slice(4) as ID;
     const m = SPECIAL.exec(format);
     if (!m) return format;
     const id = (TRANSLATE[m[1] as keyof typeof TRANSLATE] || m[1]) as ID;
