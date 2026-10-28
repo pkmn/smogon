@@ -87,14 +87,13 @@ const ORDER = Object.keys(FORMATS);
 // Iterating through dex.species.all() returns a bunch of formes that Smogon either doesn't support
 // or will simply redirect to the base species - instead we filter to only the 'eligible' Pokémon to
 // return just the set of Pokémon Smogon will actually have unique analyses for.
-const NONSTANDARD = ['Unobtainable', 'Gigantamax'];
 const PREFIXES = ['Pichu', 'Basculin', 'Keldeo', 'Genesect', 'Vivillon', 'Magearna'];
-const SUFFIXES = ['-Antique', '-Totem', '-Mega-Z'];
+const SUFFIXES = ['-Antique', '-Totem', '-Gmax', '-Mega-Z'];
 function eligible(gen, species) {
   // Note that we can't include species.tier === 'Illegal' because of National Dex...
   if (!species.exists || species.gen > gen) return false;
   if (species.name.endsWith('-Crowned')) return true; // no clue
-  if (species.battleOnly || NONSTANDARD.includes(species.isNonstandard)) return false;
+  if (species.battleOnly || species.isNonstandard === 'Unobtainable') return false;
   if (species.baseSpecies === species.name) return true;
   if (PREFIXES.some(prefix => species.name.startsWith(prefix))) return false;
   if (SUFFIXES.some(suffix => species.name.endsWith(suffix))) return false;

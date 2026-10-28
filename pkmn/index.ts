@@ -485,7 +485,7 @@ export class Smogon {
       nature: Array.isArray(s.nature) ? s.nature[0] : s.nature,
       ivs: Array.isArray(s.ivs) ? s.ivs[0] : s.ivs,
       evs: Array.isArray(s.evs) ? s.evs[0] : s.evs,
-      gigantamax: species.isNonstandard === 'Gigantamax',
+      gigantamax: species.name.endsWith('-Gmax'),
       teraType: Array.isArray(s.teratypes) ? s.teratypes[0] : s.teratypes,
     } as DeepPartial<PokemonSet>;
   }
