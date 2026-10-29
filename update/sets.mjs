@@ -171,7 +171,7 @@ function importStrategies(dex, gen, species, strategies) {
     return ao >= 0 && bo >= 0 ? bo - ao : bid.localeCompare(aid);
   })) {
     const tier = toID(analysis.format);
-    if (tier === 'limbo' || tier.endsWith('rentals')) continue;
+    if (tier === 'limbo' || tier === 'farceus' || tier.endsWith('rentals')) continue;
     let format = `gen${gen}${FORMATS[tier] || tier}`;
     // NB: we can't simply check Format.exists because @pkmn/sim doesn't support all mods
     if (Dex.formats.get(format).effectType !== 'Format' && !FORMATS[tier]) {
