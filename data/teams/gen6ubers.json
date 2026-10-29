@@ -1,17 +1,29 @@
 [
   {
-    "name": "Traditional Hyper Offense",
+    "name": "Classic HO (SashRai)",
     "data": [
       {"species": "Deoxys-Speed", "item": "Rocky Helmet", "ability": "Pressure", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Skill Swap", "Spikes", "Stealth Rock", "Taunt"]},
       {"species": "Arceus", "item": "Life Orb", "ability": "Multitype", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Extreme Speed", "Shadow Claw", "Swords Dance"]},
-      {"species": "Darkrai", "item": "Life Orb", "ability": "Bad Dreams", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Dark Void", "Nasty Plot", "Thunder"]},
+      {"species": "Darkrai", "item": "Focus Sash", "ability": "Bad Dreams", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Dark Void", "Nasty Plot", "Sludge Bomb"]},
       {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 168, "atk": 252, "spd": 32, "spe": 56}, "nature": "Adamant", "moves": ["Precipice Blades", "Rock Polish", "Stone Edge", "Swords Dance"]},
       {"species": "Salamence", "gender": "M", "item": "Salamencite", "ability": "Intimidate", "evs": {"hp": 216, "atk": 156, "spe": 136}, "nature": "Adamant", "moves": ["Double-Edge", "Dragon Dance", "Earthquake", "Roost"]},
       {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 208, "spa": 252, "spe": 48}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Geomancy", "Moonblast", "Thunder"]}
     ]
   },
   {
-    "name": "Double Primal + Double Hex Balance",
+    "name": "Toxic Spikes Normal Spam",
+    "data": [
+      {"species": "Cloyster", "gender": "M", "item": "Focus Sash", "ability": "Skill Link", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Icicle Spear", "Rapid Spin", "Shell Smash", "Toxic Spikes"]},
+      {"species": "Arceus", "item": "Silk Scarf", "ability": "Multitype", "evs": {"hp": 192, "atk": 252, "spe": 64}, "nature": "Adamant", "moves": ["Extreme Speed", "Recover", "Shadow Claw", "Swords Dance"]},
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 128, "atk": 244, "spd": 100, "spe": 36}, "nature": "Adamant", "moves": ["Precipice Blades", "Rock Slide", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Ho-Oh", "item": "Life Orb", "ability": "Regenerator", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brave Bird", "Earthquake", "Sacred Fire", "Sleep Talk"]},
+      {"species": "Kangaskhan", "item": "Kangaskhanite", "ability": "Scrappy", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Crunch", "Double-Edge", "Fake Out", "Low Kick"]},
+      {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 200, "spa": 252, "spe": 56}, "nature": "Modest", "moves": ["Aromatherapy", "Geomancy", "Hidden Power Rock", "Moonblast"], "ivs": {"def": 30, "spd": 30, "spe": 30}}
+    ]
+  },
+  {
+    "name": "double hex double primal",
+    "author": "Lasen",
     "data": [
       {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 248, "def": 56, "spd": 204}, "nature": "Relaxed", "moves": ["Lava Plume", "Precipice Blades", "Stealth Rock", "Thunder Wave"]},
       {"species": "Arceus-Rock", "item": "Stone Plate", "ability": "Multitype", "evs": {"hp": 252, "spa": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Judgment", "Recover", "Refresh"]},
@@ -22,14 +34,14 @@
     ]
   },
   {
-    "name": "Toxic Spikes Double Normal HO",
+    "name": "Durian Stall",
     "data": [
-      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 128, "atk": 244, "spd": 100, "spe": 36}, "nature": "Adamant", "moves": ["Precipice Blades", "Rock Slide", "Stealth Rock", "Thunder Wave"]},
-      {"species": "Arceus", "item": "Silk Scarf", "ability": "Multitype", "evs": {"hp": 192, "atk": 252, "spe": 64}, "nature": "Adamant", "moves": ["Extreme Speed", "Recover", "Shadow Claw", "Swords Dance"]},
-      {"species": "Cloyster", "gender": "M", "item": "Focus Sash", "ability": "Skill Link", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Icicle Spear", "Rapid Spin", "Shell Smash", "Toxic Spikes"]},
-      {"species": "Ho-Oh", "item": "Life Orb", "ability": "Regenerator", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brave Bird", "Earthquake", "Sacred Fire", "Sleep Talk"]},
-      {"species": "Kangaskhan", "item": "Kangaskhanite", "ability": "Scrappy", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Crunch", "Double-Edge", "Fake Out", "Low Kick"]},
-      {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 200, "spa": 252, "spe": 56}, "nature": "Modest", "moves": ["Aromatherapy", "Geomancy", "Hidden Power Rock", "Moonblast"], "ivs": {"def": 30, "spd": 30, "spe": 30}}
+      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 248, "def": 8, "spd": 252}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Leech Seed", "Protect", "Spikes"]},
+      {"species": "Arceus-Ground", "item": "Earth Plate", "ability": "Multitype", "evs": {"hp": 248, "def": 164, "spe": 96}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Judgment", "Recover", "Stealth Rock"]},
+      {"species": "Blissey", "item": "Shed Shell", "ability": "Natural Cure", "evs": {"hp": 8, "def": 252, "spd": 248}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Aromatherapy", "Confide", "Soft-Boiled", "Toxic"]},
+      {"species": "Giratina", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 248, "def": 204, "spd": 56}, "nature": "Bold", "ivs": {"atk": 0, "spe": 30}, "moves": ["Defog", "Dragon Tail", "Rest", "Toxic"]},
+      {"species": "Lugia", "item": "Leftovers", "ability": "Multiscale", "evs": {"hp": 248, "def": 164, "spe": 96}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Psychic", "Roost", "Toxic", "Whirlwind"]},
+      {"species": "Sableye", "gender": "M", "item": "Sablenite", "ability": "Prankster", "evs": {"hp": 248, "spd": 252, "spe": 8}, "nature": "Careful", "moves": ["Fake Out", "Foul Play", "Recover", "Will-O-Wisp"]}
     ]
   },
   {
@@ -44,6 +56,28 @@
     ]
   },
   {
+    "name": "Traditional Hyper Offense",
+    "data": [
+      {"species": "Deoxys-Speed", "item": "Rocky Helmet", "ability": "Pressure", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Skill Swap", "Spikes", "Stealth Rock", "Taunt"]},
+      {"species": "Arceus", "item": "Life Orb", "ability": "Multitype", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Extreme Speed", "Shadow Claw", "Swords Dance"]},
+      {"species": "Darkrai", "item": "Life Orb", "ability": "Bad Dreams", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Dark Void", "Nasty Plot", "Thunder"]},
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 168, "atk": 252, "spd": 32, "spe": 56}, "nature": "Adamant", "moves": ["Precipice Blades", "Rock Polish", "Stone Edge", "Swords Dance"]},
+      {"species": "Salamence", "gender": "M", "item": "Salamencite", "ability": "Intimidate", "evs": {"hp": 216, "atk": 156, "spe": 136}, "nature": "Adamant", "moves": ["Double-Edge", "Dragon Dance", "Earthquake", "Roost"]},
+      {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 208, "spa": 252, "spe": 48}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Geomancy", "Moonblast", "Thunder"]}
+    ]
+  },
+  {
+    "name": "Toxic Spikes Double Normal HO",
+    "data": [
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 128, "atk": 244, "spd": 100, "spe": 36}, "nature": "Adamant", "moves": ["Precipice Blades", "Rock Slide", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Arceus", "item": "Silk Scarf", "ability": "Multitype", "evs": {"hp": 192, "atk": 252, "spe": 64}, "nature": "Adamant", "moves": ["Extreme Speed", "Recover", "Shadow Claw", "Swords Dance"]},
+      {"species": "Cloyster", "gender": "M", "item": "Focus Sash", "ability": "Skill Link", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Icicle Spear", "Rapid Spin", "Shell Smash", "Toxic Spikes"]},
+      {"species": "Ho-Oh", "item": "Life Orb", "ability": "Regenerator", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brave Bird", "Earthquake", "Sacred Fire", "Sleep Talk"]},
+      {"species": "Kangaskhan", "item": "Kangaskhanite", "ability": "Scrappy", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Crunch", "Double-Edge", "Fake Out", "Low Kick"]},
+      {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 200, "spa": 252, "spe": 56}, "nature": "Modest", "moves": ["Aromatherapy", "Geomancy", "Hidden Power Rock", "Moonblast"], "ivs": {"def": 30, "spd": 30, "spe": 30}}
+    ]
+  },
+  {
     "name": "Deoxys-A + Rockceus hazard stack BO",
     "data": [
       {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 240, "atk": 124, "spd": 68, "spe": 76}, "nature": "Adamant", "moves": ["Precipice Blades", "Stealth Rock", "Stone Edge", "Thunder Wave"]},
@@ -52,17 +86,6 @@
       {"species": "Giratina-Origin", "item": "Griseous Orb", "ability": "Levitate", "evs": {"def": 248, "spa": 248, "spe": 12}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Defog", "Draco Meteor", "Hex", "Toxic"]},
       {"species": "Klefki", "gender": "M", "item": "Leftovers", "ability": "Prankster", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Careful", "moves": ["Play Rough", "Spikes", "Thunder Wave", "Toxic"]},
       {"species": "Salamence", "gender": "M", "item": "Salamencite", "ability": "Intimidate", "happiness": 0, "evs": {"hp": 248, "atk": 136, "spe": 124}, "nature": "Adamant", "moves": ["Dragon Dance", "Earthquake", "Frustration", "Roost"]}
-    ]
-  },
-  {
-    "name": "Defiant Durians Stall",
-    "data": [
-      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 248, "def": 8, "spd": 252}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Leech Seed", "Protect", "Spikes"]},
-      {"species": "Arceus-Ground", "item": "Earth Plate", "ability": "Multitype", "evs": {"hp": 248, "def": 164, "spe": 96}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Judgment", "Recover", "Stealth Rock"]},
-      {"species": "Blissey", "item": "Shed Shell", "ability": "Natural Cure", "evs": {"hp": 8, "def": 252, "spd": 248}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Aromatherapy", "Confide", "Soft-Boiled", "Toxic"]},
-      {"species": "Giratina", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 248, "def": 204, "spd": 56}, "nature": "Bold", "ivs": {"atk": 0, "spe": 30}, "moves": ["Defog", "Dragon Tail", "Rest", "Toxic"]},
-      {"species": "Lugia", "item": "Leftovers", "ability": "Multiscale", "evs": {"hp": 248, "def": 164, "spe": 96}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Psychic", "Roost", "Toxic", "Whirlwind"]},
-      {"species": "Sableye", "gender": "M", "item": "Sablenite", "ability": "Prankster", "evs": {"hp": 248, "spd": 252, "spe": 8}, "nature": "Careful", "moves": ["Fake Out", "Foul Play", "Recover", "Will-O-Wisp"]}
     ]
   }
 ]

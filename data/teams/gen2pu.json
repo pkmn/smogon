@@ -1,14 +1,110 @@
 [
   {
-    "name": "Noctowl Balance",
-    "author": "Earthworm",
+    "name": "Murkrow Cubone",
+    "author": "Mrsoup",
     "data": [
-      {"species": "Delibird", "gender": "M", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Hidden Power Rock", "Ice Beam", "Spikes", "Thief"]},
-      {"species": "Elekid", "gender": "M", "item": "Leftovers", "moves": ["Light Screen", "Psychic", "Thunderbolt", "Toxic"]},
-      {"species": "Golbat", "gender": "M", "item": "Leftovers", "moves": ["Giga Drain", "Protect", "Toxic", "Wing Attack"]},
-      {"species": "Murkrow", "gender": "M", "item": "Black Glasses", "moves": ["Drill Peck", "Haze", "Hidden Power Dark", "Pursuit"]},
-      {"species": "Noctowl", "gender": "M", "item": "Leftovers", "moves": ["Hypnosis", "Nightmare", "Return", "Toxic"], "happiness": 255},
-      {"species": "Venomoth", "gender": "M", "item": "Leftovers", "moves": ["Giga Drain", "Psychic", "Screech", "Sludge Bomb"]}
+      {"species": "Furret", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Arbok", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Earthquake", "Glare", "Sludge Bomb"]},
+      {"species": "Cubone", "gender": "M", "item": "Thick Club", "ivs": {"atk": 27, "def": 27}, "moves": ["Earthquake", "Hidden Power Bug", "Rock Slide", "Swords Dance"]},
+      {"species": "Hitmonchan", "item": "Leftovers", "moves": ["Body Slam", "High Jump Kick", "Rest", "Sleep Talk"]},
+      {"species": "Murkrow", "gender": "M", "item": "Miracle Berry", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Drill Peck", "Haze", "Hidden Power Grass", "Pursuit"]},
+      {"species": "Tangela", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "def": 25}, "moves": ["Giga Drain", "Growth", "Hidden Power Psychic", "Stun Spore"]}
+    ]
+  },
+  {
+    "name": "Lead Sparce + Arbok",
+    "author": "Indulge in Dreams",
+    "data": [
+      {"species": "Dunsparce", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Rest", "Return", "Sleep Talk"], "happiness": 255},
+      {"species": "Arbok", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Giga Drain", "Glare", "Sludge Bomb"]},
+      {"species": "Furret", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Hitmonchan", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "High Jump Kick", "Mach Punch"]},
+      {"species": "Murkrow", "gender": "M", "item": "Miracle Berry", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Drill Peck", "Haze", "Hidden Power Grass", "Pursuit"]},
+      {"species": "Tangela", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 25}, "moves": ["Giga Drain", "Hidden Power Fire", "Stun Spore", "Synthesis"]}
+    ]
+  },
+  {
+    "name": "Thief Elekid",
+    "author": "Indulge in Dreams",
+    "data": [
+      {"species": "Elekid", "gender": "M", "moves": ["Ice Punch", "Psychic", "Thief", "Thunder"]},
+      {"species": "Corsola", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Curse", "Hidden Power Rock", "Recover", "Surf"]},
+      {"species": "Furret", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Curse", "Double-Edge", "Hidden Power Grass", "Surf"]},
+      {"species": "Hitmonchan", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Curse", "Hidden Power Rock", "High Jump Kick", "Mach Punch"]},
+      {"species": "Magcargo", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Flamethrower", "Rest", "Sleep Talk"]},
+      {"species": "Venomoth", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Sludge Bomb"]}
+    ]
+  },
+  {
+    "name": "MonoChan Spikes",
+    "author": "Cr0ssHeart",
+    "data": [
+      {"species": "Furret", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Delibird", "gender": "M", "item": "Miracle Berry", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Hidden Power Rock", "Ice Beam", "Spikes", "Thief"]},
+      {"species": "Hitmonchan", "item": "Leftovers", "moves": ["Curse", "High Jump Kick", "Rest", "Sleep Talk"]},
+      {"species": "Rhyhorn", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Roar", "Rock Slide", "Toxic"]},
+      {"species": "Tangela", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "def": 25}, "moves": ["Giga Drain", "Growth", "Hidden Power Psychic", "Synthesis"]},
+      {"species": "Venomoth", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Sludge Bomb"]}
+    ]
+  },
+  {
+    "name": "Lead Moth Spikes",
+    "author": "leoperi",
+    "data": [
+      {"species": "Venomoth", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Sludge Bomb"]},
+      {"species": "Corsola", "gender": "M", "item": "Leftovers", "moves": ["Defense Curl", "Recover", "Surf", "Toxic"]},
+      {"species": "Delibird", "gender": "M", "moves": ["Ice Beam", "Spikes", "Thief", "Toxic"]},
+      {"species": "Dunsparce", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Rest", "Return", "Sleep Talk"], "happiness": 255},
+      {"species": "Flaaffy", "gender": "M", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Furret", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Ice Punch", "Rest", "Sleep Talk"]}
+    ]
+  },
+  {
+    "name": "Voltorb Screens",
+    "author": "THE_CHUNGLER",
+    "data": [
+      {"species": "Voltorb", "item": "Leftovers", "moves": ["Explosion", "Light Screen", "Reflect", "Thunder"]},
+      {"species": "Arbok", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Earthquake", "Glare", "Sludge Bomb"]},
+      {"species": "Dunsparce", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Curse", "Glare", "Hidden Power Ground", "Return"], "happiness": 255},
+      {"species": "Noctowl", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Rest", "Return", "Whirlwind"], "happiness": 255},
+      {"species": "Seaking", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Hidden Power Ground", "Return", "Substitute", "Swords Dance"], "happiness": 255},
+      {"species": "Tangela", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "def": 25}, "moves": ["Giga Drain", "Growth", "Hidden Power Psychic", "Sleep Powder"]}
+    ]
+  },
+  {
+    "name": "Whirlwind Noctowl Spikes",
+    "author": "KeshBa54",
+    "data": [
+      {"species": "Elekid", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Delibird", "gender": "M", "moves": ["Ice Beam", "Spikes", "Thief", "Toxic"]},
+      {"species": "Hitmonchan", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27}, "moves": ["Body Slam", "Curse", "Hidden Power Flying", "High Jump Kick"]},
+      {"species": "Noctowl", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Rest", "Return", "Whirlwind"], "happiness": 255},
+      {"species": "Rhyhorn", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Roar", "Rock Slide", "Toxic"]},
+      {"species": "Tangela", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "def": 25}, "moves": ["Giga Drain", "Growth", "Hidden Power Psychic", "Synthesis"]}
+    ]
+  },
+  {
+    "name": "Houndour Gastly Spikes",
+    "author": "BigFatMantis",
+    "data": [
+      {"species": "Furret", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Double-Edge", "Rest", "Sleep Talk"]},
+      {"species": "Delibird", "gender": "M", "moves": ["Ice Beam", "Spikes", "Thief", "Toxic"]},
+      {"species": "Gastly", "gender": "M", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Psychic", "Thief", "Thunder"]},
+      {"species": "Hitmonchan", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Hidden Power Rock", "High Jump Kick", "Rest", "Sleep Talk"]},
+      {"species": "Houndour", "gender": "M", "item": "Miracle Berry", "moves": ["Fire Blast", "Pursuit", "Solar Beam", "Sunny Day"]},
+      {"species": "Seadra", "gender": "M", "item": "Leftovers", "moves": ["Haze", "Rest", "Sleep Talk", "Surf"]}
+    ]
+  },
+  {
+    "name": "CursePass Venomoth",
+    "author": "BigFatMantis",
+    "data": [
+      {"species": "Venomoth", "gender": "M", "item": "Leftovers", "moves": ["Baton Pass", "Curse", "Sleep Powder", "Sludge Bomb"]},
+      {"species": "Corsola", "gender": "M", "item": "Leftovers", "moves": ["Defense Curl", "Ice Beam", "Recover", "Rock Slide"]},
+      {"species": "Furret", "gender": "M", "item": "Leftovers", "moves": ["Double-Edge", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Hitmonchan", "item": "Leftovers", "moves": ["Body Slam", "High Jump Kick", "Rest", "Sleep Talk"]},
+      {"species": "Machoke", "gender": "M", "item": "Leftovers", "moves": ["Cross Chop", "Curse", "Earthquake", "Rock Slide"]},
+      {"species": "Murkrow", "gender": "M", "item": "Miracle Berry", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Drill Peck", "Haze", "Hidden Power Grass", "Pursuit"]}
     ]
   }
 ]

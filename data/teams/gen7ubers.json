@@ -1,6 +1,6 @@
 [
   {
-    "name": "Ho-Oh and Double Grounds",
+    "name": "HoOh BO double ground",
     "author": "plat27",
     "data": [
       {"species": "Ho-Oh", "item": "Choice Band", "ability": "Regenerator", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Adamant", "moves": ["Brave Bird", "Defog", "Sacred Fire", "Toxic"]},
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "name": "Mega Scizor Double Primal Balance",
+    "name": "Scizor double primal",
     "author": "Garay Oak",
     "data": [
       {"species": "Kyogre", "item": "Blue Orb", "ability": "Drizzle", "evs": {"hp": 96, "spa": 252, "spe": 160}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Ice Beam", "Origin Pulse", "Water Spout"]},
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "name": "E-killer Double Primal HO",
-    "author": "Zesty",
+    "name": "Ekiller + Double primal",
+    "author": "Zesty + MM",
     "data": [
       {"species": "Arceus", "item": "Chople Berry", "ability": "Multitype", "evs": {"hp": 240, "atk": 252, "spe": 16}, "nature": "Adamant", "moves": ["Extreme Speed", "Recover", "Shadow Claw", "Swords Dance"]},
       {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"atk": 252, "spd": 100, "spe": 156}, "nature": "Adamant", "moves": ["Precipice Blades", "Rock Polish", "Stone Edge", "Swords Dance"]},
@@ -45,6 +45,54 @@
       {"species": "Necrozma-Dusk-Mane", "item": "Ultranecrozium Z", "ability": "Prism Armor", "evs": {"def": 32, "spa": 224, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Heat Wave", "Photon Geyser", "Power Gem", "Stealth Rock"]},
       {"species": "Salamence", "gender": "M", "item": "Salamencite", "ability": "Intimidate", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Defog", "Double-Edge", "Facade", "Roost"]},
       {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 168, "spa": 252, "spe": 88}, "nature": "Modest", "moves": ["Focus Blast", "Geomancy", "Moonblast", "Thunder"]}
+    ]
+  },
+  {
+    "name": "\"UWC\" Gren HO",
+    "author": "plat27",
+    "data": [
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 136, "atk": 168, "spd": 52, "spe": 152}, "nature": "Adamant", "moves": ["Dragon Tail", "Precipice Blades", "Stealth Rock", "Stone Edge"]},
+      {"species": "Arceus", "item": "Chople Berry", "ability": "Multitype", "evs": {"hp": 220, "atk": 252, "spe": 32}, "nature": "Adamant", "moves": ["Earthquake", "Extreme Speed", "Ice Beam", "Swords Dance"]},
+      {"species": "Greninja", "gender": "M", "item": "Focus Sash", "ability": "Protean", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Icy Wind", "Spikes", "Taunt", "Toxic Spikes"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Solganium Z", "ability": "Prism Armor", "evs": {"atk": 248, "spd": 8, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Rock Polish", "Sunsteel Strike", "Swords Dance"]},
+      {"species": "Salamence", "gender": "M", "item": "Salamencite", "ability": "Intimidate", "evs": {"hp": 44, "atk": 252, "spe": 212}, "nature": "Adamant", "moves": ["Double-Edge", "Dragon Dance", "Earthquake", "Facade"]},
+      {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 168, "spa": 252, "spe": 88}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Geomancy", "Moonblast", "Thunder"]}
+    ]
+  },
+  {
+    "name": "Double Ghost BO",
+    "author": "The Strap",
+    "data": [
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 252, "def": 56, "spd": 200}, "nature": "Relaxed", "moves": ["Overheat", "Precipice Blades", "Stealth Rock", "Toxic"]},
+      {"species": "Arceus-Ground", "item": "Earth Plate", "ability": "Multitype", "evs": {"hp": 252, "def": 168, "spe": 88}, "nature": "Timid", "moves": ["Defog", "Ice Beam", "Judgment", "Recover"]},
+      {"species": "Gengar", "gender": "M", "item": "Gengarite", "ability": "Cursed Body", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Icy Wind", "Shadow Ball", "Sludge Wave", "Thunder"]},
+      {"species": "Magearna", "item": "Leftovers", "ability": "Soul-Heart", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Calm", "moves": ["Fleur Cannon", "Heal Bell", "Heart Swap", "Volt Switch"]},
+      {"species": "Marshadow", "item": "Marshadium Z", "ability": "Technician", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bulk Up", "Close Combat", "Shadow Sneak", "Spectral Thief"]},
+      {"species": "Yveltal", "item": "Leftovers", "ability": "Dark Aura", "evs": {"hp": 248, "spd": 76, "spe": 184}, "nature": "Timid", "moves": ["Foul Play", "Roost", "Taunt", "Toxic"]}
+    ]
+  },
+  {
+    "name": "Z Marshadow Hazard Stack",
+    "author": "PurpleGatorade",
+    "data": [
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Relaxed", "moves": ["Overheat", "Precipice Blades", "Stealth Rock", "Toxic"]},
+      {"species": "Arceus-Ground", "item": "Earth Plate", "ability": "Multitype", "evs": {"hp": 248, "def": 64, "spe": 192}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Ice Beam", "Judgment", "Recover"]},
+      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Leech Seed", "Spikes", "Toxic"]},
+      {"species": "Marshadow", "item": "Marshadium Z", "ability": "Technician", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bulk Up", "Close Combat", "Shadow Sneak", "Spectral Thief"]},
+      {"species": "Yveltal", "item": "Charti Berry", "ability": "Dark Aura", "evs": {"hp": 248, "def": 72, "spe": 184}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Foul Play", "Roost", "Taunt", "Toxic"]},
+      {"species": "Zygarde", "item": "Leftovers", "ability": "Power Construct", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Coil", "Dragon Tail", "Rest", "Thousand Arrows"]}
+    ]
+  },
+  {
+    "name": "Darkceus+CB Ho-oh Balanced",
+    "author": "Garay oak",
+    "data": [
+      {"species": "Arceus-Dark", "item": "Dread Plate", "ability": "Multitype", "evs": {"hp": 252, "def": 132, "spd": 28, "spe": 96}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Defog", "Ice Beam", "Judgment", "Recover"]},
+      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 248, "def": 112, "spd": 148}, "nature": "Relaxed", "moves": ["Overheat", "Precipice Blades", "Stealth Rock", "Toxic"]},
+      {"species": "Ho-Oh", "item": "Choice Band", "ability": "Regenerator", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brave Bird", "Defog", "Sacred Fire", "Toxic"]},
+      {"species": "Necrozma-Dusk-Mane", "item": "Solganium Z", "ability": "Prism Armor", "evs": {"hp": 252, "atk": 80, "spd": 152, "spe": 24}, "nature": "Careful", "moves": ["Earthquake", "Morning Sun", "Sunsteel Strike", "Swords Dance"]},
+      {"species": "Xerneas", "item": "Choice Scarf", "ability": "Fairy Aura", "evs": {"hp": 24, "def": 96, "spa": 212, "spe": 176}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Aromatherapy", "Defog", "Moonblast", "Toxic"]},
+      {"species": "Zygarde", "item": "Leftovers", "ability": "Power Construct", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Coil", "Glare", "Rest", "Thousand Arrows"]}
     ]
   },
   {
@@ -60,18 +108,6 @@
     ]
   },
   {
-    "name": "Z-Marshadow Hazard Stack",
-    "author": "PurpleGatorade",
-    "data": [
-      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Relaxed", "moves": ["Overheat", "Precipice Blades", "Stealth Rock", "Toxic"]},
-      {"species": "Arceus-Ground", "item": "Earth Plate", "ability": "Multitype", "evs": {"hp": 248, "def": 64, "spe": 192}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Ice Beam", "Judgment", "Recover"]},
-      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Leech Seed", "Spikes", "Toxic"]},
-      {"species": "Marshadow", "item": "Marshadium Z", "ability": "Technician", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bulk Up", "Close Combat", "Shadow Sneak", "Spectral Thief"]},
-      {"species": "Yveltal", "item": "Charti Berry", "ability": "Dark Aura", "evs": {"hp": 248, "def": 72, "spe": 184}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Foul Play", "Roost", "Taunt", "Toxic"]},
-      {"species": "Zygarde", "item": "Leftovers", "ability": "Power Construct", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Coil", "Dragon Tail", "Rest", "Thousand Arrows"]}
-    ]
-  },
-  {
     "name": "Suicide Lead Greninja + Double Dance Necrozma-DM HO",
     "author": "plat27",
     "data": [
@@ -81,18 +117,6 @@
       {"species": "Necrozma-Dusk-Mane", "item": "Solganium Z", "ability": "Prism Armor", "evs": {"atk": 252, "spd": 8, "spe": 248}, "nature": "Adamant", "moves": ["Earthquake", "Rock Polish", "Sunsteel Strike", "Swords Dance"]},
       {"species": "Salamence", "gender": "M", "item": "Salamencite", "ability": "Intimidate", "evs": {"hp": 44, "atk": 228, "spe": 212}, "nature": "Adamant", "moves": ["Double-Edge", "Dragon Dance", "Earthquake", "Facade"]},
       {"species": "Xerneas", "item": "Power Herb", "ability": "Fairy Aura", "evs": {"def": 168, "spa": 252, "spe": 88}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Geomancy", "Moonblast", "Thunder"]}
-    ]
-  },
-  {
-    "name": "Choice Band Ho-Oh Darkceus Balance",
-    "author": "March Fires",
-    "data": [
-      {"species": "Arceus-Dark", "item": "Dread Plate", "ability": "Multitype", "evs": {"hp": 252, "def": 132, "spd": 28, "spe": 96}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Defog", "Ice Beam", "Judgment", "Recover"]},
-      {"species": "Groudon", "item": "Red Orb", "ability": "Drought", "evs": {"hp": 248, "def": 112, "spd": 148}, "nature": "Relaxed", "moves": ["Overheat", "Precipice Blades", "Stealth Rock", "Toxic"]},
-      {"species": "Ho-Oh", "item": "Choice Band", "ability": "Regenerator", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brave Bird", "Defog", "Sacred Fire", "Toxic"]},
-      {"species": "Necrozma-Dusk-Mane", "item": "Solganium Z", "ability": "Prism Armor", "evs": {"hp": 252, "atk": 80, "spd": 152, "spe": 24}, "nature": "Careful", "moves": ["Earthquake", "Morning Sun", "Sunsteel Strike", "Swords Dance"]},
-      {"species": "Xerneas", "item": "Choice Scarf", "ability": "Fairy Aura", "evs": {"hp": 24, "def": 96, "spa": 212, "spe": 176}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Aromatherapy", "Defog", "Moonblast", "Toxic"]},
-      {"species": "Zygarde", "item": "Leftovers", "ability": "Power Construct", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Coil", "Glare", "Rest", "Thousand Arrows"]}
     ]
   }
 ]

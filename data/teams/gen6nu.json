@@ -1,5 +1,60 @@
 [
   {
+    "name": "AV Yama balance Ft. Gastro",
+    "data": [
+      {"species": "Gastrodon", "gender": "M", "item": "Rocky Helmet", "ability": "Storm Drain", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Earth Power", "Recover", "Scald", "Sludge Bomb"]},
+      {"species": "Hariyama", "gender": "M", "item": "Sitrus Berry", "ability": "Guts", "evs": {"atk": 136, "def": 100, "spd": 252, "spe": 20}, "nature": "Adamant", "moves": ["Bulk Up", "Close Combat", "Ice Punch", "Knock Off"]},
+      {"species": "Mesprit", "item": "Colbur Berry", "ability": "Levitate", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Healing Wish", "Ice Beam", "Psychic", "Stealth Rock"]},
+      {"species": "Pyroar", "gender": "M", "item": "Silk Scarf", "ability": "Unnerve", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Hyper Beam", "Hyper Voice", "Taunt"]},
+      {"species": "Rotom", "item": "Choice Scarf", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Shadow Ball", "Thunderbolt", "Trick", "Volt Switch"]},
+      {"species": "Skuntank", "gender": "M", "item": "Black Glasses", "ability": "Aftermath", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Defog", "Poison Jab", "Pursuit", "Sucker Punch"]}
+    ]
+  },
+  {
+    "name": "EVIRE OFFENSE",
+    "data": [
+      {"species": "Rhydon", "gender": "M", "item": "Eviolite", "ability": "Rock Head", "evs": {"hp": 252, "spd": 240, "spe": 16}, "nature": "Adamant", "moves": ["Earthquake", "Megahorn", "Rock Blast", "Stealth Rock"]},
+      {"species": "Electivire", "gender": "M", "item": "Assault Vest", "ability": "Vital Spirit", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Earthquake", "Flamethrower", "Hidden Power Grass", "Volt Switch"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Garbodor", "gender": "M", "item": "Rocky Helmet", "ability": "Aftermath", "evs": {"hp": 252, "def": 200, "spe": 56}, "nature": "Impish", "moves": ["Gunk Shot", "Seed Bomb", "Spikes", "Toxic Spikes"]},
+      {"species": "Mesprit", "item": "Mind Plate", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Ice Beam", "Psyshock", "Signal Beam"]},
+      {"species": "Shiftry", "gender": "M", "item": "Choice Scarf", "ability": "Chlorophyll", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Hasty", "moves": ["Dark Pulse", "Defog", "Knock Off", "Leaf Storm"]},
+      {"species": "Tauros", "item": "Life Orb", "ability": "Sheer Force", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Earthquake", "Pursuit", "Rock Climb", "Rock Slide"]}
+    ]
+  },
+  {
+    "name": "PILO SEMISTALL",
+    "data": [
+      {"species": "Piloswine", "gender": "M", "item": "Eviolite", "ability": "Thick Fat", "evs": {"hp": 244, "atk": 252, "spe": 12}, "nature": "Adamant", "moves": ["Earthquake", "Ice Shard", "Icicle Crash", "Stealth Rock"]},
+      {"species": "Kabutops", "gender": "M", "item": "Choice Scarf", "ability": "Swift Swim", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Knock Off", "Stone Edge", "Superpower", "Waterfall"]},
+      {"species": "Klinklang", "item": "Leftovers", "ability": "Clear Body", "happiness": 0, "evs": {"hp": 160, "atk": 252, "spe": 96}, "nature": "Adamant", "moves": ["Frustration", "Gear Grind", "Shift Gear", "Substitute"]},
+      {"species": "Lanturn", "gender": "M", "item": "Assault Vest", "ability": "Volt Absorb", "evs": {"spa": 252, "spd": 132, "spe": 124}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Scald", "Signal Beam", "Volt Switch"]},
+      {"species": "Vileplume", "gender": "M", "item": "Black Sludge", "ability": "Effect Spore", "evs": {"hp": 200, "spa": 252, "spd": 4, "spe": 52}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Moonblast", "Sludge Bomb", "Synthesis"]},
+      {"species": "Xatu", "gender": "M", "item": "Rocky Helmet", "ability": "Magic Bounce", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Timid", "moves": ["Heat Wave", "Psychic", "Roost", "U-turn"]}
+    ]
+  },
+  {
+    "name": "CB FLOAT MALAMAR BALANCE",
+    "data": [
+      {"species": "Aurorus", "gender": "M", "item": "Focus Sash", "ability": "Snow Warning", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Blizzard", "Earth Power", "Freeze-Dry", "Stealth Rock"]},
+      {"species": "Floatzel", "gender": "M", "item": "Choice Band", "ability": "Water Veil", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Aqua Jet", "Ice Punch", "Pursuit", "Waterfall"]},
+      {"species": "Hitmonchan", "item": "Assault Vest", "ability": "Iron Fist", "evs": {"hp": 200, "atk": 252, "spe": 56}, "nature": "Adamant", "moves": ["Drain Punch", "Ice Punch", "Mach Punch", "Rapid Spin"]},
+      {"species": "Malamar", "gender": "M", "item": "Lum Berry", "ability": "Contrary", "evs": {"hp": 252, "spd": 184, "spe": 72}, "nature": "Adamant", "moves": ["Knock Off", "Psycho Cut", "Rest", "Superpower"]},
+      {"species": "Mesprit", "item": "Choice Scarf", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Healing Wish", "Ice Beam", "Psychic", "U-turn"]},
+      {"species": "Weezing", "gender": "M", "item": "Rocky Helmet", "ability": "Levitate", "evs": {"hp": 252, "def": 200, "spe": 56}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Sludge Bomb", "Taunt", "Toxic Spikes", "Will-O-Wisp"]}
+    ]
+  },
+  {
+    "name": "GRUMPIG STALL",
+    "data": [
+      {"species": "Mantine", "gender": "M", "item": "Leftovers", "ability": "Water Absorb", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Air Slash", "Defog", "Rest", "Scald"]},
+      {"species": "Audino", "gender": "M", "item": "Audinite", "ability": "Regenerator", "evs": {"hp": 252, "def": 128, "spd": 128}, "nature": "Calm", "moves": ["Dazzling Gleam", "Knock Off", "Protect", "Wish"]},
+      {"species": "Grumpig", "gender": "M", "item": "Leftovers", "ability": "Thick Fat", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Heal Bell", "Psychic", "Thunder Wave", "Whirlwind"]},
+      {"species": "Quagsire", "gender": "M", "item": "Leftovers", "ability": "Unaware", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Relaxed", "moves": ["Curse", "Earthquake", "Recover", "Scald"]},
+      {"species": "Steelix", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 252, "def": 56, "spd": 200}, "nature": "Impish", "moves": ["Earthquake", "Heavy Slam", "Stealth Rock", "Toxic"]},
+      {"species": "Vileplume", "gender": "M", "item": "Black Sludge", "ability": "Effect Spore", "evs": {"hp": 252, "def": 160, "spd": 96}, "nature": "Bold", "ivs": {"atk": 0, "spa": 30, "spe": 30}, "moves": ["Giga Drain", "Hidden Power Fire", "Moonlight", "Sludge Bomb"]}
+    ]
+  },
+  {
     "name": "Sash Archeops Hyper Offense",
     "author": "Shaneghoul",
     "data": [

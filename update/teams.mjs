@@ -42,11 +42,12 @@ const request = wrap(async url => {
   return JSON.parse(text.startsWith(']') ? text.slice(1) : text);
 });
 
+const UA = 'curl/8.5.0';
 const CHALLENGE = /const c = "([0-9a-f]+)", prefix = "0"\.repeat\((\d+)\)/;
 let cookie;
 const forum = wrap(async url => {
   const clean = url.split('#')[0];
-  let response = await fetch(clean, cookie ? {headers: {cookie}} : undefined);
+  let response = await fetch(clean, {headers: {'user-agent': UA, ...(cookie ? {cookie} : {})}});
   let text = await response.text();
   const m = CHALLENGE.exec(text);
   if (m) {
@@ -55,7 +56,7 @@ const forum = wrap(async url => {
     let n = 0;
     while (!crypto.createHash('sha256').update(c + n).digest('hex').startsWith(prefix)) n++;
     cookie = `xf_smogon_gate=${n}`;
-    response = await fetch(clean, {headers: {cookie}});
+    response = await fetch(clean, {headers: {'user-agent': UA, cookie}});
     text = await response.text();
   }
   if (!response.ok) {

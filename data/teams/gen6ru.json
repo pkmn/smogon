@@ -1,19 +1,131 @@
 [
   {
-    "name": "Barbaracle + Flygon Bulky Offense",
-    "author": "MrAldo",
+    "name": "Glalie HO by lighthouses",
     "data": [
-      {"species": "Druddigon", "gender": "M", "item": "Life Orb", "ability": "Sheer Force", "evs": {"hp": 56, "atk": 252, "spd": 4, "spe": 196}, "nature": "Adamant", "moves": ["Dragon Claw", "Fire Punch", "Iron Head", "Thunder Punch"]},
-      {"species": "Emboar", "gender": "M", "item": "Choice Scarf", "ability": "Blaze", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Flare Blitz", "Superpower", "Toxic", "Wild Charge"]},
-      {"species": "Flygon", "gender": "M", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 112, "atk": 144, "spe": 252}, "nature": "Jolly", "moves": ["Defog", "Earthquake", "Roost", "U-turn"]},
-      {"species": "Slowking", "gender": "M", "item": "Colbur Berry", "ability": "Regenerator", "evs": {"hp": 248, "def": 252, "spe": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Scald", "Slack Off", "Thunder Wave"]},
-      {"species": "Steelix", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 244, "atk": 136, "spd": 128}, "nature": "Adamant", "moves": ["Earthquake", "Heavy Slam", "Stealth Rock", "Toxic"]},
-      {"species": "Venusaur", "gender": "M", "item": "Black Sludge", "ability": "Overgrow", "evs": {"hp": 248, "def": 204, "spa": 24, "spd": 16, "spe": 16}, "nature": "Bold", "moves": ["Giga Drain", "Knock Off", "Sludge Bomb", "Synthesis"]}
+      {"species": "Omastar", "gender": "M", "item": "Shuca Berry", "ability": "Weak Armor", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "spa": 30}, "moves": ["Hidden Power Grass", "Ice Beam", "Shell Smash", "Surf"]},
+      {"species": "Aerodactyl", "gender": "M", "item": "Life Orb", "ability": "Unnerve", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Ice Fang", "Stealth Rock", "Stone Edge"]},
+      {"species": "Glalie", "gender": "M", "item": "Glalitite", "ability": "Inner Focus", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Return", "Spikes", "Taunt"], "happiness": 255},
+      {"species": "Meloetta", "item": "Colbur Berry", "ability": "Serene Grace", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Focus Blast", "Psychic", "Shadow Ball"]},
+      {"species": "Sigilyph", "gender": "M", "item": "Focus Sash", "ability": "Magic Guard", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Air Slash", "Dazzling Gleam", "Energy Ball", "Thunder Wave"]},
+      {"species": "Virizion", "item": "Lum Berry", "ability": "Justified", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Leaf Blade", "Swords Dance", "Zen Headbutt"]}
+    ]
+  },
+  {
+    "name": "Uxie HO",
+    "author": "Ruffles",
+    "data": [
+      {"species": "Uxie", "item": "Rocky Helmet", "ability": "Levitate", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Ice Punch", "Stealth Rock", "Thunder Wave", "U-turn"]},
+      {"species": "Braviary", "item": "Leftovers", "ability": "Defiant", "evs": {"hp": 252, "spd": 168, "spe": 88}, "nature": "Careful", "moves": ["Brave Bird", "Bulk Up", "Roost", "Substitute"]},
+      {"species": "Flygon", "gender": "M", "item": "Salac Berry", "ability": "Levitate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Dragon Rush", "Earthquake", "Hone Claws", "Substitute"]},
+      {"species": "Omastar", "gender": "M", "item": "Lum Berry", "ability": "Weak Armor", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0, "spa": 30}, "moves": ["Hidden Power Grass", "Hydro Pump", "Ice Beam", "Shell Smash"]},
+      {"species": "Sneasel", "gender": "M", "item": "Focus Sash", "ability": "Pickpocket", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Ice Shard", "Knock Off", "Low Kick", "Swords Dance"]},
+      {"species": "Xatu", "gender": "M", "item": "Rocky Helmet", "ability": "Magic Bounce", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Night Shade", "Roost", "Thunder Wave", "U-turn"]}
+    ]
+  },
+  {
+    "name": "SD Escavalier BO by lighthouses",
+    "data": [
+      {"species": "Diancie", "item": "Rocky Helmet", "ability": "Clear Body", "evs": {"hp": 252, "def": 236, "spe": 20}, "nature": "Impish", "ivs": {"atk": 0}, "moves": ["Earth Power", "Moonblast", "Stealth Rock", "Toxic"]},
+      {"species": "Escavalier", "gender": "M", "item": "Leftovers", "ability": "Overcoat", "evs": {"hp": 80, "atk": 252, "spe": 176}, "nature": "Adamant", "moves": ["Knock Off", "Megahorn", "Protect", "Swords Dance"]},
+      {"species": "Flygon", "gender": "M", "item": "Earth Plate", "ability": "Levitate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Defog", "Dragon Claw", "Earthquake", "Roost"]},
+      {"species": "Slowking", "gender": "M", "item": "Colbur Berry", "ability": "Regenerator", "evs": {"hp": 252, "spa": 160, "spd": 56, "spe": 40}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Nasty Plot", "Psychic", "Scald", "Slack Off"]},
+      {"species": "Sneasel", "gender": "M", "item": "Choice Band", "ability": "Pickpocket", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Pursuit"]},
+      {"species": "Venusaur", "gender": "M", "item": "Black Sludge", "ability": "Overgrow", "evs": {"hp": 248, "def": 204, "spa": 24, "spd": 16, "spe": 16}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Leech Seed", "Sludge Bomb", "Synthesis"]}
+    ]
+  },
+  {
+    "name": "Fletchinder Magnezone BO",
+    "data": [
+      {"species": "Diancie", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 252, "spa": 36, "spd": 220}, "nature": "Sassy", "ivs": {"atk": 0}, "moves": ["Heal Bell", "Moonblast", "Stealth Rock", "Toxic"]},
+      {"species": "Drapion", "gender": "M", "item": "Choice Scarf", "ability": "Sniper", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Knock Off", "Poison Jab", "Pursuit"]},
+      {"species": "Fletchinder", "gender": "M", "ability": "Gale Wings", "evs": {"hp": 152, "atk": 252, "def": 104}, "nature": "Adamant", "moves": ["Acrobatics", "Roost", "Swords Dance", "Will-O-Wisp"]},
+      {"species": "Flygon", "gender": "M", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 252, "atk": 4, "spe": 252}, "nature": "Jolly", "moves": ["Defog", "Earthquake", "Roost", "U-turn"]},
+      {"species": "Magneton", "item": "Eviolite", "ability": "Analytic", "evs": {"hp": 104, "spa": 252, "spe": 152}, "nature": "Modest", "ivs": {"atk": 0, "def": 30}, "moves": ["Flash Cannon", "Hidden Power Ice", "Substitute", "Thunderbolt"]},
+      {"species": "Venusaur", "gender": "M", "item": "Black Sludge", "ability": "Overgrow", "evs": {"hp": 248, "def": 204, "spa": 24, "spd": 16, "spe": 16}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Growth", "Sludge Bomb", "Synthesis"]}
+    ]
+  },
+  {
+    "name": "STalk Ton + Growth Venu",
+    "author": "Real Fv13",
+    "data": [
+      {"species": "Slowking", "gender": "M", "item": "Colbur Berry", "ability": "Regenerator", "evs": {"hp": 248, "def": 212, "spe": 48}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Nasty Plot", "Psychic", "Scald", "Slack Off"]},
+      {"species": "Diancie", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 248, "def": 240, "spe": 20}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Heal Bell", "Moonblast", "Stealth Rock", "Toxic"]},
+      {"species": "Flygon", "gender": "M", "item": "Soft Sand", "ability": "Levitate", "evs": {"hp": 148, "atk": 144, "spe": 216}, "nature": "Jolly", "moves": ["Defog", "Earthquake", "Roost", "U-turn"]},
+      {"species": "Magneton", "item": "Eviolite", "ability": "Magnet Pull", "evs": {"hp": 248, "spa": 96, "spd": 88, "spe": 76}, "nature": "Modest", "ivs": {"atk": 0, "spa": 30, "spe": 30}, "moves": ["Discharge", "Hidden Power Fire", "Rest", "Sleep Talk"]},
+      {"species": "Sneasel", "gender": "F", "item": "Choice Band", "ability": "Pickpocket", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Pursuit"]},
+      {"species": "Venusaur", "gender": "M", "item": "Black Sludge", "ability": "Overgrow", "evs": {"hp": 248, "def": 204, "spa": 12, "spd": 16, "spe": 28}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Growth", "Sludge Bomb", "Synthesis"]}
+    ]
+  },
+  {
+    "name": "Sneasel BO by lighthouses",
+    "data": [
+      {"species": "Sneasel", "gender": "M", "item": "Choice Band", "ability": "Pickpocket", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Pursuit"]},
+      {"species": "Alomomola", "gender": "M", "item": "Leftovers", "ability": "Regenerator", "evs": {"hp": 120, "def": 136, "spd": 252}, "nature": "Bold", "moves": ["Knock Off", "Protect", "Scald", "Wish"]},
+      {"species": "Flygon", "gender": "M", "item": "Earth Plate", "ability": "Levitate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Defog", "Dragon Claw", "Earthquake", "Roost"]},
+      {"species": "Granbull", "gender": "M", "item": "Leftovers", "ability": "Intimidate", "evs": {"hp": 248, "def": 200, "spe": 60}, "nature": "Impish", "moves": ["Earthquake", "Heal Bell", "Play Rough", "Thunder Wave"]},
+      {"species": "Registeel", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 252, "spa": 64, "spd": 192}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Seismic Toss", "Stealth Rock", "Thunderbolt", "Toxic"]},
+      {"species": "Venusaur", "gender": "M", "item": "Black Sludge", "ability": "Overgrow", "evs": {"hp": 248, "def": 204, "spa": 24, "spd": 16, "spe": 16}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Growth", "Sludge Bomb", "Synthesis"]}
+    ]
+  },
+  {
+    "name": "Scrafty Glalie Balance",
+    "data": [
+      {"species": "Glalie", "gender": "M", "item": "Glalitite", "ability": "Inner Focus", "happiness": 0, "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Freeze-Dry", "Frustration", "Ice Shard", "Spikes"]},
+      {"species": "Flygon", "gender": "M", "item": "Choice Scarf", "ability": "Levitate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Defog", "Earthquake", "Outrage", "U-turn"]},
+      {"species": "Registeel", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "moves": ["Earthquake", "Seismic Toss", "Stealth Rock", "Toxic"]},
+      {"species": "Scrafty", "gender": "M", "item": "Leftovers", "ability": "Shed Skin", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Dragon Dance", "Drain Punch", "Knock Off", "Zen Headbutt"]},
+      {"species": "Slowking", "gender": "M", "item": "Colbur Berry", "ability": "Regenerator", "evs": {"hp": 252, "def": 240, "spe": 16}, "nature": "Bold", "moves": ["Dragon Tail", "Future Sight", "Scald", "Slack Off"]},
+      {"species": "Venusaur", "gender": "M", "item": "Black Sludge", "ability": "Overgrow", "evs": {"hp": 248, "def": 204, "spd": 16, "spe": 40}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Growth", "Leech Seed", "Sludge Bomb", "Synthesis"]}
+    ]
+  },
+  {
+    "name": "Scrafty Balance",
+    "data": [
+      {"species": "Alomomola", "gender": "M", "item": "Leftovers", "ability": "Regenerator", "evs": {"hp": 120, "def": 136, "spd": 252}, "nature": "Relaxed", "moves": ["Knock Off", "Protect", "Scald", "Wish"]},
+      {"species": "Flygon", "gender": "M", "item": "Choice Scarf", "ability": "Levitate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Outrage", "Stone Edge", "U-turn"]},
+      {"species": "Granbull", "gender": "M", "item": "Leftovers", "ability": "Intimidate", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Impish", "moves": ["Fire Punch", "Heal Bell", "Play Rough", "Thunder Wave"]},
+      {"species": "Registeel", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 252, "spa": 24, "spd": 232}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Seismic Toss", "Stealth Rock", "Thunderbolt", "Toxic"]},
+      {"species": "Scrafty", "gender": "M", "item": "Leftovers", "ability": "Shed Skin", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Dragon Dance", "Drain Punch", "Knock Off", "Zen Headbutt"]},
+      {"species": "Venusaur", "gender": "M", "item": "Black Sludge", "ability": "Overgrow", "evs": {"hp": 248, "def": 204, "spe": 56}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Growth", "Sludge Bomb", "Synthesis"]}
+    ]
+  },
+  {
+    "name": "Mega Glalie Balance Lix Ver",
+    "author": "whistling",
+    "data": [
+      {"species": "Glalie", "gender": "M", "item": "Glalitite", "ability": "Inner Focus", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Double-Edge", "Freeze-Dry", "Ice Shard", "Spikes"]},
+      {"species": "Drapion", "gender": "M", "item": "Choice Scarf", "ability": "Battle Armor", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Knock Off", "Poison Jab", "Pursuit"]},
+      {"species": "Slowking", "gender": "M", "item": "Colbur Berry", "ability": "Regenerator", "evs": {"hp": 252, "def": 252, "spe": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Nasty Plot", "Psychic", "Scald", "Slack Off"]},
+      {"species": "Steelix", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 244, "spd": 252, "spe": 12}, "nature": "Careful", "moves": ["Earthquake", "Ice Fang", "Stealth Rock", "Toxic"]},
+      {"species": "Venusaur", "gender": "F", "item": "Black Sludge", "ability": "Overgrow", "evs": {"hp": 240, "def": 212, "spa": 24, "spe": 32}, "nature": "Bold", "moves": ["Knock Off", "Leech Seed", "Sludge Bomb", "Synthesis"]},
+      {"species": "Xatu", "gender": "M", "item": "Rocky Helmet", "ability": "Magic Bounce", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Night Shade", "Roost", "Toxic", "U-turn"]}
+    ]
+  },
+  {
+    "name": "Camerupt Virizion Balance by Piyu",
+    "data": [
+      {"species": "Drapion", "gender": "M", "item": "Choice Scarf", "ability": "Battle Armor", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Knock Off", "Poison Jab", "Pursuit", "Toxic"]},
+      {"species": "Alomomola", "gender": "F", "item": "Leftovers", "ability": "Regenerator", "evs": {"hp": 120, "def": 136, "spd": 252}, "nature": "Bold", "moves": ["Knock Off", "Protect", "Scald", "Wish"]},
+      {"species": "Camerupt", "gender": "M", "item": "Cameruptite", "ability": "Magma Armor", "shiny": true, "evs": {"hp": 168, "spa": 200, "spd": 48, "spe": 92}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Flamethrower", "Rest", "Will-O-Wisp"]},
+      {"species": "Diancie", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 252, "def": 76, "spa": 36, "spd": 144}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Heal Bell", "Moonblast", "Stealth Rock", "Toxic"]},
+      {"species": "Virizion", "item": "Lum Berry", "ability": "Justified", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Leaf Blade", "Swords Dance", "Zen Headbutt"]},
+      {"species": "Weezing", "gender": "M", "item": "Rocky Helmet", "ability": "Levitate", "evs": {"hp": 252, "def": 56, "spd": 200}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Haze", "Pain Split", "Sludge Bomb", "Will-O-Wisp"]}
+    ]
+  },
+  {
+    "name": "Double Defog Stall by Mac3 and GoldCat",
+    "data": [
+      {"species": "Articuno", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 248, "def": 220, "spd": 40}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Defog", "Freeze-Dry", "Heal Bell", "Roost"]},
+      {"species": "Audino", "gender": "F", "item": "Audinite", "ability": "Regenerator", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Heal Bell", "Knock Off", "Protect", "Wish"]},
+      {"species": "Golbat", "gender": "M", "item": "Eviolite", "ability": "Inner Focus", "evs": {"hp": 248, "def": 176, "spe": 84}, "nature": "Impish", "moves": ["Brave Bird", "Defog", "Roost", "Toxic"]},
+      {"species": "Quagsire", "gender": "M", "item": "Leftovers", "ability": "Unaware", "evs": {"hp": 248, "def": 176, "spd": 76, "spe": 8}, "nature": "Impish", "moves": ["Earthquake", "Haze", "Recover", "Scald"]},
+      {"species": "Registeel", "item": "Leftovers", "ability": "Clear Body", "shiny": true, "evs": {"hp": 248, "spd": 240, "spe": 20}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Rest", "Seismic Toss", "Stealth Rock", "Toxic"]},
+      {"species": "Slowking", "gender": "M", "item": "Rindo Berry", "ability": "Regenerator", "evs": {"hp": 252, "def": 164, "spe": 92}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Psyshock", "Scald", "Slack Off"]}
     ]
   },
   {
     "name": "Druddigon Balance",
-    "author": "atomicllamas",
+    "author": "MrAldo",
     "data": [
       {"species": "Barbaracle", "gender": "M", "item": "Shuca Berry", "ability": "Tough Claws", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Aerial Ace", "Razor Shell", "Shell Smash", "Stone Edge"]},
       {"species": "Drapion", "gender": "M", "item": "Choice Scarf", "ability": "Sniper", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Knock Off", "Poison Jab", "Pursuit"]},
@@ -21,6 +133,18 @@
       {"species": "Registeel", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Careful", "moves": ["Earthquake", "Seismic Toss", "Stealth Rock", "Toxic"]},
       {"species": "Sigilyph", "gender": "M", "item": "Life Orb", "ability": "Magic Guard", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Air Slash", "Energy Ball", "Heat Wave", "Roost"]},
       {"species": "Venusaur", "gender": "M", "item": "Black Sludge", "ability": "Overgrow", "evs": {"hp": 252, "def": 208, "spa": 16, "spe": 32}, "nature": "Modest", "moves": ["Giga Drain", "Knock Off", "Sludge Bomb", "Synthesis"]}
+    ]
+  },
+  {
+    "name": "SF Drud Balance",
+    "author": "atomicllamas",
+    "data": [
+      {"species": "Druddigon", "gender": "M", "item": "Life Orb", "ability": "Sheer Force", "evs": {"hp": 56, "atk": 252, "spd": 4, "spe": 196}, "nature": "Adamant", "moves": ["Dragon Claw", "Fire Punch", "Iron Head", "Thunder Punch"]},
+      {"species": "Emboar", "gender": "M", "item": "Choice Scarf", "ability": "Blaze", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Flare Blitz", "Superpower", "Toxic", "Wild Charge"]},
+      {"species": "Flygon", "gender": "M", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 112, "atk": 144, "spe": 252}, "nature": "Jolly", "moves": ["Defog", "Earthquake", "Roost", "U-turn"]},
+      {"species": "Slowking", "gender": "M", "item": "Colbur Berry", "ability": "Regenerator", "evs": {"hp": 248, "def": 252, "spe": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Scald", "Slack Off", "Thunder Wave"]},
+      {"species": "Steelix", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 244, "atk": 136, "spd": 128}, "nature": "Adamant", "moves": ["Earthquake", "Heavy Slam", "Stealth Rock", "Toxic"]},
+      {"species": "Venusaur", "gender": "M", "item": "Black Sludge", "ability": "Overgrow", "evs": {"hp": 248, "def": 204, "spa": 24, "spd": 16, "spe": 16}, "nature": "Bold", "moves": ["Giga Drain", "Knock Off", "Sludge Bomb", "Synthesis"]}
     ]
   },
   {

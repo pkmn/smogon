@@ -1,42 +1,6 @@
 [
   {
-    "name": "Rayquaza + Life Orb Mewtwo + Trapping classic Hyper Offense",
-    "author": "Shrang",
-    "data": [
-      {"species": "Deoxys-Speed", "item": "Focus Sash", "ability": "Pressure", "evs": {"hp": 248, "spd": 8, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Spikes", "Stealth Rock", "Taunt", "Thunder Wave"]},
-      {"species": "Darkrai", "item": "Leftovers", "ability": "Bad Dreams", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Dark Void", "Nasty Plot", "Substitute"]},
-      {"species": "Groudon", "item": "Lum Berry", "ability": "Drought", "evs": {"hp": 252, "atk": 120, "spe": 136}, "nature": "Adamant", "moves": ["Dragon Claw", "Earthquake", "Rock Polish", "Stone Edge"]},
-      {"species": "Mewtwo", "item": "Life Orb", "ability": "Pressure", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Naive", "moves": ["Fire Blast", "Grass Knot", "Ice Beam", "Self-Destruct"]},
-      {"species": "Rayquaza", "item": "Life Orb", "ability": "Air Lock", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Dragon Dance", "Earthquake", "Extreme Speed", "Outrage"]},
-      {"species": "Wobbuffet", "gender": "M", "item": "Leftovers", "ability": "Shadow Tag", "evs": {"hp": 28, "def": 228, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Counter", "Encore", "Mirror Coat", "Safeguard"]}
-    ]
-  },
-  {
-    "name": "Choice Band Dialga Bulky Offense",
-    "author": "Exiline",
-    "data": [
-      {"species": "Kyogre", "item": "Lum Berry", "ability": "Drizzle", "evs": {"hp": 248, "def": 52, "spa": 96, "spe": 112}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Ice Beam", "Thunder", "Thunder Wave"]},
-      {"species": "Bronzong", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "spd": 252, "spe": 8}, "nature": "Careful", "moves": ["Earthquake", "Explosion", "Payback", "Stealth Rock"]},
-      {"species": "Darkrai", "item": "Choice Scarf", "ability": "Bad Dreams", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Dark Void", "Ice Beam", "Trick"]},
-      {"species": "Dialga", "item": "Choice Band", "ability": "Pressure", "evs": {"hp": 92, "atk": 252, "spe": 164}, "nature": "Adamant", "moves": ["Dragon Claw", "Earthquake", "Outrage", "Sleep Talk"]},
-      {"species": "Latios", "item": "Soul Dew", "ability": "Levitate", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Draco Meteor", "Recover", "Thunder"]},
-      {"species": "Rayquaza", "item": "Life Orb", "ability": "Air Lock", "evs": {"atk": 40, "spa": 252, "spe": 216}, "nature": "Naive", "moves": ["Draco Meteor", "Extreme Speed", "Fire Blast", "Outrage"]}
-    ]
-  },
-  {
-    "name": "Standard Palkia Rain",
-    "author": "WreckDra",
-    "data": [
-      {"species": "Deoxys-Speed", "item": "Colbur Berry", "ability": "Pressure", "evs": {"hp": 100, "spa": 156, "spe": 252}, "nature": "Naive", "moves": ["Psycho Boost", "Spikes", "Superpower", "Taunt"]},
-      {"species": "Bronzong", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 252, "def": 8, "spd": 248}, "nature": "Careful", "moves": ["Earthquake", "Explosion", "Payback", "Stealth Rock"]},
-      {"species": "Darkrai", "item": "Choice Scarf", "ability": "Bad Dreams", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Dark Void", "Ice Beam", "Trick"]},
-      {"species": "Giratina-Origin", "item": "Griseous Orb", "ability": "Levitate", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Naive", "moves": ["Draco Meteor", "Outrage", "Shadow Sneak", "Thunder"]},
-      {"species": "Kyogre", "item": "Leftovers", "ability": "Drizzle", "evs": {"hp": 248, "def": 164, "spa": 96}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Hydro Pump", "Ice Beam", "Thunder Wave"]},
-      {"species": "Palkia", "item": "Lum Berry", "ability": "Pressure", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Focus Punch", "Hydro Pump", "Spacial Rend", "Thunder"]}
-    ]
-  },
-  {
-    "name": "Cresselia + Choice Scarf Dialga Sun Stall",
+    "name": "Stall - Cresselia Sun [Scarf Dialga]",
     "author": "Seldanna and Nineveh",
     "data": [
       {"species": "Forretress", "gender": "F", "item": "Chesto Berry", "ability": "Sturdy", "evs": {"hp": 248, "spd": 248, "spe": 12}, "nature": "Careful", "ivs": {"atk": 0}, "moves": ["Rapid Spin", "Rest", "Spikes", "Toxic Spikes"]},
@@ -48,7 +12,43 @@
     ]
   },
   {
-    "name": "Choice Scarf Deoxys-S Rain",
+    "name": "WobbRay",
+    "author": "shrang",
+    "data": [
+      {"species": "Deoxys-Speed", "item": "Focus Sash", "ability": "Pressure", "evs": {"hp": 248, "spd": 8, "spe": 252}, "nature": "Jolly", "moves": ["Extreme Speed", "Spikes", "Stealth Rock", "Taunt"]},
+      {"species": "Darkrai", "item": "Leftovers", "ability": "Bad Dreams", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Dark Void", "Nasty Plot", "Substitute"]},
+      {"species": "Groudon", "item": "Life Orb", "ability": "Drought", "evs": {"hp": 252, "atk": 120, "spe": 136}, "nature": "Adamant", "moves": ["Dragon Claw", "Earthquake", "Rock Polish", "Stone Edge"]},
+      {"species": "Mewtwo", "item": "Life Orb", "ability": "Pressure", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Naive", "moves": ["Fire Blast", "Grass Knot", "Ice Beam", "Self-Destruct"]},
+      {"species": "Rayquaza", "item": "Life Orb", "ability": "Air Lock", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Dragon Dance", "Earthquake", "Extreme Speed", "Outrage"]},
+      {"species": "Wobbuffet", "gender": "M", "item": "Leftovers", "ability": "Shadow Tag", "evs": {"hp": 28, "def": 228, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Counter", "Encore", "Mirror Coat", "Safeguard"]}
+    ]
+  },
+  {
+    "name": "Choice Band Dialga rain Offense",
+    "author": "Exiline",
+    "data": [
+      {"species": "Kyogre", "item": "Lum Berry", "ability": "Drizzle", "evs": {"hp": 248, "def": 52, "spa": 96, "spe": 112}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Ice Beam", "Thunder", "Thunder Wave"]},
+      {"species": "Bronzong", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "spd": 252, "spe": 8}, "nature": "Careful", "moves": ["Earthquake", "Explosion", "Payback", "Stealth Rock"]},
+      {"species": "Darkrai", "item": "Choice Scarf", "ability": "Bad Dreams", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Dark Void", "Ice Beam", "Trick"]},
+      {"species": "Dialga", "item": "Choice Band", "ability": "Pressure", "evs": {"hp": 92, "atk": 252, "spe": 164}, "nature": "Adamant", "moves": ["Dragon Claw", "Earthquake", "Outrage", "Sleep Talk"]},
+      {"species": "Latios", "item": "Soul Dew", "ability": "Levitate", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Draco Meteor", "Recover", "Thunder"]},
+      {"species": "Rayquaza", "item": "Life Orb", "ability": "Air Lock", "evs": {"atk": 40, "spa": 252, "spe": 216}, "nature": "Naive", "moves": ["Draco Meteor", "Extreme Speed", "Fire Blast", "Outrage"]}
+    ]
+  },
+  {
+    "name": "Hydro Pump",
+    "author": "WreckDra",
+    "data": [
+      {"species": "Deoxys-Speed", "item": "Colbur Berry", "ability": "Pressure", "evs": {"hp": 100, "spa": 156, "spe": 252}, "nature": "Naive", "moves": ["Psycho Boost", "Spikes", "Superpower", "Taunt"]},
+      {"species": "Bronzong", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 252, "def": 8, "spd": 248}, "nature": "Careful", "moves": ["Earthquake", "Explosion", "Payback", "Stealth Rock"]},
+      {"species": "Darkrai", "item": "Choice Scarf", "ability": "Bad Dreams", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Dark Void", "Ice Beam", "Trick"]},
+      {"species": "Giratina-Origin", "item": "Griseous Orb", "ability": "Levitate", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Naive", "moves": ["Draco Meteor", "Outrage", "Shadow Sneak", "Thunder"]},
+      {"species": "Kyogre", "item": "Leftovers", "ability": "Drizzle", "evs": {"hp": 248, "def": 164, "spa": 96}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Hydro Pump", "Ice Beam", "Thunder Wave"]},
+      {"species": "Palkia", "item": "Lum Berry", "ability": "Pressure", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Focus Punch", "Hydro Pump", "Spacial Rend", "Thunder"]}
+    ]
+  },
+  {
+    "name": "HO - Latios Rain Spikes Stack",
     "author": "Seldanna",
     "data": [
       {"species": "Deoxys-Speed", "item": "Choice Scarf", "ability": "Pressure", "evs": {"hp": 248, "def": 96, "spd": 164}, "nature": "Bold", "moves": ["Spikes", "Taunt", "Thunder Wave", "Trick"]},

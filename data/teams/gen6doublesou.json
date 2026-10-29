@@ -1,62 +1,85 @@
 [
   {
-    "name": "tvalks",
-    "author": "zee",
+    "name": "TVALKS",
+    "author": "dracobarion",
     "data": [
       {"species": "Kangaskhan", "item": "Kangaskhanite", "ability": "Scrappy", "evs": {"hp": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Crunch", "Fake Out", "Low Kick", "Seismic Toss"]},
-      {"species": "Amoonguss", "gender": "M", "item": "Rocky Helmet", "ability": "Regenerator", "shiny": true, "evs": {"hp": 252, "def": 76, "spd": 176, "spe": 4}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Protect", "Rage Powder", "Spore"]},
-      {"species": "Landorus-Therian", "item": "Assault Vest", "ability": "Intimidate", "evs": {"hp": 252, "atk": 28, "spd": 200, "spe": 28}, "nature": "Careful", "moves": ["Earthquake", "Stone Edge", "Superpower", "U-turn"]},
+      {"species": "Amoonguss", "gender": "M", "item": "Rocky Helmet", "ability": "Regenerator", "shiny": true, "evs": {"hp": 252, "def": 176, "spd": 76, "spe": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Energy Ball", "Protect", "Rage Powder", "Spore"]},
+      {"species": "Landorus-Therian", "item": "Choice Scarf", "ability": "Intimidate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Stone Edge", "Superpower", "U-turn"]},
       {"species": "Sylveon", "gender": "M", "item": "Leftovers", "ability": "Pixilate", "shiny": true, "evs": {"hp": 252, "def": 36, "spa": 136, "spd": 60, "spe": 24}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Hyper Voice", "Protect", "Substitute"]},
-      {"species": "Thundurus", "item": "Sitrus Berry", "ability": "Prankster", "evs": {"hp": 252, "spd": 160, "spe": 96}, "nature": "Modest", "moves": ["Hidden Power Ice", "Sky Drop", "Thunderbolt", "Thunder Wave"], "ivs": {"atk": 30, "def": 30}},
-      {"species": "Volcanion", "item": "Safety Goggles", "ability": "Water Absorb", "evs": {"hp": 252, "spd": 216, "spe": 40}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Heat Wave", "Protect", "Steam Eruption"]}
+      {"species": "Thundurus", "item": "Sitrus Berry", "ability": "Prankster", "evs": {"hp": 252, "def": 56, "spd": 28, "spe": 172}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Hidden Power Ice", "Taunt", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Volcanion", "item": "Assault Vest", "ability": "Water Absorb", "evs": {"hp": 248, "spa": 96, "spd": 124, "spe": 40}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Heat Wave", "Overheat", "Steam Eruption"]}
     ]
   },
   {
-    "name": "Hyper Off DeoSharp + M Kangas (Vig Sigs)",
-    "author": "JRL & Tenzai",
+    "name": "Kangaskhan + Deoxys-S hazard stack HO",
+    "author": "zee",
     "data": [
-      {"species": "Kangaskhan", "item": "Kangaskhanite", "ability": "Scrappy", "evs": {"hp": 168, "atk": 88, "spe": 252}, "nature": "Jolly", "moves": ["Fake Out", "Low Kick", "Seismic Toss", "Sucker Punch"]},
-      {"species": "Bisharp", "gender": "M", "item": "Life Orb", "ability": "Defiant", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "ivs": {"spa": 0}, "moves": ["Iron Head", "Knock Off", "Protect", "Sucker Punch"]},
-      {"species": "Deoxys-Attack", "item": "Life Orb", "ability": "Pressure", "evs": {"atk": 32, "spa": 224, "spe": 252}, "nature": "Naive", "moves": ["Extreme Speed", "Protect", "Psycho Boost", "Superpower"]},
-      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 252, "atk": 160, "def": 96}, "nature": "Relaxed", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Leech Seed", "Power Whip", "Protect"]},
+      {"species": "Kangaskhan", "item": "Kangaskhanite", "ability": "Scrappy", "shiny": true, "evs": {"hp": 252, "atk": 4, "spe": 252}, "nature": "Jolly", "moves": ["Crunch", "Fake Out", "Low Kick", "Seismic Toss"]},
+      {"species": "Conkeldurr", "gender": "M", "item": "Assault Vest", "ability": "Iron Fist", "shiny": true, "evs": {"hp": 252, "atk": 56, "spd": 192, "spe": 8}, "nature": "Adamant", "moves": ["Drain Punch", "Ice Punch", "Knock Off", "Mach Punch"]},
+      {"species": "Deoxys-Speed", "item": "Rocky Helmet", "ability": "Pressure", "evs": {"hp": 248, "def": 8, "spa": 56, "spe": 196}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Psycho Boost", "Spikes", "Stealth Rock"]},
+      {"species": "Genesect", "item": "Choice Band", "ability": "Download", "shiny": true, "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Hasty", "moves": ["Blaze Kick", "Extreme Speed", "Iron Head", "U-turn"]},
+      {"species": "Thundurus", "item": "Sitrus Berry", "ability": "Prankster", "shiny": true, "evs": {"hp": 248, "spd": 84, "spe": 176}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Hidden Power Ice", "Taunt", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Volcanion", "item": "Assault Vest", "ability": "Water Absorb", "evs": {"hp": 248, "spa": 56, "spd": 196, "spe": 8}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Heat Wave", "Overheat", "Steam Eruption"]}
+    ]
+  },
+  {
+    "name": "cm garde 2x",
+    "author": "zee",
+    "data": [
+      {"species": "Gardevoir", "gender": "M", "item": "Gardevoirite", "ability": "Trace", "shiny": true, "evs": {"hp": 252, "def": 108, "spa": 92, "spe": 56}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Hyper Voice", "Protect", "Psyshock"]},
+      {"species": "Amoonguss", "gender": "M", "item": "Rocky Helmet", "ability": "Regenerator", "shiny": true, "evs": {"hp": 252, "def": 172, "spd": 84}, "nature": "Relaxed", "ivs": {"atk": 0, "spe": 0}, "moves": ["Protect", "Rage Powder", "Sludge Bomb", "Spore"]},
+      {"species": "Blastoise", "gender": "M", "item": "Sitrus Berry", "ability": "Torrent", "evs": {"hp": 252, "def": 160, "spd": 96}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Follow Me", "Icy Wind", "Protect", "Scald"]},
+      {"species": "Genesect", "item": "Choice Band", "ability": "Download", "shiny": true, "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Hasty", "moves": ["Blaze Kick", "Extreme Speed", "Iron Head", "U-turn"]},
+      {"species": "Landorus-Therian", "item": "Choice Scarf", "ability": "Intimidate", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Stone Edge", "Superpower", "U-turn"]},
+      {"species": "Thundurus", "item": "Safety Goggles", "ability": "Prankster", "evs": {"hp": 160, "spa": 96, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "spa": 30, "spe": 30}, "moves": ["Flash Cannon", "Hidden Power Fire", "Thunderbolt", "Thunder Wave"]}
+    ]
+  },
+  {
+    "name": "Mega Diancie Hyper Offense",
+    "author": "Ned Numerals",
+    "data": [
+      {"species": "Diancie", "item": "Diancite", "ability": "Clear Body", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Hasty", "moves": ["Diamond Storm", "Moonblast", "Protect", "Stealth Rock"]},
+      {"species": "Bisharp", "gender": "M", "item": "Life Orb", "ability": "Defiant", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Iron Head", "Knock Off", "Protect", "Sucker Punch"]},
       {"species": "Keldeo", "item": "Life Orb", "ability": "Justified", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Protect", "Quick Guard", "Secret Sword"]},
-      {"species": "Talonflame", "gender": "M", "item": "Choice Band", "ability": "Gale Wings", "evs": {"hp": 232, "atk": 252, "spe": 24}, "nature": "Adamant", "moves": ["Brave Bird", "Flare Blitz", "Me First", "Sleep Talk"]}
+      {"species": "Landorus", "item": "Choice Scarf", "ability": "Sheer Force", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Earth Power", "Grass Knot", "Hidden Power Ice", "Sludge Bomb"]},
+      {"species": "Talonflame", "gender": "M", "item": "Choice Band", "ability": "Gale Wings", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Brave Bird", "Flare Blitz", "Steel Wing", "U-turn"]},
+      {"species": "Thundurus", "item": "Safety Goggles", "ability": "Prankster", "evs": {"hp": 248, "spa": 8, "spe": 252}, "nature": "Timid", "moves": ["Hidden Power Ice", "Sky Drop", "Thunderbolt", "Thunder Wave"], "ivs": {"atk": 30, "def": 30}}
     ]
   },
   {
-    "name": "Whimsicott Offense",
-    "author": "Memoric",
+    "name": "laptops week 4",
+    "author": "qsns",
     "data": [
-      {"species": "Gengar", "gender": "M", "item": "Gengarite", "ability": "Levitate", "evs": {"hp": 252, "spd": 152, "spe": 104}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Disable", "Protect", "Sludge Bomb", "Will-O-Wisp"]},
-      {"species": "Landorus-Therian", "item": "Assault Vest", "ability": "Intimidate", "evs": {"hp": 252, "atk": 28, "spd": 200, "spe": 28}, "nature": "Careful", "moves": ["Earthquake", "Stone Edge", "Superpower", "U-turn"]},
-      {"species": "Terrakion", "item": "Lum Berry", "ability": "Justified", "shiny": true, "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Earthquake", "Protect", "Rock Slide"]},
-      {"species": "Thundurus", "item": "Assault Vest", "ability": "Defiant", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Sky Drop", "Superpower", "Volt Switch", "Wild Charge"]},
-      {"species": "Volcanion", "item": "Assault Vest", "ability": "Water Absorb", "evs": {"hp": 252, "spd": 216, "spe": 40}, "nature": "Modest", "ivs": {"atk": 0, "def": 30}, "moves": ["Earth Power", "Heat Wave", "Hidden Power Ice", "Steam Eruption"]},
-      {"species": "Whimsicott", "gender": "M", "item": "Sitrus Berry", "ability": "Prankster", "shiny": true, "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "moves": ["Beat Up", "Encore", "Moonblast", "Tailwind"]}
+      {"species": "Salamence", "gender": "M", "item": "Salamencite", "ability": "Intimidate", "evs": {"atk": 196, "spa": 128, "spe": 184}, "nature": "Hasty", "moves": ["Double-Edge", "Fire Blast", "Hyper Voice", "Tailwind"]},
+      {"species": "Aegislash", "gender": "M", "item": "Spooky Plate", "ability": "Stance Change", "evs": {"hp": 252, "spa": 136, "spd": 20, "spe": 100}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Flash Cannon", "King's Shield", "Shadow Ball", "Wide Guard"]},
+      {"species": "Genesect", "item": "Choice Band", "ability": "Download", "shiny": true, "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Hasty", "moves": ["Blaze Kick", "Extreme Speed", "Iron Head", "U-turn"]},
+      {"species": "Landorus", "item": "Life Orb", "ability": "Sheer Force", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Earth Power", "Focus Blast", "Protect", "Psychic"]},
+      {"species": "Mew", "item": "Rocky Helmet", "ability": "Synchronize", "evs": {"hp": 240, "spa": 16, "spe": 252}, "nature": "Timid", "moves": ["Fake Out", "Ice Beam", "Snarl", "Stealth Rock"]},
+      {"species": "Volcanion", "item": "Assault Vest", "ability": "Water Absorb", "evs": {"hp": 248, "spa": 60, "spd": 188, "spe": 12}, "nature": "Modest", "ivs": {"atk": 0, "spa": 30}, "moves": ["Earth Power", "Heat Wave", "Hidden Power Grass", "Steam Eruption"]}
     ]
   },
   {
-    "name": "Sample Version MGar + Conk",
-    "author": "Memoric",
+    "name": "vs singlethunder",
+    "author": "qsns",
     "data": [
-      {"species": "Gengar", "gender": "M", "item": "Gengarite", "ability": "Levitate", "evs": {"hp": 252, "def": 28, "spd": 52, "spe": 176}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Protect", "Shadow Ball", "Sludge Bomb", "Will-O-Wisp"]},
-      {"species": "Conkeldurr", "gender": "M", "item": "Assault Vest", "ability": "Guts", "evs": {"hp": 248, "atk": 16, "spd": 244}, "nature": "Adamant", "moves": ["Drain Punch", "Ice Punch", "Knock Off", "Mach Punch"]},
-      {"species": "Ferrothorn", "gender": "M", "item": "Shed Shell", "ability": "Iron Barbs", "evs": {"hp": 240, "atk": 180, "def": 88}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Leech Seed", "Power Whip", "Protect"]},
-      {"species": "Landorus-Therian", "item": "Choice Scarf", "ability": "Intimidate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Stone Edge", "Superpower", "U-turn"]},
-      {"species": "Thundurus", "item": "Sitrus Berry", "ability": "Prankster", "evs": {"hp": 248, "spd": 252, "spe": 8}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Hidden Power Ice", "Thunderbolt", "Thunder Wave", "Toxic"]},
-      {"species": "Volcanion", "item": "Assault Vest", "ability": "Water Absorb", "evs": {"hp": 252, "spd": 184, "spe": 72}, "nature": "Modest", "ivs": {"atk": 0, "spa": 30}, "moves": ["Earth Power", "Heat Wave", "Hidden Power Grass", "Steam Eruption"]}
+      {"species": "Gengar", "gender": "M", "item": "Gengarite", "ability": "Levitate", "evs": {"hp": 236, "def": 96, "spe": 176}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Disable", "Protect", "Shadow Ball", "Substitute"]},
+      {"species": "Conkeldurr", "gender": "M", "item": "Assault Vest", "ability": "Guts", "evs": {"hp": 204, "atk": 56, "spd": 248}, "nature": "Brave", "ivs": {"spe": 29}, "moves": ["Drain Punch", "Ice Punch", "Knock Off", "Mach Punch"]},
+      {"species": "Genesect", "item": "Choice Scarf", "ability": "Download", "shiny": true, "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Flamethrower", "Flash Cannon", "Ice Beam", "U-turn"]},
+      {"species": "Landorus-Therian", "item": "Assault Vest", "ability": "Intimidate", "evs": {"hp": 252, "spd": 168, "spe": 88}, "nature": "Adamant", "moves": ["Earthquake", "Stone Edge", "Superpower", "U-turn"]},
+      {"species": "Thundurus", "item": "Safety Goggles", "ability": "Prankster", "evs": {"hp": 248, "def": 164, "spa": 4, "spd": 68, "spe": 24}, "nature": "Modest", "ivs": {"atk": 0, "def": 30}, "moves": ["Hidden Power Ice", "Protect", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Whimsicott", "gender": "M", "item": "Rocky Helmet", "ability": "Prankster", "evs": {"hp": 252, "def": 40, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Encore", "Energy Ball", "Fake Tears", "Protect"]}
     ]
   },
   {
-    "name": "XY Mence Ferro Sand",
-    "author": "DLTME 3-peat",
+    "author": "Idyll",
     "data": [
-      {"species": "Ferrothorn", "gender": "M", "item": "Leftovers", "ability": "Iron Barbs", "evs": {"hp": 252, "atk": 184, "def": 72}, "nature": "Relaxed", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Leech Seed", "Power Whip", "Protect"]},
-      {"species": "Cresselia", "item": "Safety Goggles", "ability": "Levitate", "evs": {"hp": 252, "def": 12, "spa": 244}, "nature": "Quiet", "ivs": {"atk": 0, "spe": 0}, "moves": ["Ice Beam", "Psychic", "Toxic", "Trick Room"]},
-      {"species": "Excadrill", "gender": "M", "item": "Life Orb", "ability": "Sand Rush", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Iron Head", "Protect", "Rock Slide"]},
-      {"species": "Salamence", "gender": "M", "item": "Salamencite", "ability": "Intimidate", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Flamethrower", "Hidden Power Ice", "Hyper Voice", "Protect"]},
-      {"species": "Tyranitar", "gender": "M", "item": "Rocky Helmet", "ability": "Sand Stream", "evs": {"hp": 240, "atk": 132, "def": 136}, "nature": "Brave", "ivs": {"spe": 17}, "moves": ["Low Kick", "Pursuit", "Stealth Rock", "Stone Edge"]},
-      {"species": "Volcanion", "item": "Safety Goggles", "ability": "Water Absorb", "evs": {"hp": 248, "spa": 252, "spe": 8}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Heat Wave", "Protect", "Steam Eruption"]}
+      {"species": "Charizard", "gender": "M", "item": "Charizardite Y", "ability": "Blaze", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Heat Wave", "Overheat", "Protect", "Solar Beam"]},
+      {"species": "Blastoise", "gender": "M", "item": "Sitrus Berry", "ability": "Torrent", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "ivs": {"atk": 0}, "moves": ["Follow Me", "Icy Wind", "Rapid Spin", "Toxic"]},
+      {"species": "Gothitelle", "gender": "M", "item": "Safety Goggles", "ability": "Shadow Tag", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Helping Hand", "Protect", "Psyshock", "Taunt"]},
+      {"species": "Heatran", "gender": "M", "item": "Choice Scarf", "ability": "Flash Fire", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0, "def": 30}, "moves": ["Fire Blast", "Flash Cannon", "Heat Wave", "Hidden Power Ice"]},
+      {"species": "Landorus-Therian", "item": "Choice Scarf", "ability": "Intimidate", "evs": {"hp": 248, "spd": 48, "spe": 212}, "nature": "Adamant", "moves": ["Earthquake", "Stone Edge", "Superpower", "U-turn"]},
+      {"species": "Rotom-Wash", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "spd": 252, "spe": 8}, "nature": "Careful", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Pain Split", "Volt Switch", "Will-O-Wisp"]}
     ]
   },
   {
@@ -69,29 +92,6 @@
       {"species": "Swampert", "gender": "M", "item": "Swampertite", "ability": "Torrent", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Ice Punch", "Protect", "Waterfall"]},
       {"species": "Talonflame", "gender": "M", "item": "Choice Band", "ability": "Gale Wings", "evs": {"hp": 240, "atk": 252, "spe": 16}, "nature": "Adamant", "moves": ["Brave Bird", "Flare Blitz", "Sleep Talk"]},
       {"species": "Thundurus", "item": "Safety Goggles", "ability": "Prankster", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Protect", "Rain Dance", "Taunt", "Thunder"]}
-    ]
-  },
-  {
-    "name": "Sample MGarde + 2 Redirects",
-    "author": "Memoric",
-    "data": [
-      {"species": "Gardevoir", "gender": "M", "item": "Gardevoirite", "ability": "Trace", "evs": {"hp": 184, "spa": 140, "spe": 184}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Hyper Voice", "Protect", "Psyshock"]},
-      {"species": "Amoonguss", "gender": "M", "item": "Rocky Helmet", "ability": "Regenerator", "evs": {"hp": 232, "def": 96, "spd": 180}, "nature": "Sassy", "ivs": {"atk": 0}, "moves": ["Protect", "Rage Powder", "Sludge Bomb", "Spore"]},
-      {"species": "Landorus-Therian", "item": "Assault Vest", "ability": "Intimidate", "evs": {"hp": 248, "def": 52, "spd": 112, "spe": 96}, "nature": "Careful", "moves": ["Earthquake", "Stone Edge", "Superpower", "U-turn"]},
-      {"species": "Thundurus", "item": "Sitrus Berry", "ability": "Prankster", "evs": {"hp": 248, "spd": 252, "spe": 8}, "nature": "Timid", "moves": ["Hidden Power Ice", "Superpower", "Thunderbolt", "Thunder Wave"], "ivs": {"atk": 30, "def": 30}},
-      {"species": "Togekiss", "gender": "M", "item": "Safety Goggles", "ability": "Serene Grace", "evs": {"hp": 252, "spd": 72, "spe": 184}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Fire Blast", "Follow Me", "Protect", "Tailwind"]},
-      {"species": "Volcanion", "item": "Assault Vest", "ability": "Water Absorb", "evs": {"hp": 252, "spd": 184, "spe": 72}, "nature": "Modest", "ivs": {"atk": 0, "spa": 30}, "moves": ["Earth Power", "Heat Wave", "Hidden Power Grass", "Steam Eruption"]}
-    ]
-  },
-  {
-    "author": "qsns",
-    "data": [
-      {"species": "Manectric", "gender": "M", "item": "Manectite", "ability": "Lightning Rod", "evs": {"hp": 252, "spa": 40, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Overheat", "Protect", "Snarl", "Volt Switch"]},
-      {"species": "Genesect", "item": "Choice Band", "ability": "Download", "shiny": true, "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Hasty", "moves": ["Explosion", "Extreme Speed", "Iron Head", "U-turn"]},
-      {"species": "Landorus-Therian", "item": "Safety Goggles", "ability": "Intimidate", "evs": {"hp": 252, "spa": 168, "spe": 88}, "nature": "Modest", "moves": ["Earth Power", "Stealth Rock", "Toxic", "U-turn"]},
-      {"species": "Porygon2", "item": "Eviolite", "ability": "Download", "evs": {"hp": 252, "spa": 136, "spd": 120}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Recover", "Thunderbolt", "Trick Room"]},
-      {"species": "Sylveon", "gender": "M", "item": "Leftovers", "ability": "Pixilate", "evs": {"hp": 252, "def": 156, "spa": 52, "spd": 16, "spe": 32}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Hyper Voice", "Protect", "Substitute"]},
-      {"species": "Volcanion", "item": "Assault Vest", "ability": "Water Absorb", "evs": {"hp": 248, "def": 8, "spa": 16, "spd": 228, "spe": 8}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Heat Wave", "Overheat", "Steam Eruption"]}
     ]
   }
 ]

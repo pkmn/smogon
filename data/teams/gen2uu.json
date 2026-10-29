@@ -1,90 +1,194 @@
 [
   {
-    "name": "Hypno + Granbull Offense",
+    "name": "AmphyPilo Gligar",
+    "author": "HSA",
     "data": [
-      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Light Screen", "Psychic", "Rest", "Sleep Talk"]},
-      {"species": "Granbull", "gender": "M", "item": "Leftovers", "happiness": 0, "ivs": {"hp": 15, "atk": 25}, "moves": ["Curse", "Frustration", "Hidden Power Ground", "Lovely Kiss"]},
+      {"species": "Piloswine", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Rest", "Sleep Talk"]},
+      {"species": "Ampharos", "gender": "M", "item": "Leftovers", "moves": ["Fire Punch", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Gligar", "gender": "M", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Earthquake", "Hidden Power Rock", "Screech", "Thief"]},
+      {"species": "Haunter", "gender": "M", "moves": ["Explosion", "Psychic", "Thief", "Thunderbolt"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
+    ]
+  },
+  {
+    "name": "Curse Hypno + Scyther MagQueen",
+    "author": "DAWNBUSTER",
+    "data": [
+      {"species": "Slowbro", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Curse", "Rest", "Sleep Talk"]},
+      {"species": "Magneton", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Rest", "Sleep Talk", "Thunderbolt"]},
+      {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Fire Blast", "Moonlight", "Thunder"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]},
+      {"species": "Scyther", "gender": "M", "item": "Miracle Berry", "ivs": {"hp": 15, "atk": 25}, "moves": ["Double-Edge", "Hidden Power Ground", "Swords Dance", "Wing Attack"]}
+    ]
+  },
+  {
+    "name": "Curse Hypno + SuitBuzz + Thief Bond Haunter",
+    "author": "pp's splash town",
+    "data": [
+      {"species": "Slowbro", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Electabuzz", "gender": "M", "item": "Leftovers", "moves": ["Fire Punch", "Psychic", "Pursuit", "Thunderbolt"]},
+      {"species": "Haunter", "gender": "M", "moves": ["Destiny Bond", "Psychic", "Thief", "Thunderbolt"]},
+      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Curse", "Rest", "Sleep Talk"]},
+      {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Fire Blast", "Moonlight", "Thunder"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
+    ]
+  },
+  {
+    "name": "Fire Punch Thief Mime + ThunderBull MagQueen",
+    "author": "BeeOrSomething",
+    "data": [
+      {"species": "Mr. Mime", "gender": "M", "moves": ["Fire Punch", "Psychic", "Thief", "Thunder"]},
+      {"species": "Granbull", "gender": "M", "item": "Leftovers", "moves": ["Rest", "Return", "Sleep Talk", "Thunder"], "happiness": 255},
+      {"species": "Magneton", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Fire Blast", "Moonlight", "Thunder"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]},
+      {"species": "Slowbro", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Surf"]}
+    ]
+  },
+  {
+    "name": "BelloQuag + Bell Bull",
+    "author": "DAWNBUSTER",
+    "data": [
+      {"species": "Granbull", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Frustration", "Heal Bell", "Rest", "Sleep Talk"]},
+      {"species": "Aerodactyl", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Earthquake", "Hidden Power Rock", "Protect", "Roar"]},
+      {"species": "Bellossom", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Frustration", "Moonlight", "Stun Spore", "Swords Dance"]},
+      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Magneton", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunderbolt"]},
+      {"species": "Quagsire", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Belly Drum", "Earthquake", "Hidden Power Rock", "Rest"]}
+    ]
+  },
+  {
+    "name": "Lanturn Gligar Thief Spam",
+    "author": "pp's splash town",
+    "data": [
+      {"species": "Slowbro", "gender": "F", "item": "Leftovers", "ivs": {"atk": 3}, "moves": ["Psychic", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Gligar", "gender": "M", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Earthquake", "Hidden Power Rock", "Screech", "Thief"]},
+      {"species": "Haunter", "gender": "M", "moves": ["Explosion", "Psychic", "Thief", "Thunderbolt"]},
+      {"species": "Lanturn", "gender": "F", "item": "Leftovers", "ivs": {"atk": 3}, "moves": ["Rest", "Sleep Talk", "Surf", "Thunder"]},
+      {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Fire Blast", "Moonlight", "Thunder"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
+    ]
+  },
+  {
+    "name": "Edit of Shuckle Stall",
+    "author": "HSA",
+    "data": [
+      {"species": "Electabuzz", "gender": "M", "item": "Leftovers", "moves": ["Pursuit", "Rest", "Sleep Talk", "Thunderbolt"]},
+      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Chansey", "item": "Leftovers", "moves": ["Heal Bell", "Present", "Soft-Boiled", "Thunder"]},
+      {"species": "Crobat", "gender": "M", "item": "Leftovers", "ivs": {"hp": 7, "atk": 29, "def": 29}, "moves": ["Haze", "Hidden Power Grass", "Protect", "Wing Attack"]},
+      {"species": "Granbull", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Rest", "Return", "Sleep Talk"], "happiness": 255},
+      {"species": "Shuckle", "gender": "M", "item": "Leftovers", "moves": ["Defense Curl", "Rest", "Sleep Talk", "Toxic"]}
+    ]
+  },
+  {
+    "name": "4 Attacks Buzz + Scyther HypnoQueen",
+    "author": "Celebiii",
+    "data": [
+      {"species": "Electabuzz", "gender": "M", "item": "Leftovers", "moves": ["Cross Chop", "Ice Punch", "Psychic", "Thunder"]},
+      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Seismic Toss", "Sleep Talk"]},
+      {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Fire Blast", "Moonlight", "Thunder"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]},
+      {"species": "Scyther", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Double-Edge", "Hidden Power Ground", "Swords Dance", "Wing Attack"]},
+      {"species": "Slowbro", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Surf"]}
+    ]
+  },
+  {
+    "name": "AmphyPilo Gatr",
+    "author": "pp's splash town",
+    "data": [
+      {"species": "Piloswine", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Rest", "Sleep Talk"]},
+      {"species": "Ampharos", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Feraligatr", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Hydro Pump", "Rock Slide", "Screech"]},
+      {"species": "Haunter", "gender": "M", "moves": ["Explosion", "Psychic", "Thief", "Thunderbolt"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
+    ]
+  },
+  {
+    "name": "RestTalk Mime Double Boom",
+    "author": "Estarossa",
+    "data": [
+      {"species": "Mr. Mime", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Thunder"]},
       {"species": "Gyarados", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27}, "moves": ["Hidden Power Flying", "Hydro Pump", "Roar", "Thunder"]},
-      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Psychic", "Thunderbolt"]},
+      {"species": "Haunter", "gender": "M", "moves": ["Explosion", "Psychic", "Thief", "Thunderbolt"]},
+      {"species": "Muk", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Curse", "Explosion", "Hidden Power Ground", "Sludge Bomb"]},
+      {"species": "Quagsire", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Rest", "Sleep Talk"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
+    ]
+  },
+  {
+    "name": "Thief Buzz + Gyarados HypnoQueen",
+    "author": "pp's splash town",
+    "data": [
+      {"species": "Electabuzz", "gender": "M", "moves": ["Fire Punch", "Psychic", "Thief", "Thunder"]},
+      {"species": "Gyarados", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27}, "moves": ["Double-Edge", "Hidden Power Flying", "Hydro Pump", "Thunder"]},
+      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Seismic Toss", "Sleep Talk"]},
+      {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Fire Blast", "Moonlight", "Thunder"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]},
+      {"species": "Slowbro", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Surf"]}
+    ]
+  },
+  {
+    "name": "Aero Gligar AmphyQueen",
+    "author": "SANKE CARP",
+    "data": [
+      {"species": "Slowbro", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Aerodactyl", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Curse", "Earthquake", "Hidden Power Rock", "Roar"]},
+      {"species": "Ampharos", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Gligar", "gender": "M", "moves": ["Earthquake", "Screech", "Thief", "Toxic"]},
       {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Moonlight", "Thunder"]},
       {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
     ]
   },
   {
-    "name": "Mr.Mime + Piloswine Offense",
+    "name": "BelloSlash Spikes + Gyarados",
+    "author": "pp's splash town",
     "data": [
-      {"species": "Mr. Mime", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Thunder"]},
-      {"species": "Granbull", "gender": "M", "item": "Leftovers", "happiness": 0, "moves": ["Curse", "Frustration", "Rest", "Sleep Talk"]},
-      {"species": "Gyarados", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27}, "moves": ["Hidden Power Flying", "Hydro Pump", "Roar", "Thunder"]},
-      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Psychic", "Thunderbolt"]},
-      {"species": "Piloswine", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Rest", "Sleep Talk"]},
-      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
-    ]
-  },
-  {
-    "name": "Scyther + Pinsir Offense",
-    "data": [
-      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Thunder Wave"]},
-      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Psychic", "Thunderbolt"]},
-      {"species": "Piloswine", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Rest", "Sleep Talk"]},
-      {"species": "Pinsir", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Body Slam", "Double-Edge", "Hidden Power Ground", "Swords Dance"]},
+      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Curse", "Rest", "Sleep Talk"]},
+      {"species": "Bellossom", "gender": "M", "item": "Leftovers", "moves": ["Moonlight", "Return", "Stun Spore", "Swords Dance"], "happiness": 255},
+      {"species": "Gyarados", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27}, "moves": ["Double-Edge", "Hidden Power Flying", "Hydro Pump", "Thunder"]},
+      {"species": "Magneton", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Rest", "Sleep Talk", "Thunder"]},
       {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]},
-      {"species": "Scyther", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Double-Edge", "Hidden Power Ground", "Swords Dance", "Wing Attack"]}
+      {"species": "Sandslash", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Rock Slide", "Substitute", "Swords Dance"]}
     ]
   },
   {
-    "name": "Lanturn + Piloswine",
+    "name": "AmphyPilo Aero",
+    "author": "BigFatMantis",
     "data": [
-      {"species": "Lanturn", "gender": "M", "item": "Leftovers", "moves": ["Rest", "Sleep Talk", "Surf", "Thunder"]},
-      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
-      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Psychic", "Thunderbolt"]},
-      {"species": "Jumpluff", "gender": "M", "item": "Leftovers", "moves": ["Encore", "Leech Seed", "Stun Spore", "Synthesis"]},
       {"species": "Piloswine", "gender": "M", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Rest", "Sleep Talk"]},
-      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
+      {"species": "Aerodactyl", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Curse", "Earthquake", "Hidden Power Rock", "Protect"]},
+      {"species": "Ampharos", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
+      {"species": "Haunter", "gender": "M", "moves": ["Explosion", "Psychic", "Thief", "Thunderbolt"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Hidden Power Ground", "Hydro Pump", "Sludge Bomb", "Spikes"]}
     ]
   },
   {
-    "name": "Magneton + Pinsir Offense",
+    "name": "SlowTwins Scyther MagQueen",
+    "author": "pp's splash town",
     "data": [
       {"species": "Slowking", "gender": "M", "item": "Leftovers", "moves": ["Psychic", "Rest", "Sleep Talk", "Surf"]},
-      {"species": "Gyarados", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25, "def": 27}, "moves": ["Hidden Power Flying", "Hydro Pump", "Roar", "Thunder"]},
-      {"species": "Magneton", "item": "Leftovers", "ivs": {"def": 27}, "moves": ["Hidden Power Ice", "Rest", "Sleep Talk", "Thunderbolt"]},
-      {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Ice Beam", "Lovely Kiss", "Thunder"]},
-      {"species": "Pinsir", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Body Slam", "Double-Edge", "Hidden Power Ground", "Swords Dance"]},
-      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]}
+      {"species": "Magneton", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29, "def": 27}, "moves": ["Hidden Power Water", "Rest", "Sleep Talk", "Thunder"]},
+      {"species": "Nidoqueen", "item": "Leftovers", "moves": ["Earthquake", "Fire Blast", "Moonlight", "Thunder"]},
+      {"species": "Qwilfish", "gender": "M", "item": "Leftovers", "moves": ["Curse", "Hydro Pump", "Sludge Bomb", "Spikes"]},
+      {"species": "Scyther", "gender": "M", "item": "Miracle Berry", "ivs": {"hp": 15, "atk": 25}, "moves": ["Double-Edge", "Hidden Power Ground", "Swords Dance", "Wing Attack"]},
+      {"species": "Slowbro", "gender": "M", "item": "Leftovers", "moves": ["Flamethrower", "Psychic", "Rest", "Sleep Talk"]}
     ]
   },
   {
-    "name": "Electrode + Haunter Hyper Offense",
+    "name": "Full Chain Baton Pass",
+    "author": "DAWNBUSTER",
     "data": [
-      {"species": "Granbull", "gender": "M", "item": "Leftovers", "happiness": 0, "ivs": {"hp": 15, "atk": 25}, "moves": ["Curse", "Frustration", "Hidden Power Ground", "Lovely Kiss"]},
-      {"species": "Electrode", "item": "Miracle Berry", "moves": ["Explosion", "Light Screen", "Reflect", "Thunder"]},
-      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Psychic", "Thunder"]},
-      {"species": "Mr. Mime", "gender": "M", "item": "Leftovers", "moves": ["Baton Pass", "Psychic", "Thunder", "Thunder Wave"]},
-      {"species": "Pinsir", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Body Slam", "Double-Edge", "Hidden Power Ground", "Swords Dance"]},
-      {"species": "Scyther", "gender": "M", "item": "Miracle Berry", "ivs": {"hp": 15, "atk": 25}, "moves": ["Double-Edge", "Hidden Power Ground", "Swords Dance", "Wing Attack"]}
-    ]
-  },
-  {
-    "name": "Belly Drum Quagsire + Heal Bell Granbull",
-    "data": [
-      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Light Screen", "Psychic", "Rest", "Thunder Wave"]},
-      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
-      {"species": "Granbull", "gender": "M", "item": "Leftovers", "moves": ["Heal Bell", "Rest", "Return", "Sleep Talk"], "happiness": 255},
-      {"species": "Omastar", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 29}, "moves": ["Hidden Power Electric", "Rest", "Sleep Talk", "Surf"]},
-      {"species": "Quagsire", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Belly Drum", "Earthquake", "Hidden Power Rock", "Rest"]},
-      {"species": "Scyther", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Baton Pass", "Hidden Power Ground", "Swords Dance", "Wing Attack"]}
-    ]
-  },
-  {
-    "name": "Shuckle + Curse Hypno Stall",
-    "data": [
-      {"species": "Electabuzz", "gender": "M", "moves": ["Psychic", "Pursuit", "Thief", "Thunderbolt"]},
-      {"species": "Blastoise", "gender": "M", "item": "Leftovers", "moves": ["Rapid Spin", "Rest", "Sleep Talk", "Surf"]},
-      {"species": "Chansey", "item": "Leftovers", "moves": ["Heal Bell", "Present", "Soft-Boiled", "Thunder"]},
-      {"species": "Crobat", "gender": "M", "item": "Leftovers", "moves": ["Haze", "Protect", "Toxic", "Wing Attack"]},
-      {"species": "Hypno", "gender": "M", "item": "Leftovers", "moves": ["Body Slam", "Curse", "Psychic", "Rest"]},
-      {"species": "Shuckle", "gender": "M", "item": "Leftovers", "moves": ["Defense Curl", "Flash", "Rest", "Toxic"]}
+      {"species": "Mr. Mime", "gender": "M", "item": "Miracle Berry", "moves": ["Barrier", "Baton Pass", "Substitute", "Thunder"]},
+      {"species": "Aerodactyl", "gender": "M", "item": "Leftovers", "ivs": {"hp": 23, "atk": 27, "def": 25}, "moves": ["Curse", "Earthquake", "Hidden Power Rock", "Protect"]},
+      {"species": "Girafarig", "gender": "M", "item": "Miracle Berry", "moves": ["Amnesia", "Baton Pass", "Earthquake", "Thunder"]},
+      {"species": "Granbull", "gender": "M", "item": "Leftovers", "ivs": {"hp": 15, "atk": 25}, "moves": ["Curse", "Hidden Power Ground", "Lovely Kiss", "Return"], "happiness": 255},
+      {"species": "Haunter", "gender": "M", "item": "Leftovers", "moves": ["Destiny Bond", "Explosion", "Mean Look", "Psychic"]},
+      {"species": "Politoed", "gender": "M", "item": "Leftovers", "moves": ["Growth", "Rest", "Sleep Talk", "Surf"]}
     ]
   }
 ]

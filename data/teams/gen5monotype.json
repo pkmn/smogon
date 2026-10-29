@@ -1,7 +1,7 @@
 [
   {
     "name": "OFfensive Bug",
-    "author": "Crashy",
+    "author": "crashy",
     "data": [
       {"species": "Forretress", "gender": "M", "item": "Custap Berry", "ability": "Sturdy", "evs": {"hp": 4, "atk": 252, "def": 252}, "nature": "Lax", "ivs": {"spd": 18, "spe": 30}, "moves": ["Explosion", "Rapid Spin", "Spikes", "Stealth Rock"]},
       {"species": "Galvantula", "gender": "F", "item": "Life Orb", "ability": "Compound Eyes", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "def": 30}, "moves": ["Agility", "Giga Drain", "Hidden Power Ice", "Thunder"]},
@@ -21,6 +21,18 @@
       {"species": "Mandibuzz", "item": "Leftovers", "ability": "Overcoat", "evs": {"hp": 252, "def": 180, "spd": 76}, "nature": "Impish", "moves": ["Brave Bird", "Foul Play", "Roost", "U-turn"]},
       {"species": "Tyranitar", "gender": "M", "item": "Leftovers", "ability": "Sand Stream", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Careful", "moves": ["Pursuit", "Stealth Rock", "Stone Edge", "Thunder Wave"]},
       {"species": "Weavile", "gender": "M", "item": "Life Orb", "ability": "Pressure", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Punch", "Ice Shard", "Night Slash", "Swords Dance"]}
+    ]
+  },
+  {
+    "name": "[Dragon] Dual Dragon Dance Offense",
+    "author": "ATTRIBUTE",
+    "data": [
+      {"species": "Garchomp", "gender": "M", "item": "Focus Sash", "ability": "Rough Skin", "evs": {"hp": 8, "def": 16, "spa": 232, "spe": 252}, "nature": "Naive", "moves": ["Draco Meteor", "Earthquake", "Fire Blast", "Stealth Rock"]},
+      {"species": "Dragonite", "gender": "M", "item": "Lum Berry", "ability": "Multiscale", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Dragon Dance", "Earthquake", "Extreme Speed", "Roost"]},
+      {"species": "Hydreigon", "gender": "M", "item": "Leftovers", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Earth Power", "Flamethrower", "Substitute"]},
+      {"species": "Kyurem-Black", "item": "Haban Berry", "ability": "Teravolt", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Focus Blast", "Fusion Bolt", "Hidden Power Grass", "Ice Beam"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Latias", "item": "Choice Scarf", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Healing Wish", "Psychic", "Thunder"]},
+      {"species": "Salamence", "gender": "M", "item": "Dragon Gem", "ability": "Moxie", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naughty", "moves": ["Dragon Dance", "Earthquake", "Fire Blast", "Outrage"]}
     ]
   },
   {
@@ -60,7 +72,7 @@
     ]
   },
   {
-    "name": "Expert Belt Infernape Fire",
+    "name": "Fire Gen 5",
     "author": "Bondie",
     "data": [
       {"species": "Torkoal", "gender": "M", "item": "Air Balloon", "ability": "Shell Armor", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Clear Smog", "Lava Plume", "Rapid Spin", "Stealth Rock"]},
@@ -73,7 +85,7 @@
   },
   {
     "name": "Flying Balance",
-    "author": "Crashy",
+    "author": "crashy",
     "data": [
       {"species": "Xatu", "gender": "M", "item": "Light Clay", "ability": "Magic Bounce", "evs": {"hp": 252, "def": 252, "spe": 4}, "nature": "Impish", "moves": ["Light Screen", "Night Shade", "Reflect", "U-turn"]},
       {"species": "Dragonite", "gender": "M", "item": "Leftovers", "ability": "Multiscale", "evs": {"hp": 252, "def": 80, "spe": 176}, "nature": "Jolly", "moves": ["Dragon Claw", "Dragon Dance", "Roost", "Substitute"]},
@@ -85,7 +97,7 @@
   },
   {
     "name": "Ghost",
-    "author": "Crashy",
+    "author": "crashy",
     "data": [
       {"species": "Sableye", "gender": "M", "item": "Leftovers", "ability": "Prankster", "evs": {"hp": 252, "spd": 216, "spe": 40}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Foul Play", "Recover", "Taunt", "Will-O-Wisp"]},
       {"species": "Froslass", "item": "Focus Sash", "ability": "Cursed Body", "evs": {"hp": 248, "spa": 8, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Destiny Bond", "Ice Beam", "Spikes", "Taunt"]},
@@ -121,7 +133,7 @@
   },
   {
     "name": "Specs Froslass Ice",
-    "author": "Crashy",
+    "author": "crashy",
     "data": [
       {"species": "Mamoswine", "gender": "M", "item": "Focus Sash", "ability": "Thick Fat", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Endeavor", "Ice Shard", "Stealth Rock"]},
       {"species": "Abomasnow", "gender": "M", "item": "Chople Berry", "ability": "Snow Warning", "evs": {"hp": 248, "def": 172, "spe": 88}, "nature": "Bold", "moves": ["Earthquake", "Giga Drain", "Leech Seed", "Protect"]},
@@ -133,7 +145,7 @@
   },
   {
     "name": "Normal",
-    "author": "Crashy",
+    "author": "Chaitanya",
     "data": [
       {"species": "Ditto", "item": "Choice Scarf", "ability": "Imposter", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Relaxed", "ivs": {"atk": 30, "spa": 30, "spe": 3}, "moves": ["Transform"]},
       {"species": "Chansey", "item": "Eviolite", "ability": "Natural Cure", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Bold", "moves": ["Seismic Toss", "Soft-Boiled", "Stealth Rock", "Toxic"]},
@@ -144,8 +156,8 @@
     ]
   },
   {
-    "name": "Poison Balance",
-    "author": "Crashy",
+    "name": "poison",
+    "author": "crashy",
     "data": [
       {"species": "Crobat", "gender": "M", "item": "Rocky Helmet", "ability": "Infiltrator", "evs": {"hp": 252, "atk": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brave Bird", "Roost", "Super Fang", "Taunt"]},
       {"species": "Amoonguss", "gender": "F", "item": "Black Sludge", "ability": "Regenerator", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 2, "def": 30}, "moves": ["Foul Play", "Giga Drain", "Hidden Power Ice", "Stun Spore"]},
@@ -156,8 +168,20 @@
     ]
   },
   {
+    "name": ",",
+    "author": "sasha n_n",
+    "data": [
+      {"species": "Latias", "item": "Choice Scarf", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Healing Wish", "Psychic", "Trick"]},
+      {"species": "Celebi", "item": "Leftovers", "ability": "Natural Cure", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Earth Power", "Giga Drain", "Nasty Plot", "Recover"]},
+      {"species": "Jirachi", "item": "Leftovers", "ability": "Serene Grace", "evs": {"hp": 252, "def": 48, "spd": 208}, "nature": "Careful", "moves": ["Iron Head", "Protect", "Stealth Rock", "Wish"]},
+      {"species": "Slowbro", "gender": "M", "item": "Rocky Helmet", "ability": "Regenerator", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Ice Beam", "Scald", "Slack Off"]},
+      {"species": "Starmie", "item": "Leftovers", "ability": "Natural Cure", "evs": {"hp": 252, "spd": 40, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Rapid Spin", "Recover", "Scald", "Thunder"]},
+      {"species": "Victini", "item": "Choice Band", "ability": "Victory Star", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bolt Strike", "Trick", "U-turn", "V-create"]}
+    ]
+  },
+  {
     "name": "Offensive Rock",
-    "author": "Crashy",
+    "author": "crashy",
     "data": [
       {"species": "Omastar", "gender": "F", "item": "Air Balloon", "ability": "Weak Armor", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "moves": ["Hidden Power Grass", "Ice Beam", "Shell Smash", "Surf"]},
       {"species": "Archeops", "gender": "M", "item": "Flying Gem", "ability": "Defeatist", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Acrobatics", "Earthquake", "Heat Wave", "Hidden Power Grass"], "ivs": {"atk": 30, "spa": 30}},
@@ -177,6 +201,28 @@
       {"species": "Jirachi", "item": "Leftovers", "ability": "Serene Grace", "evs": {"hp": 252, "def": 120, "spe": 136}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Psychic", "Substitute", "Thunder"]},
       {"species": "Scizor", "gender": "M", "item": "Steel Gem", "ability": "Technician", "evs": {"hp": 136, "atk": 252, "def": 40, "spe": 80}, "nature": "Adamant", "moves": ["Bug Bite", "Bullet Punch", "Roost", "Swords Dance"]},
       {"species": "Skarmory", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 252, "def": 252, "spe": 4}, "nature": "Impish", "moves": ["Brave Bird", "Roost", "Stealth Rock", "Whirlwind"]}
+    ]
+  },
+  {
+    "data": [
+      {"species": "Politoed", "gender": "M", "item": "Choice Scarf", "ability": "Drizzle", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Encore", "Hydro Pump", "Ice Beam", "Psychic"]},
+      {"species": "Empoleon", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 248, "def": 44, "spd": 216}, "nature": "Calm", "moves": ["Protect", "Scald", "Stealth Rock", "Toxic"]},
+      {"species": "Gyarados", "gender": "M", "item": "Leftovers", "ability": "Intimidate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Bounce", "Dragon Dance", "Substitute", "Waterfall"]},
+      {"species": "Keldeo", "item": "Water Gem", "ability": "Justified", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 3, "def": 30, "spd": 30}, "moves": ["Calm Mind", "Hidden Power Ghost", "Hydro Pump", "Secret Sword"]},
+      {"species": "Starmie", "item": "Choice Specs", "ability": "Analytic", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Ice Beam", "Psychic", "Thunder"]},
+      {"species": "Swampert", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 252, "atk": 4, "def": 220, "spd": 32}, "nature": "Relaxed", "moves": ["Earthquake", "Roar", "Scald", "Stealth Rock"]}
+    ]
+  },
+  {
+    "name": "Gallade Psychic",
+    "author": "hex",
+    "data": [
+      {"species": "Victini", "item": "Choice Scarf", "ability": "Victory Star", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bolt Strike", "Trick", "U-turn", "V-create"]},
+      {"species": "Gallade", "item": "Choice Band", "ability": "Steadfast", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Ice Punch", "Leaf Blade", "X-Scissor"]},
+      {"species": "Jirachi", "item": "Leftovers", "ability": "Serene Grace", "evs": {"hp": 252, "def": 48, "spd": 208}, "nature": "Careful", "moves": ["Iron Head", "Stealth Rock", "Thunder Wave", "U-turn"]},
+      {"species": "Latias", "item": "Choice Specs", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Psychic", "Surf", "Thunder"]},
+      {"species": "Slowbro", "gender": "M", "item": "Rocky Helmet", "ability": "Regenerator", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Foul Play", "Scald", "Slack Off"]},
+      {"species": "Xatu", "gender": "M", "item": "Rocky Helmet", "ability": "Magic Bounce", "evs": {"hp": 248, "def": 204, "spe": 56}, "nature": "Impish", "moves": ["Heat Wave", "Night Shade", "Roost", "U-turn"]}
     ]
   },
   {

@@ -1,5 +1,41 @@
 [
   {
+    "name": "Zpice Semi-Sun",
+    "author": "bp",
+    "data": [
+      {"species": "Seaking", "gender": "M", "item": "Choice Band", "ability": "Swift Swim", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Double-Edge", "Hydro Pump", "Megahorn", "Return"], "happiness": 255},
+      {"species": "Anorith", "gender": "M", "item": "Salac Berry", "ability": "Battle Armor", "evs": {"atk": 252, "spd": 180, "spe": 76}, "nature": "Adamant", "moves": ["Brick Break", "Rock Slide", "Substitute", "Swords Dance"]},
+      {"species": "Gloom", "gender": "F", "item": "Lum Berry", "ability": "Chlorophyll", "evs": {"hp": 80, "spa": 252, "spe": 176}, "nature": "Modest", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Hidden Power Fire", "Solar Beam", "Sunny Day", "Synthesis"]},
+      {"species": "Ponyta", "gender": "M", "item": "Lum Berry", "ability": "Run Away", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Fire Blast", "Hidden Power Ground", "Solar Beam", "Sunny Day"], "ivs": {"spa": 30, "spd": 30}},
+      {"species": "Porygon", "item": "Leftovers", "ability": "Trace", "evs": {"hp": 252, "spa": 116, "spd": 140}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Recover", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Tropius", "gender": "M", "item": "Lum Berry", "ability": "Chlorophyll", "evs": {"def": 160, "spa": 236, "spe": 112}, "nature": "Rash", "moves": ["Earthquake", "Hidden Power Fire", "Solar Beam", "Sunny Day"], "ivs": {"atk": 30, "spa": 30, "spe": 30}}
+    ]
+  },
+  {
+    "name": "Lead Doduo",
+    "author": "scizornite",
+    "data": [
+      {"species": "Doduo", "gender": "M", "item": "Choice Band", "ability": "Early Bird", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Double-Edge", "Flail", "Hidden Power Ground", "Quick Attack"], "ivs": {"spa": 30, "spd": 30}},
+      {"species": "Abra", "gender": "M", "item": "Lum Berry", "ability": "Synchronize", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Encore", "Ice Punch", "Psychic"]},
+      {"species": "Corsola", "gender": "M", "item": "Leftovers", "ability": "Natural Cure", "evs": {"hp": 252, "def": 196, "spe": 60}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Psychic", "Recover", "Surf"]},
+      {"species": "Gloom", "gender": "M", "item": "Leftovers", "ability": "Chlorophyll", "evs": {"hp": 252, "def": 236, "spe": 20}, "nature": "Bold", "moves": ["Hidden Power Grass", "Moonlight", "Sludge Bomb", "Stun Spore"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Ponyta", "gender": "M", "item": "Silk Scarf", "ability": "Flash Fire", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Hasty", "moves": ["Double-Edge", "Fire Blast", "Hidden Power Grass", "Quick Attack"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Porygon", "item": "Leftovers", "ability": "Trace", "evs": {"hp": 252, "spd": 248, "spe": 8}, "nature": "Careful", "moves": ["Hidden Power Grass", "Recover", "Return", "Thunder Wave"], "ivs": {"atk": 30, "spa": 30}, "happiness": 255}
+    ]
+  },
+  {
+    "name": "Grimer BO V2",
+    "author": "bp",
+    "data": [
+      {"species": "Elekid", "gender": "F", "item": "Lum Berry", "ability": "Static", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "moves": ["Fire Punch", "Hidden Power Grass", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Chinchou", "gender": "M", "item": "Leftovers", "ability": "Volt Absorb", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Ice Beam", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Cubone", "gender": "M", "item": "Thick Club", "ability": "Rock Head", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Double-Edge", "Earthquake", "Substitute", "Swords Dance"]},
+      {"species": "Grimer", "gender": "M", "item": "Leftovers", "ability": "Sticky Hold", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Careful", "moves": ["Curse", "Rest", "Sleep Talk", "Sludge Bomb"]},
+      {"species": "Koffing", "gender": "M", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "def": 252, "spe": 8}, "nature": "Impish", "moves": ["Hidden Power Grass", "Memento", "Sludge Bomb", "Toxic"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Nosepass", "gender": "M", "item": "Leftovers", "ability": "Magnet Pull", "evs": {"hp": 252, "atk": 60, "spd": 196}, "nature": "Careful", "moves": ["Earthquake", "Explosion", "Protect", "Thunder Wave"]}
+    ]
+  },
+  {
     "name": "Grimer Lead Quil",
     "author": "bp",
     "data": [
@@ -9,18 +45,6 @@
       {"species": "Grimer", "gender": "M", "item": "Leftovers", "ability": "Sticky Hold", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Careful", "moves": ["Curse", "Rest", "Sleep Talk", "Sludge Bomb"]},
       {"species": "Koffing", "gender": "M", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "def": 252, "spe": 8}, "nature": "Impish", "moves": ["Hidden Power Grass", "Pain Split", "Sludge Bomb", "Will-O-Wisp"], "ivs": {"atk": 30, "spa": 30}},
       {"species": "Rhyhorn", "gender": "M", "item": "Leftovers", "ability": "Lightning Rod", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Megahorn", "Protect", "Rock Slide"]}
-    ]
-  },
-  {
-    "name": "The Big 3",
-    "author": "bp",
-    "data": [
-      {"species": "Butterfree", "gender": "M", "item": "Lum Berry", "ability": "Compound Eyes", "evs": {"hp": 252, "spa": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Giga Drain", "Morning Sun", "Psychic", "Sleep Powder"]},
-      {"species": "Aipom", "gender": "M", "item": "Choice Band", "ability": "Run Away", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Baton Pass", "Brick Break", "Double-Edge", "Return"], "happiness": 255},
-      {"species": "Castform", "gender": "M", "item": "Leftovers", "ability": "Forecast", "evs": {"hp": 248, "atk": 112, "spd": 120, "spe": 28}, "nature": "Brave", "moves": ["Double-Edge", "Flamethrower", "Protect", "Thunderbolt"]},
-      {"species": "Elekid", "gender": "F", "item": "Lum Berry", "ability": "Static", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "moves": ["Fire Punch", "Hidden Power Grass", "Thunderbolt", "Toxic"]},
-      {"species": "Koffing", "gender": "M", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "def": 252, "spa": 8}, "nature": "Impish", "moves": ["Hidden Power Grass", "Pain Split", "Sludge Bomb", "Will-O-Wisp"], "ivs": {"atk": 30, "spa": 30}},
-      {"species": "Rhyhorn", "gender": "M", "item": "Leftovers", "ability": "Lightning Rod", "evs": {"hp": 112, "atk": 52, "spd": 220, "spe": 124}, "nature": "Careful", "moves": ["Earthquake", "Megahorn", "Protect", "Rock Slide"]}
     ]
   }
 ]

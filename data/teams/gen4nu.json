@@ -1,5 +1,89 @@
 [
   {
+    "name": "Band Tauros + CM Slowking BO",
+    "author": "Oathkeeper",
+    "data": [
+      {"species": "Tauros", "item": "Choice Band", "ability": "Intimidate", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Double-Edge", "Earthquake", "Pursuit", "Return"], "happiness": 255},
+      {"species": "Gligar", "gender": "M", "item": "Leftovers", "ability": "Hyper Cutter", "shiny": true, "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Earthquake", "Roost", "Stealth Rock", "U-turn"]},
+      {"species": "Hitmonchan", "item": "Leftovers", "ability": "Iron Fist", "evs": {"hp": 168, "atk": 252, "spe": 88}, "nature": "Adamant", "moves": ["Drain Punch", "Mach Punch", "Rapid Spin", "Thunder Punch"]},
+      {"species": "Manectric", "gender": "F", "item": "Choice Scarf", "ability": "Static", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "moves": ["Flamethrower", "Hidden Power Grass", "Switcheroo", "Thunderbolt"]},
+      {"species": "Skuntank", "gender": "M", "item": "Black Glasses", "ability": "Aftermath", "shiny": true, "evs": {"hp": 176, "atk": 80, "spd": 252}, "nature": "Adamant", "moves": ["Crunch", "Explosion", "Pursuit", "Sucker Punch"]},
+      {"species": "Slowking", "gender": "M", "item": "Leftovers", "ability": "Own Tempo", "shiny": true, "evs": {"hp": 252, "def": 192, "spd": 64}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Psychic", "Slack Off", "Surf"]}
+    ]
+  },
+  {
+    "name": "Breaker Cham + Sub Magneton BO",
+    "author": "Oathkeeper",
+    "data": [
+      {"species": "Medicham", "gender": "M", "item": "Life Orb", "ability": "Pure Power", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Fake Out", "High Jump Kick", "Thunder Punch", "Zen Headbutt"]},
+      {"species": "Magneton", "item": "Leftovers", "ability": "Magnet Pull", "evs": {"hp": 64, "spa": 228, "spe": 216}, "nature": "Modest", "ivs": {"atk": 2, "spa": 30}, "moves": ["Flash Cannon", "Hidden Power Grass", "Substitute", "Thunderbolt"]},
+      {"species": "Sandslash", "gender": "M", "item": "Leftovers", "ability": "Sand Veil", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Impish", "moves": ["Earthquake", "Rapid Spin", "Shadow Claw", "Stealth Rock"]},
+      {"species": "Skuntank", "gender": "M", "item": "Black Glasses", "ability": "Aftermath", "shiny": true, "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Crunch", "Explosion", "Pursuit", "Sucker Punch"]},
+      {"species": "Slowking", "gender": "M", "item": "Leftovers", "ability": "Own Tempo", "shiny": true, "evs": {"hp": 252, "def": 192, "spd": 64}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Psychic", "Slack Off", "Surf", "Thunder Wave"]},
+      {"species": "Tauros", "item": "Choice Scarf", "ability": "Intimidate", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Double-Edge", "Earthquake", "Pursuit", "Return"], "happiness": 255}
+    ]
+  },
+  {
+    "name": "Scarf Medicham + LO Zard Offense",
+    "author": "Oathkeeper",
+    "data": [
+      {"species": "Nidoqueen", "item": "Black Sludge", "ability": "Poison Point", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Relaxed", "moves": ["Earthquake", "Ice Beam", "Stealth Rock", "Toxic Spikes"]},
+      {"species": "Charizard", "gender": "F", "item": "Life Orb", "ability": "Blaze", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "moves": ["Air Slash", "Fire Blast", "Hidden Power Grass", "Roost"]},
+      {"species": "Hitmonchan", "item": "Life Orb", "ability": "Iron Fist", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Drain Punch", "Mach Punch", "Rapid Spin", "Thunder Punch"]},
+      {"species": "Medicham", "gender": "M", "item": "Choice Scarf", "ability": "Pure Power", "shiny": true, "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["High Jump Kick", "Ice Punch", "Thunder Punch", "Zen Headbutt"]},
+      {"species": "Skuntank", "gender": "M", "item": "Black Glasses", "ability": "Aftermath", "shiny": true, "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Crunch", "Explosion", "Pursuit", "Sucker Punch"]},
+      {"species": "Slowking", "gender": "M", "item": "Leftovers", "ability": "Own Tempo", "evs": {"hp": 252, "def": 160, "spd": 96}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Psychic", "Slack Off", "Surf", "Toxic"]}
+    ]
+  },
+  {
+    "name": "SubMagrise Magneton",
+    "author": "Ninja",
+    "data": [
+      {"species": "Charizard", "gender": "M", "item": "Leftovers", "ability": "Blaze", "shiny": true, "evs": {"hp": 248, "spa": 8, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Roost", "Substitute", "Toxic"]},
+      {"species": "Cradily", "gender": "M", "item": "Leftovers", "ability": "Suction Cups", "evs": {"hp": 252, "def": 56, "spd": 200}, "nature": "Careful", "moves": ["Recover", "Rock Slide", "Seed Bomb", "Stealth Rock"]},
+      {"species": "Dusclops", "gender": "M", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Pain Split", "Seismic Toss", "Shadow Sneak", "Will-O-Wisp"]},
+      {"species": "Magneton", "item": "Leftovers", "ability": "Magnet Pull", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Flash Cannon", "Magnet Rise", "Substitute", "Thunderbolt"]},
+      {"species": "Sandslash", "gender": "M", "item": "Leftovers", "ability": "Sand Veil", "evs": {"hp": 252, "atk": 132, "spe": 124}, "nature": "Adamant", "moves": ["Earthquake", "Rapid Spin", "Shadow Claw", "Toxic"]},
+      {"species": "Tauros", "item": "Silk Scarf", "ability": "Intimidate", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "ivs": {"atk": 0}, "moves": ["Double-Edge", "Earthquake", "Iron Head", "Pursuit"]}
+    ]
+  },
+  {
+    "name": "RestTalk LO Mag",
+    "author": "Ninja",
+    "data": [
+      {"species": "Sharpedo", "gender": "M", "item": "Focus Sash", "ability": "Rough Skin", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Aqua Jet", "Dark Pulse", "Hydro Pump", "Ice Beam"]},
+      {"species": "Haunter", "gender": "F", "item": "Life Orb", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "moves": ["Hidden Power Ground", "Shadow Ball", "Sludge Bomb", "Substitute"]},
+      {"species": "Magneton", "item": "Life Orb", "ability": "Magnet Pull", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Flash Cannon", "Rest", "Sleep Talk", "Thunderbolt"]},
+      {"species": "Regirock", "item": "Leftovers", "ability": "Clear Body", "shiny": true, "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "moves": ["Earthquake", "Rock Slide", "Stealth Rock", "Thunder Wave"]},
+      {"species": "Slowking", "gender": "M", "item": "Leftovers", "ability": "Own Tempo", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Psychic", "Slack Off", "Surf", "Thunder Wave"]},
+      {"species": "Tauros", "item": "Choice Scarf", "ability": "Intimidate", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Double-Edge", "Earthquake", "Pursuit", "Rock Slide"]}
+    ]
+  },
+  {
+    "name": "SubTox Poliwrath",
+    "author": "Ninja",
+    "data": [
+      {"species": "Regirock", "item": "Chesto Berry", "ability": "Clear Body", "shiny": true, "evs": {"hp": 248, "atk": 88, "spd": 172}, "nature": "Careful", "moves": ["Earthquake", "Rest", "Rock Slide", "Stealth Rock"]},
+      {"species": "Meganium", "gender": "M", "item": "Leftovers", "ability": "Overgrow", "evs": {"hp": 192, "atk": 252, "spe": 64}, "nature": "Adamant", "moves": ["Return", "Seed Bomb", "Swords Dance", "Synthesis"], "happiness": 255},
+      {"species": "Poliwrath", "gender": "M", "item": "Leftovers", "ability": "Water Absorb", "evs": {"hp": 112, "atk": 252, "spe": 144}, "nature": "Adamant", "moves": ["Focus Punch", "Substitute", "Toxic", "Waterfall"]},
+      {"species": "Sableye", "gender": "M", "item": "Leftovers", "ability": "Keen Eye", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Night Shade", "Recover", "Taunt", "Will-O-Wisp"]},
+      {"species": "Skuntank", "gender": "M", "item": "Choice Scarf", "ability": "Aftermath", "shiny": true, "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Crunch", "Explosion", "Poison Jab", "Pursuit"]},
+      {"species": "Tauros", "item": "Silk Scarf", "ability": "Intimidate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Double-Edge", "Earthquake", "Pursuit", "Rock Slide"]}
+    ]
+  },
+  {
+    "name": "week 6 vs Ara",
+    "author": "Beraldinhoo",
+    "data": [
+      {"species": "Walrein", "gender": "M", "item": "Leftovers", "ability": "Thick Fat", "evs": {"hp": 176, "spd": 80, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Substitute", "Surf", "Toxic"]},
+      {"species": "Charizard", "gender": "M", "item": "Leftovers", "ability": "Blaze", "evs": {"hp": 248, "spa": 8, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Roost", "Substitute", "Toxic"]},
+      {"species": "Regirock", "item": "Chesto Berry", "ability": "Clear Body", "evs": {"hp": 252, "spd": 200, "spe": 56}, "nature": "Careful", "moves": ["Explosion", "Rest", "Rock Slide", "Stealth Rock"]},
+      {"species": "Sandslash", "gender": "M", "item": "Leftovers", "ability": "Sand Veil", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Impish", "moves": ["Earthquake", "Rapid Spin", "Rock Slide", "Toxic"]},
+      {"species": "Shiftry", "gender": "M", "item": "Life Orb", "ability": "Chlorophyll", "evs": {"hp": 32, "spa": 252, "spe": 224}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Leaf Storm", "Nasty Plot", "Synthesis"]},
+      {"species": "Tauros", "item": "Choice Scarf", "ability": "Intimidate", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Double-Edge", "Earthquake", "Pursuit", "Rock Slide"]}
+    ]
+  },
+  {
     "name": "Standard RegiKing Balance (Innovamania)",
     "data": [
       {"species": "Jynx", "item": "Focus Sash", "ability": "Forewarn", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Timid", "moves": ["Fake Out", "Ice Beam", "Lovely Kiss", "Psychic"]},

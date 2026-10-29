@@ -1,62 +1,122 @@
 [
   {
-    "name": "Bog Standard Bulky Offense",
+    "name": "Double Fighter",
+    "author": "HSOWA",
+    "data": [
+      {"species": "Machop", "gender": "M", "item": "Oran Berry", "ability": "No Guard", "evs": {"hp": 116, "atk": 116, "def": 36, "spd": 236}, "nature": "Adamant", "moves": ["Bullet Punch", "Dynamic Punch", "Ice Punch", "Payback"]},
+      {"species": "Chinchou", "gender": "F", "item": "Oran Berry", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spe": 220}, "nature": "Modest", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "moves": ["Agility", "Hidden Power Ground", "Hydro Pump", "Thunderbolt"]},
+      {"species": "Croagunk", "gender": "M", "item": "Oran Berry", "ability": "Dry Skin", "evs": {"hp": 52, "def": 36, "spa": 188, "spd": 36, "spe": 196}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Icy Wind", "Shadow Ball", "Sludge Bomb", "Vacuum Wave"]},
+      {"species": "Gastly", "gender": "M", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 36, "atk": 76, "spa": 196, "spe": 196}, "nature": "Naive", "moves": ["Explosion", "Shadow Ball", "Sludge Bomb", "Substitute"]},
+      {"species": "Gligar", "gender": "M", "item": "Oran Berry", "ability": "Hyper Cutter", "evs": {"atk": 156, "def": 76, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Night Slash", "U-turn"]},
+      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"atk": 236, "def": 116, "spd": 156}, "nature": "Adamant", "moves": ["Fire Punch", "Ice Punch", "Pursuit", "Return"], "happiness": 255}
+    ]
+  },
+  {
+    "name": "Wacan Wailmer Scarf Snover Waterspam",
+    "author": "Hacker",
+    "data": [
+      {"species": "Wailmer", "gender": "M", "item": "Wacan Berry", "ability": "Water Veil", "evs": {"hp": 116, "def": 76, "spa": 116, "spd": 76, "spe": 116}, "nature": "Timid", "moves": ["Earthquake", "Hydro Pump", "Protect", "Water Spout"]},
+      {"species": "Chinchou", "gender": "F", "item": "Oran Berry", "ability": "Volt Absorb", "evs": {"def": 132, "spa": 232, "spd": 68, "spe": 64}, "nature": "Modest", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Agility", "Hidden Power Fire", "Hydro Pump", "Thunderbolt"]},
+      {"species": "Gastly", "gender": "F", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 36, "def": 116, "spa": 120, "spe": 196}, "nature": "Timid", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "moves": ["Hidden Power Ground", "Shadow Ball", "Sludge Bomb", "Will-O-Wisp"]},
+      {"species": "Gligar", "gender": "M", "item": "Oran Berry", "ability": "Hyper Cutter", "evs": {"atk": 156, "def": 76, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Stealth Rock", "U-turn"]},
+      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"hp": 76, "atk": 236, "def": 36, "spd": 156}, "nature": "Impish", "moves": ["Ice Punch", "Pursuit", "Return", "Zen Headbutt"], "happiness": 255},
+      {"species": "Snover", "gender": "M", "item": "Choice Scarf", "ability": "Snow Warning", "evs": {"atk": 104, "spa": 184, "spe": 200}, "nature": "Naive", "moves": ["Blizzard", "Energy Ball", "Hidden Power Fire", "Ice Shard"], "ivs": {"atk": 30, "spa": 30, "spe": 30}}
+    ]
+  },
+  {
+    "name": "Rain",
+    "author": "HSOWA",
+    "data": [
+      {"species": "Bronzor", "item": "Damp Rock", "ability": "Levitate", "evs": {"hp": 220, "atk": 4, "def": 148, "spa": 4, "spd": 68, "spe": 12}, "nature": "Relaxed", "moves": ["Earthquake", "Psychic", "Rain Dance", "Stealth Rock"]},
+      {"species": "Buizel", "gender": "M", "item": "Oran Berry", "ability": "Swift Swim", "evs": {"atk": 236, "spd": 36, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Jet", "Bulk Up", "Return", "Waterfall"], "happiness": 255},
+      {"species": "Kabuto", "gender": "M", "item": "Life Orb", "ability": "Swift Swim", "evs": {"atk": 196, "spa": 156, "spe": 156}, "nature": "Naughty", "moves": ["Aqua Jet", "Earth Power", "Rock Slide", "Waterfall"]},
+      {"species": "Mantyke", "gender": "F", "item": "Oran Berry", "ability": "Swift Swim", "evs": {"hp": 76, "def": 36, "spa": 200, "spd": 36, "spe": 116}, "nature": "Modest", "ivs": {"atk": 2, "spa": 30}, "moves": ["Air Cutter", "Hidden Power Grass", "Hydro Pump", "Rain Dance"]},
+      {"species": "Voltorb", "item": "Damp Rock", "ability": "Static", "shiny": true, "evs": {"hp": 196, "atk": 40, "spa": 76, "spe": 196}, "nature": "Timid", "moves": ["Explosion", "Hidden Power Ice", "Rain Dance", "Thunderbolt"], "ivs": {"atk": 30, "def": 30}},
+      {"species": "Wynaut", "gender": "M", "item": "Custap Berry", "ability": "Shadow Tag", "evs": {"hp": 236, "def": 132, "spd": 132}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Counter", "Destiny Bond", "Encore", "Mirror Coat"]}
+    ]
+  },
+  {
+    "name": "Aipom LOrb Stunky",
+    "author": "Zcarlett",
+    "data": [
+      {"species": "Aipom", "gender": "M", "item": "Life Orb", "ability": "Run Away", "evs": {"hp": 76, "atk": 196, "spe": 236}, "nature": "Jolly", "moves": ["Fake Out", "Fire Punch", "Return", "U-turn"], "happiness": 255},
+      {"species": "Gastly", "gender": "M", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 36, "atk": 76, "spa": 196, "spe": 196}, "nature": "Naive", "moves": ["Explosion", "Shadow Ball", "Sludge Bomb", "Substitute"]},
+      {"species": "Gligar", "gender": "M", "item": "Oran Berry", "ability": "Hyper Cutter", "evs": {"atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Stealth Rock", "U-turn"]},
+      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"hp": 76, "atk": 236, "def": 116, "spd": 76}, "nature": "Adamant", "moves": ["Earthquake", "Fire Punch", "Pursuit", "Return"], "happiness": 255},
+      {"species": "Snover", "gender": "M", "item": "Oran Berry", "ability": "Snow Warning", "evs": {"atk": 184, "spa": 184, "spe": 120}, "nature": "Lonely", "moves": ["Blizzard", "Hidden Power Fire", "Ice Shard", "Wood Hammer"], "ivs": {"atk": 30, "spa": 30, "spe": 30}},
+      {"species": "Stunky", "gender": "M", "item": "Life Orb", "ability": "Aftermath", "evs": {"hp": 12, "atk": 252, "spe": 244}, "nature": "Jolly", "moves": ["Crunch", "Explosion", "Pursuit", "Sucker Punch"]}
+    ]
+  },
+  {
+    "name": "Snover Lead Standard",
     "author": "Melon",
     "data": [
-      {"species": "Gastly", "gender": "M", "item": "Focus Sash", "ability": "Levitate", "evs": {"hp": 36, "atk": 80, "spa": 196, "spe": 196}, "nature": "Rash", "moves": ["Explosion", "Hidden Power Ice", "Sludge Bomb", "Sucker Punch"], "ivs": {"atk": 30, "def": 30}},
-      {"species": "Chinchou", "gender": "F", "item": "Oran Berry", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spe": 220}, "nature": "Timid", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "moves": ["Agility", "Hidden Power Ground", "Hydro Pump", "Thunderbolt"]},
-      {"species": "Duskull", "gender": "M", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 196, "atk": 116, "def": 36, "spd": 116}, "nature": "Impish", "moves": ["Pain Split", "Return", "Shadow Sneak", "Will-O-Wisp"], "happiness": 255},
-      {"species": "Gligar", "gender": "M", "item": "Choice Scarf", "ability": "Sand Veil", "evs": {"atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Stone Edge", "U-turn"]},
-      {"species": "Houndour", "gender": "M", "item": "Oran Berry", "ability": "Flash Fire", "evs": {"atk": 36, "def": 36, "spa": 196, "spe": 236}, "nature": "Naive", "moves": ["Dark Pulse", "Fire Blast", "Sucker Punch", "Will-O-Wisp"]},
-      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"atk": 236, "def": 36, "spd": 236}, "nature": "Adamant", "moves": ["Fire Punch", "Pursuit", "Return", "Sleep Talk"], "happiness": 255}
+      {"species": "Snover", "gender": "M", "item": "Focus Sash", "ability": "Snow Warning", "evs": {"atk": 104, "spa": 184, "spe": 200}, "nature": "Rash", "moves": ["Blizzard", "Energy Ball", "Hidden Power Fire", "Ice Shard"], "ivs": {"atk": 30, "spa": 30, "spe": 30}},
+      {"species": "Chinchou", "gender": "F", "item": "Oran Berry", "ability": "Volt Absorb", "evs": {"hp": 76, "def": 52, "spa": 232, "spd": 68, "spe": 64}, "nature": "Modest", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Agility", "Hidden Power Fire", "Hydro Pump", "Thunderbolt"]},
+      {"species": "Gastly", "gender": "M", "item": "Oran Berry", "ability": "Levitate", "evs": {"def": 116, "spa": 196, "spe": 196}, "nature": "Naive", "moves": ["Explosion", "Shadow Ball", "Sludge Bomb", "Substitute"]},
+      {"species": "Gligar", "gender": "M", "item": "Oran Berry", "ability": "Hyper Cutter", "evs": {"atk": 156, "def": 76, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Stone Edge", "Swords Dance"]},
+      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"atk": 236, "def": 196, "spe": 76}, "nature": "Adamant", "moves": ["Fire Punch", "Ice Punch", "Return", "Superpower"], "happiness": 255},
+      {"species": "Stunky", "gender": "M", "item": "Lum Berry", "ability": "Aftermath", "evs": {"hp": 12, "atk": 252, "spe": 244}, "nature": "Jolly", "moves": ["Crunch", "Explosion", "Pursuit", "Sucker Punch"]}
     ]
   },
   {
-    "name": "Drifloon Bulky Offense",
-    "author": "Melon",
+    "name": "Voltorb Lead",
+    "author": "Hacker",
     "data": [
-      {"species": "Gligar", "gender": "M", "item": "Choice Scarf", "ability": "Sand Veil", "evs": {"atk": 236, "spe": 236}, "nature": "Adamant", "moves": ["Aqua Tail", "Earthquake", "Night Slash", "U-turn"]},
-      {"species": "Chinchou", "gender": "F", "item": "Oran Berry", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spe": 224}, "nature": "Modest", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Agility", "Hidden Power Fire", "Hydro Pump", "Thunderbolt"]},
-      {"species": "Drifloon", "gender": "F", "item": "Oran Berry", "ability": "Unburden", "evs": {"hp": 116, "def": 8, "spa": 200, "spd": 8, "spe": 120}, "nature": "Modest", "ivs": {"atk": 3, "def": 30, "spa": 30, "spd": 30, "spe": 30}, "moves": ["Calm Mind", "Hidden Power Fighting", "Shadow Ball", "Substitute"]},
-      {"species": "Duskull", "gender": "M", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 196, "atk": 116, "def": 36, "spd": 116}, "nature": "Impish", "moves": ["Pain Split", "Return", "Shadow Sneak", "Will-O-Wisp"], "happiness": 255},
-      {"species": "Houndour", "gender": "M", "item": "Oran Berry", "ability": "Flash Fire", "evs": {"atk": 196, "def": 36, "spd": 36, "spe": 236}, "nature": "Jolly", "moves": ["Crunch", "Pursuit", "Sucker Punch", "Will-O-Wisp"]},
-      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"atk": 236, "def": 36, "spd": 236}, "nature": "Adamant", "moves": ["Fire Punch", "Ice Punch", "Pursuit", "Return"], "happiness": 255}
+      {"species": "Voltorb", "item": "Focus Sash", "ability": "Static", "evs": {"hp": 36, "atk": 40, "spa": 236, "spe": 196}, "nature": "Hasty", "moves": ["Explosion", "Hidden Power Ice", "Protect", "Thunderbolt"], "ivs": {"atk": 30, "def": 30}},
+      {"species": "Bronzor", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 60, "atk": 8, "def": 152, "spa": 84, "spd": 148, "spe": 12}, "nature": "Relaxed", "moves": ["Earthquake", "Hidden Power Ice", "Psychic", "Stealth Rock"], "ivs": {"atk": 30, "def": 30}},
+      {"species": "Chinchou", "gender": "F", "item": "Oran Berry", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spd": 72, "spe": 140}, "nature": "Modest", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "moves": ["Agility", "Hidden Power Ground", "Hydro Pump", "Thunderbolt"]},
+      {"species": "Gastly", "gender": "F", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 36, "def": 116, "spa": 120, "spe": 196}, "nature": "Timid", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "moves": ["Hidden Power Ground", "Shadow Ball", "Sludge Bomb", "Will-O-Wisp"]},
+      {"species": "Gligar", "gender": "M", "item": "Oran Berry", "ability": "Hyper Cutter", "evs": {"atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Night Slash", "Swords Dance"]},
+      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"hp": 76, "atk": 156, "def": 116, "spd": 156}, "nature": "Impish", "moves": ["Double-Edge", "Fire Punch", "Ice Punch", "Zen Headbutt"]}
     ]
   },
   {
-    "name": "Double Water Offense",
-    "author": "Imanalt",
+    "name": "Mixed Snover Bronzor SD Gligar",
+    "author": "Kipkluif",
     "data": [
-      {"species": "Gastly", "gender": "M", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 36, "spa": 196, "spe": 196}, "nature": "Timid", "moves": ["Explosion", "Hidden Power Ice", "Shadow Ball", "Sludge Bomb"], "ivs": {"atk": 30, "def": 30}},
-      {"species": "Chinchou", "gender": "F", "item": "Oran Berry", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spe": 224}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Agility", "Hidden Power Fire", "Hydro Pump", "Thunderbolt"]},
-      {"species": "Gligar", "gender": "M", "item": "Choice Scarf", "ability": "Sand Veil", "evs": {"atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Night Slash", "U-turn"]},
-      {"species": "Houndour", "gender": "M", "item": "Life Orb", "ability": "Flash Fire", "evs": {"atk": 36, "def": 36, "spa": 200, "spe": 236}, "nature": "Naive", "moves": ["Dark Pulse", "Fire Blast", "Hidden Power Ground", "Sucker Punch"], "ivs": {"spa": 30, "spd": 30}},
-      {"species": "Mantyke", "gender": "F", "item": "Life Orb", "ability": "Swift Swim", "evs": {"def": 116, "spa": 200, "spd": 36, "spe": 116}, "nature": "Modest", "ivs": {"hp": 3, "atk": 3, "spa": 30}, "moves": ["Air Cutter", "Hidden Power Electric", "Hydro Pump", "Rain Dance"]},
-      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"hp": 76, "atk": 236, "def": 116, "spe": 76}, "nature": "Adamant", "moves": ["Earthquake", "Ice Punch", "Pursuit", "Return"], "happiness": 255}
+      {"species": "Snover", "gender": "M", "item": "Oran Berry", "ability": "Snow Warning", "evs": {"hp": 36, "atk": 184, "def": 36, "spa": 184, "spe": 40}, "nature": "Lonely", "moves": ["Blizzard", "Hidden Power Fire", "Ice Shard", "Wood Hammer"], "ivs": {"atk": 30, "spa": 30, "spe": 30}},
+      {"species": "Bronzor", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 60, "atk": 84, "def": 148, "spa": 84, "spd": 68, "spe": 12}, "nature": "Relaxed", "moves": ["Earthquake", "Psychic", "Recycle", "Stealth Rock"]},
+      {"species": "Chinchou", "gender": "F", "item": "Oran Berry", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spd": 72, "spe": 140}, "nature": "Modest", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "moves": ["Agility", "Hidden Power Ground", "Hydro Pump", "Thunderbolt"]},
+      {"species": "Croagunk", "gender": "M", "item": "Oran Berry", "ability": "Dry Skin", "evs": {"hp": 52, "def": 116, "spa": 188, "spd": 36, "spe": 116}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Icy Wind", "Shadow Ball", "Vacuum Wave"]},
+      {"species": "Gligar", "gender": "M", "item": "Oran Berry", "ability": "Hyper Cutter", "evs": {"atk": 156, "def": 76, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Stone Edge", "Swords Dance"]},
+      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"hp": 76, "atk": 236, "def": 196}, "nature": "Impish", "moves": ["Brick Break", "Fire Punch", "Ice Punch", "Return"], "happiness": 255}
     ]
   },
   {
-    "name": "Standard Machoke Lead",
-    "author": "Nobody",
+    "name": "Screens",
+    "author": "HSOWA",
     "data": [
-      {"species": "Machop", "gender": "M", "item": "Oran Berry", "ability": "No Guard", "evs": {"hp": 116, "atk": 196, "def": 36, "spd": 76, "spe": 76}, "nature": "Adamant", "moves": ["Bullet Punch", "Dynamic Punch", "Ice Punch", "Payback"]},
-      {"species": "Chinchou", "gender": "F", "item": "Oran Berry", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spe": 220}, "nature": "Timid", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "moves": ["Agility", "Hidden Power Ground", "Hydro Pump", "Thunderbolt"]},
-      {"species": "Duskull", "gender": "M", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 196, "atk": 116, "def": 36, "spd": 116}, "nature": "Impish", "moves": ["Pain Split", "Return", "Shadow Sneak", "Will-O-Wisp"], "happiness": 255},
-      {"species": "Gligar", "gender": "M", "item": "Choice Scarf", "ability": "Sand Veil", "evs": {"atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Stone Edge", "U-turn"]},
-      {"species": "Houndour", "gender": "M", "item": "Life Orb", "ability": "Flash Fire", "evs": {"def": 36, "spa": 200, "spe": 236}, "nature": "Hasty", "ivs": {"hp": 3, "atk": 30, "spa": 30, "spd": 30}, "moves": ["Dark Pulse", "Fire Blast", "Hidden Power Ground", "Sucker Punch"]},
-      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"atk": 236, "def": 36, "spd": 236}, "nature": "Adamant", "moves": ["Earthquake", "Ice Punch", "Pursuit", "Return"], "happiness": 255}
+      {"species": "Bronzor", "item": "Light Clay", "ability": "Levitate", "evs": {"hp": 220, "def": 148, "spa": 4, "spd": 68, "spe": 12}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Light Screen", "Psychic", "Reflect", "Stealth Rock"]},
+      {"species": "Gligar", "gender": "M", "item": "Oran Berry", "ability": "Hyper Cutter", "evs": {"atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Stone Edge", "Swords Dance"]},
+      {"species": "Snover", "gender": "M", "item": "Oran Berry", "ability": "Snow Warning", "evs": {"hp": 36, "atk": 180, "def": 116, "spd": 36, "spe": 116}, "nature": "Adamant", "moves": ["Ice Shard", "Return", "Swords Dance", "Wood Hammer"], "happiness": 255},
+      {"species": "Staryu", "item": "Light Clay", "ability": "Natural Cure", "evs": {"hp": 196, "def": 76, "spe": 236}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Light Screen", "Psychic", "Reflect", "Surf"]},
+      {"species": "Stunky", "gender": "M", "item": "Life Orb", "ability": "Aftermath", "evs": {"hp": 12, "atk": 252, "spe": 244}, "nature": "Jolly", "moves": ["Crunch", "Memento", "Pursuit", "Sucker Punch"]},
+      {"species": "Zigzagoon", "gender": "M", "item": "Oran Berry", "ability": "Pickup", "evs": {"atk": 196, "def": 108, "spe": 196}, "nature": "Jolly", "moves": ["Belly Drum", "Extreme Speed", "Substitute", "Thief"]}
     ]
   },
   {
-    "name": "Snow Warning",
-    "author": "Kjdaas",
+    "name": "Elekid Lead Houndour Balance",
+    "author": "Nails",
     "data": [
-      {"species": "Gligar", "gender": "M", "item": "Choice Scarf", "ability": "Hyper Cutter", "evs": {"atk": 236, "spe": 236}, "nature": "Jolly", "moves": ["Aerial Ace", "Aqua Tail", "Earthquake", "U-turn"]},
-      {"species": "Chinchou", "gender": "F", "item": "Oran Berry", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spe": 144}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Agility", "Hidden Power Fire", "Hydro Pump", "Thunderbolt"]},
-      {"species": "Duskull", "gender": "M", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 196, "atk": 116, "def": 36, "spd": 116}, "nature": "Impish", "moves": ["Pain Split", "Return", "Shadow Sneak", "Will-O-Wisp"], "happiness": 255},
-      {"species": "Elekid", "gender": "M", "item": "Life Orb", "ability": "Static", "evs": {"atk": 16, "spa": 160, "spe": 236}, "nature": "Hasty", "moves": ["Hidden Power Grass", "Ice Punch", "Low Kick", "Thunderbolt"], "ivs": {"atk": 30, "spa": 30}},
-      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "evs": {"atk": 236, "def": 36, "spd": 236}, "nature": "Adamant", "moves": ["Earthquake", "Fire Punch", "Pursuit", "Return"], "happiness": 255},
-      {"species": "Snover", "gender": "M", "item": "Oran Berry", "ability": "Snow Warning", "evs": {"hp": 36, "atk": 104, "def": 36, "spa": 104, "spd": 36}, "nature": "Brave", "moves": ["Blizzard", "Hidden Power Fire", "Ice Shard", "Wood Hammer"], "ivs": {"atk": 30, "spa": 30, "spe": 30}}
+      {"species": "Elekid", "gender": "M", "item": "Life Orb", "ability": "Static", "evs": {"atk": 16, "spa": 236, "spe": 236}, "nature": "Hasty", "moves": ["Cross Chop", "Hidden Power Ice", "Psychic", "Thunderbolt"], "ivs": {"atk": 30, "def": 30}},
+      {"species": "Chinchou", "gender": "F", "item": "Choice Scarf", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spe": 220}, "nature": "Timid", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "moves": ["Hidden Power Ground", "Hydro Pump", "Surf", "Thunderbolt"]},
+      {"species": "Duskull", "gender": "M", "item": "Oran Berry", "ability": "Levitate", "happiness": 0, "evs": {"hp": 196, "atk": 196, "def": 36, "spe": 76}, "nature": "Adamant", "moves": ["Frustration", "Pain Split", "Shadow Sneak", "Will-O-Wisp"]},
+      {"species": "Gligar", "gender": "M", "item": "Oran Berry", "ability": "Hyper Cutter", "evs": {"atk": 156, "def": 76, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Night Slash", "Quick Attack"]},
+      {"species": "Houndour", "gender": "M", "item": "Oran Berry", "ability": "Flash Fire", "evs": {"atk": 196, "def": 36, "spa": 36, "spe": 236}, "nature": "Hasty", "moves": ["Crunch", "Fire Blast", "Pursuit", "Sucker Punch"]},
+      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "happiness": 0, "evs": {"atk": 236, "def": 196, "spe": 76}, "nature": "Adamant", "moves": ["Frustration", "Ice Punch", "Self-Destruct", "Superpower"]}
+    ]
+  },
+  {
+    "name": "Semi Rain",
+    "author": "Nails",
+    "data": [
+      {"species": "Bronzor", "item": "Oran Berry", "ability": "Levitate", "evs": {"hp": 220, "atk": 8, "spa": 248, "spe": 16}, "nature": "Quiet", "moves": ["Earthquake", "Hidden Power Fire", "Psychic", "Stealth Rock"], "ivs": {"atk": 30, "spa": 30, "spe": 30}},
+      {"species": "Chinchou", "gender": "F", "item": "Choice Scarf", "ability": "Volt Absorb", "evs": {"def": 52, "spa": 232, "spe": 220}, "nature": "Timid", "ivs": {"atk": 3, "spa": 30, "spd": 30}, "moves": ["Hidden Power Ground", "Hydro Pump", "Surf", "Thunderbolt"]},
+      {"species": "Duskull", "gender": "M", "item": "Oran Berry", "ability": "Levitate", "happiness": 0, "evs": {"hp": 196, "atk": 196, "def": 116}, "nature": "Adamant", "moves": ["Frustration", "Pain Split", "Shadow Sneak", "Will-O-Wisp"]},
+      {"species": "Gligar", "gender": "M", "item": "Oran Berry", "ability": "Hyper Cutter", "evs": {"atk": 156, "def": 76, "spe": 236}, "nature": "Jolly", "moves": ["Aqua Tail", "Earthquake", "Night Slash", "Stone Edge"]},
+      {"species": "Mantyke", "gender": "F", "item": "Damp Rock", "ability": "Swift Swim", "evs": {"hp": 80, "spa": 200, "spe": 196}, "nature": "Timid", "ivs": {"hp": 30, "atk": 2, "def": 30, "spa": 30, "spd": 30}, "moves": ["Hidden Power Flying", "Hydro Pump", "Rain Dance", "Surf"]},
+      {"species": "Munchlax", "gender": "M", "item": "Oran Berry", "ability": "Thick Fat", "happiness": 0, "evs": {"atk": 236, "def": 196, "spe": 76}, "nature": "Adamant", "moves": ["Fire Punch", "Frustration", "Pursuit", "Superpower"]}
     ]
   }
 ]

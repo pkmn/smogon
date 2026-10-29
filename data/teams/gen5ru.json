@@ -13,7 +13,7 @@
   },
   {
     "name": "Skunk Offense",
-    "author": "Luna",
+    "author": "MrAldo",
     "data": [
       {"species": "Steelix", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 252, "atk": 4, "def": 184, "spd": 44, "spe": 24}, "nature": "Impish", "moves": ["Earthquake", "Roar", "Stealth Rock", "Toxic"]},
       {"species": "Aerodactyl", "gender": "M", "item": "Life Orb", "ability": "Pressure", "evs": {"atk": 220, "spa": 36, "spe": 252}, "nature": "Hasty", "moves": ["Earthquake", "Fire Blast", "Roost", "Stone Edge"]},
@@ -36,8 +36,18 @@
     ]
   },
   {
-    "name": "Golurk and Sash Omastar",
-    "author": "DnB",
+    "data": [
+      {"species": "Sigilyph", "gender": "M", "item": "Life Orb", "ability": "Magic Guard", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Energy Ball", "Heat Wave", "Psychic", "Roost"]},
+      {"species": "Absol", "gender": "M", "item": "Dread Plate", "ability": "Justified", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Night Slash", "Pursuit", "Sucker Punch", "Superpower"]},
+      {"species": "Amoonguss", "gender": "F", "item": "Black Sludge", "ability": "Regenerator", "evs": {"hp": 252, "def": 88, "spa": 52, "spd": 116}, "nature": "Calm", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Clear Smog", "Giga Drain", "Hidden Power Fire", "Stun Spore"]},
+      {"species": "Emboar", "gender": "M", "item": "Choice Scarf", "ability": "Blaze", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Flare Blitz", "Stone Edge", "Superpower", "Wild Charge"]},
+      {"species": "Regirock", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Careful", "moves": ["Protect", "Rock Slide", "Stealth Rock", "Toxic"]},
+      {"species": "Seismitoad", "gender": "M", "item": "Leftovers", "ability": "Water Absorb", "evs": {"hp": 252, "spa": 44, "spe": 212}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Earth Power", "Sludge Bomb", "Substitute", "Toxic"]}
+    ]
+  },
+  {
+    "name": "Copy of durant + sceptile ho",
+    "author": "dnb",
     "data": [
       {"species": "Golurk", "item": "Life Orb", "ability": "No Guard", "shiny": true, "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Dynamic Punch", "Earthquake", "Rock Polish", "Shadow Punch"]},
       {"species": "Durant", "gender": "M", "item": "Lum Berry", "ability": "Hustle", "shiny": true, "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Hone Claws", "Superpower", "Thunder Fang", "X-Scissor"]},
@@ -45,6 +55,16 @@
       {"species": "Omastar", "gender": "M", "item": "Focus Sash", "ability": "Weak Armor", "shiny": true, "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Scald", "Spikes", "Stealth Rock"]},
       {"species": "Rotom", "item": "Choice Scarf", "ability": "Levitate", "shiny": true, "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Shadow Ball", "Thunderbolt", "Trick", "Volt Switch"]},
       {"species": "Sceptile", "gender": "M", "item": "Flying Gem", "ability": "Unburden", "shiny": true, "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Acrobatics", "Earthquake", "Leaf Blade", "Swords Dance"]}
+    ]
+  },
+  {
+    "data": [
+      {"species": "Gallade", "item": "Lum Berry", "ability": "Justified", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Night Slash", "Swords Dance", "Zen Headbutt"]},
+      {"species": "Lanturn", "gender": "M", "item": "Leftovers", "ability": "Volt Absorb", "evs": {"hp": 204, "def": 96, "spd": 208}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Heal Bell", "Scald", "Toxic", "Volt Switch"]},
+      {"species": "Sawsbuck", "gender": "M", "item": "Choice Scarf", "ability": "Sap Sipper", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Baton Pass", "Double-Edge", "Horn Leech", "Jump Kick"]},
+      {"species": "Scolipede", "gender": "M", "item": "Life Orb", "ability": "Swarm", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Megahorn", "Rock Slide", "Spikes"]},
+      {"species": "Spiritomb", "gender": "M", "item": "Black Glasses", "ability": "Infiltrator", "shiny": true, "evs": {"hp": 248, "atk": 252, "spd": 8}, "nature": "Adamant", "moves": ["Pursuit", "Shadow Sneak", "Sucker Punch", "Will-O-Wisp"]},
+      {"species": "Steelix", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 252, "def": 220, "spd": 36}, "nature": "Impish", "ivs": {"spe": 0}, "moves": ["Earthquake", "Gyro Ball", "Roar", "Stealth Rock"]}
     ]
   }
 ]

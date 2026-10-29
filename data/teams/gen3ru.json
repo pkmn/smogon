@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Double Poli Offense",
+    "author": "DonBoneJones",
+    "data": [
+      {"species": "Politoed", "gender": "F", "item": "Leftovers", "ability": "Damp", "evs": {"hp": 136, "def": 8, "spa": 252, "spd": 16, "spe": 96}, "nature": "Modest", "ivs": {"atk": 3, "spa": 30}, "moves": ["Counter", "Hidden Power Electric", "Hydro Pump", "Ice Beam"]},
+      {"species": "Pidgeot", "gender": "M", "item": "Choice Band", "ability": "Keen Eye", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Double-Edge", "Hidden Power Flying", "Quick Attack", "Toxic"], "ivs": {"hp": 30, "atk": 30, "def": 30, "spa": 30, "spd": 30}},
+      {"species": "Poliwrath", "gender": "M", "item": "Lum Berry", "ability": "Water Absorb", "evs": {"hp": 252, "atk": 160, "spe": 96}, "nature": "Adamant", "moves": ["Brick Break", "Bulk Up", "Earthquake", "Hidden Power Ghost"], "ivs": {"def": 30, "spd": 30}},
+      {"species": "Raichu", "gender": "M", "item": "Leftovers", "ability": "Static", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Encore", "Hidden Power Ice", "Thunderbolt", "Toxic"], "ivs": {"atk": 30, "def": 30}},
+      {"species": "Rapidash", "gender": "M", "item": "Silk Scarf", "ability": "Flash Fire", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Double-Edge", "Hidden Power Grass", "Overheat", "Quick Attack"], "ivs": {"atk": 30, "spa": 30}},
+      {"species": "Swalot", "gender": "M", "item": "Leftovers", "ability": "Sticky Hold", "evs": {"hp": 232, "atk": 140, "spd": 136}, "nature": "Careful", "moves": ["Explosion", "Hidden Power Ground", "Shadow Ball", "Sludge Bomb"], "ivs": {"spa": 30, "spd": 30}}
+    ]
+  },
+  {
+    "name": "Lead Stantler + Golbat",
+    "author": "scionicle",
+    "data": [
+      {"species": "Stantler", "gender": "M", "item": "Leftovers", "ability": "Intimidate", "evs": {"hp": 252, "atk": 208, "def": 8, "spd": 28, "spe": 12}, "nature": "Adamant", "moves": ["Double-Edge", "Earthquake", "Shadow Ball", "Toxic"]},
+      {"species": "Aggron", "gender": "M", "item": "Choice Band", "ability": "Rock Head", "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Jolly", "moves": ["Double-Edge", "Earthquake", "Focus Punch", "Rock Slide"]},
+      {"species": "Golbat", "gender": "M", "item": "Choice Band", "ability": "Inner Focus", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Aerial Ace", "Hidden Power Ground", "Quick Attack", "Sludge Bomb"], "ivs": {"spa": 30, "spd": 30}},
+      {"species": "Politoed", "gender": "F", "item": "Leftovers", "ability": "Damp", "evs": {"hp": 192, "def": 64, "spa": 252}, "nature": "Modest", "ivs": {"atk": 3, "spa": 30}, "moves": ["Hidden Power Electric", "Hydro Pump", "Ice Beam", "Psychic"]},
+      {"species": "Raichu", "gender": "M", "item": "Leftovers", "ability": "Static", "evs": {"hp": 64, "def": 4, "spd": 188, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Encore", "Substitute", "Thunderbolt", "Toxic"]},
+      {"species": "Rapidash", "gender": "M", "item": "Silk Scarf", "ability": "Flash Fire", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Hasty", "moves": ["Double-Edge", "Hidden Power Ground", "Overheat", "Quick Attack"], "ivs": {"spa": 30, "spd": 30}}
+    ]
+  },
+  {
+    "name": "Mixed Metang Bulky Offense",
+    "author": "Amity",
+    "data": [
+      {"species": "Hitmonchan", "item": "Leftovers", "ability": "Keen Eye", "evs": {"hp": 252, "atk": 168, "spe": 88}, "nature": "Adamant", "moves": ["Earthquake", "Mach Punch", "Rock Slide", "Sky Uppercut"]},
+      {"species": "Metang", "item": "Leftovers", "ability": "Clear Body", "shiny": true, "evs": {"hp": 252, "def": 32, "spa": 216, "spd": 8}, "nature": "Quiet", "moves": ["Earthquake", "Psychic", "Pursuit", "Thunder Punch"]},
+      {"species": "Pidgeot", "gender": "M", "item": "Choice Band", "ability": "Keen Eye", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Double-Edge", "Hidden Power Flying", "Quick Attack", "Return"], "ivs": {"hp": 30, "atk": 30, "def": 30, "spa": 30, "spd": 30}, "happiness": 255},
+      {"species": "Politoed", "gender": "F", "item": "Leftovers", "ability": "Water Absorb", "evs": {"hp": 252, "def": 20, "spa": 140, "spe": 96}, "nature": "Modest", "ivs": {"atk": 3, "spa": 30}, "moves": ["Hidden Power Electric", "Ice Beam", "Surf", "Toxic"]},
+      {"species": "Raichu", "gender": "F", "item": "Lum Berry", "ability": "Static", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "def": 30}, "moves": ["Encore", "Hidden Power Ice", "Thunderbolt", "Toxic"]},
+      {"species": "Victreebel", "gender": "M", "item": "Leftovers", "ability": "Chlorophyll", "evs": {"hp": 252, "def": 160, "spe": 96}, "nature": "Impish", "moves": ["Hidden Power Ground", "Sludge Bomb", "Swords Dance", "Synthesis"], "ivs": {"spa": 30, "spd": 30}}
+    ]
+  },
+  {
+    "name": "Kabutops + Banette Offense",
+    "author": "Amity",
+    "data": [
+      {"species": "Pikachu", "gender": "F", "item": "Light Ball", "ability": "Static", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "def": 30}, "moves": ["Hidden Power Ice", "Substitute", "Thunder Wave", "Volt Tackle"]},
+      {"species": "Banette", "gender": "M", "item": "Leftovers", "ability": "Insomnia", "evs": {"hp": 116, "atk": 252, "spe": 140}, "nature": "Adamant", "moves": ["Destiny Bond", "Hidden Power Fighting", "Shadow Ball", "Thunder Wave"], "ivs": {"def": 30, "spa": 30, "spd": 30, "spe": 30}},
+      {"species": "Hitmonchan", "item": "Lum Berry", "ability": "Keen Eye", "evs": {"hp": 252, "atk": 88, "spe": 168}, "nature": "Adamant", "moves": ["Bulk Up", "Mach Punch", "Rock Slide", "Sky Uppercut"]},
+      {"species": "Kabutops", "gender": "M", "item": "Lum Berry", "ability": "Swift Swim", "evs": {"hp": 24, "atk": 252, "def": 4, "spe": 228}, "nature": "Adamant", "ivs": {"spa": 30, "spd": 30, "spe": 30}, "moves": ["Hidden Power Flying", "Mud Shot", "Rock Slide", "Swords Dance"]},
+      {"species": "Meganium", "gender": "M", "item": "Leftovers", "ability": "Overgrow", "evs": {"hp": 248, "atk": 80, "spe": 180}, "nature": "Adamant", "ivs": {"spa": 30, "spd": 30, "spe": 30}, "moves": ["Body Slam", "Earthquake", "Hidden Power Flying", "Swords Dance"]},
+      {"species": "Rapidash", "gender": "M", "item": "Choice Band", "ability": "Flash Fire", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Double-Edge", "Fire Blast", "Hidden Power Ground", "Quick Attack"], "ivs": {"spa": 30, "spd": 30}}
+    ]
+  },
+  {
+    "name": "Cacturne Spikes Offense",
+    "author": "Rambode",
+    "data": [
+      {"species": "Cacturne", "gender": "F", "item": "Salac Berry", "ability": "Sand Veil", "evs": {"hp": 252, "def": 88, "spe": 168}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30}, "moves": ["Destiny Bond", "Endure", "Hidden Power Grass", "Spikes"]},
+      {"species": "Haunter", "gender": "M", "item": "Salac Berry", "ability": "Levitate", "evs": {"hp": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Endure", "Explosion", "Psychic", "Thunderbolt"]},
+      {"species": "Persian", "gender": "M", "item": "Choice Band", "ability": "Limber", "evs": {"hp": 60, "atk": 252, "spe": 196}, "nature": "Jolly", "moves": ["Double-Edge", "Fake Out", "Hidden Power Ground", "Shadow Ball"], "ivs": {"spa": 30, "spd": 30}},
+      {"species": "Raichu", "gender": "F", "item": "Petaya Berry", "ability": "Static", "evs": {"hp": 12, "spa": 252, "spe": 244}, "nature": "Modest", "ivs": {"atk": 2, "def": 30}, "moves": ["Agility", "Hidden Power Ice", "Substitute", "Thunderbolt"]},
+      {"species": "Rapidash", "gender": "M", "item": "Silk Scarf", "ability": "Flash Fire", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Double-Edge", "Hidden Power Ground", "Overheat", "Quick Attack"], "ivs": {"spa": 30, "spd": 30}},
+      {"species": "Whiscash", "gender": "M", "item": "Leftovers", "ability": "Oblivious", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Sassy", "moves": ["Earthquake", "Ice Beam", "Protect", "Toxic"]}
+    ]
+  },
+  {
+    "name": "CM Xatu + Persian Spikes",
+    "author": "AmityReborn",
+    "data": [
+      {"species": "Politoed", "gender": "F", "item": "Leftovers", "ability": "Damp", "shiny": true, "evs": {"hp": 136, "def": 4, "spa": 252, "spd": 20, "spe": 96}, "nature": "Modest", "ivs": {"atk": 3, "spa": 30}, "moves": ["Hidden Power Electric", "Ice Beam", "Substitute", "Surf"]},
+      {"species": "Aggron", "gender": "M", "item": "Choice Band", "ability": "Rock Head", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brick Break", "Double-Edge", "Earthquake", "Rock Slide"]},
+      {"species": "Hitmonchan", "item": "Leftovers", "ability": "Keen Eye", "evs": {"hp": 252, "atk": 84, "spe": 172}, "nature": "Adamant", "moves": ["Mach Punch", "Rock Slide", "Sky Uppercut", "Toxic"]},
+      {"species": "Persian", "gender": "M", "item": "Choice Band", "ability": "Limber", "evs": {"hp": 60, "atk": 252, "spe": 196}, "nature": "Jolly", "moves": ["Double-Edge", "Hidden Power Ground", "Return", "Shadow Ball"], "ivs": {"spa": 30, "spd": 30}, "happiness": 255},
+      {"species": "Pineco", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Impish", "moves": ["Explosion", "Rapid Spin", "Spikes", "Toxic"]},
+      {"species": "Xatu", "gender": "F", "item": "Salac Berry", "ability": "Synchronize", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "spa": 30, "spe": 30}, "moves": ["Calm Mind", "Endure", "Hidden Power Fire", "Psychic"]}
+    ]
+  },
+  {
+    "name": "CB Hitmonchan Paraspam",
+    "author": "THE_CHUNGLER",
+    "data": [
+      {"species": "Hitmonchan", "item": "Choice Band", "ability": "Keen Eye", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Hidden Power Ghost", "Mach Punch", "Rock Slide", "Sky Uppercut"], "ivs": {"def": 30, "spd": 30}},
+      {"species": "Aggron", "gender": "M", "item": "Leftovers", "ability": "Rock Head", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Double-Edge", "Earthquake", "Rock Slide", "Thunder Wave"]},
+      {"species": "Camerupt", "gender": "M", "item": "Leftovers", "ability": "Magma Armor", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Relaxed", "moves": ["Earthquake", "Flamethrower", "Protect", "Toxic"]},
+      {"species": "Meganium", "gender": "M", "item": "Leftovers", "ability": "Overgrow", "evs": {"hp": 72, "atk": 252, "spe": 184}, "nature": "Adamant", "moves": ["Body Slam", "Earthquake", "Swords Dance", "Synthesis"]},
+      {"species": "Raichu", "gender": "F", "item": "Lum Berry", "ability": "Static", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 2, "def": 30}, "moves": ["Hidden Power Ice", "Surf", "Thunderbolt", "Thunder Wave"]},
+      {"species": "Xatu", "gender": "M", "item": "Leftovers", "ability": "Early Bird", "evs": {"hp": 252, "def": 72, "spe": 184}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Psychic", "Rest", "Thunder Wave", "Wish"]}
+    ]
+  },
+  {
+    "name": "Octillery Paraspam",
+    "author": "mielke",
+    "data": [
+      {"species": "Octillery", "gender": "F", "item": "Lum Berry", "ability": "Suction Cups", "shiny": true, "evs": {"hp": 244, "def": 12, "spa": 252}, "nature": "Modest", "ivs": {"atk": 3, "spa": 30}, "moves": ["Fire Blast", "Hidden Power Electric", "Surf", "Thunder Wave"]},
+      {"species": "Aggron", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "shiny": true, "evs": {"hp": 160, "atk": 252, "spd": 12, "spe": 84}, "nature": "Adamant", "moves": ["Focus Punch", "Rock Slide", "Substitute", "Thunder Wave"]},
+      {"species": "Camerupt", "gender": "M", "item": "Choice Band", "ability": "Magma Armor", "shiny": true, "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Explosion", "Overheat", "Rock Slide"]},
+      {"species": "Clefable", "gender": "F", "item": "Leftovers", "ability": "Cute Charm", "shiny": true, "evs": {"hp": 248, "def": 8, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Encore", "Seismic Toss", "Soft-Boiled", "Thunder Wave"]},
+      {"species": "Poliwrath", "gender": "M", "item": "Salac Berry", "ability": "Damp", "shiny": true, "evs": {"hp": 28, "atk": 252, "def": 20, "spe": 208}, "nature": "Adamant", "ivs": {"spa": 30, "spd": 30, "spe": 30}, "moves": ["Belly Drum", "Brick Break", "Hidden Power Flying", "Substitute"]},
+      {"species": "Xatu", "gender": "M", "item": "Leftovers", "ability": "Early Bird", "shiny": true, "evs": {"hp": 252, "def": 80, "spe": 176}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Psychic", "Reflect", "Rest", "Thunder Wave"]}
+    ]
+  },
+  {
+    "name": "Encore Raichu Stall",
+    "author": "THE_CHUNGLER",
+    "data": [
+      {"species": "Roselia", "gender": "F", "item": "Leftovers", "ability": "Natural Cure", "evs": {"hp": 252, "spa": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 2, "spa": 30}, "moves": ["Hidden Power Grass", "Spikes", "Stun Spore", "Synthesis"]},
+      {"species": "Chimecho", "gender": "M", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 252, "def": 216, "spa": 40}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Heal Bell", "Icy Wind", "Psychic", "Yawn"]},
+      {"species": "Hitmonchan", "item": "Leftovers", "ability": "Keen Eye", "evs": {"hp": 252, "atk": 136, "spd": 52, "spe": 68}, "nature": "Adamant", "moves": ["Hidden Power Ghost", "Mach Punch", "Rapid Spin", "Sky Uppercut"], "ivs": {"def": 30, "spd": 30}},
+      {"species": "Poliwrath", "gender": "M", "item": "Leftovers", "ability": "Water Absorb", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "moves": ["Brick Break", "Bulk Up", "Hidden Power Ghost", "Rest"], "ivs": {"def": 30, "spd": 30}},
+      {"species": "Raichu", "gender": "M", "item": "Leftovers", "ability": "Static", "evs": {"hp": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Encore", "Protect", "Thunderbolt", "Wish"]},
+      {"species": "Sableye", "gender": "M", "item": "Leftovers", "ability": "Keen Eye", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Knock Off", "Recover", "Seismic Toss", "Toxic"]}
+    ]
+  }
+]

@@ -12,18 +12,6 @@
     ]
   },
   {
-    "name": "Ninetales and Venusaur Offense",
-    "author": "MrAldo",
-    "data": [
-      {"species": "Slowking", "gender": "M", "item": "Assault Vest", "ability": "Regenerator", "evs": {"hp": 252, "spa": 172, "spe": 84}, "nature": "Modest", "moves": ["Dragon Tail", "Fire Blast", "Psychic", "Scald"]},
-      {"species": "Mandibuzz", "item": "Leftovers", "ability": "Overcoat", "evs": {"hp": 248, "def": 96, "spe": 164}, "nature": "Impish", "moves": ["Defog", "Foul Play", "Roost", "U-turn"]},
-      {"species": "Metagross", "item": "Choice Scarf", "ability": "Clear Body", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Explosion", "Meteor Mash", "Pursuit", "Zen Headbutt"]},
-      {"species": "Ninetales", "gender": "M", "item": "Firium Z", "ability": "Drought", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Fire Blast", "Hidden Power Electric", "Nasty Plot", "Solar Beam"], "hpType": "Electric"},
-      {"species": "Rhyperior", "gender": "M", "item": "Leftovers", "ability": "Solid Rock", "evs": {"hp": 252, "atk": 16, "spd": 76, "spe": 164}, "nature": "Adamant", "moves": ["Earthquake", "Ice Punch", "Stealth Rock", "Swords Dance"]},
-      {"species": "Venusaur", "gender": "M", "item": "Life Orb", "ability": "Chlorophyll", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Rash", "moves": ["Earthquake", "Giga Drain", "Growth", "Sludge Bomb"]}
-    ]
-  },
-  {
     "name": "Xatu and Toxicroak Offense",
     "author": "Lighthouses",
     "data": [
@@ -45,6 +33,86 @@
       {"species": "Florges", "item": "Pixie Plate", "ability": "Symbiosis", "evs": {"hp": 252, "spa": 32, "spe": 224}, "nature": "Modest", "moves": ["Aromatherapy", "Moonblast", "Synthesis", "Wish"]},
       {"species": "Flygon", "gender": "M", "item": "Choice Scarf", "ability": "Levitate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Aerial Ace", "Earthquake", "Outrage", "U-turn"]},
       {"species": "Roserade", "gender": "M", "item": "Poisonium Z", "ability": "Technician", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Hidden Power Fire", "Leaf Storm", "Sludge Bomb", "Spikes"], "hpType": "Fire"}
+    ]
+  },
+  {
+    "author": "EviGaro",
+    "data": [
+      {"species": "Bronzong", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 252, "def": 168, "spd": 88}, "nature": "Sassy", "ivs": {"spe": 0}, "moves": ["Gyro Ball", "Psywave", "Stealth Rock", "Toxic"]},
+      {"species": "Garbodor", "gender": "M", "item": "Rocky Helmet", "ability": "Aftermath", "evs": {"hp": 252, "def": 120, "spe": 136}, "nature": "Jolly", "moves": ["Gunk Shot", "Spikes", "Stomping Tantrum", "Toxic"]},
+      {"species": "Gardevoir", "gender": "M", "item": "Choice Scarf", "ability": "Trace", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Healing Wish", "Moonblast", "Psychic", "Shadow Ball"]},
+      {"species": "Golisopod", "gender": "M", "item": "Insect Plate", "ability": "Emergency Exit", "evs": {"hp": 248, "atk": 164, "def": 96}, "nature": "Impish", "moves": ["Aqua Jet", "First Impression", "Leech Life", "Liquidation"]},
+      {"species": "Virizion", "item": "Fightinium Z", "ability": "Justified", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Leaf Blade", "Swords Dance", "Synthesis"]},
+      {"species": "Zygarde-10%", "item": "Choice Band", "ability": "Aura Break", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Extreme Speed", "Outrage", "Thousand Arrows", "Toxic"]}
+    ]
+  },
+  {
+    "data": [
+      {"species": "Toxicroak", "gender": "M", "item": "Poisonium Z", "ability": "Dry Skin", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Drain Punch", "Gunk Shot", "Sucker Punch", "Swords Dance"]},
+      {"species": "Diancie", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 168, "spa": 180, "spe": 156}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Earth Power", "Moonblast", "Stealth Rock", "Toxic"]},
+      {"species": "Donphan", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 248, "atk": 96, "def": 76, "spe": 88}, "nature": "Adamant", "moves": ["Earthquake", "Ice Shard", "Knock Off", "Rapid Spin"]},
+      {"species": "Golisopod", "gender": "M", "item": "Sitrus Berry", "ability": "Emergency Exit", "shiny": true, "evs": {"hp": 100, "atk": 244, "spe": 164}, "nature": "Adamant", "moves": ["Aqua Jet", "First Impression", "Leech Life", "Liquidation"]},
+      {"species": "Metagross", "item": "Choice Band", "ability": "Clear Body", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Bullet Punch", "Earthquake", "Meteor Mash", "Pursuit"]},
+      {"species": "Noivern", "gender": "M", "item": "Choice Scarf", "ability": "Infiltrator", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Draco Meteor", "Hurricane", "Switcheroo", "U-turn"]}
+    ]
+  },
+  {
+    "name": "spa viri + defensive necrozma",
+    "author": "fvkumean",
+    "data": [
+      {"species": "Virizion", "item": "Fightinium Z", "ability": "Justified", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Focus Blast", "Giga Drain", "Synthesis"]},
+      {"species": "Drapion", "gender": "M", "item": "Choice Band", "ability": "Sniper", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Knock Off", "Poison Jab", "Pursuit"]},
+      {"species": "Flygon", "gender": "M", "item": "Choice Scarf", "ability": "Levitate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Defog", "Earthquake", "Outrage", "U-turn"]},
+      {"species": "Milotic", "gender": "M", "item": "Leftovers", "ability": "Marvel Scale", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Recover", "Scald", "Toxic"]},
+      {"species": "Necrozma", "item": "Leftovers", "ability": "Prism Armor", "evs": {"hp": 248, "def": 196, "spe": 64}, "nature": "Bold", "moves": ["Heat Wave", "Moonlight", "Photon Geyser", "Toxic"]},
+      {"species": "Registeel", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 248, "def": 4, "spd": 160, "spe": 96}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Protect", "Seismic Toss", "Stealth Rock", "Toxic"]}
+    ]
+  },
+  {
+    "author": "a rabbit",
+    "data": [
+      {"species": "Registeel", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 252, "spd": 192, "spe": 64}, "nature": "Careful", "ivs": {"atk": 0}, "moves": ["Protect", "Seismic Toss", "Stealth Rock", "Toxic"]},
+      {"species": "Drapion", "gender": "M", "item": "Choice Scarf", "ability": "Sniper", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Knock Off", "Poison Jab", "Pursuit", "Toxic Spikes"]},
+      {"species": "Flygon", "gender": "M", "item": "Muscle Band", "ability": "Levitate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Defog", "Dragon Claw", "Earthquake", "Roost"]},
+      {"species": "Passimian", "gender": "M", "item": "Choice Band", "ability": "Defiant", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Gunk Shot", "Knock Off", "U-turn"]},
+      {"species": "Roserade", "gender": "M", "item": "Rocky Helmet", "ability": "Natural Cure", "evs": {"hp": 248, "def": 76, "spe": 184}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Grass Knot", "Sludge Bomb", "Spikes", "Synthesis"]},
+      {"species": "Slowbro", "gender": "M", "item": "Psychium Z", "ability": "Regenerator", "evs": {"hp": 252, "def": 252, "spa": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Psyshock", "Scald", "Slack Off"]}
+    ]
+  },
+  {
+    "name": "z lazzle + twave cress",
+    "author": "fvkumean",
+    "data": [
+      {"species": "Cresselia", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "def": 52, "spe": 208}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Moonblast", "Moonlight", "Psyshock", "Thunder Wave"]},
+      {"species": "Blastoise", "gender": "M", "item": "Blastoisinite", "ability": "Torrent", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "moves": ["Aura Sphere", "Dark Pulse", "Ice Beam", "Rapid Spin"]},
+      {"species": "Flygon", "gender": "M", "item": "Choice Scarf", "ability": "Levitate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Outrage", "Toxic", "U-turn"]},
+      {"species": "Registeel", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 248, "def": 4, "spd": 200, "spe": 56}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Protect", "Seismic Toss", "Stealth Rock", "Toxic"]},
+      {"species": "Salazzle", "item": "Poisonium Z", "ability": "Oblivious", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 30}, "moves": ["Fire Blast", "Hidden Power Grass", "Nasty Plot", "Sludge Wave"], "hpType": "Grass"},
+      {"species": "Sneasel", "gender": "M", "item": "Choice Band", "ability": "Inner Focus", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Pursuit"]}
+    ]
+  },
+  {
+    "name": "np z mismag",
+    "author": "arce9",
+    "data": [
+      {"species": "Donphan", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 252, "atk": 248, "spe": 8}, "nature": "Adamant", "moves": ["Earthquake", "Ice Shard", "Knock Off", "Rapid Spin"]},
+      {"species": "Golisopod", "gender": "M", "item": "Sitrus Berry", "ability": "Emergency Exit", "evs": {"hp": 164, "atk": 252, "spe": 92}, "nature": "Adamant", "moves": ["Aqua Jet", "First Impression", "Liquidation", "Spikes"]},
+      {"species": "Mandibuzz", "item": "Leftovers", "ability": "Overcoat", "evs": {"hp": 248, "spd": 76, "spe": 184}, "nature": "Careful", "moves": ["Brave Bird", "Knock Off", "Roost", "Taunt"]},
+      {"species": "Mismagius", "gender": "M", "item": "Electrium Z", "ability": "Levitate", "evs": {"def": 8, "spa": 248, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Nasty Plot", "Shadow Ball", "Taunt", "Thunderbolt"]},
+      {"species": "Registeel", "item": "Leftovers", "ability": "Clear Body", "evs": {"hp": 252, "spd": 216, "spe": 40}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Protect", "Seismic Toss", "Stealth Rock", "Toxic"]},
+      {"species": "Sceptile", "gender": "M", "item": "Sceptilite", "ability": "Overgrow", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dragon Pulse", "Leaf Storm", "Leech Seed", "Protect"]}
+    ]
+  },
+  {
+    "name": "Ninetales and Venusaur Offense",
+    "author": "MrAldo",
+    "data": [
+      {"species": "Slowking", "gender": "M", "item": "Assault Vest", "ability": "Regenerator", "evs": {"hp": 252, "spa": 172, "spe": 84}, "nature": "Modest", "moves": ["Dragon Tail", "Fire Blast", "Psychic", "Scald"]},
+      {"species": "Mandibuzz", "item": "Leftovers", "ability": "Overcoat", "evs": {"hp": 248, "def": 96, "spe": 164}, "nature": "Impish", "moves": ["Defog", "Foul Play", "Roost", "U-turn"]},
+      {"species": "Metagross", "item": "Choice Scarf", "ability": "Clear Body", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Explosion", "Meteor Mash", "Pursuit", "Zen Headbutt"]},
+      {"species": "Ninetales", "gender": "M", "item": "Firium Z", "ability": "Drought", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Fire Blast", "Hidden Power Electric", "Nasty Plot", "Solar Beam"], "hpType": "Electric"},
+      {"species": "Rhyperior", "gender": "M", "item": "Leftovers", "ability": "Solid Rock", "evs": {"hp": 252, "atk": 16, "spd": 76, "spe": 164}, "nature": "Adamant", "moves": ["Earthquake", "Ice Punch", "Stealth Rock", "Swords Dance"]},
+      {"species": "Venusaur", "gender": "M", "item": "Life Orb", "ability": "Chlorophyll", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Rash", "moves": ["Earthquake", "Giga Drain", "Growth", "Sludge Bomb"]}
     ]
   },
   {
