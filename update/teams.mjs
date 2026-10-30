@@ -12,7 +12,6 @@ sourceMapSupport.install();
 //   - data/teams/index.json: an index of the [size, compressed size] for each of the
 //     format files.
 
-import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
 import {fileURLToPath} from 'url';
@@ -26,6 +25,11 @@ import {JSDOM} from 'jsdom';
 import stringify from 'json-stringify-pretty-compact';
 import ts from 'typescript';
 import * as wrapr from 'wrapr';
+
+if (!process.env.SMOGON_TOKEN) {
+  console.error('SMOGON_TOKEN must be set');
+  process.exit(1);
+}
 
 const wrap = process.env.NODE_ENV === 'development'
   ? fn => wrapr.retrying(wrapr.throttling(fn, 5, 1000), 3, 2000)
@@ -42,28 +46,22 @@ const request = wrap(async url => {
   return JSON.parse(text.startsWith(']') ? text.slice(1) : text);
 });
 
-const UA = 'curl/8.5.0';
-const CHALLENGE = /const c = "([0-9a-f]+)", prefix = "0"\.repeat\((\d+)\)/;
-let cookie;
 const forum = wrap(async url => {
   const clean = url.split('#')[0];
-  let response = await fetch(clean, {headers: {'user-agent': UA, ...(cookie ? {cookie} : {})}});
-  let text = await response.text();
-  const m = CHALLENGE.exec(text);
-  if (m) {
-    const [, c, r] = m;
-    const prefix = '0'.repeat(+r);
-    let n = 0;
-    while (!crypto.createHash('sha256').update(c + n).digest('hex').startsWith(prefix)) n++;
-    cookie = `xf_smogon_gate=${n}`;
-    response = await fetch(clean, {headers: {'user-agent': UA, cookie}});
-    text = await response.text();
+  let response;
+  let location = clean;
+  while (location) {
+    const u = new URL(location, clean);
+    u.hash = '';
+    u.searchParams.set('__scraper-token', process.env.SMOGON_TOKEN);
+    response = await fetch(u, {redirect: 'manual'});
+    location = response.headers.get('location');
   }
   if (!response.ok) {
     console.error(url, response.status);
     throw new Error(response.status);
   }
-  return text;
+  return response.text();
 });
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
