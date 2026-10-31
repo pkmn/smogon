@@ -53,7 +53,7 @@
     "data": [
       {"species": "Zamazenta", "item": "Life Orb", "ability": "Dauntless Shield", "teraType": "Dark", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Close Combat", "Crunch", "Ice Fang", "Psychic Fangs"]},
       {"species": "Alomomola", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Regenerator", "teraType": "Fairy", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Relaxed", "ivs": {"spe": 0}, "moves": ["Flip Turn", "Protect", "Scald", "Wish"]},
-      {"species": "Mollux", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Dry Skin", "teraType": "Fairy", "evs": {"hp": 248, "def": 172, "spe": 88}, "nature": "Bold", "moves": ["Lava Plume", "Rapid Spin", "Recover", "Sludge Bomb"]},
+      {"species": "Mollux", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Dry Skin", "teraType": "Fairy", "evs": {"hp": 248, "def": 172, "spe": 88}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Lava Plume", "Rapid Spin", "Recover", "Sludge Bomb"]},
       {"species": "Shox", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Sticky Hold", "teraType": "Bug", "evs": {"hp": 252, "def": 64, "spd": 192}, "nature": "Sassy", "ivs": {"atk": 0, "spe": 0}, "moves": ["Glare", "Ice Beam", "Milk Drink", "Volt Switch"]},
       {"species": "Ting-Lu", "item": "Covert Cloak", "ability": "Vessel of Ruin", "teraType": "Water", "evs": {"hp": 248, "def": 8, "spd": 252}, "nature": "Careful", "moves": ["Earthquake", "Ruination", "Stealth Rock", "Whirlwind"]},
       {"species": "Tornadus-Therian", "item": "Life Orb", "ability": "Regenerator", "teraType": "Steel", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Bleakwind Storm", "Grass Knot", "Heat Wave", "Nasty Plot"]}
@@ -90,7 +90,7 @@
       {"species": "Zamazenta", "item": "Choice Band", "ability": "Dauntless Shield", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Crunch", "Heavy Slam", "Stone Edge"], "teraType": "Fighting"},
       {"species": "Astrolotl", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Regenerator", "teraType": "Fairy", "evs": {"hp": 96, "spd": 176, "spe": 236}, "nature": "Jolly", "moves": ["Defog", "Encore", "Fire Lash", "Will-O-Wisp"]},
       {"species": "Dondozo", "gender": "M", "item": "Leftovers", "ability": "Unaware", "teraType": "Dark", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Impish", "moves": ["Curse", "Rest", "Sleep Talk", "Waterfall"]},
-      {"species": "Equilibra", "item": "Leftovers", "ability": "Levitate", "teraType": "Ghost", "evs": {"hp": 252, "def": 4, "spa": 36, "spd": 200, "spe": 16}, "nature": "Calm", "moves": ["Doom Desire", "Earth Power", "Protect", "Rapid Spin"]},
+      {"species": "Equilibra", "item": "Leftovers", "ability": "Levitate", "teraType": "Ghost", "evs": {"hp": 252, "def": 4, "spa": 36, "spd": 200, "spe": 16}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Doom Desire", "Earth Power", "Protect", "Rapid Spin"]},
       {"species": "Kyurem", "item": "Choice Specs", "ability": "Pressure", "teraType": "Ice", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Blizzard", "Earth Power", "Freeze-Dry", "Ice Beam"]},
       {"species": "Slowking-Galar", "gender": "M", "item": "Black Sludge", "ability": "Regenerator", "teraType": "Grass", "evs": {"hp": 252, "def": 176, "spd": 80}, "nature": "Relaxed", "ivs": {"atk": 0, "spe": 0}, "moves": ["Chilly Reception", "Future Sight", "Sludge Bomb", "Trick"]}
     ]
@@ -128,7 +128,7 @@
       {"species": "Garganacl", "gender": "M", "item": "Leftovers", "ability": "Purifying Salt", "teraType": "Water", "evs": {"hp": 252, "def": 52, "spd": 204}, "nature": "Careful", "moves": ["Protect", "Recover", "Salt Cure", "Stealth Rock"]},
       {"species": "Gliscor", "gender": "M", "item": "Toxic Orb", "ability": "Poison Heal", "teraType": "Normal", "evs": {"hp": 244, "spd": 252, "spe": 12}, "nature": "Careful", "moves": ["Facade", "Knock Off", "Protect", "Swords Dance"]},
       {"species": "Kitsunoh", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Trace", "teraType": "Ghost", "evs": {"hp": 104, "atk": 152, "spe": 252}, "nature": "Jolly", "moves": ["Shadow Strike", "Strength Sap", "U-turn", "Will-O-Wisp"]},
-      {"species": "Snaelstrom", "gender": "M", "item": "Toxic Orb", "ability": "Poison Heal", "teraType": "Fairy", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Calm", "moves": ["Rapid Spin", "Spiky Shield", "Surf", "Toxic"]}
+      {"species": "Snaelstrom", "gender": "M", "item": "Toxic Orb", "ability": "Poison Heal", "teraType": "Fairy", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Rapid Spin", "Spiky Shield", "Surf", "Toxic"]}
     ]
   },
   {
@@ -138,7 +138,7 @@
       {"species": "Zamazenta", "item": "Leftovers", "ability": "Dauntless Shield", "teraType": "Fire", "evs": {"hp": 64, "def": 252, "spe": 192}, "nature": "Jolly", "moves": ["Body Press", "Crunch", "Iron Defense", "Roar"]},
       {"species": "Cresceidon", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Multiscale", "teraType": "Steel", "evs": {"hp": 252, "spa": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Moonblast", "Recover", "Scald", "Thunder Wave"]},
       {"species": "Gliscor", "gender": "M", "item": "Toxic Orb", "ability": "Poison Heal", "teraType": "Normal", "evs": {"hp": 244, "spd": 244, "spe": 20}, "nature": "Careful", "moves": ["Facade", "Knock Off", "Protect", "Swords Dance"]},
-      {"species": "Mollux", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Dry Skin", "teraType": "Ghost", "evs": {"hp": 248, "spd": 172, "spe": 88}, "nature": "Calm", "moves": ["Lava Plume", "Rapid Spin", "Recover", "Sludge Bomb"]},
+      {"species": "Mollux", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Dry Skin", "teraType": "Ghost", "evs": {"hp": 248, "spd": 172, "spe": 88}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Lava Plume", "Rapid Spin", "Recover", "Sludge Bomb"]},
       {"species": "Revenankh", "gender": "M", "item": "Leftovers", "ability": "Triage", "teraType": "Fire", "evs": {"hp": 252, "atk": 120, "spd": 124, "spe": 12}, "nature": "Adamant", "moves": ["Bulk Up", "Drain Punch", "Moonlight", "Shadow Claw"]},
       {"species": "Ting-Lu", "item": "Leftovers", "ability": "Vessel of Ruin", "teraType": "Ghost", "evs": {"hp": 252, "def": 8, "spd": 240, "spe": 8}, "nature": "Careful", "moves": ["Earthquake", "Ruination", "Stealth Rock", "Whirlwind"]}
     ]
