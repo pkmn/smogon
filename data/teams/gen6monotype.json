@@ -11,6 +11,30 @@
     ]
   },
   {
+    "name": "Heracross Bug",
+    "author": "zicarus",
+    "data": [
+      {"species": "Armaldo", "gender": "M", "item": "Leftovers", "ability": "Battle Armor", "evs": {"hp": 248, "def": 84, "spd": 172, "spe": 4}, "nature": "Careful", "moves": ["Knock Off", "Rapid Spin", "Rock Blast", "Stealth Rock"]},
+      {"species": "Galvantula", "gender": "M", "item": "Focus Sash", "ability": "Compound Eyes", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Energy Ball", "Hidden Power Ice", "Sticky Web", "Thunder"]},
+      {"species": "Heracross", "gender": "M", "item": "Heracronite", "ability": "Moxie", "evs": {"hp": 216, "atk": 96, "spe": 196}, "nature": "Adamant", "moves": ["Close Combat", "Pin Missile", "Rock Blast", "Swords Dance"]},
+      {"species": "Scizor", "gender": "M", "item": "Choice Band", "ability": "Technician", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bullet Punch", "Pursuit", "Superpower", "U-turn"]},
+      {"species": "Volcarona", "gender": "M", "item": "Lum Berry", "ability": "Flame Body", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "spa": 30, "spd": 30}, "moves": ["Fire Blast", "Giga Drain", "Hidden Power Ground", "Quiver Dance"]},
+      {"species": "Yanmega", "gender": "M", "item": "Life Orb", "ability": "Speed Boost", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Modest", "ivs": {"atk": 0, "def": 30}, "moves": ["Air Slash", "Giga Drain", "Hidden Power Ice", "Protect"]}
+    ]
+  },
+  {
+    "name": "Scizor Bug",
+    "author": "zicarus",
+    "data": [
+      {"species": "Scizor", "gender": "M", "item": "Scizorite", "ability": "Light Metal", "evs": {"hp": 232, "atk": 140, "spe": 136}, "nature": "Adamant", "moves": ["Bullet Punch", "Knock Off", "Roost", "Swords Dance"]},
+      {"species": "Forretress", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Rapid Spin", "Spikes", "Stealth Rock", "Volt Switch"]},
+      {"species": "Galvantula", "gender": "M", "item": "Focus Sash", "ability": "Compound Eyes", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Energy Ball", "Hidden Power Ice", "Sticky Web", "Thunder"]},
+      {"species": "Heracross", "gender": "M", "item": "Choice Scarf", "ability": "Moxie", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Megahorn", "Pursuit", "Stone Edge"]},
+      {"species": "Scolipede", "gender": "M", "item": "Life Orb", "ability": "Speed Boost", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Megahorn", "Protect", "Rock Slide"]},
+      {"species": "Volcarona", "gender": "M", "item": "Leftovers", "ability": "Flame Body", "evs": {"hp": 248, "def": 156, "spe": 104}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Bug Buzz", "Fiery Dance", "Quiver Dance", "Roost"]}
+    ]
+  },
+  {
     "name": "Bulky Offense Dark (Splash)",
     "data": [
       {"species": "Weavile", "gender": "M", "item": "Choice Band", "ability": "Pressure", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Pursuit"]},
@@ -22,6 +46,18 @@
     ]
   },
   {
+    "name": "Scrafty Dark",
+    "author": "zicarus",
+    "data": [
+      {"species": "Scrafty", "gender": "M", "item": "Leftovers", "ability": "Shed Skin", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "moves": ["Bulk Up", "Drain Punch", "Knock Off", "Rest"]},
+      {"species": "Bisharp", "gender": "M", "item": "Air Balloon", "ability": "Defiant", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Iron Head", "Knock Off", "Sucker Punch", "Swords Dance"]},
+      {"species": "Hydreigon", "gender": "M", "item": "Choice Specs", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Draco Meteor", "Flamethrower", "Focus Blast"]},
+      {"species": "Mandibuzz", "item": "Rocky Helmet", "ability": "Overcoat", "evs": {"hp": 248, "def": 244, "spe": 16}, "nature": "Impish", "moves": ["Defog", "Foul Play", "Roost", "U-turn"]},
+      {"species": "Tyranitar", "gender": "M", "item": "Tyranitarite", "ability": "Sand Stream", "evs": {"hp": 252, "spa": 4, "spd": 252}, "nature": "Sassy", "moves": ["Fire Blast", "Stealth Rock", "Stone Edge", "Thunder Wave"]},
+      {"species": "Weavile", "gender": "M", "item": "Choice Band", "ability": "Pressure", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Pursuit"]}
+    ]
+  },
+  {
     "name": "M-Latias Offensive Dragon (Chaitanya)",
     "data": [
       {"species": "Dragonite", "gender": "M", "item": "Choice Band", "ability": "Multiscale", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Extreme Speed", "Fire Punch", "Outrage", "Superpower"]},
@@ -30,6 +66,17 @@
       {"species": "Kyurem-Black", "item": "Life Orb", "ability": "Teravolt", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Hasty", "moves": ["Fusion Bolt", "Ice Beam", "Roost", "Substitute"]},
       {"species": "Latias", "item": "Latiasite", "ability": "Levitate", "evs": {"hp": 252, "def": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Psyshock", "Recover", "Thunderbolt"]},
       {"species": "Latios", "item": "Choice Scarf", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Ice Beam", "Psychic", "Shadow Ball"]}
+    ]
+  },
+  {
+    "author": "zicarus",
+    "data": [
+      {"species": "Dragonite", "gender": "M", "item": "Choice Band", "ability": "Multiscale", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Extreme Speed", "Fire Punch", "Outrage"]},
+      {"species": "Garchomp", "gender": "M", "item": "Rocky Helmet", "ability": "Rough Skin", "evs": {"hp": 248, "def": 172, "spe": 88}, "nature": "Naive", "moves": ["Earthquake", "Fire Blast", "Rock Tomb", "Stealth Rock"]},
+      {"species": "Hydreigon", "gender": "M", "item": "Choice Specs", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Dark Pulse", "Draco Meteor", "Flamethrower", "Focus Blast"]},
+      {"species": "Kyurem-Black", "item": "Choice Scarf", "ability": "Teravolt", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Fusion Bolt", "Ice Beam", "Iron Head", "Outrage"]},
+      {"species": "Latias", "item": "Latiasite", "ability": "Levitate", "evs": {"hp": 252, "def": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Defog", "Psyshock", "Recover", "Thunderbolt"]},
+      {"species": "Zygarde", "item": "Leftovers", "ability": "Aura Break", "evs": {"hp": 200, "spd": 252, "spe": 56}, "nature": "Careful", "moves": ["Coil", "Dragon Tail", "Earthquake", "Substitute"]}
     ]
   },
   {
@@ -55,6 +102,18 @@
     ]
   },
   {
+    "name": "Sylv Fairy",
+    "author": "zicarus",
+    "data": [
+      {"species": "Klefki", "gender": "M", "item": "Light Clay", "ability": "Prankster", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Light Screen", "Reflect", "Spikes", "Thunder Wave"]},
+      {"species": "Azumarill", "gender": "M", "item": "Sitrus Berry", "ability": "Huge Power", "evs": {"hp": 92, "atk": 252, "spe": 164}, "nature": "Adamant", "moves": ["Aqua Jet", "Belly Drum", "Knock Off", "Play Rough"]},
+      {"species": "Clefable", "gender": "M", "item": "Leftovers", "ability": "Magic Guard", "evs": {"hp": 252, "def": 160, "spd": 84, "spe": 12}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Flamethrower", "Moonblast", "Soft-Boiled"]},
+      {"species": "Diancie", "item": "Diancite", "ability": "Clear Body", "evs": {"atk": 24, "spa": 232, "spe": 252}, "nature": "Naive", "moves": ["Diamond Storm", "Earth Power", "Moonblast", "Protect"]},
+      {"species": "Sylveon", "gender": "M", "item": "Choice Specs", "ability": "Pixilate", "evs": {"hp": 240, "spa": 252, "spe": 16}, "nature": "Modest", "moves": ["Hidden Power Fire", "Hyper Voice", "Psyshock", "Shadow Ball"], "ivs": {"atk": 30, "spa": 30, "spe": 30}},
+      {"species": "Togekiss", "gender": "M", "item": "Leftovers", "ability": "Serene Grace", "evs": {"hp": 248, "def": 48, "spa": 32, "spe": 180}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Air Slash", "Nasty Plot", "Roost", "Thunder Wave"]}
+    ]
+  },
+  {
     "name": "Fighting",
     "author": "Cell",
     "data": [
@@ -64,6 +123,17 @@
       {"species": "Heracross", "gender": "M", "item": "Choice Scarf", "ability": "Moxie", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Megahorn", "Pursuit", "Stone Edge"]},
       {"species": "Infernape", "gender": "M", "item": "Life Orb", "ability": "Blaze", "evs": {"atk": 20, "spa": 236, "spe": 252}, "nature": "Hasty", "moves": ["Close Combat", "Flamethrower", "Slack Off", "Vacuum Wave"]},
       {"species": "Terrakion", "item": "Choice Band", "ability": "Justified", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Iron Head", "Stone Edge", "X-Scissor"]}
+    ]
+  },
+  {
+    "author": "zicarus",
+    "data": [
+      {"species": "Infernape", "gender": "M", "item": "Leftovers", "ability": "Blaze", "evs": {"hp": 252, "def": 168, "spd": 32, "spe": 56}, "nature": "Impish", "moves": ["Flamethrower", "Low Kick", "Slack Off", "Will-O-Wisp"]},
+      {"species": "Chesnaught", "gender": "M", "item": "Rocky Helmet", "ability": "Bulletproof", "evs": {"hp": 252, "def": 80, "spd": 24, "spe": 152}, "nature": "Impish", "moves": ["Spikes", "Synthesis", "Taunt", "Wood Hammer"]},
+      {"species": "Gallade", "item": "Galladite", "ability": "Steadfast", "evs": {"hp": 64, "atk": 252, "spe": 192}, "nature": "Jolly", "moves": ["Drain Punch", "Leaf Blade", "Shadow Sneak", "Swords Dance"]},
+      {"species": "Hawlucha", "gender": "M", "item": "Sitrus Berry", "ability": "Unburden", "evs": {"hp": 252, "atk": 176, "def": 16, "spe": 64}, "nature": "Adamant", "moves": ["Acrobatics", "Drain Punch", "Substitute", "Swords Dance"]},
+      {"species": "Heracross", "gender": "M", "item": "Choice Scarf", "ability": "Moxie", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Megahorn", "Pursuit", "Stone Edge"]},
+      {"species": "Terrakion", "item": "Choice Band", "ability": "Justified", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Rock Slide", "Stealth Rock", "Stone Edge"]}
     ]
   },
   {
@@ -78,6 +148,18 @@
     ]
   },
   {
+    "name": "Char X Fire",
+    "author": "zicarus",
+    "data": [
+      {"species": "Infernape", "gender": "M", "item": "Choice Band", "ability": "Iron Fist", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Flare Blitz", "Mach Punch", "U-turn"]},
+      {"species": "Charizard", "gender": "M", "item": "Charizardite X", "ability": "Blaze", "evs": {"hp": 248, "def": 84, "spe": 176}, "nature": "Impish", "moves": ["Defog", "Earthquake", "Flare Blitz", "Roost"]},
+      {"species": "Heatran", "gender": "M", "item": "Air Balloon", "ability": "Flash Fire", "evs": {"hp": 248, "spd": 172, "spe": 88}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Earth Power", "Magma Storm", "Stealth Rock", "Taunt"]},
+      {"species": "Victini", "item": "Choice Scarf", "ability": "Victory Star", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bolt Strike", "Trick", "U-turn", "V-create"]},
+      {"species": "Volcanion", "item": "Shuca Berry", "ability": "Water Absorb", "evs": {"hp": 112, "spa": 212, "spe": 184}, "nature": "Modest", "ivs": {"atk": 0, "spa": 30}, "moves": ["Flamethrower", "Hidden Power Grass", "Sludge Bomb", "Steam Eruption"]},
+      {"species": "Volcarona", "gender": "M", "item": "Leftovers", "ability": "Swarm", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Bug Buzz", "Flamethrower", "Quiver Dance", "Substitute"]}
+    ]
+  },
+  {
     "name": "M-Aerodactyl Balanced Flying (Attribute)",
     "data": [
       {"species": "Aerodactyl", "gender": "M", "item": "Aerodactylite", "ability": "Pressure", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Fang", "Pursuit", "Roost", "Stone Edge"]},
@@ -86,6 +168,18 @@
       {"species": "Thundurus", "item": "Magnet", "ability": "Prankster", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Grass Knot", "Hidden Power Ice", "Taunt", "Thunderbolt"]},
       {"species": "Tornadus-Therian", "item": "Assault Vest", "ability": "Regenerator", "evs": {"hp": 248, "def": 28, "spd": 24, "spe": 208}, "nature": "Timid", "moves": ["Heat Wave", "Hurricane", "Knock Off", "U-turn"]},
       {"species": "Zapdos", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 252, "spd": 148, "spe": 108}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Defog", "Discharge", "Heat Wave", "Roost"]}
+    ]
+  },
+  {
+    "name": "Glisc Fly",
+    "author": "zicarus",
+    "data": [
+      {"species": "Landorus", "item": "Life Orb", "ability": "Sheer Force", "evs": {"atk": 4, "spa": 252, "spe": 252}, "nature": "Naive", "moves": ["Earth Power", "Focus Blast", "Rock Slide", "Stealth Rock"]},
+      {"species": "Charizard", "gender": "M", "item": "Charizardite Y", "ability": "Blaze", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "moves": ["Fire Blast", "Focus Blast", "Roost", "Solar Beam"]},
+      {"species": "Gliscor", "gender": "M", "item": "Toxic Orb", "ability": "Poison Heal", "evs": {"hp": 248, "spd": 204, "spe": 56}, "nature": "Careful", "moves": ["Earthquake", "Knock Off", "Roost", "Swords Dance"]},
+      {"species": "Skarmory", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Impish", "moves": ["Defog", "Iron Head", "Roost", "Whirlwind"]},
+      {"species": "Tornadus-Therian", "item": "Assault Vest", "ability": "Regenerator", "evs": {"hp": 248, "spd": 52, "spe": 208}, "nature": "Timid", "moves": ["Heat Wave", "Hurricane", "Knock Off", "U-turn"]},
+      {"species": "Zapdos", "item": "Leftovers", "ability": "Pressure", "evs": {"hp": 252, "spd": 240, "spe": 16}, "nature": "Calm", "moves": ["Defog", "Discharge", "Roost", "Toxic"]}
     ]
   },
   {
@@ -122,6 +216,30 @@
     ]
   },
   {
+    "name": "Ground Steelix",
+    "author": "zicarus",
+    "data": [
+      {"species": "Steelix", "gender": "M", "item": "Steelixite", "ability": "Sturdy", "shiny": true, "evs": {"hp": 252, "def": 16, "spd": 240}, "nature": "Relaxed", "ivs": {"spe": 0}, "moves": ["Curse", "Gyro Ball", "Rest", "Sleep Talk"]},
+      {"species": "Excadrill", "gender": "M", "item": "Leftovers", "ability": "Sand Rush", "shiny": true, "evs": {"hp": 4, "atk": 252, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Rapid Spin", "Rock Slide", "Swords Dance"]},
+      {"species": "Gliscor", "gender": "M", "item": "Toxic Orb", "ability": "Poison Heal", "evs": {"hp": 244, "spd": 112, "spe": 152}, "nature": "Jolly", "moves": ["Knock Off", "Protect", "Taunt", "Toxic"]},
+      {"species": "Hippowdon", "gender": "M", "item": "Rocky Helmet", "ability": "Sand Stream", "evs": {"hp": 252, "def": 160, "spd": 96}, "nature": "Impish", "ivs": {"spe": 26}, "moves": ["Earthquake", "Slack Off", "Stealth Rock", "Whirlwind"]},
+      {"species": "Seismitoad", "gender": "M", "item": "Leftovers", "ability": "Water Absorb", "shiny": true, "evs": {"hp": 252, "spd": 28, "spe": 228}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Infestation", "Protect", "Scald", "Substitute"]},
+      {"species": "Zygarde", "item": "Leftovers", "ability": "Aura Break", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Careful", "moves": ["Coil", "Dragon Tail", "Glare", "Rest"]}
+    ]
+  },
+  {
+    "name": "Zygarde Ground",
+    "author": "zicarus",
+    "data": [
+      {"species": "Zygarde", "item": "Life Orb", "ability": "Aura Break", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Dragon Dance", "Earthquake", "Extreme Speed", "Outrage"]},
+      {"species": "Excadrill", "gender": "M", "item": "Choice Band", "ability": "Sand Rush", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Iron Head", "Rock Slide", "Shadow Claw"]},
+      {"species": "Garchomp", "gender": "M", "item": "Garchompite", "ability": "Rough Skin", "evs": {"atk": 252, "spa": 4, "spe": 252}, "nature": "Naive", "moves": ["Earthquake", "Fire Blast", "Stealth Rock", "Stone Edge"]},
+      {"species": "Gastrodon-East", "gender": "M", "item": "Leftovers", "ability": "Sticky Hold", "evs": {"hp": 252, "atk": 4, "spd": 252}, "nature": "Sassy", "moves": ["Earthquake", "Recover", "Scald", "Toxic"]},
+      {"species": "Hippowdon", "gender": "M", "item": "Eject Button", "ability": "Sand Stream", "evs": {"hp": 248, "def": 84, "spd": 176}, "nature": "Impish", "moves": ["Earthquake", "Slack Off", "Toxic", "Whirlwind"]},
+      {"species": "Landorus", "item": "Life Orb", "ability": "Sheer Force", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Earth Power", "Focus Blast", "Gravity", "Rock Polish"]}
+    ]
+  },
+  {
     "name": "Standard Balanced Ice (Smub)",
     "data": [
       {"species": "Mamoswine", "gender": "M", "item": "Choice Band", "ability": "Thick Fat", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Adamant", "moves": ["Earthquake", "Ice Shard", "Icicle Crash", "Superpower"]},
@@ -133,6 +251,18 @@
     ]
   },
   {
+    "name": "MAboma Ice",
+    "author": "zicarus",
+    "data": [
+      {"species": "Abomasnow", "gender": "M", "item": "Abomasite", "ability": "Snow Warning", "evs": {"hp": 248, "atk": 252, "spa": 8}, "nature": "Brave", "moves": ["Blizzard", "Ice Shard", "Seed Bomb", "Swords Dance"]},
+      {"species": "Cloyster", "gender": "M", "item": "Choice Scarf", "ability": "Skill Link", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Icicle Spear", "Rapid Spin", "Rock Blast", "Toxic Spikes"]},
+      {"species": "Kyurem-Black", "item": "Choice Band", "ability": "Teravolt", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Dragon Claw", "Fusion Bolt", "Iron Head", "Outrage"]},
+      {"species": "Lapras", "gender": "M", "item": "Choice Specs", "ability": "Water Absorb", "evs": {"hp": 168, "spa": 252, "spe": 88}, "nature": "Modest", "ivs": {"atk": 0, "spa": 30, "spe": 30}, "moves": ["Freeze-Dry", "Hidden Power Fire", "Ice Beam", "Surf"]},
+      {"species": "Mamoswine", "gender": "M", "item": "Focus Sash", "ability": "Oblivious", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Endeavor", "Ice Shard", "Stealth Rock"]},
+      {"species": "Weavile", "gender": "M", "item": "Life Orb", "ability": "Pressure", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Low Kick"]}
+    ]
+  },
+  {
     "name": "Heliolisk Balance Normal (Cell)",
     "data": [
       {"species": "Heliolisk", "gender": "M", "item": "Expert Belt", "ability": "Dry Skin", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Grass Knot", "Hidden Power Ice", "Thunderbolt", "Toxic"]},
@@ -141,6 +271,18 @@
       {"species": "Lopunny", "gender": "M", "item": "Lopunnite", "ability": "Limber", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Fake Out", "High Jump Kick", "Ice Punch", "Return"], "happiness": 255},
       {"species": "Porygon2", "item": "Eviolite", "ability": "Download", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Discharge", "Ice Beam", "Recover", "Toxic"]},
       {"species": "Staraptor", "gender": "M", "item": "Rocky Helmet", "ability": "Intimidate", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Impish", "moves": ["Brave Bird", "Defog", "Roost", "U-turn"]}
+    ]
+  },
+  {
+    "name": "MPidge Normal",
+    "author": "zicarus",
+    "data": [
+      {"species": "Chansey", "item": "Eviolite", "ability": "Natural Cure", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Bold", "moves": ["Seismic Toss", "Soft-Boiled", "Stealth Rock", "Toxic"]},
+      {"species": "Diggersby", "gender": "M", "item": "Choice Scarf", "ability": "Huge Power", "happiness": 0, "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Frustration", "Knock Off", "U-turn"]},
+      {"species": "Heliolisk", "gender": "M", "item": "Expert Belt", "ability": "Dry Skin", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Grass Knot", "Hidden Power Ice", "Thunderbolt", "Volt Switch"]},
+      {"species": "Pidgeot", "gender": "M", "item": "Pidgeotite", "ability": "Keen Eye", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "moves": ["Defog", "Heat Wave", "Hurricane", "Roost"]},
+      {"species": "Porygon2", "item": "Eviolite", "ability": "Download", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Bold", "moves": ["Discharge", "Ice Beam", "Recover", "Toxic"]},
+      {"species": "Staraptor", "gender": "M", "item": "Choice Band", "ability": "Reckless", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brave Bird", "Close Combat", "Double-Edge", "U-turn"]}
     ]
   },
   {
@@ -163,6 +305,18 @@
       {"species": "Latios", "item": "Choice Specs", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Ice Beam", "Psychic", "Shadow Ball"]},
       {"species": "Slowbro", "gender": "M", "item": "Rocky Helmet", "ability": "Regenerator", "evs": {"hp": 248, "def": 244, "spd": 16}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Ice Beam", "Scald", "Slack Off"]},
       {"species": "Victini", "item": "Choice Scarf", "ability": "Victory Star", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Bolt Strike", "Trick", "U-turn", "V-create"]}
+    ]
+  },
+  {
+    "name": "MGard Seismic Mew Psy",
+    "author": "zicarus",
+    "data": [
+      {"species": "Mew", "item": "Leftovers", "ability": "Synchronize", "evs": {"hp": 240, "def": 156, "spe": 112}, "nature": "Jolly", "ivs": {"atk": 0}, "moves": ["Roost", "Seismic Toss", "Taunt", "Will-O-Wisp"]},
+      {"species": "Gardevoir", "gender": "M", "item": "Gardevoirite", "ability": "Trace", "evs": {"hp": 248, "def": 240, "spe": 20}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Hyper Voice", "Protect", "Will-O-Wisp", "Wish"]},
+      {"species": "Jirachi", "item": "Leftovers", "ability": "Serene Grace", "evs": {"hp": 240, "def": 16, "spd": 252}, "nature": "Careful", "ivs": {"spe": 30}, "moves": ["Healing Wish", "Stealth Rock", "Toxic", "U-turn"]},
+      {"species": "Latios", "item": "Choice Specs", "ability": "Levitate", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Draco Meteor", "Energy Ball", "Ice Beam", "Shadow Ball"]},
+      {"species": "Slowbro", "gender": "M", "item": "Colbur Berry", "ability": "Regenerator", "evs": {"hp": 248, "def": 252, "spd": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Grass Knot", "Scald", "Slack Off"]},
+      {"species": "Victini", "item": "Choice Scarf", "ability": "Victory Star", "evs": {"hp": 240, "atk": 16, "spe": 252}, "nature": "Jolly", "moves": ["Bolt Strike", "Final Gambit", "U-turn", "V-create"]}
     ]
   },
   {
@@ -189,6 +343,18 @@
     ]
   },
   {
+    "name": "Megaless Steel",
+    "author": "zicarus",
+    "data": [
+      {"species": "Durant", "gender": "M", "item": "Choice Band", "ability": "Hustle", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Iron Head", "Rock Slide", "Superpower", "X-Scissor"]},
+      {"species": "Bisharp", "gender": "M", "item": "Air Balloon", "ability": "Defiant", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Adamant", "moves": ["Knock Off", "Sucker Punch", "Swords Dance", "Taunt"]},
+      {"species": "Bronzong", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 252, "def": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Protect", "Psywave", "Stealth Rock", "Toxic"]},
+      {"species": "Heatran", "gender": "M", "item": "Air Balloon", "ability": "Flash Fire", "evs": {"atk": 20, "spa": 232, "spe": 252}, "nature": "Timid", "moves": ["Earth Power", "Hidden Power Ice", "Lava Plume", "Stone Edge"], "ivs": {"atk": 30, "def": 30}},
+      {"species": "Magnezone", "item": "Choice Scarf", "ability": "Magnet Pull", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0, "def": 30}, "moves": ["Hidden Power Ice", "Thunderbolt", "Thunder Wave", "Volt Switch"]},
+      {"species": "Skarmory", "gender": "M", "item": "Leftovers", "ability": "Sturdy", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "moves": ["Brave Bird", "Roost", "Spikes", "Whirlwind"]}
+    ]
+  },
+  {
     "name": "Rain Water",
     "author": "Cell",
     "data": [
@@ -198,6 +364,30 @@
       {"species": "Manaphy", "item": "Salac Berry", "ability": "Hydration", "evs": {"hp": 12, "spa": 244, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Ice Beam", "Substitute", "Surf", "Tail Glow"]},
       {"species": "Rotom-Wash", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "def": 40, "spe": 220}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Hydro Pump", "Pain Split", "Toxic", "Volt Switch"]},
       {"species": "Swampert", "gender": "M", "item": "Swampertite", "ability": "Torrent", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Earthquake", "Ice Punch", "Rain Dance", "Waterfall"]}
+    ]
+  },
+  {
+    "name": "sub tox volc water w sharp",
+    "author": "zicarus",
+    "data": [
+      {"species": "Sharpedo", "gender": "M", "item": "Sharpedonite", "ability": "Speed Boost", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Crunch", "Ice Fang", "Protect", "Substitute"]},
+      {"species": "Cloyster", "gender": "M", "item": "Choice Scarf", "ability": "Skill Link", "evs": {"atk": 252, "def": 4, "spe": 252}, "nature": "Jolly", "moves": ["Icicle Spear", "Rapid Spin", "Rock Blast", "Toxic Spikes"]},
+      {"species": "Empoleon", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 252, "spa": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Defog", "Protect", "Roar", "Scald"]},
+      {"species": "Rotom-Wash", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "def": 252, "spe": 8}, "nature": "Bold", "moves": ["Hydro Pump", "Pain Split", "Volt Switch", "Will-O-Wisp"]},
+      {"species": "Swampert", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Relaxed", "moves": ["Earthquake", "Scald", "Stealth Rock", "Toxic"]},
+      {"species": "Volcanion", "item": "Leftovers", "ability": "Water Absorb", "evs": {"hp": 248, "spa": 8, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Flamethrower", "Steam Eruption", "Substitute", "Toxic"]}
+    ]
+  },
+  {
+    "name": "Copy of MPL Water with edits 3",
+    "author": "zicarus",
+    "data": [
+      {"species": "Volcanion", "item": "Choice Scarf", "ability": "Water Absorb", "evs": {"atk": 40, "spa": 216, "spe": 252}, "nature": "Naive", "moves": ["Fire Blast", "Rock Slide", "Sludge Wave", "Steam Eruption"]},
+      {"species": "Empoleon", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 252, "spa": 4, "spd": 252}, "nature": "Calm", "ivs": {"atk": 0}, "moves": ["Defog", "Protect", "Scald", "Toxic"]},
+      {"species": "Gyarados", "gender": "M", "item": "Gyaradosite", "ability": "Intimidate", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Crunch", "Dragon Dance", "Substitute", "Waterfall"]},
+      {"species": "Manaphy", "item": "Salac Berry", "ability": "Hydration", "evs": {"hp": 12, "spa": 244, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Signal Beam", "Substitute", "Surf", "Tail Glow"]},
+      {"species": "Rotom-Wash", "item": "Leftovers", "ability": "Levitate", "evs": {"hp": 248, "def": 252, "spe": 8}, "nature": "Bold", "ivs": {"atk": 0, "spe": 0}, "moves": ["Hydro Pump", "Pain Split", "Toxic", "Volt Switch"]},
+      {"species": "Swampert", "gender": "M", "item": "Leftovers", "ability": "Torrent", "evs": {"hp": 252, "atk": 4, "def": 252}, "nature": "Impish", "moves": ["Earthquake", "Roar", "Scald", "Stealth Rock"]}
     ]
   },
   {
