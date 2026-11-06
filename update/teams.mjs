@@ -151,7 +151,7 @@ const IGNORE = [
       format.gen = dex.gen;
       format.mod = dex.currentMod;
     }
-    formats[format.id] = wrap(() => scrapeThread(dex, format, thread))();
+    formats[format.id] = scrapeThread(dex, format, thread);
   }
 
   if (ignored.size !== IGNORE.length) {
