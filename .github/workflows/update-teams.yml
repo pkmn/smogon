@@ -8,6 +8,7 @@ on:
 jobs:
   scheduled:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
     - name: Check out this repo
       uses: actions/checkout@v4
