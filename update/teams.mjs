@@ -46,7 +46,6 @@ const request = wrap(async url => {
   return JSON.parse(text.startsWith(']') ? text.slice(1) : text);
 });
 
-let logged = false;
 const forum = wrap(async url => {
   const clean = url.split('#')[0];
   let response;
@@ -60,12 +59,6 @@ const forum = wrap(async url => {
   }
   if (!response.ok) {
     console.error(url, response.status);
-    if (!logged) {
-      logged = true;
-      const ip = await fetch('https://api.ipify.org').then(r => r.text()).catch(() => 'unknown');
-      const body = (await response.text()).slice(0, 1000).replace(/\s+/g, ' ');
-      console.error('Diagnostics:', {ip, headers: Object.fromEntries(response.headers), body});
-    }
     throw new Error(response.status);
   }
   return response.text();
