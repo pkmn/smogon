@@ -2322,7 +2322,7 @@
   "Impidimp": {"lc": {"Dual Screens": {"moves": ["Reflect", "Light Screen", "Parting Shot", "Dazzling Gleam"], "item": "Light Clay", "nature": "Bold", "evs": {"hp": 156, "def": 196, "spd": 116, "spe": 36}, "teratypes": "Ghost"}}},
   "Morgrem": {"nfe": {"Dual Screens": {"moves": ["Reflect", "Light Screen", "Parting Shot", ["Taunt", "Foul Play", "Dazzling Gleam"]], "item": "Light Clay", "nature": "Bold", "evs": {"hp": 252, "def": 252, "spd": 4}}}},
   "Grimmsnarl": {
-    "uu": {"Screens Setter": {"moves": ["Reflect", "Light Screen", ["Spirit Break", "Taunt"], ["Parting Shot", "Taunt"]], "item": "Light Clay", "nature": "Impish", "evs": {"hp": 252, "def": 252, "spd": 4}, "teratypes": "Steel"}},
+    "uu": {"Dual Screens": {"moves": ["Reflect", "Light Screen", ["Parting Shot", "Taunt"], ["Spirit Break", "Taunt"]], "item": "Light Clay", "nature": "Impish", "evs": {"hp": 252, "def": 252, "spd": 4}, "teratypes": "Steel"}},
     "pu": {"Bulky Pivot": {"moves": ["Parting Shot", "Thunder Wave", "Spirit Break", "Sucker Punch"], "item": ["Heavy-Duty Boots", "Leftovers"], "nature": "Careful", "evs": {"hp": 252, "def": 4, "spd": 252}, "teratypes": ["Steel", "Poison"]}, "Bulk Up": {"moves": ["Bulk Up", "Sucker Punch", "Spirit Break", "Substitute"], "item": "Leftovers", "nature": "Careful", "evs": {"hp": 252, "atk": 4, "spd": 252}, "teratypes": ["Steel", "Poison"]}, "Choice Band": {"moves": ["Crunch", "Play Rough", "Sucker Punch", "Trick"], "item": "Choice Band", "nature": "Adamant", "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": "Dark"}},
     "vgc2025": {"Dual Screens Support": {"moves": ["Reflect", "Light Screen", ["Thunder Wave", "Parting Shot"], ["Spirit Break", "Foul Play"]], "item": "Light Clay", "nature": "Careful", "evs": {"hp": 236, "def": 156, "spd": 116}, "teratypes": "Ghost"}},
     "vgc2024": {"Light Clay": {"moves": ["Reflect", "Light Screen", ["Spirit Break", "Foul Play"], "Thunder Wave"], "item": "Light Clay", "nature": "Careful", "evs": {"hp": 252, "def": 124, "spd": 132}, "teratypes": "Ghost"}},
@@ -2383,6 +2383,7 @@
       "Choice Band": {"moves": ["Dragon Darts", "U-turn", ["Will-O-Wisp", "Sucker Punch"], ["Sucker Punch", "Phantom Force"]], "item": "Choice Band", "nature": "Jolly", "evs": {"atk": 252, "def": 4, "spe": 252}, "teratypes": "Dragon"}
     },
     "monotype": {
+      "Choice Band (Ghost)": {"moves": ["Dragon Darts", "Phantom Force", ["Psychic Fangs", "Sucker Punch"], "U-turn"], "ability": "Infiltrator", "item": "Choice Band", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
       "Choice Band (Dragon)": {"moves": ["Dragon Darts", "Phantom Force", ["Psychic Fangs", "Sucker Punch"], "U-turn"], "ability": "Infiltrator", "item": "Choice Band", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}},
       "Hex (Dragon)": {"moves": ["Will-O-Wisp", "Hex", ["Dragon Darts", "Draco Meteor"], ["Substitute", "Thunder Wave"]], "ability": "Infiltrator", "item": ["Leftovers", "Heavy-Duty Boots"], "nature": ["Naive", "Timid"], "evs": [{"atk": 108, "spa": 148, "spe": 252}, {"def": 4, "spa": 252, "spe": 252}]},
       "Choice Specs (Dragon)": {"moves": ["Draco Meteor", "Shadow Ball", "Flamethrower", ["Thunderbolt", "U-turn"]], "ability": "Infiltrator", "item": "Choice Specs", "nature": "Timid", "evs": {"def": 4, "spa": 252, "spe": 252}},
