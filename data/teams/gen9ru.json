@@ -57,6 +57,18 @@
     ]
   },
   {
+    "name": "AV Mag + Specs Gengar VoltTurn",
+    "author": "all about mareep",
+    "data": [
+      {"species": "Swampert", "gender": "M", "item": "Leftovers", "ability": "Torrent", "teraType": "Dragon", "evs": {"hp": 252, "def": 252, "spd": 4}, "nature": "Impish", "ivs": {"spe": 30}, "moves": ["Earthquake", "Flip Turn", "Knock Off", "Stealth Rock"]},
+      {"species": "Cyclizar", "gender": "M", "item": "Assault Vest", "ability": "Regenerator", "teraType": "Steel", "evs": {"hp": 160, "spd": 172, "spe": 176}, "nature": "Jolly", "moves": ["Dragon Tail", "Knock Off", "Rapid Spin", "U-turn"]},
+      {"species": "Flamigo", "gender": "M", "item": "Choice Band", "ability": "Scrappy", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Brave Bird", "Close Combat", "Roost", "U-turn"], "teraType": "Flying"},
+      {"species": "Gardevoir", "gender": "M", "item": "Choice Scarf", "ability": "Trace", "teraType": "Fairy", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Healing Wish", "Moonblast", "Psyshock", "Trick"]},
+      {"species": "Gengar", "gender": "M", "item": "Choice Specs", "ability": "Cursed Body", "teraType": "Ghost", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Focus Blast", "Shadow Ball", "Sludge Wave", "Trick"]},
+      {"species": "Magnezone", "item": "Assault Vest", "ability": "Analytic", "teraType": "Bug", "evs": {"hp": 160, "spa": 252, "spd": 12, "spe": 84}, "nature": "Modest", "ivs": {"atk": 0}, "moves": ["Body Press", "Discharge", "Flash Cannon", "Volt Switch"]}
+    ]
+  },
+  {
     "name": "HJK Cress",
     "data": [
       {"species": "Golurk", "item": "Choice Band", "ability": "No Guard", "teraType": "Ground", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Dynamic Punch", "Earthquake", "Poltergeist", "Trick"]},
@@ -65,6 +77,18 @@
       {"species": "Empoleon", "gender": "M", "item": "Leftovers", "ability": "Torrent", "teraType": "Dragon", "evs": {"hp": 248, "def": 12, "spd": 248}, "nature": "Careful", "moves": ["Flip Turn", "Knock Off", "Roost", "Stealth Rock"]},
       {"species": "Noivern", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Infiltrator", "teraType": "Dragon", "evs": {"spa": 252, "spd": 4, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Defog", "Draco Meteor", "Flamethrower", "Roost"]},
       {"species": "Umbreon", "gender": "M", "item": "Rocky Helmet", "ability": "Inner Focus", "teraType": "Fairy", "evs": {"hp": 248, "def": 216, "spd": 36, "spe": 8}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Foul Play", "Moonlight", "Toxic", "Wish"]}
+    ]
+  },
+  {
+    "name": "CressCune BO",
+    "author": "all about mareep",
+    "data": [
+      {"species": "Registeel", "item": "Leftovers", "ability": "Clear Body", "teraType": "Ghost", "evs": {"hp": 252, "def": 180, "spd": 68, "spe": 8}, "nature": "Impish", "moves": ["Body Press", "Heavy Slam", "Iron Defense", "Stealth Rock"]},
+      {"species": "Cresselia", "item": "Rocky Helmet", "ability": "Levitate", "shiny": true, "teraType": "Dragon", "evs": {"hp": 252, "def": 232, "spe": 24}, "nature": "Bold", "ivs": {"atk": 0}, "moves": ["Lunar Dance", "Moonblast", "Moonlight", "Thunder Wave"]},
+      {"species": "Cyclizar", "gender": "M", "item": "Assault Vest", "ability": "Regenerator", "teraType": "Steel", "evs": {"hp": 160, "spd": 172, "spe": 176}, "nature": "Jolly", "moves": ["Draco Meteor", "Knock Off", "Power Whip", "Rapid Spin"]},
+      {"species": "Gengar", "gender": "M", "item": "Heavy-Duty Boots", "ability": "Cursed Body", "teraType": "Normal", "evs": {"def": 4, "spa": 252, "spe": 252}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Encore", "Hex", "Sludge Wave", "Will-O-Wisp"]},
+      {"species": "Krookodile", "gender": "M", "item": "Choice Scarf", "ability": "Moxie", "teraType": "Poison", "evs": {"atk": 252, "spd": 4, "spe": 252}, "nature": "Jolly", "moves": ["Close Combat", "Earthquake", "Gunk Shot", "Knock Off"]},
+      {"species": "Suicune", "item": "Leftovers", "ability": "Pressure", "teraType": "Dark", "evs": {"hp": 252, "def": 40, "spe": 216}, "nature": "Timid", "ivs": {"atk": 0}, "moves": ["Calm Mind", "Rest", "Roar", "Scald"]}
     ]
   }
 ]
