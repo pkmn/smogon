@@ -1350,7 +1350,7 @@
   "Samurott": {"zu": {"Offensive Pivot": {"moves": ["Hydro Pump", "Ice Beam", "Flip Turn", "Knock Off"], "item": ["Heavy-Duty Boots", "Assault Vest"], "nature": "Timid", "evs": {"atk": 4, "spa": 252, "spe": 252}, "teratypes": ["Grass", "Fairy"]}}},
   "Samurott-Hisui": {
     "ubersuu": {
-      "Lead": {"moves": ["Sucker Punch", "Ceaseless Edge", ["Copycat", "Razor Shell", "Aqua Jet"], "Encore"], "ability": "Sharpness", "item": "Focus Sash", "nature": "Adamant", "evs": {"hp": 252, "atk": 252, "spe": 252}, "teratypes": "Ghost"},
+      "Lead": {"moves": ["Sucker Punch", "Ceaseless Edge", ["Copycat", "Razor Shell", "Aqua Jet"], "Encore"], "ability": "Sharpness", "item": "Focus Sash", "nature": "Adamant", "evs": [{"hp": 252, "atk": 252, "def": 4}, {"atk": 252, "spd": 4, "spe": 252}], "teratypes": "Ghost"},
       "Assault Vest": {"moves": ["Ceaseless Edge", "Razor Shell", ["Flip Turn", "Knock Off"], "Sucker Punch"], "ability": "Sharpness", "item": "Assault Vest", "nature": "Adamant", "evs": {"hp": 248, "atk": 52, "spd": 208}, "teratypes": "Ghost"},
       "Choice Scarf": {"moves": ["Ceaseless Edge", "Flip Turn", "Razor Shell", ["Encore", "Knock Off"]], "ability": "Sharpness", "item": "Choice Scarf", "nature": "Jolly", "evs": {"atk": 252, "spd": 4, "spe": 252}, "teratypes": ["Ghost", "Water"]},
       "Swords Dance": {"moves": ["Sucker Punch", "Ceaseless Edge", "Swords Dance", ["Razor Shell", "Encore"]], "ability": "Sharpness", "item": ["Focus Sash", "Black Glasses", "Heavy-Duty Boots"], "nature": "Jolly", "evs": {"hp": 4, "atk": 252, "spe": 252}, "teratypes": ["Ghost", "Dark"]}
