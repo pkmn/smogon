@@ -333,8 +333,8 @@ async function scrapeTeams(post, dex, validator, url) {
 
   teams = [];
   seen.clear();
-  for (const block of post.querySelectorAll('.bbCodeSpoiler-content .bbCodeBlock-content')) {
-    if (block.querySelector('.bbCodeBlock-content') || spoiler(block, true)) continue;
+  for (const block of post.querySelectorAll('details > div')) {
+    if (block.querySelector('details') || spoiler(block, true)) continue;
     try {
       const data = parse(block.textContent, dex, validator);
       if (!data) continue;
@@ -352,10 +352,10 @@ async function scrapeTeams(post, dex, validator, url) {
 
 function spoiler(e, skipArchive = false) {
   while ((e = e.parentElement)) {
-    if (e.classList.contains('bbCodeSpoiler')) {
+    if (e.tagName === 'DETAILS') {
       if (!skipArchive) return true;
-      const btn = e.querySelector(':scope > .bbCodeSpoiler-button');
-      if (btn && ARCHIVE.test(btn.textContent)) return true;
+      const summary = e.querySelector(':scope > summary');
+      if (summary && ARCHIVE.test(summary.textContent)) return true;
     }
   }
   return false;
